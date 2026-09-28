@@ -2832,3 +2832,139 @@ broken object (`RemoveFieldObjectsList` — confirmed self-recovering, just
 requires clicking through a handful of popups). Backfilling pack21's tables
 from a live capture, if one becomes available, is the real fix; the
 exception-swallowing patches above are damage control, not a substitute.
+
+## Gacha-granted characters never had real costume/talent data (2026-09-28)
+
+Every character obtained via gacha — single pull, multi-pull, or the
+`CharSpecialScoutBuyRequest` special-scout path — showed a blank avatar and
+`Data not found exception. (CostumeDBInfo/TalentSkillTable, id:0)` on the
+Characters screen. Not a content gap this time: a real, self-inflicted bug in
+`gameserver/src/logic/game/gacha/{gacha_buy,gacha_multi_buy}.rs` and
+`gameserver/src/logic/game/char/char_special_scout_buy.rs`.
+
+**Root cause, two layers**:
+1. `CharInfo.use_costume` was left `None` on every grant. The client reads
+   `UseCostume` (not `CostumeId`) to decide which costume to render for an
+   owned character — `CostumeId` is a different, lesser field. Comparing
+   against a properly-initialized starter-data character (loaded via
+   `starter_data.rs::load_char_info`, which sets `UseCostume` correctly from
+   the static JSON) made this obvious once found.
+2. `CharInfo.talent_level` was *also* left `None` on every grant, which is
+   exactly what `TalentSkillTable, id:0` means — a level-0 lookup that
+   doesn't exist (real characters start at `TalentLevel = 1`).
+
+**A costume ID is not a costume inventory index — this caused a live
+regression.** First attempt set `UseCostume = CostumeId` directly (the raw
+costume *design* id, e.g. `101`). That's wrong: `UseCostume` must point to a
+row in the separate `CostumeInfo` table (the account's actual owned-costume
+*inventory*, looked up by *that table's* `InvenIndex` — confirmed by
+inspecting a working character's `CostumeInfo` row: `InvenIndex=228650017,
+Id=101, UseChar=<char's own InvenIndex>`). Pointing `UseCostume` at a raw
+design id with no matching `CostumeInfo` row broke `PackManager.Enter`
+itself (`ζμΪ.CharDbInfoToDTO`-equivalent NRE deep in character-DTO
+conversion, thrown on *every* map entry, not just the Characters screen) —
+disconnected the client with `CLIENT_LOGIC_ERROR` / `NET_COMMON_EX` on
+literally every login. Caught and reverted within the same session; real fix
+below.
+
+**Real fix**: all three grant sites now also insert a matching `CostumeInfo`
+row (mirrors what `starter_data.rs::load_costume_info` does for the static
+roster) before setting `use_costume` to that row's `InvenIndex`. New
+`InvenIndex` values are the character's own `InvenIndex` negated
+(`-char_inven_index`) — guaranteed collision-free against every other
+generator in this codebase (all others are positive `now`-timestamp-based)
+with no extra bookkeeping table needed. `talent_level`/`talent_exp` set to
+`Some(1)`/`Some(0)` to match a real starting character. The
+`CharDbInfo` proto response built in the same handlers was also fixed to
+echo `row.talent_level`/`row.talent_exp` back (was hardcoding `None` even
+though the DB row now had real values). The live test account's existing
+broken row was repaired directly (`UPDATE CharInfo SET UseCostume = ...,
+TalentLevel = 1, TalentExp = 0`, plus a matching `INSERT INTO CostumeInfo`)
+so it didn't need to be re-rolled.
+
+Confirmed fixed: zero `CostumeDBInfo`/`TalentSkillTable` "id:0" occurrences
+in a full fresh session after the fix, clean login, clean field entry.
+
+## Home-screen tutorial replaying on every visit (2026-09-28)
+
+Tutorial id `10057` (home screen first-time message) replayed in full every
+time the player returned to the home screen. Added a diagnostic prefix on
+`TutorialManager.Play(int, Action)` first (logs id + `IsClearTutorial`
+result) and confirmed via the httpserver log that the client *never once*
+sent a `TutorialClearRequest` for 10057, even though the exact same
+client-to-server round trip demonstrably works for other ids (10015, 10030
+both cleared and persisted correctly). `TutorialManager` only self-sends that
+clear request for `FocusTutorialTable` rows whose `Type == ONCE`; 10057's own
+gating condition (whatever the live game normally uses to only show it once)
+isn't resolving true on this server's account data, so it re-qualifies to
+play every time instead of self-clearing.
+
+Didn't chase that condition through the client's own compiled design tables.
+Instead, the same `TutorialManager.Play` prefix now force-sends the proven
+clear round-trip itself, for ANY tutorial id that plays through once,
+regardless of what its own `Type` says — so nothing can loop, ever, even if
+more of these turn up for other ids later (a `HashSet<int>` in the plugin
+guards against re-sending for an id already requested this session). Verified
+in the log: `Play(10057)` fired once, immediately followed by "Force-sent
+TutorialClearRequest(10057)", and did not fire again across multiple
+subsequent home-screen visits in the same session.
+
+## Open, unresolved: white-box placeholder icons (2026-09-28, end of session)
+
+Two UI elements on the Characters screen show a plain white square instead of
+their real icon: the "Select Costume" chibi-thumbnail background, and the
+potential-liberation "Upgrade" button's center icon. Investigated and ruled
+out the obvious causes before running out of session time:
+
+- **Not the CostumeDBInfo/TalentSkillTable bug above** — confirmed zero
+  occurrences of either "id:0" error in the session where these white boxes
+  were observed; the data-repair above did not touch them.
+- **Not a thrown exception of any kind** — grepped the full session log for
+  `InvalidKeyException`/`DataNotFoundException`/`CrashReporter` around the
+  screen load; nothing correlates.
+- **Not the sprite-atlas-returns-null case** — `SpriteManager.AtlasContainer
+  .GetSprite` already has a live diagnostic postfix (logs a warning whenever
+  it returns null) from earlier this session; it never fires for this
+  screen, so whatever sprite these two elements want isn't going through
+  that atlas lookup path at all.
+- The likely-responsible prefab (`UIPrefabsParts/Element_Background2.prefab`,
+  loaded alongside `CostumeGrade1.prefab`/`SkillGrade1.prefab` — i.e. the
+  Grade-1 display variant) loads with `status=Succeeded exception=none`. It
+  simply *renders* as a blank white Unity default (the standard symptom of a
+  UI `Image` component with no sprite assigned), with nothing in the log
+  explaining why.
+
+Best guess, unconfirmed: either a genuinely placeholder/unfinished background
+texture in what this server has captured for the Grade-1 display state, or a
+state this account hasn't reached yet (e.g. potential-liberation may need
+real `CostumeInfo.PotentialId`/node data — left `None` in the fix above,
+matching the reference account's own `NULL` value, so probably not it, but
+not independently verified). Next session: get someone to manually navigate
+to the potential-liberation screen and report what number/state (if any)
+shows near the white box, or drop a live Harmony postfix directly on
+`GrowthPreviewCostumeTabUI`/`CostumeSDSlotSetting`'s grade-effect and
+background-setting methods to log exactly what sprite reference (if any) is
+being assigned there — blind log-grepping without that instrumentation
+couldn't pin it down.
+
+## Operational reminders carried forward
+
+- **mitmdump degrades silently after several hours of uptime** (confirmed
+  recurring a second time this session, same symptom as earlier in the full
+  session: process still alive, but new connections fail/timeout while the
+  process itself shows no error). Symptom from the client side: a wall of
+  `HTTP BackOff ... timeout` spam in Player.log, `Curl error 7: Failed to
+  connect to 127.0.0.1 port 8080`. Fix is always the same: kill and restart
+  `mitmdump.exe`, no code change needed. Check for this FIRST whenever
+  something that was working suddenly times out with no other explanation.
+- **The BepInEx plugin has two possible install locations**
+  (`BepInEx/plugins/BD2CompatPatch.dll` and `BepInEx/plugins/BD2CompatPatch/
+  BD2CompatPatch.dll`) and BepInEx silently loads only one if both exist
+  ("Skipping [BD2 Compat Patch] because a newer version exists"), with no
+  guarantee it picks the one you just rebuilt. Confirmed this caused a real
+  wasted-effort loop earlier in the full session. Always delete the stray
+  flat-file copy so only `plugins/BD2CompatPatch/BD2CompatPatch.dll` exists.
+- **This repo is now under git** (`git init` + first commit done this
+  session, see the "Root-caused the whole night's..." section above for what
+  it captured). Commit meaningful checkpoints going forward instead of
+  relying on manual file backups.

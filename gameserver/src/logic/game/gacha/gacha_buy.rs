@@ -4,8 +4,10 @@ use common::packet_code::PacketCodeType;
 use crypto::network::GameResponse;
 use data::exceldb;
 use database::db::char::char_info::insert as insert_char;
+use database::db::costume::costume_info::insert as insert_costume;
 use database::db::gacha::gacha_log_info::add_gacha_log_info;
 use database::models::game::char::char_info::CharInfo;
+use database::models::game::costume::costume_info::CostumeInfo;
 use database::models::game::gacha::gacha_log_info::GachaLogInfo;
 use rand::seq::IndexedRandom;
 use sqlx::SqlitePool;
@@ -29,18 +31,28 @@ pub async fn handle(pool: &SqlitePool, uid: i64, req: GachaBuyRequest) -> GameRe
         let Some(picked) = game_data.chartable.all().choose(&mut rand::thread_rng()) else {
             break;
         };
+        let char_inven_index = now + char_infos.len() as i64;
+        // CharInfo.UseCostume must point to a CostumeInfo row's InvenIndex (an actual owned-costume
+        // inventory item, looked up by the client as CostumeDBInfo) -- it is NOT the raw costume
+        // design id. Negating the character's own InvenIndex guarantees a value that can never
+        // collide with any other InvenIndex generator in this codebase (all others are positive
+        // "now"-based timestamps), with no extra bookkeeping needed.
+        let costume_inven_index = -char_inven_index;
         let row = CharInfo {
             index: 0,
             uid,
-            inven_index: Some(now + char_infos.len() as i64),
+            inven_index: Some(char_inven_index),
             id: Some(picked.id),
             hp: None,
             level: Some(1),
             costume_id: Some(picked.default_costume_id),
             exp: Some(0),
-            use_costume: None,
-            talent_level: None,
-            talent_exp: None,
+            use_costume: Some(costume_inven_index),
+            // Left None, this produced "Data not found exception. (TalentSkillTable, id:0)" on
+            // the Characters screen (white-box placeholder icons for the chibi/potential-liberation
+            // button) -- same "never initialized" shape as UseCostume above.
+            talent_level: Some(1),
+            talent_exp: Some(0),
             solidarity_reward: None,
             expiry_time: None,
             pictorialbook_info_index: None,
@@ -48,21 +60,44 @@ pub async fn handle(pool: &SqlitePool, uid: i64, req: GachaBuyRequest) -> GameRe
             class_level: 0,
         };
         match insert_char(pool, &row).await {
-            Ok(_) => char_infos.push(CharDbInfo {
-                inven_index: row.inven_index,
-                id: row.id,
-                hp: row.hp,
-                level: row.level,
-                costume_id: row.costume_id,
-                exp: row.exp,
-                use_costume: row.use_costume,
-                talent_level: None,
-                talent_exp: None,
-                solidarity_reward: None,
-                expiry_time: None,
-                pictorialbook_info: vec![],
-                connect_potential_costume: None,
-            }),
+            Ok(_) => {
+                // Grant the actual costume inventory item UseCostume now points to -- without
+                // this row, the client's CostumeDBInfo lookup finds nothing and the whole
+                // "enter field" flow throws (confirmed live: PackManager.Enter NRE, disconnects
+                // the client with CLIENT_LOGIC_ERROR). Mirrors what starter_data.rs's
+                // load_costume_info does for the static starter roster.
+                let costume_row = CostumeInfo {
+                    index: 0,
+                    uid,
+                    inven_index: Some(costume_inven_index),
+                    id: Some(picked.default_costume_id),
+                    level: Some(1),
+                    use_char: Some(char_inven_index),
+                    pictorialbook_info_index: None,
+                    sort_id: None,
+                    use_my_room_count: None,
+                    potential_id: None,
+                    design_id: None,
+                };
+                if let Err(e) = insert_costume(pool, &costume_row).await {
+                    eprintln!("gacha_buy: failed to grant CostumeInfo for new character: {e:?}");
+                }
+                char_infos.push(CharDbInfo {
+                    inven_index: row.inven_index,
+                    id: row.id,
+                    hp: row.hp,
+                    level: row.level,
+                    costume_id: row.costume_id,
+                    exp: row.exp,
+                    use_costume: row.use_costume,
+                    talent_level: row.talent_level,
+                    talent_exp: row.talent_exp,
+                    solidarity_reward: None,
+                    expiry_time: None,
+                    pictorialbook_info: vec![],
+                    connect_potential_costume: None,
+                });
+            }
             Err(e) => tracing::warn!("GachaBuy: failed to grant character: {}", e),
         }
     }

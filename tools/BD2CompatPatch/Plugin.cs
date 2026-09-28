@@ -1410,20 +1410,47 @@ namespace BD2CompatPatch
             return true;
         }
 
+        // Confirmed live via this same diagnostic: tutorial id 10057 (the home-screen first-time
+        // message) replayed in full on every single return to the home screen -- IsClearTutorial
+        // stayed false and, per the httpserver log, the client never once sent a TutorialClearRequest
+        // for it. TutorialManager.Play only sends that clear request itself for FocusTutorialTable
+        // rows whose Type is ONCE; 10057's own trigger condition (whatever the real client normally
+        // uses to only show it once) isn't correctly resolving true on this server's account data,
+        // so it re-qualifies to play every time instead of self-clearing. Rather than chase that
+        // condition through the client's own compiled design tables, force the exact same
+        // already-proven clear round-trip (confirmed working for ids 10015/10030) for ANY tutorial
+        // that plays through once, regardless of its own Type -- so nothing can loop, ever, even if
+        // more of these turn up later.
+        private static readonly HashSet<int> _tutorialClearRequested = new HashSet<int>();
+
         private static bool TutorialPlayDiagnosticPrefix(object __instance, int __0)
         {
             try
             {
                 var instanceType = __instance.GetType();
                 var isClearMethod = instanceType.GetMethod("IsClearTutorial", BindingFlags.Public | BindingFlags.Instance);
-                object alreadyCleared = isClearMethod?.Invoke(__instance, new object[] { __0 });
+                bool alreadyCleared = isClearMethod != null && (bool)isClearMethod.Invoke(__instance, new object[] { __0 });
                 Log.LogInfo($"[BD2CompatPatch] TutorialManager.Play({__0}) called, IsClearTutorial={alreadyCleared}.");
+                if (!alreadyCleared && _tutorialClearRequested.Add(__0))
+                {
+                    var netManagerType = AccessTools.TypeByName("ὣὡὧὡὦὣὣὬὨὪὫ");
+                    var sendClearMethod = netManagerType?.GetMethod("ὫὪὮὥὣὬὥὤὢὦὪ", BindingFlags.Public | BindingFlags.Static);
+                    if (sendClearMethod != null)
+                    {
+                        sendClearMethod.Invoke(null, new object[] { __0, null });
+                        Log.LogInfo($"[BD2CompatPatch] Force-sent TutorialClearRequest({__0}) so this tutorial can't replay on the next home-screen visit.");
+                    }
+                    else
+                    {
+                        Log.LogWarning("[BD2CompatPatch] Could not find the tutorial-clear network method to force-clear a repeating tutorial.");
+                    }
+                }
             }
             catch (Exception e)
             {
                 Log.LogWarning($"[BD2CompatPatch] TutorialPlayDiagnosticPrefix itself failed: {e.Message}");
             }
-            return true; // diagnostic only, never alter behavior
+            return true; // let this one showing play out normally; only future replays are prevented
         }
 
         private static bool SkipFocusCoroutinePrefix(ref IEnumerator __result)

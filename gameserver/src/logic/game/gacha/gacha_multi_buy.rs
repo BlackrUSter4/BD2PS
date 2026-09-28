@@ -4,8 +4,10 @@ use common::packet_code::PacketCodeType;
 use crypto::network::GameResponse;
 use data::exceldb;
 use database::db::char::char_info::insert as insert_char;
+use database::db::costume::costume_info::insert as insert_costume;
 use database::db::gacha::gacha_log_info::add_gacha_log_info;
 use database::models::game::char::char_info::CharInfo;
+use database::models::game::costume::costume_info::CostumeInfo;
 use database::models::game::gacha::gacha_log_info::GachaLogInfo;
 use rand::seq::IndexedRandom;
 use sqlx::SqlitePool;
@@ -24,18 +26,24 @@ pub async fn handle(pool: &SqlitePool, uid: i64, req: GachaMultiBuyRequest) -> G
     for (i, id) in req.id.iter().enumerate() {
         let mut char_infos = Vec::new();
         if let Some(picked) = game_data.chartable.all().choose(&mut rand::thread_rng()) {
+            let char_inven_index = now + i as i64;
+            // See gacha_buy.rs: UseCostume must be a CostumeInfo InvenIndex, not the raw costume
+            // design id -- negating the character's own InvenIndex guarantees a collision-free value.
+            let costume_inven_index = -char_inven_index;
             let row = CharInfo {
                 index: 0,
                 uid,
-                inven_index: Some(now + i as i64),
+                inven_index: Some(char_inven_index),
                 id: Some(picked.id),
                 hp: None,
                 level: Some(1),
                 costume_id: Some(picked.default_costume_id),
                 exp: Some(0),
-                use_costume: None,
-                talent_level: None,
-                talent_exp: None,
+                use_costume: Some(costume_inven_index),
+                // See gacha_buy.rs: left None, this produced "TalentSkillTable, id:0" and white-box
+                // placeholder icons on the Characters screen.
+                talent_level: Some(1),
+                talent_exp: Some(0),
                 solidarity_reward: None,
                 expiry_time: None,
                 pictorialbook_info_index: None,
@@ -43,6 +51,23 @@ pub async fn handle(pool: &SqlitePool, uid: i64, req: GachaMultiBuyRequest) -> G
                 class_level: 0,
             };
             if insert_char(pool, &row).await.is_ok() {
+                // See gacha_buy.rs: grant the actual costume inventory item UseCostume points to.
+                let costume_row = CostumeInfo {
+                    index: 0,
+                    uid,
+                    inven_index: Some(costume_inven_index),
+                    id: Some(picked.default_costume_id),
+                    level: Some(1),
+                    use_char: Some(char_inven_index),
+                    pictorialbook_info_index: None,
+                    sort_id: None,
+                    use_my_room_count: None,
+                    potential_id: None,
+                    design_id: None,
+                };
+                if let Err(e) = insert_costume(pool, &costume_row).await {
+                    eprintln!("gacha_multi_buy: failed to grant CostumeInfo for new character: {e:?}");
+                }
                 char_infos.push(CharDbInfo {
                     inven_index: row.inven_index,
                     id: row.id,
@@ -51,8 +76,8 @@ pub async fn handle(pool: &SqlitePool, uid: i64, req: GachaMultiBuyRequest) -> G
                     costume_id: row.costume_id,
                     exp: row.exp,
                     use_costume: row.use_costume,
-                    talent_level: None,
-                    talent_exp: None,
+                    talent_level: row.talent_level,
+                    talent_exp: row.talent_exp,
                     solidarity_reward: None,
                     expiry_time: None,
                     pictorialbook_info: vec![],

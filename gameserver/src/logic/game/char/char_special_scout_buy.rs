@@ -6,8 +6,10 @@ use common::packet_code::PacketCodeType;
 use crypto::network::GameResponse;
 use data::exceldb;
 use database::db::char::{char_info, char_scout_info};
+use database::db::costume::costume_info;
 use database::db::item::item_info;
 use database::models::game::char::char_info::CharInfo;
+use database::models::game::costume::costume_info::CostumeInfo;
 use sqlx::SqlitePool;
 use tracing::info;
 
@@ -33,6 +35,9 @@ pub async fn handle(pool: &SqlitePool, uid: i64, req: CharSpecialScoutBuyRequest
         .unwrap_or(0);
 
     let now = chrono::Utc::now().timestamp_millis();
+    // See gacha_buy.rs: UseCostume must be a CostumeInfo InvenIndex, not the raw costume design
+    // id -- negating the character's own InvenIndex guarantees a collision-free value.
+    let costume_inven_index = -now;
     let new_row = CharInfo {
         index: 0,
         uid,
@@ -42,9 +47,11 @@ pub async fn handle(pool: &SqlitePool, uid: i64, req: CharSpecialScoutBuyRequest
         level: Some(1),
         costume_id: Some(costume_id),
         exp: Some(0),
-        use_costume: None,
-        talent_level: None,
-        talent_exp: None,
+        use_costume: Some(costume_inven_index),
+        // See gacha_buy.rs: left None, this produced "TalentSkillTable, id:0" and white-box
+        // placeholder icons on the Characters screen.
+        talent_level: Some(1),
+        talent_exp: Some(0),
         solidarity_reward: None,
         expiry_time: None,
         pictorialbook_info_index: None,
@@ -52,6 +59,21 @@ pub async fn handle(pool: &SqlitePool, uid: i64, req: CharSpecialScoutBuyRequest
         class_level: 0,
     };
     let _ = char_info::insert(pool, &new_row).await;
+    // See gacha_buy.rs: grant the actual costume inventory item UseCostume points to.
+    let costume_row = CostumeInfo {
+        index: 0,
+        uid,
+        inven_index: Some(costume_inven_index),
+        id: Some(costume_id),
+        level: Some(1),
+        use_char: Some(now),
+        pictorialbook_info_index: None,
+        sort_id: None,
+        use_my_room_count: None,
+        potential_id: None,
+        design_id: None,
+    };
+    let _ = costume_info::insert(pool, &costume_row).await;
     let _ = char_scout_info::mark_complete(pool, uid, id).await;
 
     for item in &req.item_info {
