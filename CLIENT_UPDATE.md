@@ -2968,3 +2968,76 @@ couldn't pin it down.
   session, see the "Root-caused the whole night's..." section above for what
   it captured). Commit meaningful checkpoints going forward instead of
   relying on manual file backups.
+
+## Gate/house transition freezing on broken destination data (2026-09-28)
+
+**Symptom**: clicking the quest auto-navigate icon (the "! Main" tracker
+overhead of the HUD) walks the player to the quest target, but if that
+target is a gate/house entrance, the client freezes solid on contact --
+no popup, no error dialog visible in-game, just permanently stuck. The
+Characters-screen-hang bug fixed earlier tonight followed the exact same
+"silent freeze, no dialog" shape, so this was suspected to be the same
+"logged and dereferenced anyway" family from the start, and it was.
+
+**Root cause**: `GameFieldManager.MoveMap(GateSpotData)` starts a coroutine
+whose first line (which runs synchronously inside `StartCoroutine`, before
+`MoveMap` itself even returns -- so before any `yield`) reads
+`GateSpotData.MapPositionData`, a chain of FOUR nested property getters
+(`MapPositionData` -> a `Data` property -> a DTO-typed property -> the base
+`FieldObjectBase.GetFieldObjectDTO()` lookup already covered by the
+FieldObjectBase wrap from earlier). It throws on this specific gate's
+incomplete `FieldGateTable` row (same missing-capture-data pattern as
+everything else pack21-related tonight). Because `SetPlayerMoveState
+(DontMove)` is called a few lines *after* this in `MoveMap`, and nothing
+after the crash ever runs to undo it... actually the crash happens *before*
+that line even executes, so the freeze isn't from a stuck DontMove state --
+it's that the coroutine dies before doing anything at all, so neither the
+scene transition nor any of `MoveMap`'s cleanup (resetting UI, movement
+gating flags `ὢὩὠὢὫὧὠὣὤὩὫ`/`ὯὯὪὧὠὨὣὦὣὭὯ`/`ὠὫὦὡὪὬὠὤὣὨὠ`) ever happens; the
+player is left in whatever state the *earlier* click-triggered movement
+left them in, with the game now waiting forever on a coroutine that already
+died silently.
+
+**First attempt insufficient, second attempt is the real fix**: extending
+the FieldObjectBase-hierarchy exception wrap (see the fallout section above)
+to also cover property accessors -- not just regular methods -- seemed like
+it should catch this (all four properties in the chain got successfully
+Harmony-patched, confirmed via a temporary diagnostic: zero patch failures
+logged for `GateSpotData`). It didn't work anyway; the exception still
+escaped uncaught all the way to the coroutine. Best working theory:
+`MapPositionData` (the outermost property's return type) is a **struct**,
+and a Harmony finalizer swallowing an exception partway through a
+struct-returning property getter did not reliably produce a safe default
+the way it does for the class-typed `GetFieldObjectDTO` (2000+ confirmed
+successful swallows there, logged, all reference-typed). This wasn't
+chased further to a definitive HarmonyX explanation -- if the same
+"finalizer covers the method but the exception still escapes" symptom shows
+up again on another struct-returning property somewhere, this is the
+pattern to recognize immediately rather than re-debugging from scratch.
+
+**Actual fix**: `GameFieldManager.MoveMap(GateSpotData)` now has a PREFIX
+(not relying on the property-chain finalizer cascade at all) that reads
+`GateSpotData.MapPositionData` defensively via reflection *before* the real
+method body runs. If it throws, the whole `MoveMap` call is skipped (return
+`false`) -- since this happens before `SetPlayerMoveState(DontMove)` is
+ever reached, there's nothing to undo; the player simply doesn't transition
+through this one broken gate instead of freezing. Confirmed patched and
+loaded; a live walk-into-the-gate repro after the fix was still pending
+when this session ended (deployed but not yet re-verified after the second,
+correct fix landed -- **next session: confirm live** before assuming this
+one's fully closed).
+
+## Not done this session: making a specific pack (Knight of Blood / pack21) the account's default/starting pack
+
+Requested but not investigated. Where to start: the account's starting
+map/position is NOT set anywhere in `starter_data.rs` (grepped, no
+`current_map`/`CurrentPackId`-shaped field there) -- the one live test
+account's actual starting `MapPositionData` (`InvenIndex=1790527065000`,
+handled through `PlayerController.SetChar`/`FieldCharacterController`,
+visible in Player.log as `ENTER PlayerController.SetChar(...)`) was set up
+through a *live gameplay flow* (character-select/tutorial), not the static
+starter JSON -- so the "default pack" is likely determined by whatever
+`MapPositionData`/`PackManager` state gets initialized on first login, not
+a single obvious config value. Needs a proper investigation pass (probably
+starting from wherever a brand new account's *very first* field-entry
+packet is constructed server-side) rather than a guess.

@@ -787,6 +787,20 @@ namespace BD2CompatPatch
             // properties with the same "log the miss, dereference it anyway" bug. Wrap every
             // subclass's own declared methods too (DeclaredOnly per type, so we don't re-patch
             // inherited MethodInfos already covered by the base-class pass above).
+            //
+            // Confirmed live, still not enough: GateSpotData.MapPositionData (a PROPERTY getter
+            // chaining ѕeveral other property getters down to the base FieldObjectDTO lookup) threw
+            // on a gate with an incomplete FieldGateTable row, and NOTHING caught it -- because
+            // property accessors are compiler-flagged IsSpecialName, and the original filter below
+            // excluded every IsSpecialName method to stay away from operators/event add-remove.
+            // That silently skipped every property getter/setter in this entire class family,
+            // including exactly the kind of lazy DTO-lookup property this bug lives in. Confirmed
+            // via a live repro: clicking a quest auto-navigate icon walks the player into a gate,
+            // GameFieldManager.MoveMap reads GateSpotData.MapPositionData directly (bypassing every
+            // method-level check RefreshQuest() etc. already had), throws before the coroutine's
+            // first yield, and the whole map transition just dies -- "freezes and never enters",
+            // no popup, because nothing was left to report it. Only skip true operators/events now
+            // (their names start with op_/add_/remove_), not get_/set_.
             try
             {
                 var fieldObjectBaseType = AccessTools.TypeByName("FieldObjectBase");
@@ -795,22 +809,35 @@ namespace BD2CompatPatch
                     var swallowFinalizer3 = new HarmonyMethod(typeof(Plugin).GetMethod(nameof(SwallowExceptionFinalizer), BindingFlags.Static | BindingFlags.NonPublic));
                     int wrapped3 = 0;
                     int subclassCount = 0;
+                    var gateSpotDataType = AccessTools.TypeByName("GateSpotData");
                     foreach (var t in fieldObjectBaseType.Assembly.GetTypes())
                     {
                         if (!fieldObjectBaseType.IsAssignableFrom(t)) continue;
                         if (t != fieldObjectBaseType) subclassCount++;
                         foreach (var m in t.GetMethods(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.DeclaredOnly))
                         {
-                            if (m.IsGenericMethodDefinition || m.IsAbstract || m.IsSpecialName) continue;
+                            if (m.IsGenericMethodDefinition || m.IsAbstract) continue;
+                            if (m.IsSpecialName && !(m.Name.StartsWith("get_") || m.Name.StartsWith("set_"))) continue;
+                            if (m.GetParameters().Any(p => p.ParameterType.IsByRef)) continue;
                             try
                             {
                                 harmony.Patch(m, finalizer: swallowFinalizer3);
                                 wrapped3++;
                             }
-                            catch { /* best-effort */ }
+                            catch (Exception patchEx)
+                            {
+                                // TEMP DIAGNOSTIC: GateSpotData's gate-transition property chain still
+                                // NRE'd uncaught after this wrap was extended to cover property
+                                // accessors -- log any patch failure on that specific type so we can
+                                // see whether Harmony is silently refusing to patch these getters.
+                                if (t == gateSpotDataType)
+                                {
+                                    Log.LogWarning($"[BD2CompatPatch] Failed to patch GateSpotData.{m.Name}: {patchEx.Message}");
+                                }
+                            }
                         }
                     }
-                    Log.LogInfo($"[BD2CompatPatch] Wrapped {wrapped3} methods across FieldObjectBase and {subclassCount} subclasses with an exception-swallowing finalizer so one map object with no matching design-table row can't crash the whole map's load.");
+                    Log.LogInfo($"[BD2CompatPatch] Wrapped {wrapped3} methods (including property accessors) across FieldObjectBase and {subclassCount} subclasses with an exception-swallowing finalizer so one map object with no matching design-table row can't crash the whole map's load.");
                 }
                 else
                 {
@@ -1083,6 +1110,42 @@ namespace BD2CompatPatch
             catch (Exception e)
             {
                 Log.LogWarning($"[BD2CompatPatch] Failed to wrap character-load coroutines: {e.Message}");
+            }
+
+            // Confirmed root cause of "clicking the quest auto-navigate icon walks into a gate/house
+            // and freezes forever, never enters": GameFieldManager.MoveMap(GateSpotData) starts a
+            // coroutine whose very FIRST line (before its first yield -- so it runs synchronously
+            // inside StartCoroutine, before MoveMap even returns) reads GateSpotData.MapPositionData,
+            // a property chain (MapPositionData -> a "Data" property -> a DTO property -> the base
+            // FieldObjectBase.GetFieldObjectDTO lookup) that throws on this gate's incomplete
+            // FieldGateTable row. Extending the FieldObjectBase exception-swallowing wrap to cover
+            // property accessors (see above) was NOT enough here: MapPositionData is a STRUCT, and a
+            // Harmony finalizer swallowing an exception partway through a struct-returning property
+            // getter did not reliably yield a safe default the way it does for the class-typed
+            // GetFieldObjectDTO calls elsewhere (2000+ successful swallows there, confirmed in the
+            // log) -- the exception still escaped uncaught from this specific chain. Rather than
+            // debug HarmonyX's struct-return finalizer semantics further, validate the gate's data
+            // defensively in a PREFIX before MoveMap's real body ever runs (specifically before it
+            // sets SetPlayerMoveState(DontMove), which is what leaves the player stuck -- nothing
+            // after that call ever ran to undo it). If the read throws, skip the whole transition:
+            // the player just doesn't walk through this one broken gate, instead of freezing.
+            try
+            {
+                var moveMapGateMethod = AccessTools.Method(typeof(GameFieldManager), "MoveMap", new[] { typeof(GateSpotData) });
+                if (moveMapGateMethod != null)
+                {
+                    var safeMoveMapGatePrefix = new HarmonyMethod(typeof(Plugin).GetMethod(nameof(SafeMoveMapGatePrefix), BindingFlags.Static | BindingFlags.NonPublic));
+                    harmony.Patch(moveMapGateMethod, prefix: safeMoveMapGatePrefix);
+                    Log.LogInfo("[BD2CompatPatch] Patched GameFieldManager.MoveMap(GateSpotData) to skip a gate with broken destination data instead of freezing the player.");
+                }
+                else
+                {
+                    Log.LogWarning("[BD2CompatPatch] Could not find GameFieldManager.MoveMap(GateSpotData) to patch.");
+                }
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning($"[BD2CompatPatch] Failed to patch GameFieldManager.MoveMap(GateSpotData): {e.Message}");
             }
 
             // Confirmed root cause of "Confirm button on the field character-setup popup freezes
@@ -1358,6 +1421,22 @@ namespace BD2CompatPatch
         // never will), the slot is still null and PlayDirector NREs trying to read
         // .ὣὭὢὬὯὭὩὮὤὩὣ off it. A missing/slow cutscene shouldn't be able to hang the whole
         // client -- skip playback for that one transition instead of throwing.
+        private static bool SafeMoveMapGatePrefix(GateSpotData __0)
+        {
+            try
+            {
+                var mapPosProp = AccessTools.Property(typeof(GateSpotData), "ὥὨὭὦὨὫὫὬὧὨὮ");
+                _ = mapPosProp?.GetValue(__0);
+            }
+            catch (Exception e)
+            {
+                Exception inner = e.InnerException ?? e;
+                Log.LogWarning($"[BD2CompatPatch] GameFieldManager.MoveMap(GateSpotData): this gate's destination data is broken ({inner.GetType().Name}: {inner.Message}) -- skipping the transition instead of freezing the player.");
+                return false; // skip the original MoveMap entirely -- never sets DontMove, nothing to undo
+            }
+            return true;
+        }
+
         private static bool SafePlayDirectorPrefix(object __instance, object __0, ref WaitForSeconds __result)
         {
             try
