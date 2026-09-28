@@ -3041,3 +3041,60 @@ starter JSON -- so the "default pack" is likely determined by whatever
 a single obvious config value. Needs a proper investigation pass (probably
 starting from wherever a brand new account's *very first* field-entry
 packet is constructed server-side) rather than a guess.
+
+## Gate/hut freeze, take two: still hung specifically under Auto Mode (2026-09-28)
+
+**Symptom reported**: with quest auto-navigation ("Auto Mode") toggled on
+while on the Knight of Blood (pack21) map, walking into a hut/gate still
+froze the client solid, even after the previous session's
+`GameFieldManager.MoveMap(GateSpotData)` prefix fix (see the section above)
+was built and deployed. That fix's own write-up already flagged itself as
+"deployed but not yet re-verified" -- this is the follow-up.
+
+**Root cause, a second occurrence of the identical struct-getter bug**:
+`GateSpotData.MapPositionData` (the same struct-returning property from the
+first fix) is read in a SECOND place that the first fix doesn't cover:
+`GameFieldManager`'s private gate-move coroutine (the one `MoveMap`
+starts) reads it a second time, later, mid-coroutine, on a *different*
+`GateSpotData` instance -- when entering a gate also completes a quest, the
+coroutine plays that quest's clear timeline and then does
+`mapPositionData = TimelineSignalManager.instance.<warp point>.MapPositionData`
+to reposition the player at the timeline's own exit spot. This read is not
+guarded by the first fix's prefix at all (that prefix only guards
+`MoveMap`'s own synchronous entry, before the coroutine even starts) and
+can't be guarded the same way either -- it's a raw property read buried
+inside an already-running coroutine, not a method call with a "skip the
+caller" boundary to prefix at.
+
+This also explains why Auto Mode specifically surfaces it: Auto Mode walks
+the player toward active quest objectives, so a gate entered via Auto Mode
+is far more likely to *also* clear a quest (hitting this second read) than
+an incidental manual walk-in is.
+
+**Fix**: rather than chase down every individual call site (there may be
+more; this is only the second one found), patch the property getter itself
+-- `GateSpotData.get_MapPositionData` -- so it can never throw, for every
+caller, present or future. Reimplemented the getter's logic in the patch
+using only its two sibling properties (an int MapId-equivalent, a
+reference-typed Data-equivalent) that the broad FieldObjectBase finalizer
+wrap already handles safely (ints/references reliably default via the
+finalizer -- it's specifically the outer struct return that doesn't, per
+the original fix's own documented theory). On total failure this now
+yields `MapId=0`, deliberately matching an *already-existing* convention in
+this same class (`GameFieldManager`'s battle-return coroutine already has a
+`MapId <= 0` "invalid destination, use the start area instead" check) --
+reusing the game's own sentinel rather than inventing a new one.
+`SafeMoveMapGatePrefix` (the first fix) is updated to treat `MapId <= 0` as
+"broken" directly, alongside its existing try/catch, since the getter no
+longer throws for it to catch.
+
+Built and deployed
+(`tools/BD2CompatPatch/bin/Release/BD2CompatPatch.dll` ->
+`BepInEx/plugins/BD2CompatPatch/`), workspace build clean. **Not yet
+live-verified** (no live client session run this pass either) -- next
+session: confirm both (a) walking into a pack21 hut/gate manually and (b)
+via Auto Mode specifically, since (b) is the one that was still failing.
+If it turns out there's a *third* occurrence of this same struct-getter
+shape somewhere else, the fix approach here (patch the getter itself,
+reusing the class's own MapId<=0 sentinel) should already cover it without
+further work -- worth checking before writing a fourth one-off prefix.

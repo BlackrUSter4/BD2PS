@@ -1148,6 +1148,53 @@ namespace BD2CompatPatch
                 Log.LogWarning($"[BD2CompatPatch] Failed to patch GameFieldManager.MoveMap(GateSpotData): {e.Message}");
             }
 
+            // Second confirmed occurrence of the exact same struct-getter hang, found while
+            // investigating a report that entering a gate/hut *while quest auto-navigation ("Auto
+            // Mode") is active* still freezes even with the MoveMap(GateSpotData) prefix above in
+            // place. GameFieldManager's private gate-move coroutine (started by MoveMap above) reads
+            // GateSpotData.MapPositionData a SECOND time, later, mid-coroutine, on a *different*
+            // GateSpotData instance: when entering the gate also completes a quest, it plays that
+            // quest's clear timeline, and afterwards does
+            // `mapPositionData = TimelineSignalManager.instance.<warp point>.MapPositionData` to
+            // reposition the player at the timeline's own exit spot. Auto Mode walks the player
+            // toward quest objectives specifically, so an auto-navigated gate entry is far more
+            // likely to also be a quest-clearing one than a manual/incidental walk-in -- explaining
+            // why this second occurrence shows up under Auto Mode specifically. The prefix above
+            // can't help here (it only guards MoveMap's own synchronous entry, not a statement deep
+            // inside an already-running coroutine on an unrelated instance), and this is a raw
+            // struct-returning property read, not a method call, so there's no natural
+            // "skip the caller" boundary to prefix at that point either.
+            //
+            // Real fix: patch the property getter itself (GateSpotData.get_MapPositionData) so it
+            // can never throw in the first place, for every caller. Reimplemented defensively using
+            // ONLY its two sibling properties (int MapId-equivalent, reference-typed Data-equivalent)
+            // -- both already proven safe by the broad FieldObjectBase wrap above (ints/references
+            // reliably default via the finalizer; it's specifically the struct return that doesn't).
+            // On total failure this yields MapId=0, which matches an already-existing convention in
+            // this same class (see the `MapId <= 0` check in GameFieldManager's battle-return
+            // coroutine) rather than inventing a new sentinel. SafeMoveMapGatePrefix above is updated
+            // to treat MapId<=0 as "broken" too, alongside its existing try/catch, so entry point #1
+            // keeps its exact previous behavior even though the getter no longer throws for it to catch.
+            try
+            {
+                var gateSpotDataType2 = AccessTools.TypeByName("GateSpotData");
+                var mapPositionDataGetter = gateSpotDataType2?.GetMethod("get_ὥὨὭὦὨὫὫὬὧὨὮ", BindingFlags.Public | BindingFlags.Instance);
+                if (mapPositionDataGetter != null)
+                {
+                    var safeGetterPrefix = new HarmonyMethod(typeof(Plugin).GetMethod(nameof(SafeGateSpotMapPositionDataPrefix), BindingFlags.Static | BindingFlags.NonPublic));
+                    harmony.Patch(mapPositionDataGetter, prefix: safeGetterPrefix);
+                    Log.LogInfo("[BD2CompatPatch] Patched GateSpotData.MapPositionData getter to fail safe (MapId=0) instead of throwing, for every caller.");
+                }
+                else
+                {
+                    Log.LogWarning("[BD2CompatPatch] Could not find GateSpotData.MapPositionData getter to patch.");
+                }
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning($"[BD2CompatPatch] Failed to patch GateSpotData.MapPositionData getter: {e.Message}");
+            }
+
             // Confirmed root cause of "Confirm button on the field character-setup popup freezes
             // the whole popup forever": FieldCharSettingPopupUI's confirm-click coroutine does
             // `while (!isNext) yield return null;` waiting on a network Send(...) callback to flip
@@ -1426,7 +1473,21 @@ namespace BD2CompatPatch
             try
             {
                 var mapPosProp = AccessTools.Property(typeof(GateSpotData), "ὥὨὭὦὨὫὫὬὧὨὮ");
-                _ = mapPosProp?.GetValue(__0);
+                object mapPos = mapPosProp?.GetValue(__0);
+                // The getter itself is now patched safe (see SafeGateSpotMapPositionDataPrefix) and
+                // will no longer throw here -- but it fails safe to MapId=0 rather than skipping
+                // silently, so this call site still needs to recognize that as "broken" itself,
+                // exactly like it used to recognize the exception. Read via reflection since __0's
+                // static type here is the real GateSpotData already.
+                // MapPositionData.MapId is an auto-property (compiles to a get_MapId method plus a
+                // hidden backing field), not a plain field -- GetProperty, not GetField.
+                var mapIdProperty = mapPos?.GetType().GetProperty("MapId");
+                int mapId = mapIdProperty != null ? (int)mapIdProperty.GetValue(mapPos) : 0;
+                if (mapId <= 0)
+                {
+                    Log.LogWarning("[BD2CompatPatch] GameFieldManager.MoveMap(GateSpotData): this gate's destination data is broken (MapId<=0) -- skipping the transition instead of freezing the player.");
+                    return false;
+                }
             }
             catch (Exception e)
             {
@@ -1435,6 +1496,45 @@ namespace BD2CompatPatch
                 return false; // skip the original MoveMap entirely -- never sets DontMove, nothing to undo
             }
             return true;
+        }
+
+        // See the registration comment above (near MoveMap(GateSpotData)) for the full story.
+        // Reimplements GateSpotData.MapPositionData using only its two sibling properties that the
+        // broad FieldObjectBase finalizer wrap already handles safely (an int-returning MapId
+        // equivalent, and a reference-typed Data equivalent) instead of the fragile original
+        // struct-returning path. Always skips the original getter (returns false) -- there's no
+        // partial-success case worth preserving here, and re-running the fragile original is exactly
+        // what we're trying to avoid.
+        private static bool SafeGateSpotMapPositionDataPrefix(object __instance, ref object __result)
+        {
+            try
+            {
+                var type = __instance.GetType();
+                var mapIdProp = type.GetProperty("ὤὦὨὨὭὮὯὡὧὤὯ", BindingFlags.Public | BindingFlags.Instance);
+                var dataProp = type.GetProperty("ὮὫὢὨὦὠὪὦὢὡὧ", BindingFlags.Public | BindingFlags.Instance);
+                int mapId = mapIdProp != null ? (int)mapIdProp.GetValue(__instance) : 0;
+                object data = dataProp?.GetValue(__instance);
+                Vector3 playerPosition = default;
+                Vector3[] colleaguePositions = null;
+                if (data != null)
+                {
+                    var dataType = data.GetType();
+                    object rawPlayerPos = dataType.GetField("movePlayerPosition")?.GetValue(data);
+                    if (rawPlayerPos is Vector3 v) playerPosition = v;
+                    colleaguePositions = dataType.GetField("moveColleaguePosition")?.GetValue(data) as Vector3[];
+                }
+                __result = new MapPositionData { MapId = mapId, PlayerPosition = playerPosition, ColleaguePositions = colleaguePositions };
+                if (mapId <= 0)
+                {
+                    Log.LogWarning($"[BD2CompatPatch] GateSpotData.MapPositionData ({__instance}): underlying gate data missing -- returning MapId=0 instead of throwing.");
+                }
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning($"[BD2CompatPatch] GateSpotData.MapPositionData: safe reconstruction itself failed ({e.GetType().Name}: {e.Message}) -- returning empty MapPositionData.");
+                __result = default(MapPositionData);
+            }
+            return false; // always skip the fragile original getter
         }
 
         private static bool SafePlayDirectorPrefix(object __instance, object __0, ref WaitForSeconds __result)
