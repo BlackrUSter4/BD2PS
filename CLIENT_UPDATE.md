@@ -3098,3 +3098,92 @@ If it turns out there's a *third* occurrence of this same struct-getter
 shape somewhere else, the fix approach here (patch the getter itself,
 reusing the class's own MapId<=0 sentinel) should already cover it without
 further work -- worth checking before writing a fourth one-off prefix.
+
+## MAJOR: `ilspycmd -t`/`-l`/`-m` gives WRONG names for at least some PUBLIC members of this assembly (2026-09-28)
+
+While testing the fix above, `GameFieldManager.MoveMap(GateSpotData)`
+patched successfully (that part doesn't need the property name at
+*registration* time) but the new getter patch logged **"Could not find
+GateSpotData.MapPositionData getter to patch"** -- the name used,
+`ὥὨὭὦὨὫὫὬὧὨὮ`, harvested from `ilspycmd -t GateSpotData`'s friendly
+decompile output earlier this session, does not actually exist as a member
+name anywhere in the live DLL.
+
+**Root cause, confirmed with byte-level certainty**: wrote a standalone
+reflection probe (`System.Reflection.MetadataLoadContext` and, for full
+certainty, a raw `System.Reflection.Metadata`/`PortableExecutable` IL
+walker -- both independent of ICSharpCode.Decompiler/ilspycmd's own code)
+against the exact same `Assembly-CSharp.dll`. Result: **`GateSpotData`'s
+PUBLIC members all have plain, readable names** -- `MapPositionData`,
+`MapID`, `CurrentMapData`, `BeforeMapData`, `QuestBeforeMapData`, etc. --
+while its PRIVATE fields/types (`_questBeforeMapData`'s backing collider
+field, the internal GateDTO-typed field) really are obfuscated-garbled, as
+expected from a real build-time obfuscator. Cross-checked by walking the
+raw IL of `get_MapPositionData` (metadata token 0x06005433) byte-by-byte:
+it calls `get_MapID` and `get_CurrentMapData` by their real, plain,
+provable names (via CALL instruction operand tokens resolved against the
+raw MethodDef table, not against ilspy's higher-level friendly view). Also
+directly decompiled that same token's body via `ilspycmd -m 0x06005433`
+and got the *identical logic* ilspy's `-t GateSpotData` view had shown
+under the label `ὥὨὭὦὨὫὫὬὧὨὮ` -- so it's the exact same method, just
+mislabeled by ilspy's friendly `-t`/`-l`/`-m`-by-doc-id view specifically
+for this one method (its raw `--dump-table MethodDef` dump, a much more
+primitive/reliable reader, gets the name right: `get_MapPositionData`).
+Doc-id lookup (`ilspycmd -m "P:GateSpotData.MapPositionData"`) also failed
+to find it under its real name, confirming the friendly-view name
+resolution really is broken for this member, not just a display quirk.
+
+**Practical consequence, worth internalizing for any future patch on this
+assembly**: `SafeMoveMapGatePrefix` (the *original* gate-freeze fix from
+earlier tonight) used this exact same wrong `ὥὨὭὦὨὫὫὬὧὨὮ` string via
+`AccessTools.Property(...)`. Since that call returns `null` for a
+nonexistent name and the code used `mapPosProp?.GetValue(__0)` (a
+null-conditional access, not an explicit null-check-and-log), it has been
+a **complete, silent no-op since it was written and committed** -- it
+never threw, never logged, never actually validated anything, and always
+returned `true` (proceed normally). This means **the original gate/hut
+freeze bug was never actually fixed by last night's commit at all** --
+this is very likely the real, whole explanation for "still hangs," not
+just the second-occurrence theory above (though that second occurrence is
+still real and still needed its own fix).
+
+Fixed all three broken lookups in this pass:
+`SafeMoveMapGatePrefix`'s property name, the new getter-patch registration
+name, and the new prefix's two sibling-property names (`MapID`,
+`CurrentMapData` -- both confirmed via the same IL-walk technique). Data
+class field names (`movePlayerPosition`/`moveColleaguePosition`) were
+already correct plain names (also independently reflection-verified) since
+they're `[SerializeField]` fields, which Unity's serializer requires to
+stay named for prefab/scene deserialization -- same reason the class name
+`GateSpotData` itself, and its own `_questBeforeMapData`/
+`_questAfterMapData` backing fields, were never garbled either.
+
+**Process change for the rest of this project**: don't fully trust
+`ilspycmd -t <Name>` / `-l c` / `-m <doc-id>` friendly output for a
+PUBLIC member's *declared name* on this assembly without spot-checking
+against either `ilspycmd --dump-table MethodDef` (grep the real name, get
+its token) or a direct `System.Reflection.MetadataLoadContext` probe
+(more ergonomic for bulk listing) -- and if a by-name Harmony lookup for
+a *specific* member ever fails to find its target, treat that as a strong
+signal to re-verify the name this way before assuming the member doesn't
+exist or was renamed by a client update. Private/obfuscated names have
+not shown this problem in this session (many hundreds of Harmony patches
+against privately-named members have worked fine, confirmed via their own
+log lines) -- this appears scoped to at least some public members
+specifically, cause not fully understood (a genuine ilspycmd/
+ICSharpCode.Decompiler bug in its friendly-name resolution layer, since
+its own lower-level tools disagree with it). Worth filing upstream if this
+recurs.
+
+Built, deployed (`BD2CompatPatch.dll` copied into
+`BepInEx/plugins/BD2CompatPatch/`, confirmed no stray flat-file duplicate
+per the known double-load gotcha), server restarted against the existing
+debug database (real test account intact), mitmdump restarted and the
+system HTTP proxy re-enabled (`ProxyEnable` had reverted to disabled and
+mitmdump wasn't running at all -- this alone was blocking login entirely,
+independent of the gate/hut bug; ordinary variant of the documented
+"mitmdump degrades silently" operational reminder, just compounded by the
+proxy toggle also being off). **Still needs an actual live walk-into-the-
+hut-with-Auto-Mode-on retest** -- this session ran out before that
+happened; next session should treat this as the first real test of the
+fix, not a re-verification, since the previous "fix" never really existed.

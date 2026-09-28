@@ -1178,7 +1178,7 @@ namespace BD2CompatPatch
             try
             {
                 var gateSpotDataType2 = AccessTools.TypeByName("GateSpotData");
-                var mapPositionDataGetter = gateSpotDataType2?.GetMethod("get_ὥὨὭὦὨὫὫὬὧὨὮ", BindingFlags.Public | BindingFlags.Instance);
+                var mapPositionDataGetter = gateSpotDataType2?.GetMethod("get_MapPositionData", BindingFlags.Public | BindingFlags.Instance);
                 if (mapPositionDataGetter != null)
                 {
                     var safeGetterPrefix = new HarmonyMethod(typeof(Plugin).GetMethod(nameof(SafeGateSpotMapPositionDataPrefix), BindingFlags.Static | BindingFlags.NonPublic));
@@ -1472,7 +1472,7 @@ namespace BD2CompatPatch
         {
             try
             {
-                var mapPosProp = AccessTools.Property(typeof(GateSpotData), "ὥὨὭὦὨὫὫὬὧὨὮ");
+                var mapPosProp = AccessTools.Property(typeof(GateSpotData), "MapPositionData");
                 object mapPos = mapPosProp?.GetValue(__0);
                 // The getter itself is now patched safe (see SafeGateSpotMapPositionDataPrefix) and
                 // will no longer throw here -- but it fails safe to MapId=0 rather than skipping
@@ -1510,8 +1510,8 @@ namespace BD2CompatPatch
             try
             {
                 var type = __instance.GetType();
-                var mapIdProp = type.GetProperty("ὤὦὨὨὭὮὯὡὧὤὯ", BindingFlags.Public | BindingFlags.Instance);
-                var dataProp = type.GetProperty("ὮὫὢὨὦὠὪὦὢὡὧ", BindingFlags.Public | BindingFlags.Instance);
+                var mapIdProp = type.GetProperty("MapID", BindingFlags.Public | BindingFlags.Instance);
+                var dataProp = type.GetProperty("CurrentMapData", BindingFlags.Public | BindingFlags.Instance);
                 int mapId = mapIdProp != null ? (int)mapIdProp.GetValue(__instance) : 0;
                 object data = dataProp?.GetValue(__instance);
                 Vector3 playerPosition = default;
