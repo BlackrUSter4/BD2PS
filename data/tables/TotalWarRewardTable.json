@@ -1,0 +1,1066 @@
+[
+  {
+    "id": 1,
+    "rewardCount": 1,
+    "rewardId": 905001,
+    "rewardType": 9,
+    "score": 10000.0
+  },
+  {
+    "id": 2,
+    "rewardCount": 1,
+    "rewardId": 905002,
+    "rewardType": 9,
+    "score": 20000.0
+  },
+  {
+    "id": 3,
+    "rewardCount": 1,
+    "rewardId": 905003,
+    "rewardType": 9,
+    "score": 30000.0
+  },
+  {
+    "id": 4,
+    "rewardCount": 1,
+    "rewardId": 905004,
+    "rewardType": 9,
+    "score": 40000.0
+  },
+  {
+    "id": 5,
+    "rewardCount": 1,
+    "rewardId": 905005,
+    "rewardType": 9,
+    "score": 50000.0
+  },
+  {
+    "id": 6,
+    "rewardCount": 1,
+    "rewardId": 905006,
+    "rewardType": 9,
+    "score": 75000.0
+  },
+  {
+    "id": 7,
+    "rewardCount": 1,
+    "rewardId": 905007,
+    "rewardType": 9,
+    "score": 100000.0
+  },
+  {
+    "id": 8,
+    "rewardCount": 1,
+    "rewardId": 905008,
+    "rewardType": 9,
+    "score": 140000.0
+  },
+  {
+    "id": 9,
+    "rewardCount": 1,
+    "rewardId": 905009,
+    "rewardType": 9,
+    "score": 180000.0
+  },
+  {
+    "id": 10,
+    "rewardCount": 1,
+    "rewardId": 905010,
+    "rewardType": 9,
+    "score": 220000.0
+  },
+  {
+    "id": 11,
+    "rewardCount": 1,
+    "rewardId": 905011,
+    "rewardType": 9,
+    "score": 260000.0
+  },
+  {
+    "id": 12,
+    "rewardCount": 1,
+    "rewardId": 905012,
+    "rewardType": 9,
+    "score": 300000.0
+  },
+  {
+    "id": 13,
+    "rewardCount": 1,
+    "rewardId": 905013,
+    "rewardType": 9,
+    "score": 340000.0
+  },
+  {
+    "id": 14,
+    "rewardCount": 1,
+    "rewardId": 905014,
+    "rewardType": 9,
+    "score": 380000.0
+  },
+  {
+    "id": 15,
+    "rewardCount": 1,
+    "rewardId": 905015,
+    "rewardType": 9,
+    "score": 420000.0
+  },
+  {
+    "id": 16,
+    "rewardCount": 1,
+    "rewardId": 905016,
+    "rewardType": 9,
+    "score": 460000.0
+  },
+  {
+    "id": 17,
+    "rewardCount": 1,
+    "rewardId": 905017,
+    "rewardType": 9,
+    "score": 500000.0
+  },
+  {
+    "id": 18,
+    "rewardCount": 1,
+    "rewardId": 905018,
+    "rewardType": 9,
+    "score": 550000.0
+  },
+  {
+    "id": 19,
+    "rewardCount": 1,
+    "rewardId": 905019,
+    "rewardType": 9,
+    "score": 600000.0
+  },
+  {
+    "id": 20,
+    "rewardCount": 1,
+    "rewardId": 905020,
+    "rewardType": 9,
+    "score": 650000.0
+  },
+  {
+    "id": 21,
+    "rewardCount": 1,
+    "rewardId": 905021,
+    "rewardType": 9,
+    "score": 700000.0
+  },
+  {
+    "id": 22,
+    "rewardCount": 1,
+    "rewardId": 905022,
+    "rewardType": 9,
+    "score": 750000.0
+  },
+  {
+    "id": 23,
+    "rewardCount": 1,
+    "rewardId": 905023,
+    "rewardType": 9,
+    "score": 800000.0
+  },
+  {
+    "id": 24,
+    "rewardCount": 1,
+    "rewardId": 905024,
+    "rewardType": 9,
+    "score": 850000.0
+  },
+  {
+    "id": 25,
+    "rewardCount": 1,
+    "rewardId": 905025,
+    "rewardType": 9,
+    "score": 900000.0
+  },
+  {
+    "id": 26,
+    "rewardCount": 1,
+    "rewardId": 905026,
+    "rewardType": 9,
+    "score": 950000.0
+  },
+  {
+    "id": 27,
+    "rewardCount": 1,
+    "rewardId": 905027,
+    "rewardType": 9,
+    "score": 1000000.0
+  },
+  {
+    "id": 28,
+    "rewardCount": 1,
+    "rewardId": 905028,
+    "rewardType": 9,
+    "score": 1500000.0
+  },
+  {
+    "id": 29,
+    "rewardCount": 1,
+    "rewardId": 905029,
+    "rewardType": 9,
+    "score": 2000000.0
+  },
+  {
+    "id": 30,
+    "rewardCount": 1,
+    "rewardId": 905030,
+    "rewardType": 9,
+    "score": 2500000.0
+  },
+  {
+    "id": 31,
+    "rewardCount": 1,
+    "rewardId": 905031,
+    "rewardType": 9,
+    "score": 3000000.0
+  },
+  {
+    "id": 32,
+    "rewardCount": 1,
+    "rewardId": 905032,
+    "rewardType": 9,
+    "score": 3500000.0
+  },
+  {
+    "id": 33,
+    "rewardCount": 1,
+    "rewardId": 905033,
+    "rewardType": 9,
+    "score": 4000000.0
+  },
+  {
+    "id": 34,
+    "rewardCount": 1,
+    "rewardId": 905034,
+    "rewardType": 9,
+    "score": 4500000.0
+  },
+  {
+    "id": 35,
+    "rewardCount": 1,
+    "rewardId": 905035,
+    "rewardType": 9,
+    "score": 5000000.0
+  },
+  {
+    "id": 36,
+    "rewardCount": 1,
+    "rewardId": 905036,
+    "rewardType": 9,
+    "score": 5500000.0
+  },
+  {
+    "id": 37,
+    "rewardCount": 1,
+    "rewardId": 905037,
+    "rewardType": 9,
+    "score": 6000000.0
+  },
+  {
+    "id": 38,
+    "rewardCount": 1,
+    "rewardId": 905038,
+    "rewardType": 9,
+    "score": 6500000.0
+  },
+  {
+    "id": 39,
+    "rewardCount": 1,
+    "rewardId": 905039,
+    "rewardType": 9,
+    "score": 7000000.0
+  },
+  {
+    "id": 40,
+    "rewardCount": 1,
+    "rewardId": 905040,
+    "rewardType": 9,
+    "score": 7500000.0
+  },
+  {
+    "id": 41,
+    "rewardCount": 1,
+    "rewardId": 905041,
+    "rewardType": 9,
+    "score": 8000000.0
+  },
+  {
+    "id": 42,
+    "rewardCount": 1,
+    "rewardId": 905042,
+    "rewardType": 9,
+    "score": 8500000.0
+  },
+  {
+    "id": 43,
+    "rewardCount": 1,
+    "rewardId": 905043,
+    "rewardType": 9,
+    "score": 9000000.0
+  },
+  {
+    "id": 44,
+    "rewardCount": 1,
+    "rewardId": 905044,
+    "rewardType": 9,
+    "score": 9500000.0
+  },
+  {
+    "id": 45,
+    "rewardCount": 1,
+    "rewardId": 905045,
+    "rewardType": 9,
+    "score": 10000000.0
+  },
+  {
+    "id": 46,
+    "rewardCount": 1,
+    "rewardId": 905046,
+    "rewardType": 9,
+    "score": 11000000.0
+  },
+  {
+    "id": 47,
+    "rewardCount": 1,
+    "rewardId": 905047,
+    "rewardType": 9,
+    "score": 12000000.0
+  },
+  {
+    "id": 48,
+    "rewardCount": 1,
+    "rewardId": 905048,
+    "rewardType": 9,
+    "score": 13000000.0
+  },
+  {
+    "id": 49,
+    "rewardCount": 1,
+    "rewardId": 905049,
+    "rewardType": 9,
+    "score": 14000000.0
+  },
+  {
+    "id": 50,
+    "rewardCount": 1,
+    "rewardId": 905050,
+    "rewardType": 9,
+    "score": 15000000.0
+  },
+  {
+    "id": 51,
+    "rewardCount": 1,
+    "rewardId": 905051,
+    "rewardType": 9,
+    "score": 16000000.0
+  },
+  {
+    "id": 52,
+    "rewardCount": 1,
+    "rewardId": 905052,
+    "rewardType": 9,
+    "score": 17000000.0
+  },
+  {
+    "id": 53,
+    "rewardCount": 1,
+    "rewardId": 905053,
+    "rewardType": 9,
+    "score": 18000000.0
+  },
+  {
+    "id": 54,
+    "rewardCount": 1,
+    "rewardId": 905054,
+    "rewardType": 9,
+    "score": 19000000.0
+  },
+  {
+    "id": 55,
+    "rewardCount": 1,
+    "rewardId": 905055,
+    "rewardType": 9,
+    "score": 20000000.0
+  },
+  {
+    "id": 56,
+    "rewardCount": 1,
+    "rewardId": 905056,
+    "rewardType": 9,
+    "score": 21000000.0
+  },
+  {
+    "id": 57,
+    "rewardCount": 1,
+    "rewardId": 905057,
+    "rewardType": 9,
+    "score": 22000000.0
+  },
+  {
+    "id": 58,
+    "rewardCount": 1,
+    "rewardId": 905058,
+    "rewardType": 9,
+    "score": 23000000.0
+  },
+  {
+    "id": 59,
+    "rewardCount": 1,
+    "rewardId": 905059,
+    "rewardType": 9,
+    "score": 24000000.0
+  },
+  {
+    "id": 60,
+    "rewardCount": 1,
+    "rewardId": 905060,
+    "rewardType": 9,
+    "score": 25000000.0
+  },
+  {
+    "id": 61,
+    "rewardCount": 1,
+    "rewardId": 905061,
+    "rewardType": 9,
+    "score": 26000000.0
+  },
+  {
+    "id": 62,
+    "rewardCount": 1,
+    "rewardId": 905062,
+    "rewardType": 9,
+    "score": 27000000.0
+  },
+  {
+    "id": 63,
+    "rewardCount": 1,
+    "rewardId": 905063,
+    "rewardType": 9,
+    "score": 28000000.0
+  },
+  {
+    "id": 64,
+    "rewardCount": 1,
+    "rewardId": 905064,
+    "rewardType": 9,
+    "score": 29000000.0
+  },
+  {
+    "id": 65,
+    "rewardCount": 1,
+    "rewardId": 905065,
+    "rewardType": 9,
+    "score": 30000000.0
+  },
+  {
+    "id": 66,
+    "rewardCount": 1,
+    "rewardId": 905066,
+    "rewardType": 9,
+    "score": 31000000.0
+  },
+  {
+    "id": 67,
+    "rewardCount": 1,
+    "rewardId": 905067,
+    "rewardType": 9,
+    "score": 32000000.0
+  },
+  {
+    "id": 68,
+    "rewardCount": 1,
+    "rewardId": 905068,
+    "rewardType": 9,
+    "score": 33000000.0
+  },
+  {
+    "id": 69,
+    "rewardCount": 1,
+    "rewardId": 905069,
+    "rewardType": 9,
+    "score": 34000000.0
+  },
+  {
+    "id": 70,
+    "rewardCount": 1,
+    "rewardId": 905070,
+    "rewardType": 9,
+    "score": 35000000.0
+  },
+  {
+    "id": 71,
+    "rewardCount": 1,
+    "rewardId": 905071,
+    "rewardType": 9,
+    "score": 36000000.0
+  },
+  {
+    "id": 72,
+    "rewardCount": 1,
+    "rewardId": 905072,
+    "rewardType": 9,
+    "score": 37000000.0
+  },
+  {
+    "id": 73,
+    "rewardCount": 1,
+    "rewardId": 905073,
+    "rewardType": 9,
+    "score": 38000000.0
+  },
+  {
+    "id": 74,
+    "rewardCount": 1,
+    "rewardId": 905074,
+    "rewardType": 9,
+    "score": 39000000.0
+  },
+  {
+    "id": 75,
+    "rewardCount": 1,
+    "rewardId": 905075,
+    "rewardType": 9,
+    "score": 40000000.0
+  },
+  {
+    "id": 76,
+    "rewardCount": 1,
+    "rewardId": 905076,
+    "rewardType": 9,
+    "score": 42000000.0
+  },
+  {
+    "id": 77,
+    "rewardCount": 1,
+    "rewardId": 905077,
+    "rewardType": 9,
+    "score": 44000000.0
+  },
+  {
+    "id": 78,
+    "rewardCount": 1,
+    "rewardId": 905078,
+    "rewardType": 9,
+    "score": 46000000.0
+  },
+  {
+    "id": 79,
+    "rewardCount": 1,
+    "rewardId": 905079,
+    "rewardType": 9,
+    "score": 48000000.0
+  },
+  {
+    "id": 80,
+    "rewardCount": 1,
+    "rewardId": 905080,
+    "rewardType": 9,
+    "score": 50000000.0
+  },
+  {
+    "id": 81,
+    "rewardCount": 1,
+    "rewardId": 905081,
+    "rewardType": 9,
+    "score": 52000000.0
+  },
+  {
+    "id": 82,
+    "rewardCount": 1,
+    "rewardId": 905082,
+    "rewardType": 9,
+    "score": 54000000.0
+  },
+  {
+    "id": 83,
+    "rewardCount": 1,
+    "rewardId": 905083,
+    "rewardType": 9,
+    "score": 56000000.0
+  },
+  {
+    "id": 84,
+    "rewardCount": 1,
+    "rewardId": 905084,
+    "rewardType": 9,
+    "score": 58000000.0
+  },
+  {
+    "id": 85,
+    "rewardCount": 1,
+    "rewardId": 905085,
+    "rewardType": 9,
+    "score": 60000000.0
+  },
+  {
+    "id": 86,
+    "rewardCount": 1,
+    "rewardId": 905086,
+    "rewardType": 9,
+    "score": 62000000.0
+  },
+  {
+    "id": 87,
+    "rewardCount": 1,
+    "rewardId": 905087,
+    "rewardType": 9,
+    "score": 64000000.0
+  },
+  {
+    "id": 88,
+    "rewardCount": 1,
+    "rewardId": 905088,
+    "rewardType": 9,
+    "score": 66000000.0
+  },
+  {
+    "id": 89,
+    "rewardCount": 1,
+    "rewardId": 905089,
+    "rewardType": 9,
+    "score": 68000000.0
+  },
+  {
+    "id": 90,
+    "rewardCount": 1,
+    "rewardId": 905090,
+    "rewardType": 9,
+    "score": 70000000.0
+  },
+  {
+    "id": 91,
+    "rewardCount": 1,
+    "rewardId": 905091,
+    "rewardType": 9,
+    "score": 73000000.0
+  },
+  {
+    "id": 92,
+    "rewardCount": 1,
+    "rewardId": 905092,
+    "rewardType": 9,
+    "score": 76000000.0
+  },
+  {
+    "id": 93,
+    "rewardCount": 1,
+    "rewardId": 905093,
+    "rewardType": 9,
+    "score": 79000000.0
+  },
+  {
+    "id": 94,
+    "rewardCount": 1,
+    "rewardId": 905094,
+    "rewardType": 9,
+    "score": 82000000.0
+  },
+  {
+    "id": 95,
+    "rewardCount": 1,
+    "rewardId": 905095,
+    "rewardType": 9,
+    "score": 85000000.0
+  },
+  {
+    "id": 96,
+    "rewardCount": 1,
+    "rewardId": 905096,
+    "rewardType": 9,
+    "score": 88000000.0
+  },
+  {
+    "id": 97,
+    "rewardCount": 1,
+    "rewardId": 905097,
+    "rewardType": 9,
+    "score": 91000000.0
+  },
+  {
+    "id": 98,
+    "rewardCount": 1,
+    "rewardId": 905098,
+    "rewardType": 9,
+    "score": 94000000.0
+  },
+  {
+    "id": 99,
+    "rewardCount": 1,
+    "rewardId": 905099,
+    "rewardType": 9,
+    "score": 97000000.0
+  },
+  {
+    "id": 100,
+    "rewardCount": 1,
+    "rewardId": 905100,
+    "rewardType": 9,
+    "score": 100000000.0
+  },
+  {
+    "id": 101,
+    "rewardCount": 1,
+    "rewardId": 905101,
+    "rewardType": 9,
+    "score": 110000000.0
+  },
+  {
+    "id": 102,
+    "rewardCount": 1,
+    "rewardId": 905102,
+    "rewardType": 9,
+    "score": 120000000.0
+  },
+  {
+    "id": 103,
+    "rewardCount": 1,
+    "rewardId": 905103,
+    "rewardType": 9,
+    "score": 130000000.0
+  },
+  {
+    "id": 104,
+    "rewardCount": 1,
+    "rewardId": 905104,
+    "rewardType": 9,
+    "score": 140000000.0
+  },
+  {
+    "id": 105,
+    "rewardCount": 1,
+    "rewardId": 905105,
+    "rewardType": 9,
+    "score": 150000000.0
+  },
+  {
+    "id": 106,
+    "rewardCount": 1,
+    "rewardId": 905106,
+    "rewardType": 9,
+    "score": 160000000.0
+  },
+  {
+    "id": 107,
+    "rewardCount": 1,
+    "rewardId": 905107,
+    "rewardType": 9,
+    "score": 170000000.0
+  },
+  {
+    "id": 108,
+    "rewardCount": 1,
+    "rewardId": 905108,
+    "rewardType": 9,
+    "score": 180000000.0
+  },
+  {
+    "id": 109,
+    "rewardCount": 1,
+    "rewardId": 905109,
+    "rewardType": 9,
+    "score": 190000000.0
+  },
+  {
+    "id": 110,
+    "rewardCount": 1,
+    "rewardId": 905110,
+    "rewardType": 9,
+    "score": 200000000.0
+  },
+  {
+    "id": 111,
+    "rewardCount": 1,
+    "rewardId": 905111,
+    "rewardType": 9,
+    "score": 210000000.0
+  },
+  {
+    "id": 112,
+    "rewardCount": 1,
+    "rewardId": 905112,
+    "rewardType": 9,
+    "score": 220000000.0
+  },
+  {
+    "id": 113,
+    "rewardCount": 1,
+    "rewardId": 905113,
+    "rewardType": 9,
+    "score": 230000000.0
+  },
+  {
+    "id": 114,
+    "rewardCount": 1,
+    "rewardId": 905114,
+    "rewardType": 9,
+    "score": 240000000.0
+  },
+  {
+    "id": 115,
+    "rewardCount": 1,
+    "rewardId": 905115,
+    "rewardType": 9,
+    "score": 250000000.0
+  },
+  {
+    "id": 116,
+    "rewardCount": 1,
+    "rewardId": 905116,
+    "rewardType": 9,
+    "score": 260000000.0
+  },
+  {
+    "id": 117,
+    "rewardCount": 1,
+    "rewardId": 905117,
+    "rewardType": 9,
+    "score": 270000000.0
+  },
+  {
+    "id": 118,
+    "rewardCount": 1,
+    "rewardId": 905118,
+    "rewardType": 9,
+    "score": 280000000.0
+  },
+  {
+    "id": 119,
+    "rewardCount": 1,
+    "rewardId": 905119,
+    "rewardType": 9,
+    "score": 290000000.0
+  },
+  {
+    "id": 120,
+    "rewardCount": 1,
+    "rewardId": 905120,
+    "rewardType": 9,
+    "score": 300000000.0
+  },
+  {
+    "id": 121,
+    "rewardCount": 1,
+    "rewardId": 905121,
+    "rewardType": 9,
+    "score": 400000000.0
+  },
+  {
+    "id": 122,
+    "rewardCount": 1,
+    "rewardId": 905122,
+    "rewardType": 9,
+    "score": 500000000.0
+  },
+  {
+    "id": 123,
+    "rewardCount": 1,
+    "rewardId": 905123,
+    "rewardType": 9,
+    "score": 600000000.0
+  },
+  {
+    "id": 124,
+    "rewardCount": 1,
+    "rewardId": 905124,
+    "rewardType": 9,
+    "score": 700000000.0
+  },
+  {
+    "id": 125,
+    "rewardCount": 1,
+    "rewardId": 905125,
+    "rewardType": 9,
+    "score": 800000000.0
+  },
+  {
+    "id": 126,
+    "rewardCount": 1,
+    "rewardId": 905126,
+    "rewardType": 9,
+    "score": 900000000.0
+  },
+  {
+    "id": 127,
+    "rewardCount": 1,
+    "rewardId": 905127,
+    "rewardType": 9,
+    "score": 1000000000.0
+  },
+  {
+    "id": 128,
+    "rewardCount": 1,
+    "rewardId": 905128,
+    "rewardType": 9,
+    "score": 1100000000.0
+  },
+  {
+    "id": 129,
+    "rewardCount": 1,
+    "rewardId": 905129,
+    "rewardType": 9,
+    "score": 1200000000.0
+  },
+  {
+    "id": 130,
+    "rewardCount": 1,
+    "rewardId": 905130,
+    "rewardType": 9,
+    "score": 1300000000.0
+  },
+  {
+    "id": 131,
+    "rewardCount": 1,
+    "rewardId": 905131,
+    "rewardType": 9,
+    "score": 1400000000.0
+  },
+  {
+    "id": 132,
+    "rewardCount": 1,
+    "rewardId": 905132,
+    "rewardType": 9,
+    "score": 1500000000.0
+  },
+  {
+    "id": 133,
+    "rewardCount": 1,
+    "rewardId": 905133,
+    "rewardType": 9,
+    "score": 1600000000.0
+  },
+  {
+    "id": 134,
+    "rewardCount": 1,
+    "rewardId": 905134,
+    "rewardType": 9,
+    "score": 1700000000.0
+  },
+  {
+    "id": 135,
+    "rewardCount": 1,
+    "rewardId": 905135,
+    "rewardType": 9,
+    "score": 1800000000.0
+  },
+  {
+    "id": 136,
+    "rewardCount": 1,
+    "rewardId": 905136,
+    "rewardType": 9,
+    "score": 1900000000.0
+  },
+  {
+    "id": 137,
+    "rewardCount": 1,
+    "rewardId": 905137,
+    "rewardType": 9,
+    "score": 2000000000.0
+  },
+  {
+    "id": 138,
+    "rewardCount": 1,
+    "rewardId": 905138,
+    "rewardType": 9,
+    "score": 2100000000.0
+  },
+  {
+    "id": 139,
+    "rewardCount": 1,
+    "rewardId": 905139,
+    "rewardType": 9,
+    "score": 2200000000.0
+  },
+  {
+    "id": 140,
+    "rewardCount": 1,
+    "rewardId": 905140,
+    "rewardType": 9,
+    "score": 2300000000.0
+  },
+  {
+    "id": 141,
+    "rewardCount": 1,
+    "rewardId": 905141,
+    "rewardType": 9,
+    "score": 2400000000.0
+  },
+  {
+    "id": 142,
+    "rewardCount": 1,
+    "rewardId": 905142,
+    "rewardType": 9,
+    "score": 2500000000.0
+  },
+  {
+    "id": 143,
+    "rewardCount": 1,
+    "rewardId": 905143,
+    "rewardType": 9,
+    "score": 2600000000.0
+  },
+  {
+    "id": 144,
+    "rewardCount": 1,
+    "rewardId": 905144,
+    "rewardType": 9,
+    "score": 2700000000.0
+  },
+  {
+    "id": 145,
+    "rewardCount": 1,
+    "rewardId": 905145,
+    "rewardType": 9,
+    "score": 2800000000.0
+  },
+  {
+    "id": 146,
+    "rewardCount": 1,
+    "rewardId": 905146,
+    "rewardType": 9,
+    "score": 2900000000.0
+  },
+  {
+    "id": 147,
+    "rewardCount": 1,
+    "rewardId": 905147,
+    "rewardType": 9,
+    "score": 3000000000.0
+  },
+  {
+    "id": 148,
+    "rewardCount": 1,
+    "rewardId": 905148,
+    "rewardType": 9,
+    "score": 3100000000.0
+  },
+  {
+    "id": 149,
+    "rewardCount": 1,
+    "rewardId": 905149,
+    "rewardType": 9,
+    "score": 3200000000.0
+  },
+  {
+    "id": 150,
+    "rewardCount": 1,
+    "rewardId": 905150,
+    "rewardType": 9,
+    "score": 3300000000.0
+  },
+  {
+    "id": 151,
+    "rewardCount": 1,
+    "rewardId": 905151,
+    "rewardType": 9,
+    "score": 3400000000.0
+  },
+  {
+    "id": 152,
+    "rewardCount": 1,
+    "rewardId": 905152,
+    "rewardType": 9,
+    "score": 3500000000.0
+  }
+]

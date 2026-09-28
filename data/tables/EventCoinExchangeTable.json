@@ -1,0 +1,18 @@
+[
+  { "groupId": 27, "id": 1, "keyType": 1, "pageId": 1, "ratio": 68, "rewardItemCount": 1, "rewardItemId": 127, "rewardItemType": 8, "setCount": 1 },
+  { "groupId": 27, "id": 2, "keyType": 1, "pageId": 1, "ratio": 68, "rewardItemCount": 10, "rewardItemId": 1000, "rewardItemType": 8, "setCount": 1 },
+  { "groupId": 27, "id": 3, "keyType": 1, "pageId": 1, "ratio": 68, "rewardItemCount": 10000000, "rewardItemType": 4, "setCount": 1 },
+  { "groupId": 27, "id": 4, "pageId": 1, "ratio": 200, "rewardItemCount": 900000, "rewardItemType": 4, "setCount": 1 },
+  { "groupId": 27, "id": 5, "pageId": 1, "ratio": 200, "rewardItemCount": 90000, "rewardItemId": 10, "rewardItemType": 8, "setCount": 1 },
+  { "groupId": 27, "id": 6, "pageId": 1, "ratio": 465, "rewardItemCount": 600000, "rewardItemType": 4, "setCount": 1 },
+  { "groupId": 27, "id": 7, "pageId": 1, "ratio": 465, "rewardItemCount": 60000, "rewardItemId": 10, "rewardItemType": 8, "setCount": 1 },
+  { "groupId": 27, "id": 8, "pageId": 1, "ratio": 733, "rewardItemCount": 300000, "rewardItemType": 4, "setCount": 1 },
+  { "groupId": 27, "id": 9, "pageId": 1, "ratio": 733, "rewardItemCount": 30000, "rewardItemId": 10, "rewardItemType": 8, "setCount": 1 },
+  { "groupId": 27, "id": 10, "pageId": 1, "ratio": 1000, "rewardItemCount": 1, "rewardItemId": 1000, "rewardItemType": 8, "setCount": 1 },
+  { "groupId": 27, "id": 11, "pageId": 1, "ratio": 1000, "rewardItemCount": 1, "rewardItemId": 1000, "rewardItemType": 8, "setCount": 1 },
+  { "groupId": 27, "id": 12, "pageId": 1, "ratio": 1000, "rewardItemCount": 1, "rewardItemId": 1000, "rewardItemType": 8, "setCount": 1 },
+  { "groupId": 27, "id": 13, "pageId": 1, "ratio": 1000, "rewardItemCount": 1, "rewardItemId": 1000, "rewardItemType": 8, "setCount": 1 },
+  { "groupId": 27, "id": 14, "pageId": 1, "ratio": 1000, "rewardItemCount": 1, "rewardItemId": 1000, "rewardItemType": 8, "setCount": 1 },
+  { "groupId": 27, "id": 15, "pageId": 1, "ratio": 1000, "rewardItemCount": 1, "rewardItemId": 1000, "rewardItemType": 8, "setCount": 1 },
+  { "groupId": 27, "id": 16, "pageId": 1, "ratio": 1000, "rewardItemCount": 1, "rewardItemId": 1000, "rewardItemType": 8, "setCount": 1 }
+]

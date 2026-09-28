@@ -1,0 +1,70 @@
+[
+  {
+    "eventPackId": [
+      3002,
+      1,
+      2,
+      3
+    ],
+    "guideDescLocalTextId": [
+      5220023,
+      5220025
+    ],
+    "guideTitleLocalTextId": [
+      5220022,
+      5220024
+    ],
+    "id": 1
+  },
+  {
+    "eventPackId": [
+      3002,
+      1,
+      4,
+      1001
+    ],
+    "guideDescLocalTextId": [
+      5220023,
+      5220025
+    ],
+    "guideTitleLocalTextId": [
+      5220022,
+      5220024
+    ],
+    "id": 5001
+  },
+  {
+    "eventPackId": [
+      3002,
+      1,
+      5,
+      1002
+    ],
+    "guideDescLocalTextId": [
+      5220023,
+      5220025
+    ],
+    "guideTitleLocalTextId": [
+      5220022,
+      5220024
+    ],
+    "id": 5002
+  },
+  {
+    "eventPackId": [
+      1,
+      6,
+      1003,
+      1004
+    ],
+    "guideDescLocalTextId": [
+      5220023,
+      5220025
+    ],
+    "guideTitleLocalTextId": [
+      5220022,
+      5220024
+    ],
+    "id": 5003
+  }
+]

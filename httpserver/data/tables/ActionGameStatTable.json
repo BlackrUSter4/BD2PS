@@ -1,0 +1,97 @@
+[
+  {
+    "criticalDamageRate": 0.3,
+    "healthMaxValue": 1800,
+    "id": 1,
+    "moveSpeed": 5.5,
+    "powerValue": 55.0,
+    "recoveryCount": 5,
+    "specialGaugeMaxValue": 100,
+    "staminaMaxValue": 100.0,
+    "staminaRecoveryValue": 20.0
+  },
+  {
+    "criticalDamageRate": 0.3,
+    "healthMaxValue": 2000,
+    "id": 2,
+    "moveSpeed": 5.5,
+    "powerValue": 22.0,
+    "recoveryCount": 5,
+    "staminaMaxValue": 100.0,
+    "staminaRecoveryValue": 20.0
+  },
+  {
+    "criticalDamageRate": 0.3,
+    "healthMaxValue": 2250,
+    "id": 3,
+    "moveSpeed": 5.5,
+    "powerValue": 18.0,
+    "recoveryCount": 5,
+    "staminaMaxValue": 100.0,
+    "staminaRecoveryValue": 20.0
+  },
+  {
+    "groggyHealthValue": 400,
+    "healthMaxValue": 5400,
+    "id": 101,
+    "moveSpeed": 12.0,
+    "powerValue": 35.0,
+    "rageMaxValue": 350
+  },
+  {
+    "groggyHealthValue": 600,
+    "healthMaxValue": 10800,
+    "id": 102,
+    "moveSpeed": 12.0,
+    "powerValue": 50.0,
+    "rageMaxValue": 500
+  },
+  {
+    "groggyHealthValue": 800,
+    "healthMaxValue": 18000,
+    "id": 103,
+    "moveSpeed": 12.0,
+    "powerValue": 130.0,
+    "rageMaxValue": 700
+  },
+  {
+    "groggyHealthValue": 1600,
+    "healthMaxValue": 36000,
+    "id": 104,
+    "moveSpeed": 12.0,
+    "powerValue": 130.0,
+    "rageMaxValue": 1400
+  },
+  {
+    "groggyHealthValue": 400,
+    "healthMaxValue": 4500,
+    "id": 201,
+    "moveSpeed": 17.0,
+    "powerValue": 25.0,
+    "rageMaxValue": 300
+  },
+  {
+    "groggyHealthValue": 600,
+    "healthMaxValue": 9000,
+    "id": 202,
+    "moveSpeed": 17.0,
+    "powerValue": 40.0,
+    "rageMaxValue": 450
+  },
+  {
+    "groggyHealthValue": 800,
+    "healthMaxValue": 16500,
+    "id": 203,
+    "moveSpeed": 17.0,
+    "powerValue": 90.0,
+    "rageMaxValue": 600
+  },
+  {
+    "groggyHealthValue": 1600,
+    "healthMaxValue": 33000,
+    "id": 204,
+    "moveSpeed": 17.0,
+    "powerValue": 90.0,
+    "rageMaxValue": 1200
+  }
+]

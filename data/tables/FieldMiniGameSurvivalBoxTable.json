@@ -1,0 +1,953 @@
+[
+  {
+    "guaranteedDrop": 1,
+    "id": 1,
+    "itemId": [
+      10,
+      11,
+      12
+    ],
+    "ratio": [
+      90,
+      7,
+      3
+    ]
+  },
+  {
+    "guaranteedDrop": 1,
+    "id": 2,
+    "itemId": [
+      10,
+      11,
+      12
+    ],
+    "ratio": [
+      85,
+      10,
+      5
+    ]
+  },
+  {
+    "id": 3,
+    "itemId": [
+      38
+    ],
+    "ratio": [
+      0
+    ]
+  },
+  {
+    "guaranteedDrop": 1,
+    "id": 4,
+    "itemId": [
+      4,
+      5
+    ],
+    "ratio": [
+      90,
+      10
+    ]
+  },
+  {
+    "guaranteedDrop": 1,
+    "id": 5,
+    "itemId": [
+      4,
+      5,
+      6
+    ],
+    "ratio": [
+      85,
+      10,
+      5
+    ]
+  },
+  {
+    "guaranteedDrop": 1,
+    "id": 6,
+    "itemId": [
+      4,
+      5,
+      6
+    ],
+    "ratio": [
+      70,
+      20,
+      10
+    ]
+  },
+  {
+    "guaranteedDrop": 1,
+    "id": 7,
+    "itemId": [
+      -1,
+      7,
+      8,
+      9
+    ],
+    "ratio": [
+      965,
+      20,
+      10,
+      5
+    ]
+  },
+  {
+    "guaranteedDrop": 1,
+    "id": 8,
+    "itemId": [
+      -1,
+      2,
+      3,
+      13,
+      1
+    ],
+    "ratio": [
+      990,
+      2,
+      2,
+      2,
+      4
+    ]
+  },
+  {
+    "guaranteedDrop": 1,
+    "id": 9,
+    "itemId": [
+      2,
+      3,
+      13
+    ],
+    "ratio": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "id": 10,
+    "itemId": [
+      6
+    ],
+    "ratio": [
+      100
+    ]
+  },
+  {
+    "id": 11,
+    "itemId": [
+      5
+    ],
+    "ratio": [
+      100
+    ]
+  },
+  {
+    "guaranteedDrop": 1,
+    "id": 12,
+    "itemId": [
+      58,
+      59
+    ],
+    "ratio": [
+      90,
+      10
+    ]
+  },
+  {
+    "guaranteedDrop": 1,
+    "id": 13,
+    "itemId": [
+      58,
+      59,
+      60
+    ],
+    "ratio": [
+      85,
+      10,
+      5
+    ]
+  },
+  {
+    "guaranteedDrop": 1,
+    "id": 14,
+    "itemId": [
+      58,
+      59,
+      60
+    ],
+    "ratio": [
+      70,
+      20,
+      10
+    ]
+  },
+  {
+    "id": 15,
+    "itemId": [
+      59
+    ],
+    "ratio": [
+      100
+    ]
+  },
+  {
+    "id": 16,
+    "itemId": [
+      60
+    ],
+    "ratio": [
+      100
+    ]
+  },
+  {
+    "guaranteedDrop": 1,
+    "id": 17,
+    "itemId": [
+      61,
+      62
+    ],
+    "ratio": [
+      90,
+      10
+    ]
+  },
+  {
+    "guaranteedDrop": 1,
+    "id": 18,
+    "itemId": [
+      61,
+      62,
+      63
+    ],
+    "ratio": [
+      85,
+      10,
+      5
+    ]
+  },
+  {
+    "guaranteedDrop": 1,
+    "id": 19,
+    "itemId": [
+      61,
+      62,
+      63
+    ],
+    "ratio": [
+      70,
+      20,
+      10
+    ]
+  },
+  {
+    "id": 20,
+    "itemId": [
+      62
+    ],
+    "ratio": [
+      100
+    ]
+  },
+  {
+    "id": 21,
+    "itemId": [
+      63
+    ],
+    "ratio": [
+      100
+    ]
+  },
+  {
+    "guaranteedDrop": 1,
+    "id": 22,
+    "itemId": [
+      64,
+      65
+    ],
+    "ratio": [
+      90,
+      10
+    ]
+  },
+  {
+    "guaranteedDrop": 1,
+    "id": 23,
+    "itemId": [
+      64,
+      65,
+      66
+    ],
+    "ratio": [
+      90,
+      7,
+      4
+    ]
+  },
+  {
+    "guaranteedDrop": 1,
+    "id": 24,
+    "itemId": [
+      64,
+      65,
+      66
+    ],
+    "ratio": [
+      60,
+      23,
+      17
+    ]
+  },
+  {
+    "id": 25,
+    "itemId": [
+      41
+    ],
+    "ratio": [
+      0
+    ]
+  },
+  {
+    "id": 26,
+    "itemId": [
+      44
+    ],
+    "ratio": [
+      0
+    ]
+  },
+  {
+    "guaranteedDrop": 1,
+    "id": 111,
+    "itemId": [
+      -1,
+      7
+    ],
+    "ratio": [
+      9670,
+      330
+    ]
+  },
+  {
+    "guaranteedDrop": 1,
+    "id": 112,
+    "itemId": [
+      -1,
+      7
+    ],
+    "ratio": [
+      9670,
+      330
+    ]
+  },
+  {
+    "guaranteedDrop": 1,
+    "id": 113,
+    "itemId": [
+      -1,
+      7
+    ],
+    "ratio": [
+      9670,
+      330
+    ]
+  },
+  {
+    "guaranteedDrop": 1,
+    "id": 121,
+    "itemId": [
+      -1,
+      14,
+      15,
+      16
+    ],
+    "ratio": [
+      9775,
+      200,
+      20,
+      5
+    ]
+  },
+  {
+    "guaranteedDrop": 1,
+    "id": 122,
+    "itemId": [
+      -1,
+      14,
+      15,
+      16
+    ],
+    "ratio": [
+      9775,
+      200,
+      20,
+      5
+    ]
+  },
+  {
+    "guaranteedDrop": 1,
+    "id": 123,
+    "itemId": [
+      -1,
+      14,
+      15,
+      16
+    ],
+    "ratio": [
+      9775,
+      200,
+      20,
+      5
+    ]
+  },
+  {
+    "guaranteedDrop": 1,
+    "id": 131,
+    "itemId": [
+      -1,
+      17,
+      18,
+      19
+    ],
+    "ratio": [
+      9660,
+      300,
+      30,
+      10
+    ]
+  },
+  {
+    "guaranteedDrop": 1,
+    "id": 132,
+    "itemId": [
+      -1,
+      17,
+      18,
+      19
+    ],
+    "ratio": [
+      9660,
+      300,
+      30,
+      10
+    ]
+  },
+  {
+    "guaranteedDrop": 1,
+    "id": 133,
+    "itemId": [
+      -1,
+      17,
+      18,
+      19
+    ],
+    "ratio": [
+      9660,
+      300,
+      30,
+      10
+    ]
+  },
+  {
+    "guaranteedDrop": 1,
+    "id": 211,
+    "itemId": [
+      -1,
+      20,
+      21
+    ],
+    "ratio": [
+      9637,
+      330,
+      33
+    ]
+  },
+  {
+    "guaranteedDrop": 1,
+    "id": 212,
+    "itemId": [
+      -1,
+      20,
+      21
+    ],
+    "ratio": [
+      9637,
+      330,
+      33
+    ]
+  },
+  {
+    "guaranteedDrop": 1,
+    "id": 213,
+    "itemId": [
+      -1,
+      20,
+      21
+    ],
+    "ratio": [
+      9637,
+      330,
+      33
+    ]
+  },
+  {
+    "guaranteedDrop": 1,
+    "id": 221,
+    "itemId": [
+      -1,
+      23,
+      24,
+      25
+    ],
+    "ratio": [
+      9665,
+      300,
+      30,
+      5
+    ]
+  },
+  {
+    "guaranteedDrop": 1,
+    "id": 222,
+    "itemId": [
+      -1,
+      23,
+      24,
+      25
+    ],
+    "ratio": [
+      9665,
+      300,
+      30,
+      5
+    ]
+  },
+  {
+    "guaranteedDrop": 1,
+    "id": 223,
+    "itemId": [
+      -1,
+      23,
+      24,
+      25
+    ],
+    "ratio": [
+      9665,
+      300,
+      30,
+      5
+    ]
+  },
+  {
+    "guaranteedDrop": 1,
+    "id": 231,
+    "itemId": [
+      -1,
+      26,
+      27,
+      28
+    ],
+    "ratio": [
+      9660,
+      300,
+      30,
+      10
+    ]
+  },
+  {
+    "guaranteedDrop": 1,
+    "id": 232,
+    "itemId": [
+      -1,
+      26,
+      27,
+      28
+    ],
+    "ratio": [
+      9660,
+      300,
+      30,
+      10
+    ]
+  },
+  {
+    "guaranteedDrop": 1,
+    "id": 233,
+    "itemId": [
+      -1,
+      26,
+      27,
+      28
+    ],
+    "ratio": [
+      9660,
+      300,
+      30,
+      10
+    ]
+  },
+  {
+    "guaranteedDrop": 1,
+    "id": 311,
+    "itemId": [
+      -1,
+      29,
+      30
+    ],
+    "ratio": [
+      9675,
+      300,
+      25
+    ]
+  },
+  {
+    "guaranteedDrop": 1,
+    "id": 312,
+    "itemId": [
+      -1,
+      29,
+      30
+    ],
+    "ratio": [
+      9675,
+      300,
+      25
+    ]
+  },
+  {
+    "guaranteedDrop": 1,
+    "id": 313,
+    "itemId": [
+      -1,
+      29,
+      30
+    ],
+    "ratio": [
+      9675,
+      300,
+      25
+    ]
+  },
+  {
+    "guaranteedDrop": 1,
+    "id": 321,
+    "itemId": [
+      -1,
+      32,
+      33,
+      34
+    ],
+    "ratio": [
+      9664,
+      300,
+      30,
+      6
+    ]
+  },
+  {
+    "guaranteedDrop": 1,
+    "id": 322,
+    "itemId": [
+      -1,
+      32,
+      33,
+      34
+    ],
+    "ratio": [
+      9664,
+      300,
+      30,
+      6
+    ]
+  },
+  {
+    "guaranteedDrop": 1,
+    "id": 323,
+    "itemId": [
+      -1,
+      32,
+      33,
+      34
+    ],
+    "ratio": [
+      9664,
+      300,
+      30,
+      6
+    ]
+  },
+  {
+    "guaranteedDrop": 1,
+    "id": 331,
+    "itemId": [
+      -1,
+      35,
+      36,
+      37
+    ],
+    "ratio": [
+      9650,
+      300,
+      40,
+      10
+    ]
+  },
+  {
+    "guaranteedDrop": 1,
+    "id": 332,
+    "itemId": [
+      -1,
+      35,
+      36,
+      37
+    ],
+    "ratio": [
+      9650,
+      300,
+      40,
+      10
+    ]
+  },
+  {
+    "guaranteedDrop": 1,
+    "id": 333,
+    "itemId": [
+      -1,
+      35,
+      36,
+      37
+    ],
+    "ratio": [
+      9650,
+      300,
+      40,
+      10
+    ]
+  },
+  {
+    "guaranteedDrop": 1,
+    "id": 401,
+    "itemId": [
+      -1,
+      20,
+      21
+    ],
+    "ratio": [
+      9637,
+      330,
+      33
+    ]
+  },
+  {
+    "guaranteedDrop": 1,
+    "id": 402,
+    "itemId": [
+      -1,
+      23,
+      24,
+      25
+    ],
+    "ratio": [
+      9665,
+      300,
+      30,
+      5
+    ]
+  },
+  {
+    "guaranteedDrop": 1,
+    "id": 403,
+    "itemId": [
+      -1,
+      26,
+      27,
+      28
+    ],
+    "ratio": [
+      9660,
+      300,
+      30,
+      10
+    ]
+  },
+  {
+    "guaranteedDrop": 1,
+    "id": 1101,
+    "itemId": [
+      -1,
+      2,
+      48,
+      13,
+      38
+    ],
+    "ratio": [
+      990,
+      2,
+      2,
+      2,
+      4
+    ]
+  },
+  {
+    "guaranteedDrop": 1,
+    "id": 1201,
+    "itemId": [
+      -1,
+      2,
+      51,
+      13,
+      41
+    ],
+    "ratio": [
+      990,
+      2,
+      2,
+      2,
+      4
+    ]
+  },
+  {
+    "guaranteedDrop": 1,
+    "id": 1301,
+    "itemId": [
+      -1,
+      2,
+      54,
+      13,
+      44
+    ],
+    "ratio": [
+      990,
+      2,
+      2,
+      2,
+      4
+    ]
+  },
+  {
+    "guaranteedDrop": 1,
+    "id": 2101,
+    "itemId": [
+      -1,
+      2,
+      49,
+      13,
+      39
+    ],
+    "ratio": [
+      990,
+      2,
+      2,
+      2,
+      4
+    ]
+  },
+  {
+    "guaranteedDrop": 1,
+    "id": 2201,
+    "itemId": [
+      -1,
+      2,
+      52,
+      13,
+      42
+    ],
+    "ratio": [
+      990,
+      2,
+      2,
+      2,
+      4
+    ]
+  },
+  {
+    "guaranteedDrop": 1,
+    "id": 2301,
+    "itemId": [
+      -1,
+      2,
+      55,
+      13,
+      45
+    ],
+    "ratio": [
+      990,
+      2,
+      2,
+      2,
+      4
+    ]
+  },
+  {
+    "guaranteedDrop": 1,
+    "id": 3101,
+    "itemId": [
+      -1,
+      2,
+      50,
+      13,
+      40
+    ],
+    "ratio": [
+      990,
+      2,
+      2,
+      2,
+      4
+    ]
+  },
+  {
+    "guaranteedDrop": 1,
+    "id": 3201,
+    "itemId": [
+      -1,
+      2,
+      53,
+      13,
+      43
+    ],
+    "ratio": [
+      990,
+      2,
+      2,
+      2,
+      4
+    ]
+  },
+  {
+    "guaranteedDrop": 1,
+    "id": 3301,
+    "itemId": [
+      -1,
+      2,
+      56,
+      13,
+      46
+    ],
+    "ratio": [
+      990,
+      2,
+      2,
+      2,
+      4
+    ]
+  },
+  {
+    "guaranteedDrop": 1,
+    "id": 4001,
+    "itemId": [
+      -1,
+      2,
+      57,
+      13,
+      47
+    ],
+    "ratio": [
+      990,
+      2,
+      2,
+      2,
+      4
+    ]
+  }
+]

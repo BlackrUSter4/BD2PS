@@ -1,0 +1,407 @@
+[
+  {
+    "groupId": 1,
+    "id": 1,
+    "spawnMonsterId": 1001,
+    "spawnTime": 500,
+    "spawnValue": 60,
+    "waitingTime": 30000.0
+  },
+  {
+    "groupId": 1,
+    "id": 2,
+    "spawnMonsterId": 1002,
+    "spawnTime": 500,
+    "spawnValue": 60,
+    "waitingTime": 30000.0
+  },
+  {
+    "groupId": 1,
+    "id": 3,
+    "spawnMonsterId": 1003,
+    "spawnTime": 500,
+    "spawnValue": 60,
+    "waitingTime": 30000.0
+  },
+  {
+    "groupId": 1,
+    "id": 4,
+    "spawnMonsterId": 1004,
+    "spawnTime": 750,
+    "spawnValue": 40,
+    "waitingTime": 30000.0
+  },
+  {
+    "groupId": 1,
+    "id": 5,
+    "spawnMonsterId": 1005,
+    "spawnTime": 1000,
+    "spawnValue": 30,
+    "waitingTime": 30000.0
+  },
+  {
+    "groupId": 1,
+    "id": 6,
+    "spawnMonsterId": 1006,
+    "spawnTime": 250,
+    "spawnValue": 120,
+    "waitingTime": 30000.0
+  },
+  {
+    "groupId": 1,
+    "id": 7,
+    "spawnMonsterId": 1007,
+    "spawnTime": 500,
+    "spawnValue": 60,
+    "waitingTime": 30000.0
+  },
+  {
+    "groupId": 1,
+    "id": 8,
+    "spawnMonsterId": 1008,
+    "spawnTime": 330,
+    "spawnValue": 90,
+    "waitingTime": 30000.0
+  },
+  {
+    "groupId": 1,
+    "id": 9,
+    "spawnMonsterId": 1009,
+    "spawnTime": 500,
+    "spawnValue": 60,
+    "waitingTime": 30000.0
+  },
+  {
+    "groupId": 1,
+    "id": 10,
+    "spawnMonsterId": 1010,
+    "spawnTime": 1530,
+    "spawnValue": 5,
+    "waitingTime": 45000.0,
+    "waveType": 1
+  },
+  {
+    "groupId": 1,
+    "id": 11,
+    "spawnMonsterId": 1011,
+    "spawnTime": 500,
+    "spawnValue": 70,
+    "waitingTime": 35000.0
+  },
+  {
+    "groupId": 1,
+    "id": 12,
+    "spawnMonsterId": 1012,
+    "spawnTime": 330,
+    "spawnValue": 105,
+    "waitingTime": 35000.0
+  },
+  {
+    "groupId": 1,
+    "id": 13,
+    "spawnMonsterId": 1013,
+    "spawnTime": 500,
+    "spawnValue": 70,
+    "waitingTime": 35000.0
+  },
+  {
+    "groupId": 1,
+    "id": 14,
+    "spawnMonsterId": 1014,
+    "spawnTime": 1940,
+    "spawnValue": 18,
+    "waitingTime": 35000.0
+  },
+  {
+    "groupId": 1,
+    "id": 15,
+    "spawnMonsterId": 1015,
+    "spawnTime": 500,
+    "spawnValue": 70,
+    "waitingTime": 35000.0
+  },
+  {
+    "groupId": 1,
+    "id": 16,
+    "spawnMonsterId": 1016,
+    "spawnTime": 250,
+    "spawnValue": 140,
+    "waitingTime": 35000.0
+  },
+  {
+    "groupId": 1,
+    "id": 17,
+    "spawnMonsterId": 1017,
+    "spawnTime": 500,
+    "spawnValue": 70,
+    "waitingTime": 35000.0
+  },
+  {
+    "groupId": 1,
+    "id": 18,
+    "spawnMonsterId": 1018,
+    "spawnTime": 1000,
+    "spawnValue": 35,
+    "waitingTime": 35000.0
+  },
+  {
+    "groupId": 1,
+    "id": 19,
+    "spawnMonsterId": 1019,
+    "spawnTime": 1000,
+    "spawnValue": 35,
+    "waitingTime": 35000.0
+  },
+  {
+    "groupId": 1,
+    "id": 20,
+    "spawnMonsterId": 1020,
+    "spawnTime": 1,
+    "spawnValue": 1,
+    "waitingTime": 60000.0,
+    "waveType": 1
+  },
+  {
+    "groupId": 1,
+    "id": 21,
+    "spawnMonsterId": 1021,
+    "spawnTime": 500,
+    "spawnValue": 80,
+    "waitingTime": 40000.0
+  },
+  {
+    "groupId": 1,
+    "id": 22,
+    "spawnMonsterId": 1022,
+    "spawnTime": 1000,
+    "spawnValue": 40,
+    "waitingTime": 40000.0
+  },
+  {
+    "groupId": 1,
+    "id": 23,
+    "spawnMonsterId": 1023,
+    "spawnTime": 250,
+    "spawnValue": 160,
+    "waitingTime": 40000.0
+  },
+  {
+    "groupId": 1,
+    "id": 24,
+    "spawnMonsterId": 1024,
+    "spawnTime": 500,
+    "spawnValue": 80,
+    "waitingTime": 40000.0
+  },
+  {
+    "groupId": 1,
+    "id": 25,
+    "spawnMonsterId": 1025,
+    "spawnTime": 2000,
+    "spawnValue": 20,
+    "waitingTime": 40000.0
+  },
+  {
+    "groupId": 1,
+    "id": 26,
+    "spawnMonsterId": 1026,
+    "spawnTime": 250,
+    "spawnValue": 160,
+    "waitingTime": 40000.0
+  },
+  {
+    "groupId": 1,
+    "id": 27,
+    "spawnMonsterId": 1027,
+    "spawnTime": 1000,
+    "spawnValue": 40,
+    "waitingTime": 40000.0
+  },
+  {
+    "groupId": 1,
+    "id": 28,
+    "spawnMonsterId": 1028,
+    "spawnTime": 1000,
+    "spawnValue": 40,
+    "waitingTime": 40000.0
+  },
+  {
+    "groupId": 1,
+    "id": 29,
+    "spawnMonsterId": 1029,
+    "spawnTime": 500,
+    "spawnValue": 80,
+    "waitingTime": 40000.0
+  },
+  {
+    "groupId": 1,
+    "id": 30,
+    "spawnMonsterId": 1030,
+    "spawnTime": 45000,
+    "spawnValue": 2,
+    "waitingTime": 90000.0,
+    "waveType": 1
+  },
+  {
+    "groupId": 1,
+    "id": 31,
+    "spawnMonsterId": 1031,
+    "spawnTime": 1000,
+    "spawnValue": 45,
+    "waitingTime": 45000.0
+  },
+  {
+    "groupId": 1,
+    "id": 32,
+    "spawnMonsterId": 1032,
+    "spawnTime": 2250,
+    "spawnValue": 20,
+    "waitingTime": 45000.0
+  },
+  {
+    "groupId": 1,
+    "id": 33,
+    "spawnMonsterId": 1033,
+    "spawnTime": 500,
+    "spawnValue": 90,
+    "waitingTime": 45000.0
+  },
+  {
+    "groupId": 1,
+    "id": 34,
+    "spawnMonsterId": 1034,
+    "spawnTime": 1000,
+    "spawnValue": 45,
+    "waitingTime": 45000.0
+  },
+  {
+    "groupId": 1,
+    "id": 35,
+    "spawnMonsterId": 1035,
+    "spawnTime": 330,
+    "spawnValue": 135,
+    "waitingTime": 45000.0
+  },
+  {
+    "groupId": 1,
+    "id": 36,
+    "spawnMonsterId": 1036,
+    "spawnTime": 500,
+    "spawnValue": 90,
+    "waitingTime": 45000.0
+  },
+  {
+    "groupId": 1,
+    "id": 37,
+    "spawnMonsterId": 1037,
+    "spawnTime": 500,
+    "spawnValue": 90,
+    "waitingTime": 45000.0
+  },
+  {
+    "groupId": 1,
+    "id": 38,
+    "spawnMonsterId": 1038,
+    "spawnTime": 1000,
+    "spawnValue": 45,
+    "waitingTime": 45000.0
+  },
+  {
+    "groupId": 1,
+    "id": 39,
+    "spawnMonsterId": 1039,
+    "spawnTime": 250,
+    "spawnValue": 180,
+    "waitingTime": 45000.0
+  },
+  {
+    "groupId": 1,
+    "id": 40,
+    "spawnMonsterId": 1040,
+    "spawnTime": 2500,
+    "spawnValue": 3,
+    "waitingTime": 90000.0,
+    "waveType": 1
+  },
+  {
+    "groupId": 1,
+    "id": 41,
+    "spawnMonsterId": 1041,
+    "spawnTime": 500,
+    "spawnValue": 100,
+    "waitingTime": 50000.0
+  },
+  {
+    "groupId": 1,
+    "id": 42,
+    "spawnMonsterId": 1042,
+    "spawnTime": 500,
+    "spawnValue": 100,
+    "waitingTime": 50000.0
+  },
+  {
+    "groupId": 1,
+    "id": 43,
+    "spawnMonsterId": 1043,
+    "spawnTime": 250,
+    "spawnValue": 200,
+    "waitingTime": 50000.0
+  },
+  {
+    "groupId": 1,
+    "id": 44,
+    "spawnMonsterId": 1044,
+    "spawnTime": 500,
+    "spawnValue": 100,
+    "waitingTime": 50000.0
+  },
+  {
+    "groupId": 1,
+    "id": 45,
+    "spawnMonsterId": 1045,
+    "spawnTime": 2000,
+    "spawnValue": 25,
+    "waitingTime": 50000.0
+  },
+  {
+    "groupId": 1,
+    "id": 46,
+    "spawnMonsterId": 1046,
+    "spawnTime": 1000,
+    "spawnValue": 50,
+    "waitingTime": 50000.0
+  },
+  {
+    "groupId": 1,
+    "id": 47,
+    "spawnMonsterId": 1047,
+    "spawnTime": 500,
+    "spawnValue": 100,
+    "waitingTime": 50000.0
+  },
+  {
+    "groupId": 1,
+    "id": 48,
+    "spawnMonsterId": 1048,
+    "spawnTime": 500,
+    "spawnValue": 100,
+    "waitingTime": 50000.0
+  },
+  {
+    "groupId": 1,
+    "id": 49,
+    "spawnMonsterId": 1049,
+    "spawnTime": 500,
+    "spawnValue": 100,
+    "waitingTime": 50000.0
+  },
+  {
+    "groupId": 1,
+    "id": 50,
+    "spawnMonsterId": 1050,
+    "spawnTime": 1,
+    "spawnValue": 1,
+    "waitingTime": 120000.0,
+    "waveType": 1
+  }
+]

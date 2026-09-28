@@ -1,0 +1,20 @@
+[
+  {
+    "aggroDecreaseValue": 0.1,
+    "alertStateBuffId": 18,
+    "blowDamageSoundName": "event:/Characters/PC/Common/Minigame/Action/Char001/Char001_Damage_Combo_01",
+    "brokenBuffId": 29,
+    "cutDamageSoundName": "event:/Characters/PC/Common/Minigame/Action/Char001/Char001_Damage_Combo_01",
+    "damageLimit": 3000,
+    "emergencyHpRate": 0.3,
+    "eventMissionGroupId": 6003,
+    "healEffectPrefabName": "HealEff_1",
+    "justDodgeEffectPrefabName": "JustDodge_1",
+    "justDodgeInvincibleTime": 2.0,
+    "loadingLimit": 15000,
+    "outGameBgmName": "Minigame/BGM_Action_Out",
+    "rageDamageValue": 0.2,
+    "rankMaxCount": 10,
+    "skillHoldThreshold": 0.3
+  }
+]

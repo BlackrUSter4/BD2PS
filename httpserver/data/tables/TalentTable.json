@@ -1,0 +1,8 @@
+[
+  { "banPackId": [ 3009, 3010 ], "changeOff": 1, "classType": 1, "fixedButtonHidden": 1, "growthGroupId": 114, "id": 114, "isSkip": 2, "maxLevel": 4, "talentDescNameTextId": 25501, "talentEffect": "0", "talentMark": "0", "talentNameTextId": 25001, "talentSkillGroupId": 114 },
+  { "banPackId": [ 3010 ], "changeOff": 1, "classType": 6, "growthGroupId": 605, "id": 605, "isSkip": 1, "maxLevel": 5, "talentDescNameTextId": 25506, "talentEffect": "Talent_Buff006_Eff", "talentMark": "Talent_Buff006_Mark", "talentNameTextId": 25006, "talentSkillGroupId": 605 },
+  { "banPackId": [ 3010 ], "changeOff": 1, "classType": 7, "growthGroupId": 705, "id": 705, "isSkip": 2, "maxLevel": 5, "skillEffectTalk1": 5200038, "skillEffectTalk2": 5200039, "talentDescNameTextId": 25507, "talentEffect": "0", "talentMark": "0", "talentNameTextId": 25007, "talentSkillGroupId": 705 },
+  { "banPackId": [ 3009, 3010 ], "changeOff": 1, "classType": 1, "fixedButtonHidden": 1, "growthGroupId": 105, "id": 105, "isSkip": 2, "maxLevel": 5, "talentDescNameTextId": 25501, "talentEffect": "0", "talentMark": "0", "talentNameTextId": 25001, "talentSkillGroupId": 105 },
+  { "banPackId": [ 3010 ], "classType": 14, "growthGroupId": 1404, "id": 1404, "maxLevel": 4, "talentDescNameTextId": 25514, "talentEffect": "0", "talentMark": "0", "talentNameTextId": 25014, "talentSkillGroupId": 1404 },
+  { "banPackId": [ 3010 ], "changeOff": 1, "classType": 10, "growthGroupId": 1005, "id": 1005, "isSkip": 2, "maxLevel": 5, "talentDescNameTextId": 25510, "talentEffect": "0", "talentMark": "0", "talentNameTextId": 25010, "talentSkillGroupId": 1005 }
+]

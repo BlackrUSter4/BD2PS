@@ -1,0 +1,367 @@
+[
+  {
+    "alwaysGroupId": 1,
+    "id": 1,
+    "titleLocalTextId": "31100101"
+  },
+  {
+    "alwaysGroupId": 2,
+    "id": 2,
+    "titleLocalTextId": "31100102"
+  },
+  {
+    "alwaysGroupId": 3,
+    "id": 3,
+    "titleLocalTextId": "31100104"
+  },
+  {
+    "alwaysGroupId": 4,
+    "id": 4,
+    "titleLocalTextId": "31100105"
+  },
+  {
+    "alwaysGroupId": 5,
+    "id": 5,
+    "titleLocalTextId": "31100106"
+  },
+  {
+    "alwaysGroupId": 6,
+    "id": 6,
+    "titleLocalTextId": "31100107"
+  },
+  {
+    "alwaysGroupId": 7,
+    "id": 7,
+    "titleLocalTextId": "31100108"
+  },
+  {
+    "alwaysGroupId": 8,
+    "id": 8,
+    "titleLocalTextId": "31100109"
+  },
+  {
+    "alwaysGroupId": 9,
+    "id": 9,
+    "titleLocalTextId": "31100110"
+  },
+  {
+    "alwaysGroupId": 10,
+    "id": 10,
+    "titleLocalTextId": "31100111"
+  },
+  {
+    "alwaysGroupId": 11,
+    "id": 11,
+    "titleLocalTextId": "31100112"
+  },
+  {
+    "alwaysGroupId": 12,
+    "id": 12,
+    "titleLocalTextId": "31100113"
+  },
+  {
+    "alwaysGroupId": 13,
+    "id": 13,
+    "titleLocalTextId": "31100114"
+  },
+  {
+    "alwaysGroupId": 14,
+    "id": 14,
+    "titleLocalTextId": "31100115"
+  },
+  {
+    "alwaysGroupId": 15,
+    "id": 15,
+    "titleLocalTextId": "31100116"
+  },
+  {
+    "alwaysGroupId": 16,
+    "id": 16,
+    "titleLocalTextId": "31100117"
+  },
+  {
+    "alwaysGroupId": 17,
+    "id": 17,
+    "titleLocalTextId": "31100107"
+  },
+  {
+    "alwaysGroupId": 18,
+    "id": 18,
+    "titleLocalTextId": "31100118"
+  },
+  {
+    "alwaysGroupId": 19,
+    "id": 19,
+    "titleLocalTextId": "31100112"
+  },
+  {
+    "alwaysGroupId": 20,
+    "id": 20,
+    "titleLocalTextId": "31100119"
+  },
+  {
+    "alwaysGroupId": 21,
+    "id": 21,
+    "titleLocalTextId": "31100120"
+  },
+  {
+    "alwaysGroupId": 22,
+    "id": 22,
+    "titleLocalTextId": "31100121"
+  },
+  {
+    "alwaysGroupId": 23,
+    "id": 23,
+    "titleLocalTextId": "31100122"
+  },
+  {
+    "alwaysGroupId": 24,
+    "id": 24,
+    "titleLocalTextId": "31100123"
+  },
+  {
+    "alwaysGroupId": 25,
+    "id": 25,
+    "titleLocalTextId": "31100124"
+  },
+  {
+    "alwaysGroupId": 26,
+    "id": 26,
+    "titleLocalTextId": "31100125"
+  },
+  {
+    "alwaysGroupId": 27,
+    "id": 27,
+    "titleLocalTextId": "31100126"
+  },
+  {
+    "alwaysGroupId": 28,
+    "id": 28,
+    "titleLocalTextId": "31100127"
+  },
+  {
+    "alwaysGroupId": 29,
+    "id": 29,
+    "titleLocalTextId": "31100128"
+  },
+  {
+    "alwaysGroupId": 30,
+    "id": 30,
+    "titleLocalTextId": "31100129"
+  },
+  {
+    "alwaysGroupId": 31,
+    "id": 31,
+    "titleLocalTextId": "31100130"
+  },
+  {
+    "alwaysGroupId": 32,
+    "id": 32,
+    "titleLocalTextId": "31100131"
+  },
+  {
+    "alwaysGroupId": 33,
+    "id": 33,
+    "titleLocalTextId": "31100132"
+  },
+  {
+    "alwaysGroupId": 34,
+    "id": 34,
+    "titleLocalTextId": "31100133"
+  },
+  {
+    "alwaysGroupId": 35,
+    "id": 35,
+    "titleLocalTextId": "31100134"
+  },
+  {
+    "alwaysGroupId": 36,
+    "id": 36,
+    "titleLocalTextId": "31100135"
+  },
+  {
+    "alwaysGroupId": 37,
+    "id": 37,
+    "titleLocalTextId": "31100136"
+  },
+  {
+    "alwaysGroupId": 38,
+    "id": 38,
+    "titleLocalTextId": "31100118"
+  },
+  {
+    "alwaysGroupId": 39,
+    "id": 39,
+    "titleLocalTextId": "31100137"
+  },
+  {
+    "alwaysGroupId": 40,
+    "id": 40,
+    "titleLocalTextId": "31100138"
+  },
+  {
+    "alwaysGroupId": 41,
+    "id": 41,
+    "titleLocalTextId": "31100139"
+  },
+  {
+    "alwaysGroupId": 42,
+    "id": 42,
+    "titleLocalTextId": "31100140"
+  },
+  {
+    "alwaysGroupId": 43,
+    "id": 43,
+    "titleLocalTextId": "31100141"
+  },
+  {
+    "alwaysGroupId": 44,
+    "id": 44,
+    "titleLocalTextId": "31100142"
+  },
+  {
+    "alwaysGroupId": 45,
+    "id": 45,
+    "titleLocalTextId": "31100143"
+  },
+  {
+    "alwaysGroupId": 46,
+    "id": 46,
+    "titleLocalTextId": "31100144"
+  },
+  {
+    "alwaysGroupId": 47,
+    "id": 47,
+    "titleLocalTextId": "31100145"
+  },
+  {
+    "alwaysGroupId": 48,
+    "id": 48,
+    "titleLocalTextId": "31100146"
+  },
+  {
+    "alwaysGroupId": 49,
+    "id": 49,
+    "titleLocalTextId": "31100147"
+  },
+  {
+    "alwaysGroupId": 50,
+    "id": 50,
+    "titleLocalTextId": "31100148"
+  },
+  {
+    "alwaysGroupId": 51,
+    "id": 51,
+    "titleLocalTextId": "31100149"
+  },
+  {
+    "alwaysGroupId": 52,
+    "id": 52,
+    "titleLocalTextId": "31100150"
+  },
+  {
+    "alwaysGroupId": 53,
+    "id": 53,
+    "titleLocalTextId": "31100151"
+  },
+  {
+    "alwaysGroupId": 54,
+    "id": 54,
+    "titleLocalTextId": "31100152"
+  },
+  {
+    "alwaysGroupId": 55,
+    "id": 55,
+    "titleLocalTextId": "31100153"
+  },
+  {
+    "alwaysGroupId": 56,
+    "id": 56,
+    "titleLocalTextId": "31100154"
+  },
+  {
+    "alwaysGroupId": 57,
+    "id": 57,
+    "titleLocalTextId": "31100157"
+  },
+  {
+    "alwaysGroupId": 58,
+    "id": 58,
+    "titleLocalTextId": "31100155"
+  },
+  {
+    "alwaysGroupId": 59,
+    "id": 59,
+    "titleLocalTextId": "31100156"
+  },
+  {
+    "alwaysGroupId": 60,
+    "id": 60,
+    "titleLocalTextId": "31100158"
+  },
+  {
+    "alwaysGroupId": 61,
+    "id": 61,
+    "titleLocalTextId": "31100159"
+  },
+  {
+    "alwaysGroupId": 62,
+    "id": 62,
+    "titleLocalTextId": "31100160"
+  },
+  {
+    "alwaysGroupId": 63,
+    "id": 63,
+    "titleLocalTextId": "31100161"
+  },
+  {
+    "alwaysGroupId": 64,
+    "id": 64,
+    "titleLocalTextId": "31100162"
+  },
+  {
+    "alwaysGroupId": 65,
+    "id": 65,
+    "titleLocalTextId": "31100163"
+  },
+  {
+    "alwaysGroupId": 66,
+    "id": 66,
+    "titleLocalTextId": "31100164"
+  },
+  {
+    "alwaysGroupId": 67,
+    "id": 67,
+    "titleLocalTextId": "31100165"
+  },
+  {
+    "alwaysGroupId": 68,
+    "id": 68,
+    "titleLocalTextId": "31100166"
+  },
+  {
+    "alwaysGroupId": 69,
+    "id": 69,
+    "titleLocalTextId": "31100167"
+  },
+  {
+    "alwaysGroupId": 70,
+    "id": 70,
+    "titleLocalTextId": "31100168"
+  },
+  {
+    "alwaysGroupId": 71,
+    "id": 71,
+    "titleLocalTextId": "31100169"
+  },
+  {
+    "alwaysGroupId": 72,
+    "id": 72,
+    "titleLocalTextId": "31100170"
+  },
+  {
+    "alwaysGroupId": 73,
+    "id": 73,
+    "titleLocalTextId": "31100171"
+  }
+]

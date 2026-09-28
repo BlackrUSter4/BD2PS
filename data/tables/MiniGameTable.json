@@ -1,0 +1,43 @@
+[
+  {
+    "answerIndex": [
+      1,
+      2,
+      3
+    ],
+    "gameType": 1,
+    "id": 1,
+    "prefabName": "GraphicInputUI1"
+  },
+  {
+    "answerIndex": [
+      2,
+      5
+    ],
+    "gameType": 1,
+    "id": 2,
+    "prefabName": "GraphicInputUI2"
+  },
+  {
+    "answerIndex": [
+      0,
+      8,
+      1,
+      7,
+      5
+    ],
+    "gameType": 1,
+    "id": 3,
+    "prefabName": "GraphicInputUI1"
+  },
+  {
+    "answerIndex": [
+      4,
+      0,
+      1
+    ],
+    "gameType": 1,
+    "id": 10021,
+    "prefabName": "GraphicInputUI2"
+  }
+]

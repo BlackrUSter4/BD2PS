@@ -1,0 +1,9 @@
+pub mod my_like_info;
+pub mod my_room_info;
+pub mod my_room_item_costume_info;
+pub mod my_room_preset_info;
+pub mod my_room_item_info;
+pub mod my_room_item_position_info;
+pub mod my_room_shop_info;
+pub mod my_room_trophy_info;
+pub mod my_room_user_info;

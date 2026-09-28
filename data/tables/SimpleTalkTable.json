@@ -1,0 +1,404 @@
+[
+  {
+    "dialogStoryTextId": 9011,
+    "faceIllustName": "illust_face000221_10",
+    "groupId": 501,
+    "id": 1,
+    "nameTextId": 2003,
+    "packIndex": "Pack 1",
+    "questGroupId": 9,
+    "voiceResourceName": "Common/Char000202/Char000202_Sigh"
+  },
+  {
+    "dialogStoryTextId": 9012,
+    "faceIllustName": "illust_face000103_3",
+    "groupId": 501,
+    "id": 2,
+    "nameTextId": 2001,
+    "packIndex": "Pack 1",
+    "questGroupId": 9
+  },
+  {
+    "dialogStoryTextId": 9013,
+    "faceIllustName": "illust_face000221_10",
+    "groupId": 501,
+    "id": 3,
+    "nameTextId": 2003,
+    "packIndex": "Pack 1",
+    "questGroupId": 9
+  },
+  {
+    "dialogStoryTextId": 9014,
+    "faceIllustName": "illust_face000221_10",
+    "groupId": 501,
+    "id": 4,
+    "nameTextId": 2003,
+    "packIndex": "Pack 1",
+    "questGroupId": 9
+  },
+  {
+    "dialogStoryTextId": 9021,
+    "faceIllustName": "illust_face100215_76",
+    "groupId": 502,
+    "id": 1,
+    "nameTextId": 2005,
+    "packIndex": "Pack 1",
+    "questGroupId": 11,
+    "voiceResourceName": "Common/Char100201/Char100201_Special1"
+  },
+  {
+    "dialogStoryTextId": 9022,
+    "faceIllustName": "illust_face000101_1",
+    "groupId": 502,
+    "id": 2,
+    "nameTextId": 2001,
+    "packIndex": "Pack 1",
+    "questGroupId": 11
+  },
+  {
+    "dialogStoryTextId": 9031,
+    "faceIllustName": "illust_face100201_16",
+    "groupId": 503,
+    "id": 1,
+    "nameTextId": 2005,
+    "packIndex": "Pack 1",
+    "questGroupId": 13,
+    "voiceResourceName": "Common/Char100201/Char100201_Special1"
+  },
+  {
+    "dialogStoryTextId": 9032,
+    "faceIllustName": "illust_face100101_13",
+    "groupId": 503,
+    "id": 2,
+    "nameTextId": 2004,
+    "packIndex": "Pack 1",
+    "questGroupId": 13
+  },
+  {
+    "dialogStoryTextId": 9033,
+    "faceIllustName": "illust_face100207_18",
+    "groupId": 503,
+    "id": 3,
+    "nameTextId": 2005,
+    "packIndex": "Pack 1",
+    "questGroupId": 13
+  },
+  {
+    "dialogStoryTextId": 9051,
+    "faceIllustName": "illust_face000227_93",
+    "groupId": 505,
+    "id": 1,
+    "nameTextId": 2019,
+    "packIndex": "Pack 1",
+    "questGroupId": 18,
+    "voiceResourceName": "Common/Char000202/Char000202_Hold"
+  },
+  {
+    "dialogStoryTextId": 9052,
+    "faceIllustName": "illust_face100215_76",
+    "groupId": 505,
+    "id": 2,
+    "nameTextId": 2005,
+    "packIndex": "Pack 1",
+    "questGroupId": 18
+  },
+  {
+    "dialogStoryTextId": 9053,
+    "faceIllustName": "illust_face100202_17",
+    "groupId": 505,
+    "id": 3,
+    "nameTextId": 2005,
+    "packIndex": "Pack 1",
+    "questGroupId": 18
+  },
+  {
+    "dialogStoryTextId": 9054,
+    "faceIllustName": "illust_face000115_81",
+    "groupId": 505,
+    "id": 4,
+    "nameTextId": 2001,
+    "packIndex": "Pack 1",
+    "questGroupId": 18
+  },
+  {
+    "dialogStoryTextId": 9055,
+    "faceIllustName": "illust_face100102_14",
+    "groupId": 505,
+    "id": 5,
+    "nameTextId": 2004,
+    "packIndex": "Pack 1",
+    "questGroupId": 18
+  },
+  {
+    "dialogStoryTextId": 9061,
+    "faceIllustName": "illust_face000202_6",
+    "groupId": 506,
+    "id": 1,
+    "nameTextId": 2019,
+    "packIndex": "Pack 1",
+    "questGroupId": 24,
+    "voiceResourceName": "Common/Char000202/Char000202_Sigh"
+  },
+  {
+    "dialogStoryTextId": 9062,
+    "faceIllustName": "illust_face000202_6",
+    "groupId": 506,
+    "id": 2,
+    "nameTextId": 2019,
+    "packIndex": "Pack 1",
+    "questGroupId": 24
+  },
+  {
+    "dialogStoryTextId": 9071,
+    "faceIllustName": "illust_face100103_74",
+    "groupId": 507,
+    "id": 1,
+    "nameTextId": 2004,
+    "packIndex": "Pack 1",
+    "questGroupId": 26,
+    "voiceResourceName": "Common/Char100101/Char100101_Embarrass"
+  },
+  {
+    "dialogStoryTextId": 9072,
+    "faceIllustName": "illust_face000227_93",
+    "groupId": 507,
+    "id": 2,
+    "nameTextId": 2019,
+    "packIndex": "Pack 1",
+    "questGroupId": 26
+  },
+  {
+    "dialogStoryTextId": 9073,
+    "faceIllustName": "illust_face100202_17",
+    "groupId": 507,
+    "id": 3,
+    "nameTextId": 2005,
+    "packIndex": "Pack 1",
+    "questGroupId": 26
+  },
+  {
+    "dialogStoryTextId": 9074,
+    "faceIllustName": "illust_face000227_93",
+    "groupId": 507,
+    "id": 4,
+    "nameTextId": 2019,
+    "packIndex": "Pack 1",
+    "questGroupId": 26
+  },
+  {
+    "dialogStoryTextId": 9081,
+    "faceIllustName": "illust_face000101_1",
+    "groupId": 508,
+    "id": 1,
+    "nameTextId": 2001,
+    "packIndex": "Pack 1",
+    "questGroupId": 28,
+    "voiceResourceName": "Common/Char000101/Char000101_Sigh"
+  },
+  {
+    "dialogStoryTextId": 9082,
+    "faceIllustName": "illust_face100301_19",
+    "groupId": 508,
+    "id": 2,
+    "nameTextId": 2006,
+    "packIndex": "Pack 1",
+    "questGroupId": 28
+  },
+  {
+    "dialogStoryTextId": 9083,
+    "faceIllustName": "illust_face100320_72",
+    "groupId": 508,
+    "id": 3,
+    "nameTextId": 2006,
+    "packIndex": "Pack 1",
+    "questGroupId": 28
+  },
+  {
+    "dialogStoryTextId": 9084,
+    "faceIllustName": "illust_face100101_13",
+    "groupId": 508,
+    "id": 4,
+    "nameTextId": 2004,
+    "packIndex": "Pack 1",
+    "questGroupId": 28
+  },
+  {
+    "dialogStoryTextId": 9085,
+    "faceIllustName": "illust_face100302_20",
+    "groupId": 508,
+    "id": 5,
+    "nameTextId": 2006,
+    "packIndex": "Pack 1",
+    "questGroupId": 28
+  },
+  {
+    "dialogStoryTextId": 9101,
+    "faceIllustName": "illust_face000115_81",
+    "groupId": 510,
+    "id": 1,
+    "nameTextId": 2001,
+    "packIndex": "Pack 1",
+    "questGroupId": 33,
+    "voiceResourceName": "Common/Char000101/Char000101_Special5"
+  },
+  {
+    "dialogStoryTextId": 9102,
+    "faceIllustName": "illust_face100201_16",
+    "groupId": 510,
+    "id": 2,
+    "nameTextId": 2005,
+    "packIndex": "Pack 1",
+    "questGroupId": 33
+  },
+  {
+    "dialogStoryTextId": 9103,
+    "faceIllustName": "illust_face000227_93",
+    "groupId": 510,
+    "id": 3,
+    "nameTextId": 2019,
+    "packIndex": "Pack 1",
+    "questGroupId": 33
+  },
+  {
+    "dialogStoryTextId": 9104,
+    "faceIllustName": "illust_face100102_14",
+    "groupId": 510,
+    "id": 4,
+    "nameTextId": 2004,
+    "packIndex": "Pack 1",
+    "questGroupId": 33
+  },
+  {
+    "dialogStoryTextId": 9105,
+    "faceIllustName": "illust_face100302_20",
+    "groupId": 510,
+    "id": 5,
+    "nameTextId": 2007,
+    "packIndex": "Pack 1",
+    "questGroupId": 33,
+    "voiceResourceName": "Common/Char100301/Char100301_Angry"
+  },
+  {
+    "dialogStoryTextId": 9290,
+    "faceIllustName": "illust_face000104_4",
+    "groupId": 538,
+    "id": 1,
+    "nameTextId": 2001,
+    "packIndex": "Pack 1",
+    "questGroupId": 44,
+    "voiceResourceName": "Common/Char000101/Char000101_Angry"
+  },
+  {
+    "dialogStoryTextId": 9291,
+    "faceIllustName": "illust_face000202_6",
+    "groupId": 538,
+    "id": 2,
+    "nameTextId": 2019,
+    "packIndex": "Pack 1",
+    "questGroupId": 44
+  },
+  {
+    "dialogStoryTextId": 9292,
+    "faceIllustName": "illust_face000202_6",
+    "groupId": 538,
+    "id": 3,
+    "nameTextId": 2019,
+    "packIndex": "Pack 1",
+    "questGroupId": 44
+  },
+  {
+    "dialogStoryTextId": 16701,
+    "faceIllustName": "illust_face000202_6",
+    "groupId": 558,
+    "id": 1,
+    "nameTextId": 2002,
+    "packIndex": "Pack 1",
+    "questGroupId": 103
+  },
+  {
+    "dialogStoryTextId": 16702,
+    "faceIllustName": "illust_face100203_78",
+    "groupId": 558,
+    "id": 2,
+    "nameTextId": 2005,
+    "packIndex": "Pack 1",
+    "questGroupId": 103
+  },
+  {
+    "dialogStoryTextId": 16703,
+    "faceIllustName": "illust_face000115_81",
+    "groupId": 558,
+    "id": 3,
+    "nameTextId": 2001,
+    "packIndex": "Pack 1",
+    "questGroupId": 103
+  },
+  {
+    "dialogStoryTextId": 16711,
+    "faceIllustName": "illust_face100207_18",
+    "groupId": 559,
+    "id": 1,
+    "nameTextId": 2005,
+    "packIndex": "Pack 1",
+    "questGroupId": 106
+  },
+  {
+    "dialogStoryTextId": 16712,
+    "faceIllustName": "illust_face000206_92",
+    "groupId": 559,
+    "id": 2,
+    "nameTextId": 2002,
+    "packIndex": "Pack 1",
+    "questGroupId": 106
+  },
+  {
+    "dialogStoryTextId": 16713,
+    "faceIllustName": "illust_face000122_80",
+    "groupId": 559,
+    "id": 3,
+    "nameTextId": 2001,
+    "packIndex": "Pack 1",
+    "questGroupId": 106
+  },
+  {
+    "dialogStoryTextId": 16721,
+    "faceIllustName": "illust_face000227_93",
+    "groupId": 560,
+    "id": 1,
+    "nameTextId": 2002,
+    "packIndex": "Pack 1",
+    "questGroupId": 108
+  },
+  {
+    "dialogStoryTextId": 16722,
+    "faceIllustName": "illust_face000115_81",
+    "groupId": 560,
+    "id": 2,
+    "nameTextId": 2001,
+    "packIndex": "Pack 1",
+    "questGroupId": 108
+  },
+  {
+    "dialogStoryTextId": 16723,
+    "faceIllustName": "illust_face100214_77",
+    "groupId": 560,
+    "id": 3,
+    "nameTextId": 2005,
+    "packIndex": "Pack 1",
+    "questGroupId": 108
+  },
+  {
+    "dialogStoryTextId": 33002,
+    "faceIllustName": "illust_face100207_18",
+    "groupId": 561,
+    "id": 1,
+    "nameTextId": 2005
+  },
+  {
+    "dialogStoryTextId": 33003,
+    "faceIllustName": "illust_face000117_83",
+    "groupId": 562,
+    "id": 1,
+    "nameTextId": 2001
+  }
+]

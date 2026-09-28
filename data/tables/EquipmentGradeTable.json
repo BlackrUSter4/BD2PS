@@ -1,0 +1,130 @@
+[
+  {
+    "equipGradeLocalTextId": 2330,
+    "id": 1,
+    "rankSmeltItemCount": [
+      20,
+      1
+    ],
+    "rankSmeltItemId": [
+      0,
+      10
+    ],
+    "rankSmeltItemType": [
+      4,
+      8
+    ]
+  },
+  {
+    "equipGradeLocalTextId": 2331,
+    "id": 2,
+    "rankSmeltItemCount": [
+      40,
+      5
+    ],
+    "rankSmeltItemId": [
+      0,
+      10
+    ],
+    "rankSmeltItemType": [
+      4,
+      8
+    ]
+  },
+  {
+    "equipGradeLocalTextId": 2332,
+    "id": 3,
+    "rankSmeltItemCount": [
+      60,
+      15
+    ],
+    "rankSmeltItemId": [
+      0,
+      10
+    ],
+    "rankSmeltItemType": [
+      4,
+      8
+    ]
+  },
+  {
+    "equipGradeLocalTextId": 2333,
+    "id": 4,
+    "rankSmeltItemCount": [
+      80,
+      30
+    ],
+    "rankSmeltItemId": [
+      0,
+      10
+    ],
+    "rankSmeltItemType": [
+      4,
+      8
+    ]
+  },
+  {
+    "equipGradeLocalTextId": 2330,
+    "id": 91,
+    "rankSmeltItemCount": [
+      20,
+      1
+    ],
+    "rankSmeltItemId": [
+      0,
+      10
+    ],
+    "rankSmeltItemType": [
+      4,
+      8
+    ]
+  },
+  {
+    "equipGradeLocalTextId": 2331,
+    "id": 92,
+    "rankSmeltItemCount": [
+      40,
+      5
+    ],
+    "rankSmeltItemId": [
+      0,
+      10
+    ],
+    "rankSmeltItemType": [
+      4,
+      8
+    ]
+  },
+  {
+    "equipGradeLocalTextId": 2332,
+    "id": 93,
+    "rankSmeltItemCount": [
+      60,
+      15
+    ],
+    "rankSmeltItemId": [
+      0,
+      10
+    ],
+    "rankSmeltItemType": [
+      4,
+      8
+    ]
+  },
+  {
+    "equipGradeLocalTextId": 2333,
+    "id": 94,
+    "rankSmeltItemCount": [
+      80,
+      30
+    ],
+    "rankSmeltItemId": [
+      0,
+      10
+    ],
+    "rankSmeltItemType": [
+      4,
+      8
+    ]
+  }
+]

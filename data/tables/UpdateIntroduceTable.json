@@ -1,0 +1,7 @@
+[
+  { "costumeIllustPath": "updateintrodue_pickup_bg151", "id": 225, "magicId": 21101, "orderId": 3, "resourcePath": "CutScene021101", "type": 5 },
+  { "id": 226, "orderId": 4, "resourcePath": "CutScene021291", "type": 6 },
+  { "costumeIllustPath": "updateintrodue_pickup_bg148", "id": 229, "magicId": 21301, "orderId": 1, "resourcePath": "CutScene021301", "type": 5 },
+  { "id": 230, "orderId": 2, "resourcePath": "CutScene021391", "type": 6 },
+  { "id": 231, "magicId": 11077, "orderId": 5, "resourcePath": "monster_video", "subMagicId": 4, "type": 2 }
+]

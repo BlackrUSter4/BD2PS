@@ -1,0 +1,52 @@
+[
+  {
+    "defaultCharacter": 1,
+    "eventMissionGroupId": 6003,
+    "feverGaugeTotal": 2480,
+    "feverMaxTouchableDivider": 70,
+    "hardJudgment": [
+      50,
+      50,
+      50
+    ],
+    "hardMissAvailable": 7,
+    "hardSlidingNoteSpace": 100,
+    "moreThanChallengeScore": 20,
+    "moreThanComboPivot": [
+      101,
+      201,
+      301
+    ],
+    "moreThanComboScore": [
+      10,
+      20,
+      30
+    ],
+    "nomalJudgment": [
+      100,
+      100,
+      100
+    ],
+    "normalMissAvailable": 18,
+    "normalSlidingNoteSpace": 150,
+    "notesTimingMax": 5,
+    "notesTimingMin": 5000,
+    "notesTimingSetting": -1000,
+    "recoveryHpJudgement": 10,
+    "score": [
+      2
+    ],
+    "scoreAccuracy": [
+      100,
+      95,
+      85
+    ],
+    "scoreAccuracyAddingPoint": [
+      90,
+      80,
+      70,
+      60,
+      0
+    ]
+  }
+]

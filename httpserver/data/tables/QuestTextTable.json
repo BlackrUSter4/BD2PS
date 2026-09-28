@@ -1,0 +1,9 @@
+[
+  { "date": "2025-03-20", "id": 1, "text": "오리지널", "textCn": "原作", "textEn": "Original", "textJp": "オリジナル", "textTw": "原創" },
+  { "date": "2025-03-20", "id": 18, "text": "흑마법사를 잡기 위해 찾아온 하얀 사신, 유스티아. 그리고 저주를 짊어진 소년, 라텔. 그들의 운명적인 만남이 시작된다.", "textCn": "为了抓获黑魔法师来到此地的皎洁死神——悠丝缇亚，以及背负诅咒的少年——拉德尔。两人命运般的相遇就此展开。", "textEn": "White Reaper Justia comes to hunt warlocks and meets the cursed boy, Lathel. This fateful encounter marks the beginning of their story.", "textJp": "黒魔術師を打倒すべく訪れた白の死神「ユースティア」。そして呪いを背負う青年「ラテル」。二人の運命の出会いがここに。", "textTw": "為了追捕黑魔法師而來的皎潔死神悠絲緹亞。以及背負詛咒的少年拉德爾。他們命運般的相遇就此展開。" },
+  { "date": "2024-02-14", "id": 500023, "text": "여관에서 정비하기", "textCn": "在旅馆整备", "textEn": "Rest at the inn", "textJp": "宿で整理する", "textTw": "於旅館整備" },
+  { "date": "2024-02-14", "id": 500049, "text": "집 밖으로 나가기", "textCn": "走出屋外", "textEn": "Exit the house", "textJp": "家の外に出る", "textTw": "走出屋外" },
+  { "date": "2024-02-14", "id": 10000, "text": "숲속에서 흑마법사에게 습격당한 라텔.\\n그를 구해낸 것은 정체불명의 하얀 검사였다.\\n하지만, 숲은 아직 위험하다.", "textCn": "拉德尔在森林里遭到黑魔法师的袭击，营救他的是一位不明身分的白色剑士。但是，森林里依旧充满了危险。", "textEn": "Lathel was ambushed by a warlock in the forest and saved by a mysterious white swordsman. But the forest is still dangerous.", "textJp": "森の中で黒魔術師に襲われたラテル。\\n彼を救ったのは正体不明の白い剣士だった。\\nしかし、森はまだ危険だ。", "textTw": "拉德爾在森林裡遭到黑魔法師的襲擊，營救他的是一位不明身分的白色劍士。但是，森林裡依舊充滿了危險。" },
+  { "date": "2025-03-20", "id": 3, "text": "학교", "textCn": "学校", "textEn": "School", "textJp": "学校", "textTw": "學校" },
+  { "date": "2025-03-20", "id": 33, "text": "차원문에 휘말려, 우연히 이세계의 고등학교에 다니게 된 유스티아. 원래 세계로 돌아가기 위한 유스티아의 분투기가 펼쳐진다.", "textCn": "被卷入次元门的悠丝缇亚碰巧成为了异世界一所高中的学生。为了返回原本的世界，悠丝缇亚的奋斗记就此展开。", "textEn": "Justia is swept into a Dimensional Door and accidentally ends up attending high school in another world. Her struggle to return to her original world begins.", "textJp": "次元の扉に巻き込まれ、偶然異世界の高校に通うことになったユースティア。元の世界に戻るためのユースティアの奮闘が始まる。", "textTw": "悠絲緹亞被捲入了次元門，偶然成為異世界的高中生。為了回到原本的世界，悠絲緹亞的奮鬥記就此展開。" }
+]

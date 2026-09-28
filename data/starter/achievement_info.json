@@ -1,0 +1,112 @@
+{
+  "achievementInfo": [
+    {
+      "groupId": 1,
+      "value": 150,
+      "maxClearId": 0,
+      "contentsGroup": 0
+    },
+    {
+      "groupId": 2,
+      "value": 12500,
+      "maxClearId": 0,
+      "contentsGroup": 0
+    },
+    {
+      "groupId": 18,
+      "value": 2,
+      "maxClearId": 0,
+      "contentsGroup": 0
+    },
+    {
+      "groupId": 19,
+      "value": 1,
+      "maxClearId": 0,
+      "contentsGroup": 0
+    },
+    {
+      "groupId": 77,
+      "value": 5,
+      "maxClearId": 0,
+      "contentsGroup": 0
+    },
+    {
+      "groupId": 79,
+      "value": 1,
+      "maxClearId": 0,
+      "contentsGroup": 0
+    },
+    {
+      "groupId": 100,
+      "value": 6,
+      "maxClearId": 0,
+      "contentsGroup": 0
+    },
+    {
+      "groupId": 101,
+      "value": 0,
+      "maxClearId": 0,
+      "contentsGroup": 0
+    },
+    {
+      "groupId": 106,
+      "value": 1,
+      "maxClearId": 0,
+      "contentsGroup": 0
+    },
+    {
+      "groupId": 347,
+      "value": 14,
+      "maxClearId": 0,
+      "contentsGroup": 0
+    },
+    {
+      "groupId": 349,
+      "value": 85,
+      "maxClearId": 0,
+      "contentsGroup": 0
+    },
+    {
+      "groupId": 356,
+      "value": 1,
+      "maxClearId": 0,
+      "contentsGroup": 0
+    },
+    {
+      "groupId": 373,
+      "value": 1,
+      "maxClearId": 0,
+      "contentsGroup": 0
+    },
+    {
+      "groupId": 394,
+      "value": 0,
+      "maxClearId": 0,
+      "contentsGroup": 0
+    },
+    {
+      "groupId": 395,
+      "value": 0,
+      "maxClearId": 0,
+      "contentsGroup": 0
+    },
+    {
+      "groupId": 396,
+      "value": 0,
+      "maxClearId": 0,
+      "contentsGroup": 0
+    },
+    {
+      "groupId": 2007,
+      "value": 0,
+      "maxClearId": 0,
+      "contentsGroup": 0
+    },
+    {
+      "groupId": 5001,
+      "value": 21,
+      "maxClearId": 0,
+      "contentsGroup": 0
+    }
+  ]
+}

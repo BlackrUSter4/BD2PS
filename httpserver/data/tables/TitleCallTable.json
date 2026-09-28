@@ -1,0 +1,11 @@
+[
+  { "JP": 1, "KR": 1, "Ratio": 1, "id": 1, "soundVoiceName": "Char000201_Titlecall_01" },
+  { "JP": 1, "KR": 1, "Ratio": 1, "id": 2, "soundVoiceName": "Char000301_Titlecall_01" },
+  { "JP": 1, "KR": 1, "Ratio": 1, "id": 3, "soundVoiceName": "Char000501_Titlecall_01" },
+  { "JP": 1, "Ratio": 1, "id": 7, "soundVoiceName": "Char002401_Titlecall_01" },
+  { "JP": 1, "Ratio": 1, "id": 8, "soundVoiceName": "Char000801_Titlecall_01" },
+  { "JP": 1, "Ratio": 1, "id": 9, "soundVoiceName": "Char001201_Titlecall_01" },
+  { "JP": 1, "Ratio": 1, "id": 10, "soundVoiceName": "Char001001_Titlecall_01" },
+  { "JP": 1, "Ratio": 1, "id": 14, "soundVoiceName": "Char000701_Titlecall_01" },
+  { "JP": 1, "Ratio": 1, "id": 15, "soundVoiceName": "Char001101_Titlecall_01" }
+]

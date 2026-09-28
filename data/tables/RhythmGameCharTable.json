@@ -1,0 +1,37 @@
+[
+  {
+    "costumeId": 67201,
+    "id": 1,
+    "itemDescNametextId": 7000002,
+    "itemIcon": "icon_rhythmcard_67201",
+    "itemTitleNametextId": 7000001
+  },
+  {
+    "costumeId": 61404,
+    "id": 2,
+    "itemDescNametextId": 7000004,
+    "itemIcon": "icon_rhythmcard_61404",
+    "itemTitleNametextId": 7000003
+  },
+  {
+    "costumeId": 707,
+    "id": 3,
+    "itemDescNametextId": 7000006,
+    "itemIcon": "icon_rhythmcard_707",
+    "itemTitleNametextId": 7000005
+  },
+  {
+    "costumeId": 1107,
+    "id": 4,
+    "itemDescNametextId": 7000008,
+    "itemIcon": "icon_rhythmcard_1107",
+    "itemTitleNametextId": 7000007
+  },
+  {
+    "costumeId": 3302,
+    "id": 5,
+    "itemDescNametextId": 7000010,
+    "itemIcon": "icon_rhythmcard_3302",
+    "itemTitleNametextId": 7000009
+  }
+]

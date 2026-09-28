@@ -1,0 +1,14 @@
+[
+  {
+    "evilCastleFloorMyRankMaxCount": 300,
+    "evilCastleFloorTopRankMaxCount": 300,
+    "evilCastleTotalMyRankMaxCount": 300,
+    "evilCastleTotalTopRankMaxCount": 300,
+    "mirrorWarMyRankMaxCount": 10000,
+    "mirrorWarTopRankMaxCount": 1000,
+    "monsterHuntMyRankMaxCount": 1000,
+    "monsterHuntTopRankMaxCount": 100,
+    "roguelikeMyRankMaxCount": 100,
+    "roguelikeTopRankMaxCount": 100
+  }
+]

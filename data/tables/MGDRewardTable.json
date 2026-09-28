@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "rewardCount": 1,
+    "rewardId": 2167,
+    "rewardLocalTextId": 125620,
+    "rewardType": 27,
+    "wave": 10
+  },
+  {
+    "id": 2,
+    "rewardCount": 1,
+    "rewardId": 3039,
+    "rewardLocalTextId": 125621,
+    "rewardType": 27,
+    "wave": 20
+  }
+]

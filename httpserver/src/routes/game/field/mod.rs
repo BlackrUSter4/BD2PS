@@ -1,0 +1,14 @@
+pub mod field_deck_info;
+pub mod field_deck_save;
+pub mod field_monster_damage;
+pub mod field_monster_event;
+pub mod field_monster_regen;
+pub mod field_monster_reward;
+pub mod field_object_info;
+pub mod field_object_position_update;
+pub mod field_object_preview;
+pub mod field_object_research;
+pub mod field_object_respawn;
+pub mod field_object_reward;
+pub mod field_object_reward_list;
+pub mod field_trap_info;

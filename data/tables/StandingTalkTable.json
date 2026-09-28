@@ -1,0 +1,1527 @@
+[
+  {
+    "groupId": 1001,
+    "id": 1,
+    "illustUniqueCharId": [
+      2,
+      1
+    ],
+    "state": 1
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1001,
+    "id": 2,
+    "illustCharAnimation": [
+      "feeling4"
+    ],
+    "illustUniqueCharId": [
+      2
+    ],
+    "state": 3
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1001,
+    "id": 3,
+    "illustCharAnimation": [
+      "feeling4"
+    ],
+    "illustUniqueCharId": [
+      2
+    ],
+    "state": 3
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1001,
+    "id": 4,
+    "illustCharAnimation": [
+      "feeling1"
+    ],
+    "illustUniqueCharId": [
+      2
+    ],
+    "state": 3
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1001,
+    "id": 5,
+    "state": 4
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1001,
+    "id": 6,
+    "illustCharAnimation": [
+      "blur_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      2,
+      1
+    ],
+    "state": 2,
+    "talkCharIndex": 1
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1001,
+    "id": 7,
+    "illustCharAnimation": [
+      "feeling2",
+      "blur_B"
+    ],
+    "illustUniqueCharId": [
+      2,
+      1
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1001,
+    "id": 8,
+    "illustCharAnimation": [
+      "blur_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      2,
+      1
+    ],
+    "state": 2,
+    "talkCharIndex": 1
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1001,
+    "id": 9,
+    "illustCharAnimation": [
+      "default_F",
+      "blur_B"
+    ],
+    "illustUniqueCharId": [
+      2,
+      1
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1001,
+    "id": 10,
+    "illustCharAnimation": [
+      "blur_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      2,
+      1
+    ],
+    "state": 2,
+    "talkCharIndex": 1
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1001,
+    "id": 11,
+    "illustCharAnimation": [
+      "blur_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      2,
+      1
+    ],
+    "state": 2,
+    "talkCharIndex": 1
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1001,
+    "id": 12,
+    "illustCharAnimation": [
+      "feeling4"
+    ],
+    "illustUniqueCharId": [
+      2
+    ],
+    "state": 3
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1001,
+    "id": 13,
+    "illustCharAnimation": [
+      "default_F"
+    ],
+    "illustUniqueCharId": [
+      2
+    ],
+    "state": 3
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1001,
+    "id": 14,
+    "illustCharAnimation": [
+      "feeling3"
+    ],
+    "illustUniqueCharId": [
+      2
+    ],
+    "state": 3
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1001,
+    "id": 15,
+    "illustCharAnimation": [
+      "feeling4"
+    ],
+    "illustUniqueCharId": [
+      2
+    ],
+    "state": 3
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1001,
+    "id": 16,
+    "illustCharAnimation": [
+      "feeling1"
+    ],
+    "illustUniqueCharId": [
+      2
+    ],
+    "state": 3
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1001,
+    "id": 17,
+    "state": 4
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1001,
+    "id": 18,
+    "illustCharAnimation": [
+      "feeling2"
+    ],
+    "illustUniqueCharId": [
+      1
+    ],
+    "state": 3
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1001,
+    "id": 19,
+    "illustCharAnimation": [
+      "feeling2"
+    ],
+    "illustUniqueCharId": [
+      1
+    ],
+    "state": 3
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1001,
+    "id": 20,
+    "illustCharAnimation": [
+      "default_F"
+    ],
+    "illustUniqueCharId": [
+      1
+    ],
+    "state": 3
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 1,
+    "illustUniqueCharId": [
+      2,
+      1
+    ],
+    "state": 1
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 2,
+    "illustCharAnimation": [
+      "default_F"
+    ],
+    "illustUniqueCharId": [
+      2
+    ],
+    "state": 3
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 3,
+    "illustCharAnimation": [
+      "feeling1"
+    ],
+    "illustUniqueCharId": [
+      2
+    ],
+    "state": 3
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 4,
+    "illustCharAnimation": [
+      "feeling2"
+    ],
+    "illustUniqueCharId": [
+      2
+    ],
+    "state": 3
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 5,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      1,
+      2
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 6,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      2,
+      1
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 7,
+    "illustCharAnimation": [
+      "feeling2",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      2,
+      1
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 8,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      1,
+      2
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 9,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      1,
+      2
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 10,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      2,
+      1
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 11,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      1,
+      2
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 12,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      2,
+      1
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 13,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      2,
+      1
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 14,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      2,
+      1
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 15,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      2,
+      1
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 16,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      1,
+      2
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 17,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      1,
+      2
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 18,
+    "illustCharAnimation": [
+      "feeling1",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      1,
+      2
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 19,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      2,
+      1
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 20,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      2,
+      1
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 21,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      1,
+      2
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 22,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      2,
+      1
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 23,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      2,
+      1
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 24,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      1,
+      2
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 25,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      1,
+      2
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 26,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      2,
+      1
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 27,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      1,
+      2
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 28,
+    "illustCharAnimation": [
+      "default_B",
+      "default_F"
+    ],
+    "illustUniqueCharId": [
+      1,
+      2
+    ],
+    "state": 2,
+    "talkCharIndex": 1
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 29,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      1,
+      2
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 30,
+    "illustCharAnimation": [
+      "default_B",
+      "default_F"
+    ],
+    "illustUniqueCharId": [
+      1,
+      2
+    ],
+    "state": 2,
+    "talkCharIndex": 1
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 31,
+    "illustCharAnimation": [
+      "feeling2",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      1,
+      2
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 32,
+    "illustCharAnimation": [
+      "default_B",
+      "default_F"
+    ],
+    "illustUniqueCharId": [
+      1,
+      2
+    ],
+    "state": 2,
+    "talkCharIndex": 1
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 33,
+    "illustCharAnimation": [
+      "feeling2",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      1,
+      2
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 34,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      2,
+      1
+    ],
+    "state": 2,
+    "talkCharIndex": 1
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 35,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      1,
+      2
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 36,
+    "illustCharAnimation": [
+      "feeling1",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      2,
+      1
+    ],
+    "state": 2,
+    "talkCharIndex": 1
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 37,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      1,
+      2
+    ],
+    "state": 2,
+    "talkCharIndex": 1
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 38,
+    "illustCharAnimation": [
+      "feeling1",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      1,
+      2
+    ],
+    "state": 2,
+    "talkCharIndex": 1
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 39,
+    "illustCharAnimation": [
+      "feeling3",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      2,
+      1
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 40,
+    "illustCharAnimation": [
+      "feeling2",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      2,
+      1
+    ],
+    "state": 2,
+    "talkCharIndex": 1
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 41,
+    "illustCharAnimation": [
+      "feeling1",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      1,
+      2
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 42,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      1,
+      2
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 43,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      2,
+      1
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 44,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      2,
+      1
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 45,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      1,
+      2
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 46,
+    "illustCharAnimation": [
+      "feeling1",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      2,
+      1
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 47,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      1,
+      2
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 48,
+    "illustCharAnimation": [
+      "feeling1",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      2,
+      1
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 49,
+    "illustCharAnimation": [
+      "feeling1",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      2,
+      1
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 50,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      1,
+      2
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 51,
+    "illustCharAnimation": [
+      "feeling1",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      2,
+      1
+    ],
+    "state": 2,
+    "talkCharIndex": 1
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 52,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      1,
+      2
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 53,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      1,
+      2
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 54,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      1,
+      2
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 55,
+    "illustCharAnimation": [
+      "default_B",
+      "default_F"
+    ],
+    "illustUniqueCharId": [
+      1,
+      2
+    ],
+    "state": 2,
+    "talkCharIndex": 1
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 56,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      1,
+      2
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 57,
+    "illustCharAnimation": [
+      "default_B",
+      "default_F"
+    ],
+    "illustUniqueCharId": [
+      1,
+      2
+    ],
+    "state": 2,
+    "talkCharIndex": 1
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 58,
+    "illustCharAnimation": [
+      "default_B",
+      "default_F"
+    ],
+    "illustUniqueCharId": [
+      1,
+      2
+    ],
+    "state": 2,
+    "talkCharIndex": 1
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 59,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      1,
+      2
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 60,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      2,
+      1
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 61,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      1,
+      2
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 62,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      1,
+      2
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 63,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      2,
+      1
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 64,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      2,
+      1
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 65,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      1,
+      2
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 66,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      2,
+      1
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 67,
+    "illustCharAnimation": [
+      "default_F"
+    ],
+    "illustUniqueCharId": [
+      1
+    ],
+    "state": 3
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 68,
+    "illustCharAnimation": [
+      "feeling2"
+    ],
+    "illustUniqueCharId": [
+      1
+    ],
+    "state": 3
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 69,
+    "state": 4
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 70,
+    "illustCharAnimation": [
+      "default_F"
+    ],
+    "illustUniqueCharId": [
+      2
+    ],
+    "state": 3
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 71,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      1,
+      1
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 72,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      2,
+      1
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 73,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      2,
+      1
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 74,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      1,
+      1
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 75,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      2,
+      1
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 76,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      2,
+      1
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 77,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      2,
+      1
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 78,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      1,
+      1
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 79,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      2,
+      1
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 80,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      1,
+      1
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 81,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      2,
+      1
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 82,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      1,
+      1
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 83,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      1,
+      1
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 84,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      2,
+      1
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 85,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      1,
+      1
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 86,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      2,
+      1
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 87,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      2,
+      1
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 88,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      1,
+      1
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 89,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      2,
+      1
+    ],
+    "state": 2
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 90,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      1
+    ],
+    "state": 3
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 91,
+    "illustCharAnimation": [
+      "default_F",
+      "default_B"
+    ],
+    "illustUniqueCharId": [
+      1
+    ],
+    "state": 3
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 92,
+    "state": 4
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 93,
+    "state": 4
+  },
+  {
+    "backgroundImgName": "map0001_background_3",
+    "groupId": 1002,
+    "id": 94,
+    "illustCharAnimation": [
+      "default_F"
+    ],
+    "illustUniqueCharId": [
+      2
+    ],
+    "state": 3
+  }
+]

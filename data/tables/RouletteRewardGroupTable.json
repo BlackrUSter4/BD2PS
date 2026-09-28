@@ -1,0 +1,13 @@
+[
+  { "groupId": 7, "id": 1, "probability": 2264, "rewardCount": 1, "rewardId": 127, "rewardType": 8, "slotType": 1 },
+  { "groupId": 7, "id": 2, "probability2": 1132, "rewardCount": 3000, "rewardId": 10, "rewardType": 8 },
+  { "groupId": 7, "id": 3, "probability": 378, "probability2": 377, "rewardCount": 50, "rewardId": 17, "rewardType": 8 },
+  { "groupId": 7, "id": 4, "probability": 378, "probability2": 377, "rewardCount": 150000, "rewardType": 4 },
+  { "groupId": 7, "id": 5, "probability": 943, "probability2": 1132, "rewardCount": 10, "rewardType": 23 },
+  { "groupId": 7, "id": 6, "probability": 943, "probability2": 1132, "rewardCount": 30000, "rewardType": 4 },
+  { "groupId": 7, "id": 7, "probability": 943, "probability2": 1132, "rewardCount": 10, "rewardType": 33 },
+  { "groupId": 7, "id": 8, "probability": 943, "probability2": 1132, "rewardCount": 2, "rewardId": 9, "rewardType": 8 },
+  { "groupId": 7, "id": 9, "probability": 943, "probability2": 1132, "rewardCount": 7, "rewardType": 24 },
+  { "groupId": 7, "id": 11, "probability": 943, "probability2": 1132, "rewardCount": 1, "rewardId": 1002, "rewardType": 8 },
+  { "groupId": 7, "id": 12, "probability": 1322, "probability2": 1322, "rewardCount": 2, "rewardId": 603, "rewardType": 8 }
+]

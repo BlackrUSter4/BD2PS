@@ -1,0 +1,26 @@
+{
+  "noticeInfo": {
+    "noticeContentsInfo": [
+      {
+        "type": "NCT_IMAGE",
+        "value": "https://bd2-cdn.akamaized.net/notice/live/1761210229689_할로윈 쿠폰_1080x590_EN.png"
+      },
+      {
+        "type": "NCT_IMAGE",
+        "value": "https://bd2-cdn.akamaized.net/notice/live/1761210229896_할로윈 쿠폰_660x1046_EN.png"
+      }
+    ],
+    "id": 8885,
+    "noticeType": "NT_POPUP_EVENT",
+    "title": "해피 할로윈! 으스스한 쿠폰 안내_EN",
+    "thumbnail": "https://bd2-cdn.akamaized.net/notice/live/1761210229304_notice.png",
+    "startTime": 1761267658000,
+    "endTime": 1762084798000,
+    "webUrl": "https://ppl.cm/akcmsZmO",
+    "promotionBannerId": 0,
+    "isPin": true,
+    "sort": 0,
+    "subType": 0,
+    "isInvert": false
+  }
+}

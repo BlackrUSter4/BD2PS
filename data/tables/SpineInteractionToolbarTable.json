@@ -1,0 +1,57 @@
+[
+  {
+    "IconSpriteName": "icon_interaction_toolbar_1"
+  },
+  {
+    "IconSpriteName": "icon_interaction_toolbar_2",
+    "id": 1
+  },
+  {
+    "IconSpriteName": "icon_interaction_toolbar_3",
+    "id": 2
+  },
+  {
+    "IconSpriteName": "icon_interaction_toolbar_4",
+    "id": 3
+  },
+  {
+    "IconSpriteName": "icon_interaction_toolbar_5",
+    "id": 4
+  },
+  {
+    "IconSpriteName": "icon_interaction_toolbar_6",
+    "id": 5
+  },
+  {
+    "IconSpriteName": "icon_interaction_toolbar_7",
+    "id": 6
+  },
+  {
+    "IconSpriteName": "icon_interaction_toolbar_8",
+    "id": 7
+  },
+  {
+    "IconSpriteName": "icon_interaction_toolbar_9",
+    "id": 8
+  },
+  {
+    "IconSpriteName": "icon_interaction_toolbar_10",
+    "id": 9
+  },
+  {
+    "IconSpriteName": "icon_interaction_toolbar_11",
+    "id": 10
+  },
+  {
+    "IconSpriteName": "icon_interaction_toolbar_12",
+    "id": 11
+  },
+  {
+    "IconSpriteName": "icon_interaction_toolbar_13",
+    "id": 12
+  },
+  {
+    "IconSpriteName": "icon_interaction_toolbar_14",
+    "id": 13
+  }
+]

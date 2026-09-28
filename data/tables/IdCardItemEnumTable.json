@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "maxEditCount": 1
+  },
+  {
+    "id": 2,
+    "maxEditCount": 1
+  },
+  {
+    "id": 3,
+    "maxEditCount": 1
+  },
+  {
+    "id": 4,
+    "maxEditCount": 30
+  },
+  {
+    "id": 5,
+    "maxEditCount": 30
+  },
+  {
+    "id": 6,
+    "maxEditCount": 1
+  }
+]

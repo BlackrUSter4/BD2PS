@@ -1,0 +1,102 @@
+[
+  {
+    "displayResourceName": "icon_guildmark_list1",
+    "id": 1,
+    "resourceName": "icon_guildmark1"
+  },
+  {
+    "displayResourceName": "icon_guildmark_list2",
+    "id": 2,
+    "resourceName": "icon_guildmark2"
+  },
+  {
+    "displayResourceName": "icon_guildmark_list3",
+    "id": 3,
+    "resourceName": "icon_guildmark3"
+  },
+  {
+    "displayResourceName": "icon_guildmark_list4",
+    "id": 4,
+    "resourceName": "icon_guildmark4"
+  },
+  {
+    "displayResourceName": "icon_guildmark_list5",
+    "id": 5,
+    "resourceName": "icon_guildmark5"
+  },
+  {
+    "displayResourceName": "icon_guildmark_list6",
+    "id": 6,
+    "resourceName": "icon_guildmark6"
+  },
+  {
+    "displayResourceName": "icon_guildmark_list7",
+    "id": 7,
+    "resourceName": "icon_guildmark7"
+  },
+  {
+    "displayResourceName": "icon_guildmark_list8",
+    "id": 8,
+    "resourceName": "icon_guildmark8"
+  },
+  {
+    "displayResourceName": "icon_guildmark_list9",
+    "id": 9,
+    "resourceName": "icon_guildmark9"
+  },
+  {
+    "displayResourceName": "icon_guildmark_list10",
+    "id": 10,
+    "resourceName": "icon_guildmark10"
+  },
+  {
+    "displayResourceName": "icon_guildmark_list11",
+    "id": 11,
+    "resourceName": "icon_guildmark11"
+  },
+  {
+    "displayResourceName": "icon_guildmark_list12",
+    "id": 12,
+    "resourceName": "icon_guildmark12"
+  },
+  {
+    "displayResourceName": "icon_guildmark_list13",
+    "id": 13,
+    "resourceName": "icon_guildmark13"
+  },
+  {
+    "displayResourceName": "icon_guildmark_list14",
+    "id": 14,
+    "resourceName": "icon_guildmark14"
+  },
+  {
+    "displayResourceName": "icon_guildmark_list15",
+    "id": 15,
+    "resourceName": "icon_guildmark15"
+  },
+  {
+    "displayResourceName": "icon_guildmark_list16",
+    "id": 16,
+    "resourceName": "icon_guildmark16"
+  },
+  {
+    "displayResourceName": "icon_guildmark_list17",
+    "id": 17,
+    "resourceName": "icon_guildmark17"
+  },
+  {
+    "displayResourceName": "icon_guildmark_list18",
+    "id": 18,
+    "resourceName": "icon_guildmark18"
+  },
+  {
+    "displayResourceName": "icon_guildmark_list19",
+    "id": 19,
+    "resourceName": "icon_guildmark19"
+  },
+  {
+    "displayResourceName": "icon_guildmark_list20",
+    "id": 20,
+    "resourceName": "icon_guildmark20"
+  }
+]

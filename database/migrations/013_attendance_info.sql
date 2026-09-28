@@ -1,0 +1,5 @@
+CREATE TABLE "AttendanceInfo" (
+    "Index" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "Uid" BIGINT NOT NULL,
+    "AttendanceTime" BIGINT NOT NULL
+);

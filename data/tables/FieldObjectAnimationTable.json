@@ -1,0 +1,47 @@
+[
+  {
+    "actionAnimationName": "BookShelf_OpenIdle",
+    "disableTimeline": [
+      "Quest_Main_44"
+    ],
+    "id": 1,
+    "idleAnimationName": "BookShelf",
+    "isEnableTimeline": 1,
+    "questRange": [
+      42
+    ]
+  },
+  {
+    "actionAnimationName": "Map0001_007_Door_OpenIdle",
+    "id": 2,
+    "idleAnimationName": "Map0001_007_Door",
+    "isEnableTimeline": 1,
+    "questRange": [
+      217
+    ]
+  },
+  {
+    "actionAnimationName": "Map0001_012_Door_OpenIdle",
+    "disableTimeline": [
+      "Quest_Npc06_16"
+    ],
+    "id": 3,
+    "idleAnimationName": "Map0001_012_Door",
+    "isEnableTimeline": 1,
+    "questRange": [
+      322
+    ]
+  },
+  {
+    "actionAnimationName": "Map0001_002_NPC_Barricade_Open",
+    "disableTimeline": [
+      "Quest_NPC_01_01"
+    ],
+    "id": 4,
+    "idleAnimationName": "Map0001_002_NPC_Barricade_Close",
+    "isEnableTimeline": 1,
+    "questRange": [
+      101
+    ]
+  }
+]

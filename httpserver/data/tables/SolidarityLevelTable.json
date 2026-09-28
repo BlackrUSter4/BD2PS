@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "solidarityLevelRequire": 100
+  },
+  {
+    "id": 2,
+    "rewardCount": [
+      2
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      3
+    ],
+    "solidarityLevelRequire": 150
+  },
+  {
+    "id": 3,
+    "rewardCount": [
+      5
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      3
+    ],
+    "solidarityLevelRequire": 250
+  },
+  {
+    "id": 4,
+    "rewardCount": [
+      8
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      3
+    ],
+    "solidarityLevelRequire": 350
+  },
+  {
+    "id": 5,
+    "rewardCount": [
+      12
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      3
+    ],
+    "solidarityLevelRequire": 500
+  },
+  {
+    "id": 6,
+    "rewardCount": [
+      16
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      3
+    ],
+    "solidarityLevelRequire": 650
+  },
+  {
+    "id": 7,
+    "rewardCount": [
+      20
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      3
+    ],
+    "solidarityLevelRequire": 800
+  },
+  {
+    "id": 8,
+    "rewardCount": [
+      25
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      3
+    ],
+    "solidarityLevelRequire": 1000
+  },
+  {
+    "id": 9,
+    "rewardCount": [
+      30
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      3
+    ],
+    "solidarityLevelRequire": 1200
+  },
+  {
+    "id": 10,
+    "rewardCount": [
+      32
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      3
+    ]
+  }
+]

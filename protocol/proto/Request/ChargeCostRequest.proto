@@ -1,0 +1,5 @@
+﻿
+message ChargeCostRequest {
+  optional int32 seq = 1;
+  repeated int32 element_type = 2;
+}

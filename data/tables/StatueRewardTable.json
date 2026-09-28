@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "rewardCount": 5000,
+    "rewardType": 4
+  },
+  {
+    "id": 2,
+    "rewardCount": 10000,
+    "rewardType": 4
+  },
+  {
+    "id": 3,
+    "rewardCount": 20000,
+    "rewardType": 4
+  },
+  {
+    "id": 4,
+    "rewardCount": 10000,
+    "rewardType": 4
+  }
+]

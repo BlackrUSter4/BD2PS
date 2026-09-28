@@ -1,0 +1,5 @@
+CREATE TABLE "LifeChunkInfo" (
+    "Index" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "Uid" BIGINT NOT NULL,
+    "ChunkId" INTEGER NOT NULL
+);

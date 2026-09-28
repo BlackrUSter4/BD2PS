@@ -1,0 +1,8 @@
+CREATE TABLE "FishingFishInfo" (
+    "InvenIndex" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "Uid" BIGINT NOT NULL,
+    "FishId" INTEGER NOT NULL,
+    "Size" INTEGER NOT NULL,
+    "TimeValue" BIGINT,
+    "IsLock" INTEGER NOT NULL DEFAULT 0
+);

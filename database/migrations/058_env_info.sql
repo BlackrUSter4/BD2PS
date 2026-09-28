@@ -1,0 +1,6 @@
+CREATE TABLE "EnvInfo" (
+    "Index" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "Uid" BIGINT NOT NULL,
+    "IsLive" INTEGER,
+    "UseSdk" INTEGER
+);

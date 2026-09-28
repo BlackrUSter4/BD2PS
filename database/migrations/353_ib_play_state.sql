@@ -1,0 +1,12 @@
+CREATE TABLE "IbPlayState" (
+    "Uid" BIGINT PRIMARY KEY,
+    "DungeonId" INTEGER NOT NULL DEFAULT 0,
+    "StageId" INTEGER NOT NULL DEFAULT 0,
+    "Life" INTEGER NOT NULL DEFAULT 3,
+    "Coin" INTEGER NOT NULL DEFAULT 0,
+    "Season" INTEGER NOT NULL DEFAULT 1,
+    "ShopReloadCount" INTEGER NOT NULL DEFAULT 0,
+    "IsStageEnter" BOOLEAN NOT NULL DEFAULT 0,
+    "CurrentBattleMode" INTEGER,
+    "CurrentRandomSeed" INTEGER
+);

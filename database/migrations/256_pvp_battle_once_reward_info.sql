@@ -1,0 +1,5 @@
+CREATE TABLE "PvpBattleOnceRewardInfo" (
+    "Index" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "Uid" BIGINT NOT NULL,
+    "OnceRewardInfo" INTEGER NOT NULL
+);

@@ -1,0 +1,1978 @@
+[
+  {
+    "afterMain1OptId": [
+      0
+    ],
+    "afterMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "afterPrivateOptGroupId": 4910011,
+    "afterPrivateOptId": 2,
+    "beforeMain1OptId": [
+      0
+    ],
+    "beforeMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "beforePrivateOptGroupId": 3910011,
+    "beforePrivateOptId": 4,
+    "equipId": 910011,
+    "groupId": 1,
+    "id": 1
+  },
+  {
+    "afterMain1OptId": [
+      0
+    ],
+    "afterMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "afterPrivateOptGroupId": 4911011,
+    "afterPrivateOptId": 2,
+    "beforeMain1OptId": [
+      0
+    ],
+    "beforeMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "beforePrivateOptGroupId": 3911011,
+    "beforePrivateOptId": 4,
+    "equipId": 911011,
+    "groupId": 1,
+    "id": 2
+  },
+  {
+    "afterMain1OptId": [
+      0
+    ],
+    "afterMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "afterPrivateOptGroupId": 4912011,
+    "afterPrivateOptId": 2,
+    "beforeMain1OptId": [
+      0
+    ],
+    "beforeMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "beforePrivateOptGroupId": 3912011,
+    "beforePrivateOptId": 4,
+    "equipId": 912011,
+    "groupId": 1,
+    "id": 3
+  },
+  {
+    "afterMain1OptId": [
+      0
+    ],
+    "afterMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "afterPrivateOptGroupId": 4913011,
+    "afterPrivateOptId": 2,
+    "beforeMain1OptId": [
+      0
+    ],
+    "beforeMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "beforePrivateOptGroupId": 3913011,
+    "beforePrivateOptId": 4,
+    "equipId": 913011,
+    "groupId": 1,
+    "id": 4
+  },
+  {
+    "afterMain1OptId": [
+      0
+    ],
+    "afterMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "afterPrivateOptGroupId": 4920011,
+    "afterPrivateOptId": 2,
+    "beforeMain1OptId": [
+      0
+    ],
+    "beforeMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "beforePrivateOptGroupId": 3920011,
+    "beforePrivateOptId": 4,
+    "equipId": 920011,
+    "groupId": 1,
+    "id": 5
+  },
+  {
+    "afterMain1OptId": [
+      0
+    ],
+    "afterMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "afterPrivateOptGroupId": 4921011,
+    "afterPrivateOptId": 2,
+    "beforeMain1OptId": [
+      0
+    ],
+    "beforeMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "beforePrivateOptGroupId": 3921011,
+    "beforePrivateOptId": 4,
+    "equipId": 921011,
+    "groupId": 1,
+    "id": 6
+  },
+  {
+    "afterMain1OptId": [
+      0
+    ],
+    "afterMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "afterPrivateOptGroupId": 4922011,
+    "afterPrivateOptId": 2,
+    "beforeMain1OptId": [
+      0
+    ],
+    "beforeMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "beforePrivateOptGroupId": 3922011,
+    "beforePrivateOptId": 4,
+    "equipId": 922011,
+    "groupId": 1,
+    "id": 7
+  },
+  {
+    "afterMain1OptId": [
+      0
+    ],
+    "afterMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "afterPrivateOptGroupId": 4923011,
+    "afterPrivateOptId": 2,
+    "beforeMain1OptId": [
+      0
+    ],
+    "beforeMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "beforePrivateOptGroupId": 3923011,
+    "beforePrivateOptId": 4,
+    "equipId": 923011,
+    "groupId": 1,
+    "id": 8
+  },
+  {
+    "afterMain1OptId": [
+      0
+    ],
+    "afterMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "afterPrivateOptGroupId": 4930011,
+    "afterPrivateOptId": 2,
+    "beforeMain1OptId": [
+      0
+    ],
+    "beforeMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "beforePrivateOptGroupId": 3930011,
+    "beforePrivateOptId": 4,
+    "equipId": 930011,
+    "groupId": 1,
+    "id": 9
+  },
+  {
+    "afterMain1OptId": [
+      0
+    ],
+    "afterMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "afterPrivateOptGroupId": 4931011,
+    "afterPrivateOptId": 2,
+    "beforeMain1OptId": [
+      0
+    ],
+    "beforeMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "beforePrivateOptGroupId": 3931011,
+    "beforePrivateOptId": 4,
+    "equipId": 931011,
+    "groupId": 1,
+    "id": 10
+  },
+  {
+    "afterMain1OptId": [
+      0
+    ],
+    "afterMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "afterPrivateOptGroupId": 4932011,
+    "afterPrivateOptId": 2,
+    "beforeMain1OptId": [
+      0
+    ],
+    "beforeMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "beforePrivateOptGroupId": 3932011,
+    "beforePrivateOptId": 4,
+    "equipId": 932011,
+    "groupId": 1,
+    "id": 11
+  },
+  {
+    "afterMain1OptId": [
+      0
+    ],
+    "afterMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "afterPrivateOptGroupId": 4933011,
+    "afterPrivateOptId": 2,
+    "beforeMain1OptId": [
+      0
+    ],
+    "beforeMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "beforePrivateOptGroupId": 3933011,
+    "beforePrivateOptId": 4,
+    "equipId": 933011,
+    "groupId": 1,
+    "id": 12
+  },
+  {
+    "afterMain1OptId": [
+      0
+    ],
+    "afterMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "afterPrivateOptGroupId": 4940011,
+    "afterPrivateOptId": 2,
+    "beforeMain1OptId": [
+      0
+    ],
+    "beforeMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "beforePrivateOptGroupId": 3940011,
+    "beforePrivateOptId": 4,
+    "equipId": 940011,
+    "groupId": 1,
+    "id": 13
+  },
+  {
+    "afterMain1OptId": [
+      0
+    ],
+    "afterMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "afterPrivateOptGroupId": 4941011,
+    "afterPrivateOptId": 2,
+    "beforeMain1OptId": [
+      0
+    ],
+    "beforeMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "beforePrivateOptGroupId": 3941011,
+    "beforePrivateOptId": 4,
+    "equipId": 941011,
+    "groupId": 1,
+    "id": 14
+  },
+  {
+    "afterMain1OptId": [
+      0
+    ],
+    "afterMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "afterPrivateOptGroupId": 4942011,
+    "afterPrivateOptId": 2,
+    "beforeMain1OptId": [
+      0
+    ],
+    "beforeMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "beforePrivateOptGroupId": 3942011,
+    "beforePrivateOptId": 4,
+    "equipId": 942011,
+    "groupId": 1,
+    "id": 15
+  },
+  {
+    "afterMain1OptId": [
+      0
+    ],
+    "afterMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "afterPrivateOptGroupId": 4943011,
+    "afterPrivateOptId": 2,
+    "beforeMain1OptId": [
+      0
+    ],
+    "beforeMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "beforePrivateOptGroupId": 3943011,
+    "beforePrivateOptId": 4,
+    "equipId": 943011,
+    "groupId": 1,
+    "id": 16
+  },
+  {
+    "afterMain1OptId": [
+      0
+    ],
+    "afterMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "afterPrivateOptGroupId": 4910012,
+    "afterPrivateOptId": 10,
+    "beforeMain1OptId": [
+      0
+    ],
+    "beforeMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "beforePrivateOptGroupId": 3910012,
+    "beforePrivateOptId": 9,
+    "equipId": 910012,
+    "groupId": 1,
+    "id": 17
+  },
+  {
+    "afterMain1OptId": [
+      0
+    ],
+    "afterMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "afterPrivateOptGroupId": 4911012,
+    "afterPrivateOptId": 10,
+    "beforeMain1OptId": [
+      0
+    ],
+    "beforeMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "beforePrivateOptGroupId": 3911012,
+    "beforePrivateOptId": 9,
+    "equipId": 911012,
+    "groupId": 1,
+    "id": 18
+  },
+  {
+    "afterMain1OptId": [
+      0
+    ],
+    "afterMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "afterPrivateOptGroupId": 4912012,
+    "afterPrivateOptId": 10,
+    "beforeMain1OptId": [
+      0
+    ],
+    "beforeMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "beforePrivateOptGroupId": 3912012,
+    "beforePrivateOptId": 9,
+    "equipId": 912012,
+    "groupId": 1,
+    "id": 19
+  },
+  {
+    "afterMain1OptId": [
+      0
+    ],
+    "afterMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "afterPrivateOptGroupId": 4913012,
+    "afterPrivateOptId": 10,
+    "beforeMain1OptId": [
+      0
+    ],
+    "beforeMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "beforePrivateOptGroupId": 3913012,
+    "beforePrivateOptId": 9,
+    "equipId": 913012,
+    "groupId": 1,
+    "id": 20
+  },
+  {
+    "afterMain1OptId": [
+      0
+    ],
+    "afterMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "afterPrivateOptGroupId": 4920012,
+    "afterPrivateOptId": 10,
+    "beforeMain1OptId": [
+      0
+    ],
+    "beforeMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "beforePrivateOptGroupId": 3920012,
+    "beforePrivateOptId": 9,
+    "equipId": 920012,
+    "groupId": 1,
+    "id": 21
+  },
+  {
+    "afterMain1OptId": [
+      0
+    ],
+    "afterMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "afterPrivateOptGroupId": 4921012,
+    "afterPrivateOptId": 10,
+    "beforeMain1OptId": [
+      0
+    ],
+    "beforeMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "beforePrivateOptGroupId": 3921012,
+    "beforePrivateOptId": 9,
+    "equipId": 921012,
+    "groupId": 1,
+    "id": 22
+  },
+  {
+    "afterMain1OptId": [
+      0
+    ],
+    "afterMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "afterPrivateOptGroupId": 4922012,
+    "afterPrivateOptId": 10,
+    "beforeMain1OptId": [
+      0
+    ],
+    "beforeMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "beforePrivateOptGroupId": 3922012,
+    "beforePrivateOptId": 9,
+    "equipId": 922012,
+    "groupId": 1,
+    "id": 23
+  },
+  {
+    "afterMain1OptId": [
+      0
+    ],
+    "afterMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "afterPrivateOptGroupId": 4923012,
+    "afterPrivateOptId": 10,
+    "beforeMain1OptId": [
+      0
+    ],
+    "beforeMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "beforePrivateOptGroupId": 3923012,
+    "beforePrivateOptId": 9,
+    "equipId": 923012,
+    "groupId": 1,
+    "id": 24
+  },
+  {
+    "afterMain1OptId": [
+      0
+    ],
+    "afterMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "afterPrivateOptGroupId": 4930012,
+    "afterPrivateOptId": 10,
+    "beforeMain1OptId": [
+      0
+    ],
+    "beforeMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "beforePrivateOptGroupId": 3930012,
+    "beforePrivateOptId": 9,
+    "equipId": 930012,
+    "groupId": 1,
+    "id": 25
+  },
+  {
+    "afterMain1OptId": [
+      0
+    ],
+    "afterMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "afterPrivateOptGroupId": 4931012,
+    "afterPrivateOptId": 10,
+    "beforeMain1OptId": [
+      0
+    ],
+    "beforeMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "beforePrivateOptGroupId": 3931012,
+    "beforePrivateOptId": 9,
+    "equipId": 931012,
+    "groupId": 1,
+    "id": 26
+  },
+  {
+    "afterMain1OptId": [
+      0
+    ],
+    "afterMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "afterPrivateOptGroupId": 4932012,
+    "afterPrivateOptId": 10,
+    "beforeMain1OptId": [
+      0
+    ],
+    "beforeMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "beforePrivateOptGroupId": 3932012,
+    "beforePrivateOptId": 9,
+    "equipId": 932012,
+    "groupId": 1,
+    "id": 27
+  },
+  {
+    "afterMain1OptId": [
+      0
+    ],
+    "afterMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "afterPrivateOptGroupId": 4933012,
+    "afterPrivateOptId": 10,
+    "beforeMain1OptId": [
+      0
+    ],
+    "beforeMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "beforePrivateOptGroupId": 3933012,
+    "beforePrivateOptId": 9,
+    "equipId": 933012,
+    "groupId": 1,
+    "id": 28
+  },
+  {
+    "afterMain1OptId": [
+      0
+    ],
+    "afterMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "afterPrivateOptGroupId": 4940012,
+    "afterPrivateOptId": 10,
+    "beforeMain1OptId": [
+      0
+    ],
+    "beforeMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "beforePrivateOptGroupId": 3940012,
+    "beforePrivateOptId": 9,
+    "equipId": 940012,
+    "groupId": 1,
+    "id": 29
+  },
+  {
+    "afterMain1OptId": [
+      0
+    ],
+    "afterMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "afterPrivateOptGroupId": 4941012,
+    "afterPrivateOptId": 10,
+    "beforeMain1OptId": [
+      0
+    ],
+    "beforeMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "beforePrivateOptGroupId": 3941012,
+    "beforePrivateOptId": 9,
+    "equipId": 941012,
+    "groupId": 1,
+    "id": 30
+  },
+  {
+    "afterMain1OptId": [
+      0
+    ],
+    "afterMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "afterPrivateOptGroupId": 4942012,
+    "afterPrivateOptId": 10,
+    "beforeMain1OptId": [
+      0
+    ],
+    "beforeMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "beforePrivateOptGroupId": 3942012,
+    "beforePrivateOptId": 9,
+    "equipId": 942012,
+    "groupId": 1,
+    "id": 31
+  },
+  {
+    "afterMain1OptId": [
+      0
+    ],
+    "afterMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "afterPrivateOptGroupId": 4943012,
+    "afterPrivateOptId": 10,
+    "beforeMain1OptId": [
+      0
+    ],
+    "beforeMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "beforePrivateOptGroupId": 3943012,
+    "beforePrivateOptId": 9,
+    "equipId": 943012,
+    "groupId": 1,
+    "id": 32
+  },
+  {
+    "afterMain1OptGroupId": 1910123,
+    "afterMain1OptId": [
+      10
+    ],
+    "afterMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "beforeMain1OptGroupId": 1910113,
+    "beforeMain1OptId": [
+      9
+    ],
+    "beforeMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "equipId": 910604,
+    "groupId": 1,
+    "id": 33
+  },
+  {
+    "afterMain1OptGroupId": 1911123,
+    "afterMain1OptId": [
+      10
+    ],
+    "afterMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "beforeMain1OptGroupId": 1911113,
+    "beforeMain1OptId": [
+      9
+    ],
+    "beforeMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "equipId": 911604,
+    "groupId": 1,
+    "id": 34
+  },
+  {
+    "afterMain1OptGroupId": 1912123,
+    "afterMain1OptId": [
+      10
+    ],
+    "afterMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "beforeMain1OptGroupId": 1912113,
+    "beforeMain1OptId": [
+      9
+    ],
+    "beforeMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "equipId": 912604,
+    "groupId": 1,
+    "id": 35
+  },
+  {
+    "afterMain1OptGroupId": 1913123,
+    "afterMain1OptId": [
+      10
+    ],
+    "afterMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "beforeMain1OptGroupId": 1913113,
+    "beforeMain1OptId": [
+      9
+    ],
+    "beforeMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "equipId": 913604,
+    "groupId": 1,
+    "id": 36
+  },
+  {
+    "afterMain1OptGroupId": 1920123,
+    "afterMain1OptId": [
+      10
+    ],
+    "afterMain2OptGroupId": 2920123,
+    "afterMain2OptId": [
+      1,
+      2,
+      10
+    ],
+    "beforeMain1OptGroupId": 1920113,
+    "beforeMain1OptId": [
+      9
+    ],
+    "beforeMain2OptGroupId": 2920113,
+    "beforeMain2OptId": [
+      1,
+      2,
+      9
+    ],
+    "equipId": 920604,
+    "groupId": 1,
+    "id": 37
+  },
+  {
+    "afterMain1OptGroupId": 1921123,
+    "afterMain1OptId": [
+      10
+    ],
+    "afterMain2OptGroupId": 2921123,
+    "afterMain2OptId": [
+      1,
+      2,
+      10
+    ],
+    "beforeMain1OptGroupId": 1921113,
+    "beforeMain1OptId": [
+      9
+    ],
+    "beforeMain2OptGroupId": 2921113,
+    "beforeMain2OptId": [
+      1,
+      2,
+      9
+    ],
+    "equipId": 921604,
+    "groupId": 1,
+    "id": 38
+  },
+  {
+    "afterMain1OptGroupId": 1922123,
+    "afterMain1OptId": [
+      10
+    ],
+    "afterMain2OptGroupId": 2922123,
+    "afterMain2OptId": [
+      1,
+      2,
+      10
+    ],
+    "beforeMain1OptGroupId": 1922113,
+    "beforeMain1OptId": [
+      9
+    ],
+    "beforeMain2OptGroupId": 2922113,
+    "beforeMain2OptId": [
+      1,
+      2,
+      9
+    ],
+    "equipId": 922604,
+    "groupId": 1,
+    "id": 39
+  },
+  {
+    "afterMain1OptGroupId": 1923123,
+    "afterMain1OptId": [
+      10
+    ],
+    "afterMain2OptGroupId": 2923123,
+    "afterMain2OptId": [
+      1,
+      2,
+      10
+    ],
+    "beforeMain1OptGroupId": 1923113,
+    "beforeMain1OptId": [
+      9
+    ],
+    "beforeMain2OptGroupId": 2923113,
+    "beforeMain2OptId": [
+      1,
+      2,
+      9
+    ],
+    "equipId": 923604,
+    "groupId": 1,
+    "id": 40
+  },
+  {
+    "afterMain1OptGroupId": 1930123,
+    "afterMain1OptId": [
+      10
+    ],
+    "afterMain2OptGroupId": 2930123,
+    "afterMain2OptId": [
+      1,
+      2,
+      10
+    ],
+    "beforeMain1OptGroupId": 1930113,
+    "beforeMain1OptId": [
+      9
+    ],
+    "beforeMain2OptGroupId": 2930113,
+    "beforeMain2OptId": [
+      1,
+      2,
+      9
+    ],
+    "equipId": 930604,
+    "groupId": 1,
+    "id": 41
+  },
+  {
+    "afterMain1OptGroupId": 1931123,
+    "afterMain1OptId": [
+      10
+    ],
+    "afterMain2OptGroupId": 2931123,
+    "afterMain2OptId": [
+      1,
+      2,
+      10
+    ],
+    "beforeMain1OptGroupId": 1931113,
+    "beforeMain1OptId": [
+      9
+    ],
+    "beforeMain2OptGroupId": 2931113,
+    "beforeMain2OptId": [
+      1,
+      2,
+      9
+    ],
+    "equipId": 931604,
+    "groupId": 1,
+    "id": 42
+  },
+  {
+    "afterMain1OptGroupId": 1932123,
+    "afterMain1OptId": [
+      10
+    ],
+    "afterMain2OptGroupId": 2932123,
+    "afterMain2OptId": [
+      1,
+      2,
+      10
+    ],
+    "beforeMain1OptGroupId": 1932113,
+    "beforeMain1OptId": [
+      9
+    ],
+    "beforeMain2OptGroupId": 2932113,
+    "beforeMain2OptId": [
+      1,
+      2,
+      9
+    ],
+    "equipId": 932604,
+    "groupId": 1,
+    "id": 43
+  },
+  {
+    "afterMain1OptGroupId": 1933123,
+    "afterMain1OptId": [
+      10
+    ],
+    "afterMain2OptGroupId": 2933123,
+    "afterMain2OptId": [
+      1,
+      2,
+      10
+    ],
+    "beforeMain1OptGroupId": 1933113,
+    "beforeMain1OptId": [
+      9
+    ],
+    "beforeMain2OptGroupId": 2933113,
+    "beforeMain2OptId": [
+      1,
+      2,
+      9
+    ],
+    "equipId": 933604,
+    "groupId": 1,
+    "id": 44
+  },
+  {
+    "afterMain1OptGroupId": 1940123,
+    "afterMain1OptId": [
+      10
+    ],
+    "afterMain2OptGroupId": 2940123,
+    "afterMain2OptId": [
+      1,
+      2,
+      10
+    ],
+    "beforeMain1OptGroupId": 1940113,
+    "beforeMain1OptId": [
+      9
+    ],
+    "beforeMain2OptGroupId": 2940113,
+    "beforeMain2OptId": [
+      1,
+      2,
+      9
+    ],
+    "equipId": 940604,
+    "groupId": 1,
+    "id": 45
+  },
+  {
+    "afterMain1OptGroupId": 1941123,
+    "afterMain1OptId": [
+      10
+    ],
+    "afterMain2OptGroupId": 2941123,
+    "afterMain2OptId": [
+      1,
+      2,
+      10
+    ],
+    "beforeMain1OptGroupId": 1941113,
+    "beforeMain1OptId": [
+      9
+    ],
+    "beforeMain2OptGroupId": 2941113,
+    "beforeMain2OptId": [
+      1,
+      2,
+      9
+    ],
+    "equipId": 941604,
+    "groupId": 1,
+    "id": 46
+  },
+  {
+    "afterMain1OptGroupId": 1942123,
+    "afterMain1OptId": [
+      10
+    ],
+    "afterMain2OptGroupId": 2942123,
+    "afterMain2OptId": [
+      1,
+      2,
+      10
+    ],
+    "beforeMain1OptGroupId": 1942113,
+    "beforeMain1OptId": [
+      9
+    ],
+    "beforeMain2OptGroupId": 2942113,
+    "beforeMain2OptId": [
+      1,
+      2,
+      9
+    ],
+    "equipId": 942604,
+    "groupId": 1,
+    "id": 47
+  },
+  {
+    "afterMain1OptGroupId": 1943123,
+    "afterMain1OptId": [
+      10
+    ],
+    "afterMain2OptGroupId": 2943123,
+    "afterMain2OptId": [
+      1,
+      2,
+      10
+    ],
+    "beforeMain1OptGroupId": 1943113,
+    "beforeMain1OptId": [
+      9
+    ],
+    "beforeMain2OptGroupId": 2943113,
+    "beforeMain2OptId": [
+      1,
+      2,
+      9
+    ],
+    "equipId": 943604,
+    "groupId": 1,
+    "id": 48
+  },
+  {
+    "afterMain1OptGroupId": 1910123,
+    "afterMain1OptId": [
+      10
+    ],
+    "afterMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "beforeMain1OptGroupId": 1910113,
+    "beforeMain1OptId": [
+      9
+    ],
+    "beforeMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "equipId": 910034,
+    "groupId": 1,
+    "id": 49
+  },
+  {
+    "afterMain1OptGroupId": 1911123,
+    "afterMain1OptId": [
+      10
+    ],
+    "afterMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "beforeMain1OptGroupId": 1911113,
+    "beforeMain1OptId": [
+      9
+    ],
+    "beforeMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "equipId": 911034,
+    "groupId": 1,
+    "id": 50
+  },
+  {
+    "afterMain1OptGroupId": 1912123,
+    "afterMain1OptId": [
+      10
+    ],
+    "afterMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "beforeMain1OptGroupId": 1912113,
+    "beforeMain1OptId": [
+      9
+    ],
+    "beforeMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "equipId": 912034,
+    "groupId": 1,
+    "id": 51
+  },
+  {
+    "afterMain1OptGroupId": 1913123,
+    "afterMain1OptId": [
+      10
+    ],
+    "afterMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "beforeMain1OptGroupId": 1913113,
+    "beforeMain1OptId": [
+      9
+    ],
+    "beforeMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "equipId": 913034,
+    "groupId": 1,
+    "id": 52
+  },
+  {
+    "afterMain1OptGroupId": 1920123,
+    "afterMain1OptId": [
+      10
+    ],
+    "afterMain2OptGroupId": 2920123,
+    "afterMain2OptId": [
+      1,
+      2,
+      10
+    ],
+    "beforeMain1OptGroupId": 1920113,
+    "beforeMain1OptId": [
+      9
+    ],
+    "beforeMain2OptGroupId": 2920113,
+    "beforeMain2OptId": [
+      1,
+      2,
+      9
+    ],
+    "equipId": 920034,
+    "groupId": 1,
+    "id": 53
+  },
+  {
+    "afterMain1OptGroupId": 1921123,
+    "afterMain1OptId": [
+      10
+    ],
+    "afterMain2OptGroupId": 2921123,
+    "afterMain2OptId": [
+      1,
+      2,
+      10
+    ],
+    "beforeMain1OptGroupId": 1921113,
+    "beforeMain1OptId": [
+      9
+    ],
+    "beforeMain2OptGroupId": 2921113,
+    "beforeMain2OptId": [
+      1,
+      2,
+      9
+    ],
+    "equipId": 921034,
+    "groupId": 1,
+    "id": 54
+  },
+  {
+    "afterMain1OptGroupId": 1922123,
+    "afterMain1OptId": [
+      10
+    ],
+    "afterMain2OptGroupId": 2922123,
+    "afterMain2OptId": [
+      1,
+      2,
+      10
+    ],
+    "beforeMain1OptGroupId": 1922113,
+    "beforeMain1OptId": [
+      9
+    ],
+    "beforeMain2OptGroupId": 2922113,
+    "beforeMain2OptId": [
+      1,
+      2,
+      9
+    ],
+    "equipId": 922034,
+    "groupId": 1,
+    "id": 55
+  },
+  {
+    "afterMain1OptGroupId": 1923123,
+    "afterMain1OptId": [
+      10
+    ],
+    "afterMain2OptGroupId": 2923123,
+    "afterMain2OptId": [
+      1,
+      2,
+      10
+    ],
+    "beforeMain1OptGroupId": 1923113,
+    "beforeMain1OptId": [
+      9
+    ],
+    "beforeMain2OptGroupId": 2923113,
+    "beforeMain2OptId": [
+      1,
+      2,
+      9
+    ],
+    "equipId": 923034,
+    "groupId": 1,
+    "id": 56
+  },
+  {
+    "afterMain1OptGroupId": 1930123,
+    "afterMain1OptId": [
+      10
+    ],
+    "afterMain2OptGroupId": 2930123,
+    "afterMain2OptId": [
+      1,
+      2,
+      10
+    ],
+    "beforeMain1OptGroupId": 1930113,
+    "beforeMain1OptId": [
+      9
+    ],
+    "beforeMain2OptGroupId": 2930113,
+    "beforeMain2OptId": [
+      1,
+      2,
+      9
+    ],
+    "equipId": 930034,
+    "groupId": 1,
+    "id": 57
+  },
+  {
+    "afterMain1OptGroupId": 1931123,
+    "afterMain1OptId": [
+      10
+    ],
+    "afterMain2OptGroupId": 2931123,
+    "afterMain2OptId": [
+      1,
+      2,
+      10
+    ],
+    "beforeMain1OptGroupId": 1931113,
+    "beforeMain1OptId": [
+      9
+    ],
+    "beforeMain2OptGroupId": 2931113,
+    "beforeMain2OptId": [
+      1,
+      2,
+      9
+    ],
+    "equipId": 931034,
+    "groupId": 1,
+    "id": 58
+  },
+  {
+    "afterMain1OptGroupId": 1932123,
+    "afterMain1OptId": [
+      10
+    ],
+    "afterMain2OptGroupId": 2932123,
+    "afterMain2OptId": [
+      1,
+      2,
+      10
+    ],
+    "beforeMain1OptGroupId": 1932113,
+    "beforeMain1OptId": [
+      9
+    ],
+    "beforeMain2OptGroupId": 2932113,
+    "beforeMain2OptId": [
+      1,
+      2,
+      9
+    ],
+    "equipId": 932034,
+    "groupId": 1,
+    "id": 59
+  },
+  {
+    "afterMain1OptGroupId": 1933123,
+    "afterMain1OptId": [
+      10
+    ],
+    "afterMain2OptGroupId": 2933123,
+    "afterMain2OptId": [
+      1,
+      2,
+      10
+    ],
+    "beforeMain1OptGroupId": 1933113,
+    "beforeMain1OptId": [
+      9
+    ],
+    "beforeMain2OptGroupId": 2933113,
+    "beforeMain2OptId": [
+      1,
+      2,
+      9
+    ],
+    "equipId": 933034,
+    "groupId": 1,
+    "id": 60
+  },
+  {
+    "afterMain1OptGroupId": 1940123,
+    "afterMain1OptId": [
+      10
+    ],
+    "afterMain2OptGroupId": 2940123,
+    "afterMain2OptId": [
+      1,
+      2,
+      10
+    ],
+    "beforeMain1OptGroupId": 1940113,
+    "beforeMain1OptId": [
+      9
+    ],
+    "beforeMain2OptGroupId": 2940113,
+    "beforeMain2OptId": [
+      1,
+      2,
+      9
+    ],
+    "equipId": 940034,
+    "groupId": 1,
+    "id": 61
+  },
+  {
+    "afterMain1OptGroupId": 1941123,
+    "afterMain1OptId": [
+      10
+    ],
+    "afterMain2OptGroupId": 2941123,
+    "afterMain2OptId": [
+      1,
+      2,
+      10
+    ],
+    "beforeMain1OptGroupId": 1941113,
+    "beforeMain1OptId": [
+      9
+    ],
+    "beforeMain2OptGroupId": 2941113,
+    "beforeMain2OptId": [
+      1,
+      2,
+      9
+    ],
+    "equipId": 941034,
+    "groupId": 1,
+    "id": 62
+  },
+  {
+    "afterMain1OptGroupId": 1942123,
+    "afterMain1OptId": [
+      10
+    ],
+    "afterMain2OptGroupId": 2942123,
+    "afterMain2OptId": [
+      1,
+      2,
+      10
+    ],
+    "beforeMain1OptGroupId": 1942113,
+    "beforeMain1OptId": [
+      9
+    ],
+    "beforeMain2OptGroupId": 2942113,
+    "beforeMain2OptId": [
+      1,
+      2,
+      9
+    ],
+    "equipId": 942034,
+    "groupId": 1,
+    "id": 63
+  },
+  {
+    "afterMain1OptGroupId": 1943123,
+    "afterMain1OptId": [
+      10
+    ],
+    "afterMain2OptGroupId": 2943123,
+    "afterMain2OptId": [
+      1,
+      2,
+      10
+    ],
+    "beforeMain1OptGroupId": 1943113,
+    "beforeMain1OptId": [
+      9
+    ],
+    "beforeMain2OptGroupId": 2943113,
+    "beforeMain2OptId": [
+      1,
+      2,
+      9
+    ],
+    "equipId": 943034,
+    "groupId": 1,
+    "id": 64
+  },
+  {
+    "afterMain1OptGroupId": 1910123,
+    "afterMain1OptId": [
+      10
+    ],
+    "afterMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "beforeMain1OptGroupId": 1910113,
+    "beforeMain1OptId": [
+      9
+    ],
+    "beforeMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "equipId": 910007,
+    "groupId": 1,
+    "id": 65
+  },
+  {
+    "afterMain1OptGroupId": 1911123,
+    "afterMain1OptId": [
+      10
+    ],
+    "afterMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "beforeMain1OptGroupId": 1911113,
+    "beforeMain1OptId": [
+      9
+    ],
+    "beforeMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "equipId": 911007,
+    "groupId": 1,
+    "id": 66
+  },
+  {
+    "afterMain1OptGroupId": 1912123,
+    "afterMain1OptId": [
+      10
+    ],
+    "afterMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "beforeMain1OptGroupId": 1912113,
+    "beforeMain1OptId": [
+      9
+    ],
+    "beforeMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "equipId": 912007,
+    "groupId": 1,
+    "id": 67
+  },
+  {
+    "afterMain1OptGroupId": 1913123,
+    "afterMain1OptId": [
+      10
+    ],
+    "afterMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "beforeMain1OptGroupId": 1913113,
+    "beforeMain1OptId": [
+      9
+    ],
+    "beforeMain2OptId": [
+      0,
+      0,
+      0
+    ],
+    "equipId": 913007,
+    "groupId": 1,
+    "id": 68
+  },
+  {
+    "afterMain1OptGroupId": 1920123,
+    "afterMain1OptId": [
+      10
+    ],
+    "afterMain2OptGroupId": 2920123,
+    "afterMain2OptId": [
+      1,
+      2,
+      10
+    ],
+    "beforeMain1OptGroupId": 1920113,
+    "beforeMain1OptId": [
+      9
+    ],
+    "beforeMain2OptGroupId": 2920113,
+    "beforeMain2OptId": [
+      1,
+      2,
+      9
+    ],
+    "equipId": 920007,
+    "groupId": 1,
+    "id": 69
+  },
+  {
+    "afterMain1OptGroupId": 1921123,
+    "afterMain1OptId": [
+      10
+    ],
+    "afterMain2OptGroupId": 2921123,
+    "afterMain2OptId": [
+      1,
+      2,
+      10
+    ],
+    "beforeMain1OptGroupId": 1921113,
+    "beforeMain1OptId": [
+      9
+    ],
+    "beforeMain2OptGroupId": 2921113,
+    "beforeMain2OptId": [
+      1,
+      2,
+      9
+    ],
+    "equipId": 921007,
+    "groupId": 1,
+    "id": 70
+  },
+  {
+    "afterMain1OptGroupId": 1922123,
+    "afterMain1OptId": [
+      10
+    ],
+    "afterMain2OptGroupId": 2922123,
+    "afterMain2OptId": [
+      1,
+      2,
+      10
+    ],
+    "beforeMain1OptGroupId": 1922113,
+    "beforeMain1OptId": [
+      9
+    ],
+    "beforeMain2OptGroupId": 2922113,
+    "beforeMain2OptId": [
+      1,
+      2,
+      9
+    ],
+    "equipId": 922007,
+    "groupId": 1,
+    "id": 71
+  },
+  {
+    "afterMain1OptGroupId": 1923123,
+    "afterMain1OptId": [
+      10
+    ],
+    "afterMain2OptGroupId": 2923123,
+    "afterMain2OptId": [
+      1,
+      2,
+      10
+    ],
+    "beforeMain1OptGroupId": 1923113,
+    "beforeMain1OptId": [
+      9
+    ],
+    "beforeMain2OptGroupId": 2923113,
+    "beforeMain2OptId": [
+      1,
+      2,
+      9
+    ],
+    "equipId": 923007,
+    "groupId": 1,
+    "id": 72
+  },
+  {
+    "afterMain1OptGroupId": 1930123,
+    "afterMain1OptId": [
+      10
+    ],
+    "afterMain2OptGroupId": 2930123,
+    "afterMain2OptId": [
+      1,
+      2,
+      10
+    ],
+    "beforeMain1OptGroupId": 1930113,
+    "beforeMain1OptId": [
+      9
+    ],
+    "beforeMain2OptGroupId": 2930113,
+    "beforeMain2OptId": [
+      1,
+      2,
+      9
+    ],
+    "equipId": 930007,
+    "groupId": 1,
+    "id": 73
+  },
+  {
+    "afterMain1OptGroupId": 1931123,
+    "afterMain1OptId": [
+      10
+    ],
+    "afterMain2OptGroupId": 2931123,
+    "afterMain2OptId": [
+      1,
+      2,
+      10
+    ],
+    "beforeMain1OptGroupId": 1931113,
+    "beforeMain1OptId": [
+      9
+    ],
+    "beforeMain2OptGroupId": 2931113,
+    "beforeMain2OptId": [
+      1,
+      2,
+      9
+    ],
+    "equipId": 931007,
+    "groupId": 1,
+    "id": 74
+  },
+  {
+    "afterMain1OptGroupId": 1932123,
+    "afterMain1OptId": [
+      10
+    ],
+    "afterMain2OptGroupId": 2932123,
+    "afterMain2OptId": [
+      1,
+      2,
+      10
+    ],
+    "beforeMain1OptGroupId": 1932113,
+    "beforeMain1OptId": [
+      9
+    ],
+    "beforeMain2OptGroupId": 2932113,
+    "beforeMain2OptId": [
+      1,
+      2,
+      9
+    ],
+    "equipId": 932007,
+    "groupId": 1,
+    "id": 75
+  },
+  {
+    "afterMain1OptGroupId": 1933123,
+    "afterMain1OptId": [
+      10
+    ],
+    "afterMain2OptGroupId": 2933123,
+    "afterMain2OptId": [
+      1,
+      2,
+      10
+    ],
+    "beforeMain1OptGroupId": 1933113,
+    "beforeMain1OptId": [
+      9
+    ],
+    "beforeMain2OptGroupId": 2933113,
+    "beforeMain2OptId": [
+      1,
+      2,
+      9
+    ],
+    "equipId": 933007,
+    "groupId": 1,
+    "id": 76
+  },
+  {
+    "afterMain1OptGroupId": 1940123,
+    "afterMain1OptId": [
+      10
+    ],
+    "afterMain2OptGroupId": 2940123,
+    "afterMain2OptId": [
+      1,
+      2,
+      10
+    ],
+    "beforeMain1OptGroupId": 1940113,
+    "beforeMain1OptId": [
+      9
+    ],
+    "beforeMain2OptGroupId": 2940113,
+    "beforeMain2OptId": [
+      1,
+      2,
+      9
+    ],
+    "equipId": 940007,
+    "groupId": 1,
+    "id": 77
+  },
+  {
+    "afterMain1OptGroupId": 1941123,
+    "afterMain1OptId": [
+      10
+    ],
+    "afterMain2OptGroupId": 2941123,
+    "afterMain2OptId": [
+      1,
+      2,
+      10
+    ],
+    "beforeMain1OptGroupId": 1941113,
+    "beforeMain1OptId": [
+      9
+    ],
+    "beforeMain2OptGroupId": 2941113,
+    "beforeMain2OptId": [
+      1,
+      2,
+      9
+    ],
+    "equipId": 941007,
+    "groupId": 1,
+    "id": 78
+  },
+  {
+    "afterMain1OptGroupId": 1942123,
+    "afterMain1OptId": [
+      10
+    ],
+    "afterMain2OptGroupId": 2942123,
+    "afterMain2OptId": [
+      1,
+      2,
+      10
+    ],
+    "beforeMain1OptGroupId": 1942113,
+    "beforeMain1OptId": [
+      9
+    ],
+    "beforeMain2OptGroupId": 2942113,
+    "beforeMain2OptId": [
+      1,
+      2,
+      9
+    ],
+    "equipId": 942007,
+    "groupId": 1,
+    "id": 79
+  },
+  {
+    "afterMain1OptGroupId": 1943123,
+    "afterMain1OptId": [
+      10
+    ],
+    "afterMain2OptGroupId": 2943123,
+    "afterMain2OptId": [
+      1,
+      2,
+      10
+    ],
+    "beforeMain1OptGroupId": 1943113,
+    "beforeMain1OptId": [
+      9
+    ],
+    "beforeMain2OptGroupId": 2943113,
+    "beforeMain2OptId": [
+      1,
+      2,
+      9
+    ],
+    "equipId": 943007,
+    "groupId": 1,
+    "id": 80
+  }
+]

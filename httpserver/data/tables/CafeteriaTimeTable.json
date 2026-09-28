@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "spawnTime": 1000,
+    "startTime": "06:00:00"
+  },
+  {
+    "id": 2,
+    "spawnTime": 1000,
+    "startTime": "12:00:00"
+  },
+  {
+    "id": 3,
+    "spawnTime": 1000,
+    "startTime": "17:00:00"
+  },
+  {
+    "BgmParameter": 1,
+    "id": 4,
+    "spawnTime": 1000,
+    "startTime": "19:00:00"
+  },
+  {
+    "BgmParameter": 1,
+    "id": 5,
+    "lightParameter": 1,
+    "spawnTime": 2000,
+    "startTime": "22:00:00"
+  },
+  {
+    "BgmParameter": 1,
+    "id": 6,
+    "lightParameter": 1,
+    "spawnTime": 2000,
+    "startTime": "04:00:00"
+  }
+]

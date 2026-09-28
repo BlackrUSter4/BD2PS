@@ -1,0 +1,20 @@
+[
+  {
+    "acceptCinemaName": "Quest_Main_00",
+    "conditionCount": 1,
+    "conditionType": 2,
+    "displayMapId": 30061,
+    "id": 1,
+    "magicValue": [
+      11
+    ],
+    "mapId": 30061,
+    "packId": 3006,
+    "prologSkipQuestTextId": 10000,
+    "questConditionQuestTextId": 20001,
+    "questDescQuestTextId": 20001,
+    "questNameQuestTextId": 20001,
+    "questSkipQuestTextId": 10000,
+    "timelineStartMapId": 30061
+  }
+]

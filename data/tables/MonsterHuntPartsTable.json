@@ -1,0 +1,10 @@
+[
+  { "bossBodyPosition": 5, "bossPartIcon1": "icon_char927202_1", "groupId": 72, "id": 1, "parentCharId": 92720, "partLocalTextId": 1300119, "type": 1, "useCostume": 927202 },
+  { "bossBodyPosition": 3, "bossPartIcon1": "icon_char927201_2", "groupId": 72, "id": 2, "parentCharId": 92720, "partLocalTextId": 1300119, "type": 1, "useCostume": 927201, "weakDmgValue": 1 },
+  { "bossBodyPosition": 9, "bossPartIcon1": "icon_char927206_3", "groupId": 72, "id": 3, "parentCharId": 92720, "partLocalTextId": 1300119, "type": 1, "useCostume": 927206 },
+  { "bossBodyPosition": 1, "bossPartIcon1": "icon_char927200_4", "groupId": 72, "id": 4, "parentCharId": 92720, "partLocalTextId": 1300119, "useCostume": 927200 },
+  { "bossBodyPosition": 11, "bossPartIcon1": "icon_char927207_5", "conditionId": 31, "groupId": 72, "id": 5, "parentCharId": 92720, "partLocalTextId": 1300119, "type": 1, "useCostume": 927207, "weakDmgValue": 1 },
+  { "bossBodyPosition": 6, "bossPartIcon1": "icon_char927203_6", "groupId": 72, "id": 6, "parentCharId": 92720, "partLocalTextId": 1300119, "type": 1, "weakDmgValue": 1 },
+  { "bossBodyPosition": 7, "bossPartIcon1": "icon_char927204_7", "groupId": 72, "id": 7, "parentCharId": 92720, "partLocalTextId": 1300119, "type": 1 },
+  { "bossBodyPosition": 8, "bossPartIcon1": "icon_char927205_8", "groupId": 72, "id": 8, "parentCharId": 92720, "partLocalTextId": 1300119, "type": 1, "weakDmgValue": 1 }
+]

@@ -1,0 +1,1481 @@
+[
+  {
+    "id": 2
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60001,
+    "text": "도발",
+    "text_cn": "挑衅",
+    "text_en": "Taunt",
+    "text_jp": "挑発",
+    "text_tw": "挑釁"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60002,
+    "text": "에너지 가드",
+    "text_cn": "能量护盾",
+    "text_en": "Energy Guard",
+    "text_jp": "エナジーガード",
+    "text_tw": "能量防衛"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60003,
+    "text": "일점사",
+    "text_cn": "集中射击",
+    "text_en": "Concentrated Fire",
+    "text_jp": "ロックオン",
+    "text_tw": "集中攻擊"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60004,
+    "text": "침묵",
+    "text_cn": "沉默",
+    "text_en": "Silence",
+    "text_jp": "沈黙",
+    "text_tw": "沉默"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60005,
+    "text": "오라",
+    "text_cn": "光环",
+    "text_en": "Aura",
+    "text_jp": "オーラ",
+    "text_tw": "光環"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60006,
+    "text": "변신",
+    "text_cn": "变身",
+    "text_en": "Transform",
+    "text_jp": "変身",
+    "text_tw": "變身"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60007,
+    "text": "선제 발동",
+    "text_cn": "先发制人",
+    "text_en": "Preemptive Action",
+    "text_jp": "先制発動",
+    "text_tw": "先發制人"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60008,
+    "text": "타겟 회피",
+    "text_cn": "闪避目标",
+    "text_en": "Target Avoidance",
+    "text_jp": "ターゲット回避",
+    "text_tw": "回避目標"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60009,
+    "text": "순수 피해",
+    "text_cn": "纯粹伤害",
+    "text_en": "Pure DMG",
+    "text_jp": "純粋ダメージ",
+    "text_tw": "純粹傷害"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60010,
+    "text": "고정 피해",
+    "text_cn": "固定伤害",
+    "text_en": "Fixed DMG",
+    "text_jp": "固定ダメージ",
+    "text_tw": "固定傷害"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60011,
+    "text": "소모 피해",
+    "text_cn": "消耗伤害",
+    "text_en": "Consumed DMG",
+    "text_jp": "消耗ダメージ",
+    "text_tw": "消耗傷害"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60012,
+    "text": "속성 피해",
+    "text_cn": "属性伤害",
+    "text_en": "Property DMG",
+    "text_jp": "属性ダメージ",
+    "text_tw": "屬性傷害"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60013,
+    "text": "메인 타겟",
+    "text_cn": "主要目标",
+    "text_en": "Main Target",
+    "text_jp": "メインターゲット",
+    "text_tw": "主要目標"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60014,
+    "text": "서브 타겟",
+    "text_cn": "次要目标",
+    "text_en": "Sub Target",
+    "text_jp": "サブターゲット",
+    "text_tw": "次要目標"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60015,
+    "text": "격노",
+    "text_cn": "暴怒",
+    "text_en": "Wrath",
+    "text_jp": "激怒",
+    "text_tw": "暴怒"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60016,
+    "text": "보호막",
+    "text_cn": "防护罩",
+    "text_en": "Barrier",
+    "text_jp": "バリア",
+    "text_tw": "防護罩"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60017,
+    "text": "취약",
+    "text_cn": "虚弱",
+    "text_en": "Vulnerability",
+    "text_jp": "脆弱",
+    "text_tw": "脆弱"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60018,
+    "text": "회피",
+    "text_cn": "闪避",
+    "text_en": "Evasion",
+    "text_jp": "回避",
+    "text_tw": "迴避"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60019,
+    "text": "반격",
+    "text_cn": "反击",
+    "text_en": "Counter",
+    "text_jp": "反撃",
+    "text_tw": "反擊"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60020,
+    "text": "아군 진영 소환",
+    "text_cn": "召唤至我军阵营",
+    "text_en": "Allied Zone Summon",
+    "text_jp": "味方陣営召喚",
+    "text_tw": "召喚至我軍陣營"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60021,
+    "text": "지정 범위 소환",
+    "text_cn": "召唤至指定范围",
+    "text_en": "Target Range Summon",
+    "text_jp": "指定範囲召喚",
+    "text_tw": "召喚至指定範圍"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60022,
+    "text": "숭배의 페르소나",
+    "text_cn": "崇拜假面",
+    "text_en": "Persona of Worship",
+    "text_jp": "崇拝のペルソナ",
+    "text_tw": "崇拜假面"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60023,
+    "text": "비방의 페르소나",
+    "text_cn": "诽谤假面",
+    "text_en": "Persona of Slander",
+    "text_jp": "誹謗のペルソナ",
+    "text_tw": "誹謗假面"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60024,
+    "text": "브레이크",
+    "text_cn": "制动",
+    "text_en": "Break",
+    "text_jp": "ブレイク",
+    "text_tw": "制動"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60025,
+    "text": "배치 불가",
+    "text_cn": "无法部署",
+    "text_en": "Undeployable",
+    "text_jp": "配置不可",
+    "text_tw": "無法配置"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60026,
+    "text": "능력치 강화",
+    "text_cn": "能力值强化",
+    "text_en": "Stat Reinforcement",
+    "text_jp": "ステータス強化",
+    "text_tw": "能力值強化"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60027,
+    "text": "능력치 약화",
+    "text_cn": "能力值弱化",
+    "text_en": "Stat Weakening",
+    "text_jp": "ステータス弱体化",
+    "text_tw": "能力值弱化"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60028,
+    "text": "이로운 효과 개수",
+    "text_cn": "增益效果数量",
+    "text_en": "Number of Buffs",
+    "text_jp": "バフ数",
+    "text_tw": "有益效果數量"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60029,
+    "text": "지속 피해",
+    "text_cn": "持续伤害",
+    "text_en": "DoT",
+    "text_jp": "持続ダメージ",
+    "text_tw": "持續傷害"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60030,
+    "text": "부활",
+    "text_cn": "复活",
+    "text_en": "Revive",
+    "text_jp": "復活",
+    "text_tw": "復活"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60031,
+    "text": "물리 취약",
+    "text_cn": "物理虚弱",
+    "text_en": "Vulnerability (Physical)",
+    "text_jp": "物理脆弱",
+    "text_tw": "物理脆弱"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60032,
+    "text": "마법 취약",
+    "text_cn": "魔法虚弱",
+    "text_en": "Vulnerability (Magic)",
+    "text_jp": "魔法脆弱",
+    "text_tw": "魔法脆弱"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60033,
+    "text": "SP 소모 감소"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60034,
+    "text": "SP 소모 증가"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60035,
+    "text": "SP",
+    "text_cn": "SP",
+    "text_en": "SP",
+    "text_jp": "SP",
+    "text_tw": "SP"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60036,
+    "text": "출혈",
+    "text_cn": "出血",
+    "text_en": "Bleed",
+    "text_jp": "出血",
+    "text_tw": "出血"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60037,
+    "text": "화상",
+    "text_cn": "灼伤",
+    "text_en": "Burn",
+    "text_jp": "火傷",
+    "text_tw": "燒傷"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60038,
+    "text": "중독",
+    "text_cn": "中毒",
+    "text_en": "Poison",
+    "text_jp": "猛毒",
+    "text_tw": "中毒"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60039,
+    "text": "부패",
+    "text_cn": "腐败",
+    "text_en": "Rot",
+    "text_jp": "腐敗",
+    "text_tw": "腐敗"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60040,
+    "text": "감전",
+    "text_cn": "触电",
+    "text_en": "Shock",
+    "text_jp": "感電",
+    "text_tw": "觸電"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60041,
+    "text": "동상",
+    "text_cn": "冻伤",
+    "text_en": "Frostbite",
+    "text_jp": "凍傷",
+    "text_tw": "凍傷"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60042,
+    "text": "체인 강화",
+    "text_cn": "连携强化",
+    "text_en": "Chain Reinforcement",
+    "text_jp": "チェイン強化",
+    "text_tw": "連鎖強化"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60043,
+    "text": "체인 약화",
+    "text_cn": "连携弱化",
+    "text_en": "Chain Weakening",
+    "text_jp": "チェン弱体化",
+    "text_tw": "連鎖弱化"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60044,
+    "text": "압박",
+    "text_cn": "压迫",
+    "text_en": "Pressure",
+    "text_jp": "圧迫",
+    "text_tw": "12連擊"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60045,
+    "text": "일반 공격",
+    "text_cn": "普通攻击",
+    "text_en": "Basic Attack",
+    "text_jp": "基本攻撃",
+    "text_tw": "一般攻擊"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60046,
+    "text": "중첩 적용",
+    "text_cn": "赋予叠加",
+    "text_en": "Stack Application",
+    "text_jp": "重複付与",
+    "text_tw": "賦予疊加"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60047,
+    "text": "증강",
+    "text_cn": "增强",
+    "text_en": "Augmentation",
+    "text_jp": "増強",
+    "text_tw": "增強"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60048,
+    "text": "체인",
+    "text_cn": "连携",
+    "text_en": "Chain",
+    "text_jp": "チェイン",
+    "text_tw": "連鎖"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60049,
+    "text": "물리 타입",
+    "text_cn": "物理类型",
+    "text_en": "Physical Type",
+    "text_jp": "物理タイプ",
+    "text_tw": "物理類型"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60050,
+    "text": "마법 타입",
+    "text_cn": "魔法类型",
+    "text_en": "Magic Type",
+    "text_jp": "魔法タイプ",
+    "text_tw": "魔法類型"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60051,
+    "text": "광폭화",
+    "text_cn": "狂暴化",
+    "text_en": "Overdrive",
+    "text_jp": "凶暴化",
+    "text_tw": "狂暴化"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60052,
+    "text": "바니 스펙터",
+    "text_cn": "兔子幽灵",
+    "text_en": "Bunny Spectre",
+    "text_jp": "バニースペクター",
+    "text_tw": "兔子幽靈"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60053,
+    "text": "빛 속성 취약",
+    "text_cn": "光属性虚弱",
+    "text_en": "Light Vulnerability",
+    "text_jp": "光属性脆弱",
+    "text_tw": "光屬性脆弱"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60054,
+    "text": "어둠 속성 취약",
+    "text_cn": "暗属性虚弱",
+    "text_en": "Dark Vulnerability",
+    "text_jp": "闇属性脆弱",
+    "text_tw": "暗屬性脆弱"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60055,
+    "text": "바람 속성 취약",
+    "text_cn": "风属性虚弱",
+    "text_en": "Wind Vulnerability",
+    "text_jp": "風属性脆弱",
+    "text_tw": "風屬性脆弱"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60056,
+    "text": "최대 생명력",
+    "text_cn": "最大生命力",
+    "text_en": "Max HP",
+    "text_jp": "最大HP",
+    "text_tw": "最大生命力"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60057,
+    "text": "현재 생명력",
+    "text_cn": "当前生命力",
+    "text_en": "Current HP",
+    "text_jp": "現在HP",
+    "text_tw": "目前生命力"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60058,
+    "text": "유물",
+    "text_cn": "遗物",
+    "text_en": "Artifact",
+    "text_jp": "遺物",
+    "text_tw": "遺物"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60059,
+    "text": "습득물",
+    "text_cn": "拾取物",
+    "text_en": "Finds",
+    "text_jp": "拾得物",
+    "text_tw": "撿拾道具"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60060,
+    "text": "경비병",
+    "text_cn": "警卫",
+    "text_en": "Security Officer",
+    "text_jp": "警備兵",
+    "text_tw": "警衛兵"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60061,
+    "text": "트윙 글러티",
+    "text_cn": "闪耀葛洛堤",
+    "text_en": "Twing Glutti",
+    "text_jp": "トウィンググラティ",
+    "text_tw": "閃耀葛洛堤"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60062,
+    "text": "글룸 글러티",
+    "text_cn": "幽冥葛洛堤",
+    "text_en": "Gloom Glutti",
+    "text_jp": "グルームグラティ",
+    "text_tw": "黑暗葛洛堤"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60063,
+    "text": "쌀밥",
+    "text_cn": "米饭",
+    "text_en": "Cooked Rice",
+    "text_jp": "ごはん",
+    "text_tw": "白飯"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60064,
+    "text": "횃불",
+    "text_cn": "火把",
+    "text_en": "Torch",
+    "text_jp": "たいまつ",
+    "text_tw": "火炬"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60065,
+    "text": "흡수",
+    "text_cn": "吸收",
+    "text_en": "Absorption",
+    "text_jp": "吸収",
+    "text_tw": "吸收"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60066,
+    "text": "제압",
+    "text_cn": "制伏",
+    "text_en": "Overpower",
+    "text_jp": "制圧",
+    "text_tw": "壓制"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60067,
+    "text": "광폭화",
+    "text_cn": "狂暴化",
+    "text_en": "Overdrive",
+    "text_jp": "凶暴化",
+    "text_tw": "狂暴化"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60068,
+    "text": "하급 장비 재료",
+    "text_cn": "低级装备材料",
+    "text_en": "Common Gear Materials",
+    "text_jp": "下級装備材料",
+    "text_tw": "下級裝備材料"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60069,
+    "text": "고급 장비 재료",
+    "text_cn": "高级装备材料",
+    "text_en": "Rare Gear Materials",
+    "text_jp": "高級装備材料",
+    "text_tw": "高級裝備材料"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60070,
+    "text": "공격 관련 능력치",
+    "text_cn": "攻击相关能力值",
+    "text_en": "Attack Stat",
+    "text_jp": "攻撃関連ステータス",
+    "text_tw": "攻擊相關能力值"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60071,
+    "text": "방어 관련 능력치",
+    "text_cn": "防御相关能力值",
+    "text_en": "Defense Stat",
+    "text_jp": "防御関連ステータス",
+    "text_tw": "防禦相關能力值"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60072,
+    "text": "탈진",
+    "text_cn": "虚脱",
+    "text_en": "Fatigue",
+    "text_jp": "戦闘不能",
+    "text_tw": "虛脫"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60073,
+    "text": "희망의 가루",
+    "text_cn": "希望粉末",
+    "text_en": "Powder of Hope",
+    "text_jp": "希望の粉",
+    "text_tw": "希望粉末"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60074,
+    "text": "넉백",
+    "text_cn": "击退",
+    "text_en": "Knockback",
+    "text_jp": "ノックバック",
+    "text_tw": "擊退"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60075,
+    "text": "약화",
+    "text_cn": "弱化",
+    "text_en": "Weakening",
+    "text_jp": "弱体化",
+    "text_tw": "弱化"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60076,
+    "text": "연금술",
+    "text_cn": "炼金术",
+    "text_en": "Alchemy",
+    "text_jp": "錬金術",
+    "text_tw": "煉金術"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60077,
+    "text": "물리공격 타입",
+    "text_cn": "物理攻击类型",
+    "text_en": "Physical Attack Type",
+    "text_jp": "物理攻撃タイプ",
+    "text_tw": "物理攻擊類型"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60078,
+    "text": "마법공격 타입",
+    "text_cn": "魔法攻击类型",
+    "text_en": "Magic Attack Type",
+    "text_jp": "魔法攻撃タイプ",
+    "text_tw": "魔法攻擊類型"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60079,
+    "text": "체인 제한",
+    "text_cn": "连携限制",
+    "text_en": "Chain Limit",
+    "text_jp": "チェイン制限",
+    "text_tw": "連鎖限制"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 60080,
+    "text": "소환수 취약",
+    "text_cn": "召唤兽虚弱",
+    "text_en": "Summons Vulnerability",
+    "text_jp": "召喚獣脆弱",
+    "text_tw": "召喚獸脆弱"
+  },
+  {
+    "date": "2025-07-10",
+    "id": 60081,
+    "text": "폭주",
+    "text_cn": "暴走",
+    "text_en": "Rampage",
+    "text_jp": "暴走",
+    "text_tw": "暴走"
+  },
+  {
+    "date": "2025-08-07",
+    "id": 60082,
+    "text": "연장",
+    "text_cn": "延长",
+    "text_en": "Extend",
+    "text_jp": "延長",
+    "text_tw": "延長"
+  },
+  {
+    "date": "2025-08-21",
+    "id": 60083,
+    "text": "지속 피해 취약",
+    "text_cn": "持续伤害虚弱效果",
+    "text_en": "DoT Vulnerability",
+    "text_jp": "持続ダメージ脆弱",
+    "text_tw": "持續傷害脆弱"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70001,
+    "text": "도발 효과가 적용된 대상에게 적의 공격이 집중됩니다.\\n도발 상태인 대상보다 일점사 대상을 우선 공격하며, 2명 이상이 도발 상태인 경우 공격 순서가 빠른 대상을 우선 공격합니다.",
+    "text_cn": "敌人的攻击集中在被应用挑衅效果的目标上。\\n比起处于挑衅状态的目标，将优先攻击被应用集中射击效果的目标，并且若有2名或以上的目标处于挑衅状态，则优先攻击攻击顺序靠前的目标。",
+    "text_en": "Enemies prioritize attacking targets with the Taunt effect. Concentrated Fire targets are prioritized over Taunt. If multiple targets are taunted, the earliest in the action order is prioritized.",
+    "text_jp": "挑発効果が適用された対象に敵の攻撃が集中します。\\n挑発状態の対象よりロックオン対象を優先的に攻撃し、2名以上が挑発状態なら攻撃順が早い対象を攻撃します。",
+    "text_tw": "敵人的攻擊集中在套用挑釁效果的目標。\\n比起套用挑釁狀態的目標，將優先攻擊套用集中攻擊效果的目標，若有兩名或以上的目標套用挑釁效果，則根據攻擊順序攻擊。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70002,
+    "text": "에너지 가드는 피해를 받을 때 생명력보다 먼저 소모됩니다.\\n에너지 가드가 여러 개 중첩되어 있는 경우, 먼저 활성화된 에너지 가드부터 소모됩니다.\\n순수 피해는 에너지 가드를 무시하고 피해를 입힙니다.",
+    "text_cn": "承受伤害时，能量护盾将比生命力优先消耗。\\n若有多个叠加的能量护盾，则优先消耗已激活的能量护盾。\\n纯粹伤害将无视能量护盾并造成伤害。",
+    "text_en": "Energy Guard is consumed before HP when taking damage.\\nIf multiple Energy Guards are stacked, they deplete in the order they were activated.\\nPure DMG ignores Energy Guard, dealing direct damage.",
+    "text_jp": "エナジーガードはダメージを受ける際にHPより先に消耗されます。\\n複数のエナジーガードが重複されている場合、先に活性化されたエナジーガードから消耗されます。\\n純粋ダメージはエナジーガードを無視してダメージを与えます。",
+    "text_tw": "受到傷害時，將比生命力優先消耗。\\n如果有多個疊加的能量防衛，則優先消耗已啟用的能量防衛。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70003,
+    "text": "일점사 효과가 적용된 대상에게 적의 공격이 집중됩니다.\\n도발 상태인 대상보다 일점사 대상을 우선 공격하며, 2명 이상이 일점사 상태인 경우 공격 순서가 빠른 대상을 우선 공격합니다.",
+    "text_cn": "友军的攻击集中在被应用集中射击效果的目标上。\\n比起处于挑衅状态的目标，将优先攻击被应用集中射击效果的目标，并且若有2名或以上的目标处于集中射击状态，则优先攻击攻击顺序靠前的目标。",
+    "text_en": "Enemies concentrate attacks on targets with the Concentrated Fire effect.\\nConcentrated Fire targets are prioritized over Taunt. If multiple targets are in a Concentrated Fire state, the earliest in the action order is prioritized.",
+    "text_jp": "ロックオン効果が適用された対象に味方の攻撃が集中します。\\n挑発状態の対象よりロックオン対象を優先的に攻撃し、2名以上がロックオン状態なら攻撃順が早い対象を攻撃します。",
+    "text_tw": "我軍的攻擊集中在套用集中攻擊效果的目標上。\\n比起套用挑釁效果的目標，優先攻擊集中攻擊的目標，若有兩名或以上的目標套用集中攻擊效果，則根據攻擊順序攻擊。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70004,
+    "text": "침묵 효과가 적용된 대상은 스킬을 예약할 수 없으며 이미 예약된 스킬은 예약이 취소됩니다.\\n예약중인 스킬이 취소된다면 SP를 돌려받습니다.",
+    "text_cn": "被应用沉默效果的目标无法预约技能，并且已预约的技能，预约将被取消。\\n若正在预约的技能被取消，则返还SP。",
+    "text_en": "Silenced targets can't reserve skills, and any reserved skills are canceled with SP refunded.",
+    "text_jp": "沈黙効果が適用された対象はスキルを予約できず、予約されているスキルは予約がキャンセルされます。\\n予約中のスキルがキャンセルされるとSPが戻ってきます。",
+    "text_tw": "套用沉默效果的目標無法預約技能，已預約的技能將被取消。\\n預約中的技能被取消時，將返還消耗的SP。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70005,
+    "text": "오라를 지닌 대상 중심으로 주변 대상에게 특정 효과를 제공합니다.\\n오라로 부여되는 효과는 오라를 지닌 대상이 사망하면 즉시 제거됩니다.\\n오라로 부여되는 효과는 제거 효과에 의해 제거되지 않습니다.",
+    "text_cn": "以具有光环的目标为中心，对周围目标提供特定效果。\\n通过光环赋予的效果将在具有光环的目标死亡时立即解除。\\n通过光环赋予的效果不会被解除效果解除。",
+    "text_en": "Auras provide certain effects to nearby allies.\\nThese effects disappear if the unit with the Aura dies and cannot be removed by removal effects.",
+    "text_jp": "オーラを持つ対象を中心に周りの対象に特定効果を提供します。\\nオーラで付与される効果はオーラを持つ対象が戦闘不能になると即時解除されます。\\nオーラで付与される効果は解除効果によって解除されません。",
+    "text_tw": "以施展光環的目標為中心，向周圍目標提供特定效果。\\n賦予光環的效果將在目標死亡時立即解除。\\n由光環賦予的效果不受有解除效果的影響。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70006,
+    "text": "대상의 외형을 변화시키고 추가 효과를 얻습니다.\\n변신 중에는 해당 스킬의 소모 SP와 쿨타임이 0이 됩니다.\\n\\n변신은 제거 효과에 의해 제거되지 않습니다.",
+    "text_cn": "改变目标的外形并获得追加效果。\\n在变身过程中，该技能的消耗SP和冷却时间为0。 \\n\\n变身效果不会被解除效果解除。",
+    "text_en": "Transforms the target's appearance and grants additional effects.\\nWhile transformed, SP cost and cooldown for the skill are reduced to 0.\\nTransformations can't be removed by removal effects.",
+    "text_jp": "対象の外見を変化させ、追加効果を獲得します。\\n変身中は該当スキルの消費SPとクールタイムが0になります。\\n\\n変身は解除効果によって解除されません。",
+    "text_tw": "改變目標的外形並獲得額外效果。\\n在變身途中，該技能的SP消耗量和冷卻時間為0。\\n變身效果不受解除效果的影響。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70007,
+    "text": "전투 시작되기 전에 선제로 발동할 수 있는 스킬입니다.",
+    "text_cn": "可以在战斗开始前先发制人的技能。",
+    "text_en": "This is a skill that can be activated preemptively before the battle begins.",
+    "text_jp": "戦闘開始前に先制で発動できるスキルです。",
+    "text_tw": "在戰鬥開始前先發制人的技能。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70008,
+    "text": "타겟 회피 효과가 유지되는 동안 적으로부터 메인 타겟이 되지 않습니다.\\n단, 다른 공격할 대상이 없다면 메인 타겟으로 지정됩니다.\\n도발과 일점사 효과는 타겟 회피보다 우선 적용됩니다.",
+    "text_cn": "在闪避目标效果维持期间，不会成为敌人的主要目标。\\n但是，若没有其他可攻击的目标，则仍会被指定为主要目标。\\n挑衅和集中射击效果将优先于闪避目标效果应用。",
+    "text_en": "While the Target Avoidance effect is active, the character doesn't become the main target of enemies, unless no other targets are available.\\nTaunt and Concentrated Fire take priority over Target Avoidance.",
+    "text_jp": "ターゲット回避効果が維持される間、敵からメインターゲットにされません。\\nただし、他に攻撃対象がないならメインターゲットになります。\\n挑発とロックオン効果はターゲット回避より優先して適用されます。",
+    "text_tw": "在維持目標迴避效果期間，不會成為敵人的主要目標。\\n若無其他可攻擊的目標，則會被指定為主要目標。\\n優先套用挑釁和集中攻擊效果。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70009,
+    "text": "아래 효과들의 영향을 받지 않습니다.\\n - 방어력 / 마법저항 / 받는 피해 감소(증가/감소) / 에너지 가드\\n아래 효과들의 영향을 받습니다.\\n - 속성피해 / 체인 효과 / 치명타 / 주는 피해(증가/감소) / 데스 타임 효과",
+    "text_cn": "不受以下效果影响。\\n - 防御力／魔法抵抗／承受伤害减少／能量护盾\\n受以下效果影响。\\n - 属性伤害／连携效果／暴击／承受伤害增加／施加伤害（增加／减少）／死亡时间效果",
+    "text_en": "Isn't affected by the following effects.\\n - DEF / Magic Resistance / Incoming DMG Reduction / Energy Guard\\nIs affected by the following effects.\\n - Property DMG / Chain Effect / Crit / Damage Dealt (Increase/Reduction) / Death Time Effect",
+    "text_jp": "以下の効果の影響を受けません。\\n - 防御力 / 魔法抵抗 / 受けるダメージ減少 / エナジーガード\\n以下の効果の影響を受けます。\\n 属性ダメージ / チェイン効果 / クリティカル / 受けるダメージ増加 / 与えるダメージ(増加/減少) / デスタイム効果",
+    "text_tw": "不受以下相關效果影響。\\n- 防禦力/魔法抵抗/受到的傷害減少/能量防衛\\n受以下相關效果影響。\\n- 屬性傷害/連鎖效果/致命打擊/受到的傷害增加/施加傷害(增加/減少)/死亡時間效果"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70010,
+    "text": "아래 효과들의 영향을 받지 않습니다.\\n - 방어력 / 마법저항 / 받는 피해(증가/감소) / 치명타 / 데스 타임 효과\\n아래 효과들의 영향을 받습니다.\\n - 속성피해 / 체인 효과 / 주는 피해(증가/감소) / 에너지 가드",
+    "text_cn": "不受以下效果影响。\\n - 防御力／魔法抵抗／承受伤害（增加／减少）／暴击\\n受以下效果影响。\\n - 属性伤害／连携效果／施加伤害（增加／减少）／死亡时间效果",
+    "text_en": "Isn't affected by the following effects.\\n - DEF / Magic Resistance / Incoming DMG (Increase/Reduction) / Crit\\nIs affected by the following effects.\\n - Property DMG / Chain Effect / Damage Dealt (Increase/Reduction) / Death Time Effect",
+    "text_jp": "以下の効果の影響を受けません。\\n - 防御力 / 魔法抵抗 / 受けるダメージ(増加/減少) / クリティカル\\n以下の効果の影響を受けます。\\n - 属性ダメージ / チェイン効果 / 与えるダメージ(増加/減少) / デスタイム効果",
+    "text_tw": "不受以下相關效果影響。\\n- 防禦力/魔法抵抗/受到的傷害(增加/減少)/致命打擊\\n受以下相關效果影響。\\n- 屬性傷害/連鎖效果/施加傷害(增加/減少)/死亡時間效果"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70011,
+    "text": "아래 효과들의 영향을 받지 않습니다.\\n - 방어력 / 마법저항 / 받는 피해(증가/감소) / 치명타 / 에너지 가드 / 데스 타임 효과\\n아래 효과들의 영향을 받습니다.\\n - 속성피해 / 체인 효과 / 주는 피해(증가/감소)",
+    "text_cn": "不受以下效果影响。\\n - 防御力／魔法抵抗／承受伤害（增加／减少）／暴击／能量护盾\\n - 属性伤害／连携效果／施加伤害（增加／减少）／死亡时间效果",
+    "text_en": "Isn't affected by the following effects.\\n - DEF / Magic Resistance / Incoming DMG (Increase/Reduction) / Crit\\nIs affected by the following effects.\\n - Property DMG / Chain Effect / Damage Dealt (Increase/Reduction) / Death Time Effect",
+    "text_jp": "以下の効果の影響を受けません。\\n - 防御力 / 魔法抵抗 / 受けるダメージ(増加/減少) / クリティカル / エナジーガード\\n以下の効果の影響を受けます。\\n - 属性ダメージ / チェイン効果 / 与えるダメージ(増加/減少) / デスタイム効果",
+    "text_tw": "不受以下相關效果影響。\\n- 防禦力/魔法抵抗/受到的傷害(增加/減少)/致命打擊/能量防衛\\n受以下相關效果影響。\\n- 屬性傷害/連鎖效果/受到的傷害(增加/減少)/死亡時間效果"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70012,
+    "text": "적을 공격할 때 상대방의 속성과 상성 상 우위일 경우 적용되며, 속성피해 수치만큼 주는 피해가 증가합니다.\\n\\n만약 50% 속성피해를 지닌 상태에서 상성 우위인 적에게 100의 피해를 준다면 속성피해 효과에 의해 150 피해를 주게 됩니다.",
+    "text_cn": "攻击敌人时，若与对方在属性上具有相克属性的优势，则会应用效果，并且施加的伤害将根据属性伤害数值增加。\\n若在处于具有50%属性伤害的状态下，对在相克属性上自己占优势的敌人造成100点伤害，则会由于属性伤害效果，造成150点伤害。",
+    "text_en": "When attacking with a property advantage, your damage increases by the property damage value.\\n\\nFor instance, with a 50% property increase, dealing 100 damage to a weaker property results in 150 damage.",
+    "text_jp": "敵を攻撃する際に相手の属性に対して相性が優位なら適用され、属性ダメージ数値分、与えるダメージが増加します。\\n例として、50％の属性ダメージを持った状態で相性優位の敵に100のダメージを与えると、属性ダメージ効果に応じて150ダメージを与えます。",
+    "text_tw": "攻擊敵人時，當對方的屬性與相性為相對優勢時，則套用該效果。施加傷害將根據屬性傷害的數值而增加。\\n在套用50%屬性傷害的狀態下，若對相性為優勢的敵人造成100的傷害，在屬性傷害效果的影響下，實際造成的傷害將增為150。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70013,
+    "text": "스킬 범위의 중심이 되는 대상 1칸입니다.",
+    "text_cn": "作为技能范围中心的目标1格。",
+    "text_en": "The main target is the single square at the center of the skill's range.",
+    "text_jp": "スキル反映の中心になる対象1マスです。",
+    "text_tw": "被技能指定的目標。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70014,
+    "text": "스킬 범위의 중심이 되는 대상 1칸을 제외한 나머지 대상들입니다.",
+    "text_cn": "除了作为技能范围中心的目标1格之外的剩余目标。",
+    "text_en": "The sub targets are all targets except the single central square within the skill's range.",
+    "text_jp": "スキル反映の中心になる対象1マスを除いた他の対象です。",
+    "text_tw": "除了範圍中心的目標之外的剩餘目標。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70015,
+    "text": "격노 효과가 적용되는 동안 피격 받을 때 추가 효과를 얻습니다.\\n적용된 효과는 중첩되지 않습니다.",
+    "text_cn": "在暴怒效果应用期间遭受攻击时，将获得追加效果。\\n应用的效果将不会叠加。",
+    "text_en": "While Wrath effect is active, gain an additional effect upon being hit.\\nThe applied effect does not stack.",
+    "text_jp": "激怒効果が適用される間、被弾される際に追加効果を得ます。\\n適用された効果は重複されません。",
+    "text_tw": "每當在被套用暴怒效果期間受到攻擊時，將獲得額外的效果。\\n套用的效果將不會疊加。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70016,
+    "text": "받는 피해가 감소합니다.\\n\\n만약 50% 보호막과 50% 방어력을 지닌 상태에서 100의 피해를 받으면 보호막과 방어력의 효과에 의해 25 피해를 입게 됩니다.",
+    "text_cn": "承受伤害减少。\\n\\n若在处于具有50%防护罩和50%防御力的状态下，遭受100点伤害，则会由于防护罩和防御力效果，遭受25点伤害。",
+    "text_en": "Barrier reduces damage received.\\n\\nFor instance, with a 50% Barrier and 50% DEF, taking 100 damage is reduced to 25 due to the Barrier and DEF.",
+    "text_jp": "受けるダメージが減少します。\\n\\n例として50％バリアと50％防御力を持った状態で100のダメージを受けると、バリアと防御力の効果によって25のダメージを受けます。",
+    "text_tw": "受到的傷害減少。\\n\\n若在套用50%的防護罩與50%的防禦力效果的狀態下受到100的傷害，在保護罩與防禦力效果的影響下，將受到25的傷害。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70017,
+    "text": "받는 피해가 증가합니다.\\n\\n만약 25% 취약을 지닌 상태라면 100의 피해를 입었을 때 취약 효과에 의해 125 피해를 입게 됩니다.",
+    "text_cn": "增加目标的承受伤害。\\n\\n若处于具有25%虚弱效果的状态，造成100点伤害时，则会由于虚弱效果，造成125点伤害。",
+    "text_en": "Vulnerability increases damage received.\\n\\nFor instance, with a 25% Vulnerability, taking 100 damage results in 125 damage due to the effects of Vulnerability.",
+    "text_jp": "受けるダメージが増加します。\\n\\n例として、25％の脆弱を持った状態なら100のダメージを受けると、脆弱効果によって125ダメージを受けます。",
+    "text_tw": "目標受到的傷害增加。\\n\\n若在套用25%的脆弱效果的狀態下造成100的傷害，在脆弱效果的影響下將造成125的傷害。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70018,
+    "text": "회피에 성공하면 피해를 포함한 모든 효과를 무시합니다.\\n자폭 공격과 반격에 의한 공격은 회피할 수 없으며, 이미 적용된 지속피해에 의한 피해는 그대로 받습니다.",
+    "text_cn": "若成功闪避，则无视包括伤害在内的所有效果。\\n自爆攻击和反击造成的攻击无法闪避，已应用的持续伤害效果将照常生效。",
+    "text_en": "Successfully evading ignores all effects and damage, but self-destruct and counters cannot be evaded.",
+    "text_jp": "回避に成功するとダメージを含めたすべての効果を無視します。\\n自爆攻撃と反撃による攻撃は回避できず、既に適用されている持続ダメージによるダメージはそのまま受けます。",
+    "text_tw": "若成功迴避，將無視包含傷害的所有效果。\\n無法迴避自爆與反撃效果的攻撃，將依舊受到已套用的持續傷害效果。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70019,
+    "text": "공격을 받은 후 생존한 상태라면 공격을 가한 적에게 역으로 공격하여 피해를 입히거나 효과를 적용합니다.\\n공격 받은 횟수만큼 반격이 적용됩니다.",
+    "text_cn": "若在遭受攻击后处于生存状态，则对发动攻击的敌人进行反击，并造成伤害或应用效果。\\n反击效果的应用次数相当于遭受攻击的次数。",
+    "text_en": "If you survive after being hit, you counter the enemy, dealing damage or applying effects.\\nCounters apply for each attack received.",
+    "text_jp": "攻撃を受けたあと、生存した状態なら攻撃してきた敵を逆に攻撃しダメージを与えるか効果を適用します。\\n攻撃された回数分、反撃が適用されます。",
+    "text_tw": "若在受到攻擊後處於存活的狀態，將對發動攻擊的敵人進行反向攻擊，並造成傷害或套用效果。\\n反擊次數相當於受到的攻擊次數。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70020,
+    "text": "아군 진영의 왼쪽 전방부터 차례대로 소환물을 생성합니다.",
+    "text_cn": "从友军阵营的左前方开始，依序生成召唤物。",
+    "text_en": "Summons units sequentially starting from the forward left of your formation.",
+    "text_jp": "味方陣営の左前方から順番に召喚物を生成します。",
+    "text_tw": "從我軍陣營的左前方開始，依序生成召喚物。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70021,
+    "text": "자신의 스킬 범위를 기준으로 맨 왼쪽 상단부터 오른쪽 방향으로 차례대로 소환합니다.",
+    "text_cn": "以自身技能范围为基准，从最左上方开始向右方依序召唤。",
+    "text_en": "Summons units sequentially starting from the top-left of the skill's range, moving to the right.",
+    "text_jp": "自身のスキル範囲を基準に、左上段から右方向に順番に召喚します。",
+    "text_tw": "以自身技能範圍為基準，從最左上方開始向右方依序召喚。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70022,
+    "text": "[스탯]\\n모르페아의 전투 진입 전 스탯을 기반으로 소환됩니다.\\n\\n[스킬]\\n맨 앞의 대상에게 3칸 좌우 범위의 자폭 스킬을 사용합니다.\\n코스튬 강화 단계에 따라 피해 계수가 증가합니다.\\n+0 : 자신 마법력의 300%\\n+1 : 자신 마법력의 380%\\n+2 : 자신 마법력의 460%\\n+3 : 자신 마법력의 540%\\n+4 : 자신 마법력의 620%\\n+5 : 자신 마법력의 700%",
+    "text_cn": "[属性值]\\n以墨菲亚进入战斗前的属性值为基准召唤。\\n\\n[技能]\\n对最前方的目标使用3格左右范围的自爆技能。\\n根据服装强化阶段，伤害系数会增加。\\n+0：自身魔法力的300%\\n+1：自身魔法力的380%\\n+2：自身魔法力的460%\\n+3：自身魔法力的540%\\n+4：自身魔法力的620%\\n+5：自身魔法力的700%",
+    "text_en": "[Stats]\\nPersona of Worship is summoned based on Morpeah's pre-battle stats.\\n\\n[Skill]\\nUses a self-destruct skill targeting the foremost enemy with a 3-tile horizontal range. Damage multiplier increases with costume upgrades.\\n+0 : 300% of own Magic ATK\\n+1 : 380% of own Magic ATK\\n+2 : 460% of own Magic ATK\\n+3 : 540% of own Magic ATK\\n+4 : 620% of own Magic ATK\\n+5 : 700% of own Magic ATK",
+    "text_jp": "[ステータス]\\nモルフェアの戦闘開始前のステータスをベースにして召喚します。\\n\\n[スキル]\\n最前の相手に3マス左右範囲の自爆スキルを使用します。コスチューム強化段階に応じてダメージ係数が増加します。\\n＋0：自身の魔法力300%\\n＋1：自身の魔法力380%\\n＋2：自身の魔法力460%\\n＋3：自身の魔法力540%\\n＋4：自身の魔法力620%\\n＋5：自身の魔法力700%",
+    "text_tw": "[能力值]\\n以墨菲亞進入戰鬥前的能力值為基準召喚。 \\n\\n[技能]\\n對最前方的目標使用3格左右範圍的自爆技能。\\n根據服裝強化階段，傷害係數會增加。\\n+0：自身魔法力的300%\\n+1：自身魔法力的380%\\n+2：自身魔法力的460%\\n+3：自身魔法力的540%\\n+4：自身魔法力的620%\\n+5：自身魔法力的700%"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70023,
+    "text": "[스탯]\\n모르페아의 전투 진입 전 스탯을 기반으로 소환됩니다.\\n\\n[스킬]\\n맨 앞의 대상에게 3칸 관통 범위의 자폭 스킬을 사용합니다.\\n코스튬 강화 단계에 따라 피해 계수가 증가합니다.\\n+0 : 자신 마법력의 300%\\n+1 : 자신 마법력의 380%\\n+2 : 자신 마법력의 460%\\n+3 : 자신 마법력의 540%\\n+4 : 자신 마법력의 620%\\n+5 : 자신 마법력의 700%",
+    "text_cn": "[属性值]\\n以墨菲亚进入战斗前的属性值为基准召唤。\\n\\n[技能]\\n对最前方的目标使用3格穿透范围的自爆技能。\\n根据服装强化阶段，伤害系数会增加。\\n+0：自身魔法力的300%\\n+1：自身魔法力的380%\\n+2：自身魔法力的460%\\n+3：自身魔法力的540%\\n+4：自身魔法力的620%\\n+5：自身魔法力的700%",
+    "text_en": "[Stats]\\nPersona of Slander is summoned based on Morpeah's pre-battle stats.\\n\\n[Skill]\\nUses a self-destruct skill targeting the foremost enemy with a 3-tile penetrating range.\\nDamage multiplier increases with costume upgrade levels.\\n+0 : 300% of own Magic ATK\\n+1 : 380% of own Magic ATK\\n+2 : 460% of own Magic ATK\\n+3 : 540% of own Magic ATK\\n+4 : 620% of own Magic ATK\\n+5 : 700% of own Magic ATK",
+    "text_jp": "[ステータス]\\nモルフェアの戦闘開始前のステータスをベースにして召喚します。\\n\\n[スキル]\\n最前の相手に3マス貫通範囲の自爆スキルを使用します。コスチューム強化段階に応じてダメージ係数が増加します。\\n＋0：自身の魔法力300%\\n＋1：自身の魔法力380%\\n＋2：自身の魔法力460%\\n＋3：自身の魔法力540%\\n＋4：自身の魔法力620%\\n＋5：自身の魔法力700%",
+    "text_tw": "[能力值]\\n以墨菲亞進入戰鬥前的能力值為基準召喚。 \\n\\n[技能]\\n對最前方的目標使用3格穿透範圍的自爆技能。\\n根據服裝強化階段，傷害係數會增加。\\n+0：自身魔法力的300%\\n+1：自身魔法力的380%\\n+2：自身魔法力的460%\\n+3：自身魔法力的540%\\n+4：自身魔法力的620%\\n+5：自身魔法力的700%"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70024,
+    "text": "예약된 스킬이 취소되고 브레이크 상태가 유지되는 동안 행동할 수 없습니다.",
+    "text_cn": "已预约的技能将被取消，并在制动状态维持期间无法行动。",
+    "text_en": "Skills are canceled, and no actions can be performed while in Break state.",
+    "text_jp": "予約されたスキルがキャンセルされ、ブレイク状態が維持される間は行動できません。",
+    "text_tw": "取消預約的技能，在維持制動的期間無法行動。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70025,
+    "text": "지속시간동안 해당 칸에 배치를 불가능하게 합니다.\\n배치 불가 칸은 넉백되거나 충돌하지 않습니다.",
+    "text_cn": "在持续时间内，该格子无法进行部署。\\n无法部署的格子不会被击退或冲撞。",
+    "text_en": "Prevents placement in the designated square during its duration. Undeployable squares cannot be knocked back or collided with.",
+    "text_jp": "持続時間の間、該当のマスに配置できなくします。\\n配置不可ますはノックバック、衝突されません。",
+    "text_tw": "持續時間內，該格子無法進行配置。\\n無法配置的格子將不會被推開或受到衝撞。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70026,
+    "text": "능력치가 증가하는 효과입니다.\\n - 공격력 / 마법력 / 방어력 / 마법저항 / 치명확률 / 치명피해 / 속성피해 / 속성저항 증가 효과들이 포함됩니다.",
+    "text_cn": "强化能力值的效果。\\n - 包括攻击力／魔法力／防御力／魔法抵抗／暴击率／暴击伤害／属性伤害／属性抵抗增加效果等。",
+    "text_en": "This effect increases the following stats.\\n - ATK / Magic ATK / DEF / Magic Resistance / Crit Rate / Crit DMG / Property DMG / Property Resistance",
+    "text_jp": "ステータスが増加する効果です。\\n - 攻撃力 / 魔法力 / 防御力 / 魔法抵抗 / クリ率 / クリダメ / 属性ダメージ / 属性抵抗増加効果が含まれます。",
+    "text_tw": "強化能力值的效果。\\n - 包含攻擊力/魔法力/防禦力/魔法抵抗/致命率/致命傷害/屬性傷害/屬性抵抗效果。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70027,
+    "text": "능력치가 감소하는 효과입니다.\\n - 공격력 / 마법력 / 방어력 / 마법저항 / 치명확률 / 치명피해 / 속성피해 / 속성저항 감소 효과들이 포함됩니다.",
+    "text_cn": "弱化能力值的效果。\\n - 包括攻击力／魔法力／防御力／魔法抵抗／暴击率／暴击伤害／属性伤害／属性抵抗减少效果等。",
+    "text_en": "This effect reduces the following stats.\\n - ATK / Magic ATK / DEF / Magic Resistance / Crit Rate / Crit DMG / Property DMG / Property Resistance",
+    "text_jp": "ステータスが減少する効果です。\\n - 攻撃力 / 魔法力 / 防御力 / 魔法抵抗 / クリ率 / クリダメ / 属性ダメージ / 属性抵抗減少効果が含まれます。",
+    "text_tw": "弱化能力值的效果。\\n - 包含攻擊力/魔法力/防禦力/魔法抵抗/致命率/致命傷害/屬性傷害/屬性抵抗效果。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70028,
+    "text": "개수에 포함되는 이로운 효과는 아래와 같습니다.\\n- 아군이나 적이 부여한 효과\\n\\n아래의 효과들은 개수에 포함되지 않습니다.\\n- 콜렉션 버프, 유물 효과, 데스 타임, 전투 환경 효과",
+    "text_cn": "每次攻击时，遭受攻击的目标会叠加1层连携。\\n每叠加1连携，下一次攻击将应用10%的额外伤害。\\n\\n若叠加了3连携的目标造成100点伤害，则会由于连携，将造成130点伤害。\\n\\n - 在连击攻击的情况下，连携将根据连击次数叠加。\\n - 反击伤害或持续伤害不会叠加连携。\\n - 叠加的连携在回合结束时将被初始化。",
+    "text_en": "The following Buffs are included in the count:\\n- Buffs applied by allies and enemies\\n\\nThe following are not included in the count:\\n- Collection Buffs, Artifact Effects, Death Time, and Battle Environment Effects",
+    "text_jp": "攻撃を行う度に、攻撃を受けた対象はチェインが1ずつ溜まります。\\nチェイン1毎に次の攻撃に10%の追加ダメージが適用されます。\\n\\n例として、チェインが3重複された対象が100のダメージを受けると、チェインにより130ダメージを受けます。\\n\\n - 連撃攻撃の場合、連撃数分チェインが溜まります。\\n - 反撃や持続ダメージではチェインが溜まりません。\\n - 重複したチェインはターンが終了すると初期化されます。",
+    "text_tw": "每次攻擊時，受到攻擊的目標將疊加1層連鎖。\\n每疊加1層連鎖後，下次攻擊將套用10%的額外傷害。\\n\\n若疊加了3連鎖的目標並造成100的傷害，則會在連鎖效果的影響下造成130的傷害。\\n\\n - 連擊時，將根據連擊次數疊加連鎖。\\n - 反擊傷害或持續傷害將不會疊加連鎖。\\n - 疊加的連鎖在回合結束時將重置。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70029,
+    "text": "매 턴이 종료될 때 피해를 입히는 효과들입니다.\\n출혈 / 화상 / 중독 / 부패 등의 효과가 포함됩니다.",
+    "text_cn": "每回合结束时造成伤害的效果。\\n包括出血／灼伤／中毒／腐败等效果。",
+    "text_en": "DoTs deal ongoing damage at the end of each turn, such as Bleed, Burn, Poison, Rot, and others.",
+    "text_jp": "毎ターン終了時にダメージを与える効果です。\\n出血 / 火傷 / 猛毒 / 腐敗などの効果が含まれます。",
+    "text_tw": "每回合結束時造成傷害的效果。\\n包含出血/燒傷/中毒/腐敗等效果。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70030,
+    "text": "공격을 받아 사망한 경우 부활합니다.\\n부활 시 적용되어 있던 모든 효과들은 사라집니다.",
+    "text_cn": "遭受攻击并死亡时，将会复活。\\n复活时，所有已应用的效果将消失。",
+    "text_en": "Revives after being killed. All active effects disappear upon revival.",
+    "text_jp": "攻撃を受けて戦闘不能になる場合、復活します。\\n復活すると適用されていたすべての効果は消えます。",
+    "text_tw": "受到攻擊而死亡時將復活。\\n復活時，已套用的所有效果將被解除。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70031,
+    "text": "받는 물리 타입 피해가 증가합니다.\\n\\n만약 25% 취약을 지닌 상태라면 100의 피해를 입었을 때 취약 효과에 의해 125 피해를 입게 됩니다.",
+    "text_cn": "承受物理类型伤害增加。\\n\\n若处于具有25%虚弱效果的状态，造成100点伤害时，则会由于虚弱效果，造成125点伤害。",
+    "text_en": "Physical Vulnerability increases Incoming Physical Type DMG. For instance, with a 25% Vulnerability, taking 100 damage results in 125 damage due to the effects of Vulnerability.",
+    "text_jp": "受ける物理タイプダメージが増加します。\\n\\n例として、25％の脆弱を持った状態なら100のダメージを受けると、脆弱効果によって125ダメージを受けます。",
+    "text_tw": "受到的物理類型傷害增加。\\n\\n若在套用脆弱效果25%的狀態下造成100的傷害，在脆弱效果的影響下，將造成125的傷害。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70032,
+    "text": "받는 마법 타입 피해가 증가합니다.\\n\\n만약 25% 취약을 지닌 상태라면 100의 피해를 입었을 때 취약 효과에 의해 125 피해를 입게 됩니다.",
+    "text_cn": "承受魔法类型伤害增加。\\n\\n若处于具有25%虚弱效果的状态，造成100点伤害时，则会由于虚弱效果，造成125点伤害。",
+    "text_en": "Magic Vulnerability increases Incoming Magic Type DMG. For instance, with a 25% Vulnerability, taking 100 damage results in 125 damage due to the effects of Vulnerability.",
+    "text_jp": "受ける魔法タイプダメージが増加します。\\n\\n例として、25％の脆弱を持った状態なら100のダメージを受けると、脆弱効果によって125ダメージを受けます。",
+    "text_tw": "受到的魔法類型傷害增加。\\n\\n若在套用脆弱效果25%的狀態下造成100的傷害，在脆弱效果的影響下，將造成125的傷害。"
+  },
+  {
+    "id": 70033,
+    "text": "스킬 예약 시 소모되는 SP가 감소합니다. SP 소모량은 최대 0까지만 감소합니다."
+  },
+  {
+    "id": 70034,
+    "text": "스킬 예약 시 소모되는 SP가 증가합니다."
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70035,
+    "text": "SP는 전투에서 스킬 사용 시 필요한 포인트입니다.\\nSP는 전투 시작 전 일정량이 제공되며 컨텐츠에 따라 매 턴이 종료될 때 추가로 제공되는 경우도 있습니다.\\n전투에서 일반 공격이나 넉백 공격을 하거나 SP 회복 스킬을 사용하여 추가로 획득할 수 있습니다.",
+    "text_cn": "SP是在战斗中使用技能时所需的点数。\\n在战斗开始前，将提供一定数量的SP，并且根据游戏内容，每回合结束时可能会额外提供SP。\\n在战斗中，进行普通攻击、击退攻击或使用SP恢复技能，可以额外获得SP。",
+    "text_en": "SP is the points needed to use skills in battle. A set amount is provided at the start of battle, and you may earn additional SP at the end of each turn, depending on the in-game content. Additional SP can also be gained through basic and knockback attacks or by using SP restoring skills.",
+    "text_jp": "SPは戦闘でスキルを使用する際に必要なポイントです。\\nSPは戦闘開始前に一定量が提供され、コンテンツによって毎ターン終了時に追加提供されることがあります。\\n戦闘で基本攻撃やノックバック攻撃、SP回復スキルを使用することで追加獲得もできます。",
+    "text_tw": "SP是在戰鬥途中使用技能時所需的點數。\\n戰鬥開始時，將提供一定數量的SP，根據遊戲內容的不同，每回合結束時可能會額外提供SP。\\n戰鬥中，使用一般技能、擊退攻擊或使用恢復SP的技能時，可額外獲得SP。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70036,
+    "text": "매 턴이 종료될 때마다 지속 피해를 줍니다.",
+    "text_cn": "每回合结束时造成持续伤害。",
+    "text_en": "Bleed inflicts DoT damage at the end of each turn.",
+    "text_jp": "毎ターン終了時に持続ダメージを与えます。",
+    "text_tw": "每回合結束時，造成持續傷害。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70037,
+    "text": "매 턴이 종료될 때마다 지속 피해를 줍니다.",
+    "text_cn": "每回合结束时造成持续伤害。",
+    "text_en": "Burn inflicts DoT damage at the end of each turn.",
+    "text_jp": "毎ターン終了時に持続ダメージを与えます。",
+    "text_tw": "每回合結束時，造成持續傷害。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70038,
+    "text": "매 턴이 종료될 때마다 지속 피해를 줍니다.",
+    "text_cn": "每回合结束时造成持续伤害。",
+    "text_en": "Poison inflicts DoT damage at the end of each turn.",
+    "text_jp": "毎ターン終了時に持続ダメージを与えます。",
+    "text_tw": "每回合結束時，造成持續傷害。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70039,
+    "text": "매 턴이 종료될 때마다 지속 피해를 줍니다.",
+    "text_cn": "每回合结束时造成持续伤害。",
+    "text_en": "Rot inflicts DoT damage at the end of each turn.",
+    "text_jp": "毎ターン終了時に持続ダメージを与えます。",
+    "text_tw": "每回合結束時，造成持續傷害。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70040,
+    "text": "매 턴이 종료될 때마다 지속 피해를 줍니다.",
+    "text_cn": "每回合结束时造成持续伤害。",
+    "text_en": "Shock inflicts DoT damage at the end of each turn.",
+    "text_jp": "毎ターン終了時に持続ダメージを与えます。",
+    "text_tw": "每回合結束時，造成持續傷害。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70041,
+    "text": "매 턴이 종료될 때마다 지속 피해를 줍니다.",
+    "text_cn": "每回合结束时造成持续伤害。",
+    "text_en": "Frostbite inflicts DoT damage at the end of each turn.",
+    "text_jp": "毎ターン終了時に持続ダメージを与えます。",
+    "text_tw": "每回合結束時，造成持續傷害。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70042,
+    "text": "공격하여 체인을 중첩시킬 때 체인 강화 값만큼 추가로 체인을 중첩시킵니다.\\n매 공격마다 효과가 적용됩니다.",
+    "text_cn": "攻击并叠加连携时，根据连携强化值额外叠加连携。\\n每次攻击将应用此效果。",
+    "text_en": "When stacking Chains through attacks, extra Chains are added based on the Chain Reinforcement value. This effect occurs with each attack.",
+    "text_jp": "攻撃してチェインが溜まる際に、チェイン強化値に応じて追加でチェインが溜まります。\\n毎攻撃で効果が適用されます。",
+    "text_tw": "攻擊並疊加連鎖時，根據連鎖強化的數值，額外疊加連鎖。\\n每次攻擊皆套用該效果。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70043,
+    "text": "공격받아 체인이 중첩될 때 체인 약화 값만큼 추가로 체인이 중첩됩니다.\\n매 공격마다 효과가 적용됩니다.",
+    "text_cn": "遭受攻击并叠加连携时，根据连携弱化值额外叠加连携。\\n每次攻击将应用此效果。",
+    "text_en": "When Chains stack from taking hits, extra Chains are added based on the Chain Weakening value. This effect occurs with each attack.",
+    "text_jp": "攻撃を受けてチェインが溜まる際に、チェイン弱体化値に応じて追加でチェインが溜まります。\\n毎攻撃で効果が適用されます。",
+    "text_tw": "攻擊並疊加連鎖時，根據連鎖弱化的數值，額外疊加連鎖。\\n每次攻擊皆套用該效果。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70044,
+    "text": "압박 상태에서는 능력치 강화 효과들의 효율이 감소됩니다.\\n\\n만약 20% 압박 효과를 받고 있는 상태에서 200% 공격력 증가 효과를 받는 경우 160% 공격력 증가 효과가 적용됩니다.",
+    "text_cn": "在压迫状态下，能力值强化效果的效果将减少。\\n\\n若在遭受20%压迫效果的状态下，获得200%攻击力增加效果，则应用的攻击力增加效果为160%。",
+    "text_en": "Under the Pressure effect, the efficiency of stat-boosting effects is reduced. For instance, with a 20% Pressure effect, a 200% ATK increase effect becomes 160%.",
+    "text_jp": "圧迫状態だとステータス強化効果の効率が減少します、\\n\\n例として20%圧迫効果を受けている状態で200%攻撃力増加効果を受けると、160%攻撃力増加効果が適用されます。",
+    "text_tw": "在壓迫狀態下，將減少能力值強化的效果。\\n\\n若在受到壓迫效果20%的狀態下獲得攻擊力增加200%的效果，套用的攻擊力增加效果則為160%。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70045,
+    "text": "캐릭터가 기본적으로 사용하는 공격입니다.\\n스킬 공격과 넉백 공격은 포함되지 않습니다.",
+    "text_cn": "角色基本使用的攻击。\\n不包括技能攻击和击退攻击。",
+    "text_en": "This is the basic attack characters use, excluding skill and knockback attacks.",
+    "text_jp": "キャラクターが基本的に使用する攻撃です。\\nスキル攻撃とノックバック攻撃は含まれません。",
+    "text_tw": "角色使用的基本攻擊。\\n不包含技能攻擊與擊退攻擊。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70046,
+    "text": "중첩 적용 스킬은 중첩 수에 비례하여 효율이 증가합니다.\\n\\n만약 중첩마다 10%만큼 공격력이 상승하는 효과인 경우, 3중첩일 때 30%만큼 공격력이 상승합니다.",
+    "text_cn": "赋予叠加技能的效果将根据叠加数量成比例增加。\\n\\n若每叠加一层，将获得攻击力增加10%的效果，则在叠加3层时，攻击力将增加30%。",
+    "text_en": "Stack Application skills become more effective with the number of stacks.\\n\\nFor instance, if each stack provides 10% increase in ATK, then with 3 stacks, ATK increases by 30%.",
+    "text_jp": "重複付与スキルは重複数に応じて効率が増加します。\\n\\n例として重複毎に10%の攻撃力が増加する効果なら、3重複時には30%の攻撃力が増加します。",
+    "text_tw": "賦予疊加的技能將根據疊加數的比例而增加效果。\\n\\n若每疊加一層時，獲得攻擊力增加10%的效果，在疊加3層時，攻擊力將增加30%。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70047,
+    "text": "주는 피해가 증가합니다.\\n\\n만약 25% 증강을 지닌 상태라면 100의 피해를 입힐 때 증강 효과에 의해 125 피해를 입히게 됩니다.",
+    "text_cn": "施加的伤害增加。\\n\\n若处于具有25%增强效果的状态，造成100点伤害时，则会由于增强效果，造成125点伤害。",
+    "text_en": "Augmentation increases damage dealt. For instance, with a 25% Augmentation effect, dealing 100 damage results in 125 damage.",
+    "text_jp": "与えるダメージが増加します。\\n\\n例として25%増強効果を持った状態なら100のダメージを与える際に、増強効果に応じて125ダメージを与えます。",
+    "text_tw": "增加施加的傷害。\\n\\n若在套用25%增強效果的狀態下造成100傷害，在增強效果的影響下，將造成125傷害。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70048,
+    "text": "공격할 때마다 공격받은 대상에게 체인이 1씩 중첩됩니다.\\n체인 1중첩당 다음 공격에 10%의 추가 피해가 적용됩니다.\\n\\n만약 체인이 3중첩된 대상이 100의 피해를 입었을 때 체인에 의해 130 피해를 입게 됩니다.\\n\\n - 연타 공격의 경우 연타 수만큼 체인이 중첩됩니다.\\n - 반격 피해나 지속 피해로는 체인이 중첩되지 않습니다.\\n - 중첩된 체인은 턴이 종료되면 초기화됩니다.",
+    "text_cn": "每次攻击时，遭受攻击的目标会叠加1层连携。\\n每叠加1连携，下一次攻击将应用10%的额外伤害。\\n\\n若叠加了3连携的目标造成100点伤害，则会由于连携，将造成130点伤害。\\n\\n - 在连击攻击的情况下，连携将根据连击次数叠加。\\n - 反击伤害或持续伤害不会叠加连携。\\n - 叠加的连携在回合结束时将被初始化。",
+    "text_en": "Each attack adds a Chain stack to the target, with each stack increasing the next attack's damage by 10%. For example, if a target has 3 stacks and receives 100 damage, the Chain effect increases it to 130 damage.\\n\\n - Multi-hit attacks add a stack for each hit.\\n - Counters and DoTs do not add Chain stacks.\\n - Stacks reset at the end of the turn.",
+    "text_jp": "攻撃を行う度に、攻撃を受けた対象はチェインが1ずつ溜まります。\\nチェイン1毎に次の攻撃に10%の追加ダメージが適用されます。\\n\\n例として、チェインが3重複された対象が100のダメージを受けると、チェインにより130ダメージを受けます。\\n\\n - 連撃攻撃の場合、連撃数分チェインが溜まります。\\n - 反撃や持続ダメージではチェインが溜まりません。\\n - 重複したチェインはターンが終了すると初期化されます。",
+    "text_tw": "每次攻擊時，受到攻擊的目標將疊加1層連鎖。\\n每疊加1層連鎖後，下次攻擊將套用10%的額外傷害。\\n\\n若疊加了3連鎖的目標並造成100的傷害，則會在連鎖效果的影響下造成130的傷害。\\n\\n - 連擊時，將根據連擊次數疊加連鎖。\\n - 反擊傷害或持續傷害將不會疊加連鎖。\\n - 疊加的連鎖在回合結束時將重置。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70049,
+    "text": "공격시 [공격력 / 마법력] 중 공격력 스탯을 사용하는 타입 입니다.",
+    "text_cn": "攻击时，使用[攻击力／魔法力]中的攻击力属性的类型。",
+    "text_en": "This type uses the ATK stat instead of Magic ATK for its attacks.",
+    "text_jp": "攻撃時、[攻撃力 / 魔法力]のうち攻撃力ステータスを使用するタイプです。",
+    "text_tw": "攻擊時，[攻擊力/魔法力]中使用攻擊力屬性的類型。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70050,
+    "text": "공격시 [공격력 / 마법력] 중 마법력 스탯을 사용하는 타입 입니다.",
+    "text_cn": "攻击时，使用[攻击力／魔法力]中的魔法力属性的类型。",
+    "text_en": "This type uses the Magic ATK stat instead of ATK for its attacks.",
+    "text_jp": "攻撃時、[攻撃力 / 魔法力]のうち魔法力ステータスを使用するタイプです。",
+    "text_tw": "攻擊時，[攻擊力/魔法力]中使用魔法力屬性的類型。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70051,
+    "text": "광폭화 상태에서는 보스가 사용하는 스킬들이 강화되며, 일부 조건을 만족할 경우 광폭화 스킬도 사용하게 됩니다.",
+    "text_cn": "在狂暴化状态下，首领使用的技能强化，满足部分条件时，可以使用狂暴化技能。",
+    "text_en": "In the Overdrive state, the boss's skills are enhanced. If certain conditions are met, it can also use Overdrive skills.",
+    "text_jp": "凶暴化状態ではボスが使用するスキルが強化され、一部条件を満たすと凶暴化スキルも使用します。",
+    "text_tw": "狂暴化狀態時，魔王使用的技能將被強化，滿足部份條件時，將使用狂暴化技能。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70052,
+    "text": "[스탯]\\n모르페아의 전투 진입 전 스탯을 기반으로 소환됩니다.\\n\\n[스킬]\\n맨 앞의 대상에게 9칸 8방향 범위의 자폭 스킬을 사용하고 마법 저항 15% 감소 시킵니다.\\n코스튬 강화 단계에 따라 피해 계수가 증가합니다.\\n+0 : 자신 마법력의 300%\\n+1 : 자신 마법력의 300%\\n+2 : 자신 마법력의 400%\\n+3 : 자신 마법력의 500%\\n+4 : 자신 마법력의 600%\\n+5 : 자신 마법력의 700%",
+    "text_cn": "[属性值]\\n以墨菲亚进入战斗前的属性值为基准召唤。\\n\\n[技能]\\n对最前方的目标使用9格8个方向范围的自爆技能，并减少30%的魔法抵抗\\n根据服装强化阶段，伤害系数会增加。\\n+0 : 自身魔法力的150%\\n+1：自身魔法力的230%\\n+2：自身魔法力的310%\\n+3：自身魔法力的390%\\n+4：自身魔法力的470%\\n+5：自身魔法力的550%",
+    "text_en": "[Stat]\\nBunny Spectre is summoned based on Morpeah's pre-battle stats.\\n\\n[Skill]\\nUses a self-destruct skill targeting the foremost enemy with a 9-tile, 8-direction range, reducing enemies' Magic Resistance by 30%.\\nDamage multiplier increases with costume upgrade levels.\\n+0: 150% of own Magic ATK\\n+1: 230% of own Magic ATK\\n+2: 310% of own Magic ATK\\n+3: 390% of own Magic ATK\\n+4: 470% of own Magic ATK\\n+5: 550% of own Magic ATK",
+    "text_jp": "[ステータス]\\nモルフェアの戦闘開始前のステータスをベースに召喚されます。\\n\\n[スキル]\\n最前の対象に9マス8方向範囲の自爆スキルを使用し、魔法抵抗を30％減少させます。\\nコスチューム強化段階に応じてダメージ係数が増加します。\\n＋0：自身魔法力の150%\\n＋1：自身魔法力の230%\\n＋2：自身魔法力の310%\\n＋3：自身魔法力の390%\\n＋4：自身魔法力の470%\\n＋5：自身魔法力の550%",
+    "text_tw": "[能力值]\\n以墨菲亞進入戰鬥前的能力值為基準召喚。\\n\\n[技能]\\n對最前方的目標使用9格8個方向範圍的自爆技能，並減少30%的魔法抵抗\\n根據服裝強化階段，傷害係數將恨增加。\\n+0 : 自身魔法力的150%\\n+1：自身魔法力的230%\\n+2：自身魔法力的310%\\n+3：自身魔法力的390%\\n+4：自身魔法力的470%\\n+5：自身魔法力的550%"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70053,
+    "text": "대상이 받는 빛 속성의 피해를 증가시킵니다.\\n\\n만약 25% 취약을 지닌 상태라면 100의 피해를 입었을 때 취약 효과에 의해 125 피해를 입게 됩니다.",
+    "text_cn": "增加目标遭受的光属性伤害。\\n\\n若处于具有25%虚弱效果的状态，造成100点伤害时，则会由于虚弱效果，造成125点伤害。",
+    "text_en": "Increases the Light DMG taken by the target.\\n\\nFor instance, with a 25% Vulnerability, taking 100 damage results in 125 damage due to the effects of Vulnerability.",
+    "text_jp": "対象が受ける光属性のダメージを増加させます。\\n\\n25%脆弱を持つ状態であれば100のダメージを受ける際に脆弱効果により125のダメージを受けます。",
+    "text_tw": "目標受到的光屬性傷害增加。\\n\\n若在套用脆弱效果25%的狀態下受到100的傷害，在脆弱效果的影響下，將造成125的傷害。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70054,
+    "text": "대상이 받는 어둠 속성의 피해를 증가시킵니다.\\n\\n만약 25% 취약을 지닌 상태라면 100의 피해를 입었을 때 취약 효과에 의해 125 피해를 입게 됩니다.",
+    "text_cn": "增加目标遭受的暗属性伤害。\\n\\n若处于具有25%虚弱效果的状态，造成100点伤害时，则会由于虚弱效果，造成125点伤害。",
+    "text_en": "Increases the Dark DMG taken by the target.\\n\\nFor instance, with a 25% Vulnerability, taking 100 damage results in 125 damage due to the effects of Vulnerability.",
+    "text_jp": "対象が受ける闇属性のダメージを増加させます。\\n\\n25%脆弱を持つ状態であれば100のダメージを受ける際に脆弱効果により125のダメージを受けます。",
+    "text_tw": "目標受到的暗屬性傷害增加。\\n\\n若在套用脆弱效果25%的狀態下受到100的傷害，在脆弱效果的影響下，將造成125的傷害。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70055,
+    "text": "대상이 받는 바람 속성의 피해를 증가시킵니다.\\n\\n만약 25% 취약을 지닌 상태라면 100의 피해를 입었을 때 취약 효과에 의해 125 피해를 입게 됩니다.",
+    "text_cn": "增加目标遭受的风属性伤害。\\n\\n若处于具有25%虚弱效果的状态，造成100点伤害时，则会由于虚弱效果，造成125点伤害。",
+    "text_en": "Increases the Wind DMG taken by the target.\\n\\nFor instance, with a 25% Vulnerability, taking 100 damage results in 125 damage due to the effects of Vulnerability.",
+    "text_jp": "対象が受ける風属性のダメージを増加させます。\\n\\n25%脆弱を持つ状態であれば100のダメージを受ける際に脆弱効果により125のダメージを受けます。",
+    "text_tw": "目標受到的風屬性傷害增加。\\n\\n若在套用脆弱效果25%的狀態下受到100的傷害，在脆弱效果的影響下，將造成125的傷害。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70056,
+    "text": "대상이 가질 수 있는 최대 생명력 입니다. \\n\\n만약 최대 생명력을 기준으로 스킬을 사용할 때 기준이 되는 생명력이 30000을 초과할 경우 30000을 기준으로 수치를 산정합니다.",
+    "text_cn": "目标可拥有的最大生命力。\\n\\n若以最大生命力为基准使用技能时，基础生命力超过30,000，则数值以30,000为基准计算。",
+    "text_en": "This represents the maximum health the target can have.\\n\\nWhen using a skill based on Max HP, if the calculated HP exceeds 30,000, it is capped at 30,000.",
+    "text_jp": "対象が保持可能な最大HPです。\\n\\n最大HPを基準としてスキルを使用する場合、基準となるHPが30,000を超える場合、30,000を基準として値を算出します。",
+    "text_tw": "目標可持有的最大生命力。\\n\\n若以最大生命力為基準使用技能後，生命力超過30,000時，數值將以30,000為基準計算。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70057,
+    "text": "대상이 현재 가지고 있는 생명력 입니다. \\n\\n만약 현재 생명력을 기준으로 스킬을 사용할 때 기준이 되는 생명력이 30000을 초과할 경우 30000을 기준으로 수치를 산정합니다.",
+    "text_cn": "目标当前拥有的生命力。\\n\\n若以当前生命力为基准使用技能时，基础生命力超过30,000，则数值以30,000为基准计算。",
+    "text_en": "This represents the current health the target has.\\n\\nWhen using a skill based on Current HP, if the calculated HP exceeds 30,000, it is capped at 30,000.",
+    "text_jp": "対象の現在のHPです。\\n\\n現在HPを基準としてスキルを使用する場合、基準となるHPが30,000を超える場合、30,000を基準として値を算出します。",
+    "text_tw": "目標目前持有的生命力。\\n\\n若以當前生命力為基準使用技能後，生命力超過30,000時，數值將以30,000為基準計算。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70058,
+    "text": "구원의 탑을 진행하며 얻을 수 있는 강력한 효과를 지닌 아이템입니다.\\n\\n모든 유물들은 지니고만 있어도 자동으로 해당 효과가 항시 적용됩니다.\\n\\n유물의 효과는 구원의 탑에서만 유효하며, 제거 스킬에 의해 지워지지 않습니다.",
+    "text_cn": "在进行救赎之塔中可以获得的强大效果道具。\\n\\n所有遗物只需携带即可在救赎之塔游戏过程中自动生效。\\n\\n遗物效果不受解除技能的影响。",
+    "text_en": "Artifacts are items obtained while progressing through the Tower of Salvation which possess powerful effects.\\n\\nAll artifacts automatically apply their effects as long as they are in your possession\\n\\nThese effects are only active within the Tower of Salvation and cannot be removed by removal skills.",
+    "text_jp": "救済の塔を上りながら獲得できる強力な効果のアイテムです。\\n\\n全遺物は持っているだけで自動的に救済の塔で効果が適用されます。\\n\\n遺物の効果は除去スキルでも消えません。",
+    "text_tw": "進行救贖之塔時獲得擁有強大效果的道具。\\n\\n在僅持有所有遺物的情況下，將自動的持續套用該效果。\\n\\n遺物的效果僅在救贖之塔中套用，且不會因解除效果而解除。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70059,
+    "text": "필드에서 모험을 하다보면, 반짝이는 오브젝트를 발견할 수 있습니다. \\n반짝이는 오브젝트의 근처로 이동하면 습득물을 획득할 수 있습니다.",
+    "text_cn": "在战场冒险时，可发现闪烁的物品。\\n移动至闪烁的物品附近时，即可获得拾取物。",
+    "text_en": "Finds are sparkling objects in the field.\\nMove close to collect them.",
+    "text_jp": "フィールドで冒険をしていると、輝くオブジェクトを見つけることができます。\\n見つけたオブジェクトに近づくと拾得物を獲得します。",
+    "text_tw": "在場域中冒險時，可發現閃亮的物件。\\n移動至閃亮的物件附近時，即可獲得撿拾道具。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70060,
+    "text": "경비병은 특정 장소를 주기적으로 순찰하는 몬스터입니다.\\n경비병에게 발각되면 특정 지점으로 쫓겨나게 됩니다.",
+    "text_cn": "警卫是指定期巡视特定场所的怪物。被警卫发现后，会被赶至特定地点。小心行动，千万别被警卫发现！",
+    "text_en": "Security Officers are monsters that patrol specific areas on a regular basis. If they spot you, they will chase you out to a designated location. Make sure to stay out of their sight to avoid being chased out.",
+    "text_jp": "警備兵は、特定の場所を定期的にパトロールするモンスターです。\\n警備兵に見つかると特定地点まで追い出されることになります。\\n警備兵に見つからないように、避けて歩きましょう。",
+    "text_tw": "警衛兵為定期巡視特定場所的怪物。\\n被警衛兵發現時，會被趕至特定地點。小心行動，避免被衛兵發現！"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70061,
+    "text": "각 팩의 전투구역에서 모험을 하다보면 트윙 글러티를 발견할 수 있습니다. 트윙 글러티를 잡으면 골드를 획득할 수 있습니다.",
+    "text_cn": "闪耀葛洛堤是一种捡食东西后会吐出有用道具的怪物！抓到闪耀葛洛堤就能获得金币。不过这家伙的胆子很小，而且逃跑速度极快，很难轻易得手。",
+    "text_en": "Twing Glutti is a fiend that spits out useful items when it eats objects. Capture a Twing Glutti to obtain Gold. This is far from easy, as they are easily spooked and surprisingly quick.",
+    "text_jp": "トウィンググラティは物を食べてアイテムを吐き出すモンスターです。\\nトウィンググラティを捕まえるとゴールドを獲得できますが、怖がりで逃げ足が速く、簡単に捕まえることはできません。",
+    "text_tw": "閃耀葛洛堤為撿食東西後會吐出有益道具的怪物！\\n抓到閃耀葛洛堤時可獲得金幣。\\n不過此怪物很膽小，且逃跑速度很快，無法輕易抓到。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70062,
+    "text": "각 팩의 전투구역에서 모험을 하다보면 글룸 글러티를 발견할 수 있습니다. 글룸 글러티를 건드리면 폭발하며 피해를 입지만, 글룸 글러티를 향해 대시하면 그대로 소멸시킬 수 있습니다.",
+    "text_cn": "幽冥葛洛堤是一种贪食蕴含黑暗魔力之物，身躯膨胀的怪物。碰触就会爆炸，要是追过来的话就赶紧逃跑吧！不想逃避的话，也可以选择直接向前冲刺，消灭幽冥葛洛堤！",
+    "text_en": "Gloom Glutti is a fiend that has grown in size from eating too much objects enchanted with dark magic. They might explode if provoked in a wrong way, so make sure to run away when they come at you. If you do not want to run away, dash towards the Gloom Glutti and it will be destroyed.",
+    "text_jp": "グルームグラティは、闇の魔力が宿るものを食べ過ぎて身体が肥大化してしまったモンスターです。\\n触ると爆発するので、追いかけてきたら急いで逃げてください！\\n逃げられないのなら、グルームグラティに向かってダッシュし、倒してしまうのも一つの手段です。",
+    "text_tw": "黑暗葛洛堤為會過度食用蘊含黑暗魔力的物品，使身軀膨脹的怪獸。\\n碰觸的話牠會爆炸，如果追上來就快點逃跑吧！\\n如果不想逃避的話，也可以直接消滅黑暗葛洛堤！"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70063,
+    "text": "모험의 항로에서 사냥터, 슬라임, 고블린 에 입장할 수 있는 재화입니다.",
+    "text_cn": "在冒险航线中可用于进入狩猎场、史莱姆、哥布林的物资。",
+    "text_en": "Cooked Rice is currency used to enter the Hunting Grounds, Slime, and Goblin in the Path of Adventure.",
+    "text_jp": "冒険の航路で狩猟場、スライム王国、ゴブリン遺跡に入場できる財貨です。",
+    "text_tw": "可入場冒險航線中，狩獵場、史萊姆王國或哥布林遺跡的貨幣。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70064,
+    "text": "성석 동굴에 입장할 수 있는 재화입니다.",
+    "text_cn": "可用于进入圣石洞穴的物资。",
+    "text_en": "Torches are currency used to enter the Magic Crystal Cave.",
+    "text_jp": "聖石の洞窟の入場に必要な財貨です。",
+    "text_tw": "可入場聖石洞穴的貨幣。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70065,
+    "text": "필드의 습득물을 한 번에 획득할 수 있는 재능스킬 입니다. \\n한 장소에 있는 모든 습득물을 흡수하며, 탐색 습득물이 활성화 되어 있으면 탐색 습득물도 함께 흡수할 수 있습니다.",
+    "text_cn": "可一次获取战场拾取物的天赋技能。\\n可以吸收一个战场内的所有拾取物。若探查拾取物被激活，则会一同吸收。",
+    "text_en": "The Absorption ability skill allows you to collect all Finds in the field at once. It absorbs all Finds in a single location, and if Search Finds is activated, it collects those as well.",
+    "text_jp": "フィールドの拾得物を一気に獲得できる才能スキルです。\\n一ヶ所にあるすべての拾得物を吸収します。探索拾得物が活性化されている場合、探索拾得物も一緒に吸収します。",
+    "text_tw": "一次獲得場域撿拾物品的天賦技能。\\n吸收一個場域的所有撿拾物品，若出現搜索撿拾物品，將同時吸收搜索撿拾物品。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70066,
+    "text": "재능 스킬 지속 시간 동안 필드에 있는 일부 심볼 몬스터를 바로 쓰러뜨릴 수 있는 재능 스킬 입니다. \\n\\n제압을 시전한 후 대시를 사용해 몬스터와 충돌하면 전투 승리 보상을 즉시 획득합니다.",
+    "text_cn": "在天赋技能持续时间内，可直接打倒部分战场标志性怪物的天赋技能。\\n\\n发动制伏后，利用冲刺与怪物冲撞时，可以即刻获得战斗获胜奖励。",
+    "text_en": "The Overpower ability skill allows you to instantly defeat certain symbol fiends during its duration. After casting Overpower, use Dash to collide with a fiend and instantly earn victory rewards.",
+    "text_jp": "才能スキルの持続時間中、フィールドに存在する一部シンボルモンスターを即時倒すことができる才能スキルです。\\n\\n制圧を使用後、ダッシュを利用してモンスターと衝突すると戦闘勝利報酬をすぐに獲得します。",
+    "text_tw": "在天賦技能的持續時間內，可立即打倒場域內部分擊退代表怪物的天賦技能。\\n\\n施展壓制技能後，使用衝刺與怪物衝撞時，將立即獲得戰鬥勝利獎勵。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70067,
+    "text": "광폭화 상태에서는 보스가 사용하는 스킬들이 강화되며, 일부 조건을 만족할 경우 광폭화 스킬도 사용하게 됩니다.",
+    "text_cn": "在狂暴化状态下，首领使用的技能强化，满足部分条件时，可以使用狂暴化技能。",
+    "text_en": "In the Overdrive state, the boss's skills are enhanced. If certain conditions are met, it can also use Overdrive skills.",
+    "text_jp": "凶暴化状態ではボスが使用するスキルが強化され、一部条件を満たすと凶暴化スキルも使用します。",
+    "text_tw": "狂暴化狀態時，魔王使用的技能將被強化，滿足部份條件時，將使用狂暴化技能。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70068,
+    "text": "장비 제작에 가장 기본이 되는 재료\\n일반 가죽 / 일반 천 / 토탄 / 원목 / 철광석",
+    "text_cn": "装备制作的基本材料\\n普通皮革／普通布料／泥炭／原木／铁矿石",
+    "text_en": "Common Gear Material are basic materials for gear crafting. They include Plain Leather, Plain Fabric, Peat, Hardwood, and Iron Ore.",
+    "text_jp": "装備製作の基本になる素材\\n一般皮 / 一般布 / 泥炭 / 原木 / 鉄鉱石",
+    "text_tw": "製作裝備最基本的材料\\n一般皮革/一般布料/泥炭/原木/鐵礦石"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70069,
+    "text": "하급 장비 재료에서 한 단계 업그레이드 된 재료\\n고급 가죽 / 고급 천 / 석탄 / 합판 / 강철괴",
+    "text_cn": "从低级装备材料升级而来的材料\\n高级皮革／高级布料／煤炭／胶合板／钢铁块",
+    "text_en": "Rare Gear Material are upgraded materials from common gear materials. They include Fine Leather, Fine Fabric, Coal, Plywood, and Steel Ingot.",
+    "text_jp": "下級装備材料から一段階アップグレードされた素材\\n高級皮 / 高級布 / 石炭 / 合板 / 鋼鉄のインゴット",
+    "text_tw": "從下級材料升級而來的材料\\n高級皮革/高級布料/煤/夾板/鋼鐵塊"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70070,
+    "text": "캐릭터의 공격 타입에 따라 공격력 / 마법력 / 치명피해 중 1가지 능력치가 상승합니다.",
+    "text_cn": "根据角色的攻击类型，提高攻击力／魔法力／暴击伤害中的一项能力值。",
+    "text_en": "Boosts either ATK, Magic ATK, or Crit DMG based on the character's attack type.",
+    "text_jp": "キャラクターの攻撃タイプに応じて攻撃力 / 魔法力 / クリダメから1つのステータスが上昇します。",
+    "text_tw": "根據角色的攻擊類型，攻擊力/魔法力/致命傷害中的中一個能力值增加。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70071,
+    "text": "방어력 / 마법저항 중 1가지 능력치가 상승합니다.\\n - 물리 공격 캐릭터 : 방어력\\n - 마법 공격 캐릭터 : 마법저항",
+    "text_cn": "提升防御力／魔法抵抗中的一项属性。\\n - 物理攻击角色：防御力\\n - 魔法攻击角色：魔法抵抗",
+    "text_en": "Boosts either the DEF or Magic Resistance stat.\\n - Physical Attack Character: DEF\\n - Magic Attack Character: Magic Resistance",
+    "text_jp": "防御力 / 魔法抵抗のうち一つのステータスが上昇します。\\n - 物理攻撃タイプ：防御力\\n - 魔法攻撃タイプ：魔法抵抗",
+    "text_tw": "防禦力/魔法抵抗中的其中一個能力值增加。\\n - 物理攻擊角色：防禦力\\n - 魔法攻擊角色：魔法抵抗"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70072,
+    "text": "생명력이 0이 되어 행동 불가 상태",
+    "text_cn": "生命值变为0，并进入无法行动状态。",
+    "text_en": "Becomes unable to act when HP drops to zero.",
+    "text_jp": "HPが0となり行動できない状態です。",
+    "text_tw": "生命力變為0且變為無法行動的狀態"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70073,
+    "text": "상점에서 캐릭터 혹은 아이템을 구매할 수 있는 재화 입니다.",
+    "text_cn": "在商店中可用于购买角色或道具的物资。",
+    "text_en": "Currency used to buy characters or items in the shop.",
+    "text_jp": "ショップでキャラクターまたはアイテムを購入できる財貨です。",
+    "text_tw": "商店中可購買角色或道具的貨幣。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70074,
+    "text": "대상에게 1의 피해를 주면서 넉백 방향으로 밀어냅니다. 대상이 밀린 방향에 적이나 오브젝트가 있을 경우 부딪힌 대상이 피해를 입습니다.",
+    "text_cn": "对目标造成1点伤害并将其向击退方向推开。若目标被推开的方向有敌人或物品，则冲撞的目标将遭受伤害。",
+    "text_en": "Deals 1 damage and knocks the target back. Any enemy or object the target collides with will take damage.",
+    "text_jp": "相手に1ダメージを与えてノックバック方向に押し出します。対象が押し出された方向に他の敵やオブジェクトがある場合、ぶつかった対象がダメージを受けます。",
+    "text_tw": "對目標造成1的傷害並擊退目標。目標擊退的方向若有其他敵人或物件時，將會受到衝撞的傷害。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70075,
+    "text": "대상의 능력치를 감소 시키는 디버프 입니다.",
+    "text_cn": "减少目标能力值的减益效果。",
+    "text_en": "This is a debuff that lowers the target's stats.",
+    "text_jp": "対象のステータスを減少させるデバフです。",
+    "text_tw": "減少目標能力值的弱化效果。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70076,
+    "text": "재료 아이템을 조합하여 더 좋은 재료 아이템을 제작할 수 있는 재능 스킬입니다.\\n재능 스킬 레벨이 높을 수록 더 좋은 아이템을 합성할 수 있게 됩니다.",
+    "text_cn": "可通过组合材料道具，制作更高级材料道具的天赋技能。\\n天赋技能的等级越高，就能合成更好的道具。",
+    "text_en": "This is an ability skill for combining material items to craft better material items.\\nThe higher than ability skill level, the better items you can make.",
+    "text_jp": "素材アイテムを組み合わせてより良いアイテムを製作できる才能スキルです。\\n才能スキルレベルが高いほど、より良いアイテムを合成できるようになります。",
+    "text_tw": "合成材料後可製作出更好的道具的天賦技能。\\n天賦技能等級越高，則可製作更好的道具。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70077,
+    "text": "공격시 [공격력 / 마법력] 중 공격력 스탯을 사용하는 타입 입니다.",
+    "text_cn": "攻击时，使用[攻击力／魔法力]中的攻击力属性的类型。",
+    "text_en": "Physical Attack types use the ATK stat instead of Magic ATK for their attacks.",
+    "text_jp": "攻撃時、[攻撃力 / 魔法力]のうち攻撃力ステータスを使用するタイプです。",
+    "text_tw": "攻擊時，[攻擊力/魔法力]中使用攻擊力屬性的類型。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70078,
+    "text": "공격시 [공격력 / 마법력] 중 마법력 스탯을 사용하는 타입 입니다.",
+    "text_cn": "攻击时，使用[攻击力／魔法力]中的魔法力属性的类型。",
+    "text_en": "Magic Attack types use the Magic ATK stat instead of ATK for their attacks.",
+    "text_jp": "攻撃時、[攻撃力 / 魔法力]のうち魔法力ステータスを使用するタイプです。",
+    "text_tw": "攻擊時，[攻擊力/魔法力]中使用魔法力屬性的類型。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70079,
+    "text": "이 효과를 지닌 대상이 공격하여 중첩시킬 수 있는 체인의 최대치가 지정된 값으로 제한됩니다.\\n\\n해당 효과가 여러 개 적용됐을 땐 가장 낮은 제한값을 기준으로 합니다.",
+    "text_cn": "具有此效果的目标在攻击时，可以叠加的连携最大值被限制为指定的值。\\n\\n此效果应用多个时，则以最低的限制值为基准。",
+    "text_en": "When the target with this effect attacks, the maximum number of Chain Stacks is limited to the specified value.\\n\\nIf there are multiple instances of this effect, the lowest limit will apply.",
+    "text_jp": "この効果を持つ対象が攻撃して重複できるチェインの最大値が指定された数値に制限されます。\\n\\n該当の効果が複数適用されると、最も低い制限値が基準となります。",
+    "text_tw": "套用此效果的對象在攻擊後，疊加連鎖的最大數值限制為固定值。\\n\\n該效果在套用多個時，將以最小的限制數值為基準。"
+  },
+  {
+    "date": "2024-11-29",
+    "id": 70080,
+    "text": "소환수에게 받는 피해가 증가합니다.\\n\\n만약 25% 취약을 지닌 상태라면 100의 피해를 입었을 때 취약 효과에 의해 125 피해를 입게 됩니다.",
+    "text_cn": "来自召唤兽的承受伤害增加。\\n\\n若处于具有25%虚弱效果的状态，造成100点伤害时，则会由于虚弱效果，造成125点伤害。",
+    "text_en": "Increases the damage taken from Summons.\\n\\nFor instance, with a 25% Vulnerability, taking 100 damage results in 125 damage due to the effects of Vulnerability.",
+    "text_jp": "召喚獣から受けるダメージが増加します。\\n\\n25%脆弱を持つ状態であれば、100のダメージを受ける際に脆弱効果により125のダメージを受けます。",
+    "text_tw": "從召喚獸受到的傷害增加。\\n\\n若是在套用脆弱效果25%的狀態下造成100的傷害，在脆弱效果的影響下，將造成125的傷害。"
+  },
+  {
+    "date": "2025-07-10",
+    "id": 70081,
+    "text": "남은 SP까지 모두 소모하여 스킬의 효과를 증폭시킵니다.\\n\\n공격 턴 진행 중에 수급된 SP는 소모하지 않습니다.\\n\\n여러 캐릭터가 동시에 폭주하는 경우, 남은 SP는 공격 순서가 가장 빠른 캐릭터에게 사용됩니다.\\n\\n스킬을 발동하기 전에 사망하면, 소모된 SP는 환원되지 않습니다.",
+    "text_cn": "消耗剩余的所有SP来强化技能效果。\\n\\n在攻击回合中获得的SP不会被消耗。\\n\\n当有多名角色同时进入暴走状态时，剩余SP将优先用于攻击顺序最快的角色。\\n\\n如果在技能发动前死亡，已消耗的SP将无法返还。",
+    "text_en": "Consumes all remaining SP to amplify the skill's power.\\n\\nAny SP gained during the attack turn will not be used.\\n\\nIf multiple characters enter Rampage at once, the remaining SP goes to the character with the fastest attack order.\\n\\nIf the character dies before the skill activates, the SP consumed is not refunded.",
+    "text_jp": "残ったSPを全て消費し、スキルの効果を増幅します。\\n\\n攻撃ターン中に獲得したSPは消費しません。\\n\\n複数のキャラクターが同時に暴走する場合、残りSPは最も攻撃順が高いキャラクターによって使用されます。\\n\\nスキル発動の前にKOされると、消費したSPは戻ってきません。",
+    "text_tw": "消耗剩餘的所有SP以強化技能效果。\\n\\n攻擊回合中獲得的SP不會被消耗。\\n\\n當多名角色同時進入暴走狀態時，剩餘的SP會優先分配給攻擊順序最快的角色。\\n\\n若在技能發動前死亡，已消耗的SP將不會返還。"
+  },
+  {
+    "date": "2025-08-07",
+    "id": 70082,
+    "text": "적용중인 이로운 효과의 유지 턴 수를 연장시킵니다.\\n\\n유물 효과의 유지 턴 수는 연장되지 않습니다.\\n이로운 효과의 유지 횟 수는 연장되지 않습니다.",
+    "text_cn": "延长生效中的增益效果的持续回合数。\\n\\n遗物效果的持续回合数不会被延长。\\n增益效果的持续回合数不会被延长。",
+    "text_en": "Extends the duration of active Buffs.\\n\\nThe duration of Artifact effects cannot be extended.\\nThe number of Buff uses cannot be increased.",
+    "text_jp": "適用中のバフのターン数を延長します。\\n\\n遺物効果の維持ターン数は延長できません。\\nバフの維持回数は延長されません。",
+    "text_tw": "套用的增益效果持續回合數將增加。\\n\\n將不會延長遺物效果的回合數。\\n增益效果的持續回合數將不會延長。"
+  },
+  {
+    "date": "2025-08-21",
+    "id": 70083,
+    "text": "지속 피해로 받는 피해가 증가합니다.\\n\\n만약 25% 취약을 지닌 상태라면 100의 피해를 입었을 때 취약 효과에 의해 125 피해를 입게 됩니다.",
+    "text_cn": "持续伤害造成的伤害提升。\\n\\n例如，当自身处于25%虚弱状态时，本应受到100点伤害，但在虚弱效果影响下，实际会受到125点伤害。",
+    "text_en": "Increases damage taken from DoTs.\\n\\nFor instance, with a 25% Vulnerability, taking 100 damage results in 125 damage due to the effects of Vulnerability.",
+    "text_jp": "持続ダメージで受けるダメージが増加します。\\n\\n25%脆弱を持つ状態であれば、100のダメージを受ける際に脆弱効果により125のダメージを受けます。",
+    "text_tw": "持續受到的傷害將增加。\\n\\n若在套用25%的脆弱效果的狀態下造成100的傷害，在脆弱效果的影響下將造成125的傷害。"
+  }
+]

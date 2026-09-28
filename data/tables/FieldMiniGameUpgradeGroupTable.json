@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "statType": 4,
+    "upgradeDescLocalTextId": 15038,
+    "upgradeNameTextId": 80040,
+    "upgradeSpriteName": "survival_upgrade_3"
+  },
+  {
+    "id": 2,
+    "statType": 6,
+    "upgradeDescLocalTextId": 15039,
+    "upgradeNameTextId": 80041,
+    "upgradeSpriteName": "survival_upgrade_7"
+  },
+  {
+    "id": 3,
+    "statType": 1,
+    "upgradeDescLocalTextId": 15040,
+    "upgradeNameTextId": 80042,
+    "upgradeSpriteName": "survival_upgrade_1"
+  },
+  {
+    "id": 4,
+    "statType": 2,
+    "upgradeDescLocalTextId": 15041,
+    "upgradeNameTextId": 80043,
+    "upgradeSpriteName": "survival_upgrade_5"
+  },
+  {
+    "id": 5,
+    "statType": 3,
+    "upgradeDescLocalTextId": 15042,
+    "upgradeNameTextId": 80044,
+    "upgradeSpriteName": "survival_upgrade_2"
+  },
+  {
+    "id": 6,
+    "statType": 7,
+    "upgradeDescLocalTextId": 15043,
+    "upgradeNameTextId": 80045,
+    "upgradeSpriteName": "survival_upgrade_14"
+  },
+  {
+    "id": 7,
+    "statType": 5,
+    "upgradeDescLocalTextId": 15044,
+    "upgradeNameTextId": 80046,
+    "upgradeSpriteName": "survival_upgrade_4"
+  },
+  {
+    "id": 8,
+    "statType": 8,
+    "upgradeDescLocalTextId": 15045,
+    "upgradeNameTextId": 80047,
+    "upgradeSpriteName": "survival_upgrade_9"
+  },
+  {
+    "id": 9,
+    "statType": 9,
+    "upgradeDescLocalTextId": 15046,
+    "upgradeNameTextId": 80048,
+    "upgradeSpriteName": "survival_upgrade_8"
+  },
+  {
+    "id": 10,
+    "statType": 10,
+    "upgradeDescLocalTextId": 15047,
+    "upgradeNameTextId": 80049,
+    "upgradeSpriteName": "survival_upgrade_6"
+  },
+  {
+    "id": 11,
+    "statType": 11,
+    "upgradeDescLocalTextId": 15048,
+    "upgradeNameTextId": 80050,
+    "upgradeSpriteName": "survival_upgrade_10"
+  },
+  {
+    "id": 12,
+    "statType": 12,
+    "upgradeDescLocalTextId": 15049,
+    "upgradeNameTextId": 80051,
+    "upgradeSpriteName": "survival_upgrade_11"
+  }
+]

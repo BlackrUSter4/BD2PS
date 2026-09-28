@@ -1,0 +1,44 @@
+{
+  "monsterInfo": [
+    {
+      "monsterId": 4001,
+      "battleDeck": 0,
+      "respawnTime": 1735516800000,
+      "lifeEndTime": 0,
+      "groupId": 6,
+      "activeFlag": true
+    },
+    {
+      "monsterId": 4002,
+      "battleDeck": 0,
+      "respawnTime": 1735516800000,
+      "lifeEndTime": 0,
+      "groupId": 6,
+      "activeFlag": true
+    },
+    {
+      "monsterId": 4003,
+      "battleDeck": 0,
+      "respawnTime": 1735516800000,
+      "lifeEndTime": 0,
+      "groupId": 6,
+      "activeFlag": true
+    },
+    {
+      "monsterId": 4004,
+      "battleDeck": 0,
+      "respawnTime": 1735516800000,
+      "lifeEndTime": 0,
+      "groupId": 6,
+      "activeFlag": true
+    },
+    {
+      "monsterId": 4005,
+      "battleDeck": 0,
+      "respawnTime": 1735516800000,
+      "lifeEndTime": 0,
+      "groupId": 6,
+      "activeFlag": true
+    }
+  ]
+}

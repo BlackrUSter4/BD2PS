@@ -1,0 +1,1122 @@
+// Merged package: Network.TCP
+
+package Network.TCP;
+
+
+
+
+
+// From: bdaction.proto
+message ActionPlayerStateInfo {
+  optional int32 type = 1;
+  optional int32 seq = 2;
+  optional int64 ownerIndex = 3;
+  optional Network.TCP.PlayerPosition playerPosition = 4;
+  optional Network.TCP.PlayerVector playerVector = 5;
+  optional Network.TCP.KnockbackInfo knockbackInfo = 6;
+  optional float speed = 7;
+  optional float deltaTime = 8;
+  optional int64 sendTime = 9;
+  optional int32 health = 10;
+  optional int32 stamina = 11;
+  optional int32 recoveryCount = 12;
+  optional int32 skillId = 13;
+  optional Network.TCP.PlayerHitInfo hitInfo = 14;
+  repeated Network.TCP.BuffInfo buffInfos = 15;
+}
+message ActionMonsterStateInfo {
+  optional int32 type = 1;
+  optional int32 seq = 2;
+  optional int32 monsterId = 3;
+  optional int32 monsterIndex = 4;
+  optional Network.TCP.PlayerPosition monsterPosition = 5;
+  optional Network.TCP.PlayerVector monsterVector = 6;
+  optional float speed = 7;
+  optional float deltaTime = 8;
+  optional int64 sendTime = 9;
+  optional int32 health = 10;
+  optional int32 rageValue = 11;
+  optional int32 groggyValue = 12;
+  optional int32 state = 13;
+  optional Network.TCP.MonsterPatternInfo patternInfo = 14;
+  optional Network.TCP.MonsterHitInfo hitInfo = 15;
+  repeated Network.TCP.MonsterPartsInfo partsInfo = 16;
+  repeated Network.TCP.BuffInfo buffInfos = 17;
+  optional int32 attackSkillId = 18;
+}
+message PlayerPosition {
+  optional float x = 1;
+  optional float y = 2;
+  optional float z = 3;
+}
+message PlayerVector {
+  optional float x = 1;
+  optional float y = 2;
+  optional float z = 3;
+}
+message ActionUserInfo {
+  optional int64 ownerIndex = 1;
+  optional int32 actionCharId = 2;
+  optional int32 clientState = 3;
+  optional int32 networkState = 4;
+  optional int32 networkPing = 5;
+  optional int32 calcState = 6;
+}
+message SCActionGameStartRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  optional int64 startTime = 2;
+  optional int64 hostOwnerIndex = 3;
+  repeated Network.TCP.ActionUserInfo roomUserInfo = 4;
+}
+message SCActionGameEndRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  optional int64 endTime = 2;
+  optional int32 state = 3;
+}
+message CSActionReconnectRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  optional string guid = 2;
+}
+message CSActionReconnectResponse {
+  optional Network.TCP.CommonHeader header = 1;
+  optional string ip = 2;
+  optional string port = 3;
+  optional int32 clientState = 4;
+  optional int32 roomState = 5;
+  repeated Network.TCP.ActionPlayerStateInfo playerSyncInfo = 6;
+  optional Network.TCP.ActionMonsterStateInfo monsterSyncInfo = 7;
+  optional int64 hostOwnerIndex = 8;
+}
+message SCActionChangeHostRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  optional int64 hostOwnerIndex = 2;
+}
+message CSActionRelayRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  optional string guid = 2;
+  optional int32 networkPing = 3;
+  repeated Network.TCP.ActionRelayUserInfo actionRelayUserInfo = 4;
+  optional Network.TCP.ActionMonsterStateInfo monsterSyncInfo = 5;
+}
+message SCActionStateUpdateRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  repeated Network.TCP.ActionUserInfo actionUserInfo = 2;
+}
+message CSCheatChangeHostRequest {
+  optional Network.TCP.CommonHeader header = 1;
+}
+message MonsterPatternInfo {
+  optional int64 targetOwnerIndex = 1;
+  optional int32 patternId = 2;
+  optional float distanceToAttack = 3;
+}
+message MonsterHitInfo {
+  optional int32 rageValue = 1;
+  optional int32 groggyValue = 2;
+  optional int32 targetPartsId = 3;
+  optional int32 targetAttackType = 4;
+  optional int32 damage = 5;
+  optional int64 attackOwnerIndex = 6;
+  optional Network.TCP.PlayerPosition contactPoint = 7;
+  optional int32 displayAttackCount = 8;
+  optional bool isCritical = 9;
+  optional bool isWeak = 10;
+}
+message MonsterPartsInfo {
+  optional int32 partsId = 1;
+  optional int32 partsHealth = 2;
+}
+message PlayerHitInfo {
+  optional int32 attackCharId = 1;
+  optional int32 attackSkillId = 2;
+  optional Network.TCP.PlayerPosition contactPoint = 3;
+}
+message KnockbackInfo {
+  optional Network.TCP.PlayerVector knockbackDir = 1;
+  optional float knockbackValue = 2;
+  optional float knockbackSpeed = 3;
+  optional bool isGuard = 4;
+}
+message BuffInfo {
+  optional int32 buffId = 1;
+  optional int32 casterCharId = 2;
+  optional int64 startTime = 3;
+}
+message CSActionGameExitRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  optional string guid = 2;
+}
+message CSActionGameExitResponse {
+  optional Network.TCP.CommonHeader header = 1;
+  optional int32 state = 2;
+}
+message SCActionGameExitRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  optional int64 ownerIndex = 2;
+}
+message ActionRelayUserInfo {
+  optional Network.TCP.ActionUserInfo actionUserInfo = 1;
+  optional Network.TCP.ActionPlayerStateInfo playerSyncInfo = 2;
+}
+message CSActionUserApplicationPauseRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  optional string guid = 2;
+}
+message CSActionUserApplicationPauseResponse {
+  optional Network.TCP.CommonHeader header = 1;
+}
+message SCActionUserApplicationPauseRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  optional Network.TCP.ActionUserInfo actionUserInfo = 2;
+}
+message CSActionOtherUserHitRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  optional string guid = 2;
+  optional int64 hitOwnerIndex = 3;
+}
+message CSActionOtherUserHitResponse {
+  optional Network.TCP.CommonHeader header = 1;
+}
+
+// From: charawakedbinfo.proto
+message CharAwakeDBInfo {
+  optional int32 unique_char_id = 1;
+  optional bool is_awake = 2;
+  optional int32 imprint_slot_1_level = 3;
+  optional int32 imprint_slot_2_level = 4;
+  optional int32 imprint_slot_3_level = 5;
+}
+
+// From: chardbinfo.proto
+message CharDBInfo {
+  optional int64 inven_index = 1;
+  optional int32 id = 2;
+  optional int64 hp = 3;
+  optional int32 level = 4;
+  optional int32 costume_id = 5;
+  optional int32 exp = 6;
+  optional int64 use_costume = 7;
+  optional int32 talent_level = 8;
+  optional int32 talent_exp = 9;
+  optional int32 solidarity_reward = 10;
+  optional int64 expiry_time = 11;
+  repeated Network.TCP.PictorialBookDBInfo pictorialbook_info = 12;
+  optional int32 connect_potential_costume = 13;
+}
+message PictorialBookDBInfo {
+  optional int32 id = 1;
+  optional int32 group_id = 2;
+}
+
+// From: chat.proto
+message CSChatMessageRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  optional int64 ownerIndex = 2;
+  optional string message = 3;
+}
+message CSChatMessageResponse {
+  optional Network.TCP.CommonHeader header = 1;
+}
+message SCChatBroadcastRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  optional int64 ownerIndex = 2;
+  optional string message = 3;
+}
+message SCChatBroadcastResponse {
+  optional Network.TCP.CommonHeader header = 1;
+}
+message SCDirectMessageRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  optional int64 ownerIndex = 2;
+  optional Network.TCP.ECommonType type = 3;
+}
+message SCDirectMessageResponse {
+  optional Network.TCP.CommonHeader header = 1;
+}
+
+// From: common.proto
+message CommonHeader {
+  optional int64 now = 1;
+  optional Network.TCP.EErrorCode code = 2;
+  optional Network.TCP.UserInfo userInfo = 3;
+}
+message CSPingRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  optional int32 id = 2;
+  optional string message = 3;
+}
+message CSPingResponse {
+  optional Network.TCP.CommonHeader header = 1;
+}
+message SCNoticeRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  optional string notice = 2;
+}
+message SCNoticeResponse {
+  optional Network.TCP.CommonHeader header = 1;
+}
+message CSUserInfoUpdateRequest {
+  optional Network.TCP.CommonHeader header = 1;
+}
+message CSUserInfoUpdateResponse {
+  optional Network.TCP.CommonHeader header = 1;
+}
+message UserInfo {
+  optional int64 ownerIndex = 1;
+  optional int64 guildId = 2;
+  optional string desc = 3;
+  optional string ownerName = 4;
+  optional int32 portraitCostumeId = 5;
+  optional int32 portraitCostumeDesignId = 6;
+}
+message SCConnectCloseRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  optional Network.TCP.RemovalReason reason = 2;
+  optional string message = 3;
+  optional string stack = 4;
+}
+message SCConnectCloseResponse {
+  optional Network.TCP.CommonHeader header = 1;
+}
+
+// From: costumedbinfo.proto
+message CostumeDBInfo {
+  optional int64 inven_index = 1;
+  optional int32 id = 2;
+  optional int32 level = 3;
+  optional int64 use_char = 4;
+  repeated Network.TCP.PictorialBookDBInfo pictorialbook_info = 5;
+  optional int32 sort_id = 6;
+  optional int32 use_my_room_count = 7;
+  repeated int32 potential_id = 8;
+  optional int32 design_id = 9;
+}
+
+// From: ecommontype.proto
+enum ECommonType {
+  NONE = 0;
+  GUILD_JOIN_REQUEST = 1;
+  GUILD_ACCEPT = 2;
+}
+
+// From: eguildmsgtype.proto
+enum EGuildMsgType {
+  GUILD_MESSAGE = 0;
+  GUILD_EMOTION = 1;
+  GUILD_DECK = 2;
+  GUILD_NOTIFY = 3;
+}
+
+enum EGuildNotifyType {
+  GUILD_NOTIFY_JOIN = 0;
+  GUILD_NOTIFY_LEAVE = 1;
+  GUILD_NOTIFY_BAN = 2;
+  GUILD_NOTIFY_ROLE_CHANGE = 3;
+  GUILD_NOTIFY_SUPPORT_CHANGED = 4;
+  GUILD_NOTIFY_USER_NAME_CHANGED = 5;
+  GUILD_NOTIFY_NOTICE_INFO = 6;
+}
+
+enum EGuildRoll {
+  ROLL_NONE = 0;
+  ROLL_ADMIN = 1;
+  ROLL_SUBADMIN = 2;
+  ROLL_MEMBER = 3;
+}
+
+// From: ematchingtype.proto
+enum EMatchingType {
+  EMT_NONE = 0;
+  EMT_AUTO_MATCHING = 1;
+  EMT_CREATE_ROOM = 2;
+  EMT_JOIN_ROOM = 3;
+  EMT_SINGLE = 4;
+}
+
+// From: enetmsg.proto
+enum EErrorCode {
+  E_None = 0;
+  E_Query = 1;
+  E_Param = 2;
+  E_Not_Found_Room = 3;
+  E_Not_Found_Client = 4;
+  E_Not_Found_Matching = 5;
+  E_Already_Matching_Complete = 6;
+  E_Not_Found_Matching_Room = 7;
+  E_Cannot_Create_Room = 8;
+  E_Not_Room_Master = 9;
+  E_Cannot_Recover_Matching = 10;
+  E_Matching_Room_Over_User_Count = 11;
+  E_Wrong_Room_Matching_Type = 12;
+  E_SERVER_DOES_NOT_EXIST = 13;
+  E_Twice_Request_Matching = 14;
+  E_Wrong_Game_Clear_Type = 15;
+}
+
+enum RemovalReason {
+  EXPIRED = 0;
+  CAPACITY_EXCEEDED = 1;
+  DIRECT_REMOVAL = 2;
+  KEY_NOT_FOUND = 3;
+  EXCEPTION = 4;
+  ZERO_BUFFER = 5;
+}
+
+enum ENetMsg {
+  None = 0;
+  C_S_Ping_Request = 1;
+  C_S_Ping_Response = 2;
+  C_S_ChatMessage_Request = 3;
+  C_S_ChatMessage_Response = 4;
+  C_S_DeviceInfo_Request = 5;
+  C_S_DeviceInfo_Response = 6;
+  S_C_Notice_Request = 7;
+  S_C_Notice_Response = 8;
+  S_C_ChatBroadcast_Request = 9;
+  S_C_ChatBroadcast_Response = 10;
+  C_S_UserInfoUpdate_Request = 11;
+  C_S_UserInfoUpdate_Response = 12;
+  C_S_GuildMessageLoad_Request = 13;
+  C_S_GuildMessageLoad_Response = 14;
+  C_S_GuildMessage_Request = 15;
+  C_S_GuildMessage_Response = 16;
+  S_C_GuildBroadcast_Request = 17;
+  S_C_GuildBroadcast_Response = 18;
+  S_C_DirectMessage_Request = 19;
+  S_C_DirectMessage_Response = 20;
+  S_C_ConnectClose_Request = 21;
+  S_C_ConnectClose_Response = 22;
+  C_S_Create_Session_Request = 23;
+  C_S_Create_Session_Response = 24;
+  C_S_Room_User_UDP_Request = 25;
+  C_S_Room_User_UDP_Response = 26;
+  C_S_Relay_UDP_Request = 27;
+  S_C_Relay_UDP_Request = 28;
+  S_C_Room_User_UDP_Request = 29;
+  C_S_Relay_To_User_UDP_Request = 30;
+  S_C_Relay_To_User_UDP_Request = 31;
+  C_S_Stun_UDP_Request = 32;
+  C_S_Stun_UDP_Response = 33;
+  C_S_Nat_Update_UDP_Request = 34;
+  C_S_Nat_Update_UDP_Response = 35;
+  S_C_Nat_Update_UDP_Request = 36;
+  C_S_Defense_Reconnect_Request = 37;
+  C_S_Defense_Reconnect_Response = 38;
+  C_S_Create_Room_Request = 39;
+  C_S_Create_Room_Response = 40;
+  C_S_Join_Room_Request = 41;
+  C_S_Join_Room_Response = 42;
+  C_S_Set_Network_State_Request = 43;
+  C_S_Set_Network_State_Response = 44;
+  C_S_Game_Ready_Request = 45;
+  S_C_Game_Ready_Request = 46;
+  S_C_Defense_Game_Start_Request = 47;
+  C_S_Defense_State_Update_Request = 48;
+  S_C_Defense_Player_State_Request = 49;
+  S_C_State_Update_Request = 50;
+  S_C_Defense_Game_End_Request = 51;
+  C_S_Game_Exit_Request = 52;
+  C_S_Game_Exit_Response = 53;
+  S_C_Game_Exit_Request = 54;
+  C_S_Create_Session_UDP_Request = 55;
+  C_S_Create_Session_UDP_Response = 56;
+  S_S_Game_Matching_Request = 57;
+  S_C_Game_Matching_Request = 58;
+  S_S_Create_Room_Request = 59;
+  S_S_Create_Room_Response = 60;
+  S_C_Game_Matching_Add_User_Request = 61;
+  S_C_Game_Matching_Exit_User_Request = 62;
+  S_C_Game_Matching_Complete_Request = 63;
+  C_S_Game_Matching_Exit_User_Request = 64;
+  C_S_Game_Matching_Exit_User_Response = 65;
+  C_S_Relay_Server_Ping_Request = 66;
+  C_S_Relay_Server_Ping_Response = 67;
+  C_S_Relay_Server_Ping_UDP_Request = 68;
+  C_S_Relay_Server_Ping_UDP_Response = 69;
+  C_S_Relay_Request = 70;
+  S_C_Relay_Request = 71;
+  C_S_Relay_To_User_Request = 72;
+  S_C_Relay_To_User_Request = 73;
+  C_S_Game_Force_Start_Request = 74;
+  C_S_Game_Force_Start_Response = 75;
+  C_S_MiniGameDefenseMatching_Request = 76;
+  C_S_MiniGameDefenseMatching_Response = 77;
+  C_S_MiniGameRelayServerInfo_Request = 78;
+  C_S_MiniGameRelayServerInfo_Response = 79;
+  C_S_Game_Matching_Reconnect_Request = 80;
+  C_S_Game_Matching_Reconnect_Response = 81;
+  C_S_Mini_Game_Action_Matching_Create_Room_Request = 82;
+  C_S_Mini_Game_Action_Matching_Create_Room_Response = 83;
+  C_S_UDP_Verify_Request = 84;
+  C_S_UDP_Verify_Response = 85;
+  C_S_Mini_Game_Action_Matching_Exit_Room_Request = 87;
+  C_S_Mini_Game_Action_Matching_Exit_Room_Response = 88;
+  S_C_Mini_Game_Action_Matching_Exit_Room_Request = 89;
+  C_S_Mini_Game_Action_Matching_Join_Room_Request = 90;
+  C_S_Mini_Game_Action_Matching_Join_Room_Response = 91;
+  S_C_Mini_Game_Action_Matching_Join_Room_Request = 92;
+  C_S_Mini_Game_Action_Matching_Auto_Match_Request = 93;
+  C_S_Mini_Game_Action_Matching_Auto_Match_Response = 94;
+  C_S_Mini_Game_Action_Matching_Cancel_Auto_Match_Request = 95;
+  C_S_Mini_Game_Action_Matching_Cancel_Auto_Match_Response = 96;
+  C_S_Mini_Game_Action_Matching_Change_Setting_Request = 97;
+  C_S_Mini_Game_Action_Matching_Change_Setting_Response = 98;
+  S_C_Mini_Game_Action_Matching_Change_Setting_Request = 99;
+  S_C_Mini_Game_Action_Matching_Start_Room_Request = 100;
+  S_C_Mini_Game_Action_Matching_Complete_Request = 101;
+  C_S_Mini_Game_Action_Matching_Reconnect_Request = 102;
+  C_S_Mini_Game_Action_Matching_Reconnect_Response = 103;
+  C_S_Mini_Game_Action_Matching_Start_Room_Request = 104;
+  C_S_Mini_Game_Action_Matching_Start_Room_Response = 105;
+  S_C_Action_Game_Start_Request = 106;
+  S_C_Action_Change_Host_Request = 107;
+  S_C_Action_Game_End_Request = 108;
+  C_S_Action_Reconnect_Request = 109;
+  C_S_Action_Reconnect_Response = 110;
+  C_S_Action_Relay_Request = 111;
+  S_C_Action_State_Update_Request = 112;
+  C_S_Cheat_Change_Host_Request = 113;
+  C_S_Action_Game_Exit_Request = 114;
+  C_S_Action_Game_Exit_Response = 115;
+  S_C_Action_Game_Exit_Request = 116;
+  C_S_Action_User_Application_Pause_Request = 117;
+  C_S_Action_User_Application_Pause_Response = 118;
+  S_C_Action_User_Application_Pause_Request = 119;
+  C_S_Action_Other_User_Hit_Request = 120;
+  C_S_Action_Other_User_Hit_Response = 121;
+  Max = 122;
+}
+
+// From: equipdbinfo.proto
+message EquipDBInfo {
+  optional int64 inven_index = 1;
+  optional int64 use_char = 2;
+  optional int32 keep_flag = 3;
+  optional int32 lock_flag = 4;
+  optional Network.TCP.EquipBaseInfo base_info = 5;
+}
+message EquipBaseInfo {
+  optional int32 id = 1;
+  optional int32 level = 2;
+  repeated Network.TCP.EquipOptionInfo main_option = 3;
+  repeated Network.TCP.EquipOptionInfo sub_option = 4;
+  optional Network.TCP.EquipOptionInfo private_option = 5;
+  repeated int32 rank = 6;
+}
+message EquipOptionInfo {
+  optional int32 group_id = 1;
+  optional int32 id = 2;
+}
+
+// From: erealtimetype.proto
+enum EGameClearType {
+  EGCT_NONE = 0;
+  EGCT_RANDOM_DEFENSE = 7;
+  EGCT_ACTION = 8;
+}
+
+enum ERoomState {
+  ERS_NONE = 0;
+  ERS_READY = 1;
+  ERS_PLAYING = 2;
+  ERS_END = 3;
+}
+
+enum EClientState {
+  ECS_NONE = 0;
+  ECS_READY = 1;
+  ECS_PLAYING = 2;
+  ECS_DIE = 3;
+  ECS_EXIT = 4;
+  ECS_WIN = 5;
+}
+
+enum EMessageSendType {
+  EST_DEFAULT = 0;
+  EST_TCP = 1;
+  EST_UDP = 2;
+}
+
+enum EStunType {
+  EST_NONE = 0;
+  EST_FULL_CODE = 1;
+  EST_RESTRICTED_CONE = 2;
+  EST_PORT_RESTRICTED_CONE = 3;
+  EST_SYMMETRIC = 4;
+}
+
+enum ENetworkState {
+  ENS_NONE = 0;
+  ENS_CONNECT = 1;
+  ENS_DISCONNECT = 2;
+}
+
+enum EActionRelaySaveType {
+  EARST_NONE = 0;
+  EARST_PLAYER = 1;
+  EARST_MONSTER = 2;
+}
+
+enum EActionCalcStateType {
+  EACST_NONE = 0;
+  EACST_CAN_NOT_CALC = 1;
+}
+
+// From: guild.proto
+message GuildMessage {
+  optional string message = 1;
+}
+message GuildEmotion {
+  optional int32 emoji_id = 1;
+}
+message GuildDeck {
+  repeated Network.TCP.DeckMessageInfo deck_message_info = 1;
+  optional string deck_name = 2;
+  optional int32 deck_icon_id = 3;
+  optional int32 deck_icon_color_id = 4;
+  repeated Network.TCP.PictorialBuffStatDBInfo deck_msg_collection_Info = 5;
+}
+message GuildStateChange {
+  optional Network.TCP.UserInfo userInfo = 1;
+  optional Network.TCP.EGuildRoll before = 2;
+  optional Network.TCP.EGuildRoll after = 3;
+}
+message SupporterChange {
+  optional int64 ownerIndex = 1;
+  optional int32 slotIndex = 2;
+}
+message GuildNotify {
+  optional Network.TCP.EGuildNotifyType type = 1;
+  repeated Network.TCP.GuildStateChange state_change = 2;
+  optional Network.TCP.SupporterChange supporter_change = 3;
+}
+message DeckMessageInfo {
+  optional Network.TCP.CharDBInfo char_info = 1;
+  repeated Network.TCP.EquipDBInfo equip_info = 2;
+  repeated Network.TCP.CostumeDBInfo costume_info = 3;
+  optional Network.TCP.CharAwakeDBInfo char_awake_info = 4;
+}
+message CSGuildMessageLoadRequest {
+  optional Network.TCP.CommonHeader header = 1;
+}
+message CSGuildMessageLoadResponse {
+  optional Network.TCP.CommonHeader header = 1;
+  repeated Network.TCP.CSGuildMessageRequest datas = 2;
+}
+message CSGuildMessageRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  optional Network.TCP.EGuildMsgType type = 2;
+  optional Network.TCP.GuildMessage message = 3;
+  optional Network.TCP.GuildEmotion emotion = 4;
+  optional Network.TCP.GuildDeck deck = 5;
+  optional Network.TCP.GuildNotify notify = 6;
+  optional int64 server_now = 7;
+}
+message CSGuildMessageResponse {
+  optional Network.TCP.CommonHeader header = 1;
+}
+message SCGuildBroadcastRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  optional Network.TCP.EGuildMsgType type = 2;
+  optional Network.TCP.GuildMessage message = 3;
+  optional Network.TCP.GuildEmotion emotion = 4;
+  optional Network.TCP.GuildDeck deck = 5;
+  optional Network.TCP.GuildNotify notify = 6;
+  optional int64 server_now = 7;
+}
+message SCGuildBroadcastResponse {
+  optional Network.TCP.CommonHeader header = 1;
+}
+
+// From: matching.proto
+message SSGameMatchingRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  optional int64 ownerIndex = 2;
+  optional int32 gameClearType = 3;
+  optional int32 matchingType = 4;
+  optional string roomCode = 5;
+  optional string magicValue = 6;
+  repeated Network.TCP.ServerPingInfo regionInfo = 7;
+}
+message MatchingClientInfo {
+  optional Network.TCP.UserInfo userInfo = 1;
+  optional bool isRoomMaster = 2;
+  optional int64 enterTime = 3;
+  optional string guid = 4;
+}
+message SCGameMatchingRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  optional int32 matchingType = 2;
+  optional string roomCode = 3;
+  repeated Network.TCP.MatchingClientInfo matchingUserInfo = 4;
+}
+message SCGameMatchingAddUserRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  optional Network.TCP.MatchingClientInfo matchingUserInfo = 2;
+}
+message SCGameMatchingExitUserRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  optional int64 exitUser = 2;
+  optional int64 newRoomMaster = 3;
+}
+message SCGameMatchingCompleteRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  optional string roomCode = 2;
+  repeated Network.TCP.MatchingClientInfo matchingUserInfo = 3;
+  optional string serverIp = 4;
+  optional string serverTCPPort = 5;
+  optional string serverUDPPort = 6;
+}
+message CSGameMatchingExitUserRequest {
+  optional Network.TCP.CommonHeader header = 1;
+}
+message CSGameMatchingExitUserResponse {
+  optional Network.TCP.CommonHeader header = 1;
+}
+message SSCreateRoomRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  repeated Network.TCP.MatchingClientInfo userList = 2;
+  optional int32 gameClearType = 3;
+  optional string roomCode = 4;
+  optional string magicValue = 5;
+}
+message SSCreateRoomResponse {
+  optional Network.TCP.CommonHeader header = 1;
+  optional string roomCode = 2;
+  repeated Network.TCP.MatchingClientInfo userList = 3;
+  optional string magicValue = 5;
+}
+message CSGameForceStartRequest {
+  optional Network.TCP.CommonHeader header = 1;
+}
+message CSGameForceStartResponse {
+  optional Network.TCP.CommonHeader header = 1;
+}
+message RelayServerInfo {
+  optional string region = 1;
+  optional string ip = 2;
+  optional int32 port = 3;
+}
+message CSMiniGameRelayServerInfoRequest {
+  optional Network.TCP.CommonHeader header = 1;
+}
+message CSMiniGameRelayServerInfoResponse {
+  optional Network.TCP.CommonHeader header = 1;
+  repeated Network.TCP.RelayServerInfo serverInfo = 2;
+}
+message ServerPingInfo {
+  optional string region = 1;
+  optional int32 ping = 2;
+}
+message CSMiniGameDefenseMatchingRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  optional int32 eventScheduleId = 2;
+  optional int32 matchingType = 3;
+  optional string roomCode = 4;
+  repeated Network.TCP.ServerPingInfo regionInfo = 5;
+}
+message CSMiniGameDefenseMatchingResponse {
+  optional Network.TCP.CommonHeader header = 1;
+  optional int32 matchingType = 2;
+  optional string roomCode = 3;
+  repeated Network.TCP.MatchingClientInfo matchingUserInfo = 4;
+}
+message CSGameMatchingReconnectRequest {
+  optional Network.TCP.CommonHeader header = 1;
+}
+message CSGameMatchingReconnectResponse {
+  optional Network.TCP.CommonHeader header = 1;
+  optional int32 matchingType = 2;
+  optional string roomCode = 3;
+  repeated Network.TCP.MatchingClientInfo matchingUserInfo = 4;
+}
+message ActionMatchingClientInfo {
+  optional Network.TCP.UserInfo userInfo = 1;
+  optional bool isRoomMaster = 2;
+  optional int64 enterTime = 3;
+  optional string guid = 4;
+  optional int32 actionChar = 5;
+}
+message CSMiniGameActionMatchingCreateRoomRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  optional int32 eventScheduleId = 2;
+  repeated Network.TCP.ServerPingInfo regionInfo = 3;
+  optional int32 matchingType = 4;
+  optional int32 actionChar = 5;
+  optional int32 actionMonster = 6;
+}
+message CSMiniGameActionMatchingCreateRoomResponse {
+  optional Network.TCP.CommonHeader header = 1;
+  optional int32 matchingType = 2;
+  optional string roomCode = 3;
+  repeated Network.TCP.ActionMatchingClientInfo ActionMatchingUserInfo = 4;
+}
+message CSMiniGameActionMatchingExitRoomRequest {
+  optional Network.TCP.CommonHeader header = 1;
+}
+message CSMiniGameActionMatchingExitRoomResponse {
+  optional Network.TCP.CommonHeader header = 1;
+}
+message SCMiniGameActionMatchingExitRoomRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  optional int64 exitUser = 2;
+  optional int64 newRoomMaster = 3;
+}
+message CSMiniGameActionMatchingJoinRoomRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  optional string roomCode = 2;
+  optional int32 actionChar = 3;
+  optional int32 actionMonster = 4;
+}
+message CSMiniGameActionMatchingJoinRoomResponse {
+  optional Network.TCP.CommonHeader header = 1;
+  optional int32 matchingType = 2;
+  optional string roomCode = 3;
+  repeated Network.TCP.ActionMatchingClientInfo ActionMatchingUserInfo = 4;
+  optional int32 actionMonster = 5;
+}
+message SCMiniGameActionMatchingJoinRoomRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  optional int32 matchingType = 2;
+  optional string roomCode = 3;
+  repeated Network.TCP.ActionMatchingClientInfo ActionMatchingUserInfo = 4;
+}
+message CSMiniGameActionMatchingAutoMatchRequest {
+  optional Network.TCP.CommonHeader header = 1;
+}
+message CSMiniGameActionMatchingAutoMatchResponse {
+  optional Network.TCP.CommonHeader header = 1;
+  optional int32 matchingType = 2;
+  optional string roomCode = 3;
+  repeated Network.TCP.ActionMatchingClientInfo ActionMatchingUserInfo = 4;
+}
+message CSMiniGameActionMatchingCancelAutoMatchRequest {
+  optional Network.TCP.CommonHeader header = 1;
+}
+message CSMiniGameActionMatchingCancelAutoMatchResponse {
+  optional Network.TCP.CommonHeader header = 1;
+}
+message CSMiniGameActionMatchingChangeSettingRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  optional int32 actionChar = 2;
+  repeated int32 actionMonster = 3;
+}
+message CSMiniGameActionMatchingChangeSettingResponse {
+  optional Network.TCP.CommonHeader header = 1;
+}
+message SCMiniGameActionMatchingChangeSettingRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  repeated Network.TCP.ActionMatchingClientInfo ActionMatchingUserInfo = 2;
+  optional int32 actionMonster = 3;
+}
+message CSMiniGameActionMatchingStartRoomRequest {
+  optional Network.TCP.CommonHeader header = 1;
+}
+message CSMiniGameActionMatchingStartRoomResponse {
+  optional Network.TCP.CommonHeader header = 1;
+}
+message SCMiniGameActionMatchingStartRoomRequest {
+  optional Network.TCP.CommonHeader header = 1;
+}
+message SCMiniGameActionMatchingCompleteRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  optional string roomCode = 2;
+  repeated Network.TCP.ActionMatchingClientInfo ActionMatchingUserInfo = 3;
+  optional string serverIp = 4;
+  optional string serverTCPPort = 5;
+  optional string serverUDPPort = 6;
+  optional int32 actionMonster = 7;
+}
+message CSMiniGameActionMatchingReconnectRequest {
+  optional Network.TCP.CommonHeader header = 1;
+}
+message CSMiniGameActionMatchingReconnectResponse {
+  optional Network.TCP.CommonHeader header = 1;
+  optional int32 matchingType = 2;
+  optional string roomCode = 3;
+  repeated Network.TCP.ActionMatchingClientInfo ActionMatchingUserInfo = 4;
+  optional int32 actionMonster = 5;
+}
+
+// From: pictorialbuffstatdbinfo.proto
+message PictorialBuffStatDBInfo {
+  optional int32 stat_type = 1;
+  optional double stat_value = 2;
+}
+
+// From: randomdefense.proto
+message CSDefenseStateUpdateRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  optional string guid = 2;
+  optional int32 state = 3;
+  optional int32 enemyCount = 4;
+  optional int32 wave = 5;
+  optional int32 totalEnemyKillCount = 6;
+  optional int32 networkPing = 7;
+}
+message DefenseUserInfo {
+  optional int64 ownerIndex = 1;
+  optional int32 state = 2;
+  optional int32 enemyCount = 3;
+  optional int32 wave = 4;
+  optional int32 totalEnemyKillCount = 5;
+  optional int32 networkState = 6;
+  optional int32 networkPing = 7;
+}
+message SCDefensePlayerStateRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  repeated Network.TCP.DefenseUserInfo userInfo = 2;
+}
+message SCDefenseGameEndRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  repeated Network.TCP.DefenseUserInfo userInfo = 2;
+}
+message DefenseViewerSync {
+  optional int64 ownerIndex = 1;
+  optional bool isViewer = 2;
+}
+message DefenseMonsterInfo {
+  optional int32 monsterId = 1;
+  optional int32 monsterIndex = 2;
+  optional int64 spawnTicks = 3;
+  optional int64 despwanTicks = 4;
+  optional int32 health = 5;
+}
+message DefenseMonsterBatchSync {
+  optional int64 ownerIndex = 1;
+  repeated Network.TCP.DefenseMonsterInfo monsterInfos = 2;
+}
+message DefenseMonsterSync {
+  optional int64 ownerIndex = 1;
+  repeated Network.TCP.DefenseMonsterInfo monsterInfo = 2;
+}
+message DefenseUnitInfo {
+  optional int32 unitId = 1;
+  optional int32 unitIndex = 2;
+  optional int64 spawnTicks = 3;
+  optional int64 despwanTicks = 4;
+  optional int32 elementLevel = 5;
+  optional float coolTime = 6;
+  optional int32 gridIndex = 7;
+}
+message DefenseUnitBatchSync {
+  optional int64 ownerIndex = 1;
+  repeated Network.TCP.DefenseUnitInfo unitInfos = 2;
+}
+message DefenseUnitSync {
+  optional int64 ownerIndex = 1;
+  optional Network.TCP.DefenseUnitInfo unitInfo = 2;
+}
+message SCDefenseGameStartRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  optional int64 startTime = 2;
+  repeated Network.TCP.DefenseUserInfo userInfo = 3;
+  repeated Network.TCP.RoomClientInfo roomUserInfo = 4;
+}
+message DefenseEmoticonSync {
+  optional int64 ownerIndex = 1;
+  optional int32 emoticonId = 2;
+}
+message CSDefenseReconnectRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  optional string guid = 2;
+}
+message CSDefenseReconnectResponse {
+  optional Network.TCP.CommonHeader header = 1;
+  optional string ip = 2;
+  optional string port = 3;
+  optional int32 clientState = 4;
+  optional int32 roomState = 5;
+}
+message DefenseReconnectSync {
+  optional int64 ownerIndex = 1;
+}
+
+// From: relay.proto
+message CSRelayUDPRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  optional string guid = 2;
+  optional bytes bytes = 3;
+}
+message SCRelayUDPRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  optional int64 ownerIndex = 2;
+  optional bytes bytes = 3;
+}
+message CSRelayToUserUDPRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  optional string guid = 2;
+  optional int64 recvOwnerIndex = 3;
+  optional bytes bytes = 4;
+}
+message SCRelayToUserUDPRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  optional int64 ownerIndex = 2;
+  optional bytes bytes = 3;
+}
+message CSRelayRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  optional string guid = 2;
+  optional bytes bytes = 3;
+}
+message SCRelayRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  optional int64 ownerIndex = 2;
+  optional bytes bytes = 3;
+}
+message CSRelayToUserRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  optional string guid = 2;
+  optional int64 recvOwnerIndex = 3;
+  optional bytes bytes = 4;
+}
+message SCRelayToUserRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  optional int64 ownerIndex = 2;
+  optional bytes bytes = 3;
+}
+
+// From: stun.proto
+message CSCreateSessionRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  optional string roomCode = 2;
+  optional int32 natType = 3;
+}
+message CSCreateSessionResponse {
+  optional Network.TCP.CommonHeader header = 1;
+  optional string ip = 2;
+  optional string port = 3;
+  optional string guid = 4;
+}
+message RoomUserInfo {
+  optional int64 ownerIndex = 1;
+  optional string ip = 2;
+  optional string port = 3;
+  optional int32 natType = 4;
+}
+message CSRoomUserUDPRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  optional string guid = 2;
+}
+message CSRoomUserUDPResponse {
+  optional Network.TCP.CommonHeader header = 1;
+  repeated Network.TCP.RoomUserInfo userInfo = 2;
+}
+message SCRoomUserUDPRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  repeated Network.TCP.RoomUserInfo userInfo = 2;
+}
+message CSStunUDPRequest {
+  optional Network.TCP.CommonHeader header = 1;
+}
+message CSStunUDPResponse {
+  optional Network.TCP.CommonHeader header = 1;
+  optional string ip = 2;
+  optional string port = 3;
+}
+message CSNatUpdateUDPRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  optional string guid = 2;
+  optional int32 natType = 3;
+}
+message CSNatUpdateUDPResponse {
+  optional Network.TCP.CommonHeader header = 1;
+  optional Network.TCP.RoomUserInfo userInfo = 2;
+}
+message SCNatUpdateUDPRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  optional Network.TCP.RoomUserInfo userInfo = 2;
+}
+message RoomClientInfo {
+  optional int64 ownerIndex = 1;
+  optional string guid = 2;
+  optional int64 enterTime = 3;
+}
+message CSCreateRoomRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  repeated int64 ownerIndex = 2;
+  optional int32 gameClearType = 3;
+  optional string roomCode = 4;
+  optional string magicValue = 5;
+}
+message CSCreateRoomResponse {
+  optional Network.TCP.CommonHeader header = 1;
+  optional string roomCode = 2;
+  repeated Network.TCP.RoomClientInfo user = 3;
+}
+message CSSetNetworkStateRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  optional string guid = 2;
+  optional int32 state = 3;
+}
+message CSSetNetworkStateResponse {
+  optional Network.TCP.CommonHeader header = 1;
+  optional int32 state = 2;
+}
+message CSGameReadyRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  optional string guid = 2;
+}
+message SCStateUpdateRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  optional int64 ownerIndex = 2;
+  optional int32 state = 3;
+}
+message SCGameStartRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  optional int64 startTime = 2;
+}
+message CSGameExitRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  optional string guid = 2;
+}
+message CSGameExitResponse {
+  optional Network.TCP.CommonHeader header = 1;
+  optional int32 state = 2;
+}
+message SCGameExitRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  optional int64 ownerIndex = 2;
+  optional int32 state = 3;
+}
+message SCGameReadyRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  optional int64 ownerIndex = 2;
+  optional int32 state = 3;
+}
+message CSCreateSessionUDPRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  optional string roomCode = 2;
+  optional int32 natType = 3;
+}
+message CSCreateSessionUDPResponse {
+  optional Network.TCP.CommonHeader header = 1;
+  optional string ip = 2;
+  optional string port = 3;
+  optional string guid = 4;
+}
+message CSRelayServerPingRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  optional string guid = 2;
+  optional int64 sendTime = 3;
+}
+message CSRelayServerPingResponse {
+  optional Network.TCP.CommonHeader header = 1;
+  optional int64 sendTime = 2;
+}
+message CSRelayServerPingUDPRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  optional string guid = 2;
+  optional int64 sendTime = 3;
+}
+message CSRelayServerPingUDPResponse {
+  optional Network.TCP.CommonHeader header = 1;
+  optional int64 sendTime = 2;
+}
+message CSUDPVerifyRequest {
+  optional Network.TCP.CommonHeader header = 1;
+  optional string guid = 2;
+}
+message CSUDPVerifyResponse {
+  optional Network.TCP.CommonHeader header = 1;
+}

@@ -1,0 +1,6 @@
+CREATE TABLE "FishingTrapInfo" (
+    "Index" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "Uid" BIGINT NOT NULL,
+    "FishId" INTEGER NOT NULL,
+    "Size" INTEGER NOT NULL
+);

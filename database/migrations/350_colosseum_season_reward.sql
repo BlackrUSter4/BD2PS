@@ -1,0 +1,6 @@
+CREATE TABLE "ColosseumSeasonReward" (
+    "Index" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "Uid" BIGINT NOT NULL,
+    "Season" INTEGER NOT NULL,
+    "IsClaimed" INTEGER NOT NULL DEFAULT 0
+);

@@ -1,0 +1,7502 @@
+[
+  {
+    "battlePower": 100,
+    "groupId": 999,
+    "id": 1
+  },
+  {
+    "battlePower": 100,
+    "groupId": 999,
+    "id": 2
+  },
+  {
+    "battlePower": 100,
+    "groupId": 999,
+    "id": 3
+  },
+  {
+    "battlePower": 100,
+    "groupId": 999,
+    "id": 4
+  },
+  {
+    "battlePower": 100,
+    "groupId": 999,
+    "id": 5
+  },
+  {
+    "battlePower": 200,
+    "groupId": 999,
+    "id": 6
+  },
+  {
+    "battlePower": 200,
+    "groupId": 999,
+    "id": 7
+  },
+  {
+    "battlePower": 200,
+    "groupId": 999,
+    "id": 8
+  },
+  {
+    "battlePower": 200,
+    "groupId": 999,
+    "id": 9
+  },
+  {
+    "battlePower": 200,
+    "groupId": 999,
+    "id": 10
+  },
+  {
+    "battlePower": 300,
+    "groupId": 999,
+    "id": 11
+  },
+  {
+    "battlePower": 300,
+    "groupId": 999,
+    "id": 12
+  },
+  {
+    "battlePower": 300,
+    "groupId": 999,
+    "id": 13
+  },
+  {
+    "battlePower": 300,
+    "groupId": 999,
+    "id": 14
+  },
+  {
+    "battlePower": 400,
+    "groupId": 999,
+    "id": 15
+  },
+  {
+    "battlePower": 400,
+    "groupId": 999,
+    "id": 16
+  },
+  {
+    "battlePower": 500,
+    "groupId": 999,
+    "id": 17
+  },
+  {
+    "battlePower": 500,
+    "groupId": 999,
+    "id": 18
+  },
+  {
+    "battlePower": 500,
+    "groupId": 999,
+    "id": 19
+  },
+  {
+    "battlePower": 600,
+    "groupId": 999,
+    "id": 20
+  },
+  {
+    "battlePower": 600,
+    "groupId": 999,
+    "id": 21
+  },
+  {
+    "battlePower": 700,
+    "groupId": 999,
+    "id": 22
+  },
+  {
+    "battlePower": 700,
+    "groupId": 999,
+    "id": 23
+  },
+  {
+    "battlePower": 800,
+    "groupId": 999,
+    "id": 24
+  },
+  {
+    "battlePower": 900,
+    "groupId": 999,
+    "id": 25
+  },
+  {
+    "battlePower": 900,
+    "groupId": 999,
+    "id": 26
+  },
+  {
+    "battlePower": 1000,
+    "groupId": 999,
+    "id": 27
+  },
+  {
+    "battlePower": 1100,
+    "groupId": 999,
+    "id": 28
+  },
+  {
+    "battlePower": 1100,
+    "groupId": 999,
+    "id": 29
+  },
+  {
+    "battlePower": 1200,
+    "groupId": 999,
+    "id": 30
+  },
+  {
+    "battlePower": 500,
+    "groupId": 1,
+    "id": 1
+  },
+  {
+    "battlePower": 12900,
+    "groupId": 1,
+    "id": 2
+  },
+  {
+    "battlePower": 71200,
+    "groupId": 1,
+    "id": 3
+  },
+  {
+    "battlePower": 224500,
+    "groupId": 1,
+    "id": 4
+  },
+  {
+    "battlePower": 534000,
+    "groupId": 1,
+    "id": 5
+  },
+  {
+    "battlePower": 1071800,
+    "groupId": 1,
+    "id": 6
+  },
+  {
+    "battlePower": 1919800,
+    "groupId": 1,
+    "id": 7
+  },
+  {
+    "battlePower": 3169000,
+    "groupId": 1,
+    "id": 8
+  },
+  {
+    "battlePower": 4919000,
+    "groupId": 1,
+    "id": 9
+  },
+  {
+    "battlePower": 7277400,
+    "groupId": 1,
+    "id": 10
+  },
+  {
+    "battlePower": 10359500,
+    "groupId": 1,
+    "id": 11
+  },
+  {
+    "battlePower": 14288100,
+    "groupId": 1,
+    "id": 12
+  },
+  {
+    "battlePower": 19192800,
+    "groupId": 1,
+    "id": 13
+  },
+  {
+    "battlePower": 25210100,
+    "groupId": 1,
+    "id": 14
+  },
+  {
+    "battlePower": 32483300,
+    "groupId": 1,
+    "id": 15
+  },
+  {
+    "battlePower": 41161800,
+    "groupId": 1,
+    "id": 16
+  },
+  {
+    "battlePower": 51401500,
+    "groupId": 1,
+    "id": 17
+  },
+  {
+    "battlePower": 63364200,
+    "groupId": 1,
+    "id": 18
+  },
+  {
+    "battlePower": 77217700,
+    "groupId": 1,
+    "id": 19
+  },
+  {
+    "battlePower": 93135400,
+    "groupId": 1,
+    "id": 20
+  },
+  {
+    "battlePower": 111296700,
+    "groupId": 1,
+    "id": 21
+  },
+  {
+    "battlePower": 131886100,
+    "groupId": 1,
+    "id": 22
+  },
+  {
+    "battlePower": 155093900,
+    "groupId": 1,
+    "id": 23
+  },
+  {
+    "battlePower": 181115600,
+    "groupId": 1,
+    "id": 24
+  },
+  {
+    "battlePower": 210151900,
+    "groupId": 1,
+    "id": 25
+  },
+  {
+    "battlePower": 242408600,
+    "groupId": 1,
+    "id": 26
+  },
+  {
+    "battlePower": 278096600,
+    "groupId": 1,
+    "id": 27
+  },
+  {
+    "battlePower": 317431900,
+    "groupId": 1,
+    "id": 28
+  },
+  {
+    "battlePower": 360635300,
+    "groupId": 1,
+    "id": 29
+  },
+  {
+    "battlePower": 407932300,
+    "groupId": 1,
+    "id": 30
+  },
+  {
+    "battlePower": 900,
+    "groupId": 2,
+    "id": 1
+  },
+  {
+    "battlePower": 11300,
+    "groupId": 2,
+    "id": 2
+  },
+  {
+    "battlePower": 71400,
+    "groupId": 2,
+    "id": 3
+  },
+  {
+    "battlePower": 251500,
+    "groupId": 2,
+    "id": 4
+  },
+  {
+    "battlePower": 653400,
+    "groupId": 2,
+    "id": 5
+  },
+  {
+    "battlePower": 1410400,
+    "groupId": 2,
+    "id": 6
+  },
+  {
+    "battlePower": 2686700,
+    "groupId": 2,
+    "id": 7
+  },
+  {
+    "battlePower": 4678200,
+    "groupId": 2,
+    "id": 8
+  },
+  {
+    "battlePower": 7611900,
+    "groupId": 2,
+    "id": 9
+  },
+  {
+    "battlePower": 11746300,
+    "groupId": 2,
+    "id": 10
+  },
+  {
+    "battlePower": 17371000,
+    "groupId": 2,
+    "id": 11
+  },
+  {
+    "battlePower": 24807100,
+    "groupId": 2,
+    "id": 12
+  },
+  {
+    "battlePower": 34406900,
+    "groupId": 2,
+    "id": 13
+  },
+  {
+    "battlePower": 46554000,
+    "groupId": 2,
+    "id": 14
+  },
+  {
+    "battlePower": 61663600,
+    "groupId": 2,
+    "id": 15
+  },
+  {
+    "battlePower": 80181900,
+    "groupId": 2,
+    "id": 16
+  },
+  {
+    "battlePower": 102586500,
+    "groupId": 2,
+    "id": 17
+  },
+  {
+    "battlePower": 129386500,
+    "groupId": 2,
+    "id": 18
+  },
+  {
+    "battlePower": 161121900,
+    "groupId": 2,
+    "id": 19
+  },
+  {
+    "battlePower": 198364600,
+    "groupId": 2,
+    "id": 20
+  },
+  {
+    "battlePower": 241717300,
+    "groupId": 2,
+    "id": 21
+  },
+  {
+    "battlePower": 291814300,
+    "groupId": 2,
+    "id": 22
+  },
+  {
+    "battlePower": 349321200,
+    "groupId": 2,
+    "id": 23
+  },
+  {
+    "battlePower": 414934800,
+    "groupId": 2,
+    "id": 24
+  },
+  {
+    "battlePower": 489383300,
+    "groupId": 2,
+    "id": 25
+  },
+  {
+    "battlePower": 573426300,
+    "groupId": 2,
+    "id": 26
+  },
+  {
+    "battlePower": 667854600,
+    "groupId": 2,
+    "id": 27
+  },
+  {
+    "battlePower": 773490200,
+    "groupId": 2,
+    "id": 28
+  },
+  {
+    "battlePower": 891186800,
+    "groupId": 2,
+    "id": 29
+  },
+  {
+    "battlePower": 1021829100,
+    "groupId": 2,
+    "id": 30
+  },
+  {
+    "battlePower": 300,
+    "groupId": 3,
+    "id": 1
+  },
+  {
+    "battlePower": 8400,
+    "groupId": 3,
+    "id": 2
+  },
+  {
+    "battlePower": 58600,
+    "groupId": 3,
+    "id": 3
+  },
+  {
+    "battlePower": 217000,
+    "groupId": 3,
+    "id": 4
+  },
+  {
+    "battlePower": 583800,
+    "groupId": 3,
+    "id": 5
+  },
+  {
+    "battlePower": 1295600,
+    "groupId": 3,
+    "id": 6
+  },
+  {
+    "battlePower": 2526300,
+    "groupId": 3,
+    "id": 7
+  },
+  {
+    "battlePower": 4488300,
+    "groupId": 3,
+    "id": 8
+  },
+  {
+    "battlePower": 7433500,
+    "groupId": 3,
+    "id": 9
+  },
+  {
+    "battlePower": 11654000,
+    "groupId": 3,
+    "id": 10
+  },
+  {
+    "battlePower": 17483000,
+    "groupId": 3,
+    "id": 11
+  },
+  {
+    "battlePower": 25295200,
+    "groupId": 3,
+    "id": 12
+  },
+  {
+    "battlePower": 35507900,
+    "groupId": 3,
+    "id": 13
+  },
+  {
+    "battlePower": 48581100,
+    "groupId": 3,
+    "id": 14
+  },
+  {
+    "battlePower": 65018200,
+    "groupId": 3,
+    "id": 15
+  },
+  {
+    "battlePower": 85366600,
+    "groupId": 3,
+    "id": 16
+  },
+  {
+    "battlePower": 110217800,
+    "groupId": 3,
+    "id": 17
+  },
+  {
+    "battlePower": 140208500,
+    "groupId": 3,
+    "id": 18
+  },
+  {
+    "battlePower": 176020400,
+    "groupId": 3,
+    "id": 19
+  },
+  {
+    "battlePower": 218380700,
+    "groupId": 3,
+    "id": 20
+  },
+  {
+    "battlePower": 268062800,
+    "groupId": 3,
+    "id": 21
+  },
+  {
+    "battlePower": 325886400,
+    "groupId": 3,
+    "id": 22
+  },
+  {
+    "battlePower": 392717800,
+    "groupId": 3,
+    "id": 23
+  },
+  {
+    "battlePower": 469470400,
+    "groupId": 3,
+    "id": 24
+  },
+  {
+    "battlePower": 557104900,
+    "groupId": 3,
+    "id": 25
+  },
+  {
+    "battlePower": 656629800,
+    "groupId": 3,
+    "id": 26
+  },
+  {
+    "battlePower": 769101300,
+    "groupId": 3,
+    "id": 27
+  },
+  {
+    "battlePower": 895624100,
+    "groupId": 3,
+    "id": 28
+  },
+  {
+    "battlePower": 1037351100,
+    "groupId": 3,
+    "id": 29
+  },
+  {
+    "battlePower": 1195484300,
+    "groupId": 3,
+    "id": 30
+  },
+  {
+    "battlePower": 700,
+    "groupId": 4,
+    "id": 1
+  },
+  {
+    "battlePower": 14600,
+    "groupId": 4,
+    "id": 2
+  },
+  {
+    "battlePower": 85300,
+    "groupId": 4,
+    "id": 3
+  },
+  {
+    "battlePower": 280800,
+    "groupId": 4,
+    "id": 4
+  },
+  {
+    "battlePower": 690400,
+    "groupId": 4,
+    "id": 5
+  },
+  {
+    "battlePower": 1424000,
+    "groupId": 4,
+    "id": 6
+  },
+  {
+    "battlePower": 2610400,
+    "groupId": 4,
+    "id": 7
+  },
+  {
+    "battlePower": 4396200,
+    "groupId": 4,
+    "id": 8
+  },
+  {
+    "battlePower": 6945600,
+    "groupId": 4,
+    "id": 9
+  },
+  {
+    "battlePower": 10439500,
+    "groupId": 4,
+    "id": 10
+  },
+  {
+    "battlePower": 15075000,
+    "groupId": 4,
+    "id": 11
+  },
+  {
+    "battlePower": 21065100,
+    "groupId": 4,
+    "id": 12
+  },
+  {
+    "battlePower": 28638000,
+    "groupId": 4,
+    "id": 13
+  },
+  {
+    "battlePower": 38037200,
+    "groupId": 4,
+    "id": 14
+  },
+  {
+    "battlePower": 49521000,
+    "groupId": 4,
+    "id": 15
+  },
+  {
+    "battlePower": 63362100,
+    "groupId": 4,
+    "id": 16
+  },
+  {
+    "battlePower": 79847500,
+    "groupId": 4,
+    "id": 17
+  },
+  {
+    "battlePower": 99278200,
+    "groupId": 4,
+    "id": 18
+  },
+  {
+    "battlePower": 121969000,
+    "groupId": 4,
+    "id": 19
+  },
+  {
+    "battlePower": 148248400,
+    "groupId": 4,
+    "id": 20
+  },
+  {
+    "battlePower": 178458100,
+    "groupId": 4,
+    "id": 21
+  },
+  {
+    "battlePower": 212953200,
+    "groupId": 4,
+    "id": 22
+  },
+  {
+    "battlePower": 252102000,
+    "groupId": 4,
+    "id": 23
+  },
+  {
+    "battlePower": 296285400,
+    "groupId": 4,
+    "id": 24
+  },
+  {
+    "battlePower": 345897500,
+    "groupId": 4,
+    "id": 25
+  },
+  {
+    "battlePower": 401344600,
+    "groupId": 4,
+    "id": 26
+  },
+  {
+    "battlePower": 463046000,
+    "groupId": 4,
+    "id": 27
+  },
+  {
+    "battlePower": 531432900,
+    "groupId": 4,
+    "id": 28
+  },
+  {
+    "battlePower": 606949300,
+    "groupId": 4,
+    "id": 29
+  },
+  {
+    "battlePower": 690050800,
+    "groupId": 4,
+    "id": 30
+  },
+  {
+    "battlePower": 1000,
+    "groupId": 5,
+    "id": 1
+  },
+  {
+    "battlePower": 11100,
+    "groupId": 5,
+    "id": 2
+  },
+  {
+    "battlePower": 75000,
+    "groupId": 5,
+    "id": 3
+  },
+  {
+    "battlePower": 279700,
+    "groupId": 5,
+    "id": 4
+  },
+  {
+    "battlePower": 759900,
+    "groupId": 5,
+    "id": 5
+  },
+  {
+    "battlePower": 1701200,
+    "groupId": 5,
+    "id": 6
+  },
+  {
+    "battlePower": 3342200,
+    "groupId": 5,
+    "id": 7
+  },
+  {
+    "battlePower": 5977000,
+    "groupId": 5,
+    "id": 8
+  },
+  {
+    "battlePower": 9957100,
+    "groupId": 5,
+    "id": 9
+  },
+  {
+    "battlePower": 15692400,
+    "groupId": 5,
+    "id": 10
+  },
+  {
+    "battlePower": 23653300,
+    "groupId": 5,
+    "id": 11
+  },
+  {
+    "battlePower": 34371600,
+    "groupId": 5,
+    "id": 12
+  },
+  {
+    "battlePower": 48441900,
+    "groupId": 5,
+    "id": 13
+  },
+  {
+    "battlePower": 66522800,
+    "groupId": 5,
+    "id": 14
+  },
+  {
+    "battlePower": 89337600,
+    "groupId": 5,
+    "id": 15
+  },
+  {
+    "battlePower": 117675800,
+    "groupId": 5,
+    "id": 16
+  },
+  {
+    "battlePower": 152393500,
+    "groupId": 5,
+    "id": 17
+  },
+  {
+    "battlePower": 194414800,
+    "groupId": 5,
+    "id": 18
+  },
+  {
+    "battlePower": 244732200,
+    "groupId": 5,
+    "id": 19
+  },
+  {
+    "battlePower": 304407700,
+    "groupId": 5,
+    "id": 20
+  },
+  {
+    "battlePower": 374573300,
+    "groupId": 5,
+    "id": 21
+  },
+  {
+    "battlePower": 456432000,
+    "groupId": 5,
+    "id": 22
+  },
+  {
+    "battlePower": 551258500,
+    "groupId": 5,
+    "id": 23
+  },
+  {
+    "battlePower": 660399500,
+    "groupId": 5,
+    "id": 24
+  },
+  {
+    "battlePower": 785274700,
+    "groupId": 5,
+    "id": 25
+  },
+  {
+    "battlePower": 927377500,
+    "groupId": 5,
+    "id": 26
+  },
+  {
+    "battlePower": 1088275300,
+    "groupId": 5,
+    "id": 27
+  },
+  {
+    "battlePower": 1269610300,
+    "groupId": 5,
+    "id": 28
+  },
+  {
+    "battlePower": 1473100000,
+    "groupId": 5,
+    "id": 29
+  },
+  {
+    "battlePower": 1700537800,
+    "groupId": 5,
+    "id": 30
+  },
+  {
+    "battlePower": 1000,
+    "groupId": 6,
+    "id": 1
+  },
+  {
+    "battlePower": 11100,
+    "groupId": 6,
+    "id": 2
+  },
+  {
+    "battlePower": 75000,
+    "groupId": 6,
+    "id": 3
+  },
+  {
+    "battlePower": 279700,
+    "groupId": 6,
+    "id": 4
+  },
+  {
+    "battlePower": 759900,
+    "groupId": 6,
+    "id": 5
+  },
+  {
+    "battlePower": 1701200,
+    "groupId": 6,
+    "id": 6
+  },
+  {
+    "battlePower": 3342200,
+    "groupId": 6,
+    "id": 7
+  },
+  {
+    "battlePower": 5977000,
+    "groupId": 6,
+    "id": 8
+  },
+  {
+    "battlePower": 9957100,
+    "groupId": 6,
+    "id": 9
+  },
+  {
+    "battlePower": 15692400,
+    "groupId": 6,
+    "id": 10
+  },
+  {
+    "battlePower": 23653300,
+    "groupId": 6,
+    "id": 11
+  },
+  {
+    "battlePower": 34371600,
+    "groupId": 6,
+    "id": 12
+  },
+  {
+    "battlePower": 48441900,
+    "groupId": 6,
+    "id": 13
+  },
+  {
+    "battlePower": 66522800,
+    "groupId": 6,
+    "id": 14
+  },
+  {
+    "battlePower": 89337600,
+    "groupId": 6,
+    "id": 15
+  },
+  {
+    "battlePower": 117675800,
+    "groupId": 6,
+    "id": 16
+  },
+  {
+    "battlePower": 152393500,
+    "groupId": 6,
+    "id": 17
+  },
+  {
+    "battlePower": 194414800,
+    "groupId": 6,
+    "id": 18
+  },
+  {
+    "battlePower": 244732200,
+    "groupId": 6,
+    "id": 19
+  },
+  {
+    "battlePower": 304407700,
+    "groupId": 6,
+    "id": 20
+  },
+  {
+    "battlePower": 374573300,
+    "groupId": 6,
+    "id": 21
+  },
+  {
+    "battlePower": 456432000,
+    "groupId": 6,
+    "id": 22
+  },
+  {
+    "battlePower": 551258500,
+    "groupId": 6,
+    "id": 23
+  },
+  {
+    "battlePower": 660399500,
+    "groupId": 6,
+    "id": 24
+  },
+  {
+    "battlePower": 785274700,
+    "groupId": 6,
+    "id": 25
+  },
+  {
+    "battlePower": 927377500,
+    "groupId": 6,
+    "id": 26
+  },
+  {
+    "battlePower": 1088275300,
+    "groupId": 6,
+    "id": 27
+  },
+  {
+    "battlePower": 1269610300,
+    "groupId": 6,
+    "id": 28
+  },
+  {
+    "battlePower": 1473100000,
+    "groupId": 6,
+    "id": 29
+  },
+  {
+    "battlePower": 1700537800,
+    "groupId": 6,
+    "id": 30
+  },
+  {
+    "battlePower": 900,
+    "groupId": 7,
+    "id": 1
+  },
+  {
+    "battlePower": 10200,
+    "groupId": 7,
+    "id": 2
+  },
+  {
+    "battlePower": 58700,
+    "groupId": 7,
+    "id": 3
+  },
+  {
+    "battlePower": 194800,
+    "groupId": 7,
+    "id": 4
+  },
+  {
+    "battlePower": 483900,
+    "groupId": 7,
+    "id": 5
+  },
+  {
+    "battlePower": 1006800,
+    "groupId": 7,
+    "id": 6
+  },
+  {
+    "battlePower": 1859500,
+    "groupId": 7,
+    "id": 7
+  },
+  {
+    "battlePower": 3152300,
+    "groupId": 7,
+    "id": 8
+  },
+  {
+    "battlePower": 5009500,
+    "groupId": 7,
+    "id": 9
+  },
+  {
+    "battlePower": 7569100,
+    "groupId": 7,
+    "id": 10
+  },
+  {
+    "battlePower": 10982100,
+    "groupId": 7,
+    "id": 11
+  },
+  {
+    "battlePower": 15412500,
+    "groupId": 7,
+    "id": 12
+  },
+  {
+    "battlePower": 21037200,
+    "groupId": 7,
+    "id": 13
+  },
+  {
+    "battlePower": 28045400,
+    "groupId": 7,
+    "id": 14
+  },
+  {
+    "battlePower": 36638600,
+    "groupId": 7,
+    "id": 15
+  },
+  {
+    "battlePower": 47030500,
+    "groupId": 7,
+    "id": 16
+  },
+  {
+    "battlePower": 59446600,
+    "groupId": 7,
+    "id": 17
+  },
+  {
+    "battlePower": 74124200,
+    "groupId": 7,
+    "id": 18
+  },
+  {
+    "battlePower": 91312300,
+    "groupId": 7,
+    "id": 19
+  },
+  {
+    "battlePower": 111271300,
+    "groupId": 7,
+    "id": 20
+  },
+  {
+    "battlePower": 134273000,
+    "groupId": 7,
+    "id": 21
+  },
+  {
+    "battlePower": 160600400,
+    "groupId": 7,
+    "id": 22
+  },
+  {
+    "battlePower": 190547700,
+    "groupId": 7,
+    "id": 23
+  },
+  {
+    "battlePower": 224420100,
+    "groupId": 7,
+    "id": 24
+  },
+  {
+    "battlePower": 262533700,
+    "groupId": 7,
+    "id": 25
+  },
+  {
+    "battlePower": 305215600,
+    "groupId": 7,
+    "id": 26
+  },
+  {
+    "battlePower": 352803400,
+    "groupId": 7,
+    "id": 27
+  },
+  {
+    "battlePower": 405645600,
+    "groupId": 7,
+    "id": 28
+  },
+  {
+    "battlePower": 464101100,
+    "groupId": 7,
+    "id": 29
+  },
+  {
+    "battlePower": 528539300,
+    "groupId": 7,
+    "id": 30
+  },
+  {
+    "battlePower": 600,
+    "groupId": 8,
+    "id": 1
+  },
+  {
+    "battlePower": 2000,
+    "groupId": 8,
+    "id": 2
+  },
+  {
+    "battlePower": 16800,
+    "groupId": 8,
+    "id": 3
+  },
+  {
+    "battlePower": 84000,
+    "groupId": 8,
+    "id": 4
+  },
+  {
+    "battlePower": 290600,
+    "groupId": 8,
+    "id": 5
+  },
+  {
+    "battlePower": 794200,
+    "groupId": 8,
+    "id": 6
+  },
+  {
+    "battlePower": 1848100,
+    "groupId": 8,
+    "id": 7
+  },
+  {
+    "battlePower": 3827500,
+    "groupId": 8,
+    "id": 8
+  },
+  {
+    "battlePower": 7257600,
+    "groupId": 8,
+    "id": 9
+  },
+  {
+    "battlePower": 12842800,
+    "groupId": 8,
+    "id": 10
+  },
+  {
+    "battlePower": 21497100,
+    "groupId": 8,
+    "id": 11
+  },
+  {
+    "battlePower": 34375200,
+    "groupId": 8,
+    "id": 12
+  },
+  {
+    "battlePower": 52905200,
+    "groupId": 8,
+    "id": 13
+  },
+  {
+    "battlePower": 78821600,
+    "groupId": 8,
+    "id": 14
+  },
+  {
+    "battlePower": 114199600,
+    "groupId": 8,
+    "id": 15
+  },
+  {
+    "battlePower": 161490000,
+    "groupId": 8,
+    "id": 16
+  },
+  {
+    "battlePower": 223554900,
+    "groupId": 8,
+    "id": 17
+  },
+  {
+    "battlePower": 303704300,
+    "groupId": 8,
+    "id": 18
+  },
+  {
+    "battlePower": 405733000,
+    "groupId": 8,
+    "id": 19
+  },
+  {
+    "battlePower": 533958500,
+    "groupId": 8,
+    "id": 20
+  },
+  {
+    "battlePower": 693259500,
+    "groupId": 8,
+    "id": 21
+  },
+  {
+    "battlePower": 889114900,
+    "groupId": 8,
+    "id": 22
+  },
+  {
+    "battlePower": 1127643900,
+    "groupId": 8,
+    "id": 23
+  },
+  {
+    "battlePower": 1415645400,
+    "groupId": 8,
+    "id": 24
+  },
+  {
+    "battlePower": 1760639600,
+    "groupId": 8,
+    "id": 25
+  },
+  {
+    "battlePower": 1953823100,
+    "groupId": 8,
+    "id": 26
+  },
+  {
+    "battlePower": 1858895100,
+    "groupId": 8,
+    "id": 27
+  },
+  {
+    "battlePower": 1934705200,
+    "groupId": 8,
+    "id": 28
+  },
+  {
+    "battlePower": 1944290600,
+    "groupId": 8,
+    "id": 29
+  },
+  {
+    "battlePower": 1863818200,
+    "groupId": 8,
+    "id": 30
+  },
+  {
+    "battlePower": 800,
+    "groupId": 9,
+    "id": 1
+  },
+  {
+    "battlePower": 9600,
+    "groupId": 9,
+    "id": 2
+  },
+  {
+    "battlePower": 60400,
+    "groupId": 9,
+    "id": 3
+  },
+  {
+    "battlePower": 212800,
+    "groupId": 9,
+    "id": 4
+  },
+  {
+    "battlePower": 552900,
+    "groupId": 9,
+    "id": 5
+  },
+  {
+    "battlePower": 1193400,
+    "groupId": 9,
+    "id": 6
+  },
+  {
+    "battlePower": 2273400,
+    "groupId": 9,
+    "id": 7
+  },
+  {
+    "battlePower": 3958500,
+    "groupId": 9,
+    "id": 8
+  },
+  {
+    "battlePower": 6440900,
+    "groupId": 9,
+    "id": 9
+  },
+  {
+    "battlePower": 9939200,
+    "groupId": 9,
+    "id": 10
+  },
+  {
+    "battlePower": 14698500,
+    "groupId": 9,
+    "id": 11
+  },
+  {
+    "battlePower": 20990600,
+    "groupId": 9,
+    "id": 12
+  },
+  {
+    "battlePower": 29113500,
+    "groupId": 9,
+    "id": 13
+  },
+  {
+    "battlePower": 39391900,
+    "groupId": 9,
+    "id": 14
+  },
+  {
+    "battlePower": 52176900,
+    "groupId": 9,
+    "id": 15
+  },
+  {
+    "battlePower": 67846200,
+    "groupId": 9,
+    "id": 16
+  },
+  {
+    "battlePower": 86804000,
+    "groupId": 9,
+    "id": 17
+  },
+  {
+    "battlePower": 109480800,
+    "groupId": 9,
+    "id": 18
+  },
+  {
+    "battlePower": 136333900,
+    "groupId": 9,
+    "id": 19
+  },
+  {
+    "battlePower": 167847000,
+    "groupId": 9,
+    "id": 20
+  },
+  {
+    "battlePower": 204530000,
+    "groupId": 9,
+    "id": 21
+  },
+  {
+    "battlePower": 246919800,
+    "groupId": 9,
+    "id": 22
+  },
+  {
+    "battlePower": 295579500,
+    "groupId": 9,
+    "id": 23
+  },
+  {
+    "battlePower": 351098700,
+    "groupId": 9,
+    "id": 24
+  },
+  {
+    "battlePower": 414093600,
+    "groupId": 9,
+    "id": 25
+  },
+  {
+    "battlePower": 485206900,
+    "groupId": 9,
+    "id": 26
+  },
+  {
+    "battlePower": 565107700,
+    "groupId": 9,
+    "id": 27
+  },
+  {
+    "battlePower": 654491700,
+    "groupId": 9,
+    "id": 28
+  },
+  {
+    "battlePower": 754081200,
+    "groupId": 9,
+    "id": 29
+  },
+  {
+    "battlePower": 864624600,
+    "groupId": 9,
+    "id": 30
+  },
+  {
+    "battlePower": 100,
+    "groupId": 10,
+    "id": 1
+  },
+  {
+    "battlePower": 1000,
+    "groupId": 10,
+    "id": 2
+  },
+  {
+    "battlePower": 6300,
+    "groupId": 10,
+    "id": 3
+  },
+  {
+    "battlePower": 23400,
+    "groupId": 10,
+    "id": 4
+  },
+  {
+    "battlePower": 63400,
+    "groupId": 10,
+    "id": 5
+  },
+  {
+    "battlePower": 141900,
+    "groupId": 10,
+    "id": 6
+  },
+  {
+    "battlePower": 278700,
+    "groupId": 10,
+    "id": 7
+  },
+  {
+    "battlePower": 498300,
+    "groupId": 10,
+    "id": 8
+  },
+  {
+    "battlePower": 830100,
+    "groupId": 10,
+    "id": 9
+  },
+  {
+    "battlePower": 1308200,
+    "groupId": 10,
+    "id": 10
+  },
+  {
+    "battlePower": 1971700,
+    "groupId": 10,
+    "id": 11
+  },
+  {
+    "battlePower": 2865100,
+    "groupId": 10,
+    "id": 12
+  },
+  {
+    "battlePower": 4037800,
+    "groupId": 10,
+    "id": 13
+  },
+  {
+    "battlePower": 5544800,
+    "groupId": 10,
+    "id": 14
+  },
+  {
+    "battlePower": 7446300,
+    "groupId": 10,
+    "id": 15
+  },
+  {
+    "battlePower": 9808100,
+    "groupId": 10,
+    "id": 16
+  },
+  {
+    "battlePower": 12701600,
+    "groupId": 10,
+    "id": 17
+  },
+  {
+    "battlePower": 16203800,
+    "groupId": 10,
+    "id": 18
+  },
+  {
+    "battlePower": 20397400,
+    "groupId": 10,
+    "id": 19
+  },
+  {
+    "battlePower": 25370800,
+    "groupId": 10,
+    "id": 20
+  },
+  {
+    "battlePower": 31218500,
+    "groupId": 10,
+    "id": 21
+  },
+  {
+    "battlePower": 38040700,
+    "groupId": 10,
+    "id": 22
+  },
+  {
+    "battlePower": 45943600,
+    "groupId": 10,
+    "id": 23
+  },
+  {
+    "battlePower": 55039400,
+    "groupId": 10,
+    "id": 24
+  },
+  {
+    "battlePower": 65446500,
+    "groupId": 10,
+    "id": 25
+  },
+  {
+    "battlePower": 77289200,
+    "groupId": 10,
+    "id": 26
+  },
+  {
+    "battlePower": 90698300,
+    "groupId": 10,
+    "id": 27
+  },
+  {
+    "battlePower": 105810600,
+    "groupId": 10,
+    "id": 28
+  },
+  {
+    "battlePower": 122769200,
+    "groupId": 10,
+    "id": 29
+  },
+  {
+    "battlePower": 141723500,
+    "groupId": 10,
+    "id": 30
+  },
+  {
+    "battlePower": 100,
+    "groupId": 11,
+    "id": 1
+  },
+  {
+    "battlePower": 1000,
+    "groupId": 11,
+    "id": 2
+  },
+  {
+    "battlePower": 6300,
+    "groupId": 11,
+    "id": 3
+  },
+  {
+    "battlePower": 23400,
+    "groupId": 11,
+    "id": 4
+  },
+  {
+    "battlePower": 63400,
+    "groupId": 11,
+    "id": 5
+  },
+  {
+    "battlePower": 141900,
+    "groupId": 11,
+    "id": 6
+  },
+  {
+    "battlePower": 278700,
+    "groupId": 11,
+    "id": 7
+  },
+  {
+    "battlePower": 498300,
+    "groupId": 11,
+    "id": 8
+  },
+  {
+    "battlePower": 830100,
+    "groupId": 11,
+    "id": 9
+  },
+  {
+    "battlePower": 1308200,
+    "groupId": 11,
+    "id": 10
+  },
+  {
+    "battlePower": 1971700,
+    "groupId": 11,
+    "id": 11
+  },
+  {
+    "battlePower": 2865100,
+    "groupId": 11,
+    "id": 12
+  },
+  {
+    "battlePower": 4037800,
+    "groupId": 11,
+    "id": 13
+  },
+  {
+    "battlePower": 5544800,
+    "groupId": 11,
+    "id": 14
+  },
+  {
+    "battlePower": 7446300,
+    "groupId": 11,
+    "id": 15
+  },
+  {
+    "battlePower": 9808100,
+    "groupId": 11,
+    "id": 16
+  },
+  {
+    "battlePower": 12701600,
+    "groupId": 11,
+    "id": 17
+  },
+  {
+    "battlePower": 16203800,
+    "groupId": 11,
+    "id": 18
+  },
+  {
+    "battlePower": 20397400,
+    "groupId": 11,
+    "id": 19
+  },
+  {
+    "battlePower": 25370800,
+    "groupId": 11,
+    "id": 20
+  },
+  {
+    "battlePower": 31218500,
+    "groupId": 11,
+    "id": 21
+  },
+  {
+    "battlePower": 38040700,
+    "groupId": 11,
+    "id": 22
+  },
+  {
+    "battlePower": 45943600,
+    "groupId": 11,
+    "id": 23
+  },
+  {
+    "battlePower": 55039400,
+    "groupId": 11,
+    "id": 24
+  },
+  {
+    "battlePower": 65446500,
+    "groupId": 11,
+    "id": 25
+  },
+  {
+    "battlePower": 77289200,
+    "groupId": 11,
+    "id": 26
+  },
+  {
+    "battlePower": 90698300,
+    "groupId": 11,
+    "id": 27
+  },
+  {
+    "battlePower": 105810600,
+    "groupId": 11,
+    "id": 28
+  },
+  {
+    "battlePower": 122769200,
+    "groupId": 11,
+    "id": 29
+  },
+  {
+    "battlePower": 141723500,
+    "groupId": 11,
+    "id": 30
+  },
+  {
+    "battlePower": 100,
+    "groupId": 12,
+    "id": 1
+  },
+  {
+    "battlePower": 1000,
+    "groupId": 12,
+    "id": 2
+  },
+  {
+    "battlePower": 6300,
+    "groupId": 12,
+    "id": 3
+  },
+  {
+    "battlePower": 23400,
+    "groupId": 12,
+    "id": 4
+  },
+  {
+    "battlePower": 63400,
+    "groupId": 12,
+    "id": 5
+  },
+  {
+    "battlePower": 141900,
+    "groupId": 12,
+    "id": 6
+  },
+  {
+    "battlePower": 278700,
+    "groupId": 12,
+    "id": 7
+  },
+  {
+    "battlePower": 498300,
+    "groupId": 12,
+    "id": 8
+  },
+  {
+    "battlePower": 830100,
+    "groupId": 12,
+    "id": 9
+  },
+  {
+    "battlePower": 1308200,
+    "groupId": 12,
+    "id": 10
+  },
+  {
+    "battlePower": 1971700,
+    "groupId": 12,
+    "id": 11
+  },
+  {
+    "battlePower": 2865100,
+    "groupId": 12,
+    "id": 12
+  },
+  {
+    "battlePower": 4037800,
+    "groupId": 12,
+    "id": 13
+  },
+  {
+    "battlePower": 5544800,
+    "groupId": 12,
+    "id": 14
+  },
+  {
+    "battlePower": 7446300,
+    "groupId": 12,
+    "id": 15
+  },
+  {
+    "battlePower": 9808100,
+    "groupId": 12,
+    "id": 16
+  },
+  {
+    "battlePower": 12701600,
+    "groupId": 12,
+    "id": 17
+  },
+  {
+    "battlePower": 16203800,
+    "groupId": 12,
+    "id": 18
+  },
+  {
+    "battlePower": 20397400,
+    "groupId": 12,
+    "id": 19
+  },
+  {
+    "battlePower": 25370800,
+    "groupId": 12,
+    "id": 20
+  },
+  {
+    "battlePower": 31218500,
+    "groupId": 12,
+    "id": 21
+  },
+  {
+    "battlePower": 38040700,
+    "groupId": 12,
+    "id": 22
+  },
+  {
+    "battlePower": 45943600,
+    "groupId": 12,
+    "id": 23
+  },
+  {
+    "battlePower": 55039400,
+    "groupId": 12,
+    "id": 24
+  },
+  {
+    "battlePower": 65446500,
+    "groupId": 12,
+    "id": 25
+  },
+  {
+    "battlePower": 77289200,
+    "groupId": 12,
+    "id": 26
+  },
+  {
+    "battlePower": 90698300,
+    "groupId": 12,
+    "id": 27
+  },
+  {
+    "battlePower": 105810600,
+    "groupId": 12,
+    "id": 28
+  },
+  {
+    "battlePower": 122769200,
+    "groupId": 12,
+    "id": 29
+  },
+  {
+    "battlePower": 141723500,
+    "groupId": 12,
+    "id": 30
+  },
+  {
+    "battlePower": 100,
+    "groupId": 13,
+    "id": 1
+  },
+  {
+    "battlePower": 200,
+    "groupId": 13,
+    "id": 2
+  },
+  {
+    "battlePower": 1300,
+    "groupId": 13,
+    "id": 3
+  },
+  {
+    "battlePower": 5000,
+    "groupId": 13,
+    "id": 4
+  },
+  {
+    "battlePower": 13800,
+    "groupId": 13,
+    "id": 5
+  },
+  {
+    "battlePower": 31500,
+    "groupId": 13,
+    "id": 6
+  },
+  {
+    "battlePower": 62700,
+    "groupId": 13,
+    "id": 7
+  },
+  {
+    "battlePower": 113500,
+    "groupId": 13,
+    "id": 8
+  },
+  {
+    "battlePower": 191200,
+    "groupId": 13,
+    "id": 9
+  },
+  {
+    "battlePower": 304500,
+    "groupId": 13,
+    "id": 10
+  },
+  {
+    "battlePower": 463200,
+    "groupId": 13,
+    "id": 11
+  },
+  {
+    "battlePower": 678800,
+    "groupId": 13,
+    "id": 12
+  },
+  {
+    "battlePower": 964200,
+    "groupId": 13,
+    "id": 13
+  },
+  {
+    "battlePower": 1333800,
+    "groupId": 13,
+    "id": 14
+  },
+  {
+    "battlePower": 1803400,
+    "groupId": 13,
+    "id": 15
+  },
+  {
+    "battlePower": 2390700,
+    "groupId": 13,
+    "id": 16
+  },
+  {
+    "battlePower": 3114600,
+    "groupId": 13,
+    "id": 17
+  },
+  {
+    "battlePower": 3995900,
+    "groupId": 13,
+    "id": 18
+  },
+  {
+    "battlePower": 5057100,
+    "groupId": 13,
+    "id": 19
+  },
+  {
+    "battlePower": 6322300,
+    "groupId": 13,
+    "id": 20
+  },
+  {
+    "battlePower": 7817300,
+    "groupId": 13,
+    "id": 21
+  },
+  {
+    "battlePower": 9569700,
+    "groupId": 13,
+    "id": 22
+  },
+  {
+    "battlePower": 11609000,
+    "groupId": 13,
+    "id": 23
+  },
+  {
+    "battlePower": 13966400,
+    "groupId": 13,
+    "id": 24
+  },
+  {
+    "battlePower": 16674800,
+    "groupId": 13,
+    "id": 25
+  },
+  {
+    "battlePower": 19769200,
+    "groupId": 13,
+    "id": 26
+  },
+  {
+    "battlePower": 23286300,
+    "groupId": 13,
+    "id": 27
+  },
+  {
+    "battlePower": 27264900,
+    "groupId": 13,
+    "id": 28
+  },
+  {
+    "battlePower": 31745500,
+    "groupId": 13,
+    "id": 29
+  },
+  {
+    "battlePower": 36770700,
+    "groupId": 13,
+    "id": 30
+  },
+  {
+    "battlePower": 200,
+    "groupId": 14,
+    "id": 1
+  },
+  {
+    "battlePower": 400,
+    "groupId": 14,
+    "id": 2
+  },
+  {
+    "battlePower": 5800,
+    "groupId": 14,
+    "id": 3
+  },
+  {
+    "battlePower": 54400,
+    "groupId": 14,
+    "id": 4
+  },
+  {
+    "battlePower": 307900,
+    "groupId": 14,
+    "id": 5
+  },
+  {
+    "battlePower": 1257700,
+    "groupId": 14,
+    "id": 6
+  },
+  {
+    "battlePower": 4109500,
+    "groupId": 14,
+    "id": 7
+  },
+  {
+    "battlePower": 11419400,
+    "groupId": 14,
+    "id": 8
+  },
+  {
+    "battlePower": 28061400,
+    "groupId": 14,
+    "id": 9
+  },
+  {
+    "battlePower": 62614800,
+    "groupId": 14,
+    "id": 10
+  },
+  {
+    "battlePower": 129265500,
+    "groupId": 14,
+    "id": 11
+  },
+  {
+    "battlePower": 250321700,
+    "groupId": 14,
+    "id": 12
+  },
+  {
+    "battlePower": 459450900,
+    "groupId": 14,
+    "id": 13
+  },
+  {
+    "battlePower": 805750600,
+    "groupId": 14,
+    "id": 14
+  },
+  {
+    "battlePower": 1358769000,
+    "groupId": 14,
+    "id": 15
+  },
+  {
+    "battlePower": 2221000,
+    "groupId": 14,
+    "id": 16
+  },
+  {
+    "battlePower": 3510900,
+    "groupId": 14,
+    "id": 17
+  },
+  {
+    "battlePower": 5406000,
+    "groupId": 14,
+    "id": 18
+  },
+  {
+    "battlePower": 8131500,
+    "groupId": 14,
+    "id": 19
+  },
+  {
+    "battlePower": 11976500,
+    "groupId": 14,
+    "id": 20
+  },
+  {
+    "battlePower": 17307900,
+    "groupId": 14,
+    "id": 21
+  },
+  {
+    "battlePower": 24585900,
+    "groupId": 14,
+    "id": 22
+  },
+  {
+    "battlePower": 34381100,
+    "groupId": 14,
+    "id": 23
+  },
+  {
+    "battlePower": 47394100,
+    "groupId": 14,
+    "id": 24
+  },
+  {
+    "battlePower": 64477900,
+    "groupId": 14,
+    "id": 25
+  },
+  {
+    "battlePower": 86662200,
+    "groupId": 14,
+    "id": 26
+  },
+  {
+    "battlePower": 115180400,
+    "groupId": 14,
+    "id": 27
+  },
+  {
+    "battlePower": 151500500,
+    "groupId": 14,
+    "id": 28
+  },
+  {
+    "battlePower": 197357400,
+    "groupId": 14,
+    "id": 29
+  },
+  {
+    "battlePower": 254790000,
+    "groupId": 14,
+    "id": 30
+  },
+  {
+    "battlePower": 500,
+    "groupId": 15,
+    "id": 1
+  },
+  {
+    "battlePower": 1200,
+    "groupId": 15,
+    "id": 2
+  },
+  {
+    "battlePower": 15200,
+    "groupId": 15,
+    "id": 3
+  },
+  {
+    "battlePower": 115300,
+    "groupId": 15,
+    "id": 4
+  },
+  {
+    "battlePower": 552400,
+    "groupId": 15,
+    "id": 5
+  },
+  {
+    "battlePower": 1968300,
+    "groupId": 15,
+    "id": 6
+  },
+  {
+    "battlePower": 5729300,
+    "groupId": 15,
+    "id": 7
+  },
+  {
+    "battlePower": 14403500,
+    "groupId": 15,
+    "id": 8
+  },
+  {
+    "battlePower": 32402100,
+    "groupId": 15,
+    "id": 9
+  },
+  {
+    "battlePower": 66807400,
+    "groupId": 15,
+    "id": 10
+  },
+  {
+    "battlePower": 128406400,
+    "groupId": 15,
+    "id": 11
+  },
+  {
+    "battlePower": 232949500,
+    "groupId": 15,
+    "id": 12
+  },
+  {
+    "battlePower": 402653500,
+    "groupId": 15,
+    "id": 13
+  },
+  {
+    "battlePower": 667966700,
+    "groupId": 15,
+    "id": 14
+  },
+  {
+    "battlePower": 1069615400,
+    "groupId": 15,
+    "id": 15
+  },
+  {
+    "battlePower": 417400,
+    "groupId": 15,
+    "id": 16
+  },
+  {
+    "battlePower": 630000,
+    "groupId": 15,
+    "id": 17
+  },
+  {
+    "battlePower": 929100,
+    "groupId": 15,
+    "id": 18
+  },
+  {
+    "battlePower": 1341500,
+    "groupId": 15,
+    "id": 19
+  },
+  {
+    "battlePower": 1900900,
+    "groupId": 15,
+    "id": 20
+  },
+  {
+    "battlePower": 2647900,
+    "groupId": 15,
+    "id": 21
+  },
+  {
+    "battlePower": 3632000,
+    "groupId": 15,
+    "id": 22
+  },
+  {
+    "battlePower": 4912000,
+    "groupId": 15,
+    "id": 23
+  },
+  {
+    "battlePower": 6558000,
+    "groupId": 15,
+    "id": 24
+  },
+  {
+    "battlePower": 8652500,
+    "groupId": 15,
+    "id": 25
+  },
+  {
+    "battlePower": 11291900,
+    "groupId": 15,
+    "id": 26
+  },
+  {
+    "battlePower": 14588500,
+    "groupId": 15,
+    "id": 27
+  },
+  {
+    "battlePower": 18671900,
+    "groupId": 15,
+    "id": 28
+  },
+  {
+    "battlePower": 23691300,
+    "groupId": 15,
+    "id": 29
+  },
+  {
+    "battlePower": 29817300,
+    "groupId": 15,
+    "id": 30
+  },
+  {
+    "battlePower": 500,
+    "groupId": 16,
+    "id": 1
+  },
+  {
+    "battlePower": 1200,
+    "groupId": 16,
+    "id": 2
+  },
+  {
+    "battlePower": 15200,
+    "groupId": 16,
+    "id": 3
+  },
+  {
+    "battlePower": 115300,
+    "groupId": 16,
+    "id": 4
+  },
+  {
+    "battlePower": 552400,
+    "groupId": 16,
+    "id": 5
+  },
+  {
+    "battlePower": 1968300,
+    "groupId": 16,
+    "id": 6
+  },
+  {
+    "battlePower": 5729300,
+    "groupId": 16,
+    "id": 7
+  },
+  {
+    "battlePower": 14403500,
+    "groupId": 16,
+    "id": 8
+  },
+  {
+    "battlePower": 32402100,
+    "groupId": 16,
+    "id": 9
+  },
+  {
+    "battlePower": 66807400,
+    "groupId": 16,
+    "id": 10
+  },
+  {
+    "battlePower": 128406400,
+    "groupId": 16,
+    "id": 11
+  },
+  {
+    "battlePower": 232949500,
+    "groupId": 16,
+    "id": 12
+  },
+  {
+    "battlePower": 402653500,
+    "groupId": 16,
+    "id": 13
+  },
+  {
+    "battlePower": 667966700,
+    "groupId": 16,
+    "id": 14
+  },
+  {
+    "battlePower": 1069615400,
+    "groupId": 16,
+    "id": 15
+  },
+  {
+    "battlePower": 417400,
+    "groupId": 16,
+    "id": 16
+  },
+  {
+    "battlePower": 630000,
+    "groupId": 16,
+    "id": 17
+  },
+  {
+    "battlePower": 929100,
+    "groupId": 16,
+    "id": 18
+  },
+  {
+    "battlePower": 1341500,
+    "groupId": 16,
+    "id": 19
+  },
+  {
+    "battlePower": 1900900,
+    "groupId": 16,
+    "id": 20
+  },
+  {
+    "battlePower": 2647900,
+    "groupId": 16,
+    "id": 21
+  },
+  {
+    "battlePower": 3632000,
+    "groupId": 16,
+    "id": 22
+  },
+  {
+    "battlePower": 4912000,
+    "groupId": 16,
+    "id": 23
+  },
+  {
+    "battlePower": 6558000,
+    "groupId": 16,
+    "id": 24
+  },
+  {
+    "battlePower": 8652500,
+    "groupId": 16,
+    "id": 25
+  },
+  {
+    "battlePower": 11291900,
+    "groupId": 16,
+    "id": 26
+  },
+  {
+    "battlePower": 14588500,
+    "groupId": 16,
+    "id": 27
+  },
+  {
+    "battlePower": 18671900,
+    "groupId": 16,
+    "id": 28
+  },
+  {
+    "battlePower": 23691300,
+    "groupId": 16,
+    "id": 29
+  },
+  {
+    "battlePower": 29817300,
+    "groupId": 16,
+    "id": 30
+  },
+  {
+    "battlePower": 1200,
+    "groupId": 17,
+    "id": 1
+  },
+  {
+    "battlePower": 41600,
+    "groupId": 17,
+    "id": 2
+  },
+  {
+    "battlePower": 297200,
+    "groupId": 17,
+    "id": 3
+  },
+  {
+    "battlePower": 1115900,
+    "groupId": 17,
+    "id": 4
+  },
+  {
+    "battlePower": 3036600,
+    "groupId": 17,
+    "id": 5
+  },
+  {
+    "battlePower": 6801200,
+    "groupId": 17,
+    "id": 6
+  },
+  {
+    "battlePower": 13364700,
+    "groupId": 17,
+    "id": 7
+  },
+  {
+    "battlePower": 23903600,
+    "groupId": 17,
+    "id": 8
+  },
+  {
+    "battlePower": 39823100,
+    "groupId": 17,
+    "id": 9
+  },
+  {
+    "battlePower": 62763300,
+    "groupId": 17,
+    "id": 10
+  },
+  {
+    "battlePower": 94605600,
+    "groupId": 17,
+    "id": 11
+  },
+  {
+    "battlePower": 137477300,
+    "groupId": 17,
+    "id": 12
+  },
+  {
+    "battlePower": 193756800,
+    "groupId": 17,
+    "id": 13
+  },
+  {
+    "battlePower": 266078100,
+    "groupId": 17,
+    "id": 14
+  },
+  {
+    "battlePower": 357334900,
+    "groupId": 17,
+    "id": 15
+  },
+  {
+    "battlePower": 48400,
+    "groupId": 17,
+    "id": 16
+  },
+  {
+    "battlePower": 62500,
+    "groupId": 17,
+    "id": 17
+  },
+  {
+    "battlePower": 79500,
+    "groupId": 17,
+    "id": 18
+  },
+  {
+    "battlePower": 99900,
+    "groupId": 17,
+    "id": 19
+  },
+  {
+    "battlePower": 124100,
+    "groupId": 17,
+    "id": 20
+  },
+  {
+    "battlePower": 152400,
+    "groupId": 17,
+    "id": 21
+  },
+  {
+    "battlePower": 185500,
+    "groupId": 17,
+    "id": 22
+  },
+  {
+    "battlePower": 223800,
+    "groupId": 17,
+    "id": 23
+  },
+  {
+    "battlePower": 267800,
+    "groupId": 17,
+    "id": 24
+  },
+  {
+    "battlePower": 318100,
+    "groupId": 17,
+    "id": 25
+  },
+  {
+    "battlePower": 375400,
+    "groupId": 17,
+    "id": 26
+  },
+  {
+    "battlePower": 440200,
+    "groupId": 17,
+    "id": 27
+  },
+  {
+    "battlePower": 513200,
+    "groupId": 17,
+    "id": 28
+  },
+  {
+    "battlePower": 595100,
+    "groupId": 17,
+    "id": 29
+  },
+  {
+    "battlePower": 686600,
+    "groupId": 17,
+    "id": 30
+  },
+  {
+    "battlePower": 500,
+    "groupId": 18,
+    "id": 1
+  },
+  {
+    "battlePower": 1200,
+    "groupId": 18,
+    "id": 2
+  },
+  {
+    "battlePower": 15200,
+    "groupId": 18,
+    "id": 3
+  },
+  {
+    "battlePower": 115300,
+    "groupId": 18,
+    "id": 4
+  },
+  {
+    "battlePower": 552400,
+    "groupId": 18,
+    "id": 5
+  },
+  {
+    "battlePower": 1968300,
+    "groupId": 18,
+    "id": 6
+  },
+  {
+    "battlePower": 5729300,
+    "groupId": 18,
+    "id": 7
+  },
+  {
+    "battlePower": 14403500,
+    "groupId": 18,
+    "id": 8
+  },
+  {
+    "battlePower": 32402100,
+    "groupId": 18,
+    "id": 9
+  },
+  {
+    "battlePower": 66807400,
+    "groupId": 18,
+    "id": 10
+  },
+  {
+    "battlePower": 128406400,
+    "groupId": 18,
+    "id": 11
+  },
+  {
+    "battlePower": 232949500,
+    "groupId": 18,
+    "id": 12
+  },
+  {
+    "battlePower": 402653500,
+    "groupId": 18,
+    "id": 13
+  },
+  {
+    "battlePower": 667966700,
+    "groupId": 18,
+    "id": 14
+  },
+  {
+    "battlePower": 1069615400,
+    "groupId": 18,
+    "id": 15
+  },
+  {
+    "battlePower": 417400,
+    "groupId": 18,
+    "id": 16
+  },
+  {
+    "battlePower": 630000,
+    "groupId": 18,
+    "id": 17
+  },
+  {
+    "battlePower": 929100,
+    "groupId": 18,
+    "id": 18
+  },
+  {
+    "battlePower": 1341500,
+    "groupId": 18,
+    "id": 19
+  },
+  {
+    "battlePower": 1900900,
+    "groupId": 18,
+    "id": 20
+  },
+  {
+    "battlePower": 2647900,
+    "groupId": 18,
+    "id": 21
+  },
+  {
+    "battlePower": 3632000,
+    "groupId": 18,
+    "id": 22
+  },
+  {
+    "battlePower": 4912000,
+    "groupId": 18,
+    "id": 23
+  },
+  {
+    "battlePower": 6558000,
+    "groupId": 18,
+    "id": 24
+  },
+  {
+    "battlePower": 8652500,
+    "groupId": 18,
+    "id": 25
+  },
+  {
+    "battlePower": 11291900,
+    "groupId": 18,
+    "id": 26
+  },
+  {
+    "battlePower": 14588500,
+    "groupId": 18,
+    "id": 27
+  },
+  {
+    "battlePower": 18671900,
+    "groupId": 18,
+    "id": 28
+  },
+  {
+    "battlePower": 23691300,
+    "groupId": 18,
+    "id": 29
+  },
+  {
+    "battlePower": 29817300,
+    "groupId": 18,
+    "id": 30
+  },
+  {
+    "battlePower": 700,
+    "groupId": 19,
+    "id": 1
+  },
+  {
+    "battlePower": 24600,
+    "groupId": 19,
+    "id": 2
+  },
+  {
+    "battlePower": 175700,
+    "groupId": 19,
+    "id": 3
+  },
+  {
+    "battlePower": 659700,
+    "groupId": 19,
+    "id": 4
+  },
+  {
+    "battlePower": 1795200,
+    "groupId": 19,
+    "id": 5
+  },
+  {
+    "battlePower": 4020800,
+    "groupId": 19,
+    "id": 6
+  },
+  {
+    "battlePower": 7901100,
+    "groupId": 19,
+    "id": 7
+  },
+  {
+    "battlePower": 14131500,
+    "groupId": 19,
+    "id": 8
+  },
+  {
+    "battlePower": 23542800,
+    "groupId": 19,
+    "id": 9
+  },
+  {
+    "battlePower": 37104700,
+    "groupId": 19,
+    "id": 10
+  },
+  {
+    "battlePower": 55929300,
+    "groupId": 19,
+    "id": 11
+  },
+  {
+    "battlePower": 81274200,
+    "groupId": 19,
+    "id": 12
+  },
+  {
+    "battlePower": 114545600,
+    "groupId": 19,
+    "id": 13
+  },
+  {
+    "battlePower": 157300600,
+    "groupId": 19,
+    "id": 14
+  },
+  {
+    "battlePower": 211249800,
+    "groupId": 19,
+    "id": 15
+  },
+  {
+    "battlePower": 44600,
+    "groupId": 19,
+    "id": 16
+  },
+  {
+    "battlePower": 57400,
+    "groupId": 19,
+    "id": 17
+  },
+  {
+    "battlePower": 72900,
+    "groupId": 19,
+    "id": 18
+  },
+  {
+    "battlePower": 91500,
+    "groupId": 19,
+    "id": 19
+  },
+  {
+    "battlePower": 113400,
+    "groupId": 19,
+    "id": 20
+  },
+  {
+    "battlePower": 139100,
+    "groupId": 19,
+    "id": 21
+  },
+  {
+    "battlePower": 169000,
+    "groupId": 19,
+    "id": 22
+  },
+  {
+    "battlePower": 203600,
+    "groupId": 19,
+    "id": 23
+  },
+  {
+    "battlePower": 243400,
+    "groupId": 19,
+    "id": 24
+  },
+  {
+    "battlePower": 288800,
+    "groupId": 19,
+    "id": 25
+  },
+  {
+    "battlePower": 340500,
+    "groupId": 19,
+    "id": 26
+  },
+  {
+    "battlePower": 398800,
+    "groupId": 19,
+    "id": 27
+  },
+  {
+    "battlePower": 464600,
+    "groupId": 19,
+    "id": 28
+  },
+  {
+    "battlePower": 538200,
+    "groupId": 19,
+    "id": 29
+  },
+  {
+    "battlePower": 620500,
+    "groupId": 19,
+    "id": 30
+  },
+  {
+    "battlePower": 500,
+    "groupId": 20,
+    "id": 1
+  },
+  {
+    "battlePower": 1200,
+    "groupId": 20,
+    "id": 2
+  },
+  {
+    "battlePower": 15200,
+    "groupId": 20,
+    "id": 3
+  },
+  {
+    "battlePower": 115300,
+    "groupId": 20,
+    "id": 4
+  },
+  {
+    "battlePower": 552400,
+    "groupId": 20,
+    "id": 5
+  },
+  {
+    "battlePower": 1968300,
+    "groupId": 20,
+    "id": 6
+  },
+  {
+    "battlePower": 5729300,
+    "groupId": 20,
+    "id": 7
+  },
+  {
+    "battlePower": 14403500,
+    "groupId": 20,
+    "id": 8
+  },
+  {
+    "battlePower": 32402100,
+    "groupId": 20,
+    "id": 9
+  },
+  {
+    "battlePower": 66807400,
+    "groupId": 20,
+    "id": 10
+  },
+  {
+    "battlePower": 128406400,
+    "groupId": 20,
+    "id": 11
+  },
+  {
+    "battlePower": 232949500,
+    "groupId": 20,
+    "id": 12
+  },
+  {
+    "battlePower": 402653500,
+    "groupId": 20,
+    "id": 13
+  },
+  {
+    "battlePower": 667966700,
+    "groupId": 20,
+    "id": 14
+  },
+  {
+    "battlePower": 1069615400,
+    "groupId": 20,
+    "id": 15
+  },
+  {
+    "battlePower": 417400,
+    "groupId": 20,
+    "id": 16
+  },
+  {
+    "battlePower": 630000,
+    "groupId": 20,
+    "id": 17
+  },
+  {
+    "battlePower": 929100,
+    "groupId": 20,
+    "id": 18
+  },
+  {
+    "battlePower": 1341500,
+    "groupId": 20,
+    "id": 19
+  },
+  {
+    "battlePower": 1900900,
+    "groupId": 20,
+    "id": 20
+  },
+  {
+    "battlePower": 2647900,
+    "groupId": 20,
+    "id": 21
+  },
+  {
+    "battlePower": 3632000,
+    "groupId": 20,
+    "id": 22
+  },
+  {
+    "battlePower": 4912000,
+    "groupId": 20,
+    "id": 23
+  },
+  {
+    "battlePower": 6558000,
+    "groupId": 20,
+    "id": 24
+  },
+  {
+    "battlePower": 8652500,
+    "groupId": 20,
+    "id": 25
+  },
+  {
+    "battlePower": 11291900,
+    "groupId": 20,
+    "id": 26
+  },
+  {
+    "battlePower": 14588500,
+    "groupId": 20,
+    "id": 27
+  },
+  {
+    "battlePower": 18671900,
+    "groupId": 20,
+    "id": 28
+  },
+  {
+    "battlePower": 23691300,
+    "groupId": 20,
+    "id": 29
+  },
+  {
+    "battlePower": 29817300,
+    "groupId": 20,
+    "id": 30
+  },
+  {
+    "battlePower": 500,
+    "groupId": 21,
+    "id": 1
+  },
+  {
+    "battlePower": 1200,
+    "groupId": 21,
+    "id": 2
+  },
+  {
+    "battlePower": 15200,
+    "groupId": 21,
+    "id": 3
+  },
+  {
+    "battlePower": 115300,
+    "groupId": 21,
+    "id": 4
+  },
+  {
+    "battlePower": 552400,
+    "groupId": 21,
+    "id": 5
+  },
+  {
+    "battlePower": 1968300,
+    "groupId": 21,
+    "id": 6
+  },
+  {
+    "battlePower": 5729300,
+    "groupId": 21,
+    "id": 7
+  },
+  {
+    "battlePower": 14403500,
+    "groupId": 21,
+    "id": 8
+  },
+  {
+    "battlePower": 32402100,
+    "groupId": 21,
+    "id": 9
+  },
+  {
+    "battlePower": 66807400,
+    "groupId": 21,
+    "id": 10
+  },
+  {
+    "battlePower": 128406400,
+    "groupId": 21,
+    "id": 11
+  },
+  {
+    "battlePower": 232949500,
+    "groupId": 21,
+    "id": 12
+  },
+  {
+    "battlePower": 402653500,
+    "groupId": 21,
+    "id": 13
+  },
+  {
+    "battlePower": 667966700,
+    "groupId": 21,
+    "id": 14
+  },
+  {
+    "battlePower": 1069615400,
+    "groupId": 21,
+    "id": 15
+  },
+  {
+    "battlePower": 417400,
+    "groupId": 21,
+    "id": 16
+  },
+  {
+    "battlePower": 630000,
+    "groupId": 21,
+    "id": 17
+  },
+  {
+    "battlePower": 929100,
+    "groupId": 21,
+    "id": 18
+  },
+  {
+    "battlePower": 1341500,
+    "groupId": 21,
+    "id": 19
+  },
+  {
+    "battlePower": 1900900,
+    "groupId": 21,
+    "id": 20
+  },
+  {
+    "battlePower": 2647900,
+    "groupId": 21,
+    "id": 21
+  },
+  {
+    "battlePower": 3632000,
+    "groupId": 21,
+    "id": 22
+  },
+  {
+    "battlePower": 4912000,
+    "groupId": 21,
+    "id": 23
+  },
+  {
+    "battlePower": 6558000,
+    "groupId": 21,
+    "id": 24
+  },
+  {
+    "battlePower": 8652500,
+    "groupId": 21,
+    "id": 25
+  },
+  {
+    "battlePower": 11291900,
+    "groupId": 21,
+    "id": 26
+  },
+  {
+    "battlePower": 14588500,
+    "groupId": 21,
+    "id": 27
+  },
+  {
+    "battlePower": 18671900,
+    "groupId": 21,
+    "id": 28
+  },
+  {
+    "battlePower": 23691300,
+    "groupId": 21,
+    "id": 29
+  },
+  {
+    "battlePower": 29817300,
+    "groupId": 21,
+    "id": 30
+  },
+  {
+    "battlePower": 500,
+    "groupId": 23,
+    "id": 1
+  },
+  {
+    "battlePower": 1200,
+    "groupId": 23,
+    "id": 2
+  },
+  {
+    "battlePower": 15200,
+    "groupId": 23,
+    "id": 3
+  },
+  {
+    "battlePower": 115300,
+    "groupId": 23,
+    "id": 4
+  },
+  {
+    "battlePower": 552400,
+    "groupId": 23,
+    "id": 5
+  },
+  {
+    "battlePower": 1968300,
+    "groupId": 23,
+    "id": 6
+  },
+  {
+    "battlePower": 5729300,
+    "groupId": 23,
+    "id": 7
+  },
+  {
+    "battlePower": 14403500,
+    "groupId": 23,
+    "id": 8
+  },
+  {
+    "battlePower": 32402100,
+    "groupId": 23,
+    "id": 9
+  },
+  {
+    "battlePower": 66807400,
+    "groupId": 23,
+    "id": 10
+  },
+  {
+    "battlePower": 128406400,
+    "groupId": 23,
+    "id": 11
+  },
+  {
+    "battlePower": 232949500,
+    "groupId": 23,
+    "id": 12
+  },
+  {
+    "battlePower": 402653500,
+    "groupId": 23,
+    "id": 13
+  },
+  {
+    "battlePower": 667966700,
+    "groupId": 23,
+    "id": 14
+  },
+  {
+    "battlePower": 1069615400,
+    "groupId": 23,
+    "id": 15
+  },
+  {
+    "battlePower": 417400,
+    "groupId": 23,
+    "id": 16
+  },
+  {
+    "battlePower": 630000,
+    "groupId": 23,
+    "id": 17
+  },
+  {
+    "battlePower": 929100,
+    "groupId": 23,
+    "id": 18
+  },
+  {
+    "battlePower": 1341500,
+    "groupId": 23,
+    "id": 19
+  },
+  {
+    "battlePower": 1900900,
+    "groupId": 23,
+    "id": 20
+  },
+  {
+    "battlePower": 2647900,
+    "groupId": 23,
+    "id": 21
+  },
+  {
+    "battlePower": 3632000,
+    "groupId": 23,
+    "id": 22
+  },
+  {
+    "battlePower": 4912000,
+    "groupId": 23,
+    "id": 23
+  },
+  {
+    "battlePower": 6558000,
+    "groupId": 23,
+    "id": 24
+  },
+  {
+    "battlePower": 8652500,
+    "groupId": 23,
+    "id": 25
+  },
+  {
+    "battlePower": 11291900,
+    "groupId": 23,
+    "id": 26
+  },
+  {
+    "battlePower": 14588500,
+    "groupId": 23,
+    "id": 27
+  },
+  {
+    "battlePower": 18671900,
+    "groupId": 23,
+    "id": 28
+  },
+  {
+    "battlePower": 23691300,
+    "groupId": 23,
+    "id": 29
+  },
+  {
+    "battlePower": 29817300,
+    "groupId": 23,
+    "id": 30
+  },
+  {
+    "battlePower": 1000,
+    "groupId": 24,
+    "id": 1
+  },
+  {
+    "battlePower": 40200,
+    "groupId": 24,
+    "id": 2
+  },
+  {
+    "battlePower": 287400,
+    "groupId": 24,
+    "id": 3
+  },
+  {
+    "battlePower": 1079600,
+    "groupId": 24,
+    "id": 4
+  },
+  {
+    "battlePower": 2937900,
+    "groupId": 24,
+    "id": 5
+  },
+  {
+    "battlePower": 6580200,
+    "groupId": 24,
+    "id": 6
+  },
+  {
+    "battlePower": 12930400,
+    "groupId": 24,
+    "id": 7
+  },
+  {
+    "battlePower": 23126900,
+    "groupId": 24,
+    "id": 8
+  },
+  {
+    "battlePower": 38529000,
+    "groupId": 24,
+    "id": 9
+  },
+  {
+    "battlePower": 60723900,
+    "groupId": 24,
+    "id": 10
+  },
+  {
+    "battlePower": 91531400,
+    "groupId": 24,
+    "id": 11
+  },
+  {
+    "battlePower": 133010000,
+    "groupId": 24,
+    "id": 12
+  },
+  {
+    "battlePower": 187460700,
+    "groupId": 24,
+    "id": 13
+  },
+  {
+    "battlePower": 257431900,
+    "groupId": 24,
+    "id": 14
+  },
+  {
+    "battlePower": 345723200,
+    "groupId": 24,
+    "id": 15
+  },
+  {
+    "battlePower": 54100,
+    "groupId": 24,
+    "id": 16
+  },
+  {
+    "battlePower": 69700,
+    "groupId": 24,
+    "id": 17
+  },
+  {
+    "battlePower": 88600,
+    "groupId": 24,
+    "id": 18
+  },
+  {
+    "battlePower": 111100,
+    "groupId": 24,
+    "id": 19
+  },
+  {
+    "battlePower": 137700,
+    "groupId": 24,
+    "id": 20
+  },
+  {
+    "battlePower": 169000,
+    "groupId": 24,
+    "id": 21
+  },
+  {
+    "battlePower": 205400,
+    "groupId": 24,
+    "id": 22
+  },
+  {
+    "battlePower": 247500,
+    "groupId": 24,
+    "id": 23
+  },
+  {
+    "battlePower": 295800,
+    "groupId": 24,
+    "id": 24
+  },
+  {
+    "battlePower": 351100,
+    "groupId": 24,
+    "id": 25
+  },
+  {
+    "battlePower": 413900,
+    "groupId": 24,
+    "id": 26
+  },
+  {
+    "battlePower": 484900,
+    "groupId": 24,
+    "id": 27
+  },
+  {
+    "battlePower": 564800,
+    "groupId": 24,
+    "id": 28
+  },
+  {
+    "battlePower": 654500,
+    "groupId": 24,
+    "id": 29
+  },
+  {
+    "battlePower": 754500,
+    "groupId": 24,
+    "id": 30
+  },
+  {
+    "battlePower": 1400,
+    "groupId": 25,
+    "id": 1
+  },
+  {
+    "battlePower": 58400,
+    "groupId": 25,
+    "id": 2
+  },
+  {
+    "battlePower": 418700,
+    "groupId": 25,
+    "id": 3
+  },
+  {
+    "battlePower": 1573200,
+    "groupId": 25,
+    "id": 4
+  },
+  {
+    "battlePower": 4281400,
+    "groupId": 25,
+    "id": 5
+  },
+  {
+    "battlePower": 9589500,
+    "groupId": 25,
+    "id": 6
+  },
+  {
+    "battlePower": 18844000,
+    "groupId": 25,
+    "id": 7
+  },
+  {
+    "battlePower": 33703900,
+    "groupId": 25,
+    "id": 8
+  },
+  {
+    "battlePower": 56150300,
+    "groupId": 25,
+    "id": 9
+  },
+  {
+    "battlePower": 88496100,
+    "groupId": 25,
+    "id": 10
+  },
+  {
+    "battlePower": 133393800,
+    "groupId": 25,
+    "id": 11
+  },
+  {
+    "battlePower": 193843000,
+    "groupId": 25,
+    "id": 12
+  },
+  {
+    "battlePower": 273197200,
+    "groupId": 25,
+    "id": 13
+  },
+  {
+    "battlePower": 375170400,
+    "groupId": 25,
+    "id": 14
+  },
+  {
+    "battlePower": 503842700,
+    "groupId": 25,
+    "id": 15
+  },
+  {
+    "battlePower": 58000,
+    "groupId": 25,
+    "id": 16
+  },
+  {
+    "battlePower": 74800,
+    "groupId": 25,
+    "id": 17
+  },
+  {
+    "battlePower": 95100,
+    "groupId": 25,
+    "id": 18
+  },
+  {
+    "battlePower": 119400,
+    "groupId": 25,
+    "id": 19
+  },
+  {
+    "battlePower": 148100,
+    "groupId": 25,
+    "id": 20
+  },
+  {
+    "battlePower": 181900,
+    "groupId": 25,
+    "id": 21
+  },
+  {
+    "battlePower": 221100,
+    "groupId": 25,
+    "id": 22
+  },
+  {
+    "battlePower": 266600,
+    "groupId": 25,
+    "id": 23
+  },
+  {
+    "battlePower": 318900,
+    "groupId": 25,
+    "id": 24
+  },
+  {
+    "battlePower": 378600,
+    "groupId": 25,
+    "id": 25
+  },
+  {
+    "battlePower": 446500,
+    "groupId": 25,
+    "id": 26
+  },
+  {
+    "battlePower": 523300,
+    "groupId": 25,
+    "id": 27
+  },
+  {
+    "battlePower": 609800,
+    "groupId": 25,
+    "id": 28
+  },
+  {
+    "battlePower": 706800,
+    "groupId": 25,
+    "id": 29
+  },
+  {
+    "battlePower": 815200,
+    "groupId": 25,
+    "id": 30
+  },
+  {
+    "battlePower": 1100,
+    "groupId": 26,
+    "id": 1
+  },
+  {
+    "battlePower": 41600,
+    "groupId": 26,
+    "id": 2
+  },
+  {
+    "battlePower": 297100,
+    "groupId": 26,
+    "id": 3
+  },
+  {
+    "battlePower": 1115900,
+    "groupId": 26,
+    "id": 4
+  },
+  {
+    "battlePower": 3036600,
+    "groupId": 26,
+    "id": 5
+  },
+  {
+    "battlePower": 6801200,
+    "groupId": 26,
+    "id": 6
+  },
+  {
+    "battlePower": 13364700,
+    "groupId": 26,
+    "id": 7
+  },
+  {
+    "battlePower": 23903600,
+    "groupId": 26,
+    "id": 8
+  },
+  {
+    "battlePower": 39823000,
+    "groupId": 26,
+    "id": 9
+  },
+  {
+    "battlePower": 62763300,
+    "groupId": 26,
+    "id": 10
+  },
+  {
+    "battlePower": 94605500,
+    "groupId": 26,
+    "id": 11
+  },
+  {
+    "battlePower": 137477200,
+    "groupId": 26,
+    "id": 12
+  },
+  {
+    "battlePower": 193756700,
+    "groupId": 26,
+    "id": 13
+  },
+  {
+    "battlePower": 266078000,
+    "groupId": 26,
+    "id": 14
+  },
+  {
+    "battlePower": 357334900,
+    "groupId": 26,
+    "id": 15
+  },
+  {
+    "battlePower": 48300,
+    "groupId": 26,
+    "id": 16
+  },
+  {
+    "battlePower": 62400,
+    "groupId": 26,
+    "id": 17
+  },
+  {
+    "battlePower": 79500,
+    "groupId": 26,
+    "id": 18
+  },
+  {
+    "battlePower": 99900,
+    "groupId": 26,
+    "id": 19
+  },
+  {
+    "battlePower": 124000,
+    "groupId": 26,
+    "id": 20
+  },
+  {
+    "battlePower": 152400,
+    "groupId": 26,
+    "id": 21
+  },
+  {
+    "battlePower": 185500,
+    "groupId": 26,
+    "id": 22
+  },
+  {
+    "battlePower": 223800,
+    "groupId": 26,
+    "id": 23
+  },
+  {
+    "battlePower": 267800,
+    "groupId": 26,
+    "id": 24
+  },
+  {
+    "battlePower": 318200,
+    "groupId": 26,
+    "id": 25
+  },
+  {
+    "battlePower": 375400,
+    "groupId": 26,
+    "id": 26
+  },
+  {
+    "battlePower": 440300,
+    "groupId": 26,
+    "id": 27
+  },
+  {
+    "battlePower": 513300,
+    "groupId": 26,
+    "id": 28
+  },
+  {
+    "battlePower": 595200,
+    "groupId": 26,
+    "id": 29
+  },
+  {
+    "battlePower": 686700,
+    "groupId": 26,
+    "id": 30
+  },
+  {
+    "battlePower": 900,
+    "groupId": 27,
+    "id": 1
+  },
+  {
+    "battlePower": 36500,
+    "groupId": 27,
+    "id": 2
+  },
+  {
+    "battlePower": 261700,
+    "groupId": 27,
+    "id": 3
+  },
+  {
+    "battlePower": 983300,
+    "groupId": 27,
+    "id": 4
+  },
+  {
+    "battlePower": 2675900,
+    "groupId": 27,
+    "id": 5
+  },
+  {
+    "battlePower": 5993500,
+    "groupId": 27,
+    "id": 6
+  },
+  {
+    "battlePower": 11777600,
+    "groupId": 27,
+    "id": 7
+  },
+  {
+    "battlePower": 21065100,
+    "groupId": 27,
+    "id": 8
+  },
+  {
+    "battlePower": 35094200,
+    "groupId": 27,
+    "id": 9
+  },
+  {
+    "battlePower": 55310400,
+    "groupId": 27,
+    "id": 10
+  },
+  {
+    "battlePower": 83371500,
+    "groupId": 27,
+    "id": 11
+  },
+  {
+    "battlePower": 121152300,
+    "groupId": 27,
+    "id": 12
+  },
+  {
+    "battlePower": 170748800,
+    "groupId": 27,
+    "id": 13
+  },
+  {
+    "battlePower": 234482200,
+    "groupId": 27,
+    "id": 14
+  },
+  {
+    "battlePower": 314902500,
+    "groupId": 27,
+    "id": 15
+  },
+  {
+    "battlePower": 58000,
+    "groupId": 27,
+    "id": 16
+  },
+  {
+    "battlePower": 74800,
+    "groupId": 27,
+    "id": 17
+  },
+  {
+    "battlePower": 95100,
+    "groupId": 27,
+    "id": 18
+  },
+  {
+    "battlePower": 119400,
+    "groupId": 27,
+    "id": 19
+  },
+  {
+    "battlePower": 148100,
+    "groupId": 27,
+    "id": 20
+  },
+  {
+    "battlePower": 181900,
+    "groupId": 27,
+    "id": 21
+  },
+  {
+    "battlePower": 221100,
+    "groupId": 27,
+    "id": 22
+  },
+  {
+    "battlePower": 266600,
+    "groupId": 27,
+    "id": 23
+  },
+  {
+    "battlePower": 318900,
+    "groupId": 27,
+    "id": 24
+  },
+  {
+    "battlePower": 378600,
+    "groupId": 27,
+    "id": 25
+  },
+  {
+    "battlePower": 446500,
+    "groupId": 27,
+    "id": 26
+  },
+  {
+    "battlePower": 523300,
+    "groupId": 27,
+    "id": 27
+  },
+  {
+    "battlePower": 609800,
+    "groupId": 27,
+    "id": 28
+  },
+  {
+    "battlePower": 706800,
+    "groupId": 27,
+    "id": 29
+  },
+  {
+    "battlePower": 815200,
+    "groupId": 27,
+    "id": 30
+  },
+  {
+    "battlePower": 100,
+    "groupId": 28,
+    "id": 1
+  },
+  {
+    "battlePower": 200,
+    "groupId": 28,
+    "id": 2
+  },
+  {
+    "battlePower": 1300,
+    "groupId": 28,
+    "id": 3
+  },
+  {
+    "battlePower": 5000,
+    "groupId": 28,
+    "id": 4
+  },
+  {
+    "battlePower": 13800,
+    "groupId": 28,
+    "id": 5
+  },
+  {
+    "battlePower": 31500,
+    "groupId": 28,
+    "id": 6
+  },
+  {
+    "battlePower": 62700,
+    "groupId": 28,
+    "id": 7
+  },
+  {
+    "battlePower": 113500,
+    "groupId": 28,
+    "id": 8
+  },
+  {
+    "battlePower": 191200,
+    "groupId": 28,
+    "id": 9
+  },
+  {
+    "battlePower": 304500,
+    "groupId": 28,
+    "id": 10
+  },
+  {
+    "battlePower": 463200,
+    "groupId": 28,
+    "id": 11
+  },
+  {
+    "battlePower": 678800,
+    "groupId": 28,
+    "id": 12
+  },
+  {
+    "battlePower": 964200,
+    "groupId": 28,
+    "id": 13
+  },
+  {
+    "battlePower": 1333800,
+    "groupId": 28,
+    "id": 14
+  },
+  {
+    "battlePower": 1803400,
+    "groupId": 28,
+    "id": 15
+  },
+  {
+    "battlePower": 25800,
+    "groupId": 28,
+    "id": 16
+  },
+  {
+    "battlePower": 33400,
+    "groupId": 28,
+    "id": 17
+  },
+  {
+    "battlePower": 42600,
+    "groupId": 28,
+    "id": 18
+  },
+  {
+    "battlePower": 53600,
+    "groupId": 28,
+    "id": 19
+  },
+  {
+    "battlePower": 66700,
+    "groupId": 28,
+    "id": 20
+  },
+  {
+    "battlePower": 82100,
+    "groupId": 28,
+    "id": 21
+  },
+  {
+    "battlePower": 100200,
+    "groupId": 28,
+    "id": 22
+  },
+  {
+    "battlePower": 121200,
+    "groupId": 28,
+    "id": 23
+  },
+  {
+    "battlePower": 145400,
+    "groupId": 28,
+    "id": 24
+  },
+  {
+    "battlePower": 173100,
+    "groupId": 28,
+    "id": 25
+  },
+  {
+    "battlePower": 204800,
+    "groupId": 28,
+    "id": 26
+  },
+  {
+    "battlePower": 240700,
+    "groupId": 28,
+    "id": 27
+  },
+  {
+    "battlePower": 281300,
+    "groupId": 28,
+    "id": 28
+  },
+  {
+    "battlePower": 327000,
+    "groupId": 28,
+    "id": 29
+  },
+  {
+    "battlePower": 378200,
+    "groupId": 28,
+    "id": 30
+  },
+  {
+    "battlePower": 100,
+    "groupId": 29,
+    "id": 1
+  },
+  {
+    "battlePower": 200,
+    "groupId": 29,
+    "id": 2
+  },
+  {
+    "battlePower": 1300,
+    "groupId": 29,
+    "id": 3
+  },
+  {
+    "battlePower": 5000,
+    "groupId": 29,
+    "id": 4
+  },
+  {
+    "battlePower": 13800,
+    "groupId": 29,
+    "id": 5
+  },
+  {
+    "battlePower": 31500,
+    "groupId": 29,
+    "id": 6
+  },
+  {
+    "battlePower": 62700,
+    "groupId": 29,
+    "id": 7
+  },
+  {
+    "battlePower": 113500,
+    "groupId": 29,
+    "id": 8
+  },
+  {
+    "battlePower": 191200,
+    "groupId": 29,
+    "id": 9
+  },
+  {
+    "battlePower": 304500,
+    "groupId": 29,
+    "id": 10
+  },
+  {
+    "battlePower": 463200,
+    "groupId": 29,
+    "id": 11
+  },
+  {
+    "battlePower": 678800,
+    "groupId": 29,
+    "id": 12
+  },
+  {
+    "battlePower": 964200,
+    "groupId": 29,
+    "id": 13
+  },
+  {
+    "battlePower": 1333800,
+    "groupId": 29,
+    "id": 14
+  },
+  {
+    "battlePower": 1803400,
+    "groupId": 29,
+    "id": 15
+  },
+  {
+    "battlePower": 25800,
+    "groupId": 29,
+    "id": 16
+  },
+  {
+    "battlePower": 33400,
+    "groupId": 29,
+    "id": 17
+  },
+  {
+    "battlePower": 42600,
+    "groupId": 29,
+    "id": 18
+  },
+  {
+    "battlePower": 53600,
+    "groupId": 29,
+    "id": 19
+  },
+  {
+    "battlePower": 66700,
+    "groupId": 29,
+    "id": 20
+  },
+  {
+    "battlePower": 82100,
+    "groupId": 29,
+    "id": 21
+  },
+  {
+    "battlePower": 100200,
+    "groupId": 29,
+    "id": 22
+  },
+  {
+    "battlePower": 121200,
+    "groupId": 29,
+    "id": 23
+  },
+  {
+    "battlePower": 145400,
+    "groupId": 29,
+    "id": 24
+  },
+  {
+    "battlePower": 173100,
+    "groupId": 29,
+    "id": 25
+  },
+  {
+    "battlePower": 204800,
+    "groupId": 29,
+    "id": 26
+  },
+  {
+    "battlePower": 240700,
+    "groupId": 29,
+    "id": 27
+  },
+  {
+    "battlePower": 281300,
+    "groupId": 29,
+    "id": 28
+  },
+  {
+    "battlePower": 327000,
+    "groupId": 29,
+    "id": 29
+  },
+  {
+    "battlePower": 378200,
+    "groupId": 29,
+    "id": 30
+  },
+  {
+    "battlePower": 100,
+    "groupId": 30,
+    "id": 1
+  },
+  {
+    "battlePower": 200,
+    "groupId": 30,
+    "id": 2
+  },
+  {
+    "battlePower": 1300,
+    "groupId": 30,
+    "id": 3
+  },
+  {
+    "battlePower": 5000,
+    "groupId": 30,
+    "id": 4
+  },
+  {
+    "battlePower": 13800,
+    "groupId": 30,
+    "id": 5
+  },
+  {
+    "battlePower": 31500,
+    "groupId": 30,
+    "id": 6
+  },
+  {
+    "battlePower": 62700,
+    "groupId": 30,
+    "id": 7
+  },
+  {
+    "battlePower": 113500,
+    "groupId": 30,
+    "id": 8
+  },
+  {
+    "battlePower": 191200,
+    "groupId": 30,
+    "id": 9
+  },
+  {
+    "battlePower": 304500,
+    "groupId": 30,
+    "id": 10
+  },
+  {
+    "battlePower": 463200,
+    "groupId": 30,
+    "id": 11
+  },
+  {
+    "battlePower": 678800,
+    "groupId": 30,
+    "id": 12
+  },
+  {
+    "battlePower": 964200,
+    "groupId": 30,
+    "id": 13
+  },
+  {
+    "battlePower": 1333800,
+    "groupId": 30,
+    "id": 14
+  },
+  {
+    "battlePower": 1803400,
+    "groupId": 30,
+    "id": 15
+  },
+  {
+    "battlePower": 25800,
+    "groupId": 30,
+    "id": 16
+  },
+  {
+    "battlePower": 33400,
+    "groupId": 30,
+    "id": 17
+  },
+  {
+    "battlePower": 42600,
+    "groupId": 30,
+    "id": 18
+  },
+  {
+    "battlePower": 53600,
+    "groupId": 30,
+    "id": 19
+  },
+  {
+    "battlePower": 66700,
+    "groupId": 30,
+    "id": 20
+  },
+  {
+    "battlePower": 82100,
+    "groupId": 30,
+    "id": 21
+  },
+  {
+    "battlePower": 100200,
+    "groupId": 30,
+    "id": 22
+  },
+  {
+    "battlePower": 121200,
+    "groupId": 30,
+    "id": 23
+  },
+  {
+    "battlePower": 145400,
+    "groupId": 30,
+    "id": 24
+  },
+  {
+    "battlePower": 173100,
+    "groupId": 30,
+    "id": 25
+  },
+  {
+    "battlePower": 204800,
+    "groupId": 30,
+    "id": 26
+  },
+  {
+    "battlePower": 240700,
+    "groupId": 30,
+    "id": 27
+  },
+  {
+    "battlePower": 281300,
+    "groupId": 30,
+    "id": 28
+  },
+  {
+    "battlePower": 327000,
+    "groupId": 30,
+    "id": 29
+  },
+  {
+    "battlePower": 378200,
+    "groupId": 30,
+    "id": 30
+  },
+  {
+    "battlePower": 100,
+    "groupId": 31,
+    "id": 1
+  },
+  {
+    "battlePower": 200,
+    "groupId": 31,
+    "id": 2
+  },
+  {
+    "battlePower": 1300,
+    "groupId": 31,
+    "id": 3
+  },
+  {
+    "battlePower": 5000,
+    "groupId": 31,
+    "id": 4
+  },
+  {
+    "battlePower": 13800,
+    "groupId": 31,
+    "id": 5
+  },
+  {
+    "battlePower": 31500,
+    "groupId": 31,
+    "id": 6
+  },
+  {
+    "battlePower": 62700,
+    "groupId": 31,
+    "id": 7
+  },
+  {
+    "battlePower": 113500,
+    "groupId": 31,
+    "id": 8
+  },
+  {
+    "battlePower": 191200,
+    "groupId": 31,
+    "id": 9
+  },
+  {
+    "battlePower": 304500,
+    "groupId": 31,
+    "id": 10
+  },
+  {
+    "battlePower": 463200,
+    "groupId": 31,
+    "id": 11
+  },
+  {
+    "battlePower": 678800,
+    "groupId": 31,
+    "id": 12
+  },
+  {
+    "battlePower": 964200,
+    "groupId": 31,
+    "id": 13
+  },
+  {
+    "battlePower": 1333800,
+    "groupId": 31,
+    "id": 14
+  },
+  {
+    "battlePower": 1803400,
+    "groupId": 31,
+    "id": 15
+  },
+  {
+    "battlePower": 25800,
+    "groupId": 31,
+    "id": 16
+  },
+  {
+    "battlePower": 33400,
+    "groupId": 31,
+    "id": 17
+  },
+  {
+    "battlePower": 42600,
+    "groupId": 31,
+    "id": 18
+  },
+  {
+    "battlePower": 53600,
+    "groupId": 31,
+    "id": 19
+  },
+  {
+    "battlePower": 66700,
+    "groupId": 31,
+    "id": 20
+  },
+  {
+    "battlePower": 82100,
+    "groupId": 31,
+    "id": 21
+  },
+  {
+    "battlePower": 100200,
+    "groupId": 31,
+    "id": 22
+  },
+  {
+    "battlePower": 121200,
+    "groupId": 31,
+    "id": 23
+  },
+  {
+    "battlePower": 145400,
+    "groupId": 31,
+    "id": 24
+  },
+  {
+    "battlePower": 173100,
+    "groupId": 31,
+    "id": 25
+  },
+  {
+    "battlePower": 204800,
+    "groupId": 31,
+    "id": 26
+  },
+  {
+    "battlePower": 240700,
+    "groupId": 31,
+    "id": 27
+  },
+  {
+    "battlePower": 281300,
+    "groupId": 31,
+    "id": 28
+  },
+  {
+    "battlePower": 327000,
+    "groupId": 31,
+    "id": 29
+  },
+  {
+    "battlePower": 378200,
+    "groupId": 31,
+    "id": 30
+  },
+  {
+    "battlePower": 100,
+    "groupId": 32,
+    "id": 1
+  },
+  {
+    "battlePower": 200,
+    "groupId": 32,
+    "id": 2
+  },
+  {
+    "battlePower": 1300,
+    "groupId": 32,
+    "id": 3
+  },
+  {
+    "battlePower": 5000,
+    "groupId": 32,
+    "id": 4
+  },
+  {
+    "battlePower": 13800,
+    "groupId": 32,
+    "id": 5
+  },
+  {
+    "battlePower": 31500,
+    "groupId": 32,
+    "id": 6
+  },
+  {
+    "battlePower": 62700,
+    "groupId": 32,
+    "id": 7
+  },
+  {
+    "battlePower": 113500,
+    "groupId": 32,
+    "id": 8
+  },
+  {
+    "battlePower": 191200,
+    "groupId": 32,
+    "id": 9
+  },
+  {
+    "battlePower": 304500,
+    "groupId": 32,
+    "id": 10
+  },
+  {
+    "battlePower": 463200,
+    "groupId": 32,
+    "id": 11
+  },
+  {
+    "battlePower": 678800,
+    "groupId": 32,
+    "id": 12
+  },
+  {
+    "battlePower": 964200,
+    "groupId": 32,
+    "id": 13
+  },
+  {
+    "battlePower": 1333800,
+    "groupId": 32,
+    "id": 14
+  },
+  {
+    "battlePower": 1803400,
+    "groupId": 32,
+    "id": 15
+  },
+  {
+    "battlePower": 25800,
+    "groupId": 32,
+    "id": 16
+  },
+  {
+    "battlePower": 33400,
+    "groupId": 32,
+    "id": 17
+  },
+  {
+    "battlePower": 42600,
+    "groupId": 32,
+    "id": 18
+  },
+  {
+    "battlePower": 53600,
+    "groupId": 32,
+    "id": 19
+  },
+  {
+    "battlePower": 66700,
+    "groupId": 32,
+    "id": 20
+  },
+  {
+    "battlePower": 82100,
+    "groupId": 32,
+    "id": 21
+  },
+  {
+    "battlePower": 100200,
+    "groupId": 32,
+    "id": 22
+  },
+  {
+    "battlePower": 121200,
+    "groupId": 32,
+    "id": 23
+  },
+  {
+    "battlePower": 145400,
+    "groupId": 32,
+    "id": 24
+  },
+  {
+    "battlePower": 173100,
+    "groupId": 32,
+    "id": 25
+  },
+  {
+    "battlePower": 204800,
+    "groupId": 32,
+    "id": 26
+  },
+  {
+    "battlePower": 240700,
+    "groupId": 32,
+    "id": 27
+  },
+  {
+    "battlePower": 281300,
+    "groupId": 32,
+    "id": 28
+  },
+  {
+    "battlePower": 327000,
+    "groupId": 32,
+    "id": 29
+  },
+  {
+    "battlePower": 378200,
+    "groupId": 32,
+    "id": 30
+  },
+  {
+    "battlePower": 100,
+    "groupId": 33,
+    "id": 1
+  },
+  {
+    "battlePower": 100,
+    "groupId": 33,
+    "id": 2
+  },
+  {
+    "battlePower": 100,
+    "groupId": 33,
+    "id": 3
+  },
+  {
+    "battlePower": 100,
+    "groupId": 33,
+    "id": 4
+  },
+  {
+    "battlePower": 100,
+    "groupId": 33,
+    "id": 5
+  },
+  {
+    "battlePower": 100,
+    "groupId": 33,
+    "id": 6
+  },
+  {
+    "battlePower": 100,
+    "groupId": 33,
+    "id": 7
+  },
+  {
+    "battlePower": 100,
+    "groupId": 33,
+    "id": 8
+  },
+  {
+    "battlePower": 100,
+    "groupId": 33,
+    "id": 9
+  },
+  {
+    "battlePower": 100,
+    "groupId": 33,
+    "id": 10
+  },
+  {
+    "battlePower": 100,
+    "groupId": 33,
+    "id": 11
+  },
+  {
+    "battlePower": 200,
+    "groupId": 33,
+    "id": 12
+  },
+  {
+    "battlePower": 200,
+    "groupId": 33,
+    "id": 13
+  },
+  {
+    "battlePower": 200,
+    "groupId": 33,
+    "id": 14
+  },
+  {
+    "battlePower": 200,
+    "groupId": 33,
+    "id": 15
+  },
+  {
+    "battlePower": 200,
+    "groupId": 33,
+    "id": 16
+  },
+  {
+    "battlePower": 200,
+    "groupId": 33,
+    "id": 17
+  },
+  {
+    "battlePower": 200,
+    "groupId": 33,
+    "id": 18
+  },
+  {
+    "battlePower": 300,
+    "groupId": 33,
+    "id": 19
+  },
+  {
+    "battlePower": 300,
+    "groupId": 33,
+    "id": 20
+  },
+  {
+    "battlePower": 300,
+    "groupId": 33,
+    "id": 21
+  },
+  {
+    "battlePower": 300,
+    "groupId": 33,
+    "id": 22
+  },
+  {
+    "battlePower": 400,
+    "groupId": 33,
+    "id": 23
+  },
+  {
+    "battlePower": 400,
+    "groupId": 33,
+    "id": 24
+  },
+  {
+    "battlePower": 400,
+    "groupId": 33,
+    "id": 25
+  },
+  {
+    "battlePower": 500,
+    "groupId": 33,
+    "id": 26
+  },
+  {
+    "battlePower": 500,
+    "groupId": 33,
+    "id": 27
+  },
+  {
+    "battlePower": 500,
+    "groupId": 33,
+    "id": 28
+  },
+  {
+    "battlePower": 500,
+    "groupId": 33,
+    "id": 29
+  },
+  {
+    "battlePower": 600,
+    "groupId": 33,
+    "id": 30
+  },
+  {
+    "battlePower": 100,
+    "groupId": 34,
+    "id": 1
+  },
+  {
+    "battlePower": 100,
+    "groupId": 34,
+    "id": 2
+  },
+  {
+    "battlePower": 100,
+    "groupId": 34,
+    "id": 3
+  },
+  {
+    "battlePower": 100,
+    "groupId": 34,
+    "id": 4
+  },
+  {
+    "battlePower": 100,
+    "groupId": 34,
+    "id": 5
+  },
+  {
+    "battlePower": 100,
+    "groupId": 34,
+    "id": 6
+  },
+  {
+    "battlePower": 100,
+    "groupId": 34,
+    "id": 7
+  },
+  {
+    "battlePower": 100,
+    "groupId": 34,
+    "id": 8
+  },
+  {
+    "battlePower": 100,
+    "groupId": 34,
+    "id": 9
+  },
+  {
+    "battlePower": 100,
+    "groupId": 34,
+    "id": 10
+  },
+  {
+    "battlePower": 100,
+    "groupId": 34,
+    "id": 11
+  },
+  {
+    "battlePower": 200,
+    "groupId": 34,
+    "id": 12
+  },
+  {
+    "battlePower": 200,
+    "groupId": 34,
+    "id": 13
+  },
+  {
+    "battlePower": 200,
+    "groupId": 34,
+    "id": 14
+  },
+  {
+    "battlePower": 200,
+    "groupId": 34,
+    "id": 15
+  },
+  {
+    "battlePower": 200,
+    "groupId": 34,
+    "id": 16
+  },
+  {
+    "battlePower": 200,
+    "groupId": 34,
+    "id": 17
+  },
+  {
+    "battlePower": 200,
+    "groupId": 34,
+    "id": 18
+  },
+  {
+    "battlePower": 300,
+    "groupId": 34,
+    "id": 19
+  },
+  {
+    "battlePower": 300,
+    "groupId": 34,
+    "id": 20
+  },
+  {
+    "battlePower": 300,
+    "groupId": 34,
+    "id": 21
+  },
+  {
+    "battlePower": 300,
+    "groupId": 34,
+    "id": 22
+  },
+  {
+    "battlePower": 400,
+    "groupId": 34,
+    "id": 23
+  },
+  {
+    "battlePower": 400,
+    "groupId": 34,
+    "id": 24
+  },
+  {
+    "battlePower": 400,
+    "groupId": 34,
+    "id": 25
+  },
+  {
+    "battlePower": 500,
+    "groupId": 34,
+    "id": 26
+  },
+  {
+    "battlePower": 500,
+    "groupId": 34,
+    "id": 27
+  },
+  {
+    "battlePower": 500,
+    "groupId": 34,
+    "id": 28
+  },
+  {
+    "battlePower": 500,
+    "groupId": 34,
+    "id": 29
+  },
+  {
+    "battlePower": 600,
+    "groupId": 34,
+    "id": 30
+  },
+  {
+    "battlePower": 100,
+    "groupId": 35,
+    "id": 1
+  },
+  {
+    "battlePower": 100,
+    "groupId": 35,
+    "id": 2
+  },
+  {
+    "battlePower": 100,
+    "groupId": 35,
+    "id": 3
+  },
+  {
+    "battlePower": 100,
+    "groupId": 35,
+    "id": 4
+  },
+  {
+    "battlePower": 100,
+    "groupId": 35,
+    "id": 5
+  },
+  {
+    "battlePower": 100,
+    "groupId": 35,
+    "id": 6
+  },
+  {
+    "battlePower": 100,
+    "groupId": 35,
+    "id": 7
+  },
+  {
+    "battlePower": 100,
+    "groupId": 35,
+    "id": 8
+  },
+  {
+    "battlePower": 100,
+    "groupId": 35,
+    "id": 9
+  },
+  {
+    "battlePower": 100,
+    "groupId": 35,
+    "id": 10
+  },
+  {
+    "battlePower": 100,
+    "groupId": 35,
+    "id": 11
+  },
+  {
+    "battlePower": 200,
+    "groupId": 35,
+    "id": 12
+  },
+  {
+    "battlePower": 200,
+    "groupId": 35,
+    "id": 13
+  },
+  {
+    "battlePower": 200,
+    "groupId": 35,
+    "id": 14
+  },
+  {
+    "battlePower": 200,
+    "groupId": 35,
+    "id": 15
+  },
+  {
+    "battlePower": 200,
+    "groupId": 35,
+    "id": 16
+  },
+  {
+    "battlePower": 200,
+    "groupId": 35,
+    "id": 17
+  },
+  {
+    "battlePower": 200,
+    "groupId": 35,
+    "id": 18
+  },
+  {
+    "battlePower": 300,
+    "groupId": 35,
+    "id": 19
+  },
+  {
+    "battlePower": 300,
+    "groupId": 35,
+    "id": 20
+  },
+  {
+    "battlePower": 300,
+    "groupId": 35,
+    "id": 21
+  },
+  {
+    "battlePower": 300,
+    "groupId": 35,
+    "id": 22
+  },
+  {
+    "battlePower": 400,
+    "groupId": 35,
+    "id": 23
+  },
+  {
+    "battlePower": 400,
+    "groupId": 35,
+    "id": 24
+  },
+  {
+    "battlePower": 400,
+    "groupId": 35,
+    "id": 25
+  },
+  {
+    "battlePower": 500,
+    "groupId": 35,
+    "id": 26
+  },
+  {
+    "battlePower": 500,
+    "groupId": 35,
+    "id": 27
+  },
+  {
+    "battlePower": 500,
+    "groupId": 35,
+    "id": 28
+  },
+  {
+    "battlePower": 500,
+    "groupId": 35,
+    "id": 29
+  },
+  {
+    "battlePower": 600,
+    "groupId": 35,
+    "id": 30
+  },
+  {
+    "battlePower": 100,
+    "groupId": 36,
+    "id": 1
+  },
+  {
+    "battlePower": 100,
+    "groupId": 36,
+    "id": 2
+  },
+  {
+    "battlePower": 100,
+    "groupId": 36,
+    "id": 3
+  },
+  {
+    "battlePower": 100,
+    "groupId": 36,
+    "id": 4
+  },
+  {
+    "battlePower": 100,
+    "groupId": 36,
+    "id": 5
+  },
+  {
+    "battlePower": 100,
+    "groupId": 36,
+    "id": 6
+  },
+  {
+    "battlePower": 100,
+    "groupId": 36,
+    "id": 7
+  },
+  {
+    "battlePower": 100,
+    "groupId": 36,
+    "id": 8
+  },
+  {
+    "battlePower": 100,
+    "groupId": 36,
+    "id": 9
+  },
+  {
+    "battlePower": 100,
+    "groupId": 36,
+    "id": 10
+  },
+  {
+    "battlePower": 100,
+    "groupId": 36,
+    "id": 11
+  },
+  {
+    "battlePower": 200,
+    "groupId": 36,
+    "id": 12
+  },
+  {
+    "battlePower": 200,
+    "groupId": 36,
+    "id": 13
+  },
+  {
+    "battlePower": 200,
+    "groupId": 36,
+    "id": 14
+  },
+  {
+    "battlePower": 200,
+    "groupId": 36,
+    "id": 15
+  },
+  {
+    "battlePower": 200,
+    "groupId": 36,
+    "id": 16
+  },
+  {
+    "battlePower": 200,
+    "groupId": 36,
+    "id": 17
+  },
+  {
+    "battlePower": 200,
+    "groupId": 36,
+    "id": 18
+  },
+  {
+    "battlePower": 300,
+    "groupId": 36,
+    "id": 19
+  },
+  {
+    "battlePower": 300,
+    "groupId": 36,
+    "id": 20
+  },
+  {
+    "battlePower": 300,
+    "groupId": 36,
+    "id": 21
+  },
+  {
+    "battlePower": 300,
+    "groupId": 36,
+    "id": 22
+  },
+  {
+    "battlePower": 400,
+    "groupId": 36,
+    "id": 23
+  },
+  {
+    "battlePower": 400,
+    "groupId": 36,
+    "id": 24
+  },
+  {
+    "battlePower": 400,
+    "groupId": 36,
+    "id": 25
+  },
+  {
+    "battlePower": 500,
+    "groupId": 36,
+    "id": 26
+  },
+  {
+    "battlePower": 500,
+    "groupId": 36,
+    "id": 27
+  },
+  {
+    "battlePower": 500,
+    "groupId": 36,
+    "id": 28
+  },
+  {
+    "battlePower": 500,
+    "groupId": 36,
+    "id": 29
+  },
+  {
+    "battlePower": 600,
+    "groupId": 36,
+    "id": 30
+  },
+  {
+    "battlePower": 100,
+    "groupId": 37,
+    "id": 1
+  },
+  {
+    "battlePower": 100,
+    "groupId": 37,
+    "id": 2
+  },
+  {
+    "battlePower": 100,
+    "groupId": 37,
+    "id": 3
+  },
+  {
+    "battlePower": 100,
+    "groupId": 37,
+    "id": 4
+  },
+  {
+    "battlePower": 100,
+    "groupId": 37,
+    "id": 5
+  },
+  {
+    "battlePower": 100,
+    "groupId": 37,
+    "id": 6
+  },
+  {
+    "battlePower": 100,
+    "groupId": 37,
+    "id": 7
+  },
+  {
+    "battlePower": 100,
+    "groupId": 37,
+    "id": 8
+  },
+  {
+    "battlePower": 100,
+    "groupId": 37,
+    "id": 9
+  },
+  {
+    "battlePower": 100,
+    "groupId": 37,
+    "id": 10
+  },
+  {
+    "battlePower": 100,
+    "groupId": 37,
+    "id": 11
+  },
+  {
+    "battlePower": 200,
+    "groupId": 37,
+    "id": 12
+  },
+  {
+    "battlePower": 200,
+    "groupId": 37,
+    "id": 13
+  },
+  {
+    "battlePower": 200,
+    "groupId": 37,
+    "id": 14
+  },
+  {
+    "battlePower": 200,
+    "groupId": 37,
+    "id": 15
+  },
+  {
+    "battlePower": 200,
+    "groupId": 37,
+    "id": 16
+  },
+  {
+    "battlePower": 200,
+    "groupId": 37,
+    "id": 17
+  },
+  {
+    "battlePower": 200,
+    "groupId": 37,
+    "id": 18
+  },
+  {
+    "battlePower": 300,
+    "groupId": 37,
+    "id": 19
+  },
+  {
+    "battlePower": 300,
+    "groupId": 37,
+    "id": 20
+  },
+  {
+    "battlePower": 300,
+    "groupId": 37,
+    "id": 21
+  },
+  {
+    "battlePower": 300,
+    "groupId": 37,
+    "id": 22
+  },
+  {
+    "battlePower": 400,
+    "groupId": 37,
+    "id": 23
+  },
+  {
+    "battlePower": 400,
+    "groupId": 37,
+    "id": 24
+  },
+  {
+    "battlePower": 400,
+    "groupId": 37,
+    "id": 25
+  },
+  {
+    "battlePower": 500,
+    "groupId": 37,
+    "id": 26
+  },
+  {
+    "battlePower": 500,
+    "groupId": 37,
+    "id": 27
+  },
+  {
+    "battlePower": 500,
+    "groupId": 37,
+    "id": 28
+  },
+  {
+    "battlePower": 500,
+    "groupId": 37,
+    "id": 29
+  },
+  {
+    "battlePower": 600,
+    "groupId": 37,
+    "id": 30
+  },
+  {
+    "battlePower": 100,
+    "groupId": 38,
+    "id": 1
+  },
+  {
+    "battlePower": 100,
+    "groupId": 38,
+    "id": 2
+  },
+  {
+    "battlePower": 100,
+    "groupId": 38,
+    "id": 3
+  },
+  {
+    "battlePower": 100,
+    "groupId": 38,
+    "id": 4
+  },
+  {
+    "battlePower": 100,
+    "groupId": 38,
+    "id": 5
+  },
+  {
+    "battlePower": 100,
+    "groupId": 38,
+    "id": 6
+  },
+  {
+    "battlePower": 100,
+    "groupId": 38,
+    "id": 7
+  },
+  {
+    "battlePower": 100,
+    "groupId": 38,
+    "id": 8
+  },
+  {
+    "battlePower": 100,
+    "groupId": 38,
+    "id": 9
+  },
+  {
+    "battlePower": 100,
+    "groupId": 38,
+    "id": 10
+  },
+  {
+    "battlePower": 100,
+    "groupId": 38,
+    "id": 11
+  },
+  {
+    "battlePower": 200,
+    "groupId": 38,
+    "id": 12
+  },
+  {
+    "battlePower": 200,
+    "groupId": 38,
+    "id": 13
+  },
+  {
+    "battlePower": 200,
+    "groupId": 38,
+    "id": 14
+  },
+  {
+    "battlePower": 200,
+    "groupId": 38,
+    "id": 15
+  },
+  {
+    "battlePower": 200,
+    "groupId": 38,
+    "id": 16
+  },
+  {
+    "battlePower": 200,
+    "groupId": 38,
+    "id": 17
+  },
+  {
+    "battlePower": 200,
+    "groupId": 38,
+    "id": 18
+  },
+  {
+    "battlePower": 300,
+    "groupId": 38,
+    "id": 19
+  },
+  {
+    "battlePower": 300,
+    "groupId": 38,
+    "id": 20
+  },
+  {
+    "battlePower": 300,
+    "groupId": 38,
+    "id": 21
+  },
+  {
+    "battlePower": 300,
+    "groupId": 38,
+    "id": 22
+  },
+  {
+    "battlePower": 400,
+    "groupId": 38,
+    "id": 23
+  },
+  {
+    "battlePower": 400,
+    "groupId": 38,
+    "id": 24
+  },
+  {
+    "battlePower": 400,
+    "groupId": 38,
+    "id": 25
+  },
+  {
+    "battlePower": 500,
+    "groupId": 38,
+    "id": 26
+  },
+  {
+    "battlePower": 500,
+    "groupId": 38,
+    "id": 27
+  },
+  {
+    "battlePower": 500,
+    "groupId": 38,
+    "id": 28
+  },
+  {
+    "battlePower": 500,
+    "groupId": 38,
+    "id": 29
+  },
+  {
+    "battlePower": 600,
+    "groupId": 38,
+    "id": 30
+  },
+  {
+    "battlePower": 100,
+    "groupId": 39,
+    "id": 1
+  },
+  {
+    "battlePower": 100,
+    "groupId": 39,
+    "id": 2
+  },
+  {
+    "battlePower": 100,
+    "groupId": 39,
+    "id": 3
+  },
+  {
+    "battlePower": 100,
+    "groupId": 39,
+    "id": 4
+  },
+  {
+    "battlePower": 100,
+    "groupId": 39,
+    "id": 5
+  },
+  {
+    "battlePower": 100,
+    "groupId": 39,
+    "id": 6
+  },
+  {
+    "battlePower": 100,
+    "groupId": 39,
+    "id": 7
+  },
+  {
+    "battlePower": 100,
+    "groupId": 39,
+    "id": 8
+  },
+  {
+    "battlePower": 100,
+    "groupId": 39,
+    "id": 9
+  },
+  {
+    "battlePower": 100,
+    "groupId": 39,
+    "id": 10
+  },
+  {
+    "battlePower": 100,
+    "groupId": 39,
+    "id": 11
+  },
+  {
+    "battlePower": 200,
+    "groupId": 39,
+    "id": 12
+  },
+  {
+    "battlePower": 200,
+    "groupId": 39,
+    "id": 13
+  },
+  {
+    "battlePower": 200,
+    "groupId": 39,
+    "id": 14
+  },
+  {
+    "battlePower": 200,
+    "groupId": 39,
+    "id": 15
+  },
+  {
+    "battlePower": 200,
+    "groupId": 39,
+    "id": 16
+  },
+  {
+    "battlePower": 200,
+    "groupId": 39,
+    "id": 17
+  },
+  {
+    "battlePower": 200,
+    "groupId": 39,
+    "id": 18
+  },
+  {
+    "battlePower": 300,
+    "groupId": 39,
+    "id": 19
+  },
+  {
+    "battlePower": 300,
+    "groupId": 39,
+    "id": 20
+  },
+  {
+    "battlePower": 300,
+    "groupId": 39,
+    "id": 21
+  },
+  {
+    "battlePower": 300,
+    "groupId": 39,
+    "id": 22
+  },
+  {
+    "battlePower": 400,
+    "groupId": 39,
+    "id": 23
+  },
+  {
+    "battlePower": 400,
+    "groupId": 39,
+    "id": 24
+  },
+  {
+    "battlePower": 400,
+    "groupId": 39,
+    "id": 25
+  },
+  {
+    "battlePower": 500,
+    "groupId": 39,
+    "id": 26
+  },
+  {
+    "battlePower": 500,
+    "groupId": 39,
+    "id": 27
+  },
+  {
+    "battlePower": 500,
+    "groupId": 39,
+    "id": 28
+  },
+  {
+    "battlePower": 500,
+    "groupId": 39,
+    "id": 29
+  },
+  {
+    "battlePower": 600,
+    "groupId": 39,
+    "id": 30
+  },
+  {
+    "battlePower": 300,
+    "groupId": 40,
+    "id": 1
+  },
+  {
+    "battlePower": 235000,
+    "groupId": 40,
+    "id": 2
+  },
+  {
+    "battlePower": 1584400,
+    "groupId": 40,
+    "id": 3
+  },
+  {
+    "battlePower": 5632400,
+    "groupId": 40,
+    "id": 4
+  },
+  {
+    "battlePower": 14667200,
+    "groupId": 40,
+    "id": 5
+  },
+  {
+    "battlePower": 31680600,
+    "groupId": 40,
+    "id": 6
+  },
+  {
+    "battlePower": 60368700,
+    "groupId": 40,
+    "id": 7
+  },
+  {
+    "battlePower": 105131500,
+    "groupId": 40,
+    "id": 8
+  },
+  {
+    "battlePower": 171073000,
+    "groupId": 40,
+    "id": 9
+  },
+  {
+    "battlePower": 264001200,
+    "groupId": 40,
+    "id": 10
+  },
+  {
+    "battlePower": 390428100,
+    "groupId": 40,
+    "id": 11
+  },
+  {
+    "battlePower": 557569700,
+    "groupId": 40,
+    "id": 12
+  },
+  {
+    "battlePower": 773346100,
+    "groupId": 40,
+    "id": 13
+  },
+  {
+    "battlePower": 1046381100,
+    "groupId": 40,
+    "id": 14
+  },
+  {
+    "battlePower": 1386002800,
+    "groupId": 40,
+    "id": 15
+  },
+  {
+    "battlePower": 453500,
+    "groupId": 40,
+    "id": 16
+  },
+  {
+    "battlePower": 579800,
+    "groupId": 40,
+    "id": 17
+  },
+  {
+    "battlePower": 731000,
+    "groupId": 40,
+    "id": 18
+  },
+  {
+    "battlePower": 909800,
+    "groupId": 40,
+    "id": 19
+  },
+  {
+    "battlePower": 1119700,
+    "groupId": 40,
+    "id": 20
+  },
+  {
+    "battlePower": 1363900,
+    "groupId": 40,
+    "id": 21
+  },
+  {
+    "battlePower": 1646100,
+    "groupId": 40,
+    "id": 22
+  },
+  {
+    "battlePower": 1970000,
+    "groupId": 40,
+    "id": 23
+  },
+  {
+    "battlePower": 2339500,
+    "groupId": 40,
+    "id": 24
+  },
+  {
+    "battlePower": 2758700,
+    "groupId": 40,
+    "id": 25
+  },
+  {
+    "battlePower": 3231800,
+    "groupId": 40,
+    "id": 26
+  },
+  {
+    "battlePower": 3763300,
+    "groupId": 40,
+    "id": 27
+  },
+  {
+    "battlePower": 4357900,
+    "groupId": 40,
+    "id": 28
+  },
+  {
+    "battlePower": 5020300,
+    "groupId": 40,
+    "id": 29
+  },
+  {
+    "battlePower": 5755500,
+    "groupId": 40,
+    "id": 30
+  },
+  {
+    "battlePower": 300,
+    "groupId": 41,
+    "id": 1
+  },
+  {
+    "battlePower": 235000,
+    "groupId": 41,
+    "id": 2
+  },
+  {
+    "battlePower": 1584400,
+    "groupId": 41,
+    "id": 3
+  },
+  {
+    "battlePower": 5632400,
+    "groupId": 41,
+    "id": 4
+  },
+  {
+    "battlePower": 14667200,
+    "groupId": 41,
+    "id": 5
+  },
+  {
+    "battlePower": 31680600,
+    "groupId": 41,
+    "id": 6
+  },
+  {
+    "battlePower": 60368700,
+    "groupId": 41,
+    "id": 7
+  },
+  {
+    "battlePower": 105131500,
+    "groupId": 41,
+    "id": 8
+  },
+  {
+    "battlePower": 171073000,
+    "groupId": 41,
+    "id": 9
+  },
+  {
+    "battlePower": 264001200,
+    "groupId": 41,
+    "id": 10
+  },
+  {
+    "battlePower": 390428100,
+    "groupId": 41,
+    "id": 11
+  },
+  {
+    "battlePower": 557569700,
+    "groupId": 41,
+    "id": 12
+  },
+  {
+    "battlePower": 773346100,
+    "groupId": 41,
+    "id": 13
+  },
+  {
+    "battlePower": 1046381100,
+    "groupId": 41,
+    "id": 14
+  },
+  {
+    "battlePower": 1386002800,
+    "groupId": 41,
+    "id": 15
+  },
+  {
+    "battlePower": 453500,
+    "groupId": 41,
+    "id": 16
+  },
+  {
+    "battlePower": 579800,
+    "groupId": 41,
+    "id": 17
+  },
+  {
+    "battlePower": 731000,
+    "groupId": 41,
+    "id": 18
+  },
+  {
+    "battlePower": 909800,
+    "groupId": 41,
+    "id": 19
+  },
+  {
+    "battlePower": 1119700,
+    "groupId": 41,
+    "id": 20
+  },
+  {
+    "battlePower": 1363900,
+    "groupId": 41,
+    "id": 21
+  },
+  {
+    "battlePower": 1646100,
+    "groupId": 41,
+    "id": 22
+  },
+  {
+    "battlePower": 1970000,
+    "groupId": 41,
+    "id": 23
+  },
+  {
+    "battlePower": 2339500,
+    "groupId": 41,
+    "id": 24
+  },
+  {
+    "battlePower": 2758700,
+    "groupId": 41,
+    "id": 25
+  },
+  {
+    "battlePower": 3231800,
+    "groupId": 41,
+    "id": 26
+  },
+  {
+    "battlePower": 3763300,
+    "groupId": 41,
+    "id": 27
+  },
+  {
+    "battlePower": 4357900,
+    "groupId": 41,
+    "id": 28
+  },
+  {
+    "battlePower": 5020300,
+    "groupId": 41,
+    "id": 29
+  },
+  {
+    "battlePower": 5755500,
+    "groupId": 41,
+    "id": 30
+  },
+  {
+    "battlePower": 300,
+    "groupId": 42,
+    "id": 1
+  },
+  {
+    "battlePower": 235000,
+    "groupId": 42,
+    "id": 2
+  },
+  {
+    "battlePower": 1584400,
+    "groupId": 42,
+    "id": 3
+  },
+  {
+    "battlePower": 5632400,
+    "groupId": 42,
+    "id": 4
+  },
+  {
+    "battlePower": 14667200,
+    "groupId": 42,
+    "id": 5
+  },
+  {
+    "battlePower": 31680600,
+    "groupId": 42,
+    "id": 6
+  },
+  {
+    "battlePower": 60368700,
+    "groupId": 42,
+    "id": 7
+  },
+  {
+    "battlePower": 105131500,
+    "groupId": 42,
+    "id": 8
+  },
+  {
+    "battlePower": 171073000,
+    "groupId": 42,
+    "id": 9
+  },
+  {
+    "battlePower": 264001200,
+    "groupId": 42,
+    "id": 10
+  },
+  {
+    "battlePower": 390428100,
+    "groupId": 42,
+    "id": 11
+  },
+  {
+    "battlePower": 557569700,
+    "groupId": 42,
+    "id": 12
+  },
+  {
+    "battlePower": 773346100,
+    "groupId": 42,
+    "id": 13
+  },
+  {
+    "battlePower": 1046381100,
+    "groupId": 42,
+    "id": 14
+  },
+  {
+    "battlePower": 1386002800,
+    "groupId": 42,
+    "id": 15
+  },
+  {
+    "battlePower": 453500,
+    "groupId": 42,
+    "id": 16
+  },
+  {
+    "battlePower": 579800,
+    "groupId": 42,
+    "id": 17
+  },
+  {
+    "battlePower": 731000,
+    "groupId": 42,
+    "id": 18
+  },
+  {
+    "battlePower": 909800,
+    "groupId": 42,
+    "id": 19
+  },
+  {
+    "battlePower": 1119700,
+    "groupId": 42,
+    "id": 20
+  },
+  {
+    "battlePower": 1363900,
+    "groupId": 42,
+    "id": 21
+  },
+  {
+    "battlePower": 1646100,
+    "groupId": 42,
+    "id": 22
+  },
+  {
+    "battlePower": 1970000,
+    "groupId": 42,
+    "id": 23
+  },
+  {
+    "battlePower": 2339500,
+    "groupId": 42,
+    "id": 24
+  },
+  {
+    "battlePower": 2758700,
+    "groupId": 42,
+    "id": 25
+  },
+  {
+    "battlePower": 3231800,
+    "groupId": 42,
+    "id": 26
+  },
+  {
+    "battlePower": 3763300,
+    "groupId": 42,
+    "id": 27
+  },
+  {
+    "battlePower": 4357900,
+    "groupId": 42,
+    "id": 28
+  },
+  {
+    "battlePower": 5020300,
+    "groupId": 42,
+    "id": 29
+  },
+  {
+    "battlePower": 5755500,
+    "groupId": 42,
+    "id": 30
+  },
+  {
+    "battlePower": 300,
+    "groupId": 43,
+    "id": 1
+  },
+  {
+    "battlePower": 235000,
+    "groupId": 43,
+    "id": 2
+  },
+  {
+    "battlePower": 1584400,
+    "groupId": 43,
+    "id": 3
+  },
+  {
+    "battlePower": 5632400,
+    "groupId": 43,
+    "id": 4
+  },
+  {
+    "battlePower": 14667200,
+    "groupId": 43,
+    "id": 5
+  },
+  {
+    "battlePower": 31680600,
+    "groupId": 43,
+    "id": 6
+  },
+  {
+    "battlePower": 60368700,
+    "groupId": 43,
+    "id": 7
+  },
+  {
+    "battlePower": 105131500,
+    "groupId": 43,
+    "id": 8
+  },
+  {
+    "battlePower": 171073000,
+    "groupId": 43,
+    "id": 9
+  },
+  {
+    "battlePower": 264001200,
+    "groupId": 43,
+    "id": 10
+  },
+  {
+    "battlePower": 390428100,
+    "groupId": 43,
+    "id": 11
+  },
+  {
+    "battlePower": 557569700,
+    "groupId": 43,
+    "id": 12
+  },
+  {
+    "battlePower": 773346100,
+    "groupId": 43,
+    "id": 13
+  },
+  {
+    "battlePower": 1046381100,
+    "groupId": 43,
+    "id": 14
+  },
+  {
+    "battlePower": 1386002800,
+    "groupId": 43,
+    "id": 15
+  },
+  {
+    "battlePower": 453500,
+    "groupId": 43,
+    "id": 16
+  },
+  {
+    "battlePower": 579800,
+    "groupId": 43,
+    "id": 17
+  },
+  {
+    "battlePower": 731000,
+    "groupId": 43,
+    "id": 18
+  },
+  {
+    "battlePower": 909800,
+    "groupId": 43,
+    "id": 19
+  },
+  {
+    "battlePower": 1119700,
+    "groupId": 43,
+    "id": 20
+  },
+  {
+    "battlePower": 1363900,
+    "groupId": 43,
+    "id": 21
+  },
+  {
+    "battlePower": 1646100,
+    "groupId": 43,
+    "id": 22
+  },
+  {
+    "battlePower": 1970000,
+    "groupId": 43,
+    "id": 23
+  },
+  {
+    "battlePower": 2339500,
+    "groupId": 43,
+    "id": 24
+  },
+  {
+    "battlePower": 2758700,
+    "groupId": 43,
+    "id": 25
+  },
+  {
+    "battlePower": 3231800,
+    "groupId": 43,
+    "id": 26
+  },
+  {
+    "battlePower": 3763300,
+    "groupId": 43,
+    "id": 27
+  },
+  {
+    "battlePower": 4357900,
+    "groupId": 43,
+    "id": 28
+  },
+  {
+    "battlePower": 5020300,
+    "groupId": 43,
+    "id": 29
+  },
+  {
+    "battlePower": 5755500,
+    "groupId": 43,
+    "id": 30
+  },
+  {
+    "battlePower": 300,
+    "groupId": 44,
+    "id": 1
+  },
+  {
+    "battlePower": 235000,
+    "groupId": 44,
+    "id": 2
+  },
+  {
+    "battlePower": 1584400,
+    "groupId": 44,
+    "id": 3
+  },
+  {
+    "battlePower": 5632400,
+    "groupId": 44,
+    "id": 4
+  },
+  {
+    "battlePower": 14667200,
+    "groupId": 44,
+    "id": 5
+  },
+  {
+    "battlePower": 31680600,
+    "groupId": 44,
+    "id": 6
+  },
+  {
+    "battlePower": 60368700,
+    "groupId": 44,
+    "id": 7
+  },
+  {
+    "battlePower": 105131500,
+    "groupId": 44,
+    "id": 8
+  },
+  {
+    "battlePower": 171073000,
+    "groupId": 44,
+    "id": 9
+  },
+  {
+    "battlePower": 264001200,
+    "groupId": 44,
+    "id": 10
+  },
+  {
+    "battlePower": 390428100,
+    "groupId": 44,
+    "id": 11
+  },
+  {
+    "battlePower": 557569700,
+    "groupId": 44,
+    "id": 12
+  },
+  {
+    "battlePower": 773346100,
+    "groupId": 44,
+    "id": 13
+  },
+  {
+    "battlePower": 1046381100,
+    "groupId": 44,
+    "id": 14
+  },
+  {
+    "battlePower": 1386002800,
+    "groupId": 44,
+    "id": 15
+  },
+  {
+    "battlePower": 453500,
+    "groupId": 44,
+    "id": 16
+  },
+  {
+    "battlePower": 579800,
+    "groupId": 44,
+    "id": 17
+  },
+  {
+    "battlePower": 731000,
+    "groupId": 44,
+    "id": 18
+  },
+  {
+    "battlePower": 909800,
+    "groupId": 44,
+    "id": 19
+  },
+  {
+    "battlePower": 1119700,
+    "groupId": 44,
+    "id": 20
+  },
+  {
+    "battlePower": 1363900,
+    "groupId": 44,
+    "id": 21
+  },
+  {
+    "battlePower": 1646100,
+    "groupId": 44,
+    "id": 22
+  },
+  {
+    "battlePower": 1970000,
+    "groupId": 44,
+    "id": 23
+  },
+  {
+    "battlePower": 2339500,
+    "groupId": 44,
+    "id": 24
+  },
+  {
+    "battlePower": 2758700,
+    "groupId": 44,
+    "id": 25
+  },
+  {
+    "battlePower": 3231800,
+    "groupId": 44,
+    "id": 26
+  },
+  {
+    "battlePower": 3763300,
+    "groupId": 44,
+    "id": 27
+  },
+  {
+    "battlePower": 4357900,
+    "groupId": 44,
+    "id": 28
+  },
+  {
+    "battlePower": 5020300,
+    "groupId": 44,
+    "id": 29
+  },
+  {
+    "battlePower": 5755500,
+    "groupId": 44,
+    "id": 30
+  },
+  {
+    "battlePower": 300,
+    "groupId": 45,
+    "id": 1
+  },
+  {
+    "battlePower": 235000,
+    "groupId": 45,
+    "id": 2
+  },
+  {
+    "battlePower": 1584400,
+    "groupId": 45,
+    "id": 3
+  },
+  {
+    "battlePower": 5632400,
+    "groupId": 45,
+    "id": 4
+  },
+  {
+    "battlePower": 14667200,
+    "groupId": 45,
+    "id": 5
+  },
+  {
+    "battlePower": 31680600,
+    "groupId": 45,
+    "id": 6
+  },
+  {
+    "battlePower": 60368700,
+    "groupId": 45,
+    "id": 7
+  },
+  {
+    "battlePower": 105131500,
+    "groupId": 45,
+    "id": 8
+  },
+  {
+    "battlePower": 171073000,
+    "groupId": 45,
+    "id": 9
+  },
+  {
+    "battlePower": 264001200,
+    "groupId": 45,
+    "id": 10
+  },
+  {
+    "battlePower": 390428100,
+    "groupId": 45,
+    "id": 11
+  },
+  {
+    "battlePower": 557569700,
+    "groupId": 45,
+    "id": 12
+  },
+  {
+    "battlePower": 773346100,
+    "groupId": 45,
+    "id": 13
+  },
+  {
+    "battlePower": 1046381100,
+    "groupId": 45,
+    "id": 14
+  },
+  {
+    "battlePower": 1386002800,
+    "groupId": 45,
+    "id": 15
+  },
+  {
+    "battlePower": 453500,
+    "groupId": 45,
+    "id": 16
+  },
+  {
+    "battlePower": 579800,
+    "groupId": 45,
+    "id": 17
+  },
+  {
+    "battlePower": 731000,
+    "groupId": 45,
+    "id": 18
+  },
+  {
+    "battlePower": 909800,
+    "groupId": 45,
+    "id": 19
+  },
+  {
+    "battlePower": 1119700,
+    "groupId": 45,
+    "id": 20
+  },
+  {
+    "battlePower": 1363900,
+    "groupId": 45,
+    "id": 21
+  },
+  {
+    "battlePower": 1646100,
+    "groupId": 45,
+    "id": 22
+  },
+  {
+    "battlePower": 1970000,
+    "groupId": 45,
+    "id": 23
+  },
+  {
+    "battlePower": 2339500,
+    "groupId": 45,
+    "id": 24
+  },
+  {
+    "battlePower": 2758700,
+    "groupId": 45,
+    "id": 25
+  },
+  {
+    "battlePower": 3231800,
+    "groupId": 45,
+    "id": 26
+  },
+  {
+    "battlePower": 3763300,
+    "groupId": 45,
+    "id": 27
+  },
+  {
+    "battlePower": 4357900,
+    "groupId": 45,
+    "id": 28
+  },
+  {
+    "battlePower": 5020300,
+    "groupId": 45,
+    "id": 29
+  },
+  {
+    "battlePower": 5755500,
+    "groupId": 45,
+    "id": 30
+  },
+  {
+    "battlePower": 300,
+    "groupId": 46,
+    "id": 1
+  },
+  {
+    "battlePower": 235000,
+    "groupId": 46,
+    "id": 2
+  },
+  {
+    "battlePower": 1584400,
+    "groupId": 46,
+    "id": 3
+  },
+  {
+    "battlePower": 5632400,
+    "groupId": 46,
+    "id": 4
+  },
+  {
+    "battlePower": 14667200,
+    "groupId": 46,
+    "id": 5
+  },
+  {
+    "battlePower": 31680600,
+    "groupId": 46,
+    "id": 6
+  },
+  {
+    "battlePower": 60368700,
+    "groupId": 46,
+    "id": 7
+  },
+  {
+    "battlePower": 105131500,
+    "groupId": 46,
+    "id": 8
+  },
+  {
+    "battlePower": 171073000,
+    "groupId": 46,
+    "id": 9
+  },
+  {
+    "battlePower": 264001200,
+    "groupId": 46,
+    "id": 10
+  },
+  {
+    "battlePower": 390428100,
+    "groupId": 46,
+    "id": 11
+  },
+  {
+    "battlePower": 557569700,
+    "groupId": 46,
+    "id": 12
+  },
+  {
+    "battlePower": 773346100,
+    "groupId": 46,
+    "id": 13
+  },
+  {
+    "battlePower": 1046381100,
+    "groupId": 46,
+    "id": 14
+  },
+  {
+    "battlePower": 1386002800,
+    "groupId": 46,
+    "id": 15
+  },
+  {
+    "battlePower": 453500,
+    "groupId": 46,
+    "id": 16
+  },
+  {
+    "battlePower": 579800,
+    "groupId": 46,
+    "id": 17
+  },
+  {
+    "battlePower": 731000,
+    "groupId": 46,
+    "id": 18
+  },
+  {
+    "battlePower": 909800,
+    "groupId": 46,
+    "id": 19
+  },
+  {
+    "battlePower": 1119700,
+    "groupId": 46,
+    "id": 20
+  },
+  {
+    "battlePower": 1363900,
+    "groupId": 46,
+    "id": 21
+  },
+  {
+    "battlePower": 1646100,
+    "groupId": 46,
+    "id": 22
+  },
+  {
+    "battlePower": 1970000,
+    "groupId": 46,
+    "id": 23
+  },
+  {
+    "battlePower": 2339500,
+    "groupId": 46,
+    "id": 24
+  },
+  {
+    "battlePower": 2758700,
+    "groupId": 46,
+    "id": 25
+  },
+  {
+    "battlePower": 3231800,
+    "groupId": 46,
+    "id": 26
+  },
+  {
+    "battlePower": 3763300,
+    "groupId": 46,
+    "id": 27
+  },
+  {
+    "battlePower": 4357900,
+    "groupId": 46,
+    "id": 28
+  },
+  {
+    "battlePower": 5020300,
+    "groupId": 46,
+    "id": 29
+  },
+  {
+    "battlePower": 5755500,
+    "groupId": 46,
+    "id": 30
+  },
+  {
+    "battlePower": 300,
+    "groupId": 47,
+    "id": 1
+  },
+  {
+    "battlePower": 235000,
+    "groupId": 47,
+    "id": 2
+  },
+  {
+    "battlePower": 1584400,
+    "groupId": 47,
+    "id": 3
+  },
+  {
+    "battlePower": 5632400,
+    "groupId": 47,
+    "id": 4
+  },
+  {
+    "battlePower": 14667200,
+    "groupId": 47,
+    "id": 5
+  },
+  {
+    "battlePower": 31680600,
+    "groupId": 47,
+    "id": 6
+  },
+  {
+    "battlePower": 60368700,
+    "groupId": 47,
+    "id": 7
+  },
+  {
+    "battlePower": 105131500,
+    "groupId": 47,
+    "id": 8
+  },
+  {
+    "battlePower": 171073000,
+    "groupId": 47,
+    "id": 9
+  },
+  {
+    "battlePower": 264001200,
+    "groupId": 47,
+    "id": 10
+  },
+  {
+    "battlePower": 390428100,
+    "groupId": 47,
+    "id": 11
+  },
+  {
+    "battlePower": 557569700,
+    "groupId": 47,
+    "id": 12
+  },
+  {
+    "battlePower": 773346100,
+    "groupId": 47,
+    "id": 13
+  },
+  {
+    "battlePower": 1046381100,
+    "groupId": 47,
+    "id": 14
+  },
+  {
+    "battlePower": 1386002800,
+    "groupId": 47,
+    "id": 15
+  },
+  {
+    "battlePower": 453500,
+    "groupId": 47,
+    "id": 16
+  },
+  {
+    "battlePower": 579800,
+    "groupId": 47,
+    "id": 17
+  },
+  {
+    "battlePower": 731000,
+    "groupId": 47,
+    "id": 18
+  },
+  {
+    "battlePower": 909800,
+    "groupId": 47,
+    "id": 19
+  },
+  {
+    "battlePower": 1119700,
+    "groupId": 47,
+    "id": 20
+  },
+  {
+    "battlePower": 1363900,
+    "groupId": 47,
+    "id": 21
+  },
+  {
+    "battlePower": 1646100,
+    "groupId": 47,
+    "id": 22
+  },
+  {
+    "battlePower": 1970000,
+    "groupId": 47,
+    "id": 23
+  },
+  {
+    "battlePower": 2339500,
+    "groupId": 47,
+    "id": 24
+  },
+  {
+    "battlePower": 2758700,
+    "groupId": 47,
+    "id": 25
+  },
+  {
+    "battlePower": 3231800,
+    "groupId": 47,
+    "id": 26
+  },
+  {
+    "battlePower": 3763300,
+    "groupId": 47,
+    "id": 27
+  },
+  {
+    "battlePower": 4357900,
+    "groupId": 47,
+    "id": 28
+  },
+  {
+    "battlePower": 5020300,
+    "groupId": 47,
+    "id": 29
+  },
+  {
+    "battlePower": 5755500,
+    "groupId": 47,
+    "id": 30
+  },
+  {
+    "battlePower": 300,
+    "groupId": 48,
+    "id": 1
+  },
+  {
+    "battlePower": 235000,
+    "groupId": 48,
+    "id": 2
+  },
+  {
+    "battlePower": 1584400,
+    "groupId": 48,
+    "id": 3
+  },
+  {
+    "battlePower": 5632400,
+    "groupId": 48,
+    "id": 4
+  },
+  {
+    "battlePower": 14667200,
+    "groupId": 48,
+    "id": 5
+  },
+  {
+    "battlePower": 31680600,
+    "groupId": 48,
+    "id": 6
+  },
+  {
+    "battlePower": 60368700,
+    "groupId": 48,
+    "id": 7
+  },
+  {
+    "battlePower": 105131500,
+    "groupId": 48,
+    "id": 8
+  },
+  {
+    "battlePower": 171073000,
+    "groupId": 48,
+    "id": 9
+  },
+  {
+    "battlePower": 264001200,
+    "groupId": 48,
+    "id": 10
+  },
+  {
+    "battlePower": 390428100,
+    "groupId": 48,
+    "id": 11
+  },
+  {
+    "battlePower": 557569700,
+    "groupId": 48,
+    "id": 12
+  },
+  {
+    "battlePower": 773346100,
+    "groupId": 48,
+    "id": 13
+  },
+  {
+    "battlePower": 1046381100,
+    "groupId": 48,
+    "id": 14
+  },
+  {
+    "battlePower": 1386002800,
+    "groupId": 48,
+    "id": 15
+  },
+  {
+    "battlePower": 453500,
+    "groupId": 48,
+    "id": 16
+  },
+  {
+    "battlePower": 579800,
+    "groupId": 48,
+    "id": 17
+  },
+  {
+    "battlePower": 731000,
+    "groupId": 48,
+    "id": 18
+  },
+  {
+    "battlePower": 909800,
+    "groupId": 48,
+    "id": 19
+  },
+  {
+    "battlePower": 1119700,
+    "groupId": 48,
+    "id": 20
+  },
+  {
+    "battlePower": 1363900,
+    "groupId": 48,
+    "id": 21
+  },
+  {
+    "battlePower": 1646100,
+    "groupId": 48,
+    "id": 22
+  },
+  {
+    "battlePower": 1970000,
+    "groupId": 48,
+    "id": 23
+  },
+  {
+    "battlePower": 2339500,
+    "groupId": 48,
+    "id": 24
+  },
+  {
+    "battlePower": 2758700,
+    "groupId": 48,
+    "id": 25
+  },
+  {
+    "battlePower": 3231800,
+    "groupId": 48,
+    "id": 26
+  },
+  {
+    "battlePower": 3763300,
+    "groupId": 48,
+    "id": 27
+  },
+  {
+    "battlePower": 4357900,
+    "groupId": 48,
+    "id": 28
+  },
+  {
+    "battlePower": 5020300,
+    "groupId": 48,
+    "id": 29
+  },
+  {
+    "battlePower": 5755500,
+    "groupId": 48,
+    "id": 30
+  },
+  {
+    "battlePower": 300,
+    "groupId": 49,
+    "id": 1
+  },
+  {
+    "battlePower": 235000,
+    "groupId": 49,
+    "id": 2
+  },
+  {
+    "battlePower": 1584400,
+    "groupId": 49,
+    "id": 3
+  },
+  {
+    "battlePower": 5632400,
+    "groupId": 49,
+    "id": 4
+  },
+  {
+    "battlePower": 14667200,
+    "groupId": 49,
+    "id": 5
+  },
+  {
+    "battlePower": 31680600,
+    "groupId": 49,
+    "id": 6
+  },
+  {
+    "battlePower": 60368700,
+    "groupId": 49,
+    "id": 7
+  },
+  {
+    "battlePower": 105131500,
+    "groupId": 49,
+    "id": 8
+  },
+  {
+    "battlePower": 171073000,
+    "groupId": 49,
+    "id": 9
+  },
+  {
+    "battlePower": 264001200,
+    "groupId": 49,
+    "id": 10
+  },
+  {
+    "battlePower": 390428100,
+    "groupId": 49,
+    "id": 11
+  },
+  {
+    "battlePower": 557569700,
+    "groupId": 49,
+    "id": 12
+  },
+  {
+    "battlePower": 773346100,
+    "groupId": 49,
+    "id": 13
+  },
+  {
+    "battlePower": 1046381100,
+    "groupId": 49,
+    "id": 14
+  },
+  {
+    "battlePower": 1386002800,
+    "groupId": 49,
+    "id": 15
+  },
+  {
+    "battlePower": 453500,
+    "groupId": 49,
+    "id": 16
+  },
+  {
+    "battlePower": 579800,
+    "groupId": 49,
+    "id": 17
+  },
+  {
+    "battlePower": 731000,
+    "groupId": 49,
+    "id": 18
+  },
+  {
+    "battlePower": 909800,
+    "groupId": 49,
+    "id": 19
+  },
+  {
+    "battlePower": 1119700,
+    "groupId": 49,
+    "id": 20
+  },
+  {
+    "battlePower": 1363900,
+    "groupId": 49,
+    "id": 21
+  },
+  {
+    "battlePower": 1646100,
+    "groupId": 49,
+    "id": 22
+  },
+  {
+    "battlePower": 1970000,
+    "groupId": 49,
+    "id": 23
+  },
+  {
+    "battlePower": 2339500,
+    "groupId": 49,
+    "id": 24
+  },
+  {
+    "battlePower": 2758700,
+    "groupId": 49,
+    "id": 25
+  },
+  {
+    "battlePower": 3231800,
+    "groupId": 49,
+    "id": 26
+  },
+  {
+    "battlePower": 3763300,
+    "groupId": 49,
+    "id": 27
+  },
+  {
+    "battlePower": 4357900,
+    "groupId": 49,
+    "id": 28
+  },
+  {
+    "battlePower": 5020300,
+    "groupId": 49,
+    "id": 29
+  },
+  {
+    "battlePower": 5755500,
+    "groupId": 49,
+    "id": 30
+  },
+  {
+    "battlePower": 300,
+    "groupId": 50,
+    "id": 1
+  },
+  {
+    "battlePower": 235000,
+    "groupId": 50,
+    "id": 2
+  },
+  {
+    "battlePower": 1584400,
+    "groupId": 50,
+    "id": 3
+  },
+  {
+    "battlePower": 5632400,
+    "groupId": 50,
+    "id": 4
+  },
+  {
+    "battlePower": 14667200,
+    "groupId": 50,
+    "id": 5
+  },
+  {
+    "battlePower": 31680600,
+    "groupId": 50,
+    "id": 6
+  },
+  {
+    "battlePower": 60368700,
+    "groupId": 50,
+    "id": 7
+  },
+  {
+    "battlePower": 105131500,
+    "groupId": 50,
+    "id": 8
+  },
+  {
+    "battlePower": 171073000,
+    "groupId": 50,
+    "id": 9
+  },
+  {
+    "battlePower": 264001200,
+    "groupId": 50,
+    "id": 10
+  },
+  {
+    "battlePower": 390428100,
+    "groupId": 50,
+    "id": 11
+  },
+  {
+    "battlePower": 557569700,
+    "groupId": 50,
+    "id": 12
+  },
+  {
+    "battlePower": 773346100,
+    "groupId": 50,
+    "id": 13
+  },
+  {
+    "battlePower": 1046381100,
+    "groupId": 50,
+    "id": 14
+  },
+  {
+    "battlePower": 1386002800,
+    "groupId": 50,
+    "id": 15
+  },
+  {
+    "battlePower": 453500,
+    "groupId": 50,
+    "id": 16
+  },
+  {
+    "battlePower": 579800,
+    "groupId": 50,
+    "id": 17
+  },
+  {
+    "battlePower": 731000,
+    "groupId": 50,
+    "id": 18
+  },
+  {
+    "battlePower": 909800,
+    "groupId": 50,
+    "id": 19
+  },
+  {
+    "battlePower": 1119700,
+    "groupId": 50,
+    "id": 20
+  },
+  {
+    "battlePower": 1363900,
+    "groupId": 50,
+    "id": 21
+  },
+  {
+    "battlePower": 1646100,
+    "groupId": 50,
+    "id": 22
+  },
+  {
+    "battlePower": 1970000,
+    "groupId": 50,
+    "id": 23
+  },
+  {
+    "battlePower": 2339500,
+    "groupId": 50,
+    "id": 24
+  },
+  {
+    "battlePower": 2758700,
+    "groupId": 50,
+    "id": 25
+  },
+  {
+    "battlePower": 3231800,
+    "groupId": 50,
+    "id": 26
+  },
+  {
+    "battlePower": 3763300,
+    "groupId": 50,
+    "id": 27
+  },
+  {
+    "battlePower": 4357900,
+    "groupId": 50,
+    "id": 28
+  },
+  {
+    "battlePower": 5020300,
+    "groupId": 50,
+    "id": 29
+  },
+  {
+    "battlePower": 5755500,
+    "groupId": 50,
+    "id": 30
+  }
+]

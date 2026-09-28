@@ -1,0 +1,10 @@
+[
+  { "id": 6, "isEnableTimeline": 1, "mapId": 13, "questRange": [ 0 ] },
+  { "id": 1, "isEnableTimeline": 1, "isSafeArea": 1, "mapId": 1, "questRange": [ 0 ] },
+  { "id": 2, "isEnableTimeline": 1, "mapId": 2, "questRange": [ 0 ] },
+  { "id": 3, "isEnableTimeline": 1, "mapId": 2, "questRange": [ 0 ] },
+  { "id": 4, "isEnableTimeline": 1, "mapId": 3, "questRange": [ 0 ] },
+  { "id": 5, "isEnableTimeline": 1, "mapId": 3, "questRange": [ 0 ] },
+  { "id": 7, "isEnableTimeline": 1, "questRange": [ 0 ] },
+  { "id": 8, "isEnableTimeline": 1, "isSafeArea": 1, "mapId": 8, "questRange": [ 0 ] }
+]

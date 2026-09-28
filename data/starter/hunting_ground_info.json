@@ -1,0 +1,52 @@
+{
+  "huntingGroundInfo": [
+    {
+      "monsterInfo": [
+        {
+          "monsterId": 201,
+          "battleDeck": 201,
+          "respawnTime": 0,
+          "lifeEndTime": 0,
+          "groupId": 0,
+          "activeFlag": true
+        },
+        {
+          "monsterId": 202,
+          "battleDeck": 202,
+          "respawnTime": 0,
+          "lifeEndTime": 0,
+          "groupId": 0,
+          "activeFlag": true
+        },
+        {
+          "monsterId": 203,
+          "battleDeck": 203,
+          "respawnTime": 0,
+          "lifeEndTime": 0,
+          "groupId": 0,
+          "activeFlag": true
+        },
+        {
+          "monsterId": 204,
+          "battleDeck": 204,
+          "respawnTime": 0,
+          "lifeEndTime": 0,
+          "groupId": 0,
+          "activeFlag": true
+        },
+        {
+          "monsterId": 205,
+          "battleDeck": 205,
+          "respawnTime": 0,
+          "lifeEndTime": 0,
+          "groupId": 0,
+          "activeFlag": true
+        }
+      ],
+      "isAuto": false,
+      "currentId": 1,
+      "highestId": 0,
+      "packId": 1
+    }
+  ]
+}

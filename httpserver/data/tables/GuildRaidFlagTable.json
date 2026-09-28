@@ -1,0 +1,26 @@
+[
+  {
+    "groupId": 1,
+    "guildRaidFlagDescNameTextId": 30061302,
+    "guildRaidFlagGrade": 1,
+    "guildRaidFlagNameTextId": 30061301,
+    "id": 1,
+    "rank": 0.1
+  },
+  {
+    "groupId": 1,
+    "guildRaidFlagDescNameTextId": 30061304,
+    "guildRaidFlagGrade": 2,
+    "guildRaidFlagNameTextId": 30061303,
+    "id": 2,
+    "rank": 1.0
+  },
+  {
+    "groupId": 1,
+    "guildRaidFlagDescNameTextId": 30061306,
+    "guildRaidFlagGrade": 3,
+    "guildRaidFlagNameTextId": 30061305,
+    "id": 3,
+    "rank": 5.0
+  }
+]

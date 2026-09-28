@@ -1,0 +1,751 @@
+[
+  {
+    "groupId": 1,
+    "id": 1,
+    "levelupExp": 250
+  },
+  {
+    "groupId": 1,
+    "id": 2,
+    "levelupExp": 500
+  },
+  {
+    "groupId": 1,
+    "id": 3,
+    "levelupExp": 1000
+  },
+  {
+    "groupId": 1,
+    "id": 4,
+    "levelupExp": 1500
+  },
+  {
+    "groupId": 1,
+    "id": 5,
+    "levelupExp": 2000
+  },
+  {
+    "groupId": 1,
+    "id": 6,
+    "levelupExp": 2500
+  },
+  {
+    "groupId": 1,
+    "id": 7,
+    "levelupExp": 3000
+  },
+  {
+    "groupId": 1,
+    "id": 8,
+    "levelupExp": 3500
+  },
+  {
+    "groupId": 1,
+    "id": 9,
+    "levelupExp": 4000
+  },
+  {
+    "groupId": 1,
+    "id": 10,
+    "levelupExp": 4500
+  },
+  {
+    "groupId": 1,
+    "id": 11,
+    "levelupExp": 5000
+  },
+  {
+    "groupId": 1,
+    "id": 12,
+    "levelupExp": 5500
+  },
+  {
+    "groupId": 1,
+    "id": 13,
+    "levelupExp": 6000
+  },
+  {
+    "groupId": 1,
+    "id": 14,
+    "levelupExp": 6500
+  },
+  {
+    "groupId": 1,
+    "id": 15,
+    "levelupExp": 7000
+  },
+  {
+    "groupId": 1,
+    "id": 16,
+    "levelupExp": 7500
+  },
+  {
+    "groupId": 1,
+    "id": 17,
+    "levelupExp": 8000
+  },
+  {
+    "groupId": 1,
+    "id": 18,
+    "levelupExp": 8500
+  },
+  {
+    "groupId": 1,
+    "id": 19,
+    "levelupExp": 9000
+  },
+  {
+    "groupId": 1,
+    "id": 20,
+    "levelupExp": 9500
+  },
+  {
+    "groupId": 1,
+    "id": 21,
+    "levelupExp": 10000
+  },
+  {
+    "groupId": 1,
+    "id": 22,
+    "levelupExp": 11000
+  },
+  {
+    "groupId": 1,
+    "id": 23,
+    "levelupExp": 12000
+  },
+  {
+    "groupId": 1,
+    "id": 24,
+    "levelupExp": 13000
+  },
+  {
+    "groupId": 1,
+    "id": 25,
+    "levelupExp": 14000
+  },
+  {
+    "groupId": 1,
+    "id": 26,
+    "levelupExp": 15000
+  },
+  {
+    "groupId": 1,
+    "id": 27,
+    "levelupExp": 16000
+  },
+  {
+    "groupId": 1,
+    "id": 28,
+    "levelupExp": 17000
+  },
+  {
+    "groupId": 1,
+    "id": 29,
+    "levelupExp": 18000
+  },
+  {
+    "groupId": 1,
+    "id": 30,
+    "levelupExp": 19000
+  },
+  {
+    "groupId": 1,
+    "id": 31,
+    "levelupExp": 20000
+  },
+  {
+    "groupId": 1,
+    "id": 32,
+    "levelupExp": 21000
+  },
+  {
+    "groupId": 1,
+    "id": 33,
+    "levelupExp": 22000
+  },
+  {
+    "groupId": 1,
+    "id": 34,
+    "levelupExp": 23000
+  },
+  {
+    "groupId": 1,
+    "id": 35,
+    "levelupExp": 24000
+  },
+  {
+    "groupId": 1,
+    "id": 36,
+    "levelupExp": 25000
+  },
+  {
+    "groupId": 1,
+    "id": 37,
+    "levelupExp": 26000
+  },
+  {
+    "groupId": 1,
+    "id": 38,
+    "levelupExp": 27000
+  },
+  {
+    "groupId": 1,
+    "id": 39,
+    "levelupExp": 28000
+  },
+  {
+    "groupId": 1,
+    "id": 40,
+    "levelupExp": 29000
+  },
+  {
+    "groupId": 1,
+    "id": 41,
+    "levelupExp": 30000
+  },
+  {
+    "groupId": 1,
+    "id": 42,
+    "levelupExp": 32500
+  },
+  {
+    "groupId": 1,
+    "id": 43,
+    "levelupExp": 35000
+  },
+  {
+    "groupId": 1,
+    "id": 44,
+    "levelupExp": 37500
+  },
+  {
+    "groupId": 1,
+    "id": 45,
+    "levelupExp": 40000
+  },
+  {
+    "groupId": 1,
+    "id": 46,
+    "levelupExp": 42500
+  },
+  {
+    "groupId": 1,
+    "id": 47,
+    "levelupExp": 45000
+  },
+  {
+    "groupId": 1,
+    "id": 48,
+    "levelupExp": 47500
+  },
+  {
+    "groupId": 1,
+    "id": 49,
+    "levelupExp": 50000
+  },
+  {
+    "groupId": 1,
+    "id": 50,
+    "levelupExp": 55000
+  },
+  {
+    "groupId": 1,
+    "id": 51,
+    "levelupExp": 60000
+  },
+  {
+    "groupId": 1,
+    "id": 52,
+    "levelupExp": 65000
+  },
+  {
+    "groupId": 1,
+    "id": 53,
+    "levelupExp": 70000
+  },
+  {
+    "groupId": 1,
+    "id": 54,
+    "levelupExp": 75000
+  },
+  {
+    "groupId": 1,
+    "id": 55,
+    "levelupExp": 80000
+  },
+  {
+    "groupId": 1,
+    "id": 56,
+    "levelupExp": 85000
+  },
+  {
+    "groupId": 1,
+    "id": 57,
+    "levelupExp": 90000
+  },
+  {
+    "groupId": 1,
+    "id": 58,
+    "levelupExp": 95000
+  },
+  {
+    "groupId": 1,
+    "id": 59,
+    "levelupExp": 100000
+  },
+  {
+    "groupId": 1,
+    "id": 60,
+    "levelupExp": 110000
+  },
+  {
+    "groupId": 1,
+    "id": 61,
+    "levelupExp": 120000
+  },
+  {
+    "groupId": 1,
+    "id": 62,
+    "levelupExp": 130000
+  },
+  {
+    "groupId": 1,
+    "id": 63,
+    "levelupExp": 140000
+  },
+  {
+    "groupId": 1,
+    "id": 64,
+    "levelupExp": 150000
+  },
+  {
+    "groupId": 1,
+    "id": 65,
+    "levelupExp": 160000
+  },
+  {
+    "groupId": 1,
+    "id": 66,
+    "levelupExp": 170000
+  },
+  {
+    "groupId": 1,
+    "id": 67,
+    "levelupExp": 180000
+  },
+  {
+    "groupId": 1,
+    "id": 68,
+    "levelupExp": 190000
+  },
+  {
+    "groupId": 1,
+    "id": 69,
+    "levelupExp": 200000
+  },
+  {
+    "groupId": 1,
+    "id": 70,
+    "levelupExp": 210000
+  },
+  {
+    "groupId": 1,
+    "id": 71,
+    "levelupExp": 220000
+  },
+  {
+    "groupId": 1,
+    "id": 72,
+    "levelupExp": 230000
+  },
+  {
+    "groupId": 1,
+    "id": 73,
+    "levelupExp": 240000
+  },
+  {
+    "groupId": 1,
+    "id": 74,
+    "levelupExp": 250000
+  },
+  {
+    "groupId": 1,
+    "id": 75,
+    "levelupExp": 260000
+  },
+  {
+    "groupId": 1,
+    "id": 76,
+    "levelupExp": 270000
+  },
+  {
+    "groupId": 1,
+    "id": 77,
+    "levelupExp": 280000
+  },
+  {
+    "groupId": 1,
+    "id": 78,
+    "levelupExp": 290000
+  },
+  {
+    "groupId": 1,
+    "id": 79,
+    "levelupExp": 300000
+  },
+  {
+    "groupId": 1,
+    "id": 80,
+    "levelupExp": 310000
+  },
+  {
+    "groupId": 1,
+    "id": 81,
+    "levelupExp": 320000
+  },
+  {
+    "groupId": 1,
+    "id": 82,
+    "levelupExp": 330000
+  },
+  {
+    "groupId": 1,
+    "id": 83,
+    "levelupExp": 340000
+  },
+  {
+    "groupId": 1,
+    "id": 84,
+    "levelupExp": 350000
+  },
+  {
+    "groupId": 1,
+    "id": 85,
+    "levelupExp": 360000
+  },
+  {
+    "groupId": 1,
+    "id": 86,
+    "levelupExp": 370000
+  },
+  {
+    "groupId": 1,
+    "id": 87,
+    "levelupExp": 380000
+  },
+  {
+    "groupId": 1,
+    "id": 88,
+    "levelupExp": 390000
+  },
+  {
+    "groupId": 1,
+    "id": 89,
+    "levelupExp": 400000
+  },
+  {
+    "groupId": 1,
+    "id": 90,
+    "levelupExp": 410000
+  },
+  {
+    "groupId": 1,
+    "id": 91,
+    "levelupExp": 420000
+  },
+  {
+    "groupId": 1,
+    "id": 92,
+    "levelupExp": 430000
+  },
+  {
+    "groupId": 1,
+    "id": 93,
+    "levelupExp": 440000
+  },
+  {
+    "groupId": 1,
+    "id": 94,
+    "levelupExp": 450000
+  },
+  {
+    "groupId": 1,
+    "id": 95,
+    "levelupExp": 460000
+  },
+  {
+    "groupId": 1,
+    "id": 96,
+    "levelupExp": 470000
+  },
+  {
+    "groupId": 1,
+    "id": 97,
+    "levelupExp": 480000
+  },
+  {
+    "groupId": 1,
+    "id": 98,
+    "levelupExp": 490000
+  },
+  {
+    "groupId": 1,
+    "id": 99,
+    "levelupExp": 500000
+  },
+  {
+    "groupId": 1,
+    "id": 100,
+    "levelupExp": 510000
+  },
+  {
+    "groupId": 1,
+    "id": 101,
+    "levelupExp": 520000
+  },
+  {
+    "groupId": 1,
+    "id": 102,
+    "levelupExp": 530000
+  },
+  {
+    "groupId": 1,
+    "id": 103,
+    "levelupExp": 540000
+  },
+  {
+    "groupId": 1,
+    "id": 104,
+    "levelupExp": 550000
+  },
+  {
+    "groupId": 1,
+    "id": 105,
+    "levelupExp": 560000
+  },
+  {
+    "groupId": 1,
+    "id": 106,
+    "levelupExp": 570000
+  },
+  {
+    "groupId": 1,
+    "id": 107,
+    "levelupExp": 580000
+  },
+  {
+    "groupId": 1,
+    "id": 108,
+    "levelupExp": 590000
+  },
+  {
+    "groupId": 1,
+    "id": 109,
+    "levelupExp": 600000
+  },
+  {
+    "groupId": 1,
+    "id": 110,
+    "levelupExp": 610000
+  },
+  {
+    "groupId": 1,
+    "id": 111,
+    "levelupExp": 620000
+  },
+  {
+    "groupId": 1,
+    "id": 112,
+    "levelupExp": 630000
+  },
+  {
+    "groupId": 1,
+    "id": 113,
+    "levelupExp": 640000
+  },
+  {
+    "groupId": 1,
+    "id": 114,
+    "levelupExp": 650000
+  },
+  {
+    "groupId": 1,
+    "id": 115,
+    "levelupExp": 660000
+  },
+  {
+    "groupId": 1,
+    "id": 116,
+    "levelupExp": 670000
+  },
+  {
+    "groupId": 1,
+    "id": 117,
+    "levelupExp": 680000
+  },
+  {
+    "groupId": 1,
+    "id": 118,
+    "levelupExp": 690000
+  },
+  {
+    "groupId": 1,
+    "id": 119,
+    "levelupExp": 700000
+  },
+  {
+    "groupId": 1,
+    "id": 120,
+    "levelupExp": 710000
+  },
+  {
+    "groupId": 1,
+    "id": 121,
+    "levelupExp": 720000
+  },
+  {
+    "groupId": 1,
+    "id": 122,
+    "levelupExp": 730000
+  },
+  {
+    "groupId": 1,
+    "id": 123,
+    "levelupExp": 740000
+  },
+  {
+    "groupId": 1,
+    "id": 124,
+    "levelupExp": 750000
+  },
+  {
+    "groupId": 1,
+    "id": 125,
+    "levelupExp": 760000
+  },
+  {
+    "groupId": 1,
+    "id": 126,
+    "levelupExp": 770000
+  },
+  {
+    "groupId": 1,
+    "id": 127,
+    "levelupExp": 780000
+  },
+  {
+    "groupId": 1,
+    "id": 128,
+    "levelupExp": 790000
+  },
+  {
+    "groupId": 1,
+    "id": 129,
+    "levelupExp": 800000
+  },
+  {
+    "groupId": 1,
+    "id": 130,
+    "levelupExp": 810000
+  },
+  {
+    "groupId": 1,
+    "id": 131,
+    "levelupExp": 820000
+  },
+  {
+    "groupId": 1,
+    "id": 132,
+    "levelupExp": 830000
+  },
+  {
+    "groupId": 1,
+    "id": 133,
+    "levelupExp": 840000
+  },
+  {
+    "groupId": 1,
+    "id": 134,
+    "levelupExp": 850000
+  },
+  {
+    "groupId": 1,
+    "id": 135,
+    "levelupExp": 860000
+  },
+  {
+    "groupId": 1,
+    "id": 136,
+    "levelupExp": 870000
+  },
+  {
+    "groupId": 1,
+    "id": 137,
+    "levelupExp": 880000
+  },
+  {
+    "groupId": 1,
+    "id": 138,
+    "levelupExp": 890000
+  },
+  {
+    "groupId": 1,
+    "id": 139,
+    "levelupExp": 900000
+  },
+  {
+    "groupId": 1,
+    "id": 140,
+    "levelupExp": 910000
+  },
+  {
+    "groupId": 1,
+    "id": 141,
+    "levelupExp": 920000
+  },
+  {
+    "groupId": 1,
+    "id": 142,
+    "levelupExp": 930000
+  },
+  {
+    "groupId": 1,
+    "id": 143,
+    "levelupExp": 940000
+  },
+  {
+    "groupId": 1,
+    "id": 144,
+    "levelupExp": 950000
+  },
+  {
+    "groupId": 1,
+    "id": 145,
+    "levelupExp": 960000
+  },
+  {
+    "groupId": 1,
+    "id": 146,
+    "levelupExp": 970000
+  },
+  {
+    "groupId": 1,
+    "id": 147,
+    "levelupExp": 980000
+  },
+  {
+    "groupId": 1,
+    "id": 148,
+    "levelupExp": 990000
+  },
+  {
+    "groupId": 1,
+    "id": 149,
+    "levelupExp": 1000000
+  },
+  {
+    "groupId": 1,
+    "id": 150
+  }
+]

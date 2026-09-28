@@ -1,0 +1,279 @@
+[
+  {
+    "groupId": 1,
+    "id": 1,
+    "movePatternRepeat": 3
+  },
+  {
+    "groupId": 1,
+    "id": 2,
+    "movePatternRepeat": 3
+  },
+  {
+    "groupId": 1,
+    "id": 3,
+    "movePatternRepeat": 3
+  },
+  {
+    "groupId": 1,
+    "id": 4,
+    "movePatternRepeat": 3
+  },
+  {
+    "groupId": 1,
+    "id": 5,
+    "movePatternRepeat": 3
+  },
+  {
+    "groupId": 1,
+    "id": 6,
+    "movePatternRepeat": 3
+  },
+  {
+    "groupId": 1,
+    "id": 7,
+    "movePatternRepeat": 3
+  },
+  {
+    "groupId": 1,
+    "id": 8,
+    "movePatternRepeat": 3
+  },
+  {
+    "groupId": 1,
+    "id": 9,
+    "movePatternRepeat": 3
+  },
+  {
+    "groupId": 1,
+    "id": 10,
+    "movePatternRepeat": 3
+  },
+  {
+    "groupId": 1,
+    "id": 11,
+    "movePatternRepeat": 3
+  },
+  {
+    "groupId": 1,
+    "id": 12,
+    "movePatternRepeat": 3
+  },
+  {
+    "groupId": 1,
+    "id": 13,
+    "movePatternRepeat": 3
+  },
+  {
+    "groupId": 1,
+    "id": 14,
+    "movePatternRepeat": 3
+  },
+  {
+    "groupId": 1,
+    "id": 15,
+    "movePatternRepeat": 3
+  },
+  {
+    "groupId": 1,
+    "id": 16,
+    "movePatternRepeat": 3
+  },
+  {
+    "groupId": 1,
+    "id": 17,
+    "movePatternRepeat": 3
+  },
+  {
+    "groupId": 1,
+    "id": 18,
+    "movePatternRepeat": 3
+  },
+  {
+    "groupId": 1,
+    "id": 19,
+    "movePatternRepeat": 3
+  },
+  {
+    "groupId": 1,
+    "id": 20,
+    "movePatternRepeat": 3
+  },
+  {
+    "groupId": 2,
+    "id": 1,
+    "movePatternRepeat": 2,
+    "stopTime": 3
+  },
+  {
+    "groupId": 2,
+    "id": 2,
+    "movePatternRepeat": 2,
+    "stopTime": 3
+  },
+  {
+    "groupId": 2,
+    "id": 3,
+    "movePatternRepeat": 2,
+    "stopTime": 3
+  },
+  {
+    "groupId": 2,
+    "id": 4,
+    "movePatternRepeat": 2,
+    "stopTime": 3
+  },
+  {
+    "groupId": 2,
+    "id": 5,
+    "movePatternRepeat": 2,
+    "stopTime": 3
+  },
+  {
+    "groupId": 2,
+    "id": 6,
+    "movePatternRepeat": 2,
+    "stopTime": 3
+  },
+  {
+    "groupId": 2,
+    "id": 7,
+    "movePatternRepeat": 2,
+    "stopTime": 3
+  },
+  {
+    "groupId": 2,
+    "id": 8,
+    "movePatternRepeat": 2,
+    "stopTime": 3
+  },
+  {
+    "groupId": 2,
+    "id": 9,
+    "movePatternRepeat": 2,
+    "stopTime": 3
+  },
+  {
+    "groupId": 2,
+    "id": 10,
+    "movePatternRepeat": 2,
+    "stopTime": 3
+  },
+  {
+    "groupId": 2,
+    "id": 11,
+    "movePatternRepeat": 2,
+    "stopTime": 3
+  },
+  {
+    "groupId": 2,
+    "id": 12,
+    "movePatternRepeat": 2,
+    "stopTime": 3
+  },
+  {
+    "groupId": 2,
+    "id": 13,
+    "movePatternRepeat": 2,
+    "stopTime": 3
+  },
+  {
+    "groupId": 2,
+    "id": 14,
+    "movePatternRepeat": 2,
+    "stopTime": 3
+  },
+  {
+    "groupId": 2,
+    "id": 15,
+    "movePatternRepeat": 2,
+    "stopTime": 3
+  },
+  {
+    "groupId": 2,
+    "id": 16,
+    "movePatternRepeat": 2,
+    "stopTime": 3
+  },
+  {
+    "groupId": 2,
+    "id": 17,
+    "movePatternRepeat": 2,
+    "stopTime": 3
+  },
+  {
+    "groupId": 2,
+    "id": 18,
+    "movePatternRepeat": 2,
+    "stopTime": 3
+  },
+  {
+    "groupId": 3,
+    "id": 1,
+    "movePatternRepeat": 1,
+    "stopTime": 20
+  },
+  {
+    "groupId": 3,
+    "id": 2,
+    "movePatternRepeat": 1,
+    "stopTime": 20
+  },
+  {
+    "groupId": 3,
+    "id": 3,
+    "movePatternRepeat": 1,
+    "stopTime": 20
+  },
+  {
+    "groupId": 3,
+    "id": 4,
+    "movePatternRepeat": 1,
+    "stopTime": 20
+  },
+  {
+    "groupId": 4,
+    "id": 1,
+    "movePatternRepeat": 1
+  },
+  {
+    "groupId": 4,
+    "id": 2,
+    "movePatternRepeat": 1
+  },
+  {
+    "groupId": 4,
+    "id": 3,
+    "movePatternRepeat": 1
+  },
+  {
+    "groupId": 4,
+    "id": 4,
+    "movePatternRepeat": 1
+  },
+  {
+    "groupId": 4,
+    "id": 5,
+    "movePatternRepeat": 1
+  },
+  {
+    "groupId": 4,
+    "id": 6,
+    "movePatternRepeat": 1
+  },
+  {
+    "groupId": 4,
+    "id": 7,
+    "movePatternRepeat": 1
+  },
+  {
+    "groupId": 4,
+    "id": 8,
+    "movePatternRepeat": 1
+  },
+  {
+    "groupId": 4,
+    "id": 9,
+    "movePatternRepeat": 1
+  }
+]

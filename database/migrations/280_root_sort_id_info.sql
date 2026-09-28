@@ -1,0 +1,7 @@
+CREATE TABLE "RootSortIdInfo" (
+    "Index" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "Uid" BIGINT NOT NULL,
+    "Type" INTEGER,
+    "Id" INTEGER,
+    "SortId" INTEGER
+);

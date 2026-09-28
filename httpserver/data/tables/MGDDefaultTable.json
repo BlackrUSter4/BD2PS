@@ -1,0 +1,16 @@
+[
+  {
+    "dangerEffectTime": 10,
+    "dangerEffectValue": 90,
+    "elementAdvantage": 1.0,
+    "elementPenalty": 0.5,
+    "eventMissionGroupId": 6002,
+    "gameOverValue": 100,
+    "iconSpriteNameLarge": "currency_defencecoin_l_210",
+    "iconSpriteNameSmall": "currency_defencecoin_s_211",
+    "loadingLimit": 15000,
+    "startCost": 45,
+    "startWaitTime": 3,
+    "summonCost": 25
+  }
+]

@@ -1,0 +1,8 @@
+[
+  { "id": 101, "rewardCount": 70, "rewardType": 12, "sectionValue": 1 },
+  { "id": 102, "rewardCount": 1, "rewardId": 504153, "rewardType": 9, "sectionValue": 3 },
+  { "id": 103, "rewardCount": 60, "rewardType": 3, "sectionValue": 5 },
+  { "groupType": 1, "id": 201, "rewardCount": 4, "rewardId": 504144, "rewardType": 9, "sectionValue": 3 },
+  { "groupType": 1, "id": 202, "rewardCount": 4, "rewardId": 504146, "rewardType": 9, "sectionValue": 5 },
+  { "groupType": 1, "id": 203, "rewardCount": 200, "rewardType": 3, "sectionValue": 8 }
+]

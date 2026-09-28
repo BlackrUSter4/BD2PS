@@ -1,0 +1,5 @@
+﻿import "Commons/NpcReputationDBInfo.proto";
+
+message NpcReputationRecoveryResponse {
+  repeated NpcReputationDBInfo npc_reputation_info = 1;
+}

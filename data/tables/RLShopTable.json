@@ -1,0 +1,542 @@
+[
+  {
+    "haveCharCostumeSlotOption": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2
+    ],
+    "id": 1,
+    "rerollExpensive": 100,
+    "rerollNameTextId": 1,
+    "rerollPrice": 100,
+    "sellRelicChoiceTableId": 601,
+    "sellRelicCount": 5
+  },
+  {
+    "haveCharCostumeSlotOption": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2
+    ],
+    "id": 2,
+    "rerollExpensive": 100,
+    "rerollNameTextId": 1,
+    "rerollPrice": 100,
+    "sellRelicChoiceTableId": 602,
+    "sellRelicCount": 5
+  },
+  {
+    "haveCharCostumeSlotOption": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2
+    ],
+    "id": 3,
+    "rerollExpensive": 100,
+    "rerollNameTextId": 1,
+    "rerollPrice": 100,
+    "sellRelicChoiceTableId": 603,
+    "sellRelicCount": 5
+  },
+  {
+    "haveCharCostumeSlotOption": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2
+    ],
+    "id": 4,
+    "rerollExpensive": 100,
+    "rerollNameTextId": 1,
+    "rerollPrice": 100,
+    "sellRelicChoiceTableId": 604,
+    "sellRelicCount": 5
+  },
+  {
+    "haveCharCostumeSlotOption": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2
+    ],
+    "id": 5,
+    "rerollExpensive": 100,
+    "rerollNameTextId": 1,
+    "rerollPrice": 100,
+    "sellRelicChoiceTableId": 605,
+    "sellRelicCount": 5
+  },
+  {
+    "haveCharCostumeSlotOption": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2
+    ],
+    "id": 6,
+    "rerollExpensive": 100,
+    "rerollNameTextId": 1,
+    "rerollPrice": 100,
+    "sellRelicChoiceTableId": 606,
+    "sellRelicCount": 5
+  },
+  {
+    "haveCharCostumeSlotOption": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2
+    ],
+    "id": 7,
+    "rerollExpensive": 100,
+    "rerollNameTextId": 1,
+    "rerollPrice": 100,
+    "sellRelicChoiceTableId": 607,
+    "sellRelicCount": 5
+  },
+  {
+    "haveCharCostumeSlotOption": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2
+    ],
+    "id": 8,
+    "rerollExpensive": 100,
+    "rerollNameTextId": 1,
+    "rerollPrice": 100,
+    "sellRelicChoiceTableId": 608,
+    "sellRelicCount": 5
+  },
+  {
+    "haveCharCostumeSlotOption": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2
+    ],
+    "id": 9,
+    "rerollExpensive": 100,
+    "rerollNameTextId": 1,
+    "rerollPrice": 100,
+    "sellRelicChoiceTableId": 609,
+    "sellRelicCount": 5
+  },
+  {
+    "haveCharCostumeSlotOption": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2
+    ],
+    "id": 10,
+    "rerollExpensive": 100,
+    "rerollNameTextId": 1,
+    "rerollPrice": 100,
+    "sellRelicChoiceTableId": 610,
+    "sellRelicCount": 5
+  },
+  {
+    "haveCharCostumeSlotOption": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2
+    ],
+    "id": 11,
+    "rerollExpensive": 100,
+    "rerollNameTextId": 1,
+    "rerollPrice": 100,
+    "sellRelicChoiceTableId": 611,
+    "sellRelicCount": 5
+  },
+  {
+    "haveCharCostumeSlotOption": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2
+    ],
+    "id": 12,
+    "rerollExpensive": 100,
+    "rerollNameTextId": 1,
+    "rerollPrice": 100,
+    "sellRelicChoiceTableId": 612,
+    "sellRelicCount": 5
+  },
+  {
+    "haveCharCostumeSlotOption": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2
+    ],
+    "id": 13,
+    "rerollExpensive": 100,
+    "rerollNameTextId": 1,
+    "rerollPrice": 100,
+    "sellRelicChoiceTableId": 613,
+    "sellRelicCount": 5
+  },
+  {
+    "haveCharCostumeSlotOption": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2
+    ],
+    "id": 14,
+    "rerollExpensive": 100,
+    "rerollNameTextId": 1,
+    "rerollPrice": 100,
+    "sellRelicChoiceTableId": 614,
+    "sellRelicCount": 5
+  },
+  {
+    "haveCharCostumeSlotOption": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2
+    ],
+    "id": 15,
+    "rerollExpensive": 100,
+    "rerollNameTextId": 1,
+    "rerollPrice": 100,
+    "sellRelicChoiceTableId": 615,
+    "sellRelicCount": 5
+  },
+  {
+    "haveCharCostumeSlotOption": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2
+    ],
+    "id": 16,
+    "rerollExpensive": 100,
+    "rerollNameTextId": 1,
+    "rerollPrice": 100,
+    "sellRelicChoiceTableId": 616,
+    "sellRelicCount": 5
+  },
+  {
+    "haveCharCostumeSlotOption": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2
+    ],
+    "id": 17,
+    "rerollExpensive": 100,
+    "rerollNameTextId": 1,
+    "rerollPrice": 100,
+    "sellRelicChoiceTableId": 617,
+    "sellRelicCount": 5
+  },
+  {
+    "haveCharCostumeSlotOption": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2
+    ],
+    "id": 18,
+    "rerollExpensive": 100,
+    "rerollNameTextId": 1,
+    "rerollPrice": 100,
+    "sellRelicChoiceTableId": 618,
+    "sellRelicCount": 5
+  },
+  {
+    "haveCharCostumeSlotOption": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2
+    ],
+    "id": 19,
+    "rerollExpensive": 100,
+    "rerollNameTextId": 1,
+    "rerollPrice": 100,
+    "sellRelicChoiceTableId": 619,
+    "sellRelicCount": 5
+  },
+  {
+    "haveCharCostumeSlotOption": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2
+    ],
+    "id": 20,
+    "rerollExpensive": 100,
+    "rerollNameTextId": 1,
+    "rerollPrice": 100,
+    "sellRelicChoiceTableId": 620,
+    "sellRelicCount": 5
+  },
+  {
+    "haveCharCostumeSlotOption": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2
+    ],
+    "id": 21,
+    "rerollExpensive": 100,
+    "rerollNameTextId": 1,
+    "rerollPrice": 100,
+    "sellRelicChoiceTableId": 621,
+    "sellRelicCount": 5
+  },
+  {
+    "haveCharCostumeSlotOption": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2
+    ],
+    "id": 22,
+    "rerollExpensive": 100,
+    "rerollNameTextId": 1,
+    "rerollPrice": 100,
+    "sellRelicChoiceTableId": 622,
+    "sellRelicCount": 5
+  },
+  {
+    "haveCharCostumeSlotOption": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2
+    ],
+    "id": 23,
+    "rerollExpensive": 100,
+    "rerollNameTextId": 1,
+    "rerollPrice": 100,
+    "sellRelicChoiceTableId": 623,
+    "sellRelicCount": 5
+  },
+  {
+    "haveCharCostumeSlotOption": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2
+    ],
+    "id": 24,
+    "rerollExpensive": 100,
+    "rerollNameTextId": 1,
+    "rerollPrice": 100,
+    "sellRelicChoiceTableId": 624,
+    "sellRelicCount": 5
+  },
+  {
+    "haveCharCostumeSlotOption": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2
+    ],
+    "id": 25,
+    "rerollExpensive": 100,
+    "rerollNameTextId": 1,
+    "rerollPrice": 100,
+    "sellRelicChoiceTableId": 625,
+    "sellRelicCount": 5
+  },
+  {
+    "haveCharCostumeSlotOption": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2
+    ],
+    "id": 26,
+    "rerollExpensive": 100,
+    "rerollNameTextId": 1,
+    "rerollPrice": 100,
+    "sellRelicChoiceTableId": 626,
+    "sellRelicCount": 5
+  },
+  {
+    "haveCharCostumeSlotOption": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2
+    ],
+    "id": 27,
+    "rerollExpensive": 100,
+    "rerollNameTextId": 1,
+    "rerollPrice": 100,
+    "sellRelicChoiceTableId": 627,
+    "sellRelicCount": 5
+  },
+  {
+    "haveCharCostumeSlotOption": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2
+    ],
+    "id": 28,
+    "rerollExpensive": 100,
+    "rerollNameTextId": 1,
+    "rerollPrice": 100,
+    "sellRelicChoiceTableId": 628,
+    "sellRelicCount": 5
+  },
+  {
+    "haveCharCostumeSlotOption": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2
+    ],
+    "id": 29,
+    "rerollExpensive": 100,
+    "rerollNameTextId": 1,
+    "rerollPrice": 100,
+    "sellRelicChoiceTableId": 629,
+    "sellRelicCount": 5
+  },
+  {
+    "haveCharCostumeSlotOption": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2
+    ],
+    "id": 30,
+    "rerollExpensive": 100,
+    "rerollNameTextId": 1,
+    "rerollPrice": 100,
+    "sellRelicChoiceTableId": 630,
+    "sellRelicCount": 5
+  }
+]

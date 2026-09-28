@@ -1,0 +1,1083 @@
+[
+  {
+    "costType": 40,
+    "facilityId": 1,
+    "id": 1,
+    "manageIconResourceName": "icon_cafeteriamanage_type2",
+    "manageLocalTextId": 13532
+  },
+  {
+    "costType": 40,
+    "facilityId": 2,
+    "id": 2,
+    "manageIconResourceName": "icon_cafeteriamanage_type1",
+    "manageLocalTextId": 13533
+  },
+  {
+    "costType": 40,
+    "id": 3,
+    "manageIconResourceName": "icon_cafeteriamanage_type4",
+    "manageLocalTextId": 13536,
+    "parttimeId": 1
+  },
+  {
+    "costType": 40,
+    "id": 4,
+    "manageIconResourceName": "icon_cafeteriamanage_type5",
+    "manageLocalTextId": 13537,
+    "parttimeId": 1001
+  },
+  {
+    "costType": 40,
+    "costValue": 500,
+    "facilityId": 3,
+    "groupId": 1,
+    "id": 1,
+    "manageIconResourceName": "icon_cafeteriamanage_type2",
+    "manageLocalTextId": 13532
+  },
+  {
+    "costType": 40,
+    "costValue": 525,
+    "groupId": 1,
+    "id": 2,
+    "manageIconResourceName": "icon_cafeteriamanage_type5",
+    "manageLocalTextId": 13537,
+    "parttimeId": 1002
+  },
+  {
+    "costType": 40,
+    "costValue": 551,
+    "facilityId": 4,
+    "groupId": 1,
+    "id": 3,
+    "manageIconResourceName": "icon_cafeteriamanage_type1",
+    "manageLocalTextId": 13533
+  },
+  {
+    "costType": 40,
+    "costValue": 579,
+    "facilityId": 5,
+    "groupId": 1,
+    "id": 4,
+    "manageIconResourceName": "icon_cafeteriamanage_type2",
+    "manageLocalTextId": 13532
+  },
+  {
+    "costType": 40,
+    "costValue": 608,
+    "facilityId": 6,
+    "groupId": 1,
+    "id": 5,
+    "manageIconResourceName": "icon_cafeteriamanage_type1",
+    "manageLocalTextId": 13533
+  },
+  {
+    "costType": 40,
+    "costValue": 638,
+    "groupId": 2,
+    "id": 1,
+    "manageIconResourceName": "icon_cafeteriamanage_type4",
+    "manageLocalTextId": 13536,
+    "parttimeId": 2
+  },
+  {
+    "costType": 40,
+    "costValue": 670,
+    "facilityId": 7,
+    "groupId": 2,
+    "id": 2,
+    "manageIconResourceName": "icon_cafeteriamanage_type3",
+    "manageLocalTextId": 13534
+  },
+  {
+    "costType": 40,
+    "costValue": 704,
+    "facilityId": 8,
+    "groupId": 2,
+    "id": 3,
+    "manageIconResourceName": "icon_cafeteriamanage_type2",
+    "manageLocalTextId": 13532
+  },
+  {
+    "costType": 40,
+    "costValue": 739,
+    "groupId": 2,
+    "id": 4,
+    "manageIconResourceName": "icon_cafeteriamanage_type5",
+    "manageLocalTextId": 13537,
+    "parttimeId": 1003
+  },
+  {
+    "costType": 40,
+    "costValue": 776,
+    "facilityId": 9,
+    "groupId": 2,
+    "id": 5,
+    "manageIconResourceName": "icon_cafeteriamanage_type1",
+    "manageLocalTextId": 13533
+  },
+  {
+    "costType": 40,
+    "costValue": 814,
+    "facilityId": 10,
+    "groupId": 3,
+    "id": 1,
+    "manageIconResourceName": "icon_cafeteriamanage_type2",
+    "manageLocalTextId": 13532
+  },
+  {
+    "costType": 40,
+    "costValue": 855,
+    "groupId": 3,
+    "id": 2,
+    "manageIconResourceName": "icon_cafeteriamanage_type5",
+    "manageLocalTextId": 13537,
+    "parttimeId": 1004
+  },
+  {
+    "costType": 40,
+    "costValue": 898,
+    "facilityId": 11,
+    "groupId": 3,
+    "id": 3,
+    "manageIconResourceName": "icon_cafeteriamanage_type1",
+    "manageLocalTextId": 13533
+  },
+  {
+    "costType": 40,
+    "costValue": 943,
+    "facilityId": 12,
+    "groupId": 3,
+    "id": 4,
+    "manageIconResourceName": "icon_cafeteriamanage_type2",
+    "manageLocalTextId": 13532
+  },
+  {
+    "costType": 40,
+    "costValue": 990,
+    "groupId": 3,
+    "id": 5,
+    "manageIconResourceName": "icon_cafeteriamanage_type5",
+    "manageLocalTextId": 13537,
+    "parttimeId": 1005
+  },
+  {
+    "costType": 40,
+    "costValue": 1039,
+    "facilityId": 13,
+    "groupId": 4,
+    "id": 1,
+    "manageIconResourceName": "icon_cafeteriamanage_type1",
+    "manageLocalTextId": 13533
+  },
+  {
+    "costType": 40,
+    "costValue": 1091,
+    "groupId": 4,
+    "id": 2,
+    "manageIconResourceName": "icon_cafeteriamanage_type4",
+    "manageLocalTextId": 13536,
+    "parttimeId": 3
+  },
+  {
+    "costType": 40,
+    "costValue": 1146,
+    "facilityId": 14,
+    "groupId": 4,
+    "id": 3,
+    "manageIconResourceName": "icon_cafeteriamanage_type3",
+    "manageLocalTextId": 13535
+  },
+  {
+    "costType": 40,
+    "costValue": 1203,
+    "facilityId": 15,
+    "groupId": 4,
+    "id": 4,
+    "manageIconResourceName": "icon_cafeteriamanage_type3",
+    "manageLocalTextId": 13535
+  },
+  {
+    "costType": 40,
+    "costValue": 1263,
+    "facilityId": 16,
+    "groupId": 4,
+    "id": 5,
+    "manageIconResourceName": "icon_cafeteriamanage_type3",
+    "manageLocalTextId": 13535
+  },
+  {
+    "costType": 40,
+    "costValue": 1327,
+    "facilityId": 17,
+    "groupId": 5,
+    "id": 1,
+    "manageIconResourceName": "icon_cafeteriamanage_type1",
+    "manageLocalTextId": 13533
+  },
+  {
+    "costType": 40,
+    "costValue": 1393,
+    "facilityId": 18,
+    "groupId": 5,
+    "id": 2,
+    "manageIconResourceName": "icon_cafeteriamanage_type3",
+    "manageLocalTextId": 13534
+  },
+  {
+    "costType": 40,
+    "costValue": 1463,
+    "facilityId": 19,
+    "groupId": 5,
+    "id": 3,
+    "manageIconResourceName": "icon_cafeteriamanage_type1",
+    "manageLocalTextId": 13533
+  },
+  {
+    "costType": 40,
+    "costValue": 1536,
+    "groupId": 5,
+    "id": 4,
+    "manageIconResourceName": "icon_cafeteriamanage_type4",
+    "manageLocalTextId": 13536,
+    "parttimeId": 4
+  },
+  {
+    "costType": 40,
+    "costValue": 1613,
+    "groupId": 5,
+    "id": 5,
+    "manageIconResourceName": "icon_cafeteriamanage_type5",
+    "manageLocalTextId": 13537,
+    "parttimeId": 1006
+  },
+  {
+    "costType": 40,
+    "costValue": 1693,
+    "facilityId": 20,
+    "groupId": 6,
+    "id": 1,
+    "manageIconResourceName": "icon_cafeteriamanage_type2",
+    "manageLocalTextId": 13532
+  },
+  {
+    "costType": 40,
+    "costValue": 1778,
+    "groupId": 6,
+    "id": 2,
+    "manageIconResourceName": "icon_cafeteriamanage_type5",
+    "manageLocalTextId": 13537,
+    "parttimeId": 1007
+  },
+  {
+    "costType": 40,
+    "costValue": 1867,
+    "facilityId": 21,
+    "groupId": 6,
+    "id": 3,
+    "manageIconResourceName": "icon_cafeteriamanage_type1",
+    "manageLocalTextId": 13533
+  },
+  {
+    "costType": 40,
+    "costValue": 1960,
+    "groupId": 6,
+    "id": 4,
+    "manageIconResourceName": "icon_cafeteriamanage_type4",
+    "manageLocalTextId": 13536,
+    "parttimeId": 5
+  },
+  {
+    "costType": 40,
+    "costValue": 2058,
+    "facilityId": 22,
+    "groupId": 7,
+    "id": 1,
+    "manageIconResourceName": "icon_cafeteriamanage_type2",
+    "manageLocalTextId": 13532
+  },
+  {
+    "costType": 40,
+    "costValue": 2161,
+    "facilityId": 23,
+    "groupId": 7,
+    "id": 2,
+    "manageIconResourceName": "icon_cafeteriamanage_type1",
+    "manageLocalTextId": 13533
+  },
+  {
+    "costType": 40,
+    "costValue": 2269,
+    "facilityId": 24,
+    "groupId": 7,
+    "id": 3,
+    "manageIconResourceName": "icon_cafeteriamanage_type2",
+    "manageLocalTextId": 13532
+  },
+  {
+    "costType": 40,
+    "costValue": 2382,
+    "groupId": 7,
+    "id": 4,
+    "manageIconResourceName": "icon_cafeteriamanage_type5",
+    "manageLocalTextId": 13537,
+    "parttimeId": 1008
+  },
+  {
+    "costType": 40,
+    "costValue": 2502,
+    "facilityId": 25,
+    "groupId": 8,
+    "id": 1,
+    "manageIconResourceName": "icon_cafeteriamanage_type3",
+    "manageLocalTextId": 13534
+  },
+  {
+    "costType": 40,
+    "costValue": 2627,
+    "facilityId": 26,
+    "groupId": 8,
+    "id": 2,
+    "manageIconResourceName": "icon_cafeteriamanage_type3",
+    "manageLocalTextId": 13535
+  },
+  {
+    "costType": 40,
+    "costValue": 2758,
+    "facilityId": 27,
+    "groupId": 8,
+    "id": 3,
+    "manageIconResourceName": "icon_cafeteriamanage_type3",
+    "manageLocalTextId": 13535
+  },
+  {
+    "costType": 40,
+    "costValue": 2896,
+    "facilityId": 28,
+    "groupId": 8,
+    "id": 4,
+    "manageIconResourceName": "icon_cafeteriamanage_type2",
+    "manageLocalTextId": 13532
+  },
+  {
+    "costType": 40,
+    "costValue": 3041,
+    "groupId": 9,
+    "id": 1,
+    "manageIconResourceName": "icon_cafeteriamanage_type5",
+    "manageLocalTextId": 13537,
+    "parttimeId": 1009
+  },
+  {
+    "costType": 40,
+    "costValue": 3193,
+    "facilityId": 29,
+    "groupId": 9,
+    "id": 2,
+    "manageIconResourceName": "icon_cafeteriamanage_type1",
+    "manageLocalTextId": 13533
+  },
+  {
+    "costType": 40,
+    "costValue": 3352,
+    "groupId": 9,
+    "id": 3,
+    "manageIconResourceName": "icon_cafeteriamanage_type4",
+    "manageLocalTextId": 13536,
+    "parttimeId": 6
+  },
+  {
+    "costType": 40,
+    "costValue": 3520,
+    "facilityId": 30,
+    "groupId": 9,
+    "id": 4,
+    "manageIconResourceName": "icon_cafeteriamanage_type2",
+    "manageLocalTextId": 13532
+  },
+  {
+    "costType": 40,
+    "costValue": 3696,
+    "facilityId": 31,
+    "groupId": 10,
+    "id": 1,
+    "manageIconResourceName": "icon_cafeteriamanage_type1",
+    "manageLocalTextId": 13533
+  },
+  {
+    "costType": 40,
+    "costValue": 3881,
+    "facilityId": 32,
+    "groupId": 10,
+    "id": 2,
+    "manageIconResourceName": "icon_cafeteriamanage_type2",
+    "manageLocalTextId": 13532
+  },
+  {
+    "costType": 40,
+    "costValue": 4075,
+    "groupId": 10,
+    "id": 3,
+    "manageIconResourceName": "icon_cafeteriamanage_type5",
+    "manageLocalTextId": 13537,
+    "parttimeId": 1010
+  },
+  {
+    "costType": 40,
+    "costValue": 4279,
+    "facilityId": 33,
+    "groupId": 10,
+    "id": 4,
+    "manageIconResourceName": "icon_cafeteriamanage_type1",
+    "manageLocalTextId": 13533
+  },
+  {
+    "costType": 40,
+    "costValue": 4493,
+    "groupId": 11,
+    "id": 1,
+    "manageIconResourceName": "icon_cafeteriamanage_type4",
+    "manageLocalTextId": 13536,
+    "parttimeId": 7
+  },
+  {
+    "costType": 40,
+    "costValue": 4807,
+    "facilityId": 34,
+    "groupId": 11,
+    "id": 2,
+    "manageIconResourceName": "icon_cafeteriamanage_type2",
+    "manageLocalTextId": 13532
+  },
+  {
+    "costType": 40,
+    "costValue": 5143,
+    "groupId": 11,
+    "id": 3,
+    "manageIconResourceName": "icon_cafeteriamanage_type5",
+    "manageLocalTextId": 13537,
+    "parttimeId": 1011
+  },
+  {
+    "costType": 40,
+    "costValue": 5504,
+    "facilityId": 35,
+    "groupId": 12,
+    "id": 1,
+    "manageIconResourceName": "icon_cafeteriamanage_type1",
+    "manageLocalTextId": 13533
+  },
+  {
+    "costType": 40,
+    "costValue": 5889,
+    "facilityId": 36,
+    "groupId": 12,
+    "id": 2,
+    "manageIconResourceName": "icon_cafeteriamanage_type3",
+    "manageLocalTextId": 13535
+  },
+  {
+    "costType": 40,
+    "costValue": 6301,
+    "facilityId": 37,
+    "groupId": 12,
+    "id": 3,
+    "manageIconResourceName": "icon_cafeteriamanage_type2",
+    "manageLocalTextId": 13532
+  },
+  {
+    "costType": 40,
+    "costValue": 6742,
+    "groupId": 12,
+    "id": 4,
+    "manageIconResourceName": "icon_cafeteriamanage_type5",
+    "manageLocalTextId": 13537,
+    "parttimeId": 1012
+  },
+  {
+    "costType": 40,
+    "costValue": 7214,
+    "facilityId": 38,
+    "groupId": 13,
+    "id": 1,
+    "manageIconResourceName": "icon_cafeteriamanage_type1",
+    "manageLocalTextId": 13533
+  },
+  {
+    "costType": 40,
+    "costValue": 7719,
+    "facilityId": 39,
+    "groupId": 13,
+    "id": 2,
+    "manageIconResourceName": "icon_cafeteriamanage_type2",
+    "manageLocalTextId": 13532
+  },
+  {
+    "costType": 40,
+    "costValue": 8259,
+    "facilityId": 40,
+    "groupId": 13,
+    "id": 3,
+    "manageIconResourceName": "icon_cafeteriamanage_type1",
+    "manageLocalTextId": 13533
+  },
+  {
+    "costType": 40,
+    "costValue": 8837,
+    "facilityId": 41,
+    "groupId": 13,
+    "id": 4,
+    "manageIconResourceName": "icon_cafeteriamanage_type3",
+    "manageLocalTextId": 13534
+  },
+  {
+    "costType": 40,
+    "costValue": 9456,
+    "facilityId": 42,
+    "groupId": 14,
+    "id": 1,
+    "manageIconResourceName": "icon_cafeteriamanage_type2",
+    "manageLocalTextId": 13532
+  },
+  {
+    "costType": 40,
+    "costValue": 10118,
+    "groupId": 14,
+    "id": 2,
+    "manageIconResourceName": "icon_cafeteriamanage_type5",
+    "manageLocalTextId": 13537,
+    "parttimeId": 1013
+  },
+  {
+    "costType": 40,
+    "costValue": 10826,
+    "facilityId": 43,
+    "groupId": 14,
+    "id": 3,
+    "manageIconResourceName": "icon_cafeteriamanage_type1",
+    "manageLocalTextId": 13533
+  },
+  {
+    "costType": 40,
+    "costValue": 11584,
+    "groupId": 14,
+    "id": 4,
+    "manageIconResourceName": "icon_cafeteriamanage_type4",
+    "manageLocalTextId": 13536,
+    "parttimeId": 8
+  },
+  {
+    "costType": 40,
+    "costValue": 12395,
+    "facilityId": 44,
+    "groupId": 15,
+    "id": 1,
+    "manageIconResourceName": "icon_cafeteriamanage_type2",
+    "manageLocalTextId": 13532
+  },
+  {
+    "costType": 40,
+    "costValue": 13263,
+    "groupId": 15,
+    "id": 2,
+    "manageIconResourceName": "icon_cafeteriamanage_type5",
+    "manageLocalTextId": 13537,
+    "parttimeId": 1014
+  },
+  {
+    "costType": 40,
+    "costValue": 14191,
+    "facilityId": 45,
+    "groupId": 15,
+    "id": 3,
+    "manageIconResourceName": "icon_cafeteriamanage_type1",
+    "manageLocalTextId": 13533
+  },
+  {
+    "costType": 40,
+    "costValue": 15184,
+    "facilityId": 46,
+    "groupId": 15,
+    "id": 4,
+    "manageIconResourceName": "icon_cafeteriamanage_type3",
+    "manageLocalTextId": 13535
+  },
+  {
+    "costType": 40,
+    "costValue": 16247,
+    "facilityId": 47,
+    "groupId": 16,
+    "id": 1,
+    "manageIconResourceName": "icon_cafeteriamanage_type3",
+    "manageLocalTextId": 13535
+  },
+  {
+    "costType": 40,
+    "costValue": 17547,
+    "facilityId": 48,
+    "groupId": 16,
+    "id": 2,
+    "manageIconResourceName": "icon_cafeteriamanage_type1",
+    "manageLocalTextId": 13533
+  },
+  {
+    "costType": 40,
+    "costValue": 18951,
+    "groupId": 16,
+    "id": 3,
+    "manageIconResourceName": "icon_cafeteriamanage_type4",
+    "manageLocalTextId": 13536,
+    "parttimeId": 9
+  },
+  {
+    "costType": 40,
+    "costValue": 20467,
+    "facilityId": 49,
+    "groupId": 17,
+    "id": 1,
+    "manageIconResourceName": "icon_cafeteriamanage_type3",
+    "manageLocalTextId": 13535
+  },
+  {
+    "costType": 40,
+    "costValue": 22104,
+    "facilityId": 50,
+    "groupId": 17,
+    "id": 2,
+    "manageIconResourceName": "icon_cafeteriamanage_type1",
+    "manageLocalTextId": 13533
+  },
+  {
+    "costType": 40,
+    "costValue": 23873,
+    "facilityId": 51,
+    "groupId": 17,
+    "id": 3,
+    "manageIconResourceName": "icon_cafeteriamanage_type1",
+    "manageLocalTextId": 13533
+  },
+  {
+    "costType": 40,
+    "costValue": 25782,
+    "groupId": 18,
+    "id": 1,
+    "manageIconResourceName": "icon_cafeteriamanage_type4",
+    "manageLocalTextId": 13536,
+    "parttimeId": 10
+  },
+  {
+    "costType": 40,
+    "costValue": 27845,
+    "facilityId": 52,
+    "groupId": 18,
+    "id": 2,
+    "manageIconResourceName": "icon_cafeteriamanage_type3",
+    "manageLocalTextId": 13535
+  },
+  {
+    "costType": 40,
+    "costValue": 30073,
+    "facilityId": 53,
+    "groupId": 18,
+    "id": 3,
+    "manageIconResourceName": "icon_cafeteriamanage_type1",
+    "manageLocalTextId": 13533
+  },
+  {
+    "costType": 40,
+    "costValue": 32478,
+    "facilityId": 54,
+    "groupId": 19,
+    "id": 1,
+    "manageIconResourceName": "icon_cafeteriamanage_type1",
+    "manageLocalTextId": 13533
+  },
+  {
+    "costType": 40,
+    "costValue": 35077,
+    "groupId": 19,
+    "id": 2,
+    "manageIconResourceName": "icon_cafeteriamanage_type4",
+    "manageLocalTextId": 13536,
+    "parttimeId": 11
+  },
+  {
+    "costType": 40,
+    "costValue": 37883,
+    "facilityId": 55,
+    "groupId": 19,
+    "id": 3,
+    "manageIconResourceName": "icon_cafeteriamanage_type3",
+    "manageLocalTextId": 13534
+  },
+  {
+    "costType": 40,
+    "costValue": 40913,
+    "facilityId": 56,
+    "groupId": 20,
+    "id": 1,
+    "manageIconResourceName": "icon_cafeteriamanage_type1",
+    "manageLocalTextId": 13533
+  },
+  {
+    "costType": 40,
+    "costValue": 44186,
+    "facilityId": 57,
+    "groupId": 20,
+    "id": 2,
+    "manageIconResourceName": "icon_cafeteriamanage_type3",
+    "manageLocalTextId": 13534
+  },
+  {
+    "costType": 40,
+    "costValue": 47721,
+    "facilityId": 58,
+    "groupId": 20,
+    "id": 3,
+    "manageIconResourceName": "icon_cafeteriamanage_type3",
+    "manageLocalTextId": 13534
+  },
+  {
+    "costType": 40,
+    "costValue": 51539,
+    "facilityId": 59,
+    "groupId": 20,
+    "id": 4,
+    "manageIconResourceName": "icon_cafeteriamanage_type3",
+    "manageLocalTextId": 13534
+  },
+  {
+    "costType": 40,
+    "costValue": 55662,
+    "facilityId": 60,
+    "groupId": 21,
+    "id": 1,
+    "manageIconResourceName": "icon_cafeteriamanage_type2",
+    "manageLocalTextId": 13532
+  },
+  {
+    "costType": 40,
+    "costValue": 60115,
+    "groupId": 21,
+    "id": 2,
+    "manageIconResourceName": "icon_cafeteriamanage_type5",
+    "manageLocalTextId": 13537,
+    "parttimeId": 1015
+  },
+  {
+    "costType": 40,
+    "costValue": 64924,
+    "facilityId": 61,
+    "groupId": 21,
+    "id": 3,
+    "manageIconResourceName": "icon_cafeteriamanage_type1",
+    "manageLocalTextId": 13533
+  },
+  {
+    "costType": 40,
+    "costValue": 70118,
+    "groupId": 21,
+    "id": 4,
+    "manageIconResourceName": "icon_cafeteriamanage_type4",
+    "manageLocalTextId": 13536,
+    "parttimeId": 12
+  },
+  {
+    "costType": 40,
+    "costValue": 75728,
+    "facilityId": 62,
+    "groupId": 22,
+    "id": 1,
+    "manageIconResourceName": "icon_cafeteriamanage_type2",
+    "manageLocalTextId": 13532
+  },
+  {
+    "costType": 40,
+    "costValue": 81786,
+    "groupId": 22,
+    "id": 2,
+    "manageIconResourceName": "icon_cafeteriamanage_type5",
+    "manageLocalTextId": 13537,
+    "parttimeId": 1016
+  },
+  {
+    "costType": 40,
+    "costValue": 88329,
+    "facilityId": 63,
+    "groupId": 22,
+    "id": 3,
+    "manageIconResourceName": "icon_cafeteriamanage_type1",
+    "manageLocalTextId": 13533
+  },
+  {
+    "costType": 40,
+    "costValue": 95395,
+    "groupId": 22,
+    "id": 4,
+    "manageIconResourceName": "icon_cafeteriamanage_type4",
+    "manageLocalTextId": 13536,
+    "parttimeId": 13
+  },
+  {
+    "costType": 40,
+    "costValue": 103027,
+    "facilityId": 64,
+    "groupId": 23,
+    "id": 1,
+    "manageIconResourceName": "icon_cafeteriamanage_type3",
+    "manageLocalTextId": 13535
+  },
+  {
+    "costType": 40,
+    "costValue": 111269,
+    "facilityId": 65,
+    "groupId": 23,
+    "id": 2,
+    "manageIconResourceName": "icon_cafeteriamanage_type2",
+    "manageLocalTextId": 13532
+  },
+  {
+    "costType": 40,
+    "costValue": 120171,
+    "groupId": 23,
+    "id": 3,
+    "manageIconResourceName": "icon_cafeteriamanage_type5",
+    "manageLocalTextId": 13537,
+    "parttimeId": 1017
+  },
+  {
+    "costType": 40,
+    "costValue": 129784,
+    "facilityId": 66,
+    "groupId": 23,
+    "id": 4,
+    "manageIconResourceName": "icon_cafeteriamanage_type1",
+    "manageLocalTextId": 13533
+  },
+  {
+    "costType": 40,
+    "costValue": 140167,
+    "groupId": 24,
+    "id": 1,
+    "manageIconResourceName": "icon_cafeteriamanage_type4",
+    "manageLocalTextId": 13536,
+    "parttimeId": 14
+  },
+  {
+    "costType": 40,
+    "costValue": 151380,
+    "facilityId": 67,
+    "groupId": 24,
+    "id": 2,
+    "manageIconResourceName": "icon_cafeteriamanage_type2",
+    "manageLocalTextId": 13532
+  },
+  {
+    "costType": 40,
+    "costValue": 163491,
+    "groupId": 24,
+    "id": 3,
+    "manageIconResourceName": "icon_cafeteriamanage_type5",
+    "manageLocalTextId": 13537,
+    "parttimeId": 1018
+  },
+  {
+    "costType": 40,
+    "costValue": 176570,
+    "facilityId": 68,
+    "groupId": 24,
+    "id": 4,
+    "manageIconResourceName": "icon_cafeteriamanage_type1",
+    "manageLocalTextId": 13533
+  },
+  {
+    "costType": 40,
+    "costValue": 190695,
+    "facilityId": 69,
+    "groupId": 25,
+    "id": 1,
+    "manageIconResourceName": "icon_cafeteriamanage_type3",
+    "manageLocalTextId": 13535
+  },
+  {
+    "costType": 40,
+    "costValue": 205951,
+    "facilityId": 70,
+    "groupId": 25,
+    "id": 2,
+    "manageIconResourceName": "icon_cafeteriamanage_type1",
+    "manageLocalTextId": 13533
+  },
+  {
+    "costType": 40,
+    "costValue": 222427,
+    "facilityId": 71,
+    "groupId": 25,
+    "id": 3,
+    "manageIconResourceName": "icon_cafeteriamanage_type1",
+    "manageLocalTextId": 13533
+  },
+  {
+    "costType": 40,
+    "costValue": 240221,
+    "groupId": 25,
+    "id": 4,
+    "manageIconResourceName": "icon_cafeteriamanage_type4",
+    "manageLocalTextId": 13536,
+    "parttimeId": 15
+  },
+  {
+    "costType": 40,
+    "costValue": 259439,
+    "facilityId": 72,
+    "groupId": 26,
+    "id": 1,
+    "manageIconResourceName": "icon_cafeteriamanage_type3",
+    "manageLocalTextId": 13535
+  },
+  {
+    "costType": 40,
+    "costValue": 280194,
+    "facilityId": 73,
+    "groupId": 26,
+    "id": 2,
+    "manageIconResourceName": "icon_cafeteriamanage_type1",
+    "manageLocalTextId": 13533
+  },
+  {
+    "costType": 40,
+    "costValue": 302610,
+    "facilityId": 74,
+    "groupId": 26,
+    "id": 3,
+    "manageIconResourceName": "icon_cafeteriamanage_type1",
+    "manageLocalTextId": 13533
+  },
+  {
+    "costType": 40,
+    "costValue": 326819,
+    "groupId": 26,
+    "id": 4,
+    "manageIconResourceName": "icon_cafeteriamanage_type4",
+    "manageLocalTextId": 13536,
+    "parttimeId": 16
+  },
+  {
+    "costType": 40,
+    "costValue": 352964,
+    "facilityId": 75,
+    "groupId": 27,
+    "id": 1,
+    "manageIconResourceName": "icon_cafeteriamanage_type3",
+    "manageLocalTextId": 13535
+  },
+  {
+    "costType": 40,
+    "costValue": 381201,
+    "facilityId": 76,
+    "groupId": 27,
+    "id": 2,
+    "manageIconResourceName": "icon_cafeteriamanage_type3",
+    "manageLocalTextId": 13535
+  },
+  {
+    "costType": 40,
+    "costValue": 411697,
+    "facilityId": 77,
+    "groupId": 27,
+    "id": 3,
+    "manageIconResourceName": "icon_cafeteriamanage_type1",
+    "manageLocalTextId": 13533
+  },
+  {
+    "costType": 40,
+    "costValue": 444633,
+    "facilityId": 78,
+    "groupId": 27,
+    "id": 4,
+    "manageIconResourceName": "icon_cafeteriamanage_type1",
+    "manageLocalTextId": 13533
+  },
+  {
+    "costType": 40,
+    "costValue": 480204,
+    "groupId": 28,
+    "id": 1,
+    "manageIconResourceName": "icon_cafeteriamanage_type4",
+    "manageLocalTextId": 13536,
+    "parttimeId": 17
+  },
+  {
+    "costType": 40,
+    "costValue": 518620,
+    "facilityId": 79,
+    "groupId": 28,
+    "id": 2,
+    "manageIconResourceName": "icon_cafeteriamanage_type3",
+    "manageLocalTextId": 13535
+  },
+  {
+    "costType": 40,
+    "costValue": 560110,
+    "facilityId": 80,
+    "groupId": 28,
+    "id": 3,
+    "manageIconResourceName": "icon_cafeteriamanage_type1",
+    "manageLocalTextId": 13533
+  },
+  {
+    "costType": 40,
+    "costValue": 604918,
+    "groupId": 28,
+    "id": 4,
+    "manageIconResourceName": "icon_cafeteriamanage_type4",
+    "manageLocalTextId": 13536,
+    "parttimeId": 18
+  },
+  {
+    "costType": 40,
+    "costValue": 653312,
+    "facilityId": 81,
+    "groupId": 29,
+    "id": 1,
+    "manageIconResourceName": "icon_cafeteriamanage_type3",
+    "manageLocalTextId": 13535
+  },
+  {
+    "costType": 40,
+    "costValue": 705577,
+    "facilityId": 82,
+    "groupId": 29,
+    "id": 2,
+    "manageIconResourceName": "icon_cafeteriamanage_type3",
+    "manageLocalTextId": 13535
+  },
+  {
+    "costType": 40,
+    "costValue": 762023,
+    "facilityId": 83,
+    "groupId": 29,
+    "id": 3,
+    "manageIconResourceName": "icon_cafeteriamanage_type3",
+    "manageLocalTextId": 13535
+  },
+  {
+    "costType": 40,
+    "costValue": 822985,
+    "facilityId": 84,
+    "groupId": 29,
+    "id": 4,
+    "manageIconResourceName": "icon_cafeteriamanage_type3",
+    "manageLocalTextId": 13535
+  },
+  {
+    "costType": 40,
+    "costValue": 888823,
+    "facilityId": 85,
+    "groupId": 29,
+    "id": 5,
+    "manageIconResourceName": "icon_cafeteriamanage_type3",
+    "manageLocalTextId": 13535
+  }
+]

@@ -1,0 +1,268 @@
+[
+  {
+    "conditionSubType": 101,
+    "conditionType": 1,
+    "id": 1,
+    "missionDescNameTextId": 81098,
+    "missionNameNameTextId": 81083,
+    "monsterType": 1,
+    "rewardCount": 1,
+    "rewardId": 2175,
+    "rewardType": 27
+  },
+  {
+    "conditionSubType": 102,
+    "conditionType": 1,
+    "id": 2,
+    "missionDescNameTextId": 81099,
+    "missionNameNameTextId": 81084,
+    "monsterType": 1
+  },
+  {
+    "conditionSubType": 103,
+    "conditionType": 1,
+    "id": 3,
+    "missionDescNameTextId": 81100,
+    "missionNameNameTextId": 81085,
+    "monsterType": 1
+  },
+  {
+    "conditionSubType": 180,
+    "conditionSubTypeParam": 103,
+    "conditionType": 2,
+    "id": 4,
+    "missionDescNameTextId": 81101,
+    "missionNameNameTextId": 81086,
+    "monsterType": 1
+  },
+  {
+    "conditionSubType": 5,
+    "conditionSubTypeParam": 103,
+    "conditionType": 3,
+    "id": 5,
+    "missionDescNameTextId": 81102,
+    "missionNameNameTextId": 81087,
+    "monsterType": 1
+  },
+  {
+    "conditionSubType": 2,
+    "conditionSubTypeParam": 103,
+    "conditionType": 4,
+    "id": 6,
+    "missionDescNameTextId": 81103,
+    "missionNameNameTextId": 81088,
+    "monsterType": 1
+  },
+  {
+    "conditionSubType": 3,
+    "conditionSubTypeParam": 103,
+    "conditionType": 5,
+    "id": 7,
+    "missionDescNameTextId": 81104,
+    "missionNameNameTextId": 81089,
+    "monsterType": 1
+  },
+  {
+    "conditionSubType": 10,
+    "conditionSubTypeParam": 103,
+    "conditionType": 6,
+    "id": 8,
+    "missionDescNameTextId": 81105,
+    "missionNameNameTextId": 81090,
+    "monsterType": 1
+  },
+  {
+    "conditionSubType": 3000,
+    "conditionSubTypeParam": 103,
+    "conditionType": 7,
+    "id": 9,
+    "missionDescNameTextId": 81106,
+    "missionNameNameTextId": 81091,
+    "monsterType": 1
+  },
+  {
+    "conditionSubType": 5,
+    "conditionSubTypeParam": 103,
+    "conditionType": 8,
+    "id": 10,
+    "missionDescNameTextId": 81107,
+    "missionNameNameTextId": 81092,
+    "monsterType": 1
+  },
+  {
+    "conditionSubType": 10,
+    "conditionSubTypeParam": 103,
+    "conditionType": 9,
+    "id": 11,
+    "missionDescNameTextId": 81108,
+    "missionNameNameTextId": 81093,
+    "monsterType": 1
+  },
+  {
+    "conditionSubType": 10,
+    "conditionSubTypeParam": 103,
+    "conditionType": 10,
+    "id": 12,
+    "missionDescNameTextId": 81109,
+    "missionNameNameTextId": 81094,
+    "monsterType": 1
+  },
+  {
+    "conditionSubType": 103,
+    "conditionType": 11,
+    "id": 13,
+    "missionDescNameTextId": 81110,
+    "missionNameNameTextId": 81095,
+    "monsterType": 1
+  },
+  {
+    "conditionSubType": 2,
+    "conditionSubTypeParam": 103,
+    "conditionType": 12,
+    "id": 14,
+    "missionDescNameTextId": 81111,
+    "missionNameNameTextId": 81096,
+    "monsterType": 1
+  },
+  {
+    "conditionSubType": 104,
+    "conditionType": 1,
+    "id": 15,
+    "missionDescNameTextId": 81112,
+    "missionNameNameTextId": 81097,
+    "monsterType": 1
+  },
+  {
+    "conditionSubType": 201,
+    "conditionType": 1,
+    "id": 16,
+    "missionDescNameTextId": 81113,
+    "missionNameNameTextId": 81083,
+    "monsterType": 2,
+    "rewardCount": 1,
+    "rewardId": 2176,
+    "rewardType": 27
+  },
+  {
+    "conditionSubType": 202,
+    "conditionType": 1,
+    "id": 17,
+    "missionDescNameTextId": 81114,
+    "missionNameNameTextId": 81084,
+    "monsterType": 2
+  },
+  {
+    "conditionSubType": 203,
+    "conditionType": 1,
+    "id": 18,
+    "missionDescNameTextId": 81115,
+    "missionNameNameTextId": 81085,
+    "monsterType": 2
+  },
+  {
+    "conditionSubType": 180,
+    "conditionSubTypeParam": 203,
+    "conditionType": 2,
+    "id": 19,
+    "missionDescNameTextId": 81116,
+    "missionNameNameTextId": 81086,
+    "monsterType": 2
+  },
+  {
+    "conditionSubType": 5,
+    "conditionSubTypeParam": 203,
+    "conditionType": 3,
+    "id": 20,
+    "missionDescNameTextId": 81117,
+    "missionNameNameTextId": 81087,
+    "monsterType": 2
+  },
+  {
+    "conditionSubType": 2,
+    "conditionSubTypeParam": 203,
+    "conditionType": 4,
+    "id": 21,
+    "missionDescNameTextId": 81118,
+    "missionNameNameTextId": 81088,
+    "monsterType": 2
+  },
+  {
+    "conditionSubType": 3,
+    "conditionSubTypeParam": 203,
+    "conditionType": 5,
+    "id": 22,
+    "missionDescNameTextId": 81119,
+    "missionNameNameTextId": 81089,
+    "monsterType": 2
+  },
+  {
+    "conditionSubType": 10,
+    "conditionSubTypeParam": 203,
+    "conditionType": 6,
+    "id": 23,
+    "missionDescNameTextId": 81120,
+    "missionNameNameTextId": 81090,
+    "monsterType": 2
+  },
+  {
+    "conditionSubType": 1000,
+    "conditionSubTypeParam": 203,
+    "conditionType": 7,
+    "id": 24,
+    "missionDescNameTextId": 81121,
+    "missionNameNameTextId": 81091,
+    "monsterType": 2
+  },
+  {
+    "conditionSubType": 5,
+    "conditionSubTypeParam": 203,
+    "conditionType": 8,
+    "id": 25,
+    "missionDescNameTextId": 81122,
+    "missionNameNameTextId": 81092,
+    "monsterType": 2
+  },
+  {
+    "conditionSubType": 10,
+    "conditionSubTypeParam": 203,
+    "conditionType": 9,
+    "id": 26,
+    "missionDescNameTextId": 81123,
+    "missionNameNameTextId": 81093,
+    "monsterType": 2
+  },
+  {
+    "conditionSubType": 10,
+    "conditionSubTypeParam": 203,
+    "conditionType": 10,
+    "id": 27,
+    "missionDescNameTextId": 81124,
+    "missionNameNameTextId": 81094,
+    "monsterType": 2
+  },
+  {
+    "conditionSubType": 203,
+    "conditionType": 11,
+    "id": 28,
+    "missionDescNameTextId": 81125,
+    "missionNameNameTextId": 81095,
+    "monsterType": 2
+  },
+  {
+    "conditionSubType": 2,
+    "conditionSubTypeParam": 203,
+    "conditionType": 12,
+    "id": 29,
+    "missionDescNameTextId": 81126,
+    "missionNameNameTextId": 81096,
+    "monsterType": 2
+  },
+  {
+    "conditionSubType": 204,
+    "conditionType": 1,
+    "id": 30,
+    "missionDescNameTextId": 81127,
+    "missionNameNameTextId": 81097,
+    "monsterType": 2
+  }
+]

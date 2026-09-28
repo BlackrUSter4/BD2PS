@@ -1,0 +1,331 @@
+{
+  "productInfo": [
+    {
+      "groupId": 310001,
+      "id": 76,
+      "saleGroup": 0,
+      "startTime": 1714003200000,
+      "endTime": 4102444800000,
+      "endDelayMinutes": 3,
+      "eventIndex": 164
+    },
+    {
+      "groupId": 310001,
+      "id": 77,
+      "saleGroup": 0,
+      "startTime": 1714003200000,
+      "endTime": 4102444800000,
+      "endDelayMinutes": 5,
+      "eventIndex": 165
+    },
+    {
+      "groupId": 310001,
+      "id": 160,
+      "saleGroup": 0,
+      "startTime": 1734393600000,
+      "endTime": 7289621999000,
+      "endDelayMinutes": 5,
+      "eventIndex": 354
+    },
+    {
+      "groupId": 310001,
+      "id": 159,
+      "saleGroup": 0,
+      "startTime": 1734393600000,
+      "endTime": 7289621999000,
+      "endDelayMinutes": 5,
+      "eventIndex": 355
+    },
+    {
+      "groupId": 310001,
+      "id": 158,
+      "saleGroup": 0,
+      "startTime": 1734393600000,
+      "endTime": 7289621999000,
+      "endDelayMinutes": 5,
+      "eventIndex": 356
+    },
+    {
+      "groupId": 310001,
+      "id": 293,
+      "saleGroup": 0,
+      "startTime": 1757548800000,
+      "endTime": 7289621999000,
+      "endDelayMinutes": 5,
+      "eventIndex": 618
+    },
+    {
+      "groupId": 310001,
+      "id": 292,
+      "saleGroup": 0,
+      "startTime": 1757548800000,
+      "endTime": 7289621999000,
+      "endDelayMinutes": 5,
+      "eventIndex": 619
+    },
+    {
+      "groupId": 310001,
+      "id": 291,
+      "saleGroup": 0,
+      "startTime": 1757548800000,
+      "endTime": 7289621999000,
+      "endDelayMinutes": 5,
+      "eventIndex": 620
+    },
+    {
+      "groupId": 310001,
+      "id": 302,
+      "saleGroup": 0,
+      "startTime": 1758758400000,
+      "endTime": 7289621999000,
+      "endDelayMinutes": 5,
+      "eventIndex": 649
+    },
+    {
+      "groupId": 310001,
+      "id": 301,
+      "saleGroup": 0,
+      "startTime": 1758758400000,
+      "endTime": 7289621999000,
+      "endDelayMinutes": 5,
+      "eventIndex": 650
+    },
+    {
+      "groupId": 500001,
+      "id": 252,
+      "saleGroup": 0,
+      "startTime": 1761177600000,
+      "endTime": 1762387199000,
+      "endDelayMinutes": 5,
+      "eventIndex": 670
+    },
+    {
+      "groupId": 500001,
+      "id": 253,
+      "saleGroup": 0,
+      "startTime": 1761177600000,
+      "endTime": 1762387199000,
+      "endDelayMinutes": 5,
+      "eventIndex": 671
+    },
+    {
+      "groupId": 500001,
+      "id": 254,
+      "saleGroup": 0,
+      "startTime": 1761177600000,
+      "endTime": 1762387199000,
+      "endDelayMinutes": 5,
+      "eventIndex": 672
+    },
+    {
+      "groupId": 500001,
+      "id": 255,
+      "saleGroup": 0,
+      "startTime": 1761177600000,
+      "endTime": 1762387199000,
+      "endDelayMinutes": 5,
+      "eventIndex": 673
+    },
+    {
+      "groupId": 600001,
+      "id": 53,
+      "saleGroup": 0,
+      "startTime": 1761177600000,
+      "endTime": 1763596799000,
+      "endDelayMinutes": 5,
+      "eventIndex": 674
+    },
+    {
+      "groupId": 1200001,
+      "id": 17,
+      "saleGroup": 0,
+      "startTime": 1761177600000,
+      "endTime": 1763596799000,
+      "endDelayMinutes": 5,
+      "eventIndex": 675
+    },
+    {
+      "groupId": 310001,
+      "id": 310,
+      "saleGroup": 0,
+      "startTime": 1761177600000,
+      "endTime": 1762387199000,
+      "endDelayMinutes": 5,
+      "eventIndex": 676
+    },
+    {
+      "groupId": 310001,
+      "id": 311,
+      "saleGroup": 0,
+      "startTime": 1761177600000,
+      "endTime": 1762387199000,
+      "endDelayMinutes": 5,
+      "eventIndex": 677
+    },
+    {
+      "groupId": 310001,
+      "id": 312,
+      "saleGroup": 0,
+      "startTime": 1761177600000,
+      "endTime": 1762387199000,
+      "endDelayMinutes": 5,
+      "eventIndex": 678
+    },
+    {
+      "groupId": 310001,
+      "id": 313,
+      "saleGroup": 0,
+      "startTime": 1761177600000,
+      "endTime": 1762387199000,
+      "endDelayMinutes": 5,
+      "eventIndex": 679
+    },
+    {
+      "groupId": 310001,
+      "id": 314,
+      "saleGroup": 0,
+      "startTime": 1761177600000,
+      "endTime": 1762387199000,
+      "endDelayMinutes": 5,
+      "eventIndex": 680
+    },
+    {
+      "groupId": 310001,
+      "id": 315,
+      "saleGroup": 0,
+      "startTime": 1761177600000,
+      "endTime": 1762387199000,
+      "endDelayMinutes": 5,
+      "eventIndex": 681
+    },
+    {
+      "groupId": 310001,
+      "id": 316,
+      "saleGroup": 0,
+      "startTime": 1761177600000,
+      "endTime": 1762387199000,
+      "endDelayMinutes": 5,
+      "eventIndex": 682
+    },
+    {
+      "groupId": 310001,
+      "id": 317,
+      "saleGroup": 0,
+      "startTime": 1761177600000,
+      "endTime": 1762387199000,
+      "endDelayMinutes": 5,
+      "eventIndex": 683
+    },
+    {
+      "groupId": 330001,
+      "id": 1200081,
+      "saleGroup": 114,
+      "startTime": 1761177600000,
+      "endTime": 1762387199000,
+      "endDelayMinutes": 5,
+      "eventIndex": 684
+    },
+    {
+      "groupId": 330001,
+      "id": 1200082,
+      "saleGroup": 114,
+      "startTime": 1761177600000,
+      "endTime": 1762387199000,
+      "endDelayMinutes": 5,
+      "eventIndex": 685
+    },
+    {
+      "groupId": 330001,
+      "id": 1200083,
+      "saleGroup": 114,
+      "startTime": 1761177600000,
+      "endTime": 1762387199000,
+      "endDelayMinutes": 5,
+      "eventIndex": 686
+    },
+    {
+      "groupId": 330001,
+      "id": 1200084,
+      "saleGroup": 114,
+      "startTime": 1761177600000,
+      "endTime": 1762387199000,
+      "endDelayMinutes": 5,
+      "eventIndex": 687
+    },
+    {
+      "groupId": 330001,
+      "id": 1200085,
+      "saleGroup": 114,
+      "startTime": 1761177600000,
+      "endTime": 1762387199000,
+      "endDelayMinutes": 5,
+      "eventIndex": 688
+    },
+    {
+      "groupId": 330001,
+      "id": 1200086,
+      "saleGroup": 114,
+      "startTime": 1761177600000,
+      "endTime": 1762387199000,
+      "endDelayMinutes": 5,
+      "eventIndex": 689
+    },
+    {
+      "groupId": 330001,
+      "id": 1200087,
+      "saleGroup": 115,
+      "startTime": 1761177600000,
+      "endTime": 1762387199000,
+      "endDelayMinutes": 5,
+      "eventIndex": 690
+    },
+    {
+      "groupId": 330001,
+      "id": 1200088,
+      "saleGroup": 115,
+      "startTime": 1761177600000,
+      "endTime": 1762387199000,
+      "endDelayMinutes": 5,
+      "eventIndex": 691
+    },
+    {
+      "groupId": 330001,
+      "id": 1200089,
+      "saleGroup": 115,
+      "startTime": 1761177600000,
+      "endTime": 1762387199000,
+      "endDelayMinutes": 5,
+      "eventIndex": 692
+    },
+    {
+      "groupId": 330001,
+      "id": 1200090,
+      "saleGroup": 115,
+      "startTime": 1761177600000,
+      "endTime": 1762387199000,
+      "endDelayMinutes": 5,
+      "eventIndex": 693
+    },
+    {
+      "groupId": 330001,
+      "id": 1200091,
+      "saleGroup": 115,
+      "startTime": 1761177600000,
+      "endTime": 1762387199000,
+      "endDelayMinutes": 5,
+      "eventIndex": 694
+    },
+    {
+      "groupId": 330001,
+      "id": 1200092,
+      "saleGroup": 115,
+      "startTime": 1761177600000,
+      "endTime": 1762387199000,
+      "endDelayMinutes": 5,
+      "eventIndex": 695
+    }
+  ],
+  "dailyResetTime": 1761436800000,
+  "weeklyResetTime": 1761523200000,
+  "monthlyResetTime": 1761955200000
+}

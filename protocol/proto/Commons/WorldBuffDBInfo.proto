@@ -1,0 +1,5 @@
+﻿
+message WorldBuffDBInfo {
+  optional int32 id = 2;
+  optional int64 remaining_time = 3;
+}

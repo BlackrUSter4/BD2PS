@@ -1,0 +1,12 @@
+[
+  { "buffId": 19, "id": 303, "rewardIcon": "icon_jar", "type": 5, "uiLocalTextId": 400017 },
+  { "id": 103, "resetType": 2, "rewardGroupId": 1000001, "rewardIcon": "icon_coin", "type": 6, "uiLocalTextId": 400045 },
+  { "id": 203, "resetType": 2, "rewardGroupId": 1000002, "rewardIcon": "icon_cash", "type": 6, "uiLocalTextId": 400046 },
+  { "id": 3, "miniMapViewFlag": 1, "resetType": 3, "rewardGroupId": 110001, "rewardIcon": "icon_regenobject", "type": 1, "uiLocalTextId": 400026 },
+  { "id": 13, "resetType": 3, "rewardGroupId": 310001, "rewardIcon": "icon_searchobject", "type": 3, "uiLocalTextId": 400027 },
+  { "id": 403, "resetType": 2, "rewardIcon": "icon_jar", "type": 5, "uiLocalTextId": 400047 },
+  { "id": 1003, "resetType": 2, "rewardGroupId": 1000003, "rewardIcon": "icon_coin_l", "type": 6, "uiLocalTextId": 400048 },
+  { "castingSec": 1, "id": 23, "resetType": 1, "rewardGroupId": 210001, "rewardIcon": "icon_chest", "type": 2, "uiLocalTextId": 400028 },
+  { "id": 503, "resetType": 2, "rewardGroupId": 904004, "rewardIcon": "icon_jar", "type": 5, "uiLocalTextId": 400041 },
+  { "id": 2003, "resetType": 2, "rewardGroupId": 1000004, "rewardIcon": "icon_cash_l", "type": 6, "uiLocalTextId": 400049 }
+]

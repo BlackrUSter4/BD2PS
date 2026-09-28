@@ -1,0 +1,4 @@
+﻿
+message ImmortalQuestResetRequest {
+  optional int32 seq = 1;
+}

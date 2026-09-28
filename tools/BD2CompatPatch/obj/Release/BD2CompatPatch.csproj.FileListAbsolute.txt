@@ -1,0 +1,7 @@
+A:\Private Servers\bd\BD2PS-main\tools\BD2CompatPatch\obj\Release\BD2CompatPatch.csproj.AssemblyReference.cache
+A:\Private Servers\bd\BD2PS-main\tools\BD2CompatPatch\obj\Release\BD2CompatPatch.GeneratedMSBuildEditorConfig.editorconfig
+A:\Private Servers\bd\BD2PS-main\tools\BD2CompatPatch\obj\Release\BD2CompatPatch.csproj.CoreCompileInputs.cache
+A:\Private Servers\bd\BD2PS-main\tools\BD2CompatPatch\bin\Release\BD2CompatPatch.dll
+A:\Private Servers\bd\BD2PS-main\tools\BD2CompatPatch\bin\Release\BD2CompatPatch.pdb
+A:\Private Servers\bd\BD2PS-main\tools\BD2CompatPatch\obj\Release\BD2CompatPatch.dll
+A:\Private Servers\bd\BD2PS-main\tools\BD2CompatPatch\obj\Release\BD2CompatPatch.pdb

@@ -1,0 +1,225 @@
+[
+  {
+    "huntPackId": 1,
+    "huntPinIcoSpriteName": "icon_hunt_map",
+    "id": 11,
+    "mapDescNameTextId": 5100011,
+    "mapNameTextId": 5000011,
+    "mapPinIconSpriteName": "icon_building",
+    "mapPinThumbSpriteName": "pack1_worldthumb_1",
+    "packId": 1
+  },
+  {
+    "huntPackId": 2,
+    "huntPinIcoSpriteName": "icon_hunt_map",
+    "id": 21,
+    "mapDescNameTextId": 5100021,
+    "mapNameTextId": 5000021,
+    "mapPinIconSpriteName": "icon_building",
+    "mapPinThumbSpriteName": "pack2_worldthumb_1",
+    "packId": 2
+  },
+  {
+    "huntPackId": 3,
+    "huntPinIcoSpriteName": "icon_hunt_map",
+    "id": 31,
+    "mapDescNameTextId": 5100031,
+    "mapNameTextId": 5000031,
+    "mapPinIconSpriteName": "icon_building",
+    "mapPinThumbSpriteName": "pack3_worldthumb_1",
+    "packId": 3
+  },
+  {
+    "huntPackId": 4,
+    "huntPinIcoSpriteName": "icon_hunt_map",
+    "id": 41,
+    "mapDescNameTextId": 5100041,
+    "mapNameTextId": 5000041,
+    "mapPinIconSpriteName": "icon_building",
+    "mapPinThumbSpriteName": "pack4_worldthumb_1",
+    "packId": 4
+  },
+  {
+    "huntPackId": 5,
+    "huntPinIcoSpriteName": "icon_hunt_map",
+    "id": 51,
+    "mapDescNameTextId": 5100051,
+    "mapNameTextId": 5000051,
+    "mapPinIconSpriteName": "icon_building",
+    "mapPinThumbSpriteName": "pack5_worldthumb_1",
+    "packId": 5
+  },
+  {
+    "huntPackId": 6,
+    "huntPinIcoSpriteName": "icon_hunt_map",
+    "id": 61,
+    "mapDescNameTextId": 5100061,
+    "mapNameTextId": 5000061,
+    "mapPinIconSpriteName": "icon_building",
+    "mapPinThumbSpriteName": "pack6_worldthumb_1",
+    "packId": 6
+  },
+  {
+    "huntPackId": 7,
+    "huntPinIcoSpriteName": "icon_hunt_map",
+    "id": 71,
+    "mapDescNameTextId": 5100071,
+    "mapNameTextId": 5000071,
+    "mapPinIconSpriteName": "icon_building",
+    "mapPinThumbSpriteName": "pack7_worldthumb_1",
+    "packId": 7
+  },
+  {
+    "huntPackId": 8,
+    "huntPinIcoSpriteName": "icon_hunt_map",
+    "id": 81,
+    "mapDescNameTextId": 5100081,
+    "mapNameTextId": 5000081,
+    "mapPinIconSpriteName": "icon_building",
+    "mapPinThumbSpriteName": "pack8_worldthumb_1",
+    "packId": 8
+  },
+  {
+    "huntPackId": 9,
+    "huntPinIcoSpriteName": "icon_hunt_map",
+    "id": 91,
+    "mapDescNameTextId": 5100091,
+    "mapNameTextId": 5000091,
+    "mapPinIconSpriteName": "icon_building",
+    "mapPinThumbSpriteName": "pack9_worldthumb_1",
+    "packId": 9
+  },
+  {
+    "huntPackId": 10,
+    "huntPinIcoSpriteName": "icon_hunt_map",
+    "id": 101,
+    "mapDescNameTextId": 5100101,
+    "mapNameTextId": 5000101,
+    "mapPinIconSpriteName": "icon_building",
+    "mapPinThumbSpriteName": "pack10_worldthumb_1",
+    "packId": 10
+  },
+  {
+    "huntPinIcoSpriteName": "icon_building",
+    "id": 111,
+    "mapDescNameTextId": 5100111,
+    "mapNameTextId": 5000111,
+    "mapPinIconSpriteName": "icon_building",
+    "mapPinThumbSpriteName": "pack11_worldthumb_1",
+    "packId": 11
+  },
+  {
+    "huntPinIcoSpriteName": "icon_building",
+    "id": 121,
+    "mapDescNameTextId": 5100121,
+    "mapNameTextId": 5000121,
+    "mapPinIconSpriteName": "icon_building",
+    "mapPinThumbSpriteName": "pack12_worldthumb_1",
+    "packId": 12
+  },
+  {
+    "huntPinIcoSpriteName": "icon_building",
+    "id": 131,
+    "mapDescNameTextId": 5100131,
+    "mapNameTextId": 5000131,
+    "mapPinIconSpriteName": "icon_building",
+    "mapPinThumbSpriteName": "pack13_worldthumb_1",
+    "packId": 13
+  },
+  {
+    "huntPinIcoSpriteName": "icon_building",
+    "id": 141,
+    "mapDescNameTextId": 5100141,
+    "mapNameTextId": 5000141,
+    "mapPinIconSpriteName": "icon_building",
+    "mapPinThumbSpriteName": "pack14_worldthumb_1",
+    "packId": 14
+  },
+  {
+    "huntPinIcoSpriteName": "icon_building",
+    "id": 151,
+    "mapDescNameTextId": 5100151,
+    "mapNameTextId": 5000151,
+    "mapPinIconSpriteName": "icon_building",
+    "mapPinThumbSpriteName": "pack15_worldthumb_1",
+    "packId": 15
+  },
+  {
+    "huntPinIcoSpriteName": "icon_building",
+    "id": 161,
+    "mapDescNameTextId": 5100161,
+    "mapNameTextId": 5000161,
+    "mapPinIconSpriteName": "icon_building",
+    "mapPinThumbSpriteName": "pack16_worldthumb_1",
+    "packId": 16
+  },
+  {
+    "huntPinIcoSpriteName": "icon_building",
+    "id": 171,
+    "mapDescNameTextId": 5100171,
+    "mapNameTextId": 5000171,
+    "mapPinIconSpriteName": "icon_building",
+    "mapPinThumbSpriteName": "pack17_worldthumb_1",
+    "packId": 17
+  },
+  {
+    "huntPinIcoSpriteName": "icon_building",
+    "id": 181,
+    "mapDescNameTextId": 5100181,
+    "mapNameTextId": 5000181,
+    "mapPinIconSpriteName": "icon_building",
+    "mapPinThumbSpriteName": "pack18_worldthumb_1",
+    "packId": 18
+  },
+  {
+    "huntPinIcoSpriteName": "icon_building",
+    "id": 30031,
+    "mapDescNameTextId": 5130031,
+    "mapNameTextId": 931,
+    "mapPinIconSpriteName": "icon_building",
+    "mapPinThumbSpriteName": "pack3003_worldthumb_18",
+    "packId": 3003
+  },
+  {
+    "huntPinIcoSpriteName": "icon_building",
+    "id": 30041,
+    "mapDescNameTextId": 30140001,
+    "mapNameTextId": 30040001,
+    "mapPinIconSpriteName": "icon_building",
+    "mapPinThumbSpriteName": "pack3004_worldthumb_19",
+    "packId": 3004
+  },
+  {
+    "huntPackId": 3004,
+    "huntPinIcoSpriteName": "icon_crystal_map",
+    "huntTypeGroupId": 3,
+    "id": 30042,
+    "mapDescNameTextId": 30140002,
+    "mapNameTextId": 30040002,
+    "mapPinIconSpriteName": "icon_crystal_map",
+    "mapPinThumbSpriteName": "pack3004_worldthumb_22",
+    "type": 1
+  },
+  {
+    "huntPackId": 3004,
+    "huntPinIcoSpriteName": "icon_goblin_map",
+    "huntTypeGroupId": 1,
+    "id": 30047,
+    "mapDescNameTextId": 30140007,
+    "mapNameTextId": 30040007,
+    "mapPinIconSpriteName": "icon_goblin_map",
+    "mapPinThumbSpriteName": "pack3004_worldthumb_21",
+    "type": 1
+  },
+  {
+    "huntPackId": 3004,
+    "huntPinIcoSpriteName": "icon_slime_map",
+    "huntTypeGroupId": 2,
+    "id": 30048,
+    "mapDescNameTextId": 30140008,
+    "mapNameTextId": 30040008,
+    "mapPinIconSpriteName": "icon_slime_map",
+    "mapPinThumbSpriteName": "pack3004_worldthumb_20",
+    "type": 1
+  }
+]

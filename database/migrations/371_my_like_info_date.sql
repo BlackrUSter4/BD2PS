@@ -1,0 +1,1 @@
+ALTER TABLE "MyLikeInfo" ADD COLUMN "Date" BIGINT;

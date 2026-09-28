@@ -1,0 +1,17 @@
+[
+  { "groupId": 3, "id": 1, "mapId": 1300701, "npcDistance": 1.8, "npcId": 2, "npcTalkGroupId": 20, "npcTalkPackId": 13007, "rewardCount": [ 4 ], "rewardId": [ 2062 ], "rewardType": [ 8 ] },
+  { "groupId": 3, "id": 2, "mapId": 1300701, "npcDistance": 1.8, "npcId": 2, "npcTalkGroupId": 21, "npcTalkPackId": 13007, "rewardCount": [ 4 ], "rewardId": [ 2062 ], "rewardType": [ 8 ] },
+  { "groupId": 3, "id": 3, "mapId": 1300701, "npcDistance": 1.8, "npcId": 2, "npcTalkGroupId": 22, "npcTalkPackId": 13007, "rewardCount": [ 4 ], "rewardId": [ 2062 ], "rewardType": [ 8 ] },
+  { "groupId": 3, "id": 4, "mapId": 1300701, "npcDistance": 1.8, "npcId": 3, "npcTalkGroupId": 23, "npcTalkPackId": 13007, "openDelayDays": 1, "rewardCount": [ 4 ], "rewardId": [ 2062 ], "rewardType": [ 8 ] },
+  { "groupId": 3, "id": 5, "mapId": 1300701, "npcDistance": 1.8, "npcId": 3, "npcTalkGroupId": 24, "npcTalkPackId": 13007, "openDelayDays": 1, "rewardCount": [ 4 ], "rewardId": [ 2062 ], "rewardType": [ 8 ] },
+  { "groupId": 3, "id": 6, "mapId": 1300701, "npcDistance": 1.8, "npcId": 3, "npcTalkGroupId": 25, "npcTalkPackId": 13007, "openDelayDays": 2, "rewardCount": [ 4 ], "rewardId": [ 2062 ], "rewardType": [ 8 ] },
+  { "groupId": 3, "id": 7, "mapId": 1300701, "npcDistance": 1.8, "npcId": 4, "npcTalkGroupId": 26, "npcTalkPackId": 13007, "openDelayDays": 2, "rewardCount": [ 4 ], "rewardId": [ 2062 ], "rewardType": [ 8 ] },
+  { "groupId": 3, "id": 8, "mapId": 1300701, "npcDistance": 1.8, "npcId": 4, "npcTalkGroupId": 27, "npcTalkPackId": 13007, "openDelayDays": 3, "rewardCount": [ 4 ], "rewardId": [ 2062 ], "rewardType": [ 8 ] },
+  { "groupId": 3, "id": 9, "mapId": 1300701, "npcDistance": 1.8, "npcId": 4, "npcTalkGroupId": 28, "npcTalkPackId": 13007, "openDelayDays": 3, "rewardCount": [ 4 ], "rewardId": [ 2062 ], "rewardType": [ 8 ] },
+  { "groupId": 3, "id": 10, "mapId": 1300701, "npcDistance": 1.8, "npcId": 5, "npcTalkGroupId": 29, "npcTalkPackId": 13007, "openDelayDays": 4, "rewardCount": [ 4 ], "rewardId": [ 2062 ], "rewardType": [ 8 ] },
+  { "groupId": 3, "id": 11, "mapId": 1300701, "npcDistance": 1.8, "npcId": 5, "npcTalkGroupId": 30, "npcTalkPackId": 13007, "openDelayDays": 4, "rewardCount": [ 4 ], "rewardId": [ 2062 ], "rewardType": [ 8 ] },
+  { "groupId": 3, "id": 12, "mapId": 1300701, "npcDistance": 1.8, "npcId": 5, "npcTalkGroupId": 31, "npcTalkPackId": 13007, "openDelayDays": 5, "rewardCount": [ 4 ], "rewardId": [ 2062 ], "rewardType": [ 8 ] },
+  { "groupId": 3, "id": 13, "mapId": 1300701, "npcDistance": 1.8, "npcId": 6, "npcTalkGroupId": 32, "npcTalkPackId": 13007, "openDelayDays": 5, "rewardCount": [ 4 ], "rewardId": [ 2062 ], "rewardType": [ 8 ] },
+  { "groupId": 3, "id": 14, "mapId": 1300701, "npcDistance": 1.8, "npcId": 6, "npcTalkGroupId": 33, "npcTalkPackId": 13007, "openDelayDays": 6, "rewardCount": [ 4 ], "rewardId": [ 2062 ], "rewardType": [ 8 ] },
+  { "groupId": 3, "id": 15, "mapId": 1300701, "npcDistance": 1.8, "npcId": 6, "npcTalkGroupId": 34, "npcTalkPackId": 13007, "openDelayDays": 6, "rewardCount": [ 4 ], "rewardId": [ 2062 ], "rewardType": [ 8 ] }
+]

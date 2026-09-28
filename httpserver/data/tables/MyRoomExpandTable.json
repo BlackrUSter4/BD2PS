@@ -1,0 +1,71 @@
+[
+  {
+    "carpetLimitCount": 1,
+    "charLimitCount": 4,
+    "defaultRoom": 1,
+    "id": 1,
+    "objectLimitCount": 15
+  },
+  {
+    "carpetLimitCount": 2,
+    "charLimitCount": 6,
+    "defaultRoom": 1,
+    "id": 2,
+    "objectLimitCount": 20
+  },
+  {
+    "carpetLimitCount": 3,
+    "charLimitCount": 8,
+    "defaultRoom": 1,
+    "id": 3,
+    "objectLimitCount": 30
+  },
+  {
+    "carpetLimitCount": 4,
+    "charLimitCount": 10,
+    "id": 4,
+    "objectLimitCount": 35,
+    "priceCount": 200,
+    "priceType": 44
+  },
+  {
+    "carpetLimitCount": 5,
+    "charLimitCount": 12,
+    "id": 5,
+    "objectLimitCount": 40,
+    "priceCount": 350,
+    "priceType": 44
+  },
+  {
+    "carpetLimitCount": 6,
+    "charLimitCount": 14,
+    "id": 6,
+    "objectLimitCount": 50,
+    "priceCount": 500,
+    "priceType": 44
+  },
+  {
+    "carpetLimitCount": 7,
+    "charLimitCount": 16,
+    "id": 7,
+    "objectLimitCount": 55,
+    "priceCount": 650,
+    "priceType": 44
+  },
+  {
+    "carpetLimitCount": 8,
+    "charLimitCount": 18,
+    "id": 8,
+    "objectLimitCount": 60,
+    "priceCount": 800,
+    "priceType": 44
+  },
+  {
+    "carpetLimitCount": 9,
+    "charLimitCount": 20,
+    "id": 9,
+    "objectLimitCount": 70,
+    "priceCount": 950,
+    "priceType": 44
+  }
+]

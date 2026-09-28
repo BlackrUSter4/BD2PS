@@ -1,0 +1,6 @@
+CREATE TABLE "TrapInfo" (
+    "Index" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "Uid" BIGINT NOT NULL,
+    "GroupId" INTEGER,
+    "TrapId" INTEGER
+);

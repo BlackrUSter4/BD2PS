@@ -1,0 +1,5132 @@
+[
+  {
+    "id": 1,
+    "insideMapId": [
+      4,
+      8,
+      9,
+      10
+    ],
+    "mapId": 1,
+    "packId": 1,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110001,
+    "rewardType": 9
+  },
+  {
+    "id": 2,
+    "mapId": 1,
+    "packId": 1,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310001,
+    "rewardType": 9
+  },
+  {
+    "id": 21,
+    "mapId": 2,
+    "packId": 1,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110002,
+    "rewardType": 9
+  },
+  {
+    "id": 22,
+    "mapId": 2,
+    "packId": 1,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310001,
+    "rewardType": 9
+  },
+  {
+    "id": 25,
+    "mapId": 2,
+    "packId": 1,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1001,
+    "rewardType": 5
+  },
+  {
+    "id": 26,
+    "mapId": 2,
+    "packId": 1,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1053,
+    "rewardType": 5
+  },
+  {
+    "id": 42,
+    "mapId": 3,
+    "packId": 1,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110002,
+    "rewardType": 9
+  },
+  {
+    "id": 43,
+    "mapId": 3,
+    "packId": 1,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310001,
+    "rewardType": 9
+  },
+  {
+    "id": 46,
+    "mapId": 3,
+    "packId": 1,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1001,
+    "rewardType": 5
+  },
+  {
+    "id": 47,
+    "mapId": 3,
+    "packId": 1,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1053,
+    "rewardType": 5
+  },
+  {
+    "id": 63,
+    "mapId": 13,
+    "packId": 1,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 301,
+    "rewardType": 8
+  },
+  {
+    "id": 64,
+    "mapId": 13,
+    "packId": 1,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 401,
+    "rewardType": 8
+  },
+  {
+    "id": 65,
+    "mapId": 13,
+    "packId": 1,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 204,
+    "rewardType": 8
+  },
+  {
+    "id": 66,
+    "mapId": 13,
+    "packId": 1,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 501,
+    "rewardType": 8
+  },
+  {
+    "id": 67,
+    "mapId": 13,
+    "packId": 1,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 201,
+    "rewardType": 8
+  },
+  {
+    "id": 78,
+    "mapId": 13,
+    "packId": 1,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 202,
+    "rewardType": 8
+  },
+  {
+    "id": 79,
+    "mapId": 13,
+    "packId": 1,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 203,
+    "rewardType": 8
+  },
+  {
+    "id": 80,
+    "mapId": 13,
+    "packId": 1,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1001,
+    "rewardType": 5
+  },
+  {
+    "id": 81,
+    "mapId": 13,
+    "packId": 1,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1053,
+    "rewardType": 5
+  },
+  {
+    "id": 83,
+    "mapId": 4,
+    "packId": 1,
+    "rewardAcquireType": [
+      4
+    ],
+    "rewardId": 103,
+    "rewardType": 17
+  },
+  {
+    "id": 84,
+    "mapId": 7,
+    "packId": 1,
+    "rewardAcquireType": [
+      4
+    ],
+    "rewardId": 302,
+    "rewardType": 7
+  },
+  {
+    "id": 85,
+    "mapId": 8,
+    "packId": 1,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110001,
+    "rewardType": 9
+  },
+  {
+    "id": 90,
+    "mapId": 9,
+    "packId": 1,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110001,
+    "rewardType": 9
+  },
+  {
+    "id": 96,
+    "mapId": 10,
+    "packId": 1,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310001,
+    "rewardType": 9
+  },
+  {
+    "id": 110,
+    "insideMapId": [
+      24,
+      25,
+      26,
+      27
+    ],
+    "mapId": 21,
+    "packId": 2,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110011,
+    "rewardType": 9
+  },
+  {
+    "id": 111,
+    "mapId": 21,
+    "packId": 2,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310002,
+    "rewardType": 9
+  },
+  {
+    "id": 131,
+    "mapId": 22,
+    "packId": 2,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110012,
+    "rewardType": 9
+  },
+  {
+    "id": 132,
+    "mapId": 22,
+    "packId": 2,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310002,
+    "rewardType": 9
+  },
+  {
+    "id": 136,
+    "mapId": 22,
+    "packId": 2,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1001,
+    "rewardType": 5
+  },
+  {
+    "id": 137,
+    "mapId": 22,
+    "packId": 2,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1054,
+    "rewardType": 5
+  },
+  {
+    "id": 153,
+    "mapId": 23,
+    "packId": 2,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110012,
+    "rewardType": 9
+  },
+  {
+    "id": 154,
+    "mapId": 23,
+    "packId": 2,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310002,
+    "rewardType": 9
+  },
+  {
+    "id": 158,
+    "mapId": 23,
+    "packId": 2,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1001,
+    "rewardType": 5
+  },
+  {
+    "id": 159,
+    "mapId": 23,
+    "packId": 2,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1054,
+    "rewardType": 5
+  },
+  {
+    "id": 175,
+    "mapId": 28,
+    "packId": 2,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 301,
+    "rewardType": 8
+  },
+  {
+    "id": 176,
+    "mapId": 28,
+    "packId": 2,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 401,
+    "rewardType": 8
+  },
+  {
+    "id": 177,
+    "mapId": 28,
+    "packId": 2,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 204,
+    "rewardType": 8
+  },
+  {
+    "id": 178,
+    "mapId": 28,
+    "packId": 2,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 501,
+    "rewardType": 8
+  },
+  {
+    "id": 179,
+    "mapId": 28,
+    "packId": 2,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 201,
+    "rewardType": 8
+  },
+  {
+    "id": 180,
+    "mapId": 28,
+    "packId": 2,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 202,
+    "rewardType": 8
+  },
+  {
+    "id": 181,
+    "mapId": 28,
+    "packId": 2,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 203,
+    "rewardType": 8
+  },
+  {
+    "id": 192,
+    "mapId": 28,
+    "packId": 2,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1001,
+    "rewardType": 5
+  },
+  {
+    "id": 193,
+    "mapId": 28,
+    "packId": 2,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1054,
+    "rewardType": 5
+  },
+  {
+    "id": 195,
+    "mapId": 24,
+    "packId": 2,
+    "rewardAcquireType": [
+      4
+    ],
+    "rewardId": 202,
+    "rewardType": 7
+  },
+  {
+    "id": 196,
+    "mapId": 24,
+    "packId": 2,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110011,
+    "rewardType": 9
+  },
+  {
+    "id": 202,
+    "mapId": 25,
+    "packId": 2,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110011,
+    "rewardType": 9
+  },
+  {
+    "id": 208,
+    "mapId": 26,
+    "packId": 2,
+    "rewardAcquireType": [
+      4
+    ],
+    "rewardId": 303,
+    "rewardType": 7
+  },
+  {
+    "id": 190,
+    "mapId": 26,
+    "packId": 2,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310002,
+    "rewardType": 9
+  },
+  {
+    "id": 221,
+    "insideMapId": [
+      34,
+      35,
+      36,
+      37
+    ],
+    "mapId": 31,
+    "packId": 3,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110021,
+    "rewardType": 9
+  },
+  {
+    "id": 222,
+    "mapId": 31,
+    "packId": 3,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310003,
+    "rewardType": 9
+  },
+  {
+    "id": 241,
+    "mapId": 32,
+    "packId": 3,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110022,
+    "rewardType": 9
+  },
+  {
+    "id": 249,
+    "mapId": 32,
+    "packId": 3,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310003,
+    "rewardType": 9
+  },
+  {
+    "id": 252,
+    "mapId": 32,
+    "packId": 3,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1001,
+    "rewardType": 5
+  },
+  {
+    "id": 253,
+    "mapId": 32,
+    "packId": 3,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1055,
+    "rewardType": 5
+  },
+  {
+    "id": 281,
+    "mapId": 33,
+    "packId": 3,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110022,
+    "rewardType": 9
+  },
+  {
+    "id": 282,
+    "mapId": 33,
+    "packId": 3,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310003,
+    "rewardType": 9
+  },
+  {
+    "id": 285,
+    "mapId": 33,
+    "packId": 3,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1001,
+    "rewardType": 5
+  },
+  {
+    "id": 286,
+    "mapId": 33,
+    "packId": 3,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1055,
+    "rewardType": 5
+  },
+  {
+    "id": 314,
+    "mapId": 38,
+    "packId": 3,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 301,
+    "rewardType": 8
+  },
+  {
+    "id": 315,
+    "mapId": 38,
+    "packId": 3,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 401,
+    "rewardType": 8
+  },
+  {
+    "id": 316,
+    "mapId": 38,
+    "packId": 3,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 204,
+    "rewardType": 8
+  },
+  {
+    "id": 317,
+    "mapId": 38,
+    "packId": 3,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 501,
+    "rewardType": 8
+  },
+  {
+    "id": 318,
+    "mapId": 38,
+    "packId": 3,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 201,
+    "rewardType": 8
+  },
+  {
+    "id": 319,
+    "mapId": 38,
+    "packId": 3,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 202,
+    "rewardType": 8
+  },
+  {
+    "id": 320,
+    "mapId": 38,
+    "packId": 3,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 203,
+    "rewardType": 8
+  },
+  {
+    "id": 333,
+    "mapId": 38,
+    "packId": 3,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1001,
+    "rewardType": 5
+  },
+  {
+    "id": 334,
+    "mapId": 38,
+    "packId": 3,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1055,
+    "rewardType": 5
+  },
+  {
+    "id": 338,
+    "mapId": 34,
+    "packId": 3,
+    "rewardAcquireType": [
+      4
+    ],
+    "rewardId": 402,
+    "rewardType": 7
+  },
+  {
+    "id": 339,
+    "mapId": 34,
+    "packId": 3,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110021,
+    "rewardType": 9
+  },
+  {
+    "id": 344,
+    "mapId": 35,
+    "packId": 3,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110021,
+    "rewardType": 9
+  },
+  {
+    "id": 368,
+    "mapId": 36,
+    "packId": 3,
+    "rewardAcquireType": [
+      4
+    ],
+    "rewardId": 203,
+    "rewardType": 7
+  },
+  {
+    "id": 371,
+    "mapId": 36,
+    "packId": 3,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310003,
+    "rewardType": 9
+  },
+  {
+    "id": 389,
+    "mapId": 37,
+    "packId": 3,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110021,
+    "rewardType": 9
+  },
+  {
+    "id": 393,
+    "insideMapId": [
+      44,
+      45,
+      46
+    ],
+    "mapId": 41,
+    "packId": 4,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110031,
+    "rewardType": 9
+  },
+  {
+    "id": 394,
+    "mapId": 41,
+    "packId": 4,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310004,
+    "rewardType": 9
+  },
+  {
+    "id": 420,
+    "mapId": 42,
+    "packId": 4,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110032,
+    "rewardType": 9
+  },
+  {
+    "id": 421,
+    "mapId": 42,
+    "packId": 4,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310004,
+    "rewardType": 9
+  },
+  {
+    "id": 425,
+    "mapId": 42,
+    "packId": 4,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1001,
+    "rewardType": 5
+  },
+  {
+    "id": 426,
+    "mapId": 42,
+    "packId": 4,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1056,
+    "rewardType": 5
+  },
+  {
+    "id": 454,
+    "mapId": 43,
+    "packId": 4,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110032,
+    "rewardType": 9
+  },
+  {
+    "id": 455,
+    "mapId": 43,
+    "packId": 4,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310004,
+    "rewardType": 9
+  },
+  {
+    "id": 459,
+    "mapId": 43,
+    "packId": 4,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1001,
+    "rewardType": 5
+  },
+  {
+    "id": 460,
+    "mapId": 43,
+    "packId": 4,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1056,
+    "rewardType": 5
+  },
+  {
+    "id": 488,
+    "mapId": 48,
+    "packId": 4,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 301,
+    "rewardType": 8
+  },
+  {
+    "id": 489,
+    "mapId": 48,
+    "packId": 4,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 401,
+    "rewardType": 8
+  },
+  {
+    "id": 490,
+    "mapId": 48,
+    "packId": 4,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 204,
+    "rewardType": 8
+  },
+  {
+    "id": 491,
+    "mapId": 48,
+    "packId": 4,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 501,
+    "rewardType": 8
+  },
+  {
+    "id": 492,
+    "mapId": 48,
+    "packId": 4,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 201,
+    "rewardType": 8
+  },
+  {
+    "id": 493,
+    "mapId": 48,
+    "packId": 4,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 202,
+    "rewardType": 8
+  },
+  {
+    "id": 494,
+    "mapId": 48,
+    "packId": 4,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 203,
+    "rewardType": 8
+  },
+  {
+    "id": 509,
+    "mapId": 48,
+    "packId": 4,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1001,
+    "rewardType": 5
+  },
+  {
+    "id": 510,
+    "mapId": 48,
+    "packId": 4,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1056,
+    "rewardType": 5
+  },
+  {
+    "id": 511,
+    "mapId": 44,
+    "packId": 4,
+    "rewardAcquireType": [
+      4
+    ],
+    "rewardId": 304,
+    "rewardType": 7
+  },
+  {
+    "id": 512,
+    "mapId": 44,
+    "packId": 4,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110031,
+    "rewardType": 9
+  },
+  {
+    "id": 513,
+    "mapId": 45,
+    "packId": 4,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110031,
+    "rewardType": 9
+  },
+  {
+    "id": 514,
+    "mapId": 46,
+    "packId": 4,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310004,
+    "rewardType": 9
+  },
+  {
+    "id": 548,
+    "insideMapId": [
+      54,
+      55,
+      56,
+      57
+    ],
+    "mapId": 51,
+    "packId": 5,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110041,
+    "rewardType": 9
+  },
+  {
+    "id": 549,
+    "mapId": 51,
+    "packId": 5,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310005,
+    "rewardType": 9
+  },
+  {
+    "id": 576,
+    "mapId": 52,
+    "packId": 5,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110042,
+    "rewardType": 9
+  },
+  {
+    "id": 577,
+    "mapId": 52,
+    "packId": 5,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310005,
+    "rewardType": 9
+  },
+  {
+    "id": 580,
+    "mapId": 52,
+    "packId": 5,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1001,
+    "rewardType": 5
+  },
+  {
+    "id": 581,
+    "mapId": 52,
+    "packId": 5,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1057,
+    "rewardType": 5
+  },
+  {
+    "id": 609,
+    "mapId": 53,
+    "packId": 5,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110042,
+    "rewardType": 9
+  },
+  {
+    "id": 610,
+    "mapId": 53,
+    "packId": 5,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310005,
+    "rewardType": 9
+  },
+  {
+    "id": 613,
+    "mapId": 53,
+    "packId": 5,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1001,
+    "rewardType": 5
+  },
+  {
+    "id": 614,
+    "mapId": 53,
+    "packId": 5,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1057,
+    "rewardType": 5
+  },
+  {
+    "id": 642,
+    "mapId": 59,
+    "packId": 5,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 301,
+    "rewardType": 8
+  },
+  {
+    "id": 643,
+    "mapId": 59,
+    "packId": 5,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 401,
+    "rewardType": 8
+  },
+  {
+    "id": 644,
+    "mapId": 59,
+    "packId": 5,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 204,
+    "rewardType": 8
+  },
+  {
+    "id": 645,
+    "mapId": 59,
+    "packId": 5,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 501,
+    "rewardType": 8
+  },
+  {
+    "id": 646,
+    "mapId": 59,
+    "packId": 5,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 201,
+    "rewardType": 8
+  },
+  {
+    "id": 647,
+    "mapId": 59,
+    "packId": 5,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 202,
+    "rewardType": 8
+  },
+  {
+    "id": 648,
+    "mapId": 59,
+    "packId": 5,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 203,
+    "rewardType": 8
+  },
+  {
+    "id": 665,
+    "mapId": 59,
+    "packId": 5,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1001,
+    "rewardType": 5
+  },
+  {
+    "id": 666,
+    "mapId": 59,
+    "packId": 5,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1057,
+    "rewardType": 5
+  },
+  {
+    "id": 670,
+    "mapId": 54,
+    "packId": 5,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110041,
+    "rewardType": 9
+  },
+  {
+    "id": 676,
+    "mapId": 55,
+    "packId": 5,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110041,
+    "rewardType": 9
+  },
+  {
+    "id": 681,
+    "mapId": 56,
+    "packId": 5,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310005,
+    "rewardType": 9
+  },
+  {
+    "id": 703,
+    "mapId": 57,
+    "packId": 5,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110041,
+    "rewardType": 9
+  },
+  {
+    "id": 708,
+    "insideMapId": [
+      614
+    ],
+    "mapId": 601,
+    "packId": 6,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110051,
+    "rewardType": 9
+  },
+  {
+    "id": 714,
+    "insideMapId": [
+      615
+    ],
+    "mapId": 602,
+    "packId": 6,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310006,
+    "rewardType": 9
+  },
+  {
+    "id": 738,
+    "insideMapId": [
+      616
+    ],
+    "mapId": 603,
+    "packId": 6,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110051,
+    "rewardType": 9
+  },
+  {
+    "id": 744,
+    "insideMapId": [
+      617
+    ],
+    "mapId": 604,
+    "packId": 6,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310006,
+    "rewardType": 9
+  },
+  {
+    "id": 768,
+    "mapId": 605,
+    "packId": 6,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110052,
+    "rewardType": 9
+  },
+  {
+    "id": 769,
+    "mapId": 605,
+    "packId": 6,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310006,
+    "rewardType": 9
+  },
+  {
+    "id": 797,
+    "mapId": 605,
+    "packId": 6,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1001,
+    "rewardType": 5
+  },
+  {
+    "id": 798,
+    "mapId": 605,
+    "packId": 6,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1058,
+    "rewardType": 5
+  },
+  {
+    "id": 809,
+    "mapId": 606,
+    "packId": 6,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110052,
+    "rewardType": 9
+  },
+  {
+    "id": 810,
+    "mapId": 606,
+    "packId": 6,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310006,
+    "rewardType": 9
+  },
+  {
+    "id": 838,
+    "mapId": 606,
+    "packId": 6,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1001,
+    "rewardType": 5
+  },
+  {
+    "id": 839,
+    "mapId": 606,
+    "packId": 6,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1058,
+    "rewardType": 5
+  },
+  {
+    "id": 850,
+    "mapId": 607,
+    "packId": 6,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110052,
+    "rewardType": 9
+  },
+  {
+    "id": 851,
+    "mapId": 607,
+    "packId": 6,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310006,
+    "rewardType": 9
+  },
+  {
+    "id": 879,
+    "mapId": 607,
+    "packId": 6,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1001,
+    "rewardType": 5
+  },
+  {
+    "id": 880,
+    "mapId": 607,
+    "packId": 6,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1058,
+    "rewardType": 5
+  },
+  {
+    "id": 891,
+    "insideMapId": [
+      618
+    ],
+    "mapId": 608,
+    "packId": 6,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110051,
+    "rewardType": 9
+  },
+  {
+    "id": 921,
+    "insideMapId": [
+      619
+    ],
+    "mapId": 609,
+    "packId": 6,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110051,
+    "rewardType": 9
+  },
+  {
+    "id": 922,
+    "mapId": 609,
+    "packId": 6,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310006,
+    "rewardType": 9
+  },
+  {
+    "id": 951,
+    "mapId": 610,
+    "packId": 6,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110052,
+    "rewardType": 9
+  },
+  {
+    "id": 952,
+    "mapId": 610,
+    "packId": 6,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310006,
+    "rewardType": 9
+  },
+  {
+    "id": 980,
+    "mapId": 610,
+    "packId": 6,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1001,
+    "rewardType": 5
+  },
+  {
+    "id": 981,
+    "mapId": 610,
+    "packId": 6,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1058,
+    "rewardType": 5
+  },
+  {
+    "id": 992,
+    "insideMapId": [
+      624,
+      625
+    ],
+    "mapId": 611,
+    "packId": 6,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110052,
+    "rewardType": 9
+  },
+  {
+    "id": 993,
+    "mapId": 611,
+    "packId": 6,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310006,
+    "rewardType": 9
+  },
+  {
+    "id": 1021,
+    "mapId": 611,
+    "packId": 6,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1001,
+    "rewardType": 5
+  },
+  {
+    "id": 1022,
+    "mapId": 611,
+    "packId": 6,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1058,
+    "rewardType": 5
+  },
+  {
+    "id": 1023,
+    "mapId": 612,
+    "packId": 6,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110052,
+    "rewardType": 9
+  },
+  {
+    "id": 1024,
+    "mapId": 612,
+    "packId": 6,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310006,
+    "rewardType": 9
+  },
+  {
+    "id": 1052,
+    "mapId": 612,
+    "packId": 6,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1001,
+    "rewardType": 5
+  },
+  {
+    "id": 1053,
+    "mapId": 612,
+    "packId": 6,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1058,
+    "rewardType": 5
+  },
+  {
+    "id": 1064,
+    "mapId": 630,
+    "packId": 6,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110052,
+    "rewardType": 9
+  },
+  {
+    "id": 1065,
+    "mapId": 630,
+    "packId": 6,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310006,
+    "rewardType": 9
+  },
+  {
+    "id": 1093,
+    "mapId": 630,
+    "packId": 6,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1001,
+    "rewardType": 5
+  },
+  {
+    "id": 1094,
+    "mapId": 630,
+    "packId": 6,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1058,
+    "rewardType": 5
+  },
+  {
+    "id": 1105,
+    "mapId": 614,
+    "packId": 6,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110051,
+    "rewardType": 9
+  },
+  {
+    "id": 1111,
+    "mapId": 615,
+    "packId": 6,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310006,
+    "rewardType": 9
+  },
+  {
+    "id": 1135,
+    "mapId": 616,
+    "packId": 6,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110051,
+    "rewardType": 9
+  },
+  {
+    "id": 1141,
+    "mapId": 617,
+    "packId": 6,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310006,
+    "rewardType": 9
+  },
+  {
+    "id": 1142,
+    "mapId": 618,
+    "packId": 6,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310006,
+    "rewardType": 9
+  },
+  {
+    "id": 1176,
+    "mapId": 620,
+    "packId": 6,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1001,
+    "rewardType": 5
+  },
+  {
+    "id": 1177,
+    "mapId": 620,
+    "packId": 6,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1058,
+    "rewardType": 5
+  },
+  {
+    "id": 1178,
+    "mapId": 621,
+    "packId": 6,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1001,
+    "rewardType": 5
+  },
+  {
+    "id": 1179,
+    "mapId": 621,
+    "packId": 6,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1058,
+    "rewardType": 5
+  },
+  {
+    "id": 1180,
+    "mapId": 622,
+    "packId": 6,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1001,
+    "rewardType": 5
+  },
+  {
+    "id": 1181,
+    "mapId": 622,
+    "packId": 6,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1058,
+    "rewardType": 5
+  },
+  {
+    "id": 1182,
+    "mapId": 623,
+    "packId": 6,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1001,
+    "rewardType": 5
+  },
+  {
+    "id": 1183,
+    "mapId": 623,
+    "packId": 6,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1058,
+    "rewardType": 5
+  },
+  {
+    "id": 1185,
+    "mapId": 631,
+    "packId": 6,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 401,
+    "rewardType": 8
+  },
+  {
+    "id": 1186,
+    "mapId": 631,
+    "packId": 6,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1001,
+    "rewardType": 5
+  },
+  {
+    "id": 1187,
+    "mapId": 631,
+    "packId": 6,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1058,
+    "rewardType": 5
+  },
+  {
+    "id": 1215,
+    "insideMapId": [
+      76
+    ],
+    "mapId": 71,
+    "packId": 7,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110061,
+    "rewardType": 9
+  },
+  {
+    "id": 1216,
+    "mapId": 71,
+    "packId": 7,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310007,
+    "rewardType": 9
+  },
+  {
+    "id": 1247,
+    "mapId": 72,
+    "packId": 7,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1001,
+    "rewardType": 5
+  },
+  {
+    "id": 1248,
+    "mapId": 72,
+    "packId": 7,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1059,
+    "rewardType": 5
+  },
+  {
+    "id": 1249,
+    "mapId": 72,
+    "packId": 7,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110062,
+    "rewardType": 9
+  },
+  {
+    "id": 1250,
+    "mapId": 72,
+    "packId": 7,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310007,
+    "rewardType": 9
+  },
+  {
+    "id": 1290,
+    "mapId": 73,
+    "packId": 7,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1001,
+    "rewardType": 5
+  },
+  {
+    "id": 1291,
+    "mapId": 73,
+    "packId": 7,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1059,
+    "rewardType": 5
+  },
+  {
+    "id": 1292,
+    "mapId": 73,
+    "packId": 7,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110062,
+    "rewardType": 9
+  },
+  {
+    "id": 1293,
+    "mapId": 73,
+    "packId": 7,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310007,
+    "rewardType": 9
+  },
+  {
+    "id": 1333,
+    "mapId": 76,
+    "packId": 7,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110061,
+    "rewardType": 9
+  },
+  {
+    "id": 1334,
+    "mapId": 76,
+    "packId": 7,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310007,
+    "rewardType": 9
+  },
+  {
+    "id": 1365,
+    "mapId": 77,
+    "packId": 7,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 201,
+    "rewardType": 8
+  },
+  {
+    "id": 1366,
+    "mapId": 77,
+    "packId": 7,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 202,
+    "rewardType": 8
+  },
+  {
+    "id": 1367,
+    "mapId": 77,
+    "packId": 7,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 203,
+    "rewardType": 8
+  },
+  {
+    "id": 1368,
+    "mapId": 77,
+    "packId": 7,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1001,
+    "rewardType": 5
+  },
+  {
+    "id": 1369,
+    "mapId": 77,
+    "packId": 7,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1059,
+    "rewardType": 5
+  },
+  {
+    "id": 1397,
+    "insideMapId": [
+      84,
+      85,
+      86
+    ],
+    "mapId": 81,
+    "packId": 8,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110071,
+    "rewardType": 9
+  },
+  {
+    "id": 1398,
+    "mapId": 81,
+    "packId": 8,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310007,
+    "rewardType": 9
+  },
+  {
+    "id": 1429,
+    "mapId": 82,
+    "packId": 8,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110072,
+    "rewardType": 9
+  },
+  {
+    "id": 1430,
+    "mapId": 82,
+    "packId": 8,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310007,
+    "rewardType": 9
+  },
+  {
+    "id": 1433,
+    "mapId": 82,
+    "packId": 8,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1001,
+    "rewardType": 5
+  },
+  {
+    "id": 1434,
+    "mapId": 82,
+    "packId": 8,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1060,
+    "rewardType": 5
+  },
+  {
+    "id": 1472,
+    "mapId": 83,
+    "packId": 8,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110072,
+    "rewardType": 9
+  },
+  {
+    "id": 1473,
+    "mapId": 83,
+    "packId": 8,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310007,
+    "rewardType": 9
+  },
+  {
+    "id": 1476,
+    "mapId": 83,
+    "packId": 8,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1001,
+    "rewardType": 5
+  },
+  {
+    "id": 1477,
+    "mapId": 83,
+    "packId": 8,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1060,
+    "rewardType": 5
+  },
+  {
+    "id": 1478,
+    "mapId": 84,
+    "packId": 8,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110072,
+    "rewardType": 9
+  },
+  {
+    "id": 1479,
+    "mapId": 85,
+    "packId": 8,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110072,
+    "rewardType": 9
+  },
+  {
+    "id": 1480,
+    "mapId": 85,
+    "packId": 8,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310007,
+    "rewardType": 9
+  },
+  {
+    "id": 1481,
+    "mapId": 86,
+    "packId": 8,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110072,
+    "rewardType": 9
+  },
+  {
+    "id": 1482,
+    "mapId": 86,
+    "packId": 8,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310007,
+    "rewardType": 9
+  },
+  {
+    "id": 1515,
+    "mapId": 87,
+    "packId": 8,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 204,
+    "rewardType": 8
+  },
+  {
+    "id": 1516,
+    "mapId": 87,
+    "packId": 8,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1001,
+    "rewardType": 5
+  },
+  {
+    "id": 1517,
+    "mapId": 87,
+    "packId": 8,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1060,
+    "rewardType": 5
+  },
+  {
+    "id": 1547,
+    "insideMapId": [
+      94,
+      95,
+      96,
+      97
+    ],
+    "mapId": 91,
+    "packId": 9,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110081,
+    "rewardType": 9
+  },
+  {
+    "id": 1548,
+    "mapId": 91,
+    "packId": 9,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310009,
+    "rewardType": 9
+  },
+  {
+    "id": 1578,
+    "mapId": 92,
+    "packId": 9,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110082,
+    "rewardType": 9
+  },
+  {
+    "id": 1579,
+    "mapId": 92,
+    "packId": 9,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310009,
+    "rewardType": 9
+  },
+  {
+    "id": 1582,
+    "mapId": 92,
+    "packId": 9,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1001,
+    "rewardType": 5
+  },
+  {
+    "id": 1583,
+    "mapId": 92,
+    "packId": 9,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1061,
+    "rewardType": 5
+  },
+  {
+    "id": 1620,
+    "mapId": 93,
+    "packId": 9,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110082,
+    "rewardType": 9
+  },
+  {
+    "id": 1621,
+    "mapId": 93,
+    "packId": 9,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310009,
+    "rewardType": 9
+  },
+  {
+    "id": 1624,
+    "mapId": 93,
+    "packId": 9,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1001,
+    "rewardType": 5
+  },
+  {
+    "id": 1625,
+    "mapId": 93,
+    "packId": 9,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1061,
+    "rewardType": 5
+  },
+  {
+    "id": 1662,
+    "mapId": 94,
+    "packId": 9,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110081,
+    "rewardType": 9
+  },
+  {
+    "id": 1667,
+    "mapId": 95,
+    "packId": 9,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310009,
+    "rewardType": 9
+  },
+  {
+    "id": 1693,
+    "mapId": 97,
+    "packId": 9,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110081,
+    "rewardType": 9
+  },
+  {
+    "id": 1698,
+    "mapId": 96,
+    "packId": 9,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310009,
+    "rewardType": 9
+  },
+  {
+    "id": 1724,
+    "mapId": 98,
+    "packId": 9,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110081,
+    "rewardType": 9
+  },
+  {
+    "id": 1725,
+    "mapId": 98,
+    "packId": 9,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310009,
+    "rewardType": 9
+  },
+  {
+    "id": 1766,
+    "mapId": 99,
+    "packId": 9,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 501,
+    "rewardType": 8
+  },
+  {
+    "id": 1786,
+    "mapId": 99,
+    "packId": 9,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1001,
+    "rewardType": 5
+  },
+  {
+    "id": 1787,
+    "mapId": 99,
+    "packId": 9,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1061,
+    "rewardType": 5
+  },
+  {
+    "id": 1791,
+    "insideMapId": [
+      104,
+      105,
+      106
+    ],
+    "mapId": 101,
+    "packId": 10,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110091,
+    "rewardType": 9
+  },
+  {
+    "id": 1792,
+    "mapId": 101,
+    "packId": 10,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310010,
+    "rewardType": 9
+  },
+  {
+    "id": 1822,
+    "mapId": 102,
+    "packId": 10,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110092,
+    "rewardType": 9
+  },
+  {
+    "id": 1823,
+    "mapId": 102,
+    "packId": 10,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310010,
+    "rewardType": 9
+  },
+  {
+    "id": 1825,
+    "mapId": 102,
+    "packId": 10,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1001,
+    "rewardType": 5
+  },
+  {
+    "id": 1826,
+    "mapId": 102,
+    "packId": 10,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1062,
+    "rewardType": 5
+  },
+  {
+    "id": 1864,
+    "mapId": 103,
+    "packId": 10,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110092,
+    "rewardType": 9
+  },
+  {
+    "id": 1865,
+    "mapId": 103,
+    "packId": 10,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310010,
+    "rewardType": 9
+  },
+  {
+    "id": 1867,
+    "mapId": 103,
+    "packId": 10,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1001,
+    "rewardType": 5
+  },
+  {
+    "id": 1868,
+    "mapId": 103,
+    "packId": 10,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1062,
+    "rewardType": 5
+  },
+  {
+    "id": 1907,
+    "mapId": 104,
+    "packId": 10,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310010,
+    "rewardType": 9
+  },
+  {
+    "id": 1933,
+    "mapId": 105,
+    "packId": 10,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110091,
+    "rewardType": 9
+  },
+  {
+    "id": 1937,
+    "mapId": 106,
+    "packId": 10,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110091,
+    "rewardType": 9
+  },
+  {
+    "id": 1941,
+    "mapId": 107,
+    "packId": 10,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 301,
+    "rewardType": 8
+  },
+  {
+    "id": 1942,
+    "mapId": 107,
+    "packId": 10,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1001,
+    "rewardType": 5
+  },
+  {
+    "id": 1943,
+    "mapId": 107,
+    "packId": 10,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1062,
+    "rewardType": 5
+  },
+  {
+    "id": 9011001,
+    "insideMapId": [
+      1106,
+      1107,
+      1108,
+      1109
+    ],
+    "mapId": 1101,
+    "packId": 11,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110101,
+    "rewardType": 9
+  },
+  {
+    "id": 9011002,
+    "mapId": 1101,
+    "packId": 11,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310011,
+    "rewardType": 9
+  },
+  {
+    "id": 9011021,
+    "mapId": 1102,
+    "packId": 11,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110102,
+    "rewardType": 9
+  },
+  {
+    "id": 9011022,
+    "mapId": 1102,
+    "packId": 11,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310011,
+    "rewardType": 9
+  },
+  {
+    "id": 9011026,
+    "mapId": 1102,
+    "packId": 11,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1001,
+    "rewardType": 5
+  },
+  {
+    "id": 9011027,
+    "mapId": 1102,
+    "packId": 11,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1058,
+    "rewardType": 5
+  },
+  {
+    "id": 9011031,
+    "mapId": 1103,
+    "packId": 11,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110102,
+    "rewardType": 9
+  },
+  {
+    "id": 9011032,
+    "mapId": 1103,
+    "packId": 11,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310011,
+    "rewardType": 9
+  },
+  {
+    "id": 9011036,
+    "mapId": 1103,
+    "packId": 11,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1001,
+    "rewardType": 5
+  },
+  {
+    "id": 9011037,
+    "mapId": 1103,
+    "packId": 11,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1058,
+    "rewardType": 5
+  },
+  {
+    "id": 9011041,
+    "mapId": 1106,
+    "packId": 11,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 401,
+    "rewardType": 8
+  },
+  {
+    "id": 9011051,
+    "mapId": 1107,
+    "packId": 11,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110101,
+    "rewardType": 9
+  },
+  {
+    "id": 9011061,
+    "mapId": 1108,
+    "packId": 11,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110101,
+    "rewardType": 9
+  },
+  {
+    "id": 9011071,
+    "mapId": 1109,
+    "packId": 11,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 401,
+    "rewardType": 8
+  },
+  {
+    "id": 9011081,
+    "mapId": 1104,
+    "packId": 11,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 401,
+    "rewardType": 8
+  },
+  {
+    "id": 9012001,
+    "insideMapId": [
+      124,
+      125,
+      126,
+      127
+    ],
+    "mapId": 121,
+    "packId": 12,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110111,
+    "rewardType": 9
+  },
+  {
+    "id": 9012002,
+    "mapId": 121,
+    "packId": 12,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310012,
+    "rewardType": 9
+  },
+  {
+    "id": 9012006,
+    "mapId": 122,
+    "packId": 12,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110112,
+    "rewardType": 9
+  },
+  {
+    "id": 9012007,
+    "mapId": 122,
+    "packId": 12,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310012,
+    "rewardType": 9
+  },
+  {
+    "id": 9012008,
+    "mapId": 122,
+    "packId": 12,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1001,
+    "rewardType": 5
+  },
+  {
+    "id": 9012009,
+    "mapId": 122,
+    "packId": 12,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1056,
+    "rewardType": 5
+  },
+  {
+    "id": 9012010,
+    "mapId": 123,
+    "packId": 12,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110112,
+    "rewardType": 9
+  },
+  {
+    "id": 9012011,
+    "mapId": 123,
+    "packId": 12,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310012,
+    "rewardType": 9
+  },
+  {
+    "id": 9012012,
+    "mapId": 123,
+    "packId": 12,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1001,
+    "rewardType": 5
+  },
+  {
+    "id": 9012013,
+    "mapId": 123,
+    "packId": 12,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1056,
+    "rewardType": 5
+  },
+  {
+    "id": 9012020,
+    "mapId": 125,
+    "packId": 12,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310012,
+    "rewardType": 9
+  },
+  {
+    "id": 9012022,
+    "mapId": 124,
+    "packId": 12,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110111,
+    "rewardType": 9
+  },
+  {
+    "id": 9012025,
+    "mapId": 126,
+    "packId": 12,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110111,
+    "rewardType": 9
+  },
+  {
+    "id": 9012028,
+    "mapId": 127,
+    "packId": 12,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310012,
+    "rewardType": 9
+  },
+  {
+    "id": 9013001,
+    "insideMapId": [
+      135,
+      136
+    ],
+    "mapId": 131,
+    "packId": 13,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110121,
+    "rewardType": 9
+  },
+  {
+    "id": 9013002,
+    "mapId": 131,
+    "packId": 13,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310013,
+    "rewardType": 9
+  },
+  {
+    "id": 9013008,
+    "mapId": 132,
+    "packId": 13,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110122,
+    "rewardType": 9
+  },
+  {
+    "id": 9013009,
+    "mapId": 132,
+    "packId": 13,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310013,
+    "rewardType": 9
+  },
+  {
+    "id": 9013010,
+    "mapId": 132,
+    "packId": 13,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1055,
+    "rewardType": 5
+  },
+  {
+    "id": 9013011,
+    "mapId": 132,
+    "packId": 13,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1001,
+    "rewardType": 5
+  },
+  {
+    "id": 9013017,
+    "mapId": 133,
+    "packId": 13,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110122,
+    "rewardType": 9
+  },
+  {
+    "id": 9013018,
+    "mapId": 133,
+    "packId": 13,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310013,
+    "rewardType": 9
+  },
+  {
+    "id": 9013019,
+    "mapId": 133,
+    "packId": 13,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1055,
+    "rewardType": 5
+  },
+  {
+    "id": 9013020,
+    "mapId": 133,
+    "packId": 13,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1001,
+    "rewardType": 5
+  },
+  {
+    "id": 9013026,
+    "mapId": 135,
+    "packId": 13,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110121,
+    "rewardType": 9
+  },
+  {
+    "id": 9013023,
+    "mapId": 136,
+    "packId": 13,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310013,
+    "rewardType": 9
+  },
+  {
+    "id": 9014001,
+    "mapId": 141,
+    "packId": 14,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110131,
+    "rewardType": 9
+  },
+  {
+    "id": 9014002,
+    "mapId": 141,
+    "packId": 14,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310014,
+    "rewardType": 9
+  },
+  {
+    "id": 9014003,
+    "mapId": 142,
+    "packId": 14,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110131,
+    "rewardType": 9
+  },
+  {
+    "id": 9014004,
+    "mapId": 142,
+    "packId": 14,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310014,
+    "rewardType": 9
+  },
+  {
+    "id": 9014005,
+    "mapId": 142,
+    "packId": 14,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1001,
+    "rewardType": 5
+  },
+  {
+    "id": 9014006,
+    "mapId": 142,
+    "packId": 14,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1062,
+    "rewardType": 5
+  },
+  {
+    "id": 9014007,
+    "mapId": 143,
+    "packId": 14,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110131,
+    "rewardType": 9
+  },
+  {
+    "id": 9014008,
+    "mapId": 143,
+    "packId": 14,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310014,
+    "rewardType": 9
+  },
+  {
+    "id": 9014009,
+    "mapId": 143,
+    "packId": 14,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1001,
+    "rewardType": 5
+  },
+  {
+    "id": 9014010,
+    "mapId": 143,
+    "packId": 14,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1062,
+    "rewardType": 5
+  },
+  {
+    "id": 9014011,
+    "mapId": 144,
+    "packId": 14,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110131,
+    "rewardType": 9
+  },
+  {
+    "id": 9014012,
+    "mapId": 144,
+    "packId": 14,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310014,
+    "rewardType": 9
+  },
+  {
+    "id": 9014013,
+    "mapId": 144,
+    "packId": 14,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1001,
+    "rewardType": 5
+  },
+  {
+    "id": 9014014,
+    "mapId": 144,
+    "packId": 14,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1062,
+    "rewardType": 5
+  },
+  {
+    "id": 9014015,
+    "mapId": 145,
+    "packId": 14,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110131,
+    "rewardType": 9
+  },
+  {
+    "id": 9014016,
+    "mapId": 145,
+    "packId": 14,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310014,
+    "rewardType": 9
+  },
+  {
+    "id": 9014019,
+    "mapId": 146,
+    "packId": 14,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110131,
+    "rewardType": 9
+  },
+  {
+    "id": 9014020,
+    "mapId": 147,
+    "packId": 14,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310014,
+    "rewardType": 9
+  },
+  {
+    "id": 9014035,
+    "mapId": 148,
+    "packId": 14,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110131,
+    "rewardType": 9
+  },
+  {
+    "id": 9015001,
+    "mapId": 151,
+    "packId": 15,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110141,
+    "rewardType": 9
+  },
+  {
+    "id": 9015002,
+    "mapId": 151,
+    "packId": 15,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310015,
+    "rewardType": 9
+  },
+  {
+    "id": 9015003,
+    "mapId": 152,
+    "packId": 15,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110141,
+    "rewardType": 9
+  },
+  {
+    "id": 9015004,
+    "mapId": 152,
+    "packId": 15,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310015,
+    "rewardType": 9
+  },
+  {
+    "id": 9015005,
+    "mapId": 153,
+    "packId": 15,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110142,
+    "rewardType": 9
+  },
+  {
+    "id": 9015006,
+    "mapId": 153,
+    "packId": 15,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310015,
+    "rewardType": 9
+  },
+  {
+    "id": 9015007,
+    "mapId": 153,
+    "packId": 15,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1001,
+    "rewardType": 5
+  },
+  {
+    "id": 9015008,
+    "mapId": 153,
+    "packId": 15,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1065,
+    "rewardType": 5
+  },
+  {
+    "id": 9015009,
+    "mapId": 154,
+    "packId": 15,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110142,
+    "rewardType": 9
+  },
+  {
+    "id": 9015010,
+    "mapId": 154,
+    "packId": 15,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310015,
+    "rewardType": 9
+  },
+  {
+    "id": 9015011,
+    "mapId": 154,
+    "packId": 15,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1001,
+    "rewardType": 5
+  },
+  {
+    "id": 9015012,
+    "mapId": 154,
+    "packId": 15,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1065,
+    "rewardType": 5
+  },
+  {
+    "id": 9016001,
+    "mapId": 161,
+    "packId": 16,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110151,
+    "rewardType": 9
+  },
+  {
+    "id": 9016002,
+    "mapId": 161,
+    "packId": 16,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310016,
+    "rewardType": 9
+  },
+  {
+    "id": 9016003,
+    "mapId": 162,
+    "packId": 16,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110152,
+    "rewardType": 9
+  },
+  {
+    "id": 9016004,
+    "mapId": 162,
+    "packId": 16,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310016,
+    "rewardType": 9
+  },
+  {
+    "id": 9016005,
+    "mapId": 162,
+    "packId": 16,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1001,
+    "rewardType": 5
+  },
+  {
+    "id": 9016006,
+    "mapId": 162,
+    "packId": 16,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1058,
+    "rewardType": 5
+  },
+  {
+    "id": 9016007,
+    "mapId": 163,
+    "packId": 16,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110152,
+    "rewardType": 9
+  },
+  {
+    "id": 9016008,
+    "mapId": 163,
+    "packId": 16,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310016,
+    "rewardType": 9
+  },
+  {
+    "id": 9016009,
+    "mapId": 163,
+    "packId": 16,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1001,
+    "rewardType": 5
+  },
+  {
+    "id": 9016010,
+    "mapId": 163,
+    "packId": 16,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1058,
+    "rewardType": 5
+  },
+  {
+    "id": 9016011,
+    "mapId": 164,
+    "packId": 16,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110151,
+    "rewardType": 9
+  },
+  {
+    "id": 9016012,
+    "mapId": 164,
+    "packId": 16,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310016,
+    "rewardType": 9
+  },
+  {
+    "id": 9016013,
+    "mapId": 165,
+    "packId": 16,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310016,
+    "rewardType": 9
+  },
+  {
+    "id": 9016014,
+    "mapId": 166,
+    "packId": 16,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110151,
+    "rewardType": 9
+  },
+  {
+    "id": 9017001,
+    "mapId": 171,
+    "packId": 17,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110161,
+    "rewardType": 9
+  },
+  {
+    "id": 9017002,
+    "mapId": 171,
+    "packId": 17,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310017,
+    "rewardType": 9
+  },
+  {
+    "id": 9017003,
+    "mapId": 172,
+    "packId": 17,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110162,
+    "rewardType": 9
+  },
+  {
+    "id": 9017004,
+    "mapId": 172,
+    "packId": 17,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310017,
+    "rewardType": 9
+  },
+  {
+    "id": 9017005,
+    "mapId": 172,
+    "packId": 17,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1001,
+    "rewardType": 5
+  },
+  {
+    "id": 9017006,
+    "mapId": 172,
+    "packId": 17,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1055,
+    "rewardType": 5
+  },
+  {
+    "id": 9017007,
+    "mapId": 173,
+    "packId": 17,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110162,
+    "rewardType": 9
+  },
+  {
+    "id": 9017008,
+    "mapId": 173,
+    "packId": 17,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310017,
+    "rewardType": 9
+  },
+  {
+    "id": 9017009,
+    "mapId": 173,
+    "packId": 17,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1001,
+    "rewardType": 5
+  },
+  {
+    "id": 9017010,
+    "mapId": 173,
+    "packId": 17,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1055,
+    "rewardType": 5
+  },
+  {
+    "id": 9018001,
+    "mapId": 181,
+    "packId": 18,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110171,
+    "rewardType": 9
+  },
+  {
+    "id": 9018002,
+    "mapId": 181,
+    "packId": 18,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310018,
+    "rewardType": 9
+  },
+  {
+    "id": 9018003,
+    "mapId": 186,
+    "packId": 18,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110172,
+    "rewardType": 9
+  },
+  {
+    "id": 9018004,
+    "mapId": 186,
+    "packId": 18,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310018,
+    "rewardType": 9
+  },
+  {
+    "id": 9018005,
+    "mapId": 186,
+    "packId": 18,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1001,
+    "rewardType": 5
+  },
+  {
+    "id": 9018006,
+    "mapId": 186,
+    "packId": 18,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1031,
+    "rewardType": 5
+  },
+  {
+    "id": 9018007,
+    "mapId": 183,
+    "packId": 18,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 110172,
+    "rewardType": 9
+  },
+  {
+    "id": 9018008,
+    "mapId": 183,
+    "packId": 18,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310018,
+    "rewardType": 9
+  },
+  {
+    "id": 9018009,
+    "mapId": 183,
+    "packId": 18,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1001,
+    "rewardType": 5
+  },
+  {
+    "id": 9018010,
+    "mapId": 183,
+    "packId": 18,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1060,
+    "rewardType": 5
+  },
+  {
+    "id": 1973,
+    "mapId": 10011,
+    "packId": 1001,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 120001,
+    "rewardType": 9
+  },
+  {
+    "id": 1974,
+    "mapId": 10011,
+    "packId": 1001,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 320001,
+    "rewardType": 9
+  },
+  {
+    "id": 1976,
+    "mapId": 10011,
+    "packId": 1001,
+    "rewardAcquireType": [
+      4
+    ],
+    "rewardId": 310,
+    "rewardType": 7
+  },
+  {
+    "id": 1977,
+    "mapId": 10012,
+    "packId": 1001,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 120001,
+    "rewardType": 9
+  },
+  {
+    "id": 1978,
+    "mapId": 10012,
+    "packId": 1001,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 320001,
+    "rewardType": 9
+  },
+  {
+    "id": 1980,
+    "mapId": 10013,
+    "packId": 1001,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 120001,
+    "rewardType": 9
+  },
+  {
+    "id": 1981,
+    "mapId": 10013,
+    "packId": 1001,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 320001,
+    "rewardType": 9
+  },
+  {
+    "id": 1983,
+    "mapId": 10014,
+    "packId": 1001,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 120002,
+    "rewardType": 9
+  },
+  {
+    "id": 1984,
+    "mapId": 10014,
+    "packId": 1001,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 320001,
+    "rewardType": 9
+  },
+  {
+    "id": 1985,
+    "mapId": 10014,
+    "packId": 1001,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1030,
+    "rewardType": 5
+  },
+  {
+    "id": 1986,
+    "mapId": 10014,
+    "packId": 1001,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1031,
+    "rewardType": 5
+  },
+  {
+    "id": 1987,
+    "mapId": 10014,
+    "packId": 1001,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1029,
+    "rewardType": 5
+  },
+  {
+    "id": 1988,
+    "mapId": 10014,
+    "packId": 1001,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1063,
+    "rewardType": 5
+  },
+  {
+    "id": 1989,
+    "mapId": 10015,
+    "packId": 1001,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 120002,
+    "rewardType": 9
+  },
+  {
+    "id": 1990,
+    "mapId": 10015,
+    "packId": 1001,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 320001,
+    "rewardType": 9
+  },
+  {
+    "id": 100201,
+    "mapId": 10021,
+    "packId": 1002,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 120011,
+    "rewardType": 9
+  },
+  {
+    "id": 100202,
+    "mapId": 10021,
+    "packId": 1002,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310002,
+    "rewardType": 9
+  },
+  {
+    "id": 100203,
+    "mapId": 10021,
+    "packId": 1002,
+    "rewardAcquireType": [
+      4
+    ],
+    "rewardId": 311,
+    "rewardType": 7
+  },
+  {
+    "id": 100204,
+    "mapId": 10022,
+    "packId": 1002,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 120012,
+    "rewardType": 9
+  },
+  {
+    "id": 100205,
+    "mapId": 10022,
+    "packId": 1002,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310002,
+    "rewardType": 9
+  },
+  {
+    "id": 100206,
+    "mapId": 10022,
+    "packId": 1002,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1040,
+    "rewardType": 5
+  },
+  {
+    "id": 100207,
+    "mapId": 10022,
+    "packId": 1002,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1023,
+    "rewardType": 5
+  },
+  {
+    "id": 100208,
+    "mapId": 10022,
+    "packId": 1002,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1029,
+    "rewardType": 5
+  },
+  {
+    "id": 100209,
+    "mapId": 10022,
+    "packId": 1002,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1064,
+    "rewardType": 5
+  },
+  {
+    "id": 100210,
+    "mapId": 10023,
+    "packId": 1002,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 120012,
+    "rewardType": 9
+  },
+  {
+    "id": 100211,
+    "mapId": 10023,
+    "packId": 1002,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 310002,
+    "rewardType": 9
+  },
+  {
+    "id": 100212,
+    "mapId": 10023,
+    "packId": 1002,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1040,
+    "rewardType": 5
+  },
+  {
+    "id": 100213,
+    "mapId": 10023,
+    "packId": 1002,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1023,
+    "rewardType": 5
+  },
+  {
+    "id": 100214,
+    "mapId": 10023,
+    "packId": 1002,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1029,
+    "rewardType": 5
+  },
+  {
+    "id": 100215,
+    "mapId": 10023,
+    "packId": 1002,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1064,
+    "rewardType": 5
+  },
+  {
+    "id": 100301,
+    "mapId": 10031,
+    "packId": 1003,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 120021,
+    "rewardType": 9
+  },
+  {
+    "id": 100302,
+    "mapId": 10031,
+    "packId": 1003,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 320003,
+    "rewardType": 9
+  },
+  {
+    "id": 100304,
+    "mapId": 10031,
+    "packId": 1003,
+    "rewardAcquireType": [
+      4
+    ],
+    "rewardId": 312,
+    "rewardType": 7
+  },
+  {
+    "id": 100305,
+    "mapId": 10032,
+    "packId": 1003,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 120022,
+    "rewardType": 9
+  },
+  {
+    "id": 100306,
+    "mapId": 10032,
+    "packId": 1003,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 320003,
+    "rewardType": 9
+  },
+  {
+    "id": 100307,
+    "mapId": 10032,
+    "packId": 1003,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1030,
+    "rewardType": 5
+  },
+  {
+    "id": 100308,
+    "mapId": 10032,
+    "packId": 1003,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1045,
+    "rewardType": 5
+  },
+  {
+    "id": 100309,
+    "mapId": 10032,
+    "packId": 1003,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1029,
+    "rewardType": 5
+  },
+  {
+    "id": 100310,
+    "mapId": 10032,
+    "packId": 1003,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1065,
+    "rewardType": 5
+  },
+  {
+    "id": 100311,
+    "mapId": 10033,
+    "packId": 1003,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 120022,
+    "rewardType": 9
+  },
+  {
+    "id": 100312,
+    "mapId": 10033,
+    "packId": 1003,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 320003,
+    "rewardType": 9
+  },
+  {
+    "id": 100313,
+    "mapId": 10033,
+    "packId": 1003,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1030,
+    "rewardType": 5
+  },
+  {
+    "id": 100314,
+    "mapId": 10033,
+    "packId": 1003,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1045,
+    "rewardType": 5
+  },
+  {
+    "id": 100315,
+    "mapId": 10033,
+    "packId": 1003,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1029,
+    "rewardType": 5
+  },
+  {
+    "id": 100316,
+    "mapId": 10033,
+    "packId": 1003,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1065,
+    "rewardType": 5
+  },
+  {
+    "id": 100317,
+    "mapId": 10034,
+    "packId": 1003,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 120022,
+    "rewardType": 9
+  },
+  {
+    "id": 100318,
+    "mapId": 10034,
+    "packId": 1003,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 320003,
+    "rewardType": 9
+  },
+  {
+    "id": 100319,
+    "mapId": 10034,
+    "packId": 1003,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1030,
+    "rewardType": 5
+  },
+  {
+    "id": 100320,
+    "mapId": 10034,
+    "packId": 1003,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1045,
+    "rewardType": 5
+  },
+  {
+    "id": 100321,
+    "mapId": 10034,
+    "packId": 1003,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1029,
+    "rewardType": 5
+  },
+  {
+    "id": 100322,
+    "mapId": 10034,
+    "packId": 1003,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1065,
+    "rewardType": 5
+  },
+  {
+    "id": 2032,
+    "insideMapId": [
+      30013
+    ],
+    "mapId": 30012,
+    "packId": 3002,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardType": 4
+  },
+  {
+    "id": 2033,
+    "mapId": 30013,
+    "packId": 3002,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardType": 4
+  },
+  {
+    "id": 2034,
+    "mapId": 30033,
+    "packId": 3003,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardType": 4
+  },
+  {
+    "id": 2035,
+    "mapId": 30034,
+    "packId": 3003,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardType": 4
+  },
+  {
+    "id": 2036,
+    "mapId": 30035,
+    "packId": 3003,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardType": 4
+  },
+  {
+    "id": 2037,
+    "mapId": 30036,
+    "packId": 3003,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardType": 4
+  },
+  {
+    "id": 2038,
+    "mapId": 30037,
+    "packId": 3003,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardType": 4
+  },
+  {
+    "id": 2039,
+    "mapId": 30038,
+    "packId": 3003,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardType": 4
+  },
+  {
+    "id": 2040,
+    "mapId": 30039,
+    "packId": 3003,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardType": 4
+  },
+  {
+    "id": 2041,
+    "mapId": 30040,
+    "packId": 3003,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardType": 4
+  },
+  {
+    "id": 2042,
+    "mapId": 30041,
+    "packId": 3003,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardType": 4
+  },
+  {
+    "id": 2043,
+    "mapId": 30042,
+    "packId": 3003,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardType": 4
+  },
+  {
+    "id": 2044,
+    "mapId": 30043,
+    "packId": 3003,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardType": 4
+  },
+  {
+    "id": 2045,
+    "mapId": 30032,
+    "packId": 3003,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardType": 4
+  },
+  {
+    "id": 2046,
+    "insideMapId": [
+      30012,
+      30013
+    ],
+    "mapId": 30014,
+    "packId": 3002,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardType": 4
+  },
+  {
+    "id": 100401,
+    "mapId": 10041,
+    "packId": 1004,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 120031,
+    "rewardType": 9
+  },
+  {
+    "id": 100402,
+    "mapId": 10041,
+    "packId": 1004,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 320004,
+    "rewardType": 9
+  },
+  {
+    "id": 100403,
+    "mapId": 10041,
+    "packId": 1004,
+    "rewardAcquireType": [
+      4
+    ],
+    "rewardId": 409,
+    "rewardType": 7
+  },
+  {
+    "id": 100404,
+    "mapId": 10042,
+    "packId": 1004,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 120032,
+    "rewardType": 9
+  },
+  {
+    "id": 100405,
+    "mapId": 10042,
+    "packId": 1004,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 320004,
+    "rewardType": 9
+  },
+  {
+    "id": 100406,
+    "mapId": 10042,
+    "packId": 1004,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1010,
+    "rewardType": 5
+  },
+  {
+    "id": 100407,
+    "mapId": 10042,
+    "packId": 1004,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1042,
+    "rewardType": 5
+  },
+  {
+    "id": 100408,
+    "mapId": 10042,
+    "packId": 1004,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1052,
+    "rewardType": 5
+  },
+  {
+    "id": 100409,
+    "mapId": 10042,
+    "packId": 1004,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1029,
+    "rewardType": 5
+  },
+  {
+    "id": 100410,
+    "mapId": 10042,
+    "packId": 1004,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1066,
+    "rewardType": 5
+  },
+  {
+    "id": 100411,
+    "mapId": 10043,
+    "packId": 1004,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 120032,
+    "rewardType": 9
+  },
+  {
+    "id": 100412,
+    "mapId": 10043,
+    "packId": 1004,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 320004,
+    "rewardType": 9
+  },
+  {
+    "id": 100413,
+    "mapId": 10043,
+    "packId": 1004,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1010,
+    "rewardType": 5
+  },
+  {
+    "id": 100414,
+    "mapId": 10043,
+    "packId": 1004,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1042,
+    "rewardType": 5
+  },
+  {
+    "id": 100415,
+    "mapId": 10043,
+    "packId": 1004,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1052,
+    "rewardType": 5
+  },
+  {
+    "id": 100416,
+    "mapId": 10043,
+    "packId": 1004,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1029,
+    "rewardType": 5
+  },
+  {
+    "id": 100417,
+    "mapId": 10043,
+    "packId": 1004,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1066,
+    "rewardType": 5
+  },
+  {
+    "id": 100418,
+    "mapId": 10044,
+    "packId": 1004,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 120032,
+    "rewardType": 9
+  },
+  {
+    "id": 100419,
+    "mapId": 10044,
+    "packId": 1004,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 320004,
+    "rewardType": 9
+  },
+  {
+    "id": 100413,
+    "mapId": 10044,
+    "packId": 1004,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1010,
+    "rewardType": 5
+  },
+  {
+    "id": 100414,
+    "mapId": 10044,
+    "packId": 1004,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1042,
+    "rewardType": 5
+  },
+  {
+    "id": 100415,
+    "mapId": 10044,
+    "packId": 1004,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1052,
+    "rewardType": 5
+  },
+  {
+    "id": 100416,
+    "mapId": 10044,
+    "packId": 1004,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1029,
+    "rewardType": 5
+  },
+  {
+    "id": 100417,
+    "mapId": 10044,
+    "packId": 1004,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1066,
+    "rewardType": 5
+  },
+  {
+    "id": 100501,
+    "insideMapId": [
+      10053
+    ],
+    "mapId": 10051,
+    "packId": 1005,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 120041,
+    "rewardType": 9
+  },
+  {
+    "id": 100502,
+    "mapId": 10051,
+    "packId": 1005,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 320005,
+    "rewardType": 9
+  },
+  {
+    "id": 100505,
+    "mapId": 10052,
+    "packId": 1005,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 120042,
+    "rewardType": 9
+  },
+  {
+    "id": 100506,
+    "mapId": 10052,
+    "packId": 1005,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 320005,
+    "rewardType": 9
+  },
+  {
+    "id": 100507,
+    "mapId": 10052,
+    "packId": 1005,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1011,
+    "rewardType": 5
+  },
+  {
+    "id": 100508,
+    "mapId": 10052,
+    "packId": 1005,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1012,
+    "rewardType": 5
+  },
+  {
+    "id": 100509,
+    "mapId": 10052,
+    "packId": 1005,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1004,
+    "rewardType": 5
+  },
+  {
+    "id": 100510,
+    "mapId": 10052,
+    "packId": 1005,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1010,
+    "rewardType": 5
+  },
+  {
+    "id": 100511,
+    "mapId": 10053,
+    "packId": 1005,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 120041,
+    "rewardType": 9
+  },
+  {
+    "id": 100601,
+    "mapId": 10061,
+    "packId": 1006,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 120051,
+    "rewardType": 9
+  },
+  {
+    "id": 100602,
+    "mapId": 10061,
+    "packId": 1006,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 320006,
+    "rewardType": 9
+  },
+  {
+    "id": 100603,
+    "mapId": 10062,
+    "packId": 1006,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 120052,
+    "rewardType": 9
+  },
+  {
+    "id": 100604,
+    "mapId": 10062,
+    "packId": 1006,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 320006,
+    "rewardType": 9
+  },
+  {
+    "id": 100605,
+    "mapId": 10062,
+    "packId": 1006,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1008,
+    "rewardType": 5
+  },
+  {
+    "id": 100606,
+    "mapId": 10062,
+    "packId": 1006,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1010,
+    "rewardType": 5
+  },
+  {
+    "id": 100607,
+    "mapId": 10062,
+    "packId": 1006,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1004,
+    "rewardType": 5
+  },
+  {
+    "id": 100608,
+    "mapId": 10062,
+    "packId": 1006,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1007,
+    "rewardType": 5
+  },
+  {
+    "id": 100609,
+    "mapId": 10063,
+    "packId": 1006,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 120052,
+    "rewardType": 9
+  },
+  {
+    "id": 100610,
+    "mapId": 10063,
+    "packId": 1006,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 320006,
+    "rewardType": 9
+  },
+  {
+    "id": 100611,
+    "mapId": 10063,
+    "packId": 1006,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1008,
+    "rewardType": 5
+  },
+  {
+    "id": 100612,
+    "mapId": 10063,
+    "packId": 1006,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1010,
+    "rewardType": 5
+  },
+  {
+    "id": 100613,
+    "mapId": 10063,
+    "packId": 1006,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1004,
+    "rewardType": 5
+  },
+  {
+    "id": 100614,
+    "mapId": 10063,
+    "packId": 1006,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1007,
+    "rewardType": 5
+  },
+  {
+    "id": 100615,
+    "mapId": 10064,
+    "packId": 1006,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 120052,
+    "rewardType": 9
+  },
+  {
+    "id": 100616,
+    "mapId": 10064,
+    "packId": 1006,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 320006,
+    "rewardType": 9
+  },
+  {
+    "id": 100617,
+    "mapId": 10064,
+    "packId": 1006,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1008,
+    "rewardType": 5
+  },
+  {
+    "id": 100618,
+    "mapId": 10064,
+    "packId": 1006,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1010,
+    "rewardType": 5
+  },
+  {
+    "id": 100619,
+    "mapId": 10064,
+    "packId": 1006,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1004,
+    "rewardType": 5
+  },
+  {
+    "id": 100620,
+    "mapId": 10064,
+    "packId": 1006,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1007,
+    "rewardType": 5
+  },
+  {
+    "id": 100701,
+    "mapId": 10071,
+    "packId": 1007,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 120061,
+    "rewardType": 9
+  },
+  {
+    "id": 100702,
+    "mapId": 10071,
+    "packId": 1007,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 320007,
+    "rewardType": 9
+  },
+  {
+    "id": 100703,
+    "mapId": 10072,
+    "packId": 1007,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 120061,
+    "rewardType": 9
+  },
+  {
+    "id": 100704,
+    "mapId": 10072,
+    "packId": 1007,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 320007,
+    "rewardType": 9
+  },
+  {
+    "id": 100705,
+    "mapId": 10073,
+    "packId": 1007,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 120062,
+    "rewardType": 9
+  },
+  {
+    "id": 100706,
+    "mapId": 10073,
+    "packId": 1007,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 320007,
+    "rewardType": 9
+  },
+  {
+    "id": 100707,
+    "mapId": 10073,
+    "packId": 1007,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1030,
+    "rewardType": 5
+  },
+  {
+    "id": 100708,
+    "mapId": 10073,
+    "packId": 1007,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1045,
+    "rewardType": 5
+  },
+  {
+    "id": 100709,
+    "mapId": 10073,
+    "packId": 1007,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1029,
+    "rewardType": 5
+  },
+  {
+    "id": 100710,
+    "mapId": 10073,
+    "packId": 1007,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1065,
+    "rewardType": 5
+  },
+  {
+    "id": 2001001,
+    "mapId": 20011,
+    "packId": 2001,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 140002,
+    "rewardType": 9
+  },
+  {
+    "id": 2001002,
+    "mapId": 20011,
+    "packId": 2001,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 340001,
+    "rewardType": 9
+  },
+  {
+    "id": 2001003,
+    "mapId": 20012,
+    "packId": 2001,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 140002,
+    "rewardType": 9
+  },
+  {
+    "id": 2001004,
+    "mapId": 20012,
+    "packId": 2001,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 340001,
+    "rewardType": 9
+  },
+  {
+    "id": 2001005,
+    "mapId": 20012,
+    "packId": 2001,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1030,
+    "rewardType": 5
+  },
+  {
+    "id": 2001006,
+    "mapId": 20012,
+    "packId": 2001,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1031,
+    "rewardType": 5
+  },
+  {
+    "id": 2001007,
+    "mapId": 20012,
+    "packId": 2001,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1029,
+    "rewardType": 5
+  },
+  {
+    "id": 2001008,
+    "mapId": 20012,
+    "packId": 2001,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 1063,
+    "rewardType": 5
+  },
+  {
+    "id": 2002001,
+    "mapId": 20021,
+    "packId": 2002,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 140021,
+    "rewardType": 9
+  },
+  {
+    "id": 2002002,
+    "mapId": 20021,
+    "packId": 2002,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 340003,
+    "rewardType": 9
+  },
+  {
+    "id": 2002001,
+    "mapId": 20022,
+    "packId": 2002,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 140021,
+    "rewardType": 9
+  },
+  {
+    "id": 2002002,
+    "mapId": 20022,
+    "packId": 2002,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 340003,
+    "rewardType": 9
+  },
+  {
+    "id": 2002001,
+    "mapId": 20023,
+    "packId": 2002,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 140021,
+    "rewardType": 9
+  },
+  {
+    "id": 2002002,
+    "mapId": 20023,
+    "packId": 2002,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 340003,
+    "rewardType": 9
+  },
+  {
+    "id": 2003001,
+    "mapId": 20031,
+    "packId": 2003,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 1030,
+    "rewardType": 5
+  },
+  {
+    "id": 2003002,
+    "mapId": 20031,
+    "packId": 2003,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 1041,
+    "rewardType": 5
+  },
+  {
+    "id": 2003003,
+    "mapId": 20031,
+    "packId": 2003,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 1015,
+    "rewardType": 5
+  },
+  {
+    "id": 2003004,
+    "mapId": 20031,
+    "packId": 2003,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 1051,
+    "rewardType": 5
+  },
+  {
+    "id": 2003005,
+    "mapId": 20031,
+    "packId": 2003,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 1030,
+    "rewardType": 5
+  },
+  {
+    "id": 2003006,
+    "mapId": 20031,
+    "packId": 2003,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 1041,
+    "rewardType": 5
+  },
+  {
+    "id": 2003007,
+    "mapId": 20031,
+    "packId": 2003,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 1015,
+    "rewardType": 5
+  },
+  {
+    "id": 2003008,
+    "mapId": 20031,
+    "packId": 2003,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 1051,
+    "rewardType": 5
+  },
+  {
+    "id": 2006001,
+    "mapId": 20061,
+    "packId": 2006,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 140071,
+    "rewardType": 9
+  },
+  {
+    "id": 2006002,
+    "mapId": 20061,
+    "packId": 2006,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 340009,
+    "rewardType": 9
+  },
+  {
+    "id": 2007001,
+    "mapId": 20071,
+    "packId": 2007,
+    "rewardAcquireType": [
+      0
+    ],
+    "rewardId": 140081,
+    "rewardType": 9
+  },
+  {
+    "id": 2007002,
+    "mapId": 20071,
+    "packId": 2007,
+    "rewardAcquireType": [
+      1
+    ],
+    "rewardId": 340010,
+    "rewardType": 9
+  },
+  {
+    "id": 2201,
+    "mapId": 30028,
+    "packId": 3004,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 7,
+    "rewardType": 8
+  },
+  {
+    "id": 2202,
+    "mapId": 30028,
+    "packId": 3004,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 8,
+    "rewardType": 8
+  },
+  {
+    "id": 2203,
+    "mapId": 30028,
+    "packId": 3004,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardId": 9,
+    "rewardType": 8
+  },
+  {
+    "id": 2204,
+    "mapId": 30027,
+    "packId": 3004,
+    "rewardAcquireType": [
+      6
+    ],
+    "rewardType": 4
+  }
+]

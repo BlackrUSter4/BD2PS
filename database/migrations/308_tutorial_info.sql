@@ -1,0 +1,5 @@
+CREATE TABLE "TutorialInfo" (
+    "Index" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "Uid" BIGINT NOT NULL,
+    "TutorialClearId" INTEGER NOT NULL
+);

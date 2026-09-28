@@ -1,0 +1,76 @@
+{
+  "pictorialbookInfo": [
+    {
+      "id": 1,
+      "groupId": 1
+    },
+    {
+      "id": 1,
+      "groupId": 31
+    },
+    {
+      "id": 1,
+      "groupId": 32
+    },
+    {
+      "id": 1,
+      "groupId": 33
+    },
+    {
+      "id": 1,
+      "groupId": 34
+    },
+    {
+      "id": 1,
+      "groupId": 35
+    },
+    {
+      "id": 2,
+      "groupId": 1
+    },
+    {
+      "id": 2,
+      "groupId": 2
+    },
+    {
+      "id": 2,
+      "groupId": 9
+    },
+    {
+      "id": 4,
+      "groupId": 1
+    },
+    {
+      "id": 5,
+      "groupId": 101
+    },
+    {
+      "id": 5,
+      "groupId": 30021
+    },
+    {
+      "id": 7,
+      "groupId": 1
+    },
+    {
+      "id": 7,
+      "groupId": 28
+    },
+    {
+      "id": 7,
+      "groupId": 61
+    },
+    {
+      "id": 7,
+      "groupId": 62
+    },
+    {
+      "id": 7,
+      "groupId": 63
+    },
+    {
+      "id": 7,
+      "groupId": 64
+    }
+  ]
+}

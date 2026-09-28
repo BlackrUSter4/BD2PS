@@ -1,0 +1,853 @@
+[
+  {
+    "clearCount": 1,
+    "groupId": 1,
+    "id": 1,
+    "puzzleRewardgroupId": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "rewardCount": 60,
+    "rewardType": 32
+  },
+  {
+    "clearCount": 2,
+    "groupId": 1,
+    "id": 2,
+    "puzzleRewardgroupId": [
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33
+    ],
+    "rewardCount": 5,
+    "rewardId": 1000,
+    "rewardType": 8
+  },
+  {
+    "clearCount": 3,
+    "groupId": 1,
+    "id": 3,
+    "puzzleRewardgroupId": [
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58
+    ],
+    "rewardCount": 60,
+    "rewardType": 32
+  },
+  {
+    "clearCount": 4,
+    "groupId": 1,
+    "id": 4,
+    "puzzleRewardgroupId": [
+      76,
+      77,
+      78,
+      79,
+      80,
+      81
+    ],
+    "rewardCount": 1000,
+    "rewardType": 3
+  },
+  {
+    "clearCount": 5,
+    "groupId": 1,
+    "id": 5,
+    "puzzleRewardgroupId": [
+      101,
+      102,
+      103,
+      104
+    ],
+    "rewardCount": 10,
+    "rewardId": 603,
+    "rewardType": 8
+  },
+  {
+    "clearCount": 6,
+    "groupId": 1,
+    "id": 6,
+    "puzzleRewardgroupId": [
+      126,
+      127,
+      128,
+      129,
+      130
+    ],
+    "rewardCount": 1,
+    "rewardId": 127,
+    "rewardType": 8
+  },
+  {
+    "clearCount": 7,
+    "groupId": 1,
+    "id": 7,
+    "puzzleRewardgroupId": [
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158
+    ],
+    "rewardCount": 10,
+    "rewardId": 1000,
+    "rewardType": 8
+  },
+  {
+    "clearCount": 8,
+    "groupId": 1,
+    "id": 8,
+    "puzzleRewardgroupId": [
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184
+    ],
+    "rewardCount": 50000,
+    "rewardType": 4
+  },
+  {
+    "clearCount": 9,
+    "groupId": 1,
+    "id": 9,
+    "puzzleRewardgroupId": [
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209
+    ],
+    "rewardCount": 50000,
+    "rewardType": 4
+  },
+  {
+    "clearCount": 10,
+    "groupId": 1,
+    "id": 10,
+    "puzzleRewardgroupId": [
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234
+    ],
+    "rewardCount": 50000,
+    "rewardType": 4
+  },
+  {
+    "clearCount": 1,
+    "groupId": 2,
+    "id": 1,
+    "puzzleRewardgroupId": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "rewardCount": 50,
+    "rewardId": 9,
+    "rewardType": 8
+  },
+  {
+    "clearCount": 2,
+    "groupId": 2,
+    "id": 2,
+    "puzzleRewardgroupId": [
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33
+    ],
+    "rewardCount": 10,
+    "rewardId": 1000,
+    "rewardType": 8
+  },
+  {
+    "clearCount": 3,
+    "groupId": 2,
+    "id": 3,
+    "puzzleRewardgroupId": [
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "rewardCount": 60,
+    "rewardType": 33
+  },
+  {
+    "clearCount": 4,
+    "groupId": 2,
+    "id": 4,
+    "puzzleRewardgroupId": [
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84
+    ],
+    "rewardCount": 60,
+    "rewardType": 23
+  },
+  {
+    "clearCount": 5,
+    "groupId": 2,
+    "id": 5,
+    "puzzleRewardgroupId": [
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "rewardCount": 10,
+    "rewardId": 603,
+    "rewardType": 8
+  },
+  {
+    "clearCount": 6,
+    "groupId": 2,
+    "id": 6,
+    "puzzleRewardgroupId": [
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132
+    ],
+    "rewardCount": 1,
+    "rewardId": 127,
+    "rewardType": 8
+  },
+  {
+    "clearCount": 7,
+    "groupId": 2,
+    "id": 7,
+    "puzzleRewardgroupId": [
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158
+    ],
+    "rewardCount": 10,
+    "rewardId": 1000,
+    "rewardType": 8
+  },
+  {
+    "clearCount": 8,
+    "groupId": 2,
+    "id": 8,
+    "puzzleRewardgroupId": [
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184
+    ],
+    "rewardCount": 50000,
+    "rewardType": 4
+  },
+  {
+    "clearCount": 9,
+    "groupId": 2,
+    "id": 9,
+    "puzzleRewardgroupId": [
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209
+    ],
+    "rewardCount": 50000,
+    "rewardType": 4
+  },
+  {
+    "clearCount": 10,
+    "groupId": 2,
+    "id": 10,
+    "puzzleRewardgroupId": [
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234
+    ],
+    "rewardCount": 50000,
+    "rewardType": 4
+  },
+  {
+    "clearCount": 1,
+    "groupId": 3,
+    "id": 1,
+    "puzzleRewardgroupId": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "rewardCount": 60,
+    "rewardType": 32
+  },
+  {
+    "clearCount": 2,
+    "groupId": 3,
+    "id": 2,
+    "puzzleRewardgroupId": [
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ],
+    "rewardCount": 250,
+    "rewardId": 112,
+    "rewardType": 8
+  },
+  {
+    "clearCount": 3,
+    "groupId": 3,
+    "id": 3,
+    "puzzleRewardgroupId": [
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "rewardCount": 250,
+    "rewardId": 111,
+    "rewardType": 8
+  },
+  {
+    "clearCount": 4,
+    "groupId": 3,
+    "id": 4,
+    "puzzleRewardgroupId": [
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83
+    ],
+    "rewardCount": 250,
+    "rewardId": 113,
+    "rewardType": 8
+  },
+  {
+    "clearCount": 5,
+    "groupId": 3,
+    "id": 5,
+    "puzzleRewardgroupId": [
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109
+    ],
+    "rewardCount": 250,
+    "rewardId": 115,
+    "rewardType": 8
+  },
+  {
+    "clearCount": 6,
+    "groupId": 3,
+    "id": 6,
+    "puzzleRewardgroupId": [
+      126,
+      127,
+      128
+    ],
+    "rewardCount": 250,
+    "rewardId": 114,
+    "rewardType": 8
+  },
+  {
+    "clearCount": 7,
+    "groupId": 3,
+    "id": 7,
+    "puzzleRewardgroupId": [
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159
+    ],
+    "rewardCount": 10,
+    "rewardId": 1000,
+    "rewardType": 8
+  },
+  {
+    "clearCount": 8,
+    "groupId": 3,
+    "id": 8,
+    "puzzleRewardgroupId": [
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184
+    ],
+    "rewardCount": 50000,
+    "rewardType": 4
+  },
+  {
+    "clearCount": 9,
+    "groupId": 3,
+    "id": 9,
+    "puzzleRewardgroupId": [
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209
+    ],
+    "rewardCount": 50000,
+    "rewardType": 4
+  },
+  {
+    "clearCount": 10,
+    "groupId": 3,
+    "id": 10,
+    "puzzleRewardgroupId": [
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234
+    ],
+    "rewardCount": 50000,
+    "rewardType": 4
+  },
+  {
+    "clearCount": 1,
+    "groupId": 4,
+    "id": 1,
+    "puzzleRewardgroupId": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "rewardCount": 20,
+    "rewardId": 705,
+    "rewardType": 8
+  },
+  {
+    "clearCount": 2,
+    "groupId": 4,
+    "id": 2,
+    "puzzleRewardgroupId": [
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ],
+    "rewardCount": 10,
+    "rewardId": 1000,
+    "rewardType": 8
+  },
+  {
+    "clearCount": 3,
+    "groupId": 4,
+    "id": 3,
+    "puzzleRewardgroupId": [
+      51,
+      52,
+      53,
+      54,
+      55,
+      56
+    ],
+    "rewardCount": 20,
+    "rewardId": 705,
+    "rewardType": 8
+  },
+  {
+    "clearCount": 4,
+    "groupId": 4,
+    "id": 4,
+    "puzzleRewardgroupId": [
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83
+    ],
+    "rewardCount": 10,
+    "rewardId": 1108,
+    "rewardType": 8
+  },
+  {
+    "clearCount": 5,
+    "groupId": 4,
+    "id": 5,
+    "puzzleRewardgroupId": [
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107
+    ],
+    "rewardCount": 20,
+    "rewardId": 705,
+    "rewardType": 8
+  },
+  {
+    "clearCount": 6,
+    "groupId": 4,
+    "id": 6,
+    "puzzleRewardgroupId": [
+      126,
+      127,
+      128,
+      129,
+      130,
+      131
+    ],
+    "rewardCount": 10,
+    "rewardId": 1000,
+    "rewardType": 8
+  },
+  {
+    "clearCount": 7,
+    "groupId": 4,
+    "id": 7,
+    "puzzleRewardgroupId": [
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157
+    ],
+    "rewardCount": 40,
+    "rewardId": 705,
+    "rewardType": 8
+  },
+  {
+    "clearCount": 8,
+    "groupId": 4,
+    "id": 8,
+    "puzzleRewardgroupId": [
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184
+    ],
+    "rewardCount": 50000,
+    "rewardType": 4
+  },
+  {
+    "clearCount": 9,
+    "groupId": 4,
+    "id": 9,
+    "puzzleRewardgroupId": [
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209
+    ],
+    "rewardCount": 50000,
+    "rewardType": 4
+  },
+  {
+    "clearCount": 10,
+    "groupId": 4,
+    "id": 10,
+    "puzzleRewardgroupId": [
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234
+    ],
+    "rewardCount": 50000,
+    "rewardType": 4
+  },
+  {
+    "clearCount": 1,
+    "groupId": 5,
+    "id": 1,
+    "puzzleRewardgroupId": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "rewardCount": 10,
+    "rewardId": 1108,
+    "rewardType": 8
+  },
+  {
+    "clearCount": 2,
+    "groupId": 5,
+    "id": 2,
+    "puzzleRewardgroupId": [
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ],
+    "rewardCount": 30000,
+    "rewardId": 10,
+    "rewardType": 8
+  },
+  {
+    "clearCount": 3,
+    "groupId": 5,
+    "id": 3,
+    "puzzleRewardgroupId": [
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "rewardCount": 500,
+    "rewardType": 44
+  },
+  {
+    "clearCount": 4,
+    "groupId": 5,
+    "id": 4,
+    "puzzleRewardgroupId": [
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82
+    ],
+    "rewardCount": 30000,
+    "rewardId": 10,
+    "rewardType": 8
+  },
+  {
+    "clearCount": 5,
+    "groupId": 5,
+    "id": 5,
+    "puzzleRewardgroupId": [
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "rewardCount": 350,
+    "rewardId": 114,
+    "rewardType": 8
+  },
+  {
+    "clearCount": 6,
+    "groupId": 5,
+    "id": 6,
+    "puzzleRewardgroupId": [
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132
+    ],
+    "rewardCount": 30000,
+    "rewardId": 10,
+    "rewardType": 8
+  },
+  {
+    "clearCount": 7,
+    "groupId": 5,
+    "id": 7,
+    "puzzleRewardgroupId": [
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ],
+    "rewardCount": 10,
+    "rewardId": 1000,
+    "rewardType": 8
+  },
+  {
+    "clearCount": 8,
+    "groupId": 5,
+    "id": 8,
+    "puzzleRewardgroupId": [
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184
+    ],
+    "rewardCount": 50000,
+    "rewardType": 4
+  },
+  {
+    "clearCount": 9,
+    "groupId": 5,
+    "id": 9,
+    "puzzleRewardgroupId": [
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209
+    ],
+    "rewardCount": 50000,
+    "rewardType": 4
+  },
+  {
+    "clearCount": 10,
+    "groupId": 5,
+    "id": 10,
+    "puzzleRewardgroupId": [
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234
+    ],
+    "rewardCount": 50000,
+    "rewardType": 4
+  }
+]

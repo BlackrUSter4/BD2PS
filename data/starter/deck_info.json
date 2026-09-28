@@ -1,0 +1,30 @@
+{
+  "deckInfo": [
+    {
+      "charInvenIndex": 208813639,
+      "position": 0,
+      "sequence": 1
+    },
+    {
+      "charInvenIndex": 0,
+      "position": -1,
+      "sequence": 2
+    },
+    {
+      "charInvenIndex": 0,
+      "position": -1,
+      "sequence": 3
+    },
+    {
+      "charInvenIndex": 0,
+      "position": -1,
+      "sequence": 4
+    },
+    {
+      "charInvenIndex": 0,
+      "position": -1,
+      "sequence": 5
+    }
+  ],
+  "talentSlotInfo": [0, 0, 0, 0]
+}

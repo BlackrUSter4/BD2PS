@@ -1,0 +1,16 @@
+use serde::{Deserialize, Serialize};
+use sqlx::FromRow;
+
+#[derive(Debug, Serialize, Deserialize, FromRow)]
+#[serde(rename_all = "PascalCase")]
+#[sqlx(rename_all = "PascalCase")]
+pub struct MiniGameDefenseInfo {
+    #[sqlx(rename = "Index")]
+    pub index: i64,
+    #[sqlx(rename = "Uid")]
+    pub uid: i64,
+    #[sqlx(rename = "EventScheduleId")]
+    pub event_schedule_id: Option<i32>,
+    #[sqlx(rename = "RewardInfo")]
+    pub reward_info: i32,
+}

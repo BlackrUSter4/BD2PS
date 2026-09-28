@@ -1,0 +1,20 @@
+[
+  { "charUniqueId": 647, "id": 64701, "isActive": 1, "nodeUIPrefab": "NodeType6" },
+  { "charUniqueId": 648, "id": 64801, "isActive": 1, "nodeUIPrefab": "NodeType6" },
+  { "charUniqueId": 649, "id": 64901, "isActive": 1, "nodeUIPrefab": "NodeType6" },
+  { "charUniqueId": 650, "id": 65001, "isActive": 1, "nodeUIPrefab": "NodeType6" },
+  { "charUniqueId": 601, "id": 60101, "isActive": 1, "nodeUIPrefab": "NodeType6" },
+  { "charUniqueId": 1, "id": 101, "isActive": 1, "nodeUIPrefab": "NodeType1" },
+  { "charUniqueId": 2, "id": 202, "isActive": 1, "nodeUIPrefab": "NodeType1" },
+  { "charUniqueId": 2, "id": 201, "isActive": 1, "nodeUIPrefab": "NodeType2" },
+  { "charUniqueId": 606, "id": 60601, "isActive": 1, "nodeUIPrefab": "NodeType3" },
+  { "charUniqueId": 16, "id": 1601, "isActive": 1, "nodeUIPrefab": "NodeType4" },
+  { "charUniqueId": 628, "id": 62801, "isActive": 1, "nodeUIPrefab": "NodeType6" },
+  { "charUniqueId": 630, "id": 63001, "isActive": 1, "nodeUIPrefab": "NodeType6" },
+  { "charUniqueId": 633, "id": 63301, "isActive": 1, "nodeUIPrefab": "NodeType6" },
+  { "charUniqueId": 9, "id": 901, "isActive": 1, "nodeUIPrefab": "NodeType6" },
+  { "charUniqueId": 676, "id": 67601, "isActive": 1, "nodeUIPrefab": "NodeType1" },
+  { "charUniqueId": 213, "id": 21301, "isActive": 1, "nodeUIPrefab": "NodeType1" },
+  { "charUniqueId": 621, "id": 62102, "isActive": 1, "nodeUIPrefab": "NodeType5" },
+  { "charUniqueId": 626, "id": 62601, "isActive": 1, "nodeUIPrefab": "NodeType6" }
+]

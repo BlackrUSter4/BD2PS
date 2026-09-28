@@ -1,0 +1,4 @@
+/target
+Cargo.lock
+tools/BD2DataExtractor/bin
+tools/BD2DataExtractor/obj

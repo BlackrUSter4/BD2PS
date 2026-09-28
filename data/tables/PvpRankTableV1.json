@@ -1,0 +1,839 @@
+[
+  {
+    "battleLoseRewardCount": [
+      8
+    ],
+    "battleLoseRewardId": [
+      0
+    ],
+    "battleLoseRewardType": [
+      16
+    ],
+    "battleWinRewardCount": [
+      15
+    ],
+    "battleWinRewardId": [
+      0
+    ],
+    "battleWinRewardType": [
+      16
+    ],
+    "iconSpriteName": "icon_pvprank23_23",
+    "id": 1,
+    "losePoint": 13,
+    "pvpRanking": 1,
+    "rankNameLocalTextId": 300194,
+    "seasonRewardCount": [
+      2000
+    ],
+    "seasonRewardId": [
+      0
+    ],
+    "seasonRewardType": [
+      3
+    ],
+    "seasonStartVP": 2000,
+    "vp": 2100,
+    "winPoint": 7
+  },
+  {
+    "battleLoseRewardCount": [
+      8
+    ],
+    "battleLoseRewardId": [
+      0
+    ],
+    "battleLoseRewardType": [
+      16
+    ],
+    "battleWinRewardCount": [
+      15
+    ],
+    "battleWinRewardId": [
+      0
+    ],
+    "battleWinRewardType": [
+      16
+    ],
+    "iconSpriteName": "icon_pvprank22_22",
+    "id": 2,
+    "losePoint": 13,
+    "pvpRanking": 2,
+    "rankNameLocalTextId": 300193,
+    "seasonRewardCount": [
+      1800
+    ],
+    "seasonRewardId": [
+      0
+    ],
+    "seasonRewardType": [
+      3
+    ],
+    "seasonStartVP": 2000,
+    "vp": 2100,
+    "winPoint": 7
+  },
+  {
+    "battleLoseRewardCount": [
+      8
+    ],
+    "battleLoseRewardId": [
+      0
+    ],
+    "battleLoseRewardType": [
+      16
+    ],
+    "battleWinRewardCount": [
+      15
+    ],
+    "battleWinRewardId": [
+      0
+    ],
+    "battleWinRewardType": [
+      16
+    ],
+    "iconSpriteName": "icon_pvprank21_21",
+    "id": 3,
+    "losePoint": 13,
+    "pvpRanking": 5,
+    "rankNameLocalTextId": 300192,
+    "seasonRewardCount": [
+      1700
+    ],
+    "seasonRewardId": [
+      0
+    ],
+    "seasonRewardType": [
+      3
+    ],
+    "seasonStartVP": 2000,
+    "vp": 2100,
+    "winPoint": 7
+  },
+  {
+    "battleLoseRewardCount": [
+      8
+    ],
+    "battleLoseRewardId": [
+      0
+    ],
+    "battleLoseRewardType": [
+      16
+    ],
+    "battleWinRewardCount": [
+      15
+    ],
+    "battleWinRewardId": [
+      0
+    ],
+    "battleWinRewardType": [
+      16
+    ],
+    "iconSpriteName": "icon_pvprank20_20",
+    "id": 4,
+    "losePoint": 12,
+    "pvpRanking": 10,
+    "rankNameLocalTextId": 300191,
+    "seasonRewardCount": [
+      1600
+    ],
+    "seasonRewardId": [
+      0
+    ],
+    "seasonRewardType": [
+      3
+    ],
+    "seasonStartVP": 2000,
+    "vp": 2100,
+    "winPoint": 8
+  },
+  {
+    "battleLoseRewardCount": [
+      8
+    ],
+    "battleLoseRewardId": [
+      0
+    ],
+    "battleLoseRewardType": [
+      16
+    ],
+    "battleWinRewardCount": [
+      15
+    ],
+    "battleWinRewardId": [
+      0
+    ],
+    "battleWinRewardType": [
+      16
+    ],
+    "iconSpriteName": "icon_pvprank19_19",
+    "id": 5,
+    "losePoint": 12,
+    "pvpRanking": 20,
+    "rankNameLocalTextId": 300190,
+    "seasonRewardCount": [
+      1500
+    ],
+    "seasonRewardId": [
+      0
+    ],
+    "seasonRewardType": [
+      3
+    ],
+    "seasonStartVP": 2000,
+    "vp": 2100,
+    "winPoint": 8
+  },
+  {
+    "battleLoseRewardCount": [
+      8
+    ],
+    "battleLoseRewardId": [
+      0
+    ],
+    "battleLoseRewardType": [
+      16
+    ],
+    "battleWinRewardCount": [
+      15
+    ],
+    "battleWinRewardId": [
+      0
+    ],
+    "battleWinRewardType": [
+      16
+    ],
+    "iconSpriteName": "icon_pvprank18_18",
+    "id": 6,
+    "losePoint": 12,
+    "pvpRanking": 50,
+    "rankNameLocalTextId": 300189,
+    "seasonRewardCount": [
+      1400
+    ],
+    "seasonRewardId": [
+      0
+    ],
+    "seasonRewardType": [
+      3
+    ],
+    "seasonStartVP": 2000,
+    "vp": 2100,
+    "winPoint": 8
+  },
+  {
+    "battleLoseRewardCount": [
+      8
+    ],
+    "battleLoseRewardId": [
+      0
+    ],
+    "battleLoseRewardType": [
+      16
+    ],
+    "battleWinRewardCount": [
+      15
+    ],
+    "battleWinRewardId": [
+      0
+    ],
+    "battleWinRewardType": [
+      16
+    ],
+    "iconSpriteName": "icon_pvprank17_17",
+    "id": 7,
+    "losePoint": 11,
+    "pvpRanking": 100,
+    "rankNameLocalTextId": 300188,
+    "seasonRewardCount": [
+      1300
+    ],
+    "seasonRewardId": [
+      0
+    ],
+    "seasonRewardType": [
+      3
+    ],
+    "seasonStartVP": 2000,
+    "vp": 2100,
+    "winPoint": 9
+  },
+  {
+    "battleLoseRewardCount": [
+      8
+    ],
+    "battleLoseRewardId": [
+      0
+    ],
+    "battleLoseRewardType": [
+      16
+    ],
+    "battleWinRewardCount": [
+      15
+    ],
+    "battleWinRewardId": [
+      0
+    ],
+    "battleWinRewardType": [
+      16
+    ],
+    "iconSpriteName": "icon_pvprank16_16",
+    "id": 8,
+    "losePoint": 11,
+    "pvpRanking": 200,
+    "rankNameLocalTextId": 300187,
+    "seasonRewardCount": [
+      1200
+    ],
+    "seasonRewardId": [
+      0
+    ],
+    "seasonRewardType": [
+      3
+    ],
+    "seasonStartVP": 2000,
+    "vp": 2100,
+    "winPoint": 9
+  },
+  {
+    "battleLoseRewardCount": [
+      8
+    ],
+    "battleLoseRewardId": [
+      0
+    ],
+    "battleLoseRewardType": [
+      16
+    ],
+    "battleWinRewardCount": [
+      15
+    ],
+    "battleWinRewardId": [
+      0
+    ],
+    "battleWinRewardType": [
+      16
+    ],
+    "iconSpriteName": "icon_pvprank15_15",
+    "id": 9,
+    "losePoint": 11,
+    "pvpRanking": 500,
+    "rankNameLocalTextId": 300186,
+    "seasonRewardCount": [
+      1100
+    ],
+    "seasonRewardId": [
+      0
+    ],
+    "seasonRewardType": [
+      3
+    ],
+    "seasonStartVP": 2000,
+    "vp": 2100,
+    "winPoint": 9
+  },
+  {
+    "battleLoseRewardCount": [
+      8
+    ],
+    "battleLoseRewardId": [
+      0
+    ],
+    "battleLoseRewardType": [
+      16
+    ],
+    "battleWinRewardCount": [
+      15
+    ],
+    "battleWinRewardId": [
+      0
+    ],
+    "battleWinRewardType": [
+      16
+    ],
+    "iconSpriteName": "icon_pvprank14_14",
+    "id": 10,
+    "losePoint": 10,
+    "pvpRanking": 1000,
+    "rankNameLocalTextId": 300185,
+    "seasonRewardCount": [
+      1000
+    ],
+    "seasonRewardId": [
+      0
+    ],
+    "seasonRewardType": [
+      3
+    ],
+    "seasonStartVP": 2000,
+    "vp": 2100,
+    "winPoint": 10
+  },
+  {
+    "battleLoseRewardCount": [
+      8
+    ],
+    "battleLoseRewardId": [
+      0
+    ],
+    "battleLoseRewardType": [
+      16
+    ],
+    "battleWinRewardCount": [
+      15
+    ],
+    "battleWinRewardId": [
+      0
+    ],
+    "battleWinRewardType": [
+      16
+    ],
+    "iconSpriteName": "icon_pvprank13_13",
+    "id": 11,
+    "losePoint": 10,
+    "rankNameLocalTextId": 300113,
+    "seasonRewardCount": [
+      800
+    ],
+    "seasonRewardId": [
+      0
+    ],
+    "seasonRewardType": [
+      3
+    ],
+    "seasonStartVP": 2000,
+    "vp": 2100,
+    "winPoint": 10
+  },
+  {
+    "battleLoseRewardCount": [
+      8
+    ],
+    "battleLoseRewardId": [
+      0
+    ],
+    "battleLoseRewardType": [
+      16
+    ],
+    "battleWinRewardCount": [
+      15
+    ],
+    "battleWinRewardId": [
+      0
+    ],
+    "battleWinRewardType": [
+      16
+    ],
+    "iconSpriteName": "icon_pvprank12_12",
+    "id": 12,
+    "losePoint": 10,
+    "rankNameLocalTextId": 300112,
+    "seasonRewardCount": [
+      750
+    ],
+    "seasonRewardId": [
+      0
+    ],
+    "seasonRewardType": [
+      3
+    ],
+    "seasonStartVP": 1900,
+    "vp": 2000,
+    "winPoint": 10
+  },
+  {
+    "battleLoseRewardCount": [
+      8
+    ],
+    "battleLoseRewardId": [
+      0
+    ],
+    "battleLoseRewardType": [
+      16
+    ],
+    "battleWinRewardCount": [
+      15
+    ],
+    "battleWinRewardId": [
+      0
+    ],
+    "battleWinRewardType": [
+      16
+    ],
+    "iconSpriteName": "icon_pvprank11_11",
+    "id": 13,
+    "losePoint": 9,
+    "rankNameLocalTextId": 300111,
+    "seasonRewardCount": [
+      700
+    ],
+    "seasonRewardId": [
+      0
+    ],
+    "seasonRewardType": [
+      3
+    ],
+    "seasonStartVP": 1800,
+    "vp": 1900,
+    "winPoint": 13
+  },
+  {
+    "battleLoseRewardCount": [
+      8
+    ],
+    "battleLoseRewardId": [
+      0
+    ],
+    "battleLoseRewardType": [
+      16
+    ],
+    "battleWinRewardCount": [
+      15
+    ],
+    "battleWinRewardId": [
+      0
+    ],
+    "battleWinRewardType": [
+      16
+    ],
+    "iconSpriteName": "icon_pvprank10_10",
+    "id": 14,
+    "losePoint": 9,
+    "rankNameLocalTextId": 300110,
+    "seasonRewardCount": [
+      600
+    ],
+    "seasonRewardId": [
+      0
+    ],
+    "seasonRewardType": [
+      3
+    ],
+    "seasonStartVP": 1700,
+    "vp": 1800,
+    "winPoint": 13
+  },
+  {
+    "battleLoseRewardCount": [
+      8
+    ],
+    "battleLoseRewardId": [
+      0
+    ],
+    "battleLoseRewardType": [
+      16
+    ],
+    "battleWinRewardCount": [
+      15
+    ],
+    "battleWinRewardId": [
+      0
+    ],
+    "battleWinRewardType": [
+      16
+    ],
+    "iconSpriteName": "icon_pvprank09_9",
+    "id": 15,
+    "losePoint": 7,
+    "rankNameLocalTextId": 300109,
+    "seasonRewardCount": [
+      570
+    ],
+    "seasonRewardId": [
+      0
+    ],
+    "seasonRewardType": [
+      3
+    ],
+    "seasonStartVP": 1600,
+    "vp": 1700,
+    "winPoint": 16
+  },
+  {
+    "battleLoseRewardCount": [
+      8
+    ],
+    "battleLoseRewardId": [
+      0
+    ],
+    "battleLoseRewardType": [
+      16
+    ],
+    "battleWinRewardCount": [
+      15
+    ],
+    "battleWinRewardId": [
+      0
+    ],
+    "battleWinRewardType": [
+      16
+    ],
+    "iconSpriteName": "icon_pvprank08_8",
+    "id": 16,
+    "losePoint": 7,
+    "rankNameLocalTextId": 300108,
+    "seasonRewardCount": [
+      540
+    ],
+    "seasonRewardId": [
+      0
+    ],
+    "seasonRewardType": [
+      3
+    ],
+    "seasonStartVP": 1600,
+    "vp": 1600,
+    "winPoint": 16
+  },
+  {
+    "battleLoseRewardCount": [
+      8
+    ],
+    "battleLoseRewardId": [
+      0
+    ],
+    "battleLoseRewardType": [
+      16
+    ],
+    "battleWinRewardCount": [
+      15
+    ],
+    "battleWinRewardId": [
+      0
+    ],
+    "battleWinRewardType": [
+      16
+    ],
+    "iconSpriteName": "icon_pvprank07_7",
+    "id": 17,
+    "losePoint": 5,
+    "rankNameLocalTextId": 300107,
+    "seasonRewardCount": [
+      500
+    ],
+    "seasonRewardId": [
+      0
+    ],
+    "seasonRewardType": [
+      3
+    ],
+    "seasonStartVP": 1500,
+    "vp": 1500,
+    "winPoint": 20
+  },
+  {
+    "battleLoseRewardCount": [
+      8
+    ],
+    "battleLoseRewardId": [
+      0
+    ],
+    "battleLoseRewardType": [
+      16
+    ],
+    "battleWinRewardCount": [
+      15
+    ],
+    "battleWinRewardId": [
+      0
+    ],
+    "battleWinRewardType": [
+      16
+    ],
+    "iconSpriteName": "icon_pvprank06_6",
+    "id": 18,
+    "losePoint": 5,
+    "rankNameLocalTextId": 300106,
+    "seasonRewardCount": [
+      470
+    ],
+    "seasonRewardId": [
+      0
+    ],
+    "seasonRewardType": [
+      3
+    ],
+    "seasonStartVP": 1400,
+    "vp": 1400,
+    "winPoint": 20
+  },
+  {
+    "battleLoseRewardCount": [
+      8
+    ],
+    "battleLoseRewardId": [
+      0
+    ],
+    "battleLoseRewardType": [
+      16
+    ],
+    "battleWinRewardCount": [
+      15
+    ],
+    "battleWinRewardId": [
+      0
+    ],
+    "battleWinRewardType": [
+      16
+    ],
+    "iconSpriteName": "icon_pvprank05_5",
+    "id": 19,
+    "losePoint": 5,
+    "rankNameLocalTextId": 300105,
+    "seasonRewardCount": [
+      440
+    ],
+    "seasonRewardId": [
+      0
+    ],
+    "seasonRewardType": [
+      3
+    ],
+    "seasonStartVP": 1300,
+    "vp": 1300,
+    "winPoint": 20
+  },
+  {
+    "battleLoseRewardCount": [
+      8
+    ],
+    "battleLoseRewardId": [
+      0
+    ],
+    "battleLoseRewardType": [
+      16
+    ],
+    "battleWinRewardCount": [
+      15
+    ],
+    "battleWinRewardId": [
+      0
+    ],
+    "battleWinRewardType": [
+      16
+    ],
+    "iconSpriteName": "icon_pvprank04_4",
+    "id": 20,
+    "losePoint": 3,
+    "rankNameLocalTextId": 300104,
+    "seasonRewardCount": [
+      400
+    ],
+    "seasonRewardId": [
+      0
+    ],
+    "seasonRewardType": [
+      3
+    ],
+    "seasonStartVP": 1200,
+    "vp": 1200,
+    "winPoint": 30
+  },
+  {
+    "battleLoseRewardCount": [
+      8
+    ],
+    "battleLoseRewardId": [
+      0
+    ],
+    "battleLoseRewardType": [
+      16
+    ],
+    "battleWinRewardCount": [
+      15
+    ],
+    "battleWinRewardId": [
+      0
+    ],
+    "battleWinRewardType": [
+      16
+    ],
+    "iconSpriteName": "icon_pvprank03_3",
+    "id": 21,
+    "losePoint": 3,
+    "rankNameLocalTextId": 300103,
+    "seasonRewardCount": [
+      400
+    ],
+    "seasonRewardId": [
+      0
+    ],
+    "seasonRewardType": [
+      3
+    ],
+    "seasonStartVP": 1100,
+    "vp": 1100,
+    "winPoint": 30
+  },
+  {
+    "battleLoseRewardCount": [
+      8
+    ],
+    "battleLoseRewardId": [
+      0
+    ],
+    "battleLoseRewardType": [
+      16
+    ],
+    "battleWinRewardCount": [
+      15
+    ],
+    "battleWinRewardId": [
+      0
+    ],
+    "battleWinRewardType": [
+      16
+    ],
+    "iconSpriteName": "icon_pvprank02_2",
+    "id": 22,
+    "losePoint": 3,
+    "rankNameLocalTextId": 300102,
+    "seasonRewardCount": [
+      400
+    ],
+    "seasonRewardId": [
+      0
+    ],
+    "seasonRewardType": [
+      3
+    ],
+    "seasonStartVP": 1050,
+    "vp": 1050,
+    "winPoint": 30
+  },
+  {
+    "battleLoseRewardCount": [
+      8
+    ],
+    "battleLoseRewardId": [
+      0
+    ],
+    "battleLoseRewardType": [
+      16
+    ],
+    "battleWinRewardCount": [
+      15
+    ],
+    "battleWinRewardId": [
+      0
+    ],
+    "battleWinRewardType": [
+      16
+    ],
+    "iconSpriteName": "icon_pvprank01_1",
+    "id": 23,
+    "rankNameLocalTextId": 300101,
+    "seasonRewardCount": [
+      400
+    ],
+    "seasonRewardId": [
+      0
+    ],
+    "seasonRewardType": [
+      3
+    ],
+    "seasonStartVP": 1000,
+    "vp": 1000,
+    "winPoint": 50
+  }
+]

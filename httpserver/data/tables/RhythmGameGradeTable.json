@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1,
+    "minAccuracy": 95
+  },
+  {
+    "id": 2,
+    "minAccuracy": 90
+  },
+  {
+    "id": 3,
+    "minAccuracy": 80
+  },
+  {
+    "id": 4,
+    "minAccuracy": 65
+  },
+  {
+    "id": 5,
+    "minAccuracy": 50
+  },
+  {
+    "id": 6
+  }
+]

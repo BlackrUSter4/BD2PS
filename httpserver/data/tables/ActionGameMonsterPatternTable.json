@@ -1,0 +1,2949 @@
+[
+  {
+    "groupId": 101,
+    "id": 101001,
+    "maxCount": 1,
+    "priority": 1,
+    "probability": 100.0,
+    "skillId": 101001
+  },
+  {
+    "attackRangeMin": 4.0,
+    "groupId": 101,
+    "id": 101002,
+    "priority": 7,
+    "probability": 100.0,
+    "skillId": 101002
+  },
+  {
+    "attackRangeMin": 4.0,
+    "groupId": 101,
+    "id": 101003,
+    "priority": 6,
+    "probability": 100.0,
+    "skillId": 101003
+  },
+  {
+    "attackRangeMin": 6.0,
+    "conditionType1": 9,
+    "conditionValue1": 6,
+    "groupId": 101,
+    "id": 101004,
+    "priority": 3,
+    "probability": 20.0,
+    "skillId": 101006
+  },
+  {
+    "attackRangeMin": 7.0,
+    "groupId": 101,
+    "id": 101005,
+    "priority": 3,
+    "probability": 20.0,
+    "skillId": 101007
+  },
+  {
+    "attackRangeMin": 8.0,
+    "conditionType1": 8,
+    "conditionValue1": 20,
+    "groupId": 101,
+    "id": 101006,
+    "priority": 3,
+    "probability": 20.0,
+    "skillId": 101008
+  },
+  {
+    "attackRangeMin": 9.0,
+    "conditionType1": 8,
+    "conditionValue1": 20,
+    "groupId": 101,
+    "id": 101008,
+    "priority": 3,
+    "probability": 20.0,
+    "skillId": 101010
+  },
+  {
+    "conditionType1": 2,
+    "conditionValue1": 50,
+    "groupId": 101,
+    "id": 101011,
+    "maxCount": 1,
+    "priority": 2,
+    "probability": 100.0,
+    "skillId": 101021
+  },
+  {
+    "attackRangeMin": 4.0,
+    "conditionType2": 10,
+    "conditionValue2": 10,
+    "groupId": 101,
+    "id": 101013,
+    "priority": 4,
+    "probability": 25.0,
+    "skillId": 101023
+  },
+  {
+    "attackRangeMin": 4.0,
+    "conditionType2": 10,
+    "conditionValue2": 10,
+    "groupId": 101,
+    "id": 101014,
+    "priority": 4,
+    "probability": 25.0,
+    "skillId": 101024
+  },
+  {
+    "attackRangeMin": 4.0,
+    "conditionType1": 6,
+    "conditionType2": 10,
+    "conditionValue1": 5,
+    "conditionValue2": 10,
+    "groupId": 101,
+    "id": 101015,
+    "priority": 4,
+    "probability": 25.0,
+    "skillId": 101025
+  },
+  {
+    "attackRangeMin": 4.0,
+    "conditionType1": 7,
+    "conditionType2": 10,
+    "conditionValue1": 5,
+    "conditionValue2": 10,
+    "groupId": 101,
+    "id": 101016,
+    "priority": 4,
+    "probability": 25.0,
+    "skillId": 101026
+  },
+  {
+    "attackRangeMin": 4.0,
+    "conditionType2": 5,
+    "conditionValue2": 10,
+    "groupId": 101,
+    "id": 101017,
+    "priority": 5,
+    "probability": 25.0,
+    "skillId": 101027
+  },
+  {
+    "attackRangeMin": 4.0,
+    "conditionType2": 5,
+    "conditionValue2": 10,
+    "groupId": 101,
+    "id": 101018,
+    "priority": 5,
+    "probability": 25.0,
+    "skillId": 101028
+  },
+  {
+    "attackRangeMin": 4.0,
+    "conditionType1": 6,
+    "conditionType2": 5,
+    "conditionValue1": 5,
+    "conditionValue2": 10,
+    "groupId": 101,
+    "id": 101019,
+    "priority": 5,
+    "probability": 25.0,
+    "skillId": 101029
+  },
+  {
+    "attackRangeMin": 4.0,
+    "conditionType1": 7,
+    "conditionType2": 5,
+    "conditionValue1": 5,
+    "conditionValue2": 10,
+    "groupId": 101,
+    "id": 101020,
+    "priority": 5,
+    "probability": 25.0,
+    "skillId": 101030
+  },
+  {
+    "attackRangeMin": 8.0,
+    "conditionType1": 4,
+    "conditionValue1": 11,
+    "groupId": 101,
+    "id": 101029,
+    "priority": 3,
+    "probability": 20.0,
+    "skillId": 101046
+  },
+  {
+    "groupId": 102,
+    "id": 102001,
+    "maxCount": 1,
+    "priority": 1,
+    "probability": 100.0,
+    "skillId": 102001
+  },
+  {
+    "attackRangeMin": 4.0,
+    "groupId": 102,
+    "id": 102002,
+    "priority": 12,
+    "probability": 100.0,
+    "skillId": 102002
+  },
+  {
+    "attackRangeMin": 4.0,
+    "groupId": 102,
+    "id": 102003,
+    "priority": 11,
+    "probability": 100.0,
+    "skillId": 102003
+  },
+  {
+    "attackRangeMin": 6.0,
+    "conditionType1": 9,
+    "conditionValue1": 6,
+    "groupId": 102,
+    "id": 102004,
+    "priority": 8,
+    "probability": 25.0,
+    "skillId": 102006
+  },
+  {
+    "attackRangeMin": 7.0,
+    "conditionType2": 10,
+    "conditionValue2": 10,
+    "groupId": 102,
+    "id": 102005,
+    "priority": 6,
+    "probability": 25.0,
+    "skillId": 102007
+  },
+  {
+    "attackRangeMin": 8.0,
+    "conditionType1": 8,
+    "conditionType2": 10,
+    "conditionValue1": 20,
+    "conditionValue2": 10,
+    "groupId": 102,
+    "id": 102006,
+    "priority": 6,
+    "probability": 25.0,
+    "skillId": 102008
+  },
+  {
+    "attackRangeMin": 18.0,
+    "conditionType2": 10,
+    "conditionValue2": 10,
+    "groupId": 102,
+    "id": 102007,
+    "priority": 6,
+    "probability": 25.0,
+    "skillId": 102009
+  },
+  {
+    "attackRangeMin": 9.0,
+    "conditionType1": 8,
+    "conditionValue1": 20,
+    "groupId": 102,
+    "id": 102008,
+    "priority": 6,
+    "probability": 25.0,
+    "skillId": 102010
+  },
+  {
+    "attackRangeMin": 9.0,
+    "conditionType1": 8,
+    "conditionType2": 5,
+    "conditionValue1": 20,
+    "conditionValue2": 10,
+    "groupId": 102,
+    "id": 102009,
+    "priority": 4,
+    "probability": 20.0,
+    "skillId": 102014
+  },
+  {
+    "attackRangeMin": 9.0,
+    "conditionType1": 4,
+    "conditionType2": 5,
+    "conditionValue1": 15,
+    "conditionValue2": 10,
+    "groupId": 102,
+    "id": 102010,
+    "priority": 4,
+    "probability": 20.0,
+    "skillId": 102015
+  },
+  {
+    "conditionType1": 2,
+    "conditionValue1": 50,
+    "groupId": 102,
+    "id": 102011,
+    "maxCount": 1,
+    "priority": 3,
+    "probability": 100.0,
+    "skillId": 102021
+  },
+  {
+    "conditionType1": 2,
+    "conditionValue1": 20,
+    "groupId": 102,
+    "id": 102012,
+    "maxCount": 1,
+    "priority": 2,
+    "probability": 100.0,
+    "skillId": 102022
+  },
+  {
+    "attackRangeMin": 4.0,
+    "conditionType2": 10,
+    "conditionValue2": 10,
+    "groupId": 102,
+    "id": 102013,
+    "priority": 10,
+    "probability": 17.0,
+    "skillId": 102023
+  },
+  {
+    "attackRangeMin": 4.0,
+    "conditionType2": 10,
+    "conditionValue2": 10,
+    "groupId": 102,
+    "id": 102014,
+    "priority": 10,
+    "probability": 17.0,
+    "skillId": 102024
+  },
+  {
+    "attackRangeMin": 4.0,
+    "conditionType1": 6,
+    "conditionType2": 10,
+    "conditionValue1": 5,
+    "conditionValue2": 10,
+    "groupId": 102,
+    "id": 102015,
+    "priority": 8,
+    "probability": 25.0,
+    "skillId": 102025
+  },
+  {
+    "attackRangeMin": 4.0,
+    "conditionType1": 7,
+    "conditionType2": 10,
+    "conditionValue1": 5,
+    "conditionValue2": 10,
+    "groupId": 102,
+    "id": 102016,
+    "priority": 7,
+    "probability": 25.0,
+    "skillId": 102026
+  },
+  {
+    "attackRangeMin": 4.0,
+    "conditionType2": 5,
+    "conditionValue2": 10,
+    "groupId": 102,
+    "id": 102017,
+    "priority": 9,
+    "probability": 30.0,
+    "skillId": 102027
+  },
+  {
+    "attackRangeMin": 4.0,
+    "conditionType2": 5,
+    "conditionValue2": 10,
+    "groupId": 102,
+    "id": 102018,
+    "priority": 9,
+    "probability": 30.0,
+    "skillId": 102028
+  },
+  {
+    "attackRangeMin": 4.0,
+    "conditionType1": 6,
+    "conditionType2": 5,
+    "conditionValue1": 5,
+    "conditionValue2": 10,
+    "groupId": 102,
+    "id": 102019,
+    "priority": 8,
+    "probability": 25.0,
+    "skillId": 102029
+  },
+  {
+    "attackRangeMin": 4.0,
+    "conditionType1": 7,
+    "conditionType2": 5,
+    "conditionValue1": 5,
+    "conditionValue2": 10,
+    "groupId": 102,
+    "id": 102020,
+    "priority": 7,
+    "probability": 25.0,
+    "skillId": 102030
+  },
+  {
+    "attackRangeMin": 4.0,
+    "groupId": 102,
+    "id": 102021,
+    "priority": 10,
+    "probability": 17.0,
+    "skillId": 102037
+  },
+  {
+    "attackRangeMin": 4.0,
+    "groupId": 102,
+    "id": 102022,
+    "priority": 10,
+    "probability": 17.0,
+    "skillId": 102038
+  },
+  {
+    "attackRangeMin": 4.0,
+    "conditionType1": 6,
+    "conditionValue1": 5,
+    "groupId": 102,
+    "id": 102023,
+    "priority": 8,
+    "probability": 25.0,
+    "skillId": 102039
+  },
+  {
+    "attackRangeMin": 4.0,
+    "conditionType1": 7,
+    "conditionValue1": 5,
+    "groupId": 102,
+    "id": 102024,
+    "priority": 7,
+    "probability": 25.0,
+    "skillId": 102040
+  },
+  {
+    "attackRangeMin": 4.0,
+    "conditionType2": 10,
+    "conditionValue2": 10,
+    "groupId": 102,
+    "id": 102025,
+    "priority": 10,
+    "probability": 16.0,
+    "skillId": 102041
+  },
+  {
+    "conditionType2": 5,
+    "conditionValue2": 10,
+    "groupId": 102,
+    "id": 102026,
+    "priority": 10,
+    "probability": 16.0,
+    "skillId": 102042
+  },
+  {
+    "attackRangeMin": 8.0,
+    "conditionType2": 5,
+    "conditionValue2": 10,
+    "groupId": 102,
+    "id": 102027,
+    "priority": 9,
+    "probability": 20.0,
+    "skillId": 102043
+  },
+  {
+    "conditionType2": 5,
+    "conditionValue2": 10,
+    "groupId": 102,
+    "id": 102028,
+    "priority": 9,
+    "probability": 20.0,
+    "skillId": 102044
+  },
+  {
+    "attackRangeMin": 8.0,
+    "conditionType1": 4,
+    "conditionValue1": 11,
+    "groupId": 102,
+    "id": 102029,
+    "priority": 5,
+    "probability": 50.0,
+    "skillId": 102046
+  },
+  {
+    "conditionType1": 3,
+    "conditionValue1": 10,
+    "groupId": 102,
+    "id": 102030,
+    "priority": 5,
+    "probability": 50.0,
+    "skillId": 102045
+  },
+  {
+    "attackRangeMin": 7.0,
+    "conditionType2": 5,
+    "conditionValue2": 10,
+    "groupId": 102,
+    "id": 102031,
+    "priority": 4,
+    "probability": 20.0,
+    "skillId": 102048
+  },
+  {
+    "attackRangeMin": 4.0,
+    "conditionType2": 5,
+    "conditionValue2": 10,
+    "groupId": 102,
+    "id": 102032,
+    "priority": 7,
+    "probability": 25.0,
+    "skillId": 102050
+  },
+  {
+    "attackRangeMin": 9.0,
+    "conditionType1": 8,
+    "conditionType2": 5,
+    "conditionValue1": 20,
+    "conditionValue2": 10,
+    "groupId": 102,
+    "id": 102033,
+    "priority": 4,
+    "probability": 20.0,
+    "skillId": 102054
+  },
+  {
+    "attackRangeMin": 9.0,
+    "conditionType1": 4,
+    "conditionType2": 5,
+    "conditionValue1": 15,
+    "conditionValue2": 10,
+    "groupId": 102,
+    "id": 102034,
+    "priority": 4,
+    "probability": 20.0,
+    "skillId": 102056
+  },
+  {
+    "attackRangeMin": 4.0,
+    "conditionType2": 5,
+    "conditionValue2": 10,
+    "groupId": 102,
+    "id": 102035,
+    "priority": 8,
+    "probability": 25.0,
+    "skillId": 102058
+  },
+  {
+    "groupId": 103,
+    "id": 103001,
+    "maxCount": 1,
+    "priority": 1,
+    "probability": 100.0,
+    "skillId": 103001
+  },
+  {
+    "attackRangeMin": 4.0,
+    "groupId": 103,
+    "id": 103002,
+    "priority": 12,
+    "probability": 100.0,
+    "skillId": 103002
+  },
+  {
+    "attackRangeMin": 4.0,
+    "groupId": 103,
+    "id": 103003,
+    "priority": 11,
+    "probability": 100.0,
+    "skillId": 103003
+  },
+  {
+    "attackRangeMin": 6.0,
+    "conditionType1": 9,
+    "conditionValue1": 6,
+    "groupId": 103,
+    "id": 103004,
+    "priority": 8,
+    "probability": 25.0,
+    "skillId": 103006
+  },
+  {
+    "attackRangeMin": 7.0,
+    "conditionType2": 10,
+    "conditionValue2": 10,
+    "groupId": 103,
+    "id": 103005,
+    "priority": 6,
+    "probability": 25.0,
+    "skillId": 103007
+  },
+  {
+    "attackRangeMin": 8.0,
+    "conditionType1": 8,
+    "conditionType2": 10,
+    "conditionValue1": 20,
+    "conditionValue2": 10,
+    "groupId": 103,
+    "id": 103006,
+    "priority": 6,
+    "probability": 25.0,
+    "skillId": 103008
+  },
+  {
+    "attackRangeMin": 18.0,
+    "conditionType2": 10,
+    "conditionValue2": 10,
+    "groupId": 103,
+    "id": 103007,
+    "priority": 6,
+    "probability": 25.0,
+    "skillId": 103009
+  },
+  {
+    "attackRangeMin": 9.0,
+    "conditionType1": 8,
+    "conditionValue1": 20,
+    "groupId": 103,
+    "id": 103008,
+    "priority": 6,
+    "probability": 25.0,
+    "skillId": 103010
+  },
+  {
+    "attackRangeMin": 9.0,
+    "conditionType1": 8,
+    "conditionType2": 5,
+    "conditionValue1": 20,
+    "conditionValue2": 10,
+    "groupId": 103,
+    "id": 103009,
+    "priority": 4,
+    "probability": 20.0,
+    "skillId": 103014
+  },
+  {
+    "attackRangeMin": 9.0,
+    "conditionType1": 4,
+    "conditionType2": 5,
+    "conditionValue1": 15,
+    "conditionValue2": 10,
+    "groupId": 103,
+    "id": 103010,
+    "priority": 4,
+    "probability": 20.0,
+    "skillId": 103015
+  },
+  {
+    "conditionType1": 2,
+    "conditionValue1": 50,
+    "groupId": 103,
+    "id": 103011,
+    "maxCount": 1,
+    "priority": 3,
+    "probability": 100.0,
+    "skillId": 103021
+  },
+  {
+    "conditionType1": 2,
+    "conditionValue1": 20,
+    "groupId": 103,
+    "id": 103012,
+    "maxCount": 1,
+    "priority": 2,
+    "probability": 100.0,
+    "skillId": 103022
+  },
+  {
+    "attackRangeMin": 4.0,
+    "conditionType2": 10,
+    "conditionValue2": 10,
+    "groupId": 103,
+    "id": 103013,
+    "priority": 10,
+    "probability": 17.0,
+    "skillId": 103023
+  },
+  {
+    "attackRangeMin": 4.0,
+    "conditionType2": 10,
+    "conditionValue2": 10,
+    "groupId": 103,
+    "id": 103014,
+    "priority": 10,
+    "probability": 17.0,
+    "skillId": 103024
+  },
+  {
+    "attackRangeMin": 4.0,
+    "conditionType1": 6,
+    "conditionType2": 10,
+    "conditionValue1": 5,
+    "conditionValue2": 10,
+    "groupId": 103,
+    "id": 103015,
+    "priority": 8,
+    "probability": 25.0,
+    "skillId": 103025
+  },
+  {
+    "attackRangeMin": 4.0,
+    "conditionType1": 7,
+    "conditionType2": 10,
+    "conditionValue1": 5,
+    "conditionValue2": 10,
+    "groupId": 103,
+    "id": 103016,
+    "priority": 7,
+    "probability": 25.0,
+    "skillId": 103026
+  },
+  {
+    "attackRangeMin": 4.0,
+    "conditionType2": 5,
+    "conditionValue2": 10,
+    "groupId": 103,
+    "id": 103017,
+    "priority": 9,
+    "probability": 30.0,
+    "skillId": 103027
+  },
+  {
+    "attackRangeMin": 4.0,
+    "conditionType2": 5,
+    "conditionValue2": 10,
+    "groupId": 103,
+    "id": 103018,
+    "priority": 9,
+    "probability": 30.0,
+    "skillId": 103028
+  },
+  {
+    "attackRangeMin": 4.0,
+    "conditionType1": 6,
+    "conditionType2": 5,
+    "conditionValue1": 5,
+    "conditionValue2": 10,
+    "groupId": 103,
+    "id": 103019,
+    "priority": 8,
+    "probability": 25.0,
+    "skillId": 103029
+  },
+  {
+    "attackRangeMin": 4.0,
+    "conditionType1": 7,
+    "conditionType2": 5,
+    "conditionValue1": 5,
+    "conditionValue2": 10,
+    "groupId": 103,
+    "id": 103020,
+    "priority": 7,
+    "probability": 25.0,
+    "skillId": 103030
+  },
+  {
+    "attackRangeMin": 4.0,
+    "groupId": 103,
+    "id": 103021,
+    "priority": 10,
+    "probability": 17.0,
+    "skillId": 103037
+  },
+  {
+    "attackRangeMin": 4.0,
+    "groupId": 103,
+    "id": 103022,
+    "priority": 10,
+    "probability": 17.0,
+    "skillId": 103038
+  },
+  {
+    "attackRangeMin": 4.0,
+    "conditionType1": 6,
+    "conditionValue1": 5,
+    "groupId": 103,
+    "id": 103023,
+    "priority": 8,
+    "probability": 25.0,
+    "skillId": 103039
+  },
+  {
+    "attackRangeMin": 4.0,
+    "conditionType1": 7,
+    "conditionValue1": 5,
+    "groupId": 103,
+    "id": 103024,
+    "priority": 7,
+    "probability": 25.0,
+    "skillId": 103040
+  },
+  {
+    "attackRangeMin": 4.0,
+    "conditionType2": 10,
+    "conditionValue2": 10,
+    "groupId": 103,
+    "id": 103025,
+    "priority": 10,
+    "probability": 16.0,
+    "skillId": 103041
+  },
+  {
+    "conditionType2": 5,
+    "conditionValue2": 10,
+    "groupId": 103,
+    "id": 103026,
+    "priority": 10,
+    "probability": 16.0,
+    "skillId": 103042
+  },
+  {
+    "attackRangeMin": 8.0,
+    "conditionType2": 5,
+    "conditionValue2": 10,
+    "groupId": 103,
+    "id": 103027,
+    "priority": 9,
+    "probability": 20.0,
+    "skillId": 103043
+  },
+  {
+    "conditionType2": 5,
+    "conditionValue2": 10,
+    "groupId": 103,
+    "id": 103028,
+    "priority": 9,
+    "probability": 20.0,
+    "skillId": 103044
+  },
+  {
+    "attackRangeMin": 8.0,
+    "conditionType1": 4,
+    "conditionValue1": 11,
+    "groupId": 103,
+    "id": 103029,
+    "priority": 5,
+    "probability": 50.0,
+    "skillId": 103046
+  },
+  {
+    "conditionType1": 3,
+    "conditionValue1": 10,
+    "groupId": 103,
+    "id": 103030,
+    "priority": 5,
+    "probability": 50.0,
+    "skillId": 103045
+  },
+  {
+    "attackRangeMin": 7.0,
+    "conditionType2": 5,
+    "conditionValue2": 10,
+    "groupId": 103,
+    "id": 103031,
+    "priority": 4,
+    "probability": 20.0,
+    "skillId": 103048
+  },
+  {
+    "attackRangeMin": 4.0,
+    "conditionType2": 5,
+    "conditionValue2": 10,
+    "groupId": 103,
+    "id": 103032,
+    "priority": 7,
+    "probability": 25.0,
+    "skillId": 103050
+  },
+  {
+    "attackRangeMin": 9.0,
+    "conditionType1": 8,
+    "conditionType2": 5,
+    "conditionValue1": 20,
+    "conditionValue2": 10,
+    "groupId": 103,
+    "id": 103033,
+    "priority": 4,
+    "probability": 20.0,
+    "skillId": 103054
+  },
+  {
+    "attackRangeMin": 9.0,
+    "conditionType1": 4,
+    "conditionType2": 5,
+    "conditionValue1": 15,
+    "conditionValue2": 10,
+    "groupId": 103,
+    "id": 103034,
+    "priority": 4,
+    "probability": 20.0,
+    "skillId": 103056
+  },
+  {
+    "attackRangeMin": 4.0,
+    "conditionType2": 5,
+    "conditionValue2": 10,
+    "groupId": 103,
+    "id": 103035,
+    "priority": 8,
+    "probability": 25.0,
+    "skillId": 103058
+  },
+  {
+    "groupId": 104,
+    "id": 104001,
+    "maxCount": 1,
+    "priority": 1,
+    "probability": 100.0,
+    "skillId": 104001
+  },
+  {
+    "attackRangeMin": 4.0,
+    "groupId": 104,
+    "id": 104002,
+    "priority": 12,
+    "probability": 100.0,
+    "skillId": 104002
+  },
+  {
+    "attackRangeMin": 4.0,
+    "groupId": 104,
+    "id": 104003,
+    "priority": 11,
+    "probability": 100.0,
+    "skillId": 104003
+  },
+  {
+    "attackRangeMin": 6.0,
+    "conditionType1": 9,
+    "conditionValue1": 6,
+    "groupId": 104,
+    "id": 104004,
+    "priority": 8,
+    "probability": 25.0,
+    "skillId": 104006
+  },
+  {
+    "attackRangeMin": 7.0,
+    "conditionType2": 10,
+    "conditionValue2": 10,
+    "groupId": 104,
+    "id": 104005,
+    "priority": 6,
+    "probability": 25.0,
+    "skillId": 104007
+  },
+  {
+    "attackRangeMin": 8.0,
+    "conditionType1": 8,
+    "conditionType2": 10,
+    "conditionValue1": 20,
+    "conditionValue2": 10,
+    "groupId": 104,
+    "id": 104006,
+    "priority": 6,
+    "probability": 25.0,
+    "skillId": 104008
+  },
+  {
+    "attackRangeMin": 18.0,
+    "conditionType2": 10,
+    "conditionValue2": 10,
+    "groupId": 104,
+    "id": 104007,
+    "priority": 6,
+    "probability": 25.0,
+    "skillId": 104009
+  },
+  {
+    "attackRangeMin": 9.0,
+    "conditionType1": 8,
+    "conditionValue1": 20,
+    "groupId": 104,
+    "id": 104008,
+    "priority": 6,
+    "probability": 25.0,
+    "skillId": 104010
+  },
+  {
+    "attackRangeMin": 9.0,
+    "conditionType1": 8,
+    "conditionType2": 5,
+    "conditionValue1": 20,
+    "conditionValue2": 10,
+    "groupId": 104,
+    "id": 104009,
+    "priority": 4,
+    "probability": 20.0,
+    "skillId": 104014
+  },
+  {
+    "attackRangeMin": 9.0,
+    "conditionType1": 4,
+    "conditionType2": 5,
+    "conditionValue1": 15,
+    "conditionValue2": 10,
+    "groupId": 104,
+    "id": 104010,
+    "priority": 4,
+    "probability": 20.0,
+    "skillId": 104015
+  },
+  {
+    "conditionType1": 2,
+    "conditionValue1": 50,
+    "groupId": 104,
+    "id": 104011,
+    "maxCount": 1,
+    "priority": 3,
+    "probability": 100.0,
+    "skillId": 104021
+  },
+  {
+    "conditionType1": 2,
+    "conditionValue1": 20,
+    "groupId": 104,
+    "id": 104012,
+    "maxCount": 1,
+    "priority": 2,
+    "probability": 100.0,
+    "skillId": 104022
+  },
+  {
+    "attackRangeMin": 4.0,
+    "conditionType2": 10,
+    "conditionValue2": 10,
+    "groupId": 104,
+    "id": 104013,
+    "priority": 10,
+    "probability": 17.0,
+    "skillId": 104023
+  },
+  {
+    "attackRangeMin": 4.0,
+    "conditionType2": 10,
+    "conditionValue2": 10,
+    "groupId": 104,
+    "id": 104014,
+    "priority": 10,
+    "probability": 17.0,
+    "skillId": 104024
+  },
+  {
+    "attackRangeMin": 4.0,
+    "conditionType1": 6,
+    "conditionType2": 10,
+    "conditionValue1": 5,
+    "conditionValue2": 10,
+    "groupId": 104,
+    "id": 104015,
+    "priority": 8,
+    "probability": 25.0,
+    "skillId": 104025
+  },
+  {
+    "attackRangeMin": 4.0,
+    "conditionType1": 7,
+    "conditionType2": 10,
+    "conditionValue1": 5,
+    "conditionValue2": 10,
+    "groupId": 104,
+    "id": 104016,
+    "priority": 7,
+    "probability": 25.0,
+    "skillId": 104026
+  },
+  {
+    "attackRangeMin": 4.0,
+    "conditionType2": 5,
+    "conditionValue2": 10,
+    "groupId": 104,
+    "id": 104017,
+    "priority": 9,
+    "probability": 30.0,
+    "skillId": 104027
+  },
+  {
+    "attackRangeMin": 4.0,
+    "conditionType2": 5,
+    "conditionValue2": 10,
+    "groupId": 104,
+    "id": 104018,
+    "priority": 9,
+    "probability": 30.0,
+    "skillId": 104028
+  },
+  {
+    "attackRangeMin": 4.0,
+    "conditionType1": 6,
+    "conditionType2": 5,
+    "conditionValue1": 5,
+    "conditionValue2": 10,
+    "groupId": 104,
+    "id": 104019,
+    "priority": 8,
+    "probability": 25.0,
+    "skillId": 104029
+  },
+  {
+    "attackRangeMin": 4.0,
+    "conditionType1": 7,
+    "conditionType2": 5,
+    "conditionValue1": 5,
+    "conditionValue2": 10,
+    "groupId": 104,
+    "id": 104020,
+    "priority": 7,
+    "probability": 25.0,
+    "skillId": 104030
+  },
+  {
+    "attackRangeMin": 4.0,
+    "groupId": 104,
+    "id": 104021,
+    "priority": 10,
+    "probability": 17.0,
+    "skillId": 104037
+  },
+  {
+    "attackRangeMin": 4.0,
+    "groupId": 104,
+    "id": 104022,
+    "priority": 10,
+    "probability": 17.0,
+    "skillId": 104038
+  },
+  {
+    "attackRangeMin": 4.0,
+    "conditionType1": 6,
+    "conditionValue1": 5,
+    "groupId": 104,
+    "id": 104023,
+    "priority": 8,
+    "probability": 25.0,
+    "skillId": 104039
+  },
+  {
+    "attackRangeMin": 4.0,
+    "conditionType1": 7,
+    "conditionValue1": 5,
+    "groupId": 104,
+    "id": 104024,
+    "priority": 7,
+    "probability": 25.0,
+    "skillId": 104040
+  },
+  {
+    "attackRangeMin": 4.0,
+    "conditionType2": 10,
+    "conditionValue2": 10,
+    "groupId": 104,
+    "id": 104025,
+    "priority": 10,
+    "probability": 16.0,
+    "skillId": 104041
+  },
+  {
+    "conditionType2": 5,
+    "conditionValue2": 10,
+    "groupId": 104,
+    "id": 104026,
+    "priority": 10,
+    "probability": 16.0,
+    "skillId": 104042
+  },
+  {
+    "attackRangeMin": 8.0,
+    "conditionType2": 5,
+    "conditionValue2": 10,
+    "groupId": 104,
+    "id": 104027,
+    "priority": 9,
+    "probability": 20.0,
+    "skillId": 104043
+  },
+  {
+    "conditionType2": 5,
+    "conditionValue2": 10,
+    "groupId": 104,
+    "id": 104028,
+    "priority": 9,
+    "probability": 20.0,
+    "skillId": 104044
+  },
+  {
+    "attackRangeMin": 8.0,
+    "conditionType1": 4,
+    "conditionValue1": 11,
+    "groupId": 104,
+    "id": 104029,
+    "priority": 5,
+    "probability": 50.0,
+    "skillId": 104046
+  },
+  {
+    "conditionType1": 3,
+    "conditionValue1": 10,
+    "groupId": 104,
+    "id": 104030,
+    "priority": 5,
+    "probability": 50.0,
+    "skillId": 104045
+  },
+  {
+    "attackRangeMin": 7.0,
+    "conditionType2": 5,
+    "conditionValue2": 10,
+    "groupId": 104,
+    "id": 104031,
+    "priority": 4,
+    "probability": 20.0,
+    "skillId": 104048
+  },
+  {
+    "attackRangeMin": 4.0,
+    "conditionType2": 5,
+    "conditionValue2": 10,
+    "groupId": 104,
+    "id": 104032,
+    "priority": 7,
+    "probability": 25.0,
+    "skillId": 104050
+  },
+  {
+    "attackRangeMin": 9.0,
+    "conditionType1": 8,
+    "conditionType2": 5,
+    "conditionValue1": 20,
+    "conditionValue2": 10,
+    "groupId": 104,
+    "id": 104033,
+    "priority": 4,
+    "probability": 20.0,
+    "skillId": 104054
+  },
+  {
+    "attackRangeMin": 9.0,
+    "conditionType1": 4,
+    "conditionType2": 5,
+    "conditionValue1": 15,
+    "conditionValue2": 10,
+    "groupId": 104,
+    "id": 104034,
+    "priority": 4,
+    "probability": 20.0,
+    "skillId": 104056
+  },
+  {
+    "attackRangeMin": 4.0,
+    "conditionType2": 5,
+    "conditionValue2": 10,
+    "groupId": 104,
+    "id": 104035,
+    "priority": 8,
+    "probability": 25.0,
+    "skillId": 104058
+  },
+  {
+    "groupId": 201,
+    "id": 201001,
+    "maxCount": 1,
+    "priority": 1,
+    "probability": 100.0,
+    "skillId": 201001
+  },
+  {
+    "attackRangeMin": 6.0,
+    "groupId": 201,
+    "id": 201002,
+    "priority": 7,
+    "probability": 100.0,
+    "skillId": 201002
+  },
+  {
+    "attackRangeMin": 6.0,
+    "groupId": 201,
+    "id": 201003,
+    "priority": 4,
+    "probability": 25.0,
+    "skillId": 201003
+  },
+  {
+    "attackRangeMin": 6.0,
+    "groupId": 201,
+    "id": 201005,
+    "priority": 6,
+    "probability": 25.0,
+    "skillId": 201007
+  },
+  {
+    "attackRangeMin": 6.0,
+    "groupId": 201,
+    "id": 201008,
+    "priority": 6,
+    "probability": 25.0,
+    "skillId": 201011
+  },
+  {
+    "attackRangeMin": 6.0,
+    "groupId": 201,
+    "id": 201009,
+    "priority": 6,
+    "probability": 25.0,
+    "skillId": 201013
+  },
+  {
+    "attackRangeMin": 8.0,
+    "groupId": 201,
+    "id": 201016,
+    "priority": 6,
+    "probability": 25.0,
+    "skillId": 201027
+  },
+  {
+    "attackRangeMin": 8.0,
+    "groupId": 201,
+    "id": 201017,
+    "priority": 5,
+    "probability": 25.0,
+    "skillId": 201028
+  },
+  {
+    "conditionType1": 6,
+    "conditionValue1": 6,
+    "groupId": 201,
+    "id": 201021,
+    "priority": 5,
+    "probability": 25.0,
+    "skillId": 201033
+  },
+  {
+    "conditionType1": 7,
+    "conditionValue1": 6,
+    "groupId": 201,
+    "id": 201024,
+    "priority": 5,
+    "probability": 25.0,
+    "skillId": 201037
+  },
+  {
+    "conditionType1": 9,
+    "conditionValue1": 6,
+    "groupId": 201,
+    "id": 201026,
+    "priority": 5,
+    "probability": 25.0,
+    "skillId": 201040
+  },
+  {
+    "conditionType2": 10,
+    "conditionValue2": 31,
+    "groupId": 201,
+    "id": 201029,
+    "priority": 4,
+    "probability": 25.0,
+    "skillId": 201044
+  },
+  {
+    "conditionType2": 10,
+    "conditionValue2": 31,
+    "groupId": 201,
+    "id": 201030,
+    "priority": 4,
+    "probability": 25.0,
+    "skillId": 201045
+  },
+  {
+    "conditionType1": 4,
+    "conditionValue1": 10,
+    "groupId": 201,
+    "id": 201033,
+    "priority": 4,
+    "probability": 25.0,
+    "skillId": 201048
+  },
+  {
+    "conditionType1": 2,
+    "conditionValue1": 50,
+    "groupId": 201,
+    "id": 201035,
+    "maxCount": 1,
+    "priority": 2,
+    "probability": 100.0,
+    "skillId": 201051
+  },
+  {
+    "conditionType2": 5,
+    "conditionValue2": 31,
+    "groupId": 201,
+    "id": 201037,
+    "priority": 3,
+    "probability": 50.0,
+    "skillId": 201056
+  },
+  {
+    "conditionType2": 5,
+    "conditionValue2": 31,
+    "groupId": 201,
+    "id": 201038,
+    "priority": 3,
+    "probability": 50.0,
+    "skillId": 201057
+  },
+  {
+    "groupId": 202,
+    "id": 202001,
+    "maxCount": 1,
+    "priority": 1,
+    "probability": 100.0,
+    "skillId": 202001
+  },
+  {
+    "attackRangeMin": 6.0,
+    "groupId": 202,
+    "id": 202002,
+    "priority": 14,
+    "probability": 100.0,
+    "skillId": 202002
+  },
+  {
+    "attackRangeMin": 6.0,
+    "groupId": 202,
+    "id": 202003,
+    "priority": 12,
+    "probability": 20.0,
+    "skillId": 202003
+  },
+  {
+    "attackRangeMin": 6.0,
+    "conditionType2": 5,
+    "conditionValue2": 31,
+    "groupId": 202,
+    "id": 202004,
+    "priority": 12,
+    "probability": 20.0,
+    "skillId": 202005
+  },
+  {
+    "attackRangeMin": 6.0,
+    "groupId": 202,
+    "id": 202005,
+    "priority": 12,
+    "probability": 20.0,
+    "skillId": 202007
+  },
+  {
+    "attackRangeMin": 6.0,
+    "conditionType2": 10,
+    "conditionValue2": 31,
+    "groupId": 202,
+    "id": 202006,
+    "priority": 12,
+    "probability": 20.0,
+    "skillId": 202008
+  },
+  {
+    "attackRangeMin": 6.0,
+    "conditionType2": 5,
+    "conditionValue2": 31,
+    "groupId": 202,
+    "id": 202007,
+    "priority": 12,
+    "probability": 20.0,
+    "skillId": 202009
+  },
+  {
+    "attackRangeMin": 6.0,
+    "conditionType2": 5,
+    "conditionValue2": 31,
+    "groupId": 202,
+    "id": 202008,
+    "priority": 4,
+    "probability": 16.0,
+    "skillId": 202011
+  },
+  {
+    "attackRangeMin": 6.0,
+    "conditionType2": 10,
+    "conditionValue2": 31,
+    "groupId": 202,
+    "id": 202009,
+    "priority": 11,
+    "probability": 20.0,
+    "skillId": 202013
+  },
+  {
+    "attackRangeMin": 6.0,
+    "conditionType2": 5,
+    "conditionValue2": 31,
+    "groupId": 202,
+    "id": 202010,
+    "priority": 11,
+    "probability": 20.0,
+    "skillId": 202014
+  },
+  {
+    "attackRangeMin": 6.0,
+    "groupId": 202,
+    "id": 202011,
+    "priority": 4,
+    "probability": 16.0,
+    "skillId": 202016
+  },
+  {
+    "attackRangeMin": 6.0,
+    "conditionType2": 5,
+    "conditionValue2": 31,
+    "groupId": 202,
+    "id": 202012,
+    "priority": 10,
+    "probability": 20.0,
+    "skillId": 202017
+  },
+  {
+    "attackRangeMin": 6.0,
+    "conditionType2": 5,
+    "conditionValue2": 31,
+    "groupId": 202,
+    "id": 202013,
+    "priority": 10,
+    "probability": 20.0,
+    "skillId": 202020
+  },
+  {
+    "attackRangeMin": 6.0,
+    "conditionType2": 5,
+    "conditionValue2": 31,
+    "groupId": 202,
+    "id": 202014,
+    "priority": 10,
+    "probability": 20.0,
+    "skillId": 202022
+  },
+  {
+    "attackRangeMin": 6.0,
+    "conditionType2": 5,
+    "conditionValue2": 31,
+    "groupId": 202,
+    "id": 202015,
+    "priority": 10,
+    "probability": 20.0,
+    "skillId": 202024
+  },
+  {
+    "attackRangeMin": 8.0,
+    "groupId": 202,
+    "id": 202016,
+    "priority": 6,
+    "probability": 16.0,
+    "skillId": 202027
+  },
+  {
+    "attackRangeMin": 8.0,
+    "groupId": 202,
+    "id": 202017,
+    "priority": 6,
+    "probability": 16.0,
+    "skillId": 202028
+  },
+  {
+    "attackRangeMin": 8.0,
+    "conditionType2": 10,
+    "conditionValue2": 31,
+    "groupId": 202,
+    "id": 202018,
+    "priority": 6,
+    "probability": 16.0,
+    "skillId": 202029
+  },
+  {
+    "attackRangeMin": 8.0,
+    "conditionType2": 5,
+    "conditionValue2": 31,
+    "groupId": 202,
+    "id": 202019,
+    "priority": 6,
+    "probability": 16.0,
+    "skillId": 202030
+  },
+  {
+    "conditionType1": 6,
+    "conditionValue1": 6,
+    "groupId": 202,
+    "id": 202020,
+    "priority": 9,
+    "probability": 25.0,
+    "skillId": 202032
+  },
+  {
+    "conditionType1": 6,
+    "conditionType2": 10,
+    "conditionValue1": 6,
+    "conditionValue2": 31,
+    "groupId": 202,
+    "id": 202021,
+    "priority": 9,
+    "probability": 25.0,
+    "skillId": 202033
+  },
+  {
+    "conditionType1": 6,
+    "conditionType2": 5,
+    "conditionValue1": 6,
+    "conditionValue2": 31,
+    "groupId": 202,
+    "id": 202022,
+    "priority": 9,
+    "probability": 25.0,
+    "skillId": 202034
+  },
+  {
+    "conditionType1": 7,
+    "conditionValue1": 6,
+    "groupId": 202,
+    "id": 202023,
+    "priority": 8,
+    "probability": 25.0,
+    "skillId": 202036
+  },
+  {
+    "conditionType1": 7,
+    "conditionType2": 10,
+    "conditionValue1": 6,
+    "conditionValue2": 31,
+    "groupId": 202,
+    "id": 202024,
+    "priority": 8,
+    "probability": 25.0,
+    "skillId": 202037
+  },
+  {
+    "conditionType1": 7,
+    "conditionType2": 5,
+    "conditionValue1": 6,
+    "conditionValue2": 31,
+    "groupId": 202,
+    "id": 202025,
+    "priority": 8,
+    "probability": 25.0,
+    "skillId": 202038
+  },
+  {
+    "conditionType1": 9,
+    "conditionValue1": 6,
+    "groupId": 202,
+    "id": 202026,
+    "priority": 7,
+    "probability": 25.0,
+    "skillId": 202040
+  },
+  {
+    "conditionType1": 9,
+    "conditionValue1": 6,
+    "groupId": 202,
+    "id": 202027,
+    "priority": 7,
+    "probability": 25.0,
+    "skillId": 202042
+  },
+  {
+    "conditionType1": 9,
+    "conditionValue1": 6,
+    "groupId": 202,
+    "id": 202028,
+    "priority": 7,
+    "probability": 25.0,
+    "skillId": 202043
+  },
+  {
+    "attackRangeMin": 8.0,
+    "conditionType1": 8,
+    "conditionType2": 10,
+    "conditionValue1": 10,
+    "conditionValue2": 31,
+    "groupId": 202,
+    "id": 202029,
+    "priority": 11,
+    "probability": 20.0,
+    "skillId": 202044
+  },
+  {
+    "attackRangeMin": 8.0,
+    "conditionType1": 8,
+    "conditionType2": 10,
+    "conditionValue1": 10,
+    "conditionValue2": 31,
+    "groupId": 202,
+    "id": 202030,
+    "priority": 11,
+    "probability": 20.0,
+    "skillId": 202045
+  },
+  {
+    "attackRangeMin": 8.0,
+    "conditionType1": 8,
+    "conditionType2": 10,
+    "conditionValue1": 10,
+    "conditionValue2": 31,
+    "groupId": 202,
+    "id": 202031,
+    "priority": 4,
+    "probability": 17.0,
+    "skillId": 202046
+  },
+  {
+    "attackRangeMin": 8.0,
+    "conditionType1": 8,
+    "conditionType2": 10,
+    "conditionValue1": 10,
+    "conditionValue2": 31,
+    "groupId": 202,
+    "id": 202032,
+    "priority": 4,
+    "probability": 17.0,
+    "skillId": 202047
+  },
+  {
+    "conditionType1": 4,
+    "conditionType2": 10,
+    "conditionValue1": 10,
+    "conditionValue2": 31,
+    "groupId": 202,
+    "id": 202033,
+    "priority": 5,
+    "probability": 25.0,
+    "skillId": 202048
+  },
+  {
+    "conditionType1": 4,
+    "conditionType2": 5,
+    "conditionValue1": 10,
+    "conditionValue2": 31,
+    "groupId": 202,
+    "id": 202034,
+    "priority": 5,
+    "probability": 25.0,
+    "skillId": 202049
+  },
+  {
+    "conditionType1": 2,
+    "conditionValue1": 50,
+    "groupId": 202,
+    "id": 202035,
+    "maxCount": 1,
+    "priority": 3,
+    "probability": 100.0,
+    "skillId": 202051
+  },
+  {
+    "conditionType1": 2,
+    "conditionValue1": 20,
+    "groupId": 202,
+    "id": 202036,
+    "maxCount": 1,
+    "priority": 2,
+    "probability": 100.0,
+    "skillId": 202053
+  },
+  {
+    "attackRangeMin": 8.0,
+    "conditionType1": 8,
+    "conditionType2": 5,
+    "conditionValue1": 10,
+    "conditionValue2": 31,
+    "groupId": 202,
+    "id": 202037,
+    "priority": 13,
+    "probability": 25.0,
+    "skillId": 202056
+  },
+  {
+    "attackRangeMin": 8.0,
+    "conditionType1": 8,
+    "conditionType2": 5,
+    "conditionValue1": 10,
+    "conditionValue2": 31,
+    "groupId": 202,
+    "id": 202038,
+    "priority": 13,
+    "probability": 25.0,
+    "skillId": 202057
+  },
+  {
+    "conditionType1": 9,
+    "conditionValue1": 6,
+    "groupId": 202,
+    "id": 202039,
+    "priority": 7,
+    "probability": 25.0,
+    "skillId": 202058
+  },
+  {
+    "attackRangeMin": 8.0,
+    "conditionType1": 8,
+    "conditionType2": 5,
+    "conditionValue1": 10,
+    "conditionValue2": 31,
+    "groupId": 202,
+    "id": 202040,
+    "priority": 13,
+    "probability": 25.0,
+    "skillId": 202059
+  },
+  {
+    "attackRangeMin": 8.0,
+    "conditionType1": 8,
+    "conditionType2": 5,
+    "conditionValue1": 10,
+    "conditionValue2": 31,
+    "groupId": 202,
+    "id": 202041,
+    "priority": 13,
+    "probability": 25.0,
+    "skillId": 202060
+  },
+  {
+    "conditionType1": 4,
+    "conditionType2": 10,
+    "conditionValue1": 12,
+    "conditionValue2": 31,
+    "groupId": 202,
+    "id": 202042,
+    "priority": 4,
+    "probability": 17.0,
+    "skillId": 202061
+  },
+  {
+    "conditionType1": 4,
+    "conditionType2": 10,
+    "conditionValue1": 10,
+    "conditionValue2": 31,
+    "groupId": 202,
+    "id": 202043,
+    "priority": 5,
+    "probability": 25.0,
+    "skillId": 202063
+  },
+  {
+    "conditionType1": 3,
+    "conditionType2": 10,
+    "conditionValue1": 10,
+    "conditionValue2": 31,
+    "groupId": 202,
+    "id": 202044,
+    "priority": 6,
+    "probability": 17.0,
+    "skillId": 202065
+  },
+  {
+    "conditionType1": 3,
+    "conditionType2": 10,
+    "conditionValue1": 10,
+    "conditionValue2": 31,
+    "groupId": 202,
+    "id": 202045,
+    "priority": 10,
+    "probability": 20.0,
+    "skillId": 202067
+  },
+  {
+    "attackRangeMin": 6.0,
+    "groupId": 202,
+    "id": 202046,
+    "priority": 11,
+    "probability": 20.0,
+    "skillId": 202069
+  },
+  {
+    "conditionType1": 3,
+    "conditionType2": 5,
+    "conditionValue1": 10,
+    "conditionValue2": 31,
+    "groupId": 202,
+    "id": 202047,
+    "priority": 4,
+    "probability": 17.0,
+    "skillId": 202071
+  },
+  {
+    "conditionType2": 5,
+    "conditionValue2": 31,
+    "groupId": 202,
+    "id": 202048,
+    "priority": 5,
+    "probability": 25.0,
+    "skillId": 202074
+  },
+  {
+    "conditionType1": 4,
+    "conditionType2": 5,
+    "conditionValue1": 12,
+    "conditionValue2": 31,
+    "groupId": 202,
+    "id": 202049,
+    "priority": 6,
+    "probability": 17.0,
+    "skillId": 202078
+  },
+  {
+    "groupId": 202,
+    "id": 202050,
+    "priority": 7,
+    "probability": 25.0,
+    "skillId": 202081
+  },
+  {
+    "attackRangeMin": 6.0,
+    "conditionType2": 5,
+    "conditionValue2": 31,
+    "groupId": 202,
+    "id": 202051,
+    "priority": 8,
+    "probability": 25.0,
+    "skillId": 202083
+  },
+  {
+    "attackRangeMin": 6.0,
+    "conditionType2": 5,
+    "conditionValue2": 31,
+    "groupId": 202,
+    "id": 202052,
+    "priority": 9,
+    "probability": 25.0,
+    "skillId": 202085
+  },
+  {
+    "groupId": 203,
+    "id": 203001,
+    "maxCount": 1,
+    "priority": 1,
+    "probability": 100.0,
+    "skillId": 203001
+  },
+  {
+    "attackRangeMin": 6.0,
+    "groupId": 203,
+    "id": 203002,
+    "priority": 14,
+    "probability": 100.0,
+    "skillId": 203002
+  },
+  {
+    "attackRangeMin": 6.0,
+    "groupId": 203,
+    "id": 203003,
+    "priority": 12,
+    "probability": 20.0,
+    "skillId": 203003
+  },
+  {
+    "attackRangeMin": 6.0,
+    "conditionType2": 5,
+    "conditionValue2": 31,
+    "groupId": 203,
+    "id": 203004,
+    "priority": 12,
+    "probability": 20.0,
+    "skillId": 203005
+  },
+  {
+    "attackRangeMin": 6.0,
+    "groupId": 203,
+    "id": 203005,
+    "priority": 12,
+    "probability": 20.0,
+    "skillId": 203007
+  },
+  {
+    "attackRangeMin": 6.0,
+    "conditionType2": 10,
+    "conditionValue2": 31,
+    "groupId": 203,
+    "id": 203006,
+    "priority": 12,
+    "probability": 20.0,
+    "skillId": 203008
+  },
+  {
+    "attackRangeMin": 6.0,
+    "conditionType2": 5,
+    "conditionValue2": 31,
+    "groupId": 203,
+    "id": 203007,
+    "priority": 12,
+    "probability": 20.0,
+    "skillId": 203009
+  },
+  {
+    "attackRangeMin": 6.0,
+    "conditionType2": 5,
+    "conditionValue2": 31,
+    "groupId": 203,
+    "id": 203008,
+    "priority": 4,
+    "probability": 16.0,
+    "skillId": 203011
+  },
+  {
+    "attackRangeMin": 6.0,
+    "conditionType2": 10,
+    "conditionValue2": 31,
+    "groupId": 203,
+    "id": 203009,
+    "priority": 11,
+    "probability": 20.0,
+    "skillId": 203013
+  },
+  {
+    "attackRangeMin": 6.0,
+    "conditionType2": 5,
+    "conditionValue2": 31,
+    "groupId": 203,
+    "id": 203010,
+    "priority": 11,
+    "probability": 20.0,
+    "skillId": 203014
+  },
+  {
+    "attackRangeMin": 6.0,
+    "groupId": 203,
+    "id": 203011,
+    "priority": 4,
+    "probability": 16.0,
+    "skillId": 203016
+  },
+  {
+    "attackRangeMin": 6.0,
+    "conditionType2": 5,
+    "conditionValue2": 31,
+    "groupId": 203,
+    "id": 203012,
+    "priority": 10,
+    "probability": 20.0,
+    "skillId": 203017
+  },
+  {
+    "attackRangeMin": 6.0,
+    "conditionType2": 5,
+    "conditionValue2": 31,
+    "groupId": 203,
+    "id": 203013,
+    "priority": 10,
+    "probability": 20.0,
+    "skillId": 203020
+  },
+  {
+    "attackRangeMin": 6.0,
+    "conditionType2": 5,
+    "conditionValue2": 31,
+    "groupId": 203,
+    "id": 203014,
+    "priority": 10,
+    "probability": 20.0,
+    "skillId": 203022
+  },
+  {
+    "attackRangeMin": 6.0,
+    "conditionType2": 5,
+    "conditionValue2": 31,
+    "groupId": 203,
+    "id": 203015,
+    "priority": 10,
+    "probability": 20.0,
+    "skillId": 203024
+  },
+  {
+    "attackRangeMin": 8.0,
+    "groupId": 203,
+    "id": 203016,
+    "priority": 6,
+    "probability": 16.0,
+    "skillId": 203027
+  },
+  {
+    "attackRangeMin": 8.0,
+    "groupId": 203,
+    "id": 203017,
+    "priority": 6,
+    "probability": 16.0,
+    "skillId": 203028
+  },
+  {
+    "attackRangeMin": 8.0,
+    "conditionType2": 10,
+    "conditionValue2": 31,
+    "groupId": 203,
+    "id": 203018,
+    "priority": 6,
+    "probability": 16.0,
+    "skillId": 203029
+  },
+  {
+    "attackRangeMin": 8.0,
+    "conditionType2": 5,
+    "conditionValue2": 31,
+    "groupId": 203,
+    "id": 203019,
+    "priority": 6,
+    "probability": 16.0,
+    "skillId": 203030
+  },
+  {
+    "conditionType1": 6,
+    "conditionValue1": 6,
+    "groupId": 203,
+    "id": 203020,
+    "priority": 9,
+    "probability": 25.0,
+    "skillId": 203032
+  },
+  {
+    "conditionType1": 6,
+    "conditionType2": 10,
+    "conditionValue1": 6,
+    "conditionValue2": 31,
+    "groupId": 203,
+    "id": 203021,
+    "priority": 9,
+    "probability": 25.0,
+    "skillId": 203033
+  },
+  {
+    "conditionType1": 6,
+    "conditionType2": 5,
+    "conditionValue1": 6,
+    "conditionValue2": 31,
+    "groupId": 203,
+    "id": 203022,
+    "priority": 9,
+    "probability": 25.0,
+    "skillId": 203034
+  },
+  {
+    "conditionType1": 7,
+    "conditionValue1": 6,
+    "groupId": 203,
+    "id": 203023,
+    "priority": 8,
+    "probability": 25.0,
+    "skillId": 203036
+  },
+  {
+    "conditionType1": 7,
+    "conditionType2": 10,
+    "conditionValue1": 6,
+    "conditionValue2": 31,
+    "groupId": 203,
+    "id": 203024,
+    "priority": 8,
+    "probability": 25.0,
+    "skillId": 203037
+  },
+  {
+    "conditionType1": 7,
+    "conditionType2": 5,
+    "conditionValue1": 6,
+    "conditionValue2": 31,
+    "groupId": 203,
+    "id": 203025,
+    "priority": 8,
+    "probability": 25.0,
+    "skillId": 203038
+  },
+  {
+    "conditionType1": 9,
+    "conditionValue1": 6,
+    "groupId": 203,
+    "id": 203026,
+    "priority": 7,
+    "probability": 25.0,
+    "skillId": 203040
+  },
+  {
+    "conditionType1": 9,
+    "conditionValue1": 6,
+    "groupId": 203,
+    "id": 203027,
+    "priority": 7,
+    "probability": 25.0,
+    "skillId": 203042
+  },
+  {
+    "conditionType1": 9,
+    "conditionValue1": 6,
+    "groupId": 203,
+    "id": 203028,
+    "priority": 7,
+    "probability": 25.0,
+    "skillId": 203043
+  },
+  {
+    "attackRangeMin": 8.0,
+    "conditionType1": 8,
+    "conditionType2": 10,
+    "conditionValue1": 10,
+    "conditionValue2": 31,
+    "groupId": 203,
+    "id": 203029,
+    "priority": 11,
+    "probability": 20.0,
+    "skillId": 203044
+  },
+  {
+    "attackRangeMin": 8.0,
+    "conditionType1": 8,
+    "conditionType2": 10,
+    "conditionValue1": 10,
+    "conditionValue2": 31,
+    "groupId": 203,
+    "id": 203030,
+    "priority": 11,
+    "probability": 20.0,
+    "skillId": 203045
+  },
+  {
+    "attackRangeMin": 8.0,
+    "conditionType1": 8,
+    "conditionType2": 10,
+    "conditionValue1": 10,
+    "conditionValue2": 31,
+    "groupId": 203,
+    "id": 203031,
+    "priority": 4,
+    "probability": 17.0,
+    "skillId": 203046
+  },
+  {
+    "attackRangeMin": 8.0,
+    "conditionType1": 8,
+    "conditionType2": 10,
+    "conditionValue1": 10,
+    "conditionValue2": 31,
+    "groupId": 203,
+    "id": 203032,
+    "priority": 4,
+    "probability": 17.0,
+    "skillId": 203047
+  },
+  {
+    "conditionType1": 4,
+    "conditionType2": 10,
+    "conditionValue1": 10,
+    "conditionValue2": 31,
+    "groupId": 203,
+    "id": 203033,
+    "priority": 5,
+    "probability": 25.0,
+    "skillId": 203048
+  },
+  {
+    "conditionType1": 4,
+    "conditionType2": 5,
+    "conditionValue1": 10,
+    "conditionValue2": 31,
+    "groupId": 203,
+    "id": 203034,
+    "priority": 5,
+    "probability": 25.0,
+    "skillId": 203049
+  },
+  {
+    "conditionType1": 2,
+    "conditionValue1": 50,
+    "groupId": 203,
+    "id": 203035,
+    "maxCount": 1,
+    "priority": 3,
+    "probability": 100.0,
+    "skillId": 203051
+  },
+  {
+    "conditionType1": 2,
+    "conditionValue1": 20,
+    "groupId": 203,
+    "id": 203036,
+    "maxCount": 1,
+    "priority": 2,
+    "probability": 100.0,
+    "skillId": 203053
+  },
+  {
+    "attackRangeMin": 8.0,
+    "conditionType1": 8,
+    "conditionType2": 5,
+    "conditionValue1": 10,
+    "conditionValue2": 31,
+    "groupId": 203,
+    "id": 203037,
+    "priority": 13,
+    "probability": 25.0,
+    "skillId": 203056
+  },
+  {
+    "attackRangeMin": 8.0,
+    "conditionType1": 8,
+    "conditionType2": 5,
+    "conditionValue1": 10,
+    "conditionValue2": 31,
+    "groupId": 203,
+    "id": 203038,
+    "priority": 13,
+    "probability": 25.0,
+    "skillId": 203057
+  },
+  {
+    "conditionType1": 9,
+    "conditionValue1": 6,
+    "groupId": 203,
+    "id": 203039,
+    "priority": 7,
+    "probability": 25.0,
+    "skillId": 203058
+  },
+  {
+    "attackRangeMin": 8.0,
+    "conditionType1": 8,
+    "conditionType2": 5,
+    "conditionValue1": 10,
+    "conditionValue2": 31,
+    "groupId": 203,
+    "id": 203040,
+    "priority": 13,
+    "probability": 25.0,
+    "skillId": 203059
+  },
+  {
+    "attackRangeMin": 8.0,
+    "conditionType1": 8,
+    "conditionType2": 5,
+    "conditionValue1": 10,
+    "conditionValue2": 31,
+    "groupId": 203,
+    "id": 203041,
+    "priority": 13,
+    "probability": 25.0,
+    "skillId": 203060
+  },
+  {
+    "conditionType1": 4,
+    "conditionType2": 10,
+    "conditionValue1": 12,
+    "conditionValue2": 31,
+    "groupId": 203,
+    "id": 203042,
+    "priority": 4,
+    "probability": 17.0,
+    "skillId": 203061
+  },
+  {
+    "conditionType1": 4,
+    "conditionType2": 10,
+    "conditionValue1": 10,
+    "conditionValue2": 31,
+    "groupId": 203,
+    "id": 203043,
+    "priority": 5,
+    "probability": 25.0,
+    "skillId": 203063
+  },
+  {
+    "conditionType1": 3,
+    "conditionType2": 10,
+    "conditionValue1": 10,
+    "conditionValue2": 31,
+    "groupId": 203,
+    "id": 203044,
+    "priority": 6,
+    "probability": 17.0,
+    "skillId": 203065
+  },
+  {
+    "conditionType1": 3,
+    "conditionType2": 10,
+    "conditionValue1": 10,
+    "conditionValue2": 31,
+    "groupId": 203,
+    "id": 203045,
+    "priority": 10,
+    "probability": 20.0,
+    "skillId": 203067
+  },
+  {
+    "attackRangeMin": 6.0,
+    "groupId": 203,
+    "id": 203046,
+    "priority": 11,
+    "probability": 20.0,
+    "skillId": 203069
+  },
+  {
+    "conditionType1": 3,
+    "conditionType2": 5,
+    "conditionValue1": 10,
+    "conditionValue2": 31,
+    "groupId": 203,
+    "id": 203047,
+    "priority": 4,
+    "probability": 17.0,
+    "skillId": 203071
+  },
+  {
+    "conditionType2": 5,
+    "conditionValue2": 31,
+    "groupId": 203,
+    "id": 203048,
+    "priority": 5,
+    "probability": 25.0,
+    "skillId": 203074
+  },
+  {
+    "conditionType1": 4,
+    "conditionType2": 5,
+    "conditionValue1": 12,
+    "conditionValue2": 31,
+    "groupId": 203,
+    "id": 203049,
+    "priority": 6,
+    "probability": 17.0,
+    "skillId": 203078
+  },
+  {
+    "groupId": 203,
+    "id": 203050,
+    "priority": 7,
+    "probability": 25.0,
+    "skillId": 203081
+  },
+  {
+    "attackRangeMin": 6.0,
+    "conditionType2": 5,
+    "conditionValue2": 31,
+    "groupId": 203,
+    "id": 203051,
+    "priority": 8,
+    "probability": 25.0,
+    "skillId": 203083
+  },
+  {
+    "attackRangeMin": 6.0,
+    "conditionType2": 5,
+    "conditionValue2": 31,
+    "groupId": 203,
+    "id": 203052,
+    "priority": 9,
+    "probability": 25.0,
+    "skillId": 203085
+  },
+  {
+    "groupId": 204,
+    "id": 204001,
+    "maxCount": 1,
+    "priority": 1,
+    "probability": 100.0,
+    "skillId": 204001
+  },
+  {
+    "attackRangeMin": 6.0,
+    "groupId": 204,
+    "id": 204002,
+    "priority": 14,
+    "probability": 100.0,
+    "skillId": 204002
+  },
+  {
+    "attackRangeMin": 6.0,
+    "groupId": 204,
+    "id": 204003,
+    "priority": 12,
+    "probability": 20.0,
+    "skillId": 204003
+  },
+  {
+    "attackRangeMin": 6.0,
+    "conditionType2": 5,
+    "conditionValue2": 31,
+    "groupId": 204,
+    "id": 204004,
+    "priority": 12,
+    "probability": 20.0,
+    "skillId": 204005
+  },
+  {
+    "attackRangeMin": 6.0,
+    "groupId": 204,
+    "id": 204005,
+    "priority": 12,
+    "probability": 20.0,
+    "skillId": 204007
+  },
+  {
+    "attackRangeMin": 6.0,
+    "conditionType2": 10,
+    "conditionValue2": 31,
+    "groupId": 204,
+    "id": 204006,
+    "priority": 12,
+    "probability": 20.0,
+    "skillId": 204008
+  },
+  {
+    "attackRangeMin": 6.0,
+    "conditionType2": 5,
+    "conditionValue2": 31,
+    "groupId": 204,
+    "id": 204007,
+    "priority": 12,
+    "probability": 20.0,
+    "skillId": 204009
+  },
+  {
+    "attackRangeMin": 6.0,
+    "conditionType2": 5,
+    "conditionValue2": 31,
+    "groupId": 204,
+    "id": 204008,
+    "priority": 4,
+    "probability": 16.0,
+    "skillId": 204011
+  },
+  {
+    "attackRangeMin": 6.0,
+    "conditionType2": 10,
+    "conditionValue2": 31,
+    "groupId": 204,
+    "id": 204009,
+    "priority": 11,
+    "probability": 20.0,
+    "skillId": 204013
+  },
+  {
+    "attackRangeMin": 6.0,
+    "conditionType2": 5,
+    "conditionValue2": 31,
+    "groupId": 204,
+    "id": 204010,
+    "priority": 11,
+    "probability": 20.0,
+    "skillId": 204014
+  },
+  {
+    "attackRangeMin": 6.0,
+    "groupId": 204,
+    "id": 204011,
+    "priority": 4,
+    "probability": 16.0,
+    "skillId": 204016
+  },
+  {
+    "attackRangeMin": 6.0,
+    "conditionType2": 5,
+    "conditionValue2": 31,
+    "groupId": 204,
+    "id": 204012,
+    "priority": 10,
+    "probability": 20.0,
+    "skillId": 204017
+  },
+  {
+    "attackRangeMin": 6.0,
+    "conditionType2": 5,
+    "conditionValue2": 31,
+    "groupId": 204,
+    "id": 204013,
+    "priority": 10,
+    "probability": 20.0,
+    "skillId": 204020
+  },
+  {
+    "attackRangeMin": 6.0,
+    "conditionType2": 5,
+    "conditionValue2": 31,
+    "groupId": 204,
+    "id": 204014,
+    "priority": 10,
+    "probability": 20.0,
+    "skillId": 204022
+  },
+  {
+    "attackRangeMin": 6.0,
+    "conditionType2": 5,
+    "conditionValue2": 31,
+    "groupId": 204,
+    "id": 204015,
+    "priority": 10,
+    "probability": 20.0,
+    "skillId": 204024
+  },
+  {
+    "attackRangeMin": 8.0,
+    "groupId": 204,
+    "id": 204016,
+    "priority": 6,
+    "probability": 16.0,
+    "skillId": 204027
+  },
+  {
+    "attackRangeMin": 8.0,
+    "groupId": 204,
+    "id": 204017,
+    "priority": 6,
+    "probability": 16.0,
+    "skillId": 204028
+  },
+  {
+    "attackRangeMin": 8.0,
+    "conditionType2": 10,
+    "conditionValue2": 31,
+    "groupId": 204,
+    "id": 204018,
+    "priority": 6,
+    "probability": 16.0,
+    "skillId": 204029
+  },
+  {
+    "attackRangeMin": 8.0,
+    "conditionType2": 5,
+    "conditionValue2": 31,
+    "groupId": 204,
+    "id": 204019,
+    "priority": 6,
+    "probability": 16.0,
+    "skillId": 204030
+  },
+  {
+    "conditionType1": 6,
+    "conditionValue1": 6,
+    "groupId": 204,
+    "id": 204020,
+    "priority": 9,
+    "probability": 25.0,
+    "skillId": 204032
+  },
+  {
+    "conditionType1": 6,
+    "conditionType2": 10,
+    "conditionValue1": 6,
+    "conditionValue2": 31,
+    "groupId": 204,
+    "id": 204021,
+    "priority": 9,
+    "probability": 25.0,
+    "skillId": 204033
+  },
+  {
+    "conditionType1": 6,
+    "conditionType2": 5,
+    "conditionValue1": 6,
+    "conditionValue2": 31,
+    "groupId": 204,
+    "id": 204022,
+    "priority": 9,
+    "probability": 25.0,
+    "skillId": 204034
+  },
+  {
+    "conditionType1": 7,
+    "conditionValue1": 6,
+    "groupId": 204,
+    "id": 204023,
+    "priority": 8,
+    "probability": 25.0,
+    "skillId": 204036
+  },
+  {
+    "conditionType1": 7,
+    "conditionType2": 10,
+    "conditionValue1": 6,
+    "conditionValue2": 31,
+    "groupId": 204,
+    "id": 204024,
+    "priority": 8,
+    "probability": 25.0,
+    "skillId": 204037
+  },
+  {
+    "conditionType1": 7,
+    "conditionType2": 5,
+    "conditionValue1": 6,
+    "conditionValue2": 31,
+    "groupId": 204,
+    "id": 204025,
+    "priority": 8,
+    "probability": 25.0,
+    "skillId": 204038
+  },
+  {
+    "conditionType1": 9,
+    "conditionValue1": 6,
+    "groupId": 204,
+    "id": 204026,
+    "priority": 7,
+    "probability": 25.0,
+    "skillId": 204040
+  },
+  {
+    "conditionType1": 9,
+    "conditionValue1": 6,
+    "groupId": 204,
+    "id": 204027,
+    "priority": 7,
+    "probability": 25.0,
+    "skillId": 204042
+  },
+  {
+    "conditionType1": 9,
+    "conditionValue1": 6,
+    "groupId": 204,
+    "id": 204028,
+    "priority": 7,
+    "probability": 25.0,
+    "skillId": 204043
+  },
+  {
+    "attackRangeMin": 8.0,
+    "conditionType1": 8,
+    "conditionType2": 10,
+    "conditionValue1": 10,
+    "conditionValue2": 31,
+    "groupId": 204,
+    "id": 204029,
+    "priority": 11,
+    "probability": 20.0,
+    "skillId": 204044
+  },
+  {
+    "attackRangeMin": 8.0,
+    "conditionType1": 8,
+    "conditionType2": 10,
+    "conditionValue1": 10,
+    "conditionValue2": 31,
+    "groupId": 204,
+    "id": 204030,
+    "priority": 11,
+    "probability": 20.0,
+    "skillId": 204045
+  },
+  {
+    "attackRangeMin": 8.0,
+    "conditionType1": 8,
+    "conditionType2": 10,
+    "conditionValue1": 10,
+    "conditionValue2": 31,
+    "groupId": 204,
+    "id": 204031,
+    "priority": 4,
+    "probability": 17.0,
+    "skillId": 204046
+  },
+  {
+    "attackRangeMin": 8.0,
+    "conditionType1": 8,
+    "conditionType2": 10,
+    "conditionValue1": 10,
+    "conditionValue2": 31,
+    "groupId": 204,
+    "id": 204032,
+    "priority": 4,
+    "probability": 17.0,
+    "skillId": 204047
+  },
+  {
+    "conditionType1": 4,
+    "conditionType2": 10,
+    "conditionValue1": 10,
+    "conditionValue2": 31,
+    "groupId": 204,
+    "id": 204033,
+    "priority": 5,
+    "probability": 25.0,
+    "skillId": 204048
+  },
+  {
+    "conditionType1": 4,
+    "conditionType2": 5,
+    "conditionValue1": 10,
+    "conditionValue2": 31,
+    "groupId": 204,
+    "id": 204034,
+    "priority": 5,
+    "probability": 25.0,
+    "skillId": 204049
+  },
+  {
+    "conditionType1": 2,
+    "conditionValue1": 50,
+    "groupId": 204,
+    "id": 204035,
+    "maxCount": 1,
+    "priority": 3,
+    "probability": 100.0,
+    "skillId": 204051
+  },
+  {
+    "conditionType1": 2,
+    "conditionValue1": 20,
+    "groupId": 204,
+    "id": 204036,
+    "maxCount": 1,
+    "priority": 2,
+    "probability": 100.0,
+    "skillId": 204053
+  },
+  {
+    "attackRangeMin": 8.0,
+    "conditionType1": 8,
+    "conditionType2": 5,
+    "conditionValue1": 10,
+    "conditionValue2": 31,
+    "groupId": 204,
+    "id": 204037,
+    "priority": 13,
+    "probability": 25.0,
+    "skillId": 204056
+  },
+  {
+    "attackRangeMin": 8.0,
+    "conditionType1": 8,
+    "conditionType2": 5,
+    "conditionValue1": 10,
+    "conditionValue2": 31,
+    "groupId": 204,
+    "id": 204038,
+    "priority": 13,
+    "probability": 25.0,
+    "skillId": 204057
+  },
+  {
+    "conditionType1": 9,
+    "conditionValue1": 6,
+    "groupId": 204,
+    "id": 204039,
+    "priority": 7,
+    "probability": 25.0,
+    "skillId": 204058
+  },
+  {
+    "attackRangeMin": 8.0,
+    "conditionType1": 8,
+    "conditionType2": 5,
+    "conditionValue1": 10,
+    "conditionValue2": 31,
+    "groupId": 204,
+    "id": 204040,
+    "priority": 13,
+    "probability": 25.0,
+    "skillId": 204059
+  },
+  {
+    "attackRangeMin": 8.0,
+    "conditionType1": 8,
+    "conditionType2": 5,
+    "conditionValue1": 10,
+    "conditionValue2": 31,
+    "groupId": 204,
+    "id": 204041,
+    "priority": 13,
+    "probability": 25.0,
+    "skillId": 204060
+  },
+  {
+    "conditionType1": 4,
+    "conditionType2": 10,
+    "conditionValue1": 12,
+    "conditionValue2": 31,
+    "groupId": 204,
+    "id": 204042,
+    "priority": 4,
+    "probability": 17.0,
+    "skillId": 204061
+  },
+  {
+    "conditionType1": 4,
+    "conditionType2": 10,
+    "conditionValue1": 10,
+    "conditionValue2": 31,
+    "groupId": 204,
+    "id": 204043,
+    "priority": 5,
+    "probability": 25.0,
+    "skillId": 204063
+  },
+  {
+    "conditionType1": 3,
+    "conditionType2": 10,
+    "conditionValue1": 10,
+    "conditionValue2": 31,
+    "groupId": 204,
+    "id": 204044,
+    "priority": 6,
+    "probability": 17.0,
+    "skillId": 204065
+  },
+  {
+    "conditionType1": 3,
+    "conditionType2": 10,
+    "conditionValue1": 10,
+    "conditionValue2": 31,
+    "groupId": 204,
+    "id": 204045,
+    "priority": 10,
+    "probability": 20.0,
+    "skillId": 204067
+  },
+  {
+    "attackRangeMin": 6.0,
+    "groupId": 204,
+    "id": 204046,
+    "priority": 11,
+    "probability": 20.0,
+    "skillId": 204069
+  },
+  {
+    "conditionType1": 3,
+    "conditionType2": 5,
+    "conditionValue1": 10,
+    "conditionValue2": 31,
+    "groupId": 204,
+    "id": 204047,
+    "priority": 4,
+    "probability": 17.0,
+    "skillId": 204071
+  },
+  {
+    "conditionType2": 5,
+    "conditionValue2": 31,
+    "groupId": 204,
+    "id": 204048,
+    "priority": 5,
+    "probability": 25.0,
+    "skillId": 204074
+  },
+  {
+    "conditionType1": 4,
+    "conditionType2": 5,
+    "conditionValue1": 12,
+    "conditionValue2": 31,
+    "groupId": 204,
+    "id": 204049,
+    "priority": 6,
+    "probability": 17.0,
+    "skillId": 204078
+  },
+  {
+    "groupId": 204,
+    "id": 204050,
+    "priority": 7,
+    "probability": 25.0,
+    "skillId": 204081
+  },
+  {
+    "attackRangeMin": 6.0,
+    "conditionType2": 5,
+    "conditionValue2": 31,
+    "groupId": 204,
+    "id": 204051,
+    "priority": 8,
+    "probability": 25.0,
+    "skillId": 204083
+  },
+  {
+    "attackRangeMin": 6.0,
+    "conditionType2": 5,
+    "conditionValue2": 31,
+    "groupId": 204,
+    "id": 204052,
+    "priority": 9,
+    "probability": 25.0,
+    "skillId": 204085
+  }
+]

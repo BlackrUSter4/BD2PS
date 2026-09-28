@@ -1,0 +1,473 @@
+[
+  {
+    "bubbleLocalTextId": 19001,
+    "emotion": 1,
+    "groupId": 1,
+    "id": 1,
+    "npcType": 1
+  },
+  {
+    "bubbleLocalTextId": 19002,
+    "emotion": 1,
+    "groupId": 1,
+    "id": 2,
+    "npcType": 1
+  },
+  {
+    "bubbleLocalTextId": 19003,
+    "emotion": 1,
+    "groupId": 1,
+    "id": 3,
+    "npcType": 1
+  },
+  {
+    "bubbleLocalTextId": 19004,
+    "emotion": 1,
+    "groupId": 1,
+    "id": 4,
+    "npcType": 1
+  },
+  {
+    "bubbleLocalTextId": 19005,
+    "emotion": 1,
+    "groupId": 1,
+    "id": 5,
+    "npcType": 1
+  },
+  {
+    "bubbleLocalTextId": 19007,
+    "emotion": 2,
+    "groupId": 1,
+    "id": 7,
+    "npcType": 1
+  },
+  {
+    "bubbleLocalTextId": 19009,
+    "emotion": 2,
+    "groupId": 1,
+    "id": 9,
+    "npcType": 1
+  },
+  {
+    "bubbleLocalTextId": 19010,
+    "emotion": 2,
+    "groupId": 1,
+    "id": 10,
+    "npcType": 1
+  },
+  {
+    "bubbleLocalTextId": 19011,
+    "groupId": 1,
+    "id": 11,
+    "npcType": 1
+  },
+  {
+    "bubbleLocalTextId": 19012,
+    "groupId": 1,
+    "id": 12,
+    "npcType": 1
+  },
+  {
+    "bubbleLocalTextId": 19014,
+    "groupId": 1,
+    "id": 14,
+    "npcType": 1
+  },
+  {
+    "bubbleLocalTextId": 19016,
+    "emotion": 1,
+    "groupId": 1,
+    "id": 16,
+    "npcType": 2
+  },
+  {
+    "bubbleLocalTextId": 19017,
+    "emotion": 1,
+    "groupId": 1,
+    "id": 17,
+    "npcType": 2
+  },
+  {
+    "bubbleLocalTextId": 19018,
+    "emotion": 1,
+    "groupId": 1,
+    "id": 18,
+    "npcType": 2
+  },
+  {
+    "bubbleLocalTextId": 19019,
+    "emotion": 1,
+    "groupId": 1,
+    "id": 19,
+    "npcType": 2
+  },
+  {
+    "bubbleLocalTextId": 19020,
+    "emotion": 1,
+    "groupId": 1,
+    "id": 20,
+    "npcType": 2
+  },
+  {
+    "bubbleLocalTextId": 19021,
+    "emotion": 2,
+    "groupId": 1,
+    "id": 21,
+    "npcType": 2
+  },
+  {
+    "bubbleLocalTextId": 19022,
+    "emotion": 2,
+    "groupId": 1,
+    "id": 22,
+    "npcType": 2
+  },
+  {
+    "bubbleLocalTextId": 19023,
+    "emotion": 2,
+    "groupId": 1,
+    "id": 23,
+    "npcType": 2
+  },
+  {
+    "bubbleLocalTextId": 19024,
+    "emotion": 2,
+    "groupId": 1,
+    "id": 24,
+    "npcType": 2
+  },
+  {
+    "bubbleLocalTextId": 19025,
+    "emotion": 2,
+    "groupId": 1,
+    "id": 25,
+    "npcType": 2
+  },
+  {
+    "bubbleLocalTextId": 19026,
+    "groupId": 1,
+    "id": 26,
+    "npcType": 2
+  },
+  {
+    "bubbleLocalTextId": 19027,
+    "groupId": 1,
+    "id": 27,
+    "npcType": 2
+  },
+  {
+    "bubbleLocalTextId": 19028,
+    "groupId": 1,
+    "id": 28,
+    "npcType": 2
+  },
+  {
+    "bubbleLocalTextId": 19029,
+    "groupId": 1,
+    "id": 29,
+    "npcType": 2
+  },
+  {
+    "bubbleLocalTextId": 19030,
+    "groupId": 1,
+    "id": 30,
+    "npcType": 2
+  },
+  {
+    "bubbleLocalTextId": 19031,
+    "emotion": 1,
+    "groupId": 1,
+    "id": 31,
+    "npcType": 3,
+    "status": 1
+  },
+  {
+    "bubbleLocalTextId": 19032,
+    "emotion": 1,
+    "groupId": 1,
+    "id": 32,
+    "npcType": 3,
+    "status": 1
+  },
+  {
+    "bubbleLocalTextId": 19033,
+    "emotion": 1,
+    "groupId": 1,
+    "id": 33,
+    "npcType": 3,
+    "status": 1
+  },
+  {
+    "bubbleLocalTextId": 19034,
+    "emotion": 1,
+    "groupId": 1,
+    "id": 34,
+    "npcType": 3,
+    "status": 1
+  },
+  {
+    "bubbleLocalTextId": 19035,
+    "emotion": 1,
+    "groupId": 1,
+    "id": 35,
+    "npcType": 3,
+    "status": 1
+  },
+  {
+    "bubbleLocalTextId": 19041,
+    "groupId": 1,
+    "id": 41,
+    "npcType": 3,
+    "status": 1
+  },
+  {
+    "bubbleLocalTextId": 19042,
+    "groupId": 1,
+    "id": 42,
+    "npcType": 3,
+    "status": 1
+  },
+  {
+    "bubbleLocalTextId": 19043,
+    "groupId": 1,
+    "id": 43,
+    "npcType": 3,
+    "status": 1
+  },
+  {
+    "bubbleLocalTextId": 19044,
+    "groupId": 1,
+    "id": 44,
+    "npcType": 3,
+    "status": 1
+  },
+  {
+    "bubbleLocalTextId": 19045,
+    "groupId": 1,
+    "id": 45,
+    "npcType": 3,
+    "status": 1
+  },
+  {
+    "bubbleLocalTextId": 19046,
+    "emotion": 1,
+    "groupId": 1,
+    "id": 46,
+    "npcType": 3,
+    "status": 2
+  },
+  {
+    "bubbleLocalTextId": 19047,
+    "emotion": 1,
+    "groupId": 1,
+    "id": 47,
+    "npcType": 3,
+    "status": 2
+  },
+  {
+    "bubbleLocalTextId": 19048,
+    "emotion": 1,
+    "groupId": 1,
+    "id": 48,
+    "npcType": 3,
+    "status": 2
+  },
+  {
+    "bubbleLocalTextId": 19049,
+    "emotion": 1,
+    "groupId": 1,
+    "id": 49,
+    "npcType": 3,
+    "status": 2
+  },
+  {
+    "bubbleLocalTextId": 19050,
+    "emotion": 1,
+    "groupId": 1,
+    "id": 50,
+    "npcType": 3,
+    "status": 2
+  },
+  {
+    "bubbleLocalTextId": 19056,
+    "groupId": 1,
+    "id": 56,
+    "npcType": 3,
+    "status": 2
+  },
+  {
+    "bubbleLocalTextId": 19057,
+    "groupId": 1,
+    "id": 57,
+    "npcType": 3,
+    "status": 2
+  },
+  {
+    "bubbleLocalTextId": 19058,
+    "groupId": 1,
+    "id": 58,
+    "npcType": 3,
+    "status": 2
+  },
+  {
+    "bubbleLocalTextId": 19059,
+    "groupId": 1,
+    "id": 59,
+    "npcType": 3,
+    "status": 2
+  },
+  {
+    "bubbleLocalTextId": 19060,
+    "groupId": 1,
+    "id": 60,
+    "npcType": 3,
+    "status": 2
+  },
+  {
+    "bubbleLocalTextId": 19061,
+    "emotion": 1,
+    "groupId": 1,
+    "id": 61,
+    "npcType": 3,
+    "status": 3
+  },
+  {
+    "bubbleLocalTextId": 19062,
+    "emotion": 1,
+    "groupId": 1,
+    "id": 62,
+    "npcType": 3,
+    "status": 3
+  },
+  {
+    "bubbleLocalTextId": 19063,
+    "emotion": 1,
+    "groupId": 1,
+    "id": 63,
+    "npcType": 3,
+    "status": 3
+  },
+  {
+    "bubbleLocalTextId": 19064,
+    "emotion": 1,
+    "groupId": 1,
+    "id": 64,
+    "npcType": 3,
+    "status": 3
+  },
+  {
+    "bubbleLocalTextId": 19065,
+    "emotion": 1,
+    "groupId": 1,
+    "id": 65,
+    "npcType": 3,
+    "status": 3
+  },
+  {
+    "bubbleLocalTextId": 19071,
+    "groupId": 1,
+    "id": 71,
+    "npcType": 3,
+    "status": 3
+  },
+  {
+    "bubbleLocalTextId": 19072,
+    "groupId": 1,
+    "id": 72,
+    "npcType": 3,
+    "status": 3
+  },
+  {
+    "bubbleLocalTextId": 19073,
+    "groupId": 1,
+    "id": 73,
+    "npcType": 3,
+    "status": 3
+  },
+  {
+    "bubbleLocalTextId": 19074,
+    "groupId": 1,
+    "id": 74,
+    "npcType": 3,
+    "status": 3
+  },
+  {
+    "bubbleLocalTextId": 19075,
+    "groupId": 1,
+    "id": 75,
+    "npcType": 3,
+    "status": 3
+  },
+  {
+    "bubbleLocalTextId": 19076,
+    "emotion": 1,
+    "groupId": 1,
+    "id": 91,
+    "npcId": 2108,
+    "npcType": 7
+  },
+  {
+    "bubbleLocalTextId": 19077,
+    "emotion": 2,
+    "groupId": 1,
+    "id": 92,
+    "npcId": 2108,
+    "npcType": 7
+  },
+  {
+    "bubbleLocalTextId": 19078,
+    "groupId": 1,
+    "id": 93,
+    "npcId": 2108,
+    "npcType": 7
+  },
+  {
+    "bubbleLocalTextId": 19079,
+    "groupId": 2,
+    "id": 1,
+    "npcId": 3004,
+    "npcType": 6
+  },
+  {
+    "bubbleLocalTextId": 19080,
+    "groupId": 2,
+    "id": 2,
+    "npcId": 3005,
+    "npcType": 6
+  },
+  {
+    "bubbleLocalTextId": 19081,
+    "groupId": 2,
+    "id": 3,
+    "npcId": 3006,
+    "npcType": 6
+  },
+  {
+    "bubbleLocalTextId": 19082,
+    "groupId": 2,
+    "id": 4,
+    "npcId": 3001,
+    "npcType": 6
+  },
+  {
+    "bubbleLocalTextId": 19083,
+    "groupId": 2,
+    "id": 5,
+    "npcId": 3002,
+    "npcType": 6
+  },
+  {
+    "bubbleLocalTextId": 19084,
+    "groupId": 2,
+    "id": 6,
+    "npcId": 3003,
+    "npcType": 6
+  },
+  {
+    "bubbleLocalTextId": 19085,
+    "groupId": 2,
+    "id": 7,
+    "npcId": 3007,
+    "npcType": 6
+  }
+]

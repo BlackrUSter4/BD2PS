@@ -1,0 +1,351 @@
+// Merged package: NLD_MID
+
+package NLD_MID;
+
+
+// From: message_id.proto
+enum MSGID {
+
+  None = 0;
+
+  Clt_Gt_Handshake = 1;
+
+  Gt_Clt_Handshake = 2;
+
+  Clt_Gt_Heartbeat = 3;
+
+  Gt_Clt_Heartbeat = 4;
+
+  Gt_Clt_Disconnect = 5;
+
+  Clt_L_Login = 6;
+
+  L_Clt_LoginResult = 7;
+
+  G_Clt_LoginResult = 9;
+
+  G_Clt_OpResult = 10;
+
+  G_Clt_ActorBase = 11;
+
+  G_Clt_ActorItem = 12;
+
+  G_Clt_ActorCharacter = 13;
+
+  Clt_G_CharacterUpgrade = 14;
+
+  G_Clt_ActorLogic = 15;
+
+  G_Clt_ActorTask = 16;
+
+  Clt_G_SetNickname = 17;
+
+  G_Clt_ActorLevel = 18;
+
+  Clt_G_EnterLevel = 19;
+
+  Clt_G_ExitLevel = 20;
+
+  G_Clt_ActorRaffle = 21;
+
+  Clt_G_Raffle = 22;
+
+  G_Clt_ItemList = 23;
+
+  Clt_G_GroupReward = 24;
+
+  Clt_G_VehicleUpgrade = 25;
+
+  G_Clt_ActorTeam = 26;
+
+  Clt_G_CreateTeam = 27;
+
+  Clt_G_UseItem = 28;
+
+  Clt_G_TestInit = 29;
+
+  Clt_G_GiftCode = 30;
+
+  Ml_Clt_MailInfo = 31;
+
+  Clt_Ml_MailRequest = 32;
+
+  Ml_Clt_MailData = 33;
+
+  Clt_Ml_OpenMail = 34;
+
+  Ml_Clt_NewGlobalMail = 35;
+
+  G_Clt_LoginKey = 36;
+
+  Clt_G_Relogin = 37;
+
+  Clt_Ml_ClaimMailItems = 38;
+
+  Clt_Ml_DeleteMail = 39;
+
+  Clt_G_TaskClaim = 40;
+
+  Clt_G_GetShopContent = 41;
+
+  G_Clt_ShopDatas = 42;
+
+  Clt_G_ShopPurchase = 43;
+
+  G_Clt_ActorPlayerSkill = 44;
+
+  Clt_G_PlayerSkillUpgrade = 45;
+
+  Clt_G_SetDefenceTeamForPvp = 46;
+
+  Clt_G_PvpInformation = 47;
+
+  G_Clt_PvpInformation = 48;
+
+  Clt_G_PvpStart = 49;
+
+  Clt_G_PvpResult = 50;
+
+  G_Clt_ActorPvp = 51;
+
+  Clt_G_PvpRecords = 52;
+
+  Clt_Mg_PvpOrderList = 53;
+
+  Mg_Clt_PvpOrderListData = 54;
+
+  Clt_G_PatioExchange = 55;
+
+  Clt_G_InAppPurchase = 56;
+
+  G_Clt_ActorPurchase = 57;
+
+  Clt_G_ExchangeItem = 58;
+
+  Clt_G_NewGuideProgress = 59;
+
+  Clt_G_SetHeadicon = 60;
+
+  Clt_G_BuyAlbum = 61;
+
+  Clt_G_AdultAuth = 62;
+
+  Clt_G_LevelSweep = 63;
+
+  G_Clt_HorseLight = 64;
+
+  Clt_G_SetActorBase = 65;
+
+  Clt_G_StringCheck = 66;
+
+  Clt_G_InAppPurchaseTest = 67;
+
+  Clt_G_VehicleDevelopment = 68;
+
+  Clt_G_VehicleBuyPaint = 69;
+
+  Clt_G_VehicleSetPaint = 70;
+
+  L_Clt_NldToken = 71;
+
+  Clt_Lg_LegionList = 72;
+
+  Lg_Clt_LegionListData = 73;
+
+  Clt_Lg_CreateLegion = 74;
+
+  Clt_Lg_UpdateLegion = 75;
+
+  Clt_Lg_JoinLegion = 76;
+
+  Clt_Lg_ExamineJoinLegion = 77;
+
+  Clt_Lg_QuitLegion = 78;
+
+  Clt_Lg_UpdateMember = 79;
+
+  Clt_Lg_DismissMember = 80;
+
+  Clt_Lg_GetMyLegionInfo = 81;
+
+  Lg_Clt_LegionBase = 82;
+
+  Lg_Clt_LegionMember = 83;
+
+  Lg_Clt_LegionLog = 84;
+
+  Lg_Clt_LegionApply = 85;
+
+  Clt_Lg_LegionPart = 86;
+
+  Clt_G_CheckCharacter = 87;
+
+  G_Clt_ActorLegion = 88;
+
+  Clt_Lg_LegionBattleSignUp = 89;
+
+  G_Clt_PvpRecords = 90;
+
+  Clt_G_BattlePassReward = 91;
+
+  Clt_B_EnterLegionBattlefield = 92;
+
+  Clt_G_BuyBattlePassLevel = 93;
+
+  B_Clt_LegionBattlefieldInfo = 94;
+
+  B_Clt_LegionBattlefield = 95;
+
+  Lg_Clt_JoinedLegion = 96;
+
+  Lg_Clt_LoseLegion = 97;
+
+  Clt_B_EnterLegionBattlefieldOk = 99;
+
+  Clt_B_LegionBattleCommand = 100;
+
+  B_Clt_LegionBattlefieldBuilding = 101;
+
+  B_Clt_LegionBattlefieldActor = 102;
+
+  B_Clt_LegionBattlefieldActorUpdate = 103;
+
+  B_Clt_LegionBattlefieldActorCommand = 104;
+
+  B_Clt_LegionBattlefieldCombatStart = 105;
+
+  B_Clt_LegionBattlefieldCombatEnd = 106;
+
+  Clt_B_LegionBattleCaptainOrder = 107;
+
+  B_Clt_LegionBattleCaptainOrder = 108;
+
+  B_Clt_LegionBattlefieldBuildingUpdate = 109;
+
+  Clt_B_LegionBattleLog = 110;
+
+  B_Clt_LegionBattleLog = 111;
+
+  Clt_Lg_LegionPostHiring = 112;
+
+  Clt_Lg_MercenarySignUp = 113;
+
+  Clt_Lg_LegionMercenaryApply = 114;
+
+  Clt_Lg_LegionMercenaryApprove = 115;
+
+  Clt_Lg_LegionMercenaryHire = 116;
+
+  Clt_Lg_LegionMercenaryHireDatas = 117;
+
+  Lg_Clt_LegionMercenaryHireDatas = 118;
+
+  Clt_Lg_LegionMercenarySignUpDatas = 119;
+
+  Lg_Clt_LegionMercenarySignUpDatas = 120;
+
+  B_Clt_LegionBattleStatus = 121;
+
+  Clt_B_ExitLegionBattlefield = 122;
+
+  Clt_B_GetLegionBattleTeams = 123;
+
+  B_Clt_GetLegionBattleTeams = 124;
+
+  Clt_Lg_LegionMercenarySearch = 125;
+
+  Lg_Clt_LegionMercenarySearch = 126;
+
+  Lg_Clt_LegionMercenaryActor = 127;
+
+  Clt_G_RefreshShop = 128;
+
+  B_Clt_LegionBattleEnd = 129;
+
+  Clt_G_ClaimMonthlyPassReward = 130;
+
+  Clt_Lg_LegionMercenaryDatas = 131;
+
+  Lg_Clt_LegionMercenaryDatas = 132;
+
+  B_Clt_LegionBattlefieldHexes = 133;
+
+  B_Clt_LegionCombatRecords = 134;
+
+  Clt_G_Sign = 135;
+
+  Clt_B_SetLegionBattleTeamLock = 137;
+
+  Clt_B_SelectLegionBattleTeam = 138;
+
+  B_Clt_LegionBattlefieldBuildingScore = 139;
+
+  Clt_G_SetAvatar = 140;
+
+  Clt_G_PhxhGiftCode = 141;
+
+  Clt_G_ActivityRequest = 142;
+
+  Clt_G_GetShopList = 143;
+
+  G_Clt_GetShopList = 144;
+
+  Clt_G_UseItems = 145;
+
+  Clt_G_SetLockStatus = 146;
+
+  G_Clt_ActorActivity = 147;
+
+  G_Clt_LoginReady = 148;
+
+  Clt_G_Login = 149;
+
+  G_Clt_ShopRedDot = 150;
+
+  Clt_G_PostFightData = 151;
+
+  G_Clt_ActorMusicBox = 152;
+
+  Clt_G_ActorMusicBoxCollect = 153;
+
+  Clt_G_PostTask = 154;
+
+  G_Clt_DayChange = 155;
+
+  Clt_G_BindFacebook = 156;
+
+  Clt_G_BindMail = 157;
+
+  Clt_G_CharacterCollectReward = 158;
+
+  Clt_G_EnterTrainingLevel = 159;
+
+  Clt_G_ExitTrainingLevel = 160;
+
+  Clt_G_LegionPveStart = 161;
+
+  Clt_G_LegionPveEnd = 162;
+
+  Clt_G_LegionPveUseResurrectionItem = 163;
+
+  G_Clt_ActorDispatch = 164;
+
+  Clt_G_DispatchStart = 165;
+
+  Clt_G_DispatchCancel = 166;
+
+  Clt_G_DispatchClaim = 167;
+
+  Clt_G_CreateTrainingTeam = 168;
+
+  Clt_G_DisassembleItem = 169;
+
+  Clt_G_LegionPveBattleData = 170;
+
+  G_Clt_ActorLegionPve = 171;
+
+  Clt_G_CreateDispatchTeam = 172;
+
+  MSGID_Max = 173;
+
+}

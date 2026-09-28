@@ -1,0 +1,9218 @@
+[
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 10001,
+    "groupId": 1,
+    "id": 1000101,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 10001,
+    "groupId": 2,
+    "id": 1000102,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 10001,
+    "groupId": 3,
+    "id": 1000103,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.05,
+    "gachaGroupId": 10002,
+    "groupId": 1,
+    "id": 1000104,
+    "nameLocalText": 46056,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 10002,
+    "groupId": 1,
+    "id": 1000105,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.02,
+    "gachaGroupId": 10002,
+    "groupId": 1,
+    "id": 1000106,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.28,
+    "gachaGroupId": 10002,
+    "groupId": 2,
+    "id": 1000107,
+    "nameLocalText": 46058,
+    "type": 1
+  },
+  {
+    "displayRate": 0.025,
+    "gachaGroupId": 10002,
+    "groupId": 2,
+    "id": 1000108,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.085,
+    "gachaGroupId": 10002,
+    "groupId": 2,
+    "id": 1000109,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.17,
+    "gachaGroupId": 10002,
+    "groupId": 2,
+    "id": 1000110,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.67,
+    "gachaGroupId": 10002,
+    "groupId": 3,
+    "id": 1000111,
+    "nameLocalText": 46060,
+    "type": 1
+  },
+  {
+    "displayRate": 0.04,
+    "gachaGroupId": 10002,
+    "groupId": 3,
+    "id": 1000112,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.16,
+    "gachaGroupId": 10002,
+    "groupId": 3,
+    "id": 1000113,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.47,
+    "gachaGroupId": 10002,
+    "groupId": 3,
+    "id": 1000114,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 1013,
+    "groupId": 1,
+    "id": 3401,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 1013,
+    "groupId": 2,
+    "id": 3402,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 1013,
+    "groupId": 3,
+    "id": 3403,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 1007,
+    "groupId": 1,
+    "id": 3001,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 1007,
+    "groupId": 2,
+    "id": 3002,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 1007,
+    "groupId": 3,
+    "id": 3003,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 1.0,
+    "gachaGroupId": 1008,
+    "groupId": 1,
+    "id": 4001,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 1009,
+    "groupId": 1,
+    "id": 3101,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 1009,
+    "groupId": 2,
+    "id": 3102,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 1009,
+    "groupId": 3,
+    "id": 3103,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 1010,
+    "groupId": 1,
+    "id": 3201,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 1010,
+    "groupId": 2,
+    "id": 3202,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 1010,
+    "groupId": 3,
+    "id": 3203,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 1011,
+    "groupId": 1,
+    "id": 3301,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 1011,
+    "groupId": 2,
+    "id": 3302,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 1011,
+    "groupId": 3,
+    "id": 3303,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 1.0,
+    "gachaGroupId": 1001,
+    "groupId": 1,
+    "id": 601000011,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 1.0,
+    "gachaGroupId": 1002,
+    "groupId": 2,
+    "id": 601000021,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 1.0,
+    "gachaGroupId": 1012,
+    "groupId": 1,
+    "id": 601000031,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 1.0,
+    "gachaGroupId": 1014,
+    "groupId": 1,
+    "id": 601000041,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.15,
+    "gachaGroupId": 1003,
+    "groupId": 1,
+    "id": 710000011,
+    "nameLocalText": 46056,
+    "type": 1
+  },
+  {
+    "displayRate": 0.15,
+    "gachaGroupId": 1003,
+    "groupId": 1,
+    "id": 710000012,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.35,
+    "gachaGroupId": 1003,
+    "groupId": 2,
+    "id": 710000013,
+    "nameLocalText": 46058,
+    "type": 1
+  },
+  {
+    "displayRate": 0.35,
+    "gachaGroupId": 1003,
+    "groupId": 2,
+    "id": 710000014,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.5,
+    "gachaGroupId": 1003,
+    "groupId": 3,
+    "id": 710000015,
+    "nameLocalText": 46060,
+    "type": 1
+  },
+  {
+    "displayRate": 0.5,
+    "gachaGroupId": 1003,
+    "groupId": 3,
+    "id": 710000016,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.15,
+    "gachaGroupId": 1004,
+    "groupId": 1,
+    "id": 710000021,
+    "nameLocalText": 46056,
+    "type": 1
+  },
+  {
+    "displayRate": 0.15,
+    "gachaGroupId": 1004,
+    "groupId": 1,
+    "id": 710000022,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.35,
+    "gachaGroupId": 1004,
+    "groupId": 2,
+    "id": 710000023,
+    "nameLocalText": 46058,
+    "type": 1
+  },
+  {
+    "displayRate": 0.35,
+    "gachaGroupId": 1004,
+    "groupId": 2,
+    "id": 710000024,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.5,
+    "gachaGroupId": 1004,
+    "groupId": 3,
+    "id": 710000025,
+    "nameLocalText": 46060,
+    "type": 1
+  },
+  {
+    "displayRate": 0.5,
+    "gachaGroupId": 1004,
+    "groupId": 3,
+    "id": 710000026,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.15,
+    "gachaGroupId": 1005,
+    "groupId": 1,
+    "id": 702000011,
+    "nameLocalText": 46056,
+    "type": 1
+  },
+  {
+    "displayRate": 0.15,
+    "gachaGroupId": 1005,
+    "groupId": 1,
+    "id": 702000012,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.35,
+    "gachaGroupId": 1005,
+    "groupId": 2,
+    "id": 702000013,
+    "nameLocalText": 46058,
+    "type": 1
+  },
+  {
+    "displayRate": 0.35,
+    "gachaGroupId": 1005,
+    "groupId": 2,
+    "id": 702000014,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.5,
+    "gachaGroupId": 1005,
+    "groupId": 3,
+    "id": 702000015,
+    "nameLocalText": 46060,
+    "type": 1
+  },
+  {
+    "displayRate": 0.5,
+    "gachaGroupId": 1005,
+    "groupId": 3,
+    "id": 702000016,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.15,
+    "gachaGroupId": 1006,
+    "groupId": 1,
+    "id": 702000021,
+    "nameLocalText": 46056,
+    "type": 1
+  },
+  {
+    "displayRate": 0.15,
+    "gachaGroupId": 1006,
+    "groupId": 1,
+    "id": 702000022,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.35,
+    "gachaGroupId": 1006,
+    "groupId": 2,
+    "id": 702000023,
+    "nameLocalText": 46058,
+    "type": 1
+  },
+  {
+    "displayRate": 0.35,
+    "gachaGroupId": 1006,
+    "groupId": 2,
+    "id": 702000024,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.5,
+    "gachaGroupId": 1006,
+    "groupId": 3,
+    "id": 702000025,
+    "nameLocalText": 46060,
+    "type": 1
+  },
+  {
+    "displayRate": 0.5,
+    "gachaGroupId": 1006,
+    "groupId": 3,
+    "id": 702000026,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 30001,
+    "groupId": 1,
+    "id": 910000101,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 30001,
+    "groupId": 2,
+    "id": 910000102,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 30001,
+    "groupId": 3,
+    "id": 910000103,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 30002,
+    "groupId": 1,
+    "id": 910000401,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 30002,
+    "groupId": 2,
+    "id": 910000402,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 30002,
+    "groupId": 3,
+    "id": 910000403,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 30003,
+    "groupId": 1,
+    "id": 910000701,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 30003,
+    "groupId": 2,
+    "id": 910000702,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 30003,
+    "groupId": 3,
+    "id": 910000703,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 30004,
+    "groupId": 1,
+    "id": 910001001,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 30004,
+    "groupId": 2,
+    "id": 910001002,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 30004,
+    "groupId": 3,
+    "id": 910001003,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 3,
+    "groupId": 1,
+    "id": 1010000101,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 3,
+    "groupId": 2,
+    "id": 1010000102,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 3,
+    "groupId": 3,
+    "id": 1010000103,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 4,
+    "groupId": 1,
+    "id": 1010000201,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 4,
+    "groupId": 2,
+    "id": 1010000202,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 4,
+    "groupId": 3,
+    "id": 1010000203,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 7,
+    "groupId": 1,
+    "id": 1010000301,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 7,
+    "groupId": 2,
+    "id": 1010000302,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 7,
+    "groupId": 3,
+    "id": 1010000303,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 8,
+    "groupId": 1,
+    "id": 1010000401,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 8,
+    "groupId": 2,
+    "id": 1010000402,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 8,
+    "groupId": 3,
+    "id": 1010000403,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 11,
+    "groupId": 1,
+    "id": 1010000501,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 11,
+    "groupId": 2,
+    "id": 1010000502,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 11,
+    "groupId": 3,
+    "id": 1010000503,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 13,
+    "groupId": 1,
+    "id": 1010000601,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 13,
+    "groupId": 2,
+    "id": 1010000602,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 13,
+    "groupId": 3,
+    "id": 1010000603,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 14,
+    "groupId": 1,
+    "id": 1010000701,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 14,
+    "groupId": 2,
+    "id": 1010000702,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 14,
+    "groupId": 3,
+    "id": 1010000703,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 17,
+    "groupId": 1,
+    "id": 1010000801,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 17,
+    "groupId": 2,
+    "id": 1010000802,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 17,
+    "groupId": 3,
+    "id": 1010000803,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 19,
+    "groupId": 1,
+    "id": 1010000901,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 19,
+    "groupId": 2,
+    "id": 1010000902,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 19,
+    "groupId": 3,
+    "id": 1010000903,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 21,
+    "groupId": 1,
+    "id": 1010001001,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 21,
+    "groupId": 2,
+    "id": 1010001002,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 21,
+    "groupId": 3,
+    "id": 1010001003,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 22,
+    "groupId": 1,
+    "id": 1010001101,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 22,
+    "groupId": 2,
+    "id": 1010001102,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 22,
+    "groupId": 3,
+    "id": 1010001103,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 24,
+    "groupId": 1,
+    "id": 1010001201,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 24,
+    "groupId": 2,
+    "id": 1010001202,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 24,
+    "groupId": 3,
+    "id": 1010001203,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 26,
+    "groupId": 1,
+    "id": 1010001301,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 26,
+    "groupId": 2,
+    "id": 1010001302,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 26,
+    "groupId": 3,
+    "id": 1010001303,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 27,
+    "groupId": 1,
+    "id": 1010001401,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 27,
+    "groupId": 2,
+    "id": 1010001402,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 27,
+    "groupId": 3,
+    "id": 1010001403,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 30,
+    "groupId": 1,
+    "id": 1010001501,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 30,
+    "groupId": 2,
+    "id": 1010001502,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 30,
+    "groupId": 3,
+    "id": 1010001503,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 32,
+    "groupId": 1,
+    "id": 1010001601,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 32,
+    "groupId": 2,
+    "id": 1010001602,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 32,
+    "groupId": 3,
+    "id": 1010001603,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 33,
+    "groupId": 1,
+    "id": 1010001701,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 33,
+    "groupId": 2,
+    "id": 1010001702,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 33,
+    "groupId": 3,
+    "id": 1010001703,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 36,
+    "groupId": 1,
+    "id": 1010001801,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 36,
+    "groupId": 2,
+    "id": 1010001802,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 36,
+    "groupId": 3,
+    "id": 1010001803,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 37,
+    "groupId": 1,
+    "id": 1010001901,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 37,
+    "groupId": 2,
+    "id": 1010001902,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 37,
+    "groupId": 3,
+    "id": 1010001903,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 40,
+    "groupId": 1,
+    "id": 1010002001,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 40,
+    "groupId": 2,
+    "id": 1010002002,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 40,
+    "groupId": 3,
+    "id": 1010002003,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 41,
+    "groupId": 1,
+    "id": 1010002101,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 41,
+    "groupId": 2,
+    "id": 1010002102,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 41,
+    "groupId": 3,
+    "id": 1010002103,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 44,
+    "groupId": 1,
+    "id": 1010002201,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 44,
+    "groupId": 2,
+    "id": 1010002202,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 44,
+    "groupId": 3,
+    "id": 1010002203,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 45,
+    "groupId": 1,
+    "id": 1010002301,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 45,
+    "groupId": 2,
+    "id": 1010002302,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 45,
+    "groupId": 3,
+    "id": 1010002303,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 48,
+    "groupId": 1,
+    "id": 1010002401,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 48,
+    "groupId": 2,
+    "id": 1010002402,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 48,
+    "groupId": 3,
+    "id": 1010002403,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 49,
+    "groupId": 1,
+    "id": 1010002501,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 49,
+    "groupId": 2,
+    "id": 1010002502,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 49,
+    "groupId": 3,
+    "id": 1010002503,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 52,
+    "groupId": 1,
+    "id": 1010002601,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 52,
+    "groupId": 2,
+    "id": 1010002602,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 52,
+    "groupId": 3,
+    "id": 1010002603,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 53,
+    "groupId": 1,
+    "id": 1010002701,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 53,
+    "groupId": 2,
+    "id": 1010002702,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 53,
+    "groupId": 3,
+    "id": 1010002703,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 56,
+    "groupId": 1,
+    "id": 1010002801,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 56,
+    "groupId": 2,
+    "id": 1010002802,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 56,
+    "groupId": 3,
+    "id": 1010002803,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 57,
+    "groupId": 1,
+    "id": 1010002901,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 57,
+    "groupId": 2,
+    "id": 1010002902,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 57,
+    "groupId": 3,
+    "id": 1010002903,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 60,
+    "groupId": 1,
+    "id": 1010003001,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 60,
+    "groupId": 2,
+    "id": 1010003002,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 60,
+    "groupId": 3,
+    "id": 1010003003,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 61,
+    "groupId": 1,
+    "id": 1010003101,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 61,
+    "groupId": 2,
+    "id": 1010003102,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 61,
+    "groupId": 3,
+    "id": 1010003103,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 62,
+    "groupId": 1,
+    "id": 1010003201,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 62,
+    "groupId": 2,
+    "id": 1010003202,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 62,
+    "groupId": 3,
+    "id": 1010003203,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 63,
+    "groupId": 1,
+    "id": 1010003301,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 63,
+    "groupId": 2,
+    "id": 1010003302,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 63,
+    "groupId": 3,
+    "id": 1010003303,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 65,
+    "groupId": 1,
+    "id": 1010003401,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 65,
+    "groupId": 2,
+    "id": 1010003402,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 65,
+    "groupId": 3,
+    "id": 1010003403,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 66,
+    "groupId": 1,
+    "id": 1010003501,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 66,
+    "groupId": 2,
+    "id": 1010003502,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 66,
+    "groupId": 3,
+    "id": 1010003503,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 67,
+    "groupId": 1,
+    "id": 1010003601,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 67,
+    "groupId": 2,
+    "id": 1010003602,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 67,
+    "groupId": 3,
+    "id": 1010003603,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 68,
+    "groupId": 1,
+    "id": 1010003701,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 68,
+    "groupId": 2,
+    "id": 1010003702,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 68,
+    "groupId": 3,
+    "id": 1010003703,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 69,
+    "groupId": 1,
+    "id": 1010003801,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 69,
+    "groupId": 2,
+    "id": 1010003802,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 69,
+    "groupId": 3,
+    "id": 1010003803,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 70,
+    "groupId": 1,
+    "id": 1010003901,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 70,
+    "groupId": 2,
+    "id": 1010003902,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 70,
+    "groupId": 3,
+    "id": 1010003903,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 71,
+    "groupId": 1,
+    "id": 1010004001,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 71,
+    "groupId": 2,
+    "id": 1010004002,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 71,
+    "groupId": 3,
+    "id": 1010004003,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 73,
+    "groupId": 1,
+    "id": 1010004101,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 73,
+    "groupId": 2,
+    "id": 1010004102,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 73,
+    "groupId": 3,
+    "id": 1010004103,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 74,
+    "groupId": 1,
+    "id": 1010004201,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 74,
+    "groupId": 2,
+    "id": 1010004202,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 74,
+    "groupId": 3,
+    "id": 1010004203,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 76,
+    "groupId": 1,
+    "id": 1010004301,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 76,
+    "groupId": 2,
+    "id": 1010004302,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 76,
+    "groupId": 3,
+    "id": 1010004303,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 77,
+    "groupId": 1,
+    "id": 1010004401,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 77,
+    "groupId": 2,
+    "id": 1010004402,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 77,
+    "groupId": 3,
+    "id": 1010004403,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 78,
+    "groupId": 1,
+    "id": 1010004501,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 78,
+    "groupId": 2,
+    "id": 1010004502,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 78,
+    "groupId": 3,
+    "id": 1010004503,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 80,
+    "groupId": 1,
+    "id": 1010004601,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 80,
+    "groupId": 2,
+    "id": 1010004602,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 80,
+    "groupId": 3,
+    "id": 1010004603,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 81,
+    "groupId": 1,
+    "id": 1010004701,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 81,
+    "groupId": 2,
+    "id": 1010004702,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 81,
+    "groupId": 3,
+    "id": 1010004703,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 83,
+    "groupId": 1,
+    "id": 1010004801,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 83,
+    "groupId": 2,
+    "id": 1010004802,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 83,
+    "groupId": 3,
+    "id": 1010004803,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 84,
+    "groupId": 1,
+    "id": 1010004901,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 84,
+    "groupId": 2,
+    "id": 1010004902,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 84,
+    "groupId": 3,
+    "id": 1010004903,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 86,
+    "groupId": 1,
+    "id": 1010005001,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 86,
+    "groupId": 2,
+    "id": 1010005002,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 86,
+    "groupId": 3,
+    "id": 1010005003,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 87,
+    "groupId": 1,
+    "id": 1010005101,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 87,
+    "groupId": 2,
+    "id": 1010005102,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 87,
+    "groupId": 3,
+    "id": 1010005103,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 88,
+    "groupId": 1,
+    "id": 1010005201,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 88,
+    "groupId": 2,
+    "id": 1010005202,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 88,
+    "groupId": 3,
+    "id": 1010005203,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 90,
+    "groupId": 1,
+    "id": 1010005301,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 90,
+    "groupId": 2,
+    "id": 1010005302,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 90,
+    "groupId": 3,
+    "id": 1010005303,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 92,
+    "groupId": 1,
+    "id": 1010005401,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 92,
+    "groupId": 2,
+    "id": 1010005402,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 92,
+    "groupId": 3,
+    "id": 1010005403,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 94,
+    "groupId": 1,
+    "id": 1010005501,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 94,
+    "groupId": 2,
+    "id": 1010005502,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 94,
+    "groupId": 3,
+    "id": 1010005503,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 96,
+    "groupId": 1,
+    "id": 1010005601,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 96,
+    "groupId": 2,
+    "id": 1010005602,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 96,
+    "groupId": 3,
+    "id": 1010005603,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 98,
+    "groupId": 1,
+    "id": 1010005701,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 98,
+    "groupId": 2,
+    "id": 1010005702,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 98,
+    "groupId": 3,
+    "id": 1010005703,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 99,
+    "groupId": 1,
+    "id": 1010005801,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 99,
+    "groupId": 2,
+    "id": 1010005802,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 99,
+    "groupId": 3,
+    "id": 1010005803,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 101,
+    "groupId": 1,
+    "id": 1010005901,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 101,
+    "groupId": 2,
+    "id": 1010005902,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 101,
+    "groupId": 3,
+    "id": 1010005903,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 102,
+    "groupId": 1,
+    "id": 1010006001,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 102,
+    "groupId": 2,
+    "id": 1010006002,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 102,
+    "groupId": 3,
+    "id": 1010006003,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 103,
+    "groupId": 1,
+    "id": 1010006101,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 103,
+    "groupId": 2,
+    "id": 1010006102,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 103,
+    "groupId": 3,
+    "id": 1010006103,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 105,
+    "groupId": 1,
+    "id": 1010006201,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 105,
+    "groupId": 2,
+    "id": 1010006202,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 105,
+    "groupId": 3,
+    "id": 1010006203,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 106,
+    "groupId": 1,
+    "id": 1010006301,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 106,
+    "groupId": 2,
+    "id": 1010006302,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 106,
+    "groupId": 3,
+    "id": 1010006303,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 108,
+    "groupId": 1,
+    "id": 1010006401,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 108,
+    "groupId": 2,
+    "id": 1010006402,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 108,
+    "groupId": 3,
+    "id": 1010006403,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 109,
+    "groupId": 1,
+    "id": 1010006501,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 109,
+    "groupId": 2,
+    "id": 1010006502,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 109,
+    "groupId": 3,
+    "id": 1010006503,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 110,
+    "groupId": 1,
+    "id": 1010006601,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 110,
+    "groupId": 2,
+    "id": 1010006602,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 110,
+    "groupId": 3,
+    "id": 1010006603,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 112,
+    "groupId": 1,
+    "id": 1010006701,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 112,
+    "groupId": 2,
+    "id": 1010006702,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 112,
+    "groupId": 3,
+    "id": 1010006703,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 114,
+    "groupId": 1,
+    "id": 1010006801,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 114,
+    "groupId": 2,
+    "id": 1010006802,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 114,
+    "groupId": 3,
+    "id": 1010006803,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 116,
+    "groupId": 1,
+    "id": 1010006901,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 116,
+    "groupId": 2,
+    "id": 1010006902,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 116,
+    "groupId": 3,
+    "id": 1010006903,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 118,
+    "groupId": 1,
+    "id": 1010007001,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 118,
+    "groupId": 2,
+    "id": 1010007002,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 118,
+    "groupId": 3,
+    "id": 1010007003,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 119,
+    "groupId": 1,
+    "id": 1010007101,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 119,
+    "groupId": 2,
+    "id": 1010007102,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 119,
+    "groupId": 3,
+    "id": 1010007103,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 121,
+    "groupId": 1,
+    "id": 1010007201,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 121,
+    "groupId": 2,
+    "id": 1010007202,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 121,
+    "groupId": 3,
+    "id": 1010007203,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 122,
+    "groupId": 1,
+    "id": 1010007301,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 122,
+    "groupId": 2,
+    "id": 1010007302,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 122,
+    "groupId": 3,
+    "id": 1010007303,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 123,
+    "groupId": 1,
+    "id": 1010007401,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 123,
+    "groupId": 2,
+    "id": 1010007402,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 123,
+    "groupId": 3,
+    "id": 1010007403,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 124,
+    "groupId": 1,
+    "id": 1010007501,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 124,
+    "groupId": 2,
+    "id": 1010007502,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 124,
+    "groupId": 3,
+    "id": 1010007503,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 125,
+    "groupId": 1,
+    "id": 1010007601,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 125,
+    "groupId": 2,
+    "id": 1010007602,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 125,
+    "groupId": 3,
+    "id": 1010007603,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 126,
+    "groupId": 1,
+    "id": 1010007701,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 126,
+    "groupId": 2,
+    "id": 1010007702,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 126,
+    "groupId": 3,
+    "id": 1010007703,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 127,
+    "groupId": 1,
+    "id": 1010007801,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 127,
+    "groupId": 2,
+    "id": 1010007802,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 127,
+    "groupId": 3,
+    "id": 1010007803,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 128,
+    "groupId": 1,
+    "id": 1010007901,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 128,
+    "groupId": 2,
+    "id": 1010007902,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 128,
+    "groupId": 3,
+    "id": 1010007903,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 129,
+    "groupId": 1,
+    "id": 1010008001,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 129,
+    "groupId": 2,
+    "id": 1010008002,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 129,
+    "groupId": 3,
+    "id": 1010008003,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 130,
+    "groupId": 1,
+    "id": 1010008101,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 130,
+    "groupId": 2,
+    "id": 1010008102,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 130,
+    "groupId": 3,
+    "id": 1010008103,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 132,
+    "groupId": 1,
+    "id": 1010008201,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 132,
+    "groupId": 2,
+    "id": 1010008202,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 132,
+    "groupId": 3,
+    "id": 1010008203,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 134,
+    "groupId": 1,
+    "id": 1010008301,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 134,
+    "groupId": 2,
+    "id": 1010008302,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 134,
+    "groupId": 3,
+    "id": 1010008303,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 135,
+    "groupId": 1,
+    "id": 1010008401,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 135,
+    "groupId": 2,
+    "id": 1010008402,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 135,
+    "groupId": 3,
+    "id": 1010008403,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 136,
+    "groupId": 1,
+    "id": 1010008501,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 136,
+    "groupId": 2,
+    "id": 1010008502,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 136,
+    "groupId": 3,
+    "id": 1010008503,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 137,
+    "groupId": 1,
+    "id": 1010009001,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 137,
+    "groupId": 2,
+    "id": 1010009002,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 137,
+    "groupId": 3,
+    "id": 1010009003,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 138,
+    "groupId": 1,
+    "id": 1010009401,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 138,
+    "groupId": 2,
+    "id": 1010009402,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 138,
+    "groupId": 3,
+    "id": 1010009403,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 139,
+    "groupId": 1,
+    "id": 1010009501,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 139,
+    "groupId": 2,
+    "id": 1010009502,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 139,
+    "groupId": 3,
+    "id": 1010009503,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 141,
+    "groupId": 1,
+    "id": 1010009601,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 141,
+    "groupId": 2,
+    "id": 1010009602,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 141,
+    "groupId": 3,
+    "id": 1010009603,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 142,
+    "groupId": 1,
+    "id": 1010009701,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 142,
+    "groupId": 2,
+    "id": 1010009702,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 142,
+    "groupId": 3,
+    "id": 1010009703,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 143,
+    "groupId": 1,
+    "id": 1010009101,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 143,
+    "groupId": 2,
+    "id": 1010009102,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 143,
+    "groupId": 3,
+    "id": 1010009103,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 145,
+    "groupId": 1,
+    "id": 1010009201,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 145,
+    "groupId": 2,
+    "id": 1010009202,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 145,
+    "groupId": 3,
+    "id": 1010009203,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 147,
+    "groupId": 1,
+    "id": 1010009301,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 147,
+    "groupId": 2,
+    "id": 1010009302,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 147,
+    "groupId": 3,
+    "id": 1010009303,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 149,
+    "groupId": 1,
+    "id": 1010009801,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 149,
+    "groupId": 2,
+    "id": 1010009802,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 149,
+    "groupId": 3,
+    "id": 1010009803,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 150,
+    "groupId": 1,
+    "id": 1010009901,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 150,
+    "groupId": 2,
+    "id": 1010009902,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 150,
+    "groupId": 3,
+    "id": 1010009903,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 151,
+    "groupId": 1,
+    "id": 1010009904,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 151,
+    "groupId": 2,
+    "id": 1010009905,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 151,
+    "groupId": 3,
+    "id": 1010009906,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 152,
+    "groupId": 1,
+    "id": 1010010301,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 152,
+    "groupId": 2,
+    "id": 1010010302,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 152,
+    "groupId": 3,
+    "id": 1010010303,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 154,
+    "groupId": 1,
+    "id": 1010010401,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 154,
+    "groupId": 2,
+    "id": 1010010402,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 154,
+    "groupId": 3,
+    "id": 1010010403,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 155,
+    "groupId": 1,
+    "id": 1010010501,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 155,
+    "groupId": 2,
+    "id": 1010010502,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 155,
+    "groupId": 3,
+    "id": 1010010503,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 156,
+    "groupId": 1,
+    "id": 1010010601,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 156,
+    "groupId": 2,
+    "id": 1010010602,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 156,
+    "groupId": 3,
+    "id": 1010010603,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 157,
+    "groupId": 1,
+    "id": 1010010701,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 157,
+    "groupId": 2,
+    "id": 1010010702,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 157,
+    "groupId": 3,
+    "id": 1010010703,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 159,
+    "groupId": 1,
+    "id": 1010010801,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 159,
+    "groupId": 2,
+    "id": 1010010802,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 159,
+    "groupId": 3,
+    "id": 1010010803,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 161,
+    "groupId": 1,
+    "id": 1010010901,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 161,
+    "groupId": 2,
+    "id": 1010010902,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 161,
+    "groupId": 3,
+    "id": 1010010903,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 163,
+    "groupId": 1,
+    "id": 1010011001,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 163,
+    "groupId": 2,
+    "id": 1010011002,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 163,
+    "groupId": 3,
+    "id": 1010011003,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 164,
+    "groupId": 1,
+    "id": 1010011101,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 164,
+    "groupId": 2,
+    "id": 1010011102,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 164,
+    "groupId": 3,
+    "id": 1010011103,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 165,
+    "groupId": 1,
+    "id": 1010011201,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 165,
+    "groupId": 2,
+    "id": 1010011202,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 165,
+    "groupId": 3,
+    "id": 1010011203,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.05,
+    "gachaGroupId": 5,
+    "groupId": 1,
+    "id": 2010000101,
+    "nameLocalText": 46056,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 5,
+    "groupId": 1,
+    "id": 2010000102,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.02,
+    "gachaGroupId": 5,
+    "groupId": 1,
+    "id": 2010000103,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.28,
+    "gachaGroupId": 5,
+    "groupId": 2,
+    "id": 2010000104,
+    "nameLocalText": 46058,
+    "type": 1
+  },
+  {
+    "displayRate": 0.025,
+    "gachaGroupId": 5,
+    "groupId": 2,
+    "id": 2010000105,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.085,
+    "gachaGroupId": 5,
+    "groupId": 2,
+    "id": 2010000106,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.17,
+    "gachaGroupId": 5,
+    "groupId": 2,
+    "id": 2010000107,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.67,
+    "gachaGroupId": 5,
+    "groupId": 3,
+    "id": 2010000108,
+    "nameLocalText": 46060,
+    "type": 1
+  },
+  {
+    "displayRate": 0.04,
+    "gachaGroupId": 5,
+    "groupId": 3,
+    "id": 2010000109,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.16,
+    "gachaGroupId": 5,
+    "groupId": 3,
+    "id": 2010000110,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.47,
+    "gachaGroupId": 5,
+    "groupId": 3,
+    "id": 2010000111,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.05,
+    "gachaGroupId": 6,
+    "groupId": 1,
+    "id": 2010000201,
+    "nameLocalText": 46056,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 6,
+    "groupId": 1,
+    "id": 2010000202,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.02,
+    "gachaGroupId": 6,
+    "groupId": 1,
+    "id": 2010000203,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.28,
+    "gachaGroupId": 6,
+    "groupId": 2,
+    "id": 2010000204,
+    "nameLocalText": 46058,
+    "type": 1
+  },
+  {
+    "displayRate": 0.025,
+    "gachaGroupId": 6,
+    "groupId": 2,
+    "id": 2010000205,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.085,
+    "gachaGroupId": 6,
+    "groupId": 2,
+    "id": 2010000206,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.17,
+    "gachaGroupId": 6,
+    "groupId": 2,
+    "id": 2010000207,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.67,
+    "gachaGroupId": 6,
+    "groupId": 3,
+    "id": 2010000208,
+    "nameLocalText": 46060,
+    "type": 1
+  },
+  {
+    "displayRate": 0.04,
+    "gachaGroupId": 6,
+    "groupId": 3,
+    "id": 2010000209,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.16,
+    "gachaGroupId": 6,
+    "groupId": 3,
+    "id": 2010000210,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.47,
+    "gachaGroupId": 6,
+    "groupId": 3,
+    "id": 2010000211,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.05,
+    "gachaGroupId": 9,
+    "groupId": 1,
+    "id": 2010000301,
+    "nameLocalText": 46056,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 9,
+    "groupId": 1,
+    "id": 2010000302,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.02,
+    "gachaGroupId": 9,
+    "groupId": 1,
+    "id": 2010000303,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.28,
+    "gachaGroupId": 9,
+    "groupId": 2,
+    "id": 2010000304,
+    "nameLocalText": 46058,
+    "type": 1
+  },
+  {
+    "displayRate": 0.025,
+    "gachaGroupId": 9,
+    "groupId": 2,
+    "id": 2010000305,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.085,
+    "gachaGroupId": 9,
+    "groupId": 2,
+    "id": 2010000306,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.17,
+    "gachaGroupId": 9,
+    "groupId": 2,
+    "id": 2010000307,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.67,
+    "gachaGroupId": 9,
+    "groupId": 3,
+    "id": 2010000308,
+    "nameLocalText": 46060,
+    "type": 1
+  },
+  {
+    "displayRate": 0.04,
+    "gachaGroupId": 9,
+    "groupId": 3,
+    "id": 2010000309,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.16,
+    "gachaGroupId": 9,
+    "groupId": 3,
+    "id": 2010000310,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.47,
+    "gachaGroupId": 9,
+    "groupId": 3,
+    "id": 2010000311,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.05,
+    "gachaGroupId": 10,
+    "groupId": 1,
+    "id": 2010000401,
+    "nameLocalText": 46056,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 10,
+    "groupId": 1,
+    "id": 2010000402,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.02,
+    "gachaGroupId": 10,
+    "groupId": 1,
+    "id": 2010000403,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.28,
+    "gachaGroupId": 10,
+    "groupId": 2,
+    "id": 2010000404,
+    "nameLocalText": 46058,
+    "type": 1
+  },
+  {
+    "displayRate": 0.025,
+    "gachaGroupId": 10,
+    "groupId": 2,
+    "id": 2010000405,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.085,
+    "gachaGroupId": 10,
+    "groupId": 2,
+    "id": 2010000406,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.17,
+    "gachaGroupId": 10,
+    "groupId": 2,
+    "id": 2010000407,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.67,
+    "gachaGroupId": 10,
+    "groupId": 3,
+    "id": 2010000408,
+    "nameLocalText": 46060,
+    "type": 1
+  },
+  {
+    "displayRate": 0.04,
+    "gachaGroupId": 10,
+    "groupId": 3,
+    "id": 2010000409,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.16,
+    "gachaGroupId": 10,
+    "groupId": 3,
+    "id": 2010000410,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.47,
+    "gachaGroupId": 10,
+    "groupId": 3,
+    "id": 2010000411,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.05,
+    "gachaGroupId": 12,
+    "groupId": 1,
+    "id": 2010000501,
+    "nameLocalText": 46056,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 12,
+    "groupId": 1,
+    "id": 2010000502,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.02,
+    "gachaGroupId": 12,
+    "groupId": 1,
+    "id": 2010000503,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.28,
+    "gachaGroupId": 12,
+    "groupId": 2,
+    "id": 2010000504,
+    "nameLocalText": 46058,
+    "type": 1
+  },
+  {
+    "displayRate": 0.025,
+    "gachaGroupId": 12,
+    "groupId": 2,
+    "id": 2010000505,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.085,
+    "gachaGroupId": 12,
+    "groupId": 2,
+    "id": 2010000506,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.17,
+    "gachaGroupId": 12,
+    "groupId": 2,
+    "id": 2010000507,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.67,
+    "gachaGroupId": 12,
+    "groupId": 3,
+    "id": 2010000508,
+    "nameLocalText": 46060,
+    "type": 1
+  },
+  {
+    "displayRate": 0.04,
+    "gachaGroupId": 12,
+    "groupId": 3,
+    "id": 2010000509,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.16,
+    "gachaGroupId": 12,
+    "groupId": 3,
+    "id": 2010000510,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.47,
+    "gachaGroupId": 12,
+    "groupId": 3,
+    "id": 2010000511,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.05,
+    "gachaGroupId": 18,
+    "groupId": 1,
+    "id": 2010000801,
+    "nameLocalText": 46056,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 18,
+    "groupId": 1,
+    "id": 2010000802,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.02,
+    "gachaGroupId": 18,
+    "groupId": 1,
+    "id": 2010000803,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.28,
+    "gachaGroupId": 18,
+    "groupId": 2,
+    "id": 2010000804,
+    "nameLocalText": 46058,
+    "type": 1
+  },
+  {
+    "displayRate": 0.025,
+    "gachaGroupId": 18,
+    "groupId": 2,
+    "id": 2010000805,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.085,
+    "gachaGroupId": 18,
+    "groupId": 2,
+    "id": 2010000806,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.17,
+    "gachaGroupId": 18,
+    "groupId": 2,
+    "id": 2010000807,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.67,
+    "gachaGroupId": 18,
+    "groupId": 3,
+    "id": 2010000808,
+    "nameLocalText": 46060,
+    "type": 1
+  },
+  {
+    "displayRate": 0.04,
+    "gachaGroupId": 18,
+    "groupId": 3,
+    "id": 2010000809,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.16,
+    "gachaGroupId": 18,
+    "groupId": 3,
+    "id": 2010000810,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.47,
+    "gachaGroupId": 18,
+    "groupId": 3,
+    "id": 2010000811,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.05,
+    "gachaGroupId": 20,
+    "groupId": 1,
+    "id": 2010000901,
+    "nameLocalText": 46056,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20,
+    "groupId": 1,
+    "id": 2010000902,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.02,
+    "gachaGroupId": 20,
+    "groupId": 1,
+    "id": 2010000903,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.28,
+    "gachaGroupId": 20,
+    "groupId": 2,
+    "id": 2010000904,
+    "nameLocalText": 46058,
+    "type": 1
+  },
+  {
+    "displayRate": 0.025,
+    "gachaGroupId": 20,
+    "groupId": 2,
+    "id": 2010000905,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.085,
+    "gachaGroupId": 20,
+    "groupId": 2,
+    "id": 2010000906,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.17,
+    "gachaGroupId": 20,
+    "groupId": 2,
+    "id": 2010000907,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.67,
+    "gachaGroupId": 20,
+    "groupId": 3,
+    "id": 2010000908,
+    "nameLocalText": 46060,
+    "type": 1
+  },
+  {
+    "displayRate": 0.04,
+    "gachaGroupId": 20,
+    "groupId": 3,
+    "id": 2010000909,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.16,
+    "gachaGroupId": 20,
+    "groupId": 3,
+    "id": 2010000910,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.47,
+    "gachaGroupId": 20,
+    "groupId": 3,
+    "id": 2010000911,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.05,
+    "gachaGroupId": 23,
+    "groupId": 1,
+    "id": 2010001001,
+    "nameLocalText": 46056,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 23,
+    "groupId": 1,
+    "id": 2010001002,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.02,
+    "gachaGroupId": 23,
+    "groupId": 1,
+    "id": 2010001003,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.28,
+    "gachaGroupId": 23,
+    "groupId": 2,
+    "id": 2010001004,
+    "nameLocalText": 46058,
+    "type": 1
+  },
+  {
+    "displayRate": 0.025,
+    "gachaGroupId": 23,
+    "groupId": 2,
+    "id": 2010001005,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.085,
+    "gachaGroupId": 23,
+    "groupId": 2,
+    "id": 2010001006,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.17,
+    "gachaGroupId": 23,
+    "groupId": 2,
+    "id": 2010001007,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.67,
+    "gachaGroupId": 23,
+    "groupId": 3,
+    "id": 2010001008,
+    "nameLocalText": 46060,
+    "type": 1
+  },
+  {
+    "displayRate": 0.04,
+    "gachaGroupId": 23,
+    "groupId": 3,
+    "id": 2010001009,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.16,
+    "gachaGroupId": 23,
+    "groupId": 3,
+    "id": 2010001010,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.47,
+    "gachaGroupId": 23,
+    "groupId": 3,
+    "id": 2010001011,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.05,
+    "gachaGroupId": 25,
+    "groupId": 1,
+    "id": 2010001101,
+    "nameLocalText": 46056,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 25,
+    "groupId": 1,
+    "id": 2010001102,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.02,
+    "gachaGroupId": 25,
+    "groupId": 1,
+    "id": 2010001103,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.28,
+    "gachaGroupId": 25,
+    "groupId": 2,
+    "id": 2010001104,
+    "nameLocalText": 46058,
+    "type": 1
+  },
+  {
+    "displayRate": 0.025,
+    "gachaGroupId": 25,
+    "groupId": 2,
+    "id": 2010001105,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.085,
+    "gachaGroupId": 25,
+    "groupId": 2,
+    "id": 2010001106,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.17,
+    "gachaGroupId": 25,
+    "groupId": 2,
+    "id": 2010001107,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.67,
+    "gachaGroupId": 25,
+    "groupId": 3,
+    "id": 2010001108,
+    "nameLocalText": 46060,
+    "type": 1
+  },
+  {
+    "displayRate": 0.04,
+    "gachaGroupId": 25,
+    "groupId": 3,
+    "id": 2010001109,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.16,
+    "gachaGroupId": 25,
+    "groupId": 3,
+    "id": 2010001110,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.47,
+    "gachaGroupId": 25,
+    "groupId": 3,
+    "id": 2010001111,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.05,
+    "gachaGroupId": 28,
+    "groupId": 1,
+    "id": 2010001201,
+    "nameLocalText": 46056,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 28,
+    "groupId": 1,
+    "id": 2010001202,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.02,
+    "gachaGroupId": 28,
+    "groupId": 1,
+    "id": 2010001203,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.28,
+    "gachaGroupId": 28,
+    "groupId": 2,
+    "id": 2010001204,
+    "nameLocalText": 46058,
+    "type": 1
+  },
+  {
+    "displayRate": 0.025,
+    "gachaGroupId": 28,
+    "groupId": 2,
+    "id": 2010001205,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.085,
+    "gachaGroupId": 28,
+    "groupId": 2,
+    "id": 2010001206,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.17,
+    "gachaGroupId": 28,
+    "groupId": 2,
+    "id": 2010001207,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.67,
+    "gachaGroupId": 28,
+    "groupId": 3,
+    "id": 2010001208,
+    "nameLocalText": 46060,
+    "type": 1
+  },
+  {
+    "displayRate": 0.04,
+    "gachaGroupId": 28,
+    "groupId": 3,
+    "id": 2010001209,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.16,
+    "gachaGroupId": 28,
+    "groupId": 3,
+    "id": 2010001210,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.47,
+    "gachaGroupId": 28,
+    "groupId": 3,
+    "id": 2010001211,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.05,
+    "gachaGroupId": 29,
+    "groupId": 1,
+    "id": 2010001301,
+    "nameLocalText": 46056,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 29,
+    "groupId": 1,
+    "id": 2010001302,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.02,
+    "gachaGroupId": 29,
+    "groupId": 1,
+    "id": 2010001303,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.28,
+    "gachaGroupId": 29,
+    "groupId": 2,
+    "id": 2010001304,
+    "nameLocalText": 46058,
+    "type": 1
+  },
+  {
+    "displayRate": 0.025,
+    "gachaGroupId": 29,
+    "groupId": 2,
+    "id": 2010001305,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.085,
+    "gachaGroupId": 29,
+    "groupId": 2,
+    "id": 2010001306,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.17,
+    "gachaGroupId": 29,
+    "groupId": 2,
+    "id": 2010001307,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.67,
+    "gachaGroupId": 29,
+    "groupId": 3,
+    "id": 2010001308,
+    "nameLocalText": 46060,
+    "type": 1
+  },
+  {
+    "displayRate": 0.04,
+    "gachaGroupId": 29,
+    "groupId": 3,
+    "id": 2010001309,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.16,
+    "gachaGroupId": 29,
+    "groupId": 3,
+    "id": 2010001310,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.47,
+    "gachaGroupId": 29,
+    "groupId": 3,
+    "id": 2010001311,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.05,
+    "gachaGroupId": 34,
+    "groupId": 1,
+    "id": 2010001501,
+    "nameLocalText": 46056,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 34,
+    "groupId": 1,
+    "id": 2010001502,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.02,
+    "gachaGroupId": 34,
+    "groupId": 1,
+    "id": 2010001503,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.28,
+    "gachaGroupId": 34,
+    "groupId": 2,
+    "id": 2010001504,
+    "nameLocalText": 46058,
+    "type": 1
+  },
+  {
+    "displayRate": 0.025,
+    "gachaGroupId": 34,
+    "groupId": 2,
+    "id": 2010001505,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.085,
+    "gachaGroupId": 34,
+    "groupId": 2,
+    "id": 2010001506,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.17,
+    "gachaGroupId": 34,
+    "groupId": 2,
+    "id": 2010001507,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.67,
+    "gachaGroupId": 34,
+    "groupId": 3,
+    "id": 2010001508,
+    "nameLocalText": 46060,
+    "type": 1
+  },
+  {
+    "displayRate": 0.04,
+    "gachaGroupId": 34,
+    "groupId": 3,
+    "id": 2010001509,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.16,
+    "gachaGroupId": 34,
+    "groupId": 3,
+    "id": 2010001510,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.47,
+    "gachaGroupId": 34,
+    "groupId": 3,
+    "id": 2010001511,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.05,
+    "gachaGroupId": 35,
+    "groupId": 1,
+    "id": 2010001601,
+    "nameLocalText": 46056,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 35,
+    "groupId": 1,
+    "id": 2010001602,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.02,
+    "gachaGroupId": 35,
+    "groupId": 1,
+    "id": 2010001603,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.28,
+    "gachaGroupId": 35,
+    "groupId": 2,
+    "id": 2010001604,
+    "nameLocalText": 46058,
+    "type": 1
+  },
+  {
+    "displayRate": 0.025,
+    "gachaGroupId": 35,
+    "groupId": 2,
+    "id": 2010001605,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.085,
+    "gachaGroupId": 35,
+    "groupId": 2,
+    "id": 2010001606,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.17,
+    "gachaGroupId": 35,
+    "groupId": 2,
+    "id": 2010001607,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.67,
+    "gachaGroupId": 35,
+    "groupId": 3,
+    "id": 2010001608,
+    "nameLocalText": 46060,
+    "type": 1
+  },
+  {
+    "displayRate": 0.04,
+    "gachaGroupId": 35,
+    "groupId": 3,
+    "id": 2010001609,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.16,
+    "gachaGroupId": 35,
+    "groupId": 3,
+    "id": 2010001610,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.47,
+    "gachaGroupId": 35,
+    "groupId": 3,
+    "id": 2010001611,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.05,
+    "gachaGroupId": 38,
+    "groupId": 1,
+    "id": 2010001701,
+    "nameLocalText": 46056,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 38,
+    "groupId": 1,
+    "id": 2010001702,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.02,
+    "gachaGroupId": 38,
+    "groupId": 1,
+    "id": 2010001703,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.28,
+    "gachaGroupId": 38,
+    "groupId": 2,
+    "id": 2010001704,
+    "nameLocalText": 46058,
+    "type": 1
+  },
+  {
+    "displayRate": 0.025,
+    "gachaGroupId": 38,
+    "groupId": 2,
+    "id": 2010001705,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.085,
+    "gachaGroupId": 38,
+    "groupId": 2,
+    "id": 2010001706,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.17,
+    "gachaGroupId": 38,
+    "groupId": 2,
+    "id": 2010001707,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.67,
+    "gachaGroupId": 38,
+    "groupId": 3,
+    "id": 2010001708,
+    "nameLocalText": 46060,
+    "type": 1
+  },
+  {
+    "displayRate": 0.04,
+    "gachaGroupId": 38,
+    "groupId": 3,
+    "id": 2010001709,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.16,
+    "gachaGroupId": 38,
+    "groupId": 3,
+    "id": 2010001710,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.47,
+    "gachaGroupId": 38,
+    "groupId": 3,
+    "id": 2010001711,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.05,
+    "gachaGroupId": 42,
+    "groupId": 1,
+    "id": 2010001901,
+    "nameLocalText": 46056,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 42,
+    "groupId": 1,
+    "id": 2010001902,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.02,
+    "gachaGroupId": 42,
+    "groupId": 1,
+    "id": 2010001903,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.28,
+    "gachaGroupId": 42,
+    "groupId": 2,
+    "id": 2010001904,
+    "nameLocalText": 46058,
+    "type": 1
+  },
+  {
+    "displayRate": 0.025,
+    "gachaGroupId": 42,
+    "groupId": 2,
+    "id": 2010001905,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.085,
+    "gachaGroupId": 42,
+    "groupId": 2,
+    "id": 2010001906,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.17,
+    "gachaGroupId": 42,
+    "groupId": 2,
+    "id": 2010001907,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.67,
+    "gachaGroupId": 42,
+    "groupId": 3,
+    "id": 2010001908,
+    "nameLocalText": 46060,
+    "type": 1
+  },
+  {
+    "displayRate": 0.04,
+    "gachaGroupId": 42,
+    "groupId": 3,
+    "id": 2010001909,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.16,
+    "gachaGroupId": 42,
+    "groupId": 3,
+    "id": 2010001910,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.47,
+    "gachaGroupId": 42,
+    "groupId": 3,
+    "id": 2010001911,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.05,
+    "gachaGroupId": 43,
+    "groupId": 1,
+    "id": 2010002001,
+    "nameLocalText": 46056,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 43,
+    "groupId": 1,
+    "id": 2010002002,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.02,
+    "gachaGroupId": 43,
+    "groupId": 1,
+    "id": 2010002003,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.28,
+    "gachaGroupId": 43,
+    "groupId": 2,
+    "id": 2010002004,
+    "nameLocalText": 46058,
+    "type": 1
+  },
+  {
+    "displayRate": 0.025,
+    "gachaGroupId": 43,
+    "groupId": 2,
+    "id": 2010002005,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.085,
+    "gachaGroupId": 43,
+    "groupId": 2,
+    "id": 2010002006,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.17,
+    "gachaGroupId": 43,
+    "groupId": 2,
+    "id": 2010002007,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.67,
+    "gachaGroupId": 43,
+    "groupId": 3,
+    "id": 2010002008,
+    "nameLocalText": 46060,
+    "type": 1
+  },
+  {
+    "displayRate": 0.04,
+    "gachaGroupId": 43,
+    "groupId": 3,
+    "id": 2010002009,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.16,
+    "gachaGroupId": 43,
+    "groupId": 3,
+    "id": 2010002010,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.47,
+    "gachaGroupId": 43,
+    "groupId": 3,
+    "id": 2010002011,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.05,
+    "gachaGroupId": 46,
+    "groupId": 1,
+    "id": 2010002101,
+    "nameLocalText": 46056,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 46,
+    "groupId": 1,
+    "id": 2010002102,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.02,
+    "gachaGroupId": 46,
+    "groupId": 1,
+    "id": 2010002103,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.28,
+    "gachaGroupId": 46,
+    "groupId": 2,
+    "id": 2010002104,
+    "nameLocalText": 46058,
+    "type": 1
+  },
+  {
+    "displayRate": 0.025,
+    "gachaGroupId": 46,
+    "groupId": 2,
+    "id": 2010002105,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.085,
+    "gachaGroupId": 46,
+    "groupId": 2,
+    "id": 2010002106,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.17,
+    "gachaGroupId": 46,
+    "groupId": 2,
+    "id": 2010002107,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.67,
+    "gachaGroupId": 46,
+    "groupId": 3,
+    "id": 2010002108,
+    "nameLocalText": 46060,
+    "type": 1
+  },
+  {
+    "displayRate": 0.04,
+    "gachaGroupId": 46,
+    "groupId": 3,
+    "id": 2010002109,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.16,
+    "gachaGroupId": 46,
+    "groupId": 3,
+    "id": 2010002110,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.47,
+    "gachaGroupId": 46,
+    "groupId": 3,
+    "id": 2010002111,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.05,
+    "gachaGroupId": 47,
+    "groupId": 1,
+    "id": 2010002201,
+    "nameLocalText": 46056,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 47,
+    "groupId": 1,
+    "id": 2010002202,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.02,
+    "gachaGroupId": 47,
+    "groupId": 1,
+    "id": 2010002203,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.28,
+    "gachaGroupId": 47,
+    "groupId": 2,
+    "id": 2010002204,
+    "nameLocalText": 46058,
+    "type": 1
+  },
+  {
+    "displayRate": 0.025,
+    "gachaGroupId": 47,
+    "groupId": 2,
+    "id": 2010002205,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.085,
+    "gachaGroupId": 47,
+    "groupId": 2,
+    "id": 2010002206,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.17,
+    "gachaGroupId": 47,
+    "groupId": 2,
+    "id": 2010002207,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.67,
+    "gachaGroupId": 47,
+    "groupId": 3,
+    "id": 2010002208,
+    "nameLocalText": 46060,
+    "type": 1
+  },
+  {
+    "displayRate": 0.04,
+    "gachaGroupId": 47,
+    "groupId": 3,
+    "id": 2010002209,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.16,
+    "gachaGroupId": 47,
+    "groupId": 3,
+    "id": 2010002210,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.47,
+    "gachaGroupId": 47,
+    "groupId": 3,
+    "id": 2010002211,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.05,
+    "gachaGroupId": 51,
+    "groupId": 1,
+    "id": 2010002401,
+    "nameLocalText": 46056,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 51,
+    "groupId": 1,
+    "id": 2010002402,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.02,
+    "gachaGroupId": 51,
+    "groupId": 1,
+    "id": 2010002403,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.28,
+    "gachaGroupId": 51,
+    "groupId": 2,
+    "id": 2010002404,
+    "nameLocalText": 46058,
+    "type": 1
+  },
+  {
+    "displayRate": 0.025,
+    "gachaGroupId": 51,
+    "groupId": 2,
+    "id": 2010002405,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.085,
+    "gachaGroupId": 51,
+    "groupId": 2,
+    "id": 2010002406,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.17,
+    "gachaGroupId": 51,
+    "groupId": 2,
+    "id": 2010002407,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.67,
+    "gachaGroupId": 51,
+    "groupId": 3,
+    "id": 2010002408,
+    "nameLocalText": 46060,
+    "type": 1
+  },
+  {
+    "displayRate": 0.04,
+    "gachaGroupId": 51,
+    "groupId": 3,
+    "id": 2010002409,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.16,
+    "gachaGroupId": 51,
+    "groupId": 3,
+    "id": 2010002410,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.47,
+    "gachaGroupId": 51,
+    "groupId": 3,
+    "id": 2010002411,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.05,
+    "gachaGroupId": 54,
+    "groupId": 1,
+    "id": 2010002501,
+    "nameLocalText": 46056,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 54,
+    "groupId": 1,
+    "id": 2010002502,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.02,
+    "gachaGroupId": 54,
+    "groupId": 1,
+    "id": 2010002503,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.28,
+    "gachaGroupId": 54,
+    "groupId": 2,
+    "id": 2010002504,
+    "nameLocalText": 46058,
+    "type": 1
+  },
+  {
+    "displayRate": 0.025,
+    "gachaGroupId": 54,
+    "groupId": 2,
+    "id": 2010002505,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.085,
+    "gachaGroupId": 54,
+    "groupId": 2,
+    "id": 2010002506,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.17,
+    "gachaGroupId": 54,
+    "groupId": 2,
+    "id": 2010002507,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.67,
+    "gachaGroupId": 54,
+    "groupId": 3,
+    "id": 2010002508,
+    "nameLocalText": 46060,
+    "type": 1
+  },
+  {
+    "displayRate": 0.04,
+    "gachaGroupId": 54,
+    "groupId": 3,
+    "id": 2010002509,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.16,
+    "gachaGroupId": 54,
+    "groupId": 3,
+    "id": 2010002510,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.47,
+    "gachaGroupId": 54,
+    "groupId": 3,
+    "id": 2010002511,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.05,
+    "gachaGroupId": 55,
+    "groupId": 1,
+    "id": 2010002601,
+    "nameLocalText": 46056,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 55,
+    "groupId": 1,
+    "id": 2010002602,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.02,
+    "gachaGroupId": 55,
+    "groupId": 1,
+    "id": 2010002603,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.28,
+    "gachaGroupId": 55,
+    "groupId": 2,
+    "id": 2010002604,
+    "nameLocalText": 46058,
+    "type": 1
+  },
+  {
+    "displayRate": 0.025,
+    "gachaGroupId": 55,
+    "groupId": 2,
+    "id": 2010002605,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.085,
+    "gachaGroupId": 55,
+    "groupId": 2,
+    "id": 2010002606,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.17,
+    "gachaGroupId": 55,
+    "groupId": 2,
+    "id": 2010002607,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.67,
+    "gachaGroupId": 55,
+    "groupId": 3,
+    "id": 2010002608,
+    "nameLocalText": 46060,
+    "type": 1
+  },
+  {
+    "displayRate": 0.04,
+    "gachaGroupId": 55,
+    "groupId": 3,
+    "id": 2010002609,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.16,
+    "gachaGroupId": 55,
+    "groupId": 3,
+    "id": 2010002610,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.47,
+    "gachaGroupId": 55,
+    "groupId": 3,
+    "id": 2010002611,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.05,
+    "gachaGroupId": 58,
+    "groupId": 1,
+    "id": 2010002801,
+    "nameLocalText": 46056,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 58,
+    "groupId": 1,
+    "id": 2010002802,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.02,
+    "gachaGroupId": 58,
+    "groupId": 1,
+    "id": 2010002803,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.28,
+    "gachaGroupId": 58,
+    "groupId": 2,
+    "id": 2010002804,
+    "nameLocalText": 46058,
+    "type": 1
+  },
+  {
+    "displayRate": 0.025,
+    "gachaGroupId": 58,
+    "groupId": 2,
+    "id": 2010002805,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.085,
+    "gachaGroupId": 58,
+    "groupId": 2,
+    "id": 2010002806,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.17,
+    "gachaGroupId": 58,
+    "groupId": 2,
+    "id": 2010002807,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.67,
+    "gachaGroupId": 58,
+    "groupId": 3,
+    "id": 2010002808,
+    "nameLocalText": 46060,
+    "type": 1
+  },
+  {
+    "displayRate": 0.04,
+    "gachaGroupId": 58,
+    "groupId": 3,
+    "id": 2010002809,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.16,
+    "gachaGroupId": 58,
+    "groupId": 3,
+    "id": 2010002810,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.47,
+    "gachaGroupId": 58,
+    "groupId": 3,
+    "id": 2010002811,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.05,
+    "gachaGroupId": 59,
+    "groupId": 1,
+    "id": 2010002901,
+    "nameLocalText": 46056,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 59,
+    "groupId": 1,
+    "id": 2010002902,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.02,
+    "gachaGroupId": 59,
+    "groupId": 1,
+    "id": 2010002903,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.28,
+    "gachaGroupId": 59,
+    "groupId": 2,
+    "id": 2010002904,
+    "nameLocalText": 46058,
+    "type": 1
+  },
+  {
+    "displayRate": 0.025,
+    "gachaGroupId": 59,
+    "groupId": 2,
+    "id": 2010002905,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.085,
+    "gachaGroupId": 59,
+    "groupId": 2,
+    "id": 2010002906,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.17,
+    "gachaGroupId": 59,
+    "groupId": 2,
+    "id": 2010002907,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.67,
+    "gachaGroupId": 59,
+    "groupId": 3,
+    "id": 2010002908,
+    "nameLocalText": 46060,
+    "type": 1
+  },
+  {
+    "displayRate": 0.04,
+    "gachaGroupId": 59,
+    "groupId": 3,
+    "id": 2010002909,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.16,
+    "gachaGroupId": 59,
+    "groupId": 3,
+    "id": 2010002910,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.47,
+    "gachaGroupId": 59,
+    "groupId": 3,
+    "id": 2010002911,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.05,
+    "gachaGroupId": 64,
+    "groupId": 1,
+    "id": 2010003301,
+    "nameLocalText": 46056,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 64,
+    "groupId": 1,
+    "id": 2010003302,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.02,
+    "gachaGroupId": 64,
+    "groupId": 1,
+    "id": 2010003303,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.28,
+    "gachaGroupId": 64,
+    "groupId": 2,
+    "id": 2010003304,
+    "nameLocalText": 46058,
+    "type": 1
+  },
+  {
+    "displayRate": 0.025,
+    "gachaGroupId": 64,
+    "groupId": 2,
+    "id": 2010003305,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.085,
+    "gachaGroupId": 64,
+    "groupId": 2,
+    "id": 2010003306,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.17,
+    "gachaGroupId": 64,
+    "groupId": 2,
+    "id": 2010003307,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.67,
+    "gachaGroupId": 64,
+    "groupId": 3,
+    "id": 2010003308,
+    "nameLocalText": 46060,
+    "type": 1
+  },
+  {
+    "displayRate": 0.04,
+    "gachaGroupId": 64,
+    "groupId": 3,
+    "id": 2010003309,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.16,
+    "gachaGroupId": 64,
+    "groupId": 3,
+    "id": 2010003310,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.47,
+    "gachaGroupId": 64,
+    "groupId": 3,
+    "id": 2010003311,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.05,
+    "gachaGroupId": 72,
+    "groupId": 1,
+    "id": 2010003401,
+    "nameLocalText": 46056,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 72,
+    "groupId": 1,
+    "id": 2010003402,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.02,
+    "gachaGroupId": 72,
+    "groupId": 1,
+    "id": 2010003403,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.28,
+    "gachaGroupId": 72,
+    "groupId": 2,
+    "id": 2010003404,
+    "nameLocalText": 46058,
+    "type": 1
+  },
+  {
+    "displayRate": 0.025,
+    "gachaGroupId": 72,
+    "groupId": 2,
+    "id": 2010003405,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.085,
+    "gachaGroupId": 72,
+    "groupId": 2,
+    "id": 2010003406,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.17,
+    "gachaGroupId": 72,
+    "groupId": 2,
+    "id": 2010003407,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.67,
+    "gachaGroupId": 72,
+    "groupId": 3,
+    "id": 2010003408,
+    "nameLocalText": 46060,
+    "type": 1
+  },
+  {
+    "displayRate": 0.04,
+    "gachaGroupId": 72,
+    "groupId": 3,
+    "id": 2010003409,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.16,
+    "gachaGroupId": 72,
+    "groupId": 3,
+    "id": 2010003410,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.47,
+    "gachaGroupId": 72,
+    "groupId": 3,
+    "id": 2010003411,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.05,
+    "gachaGroupId": 75,
+    "groupId": 1,
+    "id": 2010003501,
+    "nameLocalText": 46056,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 75,
+    "groupId": 1,
+    "id": 2010003502,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.02,
+    "gachaGroupId": 75,
+    "groupId": 1,
+    "id": 2010003503,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.28,
+    "gachaGroupId": 75,
+    "groupId": 2,
+    "id": 2010003504,
+    "nameLocalText": 46058,
+    "type": 1
+  },
+  {
+    "displayRate": 0.025,
+    "gachaGroupId": 75,
+    "groupId": 2,
+    "id": 2010003505,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.085,
+    "gachaGroupId": 75,
+    "groupId": 2,
+    "id": 2010003506,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.17,
+    "gachaGroupId": 75,
+    "groupId": 2,
+    "id": 2010003507,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.67,
+    "gachaGroupId": 75,
+    "groupId": 3,
+    "id": 2010003508,
+    "nameLocalText": 46060,
+    "type": 1
+  },
+  {
+    "displayRate": 0.04,
+    "gachaGroupId": 75,
+    "groupId": 3,
+    "id": 2010003509,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.16,
+    "gachaGroupId": 75,
+    "groupId": 3,
+    "id": 2010003510,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.47,
+    "gachaGroupId": 75,
+    "groupId": 3,
+    "id": 2010003511,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.05,
+    "gachaGroupId": 79,
+    "groupId": 1,
+    "id": 2010003601,
+    "nameLocalText": 46056,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 79,
+    "groupId": 1,
+    "id": 2010003602,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.02,
+    "gachaGroupId": 79,
+    "groupId": 1,
+    "id": 2010003603,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.28,
+    "gachaGroupId": 79,
+    "groupId": 2,
+    "id": 2010003604,
+    "nameLocalText": 46058,
+    "type": 1
+  },
+  {
+    "displayRate": 0.025,
+    "gachaGroupId": 79,
+    "groupId": 2,
+    "id": 2010003605,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.085,
+    "gachaGroupId": 79,
+    "groupId": 2,
+    "id": 2010003606,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.17,
+    "gachaGroupId": 79,
+    "groupId": 2,
+    "id": 2010003607,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.67,
+    "gachaGroupId": 79,
+    "groupId": 3,
+    "id": 2010003608,
+    "nameLocalText": 46060,
+    "type": 1
+  },
+  {
+    "displayRate": 0.04,
+    "gachaGroupId": 79,
+    "groupId": 3,
+    "id": 2010003609,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.16,
+    "gachaGroupId": 79,
+    "groupId": 3,
+    "id": 2010003610,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.47,
+    "gachaGroupId": 79,
+    "groupId": 3,
+    "id": 2010003611,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.05,
+    "gachaGroupId": 82,
+    "groupId": 1,
+    "id": 2010003701,
+    "nameLocalText": 46056,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 82,
+    "groupId": 1,
+    "id": 2010003702,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.02,
+    "gachaGroupId": 82,
+    "groupId": 1,
+    "id": 2010003703,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.28,
+    "gachaGroupId": 82,
+    "groupId": 2,
+    "id": 2010003704,
+    "nameLocalText": 46058,
+    "type": 1
+  },
+  {
+    "displayRate": 0.025,
+    "gachaGroupId": 82,
+    "groupId": 2,
+    "id": 2010003705,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.085,
+    "gachaGroupId": 82,
+    "groupId": 2,
+    "id": 2010003706,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.17,
+    "gachaGroupId": 82,
+    "groupId": 2,
+    "id": 2010003707,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.67,
+    "gachaGroupId": 82,
+    "groupId": 3,
+    "id": 2010003708,
+    "nameLocalText": 46060,
+    "type": 1
+  },
+  {
+    "displayRate": 0.04,
+    "gachaGroupId": 82,
+    "groupId": 3,
+    "id": 2010003709,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.16,
+    "gachaGroupId": 82,
+    "groupId": 3,
+    "id": 2010003710,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.47,
+    "gachaGroupId": 82,
+    "groupId": 3,
+    "id": 2010003711,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.05,
+    "gachaGroupId": 85,
+    "groupId": 1,
+    "id": 2010003801,
+    "nameLocalText": 46056,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 85,
+    "groupId": 1,
+    "id": 2010003802,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.02,
+    "gachaGroupId": 85,
+    "groupId": 1,
+    "id": 2010003803,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.28,
+    "gachaGroupId": 85,
+    "groupId": 2,
+    "id": 2010003804,
+    "nameLocalText": 46058,
+    "type": 1
+  },
+  {
+    "displayRate": 0.025,
+    "gachaGroupId": 85,
+    "groupId": 2,
+    "id": 2010003805,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.085,
+    "gachaGroupId": 85,
+    "groupId": 2,
+    "id": 2010003806,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.17,
+    "gachaGroupId": 85,
+    "groupId": 2,
+    "id": 2010003807,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.67,
+    "gachaGroupId": 85,
+    "groupId": 3,
+    "id": 2010003808,
+    "nameLocalText": 46060,
+    "type": 1
+  },
+  {
+    "displayRate": 0.04,
+    "gachaGroupId": 85,
+    "groupId": 3,
+    "id": 2010003809,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.16,
+    "gachaGroupId": 85,
+    "groupId": 3,
+    "id": 2010003810,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.47,
+    "gachaGroupId": 85,
+    "groupId": 3,
+    "id": 2010003811,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.05,
+    "gachaGroupId": 89,
+    "groupId": 1,
+    "id": 2010003901,
+    "nameLocalText": 46056,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 89,
+    "groupId": 1,
+    "id": 2010003902,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.02,
+    "gachaGroupId": 89,
+    "groupId": 1,
+    "id": 2010003903,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.28,
+    "gachaGroupId": 89,
+    "groupId": 2,
+    "id": 2010003904,
+    "nameLocalText": 46058,
+    "type": 1
+  },
+  {
+    "displayRate": 0.025,
+    "gachaGroupId": 89,
+    "groupId": 2,
+    "id": 2010003905,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.085,
+    "gachaGroupId": 89,
+    "groupId": 2,
+    "id": 2010003906,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.17,
+    "gachaGroupId": 89,
+    "groupId": 2,
+    "id": 2010003907,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.67,
+    "gachaGroupId": 89,
+    "groupId": 3,
+    "id": 2010003908,
+    "nameLocalText": 46060,
+    "type": 1
+  },
+  {
+    "displayRate": 0.04,
+    "gachaGroupId": 89,
+    "groupId": 3,
+    "id": 2010003909,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.16,
+    "gachaGroupId": 89,
+    "groupId": 3,
+    "id": 2010003910,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.47,
+    "gachaGroupId": 89,
+    "groupId": 3,
+    "id": 2010003911,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.05,
+    "gachaGroupId": 91,
+    "groupId": 1,
+    "id": 2010004001,
+    "nameLocalText": 46056,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 91,
+    "groupId": 1,
+    "id": 2010004002,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.02,
+    "gachaGroupId": 91,
+    "groupId": 1,
+    "id": 2010004003,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.28,
+    "gachaGroupId": 91,
+    "groupId": 2,
+    "id": 2010004004,
+    "nameLocalText": 46058,
+    "type": 1
+  },
+  {
+    "displayRate": 0.025,
+    "gachaGroupId": 91,
+    "groupId": 2,
+    "id": 2010004005,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.085,
+    "gachaGroupId": 91,
+    "groupId": 2,
+    "id": 2010004006,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.17,
+    "gachaGroupId": 91,
+    "groupId": 2,
+    "id": 2010004007,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.67,
+    "gachaGroupId": 91,
+    "groupId": 3,
+    "id": 2010004008,
+    "nameLocalText": 46060,
+    "type": 1
+  },
+  {
+    "displayRate": 0.04,
+    "gachaGroupId": 91,
+    "groupId": 3,
+    "id": 2010004009,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.16,
+    "gachaGroupId": 91,
+    "groupId": 3,
+    "id": 2010004010,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.47,
+    "gachaGroupId": 91,
+    "groupId": 3,
+    "id": 2010004011,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.05,
+    "gachaGroupId": 93,
+    "groupId": 1,
+    "id": 2010004101,
+    "nameLocalText": 46056,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 93,
+    "groupId": 1,
+    "id": 2010004102,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.02,
+    "gachaGroupId": 93,
+    "groupId": 1,
+    "id": 2010004103,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.28,
+    "gachaGroupId": 93,
+    "groupId": 2,
+    "id": 2010004104,
+    "nameLocalText": 46058,
+    "type": 1
+  },
+  {
+    "displayRate": 0.025,
+    "gachaGroupId": 93,
+    "groupId": 2,
+    "id": 2010004105,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.085,
+    "gachaGroupId": 93,
+    "groupId": 2,
+    "id": 2010004106,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.17,
+    "gachaGroupId": 93,
+    "groupId": 2,
+    "id": 2010004107,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.67,
+    "gachaGroupId": 93,
+    "groupId": 3,
+    "id": 2010004108,
+    "nameLocalText": 46060,
+    "type": 1
+  },
+  {
+    "displayRate": 0.04,
+    "gachaGroupId": 93,
+    "groupId": 3,
+    "id": 2010004109,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.16,
+    "gachaGroupId": 93,
+    "groupId": 3,
+    "id": 2010004110,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.47,
+    "gachaGroupId": 93,
+    "groupId": 3,
+    "id": 2010004111,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.05,
+    "gachaGroupId": 95,
+    "groupId": 1,
+    "id": 2010004201,
+    "nameLocalText": 46056,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 95,
+    "groupId": 1,
+    "id": 2010004202,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.02,
+    "gachaGroupId": 95,
+    "groupId": 1,
+    "id": 2010004203,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.28,
+    "gachaGroupId": 95,
+    "groupId": 2,
+    "id": 2010004204,
+    "nameLocalText": 46058,
+    "type": 1
+  },
+  {
+    "displayRate": 0.025,
+    "gachaGroupId": 95,
+    "groupId": 2,
+    "id": 2010004205,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.085,
+    "gachaGroupId": 95,
+    "groupId": 2,
+    "id": 2010004206,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.17,
+    "gachaGroupId": 95,
+    "groupId": 2,
+    "id": 2010004207,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.67,
+    "gachaGroupId": 95,
+    "groupId": 3,
+    "id": 2010004208,
+    "nameLocalText": 46060,
+    "type": 1
+  },
+  {
+    "displayRate": 0.04,
+    "gachaGroupId": 95,
+    "groupId": 3,
+    "id": 2010004209,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.16,
+    "gachaGroupId": 95,
+    "groupId": 3,
+    "id": 2010004210,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.47,
+    "gachaGroupId": 95,
+    "groupId": 3,
+    "id": 2010004211,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.05,
+    "gachaGroupId": 97,
+    "groupId": 1,
+    "id": 2010004301,
+    "nameLocalText": 46056,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 97,
+    "groupId": 1,
+    "id": 2010004302,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.02,
+    "gachaGroupId": 97,
+    "groupId": 1,
+    "id": 2010004303,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.28,
+    "gachaGroupId": 97,
+    "groupId": 2,
+    "id": 2010004304,
+    "nameLocalText": 46058,
+    "type": 1
+  },
+  {
+    "displayRate": 0.025,
+    "gachaGroupId": 97,
+    "groupId": 2,
+    "id": 2010004305,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.085,
+    "gachaGroupId": 97,
+    "groupId": 2,
+    "id": 2010004306,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.17,
+    "gachaGroupId": 97,
+    "groupId": 2,
+    "id": 2010004307,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.67,
+    "gachaGroupId": 97,
+    "groupId": 3,
+    "id": 2010004308,
+    "nameLocalText": 46060,
+    "type": 1
+  },
+  {
+    "displayRate": 0.04,
+    "gachaGroupId": 97,
+    "groupId": 3,
+    "id": 2010004309,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.16,
+    "gachaGroupId": 97,
+    "groupId": 3,
+    "id": 2010004310,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.47,
+    "gachaGroupId": 97,
+    "groupId": 3,
+    "id": 2010004311,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.05,
+    "gachaGroupId": 100,
+    "groupId": 1,
+    "id": 2010004401,
+    "nameLocalText": 46056,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 100,
+    "groupId": 1,
+    "id": 2010004402,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.02,
+    "gachaGroupId": 100,
+    "groupId": 1,
+    "id": 2010004403,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.28,
+    "gachaGroupId": 100,
+    "groupId": 2,
+    "id": 2010004404,
+    "nameLocalText": 46058,
+    "type": 1
+  },
+  {
+    "displayRate": 0.025,
+    "gachaGroupId": 100,
+    "groupId": 2,
+    "id": 2010004405,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.085,
+    "gachaGroupId": 100,
+    "groupId": 2,
+    "id": 2010004406,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.17,
+    "gachaGroupId": 100,
+    "groupId": 2,
+    "id": 2010004407,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.67,
+    "gachaGroupId": 100,
+    "groupId": 3,
+    "id": 2010004408,
+    "nameLocalText": 46060,
+    "type": 1
+  },
+  {
+    "displayRate": 0.04,
+    "gachaGroupId": 100,
+    "groupId": 3,
+    "id": 2010004409,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.16,
+    "gachaGroupId": 100,
+    "groupId": 3,
+    "id": 2010004410,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.47,
+    "gachaGroupId": 100,
+    "groupId": 3,
+    "id": 2010004411,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.05,
+    "gachaGroupId": 104,
+    "groupId": 1,
+    "id": 2010004501,
+    "nameLocalText": 46056,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 104,
+    "groupId": 1,
+    "id": 2010004502,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.02,
+    "gachaGroupId": 104,
+    "groupId": 1,
+    "id": 2010004503,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.28,
+    "gachaGroupId": 104,
+    "groupId": 2,
+    "id": 2010004504,
+    "nameLocalText": 46058,
+    "type": 1
+  },
+  {
+    "displayRate": 0.025,
+    "gachaGroupId": 104,
+    "groupId": 2,
+    "id": 2010004505,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.085,
+    "gachaGroupId": 104,
+    "groupId": 2,
+    "id": 2010004506,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.17,
+    "gachaGroupId": 104,
+    "groupId": 2,
+    "id": 2010004507,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.67,
+    "gachaGroupId": 104,
+    "groupId": 3,
+    "id": 2010004508,
+    "nameLocalText": 46060,
+    "type": 1
+  },
+  {
+    "displayRate": 0.04,
+    "gachaGroupId": 104,
+    "groupId": 3,
+    "id": 2010004509,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.16,
+    "gachaGroupId": 104,
+    "groupId": 3,
+    "id": 2010004510,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.47,
+    "gachaGroupId": 104,
+    "groupId": 3,
+    "id": 2010004511,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.05,
+    "gachaGroupId": 107,
+    "groupId": 1,
+    "id": 2010004601,
+    "nameLocalText": 46056,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 107,
+    "groupId": 1,
+    "id": 2010004602,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.02,
+    "gachaGroupId": 107,
+    "groupId": 1,
+    "id": 2010004603,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.28,
+    "gachaGroupId": 107,
+    "groupId": 2,
+    "id": 2010004604,
+    "nameLocalText": 46058,
+    "type": 1
+  },
+  {
+    "displayRate": 0.025,
+    "gachaGroupId": 107,
+    "groupId": 2,
+    "id": 2010004605,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.085,
+    "gachaGroupId": 107,
+    "groupId": 2,
+    "id": 2010004606,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.17,
+    "gachaGroupId": 107,
+    "groupId": 2,
+    "id": 2010004607,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.67,
+    "gachaGroupId": 107,
+    "groupId": 3,
+    "id": 2010004608,
+    "nameLocalText": 46060,
+    "type": 1
+  },
+  {
+    "displayRate": 0.04,
+    "gachaGroupId": 107,
+    "groupId": 3,
+    "id": 2010004609,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.16,
+    "gachaGroupId": 107,
+    "groupId": 3,
+    "id": 2010004610,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.47,
+    "gachaGroupId": 107,
+    "groupId": 3,
+    "id": 2010004611,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.05,
+    "gachaGroupId": 111,
+    "groupId": 1,
+    "id": 2010004701,
+    "nameLocalText": 46056,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 111,
+    "groupId": 1,
+    "id": 2010004702,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.02,
+    "gachaGroupId": 111,
+    "groupId": 1,
+    "id": 2010004703,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.28,
+    "gachaGroupId": 111,
+    "groupId": 2,
+    "id": 2010004704,
+    "nameLocalText": 46058,
+    "type": 1
+  },
+  {
+    "displayRate": 0.025,
+    "gachaGroupId": 111,
+    "groupId": 2,
+    "id": 2010004705,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.085,
+    "gachaGroupId": 111,
+    "groupId": 2,
+    "id": 2010004706,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.17,
+    "gachaGroupId": 111,
+    "groupId": 2,
+    "id": 2010004707,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.67,
+    "gachaGroupId": 111,
+    "groupId": 3,
+    "id": 2010004708,
+    "nameLocalText": 46060,
+    "type": 1
+  },
+  {
+    "displayRate": 0.04,
+    "gachaGroupId": 111,
+    "groupId": 3,
+    "id": 2010004709,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.16,
+    "gachaGroupId": 111,
+    "groupId": 3,
+    "id": 2010004710,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.47,
+    "gachaGroupId": 111,
+    "groupId": 3,
+    "id": 2010004711,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.05,
+    "gachaGroupId": 113,
+    "groupId": 1,
+    "id": 2010004801,
+    "nameLocalText": 46056,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 113,
+    "groupId": 1,
+    "id": 2010004802,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.02,
+    "gachaGroupId": 113,
+    "groupId": 1,
+    "id": 2010004803,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.28,
+    "gachaGroupId": 113,
+    "groupId": 2,
+    "id": 2010004804,
+    "nameLocalText": 46058,
+    "type": 1
+  },
+  {
+    "displayRate": 0.025,
+    "gachaGroupId": 113,
+    "groupId": 2,
+    "id": 2010004805,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.085,
+    "gachaGroupId": 113,
+    "groupId": 2,
+    "id": 2010004806,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.17,
+    "gachaGroupId": 113,
+    "groupId": 2,
+    "id": 2010004807,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.67,
+    "gachaGroupId": 113,
+    "groupId": 3,
+    "id": 2010004808,
+    "nameLocalText": 46060,
+    "type": 1
+  },
+  {
+    "displayRate": 0.04,
+    "gachaGroupId": 113,
+    "groupId": 3,
+    "id": 2010004809,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.16,
+    "gachaGroupId": 113,
+    "groupId": 3,
+    "id": 2010004810,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.47,
+    "gachaGroupId": 113,
+    "groupId": 3,
+    "id": 2010004811,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.05,
+    "gachaGroupId": 115,
+    "groupId": 1,
+    "id": 2010004901,
+    "nameLocalText": 46056,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 115,
+    "groupId": 1,
+    "id": 2010004902,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.02,
+    "gachaGroupId": 115,
+    "groupId": 1,
+    "id": 2010004903,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.28,
+    "gachaGroupId": 115,
+    "groupId": 2,
+    "id": 2010004904,
+    "nameLocalText": 46058,
+    "type": 1
+  },
+  {
+    "displayRate": 0.025,
+    "gachaGroupId": 115,
+    "groupId": 2,
+    "id": 2010004905,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.085,
+    "gachaGroupId": 115,
+    "groupId": 2,
+    "id": 2010004906,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.17,
+    "gachaGroupId": 115,
+    "groupId": 2,
+    "id": 2010004907,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.67,
+    "gachaGroupId": 115,
+    "groupId": 3,
+    "id": 2010004908,
+    "nameLocalText": 46060,
+    "type": 1
+  },
+  {
+    "displayRate": 0.04,
+    "gachaGroupId": 115,
+    "groupId": 3,
+    "id": 2010004909,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.16,
+    "gachaGroupId": 115,
+    "groupId": 3,
+    "id": 2010004910,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.47,
+    "gachaGroupId": 115,
+    "groupId": 3,
+    "id": 2010004911,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.05,
+    "gachaGroupId": 12,
+    "groupId": 1,
+    "id": 2010005001,
+    "nameLocalText": 46056,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 12,
+    "groupId": 1,
+    "id": 2010005002,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.02,
+    "gachaGroupId": 12,
+    "groupId": 1,
+    "id": 2010005003,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.28,
+    "gachaGroupId": 12,
+    "groupId": 2,
+    "id": 2010005004,
+    "nameLocalText": 46058,
+    "type": 1
+  },
+  {
+    "displayRate": 0.025,
+    "gachaGroupId": 12,
+    "groupId": 2,
+    "id": 2010005005,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.085,
+    "gachaGroupId": 12,
+    "groupId": 2,
+    "id": 2010005006,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.17,
+    "gachaGroupId": 12,
+    "groupId": 2,
+    "id": 2010005007,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.67,
+    "gachaGroupId": 12,
+    "groupId": 3,
+    "id": 2010005008,
+    "nameLocalText": 46060,
+    "type": 1
+  },
+  {
+    "displayRate": 0.04,
+    "gachaGroupId": 12,
+    "groupId": 3,
+    "id": 2010005009,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.16,
+    "gachaGroupId": 12,
+    "groupId": 3,
+    "id": 2010005010,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.47,
+    "gachaGroupId": 12,
+    "groupId": 3,
+    "id": 2010005011,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.05,
+    "gachaGroupId": 120,
+    "groupId": 1,
+    "id": 2010005101,
+    "nameLocalText": 46056,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 120,
+    "groupId": 1,
+    "id": 2010005102,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.02,
+    "gachaGroupId": 120,
+    "groupId": 1,
+    "id": 2010005103,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.28,
+    "gachaGroupId": 120,
+    "groupId": 2,
+    "id": 2010005104,
+    "nameLocalText": 46058,
+    "type": 1
+  },
+  {
+    "displayRate": 0.025,
+    "gachaGroupId": 120,
+    "groupId": 2,
+    "id": 2010005105,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.085,
+    "gachaGroupId": 120,
+    "groupId": 2,
+    "id": 2010005106,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.17,
+    "gachaGroupId": 120,
+    "groupId": 2,
+    "id": 2010005107,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.67,
+    "gachaGroupId": 120,
+    "groupId": 3,
+    "id": 2010005108,
+    "nameLocalText": 46060,
+    "type": 1
+  },
+  {
+    "displayRate": 0.04,
+    "gachaGroupId": 120,
+    "groupId": 3,
+    "id": 2010005109,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.16,
+    "gachaGroupId": 120,
+    "groupId": 3,
+    "id": 2010005110,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.47,
+    "gachaGroupId": 120,
+    "groupId": 3,
+    "id": 2010005111,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.05,
+    "gachaGroupId": 131,
+    "groupId": 1,
+    "id": 2010005201,
+    "nameLocalText": 46056,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 131,
+    "groupId": 1,
+    "id": 2010005202,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.02,
+    "gachaGroupId": 131,
+    "groupId": 1,
+    "id": 2010005203,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.28,
+    "gachaGroupId": 131,
+    "groupId": 2,
+    "id": 2010005204,
+    "nameLocalText": 46058,
+    "type": 1
+  },
+  {
+    "displayRate": 0.025,
+    "gachaGroupId": 131,
+    "groupId": 2,
+    "id": 2010005205,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.085,
+    "gachaGroupId": 131,
+    "groupId": 2,
+    "id": 2010005206,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.17,
+    "gachaGroupId": 131,
+    "groupId": 2,
+    "id": 2010005207,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.67,
+    "gachaGroupId": 131,
+    "groupId": 3,
+    "id": 2010005208,
+    "nameLocalText": 46060,
+    "type": 1
+  },
+  {
+    "displayRate": 0.04,
+    "gachaGroupId": 131,
+    "groupId": 3,
+    "id": 2010005209,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.16,
+    "gachaGroupId": 131,
+    "groupId": 3,
+    "id": 2010005210,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.47,
+    "gachaGroupId": 131,
+    "groupId": 3,
+    "id": 2010005211,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.05,
+    "gachaGroupId": 133,
+    "groupId": 1,
+    "id": 2010005301,
+    "nameLocalText": 46056,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 133,
+    "groupId": 1,
+    "id": 2010005302,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.02,
+    "gachaGroupId": 133,
+    "groupId": 1,
+    "id": 2010005303,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.28,
+    "gachaGroupId": 133,
+    "groupId": 2,
+    "id": 2010005304,
+    "nameLocalText": 46058,
+    "type": 1
+  },
+  {
+    "displayRate": 0.025,
+    "gachaGroupId": 133,
+    "groupId": 2,
+    "id": 2010005305,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.085,
+    "gachaGroupId": 133,
+    "groupId": 2,
+    "id": 2010005306,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.17,
+    "gachaGroupId": 133,
+    "groupId": 2,
+    "id": 2010005307,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.67,
+    "gachaGroupId": 133,
+    "groupId": 3,
+    "id": 2010005308,
+    "nameLocalText": 46060,
+    "type": 1
+  },
+  {
+    "displayRate": 0.04,
+    "gachaGroupId": 133,
+    "groupId": 3,
+    "id": 2010005309,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.16,
+    "gachaGroupId": 133,
+    "groupId": 3,
+    "id": 2010005310,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.47,
+    "gachaGroupId": 133,
+    "groupId": 3,
+    "id": 2010005311,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.05,
+    "gachaGroupId": 140,
+    "groupId": 1,
+    "id": 2010005401,
+    "nameLocalText": 46056,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 140,
+    "groupId": 1,
+    "id": 2010005402,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.02,
+    "gachaGroupId": 140,
+    "groupId": 1,
+    "id": 2010005403,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.28,
+    "gachaGroupId": 140,
+    "groupId": 2,
+    "id": 2010005404,
+    "nameLocalText": 46058,
+    "type": 1
+  },
+  {
+    "displayRate": 0.025,
+    "gachaGroupId": 140,
+    "groupId": 2,
+    "id": 2010005405,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.085,
+    "gachaGroupId": 140,
+    "groupId": 2,
+    "id": 2010005406,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.17,
+    "gachaGroupId": 140,
+    "groupId": 2,
+    "id": 2010005407,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.67,
+    "gachaGroupId": 140,
+    "groupId": 3,
+    "id": 2010005408,
+    "nameLocalText": 46060,
+    "type": 1
+  },
+  {
+    "displayRate": 0.04,
+    "gachaGroupId": 140,
+    "groupId": 3,
+    "id": 2010005409,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.16,
+    "gachaGroupId": 140,
+    "groupId": 3,
+    "id": 2010005410,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.47,
+    "gachaGroupId": 140,
+    "groupId": 3,
+    "id": 2010005411,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.05,
+    "gachaGroupId": 144,
+    "groupId": 1,
+    "id": 2010005501,
+    "nameLocalText": 46056,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 144,
+    "groupId": 1,
+    "id": 2010005502,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.02,
+    "gachaGroupId": 144,
+    "groupId": 1,
+    "id": 2010005503,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.28,
+    "gachaGroupId": 144,
+    "groupId": 2,
+    "id": 2010005504,
+    "nameLocalText": 46058,
+    "type": 1
+  },
+  {
+    "displayRate": 0.025,
+    "gachaGroupId": 144,
+    "groupId": 2,
+    "id": 2010005505,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.085,
+    "gachaGroupId": 144,
+    "groupId": 2,
+    "id": 2010005506,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.17,
+    "gachaGroupId": 144,
+    "groupId": 2,
+    "id": 2010005507,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.67,
+    "gachaGroupId": 144,
+    "groupId": 3,
+    "id": 2010005508,
+    "nameLocalText": 46060,
+    "type": 1
+  },
+  {
+    "displayRate": 0.04,
+    "gachaGroupId": 144,
+    "groupId": 3,
+    "id": 2010005509,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.16,
+    "gachaGroupId": 144,
+    "groupId": 3,
+    "id": 2010005510,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.47,
+    "gachaGroupId": 144,
+    "groupId": 3,
+    "id": 2010005511,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.05,
+    "gachaGroupId": 146,
+    "groupId": 1,
+    "id": 2010005601,
+    "nameLocalText": 46056,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 146,
+    "groupId": 1,
+    "id": 2010005602,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.02,
+    "gachaGroupId": 146,
+    "groupId": 1,
+    "id": 2010005603,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.28,
+    "gachaGroupId": 146,
+    "groupId": 2,
+    "id": 2010005604,
+    "nameLocalText": 46058,
+    "type": 1
+  },
+  {
+    "displayRate": 0.025,
+    "gachaGroupId": 146,
+    "groupId": 2,
+    "id": 2010005605,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.085,
+    "gachaGroupId": 146,
+    "groupId": 2,
+    "id": 2010005606,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.17,
+    "gachaGroupId": 146,
+    "groupId": 2,
+    "id": 2010005607,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.67,
+    "gachaGroupId": 146,
+    "groupId": 3,
+    "id": 2010005608,
+    "nameLocalText": 46060,
+    "type": 1
+  },
+  {
+    "displayRate": 0.04,
+    "gachaGroupId": 146,
+    "groupId": 3,
+    "id": 2010005609,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.16,
+    "gachaGroupId": 146,
+    "groupId": 3,
+    "id": 2010005610,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.47,
+    "gachaGroupId": 146,
+    "groupId": 3,
+    "id": 2010005611,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.05,
+    "gachaGroupId": 148,
+    "groupId": 1,
+    "id": 2010005612,
+    "nameLocalText": 46056,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 148,
+    "groupId": 1,
+    "id": 2010005613,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.02,
+    "gachaGroupId": 148,
+    "groupId": 1,
+    "id": 2010005614,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.28,
+    "gachaGroupId": 148,
+    "groupId": 2,
+    "id": 2010005615,
+    "nameLocalText": 46058,
+    "type": 1
+  },
+  {
+    "displayRate": 0.025,
+    "gachaGroupId": 148,
+    "groupId": 2,
+    "id": 2010005616,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.085,
+    "gachaGroupId": 148,
+    "groupId": 2,
+    "id": 2010005617,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.17,
+    "gachaGroupId": 148,
+    "groupId": 2,
+    "id": 2010005618,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.67,
+    "gachaGroupId": 148,
+    "groupId": 3,
+    "id": 2010005619,
+    "nameLocalText": 46060,
+    "type": 1
+  },
+  {
+    "displayRate": 0.04,
+    "gachaGroupId": 148,
+    "groupId": 3,
+    "id": 2010005620,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.16,
+    "gachaGroupId": 148,
+    "groupId": 3,
+    "id": 2010005621,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.47,
+    "gachaGroupId": 148,
+    "groupId": 3,
+    "id": 2010005622,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.05,
+    "gachaGroupId": 153,
+    "groupId": 1,
+    "id": 2010007001,
+    "nameLocalText": 46056,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 153,
+    "groupId": 1,
+    "id": 2010007002,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.02,
+    "gachaGroupId": 153,
+    "groupId": 1,
+    "id": 2010007003,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.28,
+    "gachaGroupId": 153,
+    "groupId": 2,
+    "id": 2010007004,
+    "nameLocalText": 46058,
+    "type": 1
+  },
+  {
+    "displayRate": 0.025,
+    "gachaGroupId": 153,
+    "groupId": 2,
+    "id": 2010007005,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.085,
+    "gachaGroupId": 153,
+    "groupId": 2,
+    "id": 2010007006,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.17,
+    "gachaGroupId": 153,
+    "groupId": 2,
+    "id": 2010007007,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.67,
+    "gachaGroupId": 153,
+    "groupId": 3,
+    "id": 2010007008,
+    "nameLocalText": 46060,
+    "type": 1
+  },
+  {
+    "displayRate": 0.04,
+    "gachaGroupId": 153,
+    "groupId": 3,
+    "id": 2010007009,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.16,
+    "gachaGroupId": 153,
+    "groupId": 3,
+    "id": 2010007010,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.47,
+    "gachaGroupId": 153,
+    "groupId": 3,
+    "id": 2010007011,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.05,
+    "gachaGroupId": 158,
+    "groupId": 1,
+    "id": 2010007101,
+    "nameLocalText": 46056,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 158,
+    "groupId": 1,
+    "id": 2010007102,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.02,
+    "gachaGroupId": 158,
+    "groupId": 1,
+    "id": 2010007103,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.28,
+    "gachaGroupId": 158,
+    "groupId": 2,
+    "id": 2010007104,
+    "nameLocalText": 46058,
+    "type": 1
+  },
+  {
+    "displayRate": 0.025,
+    "gachaGroupId": 158,
+    "groupId": 2,
+    "id": 2010007105,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.085,
+    "gachaGroupId": 158,
+    "groupId": 2,
+    "id": 2010007106,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.17,
+    "gachaGroupId": 158,
+    "groupId": 2,
+    "id": 2010007107,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.67,
+    "gachaGroupId": 158,
+    "groupId": 3,
+    "id": 2010007108,
+    "nameLocalText": 46060,
+    "type": 1
+  },
+  {
+    "displayRate": 0.04,
+    "gachaGroupId": 158,
+    "groupId": 3,
+    "id": 2010007109,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.16,
+    "gachaGroupId": 158,
+    "groupId": 3,
+    "id": 2010007110,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.47,
+    "gachaGroupId": 158,
+    "groupId": 3,
+    "id": 2010007111,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.05,
+    "gachaGroupId": 160,
+    "groupId": 1,
+    "id": 2010007201,
+    "nameLocalText": 46056,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 160,
+    "groupId": 1,
+    "id": 2010007202,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.02,
+    "gachaGroupId": 160,
+    "groupId": 1,
+    "id": 2010007203,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.28,
+    "gachaGroupId": 160,
+    "groupId": 2,
+    "id": 2010007204,
+    "nameLocalText": 46058,
+    "type": 1
+  },
+  {
+    "displayRate": 0.025,
+    "gachaGroupId": 160,
+    "groupId": 2,
+    "id": 2010007205,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.085,
+    "gachaGroupId": 160,
+    "groupId": 2,
+    "id": 2010007206,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.17,
+    "gachaGroupId": 160,
+    "groupId": 2,
+    "id": 2010007207,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.67,
+    "gachaGroupId": 160,
+    "groupId": 3,
+    "id": 2010007208,
+    "nameLocalText": 46060,
+    "type": 1
+  },
+  {
+    "displayRate": 0.04,
+    "gachaGroupId": 160,
+    "groupId": 3,
+    "id": 2010007209,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.16,
+    "gachaGroupId": 160,
+    "groupId": 3,
+    "id": 2010007210,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.47,
+    "gachaGroupId": 160,
+    "groupId": 3,
+    "id": 2010007211,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.05,
+    "gachaGroupId": 162,
+    "groupId": 1,
+    "id": 2010007301,
+    "nameLocalText": 46056,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 162,
+    "groupId": 1,
+    "id": 2010007302,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.02,
+    "gachaGroupId": 162,
+    "groupId": 1,
+    "id": 2010007303,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.28,
+    "gachaGroupId": 162,
+    "groupId": 2,
+    "id": 2010007304,
+    "nameLocalText": 46058,
+    "type": 1
+  },
+  {
+    "displayRate": 0.025,
+    "gachaGroupId": 162,
+    "groupId": 2,
+    "id": 2010007305,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.085,
+    "gachaGroupId": 162,
+    "groupId": 2,
+    "id": 2010007306,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.17,
+    "gachaGroupId": 162,
+    "groupId": 2,
+    "id": 2010007307,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.67,
+    "gachaGroupId": 162,
+    "groupId": 3,
+    "id": 2010007308,
+    "nameLocalText": 46060,
+    "type": 1
+  },
+  {
+    "displayRate": 0.04,
+    "gachaGroupId": 162,
+    "groupId": 3,
+    "id": 2010007309,
+    "nameLocalText": 2817,
+    "type": 2
+  },
+  {
+    "displayRate": 0.16,
+    "gachaGroupId": 162,
+    "groupId": 3,
+    "id": 2010007310,
+    "nameLocalText": 2818,
+    "type": 2
+  },
+  {
+    "displayRate": 0.47,
+    "gachaGroupId": 162,
+    "groupId": 3,
+    "id": 2010007311,
+    "nameLocalText": 2819,
+    "type": 2
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20026,
+    "groupId": 1,
+    "id": 80100261,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20026,
+    "groupId": 2,
+    "id": 80100262,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20026,
+    "groupId": 3,
+    "id": 80100263,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20027,
+    "groupId": 1,
+    "id": 80100271,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20027,
+    "groupId": 2,
+    "id": 80100272,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20027,
+    "groupId": 3,
+    "id": 80100273,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20028,
+    "groupId": 1,
+    "id": 80100281,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20028,
+    "groupId": 2,
+    "id": 80100282,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20028,
+    "groupId": 3,
+    "id": 80100283,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20029,
+    "groupId": 1,
+    "id": 80100291,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20029,
+    "groupId": 2,
+    "id": 80100292,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20029,
+    "groupId": 3,
+    "id": 80100293,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20030,
+    "groupId": 1,
+    "id": 80100301,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20030,
+    "groupId": 2,
+    "id": 80100302,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20030,
+    "groupId": 3,
+    "id": 80100303,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20031,
+    "groupId": 1,
+    "id": 80100311,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20031,
+    "groupId": 2,
+    "id": 80100312,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20031,
+    "groupId": 3,
+    "id": 80100313,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20032,
+    "groupId": 1,
+    "id": 80100321,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20032,
+    "groupId": 2,
+    "id": 80100322,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20032,
+    "groupId": 3,
+    "id": 80100323,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20033,
+    "groupId": 1,
+    "id": 80100331,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20033,
+    "groupId": 2,
+    "id": 80100332,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20033,
+    "groupId": 3,
+    "id": 80100333,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20034,
+    "groupId": 1,
+    "id": 80100341,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20034,
+    "groupId": 2,
+    "id": 80100342,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20034,
+    "groupId": 3,
+    "id": 80100343,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20035,
+    "groupId": 1,
+    "id": 80100351,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20035,
+    "groupId": 2,
+    "id": 80100352,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20035,
+    "groupId": 3,
+    "id": 80100353,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20036,
+    "groupId": 1,
+    "id": 80100361,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20036,
+    "groupId": 2,
+    "id": 80100362,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20036,
+    "groupId": 3,
+    "id": 80100363,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20037,
+    "groupId": 1,
+    "id": 80100371,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20037,
+    "groupId": 2,
+    "id": 80100372,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20037,
+    "groupId": 3,
+    "id": 80100373,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20038,
+    "groupId": 1,
+    "id": 81000381,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20038,
+    "groupId": 2,
+    "id": 81000382,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20038,
+    "groupId": 3,
+    "id": 81000383,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20039,
+    "groupId": 1,
+    "id": 81000391,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20039,
+    "groupId": 2,
+    "id": 81000392,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20039,
+    "groupId": 3,
+    "id": 81000393,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20040,
+    "groupId": 1,
+    "id": 81000401,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20040,
+    "groupId": 2,
+    "id": 81000402,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20040,
+    "groupId": 3,
+    "id": 81000403,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20041,
+    "groupId": 1,
+    "id": 81000411,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20041,
+    "groupId": 2,
+    "id": 81000412,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20041,
+    "groupId": 3,
+    "id": 81000413,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20042,
+    "groupId": 1,
+    "id": 81000421,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20042,
+    "groupId": 2,
+    "id": 81000422,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20042,
+    "groupId": 3,
+    "id": 81000423,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20043,
+    "groupId": 1,
+    "id": 81000431,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20043,
+    "groupId": 2,
+    "id": 81000432,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20043,
+    "groupId": 3,
+    "id": 81000433,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20044,
+    "groupId": 1,
+    "id": 81000441,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20044,
+    "groupId": 2,
+    "id": 81000442,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20044,
+    "groupId": 3,
+    "id": 81000443,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20045,
+    "groupId": 1,
+    "id": 81000451,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20045,
+    "groupId": 2,
+    "id": 81000452,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20045,
+    "groupId": 3,
+    "id": 81000453,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20046,
+    "groupId": 1,
+    "id": 81000461,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20046,
+    "groupId": 2,
+    "id": 81000462,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20046,
+    "groupId": 3,
+    "id": 81000463,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20047,
+    "groupId": 1,
+    "id": 81000471,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20047,
+    "groupId": 2,
+    "id": 81000472,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20047,
+    "groupId": 3,
+    "id": 81000473,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20048,
+    "groupId": 1,
+    "id": 81000481,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20048,
+    "groupId": 2,
+    "id": 81000482,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20048,
+    "groupId": 3,
+    "id": 81000483,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20049,
+    "groupId": 1,
+    "id": 81000491,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20049,
+    "groupId": 2,
+    "id": 81000492,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20049,
+    "groupId": 3,
+    "id": 81000493,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20050,
+    "groupId": 1,
+    "id": 81000501,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20050,
+    "groupId": 2,
+    "id": 81000502,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20050,
+    "groupId": 3,
+    "id": 81000503,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20051,
+    "groupId": 1,
+    "id": 81000511,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20051,
+    "groupId": 2,
+    "id": 81000512,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20051,
+    "groupId": 3,
+    "id": 81000513,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20052,
+    "groupId": 1,
+    "id": 81000521,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20052,
+    "groupId": 2,
+    "id": 81000522,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20052,
+    "groupId": 3,
+    "id": 81000523,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20053,
+    "groupId": 1,
+    "id": 81000531,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20053,
+    "groupId": 2,
+    "id": 81000532,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20053,
+    "groupId": 3,
+    "id": 81000533,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20054,
+    "groupId": 1,
+    "id": 81000541,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20054,
+    "groupId": 2,
+    "id": 81000542,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20054,
+    "groupId": 3,
+    "id": 81000543,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20055,
+    "groupId": 1,
+    "id": 81000551,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20055,
+    "groupId": 2,
+    "id": 81000552,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20055,
+    "groupId": 3,
+    "id": 81000553,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20056,
+    "groupId": 1,
+    "id": 81000561,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20056,
+    "groupId": 2,
+    "id": 81000562,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20056,
+    "groupId": 3,
+    "id": 81000563,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20057,
+    "groupId": 1,
+    "id": 81000571,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20057,
+    "groupId": 2,
+    "id": 81000572,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20057,
+    "groupId": 3,
+    "id": 81000573,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20058,
+    "groupId": 1,
+    "id": 81000581,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20058,
+    "groupId": 2,
+    "id": 81000582,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20058,
+    "groupId": 3,
+    "id": 81000583,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20059,
+    "groupId": 1,
+    "id": 81000591,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20059,
+    "groupId": 2,
+    "id": 81000592,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20059,
+    "groupId": 3,
+    "id": 81000593,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20060,
+    "groupId": 1,
+    "id": 81000601,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20060,
+    "groupId": 2,
+    "id": 81000602,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20060,
+    "groupId": 3,
+    "id": 81000603,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20061,
+    "groupId": 1,
+    "id": 81000611,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20061,
+    "groupId": 2,
+    "id": 81000612,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20061,
+    "groupId": 3,
+    "id": 81000613,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20062,
+    "groupId": 1,
+    "id": 81000621,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20062,
+    "groupId": 2,
+    "id": 81000622,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20062,
+    "groupId": 3,
+    "id": 81000623,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20063,
+    "groupId": 1,
+    "id": 81000631,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20063,
+    "groupId": 2,
+    "id": 81000632,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20063,
+    "groupId": 3,
+    "id": 81000633,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20064,
+    "groupId": 1,
+    "id": 81000641,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20064,
+    "groupId": 2,
+    "id": 81000642,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20064,
+    "groupId": 3,
+    "id": 81000643,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20065,
+    "groupId": 1,
+    "id": 81000651,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20065,
+    "groupId": 2,
+    "id": 81000652,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20065,
+    "groupId": 3,
+    "id": 81000653,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20066,
+    "groupId": 1,
+    "id": 81000661,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20066,
+    "groupId": 2,
+    "id": 81000662,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20066,
+    "groupId": 3,
+    "id": 81000663,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20067,
+    "groupId": 1,
+    "id": 81000671,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20067,
+    "groupId": 2,
+    "id": 81000672,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20067,
+    "groupId": 3,
+    "id": 81000673,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20068,
+    "groupId": 1,
+    "id": 81000681,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20068,
+    "groupId": 2,
+    "id": 81000682,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20068,
+    "groupId": 3,
+    "id": 81000683,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20069,
+    "groupId": 1,
+    "id": 81000691,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20069,
+    "groupId": 2,
+    "id": 81000692,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20069,
+    "groupId": 3,
+    "id": 81000693,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20070,
+    "groupId": 1,
+    "id": 81000701,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20070,
+    "groupId": 2,
+    "id": 81000702,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20070,
+    "groupId": 3,
+    "id": 81000703,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20071,
+    "groupId": 1,
+    "id": 81000711,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20071,
+    "groupId": 2,
+    "id": 81000712,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20071,
+    "groupId": 3,
+    "id": 81000713,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20072,
+    "groupId": 1,
+    "id": 81000721,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20072,
+    "groupId": 2,
+    "id": 81000722,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20072,
+    "groupId": 3,
+    "id": 81000723,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20073,
+    "groupId": 1,
+    "id": 81000731,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20073,
+    "groupId": 2,
+    "id": 81000732,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20073,
+    "groupId": 3,
+    "id": 81000733,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20074,
+    "groupId": 1,
+    "id": 81000741,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20074,
+    "groupId": 2,
+    "id": 81000742,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20074,
+    "groupId": 3,
+    "id": 81000743,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20075,
+    "groupId": 1,
+    "id": 81000751,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20075,
+    "groupId": 2,
+    "id": 81000752,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20075,
+    "groupId": 3,
+    "id": 81000753,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20076,
+    "groupId": 1,
+    "id": 81000761,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20076,
+    "groupId": 2,
+    "id": 81000762,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20076,
+    "groupId": 3,
+    "id": 81000763,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20077,
+    "groupId": 1,
+    "id": 81000771,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20077,
+    "groupId": 2,
+    "id": 81000772,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20077,
+    "groupId": 3,
+    "id": 81000773,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20082,
+    "groupId": 1,
+    "id": 81000821,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20082,
+    "groupId": 2,
+    "id": 81000822,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20082,
+    "groupId": 3,
+    "id": 81000823,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20083,
+    "groupId": 1,
+    "id": 81000831,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20083,
+    "groupId": 2,
+    "id": 81000832,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20083,
+    "groupId": 3,
+    "id": 81000833,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20084,
+    "groupId": 1,
+    "id": 81000841,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20084,
+    "groupId": 2,
+    "id": 81000842,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20084,
+    "groupId": 3,
+    "id": 81000843,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20085,
+    "groupId": 1,
+    "id": 81000851,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20085,
+    "groupId": 2,
+    "id": 81000852,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20085,
+    "groupId": 3,
+    "id": 81000853,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20022,
+    "groupId": 1,
+    "id": 81000221,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20022,
+    "groupId": 2,
+    "id": 81000222,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20022,
+    "groupId": 3,
+    "id": 81000223,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20023,
+    "groupId": 1,
+    "id": 81000231,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20023,
+    "groupId": 2,
+    "id": 81000232,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20023,
+    "groupId": 3,
+    "id": 81000233,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20024,
+    "groupId": 1,
+    "id": 81000241,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20024,
+    "groupId": 2,
+    "id": 81000242,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20024,
+    "groupId": 3,
+    "id": 81000243,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20025,
+    "groupId": 1,
+    "id": 81000251,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20025,
+    "groupId": 2,
+    "id": 81000252,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20025,
+    "groupId": 3,
+    "id": 81000253,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20078,
+    "groupId": 1,
+    "id": 81000254,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20078,
+    "groupId": 2,
+    "id": 81000255,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20078,
+    "groupId": 3,
+    "id": 81000256,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20079,
+    "groupId": 1,
+    "id": 81000257,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20079,
+    "groupId": 2,
+    "id": 81000258,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20079,
+    "groupId": 3,
+    "id": 81000259,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20080,
+    "groupId": 1,
+    "id": 81000260,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20080,
+    "groupId": 2,
+    "id": 81000261,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20080,
+    "groupId": 3,
+    "id": 81000262,
+    "nameLocalText": 46059,
+    "type": 1
+  },
+  {
+    "displayRate": 0.03,
+    "gachaGroupId": 20081,
+    "groupId": 1,
+    "id": 81000263,
+    "nameLocalText": 46055,
+    "type": 1
+  },
+  {
+    "displayRate": 0.14,
+    "gachaGroupId": 20081,
+    "groupId": 2,
+    "id": 81000264,
+    "nameLocalText": 46057,
+    "type": 1
+  },
+  {
+    "displayRate": 0.83,
+    "gachaGroupId": 20081,
+    "groupId": 3,
+    "id": 81000265,
+    "nameLocalText": 46059,
+    "type": 1
+  }
+]

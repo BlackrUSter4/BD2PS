@@ -1,0 +1,22 @@
+[
+  { "groupId": 17, "id": 1, "itemCount": 30, "itemType": 3 },
+  { "groupId": 17, "id": 2, "itemCount": 3, "itemId": 7, "itemType": 8 },
+  { "groupId": 17, "id": 3, "itemCount": 3, "itemId": 7, "itemType": 8 },
+  { "groupId": 17, "id": 4, "itemCount": 3, "itemId": 8, "itemType": 8 },
+  { "groupId": 17, "id": 5, "itemCount": 3, "itemId": 9, "itemType": 8 },
+  { "groupId": 17, "id": 6, "itemCount": 500, "itemId": 10, "itemType": 8 },
+  { "groupId": 17, "id": 7, "itemCount": 30, "itemType": 12 },
+  { "groupId": 17, "id": 8, "itemCount": 30, "itemType": 12 },
+  { "groupId": 17, "id": 9, "itemCount": 30, "itemType": 12 },
+  { "groupId": 17, "id": 10, "itemCount": 200, "itemType": 12 },
+  { "groupId": 17, "id": 11, "itemCount": 15, "itemType": 23 },
+  { "groupId": 17, "id": 12, "itemCount": 1, "itemId": 505001, "itemType": 9 },
+  { "groupId": 17, "id": 13, "itemCount": 2, "itemId": 505001, "itemType": 9 },
+  { "groupId": 17, "id": 14, "itemCount": 3, "itemId": 505001, "itemType": 9 },
+  { "groupId": 17, "id": 15, "itemCount": 5, "itemId": 505001, "itemType": 9 },
+  { "groupId": 17, "id": 16, "itemCount": 100000, "itemType": 4 },
+  { "groupId": 17, "id": 17, "itemCount": 30, "itemType": 16 },
+  { "groupId": 17, "id": 18, "itemCount": 50, "itemType": 16 },
+  { "groupId": 17, "id": 19, "itemCount": 50, "itemType": 16 },
+  { "groupId": 17, "id": 20, "itemCount": 200, "itemType": 16 }
+]

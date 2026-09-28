@@ -1,0 +1,11 @@
+[
+  { "bgCharIllustName": "illust_char001002_102", "groupId": 1003, "hubContentId": 3, "hubContentLocalTextId": 1500217, "hubContentType": 14, "id": 1, "slotIndex": 10 },
+  { "groupId": 1003, "hubContentId": 3, "hubContentLocalTextId": 1500220, "hubContentType": 13, "id": 2, "slotIndex": 11 },
+  { "actionType": "EventDiceUI66", "endDateType": 1, "groupId": 1003, "hubContentId": 17, "hubContentLocalTextId": 1400151, "hubContentType": 5, "id": 4, "slotIndex": 5 },
+  { "actionType": "EventBattleUI", "bgCharIllustName": "illust_char021101_215", "groupId": 59, "hubContentLocalTextId": 2001450, "hubContentType": 2, "id": 2, "slotIndex": 1, "sortId": 2 },
+  { "actionType": "EventBattleUI", "bgCharIllustName": "illust_char021301_217", "groupId": 59, "hubContentLocalTextId": 2001460, "hubContentType": 2, "id": 3, "slotIndex": 2, "sortId": 3 },
+  { "actionType": "MonsterHuntUI", "groupId": 59, "hubContentLocalTextId": 2001360, "hubContentType": 3, "id": 5, "slotIndex": 4, "sortId": 5 },
+  { "actionType": "EventMissionUI363", "groupId": 59, "hubContentLocalTextId": 130049, "hubContentType": 8, "id": 6, "slotIndex": 7, "sortId": 6 },
+  { "groupId": 59, "hubContentLocalTextId": 2001510, "hubContentType": 9, "id": 7, "slotIndex": 6, "sortId": 7 },
+  { "groupId": 59, "hubContentLocalTextId": 1400028, "hubContentType": 10, "id": 8, "slotIndex": 8, "sortId": 8 }
+]

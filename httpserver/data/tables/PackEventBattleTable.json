@@ -1,0 +1,4 @@
+[
+  { "battleDeckId": 6921001, "battlePower": 2967, "eventApCount": 1, "groupId": 1, "id": 1, "repeatRewardCount": [ 100 ], "repeatRewardType": [ 8 ], "repeatRewardid": [ 2074 ] },
+  { "battleDeckId": 6922001, "battlePower": 16428, "eventApCount": 1, "groupId": 2, "id": 1, "repeatRewardCount": [ 130 ], "repeatRewardType": [ 8 ], "repeatRewardid": [ 2074 ] }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "bgmName": "BGM_P3003_Town_02",
+    "bossRoom": [
+      10,
+      20,
+      30
+    ],
+    "costumeSlot1Option": 5,
+    "costumeSlot2Option": 100,
+    "costumeSlot3Option": 1,
+    "costumeSlot4Option": 1,
+    "costumeUpgradePrice": 2,
+    "entryBuyPrice": 1000,
+    "floorCount": 30,
+    "floorId": 10,
+    "id": 8,
+    "memberChangeSP": 1000000,
+    "roguelikeApCount": 1,
+    "roguelikeGrowthCurrency": 20,
+    "roomRatio": 30,
+    "seasonDefaultLostGold": 1,
+    "shopDiscountRate": 0.05,
+    "shopHealPrice": 2,
+    "shopRerollExpensive": 1,
+    "shopRerollPrice": 37,
+    "startCostumeCount": 36,
+    "startGold": 60
+  }
+]

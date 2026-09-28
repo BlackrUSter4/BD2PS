@@ -1,0 +1,28 @@
+[
+  {
+    "chainPoint": 2.0,
+    "charBaseScore": 4.0,
+    "dailyUseSupporter": 3,
+    "getBossHpPoint": 25.0,
+    "getDamagePoint": 0.03,
+    "golemCharId": 98901,
+    "golemRemainTurn": 6,
+    "golemResource": "bosspart2_989001_0",
+    "golemScoreValue": 2.0,
+    "iconSpriteName": "icon_resource120001_225",
+    "itemDescNameTextId": 30063201,
+    "itemNameTextId": 30061201,
+    "itemSubNameTextId": 30061201,
+    "mailId": 603,
+    "maxGolemGauge": 1000.0,
+    "phaseValue": 0.5,
+    "raidBattleDailyEncount": 1,
+    "seasonNumber": 14,
+    "statuePackId": 3,
+    "supportCharBasicRewardCount": 30000,
+    "supportCharRentalRewardCount": 3000,
+    "supportScore": 1.0,
+    "turnAddScore": 83.0,
+    "turnScoreValue": 3.0
+  }
+]

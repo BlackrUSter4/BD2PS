@@ -1,0 +1,196 @@
+[
+  {
+    "buffGroup": [
+      2003,
+      1006
+    ],
+    "id": 1
+  },
+  {
+    "attackType": [
+      1
+    ],
+    "id": 2
+  },
+  {
+    "buffGroup": [
+      2001
+    ],
+    "id": 3
+  },
+  {
+    "buffGroup": [
+      9000
+    ],
+    "id": 5
+  },
+  {
+    "buffGroup": [
+      9001
+    ],
+    "id": 6
+  },
+  {
+    "buffGroup": [
+      2006
+    ],
+    "id": 7
+  },
+  {
+    "element": [
+      4
+    ],
+    "id": 8
+  },
+  {
+    "buffGroup": [
+      1004
+    ],
+    "id": 9
+  },
+  {
+    "buffGroup": [
+      2003
+    ],
+    "id": 10
+  },
+  {
+    "element": [
+      3
+    ],
+    "id": 12
+  },
+  {
+    "buffGroup": [
+      10003
+    ],
+    "id": 13
+  },
+  {
+    "id": 14,
+    "mainTarget": 1
+  },
+  {
+    "chainMultiple": 3,
+    "id": 15
+  },
+  {
+    "element": [
+      1
+    ],
+    "id": 16
+  },
+  {
+    "buffGroup": [
+      10002
+    ],
+    "id": 17
+  },
+  {
+    "chainLess": 7,
+    "id": 18
+  },
+  {
+    "buffGroup": [
+      1007
+    ],
+    "id": 19
+  },
+  {
+    "id": 20
+  },
+  {
+    "id": 21,
+    "subTarget": 1
+  },
+  {
+    "buffGroup": [
+      1001
+    ],
+    "id": 22
+  },
+  {
+    "chainMore": 6,
+    "id": 23
+  },
+  {
+    "buffGroup": [
+      1003
+    ],
+    "id": 24
+  },
+  {
+    "chainMore": 5,
+    "id": 25
+  },
+  {
+    "chainMore": 14,
+    "id": 26
+  },
+  {
+    "chainMore": 6,
+    "id": 27
+  },
+  {
+    "buffGroup": [
+      9002
+    ],
+    "id": 28
+  },
+  {
+    "buffGroup": [
+      2013
+    ],
+    "id": 29
+  },
+  {
+    "chainMore": 7,
+    "id": 30
+  },
+  {
+    "buffGroup": [
+      2006
+    ],
+    "id": 31
+  },
+  {
+    "chainMultiple": 2,
+    "id": 32
+  },
+  {
+    "element": [
+      2
+    ],
+    "id": 33
+  },
+  {
+    "element": [
+      0
+    ],
+    "id": 34
+  },
+  {
+    "buffGroup": [
+      2007
+    ],
+    "id": 35
+  },
+  {
+    "element": [
+      3
+    ],
+    "id": 36
+  },
+  {
+    "attackType": [
+      0
+    ],
+    "id": 40
+  },
+  {
+    "attackType": [
+      1
+    ],
+    "id": 50
+  }
+]

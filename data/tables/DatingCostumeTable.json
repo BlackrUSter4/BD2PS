@@ -1,0 +1,17 @@
+[
+  { "costumeId": 3303, "episodeGroupId": 1, "id": 1 },
+  { "costumeId": 3402, "episodeGroupId": 2, "id": 2 },
+  { "costumeId": 3203, "episodeGroupId": 3, "id": 3 },
+  { "costumeId": 1106, "episodeGroupId": 4, "id": 4 },
+  { "costumeId": 60802, "episodeGroupId": 5, "id": 5 },
+  { "costumeId": 67603, "episodeGroupId": 6, "id": 6 },
+  { "costumeId": 1006, "episodeGroupId": 7, "id": 7 },
+  { "costumeId": 66403, "episodeGroupId": 8, "id": 8 },
+  { "costumeId": 706, "episodeGroupId": 9, "id": 9 },
+  { "costumeId": 4102, "episodeGroupId": 10, "id": 10 },
+  { "costumeId": 67004, "episodeGroupId": 11, "id": 11 },
+  { "costumeId": 3604, "episodeGroupId": 12, "id": 12 },
+  { "costumeId": 4202, "episodeGroupId": 13, "id": 13 },
+  { "costumeId": 67104, "episodeGroupId": 14, "id": 14 },
+  { "costumeId": 61302, "episodeGroupId": 15, "glutalkNewCostume": 1, "id": 15 }
+]

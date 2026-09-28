@@ -1,0 +1,11 @@
+pub mod fishing_bite_session;
+pub mod fishing_boat_skin_owned;
+pub mod fishing_collection_info;
+pub mod fishing_fish_info;
+pub mod fishing_item_info;
+pub mod fishing_map_owned;
+pub mod fishing_rod_info;
+pub mod fishing_shop_buy_info;
+pub mod fishing_shop_reset_info;
+pub mod fishing_trap_info;
+pub mod fishing_user_info;

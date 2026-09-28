@@ -1,0 +1,1289 @@
+[
+  {
+    "grade": 1,
+    "iconSpriteName": "icon_food2002_2",
+    "id": 101,
+    "itemAcquireId": [
+      125
+    ],
+    "itemDescNameTextId": 53001,
+    "itemSubNameTextId": 53000,
+    "materialItemCount": [
+      1,
+      1
+    ],
+    "materialItemId": [
+      1013,
+      1004
+    ],
+    "packId": 1,
+    "recipeNameTextId": 52001,
+    "resultItemCount": 1,
+    "resultItemId": 2002,
+    "stackCount": 1,
+    "talentLevel": 1
+  },
+  {
+    "grade": 1,
+    "iconSpriteName": "icon_food2003_3",
+    "id": 102,
+    "itemAcquireId": [
+      126
+    ],
+    "itemDescNameTextId": 53002,
+    "itemSubNameTextId": 53000,
+    "materialItemCount": [
+      1,
+      1
+    ],
+    "materialItemId": [
+      1013,
+      1014
+    ],
+    "packId": 1,
+    "recipeNameTextId": 52002,
+    "resultItemCount": 1,
+    "resultItemId": 2003,
+    "stackCount": 1,
+    "talentLevel": 1
+  },
+  {
+    "grade": 1,
+    "iconSpriteName": "icon_food2028_28",
+    "id": 103,
+    "itemAcquireId": [
+      161
+    ],
+    "itemDescNameTextId": 53003,
+    "itemSubNameTextId": 53000,
+    "materialItemCount": [
+      1,
+      1
+    ],
+    "materialItemId": [
+      1030,
+      1031
+    ],
+    "packId": 1,
+    "recipeNameTextId": 52012,
+    "resultItemCount": 1,
+    "resultItemId": 2028,
+    "stackCount": 1,
+    "talentLevel": 1
+  },
+  {
+    "grade": 1,
+    "iconSpriteName": "icon_food2006_6",
+    "id": 104,
+    "itemAcquireId": [
+      130
+    ],
+    "itemDescNameTextId": 53004,
+    "itemSubNameTextId": 53000,
+    "materialItemCount": [
+      1,
+      1
+    ],
+    "materialItemId": [
+      1015,
+      1027
+    ],
+    "packId": 1,
+    "recipeNameTextId": 52003,
+    "resultItemCount": 1,
+    "resultItemId": 2006,
+    "stackCount": 1,
+    "talentLevel": 1
+  },
+  {
+    "grade": 1,
+    "iconSpriteName": "icon_food2009_9",
+    "id": 105,
+    "itemAcquireId": [
+      134
+    ],
+    "itemDescNameTextId": 53005,
+    "itemSubNameTextId": 53000,
+    "materialItemCount": [
+      1,
+      1
+    ],
+    "materialItemId": [
+      1011,
+      1034
+    ],
+    "packId": 1,
+    "recipeNameTextId": 52004,
+    "resultItemCount": 1,
+    "resultItemId": 2009,
+    "stackCount": 1,
+    "talentLevel": 1
+  },
+  {
+    "grade": 1,
+    "iconSpriteName": "icon_food2030_30",
+    "id": 106,
+    "itemAcquireId": [
+      164
+    ],
+    "itemDescNameTextId": 53006,
+    "itemSubNameTextId": 53000,
+    "materialItemCount": [
+      1,
+      1
+    ],
+    "materialItemId": [
+      1040,
+      1023
+    ],
+    "packId": 1,
+    "recipeNameTextId": 52005,
+    "resultItemCount": 1,
+    "resultItemId": 2030,
+    "stackCount": 1,
+    "talentLevel": 1
+  },
+  {
+    "grade": 2,
+    "iconSpriteName": "icon_food2004_4",
+    "id": 201,
+    "itemAcquireId": [
+      127
+    ],
+    "itemDescNameTextId": 53007,
+    "itemSubNameTextId": 53000,
+    "materialItemCount": [
+      2,
+      2
+    ],
+    "materialItemId": [
+      1013,
+      1001
+    ],
+    "packId": 1,
+    "recipeNameTextId": 52006,
+    "resultItemCount": 1,
+    "resultItemId": 2004,
+    "stackCount": 1,
+    "talentLevel": 2
+  },
+  {
+    "grade": 2,
+    "iconSpriteName": "icon_food2007_7",
+    "id": 202,
+    "itemAcquireId": [
+      133
+    ],
+    "itemDescNameTextId": 53008,
+    "itemSubNameTextId": 53000,
+    "materialItemCount": [
+      2,
+      2
+    ],
+    "materialItemId": [
+      1008,
+      1009
+    ],
+    "packId": 1,
+    "recipeNameTextId": 52007,
+    "resultItemCount": 1,
+    "resultItemId": 2007,
+    "stackCount": 1,
+    "talentLevel": 2
+  },
+  {
+    "grade": 2,
+    "iconSpriteName": "icon_food2010_10",
+    "id": 203,
+    "itemAcquireId": [
+      137
+    ],
+    "itemDescNameTextId": 53009,
+    "itemSubNameTextId": 53000,
+    "materialItemCount": [
+      3,
+      2
+    ],
+    "materialItemId": [
+      1012,
+      1023
+    ],
+    "packId": 1,
+    "recipeNameTextId": 52008,
+    "resultItemCount": 1,
+    "resultItemId": 2010,
+    "stackCount": 1,
+    "talentLevel": 2
+  },
+  {
+    "grade": 2,
+    "iconSpriteName": "icon_food2013_13",
+    "id": 204,
+    "itemAcquireId": [
+      139
+    ],
+    "itemDescNameTextId": 53016,
+    "itemSubNameTextId": 53000,
+    "materialItemCount": [
+      2,
+      1,
+      1
+    ],
+    "materialItemId": [
+      1002,
+      1032,
+      1010
+    ],
+    "packId": 1,
+    "recipeNameTextId": 52016,
+    "resultItemCount": 1,
+    "resultItemId": 2013,
+    "stackCount": 1,
+    "talentLevel": 2
+  },
+  {
+    "grade": 2,
+    "iconSpriteName": "icon_food2015_15",
+    "id": 205,
+    "itemAcquireId": [
+      142
+    ],
+    "itemDescNameTextId": 53011,
+    "itemSubNameTextId": 53000,
+    "materialItemCount": [
+      3,
+      2
+    ],
+    "materialItemId": [
+      1036,
+      1023
+    ],
+    "packId": 1,
+    "recipeNameTextId": 52010,
+    "resultItemCount": 1,
+    "resultItemId": 2015,
+    "stackCount": 1,
+    "talentLevel": 2
+  },
+  {
+    "grade": 2,
+    "iconSpriteName": "icon_food2032_32",
+    "id": 206,
+    "itemAcquireId": [
+      167
+    ],
+    "itemDescNameTextId": 53012,
+    "itemSubNameTextId": 53000,
+    "materialItemCount": [
+      3,
+      2
+    ],
+    "materialItemId": [
+      1030,
+      1045
+    ],
+    "packId": 1,
+    "recipeNameTextId": 52011,
+    "resultItemCount": 1,
+    "resultItemId": 2032,
+    "stackCount": 1,
+    "talentLevel": 2
+  },
+  {
+    "grade": 3,
+    "iconSpriteName": "icon_food2022_22",
+    "id": 301,
+    "itemAcquireId": [
+      152
+    ],
+    "itemDescNameTextId": 53013,
+    "itemSubNameTextId": 53000,
+    "materialItemCount": [
+      2,
+      1,
+      1
+    ],
+    "materialItemId": [
+      1007,
+      1004,
+      1032
+    ],
+    "packId": 1,
+    "recipeNameTextId": 52020,
+    "resultItemCount": 1,
+    "resultItemId": 2022,
+    "stackCount": 1,
+    "talentLevel": 3
+  },
+  {
+    "grade": 3,
+    "iconSpriteName": "icon_food2005_5",
+    "id": 302,
+    "itemAcquireId": [
+      129
+    ],
+    "itemDescNameTextId": 53014,
+    "itemSubNameTextId": 53000,
+    "materialItemCount": [
+      2,
+      4,
+      2
+    ],
+    "materialItemId": [
+      1013,
+      1001,
+      1014
+    ],
+    "packId": 1,
+    "recipeNameTextId": 52014,
+    "resultItemCount": 1,
+    "resultItemId": 2005,
+    "stackCount": 1,
+    "talentLevel": 3
+  },
+  {
+    "grade": 3,
+    "iconSpriteName": "icon_food2008_8",
+    "id": 303,
+    "itemAcquireId": [
+      133
+    ],
+    "itemDescNameTextId": 53015,
+    "itemSubNameTextId": 53000,
+    "materialItemCount": [
+      2,
+      2,
+      2
+    ],
+    "materialItemId": [
+      1008,
+      1009,
+      1001
+    ],
+    "packId": 1,
+    "recipeNameTextId": 52015,
+    "resultItemCount": 1,
+    "resultItemId": 2008,
+    "stackCount": 1,
+    "talentLevel": 3
+  },
+  {
+    "grade": 3,
+    "iconSpriteName": "icon_food2012_12",
+    "id": 304,
+    "itemAcquireId": [
+      141
+    ],
+    "itemDescNameTextId": 53010,
+    "itemSubNameTextId": 53000,
+    "materialItemCount": [
+      3,
+      2
+    ],
+    "materialItemId": [
+      1022,
+      1027
+    ],
+    "packId": 1,
+    "recipeNameTextId": 52009,
+    "resultItemCount": 1,
+    "resultItemId": 2012,
+    "stackCount": 1,
+    "talentLevel": 3
+  },
+  {
+    "grade": 3,
+    "iconSpriteName": "icon_food2017_17",
+    "id": 305,
+    "itemAcquireId": [
+      146
+    ],
+    "itemDescNameTextId": 53017,
+    "itemSubNameTextId": 53000,
+    "materialItemCount": [
+      2,
+      2,
+      1
+    ],
+    "materialItemId": [
+      1016,
+      1017,
+      1025
+    ],
+    "packId": 1,
+    "recipeNameTextId": 52017,
+    "resultItemCount": 1,
+    "resultItemId": 2017,
+    "stackCount": 1,
+    "talentLevel": 3
+  },
+  {
+    "grade": 3,
+    "iconSpriteName": "icon_food2019_19",
+    "id": 306,
+    "itemAcquireId": [
+      149
+    ],
+    "itemDescNameTextId": 53018,
+    "itemSubNameTextId": 53000,
+    "materialItemCount": [
+      2,
+      2
+    ],
+    "materialItemId": [
+      1020,
+      1031
+    ],
+    "packId": 1,
+    "recipeNameTextId": 52018,
+    "resultItemCount": 1,
+    "resultItemId": 2019,
+    "stackCount": 1,
+    "talentLevel": 3
+  },
+  {
+    "grade": 3,
+    "iconSpriteName": "icon_food2021_21",
+    "id": 307,
+    "itemAcquireId": [
+      151
+    ],
+    "itemDescNameTextId": 53019,
+    "itemSubNameTextId": 53000,
+    "materialItemCount": [
+      2,
+      1,
+      1
+    ],
+    "materialItemId": [
+      1006,
+      1024,
+      1047
+    ],
+    "packId": 1,
+    "recipeNameTextId": 52019,
+    "resultItemCount": 1,
+    "resultItemId": 2021,
+    "stackCount": 1,
+    "talentLevel": 3
+  },
+  {
+    "grade": 3,
+    "iconSpriteName": "icon_food2024_24",
+    "id": 308,
+    "itemAcquireId": [
+      155
+    ],
+    "itemDescNameTextId": 53020,
+    "itemSubNameTextId": 53000,
+    "materialItemCount": [
+      4,
+      2,
+      2
+    ],
+    "materialItemId": [
+      1001,
+      1019,
+      1035
+    ],
+    "packId": 1,
+    "recipeNameTextId": 52021,
+    "resultItemCount": 1,
+    "resultItemId": 2024,
+    "stackCount": 1,
+    "talentLevel": 3
+  },
+  {
+    "grade": 3,
+    "iconSpriteName": "icon_food2026_26",
+    "id": 309,
+    "itemAcquireId": [
+      159
+    ],
+    "itemDescNameTextId": 53021,
+    "itemSubNameTextId": 53000,
+    "materialItemCount": [
+      2,
+      2,
+      2
+    ],
+    "materialItemId": [
+      1039,
+      1034,
+      1026
+    ],
+    "packId": 1,
+    "recipeNameTextId": 52022,
+    "resultItemCount": 1,
+    "resultItemId": 2026,
+    "stackCount": 1,
+    "talentLevel": 3
+  },
+  {
+    "grade": 3,
+    "iconSpriteName": "icon_food2029_29",
+    "id": 310,
+    "itemAcquireId": [
+      162
+    ],
+    "itemDescNameTextId": 53022,
+    "itemSubNameTextId": 53000,
+    "materialItemCount": [
+      2,
+      2,
+      2
+    ],
+    "materialItemId": [
+      1028,
+      1029,
+      1031
+    ],
+    "packId": 1,
+    "recipeNameTextId": 52013,
+    "resultItemCount": 1,
+    "resultItemId": 2029,
+    "stackCount": 1,
+    "talentLevel": 3
+  },
+  {
+    "grade": 3,
+    "iconSpriteName": "icon_food2031_31",
+    "id": 311,
+    "itemAcquireId": [
+      165
+    ],
+    "itemDescNameTextId": 53023,
+    "itemSubNameTextId": 53000,
+    "materialItemCount": [
+      2,
+      2,
+      2
+    ],
+    "materialItemId": [
+      1037,
+      1048,
+      1050
+    ],
+    "packId": 1,
+    "recipeNameTextId": 52023,
+    "resultItemCount": 1,
+    "resultItemId": 2031,
+    "stackCount": 1,
+    "talentLevel": 3
+  },
+  {
+    "grade": 3,
+    "iconSpriteName": "icon_food2033_33",
+    "id": 312,
+    "itemAcquireId": [
+      168
+    ],
+    "itemDescNameTextId": 53024,
+    "itemSubNameTextId": 53000,
+    "materialItemCount": [
+      2,
+      2,
+      2
+    ],
+    "materialItemId": [
+      1041,
+      1025,
+      1026
+    ],
+    "packId": 1,
+    "recipeNameTextId": 52024,
+    "resultItemCount": 1,
+    "resultItemId": 2033,
+    "stackCount": 1,
+    "talentLevel": 3
+  },
+  {
+    "grade": 3,
+    "iconSpriteName": "icon_food2034_34",
+    "id": 313,
+    "itemAcquireId": [
+      170
+    ],
+    "itemDescNameTextId": 53025,
+    "itemSubNameTextId": 53000,
+    "materialItemCount": [
+      4,
+      2,
+      2
+    ],
+    "materialItemId": [
+      1010,
+      1042,
+      1052
+    ],
+    "packId": 1,
+    "recipeNameTextId": 52025,
+    "resultItemCount": 1,
+    "resultItemId": 2034,
+    "stackCount": 1,
+    "talentLevel": 3
+  },
+  {
+    "grade": 4,
+    "iconSpriteName": "icon_food2014_14",
+    "id": 401,
+    "itemAcquireId": [
+      140
+    ],
+    "itemDescNameTextId": 53026,
+    "itemSubNameTextId": 53000,
+    "materialItemCount": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "materialItemId": [
+      1020,
+      1005,
+      1004,
+      1033
+    ],
+    "packId": 1,
+    "recipeNameTextId": 52027,
+    "resultItemCount": 1,
+    "resultItemId": 2014,
+    "stackCount": 1,
+    "talentLevel": 4
+  },
+  {
+    "grade": 4,
+    "iconSpriteName": "icon_food2011_11",
+    "id": 402,
+    "itemAcquireId": [
+      137
+    ],
+    "itemDescNameTextId": 53027,
+    "itemSubNameTextId": 53000,
+    "materialItemCount": [
+      4,
+      2,
+      2,
+      2
+    ],
+    "materialItemId": [
+      1001,
+      1005,
+      1015,
+      1026
+    ],
+    "packId": 1,
+    "recipeNameTextId": 52026,
+    "resultItemCount": 1,
+    "resultItemId": 2011,
+    "stackCount": 1,
+    "talentLevel": 4
+  },
+  {
+    "grade": 4,
+    "iconSpriteName": "icon_food2016_16",
+    "id": 403,
+    "itemAcquireId": [
+      143
+    ],
+    "itemDescNameTextId": 53028,
+    "itemSubNameTextId": 53000,
+    "materialItemCount": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "materialItemId": [
+      1011,
+      1012,
+      1036,
+      1038
+    ],
+    "packId": 1,
+    "recipeNameTextId": 52028,
+    "resultItemCount": 1,
+    "resultItemId": 2016,
+    "stackCount": 1,
+    "talentLevel": 4
+  },
+  {
+    "grade": 4,
+    "iconSpriteName": "icon_food2018_18",
+    "id": 404,
+    "itemAcquireId": [
+      146
+    ],
+    "itemDescNameTextId": 53029,
+    "itemSubNameTextId": 53000,
+    "materialItemCount": [
+      4,
+      3,
+      4,
+      3
+    ],
+    "materialItemId": [
+      1001,
+      1024,
+      1004,
+      1025
+    ],
+    "packId": 1,
+    "recipeNameTextId": 52029,
+    "resultItemCount": 1,
+    "resultItemId": 2018,
+    "stackCount": 1,
+    "talentLevel": 4
+  },
+  {
+    "grade": 4,
+    "iconSpriteName": "icon_food2020_20",
+    "id": 405,
+    "itemAcquireId": [
+      149
+    ],
+    "itemDescNameTextId": 53030,
+    "itemSubNameTextId": 53000,
+    "materialItemCount": [
+      3,
+      2,
+      2,
+      2
+    ],
+    "materialItemId": [
+      1002,
+      1046,
+      1010,
+      1018
+    ],
+    "packId": 1,
+    "recipeNameTextId": 52030,
+    "resultItemCount": 1,
+    "resultItemId": 2020,
+    "stackCount": 1,
+    "talentLevel": 4
+  },
+  {
+    "grade": 4,
+    "iconSpriteName": "icon_food2023_23",
+    "id": 406,
+    "itemAcquireId": [
+      153
+    ],
+    "itemDescNameTextId": 53031,
+    "itemSubNameTextId": 53000,
+    "materialItemCount": [
+      2,
+      1,
+      2,
+      2
+    ],
+    "materialItemId": [
+      1015,
+      1016,
+      1014,
+      1032
+    ],
+    "packId": 1,
+    "recipeNameTextId": 52031,
+    "resultItemCount": 1,
+    "resultItemId": 2023,
+    "stackCount": 1,
+    "talentLevel": 4
+  },
+  {
+    "grade": 4,
+    "iconSpriteName": "icon_food2025_25",
+    "id": 407,
+    "itemAcquireId": [
+      155
+    ],
+    "itemDescNameTextId": 53032,
+    "itemSubNameTextId": 53000,
+    "materialItemCount": [
+      3,
+      1,
+      2,
+      2
+    ],
+    "materialItemId": [
+      1003,
+      1004,
+      1047,
+      1033
+    ],
+    "packId": 1,
+    "recipeNameTextId": 52032,
+    "resultItemCount": 1,
+    "resultItemId": 2025,
+    "stackCount": 1,
+    "talentLevel": 4
+  },
+  {
+    "grade": 4,
+    "iconSpriteName": "icon_food2027_27",
+    "id": 408,
+    "itemAcquireId": [
+      159
+    ],
+    "itemDescNameTextId": 53033,
+    "itemSubNameTextId": 53000,
+    "materialItemCount": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "materialItemId": [
+      1029,
+      1013,
+      1035,
+      1043
+    ],
+    "packId": 1,
+    "recipeNameTextId": 52033,
+    "resultItemCount": 1,
+    "resultItemId": 2027,
+    "stackCount": 1,
+    "talentLevel": 4
+  },
+  {
+    "grade": 4,
+    "iconSpriteName": "icon_food2035_35",
+    "id": 409,
+    "itemAcquireId": [
+      171
+    ],
+    "itemDescNameTextId": 53034,
+    "itemSubNameTextId": 53000,
+    "materialItemCount": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "materialItemId": [
+      1029,
+      1017,
+      1052,
+      1004
+    ],
+    "packId": 1,
+    "recipeNameTextId": 52034,
+    "resultItemCount": 1,
+    "resultItemId": 2035,
+    "stackCount": 1,
+    "talentLevel": 4
+  },
+  {
+    "grade": 5,
+    "iconSpriteName": "icon_food3001_1",
+    "id": 501,
+    "itemAcquireId": [
+      129
+    ],
+    "itemDescNameTextId": 53035,
+    "itemSubNameTextId": 53000,
+    "materialItemCount": [
+      4,
+      3,
+      3,
+      1,
+      2
+    ],
+    "materialItemId": [
+      1001,
+      1013,
+      1017,
+      1033,
+      1053
+    ],
+    "packId": 1,
+    "recipeNameTextId": 52036,
+    "resultItemCount": 1,
+    "resultItemId": 3001,
+    "stackCount": 1,
+    "talentLevel": 5
+  },
+  {
+    "grade": 5,
+    "iconSpriteName": "icon_food3002_2",
+    "id": 502,
+    "itemAcquireId": [
+      133
+    ],
+    "itemDescNameTextId": 53036,
+    "itemSubNameTextId": 53000,
+    "materialItemCount": [
+      3,
+      2,
+      3,
+      2,
+      2
+    ],
+    "materialItemId": [
+      1026,
+      1023,
+      1004,
+      1025,
+      1054
+    ],
+    "packId": 1,
+    "recipeNameTextId": 52037,
+    "resultItemCount": 1,
+    "resultItemId": 3002,
+    "stackCount": 1,
+    "talentLevel": 5
+  },
+  {
+    "grade": 5,
+    "iconSpriteName": "icon_food3003_3",
+    "id": 503,
+    "itemAcquireId": [
+      137
+    ],
+    "itemDescNameTextId": 53037,
+    "itemSubNameTextId": 53000,
+    "materialItemCount": [
+      3,
+      3,
+      2,
+      2,
+      2
+    ],
+    "materialItemId": [
+      1003,
+      1013,
+      1020,
+      1032,
+      1055
+    ],
+    "packId": 1,
+    "recipeNameTextId": 52038,
+    "resultItemCount": 1,
+    "resultItemId": 3003,
+    "stackCount": 1,
+    "talentLevel": 5
+  },
+  {
+    "grade": 5,
+    "iconSpriteName": "icon_food3004_4",
+    "id": 504,
+    "itemAcquireId": [
+      141
+    ],
+    "itemDescNameTextId": 53038,
+    "itemSubNameTextId": 53000,
+    "materialItemCount": [
+      3,
+      2,
+      3,
+      2,
+      2
+    ],
+    "materialItemId": [
+      1007,
+      1016,
+      1017,
+      1032,
+      1056
+    ],
+    "packId": 1,
+    "recipeNameTextId": 52039,
+    "resultItemCount": 1,
+    "resultItemId": 3004,
+    "stackCount": 1,
+    "talentLevel": 5
+  },
+  {
+    "grade": 5,
+    "iconSpriteName": "icon_food3005_5",
+    "id": 505,
+    "itemAcquireId": [
+      144
+    ],
+    "itemDescNameTextId": 53039,
+    "itemSubNameTextId": 53000,
+    "materialItemCount": [
+      3,
+      3,
+      2,
+      2,
+      2
+    ],
+    "materialItemId": [
+      1001,
+      1005,
+      1035,
+      1044,
+      1057
+    ],
+    "packId": 1,
+    "recipeNameTextId": 52040,
+    "resultItemCount": 1,
+    "resultItemId": 3005,
+    "stackCount": 1,
+    "talentLevel": 5
+  },
+  {
+    "grade": 5,
+    "iconSpriteName": "icon_food3006_6",
+    "id": 506,
+    "itemAcquireId": [
+      147
+    ],
+    "itemDescNameTextId": 53040,
+    "itemSubNameTextId": 53000,
+    "materialItemCount": [
+      3,
+      2,
+      2,
+      3,
+      2
+    ],
+    "materialItemId": [
+      1010,
+      1005,
+      1032,
+      1038,
+      1058
+    ],
+    "packId": 1,
+    "recipeNameTextId": 52041,
+    "resultItemCount": 1,
+    "resultItemId": 3006,
+    "stackCount": 1,
+    "talentLevel": 5
+  },
+  {
+    "grade": 5,
+    "iconSpriteName": "icon_food3007_7",
+    "id": 507,
+    "itemDescNameTextId": 53041,
+    "itemSubNameTextId": 53000,
+    "materialItemCount": [
+      3,
+      3,
+      2,
+      3,
+      2
+    ],
+    "materialItemId": [
+      1015,
+      1014,
+      1035,
+      1001,
+      1059
+    ],
+    "packId": 1,
+    "recipeNameTextId": 52042,
+    "resultItemCount": 1,
+    "resultItemId": 3007,
+    "stackCount": 1,
+    "talentLevel": 5
+  },
+  {
+    "grade": 5,
+    "iconSpriteName": "icon_food3008_8",
+    "id": 508,
+    "itemDescNameTextId": 53042,
+    "itemSubNameTextId": 53000,
+    "materialItemCount": [
+      3,
+      2,
+      2,
+      3,
+      2
+    ],
+    "materialItemId": [
+      1002,
+      1016,
+      1017,
+      1018,
+      1060
+    ],
+    "packId": 1,
+    "recipeNameTextId": 52043,
+    "resultItemCount": 1,
+    "resultItemId": 3008,
+    "stackCount": 1,
+    "talentLevel": 5
+  },
+  {
+    "grade": 5,
+    "iconSpriteName": "icon_food3009_9",
+    "id": 509,
+    "itemAcquireId": [
+      150
+    ],
+    "itemDescNameTextId": 53043,
+    "itemSubNameTextId": 53000,
+    "materialItemCount": [
+      3,
+      2,
+      3,
+      2,
+      2
+    ],
+    "materialItemId": [
+      1004,
+      1020,
+      1024,
+      1048,
+      1061
+    ],
+    "packId": 1,
+    "recipeNameTextId": 52044,
+    "resultItemCount": 1,
+    "resultItemId": 3009,
+    "stackCount": 1,
+    "talentLevel": 5
+  },
+  {
+    "grade": 5,
+    "iconSpriteName": "icon_food3010_10",
+    "id": 510,
+    "itemDescNameTextId": 53044,
+    "itemSubNameTextId": 53000,
+    "materialItemCount": [
+      3,
+      2,
+      2,
+      3,
+      2
+    ],
+    "materialItemId": [
+      1012,
+      1005,
+      1034,
+      1023,
+      1062
+    ],
+    "packId": 1,
+    "recipeNameTextId": 52045,
+    "resultItemCount": 1,
+    "resultItemId": 3010,
+    "stackCount": 1,
+    "talentLevel": 5
+  },
+  {
+    "grade": 5,
+    "iconSpriteName": "icon_food3011_11",
+    "id": 511,
+    "itemAcquireId": [
+      163
+    ],
+    "itemDescNameTextId": 53045,
+    "itemSubNameTextId": 53000,
+    "materialItemCount": [
+      2,
+      2,
+      3,
+      3,
+      2
+    ],
+    "materialItemId": [
+      1030,
+      1027,
+      1026,
+      1025,
+      1063
+    ],
+    "packId": 1,
+    "recipeNameTextId": 52035,
+    "resultItemCount": 1,
+    "resultItemId": 3011,
+    "stackCount": 1,
+    "talentLevel": 5
+  },
+  {
+    "grade": 5,
+    "iconSpriteName": "icon_food3012_12",
+    "id": 512,
+    "itemAcquireId": [
+      166
+    ],
+    "itemDescNameTextId": 53046,
+    "itemSubNameTextId": 53000,
+    "materialItemCount": [
+      3,
+      3,
+      2,
+      2,
+      2
+    ],
+    "materialItemId": [
+      1040,
+      1030,
+      1023,
+      1027,
+      1064
+    ],
+    "packId": 1,
+    "recipeNameTextId": 52046,
+    "resultItemCount": 1,
+    "resultItemId": 3012,
+    "stackCount": 1,
+    "talentLevel": 5
+  },
+  {
+    "grade": 5,
+    "iconSpriteName": "icon_food3013_13",
+    "id": 513,
+    "itemAcquireId": [
+      169
+    ],
+    "itemDescNameTextId": 53047,
+    "itemSubNameTextId": 53000,
+    "materialItemCount": [
+      3,
+      2,
+      3,
+      2,
+      2
+    ],
+    "materialItemId": [
+      1015,
+      1035,
+      1024,
+      1051,
+      1065
+    ],
+    "packId": 1,
+    "recipeNameTextId": 52047,
+    "resultItemCount": 1,
+    "resultItemId": 3013,
+    "stackCount": 1,
+    "talentLevel": 5
+  },
+  {
+    "grade": 5,
+    "iconSpriteName": "icon_food3014_14",
+    "id": 514,
+    "itemAcquireId": [
+      170
+    ],
+    "itemDescNameTextId": 53048,
+    "itemSubNameTextId": 53000,
+    "materialItemCount": [
+      3,
+      3,
+      2,
+      2,
+      2
+    ],
+    "materialItemId": [
+      1010,
+      1037,
+      1042,
+      1050,
+      1066
+    ],
+    "packId": 1,
+    "recipeNameTextId": 52048,
+    "resultItemCount": 1,
+    "resultItemId": 3014,
+    "stackCount": 1,
+    "talentLevel": 5
+  }
+]

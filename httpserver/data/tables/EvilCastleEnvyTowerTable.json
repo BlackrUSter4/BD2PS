@@ -1,0 +1,526 @@
+[
+  {
+    "battleDeckId": 30001,
+    "battlePower": 4155,
+    "id": 1
+  },
+  {
+    "battleDeckId": 30002,
+    "battlePower": 4539,
+    "id": 2
+  },
+  {
+    "battleDeckId": 30003,
+    "battlePower": 4795,
+    "id": 3
+  },
+  {
+    "battleDeckId": 30004,
+    "battlePower": 5085,
+    "id": 4
+  },
+  {
+    "battleDeckId": 30005,
+    "battlePower": 7050,
+    "id": 5,
+    "isFixedCamera": 1
+  },
+  {
+    "battleDeckId": 30006,
+    "battlePower": 6063,
+    "id": 6
+  },
+  {
+    "battleDeckId": 30007,
+    "battlePower": 6253,
+    "id": 7
+  },
+  {
+    "battleDeckId": 30008,
+    "battlePower": 6582,
+    "id": 8
+  },
+  {
+    "battleDeckId": 30009,
+    "battlePower": 6827,
+    "id": 9
+  },
+  {
+    "battleDeckId": 30010,
+    "battlePower": 8905,
+    "id": 10,
+    "isFixedCamera": 1
+  },
+  {
+    "battleDeckId": 30011,
+    "battlePower": 9844,
+    "id": 11
+  },
+  {
+    "battleDeckId": 30012,
+    "battlePower": 9945,
+    "id": 12
+  },
+  {
+    "battleDeckId": 30013,
+    "battlePower": 10064,
+    "id": 13
+  },
+  {
+    "battleDeckId": 30014,
+    "battlePower": 10145,
+    "id": 14
+  },
+  {
+    "battleDeckId": 30015,
+    "battlePower": 13559,
+    "id": 15,
+    "isFixedCamera": 1
+  },
+  {
+    "battleDeckId": 30016,
+    "battlePower": 13285,
+    "id": 16
+  },
+  {
+    "battleDeckId": 30017,
+    "battlePower": 13309,
+    "id": 17
+  },
+  {
+    "battleDeckId": 30018,
+    "battlePower": 13370,
+    "id": 18
+  },
+  {
+    "battleDeckId": 30019,
+    "battlePower": 13449,
+    "id": 19
+  },
+  {
+    "battleDeckId": 30020,
+    "battlePower": 17623,
+    "id": 20,
+    "isFixedCamera": 1
+  },
+  {
+    "battleDeckId": 30021,
+    "battlePower": 18612,
+    "id": 21
+  },
+  {
+    "battleDeckId": 30022,
+    "battlePower": 18641,
+    "id": 22
+  },
+  {
+    "battleDeckId": 30023,
+    "battlePower": 18607,
+    "id": 23
+  },
+  {
+    "battleDeckId": 30024,
+    "battlePower": 18721,
+    "id": 24
+  },
+  {
+    "battleDeckId": 30025,
+    "battlePower": 24967,
+    "id": 25,
+    "isFixedCamera": 1
+  },
+  {
+    "battleDeckId": 30026,
+    "battlePower": 23949,
+    "id": 26
+  },
+  {
+    "battleDeckId": 30027,
+    "battlePower": 23978,
+    "id": 27
+  },
+  {
+    "battleDeckId": 30028,
+    "battlePower": 24113,
+    "id": 28
+  },
+  {
+    "battleDeckId": 30029,
+    "battlePower": 23856,
+    "id": 29
+  },
+  {
+    "battleDeckId": 30030,
+    "battlePower": 31765,
+    "id": 30,
+    "isFixedCamera": 1
+  },
+  {
+    "battleDeckId": 30031,
+    "battlePower": 34140,
+    "id": 31
+  },
+  {
+    "battleDeckId": 30032,
+    "battlePower": 34143,
+    "id": 32
+  },
+  {
+    "battleDeckId": 30033,
+    "battlePower": 34146,
+    "id": 33
+  },
+  {
+    "battleDeckId": 30034,
+    "battlePower": 34148,
+    "id": 34
+  },
+  {
+    "battleDeckId": 30035,
+    "battlePower": 43364,
+    "id": 35,
+    "isFixedCamera": 1
+  },
+  {
+    "battleDeckId": 30036,
+    "battlePower": 34688,
+    "id": 36,
+    "isFixedCamera": 1
+  },
+  {
+    "battleDeckId": 30037,
+    "battlePower": 34690,
+    "id": 37,
+    "isFixedCamera": 1
+  },
+  {
+    "battleDeckId": 30038,
+    "battlePower": 34627,
+    "id": 38,
+    "isFixedCamera": 1
+  },
+  {
+    "battleDeckId": 30039,
+    "battlePower": 34695,
+    "id": 39,
+    "isFixedCamera": 1
+  },
+  {
+    "battleDeckId": 30040,
+    "battlePower": 52280,
+    "id": 40,
+    "isFixedCamera": 1
+  },
+  {
+    "battleDeckId": 30041,
+    "battlePower": 65755,
+    "id": 41
+  },
+  {
+    "battleDeckId": 30042,
+    "battlePower": 65769,
+    "id": 42
+  },
+  {
+    "battleDeckId": 30043,
+    "battlePower": 65784,
+    "id": 43
+  },
+  {
+    "battleDeckId": 30044,
+    "battlePower": 65574,
+    "id": 44
+  },
+  {
+    "battleDeckId": 30045,
+    "battlePower": 100858,
+    "id": 45,
+    "isFixedCamera": 1
+  },
+  {
+    "battleDeckId": 30046,
+    "battlePower": 73367,
+    "id": 46
+  },
+  {
+    "battleDeckId": 30047,
+    "battlePower": 73164,
+    "id": 47
+  },
+  {
+    "battleDeckId": 30048,
+    "battlePower": 73408,
+    "id": 48
+  },
+  {
+    "battleDeckId": 30049,
+    "battlePower": 73428,
+    "id": 49
+  },
+  {
+    "battleDeckId": 30050,
+    "battlePower": 119711,
+    "id": 50,
+    "isFixedCamera": 1
+  },
+  {
+    "battleDeckId": 30051,
+    "battlePower": 75469,
+    "id": 51
+  },
+  {
+    "battleDeckId": 30052,
+    "battlePower": 78284,
+    "id": 52
+  },
+  {
+    "battleDeckId": 30053,
+    "battlePower": 68664,
+    "id": 53
+  },
+  {
+    "battleDeckId": 30054,
+    "battlePower": 75533,
+    "id": 54
+  },
+  {
+    "battleDeckId": 30055,
+    "battlePower": 143658,
+    "id": 55,
+    "isFixedCamera": 1
+  },
+  {
+    "battleDeckId": 30056,
+    "battlePower": 84960,
+    "id": 56
+  },
+  {
+    "battleDeckId": 30057,
+    "battlePower": 84986,
+    "id": 57
+  },
+  {
+    "battleDeckId": 30058,
+    "battlePower": 90458,
+    "id": 58
+  },
+  {
+    "battleDeckId": 30059,
+    "battlePower": 85037,
+    "id": 59
+  },
+  {
+    "battleDeckId": 30060,
+    "battlePower": 196735,
+    "id": 60,
+    "isFixedCamera": 1
+  },
+  {
+    "battleDeckId": 30061,
+    "battlePower": 102600,
+    "id": 61
+  },
+  {
+    "battleDeckId": 30062,
+    "battlePower": 94563,
+    "id": 62
+  },
+  {
+    "battleDeckId": 30063,
+    "battlePower": 110668,
+    "id": 63
+  },
+  {
+    "battleDeckId": 30064,
+    "battlePower": 110677,
+    "id": 64
+  },
+  {
+    "battleDeckId": 30065,
+    "battlePower": 151339,
+    "id": 65,
+    "isFixedCamera": 1
+  },
+  {
+    "battleDeckId": 30066,
+    "battlePower": 112442,
+    "id": 66
+  },
+  {
+    "battleDeckId": 30067,
+    "battlePower": 117909,
+    "id": 67
+  },
+  {
+    "battleDeckId": 30068,
+    "battlePower": 118190,
+    "id": 68
+  },
+  {
+    "battleDeckId": 30069,
+    "battlePower": 137323,
+    "id": 69
+  },
+  {
+    "battleDeckId": 30070,
+    "battlePower": 201827,
+    "id": 70,
+    "isFixedCamera": 1
+  },
+  {
+    "battleDeckId": 30071,
+    "battlePower": 124354,
+    "id": 71
+  },
+  {
+    "battleDeckId": 30072,
+    "battlePower": 132277,
+    "id": 72
+  },
+  {
+    "battleDeckId": 30073,
+    "battlePower": 129137,
+    "id": 73
+  },
+  {
+    "battleDeckId": 30074,
+    "battlePower": 129147,
+    "id": 74
+  },
+  {
+    "battleDeckId": 30075,
+    "battlePower": 210590,
+    "id": 75,
+    "isFixedCamera": 1
+  },
+  {
+    "battleDeckId": 30076,
+    "battlePower": 143850,
+    "id": 76
+  },
+  {
+    "battleDeckId": 30077,
+    "battlePower": 145436,
+    "id": 77
+  },
+  {
+    "battleDeckId": 30078,
+    "battlePower": 126208,
+    "id": 78
+  },
+  {
+    "battleDeckId": 30079,
+    "battlePower": 127797,
+    "id": 79
+  },
+  {
+    "battleDeckId": 30080,
+    "battlePower": 228908,
+    "id": 80,
+    "isFixedCamera": 1
+  },
+  {
+    "battleDeckId": 30081,
+    "battlePower": 150006,
+    "id": 81
+  },
+  {
+    "battleDeckId": 30082,
+    "battlePower": 149773,
+    "id": 82
+  },
+  {
+    "battleDeckId": 30083,
+    "battlePower": 140432,
+    "id": 83
+  },
+  {
+    "battleDeckId": 30084,
+    "battlePower": 135525,
+    "id": 84
+  },
+  {
+    "battleDeckId": 30085,
+    "battlePower": 268684,
+    "id": 85,
+    "isFixedCamera": 1
+  },
+  {
+    "battleDeckId": 30086,
+    "battlePower": 160719,
+    "id": 86
+  },
+  {
+    "battleDeckId": 30087,
+    "battlePower": 163069,
+    "id": 87
+  },
+  {
+    "battleDeckId": 30088,
+    "battlePower": 165418,
+    "id": 88
+  },
+  {
+    "battleDeckId": 30089,
+    "battlePower": 163095,
+    "id": 89
+  },
+  {
+    "battleDeckId": 30090,
+    "battlePower": 286993,
+    "id": 90,
+    "isFixedCamera": 1
+  },
+  {
+    "battleDeckId": 30091,
+    "battlePower": 165636,
+    "id": 91
+  },
+  {
+    "battleDeckId": 30092,
+    "battlePower": 165636,
+    "id": 92
+  },
+  {
+    "battleDeckId": 30093,
+    "battlePower": 165636,
+    "id": 93
+  },
+  {
+    "battleDeckId": 30094,
+    "battlePower": 165636,
+    "id": 94
+  },
+  {
+    "battleDeckId": 30095,
+    "battlePower": 347779,
+    "id": 95,
+    "isFixedCamera": 1
+  },
+  {
+    "battleDeckId": 30096,
+    "battlePower": 163209,
+    "id": 96
+  },
+  {
+    "battleDeckId": 30097,
+    "battlePower": 169295,
+    "id": 97
+  },
+  {
+    "battleDeckId": 30098,
+    "battlePower": 176443,
+    "id": 98
+  },
+  {
+    "battleDeckId": 30099,
+    "battlePower": 176443,
+    "id": 99
+  },
+  {
+    "battleDeckId": 30100,
+    "battlePower": 334254,
+    "id": 100,
+    "isFixedCamera": 1
+  }
+]

@@ -1,0 +1,340 @@
+[
+  {
+    "buffActiveType": 1,
+    "buffApplyType": 2,
+    "buffDescNameTextId": 81133,
+    "buffNameTextId": 81075,
+    "buffSpriteName": "actionbuff_5",
+    "buffTime": 2.0,
+    "classType": 1,
+    "id": 1
+  },
+  {
+    "buffActiveType": 1,
+    "buffApplyType": 2,
+    "buffTime": 0.1,
+    "buffValue": 2.0,
+    "classType": 2,
+    "id": 2
+  },
+  {
+    "buffActiveType": 1,
+    "buffApplyType": 1,
+    "buffDescNameTextId": 81130,
+    "buffNameTextId": 81072,
+    "buffTime": 20.0,
+    "classType": 3,
+    "id": 3
+  },
+  {
+    "buffActiveType": 1,
+    "buffApplyType": 1,
+    "buffDescNameTextId": 81128,
+    "buffNameTextId": 81070,
+    "buffTime": 30.0,
+    "buffValue": 1.0,
+    "classType": 4,
+    "id": 4
+  },
+  {
+    "buffActiveType": 2,
+    "buffApplyType": 1,
+    "buffTime": 30.0,
+    "buffValue": 1.0,
+    "classType": 5,
+    "id": 5
+  },
+  {
+    "buffActiveType": 2,
+    "buffApplyType": 1,
+    "buffTime": 30.0,
+    "buffValue": 1.0,
+    "classType": 6,
+    "id": 6
+  },
+  {
+    "buffActiveType": 2,
+    "buffApplyType": 1,
+    "buffTime": 30.0,
+    "buffValue": 0.5,
+    "classType": 7,
+    "id": 7
+  },
+  {
+    "buffActiveType": 1,
+    "buffApplyType": 2,
+    "buffSpriteName": "actionbuff_7",
+    "buffTime": 5.0,
+    "buffValue": 0.1,
+    "classType": 8,
+    "id": 8
+  },
+  {
+    "buffActiveType": 1,
+    "buffApplyType": 2,
+    "buffTime": 30.0,
+    "buffValue": 1.0,
+    "classType": 9,
+    "id": 9
+  },
+  {
+    "buffActiveType": 2,
+    "buffApplyType": 1,
+    "buffTime": 60.0,
+    "buffValue": 0.5,
+    "classType": 10,
+    "id": 10,
+    "subMagicValue": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "buffActiveType": 1,
+    "buffApplyType": 1,
+    "buffTime": 20.0,
+    "buffValue": 0.4,
+    "classType": 5,
+    "id": 11
+  },
+  {
+    "buffActiveType": 2,
+    "buffApplyType": 1,
+    "buffTime": 1.5,
+    "classType": 11,
+    "id": 12
+  },
+  {
+    "buffActiveType": 1,
+    "buffApplyType": 2,
+    "buffTime": 0.1,
+    "buffValue": 4.0,
+    "classType": 2,
+    "id": 13
+  },
+  {
+    "buffActiveType": 1,
+    "buffApplyType": 2,
+    "buffTime": 0.1,
+    "buffValue": 8.0,
+    "classType": 2,
+    "id": 14
+  },
+  {
+    "buffActiveType": 1,
+    "buffApplyType": 2,
+    "buffTime": 0.1,
+    "buffValue": 12.0,
+    "classType": 2,
+    "id": 15
+  },
+  {
+    "buffActiveType": 2,
+    "buffApplyType": 1,
+    "buffTime": 1.1,
+    "classType": 11,
+    "id": 16
+  },
+  {
+    "buffActiveType": 1,
+    "buffApplyType": 2,
+    "buffDescNameTextId": 81133,
+    "buffNameTextId": 81075,
+    "buffSpriteName": "actionbuff_5",
+    "buffTime": 2.0,
+    "classType": 1,
+    "id": 17
+  },
+  {
+    "buffActiveType": 2,
+    "buffApplyType": 1,
+    "buffTime": 20.0,
+    "buffValue": 1.0,
+    "classType": 12,
+    "id": 18
+  },
+  {
+    "buffActiveType": 2,
+    "buffApplyType": 1,
+    "buffTime": 5.0,
+    "classType": 11,
+    "id": 19
+  },
+  {
+    "buffActiveType": 1,
+    "buffApplyType": 1,
+    "buffDescNameTextId": 81128,
+    "buffEffectName": "actionBuffEff_4",
+    "buffNameTextId": 81070,
+    "buffSpriteName": "actionbuff_4",
+    "buffTime": 15.0,
+    "buffValue": 0.3,
+    "classType": 4,
+    "id": 20
+  },
+  {
+    "buffActiveType": 1,
+    "buffApplyType": 2,
+    "buffDescNameTextId": 81131,
+    "buffEffectName": "actionBuffEff_5",
+    "buffNameTextId": 81074,
+    "buffSpriteName": "actionbuff_7",
+    "buffTime": 10.0,
+    "buffValue": 0.5,
+    "classType": 18,
+    "id": 21
+  },
+  {
+    "buffActiveType": 1,
+    "buffApplyType": 2,
+    "buffDescNameTextId": 81134,
+    "buffEffectName": "actionBuffEff_6",
+    "buffNameTextId": 81076,
+    "buffSpriteName": "actionbuff_6",
+    "buffTime": 10.0,
+    "buffValue": 0.02,
+    "classType": 13,
+    "id": 22,
+    "subMagicValue": [
+      2.0
+    ]
+  },
+  {
+    "buffActiveType": 1,
+    "buffApplyType": 2,
+    "buffTime": 10.0,
+    "buffValue": 0.2,
+    "classType": 14,
+    "id": 23,
+    "subMagicValue": [
+      0.2,
+      24.0
+    ]
+  },
+  {
+    "buffActiveType": 1,
+    "buffApplyType": 2,
+    "buffTime": 5.0,
+    "buffValue": 5.0,
+    "classType": 15,
+    "id": 24
+  },
+  {
+    "buffActiveType": 1,
+    "buffApplyType": 1,
+    "buffDescNameTextId": 81129,
+    "buffEffectName": "actionBuffEff_2",
+    "buffNameTextId": 81071,
+    "buffSpriteName": "actionbuff_1",
+    "buffTime": 15.0,
+    "buffValue": 0.5,
+    "classType": 16,
+    "id": 25
+  },
+  {
+    "buffActiveType": 2,
+    "buffApplyType": 1,
+    "buffDescNameTextId": 81132,
+    "buffEffectName": "actionBuffEff_3",
+    "buffNameTextId": 81073,
+    "buffSpriteName": "actionbuff_3",
+    "buffTime": 5.0,
+    "buffValue": 10000.0,
+    "classType": 17,
+    "id": 26
+  },
+  {
+    "buffActiveType": 2,
+    "buffApplyType": 1,
+    "buffTime": 1.7,
+    "classType": 3,
+    "id": 27
+  },
+  {
+    "buffActiveType": 1,
+    "buffApplyType": 2,
+    "buffDescNameTextId": 81133,
+    "buffNameTextId": 81075,
+    "buffSpriteName": "actionbuff_5",
+    "buffTime": 0.5,
+    "classType": 1,
+    "id": 28
+  },
+  {
+    "buffActiveType": 2,
+    "buffApplyType": 2,
+    "buffDescNameTextId": 81136,
+    "buffNameTextId": 81135,
+    "buffSpriteName": "actionbuff_8",
+    "buffTime": 9999.0,
+    "buffValue": 0.5,
+    "classType": 19,
+    "id": 29
+  },
+  {
+    "buffActiveType": 2,
+    "buffApplyType": 1,
+    "buffDescNameTextId": 81130,
+    "buffNameTextId": 81072,
+    "buffSpriteName": "actionbuff_2",
+    "buffTime": 3.0,
+    "classType": 3,
+    "id": 30
+  },
+  {
+    "buffActiveType": 2,
+    "buffApplyType": 1,
+    "buffTime": 60.0,
+    "buffValue": 0.5,
+    "classType": 10,
+    "id": 31,
+    "subMagicValue": [
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "buffActiveType": 2,
+    "buffApplyType": 1,
+    "buffTime": 30.0,
+    "buffValue": 0.5,
+    "classType": 10,
+    "id": 32,
+    "subMagicValue": [
+      0.4,
+      0.2
+    ]
+  },
+  {
+    "buffActiveType": 2,
+    "buffApplyType": 1,
+    "buffTime": 2.1,
+    "classType": 11,
+    "id": 33
+  },
+  {
+    "buffActiveType": 2,
+    "buffApplyType": 1,
+    "buffTime": 2.0,
+    "classType": 11,
+    "id": 34
+  },
+  {
+    "buffActiveType": 2,
+    "buffApplyType": 1,
+    "buffTime": 1.0,
+    "buffValue": 50.0,
+    "classType": 20,
+    "id": 35
+  },
+  {
+    "buffActiveType": 2,
+    "buffApplyType": 1,
+    "buffDescNameTextId": 81130,
+    "buffNameTextId": 81072,
+    "buffSpriteName": "actionbuff_2",
+    "buffTime": 2.0,
+    "classType": 3,
+    "id": 36
+  }
+]

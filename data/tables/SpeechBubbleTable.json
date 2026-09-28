@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "localText": 767,
+    "remindType": 2
+  },
+  {
+    "id": 2,
+    "localText": 768
+  },
+  {
+    "id": 3,
+    "localText": 769,
+    "remindType": 1
+  },
+  {
+    "id": 4,
+    "localText": 2831
+  },
+  {
+    "id": 5,
+    "localText": 2832
+  },
+  {
+    "id": 6,
+    "localText": 2833
+  },
+  {
+    "id": 7,
+    "localText": 2834
+  },
+  {
+    "id": 8,
+    "localText": 113,
+    "remindType": 2
+  },
+  {
+    "id": 9,
+    "localText": 9116
+  }
+]

@@ -1,0 +1,4 @@
+[
+  { "grade": 1, "iconSpriteName": "icon_collection101_1", "id": 101, "itemAcquireNameTextId": 86001, "itemDescNameTextId": 42101, "itemNameTextId": 40101, "itemSubNameTextId": 5200033, "notTrash": 1 },
+  { "grade": 1, "iconSpriteName": "icon_collection106_6", "id": 106, "itemAcquireNameTextId": 86004, "itemDescNameTextId": 42106, "itemNameTextId": 40106, "itemSubNameTextId": 5200033, "notTrash": 1 }
+]

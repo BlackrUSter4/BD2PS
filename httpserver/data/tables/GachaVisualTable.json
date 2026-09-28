@@ -1,0 +1,1573 @@
+[
+  {
+    "id": 101,
+    "type": 11,
+    "visualLocalTextID": 51001,
+    "voiceResourceName": "Common/Char000101/Char000101_GachaGet"
+  },
+  {
+    "id": 102,
+    "type": 11,
+    "visualLocalTextID": 51003,
+    "voiceResourceName": "Common/Char000102/Char000102_GachaGet"
+  },
+  {
+    "id": 103,
+    "type": 11,
+    "visualLocalTextID": 51080,
+    "voiceResourceName": "Common/Char000103/Char000103_GachaGet"
+  },
+  {
+    "id": 104,
+    "type": 11,
+    "visualLocalTextID": 51004,
+    "voiceResourceName": "Common/Char000104/Char000104_GachaGet"
+  },
+  {
+    "id": 105,
+    "type": 11,
+    "visualLocalTextID": 51005,
+    "voiceResourceName": "Common/Char000105/Char000105_GachaGet"
+  },
+  {
+    "id": 106,
+    "type": 11,
+    "visualLocalTextID": 51096,
+    "voiceResourceName": "Common/Char000106/Char000106_GachaGet"
+  },
+  {
+    "id": 201,
+    "type": 11,
+    "visualLocalTextID": 51095,
+    "voiceResourceName": "Common/Char000201/Char000201_GachaGet"
+  },
+  {
+    "id": 202,
+    "type": 11,
+    "visualLocalTextID": 51081,
+    "voiceResourceName": "Common/Char000202/Char000202_GachaGet"
+  },
+  {
+    "id": 203,
+    "type": 11,
+    "visualLocalTextID": 51009,
+    "voiceResourceName": "Common/Char000203/Char000203_GachaGet"
+  },
+  {
+    "id": 204,
+    "type": 11,
+    "visualLocalTextID": 51008,
+    "voiceResourceName": "Common/Char000204/Char000204_GachaGet"
+  },
+  {
+    "id": 205,
+    "type": 11,
+    "visualLocalTextID": 51010
+  },
+  {
+    "id": 206,
+    "type": 11,
+    "visualLocalTextID": 51097,
+    "voiceResourceName": "Common/Char000206/Char000206_GachaGet"
+  },
+  {
+    "id": 301,
+    "type": 11,
+    "visualLocalTextID": 51011,
+    "voiceResourceName": "Common/Char000301/Char000301_GachaGet"
+  },
+  {
+    "id": 302,
+    "type": 11,
+    "visualLocalTextID": 51014
+  },
+  {
+    "id": 303,
+    "type": 11,
+    "visualLocalTextID": 51013,
+    "voiceResourceName": "Common/Char000303/Char000303_GachaGet"
+  },
+  {
+    "id": 304,
+    "type": 11,
+    "visualLocalTextID": 51082,
+    "voiceResourceName": "Common/Char000304/Char000304_GachaGet"
+  },
+  {
+    "id": 305,
+    "type": 11,
+    "visualLocalTextID": 51015
+  },
+  {
+    "id": 306,
+    "type": 11,
+    "visualLocalTextID": 51098,
+    "voiceResourceName": "Common/Char000306/Char000306_GachaGet"
+  },
+  {
+    "id": 401,
+    "type": 11,
+    "visualLocalTextID": 51083,
+    "voiceResourceName": "Common/Char000401/Char000401_GachaGet"
+  },
+  {
+    "id": 402,
+    "type": 11,
+    "visualLocalTextID": 51017,
+    "voiceResourceName": "Common/Char000402/Char000402_GachaGet"
+  },
+  {
+    "id": 403,
+    "type": 11,
+    "visualLocalTextID": 51084,
+    "voiceResourceName": "Common/Char000403/Char000403_GachaGet"
+  },
+  {
+    "id": 404,
+    "type": 11,
+    "visualLocalTextID": 51019
+  },
+  {
+    "id": 405,
+    "type": 11,
+    "visualLocalTextID": 51020
+  },
+  {
+    "id": 406,
+    "type": 11,
+    "visualLocalTextID": 51099,
+    "voiceResourceName": "Common/Char000406/Char000406_GachaGet"
+  },
+  {
+    "id": 501,
+    "type": 11,
+    "visualLocalTextID": 51021,
+    "voiceResourceName": "Common/Char000501/Char000501_GachaGet"
+  },
+  {
+    "id": 502,
+    "type": 11,
+    "visualLocalTextID": 51022,
+    "voiceResourceName": "Common/Char000502/Char000502_GachaGet"
+  },
+  {
+    "id": 503,
+    "type": 11,
+    "visualLocalTextID": 51023
+  },
+  {
+    "id": 504,
+    "type": 11,
+    "visualLocalTextID": 51024,
+    "voiceResourceName": "Common/Char000504/Char000504_GachaGet"
+  },
+  {
+    "id": 505,
+    "type": 11,
+    "visualLocalTextID": 51025
+  },
+  {
+    "id": 601,
+    "type": 11,
+    "visualLocalTextID": 51026,
+    "voiceResourceName": "Common/Char000601/Char000601_GachaGet"
+  },
+  {
+    "id": 602,
+    "type": 11,
+    "visualLocalTextID": 51027
+  },
+  {
+    "id": 603,
+    "type": 11,
+    "visualLocalTextID": 51028
+  },
+  {
+    "id": 604,
+    "type": 11,
+    "visualLocalTextID": 51029,
+    "voiceResourceName": "Common/Char000604/Char000604_GachaGet"
+  },
+  {
+    "id": 605,
+    "type": 11,
+    "visualLocalTextID": 51030
+  },
+  {
+    "id": 701,
+    "type": 11,
+    "visualLocalTextID": 51041,
+    "voiceResourceName": "Common/Char000701/Char000701_GachaGet"
+  },
+  {
+    "id": 702,
+    "type": 11,
+    "visualLocalTextID": 51042
+  },
+  {
+    "id": 703,
+    "type": 11,
+    "visualLocalTextID": 51043
+  },
+  {
+    "id": 704,
+    "type": 11,
+    "visualLocalTextID": 51044
+  },
+  {
+    "id": 705,
+    "type": 11,
+    "visualLocalTextID": 51045
+  },
+  {
+    "id": 706,
+    "type": 11,
+    "visualLocalTextID": 51110,
+    "voiceResourceName": "Common/Char000706/Char000706_GachaGet"
+  },
+  {
+    "id": 707,
+    "type": 11,
+    "visualLocalTextID": 51137,
+    "voiceResourceName": "Common/Char000707/Char000707_GachaGet"
+  },
+  {
+    "id": 708,
+    "type": 11,
+    "visualLocalTextID": 51171,
+    "voiceResourceName": "Common/Char000708/Char000708_GachaGet"
+  },
+  {
+    "id": 801,
+    "type": 11,
+    "visualLocalTextID": 51036,
+    "voiceResourceName": "Common/Char000801/Char000801_GachaGet"
+  },
+  {
+    "id": 802,
+    "type": 11,
+    "visualLocalTextID": 51037
+  },
+  {
+    "id": 803,
+    "type": 11,
+    "visualLocalTextID": 51038
+  },
+  {
+    "id": 804,
+    "type": 11,
+    "visualLocalTextID": 51039,
+    "voiceResourceName": "Common/Char000804/Char000804_GachaGet"
+  },
+  {
+    "id": 805,
+    "type": 11,
+    "visualLocalTextID": 51040
+  },
+  {
+    "id": 806,
+    "type": 11,
+    "visualLocalTextID": 51116,
+    "voiceResourceName": "Common/Char000806/Char000806_GachaGet"
+  },
+  {
+    "id": 807,
+    "type": 11,
+    "visualLocalTextID": 51176,
+    "voiceResourceName": "Common/Char000807/Char000807_GachaGet"
+  },
+  {
+    "id": 1001,
+    "type": 11,
+    "visualLocalTextID": 51031,
+    "voiceResourceName": "Common/Char001001/Char001001_GachaGet"
+  },
+  {
+    "id": 1002,
+    "type": 11,
+    "visualLocalTextID": 51032,
+    "voiceResourceName": "Common/Char001002/Char001002_GachaGet"
+  },
+  {
+    "id": 1003,
+    "type": 11,
+    "visualLocalTextID": 51085
+  },
+  {
+    "id": 1004,
+    "type": 11,
+    "visualLocalTextID": 51034,
+    "voiceResourceName": "Common/Char001004/Char001004_GachaGet"
+  },
+  {
+    "id": 1005,
+    "type": 11,
+    "visualLocalTextID": 51035
+  },
+  {
+    "id": 1006,
+    "type": 11,
+    "visualLocalTextID": 51175,
+    "voiceResourceName": "Common/Char001006/Char001006_GachaGet"
+  },
+  {
+    "id": 1101,
+    "type": 11,
+    "visualLocalTextID": 51086,
+    "voiceResourceName": "Common/Char001101/Char001101_GachaGet"
+  },
+  {
+    "id": 1102,
+    "type": 11,
+    "visualLocalTextID": 51047
+  },
+  {
+    "id": 1103,
+    "type": 11,
+    "visualLocalTextID": 51048
+  },
+  {
+    "id": 1104,
+    "type": 11,
+    "visualLocalTextID": 51087
+  },
+  {
+    "id": 1105,
+    "type": 11,
+    "visualLocalTextID": 51050
+  },
+  {
+    "id": 1106,
+    "type": 11,
+    "visualLocalTextID": 51119,
+    "voiceResourceName": "Common/Char001106/Char001106_GachaGet"
+  },
+  {
+    "id": 1107,
+    "type": 11,
+    "visualLocalTextID": 51134,
+    "voiceResourceName": "Common/Char001107/Char001107_GachaGet"
+  },
+  {
+    "id": 1201,
+    "type": 11,
+    "visualLocalTextID": 51051,
+    "voiceResourceName": "Common/Char001201/Char001201_GachaGet"
+  },
+  {
+    "id": 1202,
+    "type": 11,
+    "visualLocalTextID": 51052
+  },
+  {
+    "id": 1203,
+    "type": 11,
+    "visualLocalTextID": 51053
+  },
+  {
+    "id": 1205,
+    "type": 11,
+    "visualLocalTextID": 51088
+  },
+  {
+    "id": 1206,
+    "type": 11,
+    "visualLocalTextID": 51101,
+    "voiceResourceName": "Common/Char001206/Char001206_GachaGet"
+  },
+  {
+    "id": 1207,
+    "type": 11,
+    "visualLocalTextID": 51117,
+    "voiceResourceName": "Common/Char001207/Char001207_GachaGet"
+  },
+  {
+    "id": 2401,
+    "type": 11,
+    "visualLocalTextID": 51056,
+    "voiceResourceName": "Common/Char002401/Char002401_GachaGet"
+  },
+  {
+    "id": 2402,
+    "type": 11,
+    "visualLocalTextID": 51057
+  },
+  {
+    "id": 2403,
+    "type": 11,
+    "visualLocalTextID": 51058
+  },
+  {
+    "id": 2404,
+    "type": 11,
+    "visualLocalTextID": 51059
+  },
+  {
+    "id": 2405,
+    "type": 11,
+    "visualLocalTextID": 51060
+  },
+  {
+    "id": 2406,
+    "type": 11,
+    "visualLocalTextID": 51112,
+    "voiceResourceName": "Common/Char002406/Char002406_GachaGet"
+  },
+  {
+    "id": 3201,
+    "type": 11,
+    "visualLocalTextID": 51124,
+    "voiceResourceName": "Common/Char003201/Char003201_GachaGet"
+  },
+  {
+    "id": 3202,
+    "type": 11,
+    "visualLocalTextID": 51132,
+    "voiceResourceName": "Common/Char003202/Char003202_GachaGet"
+  },
+  {
+    "id": 3203,
+    "type": 11,
+    "visualLocalTextID": 51149,
+    "voiceResourceName": "Common/Char003203/Char003203_GachaGet"
+  },
+  {
+    "id": 3301,
+    "type": 11,
+    "visualLocalTextID": 51139,
+    "voiceResourceName": "Common/Char003301/Char003301_GachaGet"
+  },
+  {
+    "id": 3302,
+    "type": 11,
+    "visualLocalTextID": 51130,
+    "voiceResourceName": "Common/Char003302/Char003302_GachaGet"
+  },
+  {
+    "id": 3303,
+    "type": 11,
+    "visualLocalTextID": 51147,
+    "voiceResourceName": "Common/Char003303/Char003303_GachaGet"
+  },
+  {
+    "id": 3401,
+    "type": 11,
+    "visualLocalTextID": 51135,
+    "voiceResourceName": "Common/Char003401/Char003401_GachaGet"
+  },
+  {
+    "id": 3402,
+    "type": 11,
+    "visualLocalTextID": 51151,
+    "voiceResourceName": "Common/Char003402/Char003402_GachaGet"
+  },
+  {
+    "id": 3403,
+    "type": 11,
+    "visualLocalTextID": 51162,
+    "voiceResourceName": "Common/Char003403/Char003403_GachaGet"
+  },
+  {
+    "id": 3501,
+    "type": 11,
+    "visualLocalTextID": 51131,
+    "voiceResourceName": "Common/Char003501/Char003501_GachaGet"
+  },
+  {
+    "id": 3602,
+    "type": 11,
+    "visualLocalTextID": 51174,
+    "voiceResourceName": "Common/Char003602/Char003602_GachaGet"
+  },
+  {
+    "id": 3603,
+    "type": 11,
+    "visualLocalTextID": 51173,
+    "voiceResourceName": "Common/Char003603/Char003603_GachaGet"
+  },
+  {
+    "id": 3701,
+    "type": 11,
+    "visualLocalTextID": 51155,
+    "voiceResourceName": "Common/Char003701/Char003701_GachaGet"
+  },
+  {
+    "id": 3703,
+    "type": 11,
+    "visualLocalTextID": 51157,
+    "voiceResourceName": "Common/Char003703/Char003703_GachaGet"
+  },
+  {
+    "id": 3801,
+    "type": 11,
+    "visualLocalTextID": 51158,
+    "voiceResourceName": "Common/Char003801/Char003801_GachaGet"
+  },
+  {
+    "id": 3802,
+    "type": 11,
+    "visualLocalTextID": 51154,
+    "voiceResourceName": "Common/Char003802/Char003802_GachaGet"
+  },
+  {
+    "id": 3901,
+    "type": 11,
+    "visualLocalTextID": 51177,
+    "voiceResourceName": "Common/Char003901/Char003901_GachaGet"
+  },
+  {
+    "id": 3902,
+    "type": 11,
+    "visualLocalTextID": 51181,
+    "voiceResourceName": "Common/Char003902/Char003902_GachaGet"
+  },
+  {
+    "id": 4001,
+    "type": 11,
+    "visualLocalTextID": 51179,
+    "voiceResourceName": "Common/Char004001/Char004001_GachaGet"
+  },
+  {
+    "id": 4101,
+    "type": 11,
+    "visualLocalTextID": 51178,
+    "voiceResourceName": "Common/Char004101/Char004101_GachaGet"
+  },
+  {
+    "id": 20001,
+    "type": 11,
+    "visualLocalTextID": 51127,
+    "voiceResourceName": "Common/Char020001/Char020001_GachaGet"
+  },
+  {
+    "id": 20002,
+    "type": 11,
+    "visualLocalTextID": 51128,
+    "voiceResourceName": "Common/Char020002/Char020002_GachaGet"
+  },
+  {
+    "id": 20101,
+    "type": 11,
+    "visualLocalTextID": 51125,
+    "voiceResourceName": "Common/Char020101/Char020101_GachaGet"
+  },
+  {
+    "id": 20102,
+    "type": 11,
+    "visualLocalTextID": 51126,
+    "voiceResourceName": "Common/Char020102/Char020102_GachaGet"
+  },
+  {
+    "id": 20301,
+    "type": 11,
+    "visualLocalTextID": 51142,
+    "voiceResourceName": "Common/Char020301/Char020301_GachaGet"
+  },
+  {
+    "id": 20401,
+    "type": 11,
+    "visualLocalTextID": 51143,
+    "voiceResourceName": "Common/Char020401/Char020401_GachaGet"
+  },
+  {
+    "id": 20501,
+    "type": 11,
+    "visualLocalTextID": 51141,
+    "voiceResourceName": "Common/Char020501/Char020501_GachaGet"
+  },
+  {
+    "id": 20601,
+    "type": 11,
+    "visualLocalTextID": 51164,
+    "voiceResourceName": "Common/Char020601/Char020601_GachaGet"
+  },
+  {
+    "id": 20701,
+    "type": 11,
+    "visualLocalTextID": 51165,
+    "voiceResourceName": "Common/Char020701/Char020701_GachaGet"
+  },
+  {
+    "id": 20801,
+    "type": 11,
+    "visualLocalTextID": 51166,
+    "voiceResourceName": "Common/Char020801/Char020801_GachaGet"
+  },
+  {
+    "id": 20901,
+    "type": 11,
+    "visualLocalTextID": 51167,
+    "voiceResourceName": "Common/Char020901/Char020901_GachaGet"
+  },
+  {
+    "id": 60301,
+    "type": 11,
+    "visualLocalTextID": 51070,
+    "voiceResourceName": "Common/Char060301/Char060301_GachaGet"
+  },
+  {
+    "id": 60302,
+    "type": 11,
+    "visualLocalTextID": 51061,
+    "voiceResourceName": "Common/Char060302/Char060302_GachaGet"
+  },
+  {
+    "id": 60401,
+    "type": 11,
+    "visualLocalTextID": 51071,
+    "voiceResourceName": "Common/Char060401/Char060401_GachaGet"
+  },
+  {
+    "id": 60402,
+    "type": 11,
+    "visualLocalTextID": 51062,
+    "voiceResourceName": "Common/Char060402/Char060402_GachaGet"
+  },
+  {
+    "id": 60403,
+    "type": 11,
+    "visualLocalTextID": 51111,
+    "voiceResourceName": "Common/Char060403/Char060403_GachaGet"
+  },
+  {
+    "id": 60501,
+    "type": 11,
+    "visualLocalTextID": 51089,
+    "voiceResourceName": "Common/Char060501/Char060501_GachaGet"
+  },
+  {
+    "id": 60502,
+    "type": 11,
+    "visualLocalTextID": 51063,
+    "voiceResourceName": "Common/Char060502/Char060502_GachaGet"
+  },
+  {
+    "id": 60601,
+    "type": 11,
+    "visualLocalTextID": 51073,
+    "voiceResourceName": "Common/Char060601/Char060601_GachaGet"
+  },
+  {
+    "id": 60602,
+    "type": 11,
+    "visualLocalTextID": 51064,
+    "voiceResourceName": "Common/Char060602/Char060602_GachaGet"
+  },
+  {
+    "id": 60701,
+    "type": 11,
+    "visualLocalTextID": 51074,
+    "voiceResourceName": "Common/Char060701/Char060701_GachaGet"
+  },
+  {
+    "id": 60702,
+    "type": 11,
+    "visualLocalTextID": 51090,
+    "voiceResourceName": "Common/Char060702/Char060702_GachaGet"
+  },
+  {
+    "id": 60706,
+    "type": 11,
+    "visualLocalTextID": 51121,
+    "voiceResourceName": "Common/Char060706/Char060706_GachaGet"
+  },
+  {
+    "id": 60801,
+    "type": 11,
+    "visualLocalTextID": 51075,
+    "voiceResourceName": "Common/Char060801/Char060801_GachaGet"
+  },
+  {
+    "id": 60802,
+    "type": 11,
+    "visualLocalTextID": 51094,
+    "voiceResourceName": "Common/Char060802/Char060802_GachaGet"
+  },
+  {
+    "id": 60901,
+    "type": 11,
+    "visualLocalTextID": 51076,
+    "voiceResourceName": "Common/Char101101/Char101101_GachaGet"
+  },
+  {
+    "id": 60902,
+    "type": 11,
+    "visualLocalTextID": 51091,
+    "voiceResourceName": "Common/Char101102/Char101102_GachaGet"
+  },
+  {
+    "id": 60903,
+    "type": 11,
+    "visualLocalTextID": 51144,
+    "voiceResourceName": "Common/Char101103/Char101103_GachaGet"
+  },
+  {
+    "id": 61001,
+    "type": 11,
+    "visualLocalTextID": 51077,
+    "voiceResourceName": "Common/Char061001/Char061001_GachaGet"
+  },
+  {
+    "id": 61002,
+    "type": 11,
+    "visualLocalTextID": 51092,
+    "voiceResourceName": "Common/Char061002/Char061002_GachaGet"
+  },
+  {
+    "id": 61101,
+    "type": 11,
+    "visualLocalTextID": 51078,
+    "voiceResourceName": "Common/Char061101/Char061101_GachaGet"
+  },
+  {
+    "id": 61102,
+    "type": 11,
+    "visualLocalTextID": 51093,
+    "voiceResourceName": "Common/Char061102/Char061102_GachaGet"
+  },
+  {
+    "id": 61302,
+    "type": 11,
+    "visualLocalTextID": 51108,
+    "voiceResourceName": "Common/Char061302/Char061302_GachaGet"
+  },
+  {
+    "id": 61402,
+    "type": 11,
+    "visualLocalTextID": 51106,
+    "voiceResourceName": "Common/Char061402/Char061402_GachaGet"
+  },
+  {
+    "id": 61404,
+    "type": 11,
+    "visualLocalTextID": 51169,
+    "voiceResourceName": "Common/Char061404/Char061404_GachaGet"
+  },
+  {
+    "id": 65101,
+    "type": 11,
+    "visualLocalTextID": 51079
+  },
+  {
+    "id": 65102,
+    "type": 11,
+    "visualLocalTextID": 51107,
+    "voiceResourceName": "Common/Char065102/Char065102_GachaGet"
+  },
+  {
+    "id": 65103,
+    "type": 11,
+    "visualLocalTextID": 51113,
+    "voiceResourceName": "Common/Char065103/Char065103_GachaGet"
+  },
+  {
+    "id": 65802,
+    "type": 11,
+    "visualLocalTextID": 51109,
+    "voiceResourceName": "Common/Char065802/Char065802_GachaGet"
+  },
+  {
+    "id": 66401,
+    "type": 11,
+    "visualLocalTextID": 51104,
+    "voiceResourceName": "Common/Char066401/Char066401_GachaGet"
+  },
+  {
+    "id": 66402,
+    "type": 11,
+    "visualLocalTextID": 51100,
+    "voiceResourceName": "Common/Char066402/Char066402_GachaGet"
+  },
+  {
+    "id": 66403,
+    "type": 11,
+    "visualLocalTextID": 51102,
+    "voiceResourceName": "Common/Char066403/Char066403_GachaGet"
+  },
+  {
+    "id": 66801,
+    "type": 11,
+    "visualLocalTextID": 51122,
+    "voiceResourceName": "Common/Char066801/Char066801_GachaGet"
+  },
+  {
+    "id": 66802,
+    "type": 11,
+    "visualLocalTextID": 51123,
+    "voiceResourceName": "Common/Char066802/Char066802_GachaGet"
+  },
+  {
+    "id": 66803,
+    "type": 11,
+    "visualLocalTextID": 51170,
+    "voiceResourceName": "Common/Char066803/Char066803_GachaGet"
+  },
+  {
+    "id": 66902,
+    "type": 11,
+    "visualLocalTextID": 51103,
+    "voiceResourceName": "Common/Char066902/Char066902_GachaGet"
+  },
+  {
+    "id": 66906,
+    "type": 11,
+    "visualLocalTextID": 51120,
+    "voiceResourceName": "Common/Char066906/Char066906_GachaGet"
+  },
+  {
+    "id": 67002,
+    "type": 11,
+    "visualLocalTextID": 51105,
+    "voiceResourceName": "Common/Char067002/Char067002_GachaGet"
+  },
+  {
+    "id": 67003,
+    "type": 11,
+    "visualLocalTextID": 51115,
+    "voiceResourceName": "Common/Char067003/Char067003_GachaGet"
+  },
+  {
+    "id": 67004,
+    "type": 11,
+    "visualLocalTextID": 51153,
+    "voiceResourceName": "Common/Char067004/Char067004_GachaGet"
+  },
+  {
+    "id": 67101,
+    "type": 11,
+    "visualLocalTextID": 51118,
+    "voiceResourceName": "Common/Char067101/Char067101_GachaGet"
+  },
+  {
+    "id": 67102,
+    "type": 11,
+    "visualLocalTextID": 51114,
+    "voiceResourceName": "Common/Char067102/Char067102_GachaGet"
+  },
+  {
+    "id": 67103,
+    "type": 11,
+    "visualLocalTextID": 51180,
+    "voiceResourceName": "Common/Char067103/Char067103_GachaGet"
+  },
+  {
+    "id": 67201,
+    "type": 11,
+    "visualLocalTextID": 51129,
+    "voiceResourceName": "Common/Char067201/Char067201_GachaGet"
+  },
+  {
+    "id": 67202,
+    "type": 11,
+    "visualLocalTextID": 51148,
+    "voiceResourceName": "Common/Char067202/Char067202_GachaGet"
+  },
+  {
+    "id": 67301,
+    "type": 11,
+    "visualLocalTextID": 51133,
+    "voiceResourceName": "Common/Char067301/Char067301_GachaGet"
+  },
+  {
+    "id": 67302,
+    "type": 11,
+    "visualLocalTextID": 51138,
+    "voiceResourceName": "Common/Char067302/Char067302_GachaGet"
+  },
+  {
+    "id": 67303,
+    "type": 11,
+    "visualLocalTextID": 51150,
+    "voiceResourceName": "Common/Char067303/Char067303_GachaGet"
+  },
+  {
+    "id": 67401,
+    "type": 11,
+    "visualLocalTextID": 51136,
+    "voiceResourceName": "Common/Char067401/Char067401_GachaGet"
+  },
+  {
+    "id": 67402,
+    "type": 11,
+    "visualLocalTextID": 51146,
+    "voiceResourceName": "Common/Char067402/Char067402_GachaGet"
+  },
+  {
+    "id": 67403,
+    "type": 11,
+    "visualLocalTextID": 51159,
+    "voiceResourceName": "Common/Char067403/Char067403_GachaGet"
+  },
+  {
+    "id": 67502,
+    "type": 11,
+    "visualLocalTextID": 51145,
+    "voiceResourceName": "Common/Char067502/Char067502_GachaGet"
+  },
+  {
+    "id": 67503,
+    "type": 11,
+    "visualLocalTextID": 51152,
+    "voiceResourceName": "Common/Char067503/Char067503_GachaGet"
+  },
+  {
+    "id": 67601,
+    "type": 11,
+    "visualLocalTextID": 51161,
+    "voiceResourceName": "Common/Char067601/Char067601_GachaGet"
+  },
+  {
+    "id": 67603,
+    "type": 11,
+    "visualLocalTextID": 51168,
+    "voiceResourceName": "Common/Char067603/Char067603_GachaGet"
+  },
+  {
+    "id": 933001,
+    "type": 10,
+    "visualLocalTextID": 50001,
+    "voiceResourceName": "Common/Char000101/Char000101_GearGet"
+  },
+  {
+    "id": 933002,
+    "type": 10,
+    "visualLocalTextID": 50002,
+    "voiceResourceName": "Common/Char000201/Char000201_GearGet"
+  },
+  {
+    "id": 933003,
+    "type": 10,
+    "visualLocalTextID": 50003,
+    "voiceResourceName": "Common/Char000301/Char000301_GearGet"
+  },
+  {
+    "id": 933004,
+    "type": 10,
+    "visualLocalTextID": 50004,
+    "voiceResourceName": "Common/Char000401/Char000401_GearGet"
+  },
+  {
+    "id": 933005,
+    "type": 10,
+    "visualLocalTextID": 50005,
+    "voiceResourceName": "Common/Char000501/Char000501_GearGet"
+  },
+  {
+    "id": 933006,
+    "type": 10,
+    "visualLocalTextID": 50006,
+    "voiceResourceName": "Common/Char000601/Char000601_GearGet"
+  },
+  {
+    "id": 933007,
+    "type": 10,
+    "visualLocalTextID": 50009,
+    "voiceResourceName": "Common/Char000701/Char000701_GearGet"
+  },
+  {
+    "id": 933008,
+    "type": 10,
+    "visualLocalTextID": 50008,
+    "voiceResourceName": "Common/Char000801/Char000801_GearGet"
+  },
+  {
+    "id": 933010,
+    "type": 10,
+    "visualLocalTextID": 50007,
+    "voiceResourceName": "Common/Char001001/Char001001_GearGet"
+  },
+  {
+    "id": 933011,
+    "type": 10,
+    "visualLocalTextID": 50010,
+    "voiceResourceName": "Common/Char001101/Char001101_GearGet"
+  },
+  {
+    "id": 933012,
+    "type": 10,
+    "visualLocalTextID": 50011,
+    "voiceResourceName": "Common/Char001201/Char001201_GearGet"
+  },
+  {
+    "id": 933024,
+    "type": 10,
+    "visualLocalTextID": 50026,
+    "voiceResourceName": "Common/Char002401/Char002401_GearGet"
+  },
+  {
+    "id": 933032,
+    "type": 10,
+    "visualLocalTextID": 50033,
+    "voiceResourceName": "Common/Char003201/Char003201_GearGet"
+  },
+  {
+    "id": 933033,
+    "type": 10,
+    "visualLocalTextID": 51140,
+    "voiceResourceName": "Common/Char003301/Char003301_GearGet"
+  },
+  {
+    "id": 933034,
+    "type": 10,
+    "visualLocalTextID": 51163,
+    "voiceResourceName": "Common/Char003403/Char003403_GearGet"
+  },
+  {
+    "id": 933035,
+    "type": 10,
+    "visualLocalTextID": 50038,
+    "voiceResourceName": "Common/Char003501/Char003501_GearGet"
+  },
+  {
+    "id": 933036,
+    "type": 10,
+    "visualLocalTextID": 50053,
+    "voiceResourceName": "Common/Char003603/Char003603_GearGet"
+  },
+  {
+    "id": 933037,
+    "type": 10,
+    "visualLocalTextID": 50047,
+    "voiceResourceName": "Common/Char003701/Char003701_GearGet"
+  },
+  {
+    "id": 933038,
+    "type": 10,
+    "visualLocalTextID": 50046,
+    "voiceResourceName": "Common/Char003801/Char003801_GearGet"
+  },
+  {
+    "id": 933039,
+    "type": 10,
+    "visualLocalTextID": 50054,
+    "voiceResourceName": "Common/Char003901/Char003901_GearGet"
+  },
+  {
+    "id": 933040,
+    "type": 10,
+    "visualLocalTextID": 50056,
+    "voiceResourceName": "Common/Char004001/Char004001_GearGet"
+  },
+  {
+    "id": 933041,
+    "type": 10,
+    "visualLocalTextID": 50055,
+    "voiceResourceName": "Common/Char004101/Char004101_GearGet"
+  },
+  {
+    "id": 933200,
+    "type": 10,
+    "visualLocalTextID": 50035,
+    "voiceResourceName": "Common/Char020001/Char020001_GearGet"
+  },
+  {
+    "id": 933201,
+    "type": 10,
+    "visualLocalTextID": 50034,
+    "voiceResourceName": "Common/Char020101/Char020101_GearGet"
+  },
+  {
+    "id": 933203,
+    "type": 10,
+    "visualLocalTextID": 50043,
+    "voiceResourceName": "Common/Char020301/Char020301_GearGet"
+  },
+  {
+    "id": 933204,
+    "type": 10,
+    "visualLocalTextID": 50044,
+    "voiceResourceName": "Common/Char020401/Char020401_GearGet"
+  },
+  {
+    "id": 933205,
+    "type": 10,
+    "visualLocalTextID": 50042,
+    "voiceResourceName": "Common/Char020501/Char020501_GearGet"
+  },
+  {
+    "id": 933206,
+    "type": 10,
+    "visualLocalTextID": 50049,
+    "voiceResourceName": "Common/Char020601/Char020601_GearGet"
+  },
+  {
+    "id": 933207,
+    "type": 10,
+    "visualLocalTextID": 50050,
+    "voiceResourceName": "Common/Char020701/Char020701_GearGet"
+  },
+  {
+    "id": 933208,
+    "type": 10,
+    "visualLocalTextID": 50051,
+    "voiceResourceName": "Common/Char020801/Char020801_GearGet"
+  },
+  {
+    "id": 933209,
+    "type": 10,
+    "visualLocalTextID": 50052,
+    "voiceResourceName": "Common/Char020901/Char020901_GearGet"
+  },
+  {
+    "id": 933603,
+    "type": 10,
+    "visualLocalTextID": 50013,
+    "voiceResourceName": "Common/Char060301/Char060301_GearGet"
+  },
+  {
+    "id": 933604,
+    "type": 10,
+    "visualLocalTextID": 50014,
+    "voiceResourceName": "Common/Char060401/Char060401_GearGet"
+  },
+  {
+    "id": 933605,
+    "type": 10,
+    "visualLocalTextID": 50015,
+    "voiceResourceName": "Common/Char060501/Char060501_GearGet"
+  },
+  {
+    "id": 933606,
+    "type": 10,
+    "visualLocalTextID": 50016,
+    "voiceResourceName": "Common/Char060601/Char060601_GearGet"
+  },
+  {
+    "id": 933607,
+    "type": 10,
+    "visualLocalTextID": 50017,
+    "voiceResourceName": "Common/Char060701/Char060701_GearGet"
+  },
+  {
+    "id": 933608,
+    "type": 10,
+    "visualLocalTextID": 50018,
+    "voiceResourceName": "Common/Char060801/Char060801_GearGet"
+  },
+  {
+    "id": 933609,
+    "type": 10,
+    "visualLocalTextID": 50019,
+    "voiceResourceName": "Common/Char101101/Char101101_GearGet"
+  },
+  {
+    "id": 933610,
+    "type": 10,
+    "visualLocalTextID": 50020,
+    "voiceResourceName": "Common/Char061001/Char061001_GearGet"
+  },
+  {
+    "id": 933611,
+    "type": 10,
+    "visualLocalTextID": 50021,
+    "voiceResourceName": "Common/Char061101/Char061101_GearGet"
+  },
+  {
+    "id": 933613,
+    "type": 10,
+    "visualLocalTextID": 50029,
+    "voiceResourceName": "Common/Char061302/Char061302_GearGet"
+  },
+  {
+    "id": 933614,
+    "type": 10,
+    "visualLocalTextID": 50027,
+    "voiceResourceName": "Common/Char061401/Char061401_GearGet"
+  },
+  {
+    "id": 933651,
+    "type": 10,
+    "visualLocalTextID": 50028,
+    "voiceResourceName": "Common/Char065102/Char065102_GearGet"
+  },
+  {
+    "id": 933658,
+    "type": 10,
+    "visualLocalTextID": 50030,
+    "voiceResourceName": "Common/Char065801/Char065801_GearGet"
+  },
+  {
+    "id": 933664,
+    "type": 10,
+    "visualLocalTextID": 50023,
+    "voiceResourceName": "Common/Char066401/Char066401_GearGet"
+  },
+  {
+    "id": 933668,
+    "type": 10,
+    "visualLocalTextID": 50032,
+    "voiceResourceName": "Common/Char066801/Char066801_GearGet"
+  },
+  {
+    "id": 933669,
+    "type": 10,
+    "visualLocalTextID": 50024,
+    "voiceResourceName": "Common/Char066901/Char066901_GearGet"
+  },
+  {
+    "id": 933670,
+    "type": 10,
+    "visualLocalTextID": 50025,
+    "voiceResourceName": "Common/Char067001/Char067001_GearGet"
+  },
+  {
+    "id": 933671,
+    "type": 10,
+    "visualLocalTextID": 50031,
+    "voiceResourceName": "Common/Char067102/Char067102_GearGet"
+  },
+  {
+    "id": 933672,
+    "type": 10,
+    "visualLocalTextID": 50036,
+    "voiceResourceName": "Common/Char067202/Char067202_GearGet"
+  },
+  {
+    "id": 933673,
+    "type": 10,
+    "visualLocalTextID": 50039,
+    "voiceResourceName": "Common/Char067302/Char067302_GearGet"
+  },
+  {
+    "id": 933674,
+    "type": 10,
+    "visualLocalTextID": 51160,
+    "voiceResourceName": "Common/Char067403/Char067403_GearGet"
+  },
+  {
+    "id": 933675,
+    "type": 10,
+    "visualLocalTextID": 50045,
+    "voiceResourceName": "Common/Char067502/Char067502_GearGet"
+  },
+  {
+    "id": 933676,
+    "type": 10,
+    "visualLocalTextID": 50048,
+    "voiceResourceName": "Common/Char067601/Char067601_GearGet"
+  },
+  {
+    "id": 943001,
+    "type": 10,
+    "visualLocalTextID": 50001,
+    "voiceResourceName": "Common/Char000101/Char000101_GearGet"
+  },
+  {
+    "id": 943002,
+    "type": 10,
+    "visualLocalTextID": 50002,
+    "voiceResourceName": "Common/Char000201/Char000201_GearGet"
+  },
+  {
+    "id": 943003,
+    "type": 10,
+    "visualLocalTextID": 50003,
+    "voiceResourceName": "Common/Char000301/Char000301_GearGet"
+  },
+  {
+    "id": 943004,
+    "type": 10,
+    "visualLocalTextID": 50004,
+    "voiceResourceName": "Common/Char000401/Char000401_GearGet"
+  },
+  {
+    "id": 943005,
+    "type": 10,
+    "visualLocalTextID": 50005,
+    "voiceResourceName": "Common/Char000501/Char000501_GearGet"
+  },
+  {
+    "id": 943006,
+    "type": 10,
+    "visualLocalTextID": 50006,
+    "voiceResourceName": "Common/Char000601/Char000601_GearGet"
+  },
+  {
+    "id": 943007,
+    "type": 10,
+    "visualLocalTextID": 50009,
+    "voiceResourceName": "Common/Char000701/Char000701_GearGet"
+  },
+  {
+    "id": 943008,
+    "type": 10,
+    "visualLocalTextID": 50008,
+    "voiceResourceName": "Common/Char000801/Char000801_GearGet"
+  },
+  {
+    "id": 943010,
+    "type": 10,
+    "visualLocalTextID": 50007,
+    "voiceResourceName": "Common/Char001001/Char001001_GearGet"
+  },
+  {
+    "id": 943011,
+    "type": 10,
+    "visualLocalTextID": 50010,
+    "voiceResourceName": "Common/Char001101/Char001101_GearGet"
+  },
+  {
+    "id": 943012,
+    "type": 10,
+    "visualLocalTextID": 50011,
+    "voiceResourceName": "Common/Char001201/Char001201_GearGet"
+  },
+  {
+    "id": 943024,
+    "type": 10,
+    "visualLocalTextID": 50026,
+    "voiceResourceName": "Common/Char002401/Char002401_GearGet"
+  },
+  {
+    "id": 943032,
+    "type": 10,
+    "visualLocalTextID": 50033,
+    "voiceResourceName": "Common/Char003201/Char003201_GearGet"
+  },
+  {
+    "id": 943033,
+    "type": 10,
+    "visualLocalTextID": 51140,
+    "voiceResourceName": "Common/Char003301/Char003301_GearGet"
+  },
+  {
+    "id": 943034,
+    "type": 10,
+    "visualLocalTextID": 51163,
+    "voiceResourceName": "Common/Char003403/Char003403_GearGet"
+  },
+  {
+    "id": 943035,
+    "type": 10,
+    "visualLocalTextID": 50038,
+    "voiceResourceName": "Common/Char003501/Char003501_GearGet"
+  },
+  {
+    "id": 943036,
+    "type": 10,
+    "visualLocalTextID": 50053,
+    "voiceResourceName": "Common/Char003603/Char003603_GearGet"
+  },
+  {
+    "id": 943037,
+    "type": 10,
+    "visualLocalTextID": 50047,
+    "voiceResourceName": "Common/Char003701/Char003701_GearGet"
+  },
+  {
+    "id": 943038,
+    "type": 10,
+    "visualLocalTextID": 50046,
+    "voiceResourceName": "Common/Char003801/Char003801_GearGet"
+  },
+  {
+    "id": 943039,
+    "type": 10,
+    "visualLocalTextID": 50054,
+    "voiceResourceName": "Common/Char003901/Char003901_GearGet"
+  },
+  {
+    "id": 943040,
+    "type": 10,
+    "visualLocalTextID": 50056,
+    "voiceResourceName": "Common/Char004001/Char004001_GearGet"
+  },
+  {
+    "id": 943041,
+    "type": 10,
+    "visualLocalTextID": 50055,
+    "voiceResourceName": "Common/Char004101/Char004101_GearGet"
+  },
+  {
+    "id": 943200,
+    "type": 10,
+    "visualLocalTextID": 50035,
+    "voiceResourceName": "Common/Char020001/Char020001_GearGet"
+  },
+  {
+    "id": 943201,
+    "type": 10,
+    "visualLocalTextID": 50034,
+    "voiceResourceName": "Common/Char020101/Char020101_GearGet"
+  },
+  {
+    "id": 943203,
+    "type": 10,
+    "visualLocalTextID": 50043,
+    "voiceResourceName": "Common/Char020301/Char020301_GearGet"
+  },
+  {
+    "id": 943204,
+    "type": 10,
+    "visualLocalTextID": 50044,
+    "voiceResourceName": "Common/Char020401/Char020401_GearGet"
+  },
+  {
+    "id": 943205,
+    "type": 10,
+    "visualLocalTextID": 50042,
+    "voiceResourceName": "Common/Char020501/Char020501_GearGet"
+  },
+  {
+    "id": 943206,
+    "type": 10,
+    "visualLocalTextID": 50049,
+    "voiceResourceName": "Common/Char020601/Char020601_GearGet"
+  },
+  {
+    "id": 943207,
+    "type": 10,
+    "visualLocalTextID": 50050,
+    "voiceResourceName": "Common/Char020701/Char020701_GearGet"
+  },
+  {
+    "id": 943208,
+    "type": 10,
+    "visualLocalTextID": 50051,
+    "voiceResourceName": "Common/Char020801/Char020801_GearGet"
+  },
+  {
+    "id": 943209,
+    "type": 10,
+    "visualLocalTextID": 50052,
+    "voiceResourceName": "Common/Char020901/Char020901_GearGet"
+  },
+  {
+    "id": 943603,
+    "type": 10,
+    "visualLocalTextID": 50013,
+    "voiceResourceName": "Common/Char060301/Char060301_GearGet"
+  },
+  {
+    "id": 943604,
+    "type": 10,
+    "visualLocalTextID": 50014,
+    "voiceResourceName": "Common/Char060401/Char060401_GearGet"
+  },
+  {
+    "id": 943605,
+    "type": 10,
+    "visualLocalTextID": 50015,
+    "voiceResourceName": "Common/Char060501/Char060501_GearGet"
+  },
+  {
+    "id": 943606,
+    "type": 10,
+    "visualLocalTextID": 50016,
+    "voiceResourceName": "Common/Char060601/Char060601_GearGet"
+  },
+  {
+    "id": 943607,
+    "type": 10,
+    "visualLocalTextID": 50017,
+    "voiceResourceName": "Common/Char060701/Char060701_GearGet"
+  },
+  {
+    "id": 943608,
+    "type": 10,
+    "visualLocalTextID": 50018,
+    "voiceResourceName": "Common/Char060801/Char060801_GearGet"
+  },
+  {
+    "id": 943609,
+    "type": 10,
+    "visualLocalTextID": 50019,
+    "voiceResourceName": "Common/Char101101/Char101101_GearGet"
+  },
+  {
+    "id": 943610,
+    "type": 10,
+    "visualLocalTextID": 50020,
+    "voiceResourceName": "Common/Char061001/Char061001_GearGet"
+  },
+  {
+    "id": 943611,
+    "type": 10,
+    "visualLocalTextID": 50021,
+    "voiceResourceName": "Common/Char061101/Char061101_GearGet"
+  },
+  {
+    "id": 943613,
+    "type": 10,
+    "visualLocalTextID": 50029,
+    "voiceResourceName": "Common/Char061302/Char061302_GearGet"
+  },
+  {
+    "id": 943614,
+    "type": 10,
+    "visualLocalTextID": 50027,
+    "voiceResourceName": "Common/Char061401/Char061401_GearGet"
+  },
+  {
+    "id": 943651,
+    "type": 10,
+    "visualLocalTextID": 50028,
+    "voiceResourceName": "Common/Char065102/Char065102_GearGet"
+  },
+  {
+    "id": 943658,
+    "type": 10,
+    "visualLocalTextID": 50030,
+    "voiceResourceName": "Common/Char065801/Char065801_GearGet"
+  },
+  {
+    "id": 943664,
+    "type": 10,
+    "visualLocalTextID": 50023,
+    "voiceResourceName": "Common/Char066401/Char066401_GearGet"
+  },
+  {
+    "id": 943668,
+    "type": 10,
+    "visualLocalTextID": 50032,
+    "voiceResourceName": "Common/Char066801/Char066801_GearGet"
+  },
+  {
+    "id": 943669,
+    "type": 10,
+    "visualLocalTextID": 50024,
+    "voiceResourceName": "Common/Char066901/Char066901_GearGet"
+  },
+  {
+    "id": 943670,
+    "type": 10,
+    "visualLocalTextID": 50025,
+    "voiceResourceName": "Common/Char067001/Char067001_GearGet"
+  },
+  {
+    "id": 943671,
+    "type": 10,
+    "visualLocalTextID": 50031,
+    "voiceResourceName": "Common/Char067102/Char067102_GearGet"
+  },
+  {
+    "id": 943672,
+    "type": 10,
+    "visualLocalTextID": 50036,
+    "voiceResourceName": "Common/Char067202/Char067202_GearGet"
+  },
+  {
+    "id": 943673,
+    "type": 10,
+    "visualLocalTextID": 50039,
+    "voiceResourceName": "Common/Char067302/Char067302_GearGet"
+  },
+  {
+    "id": 943674,
+    "type": 10,
+    "visualLocalTextID": 51160,
+    "voiceResourceName": "Common/Char067403/Char067403_GearGet"
+  },
+  {
+    "id": 943675,
+    "type": 10,
+    "visualLocalTextID": 50045,
+    "voiceResourceName": "Common/Char067502/Char067502_GearGet"
+  },
+  {
+    "id": 943676,
+    "type": 10,
+    "visualLocalTextID": 50048,
+    "voiceResourceName": "Common/Char067601/Char067601_GearGet"
+  }
+]

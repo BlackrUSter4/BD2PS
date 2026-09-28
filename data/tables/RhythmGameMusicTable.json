@@ -1,0 +1,72 @@
+[
+  {
+    "challengeMaxScore": 101440,
+    "hardMaxScore": 88600,
+    "hardNotesName": "BGM_Rhythm_In_01@Hard",
+    "hardTotalJudgCount": 540,
+    "id": 1,
+    "musicDescLocalTextId": 1500103,
+    "musicTitleLocalTextId": 1500102,
+    "normalMaxScore": 63860,
+    "normalNotesName": "BGM_Rhythm_In_01@Normal",
+    "normalTotalJudgCount": 322,
+    "playTime": 118000,
+    "sortId": 3
+  },
+  {
+    "challengeMaxScore": 81108,
+    "hardMaxScore": 71440,
+    "hardNotesName": "BGM_Rhythm_In_02@Hard",
+    "hardTotalJudgCount": 418,
+    "id": 2,
+    "musicDescLocalTextId": 1500101,
+    "musicTitleLocalTextId": 1500100,
+    "normalMaxScore": 53480,
+    "normalNotesName": "BGM_Rhythm_In_02@Normal",
+    "normalTotalJudgCount": 198,
+    "playTime": 104500,
+    "sortId": 2
+  },
+  {
+    "challengeMaxScore": 89176,
+    "hardMaxScore": 78130,
+    "hardNotesName": "BGM_Rhythm_In_03@Hard",
+    "hardTotalJudgCount": 471,
+    "id": 3,
+    "musicDescLocalTextId": 1500105,
+    "musicTitleLocalTextId": 1500104,
+    "normalMaxScore": 51320,
+    "normalNotesName": "BGM_Rhythm_In_03@Normal",
+    "normalTotalJudgCount": 206,
+    "playTime": 96105,
+    "sortId": 1
+  },
+  {
+    "challengeMaxScore": 98908,
+    "hardMaxScore": 85990,
+    "hardNotesName": "BGM_Rhythm_In_04@Hard",
+    "hardTotalJudgCount": 543,
+    "id": 4,
+    "musicDescLocalTextId": 1500110,
+    "musicTitleLocalTextId": 1500109,
+    "normalMaxScore": 53620,
+    "normalNotesName": "BGM_Rhythm_In_04@Normal",
+    "normalTotalJudgCount": 221,
+    "playTime": 93793,
+    "sortId": 4
+  },
+  {
+    "challengeMaxScore": 106228,
+    "hardMaxScore": 92140,
+    "hardNotesName": "BGM_Rhythm_In_05@Hard",
+    "hardTotalJudgCount": 588,
+    "id": 5,
+    "musicDescLocalTextId": 1500118,
+    "musicTitleLocalTextId": 1500117,
+    "normalMaxScore": 57520,
+    "normalNotesName": "BGM_Rhythm_In_05@Normal",
+    "normalTotalJudgCount": 271,
+    "playTime": 112259,
+    "sortId": 5
+  }
+]

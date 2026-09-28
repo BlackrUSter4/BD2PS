@@ -1,0 +1,7 @@
+[
+  { "fieldObjectGroupId": 1, "followEffect": "FieldObject_Particle", "id": 801, "mapId": 1, "resourceName": "FieldObject_Empty", "resourceType": 2 },
+  { "fieldObjectGroupId": 2, "followEffect": "FieldObject_Particle", "id": 811, "mapId": 2, "resourceName": "FieldObject_Empty", "resourceType": 2 },
+  { "fieldObjectGroupId": 2, "followEffect": "FieldObject_Particle", "id": 816, "mapId": 2, "resourceName": "FieldObject_Empty", "resourceType": 2 },
+  { "fieldObjectGroupId": 2, "followEffect": "FieldObject_Particle", "id": 815, "mapId": 2, "resourceName": "FieldObject_Empty", "resourceType": 2 },
+  { "fieldObjectGroupId": 2, "followEffect": "FieldObject_Particle", "id": 814, "mapId": 2, "resourceName": "FieldObject_Empty", "resourceType": 2 }
+]

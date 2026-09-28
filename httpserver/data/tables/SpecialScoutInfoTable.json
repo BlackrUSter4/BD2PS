@@ -1,0 +1,9 @@
+[
+  {
+    "appearTotalCount": 2,
+    "autoResetMinute": 120,
+    "resetCostCount": 50,
+    "resetCostType": 3,
+    "resetLimitCount": 99
+  }
+]

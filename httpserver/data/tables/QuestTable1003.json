@@ -1,0 +1,3849 @@
+[
+  {
+    "acceptCinemaName": "Quest_Main_00",
+    "charGroupId": 100301,
+    "completeCinemaName": "Quest_Main_01",
+    "conditionCount": 2,
+    "conditionType": 2,
+    "displayMapId": 10031,
+    "displayRewardCount": [
+      700,
+      1
+    ],
+    "displayRewardCount1": [
+      810
+    ],
+    "displayRewardCount2": [
+      910
+    ],
+    "displayRewardCount3": [
+      1050
+    ],
+    "displayRewardCount4": [
+      1230
+    ],
+    "displayRewardId": [
+      0,
+      206
+    ],
+    "displayRewardId1": [
+      0
+    ],
+    "displayRewardId2": [
+      0
+    ],
+    "displayRewardId3": [
+      0
+    ],
+    "displayRewardId4": [
+      0
+    ],
+    "displayRewardType": [
+      4,
+      7
+    ],
+    "displayRewardType1": [
+      4
+    ],
+    "displayRewardType2": [
+      4
+    ],
+    "displayRewardType3": [
+      4
+    ],
+    "displayRewardType4": [
+      4
+    ],
+    "id": 1,
+    "isDisableQuestMark": 1,
+    "magicValue": [
+      11,
+      12
+    ],
+    "mapId": 10031,
+    "nextQuestId": 2,
+    "packId": 1003,
+    "prologSkipQuestTextId": 10000,
+    "questCharIllustCostumeId": 304,
+    "questConditionQuestTextId": 650101,
+    "questDescQuestTextId": 850101,
+    "questNameQuestTextId": 450101,
+    "questSkipQuestTextId": 10001,
+    "rewardCount": [
+      700,
+      1
+    ],
+    "rewardCount1": [
+      810
+    ],
+    "rewardCount2": [
+      910
+    ],
+    "rewardCount3": [
+      1050
+    ],
+    "rewardCount4": [
+      1230
+    ],
+    "rewardId": [
+      0,
+      206
+    ],
+    "rewardId1": [
+      0
+    ],
+    "rewardId2": [
+      0
+    ],
+    "rewardId3": [
+      0
+    ],
+    "rewardId4": [
+      0
+    ],
+    "rewardType": [
+      4,
+      7
+    ],
+    "rewardType1": [
+      4
+    ],
+    "rewardType2": [
+      4
+    ],
+    "rewardType3": [
+      4
+    ],
+    "rewardType4": [
+      4
+    ],
+    "timelineStartMapId": 10031
+  },
+  {
+    "charGroupId": 100301,
+    "completeCinemaName": "Quest_Main_02",
+    "completeNpcId": 4,
+    "conditionCount": 1,
+    "displayMapId": 10031,
+    "displayRewardCount": [
+      700
+    ],
+    "displayRewardCount1": [
+      810
+    ],
+    "displayRewardCount2": [
+      910
+    ],
+    "displayRewardCount3": [
+      1050
+    ],
+    "displayRewardCount4": [
+      1230
+    ],
+    "displayRewardId": [
+      0
+    ],
+    "displayRewardId1": [
+      0
+    ],
+    "displayRewardId2": [
+      0
+    ],
+    "displayRewardId3": [
+      0
+    ],
+    "displayRewardId4": [
+      0
+    ],
+    "displayRewardType": [
+      4
+    ],
+    "displayRewardType1": [
+      4
+    ],
+    "displayRewardType2": [
+      4
+    ],
+    "displayRewardType3": [
+      4
+    ],
+    "displayRewardType4": [
+      4
+    ],
+    "id": 2,
+    "isDisableQuestMark": 1,
+    "magicValue": [
+      4
+    ],
+    "mapId": 10031,
+    "nextQuestId": 3,
+    "packId": 1003,
+    "priorQuestId": 1,
+    "prologSkipQuestTextId": 450101,
+    "questCharIllustCostumeId": 60802,
+    "questConditionQuestTextId": 650102,
+    "questDescQuestTextId": 850102,
+    "questNameQuestTextId": 450101,
+    "questSkipQuestTextId": 10002,
+    "rewardCount": [
+      700
+    ],
+    "rewardCount1": [
+      810
+    ],
+    "rewardCount2": [
+      910
+    ],
+    "rewardCount3": [
+      1050
+    ],
+    "rewardCount4": [
+      1230
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardId1": [
+      0
+    ],
+    "rewardId2": [
+      0
+    ],
+    "rewardId3": [
+      0
+    ],
+    "rewardId4": [
+      0
+    ],
+    "rewardType": [
+      4
+    ],
+    "rewardType1": [
+      4
+    ],
+    "rewardType2": [
+      4
+    ],
+    "rewardType3": [
+      4
+    ],
+    "rewardType4": [
+      4
+    ],
+    "timelineStartMapId": 10031
+  },
+  {
+    "charGroupId": 100301,
+    "completeCinemaName": "Quest_Main_03",
+    "conditionCount": 1,
+    "conditionType": 2,
+    "displayMapId": 10031,
+    "displayRewardCount": [
+      700
+    ],
+    "displayRewardCount1": [
+      810
+    ],
+    "displayRewardCount2": [
+      910
+    ],
+    "displayRewardCount3": [
+      1050
+    ],
+    "displayRewardCount4": [
+      1230
+    ],
+    "displayRewardId": [
+      0
+    ],
+    "displayRewardId1": [
+      0
+    ],
+    "displayRewardId2": [
+      0
+    ],
+    "displayRewardId3": [
+      0
+    ],
+    "displayRewardId4": [
+      0
+    ],
+    "displayRewardType": [
+      4
+    ],
+    "displayRewardType1": [
+      4
+    ],
+    "displayRewardType2": [
+      4
+    ],
+    "displayRewardType3": [
+      4
+    ],
+    "displayRewardType4": [
+      4
+    ],
+    "id": 3,
+    "magicValue": [
+      31
+    ],
+    "mapId": 10031,
+    "nextQuestId": 4,
+    "packId": 1003,
+    "priorQuestId": 2,
+    "prologSkipQuestTextId": 450101,
+    "questCharIllustCostumeId": 60702,
+    "questConditionQuestTextId": 650103,
+    "questDescQuestTextId": 850103,
+    "questNameQuestTextId": 450101,
+    "questSkipQuestTextId": 10003,
+    "rewardCount": [
+      700
+    ],
+    "rewardCount1": [
+      810
+    ],
+    "rewardCount2": [
+      910
+    ],
+    "rewardCount3": [
+      1050
+    ],
+    "rewardCount4": [
+      1230
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardId1": [
+      0
+    ],
+    "rewardId2": [
+      0
+    ],
+    "rewardId3": [
+      0
+    ],
+    "rewardId4": [
+      0
+    ],
+    "rewardType": [
+      4
+    ],
+    "rewardType1": [
+      4
+    ],
+    "rewardType2": [
+      4
+    ],
+    "rewardType3": [
+      4
+    ],
+    "rewardType4": [
+      4
+    ],
+    "timelineStartMapId": 10031
+  },
+  {
+    "charGroupId": 100302,
+    "completeCinemaName": "Quest_Main_04",
+    "conditionCount": 1,
+    "conditionType": 7,
+    "displayMapId": 10032,
+    "displayRewardCount": [
+      700
+    ],
+    "displayRewardCount1": [
+      810
+    ],
+    "displayRewardCount2": [
+      910
+    ],
+    "displayRewardCount3": [
+      1050
+    ],
+    "displayRewardCount4": [
+      1230
+    ],
+    "displayRewardId": [
+      0
+    ],
+    "displayRewardId1": [
+      0
+    ],
+    "displayRewardId2": [
+      0
+    ],
+    "displayRewardId3": [
+      0
+    ],
+    "displayRewardId4": [
+      0
+    ],
+    "displayRewardType": [
+      4
+    ],
+    "displayRewardType1": [
+      4
+    ],
+    "displayRewardType2": [
+      4
+    ],
+    "displayRewardType3": [
+      4
+    ],
+    "displayRewardType4": [
+      4
+    ],
+    "giveQuestItemId": [
+      39
+    ],
+    "id": 4,
+    "magicValue": [
+      1
+    ],
+    "mapId": 10032,
+    "nextQuestId": 5,
+    "packId": 1003,
+    "priorQuestId": 3,
+    "prologSkipQuestTextId": 450101,
+    "questCharIllustCostumeId": 304,
+    "questConditionQuestTextId": 650104,
+    "questDescQuestTextId": 850104,
+    "questNameQuestTextId": 450101,
+    "questSkipQuestTextId": 10004,
+    "rewardCount": [
+      700
+    ],
+    "rewardCount1": [
+      810
+    ],
+    "rewardCount2": [
+      910
+    ],
+    "rewardCount3": [
+      1050
+    ],
+    "rewardCount4": [
+      1230
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardId1": [
+      0
+    ],
+    "rewardId2": [
+      0
+    ],
+    "rewardId3": [
+      0
+    ],
+    "rewardId4": [
+      0
+    ],
+    "rewardType": [
+      4
+    ],
+    "rewardType1": [
+      4
+    ],
+    "rewardType2": [
+      4
+    ],
+    "rewardType3": [
+      4
+    ],
+    "rewardType4": [
+      4
+    ],
+    "timelineStartMapId": 10032
+  },
+  {
+    "charGroupId": 100302,
+    "completeCinemaName": "Quest_Main_05",
+    "conditionCount": 1,
+    "conditionType": 2,
+    "displayMapId": 10032,
+    "displayRewardCount": [
+      700
+    ],
+    "displayRewardCount1": [
+      810
+    ],
+    "displayRewardCount2": [
+      910
+    ],
+    "displayRewardCount3": [
+      1050
+    ],
+    "displayRewardCount4": [
+      1230
+    ],
+    "displayRewardId": [
+      0
+    ],
+    "displayRewardId1": [
+      0
+    ],
+    "displayRewardId2": [
+      0
+    ],
+    "displayRewardId3": [
+      0
+    ],
+    "displayRewardId4": [
+      0
+    ],
+    "displayRewardType": [
+      4
+    ],
+    "displayRewardType1": [
+      4
+    ],
+    "displayRewardType2": [
+      4
+    ],
+    "displayRewardType3": [
+      4
+    ],
+    "displayRewardType4": [
+      4
+    ],
+    "id": 5,
+    "magicValue": [
+      51
+    ],
+    "mapId": 10032,
+    "nextQuestId": 6,
+    "packId": 1003,
+    "priorQuestId": 4,
+    "prologSkipQuestTextId": 450101,
+    "questCharIllustCostumeId": 304,
+    "questConditionQuestTextId": 650105,
+    "questDescQuestTextId": 850105,
+    "questNameQuestTextId": 450101,
+    "questSkipQuestTextId": 10005,
+    "rewardCount": [
+      700
+    ],
+    "rewardCount1": [
+      810
+    ],
+    "rewardCount2": [
+      910
+    ],
+    "rewardCount3": [
+      1050
+    ],
+    "rewardCount4": [
+      1230
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardId1": [
+      0
+    ],
+    "rewardId2": [
+      0
+    ],
+    "rewardId3": [
+      0
+    ],
+    "rewardId4": [
+      0
+    ],
+    "rewardType": [
+      4
+    ],
+    "rewardType1": [
+      4
+    ],
+    "rewardType2": [
+      4
+    ],
+    "rewardType3": [
+      4
+    ],
+    "rewardType4": [
+      4
+    ],
+    "timelineStartMapId": 10032
+  },
+  {
+    "charGroupId": 100302,
+    "completeCinemaName": "Quest_Main_06",
+    "conditionCount": 1,
+    "conditionType": 3,
+    "displayMapId": 10032,
+    "displayRewardCount": [
+      18
+    ],
+    "displayRewardCount1": [
+      20
+    ],
+    "displayRewardCount2": [
+      23
+    ],
+    "displayRewardCount3": [
+      27
+    ],
+    "displayRewardCount4": [
+      31
+    ],
+    "displayRewardId": [
+      0
+    ],
+    "displayRewardId1": [
+      0
+    ],
+    "displayRewardId2": [
+      0
+    ],
+    "displayRewardId3": [
+      0
+    ],
+    "displayRewardId4": [
+      0
+    ],
+    "displayRewardType": [
+      3
+    ],
+    "displayRewardType1": [
+      3
+    ],
+    "displayRewardType2": [
+      3
+    ],
+    "displayRewardType3": [
+      3
+    ],
+    "displayRewardType4": [
+      3
+    ],
+    "id": 6,
+    "magicValue": [
+      1
+    ],
+    "mapId": 10032,
+    "nextQuestId": 7,
+    "packId": 1003,
+    "priorQuestId": 5,
+    "prologSkipQuestTextId": 450101,
+    "questCharIllustCostumeId": 60802,
+    "questConditionQuestTextId": 650106,
+    "questDescQuestTextId": 850106,
+    "questNameQuestTextId": 450101,
+    "questSkipQuestTextId": 10006,
+    "rewardCount": [
+      18
+    ],
+    "rewardCount1": [
+      20
+    ],
+    "rewardCount2": [
+      23
+    ],
+    "rewardCount3": [
+      27
+    ],
+    "rewardCount4": [
+      31
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardId1": [
+      0
+    ],
+    "rewardId2": [
+      0
+    ],
+    "rewardId3": [
+      0
+    ],
+    "rewardId4": [
+      0
+    ],
+    "rewardType": [
+      3
+    ],
+    "rewardType1": [
+      3
+    ],
+    "rewardType2": [
+      3
+    ],
+    "rewardType3": [
+      3
+    ],
+    "rewardType4": [
+      3
+    ],
+    "timelineStartMapId": 10032
+  },
+  {
+    "charGroupId": 100302,
+    "completeCinemaName": "Quest_Main_07",
+    "conditionCount": 1,
+    "conditionType": 2,
+    "displayMapId": 10032,
+    "displayRewardCount": [
+      700
+    ],
+    "displayRewardCount1": [
+      810
+    ],
+    "displayRewardCount2": [
+      910
+    ],
+    "displayRewardCount3": [
+      1050
+    ],
+    "displayRewardCount4": [
+      1230
+    ],
+    "displayRewardId": [
+      0
+    ],
+    "displayRewardId1": [
+      0
+    ],
+    "displayRewardId2": [
+      0
+    ],
+    "displayRewardId3": [
+      0
+    ],
+    "displayRewardId4": [
+      0
+    ],
+    "displayRewardType": [
+      4
+    ],
+    "displayRewardType1": [
+      4
+    ],
+    "displayRewardType2": [
+      4
+    ],
+    "displayRewardType3": [
+      4
+    ],
+    "displayRewardType4": [
+      4
+    ],
+    "id": 7,
+    "magicValue": [
+      71
+    ],
+    "mapId": 10032,
+    "nextQuestId": 8,
+    "packId": 1003,
+    "priorQuestId": 6,
+    "prologSkipQuestTextId": 450101,
+    "questCharIllustCostumeId": 62002,
+    "questConditionQuestTextId": 650107,
+    "questDescQuestTextId": 850107,
+    "questNameQuestTextId": 450101,
+    "questSkipQuestTextId": 10007,
+    "rewardCount": [
+      700
+    ],
+    "rewardCount1": [
+      810
+    ],
+    "rewardCount2": [
+      910
+    ],
+    "rewardCount3": [
+      1050
+    ],
+    "rewardCount4": [
+      1230
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardId1": [
+      0
+    ],
+    "rewardId2": [
+      0
+    ],
+    "rewardId3": [
+      0
+    ],
+    "rewardId4": [
+      0
+    ],
+    "rewardType": [
+      4
+    ],
+    "rewardType1": [
+      4
+    ],
+    "rewardType2": [
+      4
+    ],
+    "rewardType3": [
+      4
+    ],
+    "rewardType4": [
+      4
+    ],
+    "timelineStartMapId": 10032
+  },
+  {
+    "charGroupId": 100303,
+    "completeCinemaName": "Quest_Main_08",
+    "conditionCount": 1,
+    "conditionType": 3,
+    "displayMapId": 10032,
+    "displayRewardCount": [
+      18
+    ],
+    "displayRewardCount1": [
+      20
+    ],
+    "displayRewardCount2": [
+      23
+    ],
+    "displayRewardCount3": [
+      27
+    ],
+    "displayRewardCount4": [
+      31
+    ],
+    "displayRewardId": [
+      0
+    ],
+    "displayRewardId1": [
+      0
+    ],
+    "displayRewardId2": [
+      0
+    ],
+    "displayRewardId3": [
+      0
+    ],
+    "displayRewardId4": [
+      0
+    ],
+    "displayRewardType": [
+      3
+    ],
+    "displayRewardType1": [
+      3
+    ],
+    "displayRewardType2": [
+      3
+    ],
+    "displayRewardType3": [
+      3
+    ],
+    "displayRewardType4": [
+      3
+    ],
+    "id": 8,
+    "magicValue": [
+      2
+    ],
+    "mapId": 10032,
+    "nextQuestId": 9,
+    "packId": 1003,
+    "priorQuestId": 7,
+    "prologSkipQuestTextId": 450101,
+    "questCharIllustCostumeId": 62002,
+    "questConditionQuestTextId": 650108,
+    "questDescQuestTextId": 850108,
+    "questNameQuestTextId": 450101,
+    "questSkipQuestTextId": 10008,
+    "rewardCount": [
+      18
+    ],
+    "rewardCount1": [
+      20
+    ],
+    "rewardCount2": [
+      23
+    ],
+    "rewardCount3": [
+      27
+    ],
+    "rewardCount4": [
+      31
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardId1": [
+      0
+    ],
+    "rewardId2": [
+      0
+    ],
+    "rewardId3": [
+      0
+    ],
+    "rewardId4": [
+      0
+    ],
+    "rewardType": [
+      3
+    ],
+    "rewardType1": [
+      3
+    ],
+    "rewardType2": [
+      3
+    ],
+    "rewardType3": [
+      3
+    ],
+    "rewardType4": [
+      3
+    ],
+    "timelineStartMapId": 10032
+  },
+  {
+    "charGroupId": 100303,
+    "completeCinemaName": "Quest_Main_09",
+    "conditionCount": 1,
+    "conditionType": 2,
+    "displayMapId": 10032,
+    "displayRewardCount": [
+      700
+    ],
+    "displayRewardCount1": [
+      810
+    ],
+    "displayRewardCount2": [
+      910
+    ],
+    "displayRewardCount3": [
+      1050
+    ],
+    "displayRewardCount4": [
+      1230
+    ],
+    "displayRewardId": [
+      0
+    ],
+    "displayRewardId1": [
+      0
+    ],
+    "displayRewardId2": [
+      0
+    ],
+    "displayRewardId3": [
+      0
+    ],
+    "displayRewardId4": [
+      0
+    ],
+    "displayRewardType": [
+      4
+    ],
+    "displayRewardType1": [
+      4
+    ],
+    "displayRewardType2": [
+      4
+    ],
+    "displayRewardType3": [
+      4
+    ],
+    "displayRewardType4": [
+      4
+    ],
+    "id": 9,
+    "magicValue": [
+      91
+    ],
+    "mapId": 10032,
+    "nextQuestId": 10,
+    "packId": 1003,
+    "priorQuestId": 8,
+    "prologSkipQuestTextId": 450101,
+    "questCharIllustCostumeId": 62002,
+    "questConditionQuestTextId": 650109,
+    "questDescQuestTextId": 850109,
+    "questNameQuestTextId": 450101,
+    "questSkipQuestTextId": 10009,
+    "rewardCount": [
+      700
+    ],
+    "rewardCount1": [
+      810
+    ],
+    "rewardCount2": [
+      910
+    ],
+    "rewardCount3": [
+      1050
+    ],
+    "rewardCount4": [
+      1230
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardId1": [
+      0
+    ],
+    "rewardId2": [
+      0
+    ],
+    "rewardId3": [
+      0
+    ],
+    "rewardId4": [
+      0
+    ],
+    "rewardType": [
+      4
+    ],
+    "rewardType1": [
+      4
+    ],
+    "rewardType2": [
+      4
+    ],
+    "rewardType3": [
+      4
+    ],
+    "rewardType4": [
+      4
+    ],
+    "timelineStartMapId": 10032
+  },
+  {
+    "charGroupId": 100303,
+    "collectionId": [
+      10031
+    ],
+    "completeCinemaName": "Quest_Main_10",
+    "conditionCount": 1,
+    "conditionType": 2,
+    "displayMapId": 10032,
+    "displayRewardCount": [
+      700
+    ],
+    "displayRewardCount1": [
+      810
+    ],
+    "displayRewardCount2": [
+      910
+    ],
+    "displayRewardCount3": [
+      1050
+    ],
+    "displayRewardCount4": [
+      1230
+    ],
+    "displayRewardId": [
+      0
+    ],
+    "displayRewardId1": [
+      0
+    ],
+    "displayRewardId2": [
+      0
+    ],
+    "displayRewardId3": [
+      0
+    ],
+    "displayRewardId4": [
+      0
+    ],
+    "displayRewardType": [
+      4
+    ],
+    "displayRewardType1": [
+      4
+    ],
+    "displayRewardType2": [
+      4
+    ],
+    "displayRewardType3": [
+      4
+    ],
+    "displayRewardType4": [
+      4
+    ],
+    "id": 10,
+    "magicValue": [
+      101
+    ],
+    "mapId": 10032,
+    "nextQuestId": 11,
+    "packId": 1003,
+    "priorQuestId": 9,
+    "prologSkipQuestTextId": 450101,
+    "questCharIllustCostumeId": 60802,
+    "questConditionQuestTextId": 650110,
+    "questDescQuestTextId": 850110,
+    "questNameQuestTextId": 450101,
+    "questSkipQuestTextId": 10010,
+    "rewardCount": [
+      700
+    ],
+    "rewardCount1": [
+      810
+    ],
+    "rewardCount2": [
+      910
+    ],
+    "rewardCount3": [
+      1050
+    ],
+    "rewardCount4": [
+      1230
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardId1": [
+      0
+    ],
+    "rewardId2": [
+      0
+    ],
+    "rewardId3": [
+      0
+    ],
+    "rewardId4": [
+      0
+    ],
+    "rewardType": [
+      4
+    ],
+    "rewardType1": [
+      4
+    ],
+    "rewardType2": [
+      4
+    ],
+    "rewardType3": [
+      4
+    ],
+    "rewardType4": [
+      4
+    ],
+    "timelineStartMapId": 10032
+  },
+  {
+    "charGroupId": 100306,
+    "completeCinemaName": "Quest_Main_11",
+    "conditionCount": 1,
+    "conditionType": 2,
+    "displayMapId": 10032,
+    "displayRewardCount": [
+      700
+    ],
+    "displayRewardCount1": [
+      810
+    ],
+    "displayRewardCount2": [
+      910
+    ],
+    "displayRewardCount3": [
+      1050
+    ],
+    "displayRewardCount4": [
+      1230
+    ],
+    "displayRewardId": [
+      0
+    ],
+    "displayRewardId1": [
+      0
+    ],
+    "displayRewardId2": [
+      0
+    ],
+    "displayRewardId3": [
+      0
+    ],
+    "displayRewardId4": [
+      0
+    ],
+    "displayRewardType": [
+      4
+    ],
+    "displayRewardType1": [
+      4
+    ],
+    "displayRewardType2": [
+      4
+    ],
+    "displayRewardType3": [
+      4
+    ],
+    "displayRewardType4": [
+      4
+    ],
+    "id": 11,
+    "magicValue": [
+      111
+    ],
+    "mapId": 10032,
+    "nextQuestId": 12,
+    "packId": 1003,
+    "priorQuestId": 10,
+    "prologSkipQuestTextId": 450101,
+    "questCharIllustCostumeId": 60802,
+    "questConditionQuestTextId": 650111,
+    "questDescQuestTextId": 850111,
+    "questNameQuestTextId": 450101,
+    "questSkipQuestTextId": 10011,
+    "rewardCount": [
+      700
+    ],
+    "rewardCount1": [
+      810
+    ],
+    "rewardCount2": [
+      910
+    ],
+    "rewardCount3": [
+      1050
+    ],
+    "rewardCount4": [
+      1230
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardId1": [
+      0
+    ],
+    "rewardId2": [
+      0
+    ],
+    "rewardId3": [
+      0
+    ],
+    "rewardId4": [
+      0
+    ],
+    "rewardType": [
+      4
+    ],
+    "rewardType1": [
+      4
+    ],
+    "rewardType2": [
+      4
+    ],
+    "rewardType3": [
+      4
+    ],
+    "rewardType4": [
+      4
+    ],
+    "timelineStartMapId": 10032
+  },
+  {
+    "charGroupId": 100305,
+    "completeCinemaName": "Quest_Main_12",
+    "conditionCount": 1,
+    "conditionType": 2,
+    "displayMapId": 10033,
+    "displayRewardCount": [
+      700
+    ],
+    "displayRewardCount1": [
+      810
+    ],
+    "displayRewardCount2": [
+      910
+    ],
+    "displayRewardCount3": [
+      1050
+    ],
+    "displayRewardCount4": [
+      1230
+    ],
+    "displayRewardId": [
+      0
+    ],
+    "displayRewardId1": [
+      0
+    ],
+    "displayRewardId2": [
+      0
+    ],
+    "displayRewardId3": [
+      0
+    ],
+    "displayRewardId4": [
+      0
+    ],
+    "displayRewardType": [
+      4
+    ],
+    "displayRewardType1": [
+      4
+    ],
+    "displayRewardType2": [
+      4
+    ],
+    "displayRewardType3": [
+      4
+    ],
+    "displayRewardType4": [
+      4
+    ],
+    "id": 12,
+    "magicValue": [
+      121
+    ],
+    "mapId": 10033,
+    "nextQuestId": 13,
+    "packId": 1003,
+    "priorQuestId": 11,
+    "prologSkipQuestTextId": 450101,
+    "questCharIllustCostumeId": 60702,
+    "questConditionQuestTextId": 650112,
+    "questDescQuestTextId": 850112,
+    "questNameQuestTextId": 450101,
+    "questSkipQuestTextId": 10012,
+    "rewardCount": [
+      700
+    ],
+    "rewardCount1": [
+      810
+    ],
+    "rewardCount2": [
+      910
+    ],
+    "rewardCount3": [
+      1050
+    ],
+    "rewardCount4": [
+      1230
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardId1": [
+      0
+    ],
+    "rewardId2": [
+      0
+    ],
+    "rewardId3": [
+      0
+    ],
+    "rewardId4": [
+      0
+    ],
+    "rewardType": [
+      4
+    ],
+    "rewardType1": [
+      4
+    ],
+    "rewardType2": [
+      4
+    ],
+    "rewardType3": [
+      4
+    ],
+    "rewardType4": [
+      4
+    ],
+    "timelineStartMapId": 10033
+  },
+  {
+    "charGroupId": 100304,
+    "completeCinemaName": "Quest_Main_13",
+    "conditionCount": 1,
+    "conditionType": 2,
+    "displayMapId": 10033,
+    "displayRewardCount": [
+      700
+    ],
+    "displayRewardCount1": [
+      810
+    ],
+    "displayRewardCount2": [
+      910
+    ],
+    "displayRewardCount3": [
+      1050
+    ],
+    "displayRewardCount4": [
+      1230
+    ],
+    "displayRewardId": [
+      0
+    ],
+    "displayRewardId1": [
+      0
+    ],
+    "displayRewardId2": [
+      0
+    ],
+    "displayRewardId3": [
+      0
+    ],
+    "displayRewardId4": [
+      0
+    ],
+    "displayRewardType": [
+      4
+    ],
+    "displayRewardType1": [
+      4
+    ],
+    "displayRewardType2": [
+      4
+    ],
+    "displayRewardType3": [
+      4
+    ],
+    "displayRewardType4": [
+      4
+    ],
+    "id": 13,
+    "magicValue": [
+      131
+    ],
+    "mapId": 10033,
+    "nextQuestId": 14,
+    "packId": 1003,
+    "priorQuestId": 12,
+    "prologSkipQuestTextId": 450101,
+    "questCharIllustCostumeId": 60702,
+    "questConditionQuestTextId": 650113,
+    "questDescQuestTextId": 850113,
+    "questNameQuestTextId": 450101,
+    "questSkipQuestTextId": 10013,
+    "rewardCount": [
+      700
+    ],
+    "rewardCount1": [
+      810
+    ],
+    "rewardCount2": [
+      910
+    ],
+    "rewardCount3": [
+      1050
+    ],
+    "rewardCount4": [
+      1230
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardId1": [
+      0
+    ],
+    "rewardId2": [
+      0
+    ],
+    "rewardId3": [
+      0
+    ],
+    "rewardId4": [
+      0
+    ],
+    "rewardType": [
+      4
+    ],
+    "rewardType1": [
+      4
+    ],
+    "rewardType2": [
+      4
+    ],
+    "rewardType3": [
+      4
+    ],
+    "rewardType4": [
+      4
+    ],
+    "timelineStartMapId": 10033
+  },
+  {
+    "charGroupId": 100304,
+    "completeCinemaName": "Quest_Main_14",
+    "conditionCount": 3,
+    "conditionType": 2,
+    "displayMapId": 10033,
+    "displayRewardCount": [
+      700
+    ],
+    "displayRewardCount1": [
+      810
+    ],
+    "displayRewardCount2": [
+      910
+    ],
+    "displayRewardCount3": [
+      1050
+    ],
+    "displayRewardCount4": [
+      1230
+    ],
+    "displayRewardId": [
+      0
+    ],
+    "displayRewardId1": [
+      0
+    ],
+    "displayRewardId2": [
+      0
+    ],
+    "displayRewardId3": [
+      0
+    ],
+    "displayRewardId4": [
+      0
+    ],
+    "displayRewardType": [
+      4
+    ],
+    "displayRewardType1": [
+      4
+    ],
+    "displayRewardType2": [
+      4
+    ],
+    "displayRewardType3": [
+      4
+    ],
+    "displayRewardType4": [
+      4
+    ],
+    "giveQuestItemId": [
+      40
+    ],
+    "id": 14,
+    "isDisableQuestMark": 1,
+    "magicValue": [
+      141,
+      142,
+      143
+    ],
+    "mapId": 10033,
+    "nextQuestId": 15,
+    "packId": 1003,
+    "priorQuestId": 13,
+    "prologSkipQuestTextId": 450101,
+    "questCharIllustCostumeId": 304,
+    "questConditionQuestTextId": 650114,
+    "questDescQuestTextId": 850114,
+    "questNameQuestTextId": 450101,
+    "questSkipQuestTextId": 10014,
+    "rewardCount": [
+      700
+    ],
+    "rewardCount1": [
+      810
+    ],
+    "rewardCount2": [
+      910
+    ],
+    "rewardCount3": [
+      1050
+    ],
+    "rewardCount4": [
+      1230
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardId1": [
+      0
+    ],
+    "rewardId2": [
+      0
+    ],
+    "rewardId3": [
+      0
+    ],
+    "rewardId4": [
+      0
+    ],
+    "rewardType": [
+      4
+    ],
+    "rewardType1": [
+      4
+    ],
+    "rewardType2": [
+      4
+    ],
+    "rewardType3": [
+      4
+    ],
+    "rewardType4": [
+      4
+    ],
+    "timelineStartMapId": 10033
+  },
+  {
+    "charGroupId": 100304,
+    "collectionId": [
+      10032
+    ],
+    "completeCinemaName": "Quest_Main_15",
+    "conditionCount": 1,
+    "conditionType": 2,
+    "displayMapId": 10033,
+    "displayRewardCount": [
+      700
+    ],
+    "displayRewardCount1": [
+      810
+    ],
+    "displayRewardCount2": [
+      910
+    ],
+    "displayRewardCount3": [
+      1050
+    ],
+    "displayRewardCount4": [
+      1230
+    ],
+    "displayRewardId": [
+      0
+    ],
+    "displayRewardId1": [
+      0
+    ],
+    "displayRewardId2": [
+      0
+    ],
+    "displayRewardId3": [
+      0
+    ],
+    "displayRewardId4": [
+      0
+    ],
+    "displayRewardType": [
+      4
+    ],
+    "displayRewardType1": [
+      4
+    ],
+    "displayRewardType2": [
+      4
+    ],
+    "displayRewardType3": [
+      4
+    ],
+    "displayRewardType4": [
+      4
+    ],
+    "giveQuestItemId": [
+      41
+    ],
+    "id": 15,
+    "magicValue": [
+      151
+    ],
+    "mapId": 10033,
+    "nextQuestId": 16,
+    "packId": 1003,
+    "priorQuestId": 14,
+    "prologSkipQuestTextId": 450101,
+    "questCharIllustCostumeId": 304,
+    "questConditionQuestTextId": 650115,
+    "questDescQuestTextId": 850115,
+    "questNameQuestTextId": 450101,
+    "questSkipQuestTextId": 10015,
+    "rewardCount": [
+      700
+    ],
+    "rewardCount1": [
+      810
+    ],
+    "rewardCount2": [
+      910
+    ],
+    "rewardCount3": [
+      1050
+    ],
+    "rewardCount4": [
+      1230
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardId1": [
+      0
+    ],
+    "rewardId2": [
+      0
+    ],
+    "rewardId3": [
+      0
+    ],
+    "rewardId4": [
+      0
+    ],
+    "rewardType": [
+      4
+    ],
+    "rewardType1": [
+      4
+    ],
+    "rewardType2": [
+      4
+    ],
+    "rewardType3": [
+      4
+    ],
+    "rewardType4": [
+      4
+    ],
+    "timelineStartMapId": 10033
+  },
+  {
+    "charGroupId": 100304,
+    "completeCinemaName": "Quest_Main_16",
+    "conditionCount": 1,
+    "conditionType": 7,
+    "displayMapId": 10032,
+    "displayRewardCount": [
+      700
+    ],
+    "displayRewardCount1": [
+      810
+    ],
+    "displayRewardCount2": [
+      910
+    ],
+    "displayRewardCount3": [
+      1050
+    ],
+    "displayRewardCount4": [
+      1230
+    ],
+    "displayRewardId": [
+      0
+    ],
+    "displayRewardId1": [
+      0
+    ],
+    "displayRewardId2": [
+      0
+    ],
+    "displayRewardId3": [
+      0
+    ],
+    "displayRewardId4": [
+      0
+    ],
+    "displayRewardType": [
+      4
+    ],
+    "displayRewardType1": [
+      4
+    ],
+    "displayRewardType2": [
+      4
+    ],
+    "displayRewardType3": [
+      4
+    ],
+    "displayRewardType4": [
+      4
+    ],
+    "id": 16,
+    "magicValue": [
+      5
+    ],
+    "mapId": 10032,
+    "nextQuestId": 17,
+    "packId": 1003,
+    "priorQuestId": 15,
+    "prologSkipQuestTextId": 450101,
+    "questCharIllustCostumeId": 62002,
+    "questConditionQuestTextId": 650116,
+    "questDescQuestTextId": 850116,
+    "questNameQuestTextId": 450101,
+    "questSkipQuestTextId": 10016,
+    "rewardCount": [
+      700
+    ],
+    "rewardCount1": [
+      810
+    ],
+    "rewardCount2": [
+      910
+    ],
+    "rewardCount3": [
+      1050
+    ],
+    "rewardCount4": [
+      1230
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardId1": [
+      0
+    ],
+    "rewardId2": [
+      0
+    ],
+    "rewardId3": [
+      0
+    ],
+    "rewardId4": [
+      0
+    ],
+    "rewardType": [
+      4
+    ],
+    "rewardType1": [
+      4
+    ],
+    "rewardType2": [
+      4
+    ],
+    "rewardType3": [
+      4
+    ],
+    "rewardType4": [
+      4
+    ],
+    "timelineStartMapId": 10032
+  },
+  {
+    "charGroupId": 100304,
+    "completeCinemaName": "Quest_Main_17",
+    "completeTutorialId": 1032,
+    "conditionCount": 1,
+    "conditionType": 7,
+    "displayMapId": 10034,
+    "displayRewardCount": [
+      700
+    ],
+    "displayRewardCount1": [
+      810
+    ],
+    "displayRewardCount2": [
+      910
+    ],
+    "displayRewardCount3": [
+      1050
+    ],
+    "displayRewardCount4": [
+      1230
+    ],
+    "displayRewardId": [
+      0
+    ],
+    "displayRewardId1": [
+      0
+    ],
+    "displayRewardId2": [
+      0
+    ],
+    "displayRewardId3": [
+      0
+    ],
+    "displayRewardId4": [
+      0
+    ],
+    "displayRewardType": [
+      4
+    ],
+    "displayRewardType1": [
+      4
+    ],
+    "displayRewardType2": [
+      4
+    ],
+    "displayRewardType3": [
+      4
+    ],
+    "displayRewardType4": [
+      4
+    ],
+    "id": 17,
+    "magicValue": [
+      4
+    ],
+    "mapId": 10034,
+    "nextQuestId": 18,
+    "packId": 1003,
+    "priorQuestId": 16,
+    "prologSkipQuestTextId": 450101,
+    "questCharIllustCostumeId": 304,
+    "questConditionQuestTextId": 650117,
+    "questDescQuestTextId": 850117,
+    "questNameQuestTextId": 450101,
+    "questSkipQuestTextId": 10017,
+    "rewardCount": [
+      700
+    ],
+    "rewardCount1": [
+      810
+    ],
+    "rewardCount2": [
+      910
+    ],
+    "rewardCount3": [
+      1050
+    ],
+    "rewardCount4": [
+      1230
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardId1": [
+      0
+    ],
+    "rewardId2": [
+      0
+    ],
+    "rewardId3": [
+      0
+    ],
+    "rewardId4": [
+      0
+    ],
+    "rewardType": [
+      4
+    ],
+    "rewardType1": [
+      4
+    ],
+    "rewardType2": [
+      4
+    ],
+    "rewardType3": [
+      4
+    ],
+    "rewardType4": [
+      4
+    ],
+    "timelineStartMapId": 10034
+  },
+  {
+    "charGroupId": 100304,
+    "completeCinemaName": "Quest_Main_19",
+    "conditionCount": 1,
+    "conditionType": 2,
+    "displayMapId": 10034,
+    "displayRewardCount": [
+      700
+    ],
+    "displayRewardCount1": [
+      810
+    ],
+    "displayRewardCount2": [
+      910
+    ],
+    "displayRewardCount3": [
+      1050
+    ],
+    "displayRewardCount4": [
+      1230
+    ],
+    "displayRewardId": [
+      0
+    ],
+    "displayRewardId1": [
+      0
+    ],
+    "displayRewardId2": [
+      0
+    ],
+    "displayRewardId3": [
+      0
+    ],
+    "displayRewardId4": [
+      0
+    ],
+    "displayRewardType": [
+      4
+    ],
+    "displayRewardType1": [
+      4
+    ],
+    "displayRewardType2": [
+      4
+    ],
+    "displayRewardType3": [
+      4
+    ],
+    "displayRewardType4": [
+      4
+    ],
+    "id": 18,
+    "magicValue": [
+      181
+    ],
+    "mapId": 10034,
+    "nextQuestId": 19,
+    "packId": 1003,
+    "priorQuestId": 17,
+    "prologSkipQuestTextId": 450101,
+    "questCharIllustCostumeId": 60802,
+    "questConditionQuestTextId": 650119,
+    "questDescQuestTextId": 850119,
+    "questNameQuestTextId": 450101,
+    "questSkipQuestTextId": 10018,
+    "rewardCount": [
+      700
+    ],
+    "rewardCount1": [
+      810
+    ],
+    "rewardCount2": [
+      910
+    ],
+    "rewardCount3": [
+      1050
+    ],
+    "rewardCount4": [
+      1230
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardId1": [
+      0
+    ],
+    "rewardId2": [
+      0
+    ],
+    "rewardId3": [
+      0
+    ],
+    "rewardId4": [
+      0
+    ],
+    "rewardType": [
+      4
+    ],
+    "rewardType1": [
+      4
+    ],
+    "rewardType2": [
+      4
+    ],
+    "rewardType3": [
+      4
+    ],
+    "rewardType4": [
+      4
+    ],
+    "timelineStartMapId": 10034
+  },
+  {
+    "charGroupId": 100304,
+    "completeCinemaName": "Quest_Main_20",
+    "conditionCount": 1,
+    "conditionType": 2,
+    "displayMapId": 10034,
+    "displayRewardCount": [
+      700
+    ],
+    "displayRewardCount1": [
+      810
+    ],
+    "displayRewardCount2": [
+      910
+    ],
+    "displayRewardCount3": [
+      1050
+    ],
+    "displayRewardCount4": [
+      1230
+    ],
+    "displayRewardId": [
+      0
+    ],
+    "displayRewardId1": [
+      0
+    ],
+    "displayRewardId2": [
+      0
+    ],
+    "displayRewardId3": [
+      0
+    ],
+    "displayRewardId4": [
+      0
+    ],
+    "displayRewardType": [
+      4
+    ],
+    "displayRewardType1": [
+      4
+    ],
+    "displayRewardType2": [
+      4
+    ],
+    "displayRewardType3": [
+      4
+    ],
+    "displayRewardType4": [
+      4
+    ],
+    "id": 19,
+    "magicValue": [
+      191
+    ],
+    "mapId": 10034,
+    "nextQuestId": 20,
+    "packId": 1003,
+    "priorQuestId": 18,
+    "prologSkipQuestTextId": 450101,
+    "questCharIllustCostumeId": 60802,
+    "questConditionQuestTextId": 650120,
+    "questDescQuestTextId": 850120,
+    "questNameQuestTextId": 450101,
+    "questSkipQuestTextId": 10019,
+    "rewardCount": [
+      700
+    ],
+    "rewardCount1": [
+      810
+    ],
+    "rewardCount2": [
+      910
+    ],
+    "rewardCount3": [
+      1050
+    ],
+    "rewardCount4": [
+      1230
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardId1": [
+      0
+    ],
+    "rewardId2": [
+      0
+    ],
+    "rewardId3": [
+      0
+    ],
+    "rewardId4": [
+      0
+    ],
+    "rewardType": [
+      4
+    ],
+    "rewardType1": [
+      4
+    ],
+    "rewardType2": [
+      4
+    ],
+    "rewardType3": [
+      4
+    ],
+    "rewardType4": [
+      4
+    ],
+    "timelineStartMapId": 10034
+  },
+  {
+    "charGroupId": 100306,
+    "completeCinemaName": "Quest_Main_21",
+    "conditionCount": 1,
+    "conditionType": 3,
+    "displayMapId": 10034,
+    "displayRewardCount": [
+      18
+    ],
+    "displayRewardCount1": [
+      20
+    ],
+    "displayRewardCount2": [
+      23
+    ],
+    "displayRewardCount3": [
+      27
+    ],
+    "displayRewardCount4": [
+      31
+    ],
+    "displayRewardId": [
+      0
+    ],
+    "displayRewardId1": [
+      0
+    ],
+    "displayRewardId2": [
+      0
+    ],
+    "displayRewardId3": [
+      0
+    ],
+    "displayRewardId4": [
+      0
+    ],
+    "displayRewardType": [
+      3
+    ],
+    "displayRewardType1": [
+      3
+    ],
+    "displayRewardType2": [
+      3
+    ],
+    "displayRewardType3": [
+      3
+    ],
+    "displayRewardType4": [
+      3
+    ],
+    "id": 20,
+    "magicValue": [
+      3
+    ],
+    "mapId": 10034,
+    "nextQuestId": 21,
+    "packId": 1003,
+    "priorQuestId": 19,
+    "prologSkipQuestTextId": 450101,
+    "questCharIllustCostumeId": 60802,
+    "questConditionQuestTextId": 650121,
+    "questDescQuestTextId": 850121,
+    "questNameQuestTextId": 450101,
+    "questSkipQuestTextId": 10020,
+    "rewardCount": [
+      18
+    ],
+    "rewardCount1": [
+      20
+    ],
+    "rewardCount2": [
+      23
+    ],
+    "rewardCount3": [
+      27
+    ],
+    "rewardCount4": [
+      31
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardId1": [
+      0
+    ],
+    "rewardId2": [
+      0
+    ],
+    "rewardId3": [
+      0
+    ],
+    "rewardId4": [
+      0
+    ],
+    "rewardType": [
+      3
+    ],
+    "rewardType1": [
+      3
+    ],
+    "rewardType2": [
+      3
+    ],
+    "rewardType3": [
+      3
+    ],
+    "rewardType4": [
+      3
+    ],
+    "timelineStartMapId": 10034
+  },
+  {
+    "charGroupId": 100306,
+    "completeCinemaName": "Quest_Main_22",
+    "conditionCount": 1,
+    "conditionType": 2,
+    "displayMapId": 10034,
+    "displayRewardCount": [
+      700
+    ],
+    "displayRewardCount1": [
+      810
+    ],
+    "displayRewardCount2": [
+      910
+    ],
+    "displayRewardCount3": [
+      1050
+    ],
+    "displayRewardCount4": [
+      1230
+    ],
+    "displayRewardId": [
+      0
+    ],
+    "displayRewardId1": [
+      0
+    ],
+    "displayRewardId2": [
+      0
+    ],
+    "displayRewardId3": [
+      0
+    ],
+    "displayRewardId4": [
+      0
+    ],
+    "displayRewardType": [
+      4
+    ],
+    "displayRewardType1": [
+      4
+    ],
+    "displayRewardType2": [
+      4
+    ],
+    "displayRewardType3": [
+      4
+    ],
+    "displayRewardType4": [
+      4
+    ],
+    "id": 21,
+    "isDisableQuestMark": 1,
+    "magicValue": [
+      211
+    ],
+    "mapId": 10034,
+    "nextQuestId": 22,
+    "packId": 1003,
+    "priorQuestId": 20,
+    "prologSkipQuestTextId": 450101,
+    "questCharIllustCostumeId": 60702,
+    "questConditionQuestTextId": 650122,
+    "questDescQuestTextId": 850122,
+    "questNameQuestTextId": 450101,
+    "questSkipQuestTextId": 10021,
+    "rewardCount": [
+      700
+    ],
+    "rewardCount1": [
+      810
+    ],
+    "rewardCount2": [
+      910
+    ],
+    "rewardCount3": [
+      1050
+    ],
+    "rewardCount4": [
+      1230
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardId1": [
+      0
+    ],
+    "rewardId2": [
+      0
+    ],
+    "rewardId3": [
+      0
+    ],
+    "rewardId4": [
+      0
+    ],
+    "rewardType": [
+      4
+    ],
+    "rewardType1": [
+      4
+    ],
+    "rewardType2": [
+      4
+    ],
+    "rewardType3": [
+      4
+    ],
+    "rewardType4": [
+      4
+    ],
+    "timelineStartMapId": 10034
+  },
+  {
+    "charGroupId": 100306,
+    "completeCinemaName": "Quest_Main_23",
+    "conditionCount": 1,
+    "conditionType": 2,
+    "displayMapId": 10034,
+    "displayRewardCount": [
+      700
+    ],
+    "displayRewardCount1": [
+      810
+    ],
+    "displayRewardCount2": [
+      910
+    ],
+    "displayRewardCount3": [
+      1050
+    ],
+    "displayRewardCount4": [
+      1230
+    ],
+    "displayRewardId": [
+      0
+    ],
+    "displayRewardId1": [
+      0
+    ],
+    "displayRewardId2": [
+      0
+    ],
+    "displayRewardId3": [
+      0
+    ],
+    "displayRewardId4": [
+      0
+    ],
+    "displayRewardType": [
+      4
+    ],
+    "displayRewardType1": [
+      4
+    ],
+    "displayRewardType2": [
+      4
+    ],
+    "displayRewardType3": [
+      4
+    ],
+    "displayRewardType4": [
+      4
+    ],
+    "id": 22,
+    "isDisableQuestMark": 1,
+    "magicValue": [
+      221
+    ],
+    "mapId": 10034,
+    "nextQuestId": 23,
+    "packId": 1003,
+    "priorQuestId": 21,
+    "prologSkipQuestTextId": 450101,
+    "questCharIllustCostumeId": 60702,
+    "questConditionQuestTextId": 650123,
+    "questDescQuestTextId": 850123,
+    "questNameQuestTextId": 450101,
+    "questSkipQuestTextId": 10022,
+    "rewardCount": [
+      700
+    ],
+    "rewardCount1": [
+      810
+    ],
+    "rewardCount2": [
+      910
+    ],
+    "rewardCount3": [
+      1050
+    ],
+    "rewardCount4": [
+      1230
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardId1": [
+      0
+    ],
+    "rewardId2": [
+      0
+    ],
+    "rewardId3": [
+      0
+    ],
+    "rewardId4": [
+      0
+    ],
+    "rewardType": [
+      4
+    ],
+    "rewardType1": [
+      4
+    ],
+    "rewardType2": [
+      4
+    ],
+    "rewardType3": [
+      4
+    ],
+    "rewardType4": [
+      4
+    ],
+    "timelineStartMapId": 10034
+  },
+  {
+    "charGroupId": 100306,
+    "completeCinemaName": "Quest_Main_24",
+    "conditionCount": 1,
+    "conditionType": 2,
+    "displayMapId": 10034,
+    "displayRewardCount": [
+      700
+    ],
+    "displayRewardCount1": [
+      810
+    ],
+    "displayRewardCount2": [
+      910
+    ],
+    "displayRewardCount3": [
+      1050
+    ],
+    "displayRewardCount4": [
+      1230
+    ],
+    "displayRewardId": [
+      0
+    ],
+    "displayRewardId1": [
+      0
+    ],
+    "displayRewardId2": [
+      0
+    ],
+    "displayRewardId3": [
+      0
+    ],
+    "displayRewardId4": [
+      0
+    ],
+    "displayRewardType": [
+      4
+    ],
+    "displayRewardType1": [
+      4
+    ],
+    "displayRewardType2": [
+      4
+    ],
+    "displayRewardType3": [
+      4
+    ],
+    "displayRewardType4": [
+      4
+    ],
+    "id": 23,
+    "magicValue": [
+      231
+    ],
+    "mapId": 10034,
+    "nextQuestId": 24,
+    "packId": 1003,
+    "priorQuestId": 22,
+    "prologSkipQuestTextId": 450101,
+    "questCharIllustCostumeId": 304,
+    "questConditionQuestTextId": 650124,
+    "questDescQuestTextId": 850124,
+    "questNameQuestTextId": 450101,
+    "questSkipQuestTextId": 10023,
+    "rewardCount": [
+      700
+    ],
+    "rewardCount1": [
+      810
+    ],
+    "rewardCount2": [
+      910
+    ],
+    "rewardCount3": [
+      1050
+    ],
+    "rewardCount4": [
+      1230
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardId1": [
+      0
+    ],
+    "rewardId2": [
+      0
+    ],
+    "rewardId3": [
+      0
+    ],
+    "rewardId4": [
+      0
+    ],
+    "rewardType": [
+      4
+    ],
+    "rewardType1": [
+      4
+    ],
+    "rewardType2": [
+      4
+    ],
+    "rewardType3": [
+      4
+    ],
+    "rewardType4": [
+      4
+    ],
+    "timelineStartMapId": 10034
+  },
+  {
+    "charGroupId": 100306,
+    "completeCinemaName": "Quest_Main_25",
+    "conditionCount": 1,
+    "conditionType": 2,
+    "displayMapId": 10034,
+    "displayRewardCount": [
+      700
+    ],
+    "displayRewardCount1": [
+      810
+    ],
+    "displayRewardCount2": [
+      910
+    ],
+    "displayRewardCount3": [
+      1050
+    ],
+    "displayRewardCount4": [
+      1230
+    ],
+    "displayRewardId": [
+      0
+    ],
+    "displayRewardId1": [
+      0
+    ],
+    "displayRewardId2": [
+      0
+    ],
+    "displayRewardId3": [
+      0
+    ],
+    "displayRewardId4": [
+      0
+    ],
+    "displayRewardType": [
+      4
+    ],
+    "displayRewardType1": [
+      4
+    ],
+    "displayRewardType2": [
+      4
+    ],
+    "displayRewardType3": [
+      4
+    ],
+    "displayRewardType4": [
+      4
+    ],
+    "id": 24,
+    "magicValue": [
+      241
+    ],
+    "mapId": 10034,
+    "nextQuestId": 25,
+    "packId": 1003,
+    "priorQuestId": 23,
+    "prologSkipQuestTextId": 450101,
+    "questCharIllustCostumeId": 60702,
+    "questConditionQuestTextId": 650125,
+    "questDescQuestTextId": 850125,
+    "questNameQuestTextId": 450101,
+    "questSkipQuestTextId": 10024,
+    "rewardCount": [
+      700
+    ],
+    "rewardCount1": [
+      810
+    ],
+    "rewardCount2": [
+      910
+    ],
+    "rewardCount3": [
+      1050
+    ],
+    "rewardCount4": [
+      1230
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardId1": [
+      0
+    ],
+    "rewardId2": [
+      0
+    ],
+    "rewardId3": [
+      0
+    ],
+    "rewardId4": [
+      0
+    ],
+    "rewardType": [
+      4
+    ],
+    "rewardType1": [
+      4
+    ],
+    "rewardType2": [
+      4
+    ],
+    "rewardType3": [
+      4
+    ],
+    "rewardType4": [
+      4
+    ],
+    "timelineStartMapId": 10034
+  },
+  {
+    "charGroupId": 100306,
+    "completeCinemaName": "Quest_Main_26",
+    "conditionCount": 1,
+    "conditionType": 3,
+    "displayMapId": 10034,
+    "displayRewardCount": [
+      18
+    ],
+    "displayRewardCount1": [
+      20
+    ],
+    "displayRewardCount2": [
+      23
+    ],
+    "displayRewardCount3": [
+      27
+    ],
+    "displayRewardCount4": [
+      31
+    ],
+    "displayRewardId": [
+      0
+    ],
+    "displayRewardId1": [
+      0
+    ],
+    "displayRewardId2": [
+      0
+    ],
+    "displayRewardId3": [
+      0
+    ],
+    "displayRewardId4": [
+      0
+    ],
+    "displayRewardType": [
+      3
+    ],
+    "displayRewardType1": [
+      3
+    ],
+    "displayRewardType2": [
+      3
+    ],
+    "displayRewardType3": [
+      3
+    ],
+    "displayRewardType4": [
+      3
+    ],
+    "id": 25,
+    "magicValue": [
+      4
+    ],
+    "mapId": 10034,
+    "nextQuestId": 26,
+    "packId": 1003,
+    "priorQuestId": 24,
+    "prologSkipQuestTextId": 450101,
+    "questCharIllustCostumeId": 304,
+    "questConditionQuestTextId": 650126,
+    "questDescQuestTextId": 850126,
+    "questNameQuestTextId": 450101,
+    "questSkipQuestTextId": 10025,
+    "rewardCount": [
+      18
+    ],
+    "rewardCount1": [
+      20
+    ],
+    "rewardCount2": [
+      23
+    ],
+    "rewardCount3": [
+      27
+    ],
+    "rewardCount4": [
+      31
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardId1": [
+      0
+    ],
+    "rewardId2": [
+      0
+    ],
+    "rewardId3": [
+      0
+    ],
+    "rewardId4": [
+      0
+    ],
+    "rewardType": [
+      3
+    ],
+    "rewardType1": [
+      3
+    ],
+    "rewardType2": [
+      3
+    ],
+    "rewardType3": [
+      3
+    ],
+    "rewardType4": [
+      3
+    ],
+    "timelineStartMapId": 10034
+  },
+  {
+    "charGroupId": 100306,
+    "completeCinemaName": "Quest_Main_27",
+    "conditionCount": 1,
+    "conditionType": 2,
+    "displayMapId": 10034,
+    "displayRewardCount": [
+      700
+    ],
+    "displayRewardCount1": [
+      810
+    ],
+    "displayRewardCount2": [
+      910
+    ],
+    "displayRewardCount3": [
+      1050
+    ],
+    "displayRewardCount4": [
+      1230
+    ],
+    "displayRewardId": [
+      0
+    ],
+    "displayRewardId1": [
+      0
+    ],
+    "displayRewardId2": [
+      0
+    ],
+    "displayRewardId3": [
+      0
+    ],
+    "displayRewardId4": [
+      0
+    ],
+    "displayRewardType": [
+      4
+    ],
+    "displayRewardType1": [
+      4
+    ],
+    "displayRewardType2": [
+      4
+    ],
+    "displayRewardType3": [
+      4
+    ],
+    "displayRewardType4": [
+      4
+    ],
+    "id": 26,
+    "magicValue": [
+      261
+    ],
+    "mapId": 10034,
+    "nextQuestId": 27,
+    "packId": 1003,
+    "priorQuestId": 25,
+    "prologSkipQuestTextId": 450101,
+    "questCharIllustCostumeId": 60702,
+    "questConditionQuestTextId": 650127,
+    "questDescQuestTextId": 850127,
+    "questNameQuestTextId": 450101,
+    "questSkipQuestTextId": 10026,
+    "rewardCount": [
+      700
+    ],
+    "rewardCount1": [
+      810
+    ],
+    "rewardCount2": [
+      910
+    ],
+    "rewardCount3": [
+      1050
+    ],
+    "rewardCount4": [
+      1230
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardId1": [
+      0
+    ],
+    "rewardId2": [
+      0
+    ],
+    "rewardId3": [
+      0
+    ],
+    "rewardId4": [
+      0
+    ],
+    "rewardType": [
+      4
+    ],
+    "rewardType1": [
+      4
+    ],
+    "rewardType2": [
+      4
+    ],
+    "rewardType3": [
+      4
+    ],
+    "rewardType4": [
+      4
+    ],
+    "timelineStartMapId": 10034
+  },
+  {
+    "charGroupId": 100306,
+    "completeCinemaName": "Quest_Main_28",
+    "conditionCount": 1,
+    "conditionType": 7,
+    "displayMapId": 10032,
+    "displayRewardCount": [
+      700
+    ],
+    "displayRewardCount1": [
+      810
+    ],
+    "displayRewardCount2": [
+      910
+    ],
+    "displayRewardCount3": [
+      1050
+    ],
+    "displayRewardCount4": [
+      1230
+    ],
+    "displayRewardId": [
+      0
+    ],
+    "displayRewardId1": [
+      0
+    ],
+    "displayRewardId2": [
+      0
+    ],
+    "displayRewardId3": [
+      0
+    ],
+    "displayRewardId4": [
+      0
+    ],
+    "displayRewardType": [
+      4
+    ],
+    "displayRewardType1": [
+      4
+    ],
+    "displayRewardType2": [
+      4
+    ],
+    "displayRewardType3": [
+      4
+    ],
+    "displayRewardType4": [
+      4
+    ],
+    "id": 27,
+    "magicValue": [
+      6
+    ],
+    "mapId": 10032,
+    "nextQuestId": 28,
+    "packId": 1003,
+    "priorQuestId": 26,
+    "prologSkipQuestTextId": 450101,
+    "questCharIllustCostumeId": 62002,
+    "questConditionQuestTextId": 650128,
+    "questDescQuestTextId": 850128,
+    "questNameQuestTextId": 450101,
+    "questSkipQuestTextId": 10027,
+    "rewardCount": [
+      700
+    ],
+    "rewardCount1": [
+      810
+    ],
+    "rewardCount2": [
+      910
+    ],
+    "rewardCount3": [
+      1050
+    ],
+    "rewardCount4": [
+      1230
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardId1": [
+      0
+    ],
+    "rewardId2": [
+      0
+    ],
+    "rewardId3": [
+      0
+    ],
+    "rewardId4": [
+      0
+    ],
+    "rewardType": [
+      4
+    ],
+    "rewardType1": [
+      4
+    ],
+    "rewardType2": [
+      4
+    ],
+    "rewardType3": [
+      4
+    ],
+    "rewardType4": [
+      4
+    ],
+    "timelineStartMapId": 10032
+  },
+  {
+    "charGroupId": 100306,
+    "completeCinemaName": "Quest_Main_29",
+    "conditionCount": 1,
+    "conditionType": 2,
+    "displayMapId": 10032,
+    "displayRewardCount": [
+      700
+    ],
+    "displayRewardCount1": [
+      810
+    ],
+    "displayRewardCount2": [
+      910
+    ],
+    "displayRewardCount3": [
+      1050
+    ],
+    "displayRewardCount4": [
+      1230
+    ],
+    "displayRewardId": [
+      0
+    ],
+    "displayRewardId1": [
+      0
+    ],
+    "displayRewardId2": [
+      0
+    ],
+    "displayRewardId3": [
+      0
+    ],
+    "displayRewardId4": [
+      0
+    ],
+    "displayRewardType": [
+      4
+    ],
+    "displayRewardType1": [
+      4
+    ],
+    "displayRewardType2": [
+      4
+    ],
+    "displayRewardType3": [
+      4
+    ],
+    "displayRewardType4": [
+      4
+    ],
+    "id": 28,
+    "isDisableQuestMark": 1,
+    "magicValue": [
+      281
+    ],
+    "mapId": 10032,
+    "nextQuestId": 29,
+    "packId": 1003,
+    "priorQuestId": 27,
+    "prologSkipQuestTextId": 450101,
+    "questCharIllustCostumeId": 60802,
+    "questConditionQuestTextId": 650129,
+    "questDescQuestTextId": 850129,
+    "questNameQuestTextId": 450101,
+    "questSkipQuestTextId": 10028,
+    "rewardCount": [
+      700
+    ],
+    "rewardCount1": [
+      810
+    ],
+    "rewardCount2": [
+      910
+    ],
+    "rewardCount3": [
+      1050
+    ],
+    "rewardCount4": [
+      1230
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardId1": [
+      0
+    ],
+    "rewardId2": [
+      0
+    ],
+    "rewardId3": [
+      0
+    ],
+    "rewardId4": [
+      0
+    ],
+    "rewardType": [
+      4
+    ],
+    "rewardType1": [
+      4
+    ],
+    "rewardType2": [
+      4
+    ],
+    "rewardType3": [
+      4
+    ],
+    "rewardType4": [
+      4
+    ],
+    "timelineStartMapId": 10032
+  },
+  {
+    "charGroupId": 100306,
+    "collectionId": [
+      10033
+    ],
+    "completeCinemaName": "Quest_Main_30",
+    "conditionCount": 1,
+    "conditionType": 2,
+    "displayMapId": 10032,
+    "displayRewardCount": [
+      700
+    ],
+    "displayRewardCount1": [
+      810
+    ],
+    "displayRewardCount2": [
+      910
+    ],
+    "displayRewardCount3": [
+      1050
+    ],
+    "displayRewardCount4": [
+      1230
+    ],
+    "displayRewardId": [
+      0
+    ],
+    "displayRewardId1": [
+      0
+    ],
+    "displayRewardId2": [
+      0
+    ],
+    "displayRewardId3": [
+      0
+    ],
+    "displayRewardId4": [
+      0
+    ],
+    "displayRewardType": [
+      4
+    ],
+    "displayRewardType1": [
+      4
+    ],
+    "displayRewardType2": [
+      4
+    ],
+    "displayRewardType3": [
+      4
+    ],
+    "displayRewardType4": [
+      4
+    ],
+    "id": 29,
+    "magicValue": [
+      291
+    ],
+    "mapId": 10032,
+    "nextQuestId": 30,
+    "packId": 1003,
+    "priorQuestId": 28,
+    "prologSkipQuestTextId": 450101,
+    "questCharIllustCostumeId": 60702,
+    "questConditionQuestTextId": 650130,
+    "questDescQuestTextId": 850130,
+    "questNameQuestTextId": 450101,
+    "questSkipQuestTextId": 10029,
+    "rewardCount": [
+      700
+    ],
+    "rewardCount1": [
+      810
+    ],
+    "rewardCount2": [
+      910
+    ],
+    "rewardCount3": [
+      1050
+    ],
+    "rewardCount4": [
+      1230
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardId1": [
+      0
+    ],
+    "rewardId2": [
+      0
+    ],
+    "rewardId3": [
+      0
+    ],
+    "rewardId4": [
+      0
+    ],
+    "rewardType": [
+      4
+    ],
+    "rewardType1": [
+      4
+    ],
+    "rewardType2": [
+      4
+    ],
+    "rewardType3": [
+      4
+    ],
+    "rewardType4": [
+      4
+    ],
+    "timelineStartMapId": 10032
+  },
+  {
+    "charGroupId": 100306,
+    "completeCinemaName": "Quest_Main_31",
+    "conditionCount": 1,
+    "conditionType": 2,
+    "displayMapId": 10032,
+    "displayRewardCount": [
+      700
+    ],
+    "displayRewardCount1": [
+      810
+    ],
+    "displayRewardCount2": [
+      910
+    ],
+    "displayRewardCount3": [
+      1050
+    ],
+    "displayRewardCount4": [
+      1230
+    ],
+    "displayRewardId": [
+      0
+    ],
+    "displayRewardId1": [
+      0
+    ],
+    "displayRewardId2": [
+      0
+    ],
+    "displayRewardId3": [
+      0
+    ],
+    "displayRewardId4": [
+      0
+    ],
+    "displayRewardType": [
+      4
+    ],
+    "displayRewardType1": [
+      4
+    ],
+    "displayRewardType2": [
+      4
+    ],
+    "displayRewardType3": [
+      4
+    ],
+    "displayRewardType4": [
+      4
+    ],
+    "id": 30,
+    "magicValue": [
+      301
+    ],
+    "mapId": 10032,
+    "nextQuestId": 31,
+    "packId": 1003,
+    "priorQuestId": 29,
+    "prologSkipQuestTextId": 450101,
+    "questCharIllustCostumeId": 62002,
+    "questConditionQuestTextId": 650131,
+    "questDescQuestTextId": 850131,
+    "questNameQuestTextId": 450101,
+    "questSkipQuestTextId": 10030,
+    "rewardCount": [
+      700
+    ],
+    "rewardCount1": [
+      810
+    ],
+    "rewardCount2": [
+      910
+    ],
+    "rewardCount3": [
+      1050
+    ],
+    "rewardCount4": [
+      1230
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardId1": [
+      0
+    ],
+    "rewardId2": [
+      0
+    ],
+    "rewardId3": [
+      0
+    ],
+    "rewardId4": [
+      0
+    ],
+    "rewardType": [
+      4
+    ],
+    "rewardType1": [
+      4
+    ],
+    "rewardType2": [
+      4
+    ],
+    "rewardType3": [
+      4
+    ],
+    "rewardType4": [
+      4
+    ],
+    "timelineStartMapId": 10032
+  },
+  {
+    "charGroupId": 100306,
+    "completeCinemaName": "Quest_Main_32",
+    "conditionCount": 1,
+    "conditionType": 2,
+    "displayMapId": 10032,
+    "displayRewardCount": [
+      700
+    ],
+    "displayRewardCount1": [
+      810
+    ],
+    "displayRewardCount2": [
+      910
+    ],
+    "displayRewardCount3": [
+      1050
+    ],
+    "displayRewardCount4": [
+      1230
+    ],
+    "displayRewardId": [
+      0
+    ],
+    "displayRewardId1": [
+      0
+    ],
+    "displayRewardId2": [
+      0
+    ],
+    "displayRewardId3": [
+      0
+    ],
+    "displayRewardId4": [
+      0
+    ],
+    "displayRewardType": [
+      4
+    ],
+    "displayRewardType1": [
+      4
+    ],
+    "displayRewardType2": [
+      4
+    ],
+    "displayRewardType3": [
+      4
+    ],
+    "displayRewardType4": [
+      4
+    ],
+    "id": 31,
+    "magicValue": [
+      311
+    ],
+    "mapId": 10032,
+    "nextQuestId": 32,
+    "packId": 1003,
+    "priorQuestId": 30,
+    "prologSkipQuestTextId": 450101,
+    "questCharIllustCostumeId": 60802,
+    "questConditionQuestTextId": 650132,
+    "questDescQuestTextId": 850132,
+    "questNameQuestTextId": 450101,
+    "questSkipQuestTextId": 10031,
+    "rewardCount": [
+      700
+    ],
+    "rewardCount1": [
+      810
+    ],
+    "rewardCount2": [
+      910
+    ],
+    "rewardCount3": [
+      1050
+    ],
+    "rewardCount4": [
+      1230
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardId1": [
+      0
+    ],
+    "rewardId2": [
+      0
+    ],
+    "rewardId3": [
+      0
+    ],
+    "rewardId4": [
+      0
+    ],
+    "rewardType": [
+      4
+    ],
+    "rewardType1": [
+      4
+    ],
+    "rewardType2": [
+      4
+    ],
+    "rewardType3": [
+      4
+    ],
+    "rewardType4": [
+      4
+    ],
+    "timelineStartMapId": 10032
+  },
+  {
+    "charGroupId": 100306,
+    "completeCinemaName": "Quest_Main_33",
+    "conditionCount": 1,
+    "conditionType": 2,
+    "displayMapId": 10032,
+    "displayRewardCount": [
+      700
+    ],
+    "displayRewardCount1": [
+      810
+    ],
+    "displayRewardCount2": [
+      910
+    ],
+    "displayRewardCount3": [
+      1050
+    ],
+    "displayRewardCount4": [
+      1230
+    ],
+    "displayRewardId": [
+      0
+    ],
+    "displayRewardId1": [
+      0
+    ],
+    "displayRewardId2": [
+      0
+    ],
+    "displayRewardId3": [
+      0
+    ],
+    "displayRewardId4": [
+      0
+    ],
+    "displayRewardType": [
+      4
+    ],
+    "displayRewardType1": [
+      4
+    ],
+    "displayRewardType2": [
+      4
+    ],
+    "displayRewardType3": [
+      4
+    ],
+    "displayRewardType4": [
+      4
+    ],
+    "id": 32,
+    "magicValue": [
+      321
+    ],
+    "mapId": 10032,
+    "nextQuestId": 33,
+    "packId": 1003,
+    "priorQuestId": 31,
+    "prologSkipQuestTextId": 450101,
+    "questCharIllustCostumeId": 60802,
+    "questConditionQuestTextId": 650133,
+    "questDescQuestTextId": 850133,
+    "questNameQuestTextId": 450101,
+    "questSkipQuestTextId": 10032,
+    "rewardCount": [
+      700
+    ],
+    "rewardCount1": [
+      810
+    ],
+    "rewardCount2": [
+      910
+    ],
+    "rewardCount3": [
+      1050
+    ],
+    "rewardCount4": [
+      1230
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardId1": [
+      0
+    ],
+    "rewardId2": [
+      0
+    ],
+    "rewardId3": [
+      0
+    ],
+    "rewardId4": [
+      0
+    ],
+    "rewardType": [
+      4
+    ],
+    "rewardType1": [
+      4
+    ],
+    "rewardType2": [
+      4
+    ],
+    "rewardType3": [
+      4
+    ],
+    "rewardType4": [
+      4
+    ],
+    "timelineStartMapId": 10032
+  },
+  {
+    "charGroupId": 100306,
+    "completeCinemaName": "Quest_Main_34",
+    "conditionCount": 1,
+    "conditionType": 3,
+    "displayMapId": 10032,
+    "displayRewardCount": [
+      18
+    ],
+    "displayRewardCount1": [
+      20
+    ],
+    "displayRewardCount2": [
+      23
+    ],
+    "displayRewardCount3": [
+      27
+    ],
+    "displayRewardCount4": [
+      31
+    ],
+    "displayRewardId": [
+      0
+    ],
+    "displayRewardId1": [
+      0
+    ],
+    "displayRewardId2": [
+      0
+    ],
+    "displayRewardId3": [
+      0
+    ],
+    "displayRewardId4": [
+      0
+    ],
+    "displayRewardType": [
+      3
+    ],
+    "displayRewardType1": [
+      3
+    ],
+    "displayRewardType2": [
+      3
+    ],
+    "displayRewardType3": [
+      3
+    ],
+    "displayRewardType4": [
+      3
+    ],
+    "id": 33,
+    "magicValue": [
+      5
+    ],
+    "mapId": 10032,
+    "nextQuestId": 34,
+    "packId": 1003,
+    "priorQuestId": 32,
+    "prologSkipQuestTextId": 450101,
+    "questCharIllustCostumeId": 304,
+    "questConditionQuestTextId": 650134,
+    "questDescQuestTextId": 850134,
+    "questNameQuestTextId": 450101,
+    "questSkipQuestTextId": 10033,
+    "rewardCount": [
+      18
+    ],
+    "rewardCount1": [
+      20
+    ],
+    "rewardCount2": [
+      23
+    ],
+    "rewardCount3": [
+      27
+    ],
+    "rewardCount4": [
+      31
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardId1": [
+      0
+    ],
+    "rewardId2": [
+      0
+    ],
+    "rewardId3": [
+      0
+    ],
+    "rewardId4": [
+      0
+    ],
+    "rewardType": [
+      3
+    ],
+    "rewardType1": [
+      3
+    ],
+    "rewardType2": [
+      3
+    ],
+    "rewardType3": [
+      3
+    ],
+    "rewardType4": [
+      3
+    ],
+    "timelineStartMapId": 10032
+  },
+  {
+    "charGroupId": 100304,
+    "collectionId": [
+      10034
+    ],
+    "completeCinemaName": "Quest_Main_35",
+    "conditionCount": 1,
+    "conditionType": 2,
+    "displayMapId": 10032,
+    "displayRewardCount": [
+      700
+    ],
+    "displayRewardCount1": [
+      810
+    ],
+    "displayRewardCount2": [
+      910
+    ],
+    "displayRewardCount3": [
+      1050
+    ],
+    "displayRewardCount4": [
+      1230
+    ],
+    "displayRewardId": [
+      0
+    ],
+    "displayRewardId1": [
+      0
+    ],
+    "displayRewardId2": [
+      0
+    ],
+    "displayRewardId3": [
+      0
+    ],
+    "displayRewardId4": [
+      0
+    ],
+    "displayRewardType": [
+      4
+    ],
+    "displayRewardType1": [
+      4
+    ],
+    "displayRewardType2": [
+      4
+    ],
+    "displayRewardType3": [
+      4
+    ],
+    "displayRewardType4": [
+      4
+    ],
+    "id": 34,
+    "magicValue": [
+      341
+    ],
+    "mapId": 10032,
+    "packId": 1003,
+    "priorQuestId": 33,
+    "prologSkipQuestTextId": 450101,
+    "questCharIllustCostumeId": 62002,
+    "questConditionQuestTextId": 650135,
+    "questDescQuestTextId": 850135,
+    "questNameQuestTextId": 450101,
+    "questSkipQuestTextId": 10034,
+    "rewardCount": [
+      700,
+      1
+    ],
+    "rewardCount1": [
+      810
+    ],
+    "rewardCount2": [
+      910
+    ],
+    "rewardCount3": [
+      1050
+    ],
+    "rewardCount4": [
+      1230
+    ],
+    "rewardId": [
+      0,
+      1003
+    ],
+    "rewardId1": [
+      0
+    ],
+    "rewardId2": [
+      0
+    ],
+    "rewardId3": [
+      0
+    ],
+    "rewardId4": [
+      0
+    ],
+    "rewardType": [
+      4,
+      19
+    ],
+    "rewardType1": [
+      4
+    ],
+    "rewardType2": [
+      4
+    ],
+    "rewardType3": [
+      4
+    ],
+    "rewardType4": [
+      4
+    ],
+    "timelineStartMapId": 10032
+  }
+]

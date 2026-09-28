@@ -1,0 +1,19 @@
+[
+  { "charId": [ 1 ], "collectionBuffId": 3304, "groupDescLocalTextId": 2, "groupLocalTextId": 1, "id": 1, "tabType": 1 },
+  { "charId": [ 2 ], "collectionBuffId": 3304, "groupDescLocalTextId": 2, "groupLocalTextId": 1, "id": 2, "tabType": 1 },
+  { "charId": [ 9 ], "collectionBuffId": 3104, "groupDescLocalTextId": 2, "groupLocalTextId": 1, "id": 7, "tabType": 1 },
+  { "charId": [ 16 ], "collectionBuffId": 3204, "groupDescLocalTextId": 2, "groupLocalTextId": 1, "id": 9, "tabType": 1 },
+  { "charId": [ 621 ], "collectionBuffId": 3204, "groupDescLocalTextId": 2, "groupLocalTextId": 1, "id": 23, "tabType": 1 },
+  { "charId": [ 626 ], "collectionBuffId": 3106, "groupDescLocalTextId": 2, "groupLocalTextId": 1, "id": 26, "tabType": 1 },
+  { "charId": [ 628 ], "collectionBuffId": 3104, "groupDescLocalTextId": 2, "groupLocalTextId": 1, "id": 27, "tabType": 1 },
+  { "charId": [ 630 ], "collectionBuffId": 3104, "groupDescLocalTextId": 2, "groupLocalTextId": 1, "id": 28, "tabType": 1 },
+  { "charId": [ 633 ], "collectionBuffId": 3106, "groupDescLocalTextId": 2, "groupLocalTextId": 1, "id": 29, "tabType": 1 },
+  { "charId": [ 647 ], "collectionBuffId": 3104, "groupDescLocalTextId": 2, "groupLocalTextId": 1, "id": 31, "tabType": 1 },
+  { "charId": [ 648 ], "collectionBuffId": 3104, "groupDescLocalTextId": 2, "groupLocalTextId": 1, "id": 32, "tabType": 1 },
+  { "charId": [ 649 ], "collectionBuffId": 3104, "groupDescLocalTextId": 2, "groupLocalTextId": 1, "id": 33, "tabType": 1 },
+  { "charId": [ 650 ], "collectionBuffId": 3104, "groupDescLocalTextId": 2, "groupLocalTextId": 1, "id": 34, "tabType": 1 },
+  { "charId": [ 601 ], "collectionBuffId": 3104, "groupDescLocalTextId": 2, "groupLocalTextId": 1, "id": 35, "tabType": 1 },
+  { "charId": [ 606 ], "collectionBuffId": 3304, "groupDescLocalTextId": 2, "groupLocalTextId": 1, "id": 38, "tabType": 1 },
+  { "charId": [ 676 ], "collectionBuffId": 3304, "groupDescLocalTextId": 2, "groupLocalTextId": 1, "id": 71, "tabType": 1 },
+  { "charId": [ 213 ], "collectionBuffId": 3306, "groupDescLocalTextId": 2, "groupLocalTextId": 1, "id": 88, "tabType": 1 }
+]

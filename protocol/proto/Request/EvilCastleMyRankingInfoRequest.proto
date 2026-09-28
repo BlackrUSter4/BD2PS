@@ -1,0 +1,7 @@
+﻿
+message EvilCastleMyRankingInfoRequest {
+  optional int32 seq = 1;
+  optional int32 pack_id = 2;
+  optional int32 season_id = 3;
+  optional int32 stage_index = 4;
+}

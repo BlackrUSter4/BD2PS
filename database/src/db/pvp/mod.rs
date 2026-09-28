@@ -1,0 +1,17 @@
+pub mod pvp_battle_deck_info;
+pub mod pvp_battle_history_deck_info;
+pub mod pvp_battle_history_info;
+pub mod pvp_battle_info;
+pub mod pvp_battle_once_reward_info;
+pub mod pvp_battle_rank_detail_info;
+pub mod pvp_battle_rank_user_info;
+pub mod pvp_battle_replay_info;
+pub mod pvp_battle_user_base_info;
+pub mod pvp_battle_user_deck_full_info;
+pub mod pvp_battle_user_deck_info;
+pub mod pvp_battle_user_info;
+pub mod pvp_current_match;
+pub mod pvp_battle_history;
+pub mod pvp_deck_info;
+pub mod pvp_season_reward;
+pub mod pvp_user_info;

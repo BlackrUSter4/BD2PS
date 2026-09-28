@@ -1,0 +1,7 @@
+CREATE TABLE "FishingShopBuyInfo" (
+    "Index" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "Uid" BIGINT NOT NULL,
+    "GroupId" INTEGER NOT NULL,
+    "ShopId" INTEGER NOT NULL,
+    "BuyCount" INTEGER NOT NULL DEFAULT 0
+);

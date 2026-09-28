@@ -1,0 +1,52 @@
+[
+  {
+    "defaultState": 1,
+    "fieldBuffId": 101,
+    "id": 11,
+    "mapId": 2,
+    "regenSec": 10
+  },
+  {
+    "defaultState": 1,
+    "fieldBuffId": 101,
+    "id": 12,
+    "mapId": 2,
+    "regenSec": 12
+  },
+  {
+    "defaultState": 1,
+    "fieldBuffId": 101,
+    "id": 13,
+    "mapId": 2,
+    "regenSec": 15
+  },
+  {
+    "defaultState": 1,
+    "fieldBuffId": 101,
+    "id": 21,
+    "mapId": 3,
+    "regenSec": 10
+  },
+  {
+    "defaultState": 1,
+    "fieldBuffId": 101,
+    "id": 22,
+    "mapId": 3,
+    "regenSec": 12
+  },
+  {
+    "defaultState": 1,
+    "fieldBuffId": 101,
+    "id": 23,
+    "mapId": 3,
+    "regenSec": 15
+  },
+  {
+    "defaultState": 1,
+    "fieldBuffCoolTime": 1,
+    "fieldBuffId": 999999,
+    "id": 2101,
+    "mapId": 2,
+    "regenSec": 1
+  }
+]

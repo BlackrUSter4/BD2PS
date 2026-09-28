@@ -1,0 +1,1120 @@
+[
+  {
+    "gender": 1,
+    "id": 1,
+    "parttimePrefabName": "NPC3007101",
+    "parttimeType": 2
+  },
+  {
+    "gender": 1,
+    "id": 2,
+    "parttimePrefabName": "NPC3007102",
+    "parttimeType": 2
+  },
+  {
+    "gender": 1,
+    "id": 3,
+    "parttimePrefabName": "NPC3007103",
+    "parttimeType": 2
+  },
+  {
+    "gender": 1,
+    "id": 4,
+    "parttimePrefabName": "NPC3007104",
+    "parttimeType": 2
+  },
+  {
+    "gender": 1,
+    "id": 5,
+    "parttimePrefabName": "NPC3007105",
+    "parttimeType": 2
+  },
+  {
+    "gender": 1,
+    "id": 6,
+    "parttimePrefabName": "NPC3007106",
+    "parttimeType": 2
+  },
+  {
+    "gender": 1,
+    "id": 7,
+    "parttimePrefabName": "NPC3007107",
+    "parttimeType": 2
+  },
+  {
+    "gender": 1,
+    "id": 8,
+    "parttimePrefabName": "NPC3007108",
+    "parttimeType": 2
+  },
+  {
+    "gender": 1,
+    "id": 9,
+    "parttimePrefabName": "NPC3007109",
+    "parttimeType": 2
+  },
+  {
+    "gender": 1,
+    "id": 10,
+    "parttimePrefabName": "NPC3007110",
+    "parttimeType": 2
+  },
+  {
+    "gender": 1,
+    "id": 11,
+    "parttimePrefabName": "NPC3007111",
+    "parttimeType": 2
+  },
+  {
+    "gender": 1,
+    "id": 12,
+    "parttimePrefabName": "NPC3007112",
+    "parttimeType": 2
+  },
+  {
+    "gender": 1,
+    "id": 13,
+    "parttimePrefabName": "NPC3007113",
+    "parttimeType": 2
+  },
+  {
+    "gender": 1,
+    "id": 14,
+    "parttimePrefabName": "NPC3007114",
+    "parttimeType": 2
+  },
+  {
+    "gender": 1,
+    "id": 15,
+    "parttimePrefabName": "NPC3007115",
+    "parttimeType": 2
+  },
+  {
+    "gender": 1,
+    "id": 16,
+    "parttimePrefabName": "NPC3007116",
+    "parttimeType": 2
+  },
+  {
+    "gender": 1,
+    "id": 17,
+    "parttimePrefabName": "NPC3007117",
+    "parttimeType": 2
+  },
+  {
+    "gender": 1,
+    "id": 18,
+    "parttimePrefabName": "NPC3007118",
+    "parttimeType": 2
+  },
+  {
+    "gender": 1,
+    "id": 1001,
+    "parttimePrefabName": "NPC3007201",
+    "parttimeType": 1
+  },
+  {
+    "gender": 1,
+    "id": 1002,
+    "parttimePrefabName": "NPC3007202",
+    "parttimeType": 1
+  },
+  {
+    "gender": 1,
+    "id": 1003,
+    "parttimePrefabName": "NPC3007203",
+    "parttimeType": 1
+  },
+  {
+    "gender": 1,
+    "id": 1004,
+    "parttimePrefabName": "NPC3007204",
+    "parttimeType": 1
+  },
+  {
+    "gender": 1,
+    "id": 1005,
+    "parttimePrefabName": "NPC3007205",
+    "parttimeType": 1
+  },
+  {
+    "gender": 1,
+    "id": 1006,
+    "parttimePrefabName": "NPC3007206",
+    "parttimeType": 1
+  },
+  {
+    "gender": 1,
+    "id": 1007,
+    "parttimePrefabName": "NPC3007207",
+    "parttimeType": 1
+  },
+  {
+    "gender": 1,
+    "id": 1008,
+    "parttimePrefabName": "NPC3007208",
+    "parttimeType": 1
+  },
+  {
+    "gender": 1,
+    "id": 1009,
+    "parttimePrefabName": "NPC3007209",
+    "parttimeType": 1
+  },
+  {
+    "gender": 1,
+    "id": 1010,
+    "parttimePrefabName": "NPC3007210",
+    "parttimeType": 1
+  },
+  {
+    "gender": 1,
+    "id": 1011,
+    "parttimePrefabName": "NPC3007211",
+    "parttimeType": 1
+  },
+  {
+    "gender": 1,
+    "id": 1012,
+    "parttimePrefabName": "NPC3007212",
+    "parttimeType": 1
+  },
+  {
+    "gender": 1,
+    "id": 1013,
+    "parttimePrefabName": "NPC3007213",
+    "parttimeType": 1
+  },
+  {
+    "gender": 1,
+    "id": 1014,
+    "parttimePrefabName": "NPC3007214",
+    "parttimeType": 1
+  },
+  {
+    "gender": 1,
+    "id": 1015,
+    "parttimePrefabName": "NPC3007215",
+    "parttimeType": 1
+  },
+  {
+    "gender": 1,
+    "id": 1016,
+    "parttimePrefabName": "NPC3007216",
+    "parttimeType": 1
+  },
+  {
+    "gender": 1,
+    "id": 1017,
+    "parttimePrefabName": "NPC3007217",
+    "parttimeType": 1
+  },
+  {
+    "gender": 1,
+    "id": 1018,
+    "parttimePrefabName": "NPC3007218",
+    "parttimeType": 1
+  },
+  {
+    "gender": 1,
+    "id": 2001,
+    "parttimePrefabName": "NPC3007301",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2002,
+    "parttimePrefabName": "NPC3007302",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2003,
+    "parttimePrefabName": "NPC3007303",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2004,
+    "parttimePrefabName": "NPC3007304",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2005,
+    "parttimePrefabName": "NPC3007305",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2006,
+    "parttimePrefabName": "NPC3007306",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2007,
+    "parttimePrefabName": "NPC3007307",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2008,
+    "parttimePrefabName": "NPC3007308",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2009,
+    "parttimePrefabName": "NPC3007309",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2010,
+    "parttimePrefabName": "NPC3007310",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2011,
+    "parttimePrefabName": "NPC3007311",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2012,
+    "parttimePrefabName": "NPC3007312",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2013,
+    "parttimePrefabName": "NPC3007313",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2014,
+    "parttimePrefabName": "NPC3007314",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2015,
+    "parttimePrefabName": "NPC3007315",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2016,
+    "parttimePrefabName": "NPC3007316",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2017,
+    "parttimePrefabName": "NPC3007317",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2018,
+    "parttimePrefabName": "NPC3007318",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2019,
+    "parttimePrefabName": "NPC3007319",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2020,
+    "parttimePrefabName": "NPC3007320",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2021,
+    "parttimePrefabName": "NPC3007321",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2022,
+    "parttimePrefabName": "NPC3007322",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2023,
+    "parttimePrefabName": "NPC3007323",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2024,
+    "parttimePrefabName": "NPC3007324",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2025,
+    "parttimePrefabName": "NPC3007325",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2026,
+    "parttimePrefabName": "NPC3007326",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2027,
+    "parttimePrefabName": "NPC3007327",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2028,
+    "parttimePrefabName": "NPC3007328",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2029,
+    "parttimePrefabName": "NPC3007329",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2030,
+    "parttimePrefabName": "NPC3007330",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2031,
+    "parttimePrefabName": "NPC3007331",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2032,
+    "parttimePrefabName": "NPC3007332",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2033,
+    "parttimePrefabName": "NPC3007333",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2034,
+    "parttimePrefabName": "NPC3007334",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2035,
+    "parttimePrefabName": "NPC3007335",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2036,
+    "parttimePrefabName": "NPC3007336",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2037,
+    "parttimePrefabName": "NPC3007337",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2038,
+    "parttimePrefabName": "NPC3007338",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2039,
+    "parttimePrefabName": "NPC3007339",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2040,
+    "parttimePrefabName": "NPC3007340",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2041,
+    "parttimePrefabName": "NPC3007341",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2042,
+    "parttimePrefabName": "NPC3007342",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2043,
+    "parttimePrefabName": "NPC3007343",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2044,
+    "parttimePrefabName": "NPC3007344",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2045,
+    "parttimePrefabName": "NPC3007345",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2046,
+    "parttimePrefabName": "NPC3007346",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2047,
+    "parttimePrefabName": "NPC3007347",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2048,
+    "parttimePrefabName": "NPC3007348",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2049,
+    "parttimePrefabName": "NPC3007349",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2050,
+    "parttimePrefabName": "NPC3007350",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2051,
+    "parttimePrefabName": "NPC3007351",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2052,
+    "parttimePrefabName": "NPC3007352",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2053,
+    "parttimePrefabName": "NPC3007353",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2054,
+    "parttimePrefabName": "NPC3007354",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2055,
+    "parttimePrefabName": "NPC3007355",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2056,
+    "parttimePrefabName": "NPC3007356",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2057,
+    "parttimePrefabName": "NPC3007357",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2058,
+    "parttimePrefabName": "NPC3007358",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2059,
+    "parttimePrefabName": "NPC3007359",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2060,
+    "parttimePrefabName": "NPC3007360",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2061,
+    "parttimePrefabName": "NPC3007361",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2062,
+    "parttimePrefabName": "NPC3007362",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2063,
+    "parttimePrefabName": "NPC3007363",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2064,
+    "parttimePrefabName": "NPC3007364",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2065,
+    "parttimePrefabName": "NPC3007365",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2066,
+    "parttimePrefabName": "NPC3007366",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2067,
+    "parttimePrefabName": "NPC3007367",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2068,
+    "parttimePrefabName": "NPC3007368",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2069,
+    "parttimePrefabName": "NPC3007369",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2070,
+    "parttimePrefabName": "NPC3007370",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2071,
+    "parttimePrefabName": "NPC3007371",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2072,
+    "parttimePrefabName": "NPC3007372",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2073,
+    "parttimePrefabName": "NPC3007373",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2074,
+    "parttimePrefabName": "NPC3007374",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2075,
+    "parttimePrefabName": "NPC3007375",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2076,
+    "parttimePrefabName": "NPC3007376",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2077,
+    "parttimePrefabName": "NPC3007377",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2078,
+    "parttimePrefabName": "NPC3007378",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2079,
+    "parttimePrefabName": "NPC3007379",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2080,
+    "parttimePrefabName": "NPC3007380",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2081,
+    "parttimePrefabName": "NPC3007381",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2082,
+    "parttimePrefabName": "NPC3007382",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2083,
+    "parttimePrefabName": "NPC3007383",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2084,
+    "parttimePrefabName": "NPC3007384",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2085,
+    "parttimePrefabName": "NPC3007385",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2086,
+    "parttimePrefabName": "NPC3007386",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2087,
+    "parttimePrefabName": "NPC3007387",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2088,
+    "parttimePrefabName": "NPC3007388",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2089,
+    "parttimePrefabName": "NPC3007389",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2090,
+    "parttimePrefabName": "NPC3007390",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2091,
+    "parttimePrefabName": "NPC3007391",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2092,
+    "parttimePrefabName": "NPC3007392",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2093,
+    "parttimePrefabName": "NPC3007393",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2094,
+    "parttimePrefabName": "NPC3007394",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2095,
+    "parttimePrefabName": "NPC3007395",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2096,
+    "parttimePrefabName": "NPC3007396",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2097,
+    "parttimePrefabName": "NPC3007397",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2098,
+    "parttimePrefabName": "NPC3007398",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2099,
+    "parttimePrefabName": "NPC3007399",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2100,
+    "parttimePrefabName": "NPC3007400",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2101,
+    "parttimePrefabName": "NPC3007401",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2102,
+    "parttimePrefabName": "NPC3007402",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2103,
+    "parttimePrefabName": "NPC3007403",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2104,
+    "parttimePrefabName": "NPC3007404",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2105,
+    "parttimePrefabName": "NPC3007405",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2106,
+    "parttimePrefabName": "NPC3007406",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2107,
+    "parttimePrefabName": "NPC3007407",
+    "parttimeType": 3
+  },
+  {
+    "id": 2108,
+    "parttimePrefabName": "NPC3007408",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2109,
+    "parttimePrefabName": "NPC3007409",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2110,
+    "parttimePrefabName": "NPC3007410",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2111,
+    "parttimePrefabName": "NPC3007411",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2112,
+    "parttimePrefabName": "NPC3007412",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2113,
+    "parttimePrefabName": "NPC3007413",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2114,
+    "parttimePrefabName": "NPC3007414",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2115,
+    "parttimePrefabName": "NPC3007415",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2116,
+    "parttimePrefabName": "NPC3007416",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2117,
+    "parttimePrefabName": "NPC3007417",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2118,
+    "parttimePrefabName": "NPC3007418",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2119,
+    "parttimePrefabName": "NPC3007419",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2120,
+    "parttimePrefabName": "NPC3007420",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2121,
+    "parttimePrefabName": "NPC3007421",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2122,
+    "parttimePrefabName": "NPC3007422",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2123,
+    "parttimePrefabName": "NPC3007423",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2124,
+    "parttimePrefabName": "NPC3007424",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2125,
+    "parttimePrefabName": "NPC3007425",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2126,
+    "parttimePrefabName": "NPC3007426",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2127,
+    "parttimePrefabName": "NPC3007427",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2128,
+    "parttimePrefabName": "NPC3007428",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2129,
+    "parttimePrefabName": "NPC3007429",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2130,
+    "parttimePrefabName": "NPC3007430",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2131,
+    "parttimePrefabName": "NPC3007431",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2132,
+    "parttimePrefabName": "NPC3007432",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2133,
+    "parttimePrefabName": "NPC3007433",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2134,
+    "parttimePrefabName": "NPC3007434",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2135,
+    "parttimePrefabName": "NPC3007435",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2136,
+    "parttimePrefabName": "NPC3007436",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2137,
+    "parttimePrefabName": "NPC3007437",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2138,
+    "parttimePrefabName": "NPC3007438",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2139,
+    "parttimePrefabName": "NPC3007439",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 2140,
+    "parttimePrefabName": "NPC3007440",
+    "parttimeType": 3
+  },
+  {
+    "gender": 1,
+    "id": 3001,
+    "movePatternGroupId": 2,
+    "npcNameTextId": 8000001,
+    "parttimePrefabName": "NPC3007441",
+    "parttimeType": 6,
+    "rewardCount": 1,
+    "rewardId": 920001,
+    "rewardType": 9
+  },
+  {
+    "gender": 1,
+    "id": 3002,
+    "movePatternGroupId": 3,
+    "npcNameTextId": 8000002,
+    "parttimePrefabName": "NPC3007442",
+    "parttimeType": 6,
+    "rewardCount": 1,
+    "rewardId": 920001,
+    "rewardType": 9
+  },
+  {
+    "gender": 1,
+    "id": 3003,
+    "movePatternGroupId": 1,
+    "npcNameTextId": 8000003,
+    "parttimePrefabName": "NPC3007443",
+    "parttimeType": 6,
+    "rewardCount": 1,
+    "rewardId": 920001,
+    "rewardType": 9
+  },
+  {
+    "id": 3004,
+    "movePatternGroupId": 3,
+    "npcNameTextId": 8000004,
+    "parttimePrefabName": "NPC3007444",
+    "parttimeType": 6,
+    "rewardCount": 1,
+    "rewardId": 920001,
+    "rewardType": 9
+  },
+  {
+    "id": 3005,
+    "movePatternGroupId": 1,
+    "npcNameTextId": 8000005,
+    "parttimePrefabName": "NPC3007445",
+    "parttimeType": 6,
+    "rewardCount": 1,
+    "rewardId": 920001,
+    "rewardType": 9
+  },
+  {
+    "gender": 1,
+    "id": 3007,
+    "movePatternGroupId": 4,
+    "npcNameTextId": 8000007,
+    "parttimePrefabName": "NPC3007447",
+    "parttimeType": 6,
+    "rewardCount": 100,
+    "rewardType": 4
+  }
+]

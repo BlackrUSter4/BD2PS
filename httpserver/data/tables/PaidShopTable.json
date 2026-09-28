@@ -1,0 +1,8 @@
+[
+  { "IsVisibleAfterPurchase": 1, "groupId": 5, "iconResourceName": "icon_cash", "id": 1, "titleLocalTextId": 5200177 },
+  { "groupId": 4, "iconResourceName": "icon_package_monthly", "id": 1, "titleLocalTextId": 951 },
+  { "IsVisibleAfterPurchase": 1, "groupId": 2, "iconResourceName": "icon_package_normal", "id": 2, "subTitleLocalTextId": 1500114, "titleLocalTextId": 350 },
+  { "groupId": 3, "iconResourceName": "icon_package_missionclear", "id": 1, "titleLocalTextId": 1500115 },
+  { "groupId": 1, "iconResourceName": "icon_package_special", "id": 1, "titleLocalTextId": 1500112 },
+  { "IsVisibleAfterPurchase": 1, "groupId": 2, "iconResourceName": "icon_package_normal", "id": 1, "subTitleLocalTextId": 1500113, "titleLocalTextId": 350 }
+]

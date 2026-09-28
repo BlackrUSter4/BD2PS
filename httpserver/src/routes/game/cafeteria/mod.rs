@@ -1,0 +1,16 @@
+pub mod cafeteria_cumulative_reward;
+pub mod cafeteria_daily_connection_costume_refresh;
+pub mod cafeteria_event_npc_interaction_reward;
+pub mod cafeteria_info;
+pub mod cafeteria_introduction_story_reward;
+pub mod cafeteria_level_up;
+pub mod cafeteria_manage_item_add;
+pub mod cafeteria_rare_npc_interaction_reward;
+pub mod cafeteria_regular_costume_interaction_all_reward;
+pub mod cafeteria_regular_costume_interaction_reward;
+pub mod cafeteria_regular_costume_note_all_reward;
+pub mod cafeteria_regular_costume_note_info;
+pub mod cafeteria_regular_costume_note_reward;
+pub mod cafeteria_reward_receipt_time_update_using_cheat;
+pub mod cafeteria_spawn_reset;
+pub mod cafeteria_spawn_reset_cheat;

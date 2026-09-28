@@ -1,0 +1,7 @@
+﻿
+message CashShopDBInfo {
+  optional int32 group_id = 1;
+  optional int32 shop_id = 2;
+  optional int64 start_time = 3;
+  optional int64 end_time = 4;
+}

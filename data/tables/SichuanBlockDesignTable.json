@@ -1,0 +1,234 @@
+[
+  {
+    "id": 1001,
+    "resouceName": "sichuanblock_1"
+  },
+  {
+    "id": 1002,
+    "resouceName": "sichuanblock_2"
+  },
+  {
+    "id": 1003,
+    "resouceName": "sichuanblock_3"
+  },
+  {
+    "id": 1004,
+    "resouceName": "sichuanblock_4"
+  },
+  {
+    "id": 1005,
+    "resouceName": "sichuanblock_5"
+  },
+  {
+    "id": 1006,
+    "resouceName": "sichuanblock_6"
+  },
+  {
+    "id": 1007,
+    "resouceName": "sichuanblock_7"
+  },
+  {
+    "id": 1008,
+    "resouceName": "sichuanblock_8"
+  },
+  {
+    "id": 1009,
+    "resouceName": "sichuanblock_9"
+  },
+  {
+    "id": 1010,
+    "resouceName": "sichuanblock_10"
+  },
+  {
+    "id": 1011,
+    "resouceName": "sichuanblock_11"
+  },
+  {
+    "id": 1012,
+    "resouceName": "sichuanblock_12"
+  },
+  {
+    "id": 1013,
+    "resouceName": "sichuanblock_13"
+  },
+  {
+    "id": 1014,
+    "resouceName": "sichuanblock_14"
+  },
+  {
+    "id": 1015,
+    "resouceName": "sichuanblock_15"
+  },
+  {
+    "id": 1016,
+    "resouceName": "sichuanblock_16"
+  },
+  {
+    "id": 1017,
+    "resouceName": "sichuanblock_17"
+  },
+  {
+    "id": 1018,
+    "resouceName": "sichuanblock_18"
+  },
+  {
+    "id": 1019,
+    "resouceName": "sichuanblock_19"
+  },
+  {
+    "id": 1020,
+    "resouceName": "sichuanblock_20"
+  },
+  {
+    "id": 2001,
+    "resouceName": "sichuanblock_21"
+  },
+  {
+    "id": 2002,
+    "resouceName": "sichuanblock_22"
+  },
+  {
+    "id": 2003,
+    "resouceName": "sichuanblock_23"
+  },
+  {
+    "id": 2004,
+    "resouceName": "sichuanblock_24"
+  },
+  {
+    "id": 2005,
+    "resouceName": "sichuanblock_25"
+  },
+  {
+    "id": 2006,
+    "resouceName": "sichuanblock_26"
+  },
+  {
+    "id": 2007,
+    "resouceName": "sichuanblock_27"
+  },
+  {
+    "id": 2008,
+    "resouceName": "sichuanblock_28"
+  },
+  {
+    "id": 2009,
+    "resouceName": "sichuanblock_29"
+  },
+  {
+    "id": 2010,
+    "resouceName": "sichuanblock_30"
+  },
+  {
+    "id": 2011,
+    "resouceName": "sichuanblock_31"
+  },
+  {
+    "id": 2012,
+    "resouceName": "sichuanblock_32"
+  },
+  {
+    "id": 2013,
+    "resouceName": "sichuanblock_33"
+  },
+  {
+    "id": 2014,
+    "resouceName": "sichuanblock_34"
+  },
+  {
+    "id": 2015,
+    "resouceName": "sichuanblock_35"
+  },
+  {
+    "id": 2016,
+    "resouceName": "sichuanblock_36"
+  },
+  {
+    "id": 2017,
+    "resouceName": "sichuanblock_37"
+  },
+  {
+    "id": 2018,
+    "resouceName": "sichuanblock_38"
+  },
+  {
+    "id": 2019,
+    "resouceName": "sichuanblock_39"
+  },
+  {
+    "id": 2020,
+    "resouceName": "sichuanblock_40"
+  },
+  {
+    "id": 2021,
+    "resouceName": "sichuanblock_41"
+  },
+  {
+    "id": 2022,
+    "resouceName": "sichuanblock_42"
+  },
+  {
+    "id": 2023,
+    "resouceName": "sichuanblock_43"
+  },
+  {
+    "id": 2024,
+    "resouceName": "sichuanblock_44"
+  },
+  {
+    "id": 2025,
+    "resouceName": "sichuanblock_45"
+  },
+  {
+    "id": 2026,
+    "resouceName": "sichuanblock_46"
+  },
+  {
+    "id": 2027,
+    "resouceName": "sichuanblock_47"
+  },
+  {
+    "id": 2028,
+    "resouceName": "sichuanblock_48"
+  },
+  {
+    "id": 2029,
+    "resouceName": "sichuanblock_49"
+  },
+  {
+    "id": 2030,
+    "resouceName": "sichuanblock_50"
+  },
+  {
+    "id": 10001,
+    "resouceName": "sichuanblock_Rock"
+  },
+  {
+    "id": 11001,
+    "resouceName": "sichuanblock_Key_Gold"
+  },
+  {
+    "id": 11002,
+    "resouceName": "sichuanblock_Key_Silver"
+  },
+  {
+    "id": 11003,
+    "resouceName": "sichuanblock_Key_Bronze"
+  },
+  {
+    "id": 12001,
+    "resouceName": "sichuanblock_Lock_Gold"
+  },
+  {
+    "id": 12002,
+    "resouceName": "sichuanblock_Lock_Silver"
+  },
+  {
+    "id": 12003,
+    "resouceName": "sichuanblock_Lock_Bronze"
+  },
+  {
+    "id": 13001,
+    "resouceName": "sichuanblock_Timer"
+  }
+]

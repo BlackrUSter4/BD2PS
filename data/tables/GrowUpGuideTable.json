@@ -1,0 +1,134 @@
+[
+  {
+    "category": 1,
+    "categoryId": 1,
+    "descText": 24001,
+    "groupId": 1
+  },
+  {
+    "category": 2,
+    "categoryId": 1,
+    "descText": 24002,
+    "groupId": 1,
+    "guideTutorialId": [
+      39
+    ]
+  },
+  {
+    "category": 2,
+    "categoryId": 2,
+    "descText": 24003,
+    "groupId": 1,
+    "guideTutorialId": [
+      15
+    ],
+    "shortCutId": 8
+  },
+  {
+    "category": 1,
+    "categoryId": 1,
+    "descText": 24004,
+    "groupId": 2
+  },
+  {
+    "category": 2,
+    "categoryId": 1,
+    "descText": 24005,
+    "groupId": 2,
+    "guideTutorialId": [
+      37
+    ],
+    "shortCutId": 5
+  },
+  {
+    "category": 2,
+    "categoryId": 2,
+    "descText": 24003,
+    "groupId": 2,
+    "guideTutorialId": [
+      15
+    ],
+    "shortCutId": 8
+  },
+  {
+    "category": 1,
+    "categoryId": 1,
+    "descText": 24006,
+    "groupId": 3
+  },
+  {
+    "category": 2,
+    "categoryId": 1,
+    "descText": 24007,
+    "groupId": 3,
+    "guideTutorialId": [
+      54
+    ],
+    "shortCutId": 1
+  },
+  {
+    "category": 2,
+    "categoryId": 2,
+    "descText": 24008,
+    "groupId": 3,
+    "guideTutorialId": [
+      55
+    ],
+    "shortCutId": 1
+  },
+  {
+    "category": 1,
+    "categoryId": 1,
+    "descText": 24009,
+    "groupId": 4
+  },
+  {
+    "category": 2,
+    "categoryId": 1,
+    "descText": 24010,
+    "groupId": 4,
+    "guideTutorialId": [
+      61
+    ]
+  },
+  {
+    "category": 2,
+    "categoryId": 2,
+    "descText": 24003,
+    "groupId": 4,
+    "guideTutorialId": [
+      15
+    ],
+    "shortCutId": 8
+  },
+  {
+    "category": 2,
+    "categoryId": 3,
+    "descText": 24011,
+    "groupId": 4,
+    "guideTutorialId": [
+      45
+    ],
+    "shortCutId": 4
+  },
+  {
+    "category": 2,
+    "categoryId": 4,
+    "descText": 24005,
+    "groupId": 4,
+    "guideTutorialId": [
+      38
+    ],
+    "shortCutId": 4
+  },
+  {
+    "category": 2,
+    "categoryId": 5,
+    "descText": 24012,
+    "groupId": 4,
+    "guideTutorialId": [
+      40
+    ],
+    "shortCutId": 4
+  }
+]

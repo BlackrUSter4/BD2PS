@@ -1,0 +1,1173 @@
+[
+  {
+    "clearTime": 240,
+    "id": 1,
+    "limitTime": [
+      6000,
+      4500,
+      3000
+    ],
+    "randomBlockGroupID": [
+      1,
+      2
+    ],
+    "randomBlockLimit": [
+      2,
+      4
+    ],
+    "randomBlockTypeCount": [
+      2,
+      5
+    ],
+    "stageLayoutData": "6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLvpp79rR0B3uZDr4+iEe8i76ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLvpp79rR0B3uZDr4+iEe8i76ae/a0dAd7mQ6+PohHvIu1zvuxijROaDIXjgb3R835URXkTuLCaz/AfJiK0VFD+3yQKQ28GpBdOJGztZlD+Za+YdhrdAZ0QP2EGW96UnPyZ5/pXawMqFJ2ciJth/AM0cZGRISvXwV2p0Uq1JQjjoUemnv2tHQHe5kOvj6IR7yLvpp79rR0B3uZDr4+iEe8i76ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLvpp79rR0B3uZDr4+iEe8i76ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLu3sffnxZ9d83bpChCW0ePb",
+    "touchable": 24
+  },
+  {
+    "clearTime": 280,
+    "id": 2,
+    "limitTime": [
+      9000,
+      7500,
+      6000
+    ],
+    "randomBlockGroupID": [
+      1,
+      2
+    ],
+    "randomBlockLimit": [
+      2,
+      4
+    ],
+    "randomBlockTypeCount": [
+      2,
+      6
+    ],
+    "stageLayoutData": "6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLvpp79rR0B3uZDr4+iEe8i7OxaI8+IBknHc6JtbAXWl6Omnv2tHQHe5kOvj6IR7yLt5WWRR62Jwi2bsINl3PISqLRcfTPMyTsSfLOKpWFPK+tHUswsDIcIj85L0j3Sc8v4bAAmW6QjIeJaz4dzCI04Z6ae/a0dAd7mQ6+PohHvIu3lZZFHrYnCLZuwg2Xc8hKotFx9M8zJOxJ8s4qlYU8r60dSzCwMhwiPzkvSPdJzy/hsACZbpCMh4lrPh3MIjThnpp79rR0B3uZDr4+iEe8i7eVlkUeticItm7CDZdzyEqi0XH0zzMk7EnyziqVhTyvrR1LMLAyHCI/OS9I90nPL+Yokm61zj+j9o0AB3+MdFxemnv2tHQHe5kOvj6IR7yLvpp79rR0B3uZDr4+iEe8i7nb1aib6Nm8V3bPcztF1M8w==",
+    "touchable": 28
+  },
+  {
+    "clearTime": 380,
+    "id": 3,
+    "limitTime": [
+      9000,
+      7500,
+      6000
+    ],
+    "randomBlockGroupID": [
+      1,
+      2
+    ],
+    "randomBlockLimit": [
+      2,
+      4
+    ],
+    "randomBlockTypeCount": [
+      4,
+      7
+    ],
+    "stageLayoutData": "6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLt5/pXawMqFJ2ciJth/AM0cZGRISvXwV2p0Uq1JQjjoUemnv2tHQHe5kOvj6IR7yLvxSApiGLI5lsBoINpjKhgKP8hGG3ohTgM3DlBmcRRntLjG0OSTodSfplUXyIDnlMZ5/pXawMqFJ2ciJth/AM0c8zq7TZE5Tjj2BwqBiiIZ2FOh/j+olv943BC0sPGhDMBVMqg4RIQMZFCStHOJmWN6e4SLNOhZGhRF6trPkbr7mLjG0OSTodSfplUXyIDnlMZ5/pXawMqFJ2ciJth/AM0c8zq7TZE5Tjj2BwqBiiIZ2FOh/j+olv943BC0sPGhDMBVMqg4RIQMZFCStHOJmWN6iuX1//I/EeeXyp6foMigfncE4f01RqovkALAk1QjwsYe9oPNmwseaoHeNJvUBylDXO+7GKNE5oMheOBvdHzflRFeRO4sJrP8B8mIrRUUP7fpp79rR0B3uZDr4+iEe8i76ae/a0dAd7mQ6+PohHvIu7ex9+fFn13zdukKEJbR49s=",
+    "touchable": 38
+  },
+  {
+    "clearTime": 420,
+    "id": 4,
+    "limitTime": [
+      9000,
+      7500,
+      6000
+    ],
+    "randomBlockGroupID": [
+      1,
+      2
+    ],
+    "randomBlockLimit": [
+      2,
+      4
+    ],
+    "randomBlockTypeCount": [
+      6,
+      8
+    ],
+    "stageLayoutData": "6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLvrPtnND5qkgVHIHXEiKfeA0dSzCwMhwiPzkvSPdJzy/umnv2tHQHe5kOvj6IR7yLvtWcFJhkLxTFMcY/Ue6SYPHvaDzZsLHmqB3jSb1AcpQ5URjbvqibULvH3BUhj84k4RXkTuLCaz/AfJiK0VFD+3yQKQ28GpBdOJGztZlD+ZayRKSCpYpkkTM5Fo5+MW2k3R1LMLAyHCI/OS9I90nPL+J6E0d9MOiV2KDmh5VDo/qemnv2tHQHe5kOvj6IR7yLvtWcFJhkLxTFMcY/Ue6SYPHvaDzZsLHmqB3jSb1AcpQ1zvuxijROaDIXjgb3R835X2E8cCgm2dq2v+py/xCexn6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLu3sffnxZ9d83bpChCW0ePb",
+    "touchable": 42
+  },
+  {
+    "clearTime": 440,
+    "id": 5,
+    "limitTime": [
+      9000,
+      7500,
+      6000
+    ],
+    "randomBlockGroupID": [
+      1,
+      2
+    ],
+    "randomBlockLimit": [
+      2,
+      4
+    ],
+    "randomBlockTypeCount": [
+      4,
+      9
+    ],
+    "stageLayoutData": "6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLvpp79rR0B3uZDr4+iEe8i76ae/a0dAd7mQ6+PohHvIu9HUswsDIcIj85L0j3Sc8v6WvrHj63Wyc4v2lnuFC0+7IF6xKgW4zvFm0vQYLLMNwB2OLvPSMAfjHsvmwpBSOE1TR8A14b20OWGIk7nXhxrYlZoQWkXx1KM/EZRP4NpJIjx8hDnf+EXiavEb+ouX8wJ4YPPseSIhoYFtcu6zq3gr9t7G/HqqqUgO2r1T57qXFwAzEdogvbKmX/0KJqNMqcWWvrHj63Wyc4v2lnuFC0+7IF6xKgW4zvFm0vQYLLMNwOmnv2tHQHe5kOvj6IR7yLvpp79rR0B3uZDr4+iEe8i76ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLu3sffnxZ9d83bpChCW0ePb",
+    "touchable": 44
+  },
+  {
+    "clearTime": 420,
+    "id": 6,
+    "limitTime": [
+      7000,
+      5500,
+      4000
+    ],
+    "randomBlockGroupID": [
+      1,
+      2
+    ],
+    "randomBlockLimit": [
+      2,
+      4
+    ],
+    "randomBlockTypeCount": [
+      5,
+      7
+    ],
+    "stageLayoutData": "6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLtWoJJnBzKIB4GPejXZXKQdqHFDZvoppZB6owANYvyJHs0Vk89sSzjAI7HrMDEmWEd3BOH9NUaqL5ACwJNUI8LG25rl1aOxjZYo6N2IG14AGvSUKaew1E9Z6SwGUrUJ1FKvJZ2HG8Ico1ztDBOUrwSxq5jAiUJe6FxR/5nN5YOWPsN5FM9iYEA41RHShPZom5OnFh47zeYVpxaQaQlrsynCVXiVY09C6GxYsCcdlPx4kad2N0jg3quHG0WrPavM5jEGRNH5Jgadj7lBRmrXyX5xlrU7nLPBkQj1wl52jD9b3OQRIvMoHvvLSONB9tbCtOyen5NYz37ZgznUp+o7jv/LqoNXsZHzzrEY0c0qoI6Ecr1cjoi0kHHppiQ2gNqtjkHmgaPgRkaWoZ9GBcvbi/yaFOsVUrYzfNYn3fYq6qVMCPp5qLdv1PpkjC7onrt8+ipfFAo/0R7EzpCwo5dZkfZvVqCSZwcyiAeBj3o12VykHahxQ2b6KaWQeqMADWL8iR7NFZPPbEs4wCOx6zAxJlhHdwTh/TVGqi+QAsCTVCPCxtua5dWjsY2WKOjdiBteABrpp79rR0B3uZDr4+iEe8i76ae/a0dAd7mQ6+PohHvIu7ex9+fFn13zdukKEJbR49s=",
+    "touchable": 42
+  },
+  {
+    "clearTime": 340,
+    "id": 7,
+    "limitTime": [
+      9000,
+      7500,
+      6000
+    ],
+    "randomBlockGroupID": [
+      1,
+      2
+    ],
+    "randomBlockLimit": [
+      2,
+      4
+    ],
+    "randomBlockTypeCount": [
+      5,
+      6
+    ],
+    "stageLayoutData": "6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLvpp79rR0B3uZDr4+iEe8i76ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLs64CiM3lvpfy/M7Tg1Hiy1yrc3ykUmcl0+xEdd59UiFVkg4Wt6gUiKElOHXLssAMHereWh7D+DvZ8cmn25KzI9QaaFebGpAlytxrlj2Pje5emnv2tHQHe5kOvj6IR7yLvEMU4BpdqNLZt0uGMnWEFj1d+kVg4Wrz/LGXoMT4M+gVkg4Wt6gUiKElOHXLssAMHereWh7D+DvZ8cmn25KzI9QaaFebGpAlytxrlj2Pje5emnv2tHQHe5kOvj6IR7yLs64CiM3lvpfy/M7Tg1Hiy1yrc3ykUmcl0+xEdd59UiFVkg4Wt6gUiKElOHXLssAMHpp79rR0B3uZDr4+iEe8i76ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLvpp79rR0B3uZDr4+iEe8i7t7H358WfXfN26QoQltHj2w==",
+    "touchable": 34
+  },
+  {
+    "clearTime": 440,
+    "id": 8,
+    "limitTime": [
+      8000,
+      6500,
+      5000
+    ],
+    "randomBlockGroupID": [
+      1,
+      2
+    ],
+    "randomBlockLimit": [
+      2,
+      4
+    ],
+    "randomBlockTypeCount": [
+      4,
+      8
+    ],
+    "stageLayoutData": "6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLu3SnBK+w6kCYBCVktJZUsQiuX1//I/EeeXyp6foMigfhyx0+OSU5hJvxzn4cSCmSJkZEhK9fBXanRSrUlCOOhRixLWaB6HmVmo7vO4Y792P7HPAohaSvds7IPQv19GkhLaVo5lVZznuWm3vYTE3dHc1fs+/ZOEV1C2WnZYVp0cP6d2N0jg3quHG0WrPavM5jE/yEYbeiFOAzcOUGZxFGe0iuX1//I/EeeXyp6foMigfncE4f01RqovkALAk1QjwsZ8/M1EOafCoIRUQA1nWPQKP8hGG3ohTgM3DlBmcRRntMN5FM9iYEA41RHShPZom5OV9If3H5xvLcQVb3t9QLPPHYfgBjs8Xq5of+dXIvCf58uTvKIylfjVT53LN/bOWZqpL0pYKonwkefot5yjoxRQqHFDZvoppZB6owANYvyJHgl3pwH6Hk5kLoTwyzWp0mCnFh47zeYVpxaQaQlrsynC5OJuxCHfBQCTpYVIOEKac506QwP+TBPZR4zMNvWn7E/fxfoz5m7Ai8k6VZa8WK0qWaWshqTuz+jyMs1O9y4yZes6Emt2CliYx1MzXT0kFkDKL1bURPrTOZMsTnCfkgBmqHFDZvoppZB6owANYvyJHtqO2ddA/qz3oCWpqAAuTdfpp79rR0B3uZDr4+iEe8i7vzrkh5ue2wJ0n6+ej+LMzA==",
+    "touchable": 44
+  },
+  {
+    "clearTime": 400,
+    "id": 9,
+    "limitTime": [
+      7000,
+      5500,
+      4000
+    ],
+    "randomBlockGroupID": [
+      1,
+      2
+    ],
+    "randomBlockLimit": [
+      2,
+      4
+    ],
+    "randomBlockTypeCount": [
+      3,
+      7
+    ],
+    "stageLayoutData": "6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLu3SnBK+w6kCYBCVktJZUsQiuX1//I/EeeXyp6foMigfqhxQ2b6KaWQeqMADWL8iR5Vl/frgKxX76y+9b6/6IaRJpKS+CxFkz4Cao7yg8YGvncE4f01RqovkALAk1QjwsZ8/M1EOafCoIRUQA1nWPQKJGxqtYkg9S+rrbT4AIxeiZUpvDJjU3kdrW9dcaFouUm6Uye5nkfzAsuuIJIbb5SC91ixG+t/16eIe/u5MBEFUtVyGyp/t99a12VKxh3jY1b2wStC23uiv426VtiYN+kzN94ww+A1gc6yVYfwKBi3h6+cSPY9p3y5JYVaYtirsBV8/M1EOafCoIRUQA1nWPQKBTu/AXMMRU/YnIlBIGrQ6//xZWJVhwY9XE3z6sbEaiS70hA8iR0AKzUaoBMPpVxH9dOtWJTXYR+430Dc6e1WctVyGyp/t99a12VKxh3jY1b2wStC23uiv426VtiYN+kzN94ww+A1gc6yVYfwKBi3h6+cSPY9p3y5JYVaYtirsBV8/M1EOafCoIRUQA1nWPQKqihVzt6vKgH4urK9byHdl5UpvDJjU3kdrW9dcaFouUm6Uye5nkfzAsuuIJIbb5SCEmggTJMynM67q0/rHjarot7T1OA+e03Tn2Zemn9MqKyK5fX/8j8R55fKnp+gyKB+qHFDZvoppZB6owANYvyJHlWX9+uArFfvrL71vr/ohpEmkpL4LEWTPgJqjvKDxga+dwTh/TVGqi+QAsCTVCPCxqTmjrex9s0tKpiULYsOPEHpp79rR0B3uZDr4+iEe8i7vzrkh5ue2wJ0n6+ej+LMzA==",
+    "touchable": 40
+  },
+  {
+    "clearTime": 780,
+    "id": 10,
+    "limitTime": [
+      9000,
+      7500,
+      6000
+    ],
+    "randomBlockGroupID": [
+      1,
+      2
+    ],
+    "randomBlockLimit": [
+      2,
+      4
+    ],
+    "randomBlockTypeCount": [
+      10,
+      14
+    ],
+    "stageLayoutData": "6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLtc77sYo0TmgyF44G90fN+VHqQpblU85vesW5Abf4W0+FeAQLPumypb6OjZdvhnzSLpp79rR0B3uZDr4+iEe8i7bWqoSx5GLwieheON+TlNvSR59znCQ5c4oEhNcbtb0mZvldcVMsgDUUFKYqr0/FelAX+/kEGLcDBll2Zdf6OPymbzzcOcUprGWZfkqVIMLrmJns96tye73SoSQDTY/uiBJHn3OcJDlzigSE1xu1vSZm+V1xUyyANRQUpiqvT8V6UQYZB799+upOPFBfshBugs6ae/a0dAd7mQ6+PohHvIu5pZreo8JdySSfsgtDhjldYepCluVTzm96xbkBt/hbT4EV5E7iwms/wHyYitFRQ/t+mnv2tHQHe5kOvj6IR7yLu/OuSHm57bAnSfr56P4szM",
+    "touchable": 78
+  },
+  {
+    "clearTime": 720,
+    "id": 11,
+    "limitTime": [
+      12000,
+      10500,
+      9000
+    ],
+    "randomBlockGroupID": [
+      1,
+      2
+    ],
+    "randomBlockLimit": [
+      2,
+      4
+    ],
+    "randomBlockTypeCount": [
+      7,
+      13
+    ],
+    "stageLayoutData": "6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLvXu+lXYHp6jQUjZUHMrTriiuX1//I/EeeXyp6foMigfncE4f01RqovkALAk1QjwsY/yEYbeiFOAzcOUGZxFGe0GqDL7CSa/W5lRPiVRccHHG4b5AdwujEoOwiACCO+GRjwCLC17H9RXM5COLZT43G+le7BwpxCgB7a7tfQlwC2Gftm4fdRLyV+F7PNYbCsdeKT371lrA1ajCiEw+vWkOWg86vc9btKRYxa+AvnG2mqFxqgy+wkmv1uZUT4lUXHBxxnRK7HhfRsZWGKW3GgZdEh03MHn6vd+jZ30oN96zGXOSk607kc3yyshAwWFz5XbMjePr3bnpf/qqaN4tJA4KXwk9+9ZawNWowohMPr1pDloPOr3PW7SkWMWvgL5xtpqhcaoMvsJJr9bmVE+JVFxwccbhvkB3C6MSg7CIAII74ZGPAIsLXsf1FczkI4tlPjcb6V7sHCnEKAHtru19CXALYZ+2bh91EvJX4Xs81hsKx14vu/QyJJ1N+exnZD79V2Nyo/yEYbeiFOAzcOUGZxFGe0iuX1//I/EeeXyp6foMigfncE4f01RqovkALAk1QjwsYRXkTuLCaz/AfJiK0VFD+36ae/a0dAd7mQ6+PohHvIu7865IebntsCdJ+vno/izMw=",
+    "touchable": 72
+  },
+  {
+    "clearTime": 400,
+    "id": 12,
+    "limitTime": [
+      9000,
+      7500,
+      6000
+    ],
+    "randomBlockGroupID": [
+      1,
+      2
+    ],
+    "randomBlockLimit": [
+      2,
+      4
+    ],
+    "randomBlockTypeCount": [
+      6,
+      7
+    ],
+    "stageLayoutData": "6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLuq7/7j1Mbjx2xe+PSUwwkwIagvyvFTfg3e2xQNN8JAYOIWvupomynrNbCQzrKUGjGChdnBA9fEjJbKdaYSTQKMIagvyvFTfg3e2xQNN8JAYOIWvupomynrNbCQzrKUGjEAILI/KohTJ5iGjrhfOloA5h2Gt0BnRA/YQZb3pSc/JnTQo++hXxYJXzZJtbP5nAzrGvvRyN4xNfwj5hPQCUPsDvsTaClKmhxf+1TIBjz9bjCkom96Fn6gmNPr1KdmDzlNZilSlSoiWRmO1cyLDJ0n4ha+6mibKes1sJDOspQaMRICzOihBcc/5nvkvoCzW7jiFr7qaJsp6zWwkM6ylBoxgoXZwQPXxIyWynWmEk0CjOsa+9HI3jE1/CPmE9AJQ+wO+xNoKUqaHF/7VMgGPP1uMKSib3oWfqCY0+vUp2YPOdr+wz89wOrmjL2S/HmF3k3kJYy8/say64TLYqsqyWFQIXMzB7ENqm3GHFl3DuFwLOIWvupomynrNbCQzrKUGjGChdnBA9fEjJbKdaYSTQKMIagvyvFTfg3e2xQNN8JAYOIWvupomynrNbCQzrKUGjGChdnBA9fEjJbKdaYSTQKMJXYK4QcSKP4liruSkG9d5+mnv2tHQHe5kOvj6IR7yLvpp79rR0B3uZDr4+iEe8i7t7H358WfXfN26QoQltHj2w==",
+    "touchable": 40
+  },
+  {
+    "clearTime": 420,
+    "id": 13,
+    "limitTime": [
+      8000,
+      6500,
+      5000
+    ],
+    "randomBlockGroupID": [
+      1,
+      2
+    ],
+    "randomBlockLimit": [
+      2,
+      4
+    ],
+    "randomBlockTypeCount": [
+      7,
+      7
+    ],
+    "stageLayoutData": "6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLvFBUXzxzxjSmlE1FhspcUM6ae/a0dAd7mQ6+PohHvIu0n+GnHx8X/6Vf8RgscqzgXV4JzuuN4rJMLLefbF7iX0/DmHNk81L1B/cHdQh4jI38UFRfPHPGNKaUTUWGylxQzq5Dc3vhyqA6TbOne2g/0it2ufWbe/iMMynS54Fp9sK8zKpIFz2Gx+1D9CTAFyOulm883DnFKaxlmX5KlSDC656ae/a0dAd7mQ6+PohHvIu8ga4zysk6vK6Sog09IJ2vp4zSonDa2JBCO3XzyNGrFUSf4acfHxf/pV/xGCxyrOBdXgnO643iskwst59sXuJfT8OYc2TzUvUH9wd1CHiMjfxQVF88c8Y0ppRNRYbKXFDOmnv2tHQHe5kOvj6IR7yLse9oPNmwseaoHeNJvUBylD6ae/a0dAd7mQ6+PohHvIu7865IebntsCdJ+vno/izMw=",
+    "touchable": 42
+  },
+  {
+    "clearTime": 420,
+    "id": 14,
+    "limitTime": [
+      7000,
+      5500,
+      4000
+    ],
+    "randomBlockGroupID": [
+      1,
+      2
+    ],
+    "randomBlockLimit": [
+      2,
+      4
+    ],
+    "randomBlockTypeCount": [
+      7,
+      7
+    ],
+    "stageLayoutData": "6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLt5/pXawMqFJ2ciJth/AM0c9hPHAoJtnatr/qcv8QnsZ+mnv2tHQHe5kOvj6IR7yLvapeVeOLXZlVUUg+DYKGvC6ae/a0dAd7mQ6+PohHvIu6rv/uPUxuPHbF749JTDCTDmHYa3QGdED9hBlvelJz8mEGGQe/ffrqTjxQX7IQboLN6t5aHsP4O9nxyafbkrMj1kZEhK9fBXanRSrUlCOOhR6ae/a0dAd7mQ6+PohHvIux6kKW5VPOb3rFuQG3+FtPjpp79rR0B3uZDr4+iEe8i7lRGNu+qJtQu8fcFSGPziTh72g82bCx5qgd40m9QHKUPJApDbwakF04kbO1mUP5lr9hPHAoJtnatr/qcv8QnsZ+mnv2tHQHe5kOvj6IR7yLvpp79rR0B3uZDr4+iEe8i7t7H358WfXfN26QoQltHj2w==",
+    "touchable": 42
+  },
+  {
+    "clearTime": 420,
+    "id": 15,
+    "limitTime": [
+      7000,
+      5500,
+      4000
+    ],
+    "randomBlockGroupID": [
+      1,
+      2
+    ],
+    "randomBlockLimit": [
+      2,
+      4
+    ],
+    "randomBlockTypeCount": [
+      5,
+      7
+    ],
+    "stageLayoutData": "6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLu3SnBK+w6kCYBCVktJZUsQiuX1//I/EeeXyp6foMigflkg4Wt6gUiKElOHXLssAMEdh+AGOzxermh/51ci8J/nxCsGCDIi/HI75GbmAKI41PEkKm0rfT8drxTULoFN21e9fZRU5yQcOVEGaHCLSvsBpxYeO83mFacWkGkJa7MpwuNOGX1ThOUs4QnjX1CBksN9LWgE/mieLTmkXRbKpDohVGfVF87ZvQ/YNIiMwDbkmKc+wEkKajAHiciHvEoaiRAq7LYABzI0kriPzWC0RdNydwTh/TVGqi+QAsCTVCPCxtQ/7YaAuxttzjMXuWnqyn2BzbYXP2lghWPpT+U5+92NHYfgBjs8Xq5of+dXIvCf5+NOGX1ThOUs4QnjX1CBksN9LWgE/mieLTmkXRbKpDohVGfVF87ZvQ/YNIiMwDbkmKc+wEkKajAHiciHvEoaiRDxJCptK30/Ha8U1C6BTdtXvX2UVOckHDlRBmhwi0r7AacWHjvN5hWnFpBpCWuzKcLBjtCw/uE9DugvM6eb9+9SiuX1//I/EeeXyp6foMigflkg4Wt6gUiKElOHXLssAMEdh+AGOzxermh/51ci8J/nxCsGCDIi/HI75GbmAKI41Omnv2tHQHe5kOvj6IR7yLvpp79rR0B3uZDr4+iEe8i7t7H358WfXfN26QoQltHj2w==",
+    "touchable": 42
+  },
+  {
+    "clearTime": 480,
+    "id": 16,
+    "limitTime": [
+      6000,
+      4500,
+      3000
+    ],
+    "randomBlockGroupID": [
+      1,
+      2
+    ],
+    "randomBlockLimit": [
+      2,
+      4
+    ],
+    "randomBlockTypeCount": [
+      5,
+      7
+    ],
+    "stageLayoutData": "6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLuq7/7j1Mbjx2xe+PSUwwkwIagvyvFTfg3e2xQNN8JAYOIWvupomynrNbCQzrKUGjGChdnBA9fEjJbKdaYSTQKMIagvyvFTfg3e2xQNN8JAYOIWvupomynrNbCQzrKUGjEAILI/KohTJ5iGjrhfOloAc2i2wwCam1GsDjX3wxrdGqohOFo2QJDYnxZUgCDNBJxcl0i2ckCNU7XHahjj3av3ACCyPyqIUyeYho64XzpaACdDqF7heavPzea+vz7HT9v7XbM+FiNgpvnm1M4D6BVTRHe6wVhKI7HCCl5YyBap3Ie+FCKC34dTRQxQHo8DHxapL0pYKonwkefot5yjoxRQ4dQaSpgcwGAYQVcuXrezfypSNOpT4GFuxxabJyl3EKpmTeoYlQX6ifA8itFJqMn8qHFDZvoppZB6owANYvyJHgAgsj8qiFMnmIaOuF86WgB40jfpV26jQtKHyJ5aYA+o+12zPhYjYKb55tTOA+gVU3uVf8H2t8JSfjsu8noZJ+OZWdyCVK6LtFXjsP2+VABXNCeu2uK0gYO6QRB/bmd2QsH77h3sJcYQJxMorD6t7Yi3Wl5ypIrspmfLjWMtVA26Hc5d38Yu3ZcwmLTcstVmuiGoL8rxU34N3tsUDTfCQGDiFr7qaJsp6zWwkM6ylBoxgoXZwQPXxIyWynWmEk0CjCGoL8rxU34N3tsUDTfCQGDiFr7qaJsp6zWwkM6ylBox/BJmr4njjqdzXGEBSCHAVOmnv2tHQHe5kOvj6IR7yLu/OuSHm57bAnSfr56P4szM",
+    "touchable": 48
+  },
+  {
+    "clearTime": 520,
+    "id": 17,
+    "limitTime": [
+      6000,
+      4500,
+      3000
+    ],
+    "randomBlockGroupID": [
+      1,
+      2
+    ],
+    "randomBlockLimit": [
+      2,
+      4
+    ],
+    "randomBlockTypeCount": [
+      6,
+      9
+    ],
+    "stageLayoutData": "6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLu3SnBK+w6kCYBCVktJZUsQiuX1//I/EeeXyp6foMigfncE4f01RqovkALAk1QjwsY/yEYbeiFOAzcOUGZxFGe0iuX1//I/EeeXyp6foMigfncE4f01RqovkALAk1QjwsZ8/M1EOafCoIRUQA1nWPQKHqQpblU85vesW5Abf4W0+DqA0r+a+pStnPYTQf5Dit/Vchsqf7ffWtdlSsYd42NWbR73uZ7K0f4EIA6V4KjXO6hxQ2b6KaWQeqMADWL8iR4dh+AGOzxermh/51ci8J/nBhPaJWkCdhaY9SJVTpjrTquYwIlCXuhcUf+ZzeWDlj5eJ2jwLKQjz7EC8KuBIS/SbS59KN3uwAHdU8r6FEtwhiRTUJSHlscbdKJBK7lkh/rVchsqf7ffWtdlSsYd42NWbR73uZ7K0f4EIA6V4KjXO6hxQ2b6KaWQeqMADWL8iR4dh+AGOzxermh/51ci8J/nBhPaJWkCdhaY9SJVTpjrTg9DkTVvD0qJLaNXESEPA14epCluVTzm96xbkBt/hbT44++dydksr92QuRZXirf4XncE4f01RqovkALAk1QjwsY/yEYbeiFOAzcOUGZxFGe0iuX1//I/EeeXyp6foMigfncE4f01RqovkALAk1QjwsY/yEYbeiFOAzcOUGZxFGe0vRaVyU7+mFOPLVRMItsYqOmnv2tHQHe5kOvj6IR7yLvpp79rR0B3uZDr4+iEe8i7t7H358WfXfN26QoQltHj2w==",
+    "touchable": 52
+  },
+  {
+    "clearTime": 800,
+    "id": 18,
+    "limitTime": [
+      15000,
+      13500,
+      12000
+    ],
+    "randomBlockGroupID": [
+      1,
+      2
+    ],
+    "randomBlockLimit": [
+      2,
+      4
+    ],
+    "randomBlockTypeCount": [
+      11,
+      14
+    ],
+    "stageLayoutData": "6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLtc77sYo0TmgyF44G90fN+Visxu9KUYh3/RVYpVoCelw81+Bl2iuqEk3y+2/EqUtRf7v0MiSdTfnsZ2Q+/VdjcqP8hGG3ohTgM3DlBmcRRntIrl9f/yPxHnl8qen6DIoH53BOH9NUaqL5ACwJNUI8LGraF931OVAIX2zoqC5Xoyb96zDkGgqVRUhNrbKIgr3wSFWUuytAw+a5KBOc+caoXN3j69256X/6qmjeLSQOCl8BOCw6UlKPb7TElVkRyqf90W4ll0ZkOvcsrSIVu4AthFPmK5eHPv1YylGS65yrEPhq2hfd9TlQCF9s6KguV6Mm/esw5BoKlUVITa2yiIK98EhVlLsrQMPmuSgTnPnGqFzd4+vduel/+qpo3i0kDgpfD7v0MiSdTfnsZ2Q+/VdjcqP8hGG3ohTgM3DlBmcRRntIrl9f/yPxHnl8qen6DIoH53BOH9NUaqL5ACwJNUI8LGraF931OVAIX2zoqC5Xoyb2F+3r72fnEeGf3KM+U6pKpkZEhK9fBXanRSrUlCOOhR6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLu3sffnxZ9d83bpChCW0ePb",
+    "touchable": 80
+  },
+  {
+    "clearTime": 620,
+    "id": 19,
+    "limitTime": [
+      10000,
+      8500,
+      7000
+    ],
+    "randomBlockGroupID": [
+      1,
+      2
+    ],
+    "randomBlockLimit": [
+      2,
+      4
+    ],
+    "randomBlockTypeCount": [
+      9,
+      10
+    ],
+    "stageLayoutData": "6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLtc77sYo0TmgyF44G90fN+VbR73uZ7K0f4EIA6V4KjXOwcdE1NQHStvI4RC7+phgIpvuDnlWY+R5eoapBYYJzQeiuX1//I/EeeXyp6foMigfgLi1P/TekzW4zhkfM0mpPZzVftB9t/05jRIoYiHGAx806rh/pWB4MWF0seWIjQEs3cE4f01RqovkALAk1QjwsabygPbIWPVe4k7zPqZSG9lBTu/AXMMRU/YnIlBIGrQ63RSmUx0w/FsPTsGQgte/HsMiBTxrFDv3lfyJOq96V1YuX8yXKbJQaihX1Ge+gtfk/bBK0Lbe6K/jbpW2Jg36TNxofobPr6ETW978JT8w0EglsmfaoAtvoUwQqb0pJGEX20GGy4QRuFqvumCjp6FCYpH6VZFJDKghMy1i9ARmQkJlY7u7wVYhI+ToelgmC0tEmY3xwMxZURtAZQznqGzGcWK5fX/8j8R55fKnp+gyKB+AuLU/9N6TNbjOGR8zSak9iMl09ga9kb1GadgL8mWzWDTquH+lYHgxYXSx5YiNASzdwTh/TVGqi+QAsCTVCPCxppZreo8JdySSfsgtDhjldZtHve5nsrR/gQgDpXgqNc7Bx0TU1AdK28jhELv6mGAihFeRO4sJrP8B8mIrRUUP7fpp79rR0B3uZDr4+iEe8i7vzrkh5ue2wJ0n6+ej+LMzA==",
+    "touchable": 62
+  },
+  {
+    "clearTime": 700,
+    "id": 20,
+    "limitTime": [
+      10000,
+      8500,
+      7000
+    ],
+    "randomBlockGroupID": [
+      1,
+      2
+    ],
+    "randomBlockLimit": [
+      2,
+      4
+    ],
+    "randomBlockTypeCount": [
+      11,
+      11
+    ],
+    "stageLayoutData": "6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLuq7/7j1Mbjx2xe+PSUwwkwIagvyvFTfg3e2xQNN8JAYOIWvupomynrNbCQzrKUGjGChdnBA9fEjJbKdaYSTQKMIagvyvFTfg3e2xQNN8JAYOIWvupomynrNbCQzrKUGjEAILI/KohTJ5iGjrhfOloAHqQpblU85vesW5Abf4W0+Koc4jUbIjqE2nbc6OxYKoP0Hn4z57O+d50KwjxlII2mgseVVb4BdNYv1RYnExDeZmnjpRGcUq+4S7OJ31Oy2vcAILI/KohTJ5iGjrhfOloAHqQpblU85vesW5Abf4W0+Koc4jUbIjqE2nbc6OxYKoP0Hn4z57O+d50KwjxlII2mgseVVb4BdNYv1RYnExDeZmnjpRGcUq+4S7OJ31Oy2vcAILI/KohTJ5iGjrhfOloAHqQpblU85vesW5Abf4W0+Koc4jUbIjqE2nbc6OxYKoMdzl3fxi7dlzCYtNyy1Wa6IagvyvFTfg3e2xQNN8JAYOIWvupomynrNbCQzrKUGjGChdnBA9fEjJbKdaYSTQKMIagvyvFTfg3e2xQNN8JAYOIWvupomynrNbCQzrKUGjH8EmavieOOp3NcYQFIIcBU6ae/a0dAd7mQ6+PohHvIu7865IebntsCdJ+vno/izMw=",
+    "touchable": 70
+  },
+  {
+    "clearTime": 400,
+    "id": 21,
+    "limitTime": [
+      9000,
+      7500,
+      6000
+    ],
+    "randomBlockGroupID": [
+      1,
+      2
+    ],
+    "randomBlockLimit": [
+      2,
+      4
+    ],
+    "randomBlockTypeCount": [
+      4,
+      8
+    ],
+    "stageLayoutData": "6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLuq7/7j1Mbjx2xe+PSUwwkwIagvyvFTfg3e2xQNN8JAYOIWvupomynrNbCQzrKUGjGChdnBA9fEjJbKdaYSTQKMIagvyvFTfg3e2xQNN8JAYOIWvupomynrNbCQzrKUGjEAILI/KohTJ5iGjrhfOloA9hPHAoJtnatr/qcv8QnsZ6oc4jUbIjqE2nbc6OxYKoPrGvvRyN4xNfwj5hPQCUPsncFFQ2hk0xmSo8xUk3MhzzCkom96Fn6gmNPr1KdmDzna/sM/PcDq5oy9kvx5hd5N0dSzCwMhwiPzkvSPdJzy/iFzMwexDaptxhxZdw7hcCzb9Lo8D7uUdmZgRXtWMhdwyQKQ28GpBdOJGztZlD+ZawAgsj8qiFMnmIaOuF86WgBrL6qsnYV+BvGed76/aHIR8X0zT/zTGNphDpGBpCGrRh3OXd/GLt2XMJi03LLVZrohqC/K8VN+Dd7bFA03wkBg4ha+6mibKes1sJDOspQaMYKF2cED18SMlsp1phJNAowhqC/K8VN+Dd7bFA03wkBg4ha+6mibKes1sJDOspQaMfwSZq+J446nc1xhAUghwFTpp79rR0B3uZDr4+iEe8i7vzrkh5ue2wJ0n6+ej+LMzA==",
+    "touchable": 40
+  },
+  {
+    "clearTime": 620,
+    "id": 22,
+    "limitTime": [
+      10000,
+      8500,
+      7000
+    ],
+    "randomBlockGroupID": [
+      1,
+      2
+    ],
+    "randomBlockLimit": [
+      2,
+      4
+    ],
+    "randomBlockTypeCount": [
+      9,
+      10
+    ],
+    "stageLayoutData": "6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLu3SnBK+w6kCYBCVktJZUsQiuX1//I/EeeXyp6foMigfncE4f01RqovkALAk1QjwsY/yEYbeiFOAzcOUGZxFGe0iuX1//I/EeeXyp6foMigfncE4f01RqovkALAk1QjwsZ8/M1EOafCoIRUQA1nWPQKk9+9ZawNWowohMPr1pDloJPfvWWsDVqMKITD69aQ5aDj753J2Syv3ZC5FleKt/he2tg7QepThjhznYN5EXpUV0s1y+Kgt0O6UCOr3wod0hBSUtYHx+Zwk94YAUk/jFuMKgROC9RwGPiFmB6s58o9oorMbvSlGId/0VWKVaAnpcMQsbEZPiBMy7ZBFPJEdrrA4++dydksr92QuRZXirf4XhBXAusYYgK3iQ7BAhJ4F50QVwLrGGICt4kOwQISeBed66Uuc1sjC7Ngc0GjT7Vn5w9DkTVvD0qJLaNXESEPA15nGXJUkv786CMGxK0QfqAf/GSiVnO17X43kW4BBGu9dd7T1OA+e03Tn2Zemn9MqKyK5fX/8j8R55fKnp+gyKB+dwTh/TVGqi+QAsCTVCPCxj/IRht6IU4DNw5QZnEUZ7SK5fX/8j8R55fKnp+gyKB+dwTh/TVGqi+QAsCTVCPCxqTmjrex9s0tKpiULYsOPEHpp79rR0B3uZDr4+iEe8i7vzrkh5ue2wJ0n6+ej+LMzA==",
+    "touchable": 62
+  },
+  {
+    "clearTime": 320,
+    "id": 23,
+    "limitTime": [
+      6000,
+      4500,
+      3000
+    ],
+    "randomBlockGroupID": [
+      1,
+      2
+    ],
+    "randomBlockLimit": [
+      2,
+      4
+    ],
+    "randomBlockTypeCount": [
+      6,
+      5
+    ],
+    "stageLayoutData": "6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLvpp79rR0B3uZDr4+iEe8i7lLjpx7R81FpkxJReCvgio+mnv2tHQHe5kOvj6IR7yLuQjF8GSbwLzZStvM1dXq3N6ae/a0dAd7mQ6+PohHvIuz8ORXIDjG4A63c/BdPoJx72E8cCgm2dq2v+py/xCexnN7yDn4eaU5IQgdV+tQ3fUWbzzcOcUprGWZfkqVIMLrke9oPNmwseaoHeNJvUBylDPw5FcgOMbgDrdz8F0+gnHvYTxwKCbZ2ra/6nL/EJ7Gd5/pXawMqFJ2ciJth/AM0cEV5E7iwms/wHyYitFRQ/t+mnv2tHQHe5kOvj6IR7yLuUuOnHtHzUWmTElF4K+CKj6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLu/OuSHm57bAnSfr56P4szM",
+    "touchable": 32
+  },
+  {
+    "clearTime": 740,
+    "id": 24,
+    "limitTime": [
+      10000,
+      8500,
+      7000
+    ],
+    "randomBlockGroupID": [
+      1,
+      2
+    ],
+    "randomBlockLimit": [
+      2,
+      4
+    ],
+    "randomBlockTypeCount": [
+      11,
+      12
+    ],
+    "stageLayoutData": "6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLtc77sYo0TmgyF44G90fN+VHqQpblU85vesW5Abf4W0+G+4OeVZj5Hl6hqkFhgnNB7nP8tfvosR8gaoiKgDdpJ0iuX1//I/EeeXyp6foMigftpBBQIzQ/457atdfSFiDyyocUNm+imlkHqjAA1i/Ike7pl+hFgM9LBk00wYEFiRx2jiTUFjsBlitTWAZlqvdkE2HFaupipn+TqTSQ/Pf8P4oAD1IsNE2JlRd4e66vddtRg+2B9oA38uO/EbhjsFiMTUtqOu+FZAflYe3FmZhcL32tg7QepThjhznYN5EXpUV0w9FsEtUdjTA7zYyHyGwhSvP8354rROFUcuVLtD2T7iQwfK8jlo43MQUeR/1w0Z+hJoIEyTMpzOu6tP6x42q6Kpi3j/t4VM0SLGDXB4ZN+2rz/N+eK0ThVHLlS7Q9k+4uc/y1++ixHyBqiIqAN2knSK5fX/8j8R55fKnp+gyKB+2kEFAjND/jntq119IWIPLKhxQ2b6KaWQeqMADWL8iR6aWa3qPCXckkn7ILQ4Y5XWHqQpblU85vesW5Abf4W0+BFeRO4sJrP8B8mIrRUUP7fpp79rR0B3uZDr4+iEe8i7vzrkh5ue2wJ0n6+ej+LMzA==",
+    "touchable": 74
+  },
+  {
+    "clearTime": 800,
+    "id": 25,
+    "limitTime": [
+      15000,
+      13500,
+      12000
+    ],
+    "randomBlockGroupID": [
+      1,
+      2
+    ],
+    "randomBlockLimit": [
+      2,
+      4
+    ],
+    "randomBlockTypeCount": [
+      10,
+      14
+    ],
+    "stageLayoutData": "6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLtc77sYo0TmgyF44G90fN+Vk9+9ZawNWowohMPr1pDloM1+Bl2iuqEk3y+2/EqUtRepd0NwSoHijIo+Aa0z9/PBCgWVFXf/OonnamfltHiXZJpjUaBpeq7X2JuKeVroDayaWa3qPCXckkn7ILQ4Y5XWbQYbLhBG4Wq+6YKOnoUJimRkSEr18FdqdFKtSUI46FGdAGO5RFq4CqgyJOuQRN4DbR73uZ7K0f4EIA6V4KjXO8vC1FJG/NPBbMVOxHwjySKtoX3fU5UAhfbOioLlejJvrPsCuLUyTN1fBz89bv041VWI00JvudBTLs/znjLbw9xu+1YsxWdGRR760PbVHX+c3A12wAhVddckahC9khoWDW0e97meytH+BCAOleCo1zuV7sHCnEKAHtru19CXALYZb7g55VmPkeXqGqQWGCc0Horl9f/yPxHnl8qen6DIoH53BOH9NUaqL5ACwJNUI8LGP8hGG3ohTgM3DlBmcRRntIrl9f/yPxHnl8qen6DIoH7jgQQdwZF23JNQQjJXfeGM6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLu3sffnxZ9d83bpChCW0ePb",
+    "touchable": 80
+  },
+  {
+    "clearTime": 500,
+    "id": 26,
+    "limitTime": [
+      9000,
+      7500,
+      6000
+    ],
+    "randomBlockGroupID": [
+      1,
+      2
+    ],
+    "randomBlockLimit": [
+      2,
+      4
+    ],
+    "randomBlockTypeCount": [
+      7,
+      8
+    ],
+    "stageLayoutData": "6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLuq7/7j1Mbjx2xe+PSUwwkwIagvyvFTfg3e2xQNN8JAYOIWvupomynrNbCQzrKUGjGK5BVriulevabME6w0hwfbgoXZwQPXxIyWynWmEk0CjCV2CuEHEij+JYq7kpBvXefa/sM/PcDq5oy9kvx5hd5N1+9r9Hh0bbJBoSEVBzgx+XOb2VEAOi9GbWnc7JweRwvrGvvRyN4xNfwj5hPQCUPsnA1rt6i5TH6DiOta1ODKlc71UaX5EzHDSg0Wmsrs2deYFcPXEbz4zcMz7OHC2s3X2v7DPz3A6uaMvZL8eYXeTdfva/R4dG2yQaEhFQc4Mflzm9lRADovRm1p3OycHkcL6xr70cjeMTX8I+YT0AlD7JwNa7eouUx+g4jrWtTgypXO9VGl+RMxw0oNFprK7NnXmBXD1xG8+M3DM+zhwtrN19r+wz89wOrmjL2S/HmF3k3X72v0eHRtskGhIRUHODH5c5vZUQA6L0ZtadzsnB5HCx3OXd/GLt2XMJi03LLVZrohqC/K8VN+Dd7bFA03wkBg4ha+6mibKes1sJDOspQaMYrkFWuK6V69pswTrDSHB9uChdnBA9fEjJbKdaYSTQKMJXYK4QcSKP4liruSkG9d5+mnv2tHQHe5kOvj6IR7yLvpp79rR0B3uZDr4+iEe8i7t7H358WfXfN26QoQltHj2w==",
+    "touchable": 50
+  },
+  {
+    "clearTime": 380,
+    "id": 27,
+    "limitTime": [
+      6000,
+      4500,
+      3000
+    ],
+    "randomBlockGroupID": [
+      1,
+      2
+    ],
+    "randomBlockLimit": [
+      2,
+      4
+    ],
+    "randomBlockTypeCount": [
+      5,
+      7
+    ],
+    "stageLayoutData": "6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLsPYGal1eaIyVz6/8vU1gU5iuQVa4rpXr2mzBOsNIcH2ykhP1hMVw7AGibi3OZkoYstFx9M8zJOxJ8s4qlYU8r6APL3FxpcNbEU0G7y4BZwPQGv6WiA4j8+jEHLspqme8luwH8J7KGkqh5zi08Dk6SVKZwtdj2gXT4cdBCiZvCMUONeYa1pORl0SX0gkMPlLArAE5qz8fQUE/mJ7O0EgAbjHJKDmhft+62qU1aqN+QrupS46ce0fNRaZMSUXgr4IqMFiUN2G19uQreT+FCUTV4i1RrZKIMH/cAQrdvOnD8jyx+yoz/RabuS24y1jXCISh5CvJyo8UUjfvHvv9s8xKLciuQVa4rpXr2mzBOsNIcH2ykhP1hMVw7AGibi3OZkoYvpp79rR0B3uZDr4+iEe8i76ae/a0dAd7mQ6+PohHvIu7ex9+fFn13zdukKEJbR49s=",
+    "touchable": 38
+  },
+  {
+    "clearTime": 540,
+    "id": 28,
+    "limitTime": [
+      9000,
+      7500,
+      6000
+    ],
+    "randomBlockGroupID": [
+      1,
+      2
+    ],
+    "randomBlockLimit": [
+      2,
+      4
+    ],
+    "randomBlockTypeCount": [
+      7,
+      9
+    ],
+    "stageLayoutData": "6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLuQoptTfdy+v/Vtu68WhGzzdwTh/TVGqi+QAsCTVCPCxj/IRht6IU4DNw5QZnEUZ7SK5fX/8j8R55fKnp+gyKB+dwTh/TVGqi+QAsCTVCPCxtua5dWjsY2WKOjdiBteABp7WkfDEefyxLZqCuHcftQ0I8QTCAwqZ5u5OECnzAkocqd2N0jg3quHG0WrPavM5jF7WkfDEefyxLZqCuHcftQ0HqQpblU85vesW5Abf4W0+MN5FM9iYEA41RHShPZom5Oq0+G0eMjHIwYh6tu1jxsUc4UNufF5GJFyRairGlCWwKV7l0scav8SJLg1hYYu9k+pL0pYKonwkefot5yjoxRQ5oGj4EZGlqGfRgXL24v8mh6kKW5VPOb3rFuQG3+FtPj7XbM+FiNgpvnm1M4D6BVT0jOKwomX7G7dDW0ZwwY4soeiL1gJ3mq1J5fkEoUJL3P7XbM+FiNgpvnm1M4D6BVTkKKbU33cvr/1bbuvFoRs83cE4f01RqovkALAk1QjwsY/yEYbeiFOAzcOUGZxFGe0iuX1//I/EeeXyp6foMigfncE4f01RqovkALAk1QjwsbbmuXVo7GNlijo3YgbXgAa6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLu3sffnxZ9d83bpChCW0ePb",
+    "touchable": 54
+  },
+  {
+    "clearTime": 540,
+    "id": 29,
+    "limitTime": [
+      5000,
+      3500,
+      2000
+    ],
+    "randomBlockGroupID": [
+      1,
+      2
+    ],
+    "randomBlockLimit": [
+      2,
+      4
+    ],
+    "randomBlockTypeCount": [
+      7,
+      9
+    ],
+    "stageLayoutData": "6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLvVGtkogwf9wBCt286cPyPL4ha+6mibKes1sJDOspQaMYKF2cED18SMlsp1phJNAowhqC/K8VN+Dd7bFA03wkBg4ha+6mibKes1sJDOspQaMfwSZq+J446nc1xhAUghwFRDWz4DeSJqKLncJeU//o+lqhziNRsiOoTadtzo7FgqgxHpIZWvivMGvVChX1xo1xwepCluVTzm96xbkBt/hbT4MKSib3oWfqCY0+vUp2YPOYefiWNtgl/mzQ8mIqlBiycSAP/U7TwQoBxhoYjWNcJE9DR/k068n2J36asxpgG1VM1SwJJY4mw5c/CFPHuFV6UHXInkAGiesTIQl75lY1A/HqQpblU85vesW5Abf4W0+N84EZ/wgc7TxPiYIOhB213ereWh7D+DvZ8cmn25KzI9HqQpblU85vesW5Abf4W0+PwSZq+J446nc1xhAUghwFSChdnBA9fEjJbKdaYSTQKMIagvyvFTfg3e2xQNN8JAYOIWvupomynrNbCQzrKUGjGChdnBA9fEjJbKdaYSTQKMJXYK4QcSKP4liruSkG9d5+mnv2tHQHe5kOvj6IR7yLvpp79rR0B3uZDr4+iEe8i7nb1aib6Nm8V3bPcztF1M8w==",
+    "touchable": 54
+  },
+  {
+    "clearTime": 500,
+    "id": 30,
+    "limitTime": [
+      15000,
+      13500,
+      12000
+    ],
+    "randomBlockGroupID": [
+      1,
+      2
+    ],
+    "randomBlockLimit": [
+      2,
+      4
+    ],
+    "randomBlockTypeCount": [
+      10,
+      6
+    ],
+    "stageLayoutData": "6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLuq7/7j1Mbjx2xe+PSUwwkwIagvyvFTfg3e2xQNN8JAYOIWvupomynrNbCQzrKUGjGChdnBA9fEjJbKdaYSTQKMIagvyvFTfg3e2xQNN8JAYOIWvupomynrNbCQzrKUGjEAILI/KohTJ5iGjrhfOloA8D3UR+ROQe6owvnV3P2urxNhEvJgS6kxaSZZOmek2FxA6WR81wHeGfDE+NEjEx2cxEYiBKvVqdCRurxOIttmevvrTX2N8KvHbEaYx/g055oHHRNTUB0rbyOEQu/qYYCK4TDQ2NVLK2pxy2s9wxMk1yFzMwexDaptxhxZdw7hcCzkESLzKB77y0jjQfbWwrTs8zq7TZE5Tjj2BwqBiiIZ2PgfkIOILjaSo8kRxrYkviIAILI/KohTJ5iGjrhfOloAIopO3dHhA50md84vfy3LWZt0wf1lf3Xsq/CeiJDbPtdSe5UKd7Yr5cskxar49IglmVncglSui7RV47D9vlQAVzpB3RkNDE5w9FXkUTyID72pC5LFI/9CFT7ktB/bkwB77nul3+9CBtn++UNkVTeaxQE1GNAHr3+pQN9rE1EENgziFr7qaJsp6zWwkM6ylBoxgoXZwQPXxIyWynWmEk0CjCGoL8rxU34N3tsUDTfCQGDiFr7qaJsp6zWwkM6ylBoxgoXZwQPXxIyWynWmEk0CjCV2CuEHEij+JYq7kpBvXefpp79rR0B3uZDr4+iEe8i76ae/a0dAd7mQ6+PohHvIu7ex9+fFn13zdukKEJbR49s=",
+    "touchable": 50
+  },
+  {
+    "clearTime": 400,
+    "id": 31,
+    "limitTime": [
+      5000,
+      3500,
+      2000
+    ],
+    "randomBlockGroupID": [
+      1,
+      2
+    ],
+    "randomBlockLimit": [
+      2,
+      4
+    ],
+    "randomBlockTypeCount": [
+      4,
+      8
+    ],
+    "stageLayoutData": "6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLtAEhEC0RORuihouhZBtSYec4TXU0ye1fRK70F5Hmpl2Axlg108a/stBBU2MeV/ZZkiaowv+dVqrvQ1JBP5kZxaoBNfGCA/anlUpANgRti6pxgY0Z9CWk4DaEAE66YjjLi8ub99DwBdNapQ71JGGA+oCMeP9trJSKncFrlANltz3Tci86srvVgr/9lheiGZcOR8abmXQIwdAAGqBEcSlQDJCMeP9trJSKncFrlANltz3Tci86srvVgr/9lheiGZcOQiaowv+dVqrvQ1JBP5kZxaDGWDXTxr+y0EFTYx5X9lmSJqjC/51Wqu9DUkE/mRnFqgE18YID9qeVSkA2BG2Lqn7WC/Eb53IkYWzHt8qHlWuXOE11NMntX0Su9BeR5qZdjpp79rR0B3uZDr4+iEe8i76ae/a0dAd7mQ6+PohHvIu529Wom+jZvFd2z3M7RdTPM=",
+    "touchable": 40
+  },
+  {
+    "clearTime": 600,
+    "id": 32,
+    "limitTime": [
+      9000,
+      7500,
+      6000
+    ],
+    "randomBlockGroupID": [
+      1,
+      2
+    ],
+    "randomBlockLimit": [
+      2,
+      4
+    ],
+    "randomBlockTypeCount": [
+      10,
+      10
+    ],
+    "stageLayoutData": "6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLvbIhM2bkG353ZoVcs/9aWPIc7KznTXi42oUtxQXb4+WcW7vsBvWrAK6Xw4qmSBQIZ4zSonDa2JBCO3XzyNGrFU3NdsP0tg0Fwth4jt1RixfYLHlVW+AXTWL9UWJxMQ3maZrsl9OymGTEYTaArwUUlu2yITNm5Bt+d2aFXLP/Wlj6zhCKf4yuMj45BSqnGejTkhWpk0esVbiWt02ICCFID50dSzCwMhwiPzkvSPdJzy/jrgKIzeW+l/L8ztODUeLLXpp79rR0B3uZDr4+iEe8i7PMkkLTsUh40HxOEoBucA5beVXVdkXJ9cyVeMSmqGswsTKVCXSMxYfmqhh7XXW0HxKnIrqv2ivY9UgGfQFyLxhRudxCVCdM9bb3/SjVjMx3DfG2rYgP51RFFp6/3Xbp5XIc7KznTXi42oUtxQXb4+WerkNze+HKoDpNs6d7aD/SLFu77Ab1qwCul8OKpkgUCG9hPHAoJtnatr/qcv8QnsZ+mnv2tHQHe5kOvj6IR7yLu/OuSHm57bAnSfr56P4szM",
+    "touchable": 60
+  },
+  {
+    "clearTime": 280,
+    "id": 33,
+    "limitTime": [
+      5000,
+      3500,
+      2000
+    ],
+    "randomBlockGroupID": [
+      1,
+      2
+    ],
+    "randomBlockLimit": [
+      2,
+      4
+    ],
+    "randomBlockTypeCount": [
+      4,
+      4
+    ],
+    "stageLayoutData": "6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLvpp79rR0B3uZDr4+iEe8i76ae/a0dAd7mQ6+PohHvIuyBv2gx17BSNYjF8zkiHkwYfKjmnxvyiM2pbhj1Xnrr4lDoUEheTpYUL34kfrbbdSDp7ObNIMkLwmv5aO+E4zZ9UpPW+AoMYoer999MH4MSSiGirDKf17RkvVECobppc8Q82+uySP7sI9ey6jVX1U4XvYdLSfDOW5ygHGlXPoeN7Hyo5p8b8ojNqW4Y9V566+AEbhGaEvUIsb5FzCekjgEE6ezmzSDJC8Jr+WjvhOM2fVKT1vgKDGKHq/ffTB+DEkujwGKFng6FnDCMC36OYIeeacjE2Vss2st/9LSToVthZ72HS0nwzlucoBxpVz6Hjex8qOafG/KIzaluGPVeeuviUOhQSF5OlhQvfiR+ttt1IOns5s0gyQvCa/lo74TjNn+mnv2tHQHe5kOvj6IR7yLvpp79rR0B3uZDr4+iEe8i76ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLu3sffnxZ9d83bpChCW0ePb",
+    "touchable": 28
+  },
+  {
+    "clearTime": 620,
+    "id": 34,
+    "limitTime": [
+      9000,
+      7500,
+      6000
+    ],
+    "randomBlockGroupID": [
+      1,
+      2
+    ],
+    "randomBlockLimit": [
+      2,
+      4
+    ],
+    "randomBlockTypeCount": [
+      8,
+      11
+    ],
+    "stageLayoutData": "6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLvpp79rR0B3uZDr4+iEe8i7YpMZx+e3KB6mon7KsWDCZXn+ldrAyoUnZyIm2H8AzRzg0ukOWHfpZU1lONScrFq0eNjq9kVg+5lplVlZAFMqyNlVT0WLik8Ak56LIz6KTAIQVwLrGGICt4kOwQISeBedFfI+zLOnkJ7EsBgKZOVo6WEFx1/6Dx2n9DGvKkgUDa0j8/6W9y9Hyt1iv0oAdd9bLRcfTPMyTsSfLOKpWFPK+oxUg+gR/Y2aY30InECG5JNikxnH57coHqaifsqxYMJlnhduTCAeZakNdsNgkCzvEuIWvupomynrNbCQzrKUGjFikxnH57coHqaifsqxYMJlyRf7f2081GtcVdWbn0qANwWJQ3YbX25Ct5P4UJRNXiLpp79rR0B3uZDr4+iEe8i76ae/a0dAd7mQ6+PohHvIu529Wom+jZvFd2z3M7RdTPM=",
+    "touchable": 62
+  },
+  {
+    "clearTime": 440,
+    "id": 35,
+    "limitTime": [
+      7000,
+      5500,
+      4000
+    ],
+    "randomBlockGroupID": [
+      1,
+      2
+    ],
+    "randomBlockLimit": [
+      2,
+      4
+    ],
+    "randomBlockTypeCount": [
+      6,
+      7
+    ],
+    "stageLayoutData": "6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLtGp3nj7iwb87S8rrx1/w6JHYfgBjs8Xq5of+dXIvCf520e97meytH+BCAOleCo1zu8POEInQFYUAGN2BHWxTavqtPhtHjIxyMGIerbtY8bFMaFF5031G8sp5SVGtTEUdhztPhYUmjQR2CLxailpZNwDlTrZvNY5rRP3ibU2UMQvc6gwx6Q4VjtHQ+wSNri7cCMBSI3kGiHPe8TM32I+oa42laOZVWc57lpt72ExN3R3GJKcUTIyZlSDpGoBAlNaVJGp3nj7iwb87S8rrx1/w6JGyGv8zQFhLzeTBU8jeuVG9pLrYdUuT7oT59/jwR4ymKomAGdq/XYqe+3aU/eI2gqw3kUz2JgQDjVEdKE9mibkxv5/4NaTKcshw3WoQOXAtc6gNK/mvqUrZz2E0H+Q4rfp3Y3SODeq4cbRas9q8zmMf6RsIOc+m55ySomuJUfpIwzxnc+9TEaStLJi1DQuJXkKfDn2pd5UendFgpLiFSAa0aneePuLBvztLyuvHX/Dokdh+AGOzxermh/51ci8J/nbR73uZ7K0f4EIA6V4KjXO7w84QidAVhQAY3YEdbFNq+q0+G0eMjHIwYh6tu1jxsUxoUXnTfUbyynlJUa1MRR2Omnv2tHQHe5kOvj6IR7yLtGr2e9at3p4s74DZ/cpjw2",
+    "touchable": 44
+  },
+  {
+    "clearTime": 560,
+    "id": 36,
+    "limitTime": [
+      6000,
+      4500,
+      3000
+    ],
+    "randomBlockGroupID": [
+      1,
+      2
+    ],
+    "randomBlockLimit": [
+      2,
+      4
+    ],
+    "randomBlockTypeCount": [
+      8,
+      9
+    ],
+    "stageLayoutData": "6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLtchoyeLUks3s5kyTIDdbuZHqQpblU85vesW5Abf4W0+DCkom96Fn6gmNPr1KdmDzllcYgknUjK2hL4V+pzyf3aHqQpblU85vesW5Abf4W0+HzLl13fleWN4v5TTyK0H/Adzl3fxi7dlzCYtNyy1Wa6JXYK4QcSKP4liruSkG9d5wXVt0ARMiI/qvmb3y8q8cXiFr7qaJsp6zWwkM6ylBoxACCyPyqIUyeYho64XzpaANUa2SiDB/3AEK3bzpw/I8viFr7qaJsp6zWwkM6ylBoxAPL3FxpcNbEU0G7y4BZwPbhIUt7q5a3rRyiDalg84X7iFr7qaJsp6zWwkM6ylBox/BJmr4njjqdzXGEBSCHAVKrv/uPUxuPHbF749JTDCTAldgrhBxIo/iWKu5KQb13nZXGIJJ1IytoS+Ffqc8n92h6kKW5VPOb3rFuQG3+FtPh8y5dd35XljeL+U08itB/w6xr70cjeMTX8I+YT0AlD7B6kKW5VPOb3rFuQG3+FtPgwpKJvehZ+oJjT69SnZg856ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLu3sffnxZ9d83bpChCW0ePb",
+    "touchable": 56
+  },
+  {
+    "clearTime": 360,
+    "id": 37,
+    "limitTime": [
+      6000,
+      4500,
+      3000
+    ],
+    "randomBlockGroupID": [
+      1,
+      2
+    ],
+    "randomBlockLimit": [
+      2,
+      4
+    ],
+    "randomBlockTypeCount": [
+      6,
+      5
+    ],
+    "stageLayoutData": "6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLtPxTyJbeJ3CvgZVURRrASlHYfgBjs8Xq5of+dXIvCf56kvSlgqifCR5+i3nKOjFFCocUNm+imlkHqjAA1i/IkeHYfgBjs8Xq5of+dXIvCf52YJ9BDgQMhsfd0n4Zouk7v350ds8IlEndKH2VfKzhakeOXitmkIoH3/Z4aphLcmOK8lnYcbwhyjXO0ME5SvBLGMBSI3kGiHPe8TM32I+oa4k9+9ZawNWowohMPr1pDloK8lnYcbwhyjXO0ME5SvBLG3SnBK+w6kCYBCVktJZUsQiuX1//I/EeeXyp6foMigfgLi1P/TekzW4zhkfM0mpPYdh+AGOzxermh/51ci8J/nxCsGCDIi/HI75GbmAKI41EaneePuLBvztLyuvHX/DokFik0uFKdYx8kfUAfvoaf/9XY9QlG7K2ZIziTINK/GZEaneePuLBvztLyuvHX/DokFik0uFKdYx8kfUAfvoaf/1MV7vhEGTrEA4vaMBvklfNqO2ddA/qz3oCWpqAAuTdcq7LYABzI0kriPzWC0RdNydwTh/TVGqi+QAsCTVCPCxj/IRht6IU4DNw5QZnEUZ7SK5fX/8j8R55fKnp+gyKB+I/JMQkMS/3THYUTXqpP0tOmnv2tHQHe5kOvj6IR7yLvpp79rR0B3uZDr4+iEe8i7t7H358WfXfN26QoQltHj2w==",
+    "touchable": 36
+  },
+  {
+    "clearTime": 420,
+    "id": 38,
+    "limitTime": [
+      9000,
+      7500,
+      6000
+    ],
+    "randomBlockGroupID": [
+      1,
+      2
+    ],
+    "randomBlockLimit": [
+      2,
+      4
+    ],
+    "randomBlockTypeCount": [
+      12,
+      4
+    ],
+    "stageLayoutData": "6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLuq7/7j1Mbjx2xe+PSUwwkwIagvyvFTfg3e2xQNN8JAYOIWvupomynrNbCQzrKUGjGChdnBA9fEjJbKdaYSTQKMSX2hW8tCRhdG4Gc0xmfJqncE4f01RqovkALAk1QjwsY3AOTZMeAgi8NgKYwM2gfG2f+sm7e1fu/JOIXbRZ5Yxgdyn+CkTnGnPU49vwVDgyrj753J2Syv3ZC5FleKt/hedwTh/TVGqi+QAsCTVCPCxnfvQH9kxoV09NxbTDFlP1PpngYuvN4jvr8rPjHob2yifPzNRDmnwqCEVEANZ1j0CswZ8zUbNiS3AFYpMbExnJM64CiM3lvpfy/M7Tg1Hiy1G/n/g1pMpyyHDdahA5cC19VyGyp/t99a12VKxh3jY1Z370B/ZMaFdPTcW0wxZT9TfeleJKuM3x6eB4WKu2P2TL0WlclO/phTjy1UTCLbGKgb+f+DWkynLIcN1qEDlwLXrOEIp/jK4yPjkFKqcZ6NOYzDtcX0TmC/dSeZNwCRXLDe09TgPntN059mXpp/TKiszfi1uXm67UK+LU2r3X8jHOIWvupomynrNbCQzrKUGjGChdnBA9fEjJbKdaYSTQKMIagvyvFTfg3e2xQNN8JAYOIWvupomynrNbCQzrKUGjH8EmavieOOp3NcYQFIIcBU6ae/a0dAd7mQ6+PohHvIu7865IebntsCdJ+vno/izMw=",
+    "touchable": 42
+  },
+  {
+    "clearTime": 480,
+    "id": 39,
+    "limitTime": [
+      9000,
+      7500,
+      6000
+    ],
+    "randomBlockGroupID": [
+      1,
+      2
+    ],
+    "randomBlockLimit": [
+      2,
+      4
+    ],
+    "randomBlockTypeCount": [
+      8,
+      6
+    ],
+    "stageLayoutData": "6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLvS8bhboyYaBXNd4CWrTacdJpKS+CxFkz4Cao7yg8YGvixwJieprVDaliDXNsf1nZYdh+AGOzxermh/51ci8J/nqS9KWCqJ8JHn6Leco6MUUHcE4f01RqovkALAk1QjwsYwZ+fSDMs6nTIeDj6dZbTQa9L0n5iKpZ+vuzKZqzFv/q0Ut1aOi4Z6UagflvdmLe5n3iqXopBwr3oSnvIh1G0W4++dydksr92QuRZXirf4XkwXE7GsVyzq8MwloXYwnN9jwqjU1tWzo5CtOiD1FyKGdFKZTHTD8Ww9OwZCC178e+PvncnZLK/dkLkWV4q3+F4pOp4kcwMfv3oB9xxlCZcXVjBe/wc377Gwk90wEd5QxbegxUpYSSnm3XB56W4mC+RxofobPr6ETW978JT8w0EgMGfn0gzLOp0yHg4+nWW00EYTkwH937J0US53arCr3EHqSmg8V6gpLbUB9T3eMKvUcaH6Gz6+hE1ve/CU/MNBIDBn59IMyzqdMh4OPp1ltNBr0vSfmIqln6+7MpmrMW/+rRS3Vo6LhnpRqB+W92Yt7iLwYEfvNpf0oqXLrvye67IzY7VeVS7gE6Mk58shtKEhLHAmJ6mtUNqWINc2x/WdlipSNOpT4GFuxxabJyl3EKp+FJi3LPezqHFG54F6nmoSqHFDZvoppZB6owANYvyJHvSt/mmWn5ZXF0nLSRDJ7te9FpXJTv6YU48tVEwi2xio6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLu3sffnxZ9d83bpChCW0ePb",
+    "touchable": 48
+  },
+  {
+    "clearTime": 600,
+    "id": 40,
+    "limitTime": [
+      9000,
+      7500,
+      6000
+    ],
+    "randomBlockGroupID": [
+      1,
+      2
+    ],
+    "randomBlockLimit": [
+      2,
+      4
+    ],
+    "randomBlockTypeCount": [
+      12,
+      8
+    ],
+    "stageLayoutData": "6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLuMBSI3kGiHPe8TM32I+oa4q3kCQ86L/KXhxoKs9kFuhwoFiyDQwu7uQWEBRe/bf0TdxjDyk1ebaE3faOm9x5gD6uQ3N74cqgOk2zp3toP9IgU7vwFzDEVP2JyJQSBq0Os6gNK/mvqUrZz2E0H+Q4rfCSWYMu0j3JglcojqHMnR+JIZQyOiMV8RohD1BfD5VquILbKXhrKsA8I5DvIqT2eE6uQ3N74cqgOk2zp3toP9IpWCPzzm/+Lh2HrGSFDmCAIPQ5E1bw9KiS2jVxEhDwNeBTu/AXMMRU/YnIlBIGrQ6zqA0r+a+pStnPYTQf5Dit+BlVEIK8qi5aJG/PhJU4qNcqF7oU0sufKMVHQnKgtg6cX332sSwlQ26r9mO1CCesphft6+9n5xHhn9yjPlOqSq3cYw8pNXm2hN32jpvceYAxbiWXRmQ69yytIhW7gC2EUFO78BcwxFT9iciUEgatDrFuJZdGZDr3LK0iFbuALYRYLFpeCbesLJVlGuBo+HVWZ3BOH9NUaqL5ACwJNUI8LGP8hGG3ohTgM3DlBmcRRntIrl9f/yPxHnl8qen6DIoH6ocUNm+imlkHqjAA1i/IkeHYfgBjs8Xq5of+dXIvCf58QrBggyIvxyO+Rm5gCiONTpp79rR0B3uZDr4+iEe8i76ae/a0dAd7mQ6+PohHvIu7ex9+fFn13zdukKEJbR49s=",
+    "touchable": 60
+  },
+  {
+    "clearTime": 500,
+    "id": 41,
+    "limitTime": [
+      8000,
+      6500,
+      5000
+    ],
+    "randomBlockGroupID": [
+      1,
+      2
+    ],
+    "randomBlockLimit": [
+      2,
+      4
+    ],
+    "randomBlockTypeCount": [
+      7,
+      8
+    ],
+    "stageLayoutData": "6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLuq7/7j1Mbjx2xe+PSUwwkwIagvyvFTfg3e2xQNN8JAYOIWvupomynrNbCQzrKUGjGChdnBA9fEjJbKdaYSTQKMIagvyvFTfg3e2xQNN8JAYOIWvupomynrNbCQzrKUGjEAILI/KohTJ5iGjrhfOloABYpNLhSnWMfJH1AH76Gn/x2H4AY7PF6uaH/nVyLwn+dzm9lRADovRm1p3OycHkcL6xr70cjeMTX8I+YT0AlD7CKKTt3R4QOdJnfOL38ty1nnP8tfvosR8gaoiKgDdpJ0MKSib3oWfqCY0+vUp2YPOcK/wHwTSz0FHwcQNV4TTBAmMu/SCy62RSsrzlC6xlhfgoXZwQPXxIyWynWmEk0CjEDStPth8kE/nto0du1M7GKUkK1oPLXLKtV5/nJxvSDuEFcC6xhiAreJDsECEngXnXcE4f01RqovkALAk1QjwsbaVo5lVZznuWm3vYTE3dHcACCyPyqIUyeYho64XzpaAPtdsz4WI2Cm+ebUzgPoFVM/yEYbeiFOAzcOUGZxFGe0qhziNRsiOoTadtzo7Fgqgx3OXd/GLt2XMJi03LLVZrohqC/K8VN+Dd7bFA03wkBg4ha+6mibKes1sJDOspQaMYKF2cED18SMlsp1phJNAowhqC/K8VN+Dd7bFA03wkBg4ha+6mibKes1sJDOspQaMfwSZq+J446nc1xhAUghwFTpp79rR0B3uZDr4+iEe8i7vzrkh5ue2wJ0n6+ej+LMzA==",
+    "touchable": 50
+  },
+  {
+    "clearTime": 640,
+    "id": 42,
+    "limitTime": [
+      9000,
+      7500,
+      6000
+    ],
+    "randomBlockGroupID": [
+      1,
+      2
+    ],
+    "randomBlockLimit": [
+      2,
+      4
+    ],
+    "randomBlockTypeCount": [
+      10,
+      9
+    ],
+    "stageLayoutData": "6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLu3SnBK+w6kCYBCVktJZUsQa6j0dmukIlEdStcZyA8wH15ucnTdyZEneeO3E83mxlU/yEYbeiFOAzcOUGZxFGe0ybSPhto9UvqDMpuAG9AO4nQXD2x3wf/aeRZCHN1beRv7XbM+FiNgpvnm1M4D6BVTSHT+JADfhN98443HfBpAMNX7Pv2ThFdQtlp2WFadHD+i3zY6FzjgOf+9NbDuJHXVJYMsh0lctxv5PxKjKv6hmm77VizFZ0ZFHvrQ9tUdf5wq7LYABzI0kriPzWC0RdNyAuLU/9N6TNbjOGR8zSak9h2H4AY7PF6uaH/nVyLwn+fTquH+lYHgxYXSx5YiNASzOV7/YgUc8KDgOney9Yz+2ipSNOpT4GFuxxabJyl3EKqV4HwpiXwzeLTnea7Kmmha92achc5r3I/iBBgNjw/J6ilFI3AZEufVzrtsSKqkealFcV6fmnBnlsrv2IEKGswLXlQe1SeMhPPRwvp3XLiboB7t7kBvIeCBmASZ6W4gHzvnP6h8nRqtVLfDDdBem2j2sujMeAMBojv/yOtPW8Z18m0e97meytH+BCAOleCo1zsHHRNTUB0rbyOEQu/qYYCKtx9OGoVJLKXKQjy+tvpiMjCpjmJfBVubsrteyp69QKXpp79rR0B3uZDr4+iEe8i76ae/a0dAd7mQ6+PohHvIu7ex9+fFn13zdukKEJbR49s=",
+    "touchable": 64
+  },
+  {
+    "clearTime": 560,
+    "id": 43,
+    "limitTime": [
+      9000,
+      7500,
+      6000
+    ],
+    "randomBlockGroupID": [
+      1,
+      2
+    ],
+    "randomBlockLimit": [
+      2,
+      4
+    ],
+    "randomBlockTypeCount": [
+      8,
+      9
+    ],
+    "stageLayoutData": "6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLuq7/7j1Mbjx2xe+PSUwwkwIagvyvFTfg3e2xQNN8JAYOIWvupomynrNbCQzrKUGjGChdnBA9fEjJbKdaYSTQKMIagvyvFTfg3e2xQNN8JAYOIWvupomynrNbCQzrKUGjEAILI/KohTJ5iGjrhfOloAHqQpblU85vesW5Abf4W0+Koc4jUbIjqE2nbc6OxYKoPrGvvRyN4xNfwj5hPQCUPsAVFUUKbxWxAvRILImUTBc4eiL1gJ3mq1J5fkEoUJL3MAILI/KohTJ5iGjrhfOloAHYfgBjs8Xq5of+dXIvCf5xq4dTwRHK+cxaepZLVpBsR3BOH9NUaqL5ACwJNUI8LGP8hGG3ohTgM3DlBmcRRntKkvSlgqifCR5+i3nKOjFFCUkK1oPLXLKtV5/nJxvSDuRe1YHUHUB1LwVtqTC6sXk3Khe6FNLLnyjFR0JyoLYOkwpKJvehZ+oJjT69SnZg852v7DPz3A6uaMvZL8eYXeTR6kKW5VPOb3rFuQG3+FtPghczMHsQ2qbcYcWXcO4XAs4ha+6mibKes1sJDOspQaMYKF2cED18SMlsp1phJNAowhqC/K8VN+Dd7bFA03wkBg4ha+6mibKes1sJDOspQaMYKF2cED18SMlsp1phJNAowldgrhBxIo/iWKu5KQb13n6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLu3sffnxZ9d83bpChCW0ePb",
+    "touchable": 56
+  },
+  {
+    "clearTime": 600,
+    "id": 44,
+    "limitTime": [
+      9000,
+      7500,
+      6000
+    ],
+    "randomBlockGroupID": [
+      1,
+      2
+    ],
+    "randomBlockLimit": [
+      2,
+      4
+    ],
+    "randomBlockTypeCount": [
+      10,
+      9
+    ],
+    "stageLayoutData": "6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLvSM4rCiZfsbt0NbRnDBjiyk9+9ZawNWowohMPr1pDloL1cjoi0kHHppiQ2gNqtjkHmgaPgRkaWoZ9GBcvbi/yabS59KN3uwAHdU8r6FEtwhvtdsz4WI2Cm+ebUzgPoFVO0Qam1mCQpM03kDkE+fpSN0jOKwomX7G7dDW0ZwwY4spPfvWWsDVqMKITD69aQ5aC9XI6ItJBx6aYkNoDarY5B5oGj4EZGlqGfRgXL24v8mm0e97meytH+BCAOleCo1zuocUNm+imlkHqjAA1i/IkeHYfgBjs8Xq5of+dXIvCf56kvSlgqifCR5+i3nKOjFFCaTSwyNLhr89dCUTNb3xie0jOKwomX7G7dDW0ZwwY4spPfvWWsDVqMKITD69aQ5aC9XI6ItJBx6aYkNoDarY5B5oGj4EZGlqGfRgXL24v8mqV7l0scav8SJLg1hYYu9k/7XbM+FiNgpvnm1M4D6BVTXxQKP9EexM6QsKOXWZH2b9IzisKJl+xu3Q1tGcMGOLKT371lrA1ajCiEw+vWkOWgvVyOiLSQcemmJDaA2q2OQVkg4Wt6gUiKElOHXLssAMHpp79rR0B3uZDr4+iEe8i7vzrkh5ue2wJ0n6+ej+LMzA==",
+    "touchable": 60
+  },
+  {
+    "clearTime": 480,
+    "id": 45,
+    "limitTime": [
+      9000,
+      7500,
+      6000
+    ],
+    "randomBlockGroupID": [
+      1,
+      2
+    ],
+    "randomBlockLimit": [
+      2,
+      4
+    ],
+    "randomBlockTypeCount": [
+      8,
+      6
+    ],
+    "stageLayoutData": "6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLu3SnBK+w6kCYBCVktJZUsQiuX1//I/EeeXyp6foMigfncE4f01RqovkALAk1QjwsY/yEYbeiFOAzcOUGZxFGe0iuX1//I/EeeXyp6foMigfncE4f01RqovkALAk1QjwsZ8/M1EOafCoIRUQA1nWPQKpCHRUdORjgqPgKEUlD7UPSxwJieprVDaliDXNsf1nZZFMsvftPa0A4geKj2XaErbbOzlP7siAXzDt5efc4UrOILHlVW+AXTWL9UWJxMQ3mYKeQ0s69cWLYzHRtNT+ymQUlLWB8fmcJPeGAFJP4xbjPJrXvEhnkPvCOtm7PQvsmqocUNm+imlkHqjAA1i/IkeHYfgBjs8Xq5of+dXIvCf534UmLcs97OocUbngXqeahKocUNm+imlkHqjAA1i/IkeHYfgBjs8Xq5of+dXIvCf59VyGyp/t99a12VKxh3jY1bwCLC17H9RXM5COLZT43G+XxcFH7JpXE+VwJDflELoNXz8zUQ5p8KghFRADWdY9ArjCrOKRpsqcRAtdZX6Vz4deuldUdb0aABt8qbVyc9FtClEfJ58vRo3/kRw0v+ns3wzY7VeVS7gE6Mk58shtKEhdwTh/TVGqi+QAsCTVCPCxj/IRht6IU4DNw5QZnEUZ7SK5fX/8j8R55fKnp+gyKB+dwTh/TVGqi+QAsCTVCPCxj/IRht6IU4DNw5QZnEUZ7S9FpXJTv6YU48tVEwi2xio6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLu3sffnxZ9d83bpChCW0ePb",
+    "touchable": 48
+  },
+  {
+    "clearTime": 680,
+    "id": 46,
+    "limitTime": [
+      12000,
+      10500,
+      9000
+    ],
+    "randomBlockGroupID": [
+      1,
+      2
+    ],
+    "randomBlockLimit": [
+      2,
+      4
+    ],
+    "randomBlockTypeCount": [
+      12,
+      10
+    ],
+    "stageLayoutData": "6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLtQXH0Rok2Lh5BCP35kQQQFJYMsh0lctxv5PxKjKv6hmr1cjoi0kHHppiQ2gNqtjkE9avN8RyfuMFpKDvxemeaGoAD1IsNE2JlRd4e66vddtezbRQgrTiikWVUjBKI5mzE041JGBOZDl53oPqOVnZafPoURKwHq8huwYhvJ6wwD/g/8gVZ6hbSteZx7cw/uWfHXHyrc6CENGvVRon+0x99MWRiyzbgahfPOATCnsjSHivLRq35SD1YP0Zh13LFDG5hDTxeNZMh+iGSwb5pZ8gPiNONSRgTmQ5ed6D6jlZ2Wnz6FESsB6vIbsGIbyesMA/6wIcbxWHJolHOD+st8R+ZLuqDIdCictNbCXflh+JACH1kYss24GoXzzgEwp7I0h4ry0at+Ug9WD9GYddyxQxuY7NtFCCtOKKRZVSMEojmbMaAA9SLDRNiZUXeHuur3XbWfAetpHohsD41kX+7tRnI35BEi8yge+8tI40H21sK07CWDLIdJXLcb+T8Soyr+oZoIrdtGseIcVF72YRf1GoJ26ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLu3sffnxZ9d83bpChCW0ePb",
+    "touchable": 68
+  },
+  {
+    "clearTime": 520,
+    "id": 47,
+    "limitTime": [
+      9000,
+      7500,
+      6000
+    ],
+    "randomBlockGroupID": [
+      1,
+      2
+    ],
+    "randomBlockLimit": [
+      2,
+      4
+    ],
+    "randomBlockTypeCount": [
+      9,
+      7
+    ],
+    "stageLayoutData": "6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLuq7/7j1Mbjx2xe+PSUwwkwIagvyvFTfg3e2xQNN8JAYOIWvupomynrNbCQzrKUGjGChdnBA9fEjJbKdaYSTQKMIagvyvFTfg3e2xQNN8JAYOIWvupomynrNbCQzrKUGjEAILI/KohTJ5iGjrhfOloAI/y2IGQAzFroW8FIoawNc8we65aUNoKus4Gw2XXa6yQwpKJvehZ+oJjT69SnZg85D7/dCv/XQb+IT+Neswu9JfAYuDKpnCv5zk0JMSS9N6OaY1GgaXqu19ibinla6A2sACCyPyqIUyeYho64XzpaAIKF2cED18SMlsp1phJNAowhqC/K8VN+Dd7bFA03wkBgr/pexvGkG0zot8SaiXpF+R2H4AY7PF6uaH/nVyLwn+epL0pYKonwkefot5yjoxRQlJCtaDy1yyrVef5ycb0g7oLHlVW+AXTWL9UWJxMQ3mbaVo5lVZznuWm3vYTE3dHcQi9LNpyxHVSWevA/HyVLbtr+wz89wOrmjL2S/HmF3k3q4bQWYEoYkuDUxWbuLv6dqhziNRsiOoTadtzo7Fgqgx3OXd/GLt2XMJi03LLVZrohqC/K8VN+Dd7bFA03wkBg4ha+6mibKes1sJDOspQaMYKF2cED18SMlsp1phJNAowhqC/K8VN+Dd7bFA03wkBg4ha+6mibKes1sJDOspQaMfwSZq+J446nc1xhAUghwFTpp79rR0B3uZDr4+iEe8i7vzrkh5ue2wJ0n6+ej+LMzA==",
+    "touchable": 52
+  },
+  {
+    "clearTime": 480,
+    "id": 48,
+    "limitTime": [
+      6000,
+      4500,
+      3000
+    ],
+    "randomBlockGroupID": [
+      1,
+      2
+    ],
+    "randomBlockLimit": [
+      2,
+      4
+    ],
+    "randomBlockTypeCount": [
+      8,
+      7
+    ],
+    "stageLayoutData": "6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLtUtjAE3H8DlqFL3R9TmE5WlLjpx7R81FpkxJReCvgio27AfwnsoaSqHnOLTwOTpJVUtjAE3H8DlqFL3R9TmE5WlLjpx7R81FpkxJReCvgiozqTGDQonxlCEuD2oHeAEE/q5Dc3vhyqA6TbOne2g/0i3badG+DQz++nQTrP1RFBm4VFymg8IJNtUyJIDQhvjzf8QuUr4cK6H4l48+HgXzmQMQWG+gktK8nU3YtqaYWSZc6+0sKoeM3aK02/goC2pXjzZgP9Z1mZtXndn+9iD2/W6uQ3N74cqgOk2zp3toP9ImjDZmlMS2abcDTKrkDqQHRuwH8J7KGkqh5zi08Dk6SVVLYwBNx/A5ahS90fU5hOVpS46ce0fNRaZMSUXgr4IqNuwH8J7KGkqh5zi08Dk6SVVLYwBNx/A5ahS90fU5hOVumnv2tHQHe5kOvj6IR7yLvpp79rR0B3uZDr4+iEe8i7t7H358WfXfN26QoQltHj2w==",
+    "touchable": 48
+  },
+  {
+    "clearTime": 680,
+    "id": 49,
+    "limitTime": [
+      12000,
+      10500,
+      9000
+    ],
+    "randomBlockGroupID": [
+      1,
+      2
+    ],
+    "randomBlockLimit": [
+      2,
+      4
+    ],
+    "randomBlockTypeCount": [
+      11,
+      10
+    ],
+    "stageLayoutData": "6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLvg2hfEE30/5jT2dPePP14Z5YYZVsHAuckf9JFXNVDkd6beGjEHIVm/2Umgbmc0ADudhkPP5HiVtbF2hgDsdACpxKUqD8KevrPGJM0xvRz3jdn6lX2yAfjqHS6jVv+iw8Ejr1OFkeAa266Klc8AVA0OtbzzJ1LX8jxrX4NeVtAXKh2H4AY7PF6uaH/nVyLwn+ez7kgpictJk76VrM6AwGo+FbdlJvds76w1VJgVOT4CyKz7cGVl2AhqAjvtqTpoB8q7Z4nCfF29+7C8yh9UzE0G9FgAZLukWkjn/RxNB6W4SbpTJ7meR/MCy64gkhtvlILpbxrc8gQXheosskcSFMowIO3rTCqoAu0TaM401/Z0TfGpwQpXqTclRncAV3o89qlhmtOHW9wpyT5KOOT3iUZr7RnII1mZVrG/rXTQFgMFBR2H4AY7PF6uaH/nVyLwn+edhkPP5HiVtbF2hgDsdACprngyAiuFVbNtgT1UJozuUNn6lX2yAfjqHS6jVv+iw8E2HFaupipn+TqTSQ/Pf8P4tbzzJ1LX8jxrX4NeVtAXKuWGGVbBwLnJH/SRVzVQ5Hem3hoxByFZv9lJoG5nNAA7EV5E7iwms/wHyYitFRQ/t+mnv2tHQHe5kOvj6IR7yLu/OuSHm57bAnSfr56P4szM",
+    "touchable": 68
+  },
+  {
+    "clearTime": 800,
+    "id": 50,
+    "limitTime": [
+      15000,
+      13500,
+      12000
+    ],
+    "randomBlockGroupID": [
+      1,
+      2
+    ],
+    "randomBlockLimit": [
+      2,
+      4
+    ],
+    "randomBlockTypeCount": [
+      10,
+      14
+    ],
+    "stageLayoutData": "6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLuXrsecdhjgAKRncKlgl+n1a4y6bzpYjEBX1svCvmgMQvAOGcFZXbw9fDiLfT/XmYU041JGBOZDl53oPqOVnZafVUYukFWrUBgHaLL4FYPPZiR59znCQ5c4oEhNcbtb0mYepCluVTzm96xbkBt/hbT4cZ0ZNZ1AZdDZlZ4oHsiiRv3EC4ouiKKLuUrk/Lj2fQT9xAuKLoiii7lK5Py49n0E/cQLii6Ioou5SuT8uPZ9BA963xoSQTXgYJqu5pONcPcepCluVTzm96xbkBt/hbT4ybSPhto9UvqDMpuAG9AO4v3EC4ouiKKLuUrk/Lj2fQT9xAuKLoiii7lK5Py49n0E/cQLii6Ioou5SuT8uPZ9BM5ZDQoLKVCdCwY84Kl26EMkefc5wkOXOKBITXG7W9JmHqQpblU85vesW5Abf4W0+KJrWh/pvqSLt1eGi49tK1Ru6C2r3iVLRwiO7FDOmeLMbugtq94lS0cIjuxQzpnizANbGy4BLx+pOBKvkDpDjrlZGLLNuBqF884BMKeyNIeK6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLu3sffnxZ9d83bpChCW0ePb",
+    "touchable": 80
+  },
+  {
+    "clearTime": 1120,
+    "id": 101,
+    "limitTime": [
+      30000
+    ],
+    "randomBlockGroupID": [
+      1,
+      2
+    ],
+    "randomBlockLimit": [
+      4,
+      4
+    ],
+    "randomBlockTypeCount": [
+      14,
+      14
+    ],
+    "stageLayoutData": "6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLtc77sYo0TmgyF44G90fN+VHqQpblU85vesW5Abf4W0+K2hfd9TlQCF9s6KguV6Mm8epCluVTzm96xbkBt/hbT4zX4GXaK6oSTfL7b8SpS1Fx6kKW5VPOb3rFuQG3+FtPhkZEhK9fBXanRSrUlCOOhRJHn3OcJDlzigSE1xu1vSZh6kKW5VPOb3rFuQG3+FtPiaWa3qPCXckkn7ILQ4Y5XWHqQpblU85vesW5Abf4W0+K2hfd9TlQCF9s6KguV6Mm8epCluVTzm96xbkBt/hbT4zX4GXaK6oSTfL7b8SpS1Fx6kKW5VPOb3rFuQG3+FtPhkZEhK9fBXanRSrUlCOOhR6ae/a0dAd7mQ6+PohHvIu+mnv2tHQHe5kOvj6IR7yLu3sffnxZ9d83bpChCW0ePb",
+    "touchable": 112
+  }
+]

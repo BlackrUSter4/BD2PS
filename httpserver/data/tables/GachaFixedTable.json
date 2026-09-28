@@ -1,0 +1,5 @@
+[
+  { "g3EquipFixedCount": 10, "g4CostumeFixedCount": 10, "g4EquipFixedCount": 100, "g5CostumeFixedCount": 100, "id": 1, "isResetFixedCount": 1 },
+  { "g3EquipFixedCount": 10, "g4CostumeFixedCount": 10, "id": 5, "isResetFixedCount": 1 },
+  { "g3EquipFixedCount": 10, "g4CostumeFixedCount": 10, "g4EquipFixedCount": 100, "g5CostumeFixedCount": 100, "id": 8, "isResetFixedCount": 1 }
+]

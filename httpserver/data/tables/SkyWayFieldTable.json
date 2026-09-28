@@ -1,0 +1,3 @@
+[
+  { "apType": 2, "battlePower": 2050, "bossAp": 1, "bossId": 4005, "descLocalTextId": 30140002, "displayRewardCount": [ 1 ], "displayRewardId": [ 111 ], "displayRewardType": [ 8 ], "groupId": 3, "iconSpriteName": "icon_crystal_fire_map", "id": 30, "mapId": 30022, "monsterAp": [ 1, 1, 1, 1, 1 ], "monsterId": [ 4001, 4002, 4003, 4004, 4006 ], "nameLocalTextId": 30040009, "pointPositionId": 3, "positionGroup": 3, "worldMapPinId": 30042 }
+]

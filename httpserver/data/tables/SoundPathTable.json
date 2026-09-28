@@ -1,0 +1,5 @@
+[
+  { "buttonName": "Button_Click", "id": 1, "soundFilePath": "UI_Button_Click" },
+  { "buttonName": "Button_Cancel", "id": 2, "soundFilePath": "UI_Button_Cancel" },
+  { "buttonName": "Cursor_Click", "id": 5, "soundFilePath": "UI_Cursor_Click" }
+]

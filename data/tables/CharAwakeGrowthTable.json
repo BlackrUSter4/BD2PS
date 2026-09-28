@@ -1,0 +1,3962 @@
+[
+  {
+    "growthItemCount": [
+      6,
+      1,
+      12000
+    ],
+    "growthItemId": [
+      701,
+      702,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 1,
+    "statType": 1,
+    "statValue": 5.0
+  },
+  {
+    "growthItemCount": [
+      6,
+      2,
+      18000
+    ],
+    "growthItemId": [
+      701,
+      702,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 2,
+    "statType": 1,
+    "statValue": 10.0
+  },
+  {
+    "growthItemCount": [
+      12,
+      3,
+      30000
+    ],
+    "growthItemId": [
+      701,
+      702,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 3,
+    "statType": 1,
+    "statValue": 20.0
+  },
+  {
+    "growthItemCount": [
+      12,
+      3,
+      30000
+    ],
+    "growthItemId": [
+      701,
+      702,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 4,
+    "statType": 1,
+    "statValue": 30.0
+  },
+  {
+    "growthItemCount": [
+      18,
+      6,
+      60000
+    ],
+    "growthItemId": [
+      701,
+      702,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 5,
+    "statType": 1,
+    "statValue": 45.0
+  },
+  {
+    "growthItemCount": [
+      18,
+      6,
+      60000
+    ],
+    "growthItemId": [
+      701,
+      702,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 6,
+    "statType": 1,
+    "statValue": 60.0
+  },
+  {
+    "growthItemCount": [
+      30,
+      9,
+      90000
+    ],
+    "growthItemId": [
+      701,
+      702,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 7,
+    "statType": 1,
+    "statValue": 75.0
+  },
+  {
+    "growthItemCount": [
+      30,
+      9,
+      90000
+    ],
+    "growthItemId": [
+      701,
+      702,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 8,
+    "statType": 1,
+    "statValue": 97.0
+  },
+  {
+    "growthItemCount": [
+      30,
+      9,
+      90000
+    ],
+    "growthItemId": [
+      701,
+      702,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 9,
+    "statType": 1,
+    "statValue": 119.0
+  },
+  {
+    "growthItemCount": [
+      60,
+      12,
+      120000
+    ],
+    "growthItemId": [
+      701,
+      702,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 10,
+    "statType": 1,
+    "statValue": 146.0
+  },
+  {
+    "growthItemCount": [
+      8,
+      2,
+      16000
+    ],
+    "growthItemId": [
+      701,
+      702,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 11,
+    "statType": 1,
+    "statValue": 7.0
+  },
+  {
+    "growthItemCount": [
+      8,
+      2,
+      24000
+    ],
+    "growthItemId": [
+      701,
+      702,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 12,
+    "statType": 1,
+    "statValue": 14.0
+  },
+  {
+    "growthItemCount": [
+      16,
+      4,
+      40000
+    ],
+    "growthItemId": [
+      701,
+      702,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 13,
+    "statType": 1,
+    "statValue": 29.0
+  },
+  {
+    "growthItemCount": [
+      16,
+      4,
+      40000
+    ],
+    "growthItemId": [
+      701,
+      702,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 14,
+    "statType": 1,
+    "statValue": 44.0
+  },
+  {
+    "growthItemCount": [
+      24,
+      8,
+      80000
+    ],
+    "growthItemId": [
+      701,
+      702,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 15,
+    "statType": 1,
+    "statValue": 66.0
+  },
+  {
+    "growthItemCount": [
+      24,
+      8,
+      80000
+    ],
+    "growthItemId": [
+      701,
+      702,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 16,
+    "statType": 1,
+    "statValue": 88.0
+  },
+  {
+    "growthItemCount": [
+      40,
+      12,
+      120000
+    ],
+    "growthItemId": [
+      701,
+      702,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 17,
+    "statType": 1,
+    "statValue": 114.0
+  },
+  {
+    "growthItemCount": [
+      40,
+      12,
+      120000
+    ],
+    "growthItemId": [
+      701,
+      702,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 18,
+    "statType": 1,
+    "statValue": 140.0
+  },
+  {
+    "growthItemCount": [
+      40,
+      12,
+      120000
+    ],
+    "growthItemId": [
+      701,
+      702,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 19,
+    "statType": 1,
+    "statValue": 166.0
+  },
+  {
+    "growthItemCount": [
+      80,
+      16,
+      160000
+    ],
+    "growthItemId": [
+      701,
+      702,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 20,
+    "statType": 1,
+    "statValue": 195.0
+  },
+  {
+    "growthItemCount": [
+      10,
+      2,
+      20000
+    ],
+    "growthItemId": [
+      701,
+      702,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 21,
+    "statType": 1,
+    "statValue": 9.0
+  },
+  {
+    "growthItemCount": [
+      10,
+      3,
+      30000
+    ],
+    "growthItemId": [
+      701,
+      702,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 22,
+    "statType": 1,
+    "statValue": 18.0
+  },
+  {
+    "growthItemCount": [
+      20,
+      5,
+      50000
+    ],
+    "growthItemId": [
+      701,
+      702,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 23,
+    "statType": 1,
+    "statValue": 36.0
+  },
+  {
+    "growthItemCount": [
+      20,
+      5,
+      50000
+    ],
+    "growthItemId": [
+      701,
+      702,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 24,
+    "statType": 1,
+    "statValue": 54.0
+  },
+  {
+    "growthItemCount": [
+      30,
+      10,
+      100000
+    ],
+    "growthItemId": [
+      701,
+      702,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 25,
+    "statType": 1,
+    "statValue": 81.0
+  },
+  {
+    "growthItemCount": [
+      30,
+      10,
+      100000
+    ],
+    "growthItemId": [
+      701,
+      702,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 26,
+    "statType": 1,
+    "statValue": 108.0
+  },
+  {
+    "growthItemCount": [
+      50,
+      15,
+      150000
+    ],
+    "growthItemId": [
+      701,
+      702,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 27,
+    "statType": 1,
+    "statValue": 141.0
+  },
+  {
+    "growthItemCount": [
+      50,
+      15,
+      150000
+    ],
+    "growthItemId": [
+      701,
+      702,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 28,
+    "statType": 1,
+    "statValue": 174.0
+  },
+  {
+    "growthItemCount": [
+      50,
+      15,
+      150000
+    ],
+    "growthItemId": [
+      701,
+      702,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 29,
+    "statType": 1,
+    "statValue": 207.0
+  },
+  {
+    "growthItemCount": [
+      100,
+      20,
+      200000
+    ],
+    "growthItemId": [
+      701,
+      702,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 30,
+    "statType": 1,
+    "statValue": 243.0
+  },
+  {
+    "growthItemCount": [
+      6,
+      1,
+      12000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 61,
+    "statType": 3,
+    "statValue": 1.0
+  },
+  {
+    "growthItemCount": [
+      6,
+      2,
+      18000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 62,
+    "statType": 3,
+    "statValue": 2.0
+  },
+  {
+    "growthItemCount": [
+      12,
+      3,
+      30000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 63,
+    "statType": 3,
+    "statValue": 3.0
+  },
+  {
+    "growthItemCount": [
+      12,
+      3,
+      30000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 64,
+    "statType": 3,
+    "statValue": 4.0
+  },
+  {
+    "growthItemCount": [
+      18,
+      6,
+      60000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 65,
+    "statType": 3,
+    "statValue": 6.0
+  },
+  {
+    "growthItemCount": [
+      18,
+      6,
+      60000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 66,
+    "statType": 3,
+    "statValue": 8.0
+  },
+  {
+    "growthItemCount": [
+      30,
+      9,
+      90000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 67,
+    "statType": 3,
+    "statValue": 10.0
+  },
+  {
+    "growthItemCount": [
+      30,
+      9,
+      90000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 68,
+    "statType": 3,
+    "statValue": 13.0
+  },
+  {
+    "growthItemCount": [
+      30,
+      9,
+      90000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 69,
+    "statType": 3,
+    "statValue": 16.0
+  },
+  {
+    "growthItemCount": [
+      60,
+      12,
+      120000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 70,
+    "statType": 3,
+    "statValue": 20.0
+  },
+  {
+    "growthItemCount": [
+      8,
+      2,
+      16000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 71,
+    "statType": 3,
+    "statValue": 1.0
+  },
+  {
+    "growthItemCount": [
+      8,
+      2,
+      24000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 72,
+    "statType": 3,
+    "statValue": 2.0
+  },
+  {
+    "growthItemCount": [
+      16,
+      4,
+      40000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 73,
+    "statType": 3,
+    "statValue": 4.0
+  },
+  {
+    "growthItemCount": [
+      16,
+      4,
+      40000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 74,
+    "statType": 3,
+    "statValue": 6.0
+  },
+  {
+    "growthItemCount": [
+      24,
+      8,
+      80000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 75,
+    "statType": 3,
+    "statValue": 9.0
+  },
+  {
+    "growthItemCount": [
+      24,
+      8,
+      80000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 76,
+    "statType": 3,
+    "statValue": 12.0
+  },
+  {
+    "growthItemCount": [
+      40,
+      12,
+      120000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 77,
+    "statType": 3,
+    "statValue": 15.0
+  },
+  {
+    "growthItemCount": [
+      40,
+      12,
+      120000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 78,
+    "statType": 3,
+    "statValue": 19.0
+  },
+  {
+    "growthItemCount": [
+      40,
+      12,
+      120000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 79,
+    "statType": 3,
+    "statValue": 23.0
+  },
+  {
+    "growthItemCount": [
+      80,
+      16,
+      160000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 80,
+    "statType": 3,
+    "statValue": 27.0
+  },
+  {
+    "growthItemCount": [
+      10,
+      2,
+      20000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 81,
+    "statType": 3,
+    "statValue": 1.0
+  },
+  {
+    "growthItemCount": [
+      10,
+      3,
+      30000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 82,
+    "statType": 3,
+    "statValue": 2.0
+  },
+  {
+    "growthItemCount": [
+      20,
+      5,
+      50000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 83,
+    "statType": 3,
+    "statValue": 4.0
+  },
+  {
+    "growthItemCount": [
+      20,
+      5,
+      50000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 84,
+    "statType": 3,
+    "statValue": 6.0
+  },
+  {
+    "growthItemCount": [
+      30,
+      10,
+      100000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 85,
+    "statType": 3,
+    "statValue": 9.0
+  },
+  {
+    "growthItemCount": [
+      30,
+      10,
+      100000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 86,
+    "statType": 3,
+    "statValue": 12.0
+  },
+  {
+    "growthItemCount": [
+      50,
+      15,
+      150000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 87,
+    "statType": 3,
+    "statValue": 16.0
+  },
+  {
+    "growthItemCount": [
+      50,
+      15,
+      150000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 88,
+    "statType": 3,
+    "statValue": 20.0
+  },
+  {
+    "growthItemCount": [
+      50,
+      15,
+      150000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 89,
+    "statType": 3,
+    "statValue": 24.0
+  },
+  {
+    "growthItemCount": [
+      100,
+      20,
+      200000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 90,
+    "statType": 3,
+    "statValue": 34.0
+  },
+  {
+    "growthItemCount": [
+      6,
+      1,
+      12000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 121,
+    "statType": 5,
+    "statValue": 1.0
+  },
+  {
+    "growthItemCount": [
+      6,
+      2,
+      18000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 122,
+    "statType": 5,
+    "statValue": 2.0
+  },
+  {
+    "growthItemCount": [
+      12,
+      3,
+      30000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 123,
+    "statType": 5,
+    "statValue": 3.0
+  },
+  {
+    "growthItemCount": [
+      12,
+      3,
+      30000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 124,
+    "statType": 5,
+    "statValue": 4.0
+  },
+  {
+    "growthItemCount": [
+      18,
+      6,
+      60000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 125,
+    "statType": 5,
+    "statValue": 6.0
+  },
+  {
+    "growthItemCount": [
+      18,
+      6,
+      60000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 126,
+    "statType": 5,
+    "statValue": 8.0
+  },
+  {
+    "growthItemCount": [
+      30,
+      9,
+      90000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 127,
+    "statType": 5,
+    "statValue": 10.0
+  },
+  {
+    "growthItemCount": [
+      30,
+      9,
+      90000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 128,
+    "statType": 5,
+    "statValue": 13.0
+  },
+  {
+    "growthItemCount": [
+      30,
+      9,
+      90000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 129,
+    "statType": 5,
+    "statValue": 16.0
+  },
+  {
+    "growthItemCount": [
+      60,
+      12,
+      120000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 130,
+    "statType": 5,
+    "statValue": 20.0
+  },
+  {
+    "growthItemCount": [
+      8,
+      2,
+      16000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 131,
+    "statType": 5,
+    "statValue": 1.0
+  },
+  {
+    "growthItemCount": [
+      8,
+      2,
+      24000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 132,
+    "statType": 5,
+    "statValue": 2.0
+  },
+  {
+    "growthItemCount": [
+      16,
+      4,
+      40000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 133,
+    "statType": 5,
+    "statValue": 4.0
+  },
+  {
+    "growthItemCount": [
+      16,
+      4,
+      40000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 134,
+    "statType": 5,
+    "statValue": 6.0
+  },
+  {
+    "growthItemCount": [
+      24,
+      8,
+      80000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 135,
+    "statType": 5,
+    "statValue": 9.0
+  },
+  {
+    "growthItemCount": [
+      24,
+      8,
+      80000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 136,
+    "statType": 5,
+    "statValue": 12.0
+  },
+  {
+    "growthItemCount": [
+      40,
+      12,
+      120000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 137,
+    "statType": 5,
+    "statValue": 15.0
+  },
+  {
+    "growthItemCount": [
+      40,
+      12,
+      120000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 138,
+    "statType": 5,
+    "statValue": 19.0
+  },
+  {
+    "growthItemCount": [
+      40,
+      12,
+      120000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 139,
+    "statType": 5,
+    "statValue": 23.0
+  },
+  {
+    "growthItemCount": [
+      80,
+      16,
+      160000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 140,
+    "statType": 5,
+    "statValue": 27.0
+  },
+  {
+    "growthItemCount": [
+      10,
+      2,
+      20000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 141,
+    "statType": 5,
+    "statValue": 1.0
+  },
+  {
+    "growthItemCount": [
+      10,
+      3,
+      30000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 142,
+    "statType": 5,
+    "statValue": 2.0
+  },
+  {
+    "growthItemCount": [
+      20,
+      5,
+      50000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 143,
+    "statType": 5,
+    "statValue": 4.0
+  },
+  {
+    "growthItemCount": [
+      20,
+      5,
+      50000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 144,
+    "statType": 5,
+    "statValue": 6.0
+  },
+  {
+    "growthItemCount": [
+      30,
+      10,
+      100000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 145,
+    "statType": 5,
+    "statValue": 9.0
+  },
+  {
+    "growthItemCount": [
+      30,
+      10,
+      100000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 146,
+    "statType": 5,
+    "statValue": 12.0
+  },
+  {
+    "growthItemCount": [
+      50,
+      15,
+      150000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 147,
+    "statType": 5,
+    "statValue": 16.0
+  },
+  {
+    "growthItemCount": [
+      50,
+      15,
+      150000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 148,
+    "statType": 5,
+    "statValue": 20.0
+  },
+  {
+    "growthItemCount": [
+      50,
+      15,
+      150000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 149,
+    "statType": 5,
+    "statValue": 24.0
+  },
+  {
+    "growthItemCount": [
+      100,
+      20,
+      200000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 150,
+    "statType": 5,
+    "statValue": 34.0
+  },
+  {
+    "growthItemCount": [
+      6,
+      1,
+      12000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 181,
+    "statType": 10,
+    "statValue": 0.01
+  },
+  {
+    "growthItemCount": [
+      6,
+      2,
+      18000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 182,
+    "statType": 10,
+    "statValue": 0.02
+  },
+  {
+    "growthItemCount": [
+      12,
+      3,
+      30000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 183,
+    "statType": 10,
+    "statValue": 0.04
+  },
+  {
+    "growthItemCount": [
+      12,
+      3,
+      30000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 184,
+    "statType": 10,
+    "statValue": 0.06
+  },
+  {
+    "growthItemCount": [
+      18,
+      6,
+      60000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 185,
+    "statType": 10,
+    "statValue": 0.09
+  },
+  {
+    "growthItemCount": [
+      18,
+      6,
+      60000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 186,
+    "statType": 10,
+    "statValue": 0.12
+  },
+  {
+    "growthItemCount": [
+      30,
+      9,
+      90000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 187,
+    "statType": 10,
+    "statValue": 0.15
+  },
+  {
+    "growthItemCount": [
+      30,
+      9,
+      90000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 188,
+    "statType": 10,
+    "statValue": 0.19
+  },
+  {
+    "growthItemCount": [
+      30,
+      9,
+      90000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 189,
+    "statType": 10,
+    "statValue": 0.23
+  },
+  {
+    "growthItemCount": [
+      60,
+      12,
+      120000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 190,
+    "statType": 10,
+    "statValue": 0.27
+  },
+  {
+    "growthItemCount": [
+      8,
+      2,
+      16000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 191,
+    "statType": 10,
+    "statValue": 0.01
+  },
+  {
+    "growthItemCount": [
+      8,
+      2,
+      24000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 192,
+    "statType": 10,
+    "statValue": 0.02
+  },
+  {
+    "growthItemCount": [
+      16,
+      4,
+      40000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 193,
+    "statType": 10,
+    "statValue": 0.05
+  },
+  {
+    "growthItemCount": [
+      16,
+      4,
+      40000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 194,
+    "statType": 10,
+    "statValue": 0.08
+  },
+  {
+    "growthItemCount": [
+      24,
+      8,
+      80000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 195,
+    "statType": 10,
+    "statValue": 0.12
+  },
+  {
+    "growthItemCount": [
+      24,
+      8,
+      80000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 196,
+    "statType": 10,
+    "statValue": 0.16
+  },
+  {
+    "growthItemCount": [
+      40,
+      12,
+      120000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 197,
+    "statType": 10,
+    "statValue": 0.2
+  },
+  {
+    "growthItemCount": [
+      40,
+      12,
+      120000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 198,
+    "statType": 10,
+    "statValue": 0.25
+  },
+  {
+    "growthItemCount": [
+      40,
+      12,
+      120000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 199,
+    "statType": 10,
+    "statValue": 0.3
+  },
+  {
+    "growthItemCount": [
+      80,
+      16,
+      160000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 200,
+    "statType": 10,
+    "statValue": 0.36
+  },
+  {
+    "growthItemCount": [
+      10,
+      2,
+      20000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 201,
+    "statType": 10,
+    "statValue": 0.015
+  },
+  {
+    "growthItemCount": [
+      10,
+      3,
+      30000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 202,
+    "statType": 10,
+    "statValue": 0.03
+  },
+  {
+    "growthItemCount": [
+      20,
+      5,
+      50000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 203,
+    "statType": 10,
+    "statValue": 0.06
+  },
+  {
+    "growthItemCount": [
+      20,
+      5,
+      50000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 204,
+    "statType": 10,
+    "statValue": 0.09
+  },
+  {
+    "growthItemCount": [
+      30,
+      10,
+      100000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 205,
+    "statType": 10,
+    "statValue": 0.13
+  },
+  {
+    "growthItemCount": [
+      30,
+      10,
+      100000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 206,
+    "statType": 10,
+    "statValue": 0.18
+  },
+  {
+    "growthItemCount": [
+      50,
+      15,
+      150000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 207,
+    "statType": 10,
+    "statValue": 0.23
+  },
+  {
+    "growthItemCount": [
+      50,
+      15,
+      150000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 208,
+    "statType": 10,
+    "statValue": 0.29
+  },
+  {
+    "growthItemCount": [
+      50,
+      15,
+      150000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 209,
+    "statType": 10,
+    "statValue": 0.34
+  },
+  {
+    "growthItemCount": [
+      100,
+      20,
+      200000
+    ],
+    "growthItemId": [
+      701,
+      703,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 210,
+    "statType": 10,
+    "statValue": 0.45
+  },
+  {
+    "growthItemCount": [
+      6,
+      1,
+      12000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 211,
+    "statType": 7,
+    "statValue": 0.002
+  },
+  {
+    "growthItemCount": [
+      6,
+      2,
+      18000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 212,
+    "statType": 7,
+    "statValue": 0.004
+  },
+  {
+    "growthItemCount": [
+      12,
+      3,
+      30000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 213,
+    "statType": 7,
+    "statValue": 0.008
+  },
+  {
+    "growthItemCount": [
+      12,
+      3,
+      30000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 214,
+    "statType": 7,
+    "statValue": 0.012
+  },
+  {
+    "growthItemCount": [
+      18,
+      6,
+      60000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 215,
+    "statType": 7,
+    "statValue": 0.017
+  },
+  {
+    "growthItemCount": [
+      18,
+      6,
+      60000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 216,
+    "statType": 7,
+    "statValue": 0.022
+  },
+  {
+    "growthItemCount": [
+      30,
+      9,
+      90000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 217,
+    "statType": 7,
+    "statValue": 0.027
+  },
+  {
+    "growthItemCount": [
+      30,
+      9,
+      90000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 218,
+    "statType": 7,
+    "statValue": 0.034
+  },
+  {
+    "growthItemCount": [
+      30,
+      9,
+      90000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 219,
+    "statType": 7,
+    "statValue": 0.041
+  },
+  {
+    "growthItemCount": [
+      60,
+      12,
+      120000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 220,
+    "statType": 7,
+    "statValue": 0.05
+  },
+  {
+    "growthItemCount": [
+      8,
+      2,
+      16000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 221,
+    "statType": 7,
+    "statValue": 0.003
+  },
+  {
+    "growthItemCount": [
+      8,
+      2,
+      24000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 222,
+    "statType": 7,
+    "statValue": 0.006
+  },
+  {
+    "growthItemCount": [
+      16,
+      4,
+      40000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 223,
+    "statType": 7,
+    "statValue": 0.01
+  },
+  {
+    "growthItemCount": [
+      16,
+      4,
+      40000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 224,
+    "statType": 7,
+    "statValue": 0.014
+  },
+  {
+    "growthItemCount": [
+      24,
+      8,
+      80000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 225,
+    "statType": 7,
+    "statValue": 0.021
+  },
+  {
+    "growthItemCount": [
+      24,
+      8,
+      80000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 226,
+    "statType": 7,
+    "statValue": 0.028
+  },
+  {
+    "growthItemCount": [
+      40,
+      12,
+      120000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 227,
+    "statType": 7,
+    "statValue": 0.035
+  },
+  {
+    "growthItemCount": [
+      40,
+      12,
+      120000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 228,
+    "statType": 7,
+    "statValue": 0.043
+  },
+  {
+    "growthItemCount": [
+      40,
+      12,
+      120000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 229,
+    "statType": 7,
+    "statValue": 0.051
+  },
+  {
+    "growthItemCount": [
+      80,
+      16,
+      160000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 230,
+    "statType": 7,
+    "statValue": 0.06
+  },
+  {
+    "growthItemCount": [
+      10,
+      2,
+      20000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 231,
+    "statType": 7,
+    "statValue": 0.003
+  },
+  {
+    "growthItemCount": [
+      10,
+      3,
+      30000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 232,
+    "statType": 7,
+    "statValue": 0.006
+  },
+  {
+    "growthItemCount": [
+      20,
+      5,
+      50000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 233,
+    "statType": 7,
+    "statValue": 0.012
+  },
+  {
+    "growthItemCount": [
+      20,
+      5,
+      50000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 234,
+    "statType": 7,
+    "statValue": 0.018
+  },
+  {
+    "growthItemCount": [
+      30,
+      10,
+      100000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 235,
+    "statType": 7,
+    "statValue": 0.026
+  },
+  {
+    "growthItemCount": [
+      30,
+      10,
+      100000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 236,
+    "statType": 7,
+    "statValue": 0.035
+  },
+  {
+    "growthItemCount": [
+      50,
+      15,
+      150000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 237,
+    "statType": 7,
+    "statValue": 0.046
+  },
+  {
+    "growthItemCount": [
+      50,
+      15,
+      150000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 238,
+    "statType": 7,
+    "statValue": 0.057
+  },
+  {
+    "growthItemCount": [
+      50,
+      15,
+      150000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 239,
+    "statType": 7,
+    "statValue": 0.068
+  },
+  {
+    "growthItemCount": [
+      100,
+      20,
+      200000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 240,
+    "statType": 7,
+    "statValue": 0.08
+  },
+  {
+    "growthItemCount": [
+      6,
+      1,
+      12000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 271,
+    "statType": 8,
+    "statValue": 0.002
+  },
+  {
+    "growthItemCount": [
+      6,
+      2,
+      18000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 272,
+    "statType": 8,
+    "statValue": 0.004
+  },
+  {
+    "growthItemCount": [
+      12,
+      3,
+      30000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 273,
+    "statType": 8,
+    "statValue": 0.008
+  },
+  {
+    "growthItemCount": [
+      12,
+      3,
+      30000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 274,
+    "statType": 8,
+    "statValue": 0.012
+  },
+  {
+    "growthItemCount": [
+      18,
+      6,
+      60000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 275,
+    "statType": 8,
+    "statValue": 0.017
+  },
+  {
+    "growthItemCount": [
+      18,
+      6,
+      60000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 276,
+    "statType": 8,
+    "statValue": 0.022
+  },
+  {
+    "growthItemCount": [
+      30,
+      9,
+      90000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 277,
+    "statType": 8,
+    "statValue": 0.027
+  },
+  {
+    "growthItemCount": [
+      30,
+      9,
+      90000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 278,
+    "statType": 8,
+    "statValue": 0.034
+  },
+  {
+    "growthItemCount": [
+      30,
+      9,
+      90000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 279,
+    "statType": 8,
+    "statValue": 0.041
+  },
+  {
+    "growthItemCount": [
+      60,
+      12,
+      120000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 280,
+    "statType": 8,
+    "statValue": 0.05
+  },
+  {
+    "growthItemCount": [
+      8,
+      2,
+      16000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 281,
+    "statType": 8,
+    "statValue": 0.003
+  },
+  {
+    "growthItemCount": [
+      8,
+      2,
+      24000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 282,
+    "statType": 8,
+    "statValue": 0.006
+  },
+  {
+    "growthItemCount": [
+      16,
+      4,
+      40000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 283,
+    "statType": 8,
+    "statValue": 0.01
+  },
+  {
+    "growthItemCount": [
+      16,
+      4,
+      40000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 284,
+    "statType": 8,
+    "statValue": 0.014
+  },
+  {
+    "growthItemCount": [
+      24,
+      8,
+      80000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 285,
+    "statType": 8,
+    "statValue": 0.021
+  },
+  {
+    "growthItemCount": [
+      24,
+      8,
+      80000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 286,
+    "statType": 8,
+    "statValue": 0.028
+  },
+  {
+    "growthItemCount": [
+      40,
+      12,
+      120000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 287,
+    "statType": 8,
+    "statValue": 0.035
+  },
+  {
+    "growthItemCount": [
+      40,
+      12,
+      120000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 288,
+    "statType": 8,
+    "statValue": 0.043
+  },
+  {
+    "growthItemCount": [
+      40,
+      12,
+      120000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 289,
+    "statType": 8,
+    "statValue": 0.051
+  },
+  {
+    "growthItemCount": [
+      80,
+      16,
+      160000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 290,
+    "statType": 8,
+    "statValue": 0.06
+  },
+  {
+    "growthItemCount": [
+      10,
+      2,
+      20000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 291,
+    "statType": 8,
+    "statValue": 0.003
+  },
+  {
+    "growthItemCount": [
+      10,
+      3,
+      30000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 292,
+    "statType": 8,
+    "statValue": 0.006
+  },
+  {
+    "growthItemCount": [
+      20,
+      5,
+      50000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 293,
+    "statType": 8,
+    "statValue": 0.012
+  },
+  {
+    "growthItemCount": [
+      20,
+      5,
+      50000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 294,
+    "statType": 8,
+    "statValue": 0.018
+  },
+  {
+    "growthItemCount": [
+      30,
+      10,
+      100000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 295,
+    "statType": 8,
+    "statValue": 0.026
+  },
+  {
+    "growthItemCount": [
+      30,
+      10,
+      100000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 296,
+    "statType": 8,
+    "statValue": 0.035
+  },
+  {
+    "growthItemCount": [
+      50,
+      15,
+      150000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 297,
+    "statType": 8,
+    "statValue": 0.046
+  },
+  {
+    "growthItemCount": [
+      50,
+      15,
+      150000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 298,
+    "statType": 8,
+    "statValue": 0.057
+  },
+  {
+    "growthItemCount": [
+      50,
+      15,
+      150000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 299,
+    "statType": 8,
+    "statValue": 0.068
+  },
+  {
+    "growthItemCount": [
+      100,
+      20,
+      200000
+    ],
+    "growthItemId": [
+      701,
+      704,
+      0
+    ],
+    "growthItemType": [
+      8,
+      8,
+      4
+    ],
+    "id": 300,
+    "statType": 8,
+    "statValue": 0.08
+  },
+  {
+    "growthItemCount": [
+      200,
+      500000
+    ],
+    "growthItemId": [
+      705,
+      0
+    ],
+    "growthItemType": [
+      8,
+      4
+    ],
+    "id": 331,
+    "statType": 4,
+    "statValue": 0.12
+  },
+  {
+    "growthItemCount": [
+      200,
+      500000
+    ],
+    "growthItemId": [
+      705,
+      0
+    ],
+    "growthItemType": [
+      8,
+      4
+    ],
+    "id": 332,
+    "statType": 6,
+    "statValue": 0.12
+  },
+  {
+    "id": 333,
+    "statType": 9,
+    "statValue": 0.04
+  },
+  {
+    "growthItemCount": [
+      200,
+      500000
+    ],
+    "growthItemId": [
+      705,
+      0
+    ],
+    "growthItemType": [
+      8,
+      4
+    ],
+    "id": 334,
+    "statType": 10,
+    "statValue": 0.24
+  },
+  {
+    "id": 335,
+    "statType": 11,
+    "statValue": 0.1
+  },
+  {
+    "id": 336,
+    "statType": 12,
+    "statValue": 0.1
+  },
+  {
+    "id": 337,
+    "statType": 13,
+    "statValue": 0.1
+  },
+  {
+    "id": 338,
+    "statType": 14,
+    "statValue": 0.1
+  },
+  {
+    "id": 339,
+    "statType": 15,
+    "statValue": 0.1
+  },
+  {
+    "id": 340,
+    "statType": 2,
+    "statValue": 0.14
+  },
+  {
+    "growthItemCount": [
+      200,
+      500000
+    ],
+    "growthItemId": [
+      705,
+      0
+    ],
+    "growthItemType": [
+      8,
+      4
+    ],
+    "id": 341,
+    "statType": 7,
+    "statValue": 0.04
+  },
+  {
+    "growthItemCount": [
+      200,
+      500000
+    ],
+    "growthItemId": [
+      705,
+      0
+    ],
+    "growthItemType": [
+      8,
+      4
+    ],
+    "id": 342,
+    "statType": 8,
+    "statValue": 0.04
+  },
+  {
+    "growthItemCount": [
+      160,
+      400000
+    ],
+    "growthItemId": [
+      705,
+      0
+    ],
+    "growthItemType": [
+      8,
+      4
+    ],
+    "id": 351,
+    "statType": 4,
+    "statValue": 0.1
+  },
+  {
+    "growthItemCount": [
+      160,
+      400000
+    ],
+    "growthItemId": [
+      705,
+      0
+    ],
+    "growthItemType": [
+      8,
+      4
+    ],
+    "id": 352,
+    "statType": 6,
+    "statValue": 0.1
+  },
+  {
+    "id": 353,
+    "statType": 9,
+    "statValue": 0.03
+  },
+  {
+    "growthItemCount": [
+      160,
+      400000
+    ],
+    "growthItemId": [
+      705,
+      0
+    ],
+    "growthItemType": [
+      8,
+      4
+    ],
+    "id": 354,
+    "statType": 10,
+    "statValue": 0.2
+  },
+  {
+    "id": 355,
+    "statType": 11,
+    "statValue": 0.08
+  },
+  {
+    "id": 356,
+    "statType": 12,
+    "statValue": 0.08
+  },
+  {
+    "id": 357,
+    "statType": 13,
+    "statValue": 0.08
+  },
+  {
+    "id": 358,
+    "statType": 14,
+    "statValue": 0.08
+  },
+  {
+    "id": 359,
+    "statType": 15,
+    "statValue": 0.08
+  },
+  {
+    "id": 360,
+    "statType": 2,
+    "statValue": 0.11
+  },
+  {
+    "growthItemCount": [
+      160,
+      400000
+    ],
+    "growthItemId": [
+      705,
+      0
+    ],
+    "growthItemType": [
+      8,
+      4
+    ],
+    "id": 361,
+    "statType": 7,
+    "statValue": 0.03
+  },
+  {
+    "growthItemCount": [
+      160,
+      400000
+    ],
+    "growthItemId": [
+      705,
+      0
+    ],
+    "growthItemType": [
+      8,
+      4
+    ],
+    "id": 362,
+    "statType": 8,
+    "statValue": 0.03
+  },
+  {
+    "growthItemCount": [
+      120,
+      300000
+    ],
+    "growthItemId": [
+      705,
+      0
+    ],
+    "growthItemType": [
+      8,
+      4
+    ],
+    "id": 371,
+    "statType": 4,
+    "statValue": 0.07
+  },
+  {
+    "growthItemCount": [
+      120,
+      300000
+    ],
+    "growthItemId": [
+      705,
+      0
+    ],
+    "growthItemType": [
+      8,
+      4
+    ],
+    "id": 372,
+    "statType": 6,
+    "statValue": 0.07
+  },
+  {
+    "id": 373,
+    "statType": 9,
+    "statValue": 0.02
+  },
+  {
+    "growthItemCount": [
+      120,
+      300000
+    ],
+    "growthItemId": [
+      705,
+      0
+    ],
+    "growthItemType": [
+      8,
+      4
+    ],
+    "id": 374,
+    "statType": 10,
+    "statValue": 0.17
+  },
+  {
+    "id": 375,
+    "statType": 11,
+    "statValue": 0.06
+  },
+  {
+    "id": 376,
+    "statType": 12,
+    "statValue": 0.06
+  },
+  {
+    "id": 377,
+    "statType": 13,
+    "statValue": 0.06
+  },
+  {
+    "id": 378,
+    "statType": 14,
+    "statValue": 0.06
+  },
+  {
+    "id": 379,
+    "statType": 15,
+    "statValue": 0.06
+  },
+  {
+    "id": 380,
+    "statType": 2,
+    "statValue": 0.08
+  },
+  {
+    "growthItemCount": [
+      120,
+      300000
+    ],
+    "growthItemId": [
+      705,
+      0
+    ],
+    "growthItemType": [
+      8,
+      4
+    ],
+    "id": 381,
+    "statType": 7,
+    "statValue": 0.02
+  },
+  {
+    "growthItemCount": [
+      120,
+      300000
+    ],
+    "growthItemId": [
+      705,
+      0
+    ],
+    "growthItemType": [
+      8,
+      4
+    ],
+    "id": 382,
+    "statType": 8,
+    "statValue": 0.02
+  }
+]

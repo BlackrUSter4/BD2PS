@@ -1,0 +1,329 @@
+{
+  "monsterHuntScheduleInfo": [
+    {
+      "seasonInfo": {
+        "season": 51,
+        "startTime": 1761782400000,
+        "endTime": 1762354799000,
+        "errorFlag": false,
+        "returnFlag": false,
+        "rankRewardGroupId": 1
+      },
+      "monsterHuntId": 50,
+      "infoOpenDay": 7,
+      "calculateEndDate": 1762387199000,
+      "errorFlag": false,
+      "independentFlag": false,
+      "rankRewardGroupId": 1
+    }
+  ],
+  "seasonHistory": [
+    {
+      "season": 1,
+      "monsterHuntId": 1,
+      "errorFlag": false,
+      "hidden": false
+    },
+    {
+      "season": 2,
+      "monsterHuntId": 2,
+      "errorFlag": false,
+      "hidden": false
+    },
+    {
+      "season": 3,
+      "monsterHuntId": 3,
+      "errorFlag": false,
+      "hidden": false
+    },
+    {
+      "season": 4,
+      "monsterHuntId": 4,
+      "errorFlag": false,
+      "hidden": false
+    },
+    {
+      "season": 5,
+      "monsterHuntId": 5,
+      "errorFlag": false,
+      "hidden": false
+    },
+    {
+      "season": 6,
+      "monsterHuntId": 6,
+      "errorFlag": false,
+      "hidden": false
+    },
+    {
+      "season": 7,
+      "monsterHuntId": 7,
+      "errorFlag": false,
+      "hidden": false
+    },
+    {
+      "season": 8,
+      "monsterHuntId": 8,
+      "errorFlag": false,
+      "hidden": false
+    },
+    {
+      "season": 9,
+      "monsterHuntId": 9,
+      "errorFlag": false,
+      "hidden": false
+    },
+    {
+      "season": 10,
+      "monsterHuntId": 10,
+      "errorFlag": false,
+      "hidden": false
+    },
+    {
+      "season": 11,
+      "monsterHuntId": 11,
+      "errorFlag": false,
+      "hidden": false
+    },
+    {
+      "season": 12,
+      "monsterHuntId": 12,
+      "errorFlag": false,
+      "hidden": false
+    },
+    {
+      "season": 13,
+      "monsterHuntId": 13,
+      "errorFlag": false,
+      "hidden": false
+    },
+    {
+      "season": 14,
+      "monsterHuntId": 14,
+      "errorFlag": false,
+      "hidden": true
+    },
+    {
+      "season": 15,
+      "monsterHuntId": 15,
+      "errorFlag": false,
+      "hidden": false
+    },
+    {
+      "season": 16,
+      "monsterHuntId": 16,
+      "errorFlag": false,
+      "hidden": false
+    },
+    {
+      "season": 17,
+      "monsterHuntId": 17,
+      "errorFlag": false,
+      "hidden": false
+    },
+    {
+      "season": 18,
+      "monsterHuntId": 18,
+      "errorFlag": false,
+      "hidden": false
+    },
+    {
+      "season": 19,
+      "monsterHuntId": 19,
+      "errorFlag": false,
+      "hidden": true
+    },
+    {
+      "season": 20,
+      "monsterHuntId": 20,
+      "errorFlag": false,
+      "hidden": false
+    },
+    {
+      "season": 21,
+      "monsterHuntId": 21,
+      "errorFlag": false,
+      "hidden": false
+    },
+    {
+      "season": 22,
+      "monsterHuntId": 14,
+      "errorFlag": false,
+      "hidden": false
+    },
+    {
+      "season": 23,
+      "monsterHuntId": 23,
+      "errorFlag": false,
+      "hidden": false
+    },
+    {
+      "season": 24,
+      "monsterHuntId": 24,
+      "errorFlag": false,
+      "hidden": false
+    },
+    {
+      "season": 25,
+      "monsterHuntId": 25,
+      "errorFlag": false,
+      "hidden": false
+    },
+    {
+      "season": 26,
+      "monsterHuntId": 19,
+      "errorFlag": false,
+      "hidden": false
+    },
+    {
+      "season": 27,
+      "monsterHuntId": 26,
+      "errorFlag": false,
+      "hidden": false
+    },
+    {
+      "season": 28,
+      "monsterHuntId": 27,
+      "errorFlag": false,
+      "hidden": false
+    },
+    {
+      "season": 29,
+      "monsterHuntId": 28,
+      "errorFlag": false,
+      "hidden": false
+    },
+    {
+      "season": 30,
+      "monsterHuntId": 29,
+      "errorFlag": false,
+      "hidden": false
+    },
+    {
+      "season": 31,
+      "monsterHuntId": 30,
+      "errorFlag": false,
+      "hidden": false
+    },
+    {
+      "season": 32,
+      "monsterHuntId": 31,
+      "errorFlag": false,
+      "hidden": false
+    },
+    {
+      "season": 33,
+      "monsterHuntId": 32,
+      "errorFlag": false,
+      "hidden": false
+    },
+    {
+      "season": 34,
+      "monsterHuntId": 33,
+      "errorFlag": false,
+      "hidden": false
+    },
+    {
+      "season": 35,
+      "monsterHuntId": 34,
+      "errorFlag": false,
+      "hidden": false
+    },
+    {
+      "season": 36,
+      "monsterHuntId": 35,
+      "errorFlag": false,
+      "hidden": false
+    },
+    {
+      "season": 37,
+      "monsterHuntId": 36,
+      "errorFlag": false,
+      "hidden": false
+    },
+    {
+      "season": 38,
+      "monsterHuntId": 37,
+      "errorFlag": false,
+      "hidden": false
+    },
+    {
+      "season": 39,
+      "monsterHuntId": 38,
+      "errorFlag": false,
+      "hidden": false
+    },
+    {
+      "season": 40,
+      "monsterHuntId": 39,
+      "errorFlag": false,
+      "hidden": false
+    },
+    {
+      "season": 41,
+      "monsterHuntId": 40,
+      "errorFlag": false,
+      "hidden": false
+    },
+    {
+      "season": 42,
+      "monsterHuntId": 41,
+      "errorFlag": false,
+      "hidden": false
+    },
+    {
+      "season": 43,
+      "monsterHuntId": 42,
+      "errorFlag": false,
+      "hidden": false
+    },
+    {
+      "season": 44,
+      "monsterHuntId": 43,
+      "errorFlag": false,
+      "hidden": false
+    },
+    {
+      "season": 45,
+      "monsterHuntId": 44,
+      "errorFlag": false,
+      "hidden": false
+    },
+    {
+      "season": 46,
+      "monsterHuntId": 45,
+      "errorFlag": false,
+      "hidden": false
+    },
+    {
+      "season": 47,
+      "monsterHuntId": 46,
+      "errorFlag": false,
+      "hidden": false
+    },
+    {
+      "season": 48,
+      "monsterHuntId": 47,
+      "errorFlag": false,
+      "hidden": false
+    },
+    {
+      "season": 49,
+      "monsterHuntId": 48,
+      "errorFlag": false,
+      "hidden": false
+    },
+    {
+      "season": 50,
+      "monsterHuntId": 49,
+      "errorFlag": false,
+      "hidden": false
+    },
+    {
+      "season": 51,
+      "monsterHuntId": 50,
+      "errorFlag": false,
+      "hidden": false
+    }
+  ],
+  "startRegularSeason": 5
+}

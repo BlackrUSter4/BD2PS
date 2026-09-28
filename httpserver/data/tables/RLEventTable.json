@@ -1,0 +1,3430 @@
+[
+  {
+    "choice1EffectId": [
+      101001,
+      101101
+    ],
+    "choice1FailEffectId": [
+      0,
+      101111
+    ],
+    "choice2EffectId": [
+      0,
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623101,
+      1626101
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      1628101
+    ],
+    "choiceResultNameTextId": [
+      1624101,
+      1627101
+    ],
+    "choiceType": [
+      1,
+      2
+    ],
+    "eventDescNameTextId": 1621101,
+    "eventNameTextId": 1620101,
+    "eventSuccessRate": [
+      100,
+      60
+    ],
+    "groupId": 23,
+    "id": 1
+  },
+  {
+    "choice1EffectId": [
+      102001,
+      102101
+    ],
+    "choice1FailEffectId": [
+      0,
+      0
+    ],
+    "choice2EffectId": [
+      0,
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623102,
+      1626102
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      0
+    ],
+    "choiceResultNameTextId": [
+      1624102,
+      1627102
+    ],
+    "choiceType": [
+      1,
+      1
+    ],
+    "eventDescNameTextId": 1621102,
+    "eventNameTextId": 1620102,
+    "eventSuccessRate": [
+      100,
+      100
+    ],
+    "exitChoiceSwitch": 1,
+    "exitDescNameTextId": 1622001,
+    "groupId": 12,
+    "id": 1
+  },
+  {
+    "choice1EffectId": [
+      103001,
+      103101
+    ],
+    "choice1FailEffectId": [
+      0,
+      0
+    ],
+    "choice2EffectId": [
+      0,
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623103,
+      1626103
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      0
+    ],
+    "choiceResultNameTextId": [
+      1624103,
+      1627103
+    ],
+    "choiceType": [
+      1,
+      1
+    ],
+    "eventDescNameTextId": 1621103,
+    "eventNameTextId": 1620103,
+    "eventSuccessRate": [
+      100,
+      100
+    ],
+    "groupId": 123,
+    "id": 1
+  },
+  {
+    "choice1EffectId": [
+      104001,
+      104101
+    ],
+    "choice1FailEffectId": [
+      0,
+      0
+    ],
+    "choice2EffectId": [
+      0,
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623104,
+      1626104
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      0
+    ],
+    "choiceResultNameTextId": [
+      1624104,
+      1627104
+    ],
+    "choiceType": [
+      1,
+      1
+    ],
+    "eventDescNameTextId": 1621104,
+    "eventNameTextId": 1620104,
+    "eventSuccessRate": [
+      100,
+      100
+    ],
+    "groupId": 123,
+    "id": 2
+  },
+  {
+    "choice1EffectId": [
+      105001,
+      105101,
+      105201
+    ],
+    "choice1FailEffectId": [
+      0,
+      0,
+      0
+    ],
+    "choice2EffectId": [
+      0,
+      0,
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623105,
+      1626105,
+      1629105
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      0,
+      0
+    ],
+    "choiceResultNameTextId": [
+      1624105,
+      1627105,
+      1630105
+    ],
+    "choiceType": [
+      1,
+      1,
+      1
+    ],
+    "eventDescNameTextId": 1621105,
+    "eventNameTextId": 1620105,
+    "eventSuccessRate": [
+      100,
+      100,
+      100
+    ],
+    "groupId": 23,
+    "id": 2
+  },
+  {
+    "choice1EffectId": [
+      106001,
+      106101
+    ],
+    "choice1FailEffectId": [
+      0,
+      0
+    ],
+    "choice2EffectId": [
+      0,
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623106,
+      1626106
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      0
+    ],
+    "choiceResultNameTextId": [
+      1624106,
+      1627106
+    ],
+    "choiceType": [
+      1,
+      1
+    ],
+    "eventDescNameTextId": 1621106,
+    "eventNameTextId": 1620106,
+    "eventSuccessRate": [
+      100,
+      100
+    ],
+    "exitChoiceSwitch": 1,
+    "exitDescNameTextId": 1622001,
+    "groupId": 2,
+    "id": 1
+  },
+  {
+    "choice1EffectId": [
+      107001,
+      107101,
+      107201
+    ],
+    "choice1FailEffectId": [
+      0,
+      0,
+      0
+    ],
+    "choice2EffectId": [
+      0,
+      0,
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623107,
+      1626107,
+      1629107
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      0,
+      0
+    ],
+    "choiceResultNameTextId": [
+      1624107,
+      1627107,
+      1630107
+    ],
+    "choiceType": [
+      1,
+      1,
+      1
+    ],
+    "eventDescNameTextId": 1621107,
+    "eventNameTextId": 1620107,
+    "eventSuccessRate": [
+      100,
+      100,
+      100
+    ],
+    "exitChoiceSwitch": 1,
+    "exitDescNameTextId": 1622001,
+    "groupId": 1,
+    "id": 1
+  },
+  {
+    "choice1EffectId": [
+      108001,
+      108101,
+      108201
+    ],
+    "choice1FailEffectId": [
+      0,
+      0,
+      0
+    ],
+    "choice2EffectId": [
+      0,
+      0,
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623108,
+      1626108,
+      1629108
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      0,
+      0
+    ],
+    "choiceResultNameTextId": [
+      1624108,
+      1627108,
+      1630108
+    ],
+    "choiceType": [
+      1,
+      1,
+      1
+    ],
+    "eventDescNameTextId": 1621108,
+    "eventNameTextId": 1620108,
+    "eventSuccessRate": [
+      100,
+      100,
+      100
+    ],
+    "exitChoiceSwitch": 1,
+    "exitDescNameTextId": 1622001,
+    "groupId": 23,
+    "id": 3
+  },
+  {
+    "choice1EffectId": [
+      109001,
+      109101
+    ],
+    "choice1FailEffectId": [
+      0,
+      0
+    ],
+    "choice2EffectId": [
+      0,
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623109,
+      1626109
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      0
+    ],
+    "choiceResultNameTextId": [
+      1624109,
+      1627109
+    ],
+    "choiceType": [
+      1,
+      1
+    ],
+    "eventDescNameTextId": 1621109,
+    "eventNameTextId": 1620109,
+    "eventSuccessRate": [
+      100,
+      100
+    ],
+    "groupId": 123,
+    "id": 3
+  },
+  {
+    "choice1EffectId": [
+      110001,
+      110101,
+      110201
+    ],
+    "choice1FailEffectId": [
+      0,
+      0,
+      0
+    ],
+    "choice2EffectId": [
+      0,
+      0,
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623110,
+      1626110,
+      1629110
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      0,
+      0
+    ],
+    "choiceResultNameTextId": [
+      1624110,
+      1627110,
+      1630110
+    ],
+    "choiceType": [
+      1,
+      1,
+      1
+    ],
+    "eventDescNameTextId": 1621110,
+    "eventNameTextId": 1620110,
+    "eventSuccessRate": [
+      100,
+      100,
+      100
+    ],
+    "groupId": 12,
+    "id": 2
+  },
+  {
+    "choice1EffectId": [
+      111001,
+      111101,
+      111201
+    ],
+    "choice1FailEffectId": [
+      0,
+      0,
+      111211
+    ],
+    "choice2EffectId": [
+      111002,
+      111102,
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623111,
+      1626111,
+      1629111
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      0,
+      1631111
+    ],
+    "choiceResultNameTextId": [
+      1624111,
+      1627111,
+      1630111
+    ],
+    "choiceType": [
+      1,
+      1,
+      2
+    ],
+    "eventDescNameTextId": 1621111,
+    "eventNameTextId": 1620111,
+    "eventSuccessRate": [
+      100,
+      100,
+      70
+    ],
+    "exitChoiceSwitch": 1,
+    "exitDescNameTextId": 1622002,
+    "groupId": 12,
+    "id": 3
+  },
+  {
+    "choice1EffectId": [
+      112001,
+      112101
+    ],
+    "choice1FailEffectId": [
+      0,
+      0
+    ],
+    "choice2EffectId": [
+      112002,
+      112102
+    ],
+    "choiceDescNameTextId": [
+      1623112,
+      1626112
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      0
+    ],
+    "choiceResultNameTextId": [
+      1624112,
+      1627112
+    ],
+    "choiceType": [
+      1,
+      1
+    ],
+    "eventDescNameTextId": 1621112,
+    "eventNameTextId": 1620112,
+    "eventSuccessRate": [
+      100,
+      100
+    ],
+    "exitChoiceSwitch": 1,
+    "exitDescNameTextId": 1622003,
+    "groupId": 12,
+    "id": 4
+  },
+  {
+    "choice1EffectId": [
+      113001,
+      113101,
+      113201
+    ],
+    "choice1FailEffectId": [
+      0,
+      0,
+      113211
+    ],
+    "choice2EffectId": [
+      113002,
+      0,
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623113,
+      1626113,
+      1629113
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      0,
+      1631113
+    ],
+    "choiceResultNameTextId": [
+      1624113,
+      1627113,
+      1630113
+    ],
+    "choiceType": [
+      1,
+      1,
+      2
+    ],
+    "eventDescNameTextId": 1621113,
+    "eventNameTextId": 1620113,
+    "eventSuccessRate": [
+      100,
+      100,
+      60
+    ],
+    "exitChoiceSwitch": 1,
+    "exitDescNameTextId": 1622003,
+    "groupId": 23,
+    "id": 4
+  },
+  {
+    "choice1EffectId": [
+      114001,
+      114101,
+      114201
+    ],
+    "choice1FailEffectId": [
+      0,
+      0,
+      0
+    ],
+    "choice2EffectId": [
+      114002,
+      114102,
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623114,
+      1626114,
+      1629114
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      0,
+      0
+    ],
+    "choiceResultNameTextId": [
+      1624114,
+      1627114,
+      1630114
+    ],
+    "choiceType": [
+      1,
+      1,
+      1
+    ],
+    "eventDescNameTextId": 1621114,
+    "eventNameTextId": 1620114,
+    "eventSuccessRate": [
+      100,
+      100,
+      100
+    ],
+    "exitChoiceSwitch": 1,
+    "exitDescNameTextId": 1622003,
+    "groupId": 23,
+    "id": 5
+  },
+  {
+    "choice1EffectId": [
+      115001,
+      115101,
+      115201
+    ],
+    "choice1FailEffectId": [
+      0,
+      0,
+      0
+    ],
+    "choice2EffectId": [
+      115002,
+      115102,
+      115202
+    ],
+    "choiceDescNameTextId": [
+      1623115,
+      1626115,
+      1629115
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      0,
+      0
+    ],
+    "choiceResultNameTextId": [
+      1624115,
+      1627115,
+      1630115
+    ],
+    "choiceType": [
+      1,
+      1,
+      1
+    ],
+    "eventDescNameTextId": 1621115,
+    "eventNameTextId": 1620115,
+    "eventSuccessRate": [
+      100,
+      100,
+      100
+    ],
+    "exitChoiceSwitch": 1,
+    "exitDescNameTextId": 1622003,
+    "groupId": 123,
+    "id": 4
+  },
+  {
+    "choice1EffectId": [
+      116001,
+      116101,
+      116201
+    ],
+    "choice1FailEffectId": [
+      0,
+      0,
+      116211
+    ],
+    "choice2EffectId": [
+      0,
+      116102,
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623116,
+      1626116,
+      1629116
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      0,
+      1631116
+    ],
+    "choiceResultNameTextId": [
+      1624116,
+      1627116,
+      1630116
+    ],
+    "choiceType": [
+      1,
+      1,
+      2
+    ],
+    "eventDescNameTextId": 1621116,
+    "eventNameTextId": 1620116,
+    "eventSuccessRate": [
+      100,
+      100,
+      60
+    ],
+    "exitChoiceSwitch": 1,
+    "exitDescNameTextId": 1622003,
+    "groupId": 123,
+    "id": 5
+  },
+  {
+    "choice1EffectId": [
+      117001,
+      117101,
+      117201
+    ],
+    "choice1FailEffectId": [
+      0,
+      0,
+      117211
+    ],
+    "choice2EffectId": [
+      117002,
+      117102,
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623117,
+      1626117,
+      1629117
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      0,
+      1631117
+    ],
+    "choiceResultNameTextId": [
+      1624117,
+      1627117,
+      1630117
+    ],
+    "choiceType": [
+      1,
+      1,
+      2
+    ],
+    "eventDescNameTextId": 1621117,
+    "eventNameTextId": 1620117,
+    "eventSuccessRate": [
+      100,
+      100,
+      70
+    ],
+    "exitChoiceSwitch": 1,
+    "exitDescNameTextId": 1622003,
+    "groupId": 23,
+    "id": 6
+  },
+  {
+    "choice1EffectId": [
+      118001,
+      118101,
+      118201
+    ],
+    "choice1FailEffectId": [
+      0,
+      0,
+      0
+    ],
+    "choice2EffectId": [
+      118002,
+      118102,
+      118202
+    ],
+    "choiceDescNameTextId": [
+      1623118,
+      1626118,
+      1629118
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      0,
+      0
+    ],
+    "choiceResultNameTextId": [
+      1624118,
+      1627118,
+      1630118
+    ],
+    "choiceType": [
+      1,
+      1,
+      1
+    ],
+    "eventDescNameTextId": 1621118,
+    "eventNameTextId": 1620118,
+    "eventSuccessRate": [
+      100,
+      100,
+      100
+    ],
+    "exitChoiceSwitch": 1,
+    "exitDescNameTextId": 1622003,
+    "groupId": 1,
+    "id": 2
+  },
+  {
+    "choice1EffectId": [
+      119001,
+      119101
+    ],
+    "choice1FailEffectId": [
+      0,
+      0
+    ],
+    "choice2EffectId": [
+      119002,
+      119102
+    ],
+    "choiceDescNameTextId": [
+      1623119,
+      1626119
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      0
+    ],
+    "choiceResultNameTextId": [
+      1624119,
+      1627119
+    ],
+    "choiceType": [
+      1,
+      1
+    ],
+    "eventDescNameTextId": 1621119,
+    "eventNameTextId": 1620119,
+    "eventSuccessRate": [
+      100,
+      100
+    ],
+    "exitChoiceSwitch": 1,
+    "exitDescNameTextId": 1622003,
+    "groupId": 12,
+    "id": 5
+  },
+  {
+    "choice1EffectId": [
+      120001,
+      120101
+    ],
+    "choice1FailEffectId": [
+      0,
+      0
+    ],
+    "choice2EffectId": [
+      0,
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623120,
+      1626120
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      0
+    ],
+    "choiceResultNameTextId": [
+      1624120,
+      1627120
+    ],
+    "choiceType": [
+      1,
+      1
+    ],
+    "eventDescNameTextId": 1621120,
+    "eventNameTextId": 1620120,
+    "eventSuccessRate": [
+      100,
+      100
+    ],
+    "exitChoiceSwitch": 1,
+    "exitDescNameTextId": 1622003,
+    "groupId": 12,
+    "id": 6
+  },
+  {
+    "choice1EffectId": [
+      121001,
+      121101
+    ],
+    "choice1FailEffectId": [
+      0,
+      121111
+    ],
+    "choice2EffectId": [
+      0,
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623121,
+      1626121
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      1628121
+    ],
+    "choiceResultNameTextId": [
+      1624121,
+      1627121
+    ],
+    "choiceType": [
+      1,
+      2
+    ],
+    "eventDescNameTextId": 1621121,
+    "eventNameTextId": 1620121,
+    "eventSuccessRate": [
+      100,
+      80
+    ],
+    "exitChoiceSwitch": 1,
+    "exitDescNameTextId": 1622003,
+    "groupId": 23,
+    "id": 7
+  },
+  {
+    "choice1EffectId": [
+      122001,
+      122101
+    ],
+    "choice1FailEffectId": [
+      0,
+      0
+    ],
+    "choice2EffectId": [
+      122002,
+      122102
+    ],
+    "choiceDescNameTextId": [
+      1623122,
+      1626122
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      0
+    ],
+    "choiceResultNameTextId": [
+      1624122,
+      1627122
+    ],
+    "choiceType": [
+      1,
+      1
+    ],
+    "eventDescNameTextId": 1621122,
+    "eventNameTextId": 1620122,
+    "eventSuccessRate": [
+      100,
+      100
+    ],
+    "exitChoiceSwitch": 1,
+    "exitDescNameTextId": 1622004,
+    "groupId": 23,
+    "id": 8
+  },
+  {
+    "choice1EffectId": [
+      123001,
+      123101,
+      123201
+    ],
+    "choice1FailEffectId": [
+      0,
+      123111,
+      0
+    ],
+    "choice2EffectId": [
+      123002,
+      0,
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623123,
+      1626123,
+      1629123
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      1628123,
+      0
+    ],
+    "choiceResultNameTextId": [
+      1624123,
+      1627123,
+      1630123
+    ],
+    "choiceType": [
+      1,
+      2,
+      1
+    ],
+    "eventDescNameTextId": 1621123,
+    "eventNameTextId": 1620123,
+    "eventSuccessRate": [
+      100,
+      60,
+      100
+    ],
+    "groupId": 1,
+    "id": 3
+  },
+  {
+    "choice1EffectId": [
+      124001,
+      124101
+    ],
+    "choice1FailEffectId": [
+      0,
+      0
+    ],
+    "choice2EffectId": [
+      124002,
+      124102
+    ],
+    "choiceDescNameTextId": [
+      1623124,
+      1626124
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      0
+    ],
+    "choiceResultNameTextId": [
+      1624124,
+      1627124
+    ],
+    "choiceType": [
+      1,
+      1
+    ],
+    "eventDescNameTextId": 1621124,
+    "eventNameTextId": 1620124,
+    "eventSuccessRate": [
+      100,
+      100
+    ],
+    "exitChoiceSwitch": 1,
+    "exitDescNameTextId": 1622004,
+    "groupId": 23,
+    "id": 9
+  },
+  {
+    "choice1EffectId": [
+      125001,
+      125101
+    ],
+    "choice1FailEffectId": [
+      0,
+      0
+    ],
+    "choice2EffectId": [
+      0,
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623125,
+      1626125
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      0
+    ],
+    "choiceResultNameTextId": [
+      1624125,
+      1627125
+    ],
+    "choiceType": [
+      1,
+      1
+    ],
+    "eventDescNameTextId": 1621125,
+    "eventNameTextId": 1620125,
+    "eventSuccessRate": [
+      100,
+      100
+    ],
+    "exitChoiceSwitch": 1,
+    "exitDescNameTextId": 1622003,
+    "groupId": 12,
+    "id": 7
+  },
+  {
+    "choice1EffectId": [
+      126001,
+      126101
+    ],
+    "choice1FailEffectId": [
+      126011,
+      0
+    ],
+    "choice2EffectId": [
+      0,
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623126,
+      1626126
+    ],
+    "choiceFailResultNameTextId": [
+      1625126,
+      0
+    ],
+    "choiceResultNameTextId": [
+      1624126,
+      1627126
+    ],
+    "choiceType": [
+      2,
+      1
+    ],
+    "eventDescNameTextId": 1621126,
+    "eventNameTextId": 1620126,
+    "eventSuccessRate": [
+      60,
+      100
+    ],
+    "exitChoiceSwitch": 1,
+    "exitDescNameTextId": 1622004,
+    "groupId": 1,
+    "id": 4
+  },
+  {
+    "choice1EffectId": [
+      127001,
+      127101
+    ],
+    "choice1FailEffectId": [
+      0,
+      127111
+    ],
+    "choice2EffectId": [
+      0,
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623127,
+      1626127
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      1628127
+    ],
+    "choiceResultNameTextId": [
+      1624127,
+      1627127
+    ],
+    "choiceType": [
+      1,
+      2
+    ],
+    "eventDescNameTextId": 1621127,
+    "eventNameTextId": 1620127,
+    "eventSuccessRate": [
+      100,
+      60
+    ],
+    "exitChoiceSwitch": 1,
+    "exitDescNameTextId": 1622003,
+    "groupId": 12,
+    "id": 8
+  },
+  {
+    "choice1EffectId": [
+      128001,
+      128101,
+      128201
+    ],
+    "choice1FailEffectId": [
+      0,
+      0,
+      128211
+    ],
+    "choice2EffectId": [
+      0,
+      0,
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623128,
+      1626128,
+      1629128
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      0,
+      1631128
+    ],
+    "choiceResultNameTextId": [
+      1624128,
+      1627128,
+      1630128
+    ],
+    "choiceType": [
+      1,
+      1,
+      2
+    ],
+    "eventDescNameTextId": 1621128,
+    "eventNameTextId": 1620128,
+    "eventSuccessRate": [
+      100,
+      100,
+      50
+    ],
+    "exitChoiceSwitch": 1,
+    "exitDescNameTextId": 1622003,
+    "groupId": 123,
+    "id": 6
+  },
+  {
+    "choice1EffectId": [
+      129001,
+      129101,
+      129201
+    ],
+    "choice1FailEffectId": [
+      0,
+      129111,
+      129211
+    ],
+    "choice2EffectId": [
+      0,
+      0,
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623129,
+      1626129,
+      1629129
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      1628129,
+      1631129
+    ],
+    "choiceResultNameTextId": [
+      1624129,
+      1627129,
+      1630129
+    ],
+    "choiceType": [
+      1,
+      2,
+      2
+    ],
+    "eventDescNameTextId": 1621129,
+    "eventNameTextId": 1620129,
+    "eventSuccessRate": [
+      100,
+      60,
+      30
+    ],
+    "exitChoiceSwitch": 1,
+    "exitDescNameTextId": 1622003,
+    "groupId": 12,
+    "id": 9
+  },
+  {
+    "choice1EffectId": [
+      130001,
+      130101
+    ],
+    "choice1FailEffectId": [
+      0,
+      130111
+    ],
+    "choice2EffectId": [
+      0,
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623130,
+      1626130
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      1628130
+    ],
+    "choiceResultNameTextId": [
+      1624130,
+      1627130
+    ],
+    "choiceType": [
+      1,
+      2
+    ],
+    "eventDescNameTextId": 1621130,
+    "eventNameTextId": 1620130,
+    "eventSuccessRate": [
+      100,
+      60
+    ],
+    "groupId": 3,
+    "id": 1
+  },
+  {
+    "choice1EffectId": [
+      131001,
+      131101
+    ],
+    "choice1FailEffectId": [
+      0,
+      131111
+    ],
+    "choice2EffectId": [
+      0,
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623131,
+      1626131
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      1628131
+    ],
+    "choiceResultNameTextId": [
+      1624131,
+      1627131
+    ],
+    "choiceType": [
+      1,
+      2
+    ],
+    "eventDescNameTextId": 1621131,
+    "eventNameTextId": 1620131,
+    "eventSuccessRate": [
+      100,
+      30
+    ],
+    "exitChoiceSwitch": 1,
+    "exitDescNameTextId": 1622003,
+    "groupId": 23,
+    "id": 10
+  },
+  {
+    "choice1EffectId": [
+      132001,
+      132101
+    ],
+    "choice1FailEffectId": [
+      0,
+      0
+    ],
+    "choice2EffectId": [
+      0,
+      132102
+    ],
+    "choiceDescNameTextId": [
+      1623132,
+      1626132
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      0
+    ],
+    "choiceResultNameTextId": [
+      1624132,
+      1627132
+    ],
+    "choiceType": [
+      1,
+      1
+    ],
+    "eventDescNameTextId": 1621132,
+    "eventNameTextId": 1620132,
+    "eventSuccessRate": [
+      100,
+      100
+    ],
+    "exitChoiceSwitch": 1,
+    "exitDescNameTextId": 1622003,
+    "groupId": 1,
+    "id": 5
+  },
+  {
+    "choice1EffectId": [
+      133001,
+      133101,
+      133201
+    ],
+    "choice1FailEffectId": [
+      0,
+      0,
+      133211
+    ],
+    "choice2EffectId": [
+      0,
+      0,
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623133,
+      1626133,
+      1629133
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      0,
+      1631133
+    ],
+    "choiceResultNameTextId": [
+      1624133,
+      1627133,
+      1630133
+    ],
+    "choiceType": [
+      1,
+      1,
+      2
+    ],
+    "eventDescNameTextId": 1621133,
+    "eventNameTextId": 1620133,
+    "eventSuccessRate": [
+      100,
+      100,
+      60
+    ],
+    "exitChoiceSwitch": 1,
+    "exitDescNameTextId": 1622003,
+    "groupId": 123,
+    "id": 7
+  },
+  {
+    "choice1EffectId": [
+      134001,
+      134101,
+      134201
+    ],
+    "choice1FailEffectId": [
+      134011,
+      134111,
+      0
+    ],
+    "choice2EffectId": [
+      0,
+      0,
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623134,
+      1626134,
+      1629134
+    ],
+    "choiceFailResultNameTextId": [
+      1625134,
+      1628134,
+      0
+    ],
+    "choiceResultNameTextId": [
+      1624134,
+      1627134,
+      1630134
+    ],
+    "choiceType": [
+      2,
+      2,
+      1
+    ],
+    "eventDescNameTextId": 1621134,
+    "eventNameTextId": 1620134,
+    "eventSuccessRate": [
+      50,
+      90,
+      100
+    ],
+    "groupId": 12,
+    "id": 10
+  },
+  {
+    "choice1EffectId": [
+      135001,
+      135101
+    ],
+    "choice1FailEffectId": [
+      135011,
+      135111
+    ],
+    "choice2EffectId": [
+      0,
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623135,
+      1626135
+    ],
+    "choiceFailResultNameTextId": [
+      1625135,
+      1628135
+    ],
+    "choiceResultNameTextId": [
+      1624135,
+      1627135
+    ],
+    "choiceType": [
+      2,
+      2
+    ],
+    "eventDescNameTextId": 1621135,
+    "eventNameTextId": 1620135,
+    "eventSuccessRate": [
+      70,
+      70
+    ],
+    "groupId": 12,
+    "id": 11
+  },
+  {
+    "choice1EffectId": [
+      136001,
+      136101,
+      136201
+    ],
+    "choice1FailEffectId": [
+      0,
+      0,
+      0
+    ],
+    "choice2EffectId": [
+      0,
+      0,
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623136,
+      1626136,
+      1629136
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      0,
+      0
+    ],
+    "choiceResultNameTextId": [
+      1624136,
+      1627136,
+      1630136
+    ],
+    "choiceType": [
+      1,
+      1,
+      1
+    ],
+    "eventDescNameTextId": 1621136,
+    "eventNameTextId": 1620136,
+    "eventSuccessRate": [
+      100,
+      100,
+      100
+    ],
+    "exitChoiceSwitch": 1,
+    "exitDescNameTextId": 1622003,
+    "groupId": 123,
+    "id": 8
+  },
+  {
+    "choice1EffectId": [
+      137001,
+      137101,
+      137201
+    ],
+    "choice1FailEffectId": [
+      0,
+      137111,
+      0
+    ],
+    "choice2EffectId": [
+      0,
+      0,
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623137,
+      1626137,
+      1629137
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      1628137,
+      0
+    ],
+    "choiceResultNameTextId": [
+      1624137,
+      1627137,
+      1630137
+    ],
+    "choiceType": [
+      1,
+      2,
+      1
+    ],
+    "eventDescNameTextId": 1621137,
+    "eventNameTextId": 1620137,
+    "eventSuccessRate": [
+      100,
+      50,
+      100
+    ],
+    "exitChoiceSwitch": 1,
+    "exitDescNameTextId": 1622003,
+    "groupId": 12,
+    "id": 12
+  },
+  {
+    "choice1EffectId": [
+      138001,
+      138101,
+      138201
+    ],
+    "choice1FailEffectId": [
+      0,
+      138111,
+      0
+    ],
+    "choice2EffectId": [
+      0,
+      0,
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623138,
+      1626138,
+      1629138
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      1628138,
+      0
+    ],
+    "choiceResultNameTextId": [
+      1624138,
+      1627138,
+      1630138
+    ],
+    "choiceType": [
+      1,
+      2,
+      1
+    ],
+    "eventDescNameTextId": 1621138,
+    "eventNameTextId": 1620138,
+    "eventSuccessRate": [
+      100,
+      50,
+      100
+    ],
+    "exitChoiceSwitch": 1,
+    "exitDescNameTextId": 1622003,
+    "groupId": 12,
+    "id": 13
+  },
+  {
+    "choice1EffectId": [
+      139001,
+      139101,
+      139201
+    ],
+    "choice1FailEffectId": [
+      0,
+      139111,
+      139211
+    ],
+    "choice2EffectId": [
+      0,
+      0,
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623139,
+      1626139,
+      1629139
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      1628139,
+      1631139
+    ],
+    "choiceResultNameTextId": [
+      1624139,
+      1627139,
+      1630139
+    ],
+    "choiceType": [
+      1,
+      2,
+      2
+    ],
+    "eventDescNameTextId": 1621139,
+    "eventNameTextId": 1620139,
+    "eventSuccessRate": [
+      100,
+      60,
+      20
+    ],
+    "exitChoiceSwitch": 1,
+    "exitDescNameTextId": 1622003,
+    "groupId": 1,
+    "id": 6
+  },
+  {
+    "choice1EffectId": [
+      140001,
+      140101,
+      140201
+    ],
+    "choice1FailEffectId": [
+      0,
+      140111,
+      140211
+    ],
+    "choice2EffectId": [
+      0,
+      0,
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623140,
+      1626140,
+      1629140
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      1628140,
+      1631140
+    ],
+    "choiceResultNameTextId": [
+      1624140,
+      1627140,
+      1630140
+    ],
+    "choiceType": [
+      1,
+      2,
+      2
+    ],
+    "eventDescNameTextId": 1621140,
+    "eventNameTextId": 1620140,
+    "eventSuccessRate": [
+      100,
+      60,
+      20
+    ],
+    "exitChoiceSwitch": 1,
+    "exitDescNameTextId": 1622003,
+    "groupId": 23,
+    "id": 11
+  },
+  {
+    "choice1EffectId": [
+      141001
+    ],
+    "choice1FailEffectId": [
+      141011
+    ],
+    "choice2EffectId": [
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623141
+    ],
+    "choiceFailResultNameTextId": [
+      1625141
+    ],
+    "choiceResultNameTextId": [
+      1624141
+    ],
+    "choiceType": [
+      2
+    ],
+    "eventDescNameTextId": 1621141,
+    "eventNameTextId": 1620141,
+    "eventSuccessRate": [
+      75
+    ],
+    "exitChoiceSwitch": 1,
+    "exitDescNameTextId": 1622003,
+    "groupId": 3,
+    "id": 2
+  },
+  {
+    "choice1EffectId": [
+      142001,
+      142101
+    ],
+    "choice1FailEffectId": [
+      0,
+      142111
+    ],
+    "choice2EffectId": [
+      0,
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623142,
+      1626142
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      1628142
+    ],
+    "choiceResultNameTextId": [
+      1624142,
+      1627142
+    ],
+    "choiceType": [
+      1,
+      2
+    ],
+    "eventDescNameTextId": 1621142,
+    "eventNameTextId": 1620142,
+    "eventSuccessRate": [
+      100,
+      60
+    ],
+    "exitChoiceSwitch": 1,
+    "exitDescNameTextId": 1622003,
+    "groupId": 123,
+    "id": 9
+  },
+  {
+    "choice1EffectId": [
+      143001,
+      143101
+    ],
+    "choice1FailEffectId": [
+      0,
+      143111
+    ],
+    "choice2EffectId": [
+      143002,
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623143,
+      1626143
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      1628143
+    ],
+    "choiceResultNameTextId": [
+      1624143,
+      1627143
+    ],
+    "choiceType": [
+      1,
+      2
+    ],
+    "eventDescNameTextId": 1621143,
+    "eventNameTextId": 1620143,
+    "eventSuccessRate": [
+      100,
+      80
+    ],
+    "exitChoiceSwitch": 1,
+    "exitDescNameTextId": 1622003,
+    "groupId": 123,
+    "id": 10
+  },
+  {
+    "choice1EffectId": [
+      144001,
+      144101
+    ],
+    "choice1FailEffectId": [
+      144011,
+      144111
+    ],
+    "choice2EffectId": [
+      0,
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623144,
+      1626144
+    ],
+    "choiceFailResultNameTextId": [
+      1625144,
+      1628144
+    ],
+    "choiceResultNameTextId": [
+      1624144,
+      1627144
+    ],
+    "choiceType": [
+      2,
+      2
+    ],
+    "eventDescNameTextId": 1621144,
+    "eventNameTextId": 1620144,
+    "eventSuccessRate": [
+      50,
+      50
+    ],
+    "exitChoiceSwitch": 1,
+    "exitDescNameTextId": 1622003,
+    "groupId": 123,
+    "id": 11
+  },
+  {
+    "choice1EffectId": [
+      145001,
+      145101
+    ],
+    "choice1FailEffectId": [
+      0,
+      0
+    ],
+    "choice2EffectId": [
+      0,
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623145,
+      1626145
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      0
+    ],
+    "choiceResultNameTextId": [
+      1624145,
+      1627145
+    ],
+    "choiceType": [
+      1,
+      1
+    ],
+    "eventDescNameTextId": 1621145,
+    "eventNameTextId": 1620145,
+    "eventSuccessRate": [
+      100,
+      100
+    ],
+    "exitChoiceSwitch": 1,
+    "exitDescNameTextId": 1622003,
+    "groupId": 123,
+    "id": 12
+  },
+  {
+    "choice1EffectId": [
+      146001,
+      146101
+    ],
+    "choice1FailEffectId": [
+      0,
+      0
+    ],
+    "choice2EffectId": [
+      0,
+      146102
+    ],
+    "choiceDescNameTextId": [
+      1623146,
+      1626146
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      0
+    ],
+    "choiceResultNameTextId": [
+      1624146,
+      1627146
+    ],
+    "choiceType": [
+      1,
+      1
+    ],
+    "eventDescNameTextId": 1621146,
+    "eventNameTextId": 1620146,
+    "eventSuccessRate": [
+      100,
+      100
+    ],
+    "groupId": 123,
+    "id": 13
+  },
+  {
+    "choice1EffectId": [
+      147001,
+      147101,
+      147201
+    ],
+    "choice1FailEffectId": [
+      0,
+      0,
+      0
+    ],
+    "choice2EffectId": [
+      0,
+      0,
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623147,
+      1626147,
+      1629147
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      0,
+      0
+    ],
+    "choiceResultNameTextId": [
+      1624147,
+      1627147,
+      1630147
+    ],
+    "choiceType": [
+      1,
+      1,
+      1
+    ],
+    "eventDescNameTextId": 1621147,
+    "eventNameTextId": 1620147,
+    "eventSuccessRate": [
+      100,
+      100,
+      100
+    ],
+    "groupId": 123,
+    "id": 14
+  },
+  {
+    "choice1EffectId": [
+      148001,
+      148101
+    ],
+    "choice1FailEffectId": [
+      148011,
+      0
+    ],
+    "choice2EffectId": [
+      0,
+      148102
+    ],
+    "choiceDescNameTextId": [
+      1623148,
+      1626148
+    ],
+    "choiceFailResultNameTextId": [
+      1625148,
+      0
+    ],
+    "choiceResultNameTextId": [
+      1624148,
+      1627148
+    ],
+    "choiceType": [
+      2,
+      1
+    ],
+    "eventDescNameTextId": 1621148,
+    "eventNameTextId": 1620148,
+    "eventSuccessRate": [
+      60,
+      100
+    ],
+    "groupId": 23,
+    "id": 12
+  },
+  {
+    "choice1EffectId": [
+      149001,
+      149101
+    ],
+    "choice1FailEffectId": [
+      149011,
+      0
+    ],
+    "choice2EffectId": [
+      0,
+      149102
+    ],
+    "choiceDescNameTextId": [
+      1623149,
+      1626149
+    ],
+    "choiceFailResultNameTextId": [
+      1625149,
+      0
+    ],
+    "choiceResultNameTextId": [
+      1624149,
+      1627149
+    ],
+    "choiceType": [
+      2,
+      1
+    ],
+    "eventDescNameTextId": 1621149,
+    "eventNameTextId": 1620149,
+    "eventSuccessRate": [
+      70,
+      100
+    ],
+    "groupId": 123,
+    "id": 15
+  },
+  {
+    "choice1EffectId": [
+      150001,
+      150101,
+      150201
+    ],
+    "choice1FailEffectId": [
+      150011,
+      150111,
+      150211
+    ],
+    "choice2EffectId": [
+      0,
+      0,
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623150,
+      1626150,
+      1629150
+    ],
+    "choiceFailResultNameTextId": [
+      1625150,
+      1628150,
+      1631150
+    ],
+    "choiceResultNameTextId": [
+      1624150,
+      1627150,
+      1630150
+    ],
+    "choiceType": [
+      2,
+      2,
+      2
+    ],
+    "eventDescNameTextId": 1621150,
+    "eventNameTextId": 1620150,
+    "eventSuccessRate": [
+      80,
+      80,
+      80
+    ],
+    "groupId": 123,
+    "id": 16
+  },
+  {
+    "choice1EffectId": [
+      151001,
+      151101
+    ],
+    "choice1FailEffectId": [
+      0,
+      0
+    ],
+    "choice2EffectId": [
+      0,
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623151,
+      1626151
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      0
+    ],
+    "choiceResultNameTextId": [
+      1624151,
+      1627151
+    ],
+    "choiceType": [
+      1,
+      1
+    ],
+    "eventDescNameTextId": 1621151,
+    "eventNameTextId": 1620151,
+    "eventSuccessRate": [
+      100,
+      100
+    ],
+    "exitChoiceSwitch": 1,
+    "exitDescNameTextId": 1622001,
+    "groupId": 12,
+    "id": 14
+  },
+  {
+    "choice1EffectId": [
+      152001,
+      152101,
+      152201
+    ],
+    "choice1FailEffectId": [
+      0,
+      0,
+      0
+    ],
+    "choice2EffectId": [
+      0,
+      0,
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623152,
+      1626152,
+      1629152
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      0,
+      0
+    ],
+    "choiceResultNameTextId": [
+      1624152,
+      1627152,
+      1630152
+    ],
+    "choiceType": [
+      1,
+      1,
+      1
+    ],
+    "eventDescNameTextId": 1621152,
+    "eventNameTextId": 1620152,
+    "eventSuccessRate": [
+      100,
+      100,
+      100
+    ],
+    "exitChoiceSwitch": 1,
+    "exitDescNameTextId": 1622001,
+    "groupId": 12,
+    "id": 15
+  },
+  {
+    "choice1EffectId": [
+      153001,
+      153101
+    ],
+    "choice1FailEffectId": [
+      153011,
+      0
+    ],
+    "choice2EffectId": [
+      0,
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623153,
+      1626153
+    ],
+    "choiceFailResultNameTextId": [
+      1625153,
+      0
+    ],
+    "choiceResultNameTextId": [
+      1624153,
+      1627153
+    ],
+    "choiceType": [
+      2,
+      1
+    ],
+    "eventDescNameTextId": 1621153,
+    "eventNameTextId": 1620153,
+    "eventSuccessRate": [
+      50,
+      100
+    ],
+    "exitChoiceSwitch": 1,
+    "exitDescNameTextId": 1622001,
+    "groupId": 12,
+    "id": 16
+  },
+  {
+    "choice1EffectId": [
+      154001,
+      154101
+    ],
+    "choice1FailEffectId": [
+      0,
+      0
+    ],
+    "choice2EffectId": [
+      0,
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623154,
+      1626154
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      0
+    ],
+    "choiceResultNameTextId": [
+      1624154,
+      1627154
+    ],
+    "choiceType": [
+      1,
+      1
+    ],
+    "eventDescNameTextId": 1621154,
+    "eventNameTextId": 1620154,
+    "eventSuccessRate": [
+      100,
+      100
+    ],
+    "exitChoiceSwitch": 1,
+    "exitDescNameTextId": 1622001,
+    "groupId": 123,
+    "id": 17
+  },
+  {
+    "choice1EffectId": [
+      155001,
+      155101
+    ],
+    "choice1FailEffectId": [
+      0,
+      0
+    ],
+    "choice2EffectId": [
+      0,
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623155,
+      1626155
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      0
+    ],
+    "choiceResultNameTextId": [
+      1624155,
+      1627155
+    ],
+    "choiceType": [
+      1,
+      1
+    ],
+    "eventDescNameTextId": 1621155,
+    "eventNameTextId": 1620155,
+    "eventSuccessRate": [
+      100,
+      100
+    ],
+    "exitChoiceSwitch": 1,
+    "exitDescNameTextId": 1622001,
+    "groupId": 123,
+    "id": 18
+  },
+  {
+    "choice1EffectId": [
+      156001,
+      156101,
+      156201
+    ],
+    "choice1FailEffectId": [
+      0,
+      0,
+      0
+    ],
+    "choice2EffectId": [
+      0,
+      0,
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623156,
+      1626156,
+      1629156
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      0,
+      0
+    ],
+    "choiceResultNameTextId": [
+      1624156,
+      1627156,
+      1630156
+    ],
+    "choiceType": [
+      1,
+      1,
+      1
+    ],
+    "eventDescNameTextId": 1621156,
+    "eventNameTextId": 1620156,
+    "eventSuccessRate": [
+      100,
+      100,
+      100
+    ],
+    "exitChoiceSwitch": 1,
+    "exitDescNameTextId": 1622001,
+    "groupId": 12,
+    "id": 17
+  },
+  {
+    "choice1EffectId": [
+      157001,
+      157101,
+      157201
+    ],
+    "choice1FailEffectId": [
+      0,
+      0,
+      0
+    ],
+    "choice2EffectId": [
+      157002,
+      157102,
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623157,
+      1626157,
+      1629157
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      0,
+      0
+    ],
+    "choiceResultNameTextId": [
+      1624157,
+      1627157,
+      1630157
+    ],
+    "choiceType": [
+      1,
+      1,
+      1
+    ],
+    "eventDescNameTextId": 1621157,
+    "eventNameTextId": 1620157,
+    "eventSuccessRate": [
+      100,
+      100,
+      100
+    ],
+    "exitChoiceSwitch": 1,
+    "exitDescNameTextId": 1622003,
+    "groupId": 23,
+    "id": 13
+  },
+  {
+    "choice1EffectId": [
+      158001,
+      158101,
+      158201
+    ],
+    "choice1FailEffectId": [
+      0,
+      0,
+      0
+    ],
+    "choice2EffectId": [
+      158002,
+      0,
+      158202
+    ],
+    "choiceDescNameTextId": [
+      1623158,
+      1626158,
+      1629158
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      0,
+      0
+    ],
+    "choiceResultNameTextId": [
+      1624158,
+      1627158,
+      1630158
+    ],
+    "choiceType": [
+      1,
+      1,
+      1
+    ],
+    "eventDescNameTextId": 1621158,
+    "eventNameTextId": 1620158,
+    "eventSuccessRate": [
+      100,
+      100,
+      100
+    ],
+    "exitChoiceSwitch": 1,
+    "exitDescNameTextId": 1622003,
+    "groupId": 23,
+    "id": 14
+  },
+  {
+    "choice1EffectId": [
+      159001,
+      159101
+    ],
+    "choice1FailEffectId": [
+      0,
+      0
+    ],
+    "choice2EffectId": [
+      159002,
+      159102
+    ],
+    "choiceDescNameTextId": [
+      1623159,
+      1626159
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      0
+    ],
+    "choiceResultNameTextId": [
+      1624159,
+      1627159
+    ],
+    "choiceType": [
+      1,
+      1
+    ],
+    "eventDescNameTextId": 1621159,
+    "eventNameTextId": 1620159,
+    "eventSuccessRate": [
+      100,
+      100
+    ],
+    "exitChoiceSwitch": 1,
+    "exitDescNameTextId": 1622003,
+    "groupId": 23,
+    "id": 15
+  },
+  {
+    "choice1EffectId": [
+      160001,
+      160101,
+      160201
+    ],
+    "choice1FailEffectId": [
+      0,
+      0,
+      0
+    ],
+    "choice2EffectId": [
+      160002,
+      160102,
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623160,
+      1626160,
+      1629160
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      0,
+      0
+    ],
+    "choiceResultNameTextId": [
+      1624160,
+      1627160,
+      1630160
+    ],
+    "choiceType": [
+      1,
+      1,
+      1
+    ],
+    "eventDescNameTextId": 1621160,
+    "eventNameTextId": 1620160,
+    "eventSuccessRate": [
+      100,
+      100,
+      100
+    ],
+    "groupId": 23,
+    "id": 16
+  },
+  {
+    "choice1EffectId": [
+      161001,
+      161101
+    ],
+    "choice1FailEffectId": [
+      0,
+      0
+    ],
+    "choice2EffectId": [
+      0,
+      161102
+    ],
+    "choiceDescNameTextId": [
+      1623161,
+      1626161
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      0
+    ],
+    "choiceResultNameTextId": [
+      1624161,
+      1627161
+    ],
+    "choiceType": [
+      1,
+      1
+    ],
+    "eventDescNameTextId": 1621161,
+    "eventNameTextId": 1620161,
+    "eventSuccessRate": [
+      100,
+      100
+    ],
+    "exitChoiceSwitch": 1,
+    "exitDescNameTextId": 1622003,
+    "groupId": 23,
+    "id": 17
+  },
+  {
+    "choice1EffectId": [
+      162001,
+      162101,
+      162201
+    ],
+    "choice1FailEffectId": [
+      0,
+      0,
+      0
+    ],
+    "choice2EffectId": [
+      162002,
+      162102,
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623162,
+      1626162,
+      1629162
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      0,
+      0
+    ],
+    "choiceResultNameTextId": [
+      1624162,
+      1627162,
+      1630162
+    ],
+    "choiceType": [
+      1,
+      1,
+      1
+    ],
+    "eventDescNameTextId": 1621162,
+    "eventNameTextId": 1620162,
+    "eventSuccessRate": [
+      100,
+      100,
+      100
+    ],
+    "exitChoiceSwitch": 1,
+    "exitDescNameTextId": 1622003,
+    "groupId": 12,
+    "id": 18
+  },
+  {
+    "choice1EffectId": [
+      163001,
+      163101,
+      163201
+    ],
+    "choice1FailEffectId": [
+      0,
+      0,
+      0
+    ],
+    "choice2EffectId": [
+      163002,
+      163102,
+      163202
+    ],
+    "choiceDescNameTextId": [
+      1623163,
+      1626163,
+      1629163
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      0,
+      0
+    ],
+    "choiceResultNameTextId": [
+      1624163,
+      1627163,
+      1630163
+    ],
+    "choiceType": [
+      1,
+      1,
+      1
+    ],
+    "eventDescNameTextId": 1621163,
+    "eventNameTextId": 1620163,
+    "eventSuccessRate": [
+      100,
+      100,
+      100
+    ],
+    "exitChoiceSwitch": 1,
+    "exitDescNameTextId": 1622003,
+    "groupId": 123,
+    "id": 19
+  },
+  {
+    "choice1EffectId": [
+      164001,
+      164101
+    ],
+    "choice1FailEffectId": [
+      0,
+      0
+    ],
+    "choice2EffectId": [
+      164002,
+      164102
+    ],
+    "choiceDescNameTextId": [
+      1623164,
+      1626164
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      0
+    ],
+    "choiceResultNameTextId": [
+      1624164,
+      1627164
+    ],
+    "choiceType": [
+      1,
+      1
+    ],
+    "eventDescNameTextId": 1621164,
+    "eventNameTextId": 1620164,
+    "eventSuccessRate": [
+      100,
+      100
+    ],
+    "exitChoiceSwitch": 1,
+    "exitDescNameTextId": 1622003,
+    "groupId": 23,
+    "id": 18
+  },
+  {
+    "choice1EffectId": [
+      165001,
+      165101,
+      165201
+    ],
+    "choice1FailEffectId": [
+      0,
+      0,
+      0
+    ],
+    "choice2EffectId": [
+      165002,
+      0,
+      165202
+    ],
+    "choiceDescNameTextId": [
+      1623165,
+      1626165,
+      1629165
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      0,
+      0
+    ],
+    "choiceResultNameTextId": [
+      1624165,
+      1627165,
+      1630165
+    ],
+    "choiceType": [
+      1,
+      1,
+      1
+    ],
+    "eventDescNameTextId": 1621165,
+    "eventNameTextId": 1620165,
+    "eventSuccessRate": [
+      100,
+      100,
+      100
+    ],
+    "exitChoiceSwitch": 1,
+    "exitDescNameTextId": 1622003,
+    "groupId": 23,
+    "id": 19
+  },
+  {
+    "choice1EffectId": [
+      166001,
+      166101
+    ],
+    "choice1FailEffectId": [
+      166011,
+      166111
+    ],
+    "choice2EffectId": [
+      0,
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623166,
+      1626166
+    ],
+    "choiceFailResultNameTextId": [
+      1625166,
+      1628166
+    ],
+    "choiceResultNameTextId": [
+      1624166,
+      1627166
+    ],
+    "choiceType": [
+      2,
+      2
+    ],
+    "eventDescNameTextId": 1621166,
+    "eventNameTextId": 1620166,
+    "eventSuccessRate": [
+      80,
+      60
+    ],
+    "exitChoiceSwitch": 1,
+    "exitDescNameTextId": 1622003,
+    "groupId": 12,
+    "id": 19
+  },
+  {
+    "choice1EffectId": [
+      167001,
+      167101
+    ],
+    "choice1FailEffectId": [
+      0,
+      0
+    ],
+    "choice2EffectId": [
+      0,
+      167102
+    ],
+    "choiceDescNameTextId": [
+      1623167,
+      1626167
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      0
+    ],
+    "choiceResultNameTextId": [
+      1624167,
+      1627167
+    ],
+    "choiceType": [
+      1,
+      1
+    ],
+    "eventDescNameTextId": 1621167,
+    "eventNameTextId": 1620167,
+    "eventSuccessRate": [
+      100,
+      100
+    ],
+    "exitChoiceSwitch": 1,
+    "exitDescNameTextId": 1622003,
+    "groupId": 123,
+    "id": 20
+  },
+  {
+    "choice1EffectId": [
+      168001,
+      168101
+    ],
+    "choice1FailEffectId": [
+      0,
+      168111
+    ],
+    "choice2EffectId": [
+      168002,
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623168,
+      1626168
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      1628168
+    ],
+    "choiceResultNameTextId": [
+      1624168,
+      1627168
+    ],
+    "choiceType": [
+      1,
+      2
+    ],
+    "eventDescNameTextId": 1621168,
+    "eventNameTextId": 1620168,
+    "eventSuccessRate": [
+      100,
+      20
+    ],
+    "groupId": 3,
+    "id": 3
+  },
+  {
+    "choice1EffectId": [
+      169001,
+      169101
+    ],
+    "choice1FailEffectId": [
+      0,
+      0
+    ],
+    "choice2EffectId": [
+      169002,
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623169,
+      1626169
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      0
+    ],
+    "choiceResultNameTextId": [
+      1624169,
+      1627169
+    ],
+    "choiceType": [
+      1,
+      1
+    ],
+    "eventDescNameTextId": 1621169,
+    "eventNameTextId": 1620169,
+    "eventSuccessRate": [
+      100,
+      100
+    ],
+    "groupId": 23,
+    "id": 20
+  },
+  {
+    "choice1EffectId": [
+      170001,
+      170101
+    ],
+    "choice1FailEffectId": [
+      170011,
+      0
+    ],
+    "choice2EffectId": [
+      0,
+      170102
+    ],
+    "choiceDescNameTextId": [
+      1623170,
+      1626170
+    ],
+    "choiceFailResultNameTextId": [
+      1625170,
+      0
+    ],
+    "choiceResultNameTextId": [
+      1624170,
+      1627170
+    ],
+    "choiceType": [
+      2,
+      1
+    ],
+    "eventDescNameTextId": 1621170,
+    "eventNameTextId": 1620170,
+    "eventSuccessRate": [
+      70,
+      100
+    ],
+    "groupId": 123,
+    "id": 21
+  },
+  {
+    "choice1EffectId": [
+      171001,
+      171101
+    ],
+    "choice1FailEffectId": [
+      171011,
+      171111
+    ],
+    "choice2EffectId": [
+      0,
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623171,
+      1626171
+    ],
+    "choiceFailResultNameTextId": [
+      1625171,
+      1628171
+    ],
+    "choiceResultNameTextId": [
+      1624171,
+      1627171
+    ],
+    "choiceType": [
+      2,
+      2
+    ],
+    "eventDescNameTextId": 1621171,
+    "eventNameTextId": 1620171,
+    "eventSuccessRate": [
+      80,
+      50
+    ],
+    "groupId": 123,
+    "id": 22
+  },
+  {
+    "choice1EffectId": [
+      172001,
+      172101
+    ],
+    "choice1FailEffectId": [
+      0,
+      172111
+    ],
+    "choice2EffectId": [
+      172002,
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623172,
+      1626172
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      1628172
+    ],
+    "choiceResultNameTextId": [
+      1624172,
+      1627172
+    ],
+    "choiceType": [
+      1,
+      2
+    ],
+    "eventDescNameTextId": 1621172,
+    "eventNameTextId": 1620172,
+    "eventSuccessRate": [
+      100,
+      75
+    ],
+    "groupId": 123,
+    "id": 23
+  },
+  {
+    "choice1EffectId": [
+      173001,
+      173101
+    ],
+    "choice1FailEffectId": [
+      173011,
+      173111
+    ],
+    "choice2EffectId": [
+      0,
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623173,
+      1626173
+    ],
+    "choiceFailResultNameTextId": [
+      1625173,
+      1628173
+    ],
+    "choiceResultNameTextId": [
+      1624173,
+      1627173
+    ],
+    "choiceType": [
+      2,
+      2
+    ],
+    "eventDescNameTextId": 1621173,
+    "eventNameTextId": 1620173,
+    "eventSuccessRate": [
+      70,
+      80
+    ],
+    "exitChoiceSwitch": 1,
+    "exitDescNameTextId": 1622003,
+    "groupId": 123,
+    "id": 24
+  },
+  {
+    "choice1EffectId": [
+      174001,
+      174101,
+      174201
+    ],
+    "choice1FailEffectId": [
+      0,
+      0,
+      174211
+    ],
+    "choice2EffectId": [
+      0,
+      0,
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623174,
+      1626174,
+      1629174
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      0,
+      1631174
+    ],
+    "choiceResultNameTextId": [
+      1624174,
+      1627174,
+      1630174
+    ],
+    "choiceType": [
+      1,
+      1,
+      2
+    ],
+    "eventDescNameTextId": 1621174,
+    "eventNameTextId": 1620174,
+    "eventSuccessRate": [
+      100,
+      100,
+      35
+    ],
+    "groupId": 123,
+    "id": 25
+  },
+  {
+    "choice1EffectId": [
+      175001,
+      175101
+    ],
+    "choice1FailEffectId": [
+      175011,
+      0
+    ],
+    "choice2EffectId": [
+      0,
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623175,
+      1626175
+    ],
+    "choiceFailResultNameTextId": [
+      1625175,
+      0
+    ],
+    "choiceResultNameTextId": [
+      1624175,
+      1627175
+    ],
+    "choiceType": [
+      2,
+      1
+    ],
+    "eventDescNameTextId": 1621175,
+    "eventNameTextId": 1620175,
+    "eventSuccessRate": [
+      60,
+      100
+    ],
+    "exitChoiceSwitch": 1,
+    "exitDescNameTextId": 1622003,
+    "groupId": 123,
+    "id": 26
+  },
+  {
+    "choice1EffectId": [
+      176001,
+      176101,
+      176201
+    ],
+    "choice1FailEffectId": [
+      176011,
+      0,
+      0
+    ],
+    "choice2EffectId": [
+      0,
+      0,
+      176202
+    ],
+    "choiceDescNameTextId": [
+      1623176,
+      1626176,
+      1629176
+    ],
+    "choiceFailResultNameTextId": [
+      1625176,
+      0,
+      0
+    ],
+    "choiceResultNameTextId": [
+      1624176,
+      1627176,
+      1630176
+    ],
+    "choiceType": [
+      2,
+      1,
+      1
+    ],
+    "eventDescNameTextId": 1621176,
+    "eventNameTextId": 1620176,
+    "eventSuccessRate": [
+      40,
+      100,
+      100
+    ],
+    "exitChoiceSwitch": 1,
+    "exitDescNameTextId": 1622003,
+    "groupId": 23,
+    "id": 21
+  },
+  {
+    "choice1EffectId": [
+      177001,
+      177101,
+      177201
+    ],
+    "choice1FailEffectId": [
+      177011,
+      177111,
+      0
+    ],
+    "choice2EffectId": [
+      0,
+      0,
+      0
+    ],
+    "choiceDescNameTextId": [
+      1623177,
+      1626177,
+      1629177
+    ],
+    "choiceFailResultNameTextId": [
+      1625177,
+      1628177,
+      0
+    ],
+    "choiceResultNameTextId": [
+      1624177,
+      1627177,
+      1630177
+    ],
+    "choiceType": [
+      2,
+      2,
+      1
+    ],
+    "eventDescNameTextId": 1621177,
+    "eventNameTextId": 1620177,
+    "eventSuccessRate": [
+      80,
+      40,
+      100
+    ],
+    "groupId": 3,
+    "id": 4
+  },
+  {
+    "choice1EffectId": [
+      178001,
+      178101,
+      178201
+    ],
+    "choice1FailEffectId": [
+      0,
+      0,
+      0
+    ],
+    "choice2EffectId": [
+      178002,
+      178102,
+      178202
+    ],
+    "choiceDescNameTextId": [
+      1623178,
+      1626178,
+      1629178
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      0,
+      0
+    ],
+    "choiceResultNameTextId": [
+      1624178,
+      1627178,
+      1630178
+    ],
+    "choiceType": [
+      1,
+      1,
+      1
+    ],
+    "eventDescNameTextId": 1621178,
+    "eventNameTextId": 1620178,
+    "eventSuccessRate": [
+      100,
+      100,
+      100
+    ],
+    "groupId": 23,
+    "id": 22
+  },
+  {
+    "choice1EffectId": [
+      179001,
+      179101
+    ],
+    "choice1FailEffectId": [
+      0,
+      0
+    ],
+    "choice2EffectId": [
+      179002,
+      179102
+    ],
+    "choiceDescNameTextId": [
+      1623179,
+      1626179
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      0
+    ],
+    "choiceResultNameTextId": [
+      1624179,
+      1627179
+    ],
+    "choiceType": [
+      1,
+      1
+    ],
+    "eventDescNameTextId": 1621179,
+    "eventNameTextId": 1620179,
+    "eventSuccessRate": [
+      100,
+      100
+    ],
+    "groupId": 23,
+    "id": 23
+  },
+  {
+    "choice1EffectId": [
+      180001,
+      180101,
+      180201
+    ],
+    "choice1FailEffectId": [
+      0,
+      0,
+      0
+    ],
+    "choice2EffectId": [
+      180002,
+      180102,
+      180202
+    ],
+    "choiceDescNameTextId": [
+      1623180,
+      1626180,
+      1629180
+    ],
+    "choiceFailResultNameTextId": [
+      0,
+      0,
+      0
+    ],
+    "choiceResultNameTextId": [
+      1624180,
+      1627180,
+      1630180
+    ],
+    "choiceType": [
+      1,
+      1,
+      1
+    ],
+    "eventDescNameTextId": 1621180,
+    "eventNameTextId": 1620180,
+    "eventSuccessRate": [
+      100,
+      100,
+      100
+    ],
+    "groupId": 3,
+    "id": 5
+  }
+]

@@ -1,0 +1,9 @@
+[
+  { "activeDay": 14, "id": 1, "typeId": 17 },
+  { "activeDay": 14, "id": 2, "type": 1, "typeId": 6 },
+  { "activeDay": 14, "id": 3, "type": 2, "typeId": 1009, "userType": 1 },
+  { "activeDay": 3, "id": 4, "type": 3, "typeGroupId": 310001, "typeId": 233, "userType": 1 },
+  { "activeDay": 30, "contentTicketId": 450022, "id": 5, "type": 4, "typeId": 95, "userType": 1 },
+  { "id": 6, "scheduleType": 1, "typeId": 131 },
+  { "id": 7, "scheduleType": 1, "type": 1, "typeId": 48 }
+]

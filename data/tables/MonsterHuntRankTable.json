@@ -1,0 +1,438 @@
+[
+  {
+    "groupId": 1,
+    "id": 1,
+    "rankImageIcon": "icon_rank_monsterhunter_6",
+    "rankNameTextId": "1300032",
+    "ranking": 1.0,
+    "seasonRewardCount": [
+      5,
+      300,
+      1
+    ],
+    "seasonRewardId": [
+      1000,
+      17,
+      45018
+    ],
+    "seasonRewardType": [
+      8,
+      8,
+      47
+    ]
+  },
+  {
+    "groupId": 1,
+    "id": 2,
+    "rankImageIcon": "icon_rank_monsterhunter_6",
+    "rankNameTextId": "1300169",
+    "ranking": 10.0,
+    "seasonRewardCount": [
+      5,
+      300,
+      1
+    ],
+    "seasonRewardId": [
+      1000,
+      17,
+      45017
+    ],
+    "seasonRewardType": [
+      8,
+      8,
+      47
+    ]
+  },
+  {
+    "groupId": 1,
+    "id": 3,
+    "rankImageIcon": "icon_rank_monsterhunter_6",
+    "rankNameTextId": "1300170",
+    "ranking": 100.0,
+    "seasonRewardCount": [
+      5,
+      300,
+      1
+    ],
+    "seasonRewardId": [
+      1000,
+      17,
+      45016
+    ],
+    "seasonRewardType": [
+      8,
+      8,
+      47
+    ]
+  },
+  {
+    "groupId": 1,
+    "id": 4,
+    "rankImageIcon": "icon_rank_monsterhunter_6",
+    "rankNameTextId": "1300171",
+    "ranking": 1000.0,
+    "seasonRewardCount": [
+      4,
+      300,
+      1
+    ],
+    "seasonRewardId": [
+      1000,
+      17,
+      45031
+    ],
+    "seasonRewardType": [
+      8,
+      8,
+      47
+    ]
+  },
+  {
+    "groupId": 1,
+    "id": 5,
+    "rankImageIcon": "icon_rank_monsterhunter_5",
+    "rankNameTextId": "1300172",
+    "ranking": 5.0,
+    "rankingType": 1,
+    "seasonRewardCount": [
+      3,
+      250,
+      1
+    ],
+    "seasonRewardId": [
+      1000,
+      17,
+      45031
+    ],
+    "seasonRewardType": [
+      8,
+      8,
+      47
+    ]
+  },
+  {
+    "groupId": 1,
+    "id": 6,
+    "rankImageIcon": "icon_rank_monsterhunter_4",
+    "rankNameTextId": "1300173",
+    "ranking": 10.0,
+    "rankingType": 1,
+    "seasonRewardCount": [
+      3,
+      200
+    ],
+    "seasonRewardId": [
+      1000,
+      17
+    ],
+    "seasonRewardType": [
+      8,
+      8
+    ]
+  },
+  {
+    "groupId": 1,
+    "id": 7,
+    "rankImageIcon": "icon_rank_monsterhunter_3",
+    "rankNameTextId": "1300174",
+    "ranking": 30.0,
+    "rankingType": 1,
+    "seasonRewardCount": [
+      3,
+      150
+    ],
+    "seasonRewardId": [
+      1000,
+      17
+    ],
+    "seasonRewardType": [
+      8,
+      8
+    ]
+  },
+  {
+    "groupId": 1,
+    "id": 8,
+    "rankImageIcon": "icon_rank_monsterhunter_2",
+    "rankNameTextId": "1300175",
+    "ranking": 50.0,
+    "rankingType": 1,
+    "seasonRewardCount": [
+      3,
+      100
+    ],
+    "seasonRewardId": [
+      1000,
+      17
+    ],
+    "seasonRewardType": [
+      8,
+      8
+    ]
+  },
+  {
+    "groupId": 1,
+    "id": 9,
+    "rankImageIcon": "icon_rank_monsterhunter_1",
+    "rankNameTextId": "1300176",
+    "ranking": 100.0,
+    "rankingType": 1,
+    "seasonRewardCount": [
+      3,
+      50
+    ],
+    "seasonRewardId": [
+      1000,
+      17
+    ],
+    "seasonRewardType": [
+      8,
+      8
+    ]
+  },
+  {
+    "groupId": 2,
+    "id": 1,
+    "rankImageIcon": "icon_rank_monsterhunter_6",
+    "rankNameTextId": "1300032",
+    "ranking": 1.0,
+    "seasonRewardCount": [
+      5,
+      300,
+      3,
+      300,
+      1
+    ],
+    "seasonRewardId": [
+      1000,
+      17,
+      127,
+      0,
+      45018
+    ],
+    "seasonRewardType": [
+      8,
+      8,
+      8,
+      33,
+      47
+    ]
+  },
+  {
+    "groupId": 2,
+    "id": 2,
+    "rankImageIcon": "icon_rank_monsterhunter_6",
+    "rankNameTextId": "1300169",
+    "ranking": 10.0,
+    "seasonRewardCount": [
+      5,
+      300,
+      3,
+      300,
+      1
+    ],
+    "seasonRewardId": [
+      1000,
+      17,
+      127,
+      0,
+      45017
+    ],
+    "seasonRewardType": [
+      8,
+      8,
+      8,
+      33,
+      47
+    ]
+  },
+  {
+    "groupId": 2,
+    "id": 3,
+    "rankImageIcon": "icon_rank_monsterhunter_6",
+    "rankNameTextId": "1300170",
+    "ranking": 100.0,
+    "seasonRewardCount": [
+      5,
+      300,
+      3,
+      300,
+      1
+    ],
+    "seasonRewardId": [
+      1000,
+      17,
+      127,
+      0,
+      45016
+    ],
+    "seasonRewardType": [
+      8,
+      8,
+      8,
+      33,
+      47
+    ]
+  },
+  {
+    "groupId": 2,
+    "id": 4,
+    "rankImageIcon": "icon_rank_monsterhunter_6",
+    "rankNameTextId": "1300171",
+    "ranking": 1000.0,
+    "seasonRewardCount": [
+      5,
+      300,
+      3,
+      300,
+      1
+    ],
+    "seasonRewardId": [
+      1000,
+      17,
+      127,
+      0,
+      45031
+    ],
+    "seasonRewardType": [
+      8,
+      8,
+      8,
+      33,
+      47
+    ]
+  },
+  {
+    "groupId": 2,
+    "id": 5,
+    "rankImageIcon": "icon_rank_monsterhunter_5",
+    "rankNameTextId": "1300172",
+    "ranking": 5.0,
+    "rankingType": 1,
+    "seasonRewardCount": [
+      5,
+      300,
+      3,
+      300,
+      1
+    ],
+    "seasonRewardId": [
+      1000,
+      17,
+      127,
+      0,
+      45031
+    ],
+    "seasonRewardType": [
+      8,
+      8,
+      8,
+      33,
+      47
+    ]
+  },
+  {
+    "groupId": 2,
+    "id": 6,
+    "rankImageIcon": "icon_rank_monsterhunter_4",
+    "rankNameTextId": "1300173",
+    "ranking": 10.0,
+    "rankingType": 1,
+    "seasonRewardCount": [
+      5,
+      300,
+      3,
+      300
+    ],
+    "seasonRewardId": [
+      1000,
+      17,
+      127,
+      0
+    ],
+    "seasonRewardType": [
+      8,
+      8,
+      8,
+      33
+    ]
+  },
+  {
+    "groupId": 2,
+    "id": 7,
+    "rankImageIcon": "icon_rank_monsterhunter_3",
+    "rankNameTextId": "1300174",
+    "ranking": 30.0,
+    "rankingType": 1,
+    "seasonRewardCount": [
+      5,
+      300,
+      3,
+      300
+    ],
+    "seasonRewardId": [
+      1000,
+      17,
+      127,
+      0
+    ],
+    "seasonRewardType": [
+      8,
+      8,
+      8,
+      33
+    ]
+  },
+  {
+    "groupId": 2,
+    "id": 8,
+    "rankImageIcon": "icon_rank_monsterhunter_2",
+    "rankNameTextId": "1300175",
+    "ranking": 50.0,
+    "rankingType": 1,
+    "seasonRewardCount": [
+      5,
+      300,
+      3,
+      300
+    ],
+    "seasonRewardId": [
+      1000,
+      17,
+      127,
+      0
+    ],
+    "seasonRewardType": [
+      8,
+      8,
+      8,
+      33
+    ]
+  },
+  {
+    "groupId": 2,
+    "id": 9,
+    "rankImageIcon": "icon_rank_monsterhunter_1",
+    "rankNameTextId": "1300176",
+    "ranking": 100.0,
+    "rankingType": 1,
+    "seasonRewardCount": [
+      5,
+      300,
+      3,
+      300
+    ],
+    "seasonRewardId": [
+      1000,
+      17,
+      127,
+      0
+    ],
+    "seasonRewardType": [
+      8,
+      8,
+      8,
+      33
+    ]
+  }
+]

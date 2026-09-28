@@ -1,0 +1,7 @@
+CREATE TABLE QuestMaxClearInfo (
+    "Index" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "Uid" BIGINT NOT NULL,
+    "PackId" INTEGER NOT NULL DEFAULT 1,
+    "MaxClearId" INTEGER,
+    UNIQUE("Uid", "PackId")
+);

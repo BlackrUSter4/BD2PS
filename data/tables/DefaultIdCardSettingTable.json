@@ -1,0 +1,24 @@
+[
+  {
+    "cardItemEnumType": 6,
+    "colorValue": "FFFFFF",
+    "id": 1,
+    "positionXValue": -218.0,
+    "positionYValue": 156.0,
+    "scaleValue": 0.75
+  },
+  {
+    "cardItemEnumType": 1,
+    "id": 2,
+    "itemId": 10001,
+    "scaleValue": 1.0
+  },
+  {
+    "cardItemEnumType": 4,
+    "id": 3,
+    "itemId": 40001,
+    "positionXValue": -234.0,
+    "positionYValue": 52.0,
+    "scaleValue": 1.0
+  }
+]

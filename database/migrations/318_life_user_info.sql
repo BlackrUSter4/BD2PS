@@ -1,0 +1,11 @@
+CREATE TABLE "LifeUserInfo" (
+    "Uid" BIGINT PRIMARY KEY,
+    "LifeCoin" INTEGER NOT NULL DEFAULT 0,
+    "LifeWorldId" INTEGER,
+    "LoggingLevel" INTEGER NOT NULL DEFAULT 1,
+    "LoggingExp" INTEGER NOT NULL DEFAULT 0,
+    "MiningLevel" INTEGER NOT NULL DEFAULT 1,
+    "MiningExp" INTEGER NOT NULL DEFAULT 0,
+    "FarmingLevel" INTEGER NOT NULL DEFAULT 1,
+    "FarmingExp" INTEGER NOT NULL DEFAULT 0
+);

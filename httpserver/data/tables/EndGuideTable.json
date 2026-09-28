@@ -1,0 +1,28 @@
+[
+  {
+    "atlasName": "LocalPackIcon",
+    "groupId": 1,
+    "guideDescLocalTextId": 500003,
+    "guideNameLocalTextId": 500002,
+    "id": 1,
+    "spinePrefabName": "illust_npc300104_4",
+    "spriteName": "pack_special_pvp"
+  },
+  {
+    "atlasName": "LocalPackIcon",
+    "groupId": 1,
+    "guideDescLocalTextId": 500005,
+    "guideNameLocalTextId": 500004,
+    "id": 2,
+    "spinePrefabName": "illust_npc300103_3",
+    "spriteName": "pack_3003"
+  },
+  {
+    "groupId": 1,
+    "guideDescLocalTextId": 500007,
+    "guideNameLocalTextId": 500006,
+    "guideTextureName": "guide_0002_04",
+    "id": 3,
+    "spinePrefabName": "illust_talk_ELLIN"
+  }
+]

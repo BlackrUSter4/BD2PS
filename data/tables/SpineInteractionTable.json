@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "soundAmbName": "event:/Ambiences/Visual_Novel/AMB_P1007_Night_01",
+    "soundBGMName": "event:/BGM/Visual_Novel/BGM_V04_Interaction",
+    "unlockDatingId": 10,
+    "unlockDatinggroupId": 1
+  },
+  {
+    "id": 2,
+    "soundAmbName": "event:/Ambiences/Visual_Novel/AMB_P1007_Interior_01",
+    "soundBGMName": "event:/BGM/Visual_Novel/BGM_V04_Interaction",
+    "unlockDatingId": 10,
+    "unlockDatinggroupId": 2
+  },
+  {
+    "id": 3,
+    "soundAmbName": "event:/Ambiences/Visual_Novel/AMB_P1007_Interior_01",
+    "soundBGMName": "event:/BGM/Visual_Novel/BGM_V05",
+    "unlockDatingId": 10,
+    "unlockDatinggroupId": 3
+  },
+  {
+    "id": 4,
+    "soundAmbName": "event:/Ambiences/Visual_Novel/AMB_P1007_Night_01",
+    "soundBGMName": "event:/BGM/Visual_Novel/BGM_V04_Interaction",
+    "unlockDatingId": 10,
+    "unlockDatinggroupId": 4
+  },
+  {
+    "id": 5,
+    "soundAmbName": "event:/Ambiences/Visual_Novel/AMB_P1007_Interior_01",
+    "soundBGMName": "event:/BGM/Visual_Novel/BGM_V05",
+    "unlockDatingId": 10,
+    "unlockDatinggroupId": 5
+  },
+  {
+    "id": 6,
+    "soundAmbName": "event:/Ambiences/Visual_Novel/AMB_P1007_Interior_01",
+    "soundBGMName": "event:/BGM/Visual_Novel/BGM_V05",
+    "unlockDatingId": 10,
+    "unlockDatinggroupId": 6
+  },
+  {
+    "id": 7,
+    "soundAmbName": "event:/Ambiences/Visual_Novel/AMB_P1007_Interior_01",
+    "soundBGMName": "event:/BGM/Visual_Novel/BGM_V05",
+    "unlockDatingId": 10,
+    "unlockDatinggroupId": 7
+  },
+  {
+    "id": 8,
+    "soundAmbName": "event:/Ambiences/Visual_Novel/AMB_P1007_Interior_01",
+    "soundBGMName": "event:/BGM/Visual_Novel/BGM_V05",
+    "unlockDatingId": 10,
+    "unlockDatinggroupId": 8
+  },
+  {
+    "id": 1000296,
+    "soundAmbName": "event:/Ambiences/Visual_Novel/AMB_P1007_Interior_01",
+    "soundBGMName": "event:/BGM/Visual_Novel/BGM_V03_Normal"
+  },
+  {
+    "id": 1001197,
+    "soundAmbName": "event:/Ambiences/Visual_Novel/AMB_Common_Beach_01",
+    "soundBGMName": "event:/BGM/Visual_Novel/BGM_V01_Normal"
+  }
+]

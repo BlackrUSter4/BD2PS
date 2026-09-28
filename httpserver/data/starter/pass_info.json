@@ -1,0 +1,80 @@
+{
+  "passInfo": [
+    {
+      "id": 1,
+      "exp": 0,
+      "activePremium_1": false
+    },
+    {
+      "id": 35,
+      "exp": 0,
+      "activePremium_1": false
+    },
+    {
+      "id": 36,
+      "exp": 0,
+      "activePremium_1": false
+    },
+    {
+      "id": 37,
+      "exp": 0,
+      "activePremium_1": false
+    },
+    {
+      "id": 76,
+      "exp": 0,
+      "activePremium_1": false
+    },
+    {
+      "id": 77,
+      "exp": 0,
+      "activePremium_1": false
+    },
+    {
+      "id": 78,
+      "exp": 0,
+      "activePremium_1": false
+    },
+    {
+      "id": 79,
+      "exp": 0,
+      "activePremium_1": false
+    },
+    {
+      "id": 80,
+      "exp": 0,
+      "activePremium_1": false
+    },
+    {
+      "id": 81,
+      "exp": 0,
+      "activePremium_1": false
+    },
+    {
+      "id": 82,
+      "exp": 0,
+      "activePremium_1": false
+    },
+    {
+      "id": 83,
+      "exp": 0,
+      "activePremium_1": false
+    },
+    {
+      "id": 96,
+      "exp": 0,
+      "activePremium_1": false
+    },
+    {
+      "id": 97,
+      "exp": 0,
+      "activePremium_1": false
+    },
+    {
+      "id": 98,
+      "exp": 0,
+      "activePremium_1": false
+    }
+  ],
+  "passRewardInfo": []
+}

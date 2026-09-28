@@ -1,0 +1,887 @@
+[
+  {
+    "conditionTarget": [
+      1
+    ],
+    "conditionType": [
+      2
+    ],
+    "conditionValue": [
+      1004.0
+    ],
+    "id": 1,
+    "limitLocalTextId": 1309011,
+    "limitType": 1,
+    "limitValue": 1
+  },
+  {
+    "conditionTarget": [
+      1
+    ],
+    "conditionType": [
+      1
+    ],
+    "conditionValue": [
+      10.0
+    ],
+    "id": 2,
+    "limitLocalTextId": 1309011,
+    "limitType": 1,
+    "limitValue": 1
+  },
+  {
+    "conditionTarget": [
+      1
+    ],
+    "conditionType": [
+      1
+    ],
+    "conditionValue": [
+      10.0
+    ],
+    "id": 3,
+    "limitLocalTextId": 1309012,
+    "limitType": 1,
+    "limitValue": 2
+  },
+  {
+    "conditionTarget": [
+      3
+    ],
+    "conditionType": [
+      2
+    ],
+    "conditionValue": [
+      2003.0
+    ],
+    "id": 4,
+    "limitLocalTextId": 1309011,
+    "limitType": 1,
+    "limitValue": 1
+  },
+  {
+    "conditionTarget": [
+      3
+    ],
+    "conditionType": [
+      4
+    ],
+    "conditionValue": [
+      4.0
+    ],
+    "id": 5,
+    "limitLocalTextId": 1309011,
+    "limitType": 1,
+    "limitValue": 1
+  },
+  {
+    "conditionTarget": [
+      2
+    ],
+    "conditionType": [
+      2
+    ],
+    "conditionValue": [
+      1001.0
+    ],
+    "id": 6,
+    "limitLocalTextId": 1309011,
+    "limitType": 1,
+    "limitValue": 1
+  },
+  {
+    "conditionTarget": [
+      3
+    ],
+    "conditionType": [
+      2
+    ],
+    "conditionValue": [
+      10000.0
+    ],
+    "id": 7,
+    "limitLocalTextId": 1309021,
+    "limitType": 2,
+    "limitValue": 1
+  },
+  {
+    "conditionTarget": [
+      3
+    ],
+    "conditionType": [
+      2
+    ],
+    "conditionValue": [
+      10001.0
+    ],
+    "id": 8,
+    "limitLocalTextId": 1309021,
+    "limitType": 2,
+    "limitValue": 1
+  },
+  {
+    "conditionTarget": [
+      1
+    ],
+    "conditionType": [
+      1
+    ],
+    "conditionValue": [
+      5.0
+    ],
+    "id": 9,
+    "limitLocalTextId": 1309011,
+    "limitType": 1,
+    "limitValue": 1
+  },
+  {
+    "conditionTarget": [
+      2
+    ],
+    "conditionType": [
+      1
+    ],
+    "conditionValue": [
+      15.0
+    ],
+    "id": 10,
+    "limitLocalTextId": 1309011,
+    "limitType": 1,
+    "limitValue": 1
+  },
+  {
+    "conditionTarget": [
+      2
+    ],
+    "conditionType": [
+      1
+    ],
+    "conditionValue": [
+      14.0
+    ],
+    "id": 11,
+    "limitLocalTextId": 1309011,
+    "limitType": 1,
+    "limitValue": 1
+  },
+  {
+    "conditionTarget": [
+      2
+    ],
+    "conditionType": [
+      1
+    ],
+    "conditionValue": [
+      7.0
+    ],
+    "id": 12,
+    "limitLocalTextId": 1309011,
+    "limitType": 1,
+    "limitValue": 1
+  },
+  {
+    "conditionTarget": [
+      1
+    ],
+    "conditionType": [
+      1
+    ],
+    "conditionValue": [
+      10.0
+    ],
+    "id": 13,
+    "limitLocalTextId": 1309021,
+    "limitType": 2,
+    "limitValue": 1
+  },
+  {
+    "conditionTarget": [
+      1
+    ],
+    "conditionType": [
+      2
+    ],
+    "conditionValue": [
+      1007.0
+    ],
+    "id": 14,
+    "limitLocalTextId": 1309021,
+    "limitType": 2,
+    "limitValue": 1
+  },
+  {
+    "conditionTarget": [
+      1
+    ],
+    "conditionType": [
+      2
+    ],
+    "conditionValue": [
+      1001.0
+    ],
+    "id": 15,
+    "limitLocalTextId": 1309011,
+    "limitType": 1,
+    "limitValue": 1
+  },
+  {
+    "conditionTarget": [
+      3
+    ],
+    "conditionType": [
+      2
+    ],
+    "conditionValue": [
+      10002.0
+    ],
+    "id": 16,
+    "limitLocalTextId": 1309011,
+    "limitType": 1,
+    "limitValue": 1
+  },
+  {
+    "conditionTarget": [
+      2
+    ],
+    "conditionType": [
+      1
+    ],
+    "conditionValue": [
+      7.0
+    ],
+    "id": 17,
+    "limitLocalTextId": 1309011,
+    "limitType": 1,
+    "limitValue": 1
+  },
+  {
+    "conditionTarget": [
+      2
+    ],
+    "conditionType": [
+      1
+    ],
+    "conditionValue": [
+      12.0
+    ],
+    "id": 18,
+    "limitLocalTextId": 1309011,
+    "limitType": 1,
+    "limitValue": 1
+  },
+  {
+    "conditionTarget": [
+      3
+    ],
+    "conditionType": [
+      2
+    ],
+    "conditionValue": [
+      2001.0
+    ],
+    "id": 19,
+    "limitLocalTextId": 1309011,
+    "limitType": 1,
+    "limitValue": 1
+  },
+  {
+    "conditionTarget": [
+      2
+    ],
+    "conditionType": [
+      1
+    ],
+    "conditionValue": [
+      6.0
+    ],
+    "id": 20,
+    "limitLocalTextId": 1309011,
+    "limitType": 1,
+    "limitValue": 1
+  },
+  {
+    "conditionTarget": [
+      3
+    ],
+    "conditionType": [
+      2
+    ],
+    "conditionValue": [
+      1007.0
+    ],
+    "id": 21,
+    "limitLocalTextId": 1309011,
+    "limitType": 1,
+    "limitValue": 1
+  },
+  {
+    "conditionTarget": [
+      2
+    ],
+    "conditionType": [
+      1
+    ],
+    "conditionValue": [
+      12.0
+    ],
+    "id": 22,
+    "limitLocalTextId": 1309011,
+    "limitType": 1,
+    "limitValue": 1
+  },
+  {
+    "conditionTarget": [
+      3
+    ],
+    "conditionType": [
+      2
+    ],
+    "conditionValue": [
+      2009.0
+    ],
+    "id": 23,
+    "limitLocalTextId": 1309011,
+    "limitType": 1,
+    "limitValue": 1
+  },
+  {
+    "conditionTarget": [
+      3
+    ],
+    "conditionType": [
+      4
+    ],
+    "conditionValue": [
+      4.0
+    ],
+    "id": 24,
+    "limitLocalTextId": 1309011,
+    "limitType": 1,
+    "limitValue": 1
+  },
+  {
+    "conditionTarget": [
+      1
+    ],
+    "conditionType": [
+      1
+    ],
+    "conditionValue": [
+      4.0
+    ],
+    "id": 25,
+    "limitLocalTextId": 1309011,
+    "limitType": 1,
+    "limitValue": 1
+  },
+  {
+    "conditionTarget": [
+      3
+    ],
+    "conditionType": [
+      2
+    ],
+    "conditionValue": [
+      1004.0
+    ],
+    "id": 26,
+    "limitLocalTextId": 1309011,
+    "limitType": 1,
+    "limitValue": 1
+  },
+  {
+    "conditionTarget": [
+      2
+    ],
+    "conditionType": [
+      1
+    ],
+    "conditionValue": [
+      20.0
+    ],
+    "id": 27,
+    "limitLocalTextId": 1309011,
+    "limitType": 1,
+    "limitValue": 1
+  },
+  {
+    "conditionTarget": [
+      1
+    ],
+    "conditionType": [
+      1
+    ],
+    "conditionValue": [
+      10.0
+    ],
+    "id": 28,
+    "limitLocalTextId": 1309024,
+    "limitType": 2,
+    "limitValue": 4
+  },
+  {
+    "conditionTarget": [
+      1
+    ],
+    "conditionType": [
+      1
+    ],
+    "conditionValue": [
+      10.0
+    ],
+    "id": 29,
+    "limitLocalTextId": 1309011,
+    "limitType": 1,
+    "limitValue": 1
+  },
+  {
+    "conditionTarget": [
+      3
+    ],
+    "conditionType": [
+      2
+    ],
+    "conditionValue": [
+      2006.0
+    ],
+    "id": 30,
+    "limitLocalTextId": 1309011,
+    "limitType": 1,
+    "limitValue": 1
+  },
+  {
+    "conditionTarget": [
+      2
+    ],
+    "conditionType": [
+      1
+    ],
+    "conditionValue": [
+      8.0
+    ],
+    "id": 31,
+    "limitLocalTextId": 1309011,
+    "limitType": 1,
+    "limitValue": 1
+  },
+  {
+    "conditionTarget": [
+      3
+    ],
+    "conditionType": [
+      4
+    ],
+    "conditionValue": [
+      4.0
+    ],
+    "id": 32,
+    "limitLocalTextId": 1309011,
+    "limitType": 1,
+    "limitValue": 1
+  },
+  {
+    "conditionTarget": [
+      2
+    ],
+    "conditionType": [
+      1
+    ],
+    "conditionValue": [
+      8.0
+    ],
+    "id": 33,
+    "limitLocalTextId": 1309011,
+    "limitType": 1,
+    "limitValue": 1
+  },
+  {
+    "conditionTarget": [
+      2
+    ],
+    "conditionType": [
+      2
+    ],
+    "conditionValue": [
+      2003.0
+    ],
+    "id": 34,
+    "limitLocalTextId": 1309011,
+    "limitType": 1,
+    "limitValue": 1
+  },
+  {
+    "conditionTarget": [
+      2
+    ],
+    "conditionType": [
+      1
+    ],
+    "conditionValue": [
+      9.0
+    ],
+    "id": 35,
+    "limitLocalTextId": 1309011,
+    "limitType": 1,
+    "limitValue": 1
+  },
+  {
+    "conditionTarget": [
+      3
+    ],
+    "conditionType": [
+      2
+    ],
+    "conditionValue": [
+      2004.0
+    ],
+    "id": 36,
+    "limitLocalTextId": 1309011,
+    "limitType": 1,
+    "limitValue": 1
+  },
+  {
+    "conditionTarget": [
+      2
+    ],
+    "conditionType": [
+      1
+    ],
+    "conditionValue": [
+      10.0
+    ],
+    "id": 37,
+    "limitLocalTextId": 1309011,
+    "limitType": 1,
+    "limitValue": 1
+  },
+  {
+    "conditionTarget": [
+      3
+    ],
+    "conditionType": [
+      4
+    ],
+    "conditionValue": [
+      4.0
+    ],
+    "id": 38,
+    "limitLocalTextId": 1309011,
+    "limitType": 1,
+    "limitValue": 1
+  },
+  {
+    "conditionTarget": [
+      3
+    ],
+    "conditionType": [
+      2
+    ],
+    "conditionValue": [
+      2002.0
+    ],
+    "id": 39,
+    "limitLocalTextId": 1309021,
+    "limitType": 2,
+    "limitValue": 1
+  },
+  {
+    "conditionTarget": [
+      2
+    ],
+    "conditionType": [
+      1
+    ],
+    "conditionValue": [
+      7.0
+    ],
+    "id": 40,
+    "limitLocalTextId": 1309021,
+    "limitType": 2,
+    "limitValue": 1
+  },
+  {
+    "conditionTarget": [
+      3
+    ],
+    "conditionType": [
+      2
+    ],
+    "conditionValue": [
+      2006.0
+    ],
+    "id": 41,
+    "limitLocalTextId": 1309013,
+    "limitType": 1,
+    "limitValue": 3
+  },
+  {
+    "conditionTarget": [
+      2
+    ],
+    "conditionType": [
+      1
+    ],
+    "conditionValue": [
+      10.0
+    ],
+    "id": 42,
+    "limitLocalTextId": 1309011,
+    "limitType": 1,
+    "limitValue": 1
+  },
+  {
+    "conditionTarget": [
+      2
+    ],
+    "conditionType": [
+      2
+    ],
+    "conditionValue": [
+      1001.0
+    ],
+    "id": 43,
+    "limitLocalTextId": 1309011,
+    "limitType": 1,
+    "limitValue": 1
+  },
+  {
+    "conditionTarget": [
+      3
+    ],
+    "conditionType": [
+      2
+    ],
+    "conditionValue": [
+      2013.0
+    ],
+    "id": 44,
+    "limitLocalTextId": 1309011,
+    "limitType": 1,
+    "limitValue": 1
+  },
+  {
+    "conditionTarget": [
+      2
+    ],
+    "conditionType": [
+      2
+    ],
+    "conditionValue": [
+      1006.0
+    ],
+    "id": 45,
+    "limitLocalTextId": 1309011,
+    "limitType": 1,
+    "limitValue": 1
+  },
+  {
+    "conditionTarget": [
+      2
+    ],
+    "conditionType": [
+      1
+    ],
+    "conditionValue": [
+      10.0
+    ],
+    "id": 46,
+    "limitLocalTextId": 1309021,
+    "limitType": 2,
+    "limitValue": 1
+  },
+  {
+    "conditionTarget": [
+      2
+    ],
+    "conditionType": [
+      2
+    ],
+    "conditionValue": [
+      1004.0
+    ],
+    "id": 47,
+    "limitLocalTextId": 1309011,
+    "limitType": 1,
+    "limitValue": 1
+  },
+  {
+    "conditionTarget": [
+      2
+    ],
+    "conditionType": [
+      1
+    ],
+    "conditionValue": [
+      9.0
+    ],
+    "id": 48,
+    "limitLocalTextId": 1309011,
+    "limitType": 1,
+    "limitValue": 1
+  },
+  {
+    "conditionTarget": [
+      2
+    ],
+    "conditionType": [
+      1
+    ],
+    "conditionValue": [
+      18.0
+    ],
+    "id": 49,
+    "limitLocalTextId": 1309011,
+    "limitType": 1,
+    "limitValue": 1
+  },
+  {
+    "conditionTarget": [
+      2
+    ],
+    "conditionType": [
+      2
+    ],
+    "conditionValue": [
+      1007.0
+    ],
+    "id": 50,
+    "limitLocalTextId": 1309011,
+    "limitType": 1,
+    "limitValue": 1
+  },
+  {
+    "conditionTarget": [
+      3
+    ],
+    "conditionType": [
+      2
+    ],
+    "conditionValue": [
+      2001.0
+    ],
+    "id": 51,
+    "limitLocalTextId": 1309011,
+    "limitType": 1,
+    "limitValue": 1
+  },
+  {
+    "conditionTarget": [
+      2
+    ],
+    "conditionType": [
+      2
+    ],
+    "conditionValue": [
+      1004.0
+    ],
+    "id": 52,
+    "limitLocalTextId": 1309021,
+    "limitType": 2,
+    "limitValue": 1
+  },
+  {
+    "conditionTarget": [
+      1
+    ],
+    "conditionType": [
+      1
+    ],
+    "conditionValue": [
+      3.0
+    ],
+    "id": 53,
+    "limitLocalTextId": 1309011,
+    "limitType": 1,
+    "limitValue": 1
+  },
+  {
+    "conditionTarget": [
+      2
+    ],
+    "conditionType": [
+      5
+    ],
+    "conditionValue": [
+      2.0
+    ],
+    "id": 54,
+    "limitLocalTextId": 1309021,
+    "limitType": 2,
+    "limitValue": 1
+  },
+  {
+    "conditionTarget": [
+      1
+    ],
+    "conditionType": [
+      2
+    ],
+    "conditionValue": [
+      1001.0
+    ],
+    "id": 55,
+    "limitLocalTextId": 1309022,
+    "limitType": 2,
+    "limitValue": 2
+  },
+  {
+    "conditionTarget": [
+      2
+    ],
+    "conditionType": [
+      5
+    ],
+    "conditionValue": [
+      1.0
+    ],
+    "id": 56,
+    "limitLocalTextId": 1309011,
+    "limitType": 1,
+    "limitValue": 1
+  },
+  {
+    "conditionTarget": [
+      2
+    ],
+    "conditionType": [
+      1
+    ],
+    "conditionValue": [
+      20.0
+    ],
+    "id": 57,
+    "limitLocalTextId": 1309012,
+    "limitType": 1,
+    "limitValue": 2
+  },
+  {
+    "conditionTarget": [
+      3
+    ],
+    "conditionType": [
+      2
+    ],
+    "conditionValue": [
+      2001.0
+    ],
+    "id": 58,
+    "limitLocalTextId": 1309011,
+    "limitType": 1,
+    "limitValue": 1
+  },
+  {
+    "conditionTarget": [
+      3
+    ],
+    "conditionType": [
+      2
+    ],
+    "conditionValue": [
+      2004.0
+    ],
+    "id": 59,
+    "limitLocalTextId": 1309011,
+    "limitType": 1,
+    "limitValue": 1
+  }
+]

@@ -1,0 +1,5 @@
+CREATE TABLE "WaypointInfo" (
+    "Index" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "Uid"    BIGINT NOT NULL UNIQUE,
+    "WaypointId" INTEGER NOT NULL
+);

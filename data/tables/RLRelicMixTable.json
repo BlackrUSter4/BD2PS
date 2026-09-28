@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "mixMaterialRelicId1": 77,
+    "mixMaterialRelicId2": 76,
+    "mixResultRelicId": 901
+  },
+  {
+    "id": 2,
+    "mixMaterialRelicId1": 29,
+    "mixMaterialRelicId2": 31,
+    "mixResultRelicId": 902
+  },
+  {
+    "id": 3,
+    "mixMaterialRelicId1": 33,
+    "mixMaterialRelicId2": 35,
+    "mixResultRelicId": 903
+  },
+  {
+    "id": 4,
+    "mixMaterialRelicId1": 7,
+    "mixMaterialRelicId2": 54,
+    "mixResultRelicId": 904
+  },
+  {
+    "id": 5,
+    "mixMaterialRelicId1": 44,
+    "mixMaterialRelicId2": 49,
+    "mixResultRelicId": 905
+  },
+  {
+    "id": 6,
+    "mixMaterialRelicId1": 40,
+    "mixMaterialRelicId2": 109,
+    "mixResultRelicId": 906
+  },
+  {
+    "id": 7,
+    "mixMaterialRelicId1": 66,
+    "mixMaterialRelicId2": 67,
+    "mixResultRelicId": 907
+  },
+  {
+    "id": 8,
+    "mixMaterialRelicId1": 91,
+    "mixMaterialRelicId2": 92,
+    "mixResultRelicId": 908
+  },
+  {
+    "id": 9,
+    "mixMaterialRelicId1": 1,
+    "mixMaterialRelicId2": 3,
+    "mixResultRelicId": 909
+  },
+  {
+    "id": 10,
+    "mixMaterialRelicId1": 42,
+    "mixMaterialRelicId2": 107,
+    "mixResultRelicId": 910
+  },
+  {
+    "id": 11,
+    "mixMaterialRelicId1": 16,
+    "mixMaterialRelicId2": 90,
+    "mixResultRelicId": 911
+  },
+  {
+    "id": 12,
+    "mixMaterialRelicId1": 25,
+    "mixMaterialRelicId2": 23,
+    "mixResultRelicId": 912
+  },
+  {
+    "id": 13,
+    "mixMaterialRelicId1": 28,
+    "mixMaterialRelicId2": 26,
+    "mixResultRelicId": 913
+  },
+  {
+    "id": 14,
+    "mixMaterialRelicId1": 62,
+    "mixMaterialRelicId2": 61,
+    "mixResultRelicId": 914
+  },
+  {
+    "id": 15,
+    "mixMaterialRelicId1": 51,
+    "mixMaterialRelicId2": 108,
+    "mixResultRelicId": 915
+  },
+  {
+    "id": 16,
+    "mixMaterialRelicId1": 68,
+    "mixMaterialRelicId2": 101,
+    "mixResultRelicId": 916
+  },
+  {
+    "id": 17,
+    "mixMaterialRelicId1": 14,
+    "mixMaterialRelicId2": 9,
+    "mixResultRelicId": 917
+  },
+  {
+    "id": 18,
+    "mixMaterialRelicId1": 13,
+    "mixMaterialRelicId2": 12,
+    "mixResultRelicId": 918
+  },
+  {
+    "id": 19,
+    "mixMaterialRelicId1": 41,
+    "mixMaterialRelicId2": 112,
+    "mixResultRelicId": 919
+  },
+  {
+    "id": 20,
+    "mixMaterialRelicId1": 113,
+    "mixMaterialRelicId2": 64,
+    "mixResultRelicId": 920
+  }
+]

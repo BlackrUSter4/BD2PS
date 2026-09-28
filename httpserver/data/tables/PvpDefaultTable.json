@@ -1,0 +1,43 @@
+[
+  {
+    "BattleBGM": "BGM_CBattle_Common_01",
+    "VP_Min": 1000,
+    "apBoostMaxCount": 10,
+    "battleEndTurn": 50,
+    "battleHistoryHour": 24,
+    "battleHistoryLimitCount": 20,
+    "battleHistoryRefreshCoolTime": 10,
+    "battlePenaltyRatio": 10,
+    "battlePenaltyRound": 5,
+    "battleReadyTime": 30,
+    "battleSkipWaitTurn": 1,
+    "careCount": 2,
+    "careLose": 50,
+    "carePointMax": 1500,
+    "careWin": 150,
+    "correctionFactor": 20,
+    "matchCount": 5,
+    "matchExcludeCount": 5,
+    "matchVpRange": [
+      10,
+      30,
+      50,
+      100,
+      500
+    ],
+    "newbieCare": 10,
+    "popularCostumeMinRankGroupId": 6,
+    "pvpUseCoinCount": 1,
+    "repeatBattleInterval": 3,
+    "searchingPoolCount": 5,
+    "startVP": 1000,
+    "topRankBoundary": 10,
+    "topRankMatchVpRange": [
+      100,
+      250,
+      400,
+      500,
+      750
+    ]
+  }
+]

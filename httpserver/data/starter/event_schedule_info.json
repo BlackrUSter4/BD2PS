@@ -1,0 +1,495 @@
+{
+  "eventScheduleInfo": [
+    {
+      "id": 1,
+      "eventType": "EVENT_ALWAYS_ATTENDANCE",
+      "eventId": 1,
+      "eventSubId": 0,
+      "startDate": -32400000,
+      "endDate": 253370732400000,
+      "isActive": true
+    },
+    {
+      "id": 1198,
+      "eventType": "EVENT_ALWAYS_ATTENDANCE",
+      "eventId": 73,
+      "eventSubId": 0,
+      "startDate": 1761177600000,
+      "endDate": 1762387199000,
+      "isActive": true
+    },
+    {
+      "id": 601,
+      "eventType": "EVENT_WORLD_BUFF",
+      "eventId": 6,
+      "eventSubId": 3003,
+      "startDate": -32400000,
+      "endDate": 253370732400000,
+      "isActive": true
+    },
+    {
+      "id": 49,
+      "eventType": "EVENT_MISSION",
+      "eventId": 1015,
+      "eventSubId": 0,
+      "startDate": 1761177600000,
+      "endDate": 1762387199000,
+      "isActive": true
+    },
+    {
+      "id": 713,
+      "eventType": "EVENT_MISSION",
+      "eventId": 6001,
+      "eventSubId": 0,
+      "startDate": 1743033600000,
+      "endDate": 1893715199000,
+      "isActive": true
+    },
+    {
+      "id": 1158,
+      "eventType": "EVENT_MISSION",
+      "eventId": 2045,
+      "eventSubId": 0,
+      "startDate": 1760054400000,
+      "endDate": 1762387199000,
+      "isActive": true
+    },
+    {
+      "id": 1159,
+      "eventType": "EVENT_MISSION",
+      "eventId": 2044,
+      "eventSubId": 0,
+      "startDate": 1760054400000,
+      "endDate": 1762387199000,
+      "isActive": true
+    },
+    {
+      "id": 1162,
+      "eventType": "EVENT_MISSION",
+      "eventId": 1109,
+      "eventSubId": 0,
+      "startDate": 1760572800000,
+      "endDate": 1761782399000,
+      "isActive": true
+    },
+    {
+      "id": 1197,
+      "eventType": "EVENT_MISSION",
+      "eventId": 3070,
+      "eventSubId": 0,
+      "startDate": 1761177600000,
+      "endDate": 1762387199000,
+      "isActive": true
+    },
+    {
+      "id": 1199,
+      "eventType": "EVENT_MISSION",
+      "eventId": 38,
+      "eventSubId": 0,
+      "startDate": 1761177600000,
+      "endDate": 1762387199000,
+      "isActive": true
+    },
+    {
+      "id": 1200,
+      "eventType": "EVENT_MISSION",
+      "eventId": 1110,
+      "eventSubId": 0,
+      "startDate": 1761177600000,
+      "endDate": 1762387199000,
+      "isActive": true
+    },
+    {
+      "id": 1201,
+      "eventType": "EVENT_MISSION",
+      "eventId": 1111,
+      "eventSubId": 0,
+      "startDate": 1761782400000,
+      "endDate": 1763596799000,
+      "isActive": true
+    },
+    {
+      "id": 1202,
+      "eventType": "EVENT_MISSION",
+      "eventId": 30013,
+      "eventSubId": 0,
+      "startDate": 1761177600000,
+      "endDate": 1762387199000,
+      "isActive": true
+    },
+    {
+      "id": 1203,
+      "eventType": "EVENT_MISSION",
+      "eventId": 11053,
+      "eventSubId": 0,
+      "startDate": 1761782400000,
+      "endDate": 1762387199000,
+      "isActive": true
+    },
+    {
+      "id": 0,
+      "eventType": "EVENT_MISSION",
+      "eventId": 6003,
+      "eventSubId": 0,
+      "startDate": -32400000,
+      "endDate": 253370732400000,
+      "isActive": true
+    },
+    {
+      "id": 0,
+      "eventType": "EVENT_MISSION",
+      "eventId": 7001,
+      "eventSubId": 0,
+      "startDate": 1759017600000,
+      "endDate": 253370732400000,
+      "isActive": true
+    },
+    {
+      "id": 0,
+      "eventType": "EVENT_MISSION",
+      "eventId": 8001,
+      "eventSubId": 0,
+      "startDate": -32400000,
+      "endDate": 253370732400000,
+      "isActive": true
+    },
+    {
+      "id": 0,
+      "eventType": "EVENT_MISSION",
+      "eventId": 8002,
+      "eventSubId": 0,
+      "startDate": -32400000,
+      "endDate": 253370732400000,
+      "isActive": true
+    },
+    {
+      "id": 0,
+      "eventType": "EVENT_MISSION",
+      "eventId": 8003,
+      "eventSubId": 0,
+      "startDate": -32400000,
+      "endDate": 253370732400000,
+      "isActive": true
+    },
+    {
+      "id": 0,
+      "eventType": "EVENT_MISSION",
+      "eventId": 8004,
+      "eventSubId": 0,
+      "startDate": -32400000,
+      "endDate": 253370732400000,
+      "isActive": true
+    },
+    {
+      "id": 1163,
+      "eventType": "EVENT_PASS",
+      "eventId": 97,
+      "eventSubId": 0,
+      "startDate": 1760054400000,
+      "endDate": 1762387199000,
+      "isActive": true
+    },
+    {
+      "id": 1164,
+      "eventType": "EVENT_PASS",
+      "eventId": 96,
+      "eventSubId": 0,
+      "startDate": 1760054400000,
+      "endDate": 1762387199000,
+      "isActive": true
+    },
+    {
+      "id": 1204,
+      "eventType": "EVENT_PASS",
+      "eventId": 98,
+      "eventSubId": 0,
+      "startDate": 1761177600000,
+      "endDate": 1762387199000,
+      "isActive": true
+    },
+    {
+      "id": 1194,
+      "eventType": "EVENT_BATTLE",
+      "eventId": 1,
+      "eventSubId": 0,
+      "startDate": 1761177600000,
+      "endDate": 1762387199000,
+      "isActive": true
+    },
+    {
+      "id": 1195,
+      "eventType": "EVENT_BATTLE",
+      "eventId": 2,
+      "eventSubId": 0,
+      "startDate": 1761177600000,
+      "endDate": 1762387199000,
+      "isActive": true
+    },
+    {
+      "id": 1180,
+      "eventType": "EVENT_STORY",
+      "eventId": 38,
+      "eventSubId": 1,
+      "startDate": 1761177600000,
+      "endDate": 1762387199000,
+      "isActive": true
+    },
+    {
+      "id": 1181,
+      "eventType": "EVENT_STORY",
+      "eventId": 38,
+      "eventSubId": 2,
+      "startDate": 1761177600000,
+      "endDate": 1762387199000,
+      "isActive": true
+    },
+    {
+      "id": 1182,
+      "eventType": "EVENT_STORY",
+      "eventId": 38,
+      "eventSubId": 3,
+      "startDate": 1761177600000,
+      "endDate": 1762387199000,
+      "isActive": true
+    },
+    {
+      "id": 1183,
+      "eventType": "EVENT_STORY",
+      "eventId": 38,
+      "eventSubId": 4,
+      "startDate": 1761177600000,
+      "endDate": 1762387199000,
+      "isActive": true
+    },
+    {
+      "id": 1184,
+      "eventType": "EVENT_STORY",
+      "eventId": 38,
+      "eventSubId": 5,
+      "startDate": 1761177600000,
+      "endDate": 1762387199000,
+      "isActive": true
+    },
+    {
+      "id": 1185,
+      "eventType": "EVENT_STORY",
+      "eventId": 38,
+      "eventSubId": 6,
+      "startDate": 1761177600000,
+      "endDate": 1762387199000,
+      "isActive": true
+    },
+    {
+      "id": 1186,
+      "eventType": "EVENT_STORY",
+      "eventId": 38,
+      "eventSubId": 7,
+      "startDate": 1761177600000,
+      "endDate": 1762387199000,
+      "isActive": true
+    },
+    {
+      "id": 1187,
+      "eventType": "EVENT_STORY",
+      "eventId": 38,
+      "eventSubId": 8,
+      "startDate": 1761177600000,
+      "endDate": 1762387199000,
+      "isActive": false
+    },
+    {
+      "id": 1188,
+      "eventType": "EVENT_STORY",
+      "eventId": 38,
+      "eventSubId": 9,
+      "startDate": 1761177600000,
+      "endDate": 1762387199000,
+      "isActive": false
+    },
+    {
+      "id": 1189,
+      "eventType": "EVENT_STORY",
+      "eventId": 38,
+      "eventSubId": 10,
+      "startDate": 1761177600000,
+      "endDate": 1762387199000,
+      "isActive": false
+    },
+    {
+      "id": 1190,
+      "eventType": "EVENT_STORY",
+      "eventId": 38,
+      "eventSubId": 11,
+      "startDate": 1761177600000,
+      "endDate": 1762387199000,
+      "isActive": false
+    },
+    {
+      "id": 1191,
+      "eventType": "EVENT_STORY",
+      "eventId": 38,
+      "eventSubId": 12,
+      "startDate": 1761177600000,
+      "endDate": 1762387199000,
+      "isActive": false
+    },
+    {
+      "id": 1192,
+      "eventType": "EVENT_STORY",
+      "eventId": 38,
+      "eventSubId": 13,
+      "startDate": 1761177600000,
+      "endDate": 1762387199000,
+      "isActive": false
+    },
+    {
+      "id": 1193,
+      "eventType": "EVENT_STORY",
+      "eventId": 38,
+      "eventSubId": 14,
+      "startDate": 1761177600000,
+      "endDate": 1762387199000,
+      "isActive": false
+    },
+    {
+      "id": 705,
+      "eventType": "EVENT_MINI_GAME",
+      "eventId": 20,
+      "eventSubId": 0,
+      "startDate": 1743033600000,
+      "endDate": 1893715199000,
+      "isActive": true
+    },
+    {
+      "id": 788,
+      "eventType": "EVENT_MINI_GAME",
+      "eventId": 18,
+      "eventSubId": 0,
+      "startDate": 1743033600000,
+      "endDate": 1893715199000,
+      "isActive": true
+    },
+    {
+      "id": 870,
+      "eventType": "EVENT_MINI_GAME",
+      "eventId": 21,
+      "eventSubId": 0,
+      "startDate": 1750291200000,
+      "endDate": 1893715199000,
+      "isActive": true
+    },
+    {
+      "id": 1007,
+      "eventType": "EVENT_MINI_GAME",
+      "eventId": 22,
+      "eventSubId": 0,
+      "startDate": 1750291200000,
+      "endDate": 1893715199000,
+      "isActive": true
+    },
+    {
+      "id": 1103,
+      "eventType": "EVENT_MINI_GAME",
+      "eventId": 23,
+      "eventSubId": 0,
+      "startDate": 1761177600000,
+      "endDate": 1893715199000,
+      "isActive": true
+    },
+    {
+      "id": 1179,
+      "eventType": "EVENT_SHOP",
+      "eventId": 46,
+      "eventSubId": 0,
+      "startDate": 1760054400000,
+      "endDate": 1762387199000,
+      "isActive": true
+    },
+    {
+      "id": 1196,
+      "eventType": "EVENT_SHOP",
+      "eventId": 47,
+      "eventSubId": 0,
+      "startDate": 1761177600000,
+      "endDate": 1763596799000,
+      "isActive": true
+    },
+    {
+      "id": 1205,
+      "eventType": "EVENT_PUZZLE",
+      "eventId": 5,
+      "eventSubId": 0,
+      "startDate": 1761177600000,
+      "endDate": 1762387199000,
+      "isActive": true
+    }
+  ],
+  "delayedVisibilityScheduleInfo": [
+    {
+      "type": "CostumeDesignTable",
+      "id": 57,
+      "tableId": 103600,
+      "openDate": 1763596800000
+    },
+    {
+      "type": "CostumeDesignTable_RogueLike",
+      "id": 66,
+      "tableId": 3902,
+      "openDate": 1761782400000
+    },
+    {
+      "type": "CostumeDesignTable",
+      "id": 67,
+      "tableId": 3902,
+      "openDate": 1761782400000
+    },
+    {
+      "type": "CostumePictorialBookTable",
+      "id": 68,
+      "tableId": 162,
+      "openDate": 1761782400000
+    },
+    {
+      "type": "IdCardItemTable",
+      "id": 69,
+      "tableId": 30150,
+      "openDate": 1761782400000
+    },
+    {
+      "type": "AchievementTable",
+      "id": 70,
+      "tableId": 8148,
+      "openDate": 1761782400000
+    },
+    {
+      "type": "IdCardItemTable",
+      "id": 71,
+      "tableId": 41651,
+      "openDate": 1761782400000
+    },
+    {
+      "type": "IdCardItemTable",
+      "id": 72,
+      "tableId": 13214,
+      "openDate": 1761782400000
+    },
+    {
+      "type": "IdCardItemTable",
+      "id": 73,
+      "tableId": 41151,
+      "openDate": 1761782400000
+    },
+    {
+      "type": "IdCardItemTable",
+      "id": 74,
+      "tableId": 13213,
+      "openDate": 1761782400000
+    },
+    {
+      "type": "CafeteriaCostumeTable",
+      "id": 75,
+      "tableId": 160,
+      "openDate": 1761782400000
+    }
+  ]
+}

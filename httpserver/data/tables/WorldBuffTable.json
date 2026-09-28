@@ -1,0 +1,65 @@
+[
+  {
+    "buffIcon": "bufficon_2000",
+    "buffNoticeLocalTextId": 1251,
+    "buffTitleLocalTextId": 1251,
+    "buffValue": 0.5,
+    "buffdescLocalTextId": 1256,
+    "id": 1,
+    "statType": 11
+  },
+  {
+    "buffIcon": "bufficon_2001",
+    "buffNoticeLocalTextId": 1252,
+    "buffTitleLocalTextId": 1252,
+    "buffValue": 0.5,
+    "buffdescLocalTextId": 1257,
+    "id": 2,
+    "statType": 12
+  },
+  {
+    "buffIcon": "bufficon_2002",
+    "buffNoticeLocalTextId": 1253,
+    "buffTitleLocalTextId": 1253,
+    "buffValue": 0.5,
+    "buffdescLocalTextId": 1258,
+    "id": 3,
+    "statType": 13
+  },
+  {
+    "buffIcon": "bufficon_2003",
+    "buffNoticeLocalTextId": 1254,
+    "buffTitleLocalTextId": 1254,
+    "buffValue": 0.5,
+    "buffdescLocalTextId": 1259,
+    "id": 4,
+    "statType": 14
+  },
+  {
+    "buffIcon": "bufficon_2004",
+    "buffNoticeLocalTextId": 1255,
+    "buffTitleLocalTextId": 1255,
+    "buffValue": 0.5,
+    "buffdescLocalTextId": 1260,
+    "id": 5,
+    "statType": 15
+  },
+  {
+    "buffIcon": "bufficon_81",
+    "buffNoticeLocalTextId": 1292,
+    "buffTitleLocalTextId": 1290,
+    "buffValue": 0.5,
+    "buffdescLocalTextId": 1291,
+    "id": 6,
+    "statType": 19
+  },
+  {
+    "buffIcon": "bufficon_8",
+    "buffNoticeLocalTextId": 1294,
+    "buffTitleLocalTextId": 1290,
+    "buffValue": 0.5,
+    "buffdescLocalTextId": 1293,
+    "id": 7,
+    "statType": 20
+  }
+]

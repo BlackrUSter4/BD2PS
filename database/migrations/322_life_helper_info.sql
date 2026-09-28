@@ -1,0 +1,22 @@
+CREATE TABLE "LifeHelperInfo" (
+    "Index" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "Uid" BIGINT NOT NULL,
+    "HelperIndex" INTEGER,
+    "HelperId" INTEGER,
+    "HelperSlotId" INTEGER,
+    "HelperName" TEXT,
+    "UseCharId" INTEGER,
+    "UseHairId" INTEGER,
+    "UseHairAccessoryId" INTEGER,
+    "UseFaceAccessoryId" INTEGER,
+    "UseCostumeId" INTEGER,
+    "UseBodyAccessoryId" INTEGER,
+    "UseHandAccessoryId" INTEGER,
+    "UsePetId" INTEGER,
+    "UseMountId" INTEGER,
+    "UseEffectId" INTEGER,
+    "AvatarDate" BIGINT,
+    "WorkType" INTEGER,
+    "WorkId" INTEGER,
+    "AssignDate" BIGINT
+);

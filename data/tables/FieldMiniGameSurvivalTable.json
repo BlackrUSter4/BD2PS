@@ -1,0 +1,29 @@
+[
+  {
+    "bombItemPrefab": "MiniGame_001_Char/Effect/SurvivalSkillPrefab_34",
+    "bossMonsterSpawnRange": 5.0,
+    "bossRageTime": 3600,
+    "bossRageValue": 3,
+    "bossSpawnPointPrefab": "MiniGame_001_Char/Effect/SurvivalSkillPrefab_37",
+    "boxNavPrefab": "MiniGame_001_Char/Effect/SurvivalSkillPrefab_36",
+    "characterGroupId": 1,
+    "eventMissionGroupId": 6001,
+    "id": 1,
+    "itemLimitCount": 500,
+    "knockbackRange": 0.2,
+    "knockbackTime": 0.03,
+    "levelupProtectionTime": 0.5,
+    "loadingPrefabName": "loading_Suvival",
+    "mapGroupId": 1,
+    "monsterAttackInterval": 0.8,
+    "monsterSpawnRange": 15.0,
+    "monsterSpwanSpotCount": 16,
+    "normalPickupSpeed": 8.0,
+    "playerAttackInterval": 0.35,
+    "skillCapacity": 6,
+    "spawnLimitCount": 300,
+    "stunEffectPrefabName": "MiniGame_001_Char/Effect/SurvivalSkillPrefab_35_Stun",
+    "timeLimit": 1200,
+    "ultimateReadyPrefab": "MiniGame_001_Char/Effect/SkillReserve_Effect"
+  }
+]

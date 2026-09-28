@@ -1,0 +1,137 @@
+[
+  {
+    "buffID": 980000001,
+    "id": 1,
+    "teamType": 2
+  },
+  {
+    "buffID": 980001001,
+    "id": 2,
+    "teamType": 2
+  },
+  {
+    "buffID": 980002001,
+    "id": 3
+  },
+  {
+    "buffID": 980003001,
+    "id": 4
+  },
+  {
+    "buffID": 980004001,
+    "id": 5,
+    "teamType": 2
+  },
+  {
+    "buffID": 980005001,
+    "id": 6,
+    "teamType": 2
+  },
+  {
+    "buffID": 980006001,
+    "id": 7,
+    "teamType": 1
+  },
+  {
+    "buffID": 980007001,
+    "id": 8,
+    "teamType": 2
+  },
+  {
+    "buffID": 980008001,
+    "id": 9,
+    "teamType": 1
+  },
+  {
+    "buffID": 980009001,
+    "id": 10,
+    "teamType": 1
+  },
+  {
+    "buffID": 980000101,
+    "id": 11,
+    "teamType": 1
+  },
+  {
+    "buffID": 980001101,
+    "id": 12,
+    "teamType": 1
+  },
+  {
+    "buffID": 980002101,
+    "id": 13,
+    "teamType": 1
+  },
+  {
+    "buffID": 980003101,
+    "id": 14,
+    "teamType": 1
+  },
+  {
+    "buffID": 980004101,
+    "id": 15,
+    "teamType": 1
+  },
+  {
+    "buffID": 980005101,
+    "id": 16,
+    "teamType": 1
+  },
+  {
+    "buffID": 980006101,
+    "id": 17,
+    "teamType": 1
+  },
+  {
+    "buffID": 980007101,
+    "id": 18
+  },
+  {
+    "buffID": 980008101,
+    "id": 19
+  },
+  {
+    "buffID": 980009101,
+    "id": 20,
+    "teamType": 1
+  },
+  {
+    "buffID": 980000201,
+    "id": 21,
+    "teamType": 2
+  },
+  {
+    "buffID": 980001201,
+    "id": 22,
+    "teamType": 2
+  },
+  {
+    "buffID": 980002201,
+    "id": 23
+  },
+  {
+    "buffID": 980003201,
+    "id": 24,
+    "teamType": 2
+  },
+  {
+    "buffID": 980004201,
+    "id": 25,
+    "teamType": 2
+  },
+  {
+    "buffID": 980005201,
+    "id": 26,
+    "teamType": 1
+  },
+  {
+    "buffID": 980006201,
+    "id": 27,
+    "teamType": 1
+  },
+  {
+    "buffID": 980007201,
+    "id": 28,
+    "teamType": 1
+  }
+]

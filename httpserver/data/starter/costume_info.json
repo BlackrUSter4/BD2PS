@@ -1,0 +1,70 @@
+{
+  "costumeInfo": [
+    {
+      "pictorialbookInfo": [],
+      "potentialId": [],
+      "invenIndex": 228650011,
+      "id": 64701,
+      "level": 0,
+      "useChar": 208813633,
+      "sortId": 0,
+      "useMyRoomCount": 0,
+      "designId": 0
+    },
+    {
+      "pictorialbookInfo": [],
+      "potentialId": [],
+      "invenIndex": 228650012,
+      "id": 64801,
+      "level": 0,
+      "useChar": 208813634,
+      "sortId": 0,
+      "useMyRoomCount": 0,
+      "designId": 0
+    },
+    {
+      "pictorialbookInfo": [],
+      "potentialId": [],
+      "invenIndex": 228650013,
+      "id": 64901,
+      "level": 0,
+      "useChar": 208813635,
+      "sortId": 0,
+      "useMyRoomCount": 0,
+      "designId": 0
+    },
+    {
+      "pictorialbookInfo": [],
+      "potentialId": [],
+      "invenIndex": 228650014,
+      "id": 65001,
+      "level": 0,
+      "useChar": 208813636,
+      "sortId": 0,
+      "useMyRoomCount": 0,
+      "designId": 0
+    },
+    {
+      "pictorialbookInfo": [],
+      "potentialId": [],
+      "invenIndex": 228650015,
+      "id": 60101,
+      "level": 0,
+      "useChar": 208813637,
+      "sortId": 0,
+      "useMyRoomCount": 0,
+      "designId": 0
+    },
+    {
+      "pictorialbookInfo": [],
+      "potentialId": [],
+      "invenIndex": 228650017,
+      "id": 101,
+      "level": 0,
+      "useChar": 208813639,
+      "sortId": 0,
+      "useMyRoomCount": 0,
+      "designId": 0
+    }
+  ]
+}

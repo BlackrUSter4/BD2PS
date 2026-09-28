@@ -1,0 +1,14 @@
+pub mod ib_deck_info;
+pub mod ib_deck_save;
+pub mod ib_dungeon_enter;
+pub mod ib_dungeon_give_up;
+pub mod ib_item_info;
+pub mod ib_item_sell;
+pub mod ib_item_upgrade;
+pub mod ib_main_info;
+pub mod ib_shop_buy;
+pub mod ib_shop_info;
+pub mod ib_shop_item_reserve;
+pub mod ib_shop_refresh;
+pub mod ib_stage_end;
+pub mod ib_stage_start;

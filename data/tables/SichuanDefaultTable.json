@@ -1,0 +1,15 @@
+[
+  {
+    "alertTime": 500,
+    "challengeHintTime": 1500,
+    "comboBonusFaceillust": "illust_npcface00389907_896",
+    "comboTimer": 250,
+    "hintTime": 500,
+    "id": 1,
+    "loadingPrefabName": "loading_Sichuan",
+    "puzzleHeight": 7,
+    "puzzleWidth": 16,
+    "rankMaxCount": 10,
+    "timerBonus": 1000
+  }
+]

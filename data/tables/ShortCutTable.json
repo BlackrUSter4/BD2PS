@@ -1,0 +1,853 @@
+[
+  {
+    "id": 1,
+    "magicValue": [
+      0
+    ],
+    "uiName": "CharManageUI"
+  },
+  {
+    "id": 2,
+    "magicValue": [
+      0
+    ],
+    "uiName": "PictorialBookUI"
+  },
+  {
+    "id": 3,
+    "magicValue": [
+      0
+    ],
+    "uiName": "InventoryManageUI"
+  },
+  {
+    "id": 4,
+    "magicValue": [
+      1
+    ],
+    "uiName": "InventoryManageUI"
+  },
+  {
+    "id": 5,
+    "magicValue": [
+      2
+    ],
+    "uiName": "InventoryManageUI"
+  },
+  {
+    "id": 6,
+    "magicValue": [
+      1,
+      2
+    ],
+    "uiName": "CashShopUI"
+  },
+  {
+    "id": 7,
+    "magicValue": [
+      0
+    ],
+    "uiName": "AccountConnectPopupUI"
+  },
+  {
+    "id": 8,
+    "magicValue": [
+      0
+    ],
+    "uiName": "GachaMainUI"
+  },
+  {
+    "id": 9,
+    "magicValue": [
+      1
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 10,
+    "magicValue": [
+      2
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 11,
+    "magicValue": [
+      3
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 12,
+    "magicValue": [
+      4
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 13,
+    "magicValue": [
+      5
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 14,
+    "magicValue": [
+      6
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 15,
+    "magicValue": [
+      7
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 16,
+    "magicValue": [
+      8
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 17,
+    "magicValue": [
+      9
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 18,
+    "magicValue": [
+      10
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 19,
+    "magicValue": [
+      1001
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 20,
+    "magicValue": [
+      1002
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 21,
+    "magicValue": [
+      1003
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 22,
+    "magicValue": [
+      1004
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 23,
+    "magicValue": [
+      3001
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 24,
+    "magicValue": [
+      3002
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 25,
+    "magicValue": [
+      3003
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 26,
+    "magicValue": [
+      3004
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 27,
+    "magicValue": [
+      2001
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 28,
+    "magicValue": [
+      3,
+      2
+    ],
+    "uiName": "CashShopUI"
+  },
+  {
+    "id": 29,
+    "magicValue": [
+      1005
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 30,
+    "magicValue": [
+      1006
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 31,
+    "magicValue": [
+      2002
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 32,
+    "magicValue": [
+      0
+    ],
+    "uiName": "FriendUI"
+  },
+  {
+    "id": 34,
+    "uiName": "MyRoomUI"
+  },
+  {
+    "id": 35,
+    "magicValue": [
+      0
+    ],
+    "uiName": "EventMainUI"
+  },
+  {
+    "id": 36,
+    "magicValue": [
+      41
+    ],
+    "uiName": "PassUI"
+  },
+  {
+    "id": 37,
+    "magicValue": [
+      20
+    ],
+    "uiName": "PassUI"
+  },
+  {
+    "id": 38,
+    "magicValue": [
+      3005
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 39,
+    "magicValue": [
+      11
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 40,
+    "magicValue": [
+      12
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 41,
+    "magicValue": [
+      13
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 42,
+    "magicValue": [
+      1
+    ],
+    "uiName": "CharManageUI"
+  },
+  {
+    "id": 43,
+    "magicValue": [
+      2
+    ],
+    "uiName": "CharManageUI"
+  },
+  {
+    "id": 44,
+    "magicValue": [
+      14
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 45,
+    "magicValue": [
+      0
+    ],
+    "uiName": "GuildUI"
+  },
+  {
+    "id": 46,
+    "magicValue": [
+      2003
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 47,
+    "magicValue": [
+      2004
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 48,
+    "magicValue": [
+      1007
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 49,
+    "magicValue": [
+      2005
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 50,
+    "magicValue": [
+      15
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 51,
+    "magicValue": [
+      0
+    ],
+    "uiName": "WorldMapUI"
+  },
+  {
+    "id": 52,
+    "magicValue": [
+      340
+    ],
+    "uiName": "EventUI"
+  },
+  {
+    "id": 53,
+    "magicValue": [
+      378
+    ],
+    "uiName": "EventUI"
+  },
+  {
+    "id": 54,
+    "magicValue": [
+      366
+    ],
+    "uiName": "EventUI"
+  },
+  {
+    "id": 55,
+    "magicValue": [
+      367
+    ],
+    "uiName": "EventUI"
+  },
+  {
+    "id": 56,
+    "magicValue": [
+      16
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 57,
+    "magicValue": [
+      5,
+      1
+    ],
+    "uiName": "CashShopUI"
+  },
+  {
+    "id": 58,
+    "magicValue": [
+      5,
+      2
+    ],
+    "uiName": "CashShopUI"
+  },
+  {
+    "id": 59,
+    "magicValue": [
+      5,
+      3
+    ],
+    "uiName": "CashShopUI"
+  },
+  {
+    "id": 60,
+    "magicValue": [
+      2,
+      1
+    ],
+    "uiName": "CashShopUI"
+  },
+  {
+    "id": 61,
+    "magicValue": [
+      3,
+      1
+    ],
+    "uiName": "CashShopUI"
+  },
+  {
+    "id": 62,
+    "magicValue": [
+      17
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 63,
+    "magicValue": [
+      2006
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 64,
+    "magicValue": [
+      1
+    ],
+    "uiName": "MissionUI"
+  },
+  {
+    "id": 65,
+    "magicValue": [
+      2
+    ],
+    "uiName": "AchievementUI"
+  },
+  {
+    "id": 66,
+    "magicValue": [
+      0
+    ],
+    "uiName": "EtcUI"
+  },
+  {
+    "id": 67,
+    "magicValue": [
+      3007
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 68,
+    "magicValue": [
+      0
+    ],
+    "uiName": "CafeteriaRewardPopupUI"
+  },
+  {
+    "id": 69,
+    "magicValue": [
+      0
+    ],
+    "uiName": "LobbySettingUI"
+  },
+  {
+    "id": 70,
+    "magicValue": [
+      5,
+      1
+    ],
+    "uiName": "EventMainUI"
+  },
+  {
+    "id": 71,
+    "magicValue": [
+      0,
+      2
+    ],
+    "uiName": "CharUI"
+  },
+  {
+    "id": 72,
+    "magicValue": [
+      30
+    ],
+    "uiName": "EquipmentMakingSelectUI"
+  },
+  {
+    "id": 73,
+    "magicValue": [
+      0,
+      2
+    ],
+    "uiName": "CharLevelupUI"
+  },
+  {
+    "id": 74,
+    "magicValue": [
+      1,
+      2
+    ],
+    "uiName": "CharLevelupUI"
+  },
+  {
+    "id": 75,
+    "magicValue": [
+      0,
+      202
+    ],
+    "uiName": "CostumeUpgradeUI"
+  },
+  {
+    "id": 76,
+    "magicValue": [
+      1,
+      30
+    ],
+    "uiName": "EquipmentMakingUI"
+  },
+  {
+    "id": 77,
+    "magicValue": [
+      2007
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 78,
+    "magicValue": [
+      2,
+      1,
+      0
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 79,
+    "magicValue": [
+      3,
+      1,
+      0
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 80,
+    "magicValue": [
+      4,
+      1,
+      0
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 81,
+    "magicValue": [
+      5,
+      1,
+      0
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 82,
+    "magicValue": [
+      6,
+      1,
+      0
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 83,
+    "magicValue": [
+      7,
+      1,
+      0
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 84,
+    "magicValue": [
+      8,
+      1,
+      0
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 85,
+    "magicValue": [
+      9,
+      1,
+      0
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 86,
+    "magicValue": [
+      10,
+      1,
+      0
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 87,
+    "magicValue": [
+      11,
+      1,
+      0
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 88,
+    "magicValue": [
+      12,
+      1,
+      0
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 89,
+    "magicValue": [
+      13,
+      1,
+      0
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 90,
+    "magicValue": [
+      14,
+      1,
+      0
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 91,
+    "magicValue": [
+      15,
+      1,
+      0
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 92,
+    "magicValue": [
+      16,
+      1,
+      0
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 93,
+    "magicValue": [
+      17,
+      1,
+      0
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 94,
+    "magicValue": [
+      1,
+      2,
+      1,
+      6
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 95,
+    "magicValue": [
+      1,
+      2,
+      4,
+      6
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 96,
+    "magicValue": [
+      2,
+      2,
+      4,
+      6
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 97,
+    "magicValue": [
+      3,
+      2,
+      4,
+      6
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 98,
+    "magicValue": [
+      4,
+      2,
+      4,
+      6
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 99,
+    "magicValue": [
+      5,
+      2,
+      4,
+      6
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 100,
+    "magicValue": [
+      6,
+      2,
+      4,
+      5
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 101,
+    "magicValue": [
+      7,
+      2,
+      4,
+      6
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 102,
+    "magicValue": [
+      8,
+      2,
+      4,
+      6
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 103,
+    "magicValue": [
+      9,
+      2,
+      4,
+      6
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 104,
+    "magicValue": [
+      10,
+      2,
+      4,
+      6
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 105,
+    "magicValue": [
+      2,
+      2,
+      1,
+      2
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 106,
+    "magicValue": [
+      0,
+      30
+    ],
+    "uiName": "CharUI"
+  },
+  {
+    "id": 107,
+    "magicValue": [
+      74
+    ],
+    "uiName": "PassUI"
+  },
+  {
+    "id": 108,
+    "magicValue": [
+      1,
+      1,
+      0
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 109,
+    "magicValue": [
+      102
+    ],
+    "uiName": "GachaMainUI"
+  },
+  {
+    "id": 110,
+    "magicValue": [
+      18
+    ],
+    "uiName": "PackInfoUI"
+  },
+  {
+    "id": 111,
+    "magicValue": [
+      3007
+    ],
+    "uiName": "PackInfoUI"
+  }
+]

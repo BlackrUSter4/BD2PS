@@ -1,0 +1,4 @@
+[
+  { "id": 1000, "isProlog": 1, "mapId": 3, "packId": 1, "questConditionQuestTextId": 20001, "questDescQuestTextId": 10000, "questGroupId": 99, "questId": 1, "questNameQuestTextId": 3001, "storyType": 1, "timelineName": "Quest_Main_01_01" },
+  { "id": 1001, "mapId": 1, "packId": 1, "questConditionQuestTextId": 500049, "questDescQuestTextId": 10001, "questGroupId": 1, "questId": 1, "questNameQuestTextId": 3001, "storyType": 1, "timelineName": "Quest_Main_01_03" }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "costumeRewardGroupId": 150001,
+    "id": 1,
+    "recommendCostumeId": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "costumeRewardGroupId": 150002,
+    "id": 2,
+    "recommendCostumeId": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "costumeRewardGroupId": 150003,
+    "id": 3,
+    "recommendCostumeId": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "costumeRewardGroupId": 150004,
+    "id": 4,
+    "recommendCostumeId": [
+      103,
+      2401,
+      61002,
+      0
+    ]
+  },
+  {
+    "costumeRewardGroupId": 150005,
+    "id": 5,
+    "recommendCostumeId": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "costumeRewardGroupId": 150006,
+    "id": 6,
+    "recommendCostumeId": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+]

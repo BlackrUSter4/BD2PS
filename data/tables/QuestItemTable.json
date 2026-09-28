@@ -1,0 +1,5 @@
+[
+  { "iconSpriteName": "icon_questItem26_26", "id": 27, "itemAcquireNameTextId": 85053, "itemDescNameTextId": 38033, "itemNameTextId": 37033, "notTrash": 1, "stackCount": 1 },
+  { "iconSpriteName": "icon_questItem2_2", "id": 2, "itemAcquireNameTextId": 85002, "itemDescNameTextId": 38002, "itemNameTextId": 37002, "notTrash": 1, "stackCount": 1 },
+  { "iconSpriteName": "icon_questItem4_4", "id": 4, "itemAcquireNameTextId": 85001, "itemDescNameTextId": 38004, "itemNameTextId": 37004, "notTrash": 1, "stackCount": 1 }
+]

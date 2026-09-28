@@ -1,0 +1,6 @@
+CREATE TABLE "RecipeInfo" (
+    "Index" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "Uid" BIGINT NOT NULL,
+    "Seq" INTEGER,
+    "RecipeId" INTEGER NOT NULL
+);

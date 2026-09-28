@@ -1,0 +1,33 @@
+[
+  {
+    "eventNameLocalTextId": 23501,
+    "id": 1,
+    "packId": [
+      1004,
+      3004,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "ratio": 8000,
+    "rewardItemCount": 2,
+    "rewardItemId": 2001,
+    "rewardItemType": 8
+  },
+  {
+    "eventNameLocalTextId": 23503,
+    "id": 2,
+    "packId": [
+      2001
+    ],
+    "ratio": 10000,
+    "rewardItemCount": 12,
+    "rewardItemId": 2002,
+    "rewardItemType": 8
+  }
+]

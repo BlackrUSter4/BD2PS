@@ -1,0 +1,10 @@
+﻿
+message PvpBattleRankDetailInfo {
+  optional int64 owner_index = 1;
+  optional int32 vp = 2;
+  optional int32 rank = 3;
+  optional int32 win_count = 4;
+  optional int32 lose_count = 5;
+  optional int32 portrait_costume_id = 6;
+  optional string deck_info = 7;
+}

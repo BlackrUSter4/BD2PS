@@ -1,0 +1,33 @@
+{
+  "attendanceAlwaysInfo": [
+    {
+      "eventScheduleId": 1,
+      "attendanceGroupId": 3,
+      "attendanceCount": 1
+    },
+    {
+      "eventScheduleId": 1198,
+      "attendanceGroupId": 76,
+      "attendanceCount": 2
+    }
+  ],
+  "attendanceLimitInfo": [],
+  "standardAttendanceInfo": [],
+  "premiumAttendanceInfo": [],
+  "monthly1AttendanceInfo": [],
+  "monthly2AttendanceInfo": [],
+  "subscribeAttendanceInfo": [],
+  "attendancePackageInfo": [],
+  "attendanceEventRewardObtainInfo": [
+    {
+      "eventScheduleId": 1,
+      "groupId": 3,
+      "id": 1
+    },
+    {
+      "eventScheduleId": 1198,
+      "groupId": 76,
+      "id": 2
+    }
+  ]
+}

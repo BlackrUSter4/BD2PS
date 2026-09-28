@@ -1,0 +1,4 @@
+[
+  { "catalystValue": 1, "classType": 1, "costumeDesignId": [ 64901 ], "costumeId": [ 64901 ], "getExp": 8, "groupId": 114, "id": 1, "resetType": 2, "talentSkillDescLocalTextId": [ 27011 ], "talentSkillIconSpriteName": "talent_bufficon_1_{0}", "talentSkillNameLocalTextId": [ 26021 ], "targetType": 1, "valueList": [ 100, 79200, 0 ] },
+  { "catalystValue": 5, "classType": 6, "costumeDesignId": [ 101, 102, 103, 104, 105, 106 ], "costumeId": [ 101, 102, 103, 104, 105, 106 ], "getExp": 1, "groupId": 605, "id": 1, "talentSkillDescLocalTextId": [ 27006, 27006, 27006, 27006, 27006, 27006 ], "talentSkillIconSpriteName": "talent_bufficon_6_{0}", "talentSkillNameLocalTextId": [ 26006, 26022, 26072, 26061, 26060, 26068 ], "valueList": [ 9999, 15, 0 ] }
+]

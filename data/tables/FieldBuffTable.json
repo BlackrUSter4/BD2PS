@@ -1,0 +1,933 @@
+[
+  {
+    "buffDescLocalTextId": 409,
+    "buffLargeIcon": "bufficon_100_l",
+    "buffNameLocalTextId": 419,
+    "buffSmallIcon": "bufficon_100",
+    "buffTime": 2.0,
+    "fieldDescLocalTextId": 409,
+    "id": 1,
+    "renderType": 1,
+    "targetType": 2,
+    "value": 2000001.0
+  },
+  {
+    "buffDescLocalTextId": 410,
+    "buffLargeIcon": "bufficon_200_l",
+    "buffNameLocalTextId": 420,
+    "buffSmallIcon": "bufficon_200",
+    "buffTime": 2.0,
+    "fieldDescLocalTextId": 410,
+    "id": 2,
+    "renderType": 1,
+    "selectBuff": 1,
+    "targetType": 2,
+    "value": 2000002.0
+  },
+  {
+    "buffDescLocalTextId": 417,
+    "buffLargeIcon": "bufficon_101_l",
+    "buffNameLocalTextId": 411,
+    "buffSmallIcon": "bufficon_101",
+    "buffTime": 5.0,
+    "buffType": 1,
+    "disappearTime": 2.0,
+    "fieldDescLocalTextId": 417,
+    "id": 3,
+    "renderType": 2,
+    "value": 1.0
+  },
+  {
+    "buffDescLocalTextId": 418,
+    "buffLargeIcon": "bufficon_201_l",
+    "buffNameLocalTextId": 412,
+    "buffSmallIcon": "bufficon_201",
+    "buffTime": 5.0,
+    "buffType": 1,
+    "disappearTime": 2.0,
+    "fieldDescLocalTextId": 418,
+    "id": 4,
+    "renderType": 2,
+    "selectBuff": 1,
+    "value": 1.0
+  },
+  {
+    "buffDescLocalTextId": 429,
+    "buffNameLocalTextId": 413,
+    "buffType": 2,
+    "fieldDescLocalTextId": 429,
+    "id": 5,
+    "targetType": 2,
+    "value": 30.0
+  },
+  {
+    "buffDescLocalTextId": 429,
+    "buffNameLocalTextId": 413,
+    "buffType": 3,
+    "fieldDescLocalTextId": 429,
+    "id": 6,
+    "targetType": 2,
+    "value": 0.5
+  },
+  {
+    "buffDescLocalTextId": 428,
+    "buffNameLocalTextId": 413,
+    "buffType": 2,
+    "fieldDescLocalTextId": 428,
+    "id": 7,
+    "targetType": 1,
+    "value": 30.0
+  },
+  {
+    "buffDescLocalTextId": 428,
+    "buffNameLocalTextId": 413,
+    "buffType": 3,
+    "fieldDescLocalTextId": 428,
+    "id": 8,
+    "targetType": 1,
+    "value": 0.5
+  },
+  {
+    "buffDescLocalTextId": 427,
+    "buffNameLocalTextId": 413,
+    "buffType": 2,
+    "fieldDescLocalTextId": 427,
+    "id": 9,
+    "value": 30.0
+  },
+  {
+    "buffDescLocalTextId": 427,
+    "buffNameLocalTextId": 413,
+    "buffType": 3,
+    "fieldDescLocalTextId": 427,
+    "id": 10,
+    "value": 0.5
+  },
+  {
+    "buffDescLocalTextId": 432,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 432,
+    "id": 11,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "targetType": 2,
+    "value": 30.0
+  },
+  {
+    "buffDescLocalTextId": 432,
+    "buffNameLocalTextId": 414,
+    "buffType": 5,
+    "fieldDescLocalTextId": 432,
+    "id": 12,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "targetType": 2,
+    "value": 0.5
+  },
+  {
+    "buffDescLocalTextId": 431,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 431,
+    "id": 13,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "targetType": 1,
+    "value": 30.0
+  },
+  {
+    "buffDescLocalTextId": 431,
+    "buffNameLocalTextId": 414,
+    "buffType": 5,
+    "fieldDescLocalTextId": 431,
+    "id": 14,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "targetType": 1,
+    "value": 0.5
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 430,
+    "id": 15,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "value": 30.0
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 5,
+    "fieldDescLocalTextId": 430,
+    "id": 16,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "value": 0.5
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 431,
+    "id": 17,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "value": 50.0
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 5,
+    "fieldDescLocalTextId": 431,
+    "id": 18,
+    "selectBuff": 1,
+    "value": 0.1
+  },
+  {
+    "buffDescLocalTextId": 428,
+    "buffNameLocalTextId": 413,
+    "buffType": 3,
+    "fieldDescLocalTextId": 428,
+    "id": 19,
+    "targetType": 1,
+    "value": 0.3
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 430,
+    "id": 101,
+    "knockBack": 1,
+    "selectBuff": 1
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 430,
+    "id": 201,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "value": 50.0
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 430,
+    "id": 202,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "value": 100.0
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 430,
+    "id": 203,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "value": 50.0
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 430,
+    "id": 301,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "value": 50.0
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 430,
+    "id": 302,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "value": 100.0
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 430,
+    "id": 303,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "value": 150.0
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 430,
+    "id": 304,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "value": 75.0
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 430,
+    "id": 401,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "value": 200.0
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 430,
+    "id": 402,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "value": 100.0
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 430,
+    "id": 501,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "value": 200.0
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 430,
+    "id": 502,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "value": 100.0
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 5,
+    "fieldDescLocalTextId": 430,
+    "id": 503,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "value": 0.5
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 430,
+    "id": 504,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "value": 150.0
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 430,
+    "id": 601,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "value": 210.0
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 430,
+    "id": 602,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "value": 150.0
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 430,
+    "id": 701,
+    "selectBuff": 1,
+    "value": 300.0
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 430,
+    "id": 702,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "value": 200.0
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 430,
+    "id": 703,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "value": 230.0
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 430,
+    "id": 801,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "value": 200.0
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 430,
+    "id": 802,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "value": 200.0
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 430,
+    "id": 901,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "value": 200.0
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 430,
+    "id": 1001,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "value": 250.0
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 430,
+    "id": 1101,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "value": 200.0
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 430,
+    "id": 1102,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "value": 230.0
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 430,
+    "id": 1103,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "value": 200.0
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 430,
+    "id": 1201,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "value": 500.0
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 430,
+    "id": 1202,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "value": 200.0
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 430,
+    "id": 1203,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "value": 250.0
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 430,
+    "id": 1401,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "value": 250.0
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 430,
+    "id": 1402,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "value": 200.0
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 430,
+    "id": 1501,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "value": 250.0
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 430,
+    "id": 1502,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "value": 300.0
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 430,
+    "id": 1601,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "value": 250.0
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 430,
+    "id": 1602,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "value": 300.0
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 430,
+    "id": 1701,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "value": 250.0
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 430,
+    "id": 1702,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "value": 300.0
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 430,
+    "id": 100101,
+    "selectBuff": 1,
+    "value": 20.0
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 430,
+    "id": 100102,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "value": 10.0
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 5,
+    "fieldDescLocalTextId": 430,
+    "id": 100201,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "value": 0.5
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 430,
+    "id": 100202,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "value": 5.0
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 430,
+    "id": 100203,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "value": 5.0
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 430,
+    "id": 100301,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "value": 25.0
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 430,
+    "id": 100302,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "value": 50.0
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 430,
+    "id": 100303,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "value": 10.0
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 430,
+    "id": 100401,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "value": 40.0
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 430,
+    "id": 100402,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "value": 10.0
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 430,
+    "id": 100501,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "value": 10.0
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 430,
+    "id": 100601,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "value": 25.0
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 430,
+    "id": 100602,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "value": 10.0
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 430,
+    "id": 100701,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "value": 10.0
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 431,
+    "id": 200201,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "targetType": 1
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 431,
+    "id": 200202,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "targetType": 1
+  },
+  {
+    "buffDescLocalTextId": 431,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 431,
+    "id": 300311,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "targetType": 1
+  },
+  {
+    "buffDescLocalTextId": 431,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 431,
+    "id": 300312,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "targetType": 1
+  },
+  {
+    "buffDescLocalTextId": 431,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 431,
+    "id": 300321,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "targetType": 1
+  },
+  {
+    "buffDescLocalTextId": 431,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 431,
+    "id": 300322,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "targetType": 1
+  },
+  {
+    "buffDescLocalTextId": 431,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 431,
+    "id": 300323,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "targetType": 1
+  },
+  {
+    "buffDescLocalTextId": 431,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 431,
+    "id": 300331,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "targetType": 1
+  },
+  {
+    "buffDescLocalTextId": 431,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 431,
+    "id": 300332,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "targetType": 1
+  },
+  {
+    "buffDescLocalTextId": 431,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 431,
+    "id": 300333,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "targetType": 1
+  },
+  {
+    "buffDescLocalTextId": 418,
+    "buffLargeIcon": "bufficon_201_l",
+    "buffNameLocalTextId": 412,
+    "buffSmallIcon": "bufficon_201",
+    "buffTime": 4.0,
+    "buffType": 1,
+    "disappearTime": 1.0,
+    "fieldDescLocalTextId": 418,
+    "id": 300334,
+    "renderType": 2,
+    "selectBuff": 1,
+    "value": -0.5
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 431,
+    "id": 300335,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "targetType": 2
+  },
+  {
+    "buffDescLocalTextId": 431,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 431,
+    "id": 300341,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "targetType": 1
+  },
+  {
+    "buffDescLocalTextId": 431,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 431,
+    "id": 300351,
+    "selectBuff": 1,
+    "targetType": 1
+  },
+  {
+    "buffDescLocalTextId": 431,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 431,
+    "id": 300352,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "targetType": 1
+  },
+  {
+    "buffDescLocalTextId": 431,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 431,
+    "id": 300361,
+    "selectBuff": 1,
+    "targetType": 1
+  },
+  {
+    "buffDescLocalTextId": 431,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 431,
+    "id": 300362,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "targetType": 1
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 431,
+    "id": 300363,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "targetType": 2
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 5,
+    "fieldDescLocalTextId": 430,
+    "id": 999999,
+    "knockBack": 1,
+    "selectBuff": 1,
+    "value": 1.0
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 430,
+    "id": 1100301,
+    "knockBack": 1,
+    "selectBuff": 1
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 430,
+    "id": 1100302,
+    "knockBack": 1,
+    "selectBuff": 1
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 430,
+    "id": 1100401,
+    "knockBack": 1,
+    "selectBuff": 1
+  },
+  {
+    "buffDescLocalTextId": 430,
+    "buffNameLocalTextId": 414,
+    "buffType": 4,
+    "fieldDescLocalTextId": 430,
+    "id": 1100601,
+    "knockBack": 1,
+    "selectBuff": 1
+  }
+]

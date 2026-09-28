@@ -1,0 +1,23 @@
+[package]
+name = "gameserver"
+edition.workspace = true
+version.workspace = true
+
+[dependencies]
+base64.workspace = true
+protocol.workspace = true
+crypto.workspace = true
+tracing.workspace = true
+sqlx.workspace = true
+thiserror.workspace = true
+chrono.workspace = true
+database.workspace = true
+prost.workspace = true
+common.workspace = true
+paste.workspace = true
+anyhow.workspace = true
+once_cell.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+data.workspace = true
+rand.workspace = true

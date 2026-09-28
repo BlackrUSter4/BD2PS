@@ -1,0 +1,10 @@
+[
+  { "fixedId": 5, "gachaGroupId": 20118, "gachaId": 8100118, "groupId": 29, "id": 1, "isDisplayFixedItem": 1, "stepLocalTextId": 2668 },
+  { "fixedId": 5, "gachaGroupId": 20119, "gachaId": 8100119, "groupId": 29, "id": 2, "isDisplayFixedItem": 1, "stepLocalTextId": 2668 },
+  { "fixedId": 5, "gachaGroupId": 20120, "gachaId": 8100120, "groupId": 29, "id": 3, "isDisplayFixedItem": 1, "stepLocalTextId": 2668 },
+  { "gachaGroupId": 20121, "gachaId": 8100121, "groupId": 29, "id": 4, "isDisplayFixedItem": 2, "stepLocalTextId": 2668 },
+  { "fixedId": 5, "gachaGroupId": 20122, "gachaId": 8100122, "groupId": 30, "id": 1, "isDisplayFixedItem": 1, "stepLocalTextId": 2668 },
+  { "fixedId": 5, "gachaGroupId": 20123, "gachaId": 8100123, "groupId": 30, "id": 2, "isDisplayFixedItem": 1, "stepLocalTextId": 2668 },
+  { "fixedId": 5, "gachaGroupId": 20124, "gachaId": 8100124, "groupId": 30, "id": 3, "isDisplayFixedItem": 1, "stepLocalTextId": 2668 },
+  { "gachaGroupId": 20125, "gachaId": 8100125, "groupId": 30, "id": 4, "isDisplayFixedItem": 2, "stepLocalTextId": 2668 }
+]

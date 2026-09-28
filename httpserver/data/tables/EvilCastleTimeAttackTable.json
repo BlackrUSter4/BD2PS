@@ -1,0 +1,62 @@
+[
+  {
+    "DeductTime": 86400,
+    "LimitPoint": 10000,
+    "bossExtraPoints": 3.0,
+    "damageAddPoint": 2000,
+    "damageMaxLimit": 1000000,
+    "id": 1,
+    "survivalAddPoint": 4000,
+    "turnAddPoint": 4000
+  },
+  {
+    "DeductTime": 86400,
+    "LimitPoint": 10000,
+    "bossExtraPoints": 3.0,
+    "damageAddPoint": 2000,
+    "damageMaxLimit": 1000000,
+    "id": 2,
+    "survivalAddPoint": 4000,
+    "turnAddPoint": 4000
+  },
+  {
+    "DeductTime": 86400,
+    "LimitPoint": 10000,
+    "bossExtraPoints": 3.0,
+    "damageAddPoint": 2000,
+    "damageMaxLimit": 1000000,
+    "id": 3,
+    "survivalAddPoint": 4000,
+    "turnAddPoint": 4000
+  },
+  {
+    "DeductTime": 86400,
+    "LimitPoint": 10000,
+    "bossExtraPoints": 3.0,
+    "damageAddPoint": 2000,
+    "damageMaxLimit": 1000000,
+    "id": 4,
+    "survivalAddPoint": 4000,
+    "turnAddPoint": 4000
+  },
+  {
+    "DeductTime": 86400,
+    "LimitPoint": 10000,
+    "bossExtraPoints": 3.0,
+    "damageAddPoint": 2000,
+    "damageMaxLimit": 1000000,
+    "id": 5,
+    "survivalAddPoint": 4000,
+    "turnAddPoint": 4000
+  },
+  {
+    "DeductTime": 86400,
+    "LimitPoint": 10000,
+    "bossExtraPoints": 3.0,
+    "damageAddPoint": 2000,
+    "damageMaxLimit": 1000000,
+    "id": 6,
+    "survivalAddPoint": 4000,
+    "turnAddPoint": 4000
+  }
+]

@@ -1,0 +1,7 @@
+﻿
+message NpcReputationDBInfo {
+  optional int32 pack_id = 1;
+  optional int32 group_id = 2;
+  optional int32 npc_id = 3;
+  optional int32 point = 4;
+}

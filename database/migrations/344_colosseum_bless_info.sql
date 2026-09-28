@@ -1,0 +1,6 @@
+CREATE TABLE "ColosseumBlessInfo" (
+    "Index" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "Uid" BIGINT NOT NULL,
+    "DeckType" INTEGER NOT NULL,
+    "BlessId" INTEGER NOT NULL
+);

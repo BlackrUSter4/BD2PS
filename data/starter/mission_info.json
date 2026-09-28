@@ -1,0 +1,21 @@
+{
+  "missionInfo": [
+    {
+      "groupId": 2,
+      "id": 201,
+      "groupType": 1,
+      "value": 3,
+      "isComplete": false
+    },
+    {
+      "groupId": 2,
+      "id": 210,
+      "groupType": 1,
+      "value": 5,
+      "isComplete": false
+    }
+  ],
+  "missionSectionRewardInfo": [],
+  "dailyMissionResetTime": 1761436800000,
+  "weeklyMissionResetTime": 1761523200000
+}

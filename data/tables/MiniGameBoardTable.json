@@ -1,0 +1,3 @@
+[
+  { "boardUiPrefab": "EventDiceUI66", "charSpriteResource": 61003, "id": 17, "itemCount": 1, "itemId": 2062, "itemType": 8, "miniGameCompleteRewardGroupId": 17, "miniGameTitleLocalTextId": 130032, "moveControllerGroupId": 17, "playSpeed": 3, "scaffoldGroupId": 17, "tokenDescLocalTextId": 460063, "tokenInfoLocation": 2, "tokenShortCutId": 55, "tokenTitleLocalTextId": 460061 }
+]

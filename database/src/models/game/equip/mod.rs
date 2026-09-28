@@ -1,0 +1,9 @@
+pub mod equip_base_info;
+pub mod equip_batch_use_info;
+pub mod equip_clear_info;
+pub mod equip_info;
+pub mod equip_option_info;
+pub mod equip_preset_char_info;
+pub mod equip_preset_info;
+pub mod equip_preset_item_info;
+pub mod equip_storage_info;

@@ -1,0 +1,11 @@
+pub mod monster_hit_info;
+pub mod monster_hunt_deck_info;
+pub mod monster_hunt_preset_info;
+pub mod monster_hunt_rank_info;
+pub mod monster_hunt_rank_user_info;
+pub mod monster_hunt_schedule_info;
+pub mod monster_hunt_team_proto_info;
+pub mod monster_hunt_user_info;
+pub mod monster_info;
+pub mod monster_parts_info;
+pub mod monster_pattern_info;

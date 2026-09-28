@@ -1,0 +1,5 @@
+[
+  { "buffOrder": [ 0, 0, 0 ], "burstBuff": [ 0, 0 ], "burstText": [ 60162, 0, 0 ], "groupId": 21301, "id": 1, "itemCount": [ 50000, 60 ], "itemId": [ 0, 711 ], "itemType": [ 4, 8 ], "modifyAttackRange": 1, "modifyAttackRangeCount": 4, "modifyAttackRangeIndex": 1, "modifyValue": [ 0, 0, 0 ], "spReqCount": 1, "valueType": [ 0, 0, 0 ] },
+  { "buffOrder": [ 0, 0, 0 ], "burstBuff": [ 0, 0 ], "burstText": [ 60058, 0, 0 ], "groupId": 21301, "id": 2, "itemCount": [ 50000, 60 ], "itemId": [ 0, 711 ], "itemType": [ 4, 8 ], "modifyValue": [ 1.5, 0, 0 ], "spReqCount": 1, "valueType": [ 10, 0, 0 ] },
+  { "buffOrder": [ 0, 0, 0 ], "burstBuff": [ 0, 0 ], "burstText": [ 60058, 0, 0 ], "groupId": 21301, "id": 3, "itemCount": [ 50000, 60 ], "itemId": [ 0, 711 ], "itemType": [ 4, 8 ], "modifyValue": [ 1.5, 0, 0 ], "spReqCount": 1, "valueType": [ 10, 0, 0 ] }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "costumeId": 206,
+    "effectTooltipDescLocalTextId": 18021,
+    "effectTooltipSpriteName": "icon_prestigeskin_000296",
+    "id": 296,
+    "lobbySettingItemId": 77,
+    "skinNameTextId": 500001
+  },
+  {
+    "costumeId": 1107,
+    "effectTooltipDescLocalTextId": 18021,
+    "effectTooltipSpriteName": "icon_prestigeskin_001197",
+    "id": 1197,
+    "lobbySettingItemId": 99,
+    "skinNameTextId": 500002
+  }
+]

@@ -1,0 +1,1290 @@
+[
+  {
+    "id": 1,
+    "itemSpriteName": "room_floorobject_133_232",
+    "objectDescNameTextId": 64005,
+    "objectNameTextId": 54005,
+    "prefabName": "room_floorobject_133"
+  },
+  {
+    "id": 2,
+    "itemSpriteName": "room_floorobject_134_233",
+    "objectDescNameTextId": 64006,
+    "objectNameTextId": 54006,
+    "prefabName": "room_floorobject_134"
+  },
+  {
+    "id": 3,
+    "itemSpriteName": "room_floorobject_135_234",
+    "objectDescNameTextId": 64007,
+    "objectNameTextId": 54007,
+    "prefabName": "room_floorobject_135"
+  },
+  {
+    "id": 4,
+    "itemSpriteName": "room_floorobject_136_238",
+    "objectDescNameTextId": 64008,
+    "objectNameTextId": 54008,
+    "prefabName": "room_floorobject_136"
+  },
+  {
+    "id": 5,
+    "itemSpriteName": "room_floorobject_137_239",
+    "objectDescNameTextId": 64009,
+    "objectNameTextId": 54009,
+    "prefabName": "room_floorobject_137"
+  },
+  {
+    "id": 6,
+    "itemSpriteName": "room_floorobject_138_240",
+    "objectDescNameTextId": 64010,
+    "objectNameTextId": 54010,
+    "prefabName": "room_floorobject_138"
+  },
+  {
+    "id": 7,
+    "itemSpriteName": "room_floorobject_139_244",
+    "objectDescNameTextId": 64011,
+    "objectNameTextId": 54011,
+    "prefabName": "room_floorobject_139"
+  },
+  {
+    "id": 8,
+    "itemSpriteName": "room_floorobject_140_245",
+    "objectDescNameTextId": 64012,
+    "objectNameTextId": 54012,
+    "prefabName": "room_floorobject_140"
+  },
+  {
+    "id": 9,
+    "itemSpriteName": "room_floorobject_141_246",
+    "objectDescNameTextId": 64013,
+    "objectNameTextId": 54013,
+    "prefabName": "room_floorobject_141"
+  },
+  {
+    "id": 10,
+    "itemSpriteName": "room_floorobject_168_289",
+    "objectDescNameTextId": 64014,
+    "objectNameTextId": 54014,
+    "prefabName": "room_floorobject_168"
+  },
+  {
+    "id": 11,
+    "itemSpriteName": "room_floorobject_169_290",
+    "objectDescNameTextId": 64015,
+    "objectNameTextId": 54015,
+    "prefabName": "room_floorobject_169"
+  },
+  {
+    "id": 12,
+    "itemSpriteName": "room_floorobject_170_291",
+    "objectDescNameTextId": 64016,
+    "objectNameTextId": 54016,
+    "prefabName": "room_floorobject_170"
+  },
+  {
+    "id": 13,
+    "itemSpriteName": "room_floorobject_172_293",
+    "objectDescNameTextId": 64017,
+    "objectNameTextId": 54017,
+    "prefabName": "room_floorobject_172"
+  },
+  {
+    "id": 14,
+    "itemSpriteName": "room_floorobject_173_294",
+    "objectDescNameTextId": 64018,
+    "objectNameTextId": 54018,
+    "prefabName": "room_floorobject_173"
+  },
+  {
+    "id": 15,
+    "itemSpriteName": "room_floorobject_174_295",
+    "objectDescNameTextId": 64019,
+    "objectNameTextId": 54019,
+    "prefabName": "room_floorobject_174"
+  },
+  {
+    "id": 16,
+    "itemSpriteName": "room_floorobject_175_296",
+    "objectDescNameTextId": 64020,
+    "objectNameTextId": 54020,
+    "prefabName": "room_floorobject_175"
+  },
+  {
+    "id": 17,
+    "itemSpriteName": "room_floorobject_192_318",
+    "objectDescNameTextId": 64021,
+    "objectNameTextId": 54021,
+    "prefabName": "room_floorobject_192"
+  },
+  {
+    "id": 18,
+    "itemSpriteName": "room_floorobject_193_319",
+    "objectDescNameTextId": 64022,
+    "objectNameTextId": 54022,
+    "prefabName": "room_floorobject_193"
+  },
+  {
+    "id": 19,
+    "itemSpriteName": "room_floorobject_194_320",
+    "objectDescNameTextId": 64023,
+    "objectNameTextId": 54023,
+    "prefabName": "room_floorobject_194"
+  },
+  {
+    "id": 20,
+    "itemSpriteName": "room_floorobject_196_322",
+    "objectDescNameTextId": 64024,
+    "objectNameTextId": 54024,
+    "prefabName": "room_floorobject_196"
+  },
+  {
+    "id": 21,
+    "itemSpriteName": "room_floorobject_226_369",
+    "objectDescNameTextId": 64025,
+    "objectNameTextId": 54025,
+    "prefabName": "room_floorobject_226"
+  },
+  {
+    "id": 22,
+    "itemSpriteName": "room_floorobject_227_370",
+    "objectDescNameTextId": 64026,
+    "objectNameTextId": 54026,
+    "prefabName": "room_floorobject_227"
+  },
+  {
+    "id": 23,
+    "itemSpriteName": "room_floorobject_228_371",
+    "objectDescNameTextId": 64027,
+    "objectNameTextId": 54027,
+    "prefabName": "room_floorobject_228"
+  },
+  {
+    "id": 24,
+    "itemSpriteName": "room_floorobject_229_372",
+    "objectDescNameTextId": 64028,
+    "objectNameTextId": 54028,
+    "prefabName": "room_floorobject_229"
+  },
+  {
+    "id": 25,
+    "itemSpriteName": "room_floorobject_187_313",
+    "objectDescNameTextId": 64029,
+    "objectNameTextId": 54029,
+    "prefabName": "room_floorobject_187"
+  },
+  {
+    "id": 26,
+    "itemSpriteName": "room_floorobject_188_314",
+    "objectDescNameTextId": 64030,
+    "objectNameTextId": 54030,
+    "prefabName": "room_floorobject_188"
+  },
+  {
+    "id": 27,
+    "itemSpriteName": "room_floorobject_189_315",
+    "objectDescNameTextId": 64031,
+    "objectNameTextId": 54031,
+    "prefabName": "room_floorobject_189"
+  },
+  {
+    "id": 28,
+    "itemSpriteName": "room_floorobject_191_317",
+    "objectDescNameTextId": 64032,
+    "objectNameTextId": 54032,
+    "prefabName": "room_floorobject_191"
+  },
+  {
+    "id": 29,
+    "itemSpriteName": "room_floorobject_197_323",
+    "objectDescNameTextId": 64033,
+    "objectNameTextId": 54033,
+    "prefabName": "room_floorobject_197"
+  },
+  {
+    "id": 30,
+    "itemSpriteName": "room_floorobject_198_324",
+    "objectDescNameTextId": 64034,
+    "objectNameTextId": 54034,
+    "prefabName": "room_floorobject_198"
+  },
+  {
+    "id": 31,
+    "itemSpriteName": "room_floorobject_199_325",
+    "objectDescNameTextId": 64035,
+    "objectNameTextId": 54035,
+    "prefabName": "room_floorobject_199"
+  },
+  {
+    "id": 32,
+    "itemSpriteName": "room_floorobject_201_327",
+    "objectDescNameTextId": 64036,
+    "objectNameTextId": 54036,
+    "prefabName": "room_floorobject_201"
+  },
+  {
+    "id": 33,
+    "itemSpriteName": "room_floorobject_239_386",
+    "objectDescNameTextId": 64037,
+    "objectNameTextId": 54037,
+    "prefabName": "room_floorobject_239"
+  },
+  {
+    "id": 34,
+    "itemSpriteName": "room_floorobject_240_387",
+    "objectDescNameTextId": 64038,
+    "objectNameTextId": 54038,
+    "prefabName": "room_floorobject_240"
+  },
+  {
+    "id": 35,
+    "itemSpriteName": "room_floorobject_241_388",
+    "objectDescNameTextId": 64039,
+    "objectNameTextId": 54039,
+    "prefabName": "room_floorobject_241"
+  },
+  {
+    "id": 36,
+    "itemSpriteName": "room_floorobject_242_389",
+    "objectDescNameTextId": 64040,
+    "objectNameTextId": 54040,
+    "prefabName": "room_floorobject_242"
+  },
+  {
+    "id": 37,
+    "itemSpriteName": "room_floorobject_168_289",
+    "objectDescNameTextId": 64041,
+    "objectNameTextId": 54041,
+    "prefabName": "room_floorobject_168"
+  },
+  {
+    "id": 38,
+    "itemSpriteName": "room_floorobject_169_290",
+    "objectDescNameTextId": 64042,
+    "objectNameTextId": 54042,
+    "prefabName": "room_floorobject_169"
+  },
+  {
+    "id": 39,
+    "itemSpriteName": "room_floorobject_170_291",
+    "objectDescNameTextId": 64043,
+    "objectNameTextId": 54043,
+    "prefabName": "room_floorobject_170"
+  },
+  {
+    "id": 40,
+    "itemSpriteName": "room_floorobject_207_333",
+    "objectDescNameTextId": 64044,
+    "objectNameTextId": 54044,
+    "prefabName": "room_floorobject_207"
+  },
+  {
+    "id": 41,
+    "itemSpriteName": "room_floorobject_244_391",
+    "objectDescNameTextId": 64045,
+    "objectNameTextId": 54045,
+    "prefabName": "room_floorobject_244"
+  },
+  {
+    "id": 42,
+    "itemSpriteName": "room_floorobject_245_392",
+    "objectDescNameTextId": 64046,
+    "objectNameTextId": 54046,
+    "prefabName": "room_floorobject_245"
+  },
+  {
+    "id": 43,
+    "itemSpriteName": "room_floorobject_246_393",
+    "objectDescNameTextId": 64047,
+    "objectNameTextId": 54047,
+    "prefabName": "room_floorobject_246"
+  },
+  {
+    "id": 44,
+    "itemSpriteName": "room_floorobject_247_394",
+    "objectDescNameTextId": 64048,
+    "objectNameTextId": 54048,
+    "prefabName": "room_floorobject_247"
+  },
+  {
+    "id": 45,
+    "itemSpriteName": "room_floorobject_249_396",
+    "objectDescNameTextId": 64049,
+    "objectNameTextId": 54049,
+    "prefabName": "room_floorobject_249"
+  },
+  {
+    "id": 46,
+    "itemSpriteName": "room_floorobject_250_397",
+    "objectDescNameTextId": 64050,
+    "objectNameTextId": 54050,
+    "prefabName": "room_floorobject_250"
+  },
+  {
+    "id": 47,
+    "itemSpriteName": "room_floorobject_251_398",
+    "objectDescNameTextId": 64051,
+    "objectNameTextId": 54051,
+    "prefabName": "room_floorobject_251"
+  },
+  {
+    "id": 48,
+    "itemSpriteName": "room_floorobject_252_399",
+    "objectDescNameTextId": 64052,
+    "objectNameTextId": 54052,
+    "prefabName": "room_floorobject_252"
+  },
+  {
+    "id": 49,
+    "itemSpriteName": "room_floorobject_254_401",
+    "objectDescNameTextId": 64053,
+    "objectNameTextId": 54053,
+    "prefabName": "room_floorobject_254"
+  },
+  {
+    "id": 50,
+    "itemSpriteName": "room_floorobject_255_402",
+    "objectDescNameTextId": 64054,
+    "objectNameTextId": 54054,
+    "prefabName": "room_floorobject_255"
+  },
+  {
+    "id": 51,
+    "itemSpriteName": "room_floorobject_256_403",
+    "objectDescNameTextId": 64055,
+    "objectNameTextId": 54055,
+    "prefabName": "room_floorobject_256"
+  },
+  {
+    "id": 52,
+    "itemSpriteName": "room_floorobject_257_404",
+    "objectDescNameTextId": 64056,
+    "objectNameTextId": 54056,
+    "prefabName": "room_floorobject_257"
+  },
+  {
+    "id": 53,
+    "itemSpriteName": "room_floorobject_172_293",
+    "objectDescNameTextId": 64057,
+    "objectNameTextId": 54057,
+    "prefabName": "room_floorobject_172"
+  },
+  {
+    "id": 54,
+    "itemSpriteName": "room_floorobject_173_294",
+    "objectDescNameTextId": 64058,
+    "objectNameTextId": 54058,
+    "prefabName": "room_floorobject_173"
+  },
+  {
+    "id": 55,
+    "itemSpriteName": "room_floorobject_174_295",
+    "objectDescNameTextId": 64059,
+    "objectNameTextId": 54059,
+    "prefabName": "room_floorobject_174"
+  },
+  {
+    "id": 56,
+    "itemSpriteName": "room_floorobject_175_296",
+    "objectDescNameTextId": 64060,
+    "objectNameTextId": 54060,
+    "prefabName": "room_floorobject_175"
+  },
+  {
+    "id": 57,
+    "itemSpriteName": "room_floorobject_259_406",
+    "objectDescNameTextId": 64061,
+    "objectNameTextId": 54061,
+    "prefabName": "room_floorobject_259"
+  },
+  {
+    "id": 58,
+    "itemSpriteName": "room_floorobject_260_407",
+    "objectDescNameTextId": 64062,
+    "objectNameTextId": 54062,
+    "prefabName": "room_floorobject_260"
+  },
+  {
+    "id": 59,
+    "itemSpriteName": "room_floorobject_261_408",
+    "objectDescNameTextId": 64063,
+    "objectNameTextId": 54063,
+    "prefabName": "room_floorobject_261"
+  },
+  {
+    "id": 60,
+    "itemSpriteName": "room_floorobject_262_409",
+    "objectDescNameTextId": 64064,
+    "objectNameTextId": 54064,
+    "prefabName": "room_floorobject_262"
+  },
+  {
+    "id": 61,
+    "itemSpriteName": "room_floorobject_226_369",
+    "objectDescNameTextId": 64065,
+    "objectNameTextId": 54065,
+    "prefabName": "room_floorobject_226"
+  },
+  {
+    "id": 62,
+    "itemSpriteName": "room_floorobject_227_370",
+    "objectDescNameTextId": 64066,
+    "objectNameTextId": 54066,
+    "prefabName": "room_floorobject_227"
+  },
+  {
+    "id": 63,
+    "itemSpriteName": "room_floorobject_228_371",
+    "objectDescNameTextId": 64067,
+    "objectNameTextId": 54067,
+    "prefabName": "room_floorobject_228"
+  },
+  {
+    "id": 64,
+    "itemSpriteName": "room_floorobject_229_372",
+    "objectDescNameTextId": 64068,
+    "objectNameTextId": 54068,
+    "prefabName": "room_floorobject_229"
+  },
+  {
+    "id": 65,
+    "itemSpriteName": "room_floorobject_269_416",
+    "objectDescNameTextId": 64069,
+    "objectNameTextId": 54069,
+    "prefabName": "room_floorobject_269"
+  },
+  {
+    "id": 66,
+    "itemSpriteName": "room_floorobject_270_417",
+    "objectDescNameTextId": 64070,
+    "objectNameTextId": 54070,
+    "prefabName": "room_floorobject_270"
+  },
+  {
+    "id": 67,
+    "itemSpriteName": "room_floorobject_271_418",
+    "objectDescNameTextId": 64071,
+    "objectNameTextId": 54071,
+    "prefabName": "room_floorobject_271"
+  },
+  {
+    "id": 68,
+    "itemSpriteName": "room_floorobject_272_419",
+    "objectDescNameTextId": 64072,
+    "objectNameTextId": 54072,
+    "prefabName": "room_floorobject_272"
+  },
+  {
+    "id": 69,
+    "itemSpriteName": "room_floorobject_192_318",
+    "objectDescNameTextId": 64073,
+    "objectNameTextId": 54073,
+    "prefabName": "room_floorobject_192"
+  },
+  {
+    "id": 70,
+    "itemSpriteName": "room_floorobject_193_319",
+    "objectDescNameTextId": 64074,
+    "objectNameTextId": 54074,
+    "prefabName": "room_floorobject_193"
+  },
+  {
+    "id": 71,
+    "itemSpriteName": "room_floorobject_194_320",
+    "objectDescNameTextId": 64075,
+    "objectNameTextId": 54075,
+    "prefabName": "room_floorobject_194"
+  },
+  {
+    "id": 72,
+    "itemSpriteName": "room_floorobject_196_322",
+    "objectDescNameTextId": 64076,
+    "objectNameTextId": 54076,
+    "prefabName": "room_floorobject_196"
+  },
+  {
+    "id": 73,
+    "itemSpriteName": "room_floorobject_197_323",
+    "objectDescNameTextId": 64077,
+    "objectNameTextId": 54077,
+    "prefabName": "room_floorobject_197"
+  },
+  {
+    "id": 74,
+    "itemSpriteName": "room_floorobject_198_324",
+    "objectDescNameTextId": 64078,
+    "objectNameTextId": 54078,
+    "prefabName": "room_floorobject_198"
+  },
+  {
+    "id": 75,
+    "itemSpriteName": "room_floorobject_199_325",
+    "objectDescNameTextId": 64079,
+    "objectNameTextId": 54079,
+    "prefabName": "room_floorobject_199"
+  },
+  {
+    "id": 76,
+    "itemSpriteName": "room_floorobject_201_327",
+    "objectDescNameTextId": 64080,
+    "objectNameTextId": 54080,
+    "prefabName": "room_floorobject_201"
+  },
+  {
+    "id": 77,
+    "itemSpriteName": "room_floorobject_264_411",
+    "objectDescNameTextId": 64081,
+    "objectNameTextId": 54081,
+    "prefabName": "room_floorobject_264"
+  },
+  {
+    "id": 78,
+    "itemSpriteName": "room_floorobject_265_412",
+    "objectDescNameTextId": 64082,
+    "objectNameTextId": 54082,
+    "prefabName": "room_floorobject_265"
+  },
+  {
+    "id": 79,
+    "itemSpriteName": "room_floorobject_266_413",
+    "objectDescNameTextId": 64083,
+    "objectNameTextId": 54083,
+    "prefabName": "room_floorobject_266"
+  },
+  {
+    "id": 80,
+    "itemSpriteName": "room_floorobject_267_414",
+    "objectDescNameTextId": 64084,
+    "objectNameTextId": 54084,
+    "prefabName": "room_floorobject_267"
+  },
+  {
+    "id": 81,
+    "itemSpriteName": "room_floorobject_264_411",
+    "objectDescNameTextId": 64085,
+    "objectNameTextId": 54085,
+    "prefabName": "room_floorobject_264"
+  },
+  {
+    "id": 82,
+    "itemSpriteName": "room_floorobject_265_412",
+    "objectDescNameTextId": 64086,
+    "objectNameTextId": 54086,
+    "prefabName": "room_floorobject_265"
+  },
+  {
+    "id": 83,
+    "itemSpriteName": "room_floorobject_266_413",
+    "objectDescNameTextId": 64087,
+    "objectNameTextId": 54087,
+    "prefabName": "room_floorobject_266"
+  },
+  {
+    "id": 84,
+    "itemSpriteName": "room_floorobject_267_414",
+    "objectDescNameTextId": 64088,
+    "objectNameTextId": 54088,
+    "prefabName": "room_floorobject_267"
+  },
+  {
+    "id": 85,
+    "itemSpriteName": "room_floorobject_274_421",
+    "objectDescNameTextId": 64089,
+    "objectNameTextId": 54089,
+    "prefabName": "room_floorobject_274"
+  },
+  {
+    "id": 86,
+    "itemSpriteName": "room_floorobject_275_422",
+    "objectDescNameTextId": 64090,
+    "objectNameTextId": 54090,
+    "prefabName": "room_floorobject_275"
+  },
+  {
+    "id": 87,
+    "itemSpriteName": "room_floorobject_276_423",
+    "objectDescNameTextId": 64091,
+    "objectNameTextId": 54091,
+    "prefabName": "room_floorobject_276"
+  },
+  {
+    "id": 88,
+    "itemSpriteName": "room_floorobject_277_424",
+    "objectDescNameTextId": 64092,
+    "objectNameTextId": 54092,
+    "prefabName": "room_floorobject_277"
+  },
+  {
+    "id": 89,
+    "itemSpriteName": "room_floorobject_139_244",
+    "objectDescNameTextId": 64093,
+    "objectNameTextId": 54093,
+    "prefabName": "room_floorobject_139"
+  },
+  {
+    "id": 90,
+    "itemSpriteName": "room_floorobject_140_245",
+    "objectDescNameTextId": 64094,
+    "objectNameTextId": 54094,
+    "prefabName": "room_floorobject_140"
+  },
+  {
+    "id": 91,
+    "itemSpriteName": "room_floorobject_141_246",
+    "objectDescNameTextId": 64095,
+    "objectNameTextId": 54095,
+    "prefabName": "room_floorobject_141"
+  },
+  {
+    "id": 92,
+    "itemSpriteName": "room_floorobject_206_332",
+    "objectDescNameTextId": 64096,
+    "objectNameTextId": 54096,
+    "prefabName": "room_floorobject_206"
+  },
+  {
+    "id": 93,
+    "itemSpriteName": "room_floorobject_244_391",
+    "objectDescNameTextId": 64097,
+    "objectNameTextId": 54097,
+    "prefabName": "room_floorobject_244"
+  },
+  {
+    "id": 94,
+    "itemSpriteName": "room_floorobject_245_392",
+    "objectDescNameTextId": 64098,
+    "objectNameTextId": 54098,
+    "prefabName": "room_floorobject_245"
+  },
+  {
+    "id": 95,
+    "itemSpriteName": "room_floorobject_246_393",
+    "objectDescNameTextId": 64099,
+    "objectNameTextId": 54099,
+    "prefabName": "room_floorobject_246"
+  },
+  {
+    "id": 96,
+    "itemSpriteName": "room_floorobject_247_394",
+    "objectDescNameTextId": 64100,
+    "objectNameTextId": 54100,
+    "prefabName": "room_floorobject_247"
+  },
+  {
+    "id": 97,
+    "itemSpriteName": "room_floorobject_283_430",
+    "objectDescNameTextId": 64101,
+    "objectNameTextId": 54101,
+    "prefabName": "room_floorobject_283"
+  },
+  {
+    "id": 98,
+    "itemSpriteName": "room_floorobject_284_431",
+    "objectDescNameTextId": 64102,
+    "objectNameTextId": 54102,
+    "prefabName": "room_floorobject_284"
+  },
+  {
+    "id": 99,
+    "itemSpriteName": "room_floorobject_285_432",
+    "objectDescNameTextId": 64103,
+    "objectNameTextId": 54103,
+    "prefabName": "room_floorobject_285"
+  },
+  {
+    "id": 100,
+    "itemSpriteName": "room_floorobject_286_433",
+    "objectDescNameTextId": 64104,
+    "objectNameTextId": 54104,
+    "prefabName": "room_floorobject_286"
+  },
+  {
+    "id": 101,
+    "itemSpriteName": "room_floorobject_259_406",
+    "objectDescNameTextId": 64105,
+    "objectNameTextId": 54105,
+    "prefabName": "room_floorobject_259"
+  },
+  {
+    "id": 102,
+    "itemSpriteName": "room_floorobject_260_407",
+    "objectDescNameTextId": 64106,
+    "objectNameTextId": 54106,
+    "prefabName": "room_floorobject_260"
+  },
+  {
+    "id": 103,
+    "itemSpriteName": "room_floorobject_261_408",
+    "objectDescNameTextId": 64107,
+    "objectNameTextId": 54107,
+    "prefabName": "room_floorobject_261"
+  },
+  {
+    "id": 104,
+    "itemSpriteName": "room_floorobject_262_409",
+    "objectDescNameTextId": 64108,
+    "objectNameTextId": 54108,
+    "prefabName": "room_floorobject_262"
+  },
+  {
+    "id": 105,
+    "itemSpriteName": "room_floorobject_288_435",
+    "objectDescNameTextId": 64109,
+    "objectNameTextId": 54109,
+    "prefabName": "room_floorobject_288"
+  },
+  {
+    "id": 106,
+    "itemSpriteName": "room_floorobject_289_436",
+    "objectDescNameTextId": 64110,
+    "objectNameTextId": 54110,
+    "prefabName": "room_floorobject_289"
+  },
+  {
+    "id": 107,
+    "itemSpriteName": "room_floorobject_290_437",
+    "objectDescNameTextId": 64111,
+    "objectNameTextId": 54111,
+    "prefabName": "room_floorobject_290"
+  },
+  {
+    "id": 108,
+    "itemSpriteName": "room_floorobject_291_438",
+    "objectDescNameTextId": 64112,
+    "objectNameTextId": 54112,
+    "prefabName": "room_floorobject_291"
+  },
+  {
+    "id": 109,
+    "itemSpriteName": "room_floorobject_187_313",
+    "objectDescNameTextId": 64113,
+    "objectNameTextId": 54113,
+    "prefabName": "room_floorobject_187"
+  },
+  {
+    "id": 110,
+    "itemSpriteName": "room_floorobject_188_314",
+    "objectDescNameTextId": 64114,
+    "objectNameTextId": 54114,
+    "prefabName": "room_floorobject_188"
+  },
+  {
+    "id": 111,
+    "itemSpriteName": "room_floorobject_189_315",
+    "objectDescNameTextId": 64115,
+    "objectNameTextId": 54115,
+    "prefabName": "room_floorobject_189"
+  },
+  {
+    "id": 112,
+    "itemSpriteName": "room_floorobject_191_317",
+    "objectDescNameTextId": 64116,
+    "objectNameTextId": 54116,
+    "prefabName": "room_floorobject_191"
+  },
+  {
+    "id": 113,
+    "itemSpriteName": "room_floorobject_295_442",
+    "objectDescNameTextId": 64117,
+    "objectNameTextId": 54117,
+    "prefabName": "room_floorobject_295"
+  },
+  {
+    "id": 114,
+    "itemSpriteName": "room_floorobject_296_443",
+    "objectDescNameTextId": 64118,
+    "objectNameTextId": 54118,
+    "prefabName": "room_floorobject_296"
+  },
+  {
+    "id": 115,
+    "itemSpriteName": "room_floorobject_297_444",
+    "objectDescNameTextId": 64119,
+    "objectNameTextId": 54119,
+    "prefabName": "room_floorobject_297"
+  },
+  {
+    "id": 116,
+    "itemSpriteName": "room_floorobject_298_445",
+    "objectDescNameTextId": 64120,
+    "objectNameTextId": 54120,
+    "prefabName": "room_floorobject_298"
+  },
+  {
+    "id": 117,
+    "itemSpriteName": "room_floorobject_226_369",
+    "objectDescNameTextId": 64121,
+    "objectNameTextId": 54121,
+    "prefabName": "room_floorobject_226"
+  },
+  {
+    "id": 118,
+    "itemSpriteName": "room_floorobject_227_370",
+    "objectDescNameTextId": 64122,
+    "objectNameTextId": 54122,
+    "prefabName": "room_floorobject_227"
+  },
+  {
+    "id": 119,
+    "itemSpriteName": "room_floorobject_228_371",
+    "objectDescNameTextId": 64123,
+    "objectNameTextId": 54123,
+    "prefabName": "room_floorobject_228"
+  },
+  {
+    "id": 120,
+    "itemSpriteName": "room_floorobject_229_372",
+    "objectDescNameTextId": 64124,
+    "objectNameTextId": 54124,
+    "prefabName": "room_floorobject_229"
+  },
+  {
+    "id": 121,
+    "itemSpriteName": "room_floorobject_301_449",
+    "objectDescNameTextId": 64125,
+    "objectNameTextId": 54125,
+    "prefabName": "room_floorobject_301"
+  },
+  {
+    "id": 122,
+    "itemSpriteName": "room_floorobject_302_450",
+    "objectDescNameTextId": 64126,
+    "objectNameTextId": 54126,
+    "prefabName": "room_floorobject_302"
+  },
+  {
+    "id": 123,
+    "itemSpriteName": "room_floorobject_303_451",
+    "objectDescNameTextId": 64127,
+    "objectNameTextId": 54127,
+    "prefabName": "room_floorobject_303"
+  },
+  {
+    "id": 124,
+    "itemSpriteName": "room_floorobject_304_452",
+    "objectDescNameTextId": 64128,
+    "objectNameTextId": 54128,
+    "prefabName": "room_floorobject_304"
+  },
+  {
+    "id": 125,
+    "itemSpriteName": "room_floorobject_168_289",
+    "objectDescNameTextId": 64129,
+    "objectNameTextId": 54129,
+    "prefabName": "room_floorobject_168"
+  },
+  {
+    "id": 126,
+    "itemSpriteName": "room_floorobject_169_290",
+    "objectDescNameTextId": 64130,
+    "objectNameTextId": 54130,
+    "prefabName": "room_floorobject_169"
+  },
+  {
+    "id": 127,
+    "itemSpriteName": "room_floorobject_170_291",
+    "objectDescNameTextId": 64131,
+    "objectNameTextId": 54131,
+    "prefabName": "room_floorobject_170"
+  },
+  {
+    "id": 128,
+    "itemSpriteName": "room_floorobject_207_333",
+    "objectDescNameTextId": 64132,
+    "objectNameTextId": 54132,
+    "prefabName": "room_floorobject_207"
+  },
+  {
+    "id": 129,
+    "itemSpriteName": "room_floorobject_308_456",
+    "objectDescNameTextId": 64133,
+    "objectNameTextId": 54133,
+    "prefabName": "room_floorobject_308"
+  },
+  {
+    "id": 130,
+    "itemSpriteName": "room_floorobject_309_457",
+    "objectDescNameTextId": 64134,
+    "objectNameTextId": 54134,
+    "prefabName": "room_floorobject_309"
+  },
+  {
+    "id": 131,
+    "itemSpriteName": "room_floorobject_310_458",
+    "objectDescNameTextId": 64135,
+    "objectNameTextId": 54135,
+    "prefabName": "room_floorobject_310"
+  },
+  {
+    "id": 132,
+    "itemSpriteName": "room_floorobject_311_459",
+    "objectDescNameTextId": 64136,
+    "objectNameTextId": 54136,
+    "prefabName": "room_floorobject_311"
+  },
+  {
+    "id": 133,
+    "itemSpriteName": "room_floorobject_313_461",
+    "objectDescNameTextId": 64137,
+    "objectNameTextId": 54137,
+    "prefabName": "room_floorobject_313"
+  },
+  {
+    "id": 134,
+    "itemSpriteName": "room_floorobject_314_462",
+    "objectDescNameTextId": 64138,
+    "objectNameTextId": 54138,
+    "prefabName": "room_floorobject_314"
+  },
+  {
+    "id": 135,
+    "itemSpriteName": "room_floorobject_315_463",
+    "objectDescNameTextId": 64139,
+    "objectNameTextId": 54139,
+    "prefabName": "room_floorobject_315"
+  },
+  {
+    "id": 136,
+    "itemSpriteName": "room_floorobject_316_464",
+    "objectDescNameTextId": 64140,
+    "objectNameTextId": 54140,
+    "prefabName": "room_floorobject_316"
+  },
+  {
+    "id": 137,
+    "itemSpriteName": "room_floorobject_318_466",
+    "objectDescNameTextId": 64141,
+    "objectNameTextId": 54141,
+    "prefabName": "room_floorobject_318"
+  },
+  {
+    "id": 138,
+    "itemSpriteName": "room_floorobject_319_467",
+    "objectDescNameTextId": 64142,
+    "objectNameTextId": 54142,
+    "prefabName": "room_floorobject_319"
+  },
+  {
+    "id": 139,
+    "itemSpriteName": "room_floorobject_320_468",
+    "objectDescNameTextId": 64143,
+    "objectNameTextId": 54143,
+    "prefabName": "room_floorobject_320"
+  },
+  {
+    "id": 140,
+    "itemSpriteName": "room_floorobject_321_469",
+    "objectDescNameTextId": 64144,
+    "objectNameTextId": 54144,
+    "prefabName": "room_floorobject_321"
+  },
+  {
+    "id": 141,
+    "itemSpriteName": "room_floorobject_254_401",
+    "objectDescNameTextId": 64153,
+    "objectNameTextId": 54153,
+    "prefabName": "room_floorobject_254"
+  },
+  {
+    "id": 142,
+    "itemSpriteName": "room_floorobject_255_402",
+    "objectDescNameTextId": 64154,
+    "objectNameTextId": 54154,
+    "prefabName": "room_floorobject_255"
+  },
+  {
+    "id": 143,
+    "itemSpriteName": "room_floorobject_256_403",
+    "objectDescNameTextId": 64155,
+    "objectNameTextId": 54155,
+    "prefabName": "room_floorobject_256"
+  },
+  {
+    "id": 144,
+    "itemSpriteName": "room_floorobject_257_404",
+    "objectDescNameTextId": 64156,
+    "objectNameTextId": 54156,
+    "prefabName": "room_floorobject_257"
+  },
+  {
+    "id": 145,
+    "itemSpriteName": "room_floorobject_172_293",
+    "objectDescNameTextId": 64149,
+    "objectNameTextId": 54149,
+    "prefabName": "room_floorobject_172"
+  },
+  {
+    "id": 146,
+    "itemSpriteName": "room_floorobject_173_294",
+    "objectDescNameTextId": 64150,
+    "objectNameTextId": 54150,
+    "prefabName": "room_floorobject_173"
+  },
+  {
+    "id": 147,
+    "itemSpriteName": "room_floorobject_174_295",
+    "objectDescNameTextId": 64151,
+    "objectNameTextId": 54151,
+    "prefabName": "room_floorobject_174"
+  },
+  {
+    "id": 148,
+    "itemSpriteName": "room_floorobject_175_296",
+    "objectDescNameTextId": 64152,
+    "objectNameTextId": 54152,
+    "prefabName": "room_floorobject_175"
+  },
+  {
+    "id": 149,
+    "itemSpriteName": "room_floorobject_324_472",
+    "objectDescNameTextId": 64157,
+    "objectNameTextId": 54157,
+    "prefabName": "room_floorobject_324"
+  },
+  {
+    "id": 150,
+    "itemSpriteName": "room_floorobject_325_473",
+    "objectDescNameTextId": 64158,
+    "objectNameTextId": 54158,
+    "prefabName": "room_floorobject_325"
+  },
+  {
+    "id": 151,
+    "itemSpriteName": "room_floorobject_326_474",
+    "objectDescNameTextId": 64159,
+    "objectNameTextId": 54159,
+    "prefabName": "room_floorobject_326"
+  },
+  {
+    "id": 152,
+    "itemSpriteName": "room_floorobject_327_475",
+    "objectDescNameTextId": 64160,
+    "objectNameTextId": 54160,
+    "prefabName": "room_floorobject_327"
+  },
+  {
+    "id": 153,
+    "itemSpriteName": "room_floorobject_239_386",
+    "objectDescNameTextId": 64161,
+    "objectNameTextId": 54161,
+    "prefabName": "room_floorobject_239"
+  },
+  {
+    "id": 154,
+    "itemSpriteName": "room_floorobject_240_387",
+    "objectDescNameTextId": 64162,
+    "objectNameTextId": 54162,
+    "prefabName": "room_floorobject_240"
+  },
+  {
+    "id": 155,
+    "itemSpriteName": "room_floorobject_241_388",
+    "objectDescNameTextId": 64163,
+    "objectNameTextId": 54163,
+    "prefabName": "room_floorobject_241"
+  },
+  {
+    "id": 156,
+    "itemSpriteName": "room_floorobject_242_389",
+    "objectDescNameTextId": 64164,
+    "objectNameTextId": 54164,
+    "prefabName": "room_floorobject_242"
+  },
+  {
+    "id": 157,
+    "itemSpriteName": "room_floorobject_329_477",
+    "objectDescNameTextId": 64165,
+    "objectNameTextId": 54165,
+    "prefabName": "room_floorobject_329"
+  },
+  {
+    "id": 158,
+    "itemSpriteName": "room_floorobject_330_478",
+    "objectDescNameTextId": 64166,
+    "objectNameTextId": 54166,
+    "prefabName": "room_floorobject_330"
+  },
+  {
+    "id": 159,
+    "itemSpriteName": "room_floorobject_331_479",
+    "objectDescNameTextId": 64167,
+    "objectNameTextId": 54167,
+    "prefabName": "room_floorobject_331"
+  },
+  {
+    "id": 160,
+    "itemSpriteName": "room_floorobject_332_480",
+    "objectDescNameTextId": 64168,
+    "objectNameTextId": 54168,
+    "prefabName": "room_floorobject_332"
+  },
+  {
+    "id": 161,
+    "itemSpriteName": "room_floorobject_269_416",
+    "objectDescNameTextId": 64169,
+    "objectNameTextId": 54169,
+    "prefabName": "room_floorobject_269"
+  },
+  {
+    "id": 162,
+    "itemSpriteName": "room_floorobject_270_417",
+    "objectDescNameTextId": 64170,
+    "objectNameTextId": 54170,
+    "prefabName": "room_floorobject_270"
+  },
+  {
+    "id": 163,
+    "itemSpriteName": "room_floorobject_271_418",
+    "objectDescNameTextId": 64171,
+    "objectNameTextId": 54171,
+    "prefabName": "room_floorobject_271"
+  },
+  {
+    "id": 164,
+    "itemSpriteName": "room_floorobject_272_419",
+    "objectDescNameTextId": 64172,
+    "objectNameTextId": 54172,
+    "prefabName": "room_floorobject_272"
+  },
+  {
+    "id": 165,
+    "itemSpriteName": "room_floorobject_339_487",
+    "objectDescNameTextId": 64173,
+    "objectNameTextId": 54173,
+    "prefabName": "room_floorobject_339"
+  },
+  {
+    "id": 166,
+    "itemSpriteName": "room_floorobject_340_488",
+    "objectDescNameTextId": 64174,
+    "objectNameTextId": 54174,
+    "prefabName": "room_floorobject_340"
+  },
+  {
+    "id": 167,
+    "itemSpriteName": "room_floorobject_341_489",
+    "objectDescNameTextId": 64175,
+    "objectNameTextId": 54175,
+    "prefabName": "room_floorobject_341"
+  },
+  {
+    "id": 168,
+    "itemSpriteName": "room_floorobject_342_490",
+    "objectDescNameTextId": 64176,
+    "objectNameTextId": 54176,
+    "prefabName": "room_floorobject_342"
+  },
+  {
+    "id": 169,
+    "itemSpriteName": "room_floorobject_308_456",
+    "objectDescNameTextId": 64177,
+    "objectNameTextId": 54177,
+    "prefabName": "room_floorobject_308"
+  },
+  {
+    "id": 170,
+    "itemSpriteName": "room_floorobject_309_457",
+    "objectDescNameTextId": 64178,
+    "objectNameTextId": 54178,
+    "prefabName": "room_floorobject_309"
+  },
+  {
+    "id": 171,
+    "itemSpriteName": "room_floorobject_310_458",
+    "objectDescNameTextId": 64179,
+    "objectNameTextId": 54179,
+    "prefabName": "room_floorobject_310"
+  },
+  {
+    "id": 172,
+    "itemSpriteName": "room_floorobject_311_459",
+    "objectDescNameTextId": 64180,
+    "objectNameTextId": 54180,
+    "prefabName": "room_floorobject_311"
+  },
+  {
+    "id": 173,
+    "itemSpriteName": "room_floorobject_344_492",
+    "objectDescNameTextId": 64186,
+    "objectNameTextId": 54186,
+    "prefabName": "room_floorobject_344"
+  },
+  {
+    "id": 174,
+    "itemSpriteName": "room_floorobject_345_493",
+    "objectDescNameTextId": 64187,
+    "objectNameTextId": 54187,
+    "prefabName": "room_floorobject_345"
+  },
+  {
+    "id": 175,
+    "itemSpriteName": "room_floorobject_346_494",
+    "objectDescNameTextId": 64188,
+    "objectNameTextId": 54188,
+    "prefabName": "room_floorobject_346"
+  },
+  {
+    "id": 176,
+    "itemSpriteName": "room_floorobject_347_495",
+    "objectDescNameTextId": 64189,
+    "objectNameTextId": 54189,
+    "prefabName": "room_floorobject_347"
+  },
+  {
+    "id": 177,
+    "itemSpriteName": "room_floorobject_249_396",
+    "objectDescNameTextId": 64190,
+    "objectNameTextId": 54190,
+    "prefabName": "room_floorobject_249"
+  },
+  {
+    "id": 178,
+    "itemSpriteName": "room_floorobject_250_397",
+    "objectDescNameTextId": 64191,
+    "objectNameTextId": 54191,
+    "prefabName": "room_floorobject_250"
+  },
+  {
+    "id": 179,
+    "itemSpriteName": "room_floorobject_251_398",
+    "objectDescNameTextId": 64192,
+    "objectNameTextId": 54192,
+    "prefabName": "room_floorobject_251"
+  },
+  {
+    "id": 180,
+    "itemSpriteName": "room_floorobject_252_399",
+    "objectDescNameTextId": 64193,
+    "objectNameTextId": 54193,
+    "prefabName": "room_floorobject_252"
+  },
+  {
+    "id": 181,
+    "itemSpriteName": "room_floorobject_244_391",
+    "objectDescNameTextId": 64194,
+    "objectNameTextId": 54194,
+    "prefabName": "room_floorobject_244"
+  },
+  {
+    "id": 182,
+    "itemSpriteName": "room_floorobject_245_392",
+    "objectDescNameTextId": 64195,
+    "objectNameTextId": 54195,
+    "prefabName": "room_floorobject_245"
+  },
+  {
+    "id": 183,
+    "itemSpriteName": "room_floorobject_246_393",
+    "objectDescNameTextId": 64196,
+    "objectNameTextId": 54196,
+    "prefabName": "room_floorobject_246"
+  },
+  {
+    "id": 184,
+    "itemSpriteName": "room_floorobject_247_394",
+    "objectDescNameTextId": 64197,
+    "objectNameTextId": 54197,
+    "prefabName": "room_floorobject_247"
+  }
+]

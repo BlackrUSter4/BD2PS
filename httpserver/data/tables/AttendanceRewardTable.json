@@ -1,0 +1,1479 @@
+[
+  {
+    "groupId": 38,
+    "id": 1,
+    "rewardCount": 1,
+    "rewardId": 600001,
+    "rewardType": 9
+  },
+  {
+    "groupId": 38,
+    "id": 2,
+    "rewardCount": 1,
+    "rewardId": 600002,
+    "rewardType": 9
+  },
+  {
+    "groupId": 38,
+    "id": 3,
+    "rewardCount": 1,
+    "rewardId": 600002,
+    "rewardType": 9
+  },
+  {
+    "groupId": 38,
+    "id": 4,
+    "rewardCount": 1,
+    "rewardId": 600002,
+    "rewardType": 9
+  },
+  {
+    "groupId": 38,
+    "id": 5,
+    "rewardCount": 1,
+    "rewardId": 600002,
+    "rewardType": 9
+  },
+  {
+    "groupId": 38,
+    "id": 6,
+    "rewardCount": 1,
+    "rewardId": 600002,
+    "rewardType": 9
+  },
+  {
+    "groupId": 38,
+    "id": 7,
+    "rewardCount": 1,
+    "rewardId": 600002,
+    "rewardType": 9
+  },
+  {
+    "groupId": 38,
+    "id": 8,
+    "rewardCount": 1,
+    "rewardId": 600002,
+    "rewardType": 9
+  },
+  {
+    "groupId": 38,
+    "id": 9,
+    "rewardCount": 1,
+    "rewardId": 600002,
+    "rewardType": 9
+  },
+  {
+    "groupId": 38,
+    "id": 10,
+    "rewardCount": 1,
+    "rewardId": 600002,
+    "rewardType": 9
+  },
+  {
+    "groupId": 38,
+    "id": 11,
+    "rewardCount": 1,
+    "rewardId": 600002,
+    "rewardType": 9
+  },
+  {
+    "groupId": 38,
+    "id": 12,
+    "rewardCount": 1,
+    "rewardId": 600002,
+    "rewardType": 9
+  },
+  {
+    "groupId": 38,
+    "id": 13,
+    "rewardCount": 1,
+    "rewardId": 600002,
+    "rewardType": 9
+  },
+  {
+    "groupId": 38,
+    "id": 14,
+    "rewardCount": 1,
+    "rewardId": 600002,
+    "rewardType": 9
+  },
+  {
+    "groupId": 38,
+    "id": 15,
+    "rewardCount": 1,
+    "rewardId": 600002,
+    "rewardType": 9
+  },
+  {
+    "groupId": 38,
+    "id": 16,
+    "rewardCount": 1,
+    "rewardId": 600002,
+    "rewardType": 9
+  },
+  {
+    "groupId": 38,
+    "id": 17,
+    "rewardCount": 1,
+    "rewardId": 600002,
+    "rewardType": 9
+  },
+  {
+    "groupId": 38,
+    "id": 18,
+    "rewardCount": 1,
+    "rewardId": 600002,
+    "rewardType": 9
+  },
+  {
+    "groupId": 38,
+    "id": 19,
+    "rewardCount": 1,
+    "rewardId": 600002,
+    "rewardType": 9
+  },
+  {
+    "groupId": 38,
+    "id": 20,
+    "rewardCount": 1,
+    "rewardId": 600002,
+    "rewardType": 9
+  },
+  {
+    "groupId": 38,
+    "id": 21,
+    "rewardCount": 1,
+    "rewardId": 600002,
+    "rewardType": 9
+  },
+  {
+    "groupId": 38,
+    "id": 22,
+    "rewardCount": 1,
+    "rewardId": 600002,
+    "rewardType": 9
+  },
+  {
+    "groupId": 38,
+    "id": 23,
+    "rewardCount": 1,
+    "rewardId": 600002,
+    "rewardType": 9
+  },
+  {
+    "groupId": 38,
+    "id": 24,
+    "rewardCount": 1,
+    "rewardId": 600002,
+    "rewardType": 9
+  },
+  {
+    "groupId": 38,
+    "id": 25,
+    "rewardCount": 1,
+    "rewardId": 600002,
+    "rewardType": 9
+  },
+  {
+    "groupId": 38,
+    "id": 26,
+    "rewardCount": 1,
+    "rewardId": 600002,
+    "rewardType": 9
+  },
+  {
+    "groupId": 38,
+    "id": 27,
+    "rewardCount": 1,
+    "rewardId": 600002,
+    "rewardType": 9
+  },
+  {
+    "groupId": 38,
+    "id": 28,
+    "rewardCount": 1,
+    "rewardId": 600002,
+    "rewardType": 9
+  },
+  {
+    "groupId": 38,
+    "id": 29,
+    "rewardCount": 1,
+    "rewardId": 600002,
+    "rewardType": 9
+  },
+  {
+    "groupId": 38,
+    "id": 30,
+    "rewardCount": 1,
+    "rewardId": 600002,
+    "rewardType": 9
+  },
+  {
+    "groupId": 39,
+    "id": 1,
+    "rewardCount": 1,
+    "rewardId": 600003,
+    "rewardType": 9
+  },
+  {
+    "groupId": 39,
+    "id": 2,
+    "rewardCount": 1,
+    "rewardId": 600004,
+    "rewardType": 9
+  },
+  {
+    "groupId": 39,
+    "id": 3,
+    "rewardCount": 1,
+    "rewardId": 600004,
+    "rewardType": 9
+  },
+  {
+    "groupId": 39,
+    "id": 4,
+    "rewardCount": 1,
+    "rewardId": 600004,
+    "rewardType": 9
+  },
+  {
+    "groupId": 39,
+    "id": 5,
+    "rewardCount": 1,
+    "rewardId": 600004,
+    "rewardType": 9
+  },
+  {
+    "groupId": 39,
+    "id": 6,
+    "rewardCount": 1,
+    "rewardId": 600004,
+    "rewardType": 9
+  },
+  {
+    "groupId": 39,
+    "id": 7,
+    "rewardCount": 1,
+    "rewardId": 600004,
+    "rewardType": 9
+  },
+  {
+    "groupId": 39,
+    "id": 8,
+    "rewardCount": 1,
+    "rewardId": 600004,
+    "rewardType": 9
+  },
+  {
+    "groupId": 39,
+    "id": 9,
+    "rewardCount": 1,
+    "rewardId": 600004,
+    "rewardType": 9
+  },
+  {
+    "groupId": 39,
+    "id": 10,
+    "rewardCount": 1,
+    "rewardId": 600004,
+    "rewardType": 9
+  },
+  {
+    "groupId": 39,
+    "id": 11,
+    "rewardCount": 1,
+    "rewardId": 600004,
+    "rewardType": 9
+  },
+  {
+    "groupId": 39,
+    "id": 12,
+    "rewardCount": 1,
+    "rewardId": 600004,
+    "rewardType": 9
+  },
+  {
+    "groupId": 39,
+    "id": 13,
+    "rewardCount": 1,
+    "rewardId": 600004,
+    "rewardType": 9
+  },
+  {
+    "groupId": 39,
+    "id": 14,
+    "rewardCount": 1,
+    "rewardId": 600004,
+    "rewardType": 9
+  },
+  {
+    "groupId": 39,
+    "id": 15,
+    "rewardCount": 1,
+    "rewardId": 600004,
+    "rewardType": 9
+  },
+  {
+    "groupId": 39,
+    "id": 16,
+    "rewardCount": 1,
+    "rewardId": 600004,
+    "rewardType": 9
+  },
+  {
+    "groupId": 39,
+    "id": 17,
+    "rewardCount": 1,
+    "rewardId": 600004,
+    "rewardType": 9
+  },
+  {
+    "groupId": 39,
+    "id": 18,
+    "rewardCount": 1,
+    "rewardId": 600004,
+    "rewardType": 9
+  },
+  {
+    "groupId": 39,
+    "id": 19,
+    "rewardCount": 1,
+    "rewardId": 600004,
+    "rewardType": 9
+  },
+  {
+    "groupId": 39,
+    "id": 20,
+    "rewardCount": 1,
+    "rewardId": 600004,
+    "rewardType": 9
+  },
+  {
+    "groupId": 39,
+    "id": 21,
+    "rewardCount": 1,
+    "rewardId": 600004,
+    "rewardType": 9
+  },
+  {
+    "groupId": 39,
+    "id": 22,
+    "rewardCount": 1,
+    "rewardId": 600004,
+    "rewardType": 9
+  },
+  {
+    "groupId": 39,
+    "id": 23,
+    "rewardCount": 1,
+    "rewardId": 600004,
+    "rewardType": 9
+  },
+  {
+    "groupId": 39,
+    "id": 24,
+    "rewardCount": 1,
+    "rewardId": 600004,
+    "rewardType": 9
+  },
+  {
+    "groupId": 39,
+    "id": 25,
+    "rewardCount": 1,
+    "rewardId": 600004,
+    "rewardType": 9
+  },
+  {
+    "groupId": 39,
+    "id": 26,
+    "rewardCount": 1,
+    "rewardId": 600004,
+    "rewardType": 9
+  },
+  {
+    "groupId": 39,
+    "id": 27,
+    "rewardCount": 1,
+    "rewardId": 600004,
+    "rewardType": 9
+  },
+  {
+    "groupId": 39,
+    "id": 28,
+    "rewardCount": 1,
+    "rewardId": 600004,
+    "rewardType": 9
+  },
+  {
+    "groupId": 39,
+    "id": 29,
+    "rewardCount": 1,
+    "rewardId": 600004,
+    "rewardType": 9
+  },
+  {
+    "groupId": 39,
+    "id": 30,
+    "rewardCount": 1,
+    "rewardId": 600004,
+    "rewardType": 9
+  },
+  {
+    "groupId": 36,
+    "id": 1,
+    "rewardCount": 1,
+    "rewardId": 600005,
+    "rewardType": 9
+  },
+  {
+    "groupId": 36,
+    "id": 2,
+    "rewardCount": 1,
+    "rewardId": 600006,
+    "rewardType": 9
+  },
+  {
+    "groupId": 36,
+    "id": 3,
+    "rewardCount": 1,
+    "rewardId": 600006,
+    "rewardType": 9
+  },
+  {
+    "groupId": 36,
+    "id": 4,
+    "rewardCount": 1,
+    "rewardId": 600006,
+    "rewardType": 9
+  },
+  {
+    "groupId": 36,
+    "id": 5,
+    "rewardCount": 1,
+    "rewardId": 600006,
+    "rewardType": 9
+  },
+  {
+    "groupId": 36,
+    "id": 6,
+    "rewardCount": 1,
+    "rewardId": 600006,
+    "rewardType": 9
+  },
+  {
+    "groupId": 36,
+    "id": 7,
+    "rewardCount": 1,
+    "rewardId": 600006,
+    "rewardType": 9
+  },
+  {
+    "groupId": 36,
+    "id": 8,
+    "rewardCount": 1,
+    "rewardId": 600006,
+    "rewardType": 9
+  },
+  {
+    "groupId": 36,
+    "id": 9,
+    "rewardCount": 1,
+    "rewardId": 600006,
+    "rewardType": 9
+  },
+  {
+    "groupId": 36,
+    "id": 10,
+    "rewardCount": 1,
+    "rewardId": 600006,
+    "rewardType": 9
+  },
+  {
+    "groupId": 36,
+    "id": 11,
+    "rewardCount": 1,
+    "rewardId": 600006,
+    "rewardType": 9
+  },
+  {
+    "groupId": 36,
+    "id": 12,
+    "rewardCount": 1,
+    "rewardId": 600006,
+    "rewardType": 9
+  },
+  {
+    "groupId": 36,
+    "id": 13,
+    "rewardCount": 1,
+    "rewardId": 600006,
+    "rewardType": 9
+  },
+  {
+    "groupId": 36,
+    "id": 14,
+    "rewardCount": 1,
+    "rewardId": 600006,
+    "rewardType": 9
+  },
+  {
+    "groupId": 36,
+    "id": 15,
+    "rewardCount": 1,
+    "rewardId": 600006,
+    "rewardType": 9
+  },
+  {
+    "groupId": 36,
+    "id": 16,
+    "rewardCount": 1,
+    "rewardId": 600006,
+    "rewardType": 9
+  },
+  {
+    "groupId": 36,
+    "id": 17,
+    "rewardCount": 1,
+    "rewardId": 600006,
+    "rewardType": 9
+  },
+  {
+    "groupId": 36,
+    "id": 18,
+    "rewardCount": 1,
+    "rewardId": 600006,
+    "rewardType": 9
+  },
+  {
+    "groupId": 36,
+    "id": 19,
+    "rewardCount": 1,
+    "rewardId": 600006,
+    "rewardType": 9
+  },
+  {
+    "groupId": 36,
+    "id": 20,
+    "rewardCount": 1,
+    "rewardId": 600006,
+    "rewardType": 9
+  },
+  {
+    "groupId": 36,
+    "id": 21,
+    "rewardCount": 1,
+    "rewardId": 600006,
+    "rewardType": 9
+  },
+  {
+    "groupId": 36,
+    "id": 22,
+    "rewardCount": 1,
+    "rewardId": 600006,
+    "rewardType": 9
+  },
+  {
+    "groupId": 36,
+    "id": 23,
+    "rewardCount": 1,
+    "rewardId": 600006,
+    "rewardType": 9
+  },
+  {
+    "groupId": 36,
+    "id": 24,
+    "rewardCount": 1,
+    "rewardId": 600006,
+    "rewardType": 9
+  },
+  {
+    "groupId": 36,
+    "id": 25,
+    "rewardCount": 1,
+    "rewardId": 600006,
+    "rewardType": 9
+  },
+  {
+    "groupId": 36,
+    "id": 26,
+    "rewardCount": 1,
+    "rewardId": 600006,
+    "rewardType": 9
+  },
+  {
+    "groupId": 36,
+    "id": 27,
+    "rewardCount": 1,
+    "rewardId": 600006,
+    "rewardType": 9
+  },
+  {
+    "groupId": 36,
+    "id": 28,
+    "rewardCount": 1,
+    "rewardId": 600006,
+    "rewardType": 9
+  },
+  {
+    "groupId": 36,
+    "id": 29,
+    "rewardCount": 1,
+    "rewardId": 600006,
+    "rewardType": 9
+  },
+  {
+    "groupId": 36,
+    "id": 30,
+    "rewardCount": 1,
+    "rewardId": 600006,
+    "rewardType": 9
+  },
+  {
+    "groupId": 37,
+    "id": 1,
+    "rewardCount": 1,
+    "rewardId": 600007,
+    "rewardType": 9
+  },
+  {
+    "groupId": 37,
+    "id": 2,
+    "rewardCount": 1,
+    "rewardId": 600008,
+    "rewardType": 9
+  },
+  {
+    "groupId": 37,
+    "id": 3,
+    "rewardCount": 1,
+    "rewardId": 600008,
+    "rewardType": 9
+  },
+  {
+    "groupId": 37,
+    "id": 4,
+    "rewardCount": 1,
+    "rewardId": 600008,
+    "rewardType": 9
+  },
+  {
+    "groupId": 37,
+    "id": 5,
+    "rewardCount": 1,
+    "rewardId": 600008,
+    "rewardType": 9
+  },
+  {
+    "groupId": 37,
+    "id": 6,
+    "rewardCount": 1,
+    "rewardId": 600008,
+    "rewardType": 9
+  },
+  {
+    "groupId": 37,
+    "id": 7,
+    "rewardCount": 1,
+    "rewardId": 600008,
+    "rewardType": 9
+  },
+  {
+    "groupId": 37,
+    "id": 8,
+    "rewardCount": 1,
+    "rewardId": 600008,
+    "rewardType": 9
+  },
+  {
+    "groupId": 37,
+    "id": 9,
+    "rewardCount": 1,
+    "rewardId": 600008,
+    "rewardType": 9
+  },
+  {
+    "groupId": 37,
+    "id": 10,
+    "rewardCount": 1,
+    "rewardId": 600008,
+    "rewardType": 9
+  },
+  {
+    "groupId": 37,
+    "id": 11,
+    "rewardCount": 1,
+    "rewardId": 600008,
+    "rewardType": 9
+  },
+  {
+    "groupId": 37,
+    "id": 12,
+    "rewardCount": 1,
+    "rewardId": 600008,
+    "rewardType": 9
+  },
+  {
+    "groupId": 37,
+    "id": 13,
+    "rewardCount": 1,
+    "rewardId": 600008,
+    "rewardType": 9
+  },
+  {
+    "groupId": 37,
+    "id": 14,
+    "rewardCount": 1,
+    "rewardId": 600008,
+    "rewardType": 9
+  },
+  {
+    "groupId": 37,
+    "id": 15,
+    "rewardCount": 1,
+    "rewardId": 600008,
+    "rewardType": 9
+  },
+  {
+    "groupId": 37,
+    "id": 16,
+    "rewardCount": 1,
+    "rewardId": 600008,
+    "rewardType": 9
+  },
+  {
+    "groupId": 37,
+    "id": 17,
+    "rewardCount": 1,
+    "rewardId": 600008,
+    "rewardType": 9
+  },
+  {
+    "groupId": 37,
+    "id": 18,
+    "rewardCount": 1,
+    "rewardId": 600008,
+    "rewardType": 9
+  },
+  {
+    "groupId": 37,
+    "id": 19,
+    "rewardCount": 1,
+    "rewardId": 600008,
+    "rewardType": 9
+  },
+  {
+    "groupId": 37,
+    "id": 20,
+    "rewardCount": 1,
+    "rewardId": 600008,
+    "rewardType": 9
+  },
+  {
+    "groupId": 37,
+    "id": 21,
+    "rewardCount": 1,
+    "rewardId": 600008,
+    "rewardType": 9
+  },
+  {
+    "groupId": 37,
+    "id": 22,
+    "rewardCount": 1,
+    "rewardId": 600008,
+    "rewardType": 9
+  },
+  {
+    "groupId": 37,
+    "id": 23,
+    "rewardCount": 1,
+    "rewardId": 600008,
+    "rewardType": 9
+  },
+  {
+    "groupId": 37,
+    "id": 24,
+    "rewardCount": 1,
+    "rewardId": 600008,
+    "rewardType": 9
+  },
+  {
+    "groupId": 37,
+    "id": 25,
+    "rewardCount": 1,
+    "rewardId": 600008,
+    "rewardType": 9
+  },
+  {
+    "groupId": 37,
+    "id": 26,
+    "rewardCount": 1,
+    "rewardId": 600008,
+    "rewardType": 9
+  },
+  {
+    "groupId": 37,
+    "id": 27,
+    "rewardCount": 1,
+    "rewardId": 600008,
+    "rewardType": 9
+  },
+  {
+    "groupId": 37,
+    "id": 28,
+    "rewardCount": 1,
+    "rewardId": 600008,
+    "rewardType": 9
+  },
+  {
+    "groupId": 37,
+    "id": 29,
+    "rewardCount": 1,
+    "rewardId": 600008,
+    "rewardType": 9
+  },
+  {
+    "groupId": 37,
+    "id": 30,
+    "rewardCount": 1,
+    "rewardId": 600008,
+    "rewardType": 9
+  },
+  {
+    "groupId": 410097,
+    "id": 1,
+    "rewardCount": 1,
+    "rewardId": 600009,
+    "rewardType": 9
+  },
+  {
+    "groupId": 410097,
+    "id": 2,
+    "rewardCount": 1,
+    "rewardId": 600010,
+    "rewardType": 9
+  },
+  {
+    "groupId": 410097,
+    "id": 3,
+    "rewardCount": 1,
+    "rewardId": 600011,
+    "rewardType": 9
+  },
+  {
+    "groupId": 410097,
+    "id": 4,
+    "rewardCount": 1,
+    "rewardId": 600012,
+    "rewardType": 9
+  },
+  {
+    "groupId": 410097,
+    "id": 5,
+    "rewardCount": 1,
+    "rewardId": 600013,
+    "rewardType": 9
+  },
+  {
+    "groupId": 410097,
+    "id": 6,
+    "rewardCount": 1,
+    "rewardId": 600014,
+    "rewardType": 9
+  },
+  {
+    "groupId": 410097,
+    "id": 7,
+    "rewardCount": 1,
+    "rewardId": 600015,
+    "rewardType": 9
+  },
+  {
+    "groupId": 410116,
+    "id": 1,
+    "rewardCount": 1,
+    "rewardId": 600016,
+    "rewardType": 9
+  },
+  {
+    "groupId": 410116,
+    "id": 2,
+    "rewardCount": 1,
+    "rewardId": 600017,
+    "rewardType": 9
+  },
+  {
+    "groupId": 410116,
+    "id": 3,
+    "rewardCount": 1,
+    "rewardId": 600018,
+    "rewardType": 9
+  },
+  {
+    "groupId": 410116,
+    "id": 4,
+    "rewardCount": 1,
+    "rewardId": 600019,
+    "rewardType": 9
+  },
+  {
+    "groupId": 410116,
+    "id": 5,
+    "rewardCount": 1,
+    "rewardId": 600020,
+    "rewardType": 9
+  },
+  {
+    "groupId": 410116,
+    "id": 6,
+    "rewardCount": 1,
+    "rewardId": 600021,
+    "rewardType": 9
+  },
+  {
+    "groupId": 410116,
+    "id": 7,
+    "rewardCount": 1,
+    "rewardId": 600022,
+    "rewardType": 9
+  },
+  {
+    "groupId": 410147,
+    "id": 1,
+    "rewardCount": 1,
+    "rewardId": 600023,
+    "rewardType": 9
+  },
+  {
+    "groupId": 410147,
+    "id": 2,
+    "rewardCount": 1,
+    "rewardId": 600024,
+    "rewardType": 9
+  },
+  {
+    "groupId": 410147,
+    "id": 3,
+    "rewardCount": 1,
+    "rewardId": 600025,
+    "rewardType": 9
+  },
+  {
+    "groupId": 410147,
+    "id": 4,
+    "rewardCount": 1,
+    "rewardId": 600026,
+    "rewardType": 9
+  },
+  {
+    "groupId": 410147,
+    "id": 5,
+    "rewardCount": 1,
+    "rewardId": 600027,
+    "rewardType": 9
+  },
+  {
+    "groupId": 410147,
+    "id": 6,
+    "rewardCount": 1,
+    "rewardId": 600028,
+    "rewardType": 9
+  },
+  {
+    "groupId": 410147,
+    "id": 7,
+    "rewardCount": 1,
+    "rewardId": 600029,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600030,
+    "id": 1,
+    "rewardCount": 1,
+    "rewardId": 600032,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600030,
+    "id": 2,
+    "rewardCount": 1,
+    "rewardId": 600033,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600030,
+    "id": 3,
+    "rewardCount": 1,
+    "rewardId": 600034,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600030,
+    "id": 4,
+    "rewardCount": 1,
+    "rewardId": 600035,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600030,
+    "id": 5,
+    "rewardCount": 1,
+    "rewardId": 600036,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600030,
+    "id": 6,
+    "rewardCount": 1,
+    "rewardId": 600037,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600030,
+    "id": 7,
+    "rewardCount": 1,
+    "rewardId": 600038,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600039,
+    "id": 1,
+    "rewardCount": 1,
+    "rewardId": 600041,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600039,
+    "id": 2,
+    "rewardCount": 1,
+    "rewardId": 600042,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600039,
+    "id": 3,
+    "rewardCount": 1,
+    "rewardId": 600043,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600039,
+    "id": 4,
+    "rewardCount": 1,
+    "rewardId": 600044,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600039,
+    "id": 5,
+    "rewardCount": 1,
+    "rewardId": 600045,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600039,
+    "id": 6,
+    "rewardCount": 1,
+    "rewardId": 600046,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600039,
+    "id": 7,
+    "rewardCount": 1,
+    "rewardId": 600047,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600048,
+    "id": 1,
+    "rewardCount": 1,
+    "rewardId": 600050,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600048,
+    "id": 2,
+    "rewardCount": 1,
+    "rewardId": 600051,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600048,
+    "id": 3,
+    "rewardCount": 1,
+    "rewardId": 600052,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600048,
+    "id": 4,
+    "rewardCount": 1,
+    "rewardId": 600053,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600048,
+    "id": 5,
+    "rewardCount": 1,
+    "rewardId": 600054,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600048,
+    "id": 6,
+    "rewardCount": 1,
+    "rewardId": 600055,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600048,
+    "id": 7,
+    "rewardCount": 1,
+    "rewardId": 600056,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600057,
+    "id": 1,
+    "rewardCount": 1,
+    "rewardId": 600059,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600057,
+    "id": 2,
+    "rewardCount": 1,
+    "rewardId": 600060,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600057,
+    "id": 3,
+    "rewardCount": 1,
+    "rewardId": 600061,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600057,
+    "id": 4,
+    "rewardCount": 1,
+    "rewardId": 600062,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600057,
+    "id": 5,
+    "rewardCount": 1,
+    "rewardId": 600063,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600057,
+    "id": 6,
+    "rewardCount": 1,
+    "rewardId": 600064,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600057,
+    "id": 7,
+    "rewardCount": 1,
+    "rewardId": 600065,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600066,
+    "id": 1,
+    "rewardCount": 1,
+    "rewardId": 600068,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600066,
+    "id": 2,
+    "rewardCount": 1,
+    "rewardId": 600069,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600066,
+    "id": 3,
+    "rewardCount": 1,
+    "rewardId": 600070,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600066,
+    "id": 4,
+    "rewardCount": 1,
+    "rewardId": 600071,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600066,
+    "id": 5,
+    "rewardCount": 1,
+    "rewardId": 600072,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600066,
+    "id": 6,
+    "rewardCount": 1,
+    "rewardId": 600073,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600066,
+    "id": 7,
+    "rewardCount": 1,
+    "rewardId": 600074,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600075,
+    "id": 1,
+    "rewardCount": 1,
+    "rewardId": 600077,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600075,
+    "id": 2,
+    "rewardCount": 1,
+    "rewardId": 600078,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600075,
+    "id": 3,
+    "rewardCount": 1,
+    "rewardId": 600079,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600075,
+    "id": 4,
+    "rewardCount": 1,
+    "rewardId": 600080,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600075,
+    "id": 5,
+    "rewardCount": 1,
+    "rewardId": 600081,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600075,
+    "id": 6,
+    "rewardCount": 1,
+    "rewardId": 600082,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600075,
+    "id": 7,
+    "rewardCount": 1,
+    "rewardId": 600083,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600084,
+    "id": 1,
+    "rewardCount": 1,
+    "rewardId": 600086,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600084,
+    "id": 2,
+    "rewardCount": 1,
+    "rewardId": 600087,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600084,
+    "id": 3,
+    "rewardCount": 1,
+    "rewardId": 600088,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600084,
+    "id": 4,
+    "rewardCount": 1,
+    "rewardId": 600089,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600084,
+    "id": 5,
+    "rewardCount": 1,
+    "rewardId": 600090,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600084,
+    "id": 6,
+    "rewardCount": 1,
+    "rewardId": 600091,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600084,
+    "id": 7,
+    "rewardCount": 1,
+    "rewardId": 600092,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600093,
+    "id": 1,
+    "rewardCount": 1,
+    "rewardId": 600095,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600093,
+    "id": 2,
+    "rewardCount": 1,
+    "rewardId": 600096,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600093,
+    "id": 3,
+    "rewardCount": 1,
+    "rewardId": 600097,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600093,
+    "id": 4,
+    "rewardCount": 1,
+    "rewardId": 600098,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600093,
+    "id": 5,
+    "rewardCount": 1,
+    "rewardId": 600099,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600093,
+    "id": 6,
+    "rewardCount": 1,
+    "rewardId": 600100,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600093,
+    "id": 7,
+    "rewardCount": 1,
+    "rewardId": 600101,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600102,
+    "id": 1,
+    "rewardCount": 1,
+    "rewardId": 600104,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600102,
+    "id": 2,
+    "rewardCount": 1,
+    "rewardId": 600105,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600102,
+    "id": 3,
+    "rewardCount": 1,
+    "rewardId": 600106,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600102,
+    "id": 4,
+    "rewardCount": 1,
+    "rewardId": 600107,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600102,
+    "id": 5,
+    "rewardCount": 1,
+    "rewardId": 600108,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600102,
+    "id": 6,
+    "rewardCount": 1,
+    "rewardId": 600109,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600102,
+    "id": 7,
+    "rewardCount": 1,
+    "rewardId": 600110,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600111,
+    "id": 1,
+    "rewardCount": 1,
+    "rewardId": 600113,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600111,
+    "id": 2,
+    "rewardCount": 1,
+    "rewardId": 600114,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600111,
+    "id": 3,
+    "rewardCount": 1,
+    "rewardId": 600115,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600111,
+    "id": 4,
+    "rewardCount": 1,
+    "rewardId": 600116,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600111,
+    "id": 5,
+    "rewardCount": 1,
+    "rewardId": 600117,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600111,
+    "id": 6,
+    "rewardCount": 1,
+    "rewardId": 600118,
+    "rewardType": 9
+  },
+  {
+    "groupId": 600111,
+    "id": 7,
+    "rewardCount": 1,
+    "rewardId": 600119,
+    "rewardType": 9
+  }
+]

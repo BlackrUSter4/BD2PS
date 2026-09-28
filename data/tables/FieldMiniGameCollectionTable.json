@@ -1,0 +1,202 @@
+[
+  {
+    "collectionValue": 1,
+    "id": 1,
+    "itemDescLocalTextId": 15001,
+    "itemNameTextId": 80014,
+    "lockedIconSpriteName": "survival_collection_50"
+  },
+  {
+    "collectionValue": 2,
+    "id": 2,
+    "itemDescLocalTextId": 15003,
+    "itemNameTextId": 80015,
+    "lockedIconSpriteName": "survival_collection_51"
+  },
+  {
+    "collectionValue": 3,
+    "id": 3,
+    "itemDescLocalTextId": 15005,
+    "itemNameTextId": 80016,
+    "lockedIconSpriteName": "survival_collection_52"
+  },
+  {
+    "collectionValue": 4,
+    "id": 4,
+    "itemDescLocalTextId": 15007,
+    "itemNameTextId": 80017,
+    "lockedIconSpriteName": "survival_collection_53"
+  },
+  {
+    "collectionValue": 5,
+    "id": 5,
+    "itemDescLocalTextId": 15009,
+    "itemNameTextId": 80018,
+    "lockedIconSpriteName": "survival_collection_54"
+  },
+  {
+    "collectionValue": 6,
+    "id": 6,
+    "itemDescLocalTextId": 15011,
+    "itemNameTextId": 80019,
+    "lockedIconSpriteName": "survival_collection_55"
+  },
+  {
+    "collectionValue": 7,
+    "id": 7,
+    "itemDescLocalTextId": 15013,
+    "itemNameTextId": 80020,
+    "lockedIconSpriteName": "survival_collection_56"
+  },
+  {
+    "collectionValue": 8,
+    "id": 8,
+    "itemDescLocalTextId": 15015,
+    "itemNameTextId": 80021,
+    "lockedIconSpriteName": "survival_collection_57"
+  },
+  {
+    "collectionValue": 9,
+    "id": 9,
+    "itemDescLocalTextId": 15017,
+    "itemNameTextId": 80022,
+    "lockedIconSpriteName": "survival_collection_58"
+  },
+  {
+    "collectionValue": 10,
+    "id": 10,
+    "itemDescLocalTextId": 15019,
+    "itemNameTextId": 80023,
+    "lockedIconSpriteName": "survival_collection_59"
+  },
+  {
+    "collectionValue": 11,
+    "id": 11,
+    "itemDescLocalTextId": 15021,
+    "itemNameTextId": 80024,
+    "lockedIconSpriteName": "survival_collection_60"
+  },
+  {
+    "collectionValue": 12,
+    "id": 12,
+    "itemDescLocalTextId": 15023,
+    "itemNameTextId": 80025,
+    "lockedIconSpriteName": "survival_collection_61",
+    "type": 1
+  },
+  {
+    "collectionValue": 13,
+    "id": 13,
+    "itemDescLocalTextId": 15024,
+    "itemNameTextId": 80026,
+    "lockedIconSpriteName": "survival_collection_71",
+    "type": 1
+  },
+  {
+    "collectionValue": 14,
+    "id": 14,
+    "itemDescLocalTextId": 15025,
+    "itemNameTextId": 80027,
+    "lockedIconSpriteName": "survival_collection_63",
+    "type": 1
+  },
+  {
+    "collectionValue": 15,
+    "id": 15,
+    "itemDescLocalTextId": 15026,
+    "itemNameTextId": 80028,
+    "lockedIconSpriteName": "survival_collection_64",
+    "type": 1
+  },
+  {
+    "collectionValue": 16,
+    "id": 16,
+    "itemDescLocalTextId": 15027,
+    "itemNameTextId": 80029,
+    "lockedIconSpriteName": "survival_collection_65",
+    "type": 1
+  },
+  {
+    "collectionValue": 17,
+    "id": 17,
+    "itemDescLocalTextId": 15028,
+    "itemNameTextId": 80030,
+    "lockedIconSpriteName": "survival_collection_66",
+    "type": 1
+  },
+  {
+    "collectionValue": 18,
+    "id": 18,
+    "itemDescLocalTextId": 15029,
+    "itemNameTextId": 80031,
+    "lockedIconSpriteName": "survival_collection_67",
+    "type": 1
+  },
+  {
+    "collectionValue": 19,
+    "id": 19,
+    "itemDescLocalTextId": 15030,
+    "itemNameTextId": 80032,
+    "lockedIconSpriteName": "survival_collection_68",
+    "type": 1
+  },
+  {
+    "collectionValue": 20,
+    "id": 20,
+    "itemDescLocalTextId": 15031,
+    "itemNameTextId": 80033,
+    "lockedIconSpriteName": "survival_collection_69",
+    "type": 1
+  },
+  {
+    "collectionValue": 21,
+    "id": 21,
+    "itemDescLocalTextId": 15032,
+    "itemNameTextId": 80034,
+    "lockedIconSpriteName": "survival_collection_70",
+    "type": 1
+  },
+  {
+    "collectionValue": 22,
+    "id": 22,
+    "itemDescLocalTextId": 15033,
+    "itemNameTextId": 80035,
+    "lockedIconSpriteName": "survival_collection_62",
+    "type": 1
+  },
+  {
+    "iconSpriteName": "survival_skill_48",
+    "id": 23,
+    "itemDescLocalTextId": 15034,
+    "itemNameTextId": 80036,
+    "lockedIconSpriteName": "survival_collection_75",
+    "type": 2
+  },
+  {
+    "collectionValue": 1,
+    "iconSpriteName": "survival_collection_72",
+    "id": 24,
+    "itemDescLocalTextId": 15050,
+    "itemNameTextId": 80037,
+    "lockedIconSpriteName": "survival_collection_76",
+    "type": 2
+  },
+  {
+    "collectionValue": 2,
+    "iconSpriteName": "survival_collection_73",
+    "id": 25,
+    "itemDescLocalTextId": 15051,
+    "itemNameTextId": 80038,
+    "lockedIconSpriteName": "survival_collection_77",
+    "type": 2
+  },
+  {
+    "collectionValue": 6,
+    "iconSpriteName": "survival_collection_74",
+    "id": 26,
+    "itemDescLocalTextId": 15052,
+    "itemNameTextId": 80039,
+    "lockedIconSpriteName": "survival_collection_78",
+    "type": 2
+  }
+]

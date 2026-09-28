@@ -1,0 +1,11 @@
+pub mod life_chunk_info;
+pub mod life_citizen_info;
+pub mod life_collection_info;
+pub mod life_duration_buff_info;
+pub mod life_helper_gacha_info;
+pub mod life_helper_info;
+pub mod life_shop_buy_info;
+pub mod life_shop_reset_info;
+pub mod life_tool_info;
+pub mod life_user_info;
+pub mod life_world_object_info;

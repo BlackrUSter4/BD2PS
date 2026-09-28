@@ -1,0 +1,9 @@
+[
+  {
+    "friendSendExpireDay": 7,
+    "maxFriendCount": 30,
+    "maxFriendRecommendCount": 20,
+    "maxFriendRecvCount": 20,
+    "maxFriendSendCount": 20
+  }
+]

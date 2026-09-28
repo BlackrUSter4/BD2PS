@@ -1,0 +1,4 @@
+[
+  { "groupId": 101, "health": 2.2, "id": 11, "levelupExp": 44, "magicPower": 1.1, "physicalPower": 1.1 },
+  { "groupId": 101, "health": 0.2, "id": 1, "levelupExp": 20, "magicPower": 0.1, "physicalPower": 0.1 }
+]

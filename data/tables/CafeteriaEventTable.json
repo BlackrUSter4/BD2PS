@@ -1,0 +1,158 @@
+[
+  {
+    "bubbleIconSprite": "cafeteria_eventbubble_9",
+    "eventType": 1,
+    "groupId": 1,
+    "id": 1,
+    "reactionPrefabName": [
+      "cafeteria_emotion_22"
+    ],
+    "reactionTime": [
+      0
+    ],
+    "rewardCount": 3,
+    "rewardType": 44
+  },
+  {
+    "bubbleIconSprite": "cafeteria_eventbubble_10",
+    "eventType": 1,
+    "groupId": 1,
+    "id": 2,
+    "reactionPrefabName": [
+      "cafeteria_emotion_22"
+    ],
+    "reactionTime": [
+      0
+    ],
+    "rewardCount": 3,
+    "rewardType": 44
+  },
+  {
+    "bubbleIconSprite": "cafeteria_eventbubble_11",
+    "eventType": 1,
+    "groupId": 1,
+    "id": 3,
+    "reactionPrefabName": [
+      "cafeteria_emotion_22"
+    ],
+    "reactionTime": [
+      0
+    ],
+    "rewardCount": 3,
+    "rewardType": 44
+  },
+  {
+    "bubbleIconSprite": "cafeteria_eventbubble_12",
+    "eventType": 1,
+    "groupId": 1,
+    "id": 4,
+    "reactionPrefabName": [
+      "cafeteria_emotion_22"
+    ],
+    "reactionTime": [
+      0
+    ],
+    "rewardCount": 3,
+    "rewardType": 44
+  },
+  {
+    "bubbleIconSprite": "cafeteria_eventbubble_14",
+    "eventType": 1,
+    "groupId": 1,
+    "id": 6,
+    "reactionPrefabName": [
+      "cafeteria_emotion_22"
+    ],
+    "reactionTime": [
+      0
+    ],
+    "rewardCount": 3,
+    "rewardType": 44
+  },
+  {
+    "bubbleIconSprite": "cafeteria_eventbubble_04",
+    "eventType": 1,
+    "groupId": 1,
+    "id": 7,
+    "reactionPrefabName": [
+      "cafeteria_emotion_22"
+    ],
+    "reactionTime": [
+      0
+    ],
+    "rewardCount": 3,
+    "rewardType": 44
+  },
+  {
+    "TimelineName": "CafeteriaEvent01_01",
+    "bubbleIconSprite": "cafeteria_eventbubble_01",
+    "eventType": 3,
+    "groupId": 2,
+    "id": 3,
+    "rewardCount": 10,
+    "rewardType": 44
+  },
+  {
+    "TimelineName": "CafeteriaEvent02_01",
+    "bubbleIconSprite": "cafeteria_eventbubble_02",
+    "eventType": 3,
+    "groupId": 2,
+    "id": 4,
+    "rewardCount": 10,
+    "rewardType": 44
+  },
+  {
+    "TimelineName": "CafeteriaEvent03_01",
+    "bubbleIconSprite": "cafeteria_eventbubble_03",
+    "eventType": 3,
+    "groupId": 2,
+    "id": 5,
+    "rewardCount": 10,
+    "rewardType": 44
+  },
+  {
+    "TimelineName": "CafeteriaEvent04_01",
+    "bubbleIconSprite": "cafeteria_eventbubble_05",
+    "eventType": 3,
+    "groupId": 2,
+    "id": 6,
+    "rewardCount": 10,
+    "rewardType": 44
+  },
+  {
+    "TimelineName": "CafeteriaEvent05_01",
+    "bubbleIconSprite": "cafeteria_eventbubble_06",
+    "eventType": 3,
+    "groupId": 2,
+    "id": 7,
+    "rewardCount": 10,
+    "rewardType": 44
+  },
+  {
+    "TimelineName": "CafeteriaEvent06_01",
+    "bubbleIconSprite": "cafeteria_eventbubble_07",
+    "eventType": 3,
+    "groupId": 2,
+    "id": 8,
+    "rewardCount": 10,
+    "rewardType": 44
+  },
+  {
+    "TimelineName": "CafeteriaEvent07_01",
+    "bubbleIconSprite": "cafeteria_eventbubble_08",
+    "eventType": 3,
+    "groupId": 2,
+    "id": 9,
+    "rewardCount": 10,
+    "rewardType": 44
+  },
+  {
+    "TimelineName": "CafeteriaEvent08_01",
+    "bubbleIconSprite": "cafeteria_eventbubble_07",
+    "eventType": 3,
+    "groupId": 2,
+    "id": 10,
+    "rewardCount": 10,
+    "rewardType": 44
+  }
+]

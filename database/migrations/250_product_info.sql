@@ -1,0 +1,6 @@
+CREATE TABLE "ProductInfo" (
+    "Index" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "Uid" BIGINT NOT NULL,
+    "Id" INTEGER,
+    "BuyCount" INTEGER
+);

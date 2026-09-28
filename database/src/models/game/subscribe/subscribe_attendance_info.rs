@@ -1,0 +1,18 @@
+use serde::{Deserialize, Serialize};
+use sqlx::FromRow;
+
+#[derive(Debug, Serialize, Deserialize, FromRow)]
+#[serde(rename_all = "PascalCase")]
+#[sqlx(rename_all = "PascalCase")]
+pub struct SubscribeAttendanceInfo {
+    #[sqlx(rename = "Index")]
+    pub index: i64,
+    #[sqlx(rename = "Uid")]
+    pub uid: i64,
+    #[sqlx(rename = "TicketId")]
+    pub ticket_id: Option<i32>,
+    #[sqlx(rename = "ReservedDate")]
+    pub reserved_date: Option<i64>,
+    #[sqlx(rename = "ExpiryDate")]
+    pub expiry_date: Option<i64>,
+}

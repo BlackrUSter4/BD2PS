@@ -1,0 +1,30 @@
+[
+  {
+    "groupId": 1,
+    "id": 1,
+    "mapId": 120055,
+    "mapNameTextId": 80052,
+    "mapSpriteName": "survival_map_80"
+  },
+  {
+    "groupId": 1,
+    "id": 2,
+    "mapId": 120056,
+    "mapNameTextId": 80052,
+    "mapSpriteName": "survival_map_81"
+  },
+  {
+    "groupId": 1,
+    "id": 3,
+    "mapId": 120057,
+    "mapNameTextId": 80052,
+    "mapSpriteName": "survival_map_82"
+  },
+  {
+    "groupId": 1,
+    "id": 4,
+    "mapId": 120058,
+    "mapNameTextId": 80052,
+    "mapSpriteName": "survival_map_83"
+  }
+]

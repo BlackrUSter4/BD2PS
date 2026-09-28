@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "rewardCount": 1,
+    "rewardId": 905153,
+    "rewardType": 9,
+    "score": 10000
+  },
+  {
+    "id": 2,
+    "rewardCount": 1,
+    "rewardId": 905154,
+    "rewardType": 9,
+    "score": 50000
+  },
+  {
+    "id": 3,
+    "rewardCount": 1,
+    "rewardId": 905155,
+    "rewardType": 9,
+    "score": 100000
+  },
+  {
+    "id": 4,
+    "rewardCount": 1,
+    "rewardId": 905156,
+    "rewardType": 9,
+    "score": 150000
+  },
+  {
+    "id": 5,
+    "rewardCount": 1,
+    "rewardId": 905157,
+    "rewardType": 9,
+    "score": 200000
+  },
+  {
+    "id": 6,
+    "rewardCount": 1,
+    "rewardId": 905158,
+    "rewardType": 9,
+    "score": 300000
+  },
+  {
+    "id": 7,
+    "rewardCount": 1,
+    "rewardId": 905159,
+    "rewardType": 9,
+    "score": 400000
+  },
+  {
+    "id": 8,
+    "rewardCount": 1,
+    "rewardId": 905160,
+    "rewardType": 9,
+    "score": 500000
+  },
+  {
+    "id": 9,
+    "rewardCount": 1,
+    "rewardId": 905161,
+    "rewardType": 9,
+    "score": 600000
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "lobbyBackGroudImagePath": "map3003_background_3",
+    "lobbyIconPath": "icon_devilcastle_2",
+    "lobbyIllustPath": "illust_npc300103_3"
+  },
+  {
+    "id": 2,
+    "lobbyBackGroudImagePath": "map3003_background_3",
+    "lobbyIconPath": "icon_devilcastle_1",
+    "lobbyIllustPath": "illust_npc300302_6"
+  },
+  {
+    "id": 3,
+    "lobbyBackGroudImagePath": "map3003_background_3",
+    "lobbyIconPath": "icon_devilcastle_3",
+    "lobbyIllustPath": "illust_char060302_56"
+  },
+  {
+    "id": 4,
+    "lobbyBackGroudImagePath": "map3003_background_3",
+    "lobbyIconPath": "icon_devilcastle_4",
+    "lobbyIllustPath": "illust_char000701_20"
+  }
+]

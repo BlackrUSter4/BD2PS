@@ -1,0 +1,121 @@
+[
+  {
+    "acceptCinemaName": "Quest_Main_00",
+    "completeCinemaName": "Quest_Main_01",
+    "conditionCount": 1,
+    "conditionType": 2,
+    "displayMapId": 30021,
+    "displayRewardCount": [
+      500
+    ],
+    "displayRewardId": [
+      0
+    ],
+    "displayRewardType": [
+      4
+    ],
+    "id": 1,
+    "magicValue": [
+      11
+    ],
+    "mapId": 30021,
+    "nextQuestId": 2,
+    "packId": 3004,
+    "prologSkipQuestTextId": 10000,
+    "questConditionQuestTextId": 1001,
+    "questDescQuestTextId": 2001,
+    "questNameQuestTextId": 1,
+    "questSkipQuestTextId": 10001,
+    "rewardCount": [
+      500
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ],
+    "timelineStartMapId": 30021
+  },
+  {
+    "completeCinemaName": "Quest_Main_02",
+    "completeNpcId": 1,
+    "conditionCount": 2,
+    "conditionType": 2,
+    "displayMapId": 30021,
+    "displayRewardCount": [
+      500
+    ],
+    "displayRewardId": [
+      0
+    ],
+    "displayRewardType": [
+      4
+    ],
+    "id": 2,
+    "magicValue": [
+      21,
+      22
+    ],
+    "mapId": 30021,
+    "nextQuestId": 3,
+    "packId": 3004,
+    "priorQuestId": 1,
+    "prologSkipQuestTextId": 1001,
+    "questConditionQuestTextId": 1002,
+    "questDescQuestTextId": 2002,
+    "questNameQuestTextId": 1,
+    "questSkipQuestTextId": 10002,
+    "rewardCount": [
+      500
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ],
+    "timelineStartMapId": 30021
+  },
+  {
+    "completeCinemaName": "Quest_Main_03",
+    "completeTutorialId": 30041,
+    "conditionCount": 1,
+    "conditionType": 2,
+    "displayMapId": 30021,
+    "displayRewardCount": [
+      500
+    ],
+    "displayRewardId": [
+      0
+    ],
+    "displayRewardType": [
+      4
+    ],
+    "id": 3,
+    "magicValue": [
+      31
+    ],
+    "mapId": 30021,
+    "packId": 3004,
+    "priorQuestId": 2,
+    "prologSkipQuestTextId": 1001,
+    "questConditionQuestTextId": 1003,
+    "questDescQuestTextId": 2003,
+    "questNameQuestTextId": 1,
+    "questSkipQuestTextId": 10003,
+    "rewardCount": [
+      500,
+      1
+    ],
+    "rewardId": [
+      0,
+      3004
+    ],
+    "rewardType": [
+      4,
+      19
+    ],
+    "timelineStartMapId": 30021
+  }
+]

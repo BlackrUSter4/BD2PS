@@ -1,0 +1,479 @@
+[
+  {
+    "buffClassType": [
+      "KnockBack"
+    ],
+    "buffGroupType": [
+      1005
+    ],
+    "buffImmuneApplySkillTextId": [
+      10021
+    ],
+    "buffSubType": [
+      0
+    ],
+    "id": 1
+  },
+  {
+    "buffClassType": [
+      "BuffParent"
+    ],
+    "buffGroupType": [
+      1003
+    ],
+    "buffImmuneApplySkillTextId": [
+      10066
+    ],
+    "buffSubType": [
+      4
+    ],
+    "id": 2
+  },
+  {
+    "buffClassType": [
+      "DotDamage"
+    ],
+    "buffGroupType": [
+      1004
+    ],
+    "buffImmuneApplySkillTextId": [
+      10151
+    ],
+    "buffSubType": [
+      0
+    ],
+    "id": 3
+  },
+  {
+    "buffClassType": [
+      "StatBuff"
+    ],
+    "buffGroupType": [
+      1001
+    ],
+    "buffImmuneApplySkillTextId": [
+      10047
+    ],
+    "buffSubType": [
+      0
+    ],
+    "id": 4
+  },
+  {
+    "buffClassType": [
+      "BuffGroupCancel",
+      "BuffGroupCancel"
+    ],
+    "buffGroupType": [
+      0,
+      0
+    ],
+    "buffImmuneApplySkillTextId": [
+      10054,
+      10013
+    ],
+    "buffSubType": [
+      1,
+      0
+    ],
+    "id": 5
+  },
+  {
+    "buffClassType": [
+      "BuffGroupCancel"
+    ],
+    "buffGroupType": [
+      0
+    ],
+    "buffImmuneApplySkillTextId": [
+      10013
+    ],
+    "buffSubType": [
+      0
+    ],
+    "id": 6
+  },
+  {
+    "buffClassType": [
+      "DotDamage",
+      "BuffParent",
+      "StatBuff"
+    ],
+    "buffGroupType": [
+      1004,
+      1003,
+      1001
+    ],
+    "buffImmuneApplySkillTextId": [
+      10151,
+      10066,
+      10047
+    ],
+    "buffSubType": [
+      0,
+      4,
+      0
+    ],
+    "id": 7
+  },
+  {
+    "buffClassType": [
+      "BuffParent",
+      "BuffGroupCancel",
+      "BuffGroupCancel"
+    ],
+    "buffGroupType": [
+      1003,
+      0,
+      0
+    ],
+    "buffImmuneApplySkillTextId": [
+      10066,
+      10054,
+      10013
+    ],
+    "buffSubType": [
+      4,
+      1,
+      0
+    ],
+    "id": 8
+  },
+  {
+    "buffClassType": [
+      "KnockBack",
+      "DotDamage"
+    ],
+    "buffGroupType": [
+      1005,
+      1004
+    ],
+    "buffImmuneApplySkillTextId": [
+      10021,
+      10151
+    ],
+    "buffSubType": [
+      0,
+      0
+    ],
+    "id": 9
+  },
+  {
+    "buffClassType": [
+      "KnockBack",
+      "BuffParent",
+      "StatBuff"
+    ],
+    "buffGroupType": [
+      1005,
+      1003,
+      1001
+    ],
+    "buffImmuneApplySkillTextId": [
+      10021,
+      10066,
+      10047
+    ],
+    "buffSubType": [
+      0,
+      4,
+      0
+    ],
+    "id": 10
+  },
+  {
+    "buffClassType": [
+      "DotDamage",
+      "BuffParent"
+    ],
+    "buffGroupType": [
+      1004,
+      1003
+    ],
+    "buffImmuneApplySkillTextId": [
+      10151,
+      10066
+    ],
+    "buffSubType": [
+      0,
+      4
+    ],
+    "id": 11
+  },
+  {
+    "buffClassType": [
+      "KnockBack",
+      "BuffParent"
+    ],
+    "buffGroupType": [
+      1005,
+      1003
+    ],
+    "buffImmuneApplySkillTextId": [
+      10021,
+      10066
+    ],
+    "buffSubType": [
+      0,
+      4
+    ],
+    "id": 12
+  },
+  {
+    "buffClassType": [
+      "BuffParent",
+      "StatBuff"
+    ],
+    "buffGroupType": [
+      1003,
+      1001
+    ],
+    "buffImmuneApplySkillTextId": [
+      10066,
+      10047
+    ],
+    "buffSubType": [
+      4,
+      0
+    ],
+    "id": 13
+  },
+  {
+    "buffClassType": [
+      "KnockBack",
+      "BuffParent",
+      "Barrier"
+    ],
+    "buffGroupType": [
+      1005,
+      1003,
+      9999
+    ],
+    "buffImmuneApplySkillTextId": [
+      10021,
+      10066,
+      10040
+    ],
+    "buffSubType": [
+      0,
+      4,
+      0
+    ],
+    "id": 14
+  },
+  {
+    "buffClassType": [
+      "KnockBack",
+      "BuffParent",
+      "BuffGroupCancel",
+      "BuffGroupCancel"
+    ],
+    "buffGroupType": [
+      1005,
+      1003,
+      0,
+      0
+    ],
+    "buffImmuneApplySkillTextId": [
+      10021,
+      10066,
+      10054,
+      10013
+    ],
+    "buffSubType": [
+      0,
+      4,
+      1,
+      0
+    ],
+    "id": 15
+  },
+  {
+    "buffClassType": [
+      "BuffParent"
+    ],
+    "buffGroupType": [
+      1006
+    ],
+    "buffImmuneApplySkillTextId": [
+      10055
+    ],
+    "buffSubType": [
+      3
+    ],
+    "id": 16
+  },
+  {
+    "buffClassType": [
+      "BuffParent",
+      "BuffGroupCancel",
+      "BuffGroupCancel",
+      "KnockBack"
+    ],
+    "buffGroupType": [
+      1003,
+      0,
+      0,
+      1005
+    ],
+    "buffImmuneApplySkillTextId": [
+      10066,
+      10054,
+      10013,
+      10021
+    ],
+    "buffSubType": [
+      4,
+      1,
+      0,
+      0
+    ],
+    "id": 17
+  },
+  {
+    "buffClassType": [
+      "BuffParent",
+      "BuffGroupCancel",
+      "BuffGroupCancel",
+      "KnockBack",
+      "StatBuff"
+    ],
+    "buffGroupType": [
+      1003,
+      0,
+      0,
+      1005,
+      1001
+    ],
+    "buffImmuneApplySkillTextId": [
+      10066,
+      10054,
+      10013,
+      10021,
+      10047
+    ],
+    "buffSubType": [
+      4,
+      1,
+      0,
+      0,
+      0
+    ],
+    "id": 18
+  },
+  {
+    "buffClassType": [
+      "BuffParent",
+      "StatBuff",
+      "BuffParent"
+    ],
+    "buffGroupType": [
+      1003,
+      1001,
+      1006
+    ],
+    "buffImmuneApplySkillTextId": [
+      10066,
+      10047,
+      10055
+    ],
+    "buffSubType": [
+      4,
+      0,
+      3
+    ],
+    "id": 19
+  },
+  {
+    "buffClassType": [
+      "KnockBack",
+      "StatBuff"
+    ],
+    "buffGroupType": [
+      1005,
+      1001
+    ],
+    "buffImmuneApplySkillTextId": [
+      10021,
+      10047
+    ],
+    "buffSubType": [
+      0,
+      0
+    ],
+    "id": 20
+  },
+  {
+    "buffClassType": [
+      "KnockBack",
+      "BuffGroupCancel",
+      "BuffGroupCancel"
+    ],
+    "buffGroupType": [
+      1005,
+      0,
+      0
+    ],
+    "buffImmuneApplySkillTextId": [
+      10021,
+      10054,
+      10013
+    ],
+    "buffSubType": [
+      0,
+      1,
+      0
+    ],
+    "id": 21
+  },
+  {
+    "buffClassType": [
+      "KnockBack",
+      "BuffGroupCancel",
+      "BuffGroupCancel",
+      "StatBuff"
+    ],
+    "buffGroupType": [
+      1005,
+      0,
+      0,
+      1001
+    ],
+    "buffImmuneApplySkillTextId": [
+      10021,
+      10054,
+      10013,
+      10047
+    ],
+    "buffSubType": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "id": 22
+  },
+  {
+    "buffClassType": [
+      "KnockBack",
+      "BuffParent",
+      "BuffGroupCancel"
+    ],
+    "buffGroupType": [
+      1005,
+      1003,
+      0
+    ],
+    "buffImmuneApplySkillTextId": [
+      10021,
+      10066,
+      10054
+    ],
+    "buffSubType": [
+      0,
+      4,
+      1
+    ],
+    "id": 23
+  }
+]

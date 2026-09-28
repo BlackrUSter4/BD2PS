@@ -1,0 +1,29 @@
+[
+  {
+    "conditionType": 1,
+    "eventType": 1,
+    "eventTypeGroupId": 310001,
+    "eventTypeId": 233,
+    "groupId": 1,
+    "id": 1,
+    "popupType": 1
+  },
+  {
+    "conditionType": 2,
+    "eventType": 1,
+    "eventTypeGroupId": 310001,
+    "eventTypeId": 233,
+    "groupId": 1,
+    "id": 2,
+    "popupType": 1
+  },
+  {
+    "conditionType": 3,
+    "eventType": 1,
+    "eventTypeGroupId": 310001,
+    "eventTypeId": 233,
+    "groupId": 1,
+    "id": 3,
+    "popupType": 1
+  }
+]

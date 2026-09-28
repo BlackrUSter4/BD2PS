@@ -1,0 +1,794 @@
+[
+  {
+    "darkupgradeCost": 12,
+    "fireupgradeCost": 18,
+    "id": 1,
+    "lightupgradeCost": 12,
+    "waterupgradeCost": 18,
+    "windupgradeCost": 18
+  },
+  {
+    "darkupgradeCost": 18,
+    "fireupgradeCost": 27,
+    "id": 2,
+    "lightupgradeCost": 18,
+    "waterupgradeCost": 27,
+    "windupgradeCost": 27
+  },
+  {
+    "darkupgradeCost": 24,
+    "fireupgradeCost": 36,
+    "id": 3,
+    "lightupgradeCost": 24,
+    "waterupgradeCost": 36,
+    "windupgradeCost": 36
+  },
+  {
+    "darkupgradeCost": 30,
+    "fireupgradeCost": 45,
+    "id": 4,
+    "lightupgradeCost": 30,
+    "waterupgradeCost": 45,
+    "windupgradeCost": 45
+  },
+  {
+    "darkupgradeCost": 36,
+    "fireupgradeCost": 54,
+    "id": 5,
+    "lightupgradeCost": 36,
+    "waterupgradeCost": 54,
+    "windupgradeCost": 54
+  },
+  {
+    "darkupgradeCost": 42,
+    "fireupgradeCost": 63,
+    "id": 6,
+    "lightupgradeCost": 42,
+    "waterupgradeCost": 63,
+    "windupgradeCost": 63
+  },
+  {
+    "darkupgradeCost": 48,
+    "fireupgradeCost": 72,
+    "id": 7,
+    "lightupgradeCost": 48,
+    "waterupgradeCost": 72,
+    "windupgradeCost": 72
+  },
+  {
+    "darkupgradeCost": 54,
+    "fireupgradeCost": 81,
+    "id": 8,
+    "lightupgradeCost": 54,
+    "waterupgradeCost": 81,
+    "windupgradeCost": 81
+  },
+  {
+    "darkupgradeCost": 60,
+    "fireupgradeCost": 90,
+    "id": 9,
+    "lightupgradeCost": 60,
+    "waterupgradeCost": 90,
+    "windupgradeCost": 90
+  },
+  {
+    "darkupgradeCost": 66,
+    "fireupgradeCost": 99,
+    "id": 10,
+    "lightupgradeCost": 66,
+    "waterupgradeCost": 99,
+    "windupgradeCost": 99
+  },
+  {
+    "darkupgradeCost": 72,
+    "fireupgradeCost": 108,
+    "id": 11,
+    "lightupgradeCost": 72,
+    "waterupgradeCost": 108,
+    "windupgradeCost": 108
+  },
+  {
+    "darkupgradeCost": 78,
+    "fireupgradeCost": 117,
+    "id": 12,
+    "lightupgradeCost": 78,
+    "waterupgradeCost": 117,
+    "windupgradeCost": 117
+  },
+  {
+    "darkupgradeCost": 84,
+    "fireupgradeCost": 126,
+    "id": 13,
+    "lightupgradeCost": 84,
+    "waterupgradeCost": 126,
+    "windupgradeCost": 126
+  },
+  {
+    "darkupgradeCost": 90,
+    "fireupgradeCost": 135,
+    "id": 14,
+    "lightupgradeCost": 90,
+    "waterupgradeCost": 135,
+    "windupgradeCost": 135
+  },
+  {
+    "darkupgradeCost": 96,
+    "fireupgradeCost": 144,
+    "id": 15,
+    "lightupgradeCost": 96,
+    "waterupgradeCost": 144,
+    "windupgradeCost": 144
+  },
+  {
+    "darkupgradeCost": 102,
+    "fireupgradeCost": 153,
+    "id": 16,
+    "lightupgradeCost": 102,
+    "waterupgradeCost": 153,
+    "windupgradeCost": 153
+  },
+  {
+    "darkupgradeCost": 108,
+    "fireupgradeCost": 162,
+    "id": 17,
+    "lightupgradeCost": 108,
+    "waterupgradeCost": 162,
+    "windupgradeCost": 162
+  },
+  {
+    "darkupgradeCost": 114,
+    "fireupgradeCost": 171,
+    "id": 18,
+    "lightupgradeCost": 114,
+    "waterupgradeCost": 171,
+    "windupgradeCost": 171
+  },
+  {
+    "darkupgradeCost": 120,
+    "fireupgradeCost": 180,
+    "id": 19,
+    "lightupgradeCost": 120,
+    "waterupgradeCost": 180,
+    "windupgradeCost": 180
+  },
+  {
+    "darkupgradeCost": 126,
+    "fireupgradeCost": 189,
+    "id": 20,
+    "lightupgradeCost": 126,
+    "waterupgradeCost": 189,
+    "windupgradeCost": 189
+  },
+  {
+    "darkupgradeCost": 132,
+    "fireupgradeCost": 198,
+    "id": 21,
+    "lightupgradeCost": 132,
+    "waterupgradeCost": 198,
+    "windupgradeCost": 198
+  },
+  {
+    "darkupgradeCost": 138,
+    "fireupgradeCost": 207,
+    "id": 22,
+    "lightupgradeCost": 138,
+    "waterupgradeCost": 207,
+    "windupgradeCost": 207
+  },
+  {
+    "darkupgradeCost": 144,
+    "fireupgradeCost": 216,
+    "id": 23,
+    "lightupgradeCost": 144,
+    "waterupgradeCost": 216,
+    "windupgradeCost": 216
+  },
+  {
+    "darkupgradeCost": 150,
+    "fireupgradeCost": 225,
+    "id": 24,
+    "lightupgradeCost": 150,
+    "waterupgradeCost": 225,
+    "windupgradeCost": 225
+  },
+  {
+    "darkupgradeCost": 156,
+    "fireupgradeCost": 234,
+    "id": 25,
+    "lightupgradeCost": 156,
+    "waterupgradeCost": 234,
+    "windupgradeCost": 234
+  },
+  {
+    "darkupgradeCost": 162,
+    "fireupgradeCost": 243,
+    "id": 26,
+    "lightupgradeCost": 162,
+    "waterupgradeCost": 243,
+    "windupgradeCost": 243
+  },
+  {
+    "darkupgradeCost": 168,
+    "fireupgradeCost": 252,
+    "id": 27,
+    "lightupgradeCost": 168,
+    "waterupgradeCost": 252,
+    "windupgradeCost": 252
+  },
+  {
+    "darkupgradeCost": 174,
+    "fireupgradeCost": 261,
+    "id": 28,
+    "lightupgradeCost": 174,
+    "waterupgradeCost": 261,
+    "windupgradeCost": 261
+  },
+  {
+    "darkupgradeCost": 180,
+    "fireupgradeCost": 270,
+    "id": 29,
+    "lightupgradeCost": 180,
+    "waterupgradeCost": 270,
+    "windupgradeCost": 270
+  },
+  {
+    "darkupgradeCost": 186,
+    "fireupgradeCost": 279,
+    "id": 30,
+    "lightupgradeCost": 186,
+    "waterupgradeCost": 279,
+    "windupgradeCost": 279
+  },
+  {
+    "darkupgradeCost": 192,
+    "fireupgradeCost": 288,
+    "id": 31,
+    "lightupgradeCost": 192,
+    "waterupgradeCost": 288,
+    "windupgradeCost": 288
+  },
+  {
+    "darkupgradeCost": 198,
+    "fireupgradeCost": 297,
+    "id": 32,
+    "lightupgradeCost": 198,
+    "waterupgradeCost": 297,
+    "windupgradeCost": 297
+  },
+  {
+    "darkupgradeCost": 204,
+    "fireupgradeCost": 306,
+    "id": 33,
+    "lightupgradeCost": 204,
+    "waterupgradeCost": 306,
+    "windupgradeCost": 306
+  },
+  {
+    "darkupgradeCost": 210,
+    "fireupgradeCost": 315,
+    "id": 34,
+    "lightupgradeCost": 210,
+    "waterupgradeCost": 315,
+    "windupgradeCost": 315
+  },
+  {
+    "darkupgradeCost": 216,
+    "fireupgradeCost": 324,
+    "id": 35,
+    "lightupgradeCost": 216,
+    "waterupgradeCost": 324,
+    "windupgradeCost": 324
+  },
+  {
+    "darkupgradeCost": 222,
+    "fireupgradeCost": 333,
+    "id": 36,
+    "lightupgradeCost": 222,
+    "waterupgradeCost": 333,
+    "windupgradeCost": 333
+  },
+  {
+    "darkupgradeCost": 228,
+    "fireupgradeCost": 342,
+    "id": 37,
+    "lightupgradeCost": 228,
+    "waterupgradeCost": 342,
+    "windupgradeCost": 342
+  },
+  {
+    "darkupgradeCost": 234,
+    "fireupgradeCost": 351,
+    "id": 38,
+    "lightupgradeCost": 234,
+    "waterupgradeCost": 351,
+    "windupgradeCost": 351
+  },
+  {
+    "darkupgradeCost": 240,
+    "fireupgradeCost": 360,
+    "id": 39,
+    "lightupgradeCost": 240,
+    "waterupgradeCost": 360,
+    "windupgradeCost": 360
+  },
+  {
+    "darkupgradeCost": 246,
+    "fireupgradeCost": 369,
+    "id": 40,
+    "lightupgradeCost": 246,
+    "waterupgradeCost": 369,
+    "windupgradeCost": 369
+  },
+  {
+    "darkupgradeCost": 252,
+    "fireupgradeCost": 378,
+    "id": 41,
+    "lightupgradeCost": 252,
+    "waterupgradeCost": 378,
+    "windupgradeCost": 378
+  },
+  {
+    "darkupgradeCost": 258,
+    "fireupgradeCost": 387,
+    "id": 42,
+    "lightupgradeCost": 258,
+    "waterupgradeCost": 387,
+    "windupgradeCost": 387
+  },
+  {
+    "darkupgradeCost": 264,
+    "fireupgradeCost": 396,
+    "id": 43,
+    "lightupgradeCost": 264,
+    "waterupgradeCost": 396,
+    "windupgradeCost": 396
+  },
+  {
+    "darkupgradeCost": 270,
+    "fireupgradeCost": 405,
+    "id": 44,
+    "lightupgradeCost": 270,
+    "waterupgradeCost": 405,
+    "windupgradeCost": 405
+  },
+  {
+    "darkupgradeCost": 276,
+    "fireupgradeCost": 414,
+    "id": 45,
+    "lightupgradeCost": 276,
+    "waterupgradeCost": 414,
+    "windupgradeCost": 414
+  },
+  {
+    "darkupgradeCost": 282,
+    "fireupgradeCost": 423,
+    "id": 46,
+    "lightupgradeCost": 282,
+    "waterupgradeCost": 423,
+    "windupgradeCost": 423
+  },
+  {
+    "darkupgradeCost": 288,
+    "fireupgradeCost": 432,
+    "id": 47,
+    "lightupgradeCost": 288,
+    "waterupgradeCost": 432,
+    "windupgradeCost": 432
+  },
+  {
+    "darkupgradeCost": 294,
+    "fireupgradeCost": 441,
+    "id": 48,
+    "lightupgradeCost": 294,
+    "waterupgradeCost": 441,
+    "windupgradeCost": 441
+  },
+  {
+    "darkupgradeCost": 300,
+    "fireupgradeCost": 450,
+    "id": 49,
+    "lightupgradeCost": 300,
+    "waterupgradeCost": 450,
+    "windupgradeCost": 450
+  },
+  {
+    "darkupgradeCost": 306,
+    "fireupgradeCost": 459,
+    "id": 50,
+    "lightupgradeCost": 306,
+    "waterupgradeCost": 459,
+    "windupgradeCost": 459
+  },
+  {
+    "darkupgradeCost": 312,
+    "fireupgradeCost": 468,
+    "id": 51,
+    "lightupgradeCost": 312,
+    "waterupgradeCost": 468,
+    "windupgradeCost": 468
+  },
+  {
+    "darkupgradeCost": 318,
+    "fireupgradeCost": 477,
+    "id": 52,
+    "lightupgradeCost": 318,
+    "waterupgradeCost": 477,
+    "windupgradeCost": 477
+  },
+  {
+    "darkupgradeCost": 324,
+    "fireupgradeCost": 486,
+    "id": 53,
+    "lightupgradeCost": 324,
+    "waterupgradeCost": 486,
+    "windupgradeCost": 486
+  },
+  {
+    "darkupgradeCost": 330,
+    "fireupgradeCost": 495,
+    "id": 54,
+    "lightupgradeCost": 330,
+    "waterupgradeCost": 495,
+    "windupgradeCost": 495
+  },
+  {
+    "darkupgradeCost": 336,
+    "fireupgradeCost": 504,
+    "id": 55,
+    "lightupgradeCost": 336,
+    "waterupgradeCost": 504,
+    "windupgradeCost": 504
+  },
+  {
+    "darkupgradeCost": 342,
+    "fireupgradeCost": 513,
+    "id": 56,
+    "lightupgradeCost": 342,
+    "waterupgradeCost": 513,
+    "windupgradeCost": 513
+  },
+  {
+    "darkupgradeCost": 348,
+    "fireupgradeCost": 522,
+    "id": 57,
+    "lightupgradeCost": 348,
+    "waterupgradeCost": 522,
+    "windupgradeCost": 522
+  },
+  {
+    "darkupgradeCost": 354,
+    "fireupgradeCost": 531,
+    "id": 58,
+    "lightupgradeCost": 354,
+    "waterupgradeCost": 531,
+    "windupgradeCost": 531
+  },
+  {
+    "darkupgradeCost": 360,
+    "fireupgradeCost": 540,
+    "id": 59,
+    "lightupgradeCost": 360,
+    "waterupgradeCost": 540,
+    "windupgradeCost": 540
+  },
+  {
+    "darkupgradeCost": 366,
+    "fireupgradeCost": 549,
+    "id": 60,
+    "lightupgradeCost": 366,
+    "waterupgradeCost": 549,
+    "windupgradeCost": 549
+  },
+  {
+    "darkupgradeCost": 372,
+    "fireupgradeCost": 558,
+    "id": 61,
+    "lightupgradeCost": 372,
+    "waterupgradeCost": 558,
+    "windupgradeCost": 558
+  },
+  {
+    "darkupgradeCost": 378,
+    "fireupgradeCost": 567,
+    "id": 62,
+    "lightupgradeCost": 378,
+    "waterupgradeCost": 567,
+    "windupgradeCost": 567
+  },
+  {
+    "darkupgradeCost": 384,
+    "fireupgradeCost": 576,
+    "id": 63,
+    "lightupgradeCost": 384,
+    "waterupgradeCost": 576,
+    "windupgradeCost": 576
+  },
+  {
+    "darkupgradeCost": 390,
+    "fireupgradeCost": 585,
+    "id": 64,
+    "lightupgradeCost": 390,
+    "waterupgradeCost": 585,
+    "windupgradeCost": 585
+  },
+  {
+    "darkupgradeCost": 396,
+    "fireupgradeCost": 594,
+    "id": 65,
+    "lightupgradeCost": 396,
+    "waterupgradeCost": 594,
+    "windupgradeCost": 594
+  },
+  {
+    "darkupgradeCost": 402,
+    "fireupgradeCost": 603,
+    "id": 66,
+    "lightupgradeCost": 402,
+    "waterupgradeCost": 603,
+    "windupgradeCost": 603
+  },
+  {
+    "darkupgradeCost": 408,
+    "fireupgradeCost": 612,
+    "id": 67,
+    "lightupgradeCost": 408,
+    "waterupgradeCost": 612,
+    "windupgradeCost": 612
+  },
+  {
+    "darkupgradeCost": 414,
+    "fireupgradeCost": 621,
+    "id": 68,
+    "lightupgradeCost": 414,
+    "waterupgradeCost": 621,
+    "windupgradeCost": 621
+  },
+  {
+    "darkupgradeCost": 420,
+    "fireupgradeCost": 630,
+    "id": 69,
+    "lightupgradeCost": 420,
+    "waterupgradeCost": 630,
+    "windupgradeCost": 630
+  },
+  {
+    "darkupgradeCost": 426,
+    "fireupgradeCost": 639,
+    "id": 70,
+    "lightupgradeCost": 426,
+    "waterupgradeCost": 639,
+    "windupgradeCost": 639
+  },
+  {
+    "darkupgradeCost": 432,
+    "fireupgradeCost": 648,
+    "id": 71,
+    "lightupgradeCost": 432,
+    "waterupgradeCost": 648,
+    "windupgradeCost": 648
+  },
+  {
+    "darkupgradeCost": 438,
+    "fireupgradeCost": 657,
+    "id": 72,
+    "lightupgradeCost": 438,
+    "waterupgradeCost": 657,
+    "windupgradeCost": 657
+  },
+  {
+    "darkupgradeCost": 444,
+    "fireupgradeCost": 666,
+    "id": 73,
+    "lightupgradeCost": 444,
+    "waterupgradeCost": 666,
+    "windupgradeCost": 666
+  },
+  {
+    "darkupgradeCost": 450,
+    "fireupgradeCost": 675,
+    "id": 74,
+    "lightupgradeCost": 450,
+    "waterupgradeCost": 675,
+    "windupgradeCost": 675
+  },
+  {
+    "darkupgradeCost": 456,
+    "fireupgradeCost": 684,
+    "id": 75,
+    "lightupgradeCost": 456,
+    "waterupgradeCost": 684,
+    "windupgradeCost": 684
+  },
+  {
+    "darkupgradeCost": 462,
+    "fireupgradeCost": 693,
+    "id": 76,
+    "lightupgradeCost": 462,
+    "waterupgradeCost": 693,
+    "windupgradeCost": 693
+  },
+  {
+    "darkupgradeCost": 468,
+    "fireupgradeCost": 702,
+    "id": 77,
+    "lightupgradeCost": 468,
+    "waterupgradeCost": 702,
+    "windupgradeCost": 702
+  },
+  {
+    "darkupgradeCost": 474,
+    "fireupgradeCost": 711,
+    "id": 78,
+    "lightupgradeCost": 474,
+    "waterupgradeCost": 711,
+    "windupgradeCost": 711
+  },
+  {
+    "darkupgradeCost": 480,
+    "fireupgradeCost": 720,
+    "id": 79,
+    "lightupgradeCost": 480,
+    "waterupgradeCost": 720,
+    "windupgradeCost": 720
+  },
+  {
+    "darkupgradeCost": 486,
+    "fireupgradeCost": 729,
+    "id": 80,
+    "lightupgradeCost": 486,
+    "waterupgradeCost": 729,
+    "windupgradeCost": 729
+  },
+  {
+    "darkupgradeCost": 492,
+    "fireupgradeCost": 738,
+    "id": 81,
+    "lightupgradeCost": 492,
+    "waterupgradeCost": 738,
+    "windupgradeCost": 738
+  },
+  {
+    "darkupgradeCost": 498,
+    "fireupgradeCost": 747,
+    "id": 82,
+    "lightupgradeCost": 498,
+    "waterupgradeCost": 747,
+    "windupgradeCost": 747
+  },
+  {
+    "darkupgradeCost": 504,
+    "fireupgradeCost": 756,
+    "id": 83,
+    "lightupgradeCost": 504,
+    "waterupgradeCost": 756,
+    "windupgradeCost": 756
+  },
+  {
+    "darkupgradeCost": 510,
+    "fireupgradeCost": 765,
+    "id": 84,
+    "lightupgradeCost": 510,
+    "waterupgradeCost": 765,
+    "windupgradeCost": 765
+  },
+  {
+    "darkupgradeCost": 516,
+    "fireupgradeCost": 774,
+    "id": 85,
+    "lightupgradeCost": 516,
+    "waterupgradeCost": 774,
+    "windupgradeCost": 774
+  },
+  {
+    "darkupgradeCost": 522,
+    "fireupgradeCost": 783,
+    "id": 86,
+    "lightupgradeCost": 522,
+    "waterupgradeCost": 783,
+    "windupgradeCost": 783
+  },
+  {
+    "darkupgradeCost": 528,
+    "fireupgradeCost": 792,
+    "id": 87,
+    "lightupgradeCost": 528,
+    "waterupgradeCost": 792,
+    "windupgradeCost": 792
+  },
+  {
+    "darkupgradeCost": 534,
+    "fireupgradeCost": 801,
+    "id": 88,
+    "lightupgradeCost": 534,
+    "waterupgradeCost": 801,
+    "windupgradeCost": 801
+  },
+  {
+    "darkupgradeCost": 540,
+    "fireupgradeCost": 810,
+    "id": 89,
+    "lightupgradeCost": 540,
+    "waterupgradeCost": 810,
+    "windupgradeCost": 810
+  },
+  {
+    "darkupgradeCost": 546,
+    "fireupgradeCost": 819,
+    "id": 90,
+    "lightupgradeCost": 546,
+    "waterupgradeCost": 819,
+    "windupgradeCost": 819
+  },
+  {
+    "darkupgradeCost": 552,
+    "fireupgradeCost": 828,
+    "id": 91,
+    "lightupgradeCost": 552,
+    "waterupgradeCost": 828,
+    "windupgradeCost": 828
+  },
+  {
+    "darkupgradeCost": 558,
+    "fireupgradeCost": 837,
+    "id": 92,
+    "lightupgradeCost": 558,
+    "waterupgradeCost": 837,
+    "windupgradeCost": 837
+  },
+  {
+    "darkupgradeCost": 564,
+    "fireupgradeCost": 846,
+    "id": 93,
+    "lightupgradeCost": 564,
+    "waterupgradeCost": 846,
+    "windupgradeCost": 846
+  },
+  {
+    "darkupgradeCost": 570,
+    "fireupgradeCost": 855,
+    "id": 94,
+    "lightupgradeCost": 570,
+    "waterupgradeCost": 855,
+    "windupgradeCost": 855
+  },
+  {
+    "darkupgradeCost": 576,
+    "fireupgradeCost": 864,
+    "id": 95,
+    "lightupgradeCost": 576,
+    "waterupgradeCost": 864,
+    "windupgradeCost": 864
+  },
+  {
+    "darkupgradeCost": 582,
+    "fireupgradeCost": 873,
+    "id": 96,
+    "lightupgradeCost": 582,
+    "waterupgradeCost": 873,
+    "windupgradeCost": 873
+  },
+  {
+    "darkupgradeCost": 588,
+    "fireupgradeCost": 882,
+    "id": 97,
+    "lightupgradeCost": 588,
+    "waterupgradeCost": 882,
+    "windupgradeCost": 882
+  },
+  {
+    "darkupgradeCost": 594,
+    "fireupgradeCost": 891,
+    "id": 98,
+    "lightupgradeCost": 594,
+    "waterupgradeCost": 891,
+    "windupgradeCost": 891
+  },
+  {
+    "darkupgradeCost": 600,
+    "fireupgradeCost": 900,
+    "id": 99,
+    "lightupgradeCost": 600,
+    "waterupgradeCost": 900,
+    "windupgradeCost": 900
+  }
+]

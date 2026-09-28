@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "scoreDescNameTextId": 1640002,
+    "scoreNameTextId": 1640001,
+    "scoreType": 1,
+    "scoreValue": 100,
+    "scoreValueVeiw": 1
+  },
+  {
+    "id": 2,
+    "scoreConditionValue": 50000,
+    "scoreDescNameTextId": 1640004,
+    "scoreNameTextId": 1640003,
+    "scoreType": 2,
+    "scoreValue": 1000
+  },
+  {
+    "id": 3,
+    "scoreConditionValue": 15,
+    "scoreDescNameTextId": 1640006,
+    "scoreNameTextId": 1640005,
+    "scoreType": 3,
+    "scoreValue": 1000
+  },
+  {
+    "id": 4,
+    "scoreConditionValue": 7,
+    "scoreDescNameTextId": 1640008,
+    "scoreNameTextId": 1640007,
+    "scoreType": 4,
+    "scoreValue": 1000
+  },
+  {
+    "id": 5,
+    "scoreConditionValue": 15,
+    "scoreDescNameTextId": 1640010,
+    "scoreNameTextId": 1640009,
+    "scoreType": 5,
+    "scoreValue": 1000
+  },
+  {
+    "id": 6,
+    "scoreConditionValue": 7,
+    "scoreDescNameTextId": 1640012,
+    "scoreNameTextId": 1640011,
+    "scoreType": 6,
+    "scoreValue": 1000
+  },
+  {
+    "id": 7,
+    "scoreDescNameTextId": 1640014,
+    "scoreNameTextId": 1640013,
+    "scoreType": 7,
+    "scoreValue": 300,
+    "scoreValueVeiw": 1
+  },
+  {
+    "id": 8,
+    "scoreDescNameTextId": 1640016,
+    "scoreNameTextId": 1640015,
+    "scoreType": 8,
+    "scoreValue": 1000,
+    "scoreValueVeiw": 1
+  },
+  {
+    "id": 9,
+    "scoreConditionValue": 10,
+    "scoreDescNameTextId": 1640018,
+    "scoreNameTextId": 1640017,
+    "scoreType": 6,
+    "scoreValue": 1500
+  },
+  {
+    "id": 10,
+    "scoreConditionValue": 100000,
+    "scoreDescNameTextId": 1640020,
+    "scoreNameTextId": 1640019,
+    "scoreType": 2,
+    "scoreValue": 3000
+  },
+  {
+    "id": 11,
+    "scoreConditionValue": 20,
+    "scoreDescNameTextId": 1640022,
+    "scoreNameTextId": 1640021,
+    "scoreType": 3,
+    "scoreValue": 2000
+  },
+  {
+    "id": 12,
+    "scoreConditionValue": 25,
+    "scoreDescNameTextId": 1640024,
+    "scoreNameTextId": 1640023,
+    "scoreType": 3,
+    "scoreValue": 3000
+  },
+  {
+    "id": 13,
+    "scoreDescNameTextId": 1640026,
+    "scoreNameTextId": 1640025,
+    "scoreType": 9,
+    "scoreValue": 1
+  },
+  {
+    "id": 9999,
+    "scoreDescNameTextId": 1659998,
+    "scoreNameTextId": 1659997,
+    "scoreType": 9999,
+    "scoreValueVeiw": 1
+  }
+]

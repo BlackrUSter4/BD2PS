@@ -1,0 +1,137 @@
+{
+  "scheduleInfo": [
+    {
+      "contentId": 1,
+      "currentSeason": {
+        "season": 113,
+        "startTime": 1760918400000,
+        "endTime": 1761490799000,
+        "errorFlag": false,
+        "returnFlag": false,
+        "rankRewardGroupId": 1
+      },
+      "nextSeason": {
+        "season": 114,
+        "startTime": 1761523200000,
+        "endTime": 1762095599000,
+        "errorFlag": false,
+        "returnFlag": false,
+        "rankRewardGroupId": 1
+      }
+    },
+    {
+      "contentId": 2,
+      "currentSeason": {
+        "season": 58,
+        "startTime": 1755129600000,
+        "endTime": 253370678399000,
+        "errorFlag": false,
+        "returnFlag": false,
+        "rankRewardGroupId": 1
+      },
+      "nextSeason": {
+        "season": 58,
+        "startTime": 1755129600000,
+        "endTime": 253370678399000,
+        "errorFlag": false,
+        "returnFlag": false,
+        "rankRewardGroupId": 1
+      }
+    },
+    {
+      "contentId": 3,
+      "currentSeason": {
+        "season": 81,
+        "startTime": 1760626800000,
+        "endTime": 1761231600000,
+        "errorFlag": false,
+        "returnFlag": false,
+        "rankRewardGroupId": 1
+      },
+      "nextSeason": {
+        "season": 999999,
+        "startTime": 253370764800000,
+        "endTime": 253370764800000,
+        "errorFlag": false,
+        "returnFlag": false,
+        "rankRewardGroupId": 1
+      }
+    },
+    {
+      "contentId": 4,
+      "currentSeason": {
+        "season": 528,
+        "startTime": 1760972400000,
+        "endTime": 1761058800000,
+        "errorFlag": false,
+        "returnFlag": false,
+        "rankRewardGroupId": 1
+      },
+      "nextSeason": {
+        "season": 999999,
+        "startTime": 253370764800000,
+        "endTime": 253370764800000,
+        "errorFlag": false,
+        "returnFlag": false,
+        "rankRewardGroupId": 1
+      }
+    },
+    {
+      "contentId": 5,
+      "currentSeason": {
+        "season": 17,
+        "startTime": 1758758400000,
+        "endTime": 1761145199000,
+        "errorFlag": false,
+        "returnFlag": false,
+        "rankRewardGroupId": 1
+      },
+      "nextSeason": {
+        "season": 18,
+        "startTime": 1761177600000,
+        "endTime": 1763564399000,
+        "errorFlag": false,
+        "returnFlag": false,
+        "rankRewardGroupId": 1
+      }
+    },
+    {
+      "contentId": 6,
+      "currentSeason": {
+        "season": 14,
+        "startTime": 1758758400000,
+        "endTime": 1759330799000,
+        "errorFlag": false,
+        "returnFlag": false,
+        "rankRewardGroupId": 1
+      },
+      "nextSeason": {
+        "season": 15,
+        "startTime": 1761177600000,
+        "endTime": 1761749999000,
+        "errorFlag": false,
+        "returnFlag": false,
+        "rankRewardGroupId": 1
+      }
+    },
+    {
+      "contentId": 7,
+      "currentSeason": {
+        "season": 3,
+        "startTime": 1759276800000,
+        "endTime": 1761955200000,
+        "errorFlag": false,
+        "returnFlag": false,
+        "rankRewardGroupId": 1
+      },
+      "nextSeason": {
+        "season": 999999,
+        "startTime": 253370764800000,
+        "endTime": 253370764800000,
+        "errorFlag": false,
+        "returnFlag": false,
+        "rankRewardGroupId": 1
+      }
+    }
+  ]
+}

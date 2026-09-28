@@ -1,0 +1,9 @@
+pub mod colosseum_battle_history;
+pub mod colosseum_bless_info;
+pub mod colosseum_deck_char_item_info;
+pub mod colosseum_deck_info;
+pub mod colosseum_match_candidate;
+pub mod colosseum_preset_info;
+pub mod colosseum_promotion_reward;
+pub mod colosseum_season_reward;
+pub mod colosseum_user_info;

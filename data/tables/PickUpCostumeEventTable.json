@@ -1,0 +1,2130 @@
+[
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 67202,
+    "groupId": 2,
+    "id": 1,
+    "targetRewardId": [
+      2025
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 3303,
+    "groupId": 2,
+    "id": 2,
+    "targetRewardId": [
+      2025
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 2406,
+    "groupId": 2,
+    "id": 3,
+    "targetRewardId": [
+      2025
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 506,
+    "groupId": 2,
+    "id": 4,
+    "targetRewardId": [
+      2025
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 3201,
+    "groupId": 3,
+    "id": 1,
+    "targetRewardId": [
+      2007
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 67102,
+    "groupId": 3,
+    "id": 2,
+    "targetRewardId": [
+      2007
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 65103,
+    "groupId": 3,
+    "id": 3,
+    "targetRewardId": [
+      2007
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 67003,
+    "groupId": 3,
+    "id": 4,
+    "targetRewardId": [
+      2007
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 60706,
+    "groupId": 7,
+    "id": 1,
+    "targetRewardId": [
+      2011
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 66906,
+    "groupId": 7,
+    "id": 2,
+    "targetRewardId": [
+      2011
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 204,
+    "groupId": 7,
+    "id": 3,
+    "targetRewardId": [
+      2011
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.1
+    ],
+    "costumeId": 62702,
+    "groupId": 7,
+    "id": 4,
+    "targetRewardId": [
+      2011
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 67402,
+    "groupId": 8,
+    "id": 1,
+    "targetRewardId": [
+      2013
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 66802,
+    "groupId": 8,
+    "id": 2,
+    "targetRewardId": [
+      2013
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 502,
+    "groupId": 8,
+    "id": 3,
+    "targetRewardId": [
+      2013
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 61402,
+    "groupId": 8,
+    "id": 4,
+    "targetRewardId": [
+      2013
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 20101,
+    "groupId": 9,
+    "id": 1,
+    "targetRewardId": [
+      2014
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 20102,
+    "groupId": 9,
+    "id": 2,
+    "targetRewardId": [
+      2014
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 301,
+    "groupId": 9,
+    "id": 3,
+    "targetRewardId": [
+      2014
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 701,
+    "groupId": 9,
+    "id": 4,
+    "targetRewardId": [
+      2014
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 67201,
+    "groupId": 11,
+    "id": 1,
+    "targetRewardId": [
+      2017
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 3302,
+    "groupId": 11,
+    "id": 2,
+    "targetRewardId": [
+      2017
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 61402,
+    "groupId": 11,
+    "id": 3,
+    "targetRewardId": [
+      2017
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 61302,
+    "groupId": 11,
+    "id": 4,
+    "targetRewardId": [
+      2017
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 3501,
+    "groupId": 4,
+    "id": 1,
+    "targetRewardId": [
+      2008
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 66401,
+    "groupId": 4,
+    "id": 2,
+    "targetRewardId": [
+      2008
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 1207,
+    "groupId": 4,
+    "id": 3,
+    "targetRewardId": [
+      2008
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 806,
+    "groupId": 4,
+    "id": 4,
+    "targetRewardId": [
+      2008
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 3202,
+    "groupId": 12,
+    "id": 1,
+    "targetRewardId": [
+      2019
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 67301,
+    "groupId": 12,
+    "id": 2,
+    "targetRewardId": [
+      2019
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.1
+    ],
+    "costumeId": 62802,
+    "groupId": 12,
+    "id": 3,
+    "targetRewardId": [
+      2019
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.1
+    ],
+    "costumeId": 61902,
+    "groupId": 12,
+    "id": 4,
+    "targetRewardId": [
+      2019
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 501,
+    "groupId": 6,
+    "id": 1,
+    "targetRewardId": [
+      2010
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 60706,
+    "groupId": 6,
+    "id": 2,
+    "targetRewardId": [
+      2010
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 66906,
+    "groupId": 6,
+    "id": 3,
+    "targetRewardId": [
+      2010
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 1106,
+    "groupId": 6,
+    "id": 4,
+    "targetRewardId": [
+      2010
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 61101,
+    "groupId": 13,
+    "id": 1,
+    "targetRewardId": [
+      2020
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 707,
+    "groupId": 13,
+    "id": 2,
+    "targetRewardId": [
+      2020
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 3401,
+    "groupId": 13,
+    "id": 3,
+    "targetRewardId": [
+      2020
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 101,
+    "groupId": 13,
+    "id": 4,
+    "targetRewardId": [
+      2020
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 67401,
+    "groupId": 5,
+    "id": 1,
+    "targetRewardId": [
+      2009
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 707,
+    "groupId": 5,
+    "id": 2,
+    "targetRewardId": [
+      2009
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 60602,
+    "groupId": 5,
+    "id": 3,
+    "targetRewardId": [
+      2009
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 60102,
+    "groupId": 5,
+    "id": 4,
+    "targetRewardId": [
+      2009
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 67302,
+    "groupId": 1,
+    "id": 1,
+    "targetRewardId": [
+      2005
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 804,
+    "groupId": 1,
+    "id": 2,
+    "targetRewardId": [
+      2005
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 65102,
+    "groupId": 1,
+    "id": 3,
+    "targetRewardId": [
+      2005
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 1002,
+    "groupId": 1,
+    "id": 4,
+    "targetRewardId": [
+      2005
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 3301,
+    "groupId": 16,
+    "id": 1,
+    "targetRewardId": [
+      2016
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 61302,
+    "groupId": 16,
+    "id": 2,
+    "targetRewardId": [
+      2016
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 201,
+    "groupId": 16,
+    "id": 3,
+    "targetRewardId": [
+      2016
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 60302,
+    "groupId": 16,
+    "id": 4,
+    "targetRewardId": [
+      2016
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 20501,
+    "groupId": 14,
+    "id": 1,
+    "targetRewardId": [
+      2022
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 20301,
+    "groupId": 14,
+    "id": 2,
+    "targetRewardId": [
+      2022
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 20201,
+    "groupId": 14,
+    "id": 3,
+    "targetRewardId": [
+      2022
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 204,
+    "groupId": 14,
+    "id": 4,
+    "targetRewardId": [
+      2022
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 20401,
+    "groupId": 15,
+    "id": 1,
+    "targetRewardId": [
+      2023
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 20501,
+    "groupId": 15,
+    "id": 2,
+    "targetRewardId": [
+      2023
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 20301,
+    "groupId": 15,
+    "id": 3,
+    "targetRewardId": [
+      2023
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 20201,
+    "groupId": 15,
+    "id": 4,
+    "targetRewardId": [
+      2023
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 60903,
+    "groupId": 17,
+    "id": 1,
+    "targetRewardId": [
+      2024
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 67502,
+    "groupId": 17,
+    "id": 2,
+    "targetRewardId": [
+      2024
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 202,
+    "groupId": 17,
+    "id": 3,
+    "targetRewardId": [
+      2024
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 301,
+    "groupId": 17,
+    "id": 4,
+    "targetRewardId": [
+      2024
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 67004,
+    "groupId": 18,
+    "id": 1,
+    "targetRewardId": [
+      2028
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 60801,
+    "groupId": 18,
+    "id": 2,
+    "targetRewardId": [
+      2028
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 103,
+    "groupId": 18,
+    "id": 3,
+    "targetRewardId": [
+      2028
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 66401,
+    "groupId": 18,
+    "id": 4,
+    "targetRewardId": [
+      2028
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 3802,
+    "groupId": 19,
+    "id": 1,
+    "targetRewardId": [
+      2030
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 1106,
+    "groupId": 19,
+    "id": 2,
+    "targetRewardId": [
+      2030
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 1001,
+    "groupId": 19,
+    "id": 3,
+    "targetRewardId": [
+      2030
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 60701,
+    "groupId": 19,
+    "id": 4,
+    "targetRewardId": [
+      2030
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 3203,
+    "groupId": 20,
+    "id": 1,
+    "targetRewardId": [
+      2026
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 67303,
+    "groupId": 20,
+    "id": 2,
+    "targetRewardId": [
+      2026
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 3402,
+    "groupId": 20,
+    "id": 3,
+    "targetRewardId": [
+      2026
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 2401,
+    "groupId": 20,
+    "id": 4,
+    "targetRewardId": [
+      2026
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 67503,
+    "groupId": 21,
+    "id": 1,
+    "targetRewardId": [
+      2027
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 706,
+    "groupId": 21,
+    "id": 2,
+    "targetRewardId": [
+      2027
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 60403,
+    "groupId": 21,
+    "id": 3,
+    "targetRewardId": [
+      2027
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 61002,
+    "groupId": 21,
+    "id": 4,
+    "targetRewardId": [
+      2027
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 3701,
+    "groupId": 22,
+    "id": 1,
+    "targetRewardId": [
+      2031
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 60601,
+    "groupId": 22,
+    "id": 2,
+    "targetRewardId": [
+      2031
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 601,
+    "groupId": 22,
+    "id": 3,
+    "targetRewardId": [
+      2031
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 61302,
+    "groupId": 22,
+    "id": 4,
+    "targetRewardId": [
+      2031
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 3703,
+    "groupId": 23,
+    "id": 1,
+    "targetRewardId": [
+      2032
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 60402,
+    "groupId": 23,
+    "id": 2,
+    "targetRewardId": [
+      2032
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 60901,
+    "groupId": 23,
+    "id": 3,
+    "targetRewardId": [
+      2032
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 701,
+    "groupId": 23,
+    "id": 4,
+    "targetRewardId": [
+      2032
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 3801,
+    "groupId": 24,
+    "id": 1,
+    "targetRewardId": [
+      2033
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 203,
+    "groupId": 24,
+    "id": 2,
+    "targetRewardId": [
+      2033
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 3701,
+    "groupId": 24,
+    "id": 3,
+    "targetRewardId": [
+      2033
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 105,
+    "groupId": 24,
+    "id": 4,
+    "targetRewardId": [
+      2033
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 67403,
+    "groupId": 25,
+    "id": 1,
+    "targetRewardId": [
+      2034
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 60802,
+    "groupId": 25,
+    "id": 2,
+    "targetRewardId": [
+      2034
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 67402,
+    "groupId": 25,
+    "id": 3,
+    "targetRewardId": [
+      2034
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 67101,
+    "groupId": 25,
+    "id": 4,
+    "targetRewardId": [
+      2034
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 67601,
+    "groupId": 26,
+    "id": 1,
+    "targetRewardId": [
+      2035
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 1004,
+    "groupId": 26,
+    "id": 2,
+    "targetRewardId": [
+      2035
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 304,
+    "groupId": 26,
+    "id": 3,
+    "targetRewardId": [
+      2035
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 501,
+    "groupId": 26,
+    "id": 4,
+    "targetRewardId": [
+      2035
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 3403,
+    "groupId": 27,
+    "id": 1,
+    "targetRewardId": [
+      2036
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 801,
+    "groupId": 27,
+    "id": 2,
+    "targetRewardId": [
+      2036
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 61302,
+    "groupId": 27,
+    "id": 3,
+    "targetRewardId": [
+      2036
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 601,
+    "groupId": 27,
+    "id": 4,
+    "targetRewardId": [
+      2036
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 20701,
+    "groupId": 28,
+    "id": 1,
+    "targetRewardId": [
+      2037
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 20801,
+    "groupId": 28,
+    "id": 2,
+    "targetRewardId": [
+      2037
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 20601,
+    "groupId": 28,
+    "id": 3,
+    "targetRewardId": [
+      2037
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 301,
+    "groupId": 28,
+    "id": 4,
+    "targetRewardId": [
+      2037
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 20901,
+    "groupId": 29,
+    "id": 1,
+    "targetRewardId": [
+      2038
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 20701,
+    "groupId": 29,
+    "id": 2,
+    "targetRewardId": [
+      2038
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 20801,
+    "groupId": 29,
+    "id": 3,
+    "targetRewardId": [
+      2038
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 20601,
+    "groupId": 29,
+    "id": 4,
+    "targetRewardId": [
+      2038
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 67603,
+    "groupId": 30,
+    "id": 1,
+    "targetRewardId": [
+      2040
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 66803,
+    "groupId": 30,
+    "id": 2,
+    "targetRewardId": [
+      2040
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 206,
+    "groupId": 30,
+    "id": 3,
+    "targetRewardId": [
+      2040
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 1107,
+    "groupId": 30,
+    "id": 4,
+    "targetRewardId": [
+      2040
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 61404,
+    "groupId": 31,
+    "id": 1,
+    "targetRewardId": [
+      2041
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 707,
+    "groupId": 31,
+    "id": 2,
+    "targetRewardId": [
+      2041
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 61305,
+    "groupId": 31,
+    "id": 3,
+    "targetRewardId": [
+      2041
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 708,
+    "groupId": 31,
+    "id": 4,
+    "targetRewardId": [
+      2041
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 3603,
+    "groupId": 32,
+    "id": 1,
+    "targetRewardId": [
+      2042
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 67101,
+    "groupId": 32,
+    "id": 2,
+    "targetRewardId": [
+      2042
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 3501,
+    "groupId": 32,
+    "id": 3,
+    "targetRewardId": [
+      2042
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 66801,
+    "groupId": 32,
+    "id": 4,
+    "targetRewardId": [
+      2042
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 3602,
+    "groupId": 33,
+    "id": 1,
+    "targetRewardId": [
+      2043
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 67401,
+    "groupId": 33,
+    "id": 2,
+    "targetRewardId": [
+      2043
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 66402,
+    "groupId": 33,
+    "id": 3,
+    "targetRewardId": [
+      2043
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 65102,
+    "groupId": 33,
+    "id": 4,
+    "targetRewardId": [
+      2043
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 1006,
+    "groupId": 34,
+    "id": 1,
+    "targetRewardId": [
+      2044
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 3401,
+    "groupId": 34,
+    "id": 2,
+    "targetRewardId": [
+      2044
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 306,
+    "groupId": 34,
+    "id": 3,
+    "targetRewardId": [
+      2044
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 66402,
+    "groupId": 34,
+    "id": 4,
+    "targetRewardId": [
+      2044
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 807,
+    "groupId": 35,
+    "id": 1,
+    "targetRewardId": [
+      2045
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 1107,
+    "groupId": 35,
+    "id": 2,
+    "targetRewardId": [
+      2045
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 67401,
+    "groupId": 35,
+    "id": 3,
+    "targetRewardId": [
+      2045
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 206,
+    "groupId": 35,
+    "id": 4,
+    "targetRewardId": [
+      2045
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 3901,
+    "groupId": 36,
+    "id": 1,
+    "targetRewardId": [
+      2046
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 67503,
+    "groupId": 36,
+    "id": 2,
+    "targetRewardId": [
+      2046
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 61102,
+    "groupId": 36,
+    "id": 3,
+    "targetRewardId": [
+      2046
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 60702,
+    "groupId": 36,
+    "id": 4,
+    "targetRewardId": [
+      2046
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 4001,
+    "groupId": 37,
+    "id": 1,
+    "targetRewardId": [
+      2047
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 4101,
+    "groupId": 37,
+    "id": 2,
+    "targetRewardId": [
+      2047
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 604,
+    "groupId": 37,
+    "id": 3,
+    "targetRewardId": [
+      2047
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 60402,
+    "groupId": 37,
+    "id": 4,
+    "targetRewardId": [
+      2047
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 20001,
+    "groupId": 10,
+    "id": 1,
+    "targetRewardId": [
+      2016
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 20101,
+    "groupId": 10,
+    "id": 2,
+    "targetRewardId": [
+      2016
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 201,
+    "groupId": 10,
+    "id": 3,
+    "targetRewardId": [
+      2016
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 301,
+    "groupId": 10,
+    "id": 4,
+    "targetRewardId": [
+      2016
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 67103,
+    "groupId": 38,
+    "id": 1,
+    "targetRewardId": [
+      2049
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.3
+    ],
+    "costumeId": 66403,
+    "groupId": 38,
+    "id": 2,
+    "targetRewardId": [
+      2049
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 502,
+    "groupId": 38,
+    "id": 3,
+    "targetRewardId": [
+      2049
+    ],
+    "targetRewardType": [
+      8
+    ]
+  },
+  {
+    "addBonusRate": [
+      0.2
+    ],
+    "costumeId": 61402,
+    "groupId": 38,
+    "id": 4,
+    "targetRewardId": [
+      2049
+    ],
+    "targetRewardType": [
+      8
+    ]
+  }
+]

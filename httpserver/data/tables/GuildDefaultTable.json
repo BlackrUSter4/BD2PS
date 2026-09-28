@@ -1,0 +1,19 @@
+[
+  {
+    "chatDeleteCount": 100,
+    "chatDeleteTime": 168,
+    "guildAttendanceRewardCount": 1,
+    "guildAttendanceRewardId": 1100001,
+    "guildAttendanceRewardType": 9,
+    "guildCreateItemCount": 200,
+    "guildCreateItemType": 3,
+    "guildDeleteCancelTime": 24,
+    "guildGuideId": 163,
+    "guildListCount": 20,
+    "guildMaxMemberCount": 30,
+    "guildSignDelayTime": 24,
+    "guildSignListCount": 20,
+    "guildSignRequestExpireTime": 168,
+    "preGuildGuideId": 163
+  }
+]

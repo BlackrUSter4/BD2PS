@@ -1,0 +1,3 @@
+[
+  { "correctExp": 100, "counselingCompleteRewardCount": 100, "counselingCompleteRewardType": 3, "eventMissionGroupId": 41001, "friendshipMaxLevel1": 10, "friendshipMaxLevel2": 15, "friendshipMaxLevel3": 20, "guideGroupId": 199, "incorrectExp": 80, "maxCounselingAP": 3, "maxCounselingAPByCostume": 1, "questNameTextId": 10000300, "questSkipTextId": 101, "questTitleQuestTextId": 90000006, "quickCounselingUnlockCount": 5, "startTimelineName": "Novel_Friendship_00", "startVisualNovelDialogId": 5 }
+]

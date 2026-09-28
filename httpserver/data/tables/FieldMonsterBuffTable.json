@@ -1,0 +1,11 @@
+[
+  {
+    "alertDetectionAngle": 360.0,
+    "alertDetectionDistance": 999.0,
+    "buffTIme": 5.0,
+    "detectionIgnoreWall": 1,
+    "distanceChase": 999.0,
+    "id": 1,
+    "moveSpeed": 0.2
+  }
+]

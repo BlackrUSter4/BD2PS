@@ -1,0 +1,12 @@
+[
+  { "grade": 1, "iconSpriteName": "icon_resource901_49", "id": 3, "itemAcquireId": [ 4 ], "itemDescNameTextId": 8901, "itemNameTextId": 7901, "itemSubNameTextId": 27106, "sortType": 3, "stackCount": 9999 },
+  { "grade": 1, "iconSpriteName": "icon_resource9001_59", "id": 7, "itemAcquireId": [ 20, 22, 19, 16, 17 ], "itemDescNameTextId": 8791, "itemNameTextId": 7791, "itemSubNameTextId": 7791, "magicValue": 200, "sortType": 3, "stackCount": 99999, "type": 1 },
+  { "grade": 5, "iconSpriteName": "icon_resource9003_61", "id": 9, "itemAcquireId": [ 19 ], "itemDescNameTextId": 8793, "itemNameTextId": 7793, "itemSubNameTextId": 7793, "magicValue": 2000, "sortType": 3, "stackCount": 99999, "type": 1 },
+  { "grade": 1, "iconSpriteName": "icon_resource7780_58", "id": 11, "itemAcquireId": [ 208, 209, 210, 218, 219, 205, 246 ], "itemDescNameTextId": 8780, "itemNameTextId": 7780, "itemSubNameTextId": 7780, "sortType": 3, "stackCount": 9999 },
+  { "grade": 5, "iconSpriteName": "icon_resource20005_156", "id": 127, "itemAcquireId": [ 242, 235, 245 ], "itemDescNameTextId": 33127, "itemNameTextId": 32127, "itemSubNameTextId": 32127, "sortType": 3, "stackCount": 9999, "type": 4 },
+  { "grade": 5, "iconSpriteName": "icon_resource20045_383", "id": 710, "itemAcquireId": [ 246, 245, 242, 235, 16, 327, 328 ], "itemDescNameTextId": 33707, "itemNameTextId": 32707, "itemSubNameTextId": 32707, "sortType": 3, "stackCount": 99999, "type": 4 },
+  { "grade": 5, "iconSpriteName": "icon_resource40002_79", "id": 1000, "itemAcquireId": [ 235, 245 ], "itemDescNameTextId": 33626, "itemNameTextId": 32626, "itemSubNameTextId": 32626, "sortType": 9, "stackCount": 9999 },
+  { "grade": 3, "iconSpriteName": "icon_resource40003_105", "id": 1002, "itemAcquireId": [ 16, 17, 246, 207 ], "itemDescNameTextId": 33628, "itemNameTextId": 32628, "itemSubNameTextId": 32628, "sortType": 8, "stackCount": 9999 },
+  { "grade": 1, "iconSpriteName": "icon_resource90022_209", "id": 2018, "itemDescNameTextId": 33665, "itemNameTextId": 32665, "itemSubNameTextId": 501, "sortType": 8, "stackCount": 9999 },
+  { "grade": 1, "iconSpriteName": "icon_resource90081_386", "id": 2063, "itemDescNameTextId": 33703, "itemNameTextId": 32703, "itemSubNameTextId": 501, "sortType": 8, "stackCount": 9999 }
+]

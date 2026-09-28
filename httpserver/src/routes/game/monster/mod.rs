@@ -1,0 +1,15 @@
+pub mod monster_hunt_change_team;
+pub mod monster_hunt_deck_info;
+pub mod monster_hunt_deck_save;
+pub mod monster_hunt_preset_delete;
+pub mod monster_hunt_preset_info;
+pub mod monster_hunt_preset_info_change;
+pub mod monster_hunt_preset_save;
+pub mod monster_hunt_preset_slot_add;
+pub mod monster_hunt_preset_use;
+pub mod monster_hunt_quick_battle;
+pub mod monster_hunt_rank_info;
+pub mod monster_hunt_schedule_info;
+pub mod monster_hunt_season_reward;
+pub mod monster_hunt_user_info;
+pub mod monster_info;

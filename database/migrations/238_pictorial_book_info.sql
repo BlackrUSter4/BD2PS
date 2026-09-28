@@ -1,0 +1,6 @@
+CREATE TABLE "PictorialBookInfo" (
+    "Index" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "Uid" BIGINT NOT NULL,
+    "Id" INTEGER,
+    "GroupId" INTEGER
+);

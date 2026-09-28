@@ -1,0 +1,464 @@
+[
+  {
+    "id": 1,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_SurvivalHeal",
+    "itemValue": 200,
+    "lifeTime": 1800
+  },
+  {
+    "id": 2,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_SurvivalMagnet",
+    "itemType": 1,
+    "itemValue": 11,
+    "lifeTime": 1800
+  },
+  {
+    "id": 3,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_SurvivalBomb",
+    "itemType": 2,
+    "itemValue": 500,
+    "itemValue2": 50,
+    "lifeTime": 1800
+  },
+  {
+    "id": 4,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_SurvivalExp1",
+    "itemType": 3,
+    "itemValue": 100,
+    "lifeTime": 180
+  },
+  {
+    "id": 5,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_SurvivalExp2",
+    "itemType": 3,
+    "itemValue": 500,
+    "lifeTime": 180
+  },
+  {
+    "id": 6,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_SurvivalExp3",
+    "itemType": 3,
+    "itemValue": 5000,
+    "lifeTime": 180
+  },
+  {
+    "id": 7,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_Coin1",
+    "itemType": 4,
+    "itemValue": 10,
+    "lifeTime": 1800
+  },
+  {
+    "id": 8,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_Coin2",
+    "itemType": 4,
+    "itemValue": 100,
+    "lifeTime": 1800
+  },
+  {
+    "id": 9,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_Coin3",
+    "itemType": 4,
+    "itemValue": 1000,
+    "lifeTime": 1800
+  },
+  {
+    "id": 10,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_EliteBox",
+    "itemType": 5,
+    "itemValue": 1,
+    "lifeTime": 1800
+  },
+  {
+    "id": 11,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_EliteBox",
+    "itemType": 5,
+    "itemValue": 2,
+    "lifeTime": 1800
+  },
+  {
+    "id": 12,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_EliteBox",
+    "itemType": 5,
+    "itemValue": 3,
+    "lifeTime": 1800
+  },
+  {
+    "id": 13,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_EMP",
+    "itemType": 6,
+    "itemValue": 5,
+    "lifeTime": 1800
+  },
+  {
+    "id": 14,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_Coin1",
+    "itemType": 4,
+    "itemValue": 10,
+    "lifeTime": 1800
+  },
+  {
+    "id": 15,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_Coin2",
+    "itemType": 4,
+    "itemValue": 100,
+    "lifeTime": 1800
+  },
+  {
+    "id": 16,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_Coin3",
+    "itemType": 4,
+    "itemValue": 1000,
+    "lifeTime": 1800
+  },
+  {
+    "id": 17,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_Coin1",
+    "itemType": 4,
+    "itemValue": 50,
+    "lifeTime": 1800
+  },
+  {
+    "id": 18,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_Coin2",
+    "itemType": 4,
+    "itemValue": 500,
+    "lifeTime": 1800
+  },
+  {
+    "id": 19,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_Coin3",
+    "itemType": 4,
+    "itemValue": 5000,
+    "lifeTime": 1800
+  },
+  {
+    "id": 20,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_Coin1",
+    "itemType": 4,
+    "itemValue": 10,
+    "lifeTime": 1800
+  },
+  {
+    "id": 21,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_Coin2",
+    "itemType": 4,
+    "itemValue": 100,
+    "lifeTime": 1800
+  },
+  {
+    "id": 22,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_Coin3",
+    "itemType": 4,
+    "itemValue": 1000,
+    "lifeTime": 1800
+  },
+  {
+    "id": 23,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_Coin1",
+    "itemType": 4,
+    "itemValue": 20,
+    "lifeTime": 1800
+  },
+  {
+    "id": 24,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_Coin2",
+    "itemType": 4,
+    "itemValue": 200,
+    "lifeTime": 1800
+  },
+  {
+    "id": 25,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_Coin3",
+    "itemType": 4,
+    "itemValue": 2000,
+    "lifeTime": 1800
+  },
+  {
+    "id": 26,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_Coin1",
+    "itemType": 4,
+    "itemValue": 100,
+    "lifeTime": 1800
+  },
+  {
+    "id": 27,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_Coin2",
+    "itemType": 4,
+    "itemValue": 1000,
+    "lifeTime": 1800
+  },
+  {
+    "id": 28,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_Coin3",
+    "itemType": 4,
+    "itemValue": 10000,
+    "lifeTime": 1800
+  },
+  {
+    "id": 29,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_Coin1",
+    "itemType": 4,
+    "itemValue": 20,
+    "lifeTime": 1800
+  },
+  {
+    "id": 30,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_Coin2",
+    "itemType": 4,
+    "itemValue": 200,
+    "lifeTime": 1800
+  },
+  {
+    "id": 31,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_Coin3",
+    "itemType": 4,
+    "itemValue": 2000,
+    "lifeTime": 1800
+  },
+  {
+    "id": 32,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_Coin1",
+    "itemType": 4,
+    "itemValue": 40,
+    "lifeTime": 1800
+  },
+  {
+    "id": 33,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_Coin2",
+    "itemType": 4,
+    "itemValue": 400,
+    "lifeTime": 1800
+  },
+  {
+    "id": 34,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_Coin3",
+    "itemType": 4,
+    "itemValue": 4000,
+    "lifeTime": 1800
+  },
+  {
+    "id": 35,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_Coin1",
+    "itemType": 4,
+    "itemValue": 200,
+    "lifeTime": 1800
+  },
+  {
+    "id": 36,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_Coin2",
+    "itemType": 4,
+    "itemValue": 2000,
+    "lifeTime": 1800
+  },
+  {
+    "id": 37,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_Coin3",
+    "itemType": 4,
+    "itemValue": 20000,
+    "lifeTime": 1800
+  },
+  {
+    "id": 38,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_SurvivalHeal",
+    "itemValue": 100,
+    "lifeTime": 1800
+  },
+  {
+    "id": 39,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_SurvivalHeal",
+    "itemValue": 100,
+    "lifeTime": 1800
+  },
+  {
+    "id": 40,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_SurvivalHeal",
+    "itemValue": 100,
+    "lifeTime": 1800
+  },
+  {
+    "id": 41,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_SurvivalHeal",
+    "itemValue": 200,
+    "lifeTime": 1800
+  },
+  {
+    "id": 42,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_SurvivalHeal",
+    "itemValue": 200,
+    "lifeTime": 1800
+  },
+  {
+    "id": 43,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_SurvivalHeal",
+    "itemValue": 200,
+    "lifeTime": 1800
+  },
+  {
+    "id": 44,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_SurvivalHeal",
+    "itemValue": 400,
+    "lifeTime": 1800
+  },
+  {
+    "id": 45,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_SurvivalHeal",
+    "itemValue": 400,
+    "lifeTime": 1800
+  },
+  {
+    "id": 46,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_SurvivalHeal",
+    "itemValue": 400,
+    "lifeTime": 1800
+  },
+  {
+    "id": 47,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_SurvivalHeal",
+    "itemValue": 400,
+    "lifeTime": 1800
+  },
+  {
+    "id": 48,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_SurvivalBomb",
+    "itemType": 2,
+    "itemValue": 500,
+    "itemValue2": 50,
+    "lifeTime": 1800
+  },
+  {
+    "id": 49,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_SurvivalBomb",
+    "itemType": 2,
+    "itemValue": 500,
+    "itemValue2": 50,
+    "lifeTime": 1800
+  },
+  {
+    "id": 50,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_SurvivalBomb",
+    "itemType": 2,
+    "itemValue": 500,
+    "itemValue2": 50,
+    "lifeTime": 1800
+  },
+  {
+    "id": 51,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_SurvivalBomb",
+    "itemType": 2,
+    "itemValue": 1000,
+    "itemValue2": 50,
+    "lifeTime": 1800
+  },
+  {
+    "id": 52,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_SurvivalBomb",
+    "itemType": 2,
+    "itemValue": 1000,
+    "itemValue2": 50,
+    "lifeTime": 1800
+  },
+  {
+    "id": 53,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_SurvivalBomb",
+    "itemType": 2,
+    "itemValue": 1000,
+    "itemValue2": 50,
+    "lifeTime": 1800
+  },
+  {
+    "id": 54,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_SurvivalBomb",
+    "itemType": 2,
+    "itemValue": 2000,
+    "itemValue2": 50,
+    "lifeTime": 1800
+  },
+  {
+    "id": 55,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_SurvivalBomb",
+    "itemType": 2,
+    "itemValue": 2000,
+    "itemValue2": 50,
+    "lifeTime": 1800
+  },
+  {
+    "id": 56,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_SurvivalBomb",
+    "itemType": 2,
+    "itemValue": 2000,
+    "itemValue2": 50,
+    "lifeTime": 1800
+  },
+  {
+    "id": 57,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_SurvivalBomb",
+    "itemType": 2,
+    "itemValue": 2000,
+    "itemValue2": 50,
+    "lifeTime": 1800
+  },
+  {
+    "id": 58,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_SurvivalExp1",
+    "itemType": 3,
+    "itemValue": 40,
+    "lifeTime": 180
+  },
+  {
+    "id": 59,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_SurvivalExp2",
+    "itemType": 3,
+    "itemValue": 200,
+    "lifeTime": 180
+  },
+  {
+    "id": 60,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_SurvivalExp3",
+    "itemType": 3,
+    "itemValue": 2000,
+    "lifeTime": 180
+  },
+  {
+    "id": 61,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_SurvivalExp1",
+    "itemType": 3,
+    "itemValue": 40,
+    "lifeTime": 180
+  },
+  {
+    "id": 62,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_SurvivalExp2",
+    "itemType": 3,
+    "itemValue": 200,
+    "lifeTime": 180
+  },
+  {
+    "id": 63,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_SurvivalExp3",
+    "itemType": 3,
+    "itemValue": 2000,
+    "lifeTime": 180
+  },
+  {
+    "id": 64,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_SurvivalExp1",
+    "itemType": 3,
+    "itemValue": 50,
+    "lifeTime": 180
+  },
+  {
+    "id": 65,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_SurvivalExp2",
+    "itemType": 3,
+    "itemValue": 250,
+    "lifeTime": 180
+  },
+  {
+    "id": 66,
+    "itemPrefabName": "MiniGame_001_Char/Prefabs/FieldObject_SurvivalExp3",
+    "itemType": 3,
+    "itemValue": 1000,
+    "lifeTime": 180
+  }
+]

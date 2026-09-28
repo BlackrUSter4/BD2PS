@@ -1,0 +1,11 @@
+[
+  { "groupId": 902, "growthPoint": [ 11, 22, 34, 45 ], "id": 1, "rankRatio": [ 0.41, 0.48, 0.09, 0.02 ], "rankValue": [ 1, 2, 3, 4 ] },
+  { "groupId": 902, "growthPoint": [ 22, 45, 67, 90 ], "id": 2, "rankRatio": [ 0.44, 0.49, 0.055, 0.015 ], "rankValue": [ 2, 4, 6, 8 ] },
+  { "groupId": 902, "growthPoint": [ 34, 67, 101, 135 ], "id": 3, "rankRatio": [ 0.47, 0.5, 0.02, 0.01 ], "rankValue": [ 3, 6, 9, 12 ] },
+  { "groupId": 10, "growthPoint": [ 4, 8, 13, 17 ], "id": 1, "rankRatio": [ 0, 0.83, 0.14, 0.03 ], "rankValue": [ 1, 2, 3, 4 ] },
+  { "groupId": 10, "growthPoint": [ 8, 17, 25, 34 ], "id": 2, "rankRatio": [ 0, 0.88, 0.093, 0.027 ], "rankValue": [ 2, 4, 6, 8 ] },
+  { "groupId": 10, "growthPoint": [ 13, 25, 38, 50 ], "id": 3, "rankRatio": [ 0, 0.94, 0.045, 0.015 ], "rankValue": [ 3, 6, 9, 12 ] },
+  { "groupId": 903, "growthPoint": [ 20, 39, 59, 78 ], "id": 1, "rankRatio": [ 0.44, 0.48, 0.065, 0.015 ], "rankValue": [ 1, 2, 3, 4 ] },
+  { "groupId": 903, "growthPoint": [ 39, 78, 118, 157 ], "id": 2, "rankRatio": [ 0.46, 0.48, 0.05, 0.01 ], "rankValue": [ 2, 4, 6, 8 ] },
+  { "groupId": 903, "growthPoint": [ 59, 118, 177, 235 ], "id": 3, "rankRatio": [ 0.48, 0.49, 0.024, 0.006 ], "rankValue": [ 3, 6, 9, 12 ] }
+]

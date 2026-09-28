@@ -1,0 +1,2162 @@
+[
+  {
+    "battleDeckId": 100191,
+    "battleMaxCount": 5,
+    "battlePower": 9123,
+    "golemBonusExp": 300,
+    "groupId": 1,
+    "id": 1,
+    "level": 1
+  },
+  {
+    "battleDeckId": 100192,
+    "battleMaxCount": 7,
+    "battlePower": 22741,
+    "golemBonusExp": 450,
+    "groupId": 1,
+    "id": 1,
+    "level": 2
+  },
+  {
+    "battleDeckId": 100193,
+    "battleMaxCount": 8,
+    "battlePower": 35003,
+    "golemBonusExp": 600,
+    "groupId": 1,
+    "id": 1,
+    "level": 3
+  },
+  {
+    "battleDeckId": 100194,
+    "battleMaxCount": 7,
+    "battlePower": 77481,
+    "golemBonusExp": 750,
+    "groupId": 1,
+    "id": 1,
+    "level": 4
+  },
+  {
+    "battleDeckId": 100195,
+    "battleMaxCount": 5,
+    "battlePower": 150410,
+    "golemBonusExp": 900,
+    "groupId": 1,
+    "id": 1,
+    "level": 5
+  },
+  {
+    "battleDeckId": 100201,
+    "battleMaxCount": 5,
+    "battlePower": 10157,
+    "golemBonusExp": 300,
+    "groupId": 1,
+    "id": 2,
+    "level": 1
+  },
+  {
+    "battleDeckId": 100202,
+    "battleMaxCount": 7,
+    "battlePower": 27149,
+    "golemBonusExp": 450,
+    "groupId": 1,
+    "id": 2,
+    "level": 2
+  },
+  {
+    "battleDeckId": 100203,
+    "battleMaxCount": 8,
+    "battlePower": 79720,
+    "golemBonusExp": 600,
+    "groupId": 1,
+    "id": 2,
+    "level": 3
+  },
+  {
+    "battleDeckId": 100204,
+    "battleMaxCount": 7,
+    "battlePower": 158258,
+    "golemBonusExp": 750,
+    "groupId": 1,
+    "id": 2,
+    "level": 4
+  },
+  {
+    "battleDeckId": 100205,
+    "battleMaxCount": 5,
+    "battlePower": 249746,
+    "golemBonusExp": 900,
+    "groupId": 1,
+    "id": 2,
+    "level": 5
+  },
+  {
+    "battleDeckId": 100211,
+    "battleMaxCount": 5,
+    "battlePower": 10584,
+    "golemBonusExp": 300,
+    "groupId": 1,
+    "id": 3,
+    "level": 1
+  },
+  {
+    "battleDeckId": 100212,
+    "battleMaxCount": 7,
+    "battlePower": 27012,
+    "golemBonusExp": 450,
+    "groupId": 1,
+    "id": 3,
+    "level": 2
+  },
+  {
+    "battleDeckId": 100213,
+    "battleMaxCount": 8,
+    "battlePower": 46563,
+    "golemBonusExp": 600,
+    "groupId": 1,
+    "id": 3,
+    "level": 3
+  },
+  {
+    "battleDeckId": 100214,
+    "battleMaxCount": 7,
+    "battlePower": 75269,
+    "golemBonusExp": 750,
+    "groupId": 1,
+    "id": 3,
+    "level": 4
+  },
+  {
+    "battleDeckId": 100215,
+    "battleMaxCount": 5,
+    "battlePower": 101210,
+    "golemBonusExp": 900,
+    "groupId": 1,
+    "id": 3,
+    "level": 5
+  },
+  {
+    "battleDeckId": 100191,
+    "battleMaxCount": 5,
+    "battlePower": 10893,
+    "golemBonusExp": 300,
+    "groupId": 2,
+    "id": 1,
+    "level": 1
+  },
+  {
+    "battleDeckId": 100192,
+    "battleMaxCount": 7,
+    "battlePower": 28461,
+    "golemBonusExp": 450,
+    "groupId": 2,
+    "id": 1,
+    "level": 2
+  },
+  {
+    "battleDeckId": 100193,
+    "battleMaxCount": 8,
+    "battlePower": 42325,
+    "golemBonusExp": 600,
+    "groupId": 2,
+    "id": 1,
+    "level": 3
+  },
+  {
+    "battleDeckId": 100194,
+    "battleMaxCount": 7,
+    "battlePower": 130663,
+    "golemBonusExp": 750,
+    "groupId": 2,
+    "id": 1,
+    "level": 4
+  },
+  {
+    "battleDeckId": 100195,
+    "battleMaxCount": 5,
+    "battlePower": 211302,
+    "golemBonusExp": 900,
+    "groupId": 2,
+    "id": 1,
+    "level": 5
+  },
+  {
+    "battleDeckId": 100201,
+    "battleMaxCount": 5,
+    "battlePower": 9572,
+    "golemBonusExp": 300,
+    "groupId": 2,
+    "id": 2,
+    "level": 1
+  },
+  {
+    "battleDeckId": 100202,
+    "battleMaxCount": 7,
+    "battlePower": 26317,
+    "golemBonusExp": 450,
+    "groupId": 2,
+    "id": 2,
+    "level": 2
+  },
+  {
+    "battleDeckId": 100203,
+    "battleMaxCount": 8,
+    "battlePower": 86866,
+    "golemBonusExp": 600,
+    "groupId": 2,
+    "id": 2,
+    "level": 3
+  },
+  {
+    "battleDeckId": 100204,
+    "battleMaxCount": 7,
+    "battlePower": 163373,
+    "golemBonusExp": 750,
+    "groupId": 2,
+    "id": 2,
+    "level": 4
+  },
+  {
+    "battleDeckId": 100205,
+    "battleMaxCount": 5,
+    "battlePower": 254709,
+    "golemBonusExp": 900,
+    "groupId": 2,
+    "id": 2,
+    "level": 5
+  },
+  {
+    "battleDeckId": 100211,
+    "battleMaxCount": 5,
+    "battlePower": 12378,
+    "golemBonusExp": 300,
+    "groupId": 2,
+    "id": 3,
+    "level": 1
+  },
+  {
+    "battleDeckId": 100212,
+    "battleMaxCount": 7,
+    "battlePower": 29974,
+    "golemBonusExp": 450,
+    "groupId": 2,
+    "id": 3,
+    "level": 2
+  },
+  {
+    "battleDeckId": 100213,
+    "battleMaxCount": 8,
+    "battlePower": 34785,
+    "golemBonusExp": 600,
+    "groupId": 2,
+    "id": 3,
+    "level": 3
+  },
+  {
+    "battleDeckId": 100214,
+    "battleMaxCount": 7,
+    "battlePower": 58207,
+    "golemBonusExp": 750,
+    "groupId": 2,
+    "id": 3,
+    "level": 4
+  },
+  {
+    "battleDeckId": 100215,
+    "battleMaxCount": 5,
+    "battlePower": 152924,
+    "golemBonusExp": 900,
+    "groupId": 2,
+    "id": 3,
+    "level": 5
+  },
+  {
+    "battleDeckId": 100191,
+    "battleMaxCount": 5,
+    "battlePower": 10775,
+    "golemBonusExp": 300,
+    "groupId": 3,
+    "id": 1,
+    "level": 1
+  },
+  {
+    "battleDeckId": 100192,
+    "battleMaxCount": 7,
+    "battlePower": 26855,
+    "golemBonusExp": 450,
+    "groupId": 3,
+    "id": 1,
+    "level": 2
+  },
+  {
+    "battleDeckId": 100193,
+    "battleMaxCount": 8,
+    "battlePower": 40069,
+    "golemBonusExp": 600,
+    "groupId": 3,
+    "id": 1,
+    "level": 3
+  },
+  {
+    "battleDeckId": 100194,
+    "battleMaxCount": 7,
+    "battlePower": 131492,
+    "golemBonusExp": 750,
+    "groupId": 3,
+    "id": 1,
+    "level": 4
+  },
+  {
+    "battleDeckId": 100195,
+    "battleMaxCount": 5,
+    "battlePower": 234545,
+    "golemBonusExp": 900,
+    "groupId": 3,
+    "id": 1,
+    "level": 5
+  },
+  {
+    "battleDeckId": 100201,
+    "battleMaxCount": 5,
+    "battlePower": 9829,
+    "golemBonusExp": 300,
+    "groupId": 3,
+    "id": 2,
+    "level": 1
+  },
+  {
+    "battleDeckId": 100202,
+    "battleMaxCount": 7,
+    "battlePower": 23837,
+    "golemBonusExp": 450,
+    "groupId": 3,
+    "id": 2,
+    "level": 2
+  },
+  {
+    "battleDeckId": 100203,
+    "battleMaxCount": 8,
+    "battlePower": 33683,
+    "golemBonusExp": 600,
+    "groupId": 3,
+    "id": 2,
+    "level": 3
+  },
+  {
+    "battleDeckId": 100204,
+    "battleMaxCount": 7,
+    "battlePower": 146643,
+    "golemBonusExp": 750,
+    "groupId": 3,
+    "id": 2,
+    "level": 4
+  },
+  {
+    "battleDeckId": 100205,
+    "battleMaxCount": 5,
+    "battlePower": 121761,
+    "golemBonusExp": 900,
+    "groupId": 3,
+    "id": 2,
+    "level": 5
+  },
+  {
+    "battleDeckId": 100211,
+    "battleMaxCount": 5,
+    "battlePower": 11181,
+    "golemBonusExp": 300,
+    "groupId": 3,
+    "id": 3,
+    "level": 1
+  },
+  {
+    "battleDeckId": 100212,
+    "battleMaxCount": 7,
+    "battlePower": 29785,
+    "golemBonusExp": 450,
+    "groupId": 3,
+    "id": 3,
+    "level": 2
+  },
+  {
+    "battleDeckId": 100213,
+    "battleMaxCount": 8,
+    "battlePower": 31585,
+    "golemBonusExp": 600,
+    "groupId": 3,
+    "id": 3,
+    "level": 3
+  },
+  {
+    "battleDeckId": 100214,
+    "battleMaxCount": 7,
+    "battlePower": 41630,
+    "golemBonusExp": 750,
+    "groupId": 3,
+    "id": 3,
+    "level": 4
+  },
+  {
+    "battleDeckId": 100215,
+    "battleMaxCount": 5,
+    "battlePower": 105135,
+    "golemBonusExp": 900,
+    "groupId": 3,
+    "id": 3,
+    "level": 5
+  },
+  {
+    "battleDeckId": 100191,
+    "battleMaxCount": 5,
+    "battlePower": 11017,
+    "golemBonusExp": 300,
+    "groupId": 4,
+    "id": 1,
+    "level": 1
+  },
+  {
+    "battleDeckId": 100192,
+    "battleMaxCount": 7,
+    "battlePower": 27469,
+    "golemBonusExp": 450,
+    "groupId": 4,
+    "id": 1,
+    "level": 2
+  },
+  {
+    "battleDeckId": 100193,
+    "battleMaxCount": 8,
+    "battlePower": 37413,
+    "golemBonusExp": 600,
+    "groupId": 4,
+    "id": 1,
+    "level": 3
+  },
+  {
+    "battleDeckId": 100194,
+    "battleMaxCount": 7,
+    "battlePower": 102595,
+    "golemBonusExp": 750,
+    "groupId": 4,
+    "id": 1,
+    "level": 4
+  },
+  {
+    "battleDeckId": 100195,
+    "battleMaxCount": 5,
+    "battlePower": 282364,
+    "golemBonusExp": 900,
+    "groupId": 4,
+    "id": 1,
+    "level": 5
+  },
+  {
+    "battleDeckId": 100201,
+    "battleMaxCount": 5,
+    "battlePower": 12255,
+    "golemBonusExp": 300,
+    "groupId": 4,
+    "id": 2,
+    "level": 1
+  },
+  {
+    "battleDeckId": 100202,
+    "battleMaxCount": 7,
+    "battlePower": 33655,
+    "golemBonusExp": 450,
+    "groupId": 4,
+    "id": 2,
+    "level": 2
+  },
+  {
+    "battleDeckId": 100203,
+    "battleMaxCount": 8,
+    "battlePower": 34916,
+    "golemBonusExp": 600,
+    "groupId": 4,
+    "id": 2,
+    "level": 3
+  },
+  {
+    "battleDeckId": 100204,
+    "battleMaxCount": 7,
+    "battlePower": 124672,
+    "golemBonusExp": 750,
+    "groupId": 4,
+    "id": 2,
+    "level": 4
+  },
+  {
+    "battleDeckId": 100205,
+    "battleMaxCount": 5,
+    "battlePower": 276021,
+    "golemBonusExp": 900,
+    "groupId": 4,
+    "id": 2,
+    "level": 5
+  },
+  {
+    "battleDeckId": 100211,
+    "battleMaxCount": 5,
+    "battlePower": 11747,
+    "golemBonusExp": 300,
+    "groupId": 4,
+    "id": 3,
+    "level": 1
+  },
+  {
+    "battleDeckId": 100212,
+    "battleMaxCount": 7,
+    "battlePower": 29542,
+    "golemBonusExp": 450,
+    "groupId": 4,
+    "id": 3,
+    "level": 2
+  },
+  {
+    "battleDeckId": 100213,
+    "battleMaxCount": 8,
+    "battlePower": 43605,
+    "golemBonusExp": 600,
+    "groupId": 4,
+    "id": 3,
+    "level": 3
+  },
+  {
+    "battleDeckId": 100214,
+    "battleMaxCount": 7,
+    "battlePower": 71229,
+    "golemBonusExp": 750,
+    "groupId": 4,
+    "id": 3,
+    "level": 4
+  },
+  {
+    "battleDeckId": 100215,
+    "battleMaxCount": 5,
+    "battlePower": 265146,
+    "golemBonusExp": 900,
+    "groupId": 4,
+    "id": 3,
+    "level": 5
+  },
+  {
+    "battleDeckId": 100191,
+    "battleMaxCount": 5,
+    "battlePower": 12033,
+    "golemBonusExp": 300,
+    "groupId": 5,
+    "id": 1,
+    "level": 1
+  },
+  {
+    "battleDeckId": 100192,
+    "battleMaxCount": 7,
+    "battlePower": 31918,
+    "golemBonusExp": 450,
+    "groupId": 5,
+    "id": 1,
+    "level": 2
+  },
+  {
+    "battleDeckId": 100193,
+    "battleMaxCount": 8,
+    "battlePower": 66730,
+    "golemBonusExp": 600,
+    "groupId": 5,
+    "id": 1,
+    "level": 3
+  },
+  {
+    "battleDeckId": 100194,
+    "battleMaxCount": 7,
+    "battlePower": 180614,
+    "golemBonusExp": 750,
+    "groupId": 5,
+    "id": 1,
+    "level": 4
+  },
+  {
+    "battleDeckId": 100195,
+    "battleMaxCount": 5,
+    "battlePower": 443264,
+    "golemBonusExp": 900,
+    "groupId": 5,
+    "id": 1,
+    "level": 5
+  },
+  {
+    "battleDeckId": 100201,
+    "battleMaxCount": 5,
+    "battlePower": 14897,
+    "golemBonusExp": 300,
+    "groupId": 5,
+    "id": 2,
+    "level": 1
+  },
+  {
+    "battleDeckId": 100202,
+    "battleMaxCount": 7,
+    "battlePower": 32217,
+    "golemBonusExp": 450,
+    "groupId": 5,
+    "id": 2,
+    "level": 2
+  },
+  {
+    "battleDeckId": 100203,
+    "battleMaxCount": 8,
+    "battlePower": 33449,
+    "golemBonusExp": 600,
+    "groupId": 5,
+    "id": 2,
+    "level": 3
+  },
+  {
+    "battleDeckId": 100204,
+    "battleMaxCount": 7,
+    "battlePower": 129425,
+    "golemBonusExp": 750,
+    "groupId": 5,
+    "id": 2,
+    "level": 4
+  },
+  {
+    "battleDeckId": 100205,
+    "battleMaxCount": 5,
+    "battlePower": 419869,
+    "golemBonusExp": 900,
+    "groupId": 5,
+    "id": 2,
+    "level": 5
+  },
+  {
+    "battleDeckId": 100211,
+    "battleMaxCount": 5,
+    "battlePower": 12359,
+    "golemBonusExp": 300,
+    "groupId": 5,
+    "id": 3,
+    "level": 1
+  },
+  {
+    "battleDeckId": 100212,
+    "battleMaxCount": 7,
+    "battlePower": 30506,
+    "golemBonusExp": 450,
+    "groupId": 5,
+    "id": 3,
+    "level": 2
+  },
+  {
+    "battleDeckId": 100213,
+    "battleMaxCount": 8,
+    "battlePower": 43722,
+    "golemBonusExp": 600,
+    "groupId": 5,
+    "id": 3,
+    "level": 3
+  },
+  {
+    "battleDeckId": 100214,
+    "battleMaxCount": 7,
+    "battlePower": 40005,
+    "golemBonusExp": 750,
+    "groupId": 5,
+    "id": 3,
+    "level": 4
+  },
+  {
+    "battleDeckId": 100215,
+    "battleMaxCount": 5,
+    "battlePower": 265337,
+    "golemBonusExp": 900,
+    "groupId": 5,
+    "id": 3,
+    "level": 5
+  },
+  {
+    "battleDeckId": 100191,
+    "battleMaxCount": 5,
+    "battlePower": 13068,
+    "golemBonusExp": 300,
+    "groupId": 6,
+    "id": 1,
+    "level": 1
+  },
+  {
+    "battleDeckId": 100192,
+    "battleMaxCount": 7,
+    "battlePower": 30252,
+    "golemBonusExp": 450,
+    "groupId": 6,
+    "id": 1,
+    "level": 2
+  },
+  {
+    "battleDeckId": 100193,
+    "battleMaxCount": 8,
+    "battlePower": 33654,
+    "golemBonusExp": 600,
+    "groupId": 6,
+    "id": 1,
+    "level": 3
+  },
+  {
+    "battleDeckId": 100194,
+    "battleMaxCount": 7,
+    "battlePower": 77843,
+    "golemBonusExp": 750,
+    "groupId": 6,
+    "id": 1,
+    "level": 4
+  },
+  {
+    "battleDeckId": 100195,
+    "battleMaxCount": 5,
+    "battlePower": 375770,
+    "golemBonusExp": 900,
+    "groupId": 6,
+    "id": 1,
+    "level": 5
+  },
+  {
+    "battleDeckId": 100201,
+    "battleMaxCount": 5,
+    "battlePower": 13293,
+    "golemBonusExp": 300,
+    "groupId": 6,
+    "id": 2,
+    "level": 1
+  },
+  {
+    "battleDeckId": 100202,
+    "battleMaxCount": 7,
+    "battlePower": 32277,
+    "golemBonusExp": 450,
+    "groupId": 6,
+    "id": 2,
+    "level": 2
+  },
+  {
+    "battleDeckId": 100203,
+    "battleMaxCount": 8,
+    "battlePower": 34674,
+    "golemBonusExp": 600,
+    "groupId": 6,
+    "id": 2,
+    "level": 3
+  },
+  {
+    "battleDeckId": 100204,
+    "battleMaxCount": 7,
+    "battlePower": 42036,
+    "golemBonusExp": 750,
+    "groupId": 6,
+    "id": 2,
+    "level": 4
+  },
+  {
+    "battleDeckId": 100205,
+    "battleMaxCount": 5,
+    "battlePower": 198449,
+    "golemBonusExp": 900,
+    "groupId": 6,
+    "id": 2,
+    "level": 5
+  },
+  {
+    "battleDeckId": 100211,
+    "battleMaxCount": 5,
+    "battlePower": 18134,
+    "golemBonusExp": 300,
+    "groupId": 6,
+    "id": 3,
+    "level": 1
+  },
+  {
+    "battleDeckId": 100212,
+    "battleMaxCount": 7,
+    "battlePower": 32749,
+    "golemBonusExp": 450,
+    "groupId": 6,
+    "id": 3,
+    "level": 2
+  },
+  {
+    "battleDeckId": 100213,
+    "battleMaxCount": 8,
+    "battlePower": 68154,
+    "golemBonusExp": 600,
+    "groupId": 6,
+    "id": 3,
+    "level": 3
+  },
+  {
+    "battleDeckId": 100214,
+    "battleMaxCount": 7,
+    "battlePower": 254885,
+    "golemBonusExp": 750,
+    "groupId": 6,
+    "id": 3,
+    "level": 4
+  },
+  {
+    "battleDeckId": 100215,
+    "battleMaxCount": 5,
+    "battlePower": 1571612,
+    "golemBonusExp": 900,
+    "groupId": 6,
+    "id": 3,
+    "level": 5
+  },
+  {
+    "battleDeckId": 100191,
+    "battleMaxCount": 5,
+    "battlePower": 6581,
+    "golemBonusExp": 300,
+    "groupId": 7,
+    "id": 1,
+    "level": 1
+  },
+  {
+    "battleDeckId": 100192,
+    "battleMaxCount": 7,
+    "battlePower": 16105,
+    "golemBonusExp": 450,
+    "groupId": 7,
+    "id": 1,
+    "level": 2
+  },
+  {
+    "battleDeckId": 100193,
+    "battleMaxCount": 8,
+    "battlePower": 25175,
+    "golemBonusExp": 600,
+    "groupId": 7,
+    "id": 1,
+    "level": 3
+  },
+  {
+    "battleDeckId": 100194,
+    "battleMaxCount": 7,
+    "battlePower": 34486,
+    "golemBonusExp": 750,
+    "groupId": 7,
+    "id": 1,
+    "level": 4
+  },
+  {
+    "battleDeckId": 100195,
+    "battleMaxCount": 5,
+    "battlePower": 104639,
+    "golemBonusExp": 900,
+    "groupId": 7,
+    "id": 1,
+    "level": 5
+  },
+  {
+    "battleDeckId": 100201,
+    "battleMaxCount": 5,
+    "battlePower": 12278,
+    "golemBonusExp": 300,
+    "groupId": 7,
+    "id": 2,
+    "level": 1
+  },
+  {
+    "battleDeckId": 100202,
+    "battleMaxCount": 7,
+    "battlePower": 34693,
+    "golemBonusExp": 450,
+    "groupId": 7,
+    "id": 2,
+    "level": 2
+  },
+  {
+    "battleDeckId": 100203,
+    "battleMaxCount": 8,
+    "battlePower": 89302,
+    "golemBonusExp": 600,
+    "groupId": 7,
+    "id": 2,
+    "level": 3
+  },
+  {
+    "battleDeckId": 100204,
+    "battleMaxCount": 7,
+    "battlePower": 97535,
+    "golemBonusExp": 750,
+    "groupId": 7,
+    "id": 2,
+    "level": 4
+  },
+  {
+    "battleDeckId": 100205,
+    "battleMaxCount": 5,
+    "battlePower": 183455,
+    "golemBonusExp": 900,
+    "groupId": 7,
+    "id": 2,
+    "level": 5
+  },
+  {
+    "battleDeckId": 100211,
+    "battleMaxCount": 5,
+    "battlePower": 13188,
+    "golemBonusExp": 300,
+    "groupId": 7,
+    "id": 3,
+    "level": 1
+  },
+  {
+    "battleDeckId": 100212,
+    "battleMaxCount": 7,
+    "battlePower": 31296,
+    "golemBonusExp": 450,
+    "groupId": 7,
+    "id": 3,
+    "level": 2
+  },
+  {
+    "battleDeckId": 100213,
+    "battleMaxCount": 8,
+    "battlePower": 34992,
+    "golemBonusExp": 600,
+    "groupId": 7,
+    "id": 3,
+    "level": 3
+  },
+  {
+    "battleDeckId": 100214,
+    "battleMaxCount": 7,
+    "battlePower": 143505,
+    "golemBonusExp": 750,
+    "groupId": 7,
+    "id": 3,
+    "level": 4
+  },
+  {
+    "battleDeckId": 100215,
+    "battleMaxCount": 5,
+    "battlePower": 390894,
+    "golemBonusExp": 900,
+    "groupId": 7,
+    "id": 3,
+    "level": 5
+  },
+  {
+    "battleDeckId": 100191,
+    "battleMaxCount": 5,
+    "battlePower": 10719,
+    "golemBonusExp": 200,
+    "groupId": 8,
+    "id": 1,
+    "level": 1
+  },
+  {
+    "battleDeckId": 100192,
+    "battleMaxCount": 5,
+    "battlePower": 25664,
+    "golemBonusExp": 300,
+    "groupId": 8,
+    "id": 1,
+    "level": 2
+  },
+  {
+    "battleDeckId": 100193,
+    "battleMaxCount": 5,
+    "battlePower": 30326,
+    "golemBonusExp": 400,
+    "groupId": 8,
+    "id": 1,
+    "level": 3
+  },
+  {
+    "battleDeckId": 100194,
+    "battleMaxCount": 5,
+    "battlePower": 49884,
+    "golemBonusExp": 500,
+    "groupId": 8,
+    "id": 1,
+    "level": 4
+  },
+  {
+    "battleDeckId": 100195,
+    "battleMaxCount": 5,
+    "battlePower": 197052,
+    "golemBonusExp": 600,
+    "groupId": 8,
+    "id": 1,
+    "level": 5
+  },
+  {
+    "battleDeckId": 100201,
+    "battleMaxCount": 5,
+    "battlePower": 9165,
+    "golemBonusExp": 200,
+    "groupId": 8,
+    "id": 2,
+    "level": 1
+  },
+  {
+    "battleDeckId": 100202,
+    "battleMaxCount": 5,
+    "battlePower": 36171,
+    "golemBonusExp": 300,
+    "groupId": 8,
+    "id": 2,
+    "level": 2
+  },
+  {
+    "battleDeckId": 100203,
+    "battleMaxCount": 5,
+    "battlePower": 77563,
+    "golemBonusExp": 400,
+    "groupId": 8,
+    "id": 2,
+    "level": 3
+  },
+  {
+    "battleDeckId": 100204,
+    "battleMaxCount": 5,
+    "battlePower": 119463,
+    "golemBonusExp": 500,
+    "groupId": 8,
+    "id": 2,
+    "level": 4
+  },
+  {
+    "battleDeckId": 100205,
+    "battleMaxCount": 5,
+    "battlePower": 244360,
+    "golemBonusExp": 600,
+    "groupId": 8,
+    "id": 2,
+    "level": 5
+  },
+  {
+    "battleDeckId": 100211,
+    "battleMaxCount": 5,
+    "battlePower": 12284,
+    "golemBonusExp": 200,
+    "groupId": 8,
+    "id": 3,
+    "level": 1
+  },
+  {
+    "battleDeckId": 100212,
+    "battleMaxCount": 5,
+    "battlePower": 30165,
+    "golemBonusExp": 300,
+    "groupId": 8,
+    "id": 3,
+    "level": 2
+  },
+  {
+    "battleDeckId": 100213,
+    "battleMaxCount": 5,
+    "battlePower": 59696,
+    "golemBonusExp": 400,
+    "groupId": 8,
+    "id": 3,
+    "level": 3
+  },
+  {
+    "battleDeckId": 100214,
+    "battleMaxCount": 5,
+    "battlePower": 107001,
+    "golemBonusExp": 500,
+    "groupId": 8,
+    "id": 3,
+    "level": 4
+  },
+  {
+    "battleDeckId": 100215,
+    "battleMaxCount": 5,
+    "battlePower": 314913,
+    "golemBonusExp": 600,
+    "groupId": 8,
+    "id": 3,
+    "level": 5
+  },
+  {
+    "battleDeckId": 100191,
+    "battleMaxCount": 5,
+    "battlePower": 13744,
+    "golemBonusExp": 200,
+    "groupId": 9,
+    "id": 1,
+    "level": 1
+  },
+  {
+    "battleDeckId": 100192,
+    "battleMaxCount": 5,
+    "battlePower": 31326,
+    "golemBonusExp": 300,
+    "groupId": 9,
+    "id": 1,
+    "level": 2
+  },
+  {
+    "battleDeckId": 100193,
+    "battleMaxCount": 5,
+    "battlePower": 34773,
+    "golemBonusExp": 400,
+    "groupId": 9,
+    "id": 1,
+    "level": 3
+  },
+  {
+    "battleDeckId": 100194,
+    "battleMaxCount": 5,
+    "battlePower": 93518,
+    "golemBonusExp": 500,
+    "groupId": 9,
+    "id": 1,
+    "level": 4
+  },
+  {
+    "battleDeckId": 100195,
+    "battleMaxCount": 5,
+    "battlePower": 397422,
+    "golemBonusExp": 600,
+    "groupId": 9,
+    "id": 1,
+    "level": 5
+  },
+  {
+    "battleDeckId": 100201,
+    "battleMaxCount": 5,
+    "battlePower": 15013,
+    "golemBonusExp": 200,
+    "groupId": 9,
+    "id": 2,
+    "level": 1
+  },
+  {
+    "battleDeckId": 100202,
+    "battleMaxCount": 5,
+    "battlePower": 34201,
+    "golemBonusExp": 300,
+    "groupId": 9,
+    "id": 2,
+    "level": 2
+  },
+  {
+    "battleDeckId": 100203,
+    "battleMaxCount": 5,
+    "battlePower": 76104,
+    "golemBonusExp": 400,
+    "groupId": 9,
+    "id": 2,
+    "level": 3
+  },
+  {
+    "battleDeckId": 100204,
+    "battleMaxCount": 5,
+    "battlePower": 103119,
+    "golemBonusExp": 500,
+    "groupId": 9,
+    "id": 2,
+    "level": 4
+  },
+  {
+    "battleDeckId": 100205,
+    "battleMaxCount": 5,
+    "battlePower": 658044,
+    "golemBonusExp": 600,
+    "groupId": 9,
+    "id": 2,
+    "level": 5
+  },
+  {
+    "battleDeckId": 100211,
+    "battleMaxCount": 5,
+    "battlePower": 15561,
+    "golemBonusExp": 200,
+    "groupId": 9,
+    "id": 3,
+    "level": 1
+  },
+  {
+    "battleDeckId": 100212,
+    "battleMaxCount": 5,
+    "battlePower": 34823,
+    "golemBonusExp": 300,
+    "groupId": 9,
+    "id": 3,
+    "level": 2
+  },
+  {
+    "battleDeckId": 100213,
+    "battleMaxCount": 5,
+    "battlePower": 78541,
+    "golemBonusExp": 400,
+    "groupId": 9,
+    "id": 3,
+    "level": 3
+  },
+  {
+    "battleDeckId": 100214,
+    "battleMaxCount": 5,
+    "battlePower": 198837,
+    "golemBonusExp": 500,
+    "groupId": 9,
+    "id": 3,
+    "level": 4
+  },
+  {
+    "battleDeckId": 100215,
+    "battleMaxCount": 5,
+    "battlePower": 860144,
+    "golemBonusExp": 600,
+    "groupId": 9,
+    "id": 3,
+    "level": 5
+  },
+  {
+    "battleDeckId": 100191,
+    "battleMaxCount": 5,
+    "battlePower": 14011,
+    "golemBonusExp": 200,
+    "groupId": 10,
+    "id": 1,
+    "level": 1
+  },
+  {
+    "battleDeckId": 100192,
+    "battleMaxCount": 5,
+    "battlePower": 31946,
+    "golemBonusExp": 300,
+    "groupId": 10,
+    "id": 1,
+    "level": 2
+  },
+  {
+    "battleDeckId": 100193,
+    "battleMaxCount": 5,
+    "battlePower": 34802,
+    "golemBonusExp": 400,
+    "groupId": 10,
+    "id": 1,
+    "level": 3
+  },
+  {
+    "battleDeckId": 100194,
+    "battleMaxCount": 5,
+    "battlePower": 90358,
+    "golemBonusExp": 500,
+    "groupId": 10,
+    "id": 1,
+    "level": 4
+  },
+  {
+    "battleDeckId": 100195,
+    "battleMaxCount": 5,
+    "battlePower": 424258,
+    "golemBonusExp": 600,
+    "groupId": 10,
+    "id": 1,
+    "level": 5
+  },
+  {
+    "battleDeckId": 100201,
+    "battleMaxCount": 5,
+    "battlePower": 14954,
+    "golemBonusExp": 200,
+    "groupId": 10,
+    "id": 2,
+    "level": 1
+  },
+  {
+    "battleDeckId": 100202,
+    "battleMaxCount": 5,
+    "battlePower": 34154,
+    "golemBonusExp": 300,
+    "groupId": 10,
+    "id": 2,
+    "level": 2
+  },
+  {
+    "battleDeckId": 100203,
+    "battleMaxCount": 5,
+    "battlePower": 79934,
+    "golemBonusExp": 400,
+    "groupId": 10,
+    "id": 2,
+    "level": 3
+  },
+  {
+    "battleDeckId": 100204,
+    "battleMaxCount": 5,
+    "battlePower": 153526,
+    "golemBonusExp": 500,
+    "groupId": 10,
+    "id": 2,
+    "level": 4
+  },
+  {
+    "battleDeckId": 100205,
+    "battleMaxCount": 5,
+    "battlePower": 657335,
+    "golemBonusExp": 600,
+    "groupId": 10,
+    "id": 2,
+    "level": 5
+  },
+  {
+    "battleDeckId": 100211,
+    "battleMaxCount": 5,
+    "battlePower": 17713,
+    "golemBonusExp": 200,
+    "groupId": 10,
+    "id": 3,
+    "level": 1
+  },
+  {
+    "battleDeckId": 100212,
+    "battleMaxCount": 5,
+    "battlePower": 34909,
+    "golemBonusExp": 300,
+    "groupId": 10,
+    "id": 3,
+    "level": 2
+  },
+  {
+    "battleDeckId": 100213,
+    "battleMaxCount": 5,
+    "battlePower": 119954,
+    "golemBonusExp": 400,
+    "groupId": 10,
+    "id": 3,
+    "level": 3
+  },
+  {
+    "battleDeckId": 100214,
+    "battleMaxCount": 5,
+    "battlePower": 338415,
+    "golemBonusExp": 500,
+    "groupId": 10,
+    "id": 3,
+    "level": 4
+  },
+  {
+    "battleDeckId": 100215,
+    "battleMaxCount": 5,
+    "battlePower": 552622,
+    "golemBonusExp": 600,
+    "groupId": 10,
+    "id": 3,
+    "level": 5
+  },
+  {
+    "battleDeckId": 100191,
+    "battleMaxCount": 5,
+    "battlePower": 8823,
+    "golemBonusExp": 200,
+    "groupId": 11,
+    "id": 1,
+    "level": 1
+  },
+  {
+    "battleDeckId": 100192,
+    "battleMaxCount": 5,
+    "battlePower": 19034,
+    "golemBonusExp": 300,
+    "groupId": 11,
+    "id": 1,
+    "level": 2
+  },
+  {
+    "battleDeckId": 100193,
+    "battleMaxCount": 5,
+    "battlePower": 29369,
+    "golemBonusExp": 400,
+    "groupId": 11,
+    "id": 1,
+    "level": 3
+  },
+  {
+    "battleDeckId": 100194,
+    "battleMaxCount": 5,
+    "battlePower": 52673,
+    "golemBonusExp": 500,
+    "groupId": 11,
+    "id": 1,
+    "level": 4
+  },
+  {
+    "battleDeckId": 100195,
+    "battleMaxCount": 5,
+    "battlePower": 110934,
+    "golemBonusExp": 600,
+    "groupId": 11,
+    "id": 1,
+    "level": 5
+  },
+  {
+    "battleDeckId": 100201,
+    "battleMaxCount": 5,
+    "battlePower": 16633,
+    "golemBonusExp": 200,
+    "groupId": 11,
+    "id": 2,
+    "level": 1
+  },
+  {
+    "battleDeckId": 100202,
+    "battleMaxCount": 5,
+    "battlePower": 20161,
+    "golemBonusExp": 300,
+    "groupId": 11,
+    "id": 2,
+    "level": 2
+  },
+  {
+    "battleDeckId": 100203,
+    "battleMaxCount": 5,
+    "battlePower": 34153,
+    "golemBonusExp": 400,
+    "groupId": 11,
+    "id": 2,
+    "level": 3
+  },
+  {
+    "battleDeckId": 100204,
+    "battleMaxCount": 5,
+    "battlePower": 47694,
+    "golemBonusExp": 500,
+    "groupId": 11,
+    "id": 2,
+    "level": 4
+  },
+  {
+    "battleDeckId": 100205,
+    "battleMaxCount": 5,
+    "battlePower": 236273,
+    "golemBonusExp": 600,
+    "groupId": 11,
+    "id": 2,
+    "level": 5
+  },
+  {
+    "battleDeckId": 100211,
+    "battleMaxCount": 5,
+    "battlePower": 20566,
+    "golemBonusExp": 200,
+    "groupId": 11,
+    "id": 3,
+    "level": 1
+  },
+  {
+    "battleDeckId": 100212,
+    "battleMaxCount": 5,
+    "battlePower": 41105,
+    "golemBonusExp": 300,
+    "groupId": 11,
+    "id": 3,
+    "level": 2
+  },
+  {
+    "battleDeckId": 100213,
+    "battleMaxCount": 5,
+    "battlePower": 152272,
+    "golemBonusExp": 400,
+    "groupId": 11,
+    "id": 3,
+    "level": 3
+  },
+  {
+    "battleDeckId": 100214,
+    "battleMaxCount": 5,
+    "battlePower": 316250,
+    "golemBonusExp": 500,
+    "groupId": 11,
+    "id": 3,
+    "level": 4
+  },
+  {
+    "battleDeckId": 100215,
+    "battleMaxCount": 5,
+    "battlePower": 596150,
+    "golemBonusExp": 600,
+    "groupId": 11,
+    "id": 3,
+    "level": 5
+  },
+  {
+    "battleDeckId": 100191,
+    "battleMaxCount": 5,
+    "battlePower": 8823,
+    "golemBonusExp": 200,
+    "groupId": 12,
+    "id": 1,
+    "level": 1
+  },
+  {
+    "battleDeckId": 100192,
+    "battleMaxCount": 5,
+    "battlePower": 19034,
+    "golemBonusExp": 300,
+    "groupId": 12,
+    "id": 1,
+    "level": 2
+  },
+  {
+    "battleDeckId": 100193,
+    "battleMaxCount": 5,
+    "battlePower": 29369,
+    "golemBonusExp": 400,
+    "groupId": 12,
+    "id": 1,
+    "level": 3
+  },
+  {
+    "battleDeckId": 100194,
+    "battleMaxCount": 5,
+    "battlePower": 52673,
+    "golemBonusExp": 500,
+    "groupId": 12,
+    "id": 1,
+    "level": 4
+  },
+  {
+    "battleDeckId": 100195,
+    "battleMaxCount": 5,
+    "battlePower": 110934,
+    "golemBonusExp": 600,
+    "groupId": 12,
+    "id": 1,
+    "level": 5
+  },
+  {
+    "battleDeckId": 100201,
+    "battleMaxCount": 5,
+    "battlePower": 16633,
+    "golemBonusExp": 200,
+    "groupId": 12,
+    "id": 2,
+    "level": 1
+  },
+  {
+    "battleDeckId": 100202,
+    "battleMaxCount": 5,
+    "battlePower": 20161,
+    "golemBonusExp": 300,
+    "groupId": 12,
+    "id": 2,
+    "level": 2
+  },
+  {
+    "battleDeckId": 100203,
+    "battleMaxCount": 5,
+    "battlePower": 34153,
+    "golemBonusExp": 400,
+    "groupId": 12,
+    "id": 2,
+    "level": 3
+  },
+  {
+    "battleDeckId": 100204,
+    "battleMaxCount": 5,
+    "battlePower": 47694,
+    "golemBonusExp": 500,
+    "groupId": 12,
+    "id": 2,
+    "level": 4
+  },
+  {
+    "battleDeckId": 100205,
+    "battleMaxCount": 5,
+    "battlePower": 236273,
+    "golemBonusExp": 600,
+    "groupId": 12,
+    "id": 2,
+    "level": 5
+  },
+  {
+    "battleDeckId": 100211,
+    "battleMaxCount": 5,
+    "battlePower": 20566,
+    "golemBonusExp": 200,
+    "groupId": 12,
+    "id": 3,
+    "level": 1
+  },
+  {
+    "battleDeckId": 100212,
+    "battleMaxCount": 5,
+    "battlePower": 41105,
+    "golemBonusExp": 300,
+    "groupId": 12,
+    "id": 3,
+    "level": 2
+  },
+  {
+    "battleDeckId": 100213,
+    "battleMaxCount": 5,
+    "battlePower": 152272,
+    "golemBonusExp": 400,
+    "groupId": 12,
+    "id": 3,
+    "level": 3
+  },
+  {
+    "battleDeckId": 100214,
+    "battleMaxCount": 5,
+    "battlePower": 316250,
+    "golemBonusExp": 500,
+    "groupId": 12,
+    "id": 3,
+    "level": 4
+  },
+  {
+    "battleDeckId": 100215,
+    "battleMaxCount": 5,
+    "battlePower": 596150,
+    "golemBonusExp": 600,
+    "groupId": 12,
+    "id": 3,
+    "level": 5
+  },
+  {
+    "battleDeckId": 100191,
+    "battleMaxCount": 5,
+    "battlePower": 15983,
+    "golemBonusExp": 200,
+    "groupId": 13,
+    "id": 1,
+    "level": 1
+  },
+  {
+    "battleDeckId": 100192,
+    "battleMaxCount": 5,
+    "battlePower": 31108,
+    "golemBonusExp": 300,
+    "groupId": 13,
+    "id": 1,
+    "level": 2
+  },
+  {
+    "battleDeckId": 100193,
+    "battleMaxCount": 5,
+    "battlePower": 41885,
+    "golemBonusExp": 400,
+    "groupId": 13,
+    "id": 1,
+    "level": 3
+  },
+  {
+    "battleDeckId": 100194,
+    "battleMaxCount": 5,
+    "battlePower": 110579,
+    "golemBonusExp": 500,
+    "groupId": 13,
+    "id": 1,
+    "level": 4
+  },
+  {
+    "battleDeckId": 100195,
+    "battleMaxCount": 5,
+    "battlePower": 368274,
+    "golemBonusExp": 600,
+    "groupId": 13,
+    "id": 1,
+    "level": 5
+  },
+  {
+    "battleDeckId": 100201,
+    "battleMaxCount": 5,
+    "battlePower": 18299,
+    "golemBonusExp": 200,
+    "groupId": 13,
+    "id": 2,
+    "level": 1
+  },
+  {
+    "battleDeckId": 100202,
+    "battleMaxCount": 5,
+    "battlePower": 34668,
+    "golemBonusExp": 300,
+    "groupId": 13,
+    "id": 2,
+    "level": 2
+  },
+  {
+    "battleDeckId": 100203,
+    "battleMaxCount": 5,
+    "battlePower": 89700,
+    "golemBonusExp": 400,
+    "groupId": 13,
+    "id": 2,
+    "level": 3
+  },
+  {
+    "battleDeckId": 100204,
+    "battleMaxCount": 5,
+    "battlePower": 166097,
+    "golemBonusExp": 500,
+    "groupId": 13,
+    "id": 2,
+    "level": 4
+  },
+  {
+    "battleDeckId": 100205,
+    "battleMaxCount": 5,
+    "battlePower": 473885,
+    "golemBonusExp": 600,
+    "groupId": 13,
+    "id": 2,
+    "level": 5
+  },
+  {
+    "battleDeckId": 100211,
+    "battleMaxCount": 5,
+    "battlePower": 24602,
+    "golemBonusExp": 200,
+    "groupId": 13,
+    "id": 3,
+    "level": 1
+  },
+  {
+    "battleDeckId": 100212,
+    "battleMaxCount": 5,
+    "battlePower": 37932,
+    "golemBonusExp": 300,
+    "groupId": 13,
+    "id": 3,
+    "level": 2
+  },
+  {
+    "battleDeckId": 100213,
+    "battleMaxCount": 5,
+    "battlePower": 114408,
+    "golemBonusExp": 400,
+    "groupId": 13,
+    "id": 3,
+    "level": 3
+  },
+  {
+    "battleDeckId": 100214,
+    "battleMaxCount": 5,
+    "battlePower": 247725,
+    "golemBonusExp": 500,
+    "groupId": 13,
+    "id": 3,
+    "level": 4
+  },
+  {
+    "battleDeckId": 100215,
+    "battleMaxCount": 5,
+    "battlePower": 534974,
+    "golemBonusExp": 600,
+    "groupId": 13,
+    "id": 3,
+    "level": 5
+  },
+  {
+    "battleDeckId": 100191,
+    "battleMaxCount": 5,
+    "battlePower": 12595,
+    "golemBonusExp": 200,
+    "groupId": 14,
+    "id": 1,
+    "level": 1
+  },
+  {
+    "battleDeckId": 100192,
+    "battleMaxCount": 5,
+    "battlePower": 26802,
+    "golemBonusExp": 300,
+    "groupId": 14,
+    "id": 1,
+    "level": 2
+  },
+  {
+    "battleDeckId": 100193,
+    "battleMaxCount": 5,
+    "battlePower": 31184,
+    "golemBonusExp": 400,
+    "groupId": 14,
+    "id": 1,
+    "level": 3
+  },
+  {
+    "battleDeckId": 100194,
+    "battleMaxCount": 5,
+    "battlePower": 52247,
+    "golemBonusExp": 500,
+    "groupId": 14,
+    "id": 1,
+    "level": 4
+  },
+  {
+    "battleDeckId": 100195,
+    "battleMaxCount": 5,
+    "battlePower": 160552,
+    "golemBonusExp": 600,
+    "groupId": 14,
+    "id": 1,
+    "level": 5
+  },
+  {
+    "battleDeckId": 100201,
+    "battleMaxCount": 5,
+    "battlePower": 19418,
+    "golemBonusExp": 200,
+    "groupId": 14,
+    "id": 2,
+    "level": 1
+  },
+  {
+    "battleDeckId": 100202,
+    "battleMaxCount": 5,
+    "battlePower": 37181,
+    "golemBonusExp": 300,
+    "groupId": 14,
+    "id": 2,
+    "level": 2
+  },
+  {
+    "battleDeckId": 100203,
+    "battleMaxCount": 5,
+    "battlePower": 108317,
+    "golemBonusExp": 400,
+    "groupId": 14,
+    "id": 2,
+    "level": 3
+  },
+  {
+    "battleDeckId": 100204,
+    "battleMaxCount": 5,
+    "battlePower": 243580,
+    "golemBonusExp": 500,
+    "groupId": 14,
+    "id": 2,
+    "level": 4
+  },
+  {
+    "battleDeckId": 100205,
+    "battleMaxCount": 5,
+    "battlePower": 562738,
+    "golemBonusExp": 600,
+    "groupId": 14,
+    "id": 2,
+    "level": 5
+  },
+  {
+    "battleDeckId": 100211,
+    "battleMaxCount": 5,
+    "battlePower": 16389,
+    "golemBonusExp": 200,
+    "groupId": 14,
+    "id": 3,
+    "level": 1
+  },
+  {
+    "battleDeckId": 100212,
+    "battleMaxCount": 5,
+    "battlePower": 32527,
+    "golemBonusExp": 300,
+    "groupId": 14,
+    "id": 3,
+    "level": 2
+  },
+  {
+    "battleDeckId": 100213,
+    "battleMaxCount": 5,
+    "battlePower": 76065,
+    "golemBonusExp": 400,
+    "groupId": 14,
+    "id": 3,
+    "level": 3
+  },
+  {
+    "battleDeckId": 100214,
+    "battleMaxCount": 5,
+    "battlePower": 174487,
+    "golemBonusExp": 500,
+    "groupId": 14,
+    "id": 3,
+    "level": 4
+  },
+  {
+    "battleDeckId": 100215,
+    "battleMaxCount": 5,
+    "battlePower": 407879,
+    "golemBonusExp": 600,
+    "groupId": 14,
+    "id": 3,
+    "level": 5
+  },
+  {
+    "battleDeckId": 100191,
+    "battleMaxCount": 5,
+    "battlePower": 12595,
+    "golemBonusExp": 200,
+    "groupId": 15,
+    "id": 1,
+    "level": 1
+  },
+  {
+    "battleDeckId": 100192,
+    "battleMaxCount": 5,
+    "battlePower": 26802,
+    "golemBonusExp": 300,
+    "groupId": 15,
+    "id": 1,
+    "level": 2
+  },
+  {
+    "battleDeckId": 100193,
+    "battleMaxCount": 5,
+    "battlePower": 31184,
+    "golemBonusExp": 400,
+    "groupId": 15,
+    "id": 1,
+    "level": 3
+  },
+  {
+    "battleDeckId": 100194,
+    "battleMaxCount": 5,
+    "battlePower": 52247,
+    "golemBonusExp": 500,
+    "groupId": 15,
+    "id": 1,
+    "level": 4
+  },
+  {
+    "battleDeckId": 100195,
+    "battleMaxCount": 5,
+    "battlePower": 160552,
+    "golemBonusExp": 600,
+    "groupId": 15,
+    "id": 1,
+    "level": 5
+  },
+  {
+    "battleDeckId": 100201,
+    "battleMaxCount": 5,
+    "battlePower": 19418,
+    "golemBonusExp": 200,
+    "groupId": 15,
+    "id": 2,
+    "level": 1
+  },
+  {
+    "battleDeckId": 100202,
+    "battleMaxCount": 5,
+    "battlePower": 37181,
+    "golemBonusExp": 300,
+    "groupId": 15,
+    "id": 2,
+    "level": 2
+  },
+  {
+    "battleDeckId": 100203,
+    "battleMaxCount": 5,
+    "battlePower": 108317,
+    "golemBonusExp": 400,
+    "groupId": 15,
+    "id": 2,
+    "level": 3
+  },
+  {
+    "battleDeckId": 100204,
+    "battleMaxCount": 5,
+    "battlePower": 243580,
+    "golemBonusExp": 500,
+    "groupId": 15,
+    "id": 2,
+    "level": 4
+  },
+  {
+    "battleDeckId": 100205,
+    "battleMaxCount": 5,
+    "battlePower": 562738,
+    "golemBonusExp": 600,
+    "groupId": 15,
+    "id": 2,
+    "level": 5
+  },
+  {
+    "battleDeckId": 100211,
+    "battleMaxCount": 5,
+    "battlePower": 16389,
+    "golemBonusExp": 200,
+    "groupId": 15,
+    "id": 3,
+    "level": 1
+  },
+  {
+    "battleDeckId": 100212,
+    "battleMaxCount": 5,
+    "battlePower": 32527,
+    "golemBonusExp": 300,
+    "groupId": 15,
+    "id": 3,
+    "level": 2
+  },
+  {
+    "battleDeckId": 100213,
+    "battleMaxCount": 5,
+    "battlePower": 76065,
+    "golemBonusExp": 400,
+    "groupId": 15,
+    "id": 3,
+    "level": 3
+  },
+  {
+    "battleDeckId": 100214,
+    "battleMaxCount": 5,
+    "battlePower": 174487,
+    "golemBonusExp": 500,
+    "groupId": 15,
+    "id": 3,
+    "level": 4
+  },
+  {
+    "battleDeckId": 100215,
+    "battleMaxCount": 5,
+    "battlePower": 407879,
+    "golemBonusExp": 600,
+    "groupId": 15,
+    "id": 3,
+    "level": 5
+  },
+  {
+    "battleDeckId": 100191,
+    "battleMaxCount": 5,
+    "battlePower": 7749,
+    "golemBonusExp": 200,
+    "groupId": 16,
+    "id": 1,
+    "level": 1
+  },
+  {
+    "battleDeckId": 100192,
+    "battleMaxCount": 5,
+    "battlePower": 15190,
+    "golemBonusExp": 300,
+    "groupId": 16,
+    "id": 1,
+    "level": 2
+  },
+  {
+    "battleDeckId": 100193,
+    "battleMaxCount": 5,
+    "battlePower": 19493,
+    "golemBonusExp": 400,
+    "groupId": 16,
+    "id": 1,
+    "level": 3
+  },
+  {
+    "battleDeckId": 100194,
+    "battleMaxCount": 5,
+    "battlePower": 28012,
+    "golemBonusExp": 500,
+    "groupId": 16,
+    "id": 1,
+    "level": 4
+  },
+  {
+    "battleDeckId": 100195,
+    "battleMaxCount": 5,
+    "battlePower": 37912,
+    "golemBonusExp": 600,
+    "groupId": 16,
+    "id": 1,
+    "level": 5
+  },
+  {
+    "battleDeckId": 100201,
+    "battleMaxCount": 5,
+    "battlePower": 19474,
+    "golemBonusExp": 200,
+    "groupId": 16,
+    "id": 2,
+    "level": 1
+  },
+  {
+    "battleDeckId": 100202,
+    "battleMaxCount": 5,
+    "battlePower": 40211,
+    "golemBonusExp": 300,
+    "groupId": 16,
+    "id": 2,
+    "level": 2
+  },
+  {
+    "battleDeckId": 100203,
+    "battleMaxCount": 5,
+    "battlePower": 78483,
+    "golemBonusExp": 400,
+    "groupId": 16,
+    "id": 2,
+    "level": 3
+  },
+  {
+    "battleDeckId": 100204,
+    "battleMaxCount": 5,
+    "battlePower": 107930,
+    "golemBonusExp": 500,
+    "groupId": 16,
+    "id": 2,
+    "level": 4
+  },
+  {
+    "battleDeckId": 100205,
+    "battleMaxCount": 5,
+    "battlePower": 360724,
+    "golemBonusExp": 600,
+    "groupId": 16,
+    "id": 2,
+    "level": 5
+  },
+  {
+    "battleDeckId": 100211,
+    "battleMaxCount": 5,
+    "battlePower": 23856,
+    "golemBonusExp": 200,
+    "groupId": 16,
+    "id": 3,
+    "level": 1
+  },
+  {
+    "battleDeckId": 100212,
+    "battleMaxCount": 5,
+    "battlePower": 42126,
+    "golemBonusExp": 300,
+    "groupId": 16,
+    "id": 3,
+    "level": 2
+  },
+  {
+    "battleDeckId": 100213,
+    "battleMaxCount": 5,
+    "battlePower": 94205,
+    "golemBonusExp": 400,
+    "groupId": 16,
+    "id": 3,
+    "level": 3
+  },
+  {
+    "battleDeckId": 100214,
+    "battleMaxCount": 5,
+    "battlePower": 174507,
+    "golemBonusExp": 500,
+    "groupId": 16,
+    "id": 3,
+    "level": 4
+  },
+  {
+    "battleDeckId": 100215,
+    "battleMaxCount": 5,
+    "battlePower": 533795,
+    "golemBonusExp": 600,
+    "groupId": 16,
+    "id": 3,
+    "level": 5
+  }
+]

@@ -1,0 +1,6 @@
+CREATE TABLE "FishingRodInfo" (
+    "InvenIndex" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "Uid" BIGINT NOT NULL,
+    "RodId" INTEGER NOT NULL,
+    "TimeValue" BIGINT
+);

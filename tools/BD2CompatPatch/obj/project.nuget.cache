@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "bknfcFTyZE4=",
+  "success": true,
+  "projectFilePath": "A:\\Private Servers\\bd\\BD2PS-main\\tools\\BD2CompatPatch\\BD2CompatPatch.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alexx\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "C:\\Users\\Alexx\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net472\\1.0.3\\microsoft.netframework.referenceassemblies.net472.1.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

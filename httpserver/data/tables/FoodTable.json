@@ -1,0 +1,5 @@
+[
+  { "favoriteRecoveryPoint": 2, "foodType": 2, "grade": 1, "iconSpriteName": "icon_food1004_4", "id": 1004, "itemAcquireId": [ 75, 274, 275, 276, 282, 283, 4, 10, 250, 253, 254, 307, 320, 317, 325 ], "itemDescNameTextId": 31201, "itemNameTextId": 30201, "recoveryPoint": 2, "sortType": 6, "stackCount": 99999 },
+  { "favoriteRecoveryPoint": 2, "foodType": 2, "grade": 1, "iconSpriteName": "icon_food1013_13", "id": 1013, "itemAcquireId": [ 47, 2, 4, 11, 250, 251, 252, 253, 254 ], "itemDescNameTextId": 31401, "itemNameTextId": 30401, "recoveryPoint": 2, "sortType": 6, "stackCount": 99999 },
+  { "favoriteRecoveryPoint": 2, "foodType": 2, "grade": 1, "iconSpriteName": "icon_food1014_14", "id": 1014, "itemAcquireId": [ 47, 55, 2, 9, 10, 252 ], "itemDescNameTextId": 31402, "itemNameTextId": 30402, "recoveryPoint": 2, "sortType": 6, "stackCount": 99999 }
+]

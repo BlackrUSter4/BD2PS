@@ -1,0 +1,8 @@
+is_global = true
+build_property.RootNamespace = BD2CompatPatch
+build_property.ProjectDir = A:\Private Servers\bd\BD2PS-main\tools\BD2CompatPatch\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 

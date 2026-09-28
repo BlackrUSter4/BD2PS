@@ -1,0 +1,108 @@
+// Auto-generated from JSON data
+// Do not edit manually
+
+use serde::{Deserialize, Serialize};
+use anyhow::Result;
+use std::collections::HashMap;
+
+#[derive(Debug, Clone, Serialize, Deserialize)]
+pub struct Equipmenttable {
+    #[serde(rename = "grade")]
+    pub grade: i32,
+    #[serde(rename = "growthGroupId")]
+    pub growth_group_id: i32,
+    #[serde(rename = "iconSpriteName")]
+    pub icon_sprite_name: String,
+    #[serde(rename = "id")]
+    pub id: i32,
+    #[serde(rename = "isMonsterHunt")]
+    pub is_monster_hunt: Option<i32>,
+    #[serde(rename = "itemAcquireId")]
+    pub item_acquire_id: Vec<i32>,
+    #[serde(rename = "itemDescNameTextId")]
+    pub item_desc_name_text_id: i32,
+    #[serde(rename = "itemNameTextId")]
+    pub item_name_text_id: i32,
+    #[serde(rename = "itemSubDescLocalTextId")]
+    pub item_sub_desc_local_text_id: i32,
+    #[serde(rename = "mainOptionGroupId")]
+    pub main_option_group_id: Vec<i32>,
+    #[serde(rename = "maxLevel")]
+    pub max_level: i32,
+    #[serde(rename = "notTrash")]
+    pub not_trash: i32,
+    #[serde(rename = "optionRerollId")]
+    pub option_reroll_id: i32,
+    #[serde(rename = "privateUniqueCharId")]
+    pub private_unique_char_id: Option<i32>,
+    #[serde(rename = "privateUniqueOptionGroupId")]
+    pub private_unique_option_group_id: Option<Vec<i32>>,
+    #[serde(rename = "qualityType")]
+    pub quality_type: Option<i32>,
+    #[serde(rename = "rankGroupId")]
+    pub rank_group_id: i32,
+    #[serde(rename = "slotType")]
+    pub slot_type: Option<i32>,
+    #[serde(rename = "subOptionGroupId")]
+    pub sub_option_group_id: Vec<i32>,
+    #[serde(rename = "uniqueEquipId")]
+    pub unique_equip_id: i32,
+}
+
+pub struct EquipmenttableTable {
+    records: Vec<Equipmenttable>,
+    by_id: HashMap<i32, usize>,
+    by_group: HashMap<i32, Vec<usize>>,
+}
+
+impl EquipmenttableTable {
+    pub fn load(path: &str) -> Result<Self> {
+        let json = std::fs::read_to_string(path)?;
+        let records: Vec<Equipmenttable> = serde_json::from_str(&json)?;
+        
+        let mut by_id = HashMap::with_capacity(records.len());
+        let mut by_group: HashMap<i32, Vec<usize>> = HashMap::new();
+        
+        for (idx, record) in records.iter().enumerate() {
+            by_id.insert(record.id, idx);
+            by_group.entry(record.growth_group_id).or_insert_with(Vec::new).push(idx);
+        }
+        
+        Ok(Self {
+            records,
+            by_id,
+            by_group,
+        })
+    }
+
+    #[inline]
+    pub fn get(&self, id: i32) -> Option<&Equipmenttable> {
+        self.by_id.get(&id).map(|&idx| &self.records[idx])
+    }
+
+    pub fn by_group(&self, group_id: i32) -> impl Iterator<Item = &Equipmenttable> + '_ {
+        self.by_group
+            .get(&group_id)
+            .into_iter()
+            .flat_map(|indices| indices.iter())
+            .map(|&idx| &self.records[idx])
+    }
+
+    #[inline]
+    pub fn all(&self) -> &[Equipmenttable] {
+        &self.records
+    }
+
+    #[inline]
+    pub fn iter(&self) -> std::slice::Iter<Equipmenttable> {
+        self.records.iter()
+    }
+
+    pub fn len(&self) -> usize {
+        self.records.len()
+    }
+
+    pub fn is_empty(&self) -> bool {
+        self.records.is_empty()
+    }
+}

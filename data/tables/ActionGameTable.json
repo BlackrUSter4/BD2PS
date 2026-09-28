@@ -1,0 +1,16 @@
+[
+  {
+    "battleStartTimeline": "FiendHunter_Entry_01",
+    "id": 1,
+    "stageGroupId": 1,
+    "stageMonsterIcon": "actionmonster_001",
+    "stageThumName": "actionmonsterthum_001"
+  },
+  {
+    "battleStartTimeline": "FiendHunter_Entry_02",
+    "id": 2,
+    "stageGroupId": 2,
+    "stageMonsterIcon": "actionmonster_002",
+    "stageThumName": "actionmonsterthum_002"
+  }
+]

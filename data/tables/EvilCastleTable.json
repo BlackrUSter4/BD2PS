@@ -1,0 +1,224 @@
+[
+  {
+    "PointPositionId": 1,
+    "RewardCount": [
+      1000,
+      10
+    ],
+    "RewardId": [
+      0,
+      603
+    ],
+    "RewardType": [
+      18,
+      8
+    ],
+    "battlePower": 12106,
+    "bestRecordTimeline": "EvilCastleNewRank2",
+    "bossDescLocalTextId": 30036002,
+    "bossId": 210,
+    "bossNameTextId": 30035008,
+    "bossTargetLocalText": 30031102,
+    "clearDescLocalTextId": 30036003,
+    "floorDescLocalTextId": 901,
+    "floorNameLocalTextId": 30030003,
+    "iconSpriteName": "icon_char600801_8",
+    "id": 1,
+    "mapId": 30033,
+    "monsterId": [
+      201,
+      202,
+      203,
+      204
+    ],
+    "normalDescLocalTextId": 30036001,
+    "normalTargetLocalText": 30031101,
+    "recordUpdateTimeline": "EvilCastleNewRank",
+    "timeAttackId": 1
+  },
+  {
+    "PointPositionId": 2,
+    "RewardCount": [
+      1000,
+      10
+    ],
+    "RewardId": [
+      0,
+      603
+    ],
+    "RewardType": [
+      18,
+      8
+    ],
+    "battlePower": 14569,
+    "bestRecordTimeline": "EvilCastleNewRank2",
+    "bossDescLocalTextId": 30036002,
+    "bossId": 110,
+    "bossNameTextId": 30035004,
+    "bossTargetLocalText": 30031102,
+    "clearDescLocalTextId": 30036003,
+    "floorDescLocalTextId": 901,
+    "floorNameLocalTextId": 30030005,
+    "iconSpriteName": "icon_char600401_4",
+    "id": 2,
+    "mapId": 30035,
+    "monsterId": [
+      101,
+      102,
+      103,
+      104
+    ],
+    "normalDescLocalTextId": 30036001,
+    "normalTargetLocalText": 30031101,
+    "recordUpdateTimeline": "EvilCastleNewRank",
+    "timeAttackId": 2
+  },
+  {
+    "PointPositionId": 3,
+    "RewardCount": [
+      1000,
+      10
+    ],
+    "RewardId": [
+      0,
+      603
+    ],
+    "RewardType": [
+      18,
+      8
+    ],
+    "battlePower": 15492,
+    "bestRecordTimeline": "EvilCastleNewRank2",
+    "bossDescLocalTextId": 30036002,
+    "bossId": 310,
+    "bossNameTextId": 30035012,
+    "bossTargetLocalText": 30031102,
+    "clearDescLocalTextId": 30036003,
+    "floorDescLocalTextId": 901,
+    "floorNameLocalTextId": 30030007,
+    "iconSpriteName": "icon_char601201_12",
+    "id": 3,
+    "mapId": 30037,
+    "monsterId": [
+      301,
+      302,
+      303,
+      304
+    ],
+    "normalDescLocalTextId": 30036001,
+    "normalTargetLocalText": 30031101,
+    "recordUpdateTimeline": "EvilCastleNewRank",
+    "timeAttackId": 3
+  },
+  {
+    "PointPositionId": 4,
+    "RewardCount": [
+      1000,
+      10
+    ],
+    "RewardId": [
+      0,
+      603
+    ],
+    "RewardType": [
+      18,
+      8
+    ],
+    "battlePower": 22162,
+    "bestRecordTimeline": "EvilCastleNewRank2",
+    "bossDescLocalTextId": 30036002,
+    "bossId": 410,
+    "bossNameTextId": 30035016,
+    "bossTargetLocalText": 30031102,
+    "clearDescLocalTextId": 30036003,
+    "floorDescLocalTextId": 901,
+    "floorNameLocalTextId": 30030009,
+    "iconSpriteName": "icon_char601601_16",
+    "id": 4,
+    "mapId": 30039,
+    "monsterId": [
+      401,
+      402,
+      403,
+      404
+    ],
+    "normalDescLocalTextId": 30036001,
+    "normalTargetLocalText": 30031101,
+    "recordUpdateTimeline": "EvilCastleNewRank",
+    "timeAttackId": 4
+  },
+  {
+    "PointPositionId": 5,
+    "RewardCount": [
+      1000,
+      10
+    ],
+    "RewardId": [
+      0,
+      603
+    ],
+    "RewardType": [
+      18,
+      8
+    ],
+    "battlePower": 22775,
+    "bestRecordTimeline": "EvilCastleNewRank2",
+    "bossDescLocalTextId": 30036002,
+    "bossId": 510,
+    "bossNameTextId": 30035021,
+    "bossTargetLocalText": 30031102,
+    "clearDescLocalTextId": 30036003,
+    "floorDescLocalTextId": 901,
+    "floorNameLocalTextId": 30030011,
+    "iconSpriteName": "icon_char602101_21",
+    "id": 5,
+    "mapId": 30041,
+    "monsterId": [
+      501,
+      502,
+      503,
+      504
+    ],
+    "normalDescLocalTextId": 30036001,
+    "normalTargetLocalText": 30031101,
+    "recordUpdateTimeline": "EvilCastleNewRank",
+    "timeAttackId": 5
+  },
+  {
+    "PointPositionId": 6,
+    "RewardCount": [
+      1000,
+      10
+    ],
+    "RewardId": [
+      0,
+      603
+    ],
+    "RewardType": [
+      18,
+      8
+    ],
+    "battlePower": 24661,
+    "bestRecordTimeline": "EvilCastleNewRank2",
+    "bossDescLocalTextId": 30036002,
+    "bossId": 610,
+    "bossNameTextId": 30035026,
+    "bossTargetLocalText": 30031102,
+    "clearDescLocalTextId": 30036003,
+    "floorDescLocalTextId": 901,
+    "floorNameLocalTextId": 30030013,
+    "iconSpriteName": "icon_char602601_26",
+    "id": 6,
+    "mapId": 30043,
+    "monsterId": [
+      601,
+      602,
+      603,
+      604
+    ],
+    "normalDescLocalTextId": 30036001,
+    "normalTargetLocalText": 30031101,
+    "recordUpdateTimeline": "EvilCastleNewRank",
+    "timeAttackId": 6
+  }
+]

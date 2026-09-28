@@ -1,0 +1,36 @@
+use bd2::prost::Message;
+use bd2::proto::proto_net::{LifeHelperGachaDeleteRequest, LifeHelperGachaDeleteResponse, Notify};
+use common::packet_code::PacketCodeType;
+use crypto::network::GameResponse;
+use sqlx::SqlitePool;
+use tracing::info;
+
+pub async fn handle(pool: &SqlitePool, uid: i64, req: LifeHelperGachaDeleteRequest) -> GameResponse {
+    info!("Handling LifeHelperGachaDeleteRequest: {:?}", req);
+
+    // Inferred from the schema: the gacha pool is keyed by helper_slot_id (see
+    // LifeHelperGachaDBInfo), and this request only carries the gacha station's placed-object
+    // info — so its object index is read as that station's slot id.
+    if let Some(place) = &req.object_place_info {
+        for obj in &place.object {
+            if let Some(slot) = obj.index {
+                let _ = database::db::life::life_helper_gacha_info::clear_slot(pool, uid, slot).await;
+            }
+        }
+    }
+
+    let response = LifeHelperGachaDeleteResponse {};
+    let resp_bytes = response.encode_to_vec();
+
+    let notify = Notify {
+        active_login_event: vec![1, 2, 625, 626, 627],
+        ll_type: Some("".to_string()),
+        is_purchasing_disabled: Some(false),
+        maintenance_start_date: Some(1688646600000),
+        notice_last_seq: Some(8818),
+        ..Default::default()
+    };
+
+    let (route, code) = PacketCodeType::LifeHelperGachaDelete.info();
+    GameResponse::success(route, &resp_bytes, code).with_notify(&notify)
+}

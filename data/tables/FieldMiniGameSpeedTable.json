@@ -1,0 +1,29 @@
+[
+  {
+    "boosterSpeed": 2.5,
+    "boosterTime": 3,
+    "clearTime": 10,
+    "decreaseValue": 40,
+    "ghostPosition": 102,
+    "ghostPrefab": "P11001_Map/RunMiniGame/Char003202_RunMiniGameGhost",
+    "id": 1,
+    "maxCount": 250,
+    "objectGroupId": 2,
+    "runCount": [
+      0,
+      50,
+      100,
+      150,
+      200
+    ],
+    "runSpeed": [
+      1.0,
+      1.25,
+      1.5,
+      1.75,
+      2.0
+    ],
+    "runValue": 15,
+    "startHpPoint": 500
+  }
+]

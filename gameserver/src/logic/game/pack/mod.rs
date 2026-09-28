@@ -1,0 +1,15 @@
+pub const GOLD_ITEM_ID: i32 = 4;
+pub const GOLD_ITEM_TYPE: i32 = 1;
+
+pub mod pack_buy;
+pub mod pack_detail;
+pub mod pack_event_battle_info;
+pub mod pack_event_story_clear;
+pub mod pack_event_story_info;
+pub mod pack_event_story_replay_clear;
+pub mod pack_in_game_info;
+pub mod pack_info;
+pub mod pack_jam_event;
+pub mod pack_preview_info;
+pub mod pack_reward_object_count;
+pub mod pack_sub_quest_clear_info;

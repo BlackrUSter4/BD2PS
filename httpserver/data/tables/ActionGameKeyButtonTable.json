@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "skillButton1": 111,
+    "skillButton2": 10,
+    "skillButton3": 5,
+    "skillButton4": 7,
+    "skillButton5": 8
+  },
+  {
+    "id": 2,
+    "skillButton1": 16,
+    "skillButton1Hold": 15,
+    "skillButton2": 13,
+    "skillButton3": 20,
+    "skillButton4": 22,
+    "skillButton5": 23
+  },
+  {
+    "id": 3,
+    "skillButton1": 301,
+    "skillButton2": 314,
+    "skillButton3": 317,
+    "skillButton4": 319,
+    "skillButton5": 320
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "columnCount": 5,
+    "id": 1,
+    "itemCount": 1,
+    "itemId": 2021,
+    "itemType": 8,
+    "puzzleCompleteRewardGroupId": 1,
+    "puzzleRewardGroupId": 1,
+    "puzzleUiPrefab": "MiniGamePuzzleUI",
+    "tokenDescLocalTextId": 460053,
+    "tokenInfoLocation": 2,
+    "tokenShortCutId": 53,
+    "tokenTitleLocalTextId": 460052
+  },
+  {
+    "columnCount": 5,
+    "id": 2,
+    "itemCount": 1,
+    "itemId": 2021,
+    "itemType": 8,
+    "puzzleCompleteRewardGroupId": 2,
+    "puzzleRewardGroupId": 2,
+    "puzzleUiPrefab": "EventPuzzleUI12",
+    "tokenDescLocalTextId": 460053,
+    "tokenInfoLocation": 2,
+    "tokenShortCutId": 53,
+    "tokenTitleLocalTextId": 460052
+  },
+  {
+    "columnCount": 5,
+    "id": 3,
+    "itemCount": 1,
+    "itemId": 2021,
+    "itemType": 8,
+    "puzzleCompleteRewardGroupId": 3,
+    "puzzleRewardGroupId": 3,
+    "puzzleUiPrefab": "EventPuzzleUI17",
+    "tokenDescLocalTextId": 460053,
+    "tokenInfoLocation": 2,
+    "tokenShortCutId": 53,
+    "tokenTitleLocalTextId": 460052
+  },
+  {
+    "columnCount": 5,
+    "id": 4,
+    "itemCount": 1,
+    "itemId": 2021,
+    "itemType": 8,
+    "puzzleCompleteRewardGroupId": 4,
+    "puzzleRewardGroupId": 4,
+    "puzzleUiPrefab": "EventPuzzleUI29",
+    "tokenDescLocalTextId": 460053,
+    "tokenInfoLocation": 2,
+    "tokenShortCutId": 53,
+    "tokenTitleLocalTextId": 460052
+  },
+  {
+    "columnCount": 5,
+    "id": 5,
+    "itemCount": 1,
+    "itemId": 2021,
+    "itemType": 8,
+    "puzzleCompleteRewardGroupId": 5,
+    "puzzleRewardGroupId": 5,
+    "puzzleUiPrefab": "EventPuzzleUI32",
+    "tokenDescLocalTextId": 460053,
+    "tokenInfoLocation": 2,
+    "tokenShortCutId": 53,
+    "tokenTitleLocalTextId": 460052
+  }
+]

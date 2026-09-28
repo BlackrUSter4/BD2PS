@@ -1,0 +1,2695 @@
+[
+  {
+    "collectionBuffId": 6114,
+    "equipmentGroupId": 1,
+    "equipmentId": 10010,
+    "id": 1
+  },
+  {
+    "collectionBuffId": 6114,
+    "equipmentGroupId": 2,
+    "equipmentId": 10011,
+    "id": 2
+  },
+  {
+    "collectionBuffId": 6114,
+    "equipmentGroupId": 3,
+    "equipmentId": 10012,
+    "id": 3
+  },
+  {
+    "collectionBuffId": 6114,
+    "equipmentGroupId": 4,
+    "equipmentId": 10013,
+    "id": 4
+  },
+  {
+    "collectionBuffId": 6114,
+    "equipmentGroupId": 5,
+    "equipmentId": 10014,
+    "id": 5
+  },
+  {
+    "collectionBuffId": 6116,
+    "equipmentGroupId": 6,
+    "equipmentId": 10110,
+    "id": 6
+  },
+  {
+    "collectionBuffId": 6116,
+    "equipmentGroupId": 7,
+    "equipmentId": 10111,
+    "id": 7
+  },
+  {
+    "collectionBuffId": 6116,
+    "equipmentGroupId": 8,
+    "equipmentId": 10112,
+    "id": 8
+  },
+  {
+    "collectionBuffId": 6116,
+    "equipmentGroupId": 9,
+    "equipmentId": 10113,
+    "id": 9
+  },
+  {
+    "collectionBuffId": 6116,
+    "equipmentGroupId": 10,
+    "equipmentId": 10114,
+    "id": 10
+  },
+  {
+    "collectionBuffId": 6214,
+    "equipmentGroupId": 1,
+    "equipmentId": 11010,
+    "id": 11
+  },
+  {
+    "collectionBuffId": 6214,
+    "equipmentGroupId": 2,
+    "equipmentId": 11011,
+    "id": 12
+  },
+  {
+    "collectionBuffId": 6214,
+    "equipmentGroupId": 3,
+    "equipmentId": 11012,
+    "id": 13
+  },
+  {
+    "collectionBuffId": 6214,
+    "equipmentGroupId": 4,
+    "equipmentId": 11013,
+    "id": 14
+  },
+  {
+    "collectionBuffId": 6214,
+    "equipmentGroupId": 5,
+    "equipmentId": 11014,
+    "id": 15
+  },
+  {
+    "collectionBuffId": 6216,
+    "equipmentGroupId": 6,
+    "equipmentId": 11110,
+    "id": 16
+  },
+  {
+    "collectionBuffId": 6216,
+    "equipmentGroupId": 7,
+    "equipmentId": 11111,
+    "id": 17
+  },
+  {
+    "collectionBuffId": 6216,
+    "equipmentGroupId": 8,
+    "equipmentId": 11112,
+    "id": 18
+  },
+  {
+    "collectionBuffId": 6216,
+    "equipmentGroupId": 9,
+    "equipmentId": 11113,
+    "id": 19
+  },
+  {
+    "collectionBuffId": 6216,
+    "equipmentGroupId": 10,
+    "equipmentId": 11114,
+    "id": 20
+  },
+  {
+    "collectionBuffId": 6314,
+    "equipmentGroupId": 1,
+    "equipmentId": 12010,
+    "id": 21
+  },
+  {
+    "collectionBuffId": 6314,
+    "equipmentGroupId": 2,
+    "equipmentId": 12011,
+    "id": 22
+  },
+  {
+    "collectionBuffId": 6314,
+    "equipmentGroupId": 3,
+    "equipmentId": 12012,
+    "id": 23
+  },
+  {
+    "collectionBuffId": 6314,
+    "equipmentGroupId": 4,
+    "equipmentId": 12013,
+    "id": 24
+  },
+  {
+    "collectionBuffId": 6314,
+    "equipmentGroupId": 5,
+    "equipmentId": 12014,
+    "id": 25
+  },
+  {
+    "collectionBuffId": 6316,
+    "equipmentGroupId": 6,
+    "equipmentId": 12110,
+    "id": 26
+  },
+  {
+    "collectionBuffId": 6316,
+    "equipmentGroupId": 7,
+    "equipmentId": 12111,
+    "id": 27
+  },
+  {
+    "collectionBuffId": 6316,
+    "equipmentGroupId": 8,
+    "equipmentId": 12112,
+    "id": 28
+  },
+  {
+    "collectionBuffId": 6316,
+    "equipmentGroupId": 9,
+    "equipmentId": 12113,
+    "id": 29
+  },
+  {
+    "collectionBuffId": 6316,
+    "equipmentGroupId": 10,
+    "equipmentId": 12114,
+    "id": 30
+  },
+  {
+    "collectionBuffId": 6414,
+    "equipmentGroupId": 1,
+    "equipmentId": 13010,
+    "id": 31
+  },
+  {
+    "collectionBuffId": 6414,
+    "equipmentGroupId": 2,
+    "equipmentId": 13011,
+    "id": 32
+  },
+  {
+    "collectionBuffId": 6414,
+    "equipmentGroupId": 3,
+    "equipmentId": 13012,
+    "id": 33
+  },
+  {
+    "collectionBuffId": 6414,
+    "equipmentGroupId": 4,
+    "equipmentId": 13013,
+    "id": 34
+  },
+  {
+    "collectionBuffId": 6414,
+    "equipmentGroupId": 5,
+    "equipmentId": 13014,
+    "id": 35
+  },
+  {
+    "collectionBuffId": 6416,
+    "equipmentGroupId": 6,
+    "equipmentId": 13110,
+    "id": 36
+  },
+  {
+    "collectionBuffId": 6416,
+    "equipmentGroupId": 7,
+    "equipmentId": 13111,
+    "id": 37
+  },
+  {
+    "collectionBuffId": 6416,
+    "equipmentGroupId": 8,
+    "equipmentId": 13112,
+    "id": 38
+  },
+  {
+    "collectionBuffId": 6416,
+    "equipmentGroupId": 9,
+    "equipmentId": 13113,
+    "id": 39
+  },
+  {
+    "collectionBuffId": 6416,
+    "equipmentGroupId": 10,
+    "equipmentId": 13114,
+    "id": 40
+  },
+  {
+    "collectionBuffId": 6124,
+    "equipmentGroupId": 11,
+    "equipmentId": 20010,
+    "id": 41
+  },
+  {
+    "collectionBuffId": 6124,
+    "equipmentGroupId": 12,
+    "equipmentId": 20011,
+    "id": 42
+  },
+  {
+    "collectionBuffId": 6124,
+    "equipmentGroupId": 13,
+    "equipmentId": 20012,
+    "id": 43
+  },
+  {
+    "collectionBuffId": 6124,
+    "equipmentGroupId": 14,
+    "equipmentId": 20013,
+    "id": 44
+  },
+  {
+    "collectionBuffId": 6124,
+    "equipmentGroupId": 15,
+    "equipmentId": 20014,
+    "id": 45
+  },
+  {
+    "collectionBuffId": 6126,
+    "equipmentGroupId": 16,
+    "equipmentId": 20110,
+    "id": 46
+  },
+  {
+    "collectionBuffId": 6126,
+    "equipmentGroupId": 17,
+    "equipmentId": 20111,
+    "id": 47
+  },
+  {
+    "collectionBuffId": 6126,
+    "equipmentGroupId": 18,
+    "equipmentId": 20112,
+    "id": 48
+  },
+  {
+    "collectionBuffId": 6126,
+    "equipmentGroupId": 19,
+    "equipmentId": 20113,
+    "id": 49
+  },
+  {
+    "collectionBuffId": 6126,
+    "equipmentGroupId": 20,
+    "equipmentId": 20114,
+    "id": 50
+  },
+  {
+    "collectionBuffId": 6224,
+    "equipmentGroupId": 11,
+    "equipmentId": 21010,
+    "id": 51
+  },
+  {
+    "collectionBuffId": 6224,
+    "equipmentGroupId": 12,
+    "equipmentId": 21011,
+    "id": 52
+  },
+  {
+    "collectionBuffId": 6224,
+    "equipmentGroupId": 13,
+    "equipmentId": 21012,
+    "id": 53
+  },
+  {
+    "collectionBuffId": 6224,
+    "equipmentGroupId": 14,
+    "equipmentId": 21013,
+    "id": 54
+  },
+  {
+    "collectionBuffId": 6224,
+    "equipmentGroupId": 15,
+    "equipmentId": 21014,
+    "id": 55
+  },
+  {
+    "collectionBuffId": 6226,
+    "equipmentGroupId": 16,
+    "equipmentId": 21110,
+    "id": 56
+  },
+  {
+    "collectionBuffId": 6226,
+    "equipmentGroupId": 17,
+    "equipmentId": 21111,
+    "id": 57
+  },
+  {
+    "collectionBuffId": 6226,
+    "equipmentGroupId": 18,
+    "equipmentId": 21112,
+    "id": 58
+  },
+  {
+    "collectionBuffId": 6226,
+    "equipmentGroupId": 19,
+    "equipmentId": 21113,
+    "id": 59
+  },
+  {
+    "collectionBuffId": 6226,
+    "equipmentGroupId": 20,
+    "equipmentId": 21114,
+    "id": 60
+  },
+  {
+    "collectionBuffId": 6324,
+    "equipmentGroupId": 11,
+    "equipmentId": 22010,
+    "id": 61
+  },
+  {
+    "collectionBuffId": 6324,
+    "equipmentGroupId": 12,
+    "equipmentId": 22011,
+    "id": 62
+  },
+  {
+    "collectionBuffId": 6324,
+    "equipmentGroupId": 13,
+    "equipmentId": 22012,
+    "id": 63
+  },
+  {
+    "collectionBuffId": 6324,
+    "equipmentGroupId": 14,
+    "equipmentId": 22013,
+    "id": 64
+  },
+  {
+    "collectionBuffId": 6324,
+    "equipmentGroupId": 15,
+    "equipmentId": 22014,
+    "id": 65
+  },
+  {
+    "collectionBuffId": 6326,
+    "equipmentGroupId": 16,
+    "equipmentId": 22110,
+    "id": 66
+  },
+  {
+    "collectionBuffId": 6326,
+    "equipmentGroupId": 17,
+    "equipmentId": 22111,
+    "id": 67
+  },
+  {
+    "collectionBuffId": 6326,
+    "equipmentGroupId": 18,
+    "equipmentId": 22112,
+    "id": 68
+  },
+  {
+    "collectionBuffId": 6326,
+    "equipmentGroupId": 19,
+    "equipmentId": 22113,
+    "id": 69
+  },
+  {
+    "collectionBuffId": 6326,
+    "equipmentGroupId": 20,
+    "equipmentId": 22114,
+    "id": 70
+  },
+  {
+    "collectionBuffId": 6424,
+    "equipmentGroupId": 11,
+    "equipmentId": 23010,
+    "id": 71
+  },
+  {
+    "collectionBuffId": 6424,
+    "equipmentGroupId": 12,
+    "equipmentId": 23011,
+    "id": 72
+  },
+  {
+    "collectionBuffId": 6424,
+    "equipmentGroupId": 13,
+    "equipmentId": 23012,
+    "id": 73
+  },
+  {
+    "collectionBuffId": 6424,
+    "equipmentGroupId": 14,
+    "equipmentId": 23013,
+    "id": 74
+  },
+  {
+    "collectionBuffId": 6424,
+    "equipmentGroupId": 15,
+    "equipmentId": 23014,
+    "id": 75
+  },
+  {
+    "collectionBuffId": 6426,
+    "equipmentGroupId": 16,
+    "equipmentId": 23110,
+    "id": 76
+  },
+  {
+    "collectionBuffId": 6426,
+    "equipmentGroupId": 17,
+    "equipmentId": 23111,
+    "id": 77
+  },
+  {
+    "collectionBuffId": 6426,
+    "equipmentGroupId": 18,
+    "equipmentId": 23112,
+    "id": 78
+  },
+  {
+    "collectionBuffId": 6426,
+    "equipmentGroupId": 19,
+    "equipmentId": 23113,
+    "id": 79
+  },
+  {
+    "collectionBuffId": 6426,
+    "equipmentGroupId": 20,
+    "equipmentId": 23114,
+    "id": 80
+  },
+  {
+    "collectionBuffId": 6134,
+    "equipmentGroupId": 21,
+    "equipmentId": 30010,
+    "id": 81
+  },
+  {
+    "collectionBuffId": 6134,
+    "equipmentGroupId": 22,
+    "equipmentId": 30011,
+    "id": 82
+  },
+  {
+    "collectionBuffId": 6134,
+    "equipmentGroupId": 23,
+    "equipmentId": 30012,
+    "id": 83
+  },
+  {
+    "collectionBuffId": 6134,
+    "equipmentGroupId": 24,
+    "equipmentId": 30013,
+    "id": 84
+  },
+  {
+    "collectionBuffId": 6134,
+    "equipmentGroupId": 25,
+    "equipmentId": 30014,
+    "id": 85
+  },
+  {
+    "collectionBuffId": 6136,
+    "equipmentGroupId": 26,
+    "equipmentId": 30110,
+    "id": 86
+  },
+  {
+    "collectionBuffId": 6136,
+    "equipmentGroupId": 27,
+    "equipmentId": 30111,
+    "id": 87
+  },
+  {
+    "collectionBuffId": 6136,
+    "equipmentGroupId": 28,
+    "equipmentId": 30112,
+    "id": 88
+  },
+  {
+    "collectionBuffId": 6136,
+    "equipmentGroupId": 29,
+    "equipmentId": 30113,
+    "id": 89
+  },
+  {
+    "collectionBuffId": 6136,
+    "equipmentGroupId": 30,
+    "equipmentId": 30114,
+    "id": 90
+  },
+  {
+    "collectionBuffId": 6234,
+    "equipmentGroupId": 21,
+    "equipmentId": 31010,
+    "id": 91
+  },
+  {
+    "collectionBuffId": 6234,
+    "equipmentGroupId": 22,
+    "equipmentId": 31011,
+    "id": 92
+  },
+  {
+    "collectionBuffId": 6234,
+    "equipmentGroupId": 23,
+    "equipmentId": 31012,
+    "id": 93
+  },
+  {
+    "collectionBuffId": 6234,
+    "equipmentGroupId": 24,
+    "equipmentId": 31013,
+    "id": 94
+  },
+  {
+    "collectionBuffId": 6234,
+    "equipmentGroupId": 25,
+    "equipmentId": 31014,
+    "id": 95
+  },
+  {
+    "collectionBuffId": 6236,
+    "equipmentGroupId": 26,
+    "equipmentId": 31110,
+    "id": 96
+  },
+  {
+    "collectionBuffId": 6236,
+    "equipmentGroupId": 27,
+    "equipmentId": 31111,
+    "id": 97
+  },
+  {
+    "collectionBuffId": 6236,
+    "equipmentGroupId": 28,
+    "equipmentId": 31112,
+    "id": 98
+  },
+  {
+    "collectionBuffId": 6236,
+    "equipmentGroupId": 29,
+    "equipmentId": 31113,
+    "id": 99
+  },
+  {
+    "collectionBuffId": 6236,
+    "equipmentGroupId": 30,
+    "equipmentId": 31114,
+    "id": 100
+  },
+  {
+    "collectionBuffId": 6334,
+    "equipmentGroupId": 21,
+    "equipmentId": 32010,
+    "id": 101
+  },
+  {
+    "collectionBuffId": 6334,
+    "equipmentGroupId": 22,
+    "equipmentId": 32011,
+    "id": 102
+  },
+  {
+    "collectionBuffId": 6334,
+    "equipmentGroupId": 23,
+    "equipmentId": 32012,
+    "id": 103
+  },
+  {
+    "collectionBuffId": 6334,
+    "equipmentGroupId": 24,
+    "equipmentId": 32013,
+    "id": 104
+  },
+  {
+    "collectionBuffId": 6334,
+    "equipmentGroupId": 25,
+    "equipmentId": 32014,
+    "id": 105
+  },
+  {
+    "collectionBuffId": 6336,
+    "equipmentGroupId": 26,
+    "equipmentId": 32110,
+    "id": 106
+  },
+  {
+    "collectionBuffId": 6336,
+    "equipmentGroupId": 27,
+    "equipmentId": 32111,
+    "id": 107
+  },
+  {
+    "collectionBuffId": 6336,
+    "equipmentGroupId": 28,
+    "equipmentId": 32112,
+    "id": 108
+  },
+  {
+    "collectionBuffId": 6336,
+    "equipmentGroupId": 29,
+    "equipmentId": 32113,
+    "id": 109
+  },
+  {
+    "collectionBuffId": 6336,
+    "equipmentGroupId": 30,
+    "equipmentId": 32114,
+    "id": 110
+  },
+  {
+    "collectionBuffId": 6434,
+    "equipmentGroupId": 21,
+    "equipmentId": 33010,
+    "id": 111
+  },
+  {
+    "collectionBuffId": 6434,
+    "equipmentGroupId": 22,
+    "equipmentId": 33011,
+    "id": 112
+  },
+  {
+    "collectionBuffId": 6434,
+    "equipmentGroupId": 23,
+    "equipmentId": 33012,
+    "id": 113
+  },
+  {
+    "collectionBuffId": 6434,
+    "equipmentGroupId": 24,
+    "equipmentId": 33013,
+    "id": 114
+  },
+  {
+    "collectionBuffId": 6434,
+    "equipmentGroupId": 25,
+    "equipmentId": 33014,
+    "id": 115
+  },
+  {
+    "collectionBuffId": 6436,
+    "equipmentGroupId": 26,
+    "equipmentId": 33110,
+    "id": 116
+  },
+  {
+    "collectionBuffId": 6436,
+    "equipmentGroupId": 27,
+    "equipmentId": 33111,
+    "id": 117
+  },
+  {
+    "collectionBuffId": 6436,
+    "equipmentGroupId": 28,
+    "equipmentId": 33112,
+    "id": 118
+  },
+  {
+    "collectionBuffId": 6436,
+    "equipmentGroupId": 29,
+    "equipmentId": 33113,
+    "id": 119
+  },
+  {
+    "collectionBuffId": 6436,
+    "equipmentGroupId": 30,
+    "equipmentId": 33114,
+    "id": 120
+  },
+  {
+    "collectionBuffId": 6144,
+    "equipmentGroupId": 31,
+    "equipmentId": 40010,
+    "id": 121
+  },
+  {
+    "collectionBuffId": 6244,
+    "equipmentGroupId": 31,
+    "equipmentId": 41010,
+    "id": 122
+  },
+  {
+    "collectionBuffId": 6344,
+    "equipmentGroupId": 31,
+    "equipmentId": 42010,
+    "id": 123
+  },
+  {
+    "collectionBuffId": 6444,
+    "equipmentGroupId": 31,
+    "equipmentId": 43010,
+    "id": 124
+  },
+  {
+    "collectionBuffId": 6144,
+    "equipmentGroupId": 32,
+    "equipmentId": 40020,
+    "id": 125
+  },
+  {
+    "collectionBuffId": 6244,
+    "equipmentGroupId": 32,
+    "equipmentId": 41020,
+    "id": 126
+  },
+  {
+    "collectionBuffId": 6344,
+    "equipmentGroupId": 32,
+    "equipmentId": 42020,
+    "id": 127
+  },
+  {
+    "collectionBuffId": 6444,
+    "equipmentGroupId": 32,
+    "equipmentId": 43020,
+    "id": 128
+  },
+  {
+    "collectionBuffId": 6144,
+    "equipmentGroupId": 33,
+    "equipmentId": 40030,
+    "id": 129
+  },
+  {
+    "collectionBuffId": 6244,
+    "equipmentGroupId": 33,
+    "equipmentId": 41030,
+    "id": 130
+  },
+  {
+    "collectionBuffId": 6344,
+    "equipmentGroupId": 33,
+    "equipmentId": 42030,
+    "id": 131
+  },
+  {
+    "collectionBuffId": 6444,
+    "equipmentGroupId": 33,
+    "equipmentId": 43030,
+    "id": 132
+  },
+  {
+    "collectionBuffId": 6146,
+    "equipmentGroupId": 34,
+    "equipmentId": 40110,
+    "id": 133
+  },
+  {
+    "collectionBuffId": 6246,
+    "equipmentGroupId": 34,
+    "equipmentId": 41110,
+    "id": 134
+  },
+  {
+    "collectionBuffId": 6346,
+    "equipmentGroupId": 34,
+    "equipmentId": 42110,
+    "id": 135
+  },
+  {
+    "collectionBuffId": 6446,
+    "equipmentGroupId": 34,
+    "equipmentId": 43110,
+    "id": 136
+  },
+  {
+    "collectionBuffId": 6146,
+    "equipmentGroupId": 35,
+    "equipmentId": 40120,
+    "id": 137
+  },
+  {
+    "collectionBuffId": 6246,
+    "equipmentGroupId": 35,
+    "equipmentId": 41120,
+    "id": 138
+  },
+  {
+    "collectionBuffId": 6346,
+    "equipmentGroupId": 35,
+    "equipmentId": 42120,
+    "id": 139
+  },
+  {
+    "collectionBuffId": 6446,
+    "equipmentGroupId": 35,
+    "equipmentId": 43120,
+    "id": 140
+  },
+  {
+    "collectionBuffId": 6146,
+    "equipmentGroupId": 36,
+    "equipmentId": 40130,
+    "id": 141
+  },
+  {
+    "collectionBuffId": 6246,
+    "equipmentGroupId": 36,
+    "equipmentId": 41130,
+    "id": 142
+  },
+  {
+    "collectionBuffId": 6346,
+    "equipmentGroupId": 36,
+    "equipmentId": 42130,
+    "id": 143
+  },
+  {
+    "collectionBuffId": 6446,
+    "equipmentGroupId": 36,
+    "equipmentId": 43130,
+    "id": 144
+  },
+  {
+    "collectionBuffId": 6144,
+    "equipmentGroupId": 37,
+    "equipmentId": 40011,
+    "id": 145
+  },
+  {
+    "collectionBuffId": 6244,
+    "equipmentGroupId": 37,
+    "equipmentId": 41011,
+    "id": 146
+  },
+  {
+    "collectionBuffId": 6344,
+    "equipmentGroupId": 37,
+    "equipmentId": 42011,
+    "id": 147
+  },
+  {
+    "collectionBuffId": 6444,
+    "equipmentGroupId": 37,
+    "equipmentId": 43011,
+    "id": 148
+  },
+  {
+    "collectionBuffId": 6144,
+    "equipmentGroupId": 38,
+    "equipmentId": 40021,
+    "id": 149
+  },
+  {
+    "collectionBuffId": 6244,
+    "equipmentGroupId": 38,
+    "equipmentId": 41021,
+    "id": 150
+  },
+  {
+    "collectionBuffId": 6344,
+    "equipmentGroupId": 38,
+    "equipmentId": 42021,
+    "id": 151
+  },
+  {
+    "collectionBuffId": 6444,
+    "equipmentGroupId": 38,
+    "equipmentId": 43021,
+    "id": 152
+  },
+  {
+    "collectionBuffId": 6144,
+    "equipmentGroupId": 39,
+    "equipmentId": 40031,
+    "id": 153
+  },
+  {
+    "collectionBuffId": 6244,
+    "equipmentGroupId": 39,
+    "equipmentId": 41031,
+    "id": 154
+  },
+  {
+    "collectionBuffId": 6344,
+    "equipmentGroupId": 39,
+    "equipmentId": 42031,
+    "id": 155
+  },
+  {
+    "collectionBuffId": 6444,
+    "equipmentGroupId": 39,
+    "equipmentId": 43031,
+    "id": 156
+  },
+  {
+    "collectionBuffId": 6146,
+    "equipmentGroupId": 40,
+    "equipmentId": 40111,
+    "id": 157
+  },
+  {
+    "collectionBuffId": 6246,
+    "equipmentGroupId": 40,
+    "equipmentId": 41111,
+    "id": 158
+  },
+  {
+    "collectionBuffId": 6346,
+    "equipmentGroupId": 40,
+    "equipmentId": 42111,
+    "id": 159
+  },
+  {
+    "collectionBuffId": 6446,
+    "equipmentGroupId": 40,
+    "equipmentId": 43111,
+    "id": 160
+  },
+  {
+    "collectionBuffId": 6146,
+    "equipmentGroupId": 41,
+    "equipmentId": 40121,
+    "id": 161
+  },
+  {
+    "collectionBuffId": 6246,
+    "equipmentGroupId": 41,
+    "equipmentId": 41121,
+    "id": 162
+  },
+  {
+    "collectionBuffId": 6346,
+    "equipmentGroupId": 41,
+    "equipmentId": 42121,
+    "id": 163
+  },
+  {
+    "collectionBuffId": 6446,
+    "equipmentGroupId": 41,
+    "equipmentId": 43121,
+    "id": 164
+  },
+  {
+    "collectionBuffId": 6146,
+    "equipmentGroupId": 42,
+    "equipmentId": 40131,
+    "id": 165
+  },
+  {
+    "collectionBuffId": 6246,
+    "equipmentGroupId": 42,
+    "equipmentId": 41131,
+    "id": 166
+  },
+  {
+    "collectionBuffId": 6346,
+    "equipmentGroupId": 42,
+    "equipmentId": 42131,
+    "id": 167
+  },
+  {
+    "collectionBuffId": 6446,
+    "equipmentGroupId": 42,
+    "equipmentId": 43131,
+    "id": 168
+  },
+  {
+    "collectionBuffId": 6144,
+    "equipmentGroupId": 43,
+    "equipmentId": 40012,
+    "id": 169
+  },
+  {
+    "collectionBuffId": 6244,
+    "equipmentGroupId": 43,
+    "equipmentId": 41012,
+    "id": 170
+  },
+  {
+    "collectionBuffId": 6344,
+    "equipmentGroupId": 43,
+    "equipmentId": 42012,
+    "id": 171
+  },
+  {
+    "collectionBuffId": 6444,
+    "equipmentGroupId": 43,
+    "equipmentId": 43012,
+    "id": 172
+  },
+  {
+    "collectionBuffId": 6144,
+    "equipmentGroupId": 44,
+    "equipmentId": 40022,
+    "id": 173
+  },
+  {
+    "collectionBuffId": 6244,
+    "equipmentGroupId": 44,
+    "equipmentId": 41022,
+    "id": 174
+  },
+  {
+    "collectionBuffId": 6344,
+    "equipmentGroupId": 44,
+    "equipmentId": 42022,
+    "id": 175
+  },
+  {
+    "collectionBuffId": 6444,
+    "equipmentGroupId": 44,
+    "equipmentId": 43022,
+    "id": 176
+  },
+  {
+    "collectionBuffId": 6144,
+    "equipmentGroupId": 45,
+    "equipmentId": 40032,
+    "id": 177
+  },
+  {
+    "collectionBuffId": 6244,
+    "equipmentGroupId": 45,
+    "equipmentId": 41032,
+    "id": 178
+  },
+  {
+    "collectionBuffId": 6344,
+    "equipmentGroupId": 45,
+    "equipmentId": 42032,
+    "id": 179
+  },
+  {
+    "collectionBuffId": 6444,
+    "equipmentGroupId": 45,
+    "equipmentId": 43032,
+    "id": 180
+  },
+  {
+    "collectionBuffId": 6146,
+    "equipmentGroupId": 46,
+    "equipmentId": 40112,
+    "id": 181
+  },
+  {
+    "collectionBuffId": 6246,
+    "equipmentGroupId": 46,
+    "equipmentId": 41112,
+    "id": 182
+  },
+  {
+    "collectionBuffId": 6346,
+    "equipmentGroupId": 46,
+    "equipmentId": 42112,
+    "id": 183
+  },
+  {
+    "collectionBuffId": 6446,
+    "equipmentGroupId": 46,
+    "equipmentId": 43112,
+    "id": 184
+  },
+  {
+    "collectionBuffId": 6146,
+    "equipmentGroupId": 47,
+    "equipmentId": 40122,
+    "id": 185
+  },
+  {
+    "collectionBuffId": 6246,
+    "equipmentGroupId": 47,
+    "equipmentId": 41122,
+    "id": 186
+  },
+  {
+    "collectionBuffId": 6346,
+    "equipmentGroupId": 47,
+    "equipmentId": 42122,
+    "id": 187
+  },
+  {
+    "collectionBuffId": 6446,
+    "equipmentGroupId": 47,
+    "equipmentId": 43122,
+    "id": 188
+  },
+  {
+    "collectionBuffId": 6146,
+    "equipmentGroupId": 48,
+    "equipmentId": 40132,
+    "id": 189
+  },
+  {
+    "collectionBuffId": 6246,
+    "equipmentGroupId": 48,
+    "equipmentId": 41132,
+    "id": 190
+  },
+  {
+    "collectionBuffId": 6346,
+    "equipmentGroupId": 48,
+    "equipmentId": 42132,
+    "id": 191
+  },
+  {
+    "collectionBuffId": 6446,
+    "equipmentGroupId": 48,
+    "equipmentId": 43132,
+    "id": 192
+  },
+  {
+    "collectionBuffId": 6146,
+    "equipmentGroupId": 49,
+    "equipmentId": 40013,
+    "id": 193
+  },
+  {
+    "collectionBuffId": 6246,
+    "equipmentGroupId": 49,
+    "equipmentId": 41013,
+    "id": 194
+  },
+  {
+    "collectionBuffId": 6346,
+    "equipmentGroupId": 49,
+    "equipmentId": 42013,
+    "id": 195
+  },
+  {
+    "collectionBuffId": 6446,
+    "equipmentGroupId": 49,
+    "equipmentId": 43013,
+    "id": 196
+  },
+  {
+    "collectionBuffId": 6146,
+    "equipmentGroupId": 50,
+    "equipmentId": 40023,
+    "id": 197
+  },
+  {
+    "collectionBuffId": 6246,
+    "equipmentGroupId": 50,
+    "equipmentId": 41023,
+    "id": 198
+  },
+  {
+    "collectionBuffId": 6346,
+    "equipmentGroupId": 50,
+    "equipmentId": 42023,
+    "id": 199
+  },
+  {
+    "collectionBuffId": 6446,
+    "equipmentGroupId": 50,
+    "equipmentId": 43023,
+    "id": 200
+  },
+  {
+    "collectionBuffId": 6146,
+    "equipmentGroupId": 51,
+    "equipmentId": 40033,
+    "id": 201
+  },
+  {
+    "collectionBuffId": 6246,
+    "equipmentGroupId": 51,
+    "equipmentId": 41033,
+    "id": 202
+  },
+  {
+    "collectionBuffId": 6346,
+    "equipmentGroupId": 51,
+    "equipmentId": 42033,
+    "id": 203
+  },
+  {
+    "collectionBuffId": 6446,
+    "equipmentGroupId": 51,
+    "equipmentId": 43033,
+    "id": 204
+  },
+  {
+    "collectionBuffId": 6144,
+    "equipmentGroupId": 52,
+    "equipmentId": 40113,
+    "id": 205
+  },
+  {
+    "collectionBuffId": 6244,
+    "equipmentGroupId": 52,
+    "equipmentId": 41113,
+    "id": 206
+  },
+  {
+    "collectionBuffId": 6344,
+    "equipmentGroupId": 52,
+    "equipmentId": 42113,
+    "id": 207
+  },
+  {
+    "collectionBuffId": 6444,
+    "equipmentGroupId": 52,
+    "equipmentId": 43113,
+    "id": 208
+  },
+  {
+    "collectionBuffId": 6144,
+    "equipmentGroupId": 53,
+    "equipmentId": 40123,
+    "id": 209
+  },
+  {
+    "collectionBuffId": 6244,
+    "equipmentGroupId": 53,
+    "equipmentId": 41123,
+    "id": 210
+  },
+  {
+    "collectionBuffId": 6344,
+    "equipmentGroupId": 53,
+    "equipmentId": 42123,
+    "id": 211
+  },
+  {
+    "collectionBuffId": 6444,
+    "equipmentGroupId": 53,
+    "equipmentId": 43123,
+    "id": 212
+  },
+  {
+    "collectionBuffId": 6144,
+    "equipmentGroupId": 54,
+    "equipmentId": 40133,
+    "id": 213
+  },
+  {
+    "collectionBuffId": 6244,
+    "equipmentGroupId": 54,
+    "equipmentId": 41133,
+    "id": 214
+  },
+  {
+    "collectionBuffId": 6344,
+    "equipmentGroupId": 54,
+    "equipmentId": 42133,
+    "id": 215
+  },
+  {
+    "collectionBuffId": 6444,
+    "equipmentGroupId": 54,
+    "equipmentId": 43133,
+    "id": 216
+  },
+  {
+    "collectionBuffId": 6144,
+    "equipmentGroupId": 55,
+    "equipmentId": 40014,
+    "id": 217
+  },
+  {
+    "collectionBuffId": 6244,
+    "equipmentGroupId": 55,
+    "equipmentId": 41014,
+    "id": 218
+  },
+  {
+    "collectionBuffId": 6344,
+    "equipmentGroupId": 55,
+    "equipmentId": 42014,
+    "id": 219
+  },
+  {
+    "collectionBuffId": 6444,
+    "equipmentGroupId": 55,
+    "equipmentId": 43014,
+    "id": 220
+  },
+  {
+    "collectionBuffId": 6144,
+    "equipmentGroupId": 56,
+    "equipmentId": 40024,
+    "id": 221
+  },
+  {
+    "collectionBuffId": 6244,
+    "equipmentGroupId": 56,
+    "equipmentId": 41024,
+    "id": 222
+  },
+  {
+    "collectionBuffId": 6344,
+    "equipmentGroupId": 56,
+    "equipmentId": 42024,
+    "id": 223
+  },
+  {
+    "collectionBuffId": 6444,
+    "equipmentGroupId": 56,
+    "equipmentId": 43024,
+    "id": 224
+  },
+  {
+    "collectionBuffId": 6144,
+    "equipmentGroupId": 57,
+    "equipmentId": 40034,
+    "id": 225
+  },
+  {
+    "collectionBuffId": 6244,
+    "equipmentGroupId": 57,
+    "equipmentId": 41034,
+    "id": 226
+  },
+  {
+    "collectionBuffId": 6344,
+    "equipmentGroupId": 57,
+    "equipmentId": 42034,
+    "id": 227
+  },
+  {
+    "collectionBuffId": 6444,
+    "equipmentGroupId": 57,
+    "equipmentId": 43034,
+    "id": 228
+  },
+  {
+    "collectionBuffId": 6146,
+    "equipmentGroupId": 58,
+    "equipmentId": 40114,
+    "id": 229
+  },
+  {
+    "collectionBuffId": 6246,
+    "equipmentGroupId": 58,
+    "equipmentId": 41114,
+    "id": 230
+  },
+  {
+    "collectionBuffId": 6346,
+    "equipmentGroupId": 58,
+    "equipmentId": 42114,
+    "id": 231
+  },
+  {
+    "collectionBuffId": 6446,
+    "equipmentGroupId": 58,
+    "equipmentId": 43114,
+    "id": 232
+  },
+  {
+    "collectionBuffId": 6146,
+    "equipmentGroupId": 59,
+    "equipmentId": 40124,
+    "id": 233
+  },
+  {
+    "collectionBuffId": 6246,
+    "equipmentGroupId": 59,
+    "equipmentId": 41124,
+    "id": 234
+  },
+  {
+    "collectionBuffId": 6346,
+    "equipmentGroupId": 59,
+    "equipmentId": 42124,
+    "id": 235
+  },
+  {
+    "collectionBuffId": 6446,
+    "equipmentGroupId": 59,
+    "equipmentId": 43124,
+    "id": 236
+  },
+  {
+    "collectionBuffId": 6146,
+    "equipmentGroupId": 60,
+    "equipmentId": 40134,
+    "id": 237
+  },
+  {
+    "collectionBuffId": 6246,
+    "equipmentGroupId": 60,
+    "equipmentId": 41134,
+    "id": 238
+  },
+  {
+    "collectionBuffId": 6346,
+    "equipmentGroupId": 60,
+    "equipmentId": 42134,
+    "id": 239
+  },
+  {
+    "collectionBuffId": 6446,
+    "equipmentGroupId": 60,
+    "equipmentId": 43134,
+    "id": 240
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7334,
+    "equipmentGroupId": 61,
+    "equipmentId": 933001,
+    "id": 241
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7344,
+    "equipmentGroupId": 61,
+    "equipmentId": 943001,
+    "id": 242
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7334,
+    "equipmentGroupId": 62,
+    "equipmentId": 933002,
+    "id": 243
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7344,
+    "equipmentGroupId": 62,
+    "equipmentId": 943002,
+    "id": 244
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7336,
+    "equipmentGroupId": 63,
+    "equipmentId": 933003,
+    "id": 245
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7346,
+    "equipmentGroupId": 63,
+    "equipmentId": 943003,
+    "id": 246
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7334,
+    "equipmentGroupId": 64,
+    "equipmentId": 933004,
+    "id": 247
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7344,
+    "equipmentGroupId": 64,
+    "equipmentId": 943004,
+    "id": 248
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7334,
+    "equipmentGroupId": 65,
+    "equipmentId": 933005,
+    "id": 249
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7344,
+    "equipmentGroupId": 65,
+    "equipmentId": 943005,
+    "id": 250
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7336,
+    "equipmentGroupId": 66,
+    "equipmentId": 933006,
+    "id": 251
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7346,
+    "equipmentGroupId": 66,
+    "equipmentId": 943006,
+    "id": 252
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7336,
+    "equipmentGroupId": 67,
+    "equipmentId": 933007,
+    "id": 253
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7346,
+    "equipmentGroupId": 67,
+    "equipmentId": 943007,
+    "id": 254
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7334,
+    "equipmentGroupId": 68,
+    "equipmentId": 933008,
+    "id": 255
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7344,
+    "equipmentGroupId": 68,
+    "equipmentId": 943008,
+    "id": 256
+  },
+  {
+    "category": 1,
+    "collectionBuffId": 7124,
+    "equipmentGroupId": 69,
+    "equipmentId": 923009,
+    "id": 257
+  },
+  {
+    "category": 1,
+    "collectionBuffId": 7134,
+    "equipmentGroupId": 69,
+    "equipmentId": 933009,
+    "id": 258
+  },
+  {
+    "category": 1,
+    "collectionBuffId": 7144,
+    "equipmentGroupId": 69,
+    "equipmentId": 943009,
+    "id": 259
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7334,
+    "equipmentGroupId": 70,
+    "equipmentId": 933010,
+    "id": 260
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7344,
+    "equipmentGroupId": 70,
+    "equipmentId": 943010,
+    "id": 261
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7334,
+    "equipmentGroupId": 71,
+    "equipmentId": 933011,
+    "id": 262
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7344,
+    "equipmentGroupId": 71,
+    "equipmentId": 943011,
+    "id": 263
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7334,
+    "equipmentGroupId": 72,
+    "equipmentId": 933012,
+    "id": 264
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7344,
+    "equipmentGroupId": 72,
+    "equipmentId": 943012,
+    "id": 265
+  },
+  {
+    "category": 1,
+    "collectionBuffId": 7124,
+    "equipmentGroupId": 73,
+    "equipmentId": 923013,
+    "id": 266
+  },
+  {
+    "category": 1,
+    "collectionBuffId": 7134,
+    "equipmentGroupId": 73,
+    "equipmentId": 933013,
+    "id": 267
+  },
+  {
+    "category": 1,
+    "collectionBuffId": 7144,
+    "equipmentGroupId": 73,
+    "equipmentId": 943013,
+    "id": 268
+  },
+  {
+    "category": 1,
+    "collectionBuffId": 7124,
+    "equipmentGroupId": 74,
+    "equipmentId": 923014,
+    "id": 269
+  },
+  {
+    "category": 1,
+    "collectionBuffId": 7134,
+    "equipmentGroupId": 74,
+    "equipmentId": 933014,
+    "id": 270
+  },
+  {
+    "category": 1,
+    "collectionBuffId": 7144,
+    "equipmentGroupId": 74,
+    "equipmentId": 943014,
+    "id": 271
+  },
+  {
+    "category": 2,
+    "collectionBuffId": 7226,
+    "equipmentGroupId": 75,
+    "equipmentId": 923015,
+    "id": 272
+  },
+  {
+    "category": 2,
+    "collectionBuffId": 7236,
+    "equipmentGroupId": 75,
+    "equipmentId": 933015,
+    "id": 273
+  },
+  {
+    "category": 2,
+    "collectionBuffId": 7246,
+    "equipmentGroupId": 75,
+    "equipmentId": 943015,
+    "id": 274
+  },
+  {
+    "category": 2,
+    "collectionBuffId": 7224,
+    "equipmentGroupId": 76,
+    "equipmentId": 923016,
+    "id": 275
+  },
+  {
+    "category": 2,
+    "collectionBuffId": 7234,
+    "equipmentGroupId": 76,
+    "equipmentId": 933016,
+    "id": 276
+  },
+  {
+    "category": 2,
+    "collectionBuffId": 7244,
+    "equipmentGroupId": 76,
+    "equipmentId": 943016,
+    "id": 277
+  },
+  {
+    "category": 2,
+    "collectionBuffId": 7224,
+    "equipmentGroupId": 77,
+    "equipmentId": 923030,
+    "id": 278
+  },
+  {
+    "category": 2,
+    "collectionBuffId": 7234,
+    "equipmentGroupId": 77,
+    "equipmentId": 933030,
+    "id": 279
+  },
+  {
+    "category": 2,
+    "collectionBuffId": 7244,
+    "equipmentGroupId": 77,
+    "equipmentId": 943030,
+    "id": 280
+  },
+  {
+    "category": 1,
+    "collectionBuffId": 7124,
+    "equipmentGroupId": 78,
+    "equipmentId": 923601,
+    "id": 281
+  },
+  {
+    "category": 1,
+    "collectionBuffId": 7134,
+    "equipmentGroupId": 78,
+    "equipmentId": 933601,
+    "id": 282
+  },
+  {
+    "category": 1,
+    "collectionBuffId": 7144,
+    "equipmentGroupId": 78,
+    "equipmentId": 943601,
+    "id": 283
+  },
+  {
+    "category": 2,
+    "collectionBuffId": 7226,
+    "equipmentGroupId": 79,
+    "equipmentId": 923602,
+    "id": 284
+  },
+  {
+    "category": 2,
+    "collectionBuffId": 7236,
+    "equipmentGroupId": 79,
+    "equipmentId": 933602,
+    "id": 285
+  },
+  {
+    "category": 2,
+    "collectionBuffId": 7246,
+    "equipmentGroupId": 79,
+    "equipmentId": 943602,
+    "id": 286
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7334,
+    "equipmentGroupId": 80,
+    "equipmentId": 933603,
+    "id": 287
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7344,
+    "equipmentGroupId": 80,
+    "equipmentId": 943603,
+    "id": 288
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7336,
+    "equipmentGroupId": 81,
+    "equipmentId": 933604,
+    "id": 289
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7346,
+    "equipmentGroupId": 81,
+    "equipmentId": 943604,
+    "id": 290
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7334,
+    "equipmentGroupId": 82,
+    "equipmentId": 933605,
+    "id": 291
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7344,
+    "equipmentGroupId": 82,
+    "equipmentId": 943605,
+    "id": 292
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7334,
+    "equipmentGroupId": 83,
+    "equipmentId": 933606,
+    "id": 293
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7344,
+    "equipmentGroupId": 83,
+    "equipmentId": 943606,
+    "id": 294
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7334,
+    "equipmentGroupId": 84,
+    "equipmentId": 933607,
+    "id": 295
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7344,
+    "equipmentGroupId": 84,
+    "equipmentId": 943607,
+    "id": 296
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7334,
+    "equipmentGroupId": 85,
+    "equipmentId": 933608,
+    "id": 297
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7344,
+    "equipmentGroupId": 85,
+    "equipmentId": 943608,
+    "id": 298
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7336,
+    "equipmentGroupId": 86,
+    "equipmentId": 933609,
+    "id": 299
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7346,
+    "equipmentGroupId": 86,
+    "equipmentId": 943609,
+    "id": 300
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7336,
+    "equipmentGroupId": 87,
+    "equipmentId": 933610,
+    "id": 301
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7346,
+    "equipmentGroupId": 87,
+    "equipmentId": 943610,
+    "id": 302
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7334,
+    "equipmentGroupId": 88,
+    "equipmentId": 933611,
+    "id": 303
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7344,
+    "equipmentGroupId": 88,
+    "equipmentId": 943611,
+    "id": 304
+  },
+  {
+    "category": 2,
+    "collectionBuffId": 7226,
+    "equipmentGroupId": 89,
+    "equipmentId": 923619,
+    "id": 305
+  },
+  {
+    "category": 2,
+    "collectionBuffId": 7236,
+    "equipmentGroupId": 89,
+    "equipmentId": 933619,
+    "id": 306
+  },
+  {
+    "category": 2,
+    "collectionBuffId": 7246,
+    "equipmentGroupId": 89,
+    "equipmentId": 943619,
+    "id": 307
+  },
+  {
+    "category": 2,
+    "collectionBuffId": 7224,
+    "equipmentGroupId": 90,
+    "equipmentId": 923620,
+    "id": 308
+  },
+  {
+    "category": 2,
+    "collectionBuffId": 7234,
+    "equipmentGroupId": 90,
+    "equipmentId": 933620,
+    "id": 309
+  },
+  {
+    "category": 2,
+    "collectionBuffId": 7244,
+    "equipmentGroupId": 90,
+    "equipmentId": 943620,
+    "id": 310
+  },
+  {
+    "category": 2,
+    "collectionBuffId": 7224,
+    "equipmentGroupId": 91,
+    "equipmentId": 923621,
+    "id": 311
+  },
+  {
+    "category": 2,
+    "collectionBuffId": 7234,
+    "equipmentGroupId": 91,
+    "equipmentId": 933621,
+    "id": 312
+  },
+  {
+    "category": 2,
+    "collectionBuffId": 7244,
+    "equipmentGroupId": 91,
+    "equipmentId": 943621,
+    "id": 313
+  },
+  {
+    "category": 1,
+    "collectionBuffId": 7126,
+    "equipmentGroupId": 92,
+    "equipmentId": 923625,
+    "id": 314
+  },
+  {
+    "category": 1,
+    "collectionBuffId": 7136,
+    "equipmentGroupId": 92,
+    "equipmentId": 933625,
+    "id": 315
+  },
+  {
+    "category": 1,
+    "collectionBuffId": 7146,
+    "equipmentGroupId": 92,
+    "equipmentId": 943625,
+    "id": 316
+  },
+  {
+    "category": 1,
+    "collectionBuffId": 7126,
+    "equipmentGroupId": 93,
+    "equipmentId": 923626,
+    "id": 317
+  },
+  {
+    "category": 1,
+    "collectionBuffId": 7136,
+    "equipmentGroupId": 93,
+    "equipmentId": 933626,
+    "id": 318
+  },
+  {
+    "category": 1,
+    "collectionBuffId": 7146,
+    "equipmentGroupId": 93,
+    "equipmentId": 943626,
+    "id": 319
+  },
+  {
+    "category": 2,
+    "collectionBuffId": 7226,
+    "equipmentGroupId": 94,
+    "equipmentId": 923627,
+    "id": 320
+  },
+  {
+    "category": 2,
+    "collectionBuffId": 7236,
+    "equipmentGroupId": 94,
+    "equipmentId": 933627,
+    "id": 321
+  },
+  {
+    "category": 2,
+    "collectionBuffId": 7246,
+    "equipmentGroupId": 94,
+    "equipmentId": 943627,
+    "id": 322
+  },
+  {
+    "category": 1,
+    "collectionBuffId": 7124,
+    "equipmentGroupId": 95,
+    "equipmentId": 923628,
+    "id": 323
+  },
+  {
+    "category": 1,
+    "collectionBuffId": 7134,
+    "equipmentGroupId": 95,
+    "equipmentId": 933628,
+    "id": 324
+  },
+  {
+    "category": 1,
+    "collectionBuffId": 7144,
+    "equipmentGroupId": 95,
+    "equipmentId": 943628,
+    "id": 325
+  },
+  {
+    "category": 1,
+    "collectionBuffId": 7124,
+    "equipmentGroupId": 96,
+    "equipmentId": 923630,
+    "id": 326
+  },
+  {
+    "category": 1,
+    "collectionBuffId": 7134,
+    "equipmentGroupId": 96,
+    "equipmentId": 933630,
+    "id": 327
+  },
+  {
+    "category": 1,
+    "collectionBuffId": 7144,
+    "equipmentGroupId": 96,
+    "equipmentId": 943630,
+    "id": 328
+  },
+  {
+    "category": 1,
+    "collectionBuffId": 7126,
+    "equipmentGroupId": 97,
+    "equipmentId": 923633,
+    "id": 329
+  },
+  {
+    "category": 1,
+    "collectionBuffId": 7136,
+    "equipmentGroupId": 97,
+    "equipmentId": 933633,
+    "id": 330
+  },
+  {
+    "category": 1,
+    "collectionBuffId": 7146,
+    "equipmentGroupId": 97,
+    "equipmentId": 943633,
+    "id": 331
+  },
+  {
+    "category": 1,
+    "collectionBuffId": 7126,
+    "equipmentGroupId": 98,
+    "equipmentId": 923634,
+    "id": 332
+  },
+  {
+    "category": 1,
+    "collectionBuffId": 7136,
+    "equipmentGroupId": 98,
+    "equipmentId": 933634,
+    "id": 333
+  },
+  {
+    "category": 1,
+    "collectionBuffId": 7146,
+    "equipmentGroupId": 98,
+    "equipmentId": 943634,
+    "id": 334
+  },
+  {
+    "category": 1,
+    "collectionBuffId": 7124,
+    "equipmentGroupId": 99,
+    "equipmentId": 923647,
+    "id": 335
+  },
+  {
+    "category": 1,
+    "collectionBuffId": 7134,
+    "equipmentGroupId": 99,
+    "equipmentId": 933647,
+    "id": 336
+  },
+  {
+    "category": 1,
+    "collectionBuffId": 7144,
+    "equipmentGroupId": 99,
+    "equipmentId": 943647,
+    "id": 337
+  },
+  {
+    "category": 1,
+    "collectionBuffId": 7124,
+    "equipmentGroupId": 100,
+    "equipmentId": 923648,
+    "id": 338
+  },
+  {
+    "category": 1,
+    "collectionBuffId": 7134,
+    "equipmentGroupId": 100,
+    "equipmentId": 933648,
+    "id": 339
+  },
+  {
+    "category": 1,
+    "collectionBuffId": 7144,
+    "equipmentGroupId": 100,
+    "equipmentId": 943648,
+    "id": 340
+  },
+  {
+    "category": 1,
+    "collectionBuffId": 7124,
+    "equipmentGroupId": 101,
+    "equipmentId": 923649,
+    "id": 341
+  },
+  {
+    "category": 1,
+    "collectionBuffId": 7134,
+    "equipmentGroupId": 101,
+    "equipmentId": 933649,
+    "id": 342
+  },
+  {
+    "category": 1,
+    "collectionBuffId": 7144,
+    "equipmentGroupId": 101,
+    "equipmentId": 943649,
+    "id": 343
+  },
+  {
+    "category": 1,
+    "collectionBuffId": 7124,
+    "equipmentGroupId": 102,
+    "equipmentId": 923650,
+    "id": 344
+  },
+  {
+    "category": 1,
+    "collectionBuffId": 7134,
+    "equipmentGroupId": 102,
+    "equipmentId": 933650,
+    "id": 345
+  },
+  {
+    "category": 1,
+    "collectionBuffId": 7144,
+    "equipmentGroupId": 102,
+    "equipmentId": 943650,
+    "id": 346
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7336,
+    "equipmentGroupId": 103,
+    "equipmentId": 933664,
+    "id": 347
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7346,
+    "equipmentGroupId": 103,
+    "equipmentId": 943664,
+    "id": 348
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7336,
+    "equipmentGroupId": 104,
+    "equipmentId": 933669,
+    "id": 349
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7346,
+    "equipmentGroupId": 104,
+    "equipmentId": 943669,
+    "id": 350
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7334,
+    "equipmentGroupId": 105,
+    "equipmentId": 933670,
+    "id": 351
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7344,
+    "equipmentGroupId": 105,
+    "equipmentId": 943670,
+    "id": 352
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7336,
+    "equipmentGroupId": 106,
+    "equipmentId": 933024,
+    "id": 353
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7346,
+    "equipmentGroupId": 106,
+    "equipmentId": 943024,
+    "id": 354
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7334,
+    "equipmentGroupId": 107,
+    "equipmentId": 933614,
+    "id": 355
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7344,
+    "equipmentGroupId": 107,
+    "equipmentId": 943614,
+    "id": 356
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7334,
+    "equipmentGroupId": 108,
+    "equipmentId": 933651,
+    "id": 357
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7344,
+    "equipmentGroupId": 108,
+    "equipmentId": 943651,
+    "id": 358
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7336,
+    "equipmentGroupId": 109,
+    "equipmentId": 933613,
+    "id": 359
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7346,
+    "equipmentGroupId": 109,
+    "equipmentId": 943613,
+    "id": 360
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7336,
+    "equipmentGroupId": 110,
+    "equipmentId": 933658,
+    "id": 361
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7346,
+    "equipmentGroupId": 110,
+    "equipmentId": 943658,
+    "id": 362
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7334,
+    "equipmentGroupId": 111,
+    "equipmentId": 933671,
+    "id": 363
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7344,
+    "equipmentGroupId": 111,
+    "equipmentId": 943671,
+    "id": 364
+  },
+  {
+    "category": 2,
+    "collectionBuffId": 7226,
+    "equipmentGroupId": 112,
+    "equipmentId": 923031,
+    "id": 365
+  },
+  {
+    "category": 2,
+    "collectionBuffId": 7236,
+    "equipmentGroupId": 112,
+    "equipmentId": 933031,
+    "id": 366
+  },
+  {
+    "category": 2,
+    "collectionBuffId": 7246,
+    "equipmentGroupId": 112,
+    "equipmentId": 943031,
+    "id": 367
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7336,
+    "equipmentGroupId": 113,
+    "equipmentId": 933668,
+    "id": 368
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7346,
+    "equipmentGroupId": 113,
+    "equipmentId": 943668,
+    "id": 369
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7336,
+    "equipmentGroupId": 114,
+    "equipmentId": 933032,
+    "id": 370
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7346,
+    "equipmentGroupId": 114,
+    "equipmentId": 943032,
+    "id": 371
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7336,
+    "equipmentGroupId": 115,
+    "equipmentId": 933201,
+    "id": 372
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7346,
+    "equipmentGroupId": 115,
+    "equipmentId": 943201,
+    "id": 373
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7334,
+    "equipmentGroupId": 116,
+    "equipmentId": 933200,
+    "id": 374
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7344,
+    "equipmentGroupId": 116,
+    "equipmentId": 943200,
+    "id": 375
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7334,
+    "equipmentGroupId": 117,
+    "equipmentId": 933033,
+    "id": 376
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7344,
+    "equipmentGroupId": 117,
+    "equipmentId": 943033,
+    "id": 377
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7336,
+    "equipmentGroupId": 118,
+    "equipmentId": 933672,
+    "id": 378
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7346,
+    "equipmentGroupId": 118,
+    "equipmentId": 943672,
+    "id": 379
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7334,
+    "equipmentGroupId": 119,
+    "equipmentId": 933035,
+    "id": 380
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7344,
+    "equipmentGroupId": 119,
+    "equipmentId": 943035,
+    "id": 381
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7336,
+    "equipmentGroupId": 120,
+    "equipmentId": 933673,
+    "id": 382
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7346,
+    "equipmentGroupId": 120,
+    "equipmentId": 943673,
+    "id": 383
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7336,
+    "equipmentGroupId": 121,
+    "equipmentId": 933034,
+    "id": 384
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7346,
+    "equipmentGroupId": 121,
+    "equipmentId": 943034,
+    "id": 385
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7336,
+    "equipmentGroupId": 122,
+    "equipmentId": 933674,
+    "id": 386
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7346,
+    "equipmentGroupId": 122,
+    "equipmentId": 943674,
+    "id": 387
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7334,
+    "equipmentGroupId": 123,
+    "equipmentId": 933202,
+    "id": 388
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7344,
+    "equipmentGroupId": 123,
+    "equipmentId": 943202,
+    "id": 389
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7336,
+    "equipmentGroupId": 124,
+    "equipmentId": 933203,
+    "id": 390
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7346,
+    "equipmentGroupId": 124,
+    "equipmentId": 943203,
+    "id": 391
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7336,
+    "equipmentGroupId": 125,
+    "equipmentId": 933204,
+    "id": 392
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7346,
+    "equipmentGroupId": 125,
+    "equipmentId": 943204,
+    "id": 393
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7334,
+    "equipmentGroupId": 126,
+    "equipmentId": 933205,
+    "id": 394
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7344,
+    "equipmentGroupId": 126,
+    "equipmentId": 943205,
+    "id": 395
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7334,
+    "equipmentGroupId": 127,
+    "equipmentId": 933675,
+    "id": 396
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7344,
+    "equipmentGroupId": 127,
+    "equipmentId": 943675,
+    "id": 397
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7334,
+    "equipmentGroupId": 128,
+    "equipmentId": 933038,
+    "id": 398
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7344,
+    "equipmentGroupId": 128,
+    "equipmentId": 943038,
+    "id": 399
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7334,
+    "equipmentGroupId": 129,
+    "equipmentId": 933037,
+    "id": 400
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7344,
+    "equipmentGroupId": 129,
+    "equipmentId": 943037,
+    "id": 401
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7334,
+    "equipmentGroupId": 130,
+    "equipmentId": 933676,
+    "id": 402
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7344,
+    "equipmentGroupId": 130,
+    "equipmentId": 943676,
+    "id": 403
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7334,
+    "equipmentGroupId": 131,
+    "equipmentId": 933206,
+    "id": 404
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7344,
+    "equipmentGroupId": 131,
+    "equipmentId": 943206,
+    "id": 405
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7336,
+    "equipmentGroupId": 132,
+    "equipmentId": 933207,
+    "id": 406
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7346,
+    "equipmentGroupId": 132,
+    "equipmentId": 943207,
+    "id": 407
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7334,
+    "equipmentGroupId": 133,
+    "equipmentId": 933208,
+    "id": 408
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7344,
+    "equipmentGroupId": 133,
+    "equipmentId": 943208,
+    "id": 409
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7336,
+    "equipmentGroupId": 134,
+    "equipmentId": 933209,
+    "id": 410
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7346,
+    "equipmentGroupId": 134,
+    "equipmentId": 943209,
+    "id": 411
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7336,
+    "equipmentGroupId": 135,
+    "equipmentId": 933036,
+    "id": 412
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7346,
+    "equipmentGroupId": 135,
+    "equipmentId": 943036,
+    "id": 413
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7336,
+    "equipmentGroupId": 136,
+    "equipmentId": 933039,
+    "id": 414
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7346,
+    "equipmentGroupId": 136,
+    "equipmentId": 943039,
+    "id": 415
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7334,
+    "equipmentGroupId": 137,
+    "equipmentId": 933040,
+    "id": 416
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7344,
+    "equipmentGroupId": 137,
+    "equipmentId": 943040,
+    "id": 417
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7334,
+    "equipmentGroupId": 138,
+    "equipmentId": 933041,
+    "id": 418
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7344,
+    "equipmentGroupId": 138,
+    "equipmentId": 943041,
+    "id": 419
+  }
+]

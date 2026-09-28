@@ -1,0 +1,7 @@
+[
+  { "accumulatedCount": 7, "groupId": 7, "id": 1, "rewardCount": 1, "rewardId": 943211, "rewardType": 10 },
+  { "accumulatedCount": 40, "groupId": 7, "id": 2, "rewardCount": 180, "rewardId": 711, "rewardType": 8 },
+  { "accumulatedCount": 60, "groupId": 7, "id": 3, "rewardCount": 10, "rewardId": 1108, "rewardType": 8 },
+  { "accumulatedCount": 80, "groupId": 7, "id": 4, "rewardCount": 1000, "rewardType": 3 },
+  { "accumulatedCount": 100, "groupId": 7, "id": 5, "rewardCount": 10, "rewardId": 1000, "rewardType": 8 }
+]

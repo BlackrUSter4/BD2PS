@@ -1,0 +1,1875 @@
+[
+  {
+    "effectType": 2,
+    "effectValue1": 4000,
+    "effectValue2": 4000,
+    "eventEffectNameTextId": 1631202,
+    "id": 101001
+  },
+  {
+    "effectType": 2,
+    "effectValue1": 6000,
+    "effectValue2": 8000,
+    "eventEffectNameTextId": 1631203,
+    "id": 101101
+  },
+  {
+    "effectType": 2,
+    "effectValue1": 1000,
+    "effectValue2": 1000,
+    "eventEffectNameTextId": 1631202,
+    "id": 101111
+  },
+  {
+    "effectType": 10,
+    "effectValue1": 102001,
+    "eventEffectNameTextId": 1631241,
+    "id": 102001
+  },
+  {
+    "effectType": 2,
+    "effectValue1": 5000,
+    "effectValue2": 5000,
+    "eventEffectNameTextId": 1631202,
+    "id": 102101
+  },
+  {
+    "effectType": 4,
+    "effectValue1": 100,
+    "eventEffectNameTextId": 1631205,
+    "id": 103001
+  },
+  {
+    "effectType": 7,
+    "effectValue1": 103101,
+    "eventEffectNameTextId": 1631214,
+    "id": 103101
+  },
+  {
+    "effectType": 2,
+    "effectValue1": 7500,
+    "effectValue2": 7500,
+    "eventEffectNameTextId": 1631202,
+    "id": 104001
+  },
+  {
+    "effectType": 8,
+    "effectValue1": 104101,
+    "eventEffectNameTextId": 1631225,
+    "id": 104101
+  },
+  {
+    "effectType": 8,
+    "effectValue1": 105001,
+    "eventEffectNameTextId": 1631225,
+    "id": 105001
+  },
+  {
+    "effectType": 2,
+    "effectValue1": 2000,
+    "effectValue2": 8000,
+    "eventEffectNameTextId": 1631203,
+    "id": 105101
+  },
+  {
+    "effectType": 4,
+    "effectValue1": 100,
+    "eventEffectNameTextId": 1631205,
+    "id": 105201
+  },
+  {
+    "effectType": 8,
+    "effectValue1": 106001,
+    "eventEffectNameTextId": 1631225,
+    "id": 106001
+  },
+  {
+    "effectType": 6,
+    "effectValue1": 51,
+    "eventEffectNameTextId": 1631250,
+    "id": 106101
+  },
+  {
+    "effectType": 6,
+    "effectValue1": 1,
+    "eventEffectNameTextId": 1631250,
+    "id": 107001
+  },
+  {
+    "effectType": 6,
+    "effectValue1": 3,
+    "eventEffectNameTextId": 1631250,
+    "id": 107101
+  },
+  {
+    "effectType": 6,
+    "effectValue1": 5,
+    "eventEffectNameTextId": 1631250,
+    "id": 107201
+  },
+  {
+    "effectType": 6,
+    "effectValue1": 13,
+    "eventEffectNameTextId": 1631251,
+    "id": 108001
+  },
+  {
+    "effectType": 6,
+    "effectValue1": 14,
+    "eventEffectNameTextId": 1631251,
+    "id": 108101
+  },
+  {
+    "effectType": 7,
+    "effectValue1": 108201,
+    "eventEffectNameTextId": 1631216,
+    "id": 108201
+  },
+  {
+    "effectType": 4,
+    "effectValue1": 100,
+    "eventEffectNameTextId": 1631205,
+    "id": 109001
+  },
+  {
+    "effectType": 2,
+    "effectValue1": 1000,
+    "effectValue2": 5000,
+    "eventEffectNameTextId": 1631203,
+    "id": 109101
+  },
+  {
+    "effectType": 6,
+    "effectValue1": 72,
+    "eventEffectNameTextId": 1631250,
+    "id": 110001
+  },
+  {
+    "effectType": 2,
+    "effectValue1": 7500,
+    "effectValue2": 7500,
+    "eventEffectNameTextId": 1631202,
+    "id": 110101
+  },
+  {
+    "effectType": 6,
+    "effectValue1": 68,
+    "eventEffectNameTextId": 1631250,
+    "id": 110201
+  },
+  {
+    "effectType": 3,
+    "effectValue1": 6000,
+    "eventEffectNameTextId": 1631273,
+    "id": 111001
+  },
+  {
+    "effectType": 7,
+    "effectValue1": 111002,
+    "eventEffectNameTextId": 1631216,
+    "id": 111002
+  },
+  {
+    "effectType": 3,
+    "effectValue1": 8000,
+    "eventEffectNameTextId": 1631273,
+    "id": 111101
+  },
+  {
+    "effectType": 8,
+    "effectValue1": 111102,
+    "eventEffectNameTextId": 1631226,
+    "id": 111102
+  },
+  {
+    "effectType": 7,
+    "effectValue1": 111201,
+    "eventEffectNameTextId": 1631215,
+    "id": 111201
+  },
+  {
+    "effectType": 1,
+    "effectValue1": 10,
+    "eventEffectNameTextId": 1631236,
+    "id": 111211
+  },
+  {
+    "effectType": 5,
+    "effectValue1": 50,
+    "eventEffectNameTextId": 1631206,
+    "id": 112001
+  },
+  {
+    "effectType": 2,
+    "effectValue1": 5000,
+    "effectValue2": 5000,
+    "eventEffectNameTextId": 1631202,
+    "id": 112002
+  },
+  {
+    "effectType": 5,
+    "effectValue1": 90,
+    "eventEffectNameTextId": 1631206,
+    "id": 112101
+  },
+  {
+    "effectType": 8,
+    "effectValue1": 112102,
+    "eventEffectNameTextId": 1631226,
+    "id": 112102
+  },
+  {
+    "effectType": 1,
+    "effectValue1": 25,
+    "eventEffectNameTextId": 1631285,
+    "id": 113001
+  },
+  {
+    "effectType": 6,
+    "effectValue1": 42,
+    "eventEffectNameTextId": 1631250,
+    "id": 113002
+  },
+  {
+    "effectType": 2,
+    "effectValue1": 7500,
+    "effectValue2": 7500,
+    "eventEffectNameTextId": 1631202,
+    "id": 113101
+  },
+  {
+    "effectType": 7,
+    "effectValue1": 113201,
+    "eventEffectNameTextId": 1631215,
+    "id": 113201
+  },
+  {
+    "effectType": 1,
+    "effectValue1": 10,
+    "eventEffectNameTextId": 1631236,
+    "id": 113211
+  },
+  {
+    "effectType": 3,
+    "effectValue1": 8000,
+    "eventEffectNameTextId": 1631273,
+    "id": 114001
+  },
+  {
+    "effectType": 7,
+    "effectValue1": 114002,
+    "eventEffectNameTextId": 1631293,
+    "id": 114002
+  },
+  {
+    "effectType": 3,
+    "effectValue1": 20000,
+    "eventEffectNameTextId": 1631273,
+    "id": 114101
+  },
+  {
+    "effectType": 7,
+    "effectValue1": 114102,
+    "eventEffectNameTextId": 1631294,
+    "id": 114102
+  },
+  {
+    "effectType": 9,
+    "effectValue1": 83,
+    "eventEffectNameTextId": 1631210,
+    "id": 114201
+  },
+  {
+    "effectType": 3,
+    "effectValue1": 5000,
+    "eventEffectNameTextId": 1631273,
+    "id": 115001
+  },
+  {
+    "effectType": 7,
+    "effectValue1": 115002,
+    "eventEffectNameTextId": 1631292,
+    "id": 115002
+  },
+  {
+    "effectType": 3,
+    "effectValue1": 10000,
+    "eventEffectNameTextId": 1631273,
+    "id": 115101
+  },
+  {
+    "effectType": 7,
+    "effectValue1": 115102,
+    "eventEffectNameTextId": 1631293,
+    "id": 115102
+  },
+  {
+    "effectType": 3,
+    "effectValue1": 20000,
+    "eventEffectNameTextId": 1631273,
+    "id": 115201
+  },
+  {
+    "effectType": 7,
+    "effectValue1": 115202,
+    "eventEffectNameTextId": 1631294,
+    "id": 115202
+  },
+  {
+    "effectType": 4,
+    "effectValue1": 100,
+    "eventEffectNameTextId": 1631205,
+    "id": 116001
+  },
+  {
+    "effectType": 5,
+    "effectValue1": 50,
+    "eventEffectNameTextId": 1631206,
+    "id": 116101
+  },
+  {
+    "effectType": 7,
+    "effectValue1": 116102,
+    "eventEffectNameTextId": 1631215,
+    "id": 116102
+  },
+  {
+    "effectType": 7,
+    "effectValue1": 116201,
+    "eventEffectNameTextId": 1631214,
+    "id": 116201
+  },
+  {
+    "effectType": 3,
+    "effectValue1": 1000,
+    "eventEffectNameTextId": 1631204,
+    "id": 116211
+  },
+  {
+    "effectType": 11,
+    "eventEffectNameTextId": 1631277,
+    "id": 117001
+  },
+  {
+    "effectType": 2,
+    "effectValue1": 7500,
+    "effectValue2": 7500,
+    "eventEffectNameTextId": 1631202,
+    "id": 117002
+  },
+  {
+    "effectType": 3,
+    "effectValue1": 17500,
+    "eventEffectNameTextId": 1631273,
+    "id": 117101
+  },
+  {
+    "effectType": 6,
+    "effectValue1": 19,
+    "eventEffectNameTextId": 1631256,
+    "id": 117102
+  },
+  {
+    "effectType": 2,
+    "effectValue1": 7500,
+    "effectValue2": 7500,
+    "eventEffectNameTextId": 1631202,
+    "id": 117201
+  },
+  {
+    "effectType": 5,
+    "effectValue1": 20,
+    "eventEffectNameTextId": 1631206,
+    "id": 117211
+  },
+  {
+    "effectType": 3,
+    "effectValue1": 500,
+    "eventEffectNameTextId": 1631273,
+    "id": 118001
+  },
+  {
+    "effectType": 6,
+    "effectValue1": 9,
+    "eventEffectNameTextId": 1631253,
+    "id": 118002
+  },
+  {
+    "effectType": 3,
+    "effectValue1": 500,
+    "eventEffectNameTextId": 1631273,
+    "id": 118101
+  },
+  {
+    "effectType": 6,
+    "effectValue1": 46,
+    "eventEffectNameTextId": 1631253,
+    "id": 118102
+  },
+  {
+    "effectType": 3,
+    "effectValue1": 500,
+    "eventEffectNameTextId": 1631273,
+    "id": 118201
+  },
+  {
+    "effectType": 6,
+    "effectValue1": 12,
+    "eventEffectNameTextId": 1631253,
+    "id": 118202
+  },
+  {
+    "effectType": 5,
+    "effectValue1": 20,
+    "eventEffectNameTextId": 1631206,
+    "id": 119001
+  },
+  {
+    "effectType": 7,
+    "effectValue1": 119002,
+    "eventEffectNameTextId": 1631214,
+    "id": 119002
+  },
+  {
+    "effectType": 5,
+    "effectValue1": 80,
+    "eventEffectNameTextId": 1631206,
+    "id": 119101
+  },
+  {
+    "effectType": 7,
+    "effectValue1": 119102,
+    "eventEffectNameTextId": 1631215,
+    "id": 119102
+  },
+  {
+    "effectType": 9,
+    "effectValue1": 18,
+    "eventEffectNameTextId": 1631274,
+    "id": 120001
+  },
+  {
+    "effectType": 10,
+    "effectValue1": 120101,
+    "eventEffectNameTextId": 1631241,
+    "id": 120101
+  },
+  {
+    "effectType": 10,
+    "effectValue1": 121001,
+    "eventEffectNameTextId": 1631240,
+    "id": 121001
+  },
+  {
+    "effectType": 7,
+    "effectValue1": 121101,
+    "eventEffectNameTextId": 1631215,
+    "id": 121101
+  },
+  {
+    "effectType": 5,
+    "effectValue1": 50,
+    "eventEffectNameTextId": 1631206,
+    "id": 121111
+  },
+  {
+    "effectType": 1,
+    "effectValue1": 25,
+    "eventEffectNameTextId": 1631285,
+    "id": 122001
+  },
+  {
+    "effectType": 8,
+    "effectValue1": 122002,
+    "eventEffectNameTextId": 1631225,
+    "id": 122002
+  },
+  {
+    "effectType": 1,
+    "effectValue1": 5,
+    "eventEffectNameTextId": 1631283,
+    "id": 122101
+  },
+  {
+    "effectType": 2,
+    "effectValue1": 5000,
+    "effectValue2": 5000,
+    "eventEffectNameTextId": 1631202,
+    "id": 122102
+  },
+  {
+    "effectType": 1,
+    "effectValue1": 10,
+    "eventEffectNameTextId": 1631284,
+    "id": 123001
+  },
+  {
+    "effectType": 2,
+    "effectValue1": 3000,
+    "effectValue2": 3000,
+    "eventEffectNameTextId": 1631202,
+    "id": 123002
+  },
+  {
+    "effectType": 7,
+    "effectValue1": 123101,
+    "eventEffectNameTextId": 1631214,
+    "id": 123101
+  },
+  {
+    "effectType": 1,
+    "effectValue1": 10,
+    "eventEffectNameTextId": 1631236,
+    "id": 123111
+  },
+  {
+    "effectType": 3,
+    "effectValue1": 2500,
+    "eventEffectNameTextId": 1631204,
+    "id": 123201
+  },
+  {
+    "effectType": 1,
+    "effectValue1": 50,
+    "eventEffectNameTextId": 1631286,
+    "id": 124001
+  },
+  {
+    "effectType": 7,
+    "effectValue1": 124002,
+    "eventEffectNameTextId": 1631216,
+    "id": 124002
+  },
+  {
+    "effectType": 3,
+    "effectValue1": 20000,
+    "eventEffectNameTextId": 1631273,
+    "id": 124101
+  },
+  {
+    "effectType": 8,
+    "effectValue1": 124102,
+    "eventEffectNameTextId": 1631227,
+    "id": 124102
+  },
+  {
+    "effectType": 6,
+    "effectValue1": 57,
+    "eventEffectNameTextId": 1631249,
+    "id": 125001
+  },
+  {
+    "effectType": 9,
+    "effectValue1": 62,
+    "eventEffectNameTextId": 1631274,
+    "id": 125101
+  },
+  {
+    "effectType": 8,
+    "effectValue1": 126001,
+    "eventEffectNameTextId": 1631225,
+    "id": 126001
+  },
+  {
+    "effectType": 5,
+    "effectValue1": 25,
+    "eventEffectNameTextId": 1631206,
+    "id": 126011
+  },
+  {
+    "effectType": 7,
+    "effectValue1": 126101,
+    "eventEffectNameTextId": 1631214,
+    "id": 126101
+  },
+  {
+    "effectType": 4,
+    "effectValue1": 100,
+    "eventEffectNameTextId": 1631205,
+    "id": 127001
+  },
+  {
+    "effectType": 7,
+    "effectValue1": 127101,
+    "eventEffectNameTextId": 1631219,
+    "id": 127101
+  },
+  {
+    "effectType": 5,
+    "effectValue1": 20,
+    "eventEffectNameTextId": 1631206,
+    "id": 127111
+  },
+  {
+    "effectType": 9,
+    "effectValue1": 54,
+    "eventEffectNameTextId": 1631274,
+    "id": 128001
+  },
+  {
+    "effectType": 7,
+    "effectValue1": 128101,
+    "eventEffectNameTextId": 1631214,
+    "id": 128101
+  },
+  {
+    "effectType": 7,
+    "effectValue1": 128201,
+    "eventEffectNameTextId": 1631216,
+    "id": 128201
+  },
+  {
+    "effectType": 12,
+    "eventEffectNameTextId": 1631213,
+    "id": 128211
+  },
+  {
+    "effectType": 6,
+    "effectValue1": 40,
+    "eventEffectNameTextId": 1631249,
+    "id": 129001
+  },
+  {
+    "effectType": 6,
+    "effectValue1": 41,
+    "eventEffectNameTextId": 1631250,
+    "id": 129101
+  },
+  {
+    "effectType": 5,
+    "effectValue1": 25,
+    "eventEffectNameTextId": 1631206,
+    "id": 129111
+  },
+  {
+    "effectType": 6,
+    "effectValue1": 4,
+    "eventEffectNameTextId": 1631251,
+    "id": 129201
+  },
+  {
+    "effectType": 5,
+    "effectValue1": 50,
+    "eventEffectNameTextId": 1631206,
+    "id": 129211
+  },
+  {
+    "effectType": 2,
+    "effectValue1": 3000,
+    "effectValue2": 3000,
+    "eventEffectNameTextId": 1631202,
+    "id": 130001
+  },
+  {
+    "effectType": 2,
+    "effectValue1": 10000,
+    "effectValue2": 10000,
+    "eventEffectNameTextId": 1631202,
+    "id": 130101
+  },
+  {
+    "effectType": 5,
+    "effectValue1": 25,
+    "eventEffectNameTextId": 1631206,
+    "id": 130111
+  },
+  {
+    "effectType": 7,
+    "effectValue1": 131001,
+    "eventEffectNameTextId": 1631214,
+    "id": 131001
+  },
+  {
+    "effectType": 7,
+    "effectValue1": 131101,
+    "eventEffectNameTextId": 1631215,
+    "id": 131101
+  },
+  {
+    "effectType": 5,
+    "effectValue1": 50,
+    "eventEffectNameTextId": 1631206,
+    "id": 131111
+  },
+  {
+    "effectType": 8,
+    "effectValue1": 132001,
+    "eventEffectNameTextId": 1631224,
+    "id": 132001
+  },
+  {
+    "effectType": 1,
+    "effectValue1": 10,
+    "eventEffectNameTextId": 1631284,
+    "id": 132101
+  },
+  {
+    "effectType": 8,
+    "effectValue1": 132102,
+    "eventEffectNameTextId": 1631225,
+    "id": 132102
+  },
+  {
+    "effectType": 8,
+    "effectValue1": 132111,
+    "eventEffectNameTextId": 1631225,
+    "id": 132111
+  },
+  {
+    "effectType": 6,
+    "effectValue1": 94,
+    "eventEffectNameTextId": 1631249,
+    "id": 133001
+  },
+  {
+    "effectType": 6,
+    "effectValue1": 95,
+    "eventEffectNameTextId": 1631249,
+    "id": 133101
+  },
+  {
+    "effectType": 2,
+    "effectValue1": 3000,
+    "effectValue2": 3000,
+    "eventEffectNameTextId": 1631202,
+    "id": 133201
+  },
+  {
+    "effectType": 5,
+    "effectValue1": 50,
+    "eventEffectNameTextId": 1631206,
+    "id": 133211
+  },
+  {
+    "effectType": 7,
+    "effectValue1": 134001,
+    "eventEffectNameTextId": 1631215,
+    "id": 134001
+  },
+  {
+    "effectType": 1,
+    "effectValue1": 10,
+    "eventEffectNameTextId": 1631236,
+    "id": 134011
+  },
+  {
+    "effectType": 7,
+    "effectValue1": 134101,
+    "eventEffectNameTextId": 1631214,
+    "id": 134101
+  },
+  {
+    "effectType": 5,
+    "effectValue1": 50,
+    "eventEffectNameTextId": 1631206,
+    "id": 134111
+  },
+  {
+    "effectType": 5,
+    "effectValue1": 10,
+    "eventEffectNameTextId": 1631206,
+    "id": 134201
+  },
+  {
+    "effectType": 8,
+    "effectValue1": 135001,
+    "eventEffectNameTextId": 1631228,
+    "id": 135001
+  },
+  {
+    "effectType": 5,
+    "effectValue1": 25,
+    "eventEffectNameTextId": 1631206,
+    "id": 135011
+  },
+  {
+    "effectType": 2,
+    "effectValue1": 1000,
+    "effectValue2": 5000,
+    "eventEffectNameTextId": 1631203,
+    "id": 135101
+  },
+  {
+    "effectType": 5,
+    "effectValue1": 25,
+    "eventEffectNameTextId": 1631206,
+    "id": 135111
+  },
+  {
+    "effectType": 6,
+    "effectValue1": 31,
+    "eventEffectNameTextId": 1631249,
+    "id": 136001
+  },
+  {
+    "effectType": 6,
+    "effectValue1": 29,
+    "eventEffectNameTextId": 1631249,
+    "id": 136101
+  },
+  {
+    "effectType": 6,
+    "effectValue1": 49,
+    "eventEffectNameTextId": 1631249,
+    "id": 136201
+  },
+  {
+    "effectType": 6,
+    "effectValue1": 23,
+    "eventEffectNameTextId": 1631249,
+    "id": 137001
+  },
+  {
+    "effectType": 6,
+    "effectValue1": 24,
+    "eventEffectNameTextId": 1631250,
+    "id": 137101
+  },
+  {
+    "effectType": 5,
+    "effectValue1": 25,
+    "eventEffectNameTextId": 1631206,
+    "id": 137111
+  },
+  {
+    "effectType": 6,
+    "effectValue1": 82,
+    "eventEffectNameTextId": 1631249,
+    "id": 137201
+  },
+  {
+    "effectType": 6,
+    "effectValue1": 26,
+    "eventEffectNameTextId": 1631249,
+    "id": 138001
+  },
+  {
+    "effectType": 6,
+    "effectValue1": 27,
+    "eventEffectNameTextId": 1631250,
+    "id": 138101
+  },
+  {
+    "effectType": 5,
+    "effectValue1": 25,
+    "eventEffectNameTextId": 1631206,
+    "id": 138111
+  },
+  {
+    "effectType": 6,
+    "effectValue1": 82,
+    "eventEffectNameTextId": 1631249,
+    "id": 138201
+  },
+  {
+    "effectType": 6,
+    "effectValue1": 57,
+    "eventEffectNameTextId": 1631249,
+    "id": 139001
+  },
+  {
+    "effectType": 6,
+    "effectValue1": 58,
+    "eventEffectNameTextId": 1631250,
+    "id": 139101
+  },
+  {
+    "effectType": 5,
+    "effectValue1": 25,
+    "eventEffectNameTextId": 1631206,
+    "id": 139111
+  },
+  {
+    "effectType": 6,
+    "effectValue1": 59,
+    "eventEffectNameTextId": 1631251,
+    "id": 139201
+  },
+  {
+    "effectType": 5,
+    "effectValue1": 50,
+    "eventEffectNameTextId": 1631206,
+    "id": 139211
+  },
+  {
+    "effectType": 8,
+    "effectValue1": 140001,
+    "eventEffectNameTextId": 1631224,
+    "id": 140001
+  },
+  {
+    "effectType": 8,
+    "effectValue1": 140101,
+    "eventEffectNameTextId": 1631225,
+    "id": 140101
+  },
+  {
+    "effectType": 5,
+    "effectValue1": 25,
+    "eventEffectNameTextId": 1631206,
+    "id": 140111
+  },
+  {
+    "effectType": 8,
+    "effectValue1": 140201,
+    "eventEffectNameTextId": 1631226,
+    "id": 140201
+  },
+  {
+    "effectType": 5,
+    "effectValue1": 50,
+    "eventEffectNameTextId": 1631206,
+    "id": 140211
+  },
+  {
+    "effectType": 10,
+    "effectValue1": 141001,
+    "eventEffectNameTextId": 1631245,
+    "id": 141001
+  },
+  {
+    "effectType": 12,
+    "effectValue1": 141011,
+    "eventEffectNameTextId": 1631213,
+    "id": 141011
+  },
+  {
+    "effectType": 6,
+    "effectValue1": 49,
+    "eventEffectNameTextId": 1631249,
+    "id": 142001
+  },
+  {
+    "effectType": 6,
+    "effectValue1": 50,
+    "eventEffectNameTextId": 1631250,
+    "id": 142101
+  },
+  {
+    "effectType": 1,
+    "effectValue1": 10,
+    "eventEffectNameTextId": 1631236,
+    "id": 142111
+  },
+  {
+    "effectType": 1,
+    "effectValue1": 10,
+    "eventEffectNameTextId": 1631284,
+    "id": 143001
+  },
+  {
+    "effectType": 8,
+    "effectValue1": 143002,
+    "eventEffectNameTextId": 1631225,
+    "id": 143002
+  },
+  {
+    "effectType": 7,
+    "effectValue1": 143101,
+    "eventEffectNameTextId": 1631214,
+    "id": 143101
+  },
+  {
+    "effectType": 5,
+    "effectValue1": 25,
+    "eventEffectNameTextId": 1631206,
+    "id": 143111
+  },
+  {
+    "effectType": 8,
+    "effectValue1": 144001,
+    "eventEffectNameTextId": 1631224,
+    "id": 144001
+  },
+  {
+    "effectType": 5,
+    "effectValue1": 50,
+    "eventEffectNameTextId": 1631206,
+    "id": 144011
+  },
+  {
+    "effectType": 8,
+    "effectValue1": 144111,
+    "eventEffectNameTextId": 1631225,
+    "id": 144101
+  },
+  {
+    "effectType": 12,
+    "eventEffectNameTextId": 1631213,
+    "id": 144111
+  },
+  {
+    "effectType": 8,
+    "effectValue1": 145001,
+    "eventEffectNameTextId": 1631228,
+    "id": 145001
+  },
+  {
+    "effectType": 4,
+    "effectValue1": 100,
+    "eventEffectNameTextId": 1631205,
+    "id": 145101
+  },
+  {
+    "effectType": 5,
+    "effectValue1": 10,
+    "eventEffectNameTextId": 1631206,
+    "id": 146001
+  },
+  {
+    "effectType": 1,
+    "effectValue1": 10,
+    "eventEffectNameTextId": 1631284,
+    "id": 146101
+  },
+  {
+    "effectType": 2,
+    "effectValue1": 5000,
+    "effectValue2": 5000,
+    "eventEffectNameTextId": 1631202,
+    "id": 146102
+  },
+  {
+    "effectType": 11,
+    "eventEffectNameTextId": 1631212,
+    "id": 147001
+  },
+  {
+    "effectType": 1,
+    "effectValue1": 10,
+    "eventEffectNameTextId": 1631236,
+    "id": 147101
+  },
+  {
+    "effectType": 3,
+    "effectValue1": 500,
+    "eventEffectNameTextId": 1631204,
+    "id": 147201
+  },
+  {
+    "effectType": 2,
+    "effectValue1": 2500,
+    "effectValue2": 2500,
+    "eventEffectNameTextId": 1631202,
+    "id": 148001
+  },
+  {
+    "effectType": 1,
+    "effectValue1": 10,
+    "eventEffectNameTextId": 1631236,
+    "id": 148011
+  },
+  {
+    "effectType": 1,
+    "effectValue1": 50,
+    "eventEffectNameTextId": 1631286,
+    "id": 148101
+  },
+  {
+    "effectType": 7,
+    "effectValue1": 148102,
+    "eventEffectNameTextId": 1631216,
+    "id": 148102
+  },
+  {
+    "effectType": 5,
+    "effectValue1": 10,
+    "eventEffectNameTextId": 1631206,
+    "id": 149001
+  },
+  {
+    "effectType": 5,
+    "effectValue1": 30,
+    "eventEffectNameTextId": 1631206,
+    "id": 149011
+  },
+  {
+    "effectType": 2,
+    "effectValue1": 5000,
+    "effectValue2": 5000,
+    "eventEffectNameTextId": 1631202,
+    "id": 149101
+  },
+  {
+    "effectType": 6,
+    "effectValue1": 73,
+    "eventEffectNameTextId": 1631287,
+    "id": 149102
+  },
+  {
+    "effectType": 2,
+    "effectValue1": 5000,
+    "effectValue2": 5000,
+    "eventEffectNameTextId": 1631202,
+    "id": 150001
+  },
+  {
+    "effectType": 5,
+    "effectValue1": 50,
+    "eventEffectNameTextId": 1631206,
+    "id": 150011
+  },
+  {
+    "effectType": 2,
+    "effectValue1": 5000,
+    "effectValue2": 5000,
+    "eventEffectNameTextId": 1631202,
+    "id": 150101
+  },
+  {
+    "effectType": 6,
+    "effectValue1": 75,
+    "eventEffectNameTextId": 1631287,
+    "id": 150111
+  },
+  {
+    "effectType": 2,
+    "effectValue1": 5000,
+    "effectValue2": 5000,
+    "eventEffectNameTextId": 1631202,
+    "id": 150201
+  },
+  {
+    "effectType": 6,
+    "effectValue1": 74,
+    "eventEffectNameTextId": 1631287,
+    "id": 150211
+  },
+  {
+    "effectType": 6,
+    "effectValue1": 92,
+    "eventEffectNameTextId": 1631249,
+    "id": 151001
+  },
+  {
+    "effectType": 6,
+    "effectValue1": 93,
+    "eventEffectNameTextId": 1631249,
+    "id": 151101
+  },
+  {
+    "effectType": 6,
+    "effectValue1": 65,
+    "eventEffectNameTextId": 1631249,
+    "id": 152001
+  },
+  {
+    "effectType": 7,
+    "effectValue1": 152101,
+    "eventEffectNameTextId": 1631214,
+    "id": 152101
+  },
+  {
+    "effectType": 4,
+    "effectValue1": 100,
+    "eventEffectNameTextId": 1631205,
+    "id": 152201
+  },
+  {
+    "effectType": 6,
+    "effectValue1": 67,
+    "eventEffectNameTextId": 1631249,
+    "id": 153001
+  },
+  {
+    "effectType": 6,
+    "effectValue1": 66,
+    "eventEffectNameTextId": 1631249,
+    "id": 153011
+  },
+  {
+    "effectType": 2,
+    "effectValue1": 2000,
+    "effectValue2": 2000,
+    "eventEffectNameTextId": 1631202,
+    "id": 153101
+  },
+  {
+    "effectType": 6,
+    "effectValue1": 55,
+    "eventEffectNameTextId": 1631250,
+    "id": 154001
+  },
+  {
+    "effectType": 4,
+    "effectValue1": 100,
+    "eventEffectNameTextId": 1631205,
+    "id": 154101
+  },
+  {
+    "effectType": 6,
+    "effectValue1": 61,
+    "eventEffectNameTextId": 1631249,
+    "id": 155001
+  },
+  {
+    "effectType": 2,
+    "effectValue1": 2000,
+    "effectValue2": 2000,
+    "eventEffectNameTextId": 1631202,
+    "id": 155101
+  },
+  {
+    "effectType": 4,
+    "effectValue1": 100,
+    "eventEffectNameTextId": 1631205,
+    "id": 156001
+  },
+  {
+    "effectType": 7,
+    "effectValue1": 156101,
+    "eventEffectNameTextId": 1631218,
+    "id": 156101
+  },
+  {
+    "effectType": 6,
+    "effectValue1": 76,
+    "eventEffectNameTextId": 1631249,
+    "id": 156201
+  },
+  {
+    "effectType": 3,
+    "effectValue1": 3000,
+    "eventEffectNameTextId": 1631273,
+    "id": 157001
+  },
+  {
+    "effectType": 7,
+    "effectValue1": 157002,
+    "eventEffectNameTextId": 1631292,
+    "id": 157002
+  },
+  {
+    "effectType": 5,
+    "effectValue1": 75,
+    "eventEffectNameTextId": 1631206,
+    "id": 157101
+  },
+  {
+    "effectType": 7,
+    "effectValue1": 157102,
+    "eventEffectNameTextId": 1631215,
+    "id": 157102
+  },
+  {
+    "effectType": 6,
+    "effectValue1": 76,
+    "eventEffectNameTextId": 1631249,
+    "id": 157201
+  },
+  {
+    "effectType": 1,
+    "effectValue1": 25,
+    "eventEffectNameTextId": 1631285,
+    "id": 158001
+  },
+  {
+    "effectType": 8,
+    "effectValue1": 158002,
+    "eventEffectNameTextId": 1631225,
+    "id": 158002
+  },
+  {
+    "effectType": 8,
+    "effectValue1": 158101,
+    "eventEffectNameTextId": 1631224,
+    "id": 158101
+  },
+  {
+    "effectType": 1,
+    "effectValue1": 50,
+    "eventEffectNameTextId": 1631286,
+    "id": 158201
+  },
+  {
+    "effectType": 2,
+    "effectValue1": 10000,
+    "effectValue2": 10000,
+    "eventEffectNameTextId": 1631202,
+    "id": 158202
+  },
+  {
+    "effectType": 5,
+    "effectValue1": 80,
+    "eventEffectNameTextId": 1631206,
+    "id": 159001
+  },
+  {
+    "effectType": 7,
+    "effectValue1": 159002,
+    "eventEffectNameTextId": 1631215,
+    "id": 159002
+  },
+  {
+    "effectType": 1,
+    "effectValue1": 25,
+    "eventEffectNameTextId": 1631285,
+    "id": 159101
+  },
+  {
+    "effectType": 7,
+    "effectValue1": 159102,
+    "eventEffectNameTextId": 1631216,
+    "id": 159102
+  },
+  {
+    "effectType": 5,
+    "effectValue1": 80,
+    "eventEffectNameTextId": 1631206,
+    "id": 160001
+  },
+  {
+    "effectType": 2,
+    "effectValue1": 8000,
+    "effectValue2": 8000,
+    "eventEffectNameTextId": 1631202,
+    "id": 160002
+  },
+  {
+    "effectType": 1,
+    "effectValue1": 25,
+    "eventEffectNameTextId": 1631285,
+    "id": 160101
+  },
+  {
+    "effectType": 8,
+    "effectValue1": 160102,
+    "eventEffectNameTextId": 1631225,
+    "id": 160102
+  },
+  {
+    "effectType": 6,
+    "effectValue1": 99,
+    "eventEffectNameTextId": 1631250,
+    "id": 160201
+  },
+  {
+    "effectType": 7,
+    "effectValue1": 161001,
+    "eventEffectNameTextId": 1631214,
+    "id": 161001
+  },
+  {
+    "effectType": 1,
+    "effectValue1": 50,
+    "eventEffectNameTextId": 1631286,
+    "id": 161101
+  },
+  {
+    "effectType": 7,
+    "effectValue1": 161101,
+    "eventEffectNameTextId": 1631216,
+    "id": 161102
+  },
+  {
+    "effectType": 5,
+    "effectValue1": 20,
+    "eventEffectNameTextId": 1631206,
+    "id": 162001
+  },
+  {
+    "effectType": 8,
+    "effectValue1": 162002,
+    "eventEffectNameTextId": 1631224,
+    "id": 162002
+  },
+  {
+    "effectType": 5,
+    "effectValue1": 50,
+    "eventEffectNameTextId": 1631206,
+    "id": 162101
+  },
+  {
+    "effectType": 2,
+    "effectValue1": 3000,
+    "effectValue2": 5000,
+    "eventEffectNameTextId": 1631203,
+    "id": 162102
+  },
+  {
+    "effectType": 4,
+    "effectValue1": 100,
+    "eventEffectNameTextId": 1631205,
+    "id": 162201
+  },
+  {
+    "effectType": 3,
+    "effectValue1": 7500,
+    "eventEffectNameTextId": 1631273,
+    "id": 163001
+  },
+  {
+    "effectType": 8,
+    "effectValue1": 163002,
+    "eventEffectNameTextId": 1631264,
+    "id": 163002
+  },
+  {
+    "effectType": 5,
+    "effectValue1": 75,
+    "eventEffectNameTextId": 1631206,
+    "id": 163101
+  },
+  {
+    "effectType": 8,
+    "effectValue1": 163102,
+    "eventEffectNameTextId": 1631225,
+    "id": 163102
+  },
+  {
+    "effectType": 1,
+    "effectValue1": 10,
+    "eventEffectNameTextId": 1631284,
+    "id": 163201
+  },
+  {
+    "effectType": 7,
+    "effectValue1": 163202,
+    "eventEffectNameTextId": 1631215,
+    "id": 163202
+  },
+  {
+    "effectType": 11,
+    "eventEffectNameTextId": 1631277,
+    "id": 164001
+  },
+  {
+    "effectType": 2,
+    "effectValue1": 7500,
+    "effectValue2": 15000,
+    "eventEffectNameTextId": 1631203,
+    "id": 164002
+  },
+  {
+    "effectType": 3,
+    "effectValue1": 10000,
+    "eventEffectNameTextId": 1631273,
+    "id": 164101
+  },
+  {
+    "effectType": 8,
+    "effectValue1": 164102,
+    "eventEffectNameTextId": 1631266,
+    "id": 164102
+  },
+  {
+    "effectType": 1,
+    "effectValue1": 10,
+    "eventEffectNameTextId": 1631236,
+    "id": 165001
+  },
+  {
+    "effectType": 8,
+    "effectValue1": 165002,
+    "eventEffectNameTextId": 1631224,
+    "id": 165002
+  },
+  {
+    "effectType": 9,
+    "effectValue1": 16,
+    "eventEffectNameTextId": 1631274,
+    "id": 165101
+  },
+  {
+    "effectType": 1,
+    "effectValue1": 50,
+    "eventEffectNameTextId": 1631286,
+    "id": 165201
+  },
+  {
+    "effectType": 7,
+    "effectValue1": 165202,
+    "eventEffectNameTextId": 1631222,
+    "id": 165202
+  },
+  {
+    "effectType": 8,
+    "effectValue1": 166001,
+    "eventEffectNameTextId": 1631225,
+    "id": 166001
+  },
+  {
+    "effectType": 5,
+    "effectValue1": 10,
+    "eventEffectNameTextId": 1631206,
+    "id": 166011
+  },
+  {
+    "effectType": 6,
+    "effectValue1": 69,
+    "eventEffectNameTextId": 1631250,
+    "id": 166101
+  },
+  {
+    "effectType": 5,
+    "effectValue1": 20,
+    "eventEffectNameTextId": 1631206,
+    "id": 166111
+  },
+  {
+    "effectType": 6,
+    "effectValue1": 91,
+    "eventEffectNameTextId": 1631249,
+    "id": 167001
+  },
+  {
+    "effectType": 3,
+    "effectValue1": 5000,
+    "eventEffectNameTextId": 1631273,
+    "id": 167101
+  },
+  {
+    "effectType": 7,
+    "effectValue1": 167102,
+    "eventEffectNameTextId": 1631292,
+    "id": 167102
+  },
+  {
+    "effectType": 1,
+    "effectValue1": 50,
+    "eventEffectNameTextId": 1631286,
+    "id": 168001
+  },
+  {
+    "effectType": 8,
+    "effectValue1": 168002,
+    "eventEffectNameTextId": 1631226,
+    "id": 168002
+  },
+  {
+    "effectType": 8,
+    "effectValue1": 168101,
+    "eventEffectNameTextId": 1631226,
+    "id": 168101
+  },
+  {
+    "effectType": 1,
+    "effectValue1": 10,
+    "eventEffectNameTextId": 1631236,
+    "id": 168111
+  },
+  {
+    "effectType": 1,
+    "effectValue1": 50,
+    "eventEffectNameTextId": 1631286,
+    "id": 169001
+  },
+  {
+    "effectType": 6,
+    "effectValue1": 100,
+    "eventEffectNameTextId": 1631251,
+    "id": 169002
+  },
+  {
+    "effectType": 2,
+    "effectValue1": 7500,
+    "effectValue2": 7500,
+    "eventEffectNameTextId": 1631202,
+    "id": 169101
+  },
+  {
+    "effectType": 6,
+    "effectValue1": 44,
+    "eventEffectNameTextId": 1631250,
+    "id": 170001
+  },
+  {
+    "effectType": 5,
+    "effectValue1": 10,
+    "eventEffectNameTextId": 1631206,
+    "id": 170011
+  },
+  {
+    "effectType": 1,
+    "effectValue1": 25,
+    "eventEffectNameTextId": 1631285,
+    "id": 170101
+  },
+  {
+    "effectType": 2,
+    "effectValue1": 7500,
+    "effectValue2": 7500,
+    "eventEffectNameTextId": 1631202,
+    "id": 170102
+  },
+  {
+    "effectType": 7,
+    "effectValue1": 171001,
+    "eventEffectNameTextId": 1631214,
+    "id": 171001
+  },
+  {
+    "effectType": 1,
+    "effectValue1": 5,
+    "eventEffectNameTextId": 1631235,
+    "id": 171011
+  },
+  {
+    "effectType": 7,
+    "effectValue1": 171111,
+    "eventEffectNameTextId": 1631215,
+    "id": 171101
+  },
+  {
+    "effectType": 5,
+    "effectValue1": 80,
+    "eventEffectNameTextId": 1631206,
+    "id": 171111
+  },
+  {
+    "effectType": 1,
+    "effectValue1": 10,
+    "eventEffectNameTextId": 1631284,
+    "id": 172001
+  },
+  {
+    "effectType": 2,
+    "effectValue1": 3000,
+    "effectValue2": 3000,
+    "eventEffectNameTextId": 1631202,
+    "id": 172002
+  },
+  {
+    "effectType": 7,
+    "effectValue1": 172101,
+    "eventEffectNameTextId": 1631220,
+    "id": 172101
+  },
+  {
+    "effectType": 12,
+    "eventEffectNameTextId": 1631213,
+    "id": 172111
+  },
+  {
+    "effectType": 6,
+    "effectValue1": 80,
+    "eventEffectNameTextId": 1631250,
+    "id": 173001
+  },
+  {
+    "effectType": 5,
+    "effectValue1": 30,
+    "eventEffectNameTextId": 1631206,
+    "id": 173011
+  },
+  {
+    "effectType": 2,
+    "effectValue1": 7500,
+    "effectValue2": 7500,
+    "eventEffectNameTextId": 1631202,
+    "id": 173101
+  },
+  {
+    "effectType": 12,
+    "eventEffectNameTextId": 1631213,
+    "id": 173111
+  },
+  {
+    "effectType": 4,
+    "effectValue1": 100,
+    "eventEffectNameTextId": 1631205,
+    "id": 174001
+  },
+  {
+    "effectType": 2,
+    "effectValue1": 1000,
+    "effectValue2": 5000,
+    "eventEffectNameTextId": 1631203,
+    "id": 174101
+  },
+  {
+    "effectType": 8,
+    "effectValue1": 174201,
+    "eventEffectNameTextId": 1631226,
+    "id": 174201
+  },
+  {
+    "effectType": 5,
+    "effectValue1": 10,
+    "eventEffectNameTextId": 1631206,
+    "id": 174211
+  },
+  {
+    "effectType": 8,
+    "effectValue1": 175001,
+    "eventEffectNameTextId": 1631229,
+    "id": 175001
+  },
+  {
+    "effectType": 5,
+    "effectValue1": 10,
+    "eventEffectNameTextId": 1631206,
+    "id": 175011
+  },
+  {
+    "effectType": 7,
+    "effectValue1": 175101,
+    "eventEffectNameTextId": 1631214,
+    "id": 175101
+  },
+  {
+    "effectType": 6,
+    "effectValue1": 6,
+    "eventEffectNameTextId": 1631251,
+    "id": 176001
+  },
+  {
+    "effectType": 1,
+    "effectValue1": 50,
+    "eventEffectNameTextId": 1631238,
+    "id": 176011
+  },
+  {
+    "effectType": 9,
+    "effectValue1": 34,
+    "eventEffectNameTextId": 1631274,
+    "id": 176101
+  },
+  {
+    "effectType": 1,
+    "effectValue1": 25,
+    "eventEffectNameTextId": 1631285,
+    "id": 176201
+  },
+  {
+    "effectType": 6,
+    "effectValue1": 36,
+    "eventEffectNameTextId": 1631250,
+    "id": 176202
+  },
+  {
+    "effectType": 10,
+    "effectValue1": 177001,
+    "eventEffectNameTextId": 1631241,
+    "id": 177001
+  },
+  {
+    "effectType": 5,
+    "effectValue1": 20,
+    "eventEffectNameTextId": 1631206,
+    "id": 177011
+  },
+  {
+    "effectType": 8,
+    "effectValue1": 177101,
+    "eventEffectNameTextId": 1631226,
+    "id": 177101
+  },
+  {
+    "effectType": 5,
+    "effectValue1": 50,
+    "eventEffectNameTextId": 1631206,
+    "id": 177111
+  },
+  {
+    "effectType": 2,
+    "effectValue1": 4000,
+    "effectValue2": 4000,
+    "eventEffectNameTextId": 1631202,
+    "id": 177201
+  },
+  {
+    "effectType": 5,
+    "effectValue1": 80,
+    "eventEffectNameTextId": 1631206,
+    "id": 178001
+  },
+  {
+    "effectType": 2,
+    "effectValue1": 3000,
+    "effectValue2": 3000,
+    "eventEffectNameTextId": 1631202,
+    "id": 178002
+  },
+  {
+    "effectType": 1,
+    "effectValue1": 50,
+    "eventEffectNameTextId": 1631286,
+    "id": 178101
+  },
+  {
+    "effectType": 2,
+    "effectValue1": 10000,
+    "effectValue2": 10000,
+    "eventEffectNameTextId": 1631202,
+    "id": 178102
+  },
+  {
+    "effectType": 2,
+    "effectValue1": 5000,
+    "effectValue2": 5000,
+    "eventEffectNameTextId": 1631202,
+    "id": 178201
+  },
+  {
+    "effectType": 6,
+    "effectValue1": 75,
+    "eventEffectNameTextId": 1631287,
+    "id": 178202
+  },
+  {
+    "effectType": 1,
+    "effectValue1": 25,
+    "eventEffectNameTextId": 1631285,
+    "id": 179001
+  },
+  {
+    "effectType": 2,
+    "effectValue1": 10000,
+    "effectValue2": 10000,
+    "eventEffectNameTextId": 1631202,
+    "id": 179002
+  },
+  {
+    "effectType": 5,
+    "effectValue1": 50,
+    "eventEffectNameTextId": 1631206,
+    "id": 179101
+  },
+  {
+    "effectType": 2,
+    "effectValue1": 3000,
+    "effectValue2": 3000,
+    "eventEffectNameTextId": 1631202,
+    "id": 179102
+  },
+  {
+    "effectType": 1,
+    "effectValue1": 10,
+    "eventEffectNameTextId": 1631284,
+    "id": 180001
+  },
+  {
+    "effectType": 2,
+    "effectValue1": 1000,
+    "effectValue2": 1000,
+    "eventEffectNameTextId": 1631202,
+    "id": 180002
+  },
+  {
+    "effectType": 1,
+    "effectValue1": 50,
+    "eventEffectNameTextId": 1631286,
+    "id": 180101
+  },
+  {
+    "effectType": 2,
+    "effectValue1": 10000,
+    "effectValue2": 10000,
+    "eventEffectNameTextId": 1631202,
+    "id": 180102
+  },
+  {
+    "effectType": 1,
+    "effectValue1": 25,
+    "eventEffectNameTextId": 1631285,
+    "id": 180201
+  },
+  {
+    "effectType": 2,
+    "effectValue1": 5000,
+    "effectValue2": 5000,
+    "eventEffectNameTextId": 1631202,
+    "id": 180202
+  }
+]

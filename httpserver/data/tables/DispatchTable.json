@@ -1,0 +1,178 @@
+[
+  {
+    "dispatchEndLocalTextId": 1529,
+    "dispatchLevel": 1,
+    "dispatchLocalTextId": 1504,
+    "dispatchTime": 79200,
+    "id": 1,
+    "nameTextId": 1501,
+    "prefabName": "Cat01",
+    "rewardGroupId": 124103,
+    "spriteName": "icon_dispatch_1"
+  },
+  {
+    "dispatchEndLocalTextId": 1529,
+    "dispatchLevel": 2,
+    "dispatchLocalTextId": 1504,
+    "dispatchTime": 79200,
+    "id": 2,
+    "nameTextId": 1501,
+    "prefabName": "Cat01",
+    "rewardGroupId": 124203,
+    "spriteName": "icon_dispatch_1"
+  },
+  {
+    "dispatchEndLocalTextId": 1530,
+    "dispatchLevel": 2,
+    "dispatchLocalTextId": 1505,
+    "dispatchTime": 79200,
+    "id": 11,
+    "nameTextId": 1502,
+    "prefabName": "Cat02",
+    "rewardGroupId": 124203,
+    "spriteName": "icon_dispatch_2"
+  },
+  {
+    "dispatchEndLocalTextId": 1530,
+    "dispatchLevel": 3,
+    "dispatchLocalTextId": 1505,
+    "dispatchTime": 79200,
+    "id": 12,
+    "nameTextId": 1502,
+    "prefabName": "Cat02",
+    "rewardGroupId": 124104,
+    "spriteName": "icon_dispatch_2"
+  },
+  {
+    "dispatchEndLocalTextId": 1531,
+    "dispatchLevel": 3,
+    "dispatchLocalTextId": 1506,
+    "dispatchTime": 79200,
+    "id": 21,
+    "nameTextId": 1503,
+    "prefabName": "Cat03",
+    "rewardGroupId": 124105,
+    "spriteName": "icon_dispatch_3"
+  },
+  {
+    "dispatchEndLocalTextId": 28106,
+    "dispatchLevel": 1,
+    "dispatchLocalTextId": 28103,
+    "dispatchTime": 79200,
+    "id": 1001,
+    "nameTextId": 1509,
+    "prefabName": "Glutti02",
+    "rewardGroupId": 124206,
+    "spriteName": "icon_dispatch_5"
+  },
+  {
+    "dispatchEndLocalTextId": 28105,
+    "dispatchLevel": 1,
+    "dispatchLocalTextId": 28102,
+    "dispatchTime": 79200,
+    "id": 1002,
+    "nameTextId": 1508,
+    "prefabName": "Glutti03",
+    "rewardGroupId": 124210,
+    "spriteName": "icon_dispatch_6"
+  },
+  {
+    "dispatchEndLocalTextId": 28104,
+    "dispatchLevel": 1,
+    "dispatchLocalTextId": 28101,
+    "dispatchTime": 79200,
+    "id": 1003,
+    "nameTextId": 1507,
+    "prefabName": "Glutti01",
+    "rewardGroupId": 124213,
+    "spriteName": "icon_dispatch_4"
+  },
+  {
+    "dispatchEndLocalTextId": 28106,
+    "dispatchLevel": 1,
+    "dispatchLocalTextId": 28103,
+    "dispatchTime": 79200,
+    "id": 1011,
+    "nameTextId": 1509,
+    "prefabName": "Glutti02",
+    "rewardGroupId": 124207,
+    "spriteName": "icon_dispatch_5"
+  },
+  {
+    "dispatchEndLocalTextId": 28105,
+    "dispatchLevel": 2,
+    "dispatchLocalTextId": 28102,
+    "dispatchTime": 79200,
+    "id": 1012,
+    "nameTextId": 1508,
+    "prefabName": "Glutti03",
+    "rewardGroupId": 124211,
+    "spriteName": "icon_dispatch_6"
+  },
+  {
+    "dispatchEndLocalTextId": 28104,
+    "dispatchLevel": 2,
+    "dispatchLocalTextId": 28101,
+    "dispatchTime": 79200,
+    "id": 1013,
+    "nameTextId": 1507,
+    "prefabName": "Glutti01",
+    "rewardGroupId": 124214,
+    "spriteName": "icon_dispatch_4"
+  },
+  {
+    "dispatchEndLocalTextId": 28106,
+    "dispatchLevel": 2,
+    "dispatchLocalTextId": 28103,
+    "dispatchTime": 79200,
+    "id": 1021,
+    "nameTextId": 1509,
+    "prefabName": "Glutti02",
+    "rewardGroupId": 124208,
+    "spriteName": "icon_dispatch_5"
+  },
+  {
+    "dispatchEndLocalTextId": 28105,
+    "dispatchLevel": 3,
+    "dispatchLocalTextId": 28102,
+    "dispatchTime": 79200,
+    "id": 1022,
+    "nameTextId": 1508,
+    "prefabName": "Glutti03",
+    "rewardGroupId": 124212,
+    "spriteName": "icon_dispatch_6"
+  },
+  {
+    "dispatchEndLocalTextId": 28104,
+    "dispatchLevel": 3,
+    "dispatchLocalTextId": 28101,
+    "dispatchTime": 79200,
+    "id": 1023,
+    "nameTextId": 1507,
+    "prefabName": "Glutti01",
+    "rewardGroupId": 124215,
+    "spriteName": "icon_dispatch_4"
+  },
+  {
+    "dispatchEndLocalTextId": 28106,
+    "dispatchLevel": 2,
+    "dispatchLocalTextId": 28103,
+    "dispatchTime": 79200,
+    "id": 1031,
+    "nameTextId": 1509,
+    "prefabName": "Glutti02",
+    "rewardGroupId": 124209,
+    "spriteName": "icon_dispatch_5"
+  },
+  {
+    "dispatchEndLocalTextId": 28104,
+    "dispatchLevel": 3,
+    "dispatchLocalTextId": 28101,
+    "dispatchTime": 79200,
+    "id": 1033,
+    "nameTextId": 1507,
+    "prefabName": "Glutti01",
+    "rewardGroupId": 124216,
+    "spriteName": "icon_dispatch_4"
+  }
+]

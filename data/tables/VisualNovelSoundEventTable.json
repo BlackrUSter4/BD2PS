@@ -1,0 +1,2390 @@
+[
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Cafe_01",
+    "commonSoundId": 200001,
+    "id": 10060001
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 10060078,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003203/Cinematic_Char003203_02"
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 10060082,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003203/Cinematic_Char003203_02"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Cafe_01",
+    "commonSoundId": 200001,
+    "id": 10060083
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Cafe_01",
+    "commonSoundId": 200001,
+    "id": 10060104,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_03"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Beach_01",
+    "commonSoundId": 200003,
+    "id": 10060127
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Beach_01",
+    "commonSoundId": 200003,
+    "id": 10060188,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char001006/Cinematic_Char001006_01"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Beach_01",
+    "commonSoundId": 200003,
+    "id": 10060189,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char001006/Cinematic_Char001006_02"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Beach_01",
+    "commonSoundId": 200003,
+    "id": 10060202
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Beach_01",
+    "commonSoundId": 200003,
+    "id": 10060258,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char001006/Cinematic_Char001006_03"
+  },
+  {
+    "commonSoundId": 200003,
+    "id": 10060280
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Beach_Crowd_01",
+    "commonSoundId": 200003,
+    "id": 10060325
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Beach_Crowd_01",
+    "commonSoundId": 200003,
+    "id": 10060331,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char001006/Cinematic_Char001006_02"
+  },
+  {
+    "commonSoundId": 200003,
+    "id": 10060408,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char001006/Cinematic_Char001006_04"
+  },
+  {
+    "commonSoundId": 200003,
+    "id": 10060409,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_14"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Beach_Crowd_01",
+    "commonSoundId": 200003,
+    "id": 10060412,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char001006/Cinematic_Char001006_04"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Beach_Crowd_01",
+    "commonSoundId": 200003,
+    "id": 10060419,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char001006/Cinematic_Char001006_11"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Beach_Crowd_01",
+    "commonSoundId": 200003,
+    "id": 10060424,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char001006/Cinematic_Char001006_02"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Beach_Crowd_01",
+    "commonSoundId": 200002,
+    "id": 10060478
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Beach_Crowd_01",
+    "commonSoundId": 200002,
+    "id": 10060491,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char001006/Cinematic_Char001006_02"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Beach_Crowd_01",
+    "commonSoundId": 200002,
+    "id": 10060505,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char001006/Cinematic_Char001006_05"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Beach_Crowd_01",
+    "commonSoundId": 200002,
+    "id": 10060517,
+    "soundEffect": "event:/Cinematic/SPack03/Cinematic_Paper_Give_01"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Beach_Crowd_01",
+    "commonSoundId": 200002,
+    "id": 10060523,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char001006/Cinematic_Char001006_02"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Beach_Crowd_01",
+    "commonSoundId": 200002,
+    "id": 10060542,
+    "soundEffect": "event:/Cinematic/Common/Common_Camera_Rise_01"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Beach_Crowd_01",
+    "commonSoundId": 200002,
+    "id": 10060578,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char001006/Cinematic_Char001006_01"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_P1007_Interior_01",
+    "commonSoundId": 200002,
+    "id": 10060601
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_P1007_Interior_01",
+    "commonSoundId": 200002,
+    "id": 10060604,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_01"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_P1007_Interior_01",
+    "commonSoundId": 200002,
+    "id": 10060696,
+    "soundEffect": "event:/Cinematic/Pack12005/Cinematic_Footstep_02"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Beach_Crowd_01",
+    "commonSoundId": 200003,
+    "id": 10060731
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Beach_Crowd_01",
+    "commonSoundId": 200003,
+    "id": 10060737,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char001006/Cinematic_Char001006_02"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Beach_Crowd_01",
+    "commonSoundId": 200003,
+    "id": 10060749,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char001006/Cinematic_Char001006_03"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 10060753
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 10060762,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char001006/Cinematic_Char001006_06"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 10060767,
+    "soundEffect": "event:/Cinematic/Pack11001/Cinematic_Screen_Chimes_01"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 10060784,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char001006/Cinematic_Char001006_07"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 10060794,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char001006/Cinematic_Char001006_08"
+  },
+  {
+    "commonSoundId": 210015,
+    "id": 10060808
+  },
+  {
+    "commonSoundId": 210015,
+    "id": 10060820,
+    "soundEffect": "event:/Cinematic/Pack12005/Cinematic_Footstep_03"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Beach_Crowd_01",
+    "commonSoundId": 200003,
+    "id": 10060827,
+    "soundEffect": "event:/Cinematic/Pack12005/Cinematic_Footstep_01"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Beach_01",
+    "commonSoundId": 200002,
+    "id": 10060875
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Beach_01",
+    "commonSoundId": 200002,
+    "id": 10060911,
+    "soundEffect": "event:/Cinematic/Common/Common_Cloth_Move_02"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Beach_01",
+    "commonSoundId": 200002,
+    "id": 10060936,
+    "soundEffect": "event:/Cinematic/SPack14/Cinematic_FallingRock_02"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Beach_01",
+    "commonSoundId": 210016,
+    "id": 10060940,
+    "soundEffect": "event:/SFX/Battle_Weapons/Common_Gun_Sniper_Attack_01"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Beach_01",
+    "commonSoundId": 210016,
+    "id": 10060950,
+    "soundEffect": "event:/Cinematic/Pack11001/Cinematic_Slap_Cheek_01"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Beach_01",
+    "commonSoundId": 210016,
+    "id": 10060954,
+    "soundEffect": "event:/Cinematic/SPack09/Cinematic_FallingRock_Explosion_01"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Beach_01",
+    "commonSoundId": 210016,
+    "id": 10060963,
+    "soundEffect": "event:/Cinematic/Pack11006/Cinematic_Footstep_People_01"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Beach_01",
+    "commonSoundId": 200002,
+    "id": 10060967
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_P1007_Interior_01",
+    "commonSoundId": 200002,
+    "id": 10060997
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_P1007_Interior_01",
+    "commonSoundId": 200002,
+    "id": 10060998,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_01"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Beach_01",
+    "commonSoundId": 200002,
+    "id": 10061121
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Beach_01",
+    "commonSoundId": 200002,
+    "id": 10061146,
+    "soundEffect": "event:/Cinematic/Pack11001/Cinematic_Slap_Cheek_01"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Beach_01",
+    "commonSoundId": 210015,
+    "id": 10061158
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Beach_01",
+    "commonSoundId": 210015,
+    "id": 10061169
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Beach_01",
+    "commonSoundId": 210015,
+    "id": 10061200,
+    "soundEffect": "event:/Cinematic/Pack12005/Cinematic_Footstep_03"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Beach_01",
+    "commonSoundId": 210015,
+    "id": 10061215,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char001006/Cinematic_Char001006_09"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Beach_01",
+    "commonSoundId": 210016,
+    "id": 10061242,
+    "soundEffect": "event:/Cinematic/Pack2005/Cinematic_AluCan_Throw_01"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Beach_01",
+    "commonSoundId": 210016,
+    "id": 10061247,
+    "soundEffect": "event:/Cinematic/Pack2005/Cinematic_Electric_Force_01"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Beach_01",
+    "commonSoundId": 210016,
+    "id": 10061248,
+    "soundEffect": "event:/SFX/Battle_Hit/Common_Punch_Mid_Hit_02"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Beach_01",
+    "commonSoundId": 210016,
+    "id": 10061249,
+    "soundEffect": "event:/SFX/Battle_Hit/Common_Punch_Mid_Hit_02"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Beach_01",
+    "commonSoundId": 210016,
+    "id": 10061250,
+    "soundEffect": "event:/Characters/PC/Common/Bodyfall/Common_Bodyfall_Female_Start_01"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Beach_01",
+    "commonSoundId": 210016,
+    "id": 10061256,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char001006/Cinematic_Char001006_10"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Beach_01",
+    "commonSoundId": 200002,
+    "id": 10061261
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Beach_01",
+    "commonSoundId": 200002,
+    "id": 10061273,
+    "soundEffect": "event:/Cinematic/Pack12005/Cinematic_Crowd_Reaction_01"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Beach_01",
+    "commonSoundId": 200002,
+    "id": 10061274,
+    "soundEffect": "event:/Cinematic/Pack11006/Cinematic_Footstep_People_01"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Beach_01",
+    "commonSoundId": 200002,
+    "id": 10061286,
+    "soundEffect": "event:/Cinematic/Pack11001/Cinematic_Screen_Chimes_01"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Beach_01",
+    "commonSoundId": 200002,
+    "id": 10061305,
+    "soundEffect": "event:/Cinematic/CPack01/CInematic_HeartBeat_03"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 10061346
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 10061349,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_01"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 10061362,
+    "soundEffect": "event:/Cinematic/Pack11001/Cinematic_Screen_Chimes_01"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 10061377,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char001006/Cinematic_Char001006_08"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 10061399,
+    "soundEffect": "event:/Cinematic/SPack13/Cinematic_Cloth_Move_01"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 10061404,
+    "soundEffect": "event:/Cinematic/Pack11001/Cinematic_Screen_Chimes_01"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_P1007_Interior_01",
+    "commonSoundId": 200002,
+    "id": 10061419
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_P1007_Interior_01",
+    "commonSoundId": 200002,
+    "id": 10061446,
+    "soundEffect": "event:/Cinematic/Pack12005/Cinematic_Footstep_01"
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 11060001
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 11060020,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_01"
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 11060081,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char001106/Cinematic_Char001106_01"
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 11060090,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char001106/Cinematic_Char001106_02"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 11060201,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_01"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 11060233,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char001106/Cinematic_Char001106_03"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 11060238,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char001106/Cinematic_Char001106_03"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 11060243,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char001106/Cinematic_Char001106_03"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 11060260,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char001106/Cinematic_Char001106_03"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 11060309,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_16"
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 11060501
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 11060503,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char001106/Cinematic_Char001106_04"
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 11060504,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char001106/Cinematic_Char001106_06"
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 11060511,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char001106/Cinematic_Char001106_05"
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 11060513,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_12"
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 11060622,
+    "soundEffect": "event:/Cinematic/Pack11001/Cinematic_Barefoot_Wood_02"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Cafe_01",
+    "commonSoundId": 200003,
+    "id": 11060712
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Cafe_01",
+    "commonSoundId": 200003,
+    "id": 11060715,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char001106/Cinematic_Char001106_07"
+  },
+  {
+    "commonSoundId": 200003,
+    "id": 11060748
+  },
+  {
+    "commonSoundId": 200003,
+    "id": 11060770,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char001106/Cinematic_Char001106_13"
+  },
+  {
+    "commonSoundId": 200003,
+    "id": 11060801,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char001106/Cinematic_Char001106_02"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Raining_01",
+    "commonSoundId": 200003,
+    "id": 11060825
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Raining_01",
+    "commonSoundId": 200003,
+    "id": 11060862,
+    "soundEffect": "event:/Cinematic/Common/Common_Character_Hug_01"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Raining_01",
+    "commonSoundId": 200002,
+    "id": 11060864,
+    "soundEffect": "event:/Cinematic/Pack11001/Cinematic_Screen_Chimes_01"
+  },
+  {
+    "id": 11060880
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 11061001,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_01"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 11061032,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char001106/Cinematic_Char001106_08"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 11061055,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char001106/Cinematic_Char001106_09"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 11061130,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char001106/Cinematic_Char001106_02"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Cafe_01",
+    "commonSoundId": 200003,
+    "id": 11061251
+  },
+  {
+    "commonSoundId": 200003,
+    "id": 11061273,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_09"
+  },
+  {
+    "commonSoundId": 200003,
+    "id": 11061336,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char001106/Cinematic_Char001106_14"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Restaurant_01",
+    "commonSoundId": 200003,
+    "id": 11061344
+  },
+  {
+    "commonSoundId": 200003,
+    "id": 11061375
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 11061551
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 11061569,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char001106/Cinematic_Char001106_10"
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 11061603,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003402/Cinematic_Char003402_10"
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 11061606,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char001106/Cinematic_Char001106_11"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 11061641,
+    "soundEffect": "event:/Cinematic/Pack11001/Cinematic_Screen_Chimes_01"
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 11061851,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char001106/Cinematic_Char001106_06"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 11061943
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 11061996,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char001106/Cinematic_Char001106_15"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 11062111
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 11062151,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_11"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 11062155,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_04"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 11062221,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char001106/Cinematic_Char001106_16"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 11062351
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 11062359,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char001106/Cinematic_Char001106_07"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 11062369,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char001106/Cinematic_Char001106_12"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 11062433,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_15"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 11062434,
+    "soundEffect": "event:/Cinematic/Pack11001/Cinematic_Screen_Chimes_01"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Restaurant_01",
+    "commonSoundId": 200001,
+    "id": 32030001,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_01"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Restaurant_01",
+    "commonSoundId": 200001,
+    "id": 32030008,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003203/Cinematic_Char003203_01"
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 32030025
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 32030028,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_04"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Restaurant_01",
+    "commonSoundId": 200001,
+    "id": 32030301
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 32030306
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 32030307
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 32030601
+  },
+  {
+    "commonSoundId": 210003,
+    "id": 32030646,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003203/Cinematic_Char003203_13"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 32030648
+  },
+  {
+    "commonSoundId": 210003,
+    "id": 32030661
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 32030801
+  },
+  {
+    "commonSoundId": 210003,
+    "id": 32030830,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003203/Cinematic_Char003203_02"
+  },
+  {
+    "commonSoundId": 210003,
+    "id": 32030870
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 32031101
+  },
+  {
+    "commonSoundId": 210003,
+    "id": 32031112,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003203/Cinematic_Char003203_03"
+  },
+  {
+    "commonSoundId": 210003,
+    "id": 32031138,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003203/Cinematic_Char003203_04"
+  },
+  {
+    "commonSoundId": 210003,
+    "id": 32031149,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003203/Cinematic_Char003203_05"
+  },
+  {
+    "commonSoundId": 210003,
+    "id": 32031165
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 32031401
+  },
+  {
+    "commonSoundId": 210003,
+    "id": 32031404,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_09"
+  },
+  {
+    "commonSoundId": 210003,
+    "id": 32031429,
+    "soundEffect": "event:/Cinematic/Pack12005/Cinematic_Acid_Fizz_01"
+  },
+  {
+    "commonSoundId": 210003,
+    "id": 32031452,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_16"
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 32031701
+  },
+  {
+    "commonSoundId": 210003,
+    "id": 32031771,
+    "soundEffect": "event:/Cinematic/Pack2005/Cinematic_Electric_Attack_01"
+  },
+  {
+    "commonSoundId": 210003,
+    "id": 32031777,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003203/Cinematic_Char003203_05"
+  },
+  {
+    "commonSoundId": 210003,
+    "id": 32031792
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 32032001
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 32032015,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003203/Cinematic_Char003203_06"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 32032080,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003203/Cinematic_Char003203_07"
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 32032201
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Restaurant_01",
+    "commonSoundId": 210003,
+    "id": 32032206
+  },
+  {
+    "commonSoundId": 210003,
+    "id": 32032217
+  },
+  {
+    "commonSoundId": 210003,
+    "id": 32032289,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003203/Cinematic_Char003203_08"
+  },
+  {
+    "commonSoundId": 210003,
+    "id": 32032293,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003203/Cinematic_Char003203_13"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 32032501
+  },
+  {
+    "commonSoundId": 210003,
+    "id": 32032511
+  },
+  {
+    "commonSoundId": 210003,
+    "id": 32032535,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_15"
+  },
+  {
+    "commonSoundId": 210003,
+    "id": 32032555,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003203/Cinematic_Char003203_09"
+  },
+  {
+    "commonSoundId": 210003,
+    "id": 32032557,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003203/Cinematic_Char003203_10"
+  },
+  {
+    "commonSoundId": 210003,
+    "id": 32032560,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003203/Cinematic_Char003203_11"
+  },
+  {
+    "commonSoundId": 210003,
+    "id": 32032562,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003203/Cinematic_Char003203_12"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Restaurant_01",
+    "commonSoundId": 200001,
+    "id": 33030001,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_01"
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 33030028,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_02"
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 33030064,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_03"
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 33030080,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Diner_Opening/Diner_Opening_03"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Restaurant_01",
+    "commonSoundId": 200002,
+    "id": 33030301
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 33030307,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_04"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 33030341,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_03"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Restaurant_01",
+    "commonSoundId": 200001,
+    "id": 33030601,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_05"
+  },
+  {
+    "commonSoundId": 200003,
+    "id": 33030621,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_07"
+  },
+  {
+    "commonSoundId": 200003,
+    "id": 33030624,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_08"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 33030626,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_06"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 33030655,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_08"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_P1007_Day_01",
+    "commonSoundId": 200003,
+    "id": 33030667,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_06"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Restaurant_01",
+    "commonSoundId": 200001,
+    "id": 33030901,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_01"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_P1007_Day_01",
+    "commonSoundId": 200003,
+    "id": 33030905,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_06"
+  },
+  {
+    "commonSoundId": 200003,
+    "id": 33030941,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_08"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Restaurant_01",
+    "commonSoundId": 200001,
+    "id": 33031201,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_01"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_P1007_Day_01",
+    "commonSoundId": 200002,
+    "id": 33031212,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_09"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 33031239,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_08"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Restaurant_01",
+    "commonSoundId": 200001,
+    "id": 33031501,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_01"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_P1007_Day_01",
+    "commonSoundId": 200001,
+    "id": 33031502,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_06"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 33031513
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_P1007_Night_01",
+    "commonSoundId": 200002,
+    "id": 33031529
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 33031546,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_10"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_P1007_Night_01",
+    "commonSoundId": 200002,
+    "id": 33031559
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Restaurant_01",
+    "commonSoundId": 200002,
+    "id": 33031801,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_01"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 33031829,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_03"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Restaurant_01",
+    "commonSoundId": 200001,
+    "id": 33032101,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_01"
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 33032122,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_08"
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 33032123,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_03"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_P1007_Night_01",
+    "commonSoundId": 200003,
+    "id": 33032138
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 33032141,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_11"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_P1007_Day_01",
+    "commonSoundId": 200003,
+    "id": 33032170,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_06"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Restaurant_01",
+    "commonSoundId": 200001,
+    "id": 33032401,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_01"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 33032418
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Cafe_01",
+    "commonSoundId": 200002,
+    "id": 33032425,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_12"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_P1007_Day_01",
+    "commonSoundId": 200003,
+    "id": 33032448,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_09"
+  },
+  {
+    "commonSoundId": 200003,
+    "id": 33032461,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_08"
+  },
+  {
+    "commonSoundId": 200003,
+    "id": 33032498,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_13"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Restaurant_01",
+    "commonSoundId": 200001,
+    "id": 33032701,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_05"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_P1007_Day_01",
+    "commonSoundId": 200003,
+    "id": 33032714,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_14"
+  },
+  {
+    "id": 33032730
+  },
+  {
+    "commonSoundId": 200003,
+    "id": 33032734,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_16"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 33032735
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 33033105,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_14"
+  },
+  {
+    "id": 33033108
+  },
+  {
+    "id": 33033125,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_15"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Restaurant_01",
+    "commonSoundId": 200001,
+    "id": 34020001
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 34020004,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_01"
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 34020036,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003402/Cinematic_Char003402_01"
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 34020040,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003402/Cinematic_Char003402_02"
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 34020049,
+    "soundEffect": "event:/Cinematic/Pack12005/Cinematic_Footstep_01"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 34020201,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_01"
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 34020501
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 34020503,
+    "soundEffect": "event:/Cinematic/Pack12005/Cinematic_Footstep_02"
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 34020535,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003402/Cinematic_Char003402_03"
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 34020540,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003402/Cinematic_Char003402_04"
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 34020543,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003402/Cinematic_Char003402_05"
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 34020545,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003402/Cinematic_Char003402_06"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 34020555
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 34020573,
+    "soundEffect": "event:/Cinematic/Pack12005/Cinematic_Footstep_01"
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 34020801,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_01"
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 34020817,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003402/Cinematic_Char003402_07"
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 34020818,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003402/Cinematic_Char003402_08"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 34020825
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 34021101,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_01"
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 34021111,
+    "soundEffect": "event:/Cinematic/Pack12005/Cinematic_Footstep_01"
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 34021114,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003402/Cinematic_Char003402_08"
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 34021135,
+    "soundEffect": "event:/Cinematic/Pack12005/Cinematic_Footstep_01"
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 34021401
+  },
+  {
+    "commonSoundId": 210003,
+    "id": 34021412
+  },
+  {
+    "commonSoundId": 210003,
+    "id": 34021465,
+    "soundEffect": "event:/Cinematic/Pack12005/Cinematic_Footstep_04"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_P1007_Night_01",
+    "commonSoundId": 210003,
+    "id": 34021474,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_09"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 34021701
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 34021717,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003402/Cinematic_Char003402_09"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 34021738,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_04"
+  },
+  {
+    "commonSoundId": 200003,
+    "id": 34022001
+  },
+  {
+    "commonSoundId": 200003,
+    "id": 34022021,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003402/Cinematic_Char003402_10"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 34022027,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003402/Cinematic_Char003402_11"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 34022057,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_10"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 34022072,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003402/Cinematic_Char003402_12"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 34022301
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 34022370,
+    "soundEffect": "event:/Cinematic/Pack12005/Cinematic_Footstep_02"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 34022601,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_01"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 34022635,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_10"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 34022637,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003402/Cinematic_Char003402_13"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 34022670
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 608020001
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 608020006,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_05"
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 608020015,
+    "soundEffect": "event:/Characters/PC/Common/Moves/Common_Cloth_Move_01"
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 608020017,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_05"
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 608020046,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_11"
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 608020051,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003203/Cinematic_Char003203_12"
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 608020201,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_01"
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 608020216,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char060802/Cinematic_Char060802_01"
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 608020287,
+    "soundEffect": "event:/Cinematic/Pack11006/Cinematic_Footstep_Slow_01"
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 608020401
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 608020404,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_01"
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 608020426,
+    "soundEffect": "event:/Cinematic/SPack01/Cinematic_Paper_Give_03"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 608020601
+  },
+  {
+    "commonSoundId": 210014,
+    "id": 608020615
+  },
+  {
+    "commonSoundId": 210014,
+    "id": 608020629,
+    "soundEffect": "event:/Cinematic/Common/Common_Character_Hug_01"
+  },
+  {
+    "commonSoundId": 210014,
+    "id": 608020630,
+    "soundEffect": "event:/Characters/PC/Common/Bodyfall/Common_Bodyfall_Female_End_01"
+  },
+  {
+    "commonSoundId": 210014,
+    "id": 608020662,
+    "soundEffect": "event:/Characters/PC/Common/Bodyfall/Common_Bodyfall_Female_Start_01"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 608020666,
+    "soundEffect": "event:/Cinematic/Pack11001/Cinematic_Screen_Chimes_01"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_P1007_Day_01",
+    "commonSoundId": 200003,
+    "id": 608020801
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_P1007_Day_01",
+    "commonSoundId": 200003,
+    "id": 608020825,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_15"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_P1007_Day_01",
+    "commonSoundId": 200003,
+    "id": 608020850,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char060802/Cinematic_Char060802_02"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_P1007_Day_01",
+    "commonSoundId": 200003,
+    "id": 608020855,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char060802/Cinematic_Char060802_03"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_P1007_Day_01",
+    "commonSoundId": 200003,
+    "id": 608020918,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_08"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_P1007_Day_01",
+    "commonSoundId": 200003,
+    "id": 608020923,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_08"
+  },
+  {
+    "commonSoundId": 200003,
+    "id": 608020924
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Cafe_01",
+    "commonSoundId": 200003,
+    "id": 608021051
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Cafe_01",
+    "commonSoundId": 200003,
+    "id": 608021095,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char060802/Cinematic_Char060802_08"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Cafe_01",
+    "commonSoundId": 200003,
+    "id": 608021098,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_08"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Cafe_01",
+    "commonSoundId": 210015,
+    "id": 608021105
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Cafe_01",
+    "commonSoundId": 210015,
+    "id": 608021125,
+    "soundEffect": "event:/Cinematic/Pack11006/Cinematic_Footstep_Run_01"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Cafe_01",
+    "commonSoundId": 210015,
+    "id": 608021131,
+    "soundEffect": "event:/Cinematic/Common/Common_Character_Hug_01"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Cafe_01",
+    "commonSoundId": 210015,
+    "id": 608021133,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_14"
+  },
+  {
+    "commonSoundId": 210015,
+    "id": 608021143
+  },
+  {
+    "ambienceName": "event:/Cinematic/Pack11006/Cinematic_Wind_Blow_Loop_02",
+    "commonSoundId": 210015,
+    "id": 608021145
+  },
+  {
+    "ambienceName": "event:/Cinematic/Pack11006/Cinematic_Wind_Blow_Loop_02",
+    "commonSoundId": 210015,
+    "id": 608021155,
+    "soundEffect": "event:/Cinematic/CPack07/Cinematic_Weapon_Aim_01"
+  },
+  {
+    "ambienceName": "event:/Cinematic/Pack11006/Cinematic_Wind_Blow_Loop_02",
+    "commonSoundId": 210015,
+    "id": 608021156,
+    "soundEffect": "event:/Cinematic/Pack2002/Cinematic_Gun_Shoot_01"
+  },
+  {
+    "ambienceName": "event:/Cinematic/Pack11006/Cinematic_Wind_Blow_Loop_02",
+    "commonSoundId": 210015,
+    "id": 608021178,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char060802/Cinematic_Char060802_04"
+  },
+  {
+    "commonSoundId": 210015,
+    "id": 608021180
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_P1007_Day_01",
+    "commonSoundId": 200003,
+    "id": 608021301
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_P1007_Day_01",
+    "commonSoundId": 200003,
+    "id": 608021311,
+    "soundEffect": "event:/Cinematic/Common/Common_Character_Hug_01"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_P1007_Day_01",
+    "commonSoundId": 200003,
+    "id": 608021328,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_14"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 608021395
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 608021405,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char060802/Cinematic_Char060802_09"
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 608021551
+  },
+  {
+    "commonSoundId": 210014,
+    "id": 608021601
+  },
+  {
+    "commonSoundId": 210014,
+    "id": 608021616,
+    "soundEffect": "event:/Cinematic/Pack11001/Cinematic_Screen_Chimes_01"
+  },
+  {
+    "commonSoundId": 210014,
+    "id": 608021627,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003203/Cinematic_Char003203_12"
+  },
+  {
+    "commonSoundId": 210014,
+    "id": 608021629,
+    "soundEffect": "event:/Cinematic/Pack2001/Cinematic_Clap_03"
+  },
+  {
+    "commonSoundId": 210015,
+    "id": 608021751
+  },
+  {
+    "commonSoundId": 210016,
+    "id": 608021795,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char060802/Cinematic_Char060802_04"
+  },
+  {
+    "commonSoundId": 210016,
+    "id": 608021828,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char060802/Cinematic_Char060802_04"
+  },
+  {
+    "commonSoundId": 210016,
+    "id": 608021832,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003203/Cinematic_Char003203_05"
+  },
+  {
+    "commonSoundId": 210016,
+    "id": 608021837,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char060802/Cinematic_Char060802_05"
+  },
+  {
+    "commonSoundId": 210016,
+    "id": 608021840,
+    "soundEffect": "event:/Cinematic/CPack07/Cinematic_Weapon_Aim_01"
+  },
+  {
+    "commonSoundId": 210016,
+    "id": 608021842,
+    "soundEffect": "event:/Cinematic/Pack2002/Cinematic_Gun_Shoot_01"
+  },
+  {
+    "commonSoundId": 210016,
+    "id": 608021853,
+    "soundEffect": "event:/Cinematic/SPack10/Cinematic_Door_Open_02"
+  },
+  {
+    "commonSoundId": 210016,
+    "id": 608021859,
+    "soundEffect": "event:/Cinematic/Pack2001/Cinematic_Phone_Throw_01"
+  },
+  {
+    "commonSoundId": 210016,
+    "id": 608021867,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char060802/Cinematic_Char060802_04"
+  },
+  {
+    "commonSoundId": 210016,
+    "id": 608021882,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_14"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 608022001
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 608022004,
+    "soundEffect": "event:/Cinematic/Pack11006/Cinematic_Footstep_Run_01"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 608022035,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char060802/Cinematic_Char060802_06"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 608022059,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_11"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 608022063,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char060802/Cinematic_Char060802_07"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 608022064,
+    "soundEffect": "event:/Cinematic/Pack11001/Cinematic_Screen_Chimes_01"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Cafe_01",
+    "commonSoundId": 200007,
+    "id": 664030001
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Cafe_01",
+    "commonSoundId": 200007,
+    "id": 664030005,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_01"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Cafe_01",
+    "commonSoundId": 200007,
+    "id": 664030049,
+    "soundEffect": "event:/Cinematic/CPack04/Cinematic_PowerCut_01"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Cafe_01",
+    "commonSoundId": 200007,
+    "id": 664030054,
+    "soundEffect": "event:/Cinematic/Common/Common_Camera_Rise_01"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Cafe_01",
+    "commonSoundId": 200007,
+    "id": 664030075,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char066403/Cinematic_Char066403_01"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Cafe_01",
+    "commonSoundId": 200007,
+    "id": 664030097,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char001106/Cinematic_Char001106_16"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Cafe_01",
+    "commonSoundId": 200007,
+    "id": 664030147,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_03"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Cafe_01",
+    "commonSoundId": 200007,
+    "id": 664030301
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Cafe_01",
+    "commonSoundId": 200007,
+    "id": 664030305,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_01"
+  },
+  {
+    "commonSoundId": 200007,
+    "id": 664030346
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Cafe_01",
+    "commonSoundId": 200007,
+    "id": 664030354,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char001006/Cinematic_Char001006_02"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Cafe_01",
+    "commonSoundId": 200007,
+    "id": 664030364,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char066403/Cinematic_Char066403_02"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Cafe_01",
+    "commonSoundId": 200007,
+    "id": 664030369,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char066403/Cinematic_Char066403_03"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Cafe_01",
+    "commonSoundId": 200007,
+    "id": 664030551
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Cafe_01",
+    "commonSoundId": 200007,
+    "id": 664030555,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_01"
+  },
+  {
+    "commonSoundId": 210026,
+    "id": 664030588,
+    "soundEffect": "event:/Cinematic/CPack04/Cinematic_PowerCut_01"
+  },
+  {
+    "commonSoundId": 210026,
+    "id": 664030621,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char001006/Cinematic_Char001006_02"
+  },
+  {
+    "commonSoundId": 210026,
+    "id": 664030623,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Diner_Opening/Diner_Opening_03"
+  },
+  {
+    "commonSoundId": 210026,
+    "id": 664030637,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char001106/Cinematic_Char001106_05"
+  },
+  {
+    "commonSoundId": 210026,
+    "id": 664030644,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char001106/Cinematic_Char001106_10"
+  },
+  {
+    "commonSoundId": 210026,
+    "id": 664030658,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char001106/Cinematic_Char001106_05"
+  },
+  {
+    "commonSoundId": 210026,
+    "id": 664030659,
+    "soundEffect": "event:/Cinematic/Pack11006/Cinematic_Dish_Crash_01"
+  },
+  {
+    "commonSoundId": 210026,
+    "id": 664030673,
+    "soundEffect": "event:/Cinematic/Pack12005/Cinematic_Footstep_03"
+  },
+  {
+    "commonSoundId": 210026,
+    "id": 664030676,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char066403/Cinematic_Char066403_04"
+  },
+  {
+    "commonSoundId": 210026,
+    "id": 664030677,
+    "soundEffect": "event:/Cinematic/Common/Camera_Impact_06"
+  },
+  {
+    "commonSoundId": 200006,
+    "id": 664030851
+  },
+  {
+    "commonSoundId": 200006,
+    "id": 664030855,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_01"
+  },
+  {
+    "commonSoundId": 200006,
+    "id": 664030949,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_03"
+  },
+  {
+    "commonSoundId": 210026,
+    "id": 664031101
+  },
+  {
+    "commonSoundId": 210026,
+    "id": 664031131,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Diner_Opening/Diner_Opening_03"
+  },
+  {
+    "commonSoundId": 210026,
+    "id": 664031134,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char001006/Cinematic_Char001006_02"
+  },
+  {
+    "commonSoundId": 210026,
+    "id": 664031139,
+    "soundEffect": "event:/Cinematic/Pack11006/InnocentFullmoon/Cinematic_Footstep_People_02"
+  },
+  {
+    "commonSoundId": 210026,
+    "id": 664031149,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char001006/Cinematic_Char001006_02"
+  },
+  {
+    "commonSoundId": 210026,
+    "id": 664031172,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003402/Cinematic_Char003402_09"
+  },
+  {
+    "commonSoundId": 210026,
+    "id": 664031180,
+    "soundEffect": "event:/Monsters/Common/Large/Large_Monster_Move"
+  },
+  {
+    "id": 664031200,
+    "soundEffect": "event:/Cinematic/Common/Camera_Impact_05"
+  },
+  {
+    "id": 664031212,
+    "soundEffect": "event:/Monsters/Common/Large/Large_Monster_Move"
+  },
+  {
+    "commonSoundId": 200006,
+    "id": 664031214
+  },
+  {
+    "commonSoundId": 200006,
+    "id": 664031226
+  },
+  {
+    "commonSoundId": 200006,
+    "id": 664031237,
+    "soundEffect": "event:/Cinematic/Pack11006/Cinematic_Footstep_People_01"
+  },
+  {
+    "commonSoundId": 200006,
+    "id": 664031351
+  },
+  {
+    "commonSoundId": 200006,
+    "id": 664031362,
+    "soundEffect": "event:/Cinematic/Pack11006/GoingHome/Cinematic_Bodyfall_02"
+  },
+  {
+    "commonSoundId": 200006,
+    "id": 664031381,
+    "soundEffect": "event:/Cinematic/Common/Camera_Impact_06"
+  },
+  {
+    "commonSoundId": 200006,
+    "id": 664031403,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_05"
+  },
+  {
+    "commonSoundId": 210026,
+    "id": 664031404
+  },
+  {
+    "commonSoundId": 210026,
+    "id": 664031434,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_14"
+  },
+  {
+    "ambienceName": "event:/Cinematic/Visual_Novel/Char066403/Cinematic_Char066403_07",
+    "commonSoundId": 210016,
+    "id": 664031445
+  },
+  {
+    "ambienceName": "event:/Cinematic/Visual_Novel/Char066403/Cinematic_Char066403_07",
+    "commonSoundId": 210016,
+    "id": 664031452,
+    "soundEffect": "event:/Cinematic/SPack04/Cinematic_Body_Throw_01"
+  },
+  {
+    "ambienceName": "event:/Cinematic/Visual_Novel/Char066403/Cinematic_Char066403_07",
+    "commonSoundId": 210016,
+    "id": 664031454,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char066403/Cinematic_Char066403_08"
+  },
+  {
+    "ambienceName": "event:/Cinematic/Visual_Novel/Char066403/Cinematic_Char066403_07",
+    "commonSoundId": 210016,
+    "id": 664031457,
+    "soundEffect": "event:/Cinematic/CPack02/Cinematic_Cloth_Throw_01"
+  },
+  {
+    "commonSoundId": 210016,
+    "id": 664031458,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char066403/Cinematic_Char066403_05"
+  },
+  {
+    "commonSoundId": 210016,
+    "id": 664031460,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char001106/Cinematic_Char001106_05"
+  },
+  {
+    "commonSoundId": 200006,
+    "id": 664031469
+  },
+  {
+    "commonSoundId": 200006,
+    "id": 664031486,
+    "soundEffect": "event:/Characters/PC/Common/Moves/Common_Character_Sit_01"
+  },
+  {
+    "commonSoundId": 200006,
+    "id": 664031510,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_15"
+  },
+  {
+    "commonSoundId": 210026,
+    "id": 664031651
+  },
+  {
+    "commonSoundId": 210026,
+    "id": 664031676,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char060802/Cinematic_Char060802_01"
+  },
+  {
+    "commonSoundId": 210026,
+    "id": 664031680,
+    "soundEffect": "event:/Cinematic/Pack11006/Cinematic_Chain_Move_01"
+  },
+  {
+    "commonSoundId": 210026,
+    "id": 664031688,
+    "soundEffect": "event:/Cinematic/Pack12005/Cinematic_Metal_Movement_02"
+  },
+  {
+    "commonSoundId": 210026,
+    "id": 664031704,
+    "soundEffect": "event:/Cinematic/Pack11001/Cinematic_Screen_Chimes_01"
+  },
+  {
+    "commonSoundId": 210026,
+    "id": 664031716,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char060802/Cinematic_Char060802_01"
+  },
+  {
+    "commonSoundId": 210026,
+    "id": 664031720,
+    "soundEffect": "event:/Cinematic/Pack11006/InnocentFullmoon/Cinematic_Footstep_People_02"
+  },
+  {
+    "commonSoundId": 210026,
+    "id": 664031725,
+    "soundEffect": "event:/Cinematic/Pack11006/GoingHome/Cinematic_Footstep_Slow_02"
+  },
+  {
+    "commonSoundId": 210026,
+    "id": 664031745,
+    "soundEffect": "event:/Cinematic/Pack11006/Cinematic_Footstep_People_01"
+  },
+  {
+    "commonSoundId": 210026,
+    "id": 664031749,
+    "soundEffect": "event:/Cinematic/CPack04/Cinematic_PowerCut_01"
+  },
+  {
+    "commonSoundId": 210026,
+    "id": 664031755,
+    "soundEffect": "event:/Cinematic/Pack11006/Cinematic_Footstep_People_01"
+  },
+  {
+    "commonSoundId": 210026,
+    "id": 664031765,
+    "soundEffect": "event:/Cinematic/CPack04/Cinematic_PowerCut_01"
+  },
+  {
+    "commonSoundId": 210026,
+    "id": 664031768,
+    "soundEffect": "event:/SFX/Battle_Hit/Common_Punch_Mid_Hit_02"
+  },
+  {
+    "commonSoundId": 210026,
+    "id": 664031770,
+    "soundEffect": "event:/Cinematic/Pack11006/GoingHome/Cinematic_Bodyfall_02"
+  },
+  {
+    "commonSoundId": 210026,
+    "id": 664031777,
+    "soundEffect": "event:/Cinematic/Pack11006/Cinematic_Footstep_Run_01"
+  },
+  {
+    "commonSoundId": 210026,
+    "id": 664031901
+  },
+  {
+    "commonSoundId": 210026,
+    "id": 664031918,
+    "soundEffect": "event:/Cinematic/SPack03/Cinematic_Key_Open_01"
+  },
+  {
+    "commonSoundId": 210026,
+    "id": 664031919,
+    "soundEffect": "event:/Cinematic/Pack12005/Cinematic_Door_Metal_Open_02"
+  },
+  {
+    "commonSoundId": 200007,
+    "id": 664031920,
+    "soundEffect": "event:/Cinematic/Pack11001/Cinematic_Screen_Chimes_01"
+  },
+  {
+    "commonSoundId": 200007,
+    "id": 664032101
+  },
+  {
+    "commonSoundId": 200007,
+    "id": 664032103,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_01"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Cafe_01",
+    "commonSoundId": 210026,
+    "id": 664032351
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Cafe_01",
+    "commonSoundId": 210026,
+    "id": 664032376,
+    "soundEffect": "event:/Cinematic/Pack12003/Cinematic_Footstep_Highheel_01"
+  },
+  {
+    "commonSoundId": 210026,
+    "id": 664032380
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Fire_01",
+    "commonSoundId": 210026,
+    "id": 664032381
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Fire_01",
+    "commonSoundId": 210026,
+    "id": 664032388,
+    "soundEffect": "event:/Cinematic/Pack11006/Cinematic_Fire_Burn_Soft_01"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Fire_01",
+    "commonSoundId": 210026,
+    "id": 664032415,
+    "soundEffect": "event:/Cinematic/Pack12005/Cinematic_Crowd_Reaction_01"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Fire_01",
+    "commonSoundId": 210026,
+    "id": 664032419,
+    "soundEffect": "event:/Cinematic/Pack11006/GoingHome/Cinematic_Footstep_Wood_01"
+  },
+  {
+    "commonSoundId": 210026,
+    "id": 664032428,
+    "soundEffect": "event:/Cinematic/CPack02/Cinematic_Cloth_Throw_01"
+  },
+  {
+    "commonSoundId": 200007,
+    "id": 664032429,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char066403/Cinematic_Char066403_06"
+  },
+  {
+    "commonSoundId": 200007,
+    "id": 664032441,
+    "soundEffect": "event:/Cinematic/CPack04/Cinematic_Cheer_02"
+  },
+  {
+    "commonSoundId": 200006,
+    "id": 664032464
+  },
+  {
+    "commonSoundId": 200006,
+    "id": 664032466,
+    "soundEffect": "event:/Characters/PC/Common/Moves/Common_Character_Sit_01"
+  },
+  {
+    "commonSoundId": 200006,
+    "id": 664032507,
+    "soundEffect": "event:/Cinematic/Common/Common_Character_Hug_01"
+  },
+  {
+    "commonSoundId": 200006,
+    "id": 664032512,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_15"
+  },
+  {
+    "commonSoundId": 210026,
+    "id": 664033009
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Cafe_01",
+    "commonSoundId": 200001,
+    "id": 676030001
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Cafe_01",
+    "commonSoundId": 200001,
+    "id": 676030004,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_01"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Cafe_01",
+    "commonSoundId": 200001,
+    "id": 676030006,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_16"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Cafe_01",
+    "commonSoundId": 200001,
+    "id": 676030056,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003203/Cinematic_Char003203_02"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Cafe_01",
+    "commonSoundId": 200001,
+    "id": 676030074,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003203/Cinematic_Char003203_02"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_Cafe_01",
+    "commonSoundId": 200001,
+    "id": 676030134,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_16"
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 676030138
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 676030301
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 676030302,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_01"
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 676030381,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003203/Cinematic_Char003203_02"
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 676030457,
+    "soundEffect": "event:/Cinematic/Common/Common_Character_Hug_01"
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 676030601
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 676030603,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_01"
+  },
+  {
+    "commonSoundId": 200001,
+    "id": 676030606
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 676030901,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003203/Cinematic_Char003203_02"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 676030903,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char001106/Cinematic_Char001106_04"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 676030953,
+    "soundEffect": "event:/Cinematic/Pack11001/Cinematic_Screen_Chimes_01"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 676031041,
+    "soundEffect": "event:/Cinematic/Common/Common_Character_Hug_01"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 676031201
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 676031218,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char001106/Cinematic_Char001106_16"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_PoolParty_02",
+    "commonSoundId": 200003,
+    "id": 676031501
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_PoolParty_02",
+    "commonSoundId": 200003,
+    "id": 676031555,
+    "soundEffect": "event:/Cinematic/Pack2001/Cinematic_Water_Splash_01"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_PoolParty_02",
+    "commonSoundId": 200003,
+    "id": 676031574,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char067603/Cinematic_Char060802_03"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_PoolParty_02",
+    "commonSoundId": 200003,
+    "id": 676031579,
+    "soundEffect": "event:/Cinematic/Pack2007/Cinematic_WaterGun_03"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_PoolParty_02",
+    "commonSoundId": 200003,
+    "id": 676031580,
+    "soundEffect": "event:/Cinematic/Pack11001/Cinematic_Water_Splash_03"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_PoolParty_02",
+    "commonSoundId": 200003,
+    "id": 676031594,
+    "soundEffect": "event:/Cinematic/Pack2007/Cinematic_WaterGun_03"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_PoolParty_02",
+    "commonSoundId": 200003,
+    "id": 676031595,
+    "soundEffect": "event:/Cinematic/Pack2007/Cinematic_WaterGun_03"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_PoolParty_02",
+    "commonSoundId": 200003,
+    "id": 676031598,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char067603/Cinematic_Char060802_03"
+  },
+  {
+    "ambienceName": "event:/Ambiences/Visual_Novel/AMB_Common_PoolParty_02",
+    "commonSoundId": 200003,
+    "id": 676031614,
+    "soundEffect": "event:/Cinematic/Pack11001/Cinematic_Water_Splash_03"
+  },
+  {
+    "commonSoundId": 200003,
+    "id": 676031641
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 676031751
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 676031753,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_16"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 676031759,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_05"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 676031813,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char001106/Cinematic_Char001106_16"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 676031822,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003402/Cinematic_Char003402_12"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 676031825,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char067603/Cinematic_Char067603_01"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 676031826,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char067603/Cinematic_Char060802_02"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 676031829,
+    "soundEffect": "event:/Characters/PC/Common/Common/Bodyfall_Generic_Start_01"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 676031839,
+    "soundEffect": "event:/Cinematic/Common/Camera_Impact_04"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 676031840,
+    "soundEffect": "event:/Cinematic/Pack11001/Cinematic_Slap_Cheek_01"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 676031841,
+    "soundEffect": "event:/Cinematic/Pack11001/Cinematic_Slap_Cheek_01"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 676031842,
+    "soundEffect": "event:/Cinematic/Pack11001/Cinematic_Slap_Cheek_01"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 676031843,
+    "soundEffect": "event:/Cinematic/Pack11001/Cinematic_Slap_Cheek_01"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 676031851,
+    "soundEffect": "event:/Characters/PC/Common/Common/Bodyfall_Generic_Start_01"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 676031853,
+    "soundEffect": "event:/Cinematic/Pack11006/Cinematic_Footstep_People_01"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 676032001,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_03"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 676032089,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_01"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 676032092,
+    "soundEffect": "event:/Cinematic/Pack11006/InnocentFullmoon/Cinematic_Footstep_People_02"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 676032095,
+    "soundEffect": "event:/Cinematic/Pack2007/Cinematic_Screen_Chimes_02"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 676032121,
+    "soundEffect": "event:/Cinematic/Pack11006/Cinematic_Grab_Tight_01"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 676032126,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003203/Cinematic_Char003203_02"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 676032136,
+    "soundEffect": "event:/Cinematic/SPack05/Object_DarkPearl_Break_01"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 676032139,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char001106/Cinematic_Char001106_02"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 676032149,
+    "soundEffect": "event:/Cinematic/Common/Common_Cloth_Move_02"
+  },
+  {
+    "commonSoundId": 200003,
+    "id": 676032351
+  },
+  {
+    "commonSoundId": 200003,
+    "id": 676032457,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char067603/Cinematic_Char060802_04"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 676032601
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 676032638,
+    "soundEffect": "event:/Cinematic/Common/Common_Character_Hug_01"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 676032648,
+    "soundEffect": "event:/Cinematic/Pack11001/Cinematic_Screen_Chimes_01"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 676032663,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char001106/Cinematic_Char001106_16"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 676032667,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003303/Cinematic_Char003303_15"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 676032673,
+    "soundEffect": "event:/Cinematic/Visual_Novel/Char003402/Cinematic_Char003402_13"
+  },
+  {
+    "commonSoundId": 200002,
+    "id": 676032674,
+    "soundEffect": "event:/Cinematic/Pack11001/Cinematic_Screen_Chimes_01"
+  }
+]

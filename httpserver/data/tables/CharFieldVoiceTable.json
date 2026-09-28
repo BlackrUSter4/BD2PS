@@ -1,0 +1,1850 @@
+[
+  {
+    "damageVoiceName": "Common/Char000101/Char000101_Damage",
+    "dashVoiceName": "Common/Char000101/Char000101_Dash",
+    "id": 101,
+    "liftVoiceName": "Common/Char000101/Char000101_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000103/Char000103_Damage",
+    "dashVoiceName": "Common/Char000103/Char000103_Dash",
+    "id": 102,
+    "liftVoiceName": "Common/Char000103/Char000103_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000103/Char000103_Damage",
+    "dashVoiceName": "Common/Char000103/Char000103_Dash",
+    "id": 103,
+    "liftVoiceName": "Common/Char000103/Char000103_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000105/Char000105_Damage",
+    "dashVoiceName": "Common/Char000105/Char000105_Dash",
+    "id": 104,
+    "liftVoiceName": "Common/Char000105/Char000105_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000105/Char000105_Damage",
+    "dashVoiceName": "Common/Char000105/Char000105_Dash",
+    "id": 105,
+    "liftVoiceName": "Common/Char000105/Char000105_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000106/Char000106_Damage",
+    "dashVoiceName": "Common/Char000106/Char000106_Dash",
+    "id": 106,
+    "liftVoiceName": "Common/Char000106/Char000106_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000202/Char000202_Damage",
+    "dashVoiceName": "Common/Char000202/Char000202_Dash",
+    "id": 201,
+    "liftVoiceName": "Common/Char000202/Char000202_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000202/Char000202_Damage",
+    "dashVoiceName": "Common/Char000202/Char000202_Dash",
+    "id": 202,
+    "liftVoiceName": "Common/Char000202/Char000202_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000203/Char000203_Damage",
+    "dashVoiceName": "Common/Char000203/Char000203_Dash",
+    "id": 203,
+    "liftVoiceName": "Common/Char000203/Char000203_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000202/Char000202_Damage",
+    "dashVoiceName": "Common/Char000202/Char000202_Dash",
+    "id": 204,
+    "liftVoiceName": "Common/Char000202/Char000202_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000202/Char000202_Damage",
+    "dashVoiceName": "Common/Char000202/Char000202_Dash",
+    "id": 205,
+    "liftVoiceName": "Common/Char000202/Char000202_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000206/Char000206_Damage",
+    "dashVoiceName": "Common/Char000206/Char000206_Dash",
+    "id": 206,
+    "liftVoiceName": "Common/Char000206/Char000206_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000296/Char000296_Damage",
+    "dashVoiceName": "Common/Char000296/Char000296_Dash",
+    "id": 296,
+    "liftVoiceName": "Common/Char000296/Char000296_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000301/Char000301_Damage",
+    "dashVoiceName": "Common/Char000301/Char000301_Dash",
+    "id": 301,
+    "liftVoiceName": "Common/Char000301/Char000301_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000302/Char000302_Damage",
+    "dashVoiceName": "Common/Char000302/Char000302_Dash",
+    "id": 302,
+    "liftVoiceName": "Common/Char000302/Char000302_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000301/Char000301_Damage",
+    "dashVoiceName": "Common/Char000301/Char000301_Dash",
+    "id": 303,
+    "liftVoiceName": "Common/Char000301/Char000301_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000301/Char000301_Damage",
+    "dashVoiceName": "Common/Char000301/Char000301_Dash",
+    "id": 304,
+    "liftVoiceName": "Common/Char000301/Char000301_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000301/Char000301_Damage",
+    "dashVoiceName": "Common/Char000301/Char000301_Dash",
+    "id": 305,
+    "liftVoiceName": "Common/Char000301/Char000301_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000306/Char000306_Damage",
+    "dashVoiceName": "Common/Char000306/Char000306_Dash",
+    "id": 306,
+    "liftVoiceName": "Common/Char000306/Char000306_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000401/Char000401_Damage",
+    "dashVoiceName": "Common/Char000401/Char000401_Dash",
+    "id": 401,
+    "liftVoiceName": "Common/Char000401/Char000401_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000402/Char000402_Damage",
+    "dashVoiceName": "Common/Char000402/Char000402_Dash",
+    "id": 402,
+    "liftVoiceName": "Common/Char000402/Char000402_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000401/Char000401_Damage",
+    "dashVoiceName": "Common/Char000401/Char000401_Dash",
+    "id": 403,
+    "liftVoiceName": "Common/Char000401/Char000401_Hold"
+  },
+  {
+    "id": 404
+  },
+  {
+    "id": 405
+  },
+  {
+    "damageVoiceName": "Common/Char000406/Char000406_Damage",
+    "dashVoiceName": "Common/Char000406/Char000406_Dash",
+    "id": 406,
+    "liftVoiceName": "Common/Char000406/Char000406_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000501/Char000501_Damage",
+    "dashVoiceName": "Common/Char000501/Char000501_Dash",
+    "id": 501,
+    "liftVoiceName": "Common/Char000501/Char000501_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000502/Char000502_Damage",
+    "dashVoiceName": "Common/Char000502/Char000502_Dash",
+    "id": 502,
+    "liftVoiceName": "Common/Char000501/Char000501_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000501/Char000501_Damage",
+    "dashVoiceName": "Common/Char000501/Char000501_Dash",
+    "id": 503,
+    "liftVoiceName": "Common/Char000501/Char000501_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000501/Char000501_Damage",
+    "dashVoiceName": "Common/Char000501/Char000501_Dash",
+    "id": 504,
+    "liftVoiceName": "Common/Char000501/Char000501_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000505/Char000505_Damage",
+    "dashVoiceName": "Common/Char000505/Char000505_Dash",
+    "id": 505,
+    "liftVoiceName": "Common/Char000505/Char000505_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000506/Char000506_Damage",
+    "dashVoiceName": "Common/Char000506/Char000506_Dash",
+    "id": 506,
+    "liftVoiceName": "Common/Char000506/Char000506_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000601/Char000601_Damage",
+    "dashVoiceName": "Common/Char000601/Char000601_Dash",
+    "id": 601,
+    "liftVoiceName": "Common/Char000601/Char000601_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000601/Char000601_Damage",
+    "dashVoiceName": "Common/Char000601/Char000601_Dash",
+    "id": 602,
+    "liftVoiceName": "Common/Char000601/Char000601_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000601/Char000601_Damage",
+    "dashVoiceName": "Common/Char000601/Char000601_Dash",
+    "id": 603,
+    "liftVoiceName": "Common/Char000601/Char000601_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000601/Char000601_Damage",
+    "dashVoiceName": "Common/Char000601/Char000601_Dash",
+    "id": 604,
+    "liftVoiceName": "Common/Char000601/Char000601_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000601/Char000601_Damage",
+    "dashVoiceName": "Common/Char000601/Char000601_Dash",
+    "id": 605,
+    "liftVoiceName": "Common/Char000601/Char000601_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000701/Char000701_Damage",
+    "dashVoiceName": "Common/Char000701/Char000701_Dash",
+    "id": 701,
+    "liftVoiceName": "Common/Char000701/Char000701_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000701/Char000701_Damage",
+    "dashVoiceName": "Common/Char000701/Char000701_Dash",
+    "id": 702,
+    "liftVoiceName": "Common/Char000701/Char000701_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000701/Char000701_Damage",
+    "dashVoiceName": "Common/Char000701/Char000701_Dash",
+    "id": 703,
+    "liftVoiceName": "Common/Char000701/Char000701_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000701/Char000701_Damage",
+    "dashVoiceName": "Common/Char000701/Char000701_Dash",
+    "id": 704,
+    "liftVoiceName": "Common/Char000701/Char000701_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000701/Char000701_Damage",
+    "dashVoiceName": "Common/Char000701/Char000701_Dash",
+    "id": 705,
+    "liftVoiceName": "Common/Char000701/Char000701_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000706/Char000706_Damage",
+    "dashVoiceName": "Common/Char000706/Char000706_Dash",
+    "id": 706,
+    "liftVoiceName": "Common/Char000706/Char000706_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000707/Char000707_Damage",
+    "dashVoiceName": "Common/Char000707/Char000707_Dash",
+    "id": 707,
+    "liftVoiceName": "Common/Char000707/Char000707_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000708/Char000708_Damage",
+    "dashVoiceName": "Common/Char000708/Char000708_Dash",
+    "id": 708,
+    "liftVoiceName": "Common/Char000708/Char000708_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000801/Char000801_Damage",
+    "dashVoiceName": "Common/Char000801/Char000801_Dash",
+    "id": 801,
+    "liftVoiceName": "Common/Char000801/Char000801_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000801/Char000801_Damage",
+    "dashVoiceName": "Common/Char000801/Char000801_Dash",
+    "id": 802,
+    "liftVoiceName": "Common/Char000801/Char000801_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000801/Char000801_Damage",
+    "dashVoiceName": "Common/Char000801/Char000801_Dash",
+    "id": 803,
+    "liftVoiceName": "Common/Char000801/Char000801_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000801/Char000801_Damage",
+    "dashVoiceName": "Common/Char000801/Char000801_Dash",
+    "id": 804,
+    "liftVoiceName": "Common/Char000801/Char000801_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000801/Char000801_Damage",
+    "dashVoiceName": "Common/Char000801/Char000801_Dash",
+    "id": 805,
+    "liftVoiceName": "Common/Char000801/Char000801_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000806/Char000806_Damage",
+    "dashVoiceName": "Common/Char000806/Char000806_Dash",
+    "id": 806,
+    "liftVoiceName": "Common/Char000806/Char000806_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000807/Char000807_Damage",
+    "dashVoiceName": "Common/Char000807/Char000807_Dash",
+    "id": 807,
+    "liftVoiceName": "Common/Char000807/Char000807_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char100401/Char100401_Damage",
+    "dashVoiceName": "Common/Char100401/Char100401_Dash",
+    "id": 901,
+    "liftVoiceName": "Common/Char100401/Char100401_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char001001/Char001001_Damage",
+    "dashVoiceName": "Common/Char001001/Char001001_Dash",
+    "id": 1001,
+    "liftVoiceName": "Common/Char001001/Char001001_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char001002/Char001002_Damage",
+    "dashVoiceName": "Common/Char001002/Char001002_Dash",
+    "id": 1002,
+    "liftVoiceName": "Common/Char001002/Char001002_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char001003/Char001003_Damage",
+    "dashVoiceName": "Common/Char001003/Char001003_Dash",
+    "id": 1003,
+    "liftVoiceName": "Common/Char001003/Char001003_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char001001/Char001001_Damage",
+    "dashVoiceName": "Common/Char001001/Char001001_Dash",
+    "id": 1004,
+    "liftVoiceName": "Common/Char001001/Char001001_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char001001/Char001001_Damage",
+    "dashVoiceName": "Common/Char001001/Char001001_Dash",
+    "id": 1005,
+    "liftVoiceName": "Common/Char001001/Char001001_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char001006/Char001006_Damage",
+    "dashVoiceName": "Common/Char001006/Char001006_Dash",
+    "id": 1006,
+    "liftVoiceName": "Common/Char001006/Char001006_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char001101/Char001101_Damage",
+    "dashVoiceName": "Common/Char001101/Char001101_Dash",
+    "id": 1101,
+    "liftVoiceName": "Common/Char001101/Char001101_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char001101/Char001101_Damage",
+    "dashVoiceName": "Common/Char001101/Char001101_Dash",
+    "id": 1102,
+    "liftVoiceName": "Common/Char001101/Char001101_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char001101/Char001101_Damage",
+    "dashVoiceName": "Common/Char001101/Char001101_Dash",
+    "id": 1103,
+    "liftVoiceName": "Common/Char001101/Char001101_Hold"
+  },
+  {
+    "id": 1104
+  },
+  {
+    "damageVoiceName": "Common/Char001101/Char001101_Damage",
+    "dashVoiceName": "Common/Char001101/Char001101_Dash",
+    "id": 1105,
+    "liftVoiceName": "Common/Char001101/Char001101_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char001106/Char001106_Damage",
+    "dashVoiceName": "Common/Char001106/Char001106_Dash",
+    "id": 1106,
+    "liftVoiceName": "Common/Char001106/Char001106_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char001107/Char001107_Damage",
+    "dashVoiceName": "Common/Char001107/Char001107_Dash",
+    "id": 1107,
+    "liftVoiceName": "Common/Char001107/Char001107_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char001197/Char001197_Damage",
+    "dashVoiceName": "Common/Char001197/Char001197_Dash",
+    "id": 1197,
+    "liftVoiceName": "Common/Char001197/Char001197_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char001201/Char001201_Damage",
+    "dashVoiceName": "Common/Char001201/Char001201_Dash",
+    "id": 1201,
+    "liftVoiceName": "Common/Char001201/Char001201_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char001201/Char001201_Damage",
+    "dashVoiceName": "Common/Char001201/Char001201_Dash",
+    "id": 1202,
+    "liftVoiceName": "Common/Char001201/Char001201_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char001201/Char001201_Damage",
+    "dashVoiceName": "Common/Char001201/Char001201_Dash",
+    "id": 1203,
+    "liftVoiceName": "Common/Char001201/Char001201_Hold"
+  },
+  {
+    "id": 1204
+  },
+  {
+    "id": 1205
+  },
+  {
+    "damageVoiceName": "Common/Char001206/Char001206_Damage",
+    "dashVoiceName": "Common/Char001206/Char001206_Dash",
+    "id": 1206,
+    "liftVoiceName": "Common/Char001206/Char001206_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char001207/Char001207_Damage",
+    "dashVoiceName": "Common/Char001207/Char001207_Dash",
+    "id": 1207,
+    "liftVoiceName": "Common/Char001207/Char001207_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char100101/Char100101_Damage",
+    "dashVoiceName": "Common/Char100101/Char100101_Dash",
+    "id": 1301,
+    "liftVoiceName": "Common/Char100101/Char100101_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char100201/Char100201_Damage",
+    "dashVoiceName": "Common/Char100201/Char100201_Dash",
+    "id": 1401,
+    "liftVoiceName": "Common/Char100201/Char100201_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char100301/Char100301_Damage",
+    "dashVoiceName": "Common/Char100301/Char100301_Dash",
+    "id": 1501,
+    "liftVoiceName": "Common/Char100301/Char100301_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char100801/Char100801_Damage",
+    "dashVoiceName": "Common/Char100801/Char100801_Dash",
+    "id": 1601,
+    "liftVoiceName": "Common/Char100801/Char100801_Hold"
+  },
+  {
+    "id": 1701
+  },
+  {
+    "id": 1801
+  },
+  {
+    "damageVoiceName": "Common/Char002001/Char002001_Damage",
+    "dashVoiceName": "Common/Char002001/Char002001_Dash",
+    "id": 2001,
+    "liftVoiceName": "Common/Char002001/Char002001_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char002401/Char002401_Damage",
+    "dashVoiceName": "Common/Char002401/Char002401_Dash",
+    "id": 2401,
+    "liftVoiceName": "Common/Char002401/Char002401_Hold"
+  },
+  {
+    "id": 2402
+  },
+  {
+    "damageVoiceName": "Common/Char002401/Char002401_Damage",
+    "dashVoiceName": "Common/Char002401/Char002401_Dash",
+    "id": 2403,
+    "liftVoiceName": "Common/Char002401/Char002401_Hold"
+  },
+  {
+    "id": 2404
+  },
+  {
+    "id": 2405
+  },
+  {
+    "damageVoiceName": "Common/Char002406/Char002406_Damage",
+    "dashVoiceName": "Common/Char002406/Char002406_Dash",
+    "id": 2406,
+    "liftVoiceName": "Common/Char002406/Char002406_Hold"
+  },
+  {
+    "id": 2501
+  },
+  {
+    "id": 2701
+  },
+  {
+    "damageVoiceName": "Common/Char003001/Char003001_Damage",
+    "dashVoiceName": "Common/Char003001/Char003001_Dash",
+    "id": 3001,
+    "liftVoiceName": "Common/Char003001/Char003001_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char003101/Char003101_Damage",
+    "dashVoiceName": "Common/Char003101/Char003101_Dash",
+    "id": 3101,
+    "liftVoiceName": "Common/Char003101/Char003101_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char003201/Char003201_Damage",
+    "dashVoiceName": "Common/Char003201/Char003201_Dash",
+    "id": 3201,
+    "liftVoiceName": "Common/Char003201/Char003201_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char003202/Char003202_Damage",
+    "dashVoiceName": "Common/Char003202/Char003202_Dash",
+    "id": 3202,
+    "liftVoiceName": "Common/Char003202/Char003202_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char003203/Char003203_Damage",
+    "dashVoiceName": "Common/Char003203/Char003203_Dash",
+    "id": 3203,
+    "liftVoiceName": "Common/Char003203/Char003203_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char003301/Char003301_Damage",
+    "dashVoiceName": "Common/Char003301/Char003301_Dash",
+    "id": 3301,
+    "liftVoiceName": "Common/Char003301/Char003301_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char003302/Char003302_Damage",
+    "dashVoiceName": "Common/Char003302/Char003302_Dash",
+    "id": 3302,
+    "liftVoiceName": "Common/Char003302/Char003302_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char003303/Char003303_Damage",
+    "dashVoiceName": "Common/Char003303/Char003303_Dash",
+    "id": 3303,
+    "liftVoiceName": "Common/Char003303/Char003303_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char003401/Char003401_Damage",
+    "dashVoiceName": "Common/Char003401/Char003401_Dash",
+    "id": 3401,
+    "liftVoiceName": "Common/Char003401/Char003401_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char003402/Char003402_Damage",
+    "dashVoiceName": "Common/Char003402/Char003402_Dash",
+    "id": 3402,
+    "liftVoiceName": "Common/Char003402/Char003402_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char003403/Char003403_Damage",
+    "dashVoiceName": "Common/Char003403/Char003403_Dash",
+    "id": 3403,
+    "liftVoiceName": "Common/Char003403/Char003403_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char003501/Char003501_Damage",
+    "dashVoiceName": "Common/Char003501/Char003501_Dash",
+    "id": 3501,
+    "liftVoiceName": "Common/Char003501/Char003501_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char003602/Char003602_Damage",
+    "dashVoiceName": "Common/Char003602/Char003602_Dash",
+    "id": 3602,
+    "liftVoiceName": "Common/Char003602/Char003602_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char003603/Char003603_Damage",
+    "dashVoiceName": "Common/Char003603/Char003603_Dash",
+    "id": 3603,
+    "liftVoiceName": "Common/Char003603/Char003603_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char003701/Char003701_Damage",
+    "dashVoiceName": "Common/Char003701/Char003701_Dash",
+    "id": 3701,
+    "liftVoiceName": "Common/Char003701/Char003701_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char003703/Char003703_Damage",
+    "dashVoiceName": "Common/Char003703/Char003703_Dash",
+    "id": 3703,
+    "liftVoiceName": "Common/Char003703/Char003703_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char003801/Char003801_Damage",
+    "dashVoiceName": "Common/Char003801/Char003801_Dash",
+    "id": 3801,
+    "liftVoiceName": "Common/Char003801/Char003801_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char003802/Char003802_Damage",
+    "dashVoiceName": "Common/Char003802/Char003802_Dash",
+    "id": 3802,
+    "liftVoiceName": "Common/Char003802/Char003802_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char003901/Char003901_Damage",
+    "dashVoiceName": "Common/Char003901/Char003901_Dash",
+    "id": 3901,
+    "liftVoiceName": "Common/Char003901/Char003901_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char003902/Char003902_Damage",
+    "dashVoiceName": "Common/Char003902/Char003902_Dash",
+    "id": 3902,
+    "liftVoiceName": "Common/Char003902/Char003902_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char004001/Char004001_Damage",
+    "dashVoiceName": "Common/Char004001/Char004001_Dash",
+    "id": 4001,
+    "liftVoiceName": "Common/Char004001/Char004001_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char004101/Char004101_Damage",
+    "dashVoiceName": "Common/Char004101/Char004101_Dash",
+    "id": 4101,
+    "liftVoiceName": "Common/Char004101/Char004101_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char020001/Char020001_Damage",
+    "dashVoiceName": "Common/Char020001/Char020001_Dash",
+    "id": 20001,
+    "liftVoiceName": "Common/Char020001/Char020001_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char020002/Char020002_Damage",
+    "dashVoiceName": "Common/Char020002/Char020002_Dash",
+    "id": 20002,
+    "liftVoiceName": "Common/Char020002/Char020002_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char020101/Char020101_Damage",
+    "dashVoiceName": "Common/Char020101/Char020101_Dash",
+    "id": 20101,
+    "liftVoiceName": "Common/Char020101/Char020101_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char020102/Char020102_Damage",
+    "dashVoiceName": "Common/Char020102/Char020102_Dash",
+    "id": 20102,
+    "liftVoiceName": "Common/Char020102/Char020102_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char020201/Char020201_Damage",
+    "dashVoiceName": "Common/Char020201/Char020201_Dash",
+    "id": 20201,
+    "liftVoiceName": "Common/Char020201/Char020201_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char020301/Char020301_Damage",
+    "dashVoiceName": "Common/Char020301/Char020301_Dash",
+    "id": 20301,
+    "liftVoiceName": "Common/Char020301/Char020301_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char020401/Char020401_Damage",
+    "dashVoiceName": "Common/Char020401/Char020401_Dash",
+    "id": 20401,
+    "liftVoiceName": "Common/Char020401/Char020401_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char020501/Char020501_Damage",
+    "dashVoiceName": "Common/Char020501/Char020501_Dash",
+    "id": 20501,
+    "liftVoiceName": "Common/Char020501/Char020501_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char020601/Char020601_Damage",
+    "dashVoiceName": "Common/Char020601/Char020601_Dash",
+    "id": 20601,
+    "liftVoiceName": "Common/Char020601/Char020601_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char020701/Char020701_Damage",
+    "dashVoiceName": "Common/Char020701/Char020701_Dash",
+    "id": 20701,
+    "liftVoiceName": "Common/Char020701/Char020701_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char020801/Char020801_Damage",
+    "dashVoiceName": "Common/Char020801/Char020801_Dash",
+    "id": 20801,
+    "liftVoiceName": "Common/Char020801/Char020801_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char020901/Char020901_Damage",
+    "dashVoiceName": "Common/Char020901/Char020901_Dash",
+    "id": 20901,
+    "liftVoiceName": "Common/Char020901/Char020901_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char100501/Char100501_Damage",
+    "dashVoiceName": "Common/Char100501/Char100501_Dash",
+    "id": 60101,
+    "liftVoiceName": "Common/Char100501/Char100501_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char100501/Char100501_Damage",
+    "dashVoiceName": "Common/Char100501/Char100501_Dash",
+    "id": 60102,
+    "liftVoiceName": "Common/Char100501/Char100501_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char100601/Char100601_Damage",
+    "dashVoiceName": "Common/Char100601/Char100601_Dash",
+    "id": 60201,
+    "liftVoiceName": "Common/Char100601/Char100601_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char060302/Char060302_Damage",
+    "dashVoiceName": "Common/Char060302/Char060302_Dash",
+    "id": 60301,
+    "liftVoiceName": "Common/Char060302/Char060302_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char060302/Char060302_Damage",
+    "dashVoiceName": "Common/Char060302/Char060302_Dash",
+    "id": 60302,
+    "liftVoiceName": "Common/Char060302/Char060302_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char060401/Char060401_Damage",
+    "dashVoiceName": "Common/Char060401/Char060401_Dash",
+    "id": 60401,
+    "liftVoiceName": "Common/Char060401/Char060401_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char060402/Char060402_Damage",
+    "dashVoiceName": "Common/Char060402/Char060402_Dash",
+    "id": 60402,
+    "liftVoiceName": "Common/Char060402/Char060402_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char060403/Char060403_Damage",
+    "dashVoiceName": "Common/Char060403/Char060403_Dash",
+    "id": 60403,
+    "liftVoiceName": "Common/Char060403/Char060403_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char060502/Char060502_Damage",
+    "dashVoiceName": "Common/Char060502/Char060502_Dash",
+    "id": 60501,
+    "liftVoiceName": "Common/Char060502/Char060502_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char060502/Char060502_Damage",
+    "dashVoiceName": "Common/Char060502/Char060502_Dash",
+    "id": 60502,
+    "liftVoiceName": "Common/Char060502/Char060502_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char060601/Char060601_Damage",
+    "dashVoiceName": "Common/Char060601/Char060601_Dash",
+    "id": 60601,
+    "liftVoiceName": "Common/Char060601/Char060601_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char060602/Char060602_Damage",
+    "dashVoiceName": "Common/Char060602/Char060602_Dash",
+    "id": 60602,
+    "liftVoiceName": "Common/Char060602/Char060602_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char060702/Char060702_Damage",
+    "dashVoiceName": "Common/Char060702/Char060702_Dash",
+    "id": 60701,
+    "liftVoiceName": "Common/Char060702/Char060702_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char060702/Char060702_Damage",
+    "dashVoiceName": "Common/Char060702/Char060702_Dash",
+    "id": 60702,
+    "liftVoiceName": "Common/Char060702/Char060702_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char060706/Char060706_Damage",
+    "dashVoiceName": "Common/Char060706/Char060706_Dash",
+    "id": 60706,
+    "liftVoiceName": "Common/Char060706/Char060706_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char060802/Char060802_Damage",
+    "dashVoiceName": "Common/Char060802/Char060802_Dash",
+    "id": 60801,
+    "liftVoiceName": "Common/Char060802/Char060802_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char060802/Char060802_Damage",
+    "dashVoiceName": "Common/Char060802/Char060802_Dash",
+    "id": 60802,
+    "liftVoiceName": "Common/Char060802/Char060802_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char101102/Char101102_Damage",
+    "dashVoiceName": "Common/Char101102/Char101102_Dash",
+    "id": 60901,
+    "liftVoiceName": "Common/Char101102/Char101102_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char101102/Char101102_Damage",
+    "dashVoiceName": "Common/Char101102/Char101102_Dash",
+    "id": 60902,
+    "liftVoiceName": "Common/Char101102/Char101102_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char101103/Char101103_Damage",
+    "dashVoiceName": "Common/Char101103/Char101103_Dash",
+    "id": 60903,
+    "liftVoiceName": "Common/Char101103/Char101103_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char061002/Char061002_Damage",
+    "dashVoiceName": "Common/Char061002/Char061002_Dash",
+    "id": 61001,
+    "liftVoiceName": "Common/Char061002/Char061002_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char061002/Char061002_Damage",
+    "dashVoiceName": "Common/Char061002/Char061002_Dash",
+    "id": 61002,
+    "liftVoiceName": "Common/Char061002/Char061002_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char061102/Char061102_Damage",
+    "dashVoiceName": "Common/Char061102/Char061102_Dash",
+    "id": 61101,
+    "liftVoiceName": "Common/Char061102/Char061102_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char061102/Char061102_Damage",
+    "dashVoiceName": "Common/Char061102/Char061102_Dash",
+    "id": 61102,
+    "liftVoiceName": "Common/Char061102/Char061102_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char061302/Char061302_Damage",
+    "dashVoiceName": "Common/Char061302/Char061302_Dash",
+    "id": 61302,
+    "liftVoiceName": "Common/Char061302/Char061302_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char061305/Char061305_Damage",
+    "dashVoiceName": "Common/Char061305/Char061305_Dash",
+    "id": 61305,
+    "liftVoiceName": "Common/Char061305/Char061305_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char061402/Char061402_Damage",
+    "dashVoiceName": "Common/Char061402/Char061402_Dash",
+    "id": 61402,
+    "liftVoiceName": "Common/Char061401/Char061401_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char061404/Char061404_Damage",
+    "dashVoiceName": "Common/Char061404/Char061404_Dash",
+    "id": 61404,
+    "liftVoiceName": "Common/Char061404/Char061404_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char101402/Char101402_Damage",
+    "dashVoiceName": "Common/Char101402/Char101402_Dash",
+    "id": 61901,
+    "liftVoiceName": "Common/Char101402/Char101402_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char101402/Char101402_Damage",
+    "dashVoiceName": "Common/Char101402/Char101402_Dash",
+    "id": 61902,
+    "liftVoiceName": "Common/Char101402/Char101402_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char062001/Char062001_Damage",
+    "dashVoiceName": "Common/Char062001/Char062001_Dash",
+    "id": 62001,
+    "liftVoiceName": "Common/Char062001/Char062001_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char062002/Char062002_Damage",
+    "dashVoiceName": "Common/Char062002/Char062002_Dash",
+    "id": 62002,
+    "liftVoiceName": "Common/Char062002/Char062002_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char101502/Char101502_Damage",
+    "dashVoiceName": "Common/Char101502/Char101502_Dash",
+    "id": 62101,
+    "liftVoiceName": "Common/Char101502/Char101502_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char101502/Char101502_Damage",
+    "dashVoiceName": "Common/Char101502/Char101502_Dash",
+    "id": 62102,
+    "liftVoiceName": "Common/Char101502/Char101502_Hold"
+  },
+  {
+    "id": 62201
+  },
+  {
+    "id": 62301
+  },
+  {
+    "id": 62302
+  },
+  {
+    "damageVoiceName": "Common/Char062401/Char062401_Damage",
+    "dashVoiceName": "Common/Char062401/Char062401_Dash",
+    "id": 62401,
+    "liftVoiceName": "Common/Char062401/Char062401_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char103601/Char103601_Damage",
+    "dashVoiceName": "Common/Char103601/Char103601_Dash",
+    "id": 62501,
+    "liftVoiceName": "Common/Char103601/Char103601_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char103701/Char103701_Damage",
+    "dashVoiceName": "Common/Char103701/Char103701_Dash",
+    "id": 62601,
+    "liftVoiceName": "Common/Char103701/Char103701_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char101202/Char101202_Damage",
+    "dashVoiceName": "Common/Char101202/Char101202_Dash",
+    "id": 62701,
+    "liftVoiceName": "Common/Char101202/Char101202_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char101202/Char101202_Damage",
+    "dashVoiceName": "Common/Char101202/Char101202_Dash",
+    "id": 62702,
+    "liftVoiceName": "Common/Char101202/Char101202_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char101302/Char101302_Damage",
+    "dashVoiceName": "Common/Char101302/Char101302_Dash",
+    "id": 62801,
+    "liftVoiceName": "Common/Char101302/Char101302_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char101302/Char101302_Damage",
+    "dashVoiceName": "Common/Char101302/Char101302_Dash",
+    "id": 62802,
+    "liftVoiceName": "Common/Char101302/Char101302_Hold"
+  },
+  {
+    "id": 62901
+  },
+  {
+    "damageVoiceName": "Common/Char063001/Char063001_Damage",
+    "dashVoiceName": "Common/Char063001/Char063001_Dash",
+    "id": 63001,
+    "liftVoiceName": "Common/Char063001/Char063001_Hold"
+  },
+  {
+    "id": 63101
+  },
+  {
+    "id": 63201
+  },
+  {
+    "damageVoiceName": "Common/Char063301/Char063301_Damage",
+    "dashVoiceName": "Common/Char063301/Char063301_Dash",
+    "id": 63301,
+    "liftVoiceName": "Common/Char063301/Char063301_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char063401/Char063401_Damage",
+    "dashVoiceName": "Common/Char063401/Char063401_Dash",
+    "id": 63401,
+    "liftVoiceName": "Common/Char063401/Char063401_Hold"
+  },
+  {
+    "id": 63501
+  },
+  {
+    "id": 63601
+  },
+  {
+    "id": 63701
+  },
+  {
+    "id": 63801
+  },
+  {
+    "id": 63901
+  },
+  {
+    "id": 64001
+  },
+  {
+    "id": 64101
+  },
+  {
+    "id": 64201
+  },
+  {
+    "id": 64301
+  },
+  {
+    "id": 64401
+  },
+  {
+    "id": 64501
+  },
+  {
+    "id": 64601
+  },
+  {
+    "damageVoiceName": "Common/Char103201/Char103201_Damage",
+    "dashVoiceName": "Common/Char103201/Char103201_Dash",
+    "id": 64701,
+    "liftVoiceName": "Common/Char103201/Char103201_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char103301/Char103301_Damage",
+    "dashVoiceName": "Common/Char103301/Char103301_Dash",
+    "id": 64801,
+    "liftVoiceName": "Common/Char103301/Char103301_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char103401/Char103401_Damage",
+    "dashVoiceName": "Common/Char103401/Char103401_Dash",
+    "id": 64901,
+    "liftVoiceName": "Common/Char103401/Char103401_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char103501/Char103501_Damage",
+    "dashVoiceName": "Common/Char103501/Char103501_Dash",
+    "id": 65001,
+    "liftVoiceName": "Common/Char103501/Char103501_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char065102/Char065102_Damage",
+    "dashVoiceName": "Common/Char065102/Char065102_Dash",
+    "id": 65101,
+    "liftVoiceName": "Common/Char065102/Char065102_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char065102/Char065102_Damage",
+    "dashVoiceName": "Common/Char065102/Char065102_Dash",
+    "id": 65102,
+    "liftVoiceName": "Common/Char065102/Char065102_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char065103/Char065103_Damage",
+    "dashVoiceName": "Common/Char065103/Char065103_Dash",
+    "id": 65103,
+    "liftVoiceName": "Common/Char065103/Char065103_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char065201/Char065201_Damage",
+    "dashVoiceName": "Common/Char065201/Char065201_Dash",
+    "id": 65201,
+    "liftVoiceName": "Common/Char065201/Char065201_Hold"
+  },
+  {
+    "id": 65301
+  },
+  {
+    "id": 65401
+  },
+  {
+    "id": 65501
+  },
+  {
+    "id": 65601
+  },
+  {
+    "id": 65701
+  },
+  {
+    "damageVoiceName": "Common/Char065802/Char065802_Damage",
+    "dashVoiceName": "Common/Char065802/Char065802_Dash",
+    "id": 65802,
+    "liftVoiceName": "Common/Char065802/Char065802_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char066401/Char066401_Damage",
+    "dashVoiceName": "Common/Char066401/Char066401_Dash",
+    "id": 66401,
+    "liftVoiceName": "Common/Char066401/Char066401_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char066401/Char066401_Damage",
+    "dashVoiceName": "Common/Char066401/Char066401_Dash",
+    "id": 66402,
+    "liftVoiceName": "Common/Char066401/Char066401_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char066403/Char066403_Damage",
+    "dashVoiceName": "Common/Char066403/Char066403_Dash",
+    "id": 66403,
+    "liftVoiceName": "Common/Char066403/Char066403_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char066801/Char066801_Damage",
+    "dashVoiceName": "Common/Char066801/Char066801_Dash",
+    "id": 66801,
+    "liftVoiceName": "Common/Char066801/Char066801_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char066802/Char066802_Damage",
+    "dashVoiceName": "Common/Char066802/Char066802_Dash",
+    "id": 66802,
+    "liftVoiceName": "Common/Char066802/Char066802_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char066803/Char066803_Damage",
+    "dashVoiceName": "Common/Char066803/Char066803_Dash",
+    "id": 66803,
+    "liftVoiceName": "Common/Char066803/Char066803_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char066902/Char066902_Damage",
+    "dashVoiceName": "Common/Char066902/Char066902_Dash",
+    "id": 66902,
+    "liftVoiceName": "Common/Char066901/Char066901_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char066906/Char066906_Damage",
+    "dashVoiceName": "Common/Char066906/Char066906_Dash",
+    "id": 66906,
+    "liftVoiceName": "Common/Char066906/Char066906_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char067002/Char067002_Damage",
+    "dashVoiceName": "Common/Char067002/Char067002_Dash",
+    "id": 67002,
+    "liftVoiceName": "Common/Char067001/Char067001_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char067003/Char067003_Damage",
+    "dashVoiceName": "Common/Char067003/Char067003_Dash",
+    "id": 67003,
+    "liftVoiceName": "Common/Char067003/Char067003_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char067004/Char067004_Damage",
+    "dashVoiceName": "Common/Char067004/Char067004_Dash",
+    "id": 67004,
+    "liftVoiceName": "Common/Char067004/Char067004_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char067101/Char067101_Damage",
+    "dashVoiceName": "Common/Char067101/Char067101_Dash",
+    "id": 67101,
+    "liftVoiceName": "Common/Char067101/Char067101_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char067102/Char067102_Damage",
+    "dashVoiceName": "Common/Char067102/Char067102_Dash",
+    "id": 67102,
+    "liftVoiceName": "Common/Char067102/Char067102_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char067103/Char067103_Damage",
+    "dashVoiceName": "Common/Char067103/Char067103_Dash",
+    "id": 67103,
+    "liftVoiceName": "Common/Char067103/Char067103_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char067201/Char067201_Damage",
+    "dashVoiceName": "Common/Char067201/Char067201_Dash",
+    "id": 67201,
+    "liftVoiceName": "Common/Char067201/Char067201_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char067202/Char067202_Damage",
+    "dashVoiceName": "Common/Char067202/Char067202_Dash",
+    "id": 67202,
+    "liftVoiceName": "Common/Char067202/Char067202_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char067301/Char067301_Damage",
+    "dashVoiceName": "Common/Char067301/Char067301_Dash",
+    "id": 67301,
+    "liftVoiceName": "Common/Char067301/Char067301_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char067302/Char067302_Damage",
+    "dashVoiceName": "Common/Char067302/Char067302_Dash",
+    "id": 67302,
+    "liftVoiceName": "Common/Char067302/Char067302_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char067303/Char067303_Damage",
+    "dashVoiceName": "Common/Char067303/Char067303_Dash",
+    "id": 67303,
+    "liftVoiceName": "Common/Char067303/Char067303_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char067401/Char067401_Damage",
+    "dashVoiceName": "Common/Char067401/Char067401_Dash",
+    "id": 67401,
+    "liftVoiceName": "Common/Char067401/Char067401_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char067402/Char067402_Damage",
+    "dashVoiceName": "Common/Char067402/Char067402_Dash",
+    "id": 67402,
+    "liftVoiceName": "Common/Char067402/Char067402_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char067403/Char067403_Damage",
+    "dashVoiceName": "Common/Char067403/Char067403_Dash",
+    "id": 67403,
+    "liftVoiceName": "Common/Char067403/Char067403_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char067502/Char067502_Damage",
+    "dashVoiceName": "Common/Char067502/Char067502_Dash",
+    "id": 67502,
+    "liftVoiceName": "Common/Char067502/Char067502_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char067503/Char067503_Damage",
+    "dashVoiceName": "Common/Char067503/Char067503_Dash",
+    "id": 67503,
+    "liftVoiceName": "Common/Char067503/Char067503_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char067601/Char067601_Damage",
+    "dashVoiceName": "Common/Char067601/Char067601_Dash",
+    "id": 67601,
+    "liftVoiceName": "Common/Char067601/Char067601_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char067603/Char067603_Damage",
+    "dashVoiceName": "Common/Char067603/Char067603_Dash",
+    "id": 67603,
+    "liftVoiceName": "Common/Char067603/Char067603_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000103/Char000103_Damage",
+    "dashVoiceName": "Common/Char000103/Char000103_Dash",
+    "id": 100101,
+    "liftVoiceName": "Common/Char000103/Char000103_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000103/Char000103_Damage",
+    "dashVoiceName": "Common/Char000103/Char000103_Dash",
+    "id": 100102,
+    "liftVoiceName": "Common/Char000103/Char000103_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000106/Char000106_Damage",
+    "dashVoiceName": "Common/Char000106/Char000106_Dash",
+    "id": 100103,
+    "liftVoiceName": "Common/Char000106/Char000106_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000202/Char000202_Damage",
+    "dashVoiceName": "Common/Char000202/Char000202_Dash",
+    "id": 100201,
+    "liftVoiceName": "Common/Char000202/Char000202_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000206/Char000206_Damage",
+    "dashVoiceName": "Common/Char000206/Char000206_Dash",
+    "id": 100202,
+    "liftVoiceName": "Common/Char000206/Char000206_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000206/Char000206_Damage",
+    "dashVoiceName": "Common/Char000206/Char000206_Dash",
+    "id": 100203,
+    "liftVoiceName": "Common/Char000206/Char000206_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000202/Char000202_Damage",
+    "dashVoiceName": "Common/Char000202/Char000202_Dash",
+    "id": 100204,
+    "liftVoiceName": "Common/Char000202/Char000202_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000301/Char000301_Damage",
+    "dashVoiceName": "Common/Char000301/Char000301_Dash",
+    "id": 100300,
+    "liftVoiceName": "Common/Char000301/Char000301_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000301/Char000301_Damage",
+    "dashVoiceName": "Common/Char000301/Char000301_Dash",
+    "id": 100301,
+    "liftVoiceName": "Common/Char000301/Char000301_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000306/Char000306_Damage",
+    "dashVoiceName": "Common/Char000306/Char000306_Dash",
+    "id": 100302,
+    "liftVoiceName": "Common/Char000306/Char000306_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000306/Char000306_Damage",
+    "dashVoiceName": "Common/Char000306/Char000306_Dash",
+    "id": 100303,
+    "liftVoiceName": "Common/Char000306/Char000306_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000301/Char000301_Damage",
+    "dashVoiceName": "Common/Char000301/Char000301_Dash",
+    "id": 100304,
+    "liftVoiceName": "Common/Char000301/Char000301_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000401/Char000401_Damage",
+    "dashVoiceName": "Common/Char000401/Char000401_Dash",
+    "id": 100400,
+    "liftVoiceName": "Common/Char000401/Char000401_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000402/Char000402_Damage",
+    "dashVoiceName": "Common/Char000402/Char000402_Dash",
+    "id": 100401,
+    "liftVoiceName": "Common/Char000402/Char000402_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000406/Char000406_Damage",
+    "dashVoiceName": "Common/Char000406/Char000406_Dash",
+    "id": 100402,
+    "liftVoiceName": "Common/Char000406/Char000406_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000501/Char000501_Damage",
+    "dashVoiceName": "Common/Char000501/Char000501_Dash",
+    "id": 100500,
+    "liftVoiceName": "Common/Char000501/Char000501_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000501/Char000501_Damage",
+    "dashVoiceName": "Common/Char000501/Char000501_Dash",
+    "id": 100501,
+    "liftVoiceName": "Common/Char000501/Char000501_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000502/Char000502_Damage",
+    "dashVoiceName": "Common/Char000502/Char000502_Dash",
+    "id": 100502,
+    "liftVoiceName": "Common/Char000501/Char000501_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000506/Char000506_Damage",
+    "dashVoiceName": "Common/Char000506/Char000506_Dash",
+    "id": 100503,
+    "liftVoiceName": "Common/Char000506/Char000506_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000601/Char000601_Damage",
+    "dashVoiceName": "Common/Char000601/Char000601_Dash",
+    "id": 100600,
+    "liftVoiceName": "Common/Char000601/Char000601_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000701/Char000701_Damage",
+    "dashVoiceName": "Common/Char000701/Char000701_Dash",
+    "id": 100700,
+    "liftVoiceName": "Common/Char000701/Char000701_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000706/Char000706_Damage",
+    "dashVoiceName": "Common/Char000706/Char000706_Dash",
+    "id": 100701,
+    "liftVoiceName": "Common/Char000706/Char000706_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000801/Char000801_Damage",
+    "dashVoiceName": "Common/Char000801/Char000801_Dash",
+    "id": 100800,
+    "liftVoiceName": "Common/Char000801/Char000801_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char100401/Char100401_Damage",
+    "dashVoiceName": "Common/Char100401/Char100401_Dash",
+    "id": 100900,
+    "liftVoiceName": "Common/Char100401/Char100401_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char001001/Char001001_Damage",
+    "dashVoiceName": "Common/Char001001/Char001001_Dash",
+    "id": 101000,
+    "liftVoiceName": "Common/Char001001/Char001001_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char001002/Char001002_Damage",
+    "dashVoiceName": "Common/Char001002/Char001002_Dash",
+    "id": 101001,
+    "liftVoiceName": "Common/Char001002/Char001002_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char001101/Char001101_Damage",
+    "dashVoiceName": "Common/Char001101/Char001101_Dash",
+    "id": 101100,
+    "liftVoiceName": "Common/Char001101/Char001101_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char001107/Char001107_Damage",
+    "dashVoiceName": "Common/Char001107/Char001107_Dash",
+    "id": 101101,
+    "liftVoiceName": "Common/Char001107/Char001107_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char001201/Char001201_Damage",
+    "dashVoiceName": "Common/Char001201/Char001201_Dash",
+    "id": 101200,
+    "liftVoiceName": "Common/Char001201/Char001201_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char001206/Char001206_Damage",
+    "dashVoiceName": "Common/Char001206/Char001206_Dash",
+    "id": 101201,
+    "liftVoiceName": "Common/Char001206/Char001206_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char100101/Char100101_Damage",
+    "dashVoiceName": "Common/Char100101/Char100101_Dash",
+    "id": 101300,
+    "liftVoiceName": "Common/Char100101/Char100101_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char100201/Char100201_Damage",
+    "dashVoiceName": "Common/Char100201/Char100201_Dash",
+    "id": 101400,
+    "liftVoiceName": "Common/Char100201/Char100201_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char100301/Char100301_Damage",
+    "dashVoiceName": "Common/Char100301/Char100301_Dash",
+    "id": 101500,
+    "liftVoiceName": "Common/Char100301/Char100301_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char100801/Char100801_Damage",
+    "dashVoiceName": "Common/Char100801/Char100801_Dash",
+    "id": 101600,
+    "liftVoiceName": "Common/Char100801/Char100801_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char002401/Char002401_Damage",
+    "dashVoiceName": "Common/Char002401/Char002401_Dash",
+    "id": 102400,
+    "liftVoiceName": "Common/Char002401/Char002401_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char002406/Char002406_Damage",
+    "dashVoiceName": "Common/Char002406/Char002406_Dash",
+    "id": 102401,
+    "liftVoiceName": "Common/Char002406/Char002406_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char003202/Char003202_Damage",
+    "dashVoiceName": "Common/Char003202/Char003202_Dash",
+    "id": 103202,
+    "liftVoiceName": "Common/Char003202/Char003202_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char003203/Char003203_Damage",
+    "dashVoiceName": "Common/Char003203/Char003203_Dash",
+    "id": 103203,
+    "liftVoiceName": "Common/Char003203/Char003203_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char003303/Char003303_Damage",
+    "dashVoiceName": "Common/Char003303/Char003303_Dash",
+    "id": 103300,
+    "liftVoiceName": "Common/Char003303/Char003303_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char003302/Char003302_Damage",
+    "dashVoiceName": "Common/Char003302/Char003302_Dash",
+    "id": 103301,
+    "liftVoiceName": "Common/Char003302/Char003302_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char003403/Char003403_Damage",
+    "dashVoiceName": "Common/Char003403/Char003403_Dash",
+    "id": 103400,
+    "liftVoiceName": "Common/Char003403/Char003403_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char003402/Char003402_Damage",
+    "dashVoiceName": "Common/Char003402/Char003402_Dash",
+    "id": 103402,
+    "liftVoiceName": "Common/Char003402/Char003402_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char003501/Char003501_Damage",
+    "dashVoiceName": "Common/Char003501/Char003501_Dash",
+    "id": 103500,
+    "liftVoiceName": "Common/Char003501/Char003501_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char003601/Char003601_Damage",
+    "dashVoiceName": "Common/Char003601/Char003601_Dash",
+    "id": 103600,
+    "liftVoiceName": "Common/Char003601/Char003601_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char003701/Char003701_Damage",
+    "dashVoiceName": "Common/Char003701/Char003701_Dash",
+    "id": 103700,
+    "liftVoiceName": "Common/Char003701/Char003701_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char003801/Char003801_Damage",
+    "dashVoiceName": "Common/Char003801/Char003801_Dash",
+    "id": 103800,
+    "liftVoiceName": "Common/Char003801/Char003801_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char020201/Char020201_Damage",
+    "dashVoiceName": "Common/Char020201/Char020201_Dash",
+    "id": 120200,
+    "liftVoiceName": "Common/Char020201/Char020201_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char020301/Char020301_Damage",
+    "dashVoiceName": "Common/Char020301/Char020301_Dash",
+    "id": 120300,
+    "liftVoiceName": "Common/Char020301/Char020301_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char020401/Char020401_Damage",
+    "dashVoiceName": "Common/Char020401/Char020401_Dash",
+    "id": 120400,
+    "liftVoiceName": "Common/Char020401/Char020401_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char020501/Char020501_Damage",
+    "dashVoiceName": "Common/Char020501/Char020501_Dash",
+    "id": 120500,
+    "liftVoiceName": "Common/Char020501/Char020501_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char020601/Char020601_Damage",
+    "dashVoiceName": "Common/Char020601/Char020601_Dash",
+    "id": 120600,
+    "liftVoiceName": "Common/Char020601/Char020601_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char020701/Char020701_Damage",
+    "dashVoiceName": "Common/Char020701/Char020701_Dash",
+    "id": 120700,
+    "liftVoiceName": "Common/Char020701/Char020701_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char020801/Char020801_Damage",
+    "dashVoiceName": "Common/Char020801/Char020801_Dash",
+    "id": 120800,
+    "liftVoiceName": "Common/Char020801/Char020801_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char020901/Char020901_Damage",
+    "dashVoiceName": "Common/Char020901/Char020901_Dash",
+    "id": 120900,
+    "liftVoiceName": "Common/Char020901/Char020901_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char100501/Char100501_Damage",
+    "dashVoiceName": "Common/Char100501/Char100501_Dash",
+    "id": 160100,
+    "liftVoiceName": "Common/Char100501/Char100501_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char100501/Char100501_Damage",
+    "dashVoiceName": "Common/Char100501/Char100501_Dash",
+    "id": 160101,
+    "liftVoiceName": "Common/Char100501/Char100501_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char100501/Char100501_Damage",
+    "dashVoiceName": "Common/Char100501/Char100501_Dash",
+    "id": 160102,
+    "liftVoiceName": "Common/Char100501/Char100501_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char100601/Char100601_Damage",
+    "dashVoiceName": "Common/Char100601/Char100601_Dash",
+    "id": 160200,
+    "liftVoiceName": "Common/Char100601/Char100601_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char060402/Char060402_Damage",
+    "dashVoiceName": "Common/Char060402/Char060402_Dash",
+    "id": 160400,
+    "liftVoiceName": "Common/Char060402/Char060402_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char060403/Char060403_Damage",
+    "dashVoiceName": "Common/Char060403/Char060403_Dash",
+    "id": 160401,
+    "liftVoiceName": "Common/Char060403/Char060403_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char060502/Char060502_Damage",
+    "dashVoiceName": "Common/Char060502/Char060502_Dash",
+    "id": 160501,
+    "liftVoiceName": "Common/Char060502/Char060502_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char060602/Char060602_Damage",
+    "dashVoiceName": "Common/Char060602/Char060602_Dash",
+    "id": 160601,
+    "liftVoiceName": "Common/Char060602/Char060602_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char060702/Char060702_Damage",
+    "dashVoiceName": "Common/Char060702/Char060702_Dash",
+    "id": 160700,
+    "liftVoiceName": "Common/Char060702/Char060702_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char060802/Char060802_Damage",
+    "dashVoiceName": "Common/Char060802/Char060802_Dash",
+    "id": 160800,
+    "liftVoiceName": "Common/Char060802/Char060802_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char101102/Char101102_Damage",
+    "dashVoiceName": "Common/Char101102/Char101102_Dash",
+    "id": 160900,
+    "liftVoiceName": "Common/Char101102/Char101102_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char101103/Char101103_Damage",
+    "dashVoiceName": "Common/Char101103/Char101103_Dash",
+    "id": 160901,
+    "liftVoiceName": "Common/Char101103/Char101103_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char061002/Char061002_Damage",
+    "dashVoiceName": "Common/Char061002/Char061002_Dash",
+    "id": 161000,
+    "liftVoiceName": "Common/Char061002/Char061002_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char061102/Char061102_Damage",
+    "dashVoiceName": "Common/Char061102/Char061102_Dash",
+    "id": 161100,
+    "liftVoiceName": "Common/Char061102/Char061102_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char061302/Char061302_Damage",
+    "dashVoiceName": "Common/Char061302/Char061302_Dash",
+    "id": 161300,
+    "liftVoiceName": "Common/Char061302/Char061302_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char061402/Char061402_Damage",
+    "dashVoiceName": "Common/Char061402/Char061402_Dash",
+    "id": 161400,
+    "liftVoiceName": "Common/Char061401/Char061401_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char061404/Char061404_Damage",
+    "dashVoiceName": "Common/Char061404/Char061404_Dash",
+    "id": 161401,
+    "liftVoiceName": "Common/Char061404/Char061404_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char101402/Char101402_Damage",
+    "dashVoiceName": "Common/Char101402/Char101402_Dash",
+    "id": 161900,
+    "liftVoiceName": "Common/Char101402/Char101402_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char062002/Char062002_Damage",
+    "dashVoiceName": "Common/Char062002/Char062002_Dash",
+    "id": 162000,
+    "liftVoiceName": "Common/Char062002/Char062002_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char101502/Char101502_Damage",
+    "dashVoiceName": "Common/Char101502/Char101502_Dash",
+    "id": 162100,
+    "liftVoiceName": "Common/Char101502/Char101502_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char101202/Char101202_Damage",
+    "dashVoiceName": "Common/Char101202/Char101202_Dash",
+    "id": 162700,
+    "liftVoiceName": "Common/Char101202/Char101202_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char101302/Char101302_Damage",
+    "dashVoiceName": "Common/Char101302/Char101302_Dash",
+    "id": 162800,
+    "liftVoiceName": "Common/Char101302/Char101302_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char103201/Char103201_Damage",
+    "dashVoiceName": "Common/Char103201/Char103201_Dash",
+    "id": 164700,
+    "liftVoiceName": "Common/Char103201/Char103201_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char103301/Char103301_Damage",
+    "dashVoiceName": "Common/Char103301/Char103301_Dash",
+    "id": 164800,
+    "liftVoiceName": "Common/Char103301/Char103301_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char103401/Char103401_Damage",
+    "dashVoiceName": "Common/Char103401/Char103401_Dash",
+    "id": 164900,
+    "liftVoiceName": "Common/Char103401/Char103401_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char103501/Char103501_Damage",
+    "dashVoiceName": "Common/Char103501/Char103501_Dash",
+    "id": 165000,
+    "liftVoiceName": "Common/Char103501/Char103501_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char065102/Char065102_Damage",
+    "dashVoiceName": "Common/Char065102/Char065102_Dash",
+    "id": 165100,
+    "liftVoiceName": "Common/Char065102/Char065102_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char065802/Char065802_Damage",
+    "dashVoiceName": "Common/Char065802/Char065802_Dash",
+    "id": 165800,
+    "liftVoiceName": "Common/Char065802/Char065802_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char066403/Char066403_Damage",
+    "dashVoiceName": "Common/Char066403/Char066403_Dash",
+    "id": 166400,
+    "liftVoiceName": "Common/Char066403/Char066403_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char066401/Char066401_Damage",
+    "dashVoiceName": "Common/Char066401/Char066401_Dash",
+    "id": 166401,
+    "liftVoiceName": "Common/Char066401/Char066401_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char066801/Char066801_Damage",
+    "dashVoiceName": "Common/Char066801/Char066801_Dash",
+    "id": 166800,
+    "liftVoiceName": "Common/Char066801/Char066801_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char066902/Char066902_Damage",
+    "dashVoiceName": "Common/Char066902/Char066902_Dash",
+    "id": 166900,
+    "liftVoiceName": "Common/Char066901/Char066901_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char067002/Char067002_Damage",
+    "dashVoiceName": "Common/Char067002/Char067002_Dash",
+    "id": 167000,
+    "liftVoiceName": "Common/Char067001/Char067001_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char067101/Char067101_Damage",
+    "dashVoiceName": "Common/Char067101/Char067101_Dash",
+    "id": 167100,
+    "liftVoiceName": "Common/Char067101/Char067101_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char067201/Char067201_Damage",
+    "dashVoiceName": "Common/Char067201/Char067201_Dash",
+    "id": 167200,
+    "liftVoiceName": "Common/Char067201/Char067201_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char067201/Char067201_Damage",
+    "dashVoiceName": "Common/Char067201/Char067201_Dash",
+    "id": 167201,
+    "liftVoiceName": "Common/Char067201/Char067201_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char067301/Char067301_Damage",
+    "dashVoiceName": "Common/Char067301/Char067301_Dash",
+    "id": 167300,
+    "liftVoiceName": "Common/Char067301/Char067301_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char067303/Char067303_Damage",
+    "dashVoiceName": "Common/Char067303/Char067303_Dash",
+    "id": 167303,
+    "liftVoiceName": "Common/Char067303/Char067303_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char067402/Char067402_Damage",
+    "dashVoiceName": "Common/Char067402/Char067402_Dash",
+    "id": 167400,
+    "liftVoiceName": "Common/Char067402/Char067402_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char067502/Char067502_Damage",
+    "dashVoiceName": "Common/Char067502/Char067502_Dash",
+    "id": 167500,
+    "liftVoiceName": "Common/Char067502/Char067502_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char067503/Char067503_Damage",
+    "dashVoiceName": "Common/Char067503/Char067503_Dash",
+    "id": 167503,
+    "liftVoiceName": "Common/Char067503/Char067503_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char067601/Char067601_Damage",
+    "dashVoiceName": "Common/Char067601/Char067601_Dash",
+    "id": 167600,
+    "liftVoiceName": "Common/Char067601/Char067601_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char067603/Char067603_Damage",
+    "dashVoiceName": "Common/Char067603/Char067603_Dash",
+    "id": 167601,
+    "liftVoiceName": "Common/Char067603/Char067603_Hold"
+  },
+  {
+    "id": 704000
+  },
+  {
+    "damageVoiceName": "Common/Char000202/Char000202_Damage",
+    "dashVoiceName": "Common/Char000202/Char000202_Dash",
+    "id": 999700,
+    "liftVoiceName": "Common/Char000202/Char000202_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000202/Char000202_Damage",
+    "dashVoiceName": "Common/Char000202/Char000202_Dash",
+    "id": 999800,
+    "liftVoiceName": "Common/Char000202/Char000202_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000202/Char000202_Damage",
+    "dashVoiceName": "Common/Char000202/Char000202_Dash",
+    "id": 999900,
+    "liftVoiceName": "Common/Char000202/Char000202_Hold"
+  },
+  {
+    "damageVoiceName": "Common/Char000202/Char000202_Damage",
+    "dashVoiceName": "Common/Char000202/Char000202_Dash",
+    "id": 999901,
+    "liftVoiceName": "Common/Char000202/Char000202_Hold"
+  }
+]

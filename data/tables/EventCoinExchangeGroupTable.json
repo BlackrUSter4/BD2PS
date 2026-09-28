@@ -1,0 +1,4 @@
+[
+  { "endPageId": 4, "eventNameLocalTextId": 23530, "firstButtonCount": 1, "freeCount": 1, "freeCountType": 1, "guideDescLocalTextId": [ 341056, 341002 ], "guideTitleLocalTextId": [ 341055, 340002 ], "id": 27, "itemCount": 60, "itemType": 2, "secondButtonCount": 10, "startPageId": 1 },
+  { "endPageId": 21, "eventNameLocalTextId": 23531, "firstButtonCount": 1, "guideDescLocalTextId": [ 341059, 341002, 341060 ], "guideTitleLocalTextId": [ 340001, 340002, 340003 ], "id": 28, "isRepeatableReward": 1, "itemCount": 1, "itemId": 2018, "itemType": 8, "secondButtonCount": 100, "startPageId": 1, "tokenInfoLocation": 3, "tokenShortCutId": 52 }
+]

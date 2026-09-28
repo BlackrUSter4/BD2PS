@@ -1,0 +1,20 @@
+[
+  { "groupId": 1, "id": 3010, "openHelpLocalTextId": 38218, "ticketId": 3010 },
+  { "groupId": 1, "id": 3011, "openHelpLocalTextId": 38218, "ticketId": 3011 },
+  { "groupId": 4, "id": 1, "openHelpLocalTextId": 320028, "ticketId": 41 },
+  { "groupId": 5, "id": 1, "openHelpLocalTextId": 320028, "ticketId": 51 },
+  { "groupId": 6, "id": 1, "openHelpLocalTextId": 320028, "ticketId": 61 },
+  { "groupId": 1, "id": 3004, "openHelpLocalTextId": 320005, "ticketId": 13004 },
+  { "groupId": 13, "id": 3, "ticketId": 36 },
+  { "groupId": 13, "id": 4, "ticketId": 37 },
+  { "groupId": 13, "id": 5, "ticketId": 40 },
+  { "groupId": 13, "id": 6, "ticketId": 43 },
+  { "groupId": 13, "id": 7, "ticketId": 44 },
+  { "groupId": 13, "id": 8, "ticketId": 45 },
+  { "groupId": 16, "id": 1, "openHelpLocalTextId": 320027, "ticketId": 11 },
+  { "groupId": 17, "id": 1, "openHelpLocalTextId": 320005, "ticketId": 14 },
+  { "groupId": 23, "id": 1, "openHelpLocalTextId": 320028, "ticketId": 41 },
+  { "groupId": 21, "id": 20, "openHelpLocalTextId": 320027, "ticketId": 11 },
+  { "groupId": 19, "id": 1, "openHelpLocalTextId": 320019, "ticketId": 3007 },
+  { "groupId": 20, "id": 1, "openHelpLocalTextId": 320025, "ticketId": 800001 }
+]

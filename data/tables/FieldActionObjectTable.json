@@ -1,0 +1,7 @@
+[
+  { "bundleType": 1, "fieldObjectGroupId": 604, "id": 6014, "mapId": 1, "moveSpeed": 5, "resourceName": "FieldCarryItem_Box02", "resourceType": 2 },
+  { "bundleType": 1, "fieldObjectGroupId": 602, "id": 6012, "mapId": 1, "moveSpeed": 5, "resourceName": "FieldCarryItem_Box01", "resourceType": 2 },
+  { "bundleType": 1, "disableTimeline": [ "Quest_Main_03" ], "fieldObjectGroupId": 603, "id": 6013, "isEnableTimeline": 1, "mapId": 1, "moveSpeed": 5, "resourceName": "FieldCarryItem_Box02", "resourceType": 2 },
+  { "bundleType": 1, "fieldObjectGroupId": 601, "id": 6011, "mapId": 1, "moveSpeed": 5, "resourceName": "FieldCarryItem_Box01", "resourceType": 2 },
+  { "bundleType": 1, "fieldObjectGroupId": 605, "id": 6015, "mapId": 1, "moveSpeed": 5, "resourceName": "FieldCarryItem_Box02", "resourceType": 2 }
+]

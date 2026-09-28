@@ -1,0 +1,19 @@
+[
+  { "active": 1, "growthId": [ 331, 336 ], "id": 1, "imprintSlot1": 3, "imprintSlot2": 9, "imprintSlot3": 24 },
+  { "active": 1, "growthId": [ 331, 338 ], "id": 2, "imprintSlot1": 3, "imprintSlot2": 9, "imprintSlot3": 24 },
+  { "active": 1, "growthId": [ 371, 375 ], "id": 9, "imprintSlot1": 1, "imprintSlot2": 7, "imprintSlot3": 22 },
+  { "active": 1, "growthId": [ 351, 357 ], "id": 16, "imprintSlot1": 2, "imprintSlot2": 8, "imprintSlot3": 23 },
+  { "active": 1, "growthId": [ 332, 338 ], "id": 213, "imprintSlot1": 3, "imprintSlot2": 15, "imprintSlot3": 30 },
+  { "active": 1, "growthId": [ 371, 376 ], "id": 601, "imprintSlot1": 1, "imprintSlot2": 7, "imprintSlot3": 22 },
+  { "active": 1, "growthId": [ 341, 340 ], "id": 606, "imprintSlot1": 3, "imprintSlot2": 9, "imprintSlot3": 24 },
+  { "active": 1, "growthId": [ 351, 359 ], "id": 621, "imprintSlot1": 2, "imprintSlot2": 8, "imprintSlot3": 23 },
+  { "active": 1, "growthId": [ 382, 380 ], "id": 626, "imprintSlot1": 1, "imprintSlot2": 13, "imprintSlot3": 28 },
+  { "active": 1, "growthId": [ 371, 378 ], "id": 628, "imprintSlot1": 1, "imprintSlot2": 7, "imprintSlot3": 22 },
+  { "active": 1, "growthId": [ 371, 375 ], "id": 630, "imprintSlot1": 1, "imprintSlot2": 7, "imprintSlot3": 22 },
+  { "active": 1, "growthId": [ 372, 375 ], "id": 633, "imprintSlot1": 1, "imprintSlot2": 13, "imprintSlot3": 28 },
+  { "active": 1, "growthId": [ 381, 380 ], "id": 647, "imprintSlot1": 1, "imprintSlot2": 7, "imprintSlot3": 22 },
+  { "active": 1, "growthId": [ 371, 375 ], "id": 648, "imprintSlot1": 1, "imprintSlot2": 7, "imprintSlot3": 22 },
+  { "active": 1, "growthId": [ 371, 377 ], "id": 649, "imprintSlot1": 1, "imprintSlot2": 7, "imprintSlot3": 22 },
+  { "active": 1, "growthId": [ 371, 376 ], "id": 650, "imprintSlot1": 1, "imprintSlot2": 7, "imprintSlot3": 22 },
+  { "active": 1, "growthId": [ 331, 335 ], "id": 676, "imprintSlot1": 3, "imprintSlot2": 9, "imprintSlot3": 24 }
+]

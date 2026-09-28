@@ -1,0 +1,10 @@
+﻿
+message PvpBattleDBInfo {
+  optional int32 vp = 1;
+  optional int32 rank = 2;
+  optional int32 win_count = 3;
+  optional int32 lose_count = 4;
+  optional int32 portrait_costume_id = 5;
+  optional string deck_info = 6;
+  optional int32 reward_flag = 7;
+}

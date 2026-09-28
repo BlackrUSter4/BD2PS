@@ -1,0 +1,11 @@
+﻿
+message SendLogRequest {
+  enum LogType {
+  TEXT = 0;
+  JSON = 1;
+}
+
+  optional int32 seq = 1;
+  repeated string msg = 2;
+  optional SendLogRequest.LogType logType = 3;
+}

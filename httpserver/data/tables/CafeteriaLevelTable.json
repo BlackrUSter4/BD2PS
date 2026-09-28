@@ -1,0 +1,1022 @@
+[
+  {
+    "bubbleCooldown": 3,
+    "cafeteriaCostumeMax": 5,
+    "cafeteriaCustomerNpcSpawnCount": 6,
+    "dayFxSoundResourceName": "AMB_Restaurant_Base_01",
+    "id": 1,
+    "mapGrade": 1,
+    "nightFxSoundResourceName": "AMB_Restaurant_Base_01",
+    "skillType": [
+      1,
+      1,
+      1
+    ],
+    "skillValue1": [
+      7,
+      3,
+      3
+    ],
+    "skillValue2": [
+      4,
+      8,
+      40
+    ],
+    "skillValue3": [
+      60,
+      600,
+      60
+    ],
+    "skillValue4": [
+      0,
+      10,
+      0
+    ]
+  },
+  {
+    "bubbleCooldown": 3,
+    "cafeteriaCostumeMax": 5,
+    "cafeteriaCustomerNpcSpawnCount": 8,
+    "dayFxSoundResourceName": "AMB_Restaurant_Base_01",
+    "id": 2,
+    "mapGrade": 1,
+    "nightFxSoundResourceName": "AMB_Restaurant_Base_01",
+    "skillType": [
+      1,
+      1,
+      1
+    ],
+    "skillValue1": [
+      8,
+      3,
+      4
+    ],
+    "skillValue2": [
+      4,
+      8,
+      40
+    ],
+    "skillValue3": [
+      60,
+      600,
+      60
+    ],
+    "skillValue4": [
+      0,
+      10,
+      0
+    ]
+  },
+  {
+    "bubbleCooldown": 3,
+    "cafeteriaCostumeMax": 5,
+    "cafeteriaCustomerNpcSpawnCount": 10,
+    "dayFxSoundResourceName": "AMB_Restaurant_Base_02",
+    "id": 3,
+    "mapGrade": 1,
+    "nightFxSoundResourceName": "AMB_Restaurant_Base_01",
+    "skillType": [
+      1,
+      1,
+      1
+    ],
+    "skillValue1": [
+      9,
+      3,
+      5
+    ],
+    "skillValue2": [
+      4,
+      8,
+      40
+    ],
+    "skillValue3": [
+      60,
+      600,
+      60
+    ],
+    "skillValue4": [
+      0,
+      10,
+      0
+    ]
+  },
+  {
+    "bubbleCooldown": 3,
+    "cafeteriaCostumeMax": 5,
+    "cafeteriaCustomerNpcSpawnCount": 12,
+    "dayFxSoundResourceName": "AMB_Restaurant_Base_02",
+    "id": 4,
+    "mapGrade": 1,
+    "nightFxSoundResourceName": "AMB_Restaurant_Base_01",
+    "skillType": [
+      1,
+      1,
+      1
+    ],
+    "skillValue1": [
+      10,
+      3,
+      6
+    ],
+    "skillValue2": [
+      4,
+      8,
+      40
+    ],
+    "skillValue3": [
+      60,
+      600,
+      60
+    ],
+    "skillValue4": [
+      0,
+      10,
+      0
+    ]
+  },
+  {
+    "bubbleCooldown": 3,
+    "cafeteriaCostumeMax": 5,
+    "cafeteriaCustomerNpcSpawnCount": 24,
+    "dayFxSoundResourceName": "AMB_Restaurant_Base_02",
+    "id": 5,
+    "mapGrade": 1,
+    "nightFxSoundResourceName": "AMB_Restaurant_Base_01",
+    "skillType": [
+      1,
+      1,
+      1
+    ],
+    "skillValue1": [
+      11,
+      3,
+      7
+    ],
+    "skillValue2": [
+      4,
+      8,
+      40
+    ],
+    "skillValue3": [
+      60,
+      600,
+      60
+    ],
+    "skillValue4": [
+      0,
+      10,
+      0
+    ]
+  },
+  {
+    "bubbleCooldown": 2,
+    "cafeteriaCostumeMax": 5,
+    "cafeteriaCustomerNpcSpawnCount": 26,
+    "dayFxSoundResourceName": "AMB_Restaurant_Base_03",
+    "id": 6,
+    "mapGrade": 2,
+    "nightFxSoundResourceName": "AMB_Restaurant_Base_01",
+    "skillType": [
+      1,
+      1,
+      1
+    ],
+    "skillValue1": [
+      12,
+      6,
+      8
+    ],
+    "skillValue2": [
+      4,
+      8,
+      40
+    ],
+    "skillValue3": [
+      60,
+      600,
+      60
+    ],
+    "skillValue4": [
+      0,
+      10,
+      0
+    ]
+  },
+  {
+    "bubbleCooldown": 2,
+    "cafeteriaCostumeMax": 5,
+    "cafeteriaCustomerNpcSpawnCount": 26,
+    "dayFxSoundResourceName": "AMB_Restaurant_Base_03",
+    "id": 7,
+    "mapGrade": 2,
+    "nightFxSoundResourceName": "AMB_Restaurant_Base_01",
+    "skillType": [
+      1,
+      1,
+      1
+    ],
+    "skillValue1": [
+      13,
+      6,
+      9
+    ],
+    "skillValue2": [
+      4,
+      8,
+      40
+    ],
+    "skillValue3": [
+      60,
+      600,
+      60
+    ],
+    "skillValue4": [
+      0,
+      10,
+      0
+    ]
+  },
+  {
+    "bubbleCooldown": 2,
+    "cafeteriaCostumeMax": 5,
+    "cafeteriaCustomerNpcSpawnCount": 28,
+    "dayFxSoundResourceName": "AMB_Restaurant_Base_03",
+    "id": 8,
+    "mapGrade": 2,
+    "nightFxSoundResourceName": "AMB_Restaurant_Base_01",
+    "skillType": [
+      1,
+      1,
+      1
+    ],
+    "skillValue1": [
+      14,
+      6,
+      10
+    ],
+    "skillValue2": [
+      4,
+      8,
+      40
+    ],
+    "skillValue3": [
+      60,
+      600,
+      60
+    ],
+    "skillValue4": [
+      0,
+      10,
+      0
+    ]
+  },
+  {
+    "bubbleCooldown": 2,
+    "cafeteriaCostumeMax": 5,
+    "cafeteriaCustomerNpcSpawnCount": 32,
+    "dayFxSoundResourceName": "AMB_Restaurant_Base_03",
+    "id": 9,
+    "mapGrade": 2,
+    "nightFxSoundResourceName": "AMB_Restaurant_Base_01",
+    "skillType": [
+      1,
+      1,
+      1
+    ],
+    "skillValue1": [
+      15,
+      6,
+      11
+    ],
+    "skillValue2": [
+      4,
+      8,
+      40
+    ],
+    "skillValue3": [
+      60,
+      600,
+      60
+    ],
+    "skillValue4": [
+      0,
+      10,
+      0
+    ]
+  },
+  {
+    "bubbleCooldown": 2,
+    "cafeteriaCostumeMax": 5,
+    "cafeteriaCustomerNpcSpawnCount": 34,
+    "dayFxSoundResourceName": "AMB_Restaurant_Base_03",
+    "id": 10,
+    "mapGrade": 2,
+    "nightFxSoundResourceName": "AMB_Restaurant_Base_01",
+    "skillType": [
+      1,
+      1,
+      1
+    ],
+    "skillValue1": [
+      17,
+      6,
+      12
+    ],
+    "skillValue2": [
+      4,
+      8,
+      40
+    ],
+    "skillValue3": [
+      60,
+      600,
+      60
+    ],
+    "skillValue4": [
+      0,
+      10,
+      0
+    ]
+  },
+  {
+    "bubbleCooldown": 2,
+    "cafeteriaCostumeMax": 5,
+    "cafeteriaCustomerNpcSpawnCount": 34,
+    "dayFxSoundResourceName": "AMB_Restaurant_Base_04",
+    "id": 11,
+    "mapGrade": 2,
+    "nightFxSoundResourceName": "AMB_Restaurant_Base_01",
+    "skillType": [
+      1,
+      1,
+      1
+    ],
+    "skillValue1": [
+      19,
+      9,
+      13
+    ],
+    "skillValue2": [
+      4,
+      8,
+      40
+    ],
+    "skillValue3": [
+      60,
+      600,
+      60
+    ],
+    "skillValue4": [
+      0,
+      10,
+      0
+    ]
+  },
+  {
+    "bubbleCooldown": 2,
+    "cafeteriaCostumeMax": 5,
+    "cafeteriaCustomerNpcSpawnCount": 36,
+    "dayFxSoundResourceName": "AMB_Restaurant_Base_04",
+    "id": 12,
+    "mapGrade": 2,
+    "nightFxSoundResourceName": "AMB_Restaurant_Base_01",
+    "skillType": [
+      1,
+      1,
+      1
+    ],
+    "skillValue1": [
+      21,
+      9,
+      14
+    ],
+    "skillValue2": [
+      4,
+      8,
+      40
+    ],
+    "skillValue3": [
+      60,
+      600,
+      60
+    ],
+    "skillValue4": [
+      0,
+      10,
+      0
+    ]
+  },
+  {
+    "bubbleCooldown": 2,
+    "cafeteriaCostumeMax": 5,
+    "cafeteriaCustomerNpcSpawnCount": 48,
+    "dayFxSoundResourceName": "AMB_Restaurant_Base_04",
+    "id": 13,
+    "mapGrade": 2,
+    "nightFxSoundResourceName": "AMB_Restaurant_Base_01",
+    "skillType": [
+      1,
+      1,
+      1
+    ],
+    "skillValue1": [
+      23,
+      9,
+      15
+    ],
+    "skillValue2": [
+      4,
+      8,
+      40
+    ],
+    "skillValue3": [
+      60,
+      600,
+      60
+    ],
+    "skillValue4": [
+      0,
+      10,
+      0
+    ]
+  },
+  {
+    "bubbleCooldown": 2,
+    "cafeteriaCostumeMax": 5,
+    "cafeteriaCustomerNpcSpawnCount": 54,
+    "dayFxSoundResourceName": "AMB_Restaurant_Base_04",
+    "id": 14,
+    "mapGrade": 2,
+    "nightFxSoundResourceName": "AMB_Restaurant_Base_01",
+    "skillType": [
+      1,
+      1,
+      1
+    ],
+    "skillValue1": [
+      25,
+      9,
+      16
+    ],
+    "skillValue2": [
+      4,
+      8,
+      40
+    ],
+    "skillValue3": [
+      60,
+      600,
+      60
+    ],
+    "skillValue4": [
+      0,
+      10,
+      0
+    ]
+  },
+  {
+    "bubbleCooldown": 2,
+    "cafeteriaCostumeMax": 5,
+    "cafeteriaCustomerNpcSpawnCount": 60,
+    "dayFxSoundResourceName": "AMB_Restaurant_Base_04",
+    "id": 15,
+    "mapGrade": 2,
+    "nightFxSoundResourceName": "AMB_Restaurant_Base_01",
+    "skillType": [
+      1,
+      1,
+      1
+    ],
+    "skillValue1": [
+      27,
+      9,
+      17
+    ],
+    "skillValue2": [
+      4,
+      8,
+      40
+    ],
+    "skillValue3": [
+      60,
+      600,
+      60
+    ],
+    "skillValue4": [
+      0,
+      10,
+      0
+    ]
+  },
+  {
+    "bubbleCooldown": 2,
+    "cafeteriaCostumeMax": 5,
+    "cafeteriaCustomerNpcSpawnCount": 64,
+    "dayFxSoundResourceName": "AMB_Restaurant_Base_04",
+    "id": 16,
+    "mapGrade": 3,
+    "nightFxSoundResourceName": "AMB_Restaurant_Base_02",
+    "skillType": [
+      1,
+      1,
+      1
+    ],
+    "skillValue1": [
+      30,
+      12,
+      18
+    ],
+    "skillValue2": [
+      4,
+      8,
+      40
+    ],
+    "skillValue3": [
+      60,
+      600,
+      60
+    ],
+    "skillValue4": [
+      0,
+      10,
+      0
+    ]
+  },
+  {
+    "bubbleCooldown": 2,
+    "cafeteriaCostumeMax": 5,
+    "cafeteriaCustomerNpcSpawnCount": 72,
+    "dayFxSoundResourceName": "AMB_Restaurant_Base_04",
+    "id": 17,
+    "mapGrade": 3,
+    "nightFxSoundResourceName": "AMB_Restaurant_Base_02",
+    "skillType": [
+      1,
+      1,
+      1
+    ],
+    "skillValue1": [
+      33,
+      12,
+      19
+    ],
+    "skillValue2": [
+      4,
+      8,
+      40
+    ],
+    "skillValue3": [
+      60,
+      600,
+      60
+    ],
+    "skillValue4": [
+      0,
+      10,
+      0
+    ]
+  },
+  {
+    "bubbleCooldown": 2,
+    "cafeteriaCostumeMax": 5,
+    "cafeteriaCustomerNpcSpawnCount": 76,
+    "dayFxSoundResourceName": "AMB_Restaurant_Base_04",
+    "id": 18,
+    "mapGrade": 3,
+    "nightFxSoundResourceName": "AMB_Restaurant_Base_02",
+    "skillType": [
+      1,
+      1,
+      1
+    ],
+    "skillValue1": [
+      35,
+      12,
+      20
+    ],
+    "skillValue2": [
+      4,
+      8,
+      40
+    ],
+    "skillValue3": [
+      60,
+      600,
+      60
+    ],
+    "skillValue4": [
+      0,
+      10,
+      0
+    ]
+  },
+  {
+    "bubbleCooldown": 2,
+    "cafeteriaCostumeMax": 5,
+    "cafeteriaCustomerNpcSpawnCount": 80,
+    "dayFxSoundResourceName": "AMB_Restaurant_Base_04",
+    "id": 19,
+    "mapGrade": 3,
+    "nightFxSoundResourceName": "AMB_Restaurant_Base_02",
+    "skillType": [
+      1,
+      1,
+      1
+    ],
+    "skillValue1": [
+      38,
+      12,
+      22
+    ],
+    "skillValue2": [
+      4,
+      8,
+      40
+    ],
+    "skillValue3": [
+      60,
+      600,
+      60
+    ],
+    "skillValue4": [
+      0,
+      10,
+      0
+    ]
+  },
+  {
+    "bubbleCooldown": 2,
+    "cafeteriaCostumeMax": 5,
+    "cafeteriaCustomerNpcSpawnCount": 84,
+    "dayFxSoundResourceName": "AMB_Restaurant_Base_04",
+    "id": 20,
+    "mapGrade": 3,
+    "nightFxSoundResourceName": "AMB_Restaurant_Base_02",
+    "skillType": [
+      1,
+      1,
+      1
+    ],
+    "skillValue1": [
+      41,
+      12,
+      24
+    ],
+    "skillValue2": [
+      4,
+      8,
+      40
+    ],
+    "skillValue3": [
+      60,
+      600,
+      60
+    ],
+    "skillValue4": [
+      0,
+      10,
+      0
+    ]
+  },
+  {
+    "bubbleCooldown": 1,
+    "cafeteriaCostumeMax": 5,
+    "cafeteriaCustomerNpcSpawnCount": 88,
+    "dayFxSoundResourceName": "AMB_Restaurant_Base_05",
+    "id": 21,
+    "mapGrade": 4,
+    "nightFxSoundResourceName": "AMB_Restaurant_Base_02",
+    "skillType": [
+      1,
+      1,
+      1
+    ],
+    "skillValue1": [
+      44,
+      15,
+      26
+    ],
+    "skillValue2": [
+      4,
+      8,
+      40
+    ],
+    "skillValue3": [
+      60,
+      600,
+      60
+    ],
+    "skillValue4": [
+      0,
+      10,
+      0
+    ]
+  },
+  {
+    "bubbleCooldown": 1,
+    "cafeteriaCostumeMax": 5,
+    "cafeteriaCustomerNpcSpawnCount": 92,
+    "dayFxSoundResourceName": "AMB_Restaurant_Base_05",
+    "id": 22,
+    "mapGrade": 4,
+    "nightFxSoundResourceName": "AMB_Restaurant_Base_02",
+    "skillType": [
+      1,
+      1,
+      1
+    ],
+    "skillValue1": [
+      47,
+      15,
+      29
+    ],
+    "skillValue2": [
+      4,
+      8,
+      40
+    ],
+    "skillValue3": [
+      60,
+      600,
+      60
+    ],
+    "skillValue4": [
+      0,
+      10,
+      0
+    ]
+  },
+  {
+    "bubbleCooldown": 1,
+    "cafeteriaCostumeMax": 5,
+    "cafeteriaCustomerNpcSpawnCount": 96,
+    "dayFxSoundResourceName": "AMB_Restaurant_Base_05",
+    "id": 23,
+    "mapGrade": 4,
+    "nightFxSoundResourceName": "AMB_Restaurant_Base_02",
+    "skillType": [
+      1,
+      1,
+      1
+    ],
+    "skillValue1": [
+      49,
+      15,
+      36
+    ],
+    "skillValue2": [
+      4,
+      8,
+      40
+    ],
+    "skillValue3": [
+      60,
+      600,
+      60
+    ],
+    "skillValue4": [
+      0,
+      10,
+      0
+    ]
+  },
+  {
+    "bubbleCooldown": 1,
+    "cafeteriaCostumeMax": 5,
+    "cafeteriaCustomerNpcSpawnCount": 100,
+    "dayFxSoundResourceName": "AMB_Restaurant_Base_05",
+    "id": 24,
+    "mapGrade": 4,
+    "nightFxSoundResourceName": "AMB_Restaurant_Base_02",
+    "skillType": [
+      1,
+      1,
+      1
+    ],
+    "skillValue1": [
+      52,
+      15,
+      50
+    ],
+    "skillValue2": [
+      4,
+      8,
+      40
+    ],
+    "skillValue3": [
+      60,
+      600,
+      60
+    ],
+    "skillValue4": [
+      0,
+      10,
+      0
+    ]
+  },
+  {
+    "bubbleCooldown": 1,
+    "cafeteriaCostumeMax": 5,
+    "cafeteriaCustomerNpcSpawnCount": 108,
+    "dayFxSoundResourceName": "AMB_Restaurant_Base_05",
+    "id": 25,
+    "mapGrade": 4,
+    "nightFxSoundResourceName": "AMB_Restaurant_Base_02",
+    "skillType": [
+      1,
+      1,
+      1
+    ],
+    "skillValue1": [
+      55,
+      15,
+      71
+    ],
+    "skillValue2": [
+      4,
+      8,
+      40
+    ],
+    "skillValue3": [
+      60,
+      600,
+      60
+    ],
+    "skillValue4": [
+      0,
+      10,
+      0
+    ]
+  },
+  {
+    "bubbleCooldown": 1,
+    "cafeteriaCostumeMax": 5,
+    "cafeteriaCustomerNpcSpawnCount": 114,
+    "dayFxSoundResourceName": "AMB_Restaurant_Base_05",
+    "id": 26,
+    "mapGrade": 5,
+    "nightFxSoundResourceName": "AMB_Restaurant_Base_03",
+    "skillType": [
+      1,
+      1,
+      1
+    ],
+    "skillValue1": [
+      58,
+      18,
+      99
+    ],
+    "skillValue2": [
+      4,
+      8,
+      40
+    ],
+    "skillValue3": [
+      60,
+      600,
+      60
+    ],
+    "skillValue4": [
+      0,
+      10,
+      0
+    ]
+  },
+  {
+    "bubbleCooldown": 1,
+    "cafeteriaCostumeMax": 5,
+    "cafeteriaCustomerNpcSpawnCount": 120,
+    "dayFxSoundResourceName": "AMB_Restaurant_Base_05",
+    "id": 27,
+    "mapGrade": 5,
+    "nightFxSoundResourceName": "AMB_Restaurant_Base_03",
+    "skillType": [
+      1,
+      1,
+      1
+    ],
+    "skillValue1": [
+      60,
+      18,
+      133
+    ],
+    "skillValue2": [
+      4,
+      8,
+      40
+    ],
+    "skillValue3": [
+      60,
+      600,
+      60
+    ],
+    "skillValue4": [
+      0,
+      10,
+      0
+    ]
+  },
+  {
+    "bubbleCooldown": 1,
+    "cafeteriaCostumeMax": 5,
+    "cafeteriaCustomerNpcSpawnCount": 122,
+    "dayFxSoundResourceName": "AMB_Restaurant_Base_05",
+    "id": 28,
+    "mapGrade": 5,
+    "nightFxSoundResourceName": "AMB_Restaurant_Base_03",
+    "skillType": [
+      1,
+      1,
+      1
+    ],
+    "skillValue1": [
+      63,
+      18,
+      175
+    ],
+    "skillValue2": [
+      4,
+      8,
+      40
+    ],
+    "skillValue3": [
+      60,
+      600,
+      60
+    ],
+    "skillValue4": [
+      0,
+      10,
+      0
+    ]
+  },
+  {
+    "bubbleCooldown": 1,
+    "cafeteriaCostumeMax": 5,
+    "cafeteriaCustomerNpcSpawnCount": 122,
+    "dayFxSoundResourceName": "AMB_Restaurant_Base_05",
+    "id": 29,
+    "mapGrade": 5,
+    "nightFxSoundResourceName": "AMB_Restaurant_Base_03",
+    "skillType": [
+      1,
+      1,
+      1
+    ],
+    "skillValue1": [
+      66,
+      18,
+      224
+    ],
+    "skillValue2": [
+      4,
+      8,
+      40
+    ],
+    "skillValue3": [
+      60,
+      600,
+      60
+    ],
+    "skillValue4": [
+      0,
+      10,
+      0
+    ]
+  },
+  {
+    "bubbleCooldown": 1,
+    "cafeteriaCostumeMax": 5,
+    "cafeteriaCustomerNpcSpawnCount": 122,
+    "dayFxSoundResourceName": "AMB_Restaurant_Base_05",
+    "id": 30,
+    "mapGrade": 5,
+    "nightFxSoundResourceName": "AMB_Restaurant_Base_03",
+    "skillType": [
+      1,
+      1,
+      1
+    ],
+    "skillValue1": [
+      69,
+      18,
+      0
+    ],
+    "skillValue2": [
+      4,
+      8,
+      40
+    ],
+    "skillValue3": [
+      60,
+      600,
+      60
+    ],
+    "skillValue4": [
+      0,
+      10,
+      0
+    ]
+  }
+]

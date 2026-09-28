@@ -1,0 +1,1609 @@
+[
+  {
+    "grade": 1,
+    "id": 1,
+    "relicBuff": [
+      11
+    ],
+    "relicDescTextId": 1220001,
+    "relicIcon": "icon_food1011_11",
+    "relicIconType": 5,
+    "relicNameTextId": 1210001,
+    "relicPrice": 8000
+  },
+  {
+    "grade": 2,
+    "id": 2,
+    "relicBuff": [
+      21
+    ],
+    "relicDescTextId": 1220002,
+    "relicIcon": "icon_food2009_9",
+    "relicIconType": 5,
+    "relicNameTextId": 1210002,
+    "relicPrice": 16000
+  },
+  {
+    "grade": 1,
+    "id": 3,
+    "relicBuff": [
+      31
+    ],
+    "relicDescTextId": 1220003,
+    "relicIcon": "icon_food1012_12",
+    "relicIconType": 5,
+    "relicNameTextId": 1210003,
+    "relicPrice": 9000
+  },
+  {
+    "grade": 2,
+    "id": 4,
+    "relicBuff": [
+      41
+    ],
+    "relicDescTextId": 1220004,
+    "relicIcon": "icon_food3010_10",
+    "relicIconType": 5,
+    "relicNameTextId": 1210004,
+    "relicPrice": 18000
+  },
+  {
+    "grade": 1,
+    "id": 5,
+    "relicBuff": [
+      51
+    ],
+    "relicDescTextId": 1220005,
+    "relicIcon": "icon_collection300301_285",
+    "relicIconType": 17,
+    "relicNameTextId": 1210005,
+    "relicPrice": 12000
+  },
+  {
+    "grade": 2,
+    "id": 6,
+    "relicBuff": [
+      61
+    ],
+    "relicDescTextId": 1220006,
+    "relicIcon": "icon_collection300313_297",
+    "relicIconType": 17,
+    "relicNameTextId": 1210006,
+    "relicPrice": 22000
+  },
+  {
+    "grade": 1,
+    "id": 7,
+    "relicBuff": [
+      71
+    ],
+    "relicDescTextId": 1220007,
+    "relicIcon": "icon_equipment1_1",
+    "relicIconType": 10,
+    "relicNameTextId": 1210007,
+    "relicPrice": 13500
+  },
+  {
+    "grade": 3,
+    "id": 8,
+    "relicBuff": [
+      81
+    ],
+    "relicDescTextId": 1220008,
+    "relicIcon": "icon_equipment11_6",
+    "relicIconType": 10,
+    "relicNameTextId": 1210008,
+    "relicPrice": 36000
+  },
+  {
+    "id": 9,
+    "relicBuff": [
+      91,
+      92
+    ],
+    "relicDescTextId": 1220009,
+    "relicIcon": "icon_equipment14_9",
+    "relicIconType": 10,
+    "relicNameTextId": 1210009,
+    "relicPrice": 3500
+  },
+  {
+    "grade": 1,
+    "id": 10,
+    "relicBuff": [
+      101
+    ],
+    "relicDescTextId": 1220010,
+    "relicIcon": "icon_equipment1102_46",
+    "relicIconType": 10,
+    "relicNameTextId": 1210010,
+    "relicPrice": 13500
+  },
+  {
+    "grade": 3,
+    "id": 11,
+    "relicBuff": [
+      111
+    ],
+    "relicDescTextId": 1220011,
+    "relicIcon": "icon_equipment2102_51",
+    "relicIconType": 10,
+    "relicNameTextId": 1210011,
+    "relicPrice": 36000
+  },
+  {
+    "id": 12,
+    "relicBuff": [
+      121,
+      122
+    ],
+    "relicDescTextId": 1220012,
+    "relicIcon": "icon_equipment2302_52",
+    "relicIconType": 10,
+    "relicNameTextId": 1210012,
+    "relicPrice": 3500
+  },
+  {
+    "grade": 2,
+    "id": 13,
+    "relicBuff": [
+      131
+    ],
+    "relicDescTextId": 1220013,
+    "relicIcon": "icon_equipment1402_49",
+    "relicIconType": 10,
+    "relicNameTextId": 1210013,
+    "relicPrice": 20000
+  },
+  {
+    "grade": 2,
+    "id": 14,
+    "relicBuff": [
+      141
+    ],
+    "relicDescTextId": 1220014,
+    "relicIcon": "icon_equipment1502_50",
+    "relicIconType": 10,
+    "relicNameTextId": 1210014,
+    "relicPrice": 20000
+  },
+  {
+    "grade": 2,
+    "id": 15,
+    "relicBuff": [
+      151
+    ],
+    "relicDescTextId": 1220015,
+    "relicIcon": "icon_collection300302_286",
+    "relicIconType": 17,
+    "relicNameTextId": 1210015,
+    "relicPrice": 20000
+  },
+  {
+    "grade": 1,
+    "id": 16,
+    "relicBuff": [
+      161
+    ],
+    "relicDescTextId": 1220016,
+    "relicIcon": "icon_collection300314_298",
+    "relicIconType": 17,
+    "relicNameTextId": 1210016,
+    "relicPrice": 10500
+  },
+  {
+    "grade": 3,
+    "id": 17,
+    "relicBuff": [
+      171,
+      172
+    ],
+    "relicDescTextId": 1220017,
+    "relicIcon": "icon_collection300315_299",
+    "relicIconType": 17,
+    "relicNameTextId": 1210017,
+    "relicPrice": 38000
+  },
+  {
+    "grade": 1,
+    "id": 18,
+    "relicBuff": [
+      181
+    ],
+    "relicDescTextId": 1220018,
+    "relicIcon": "icon_collection300316_300",
+    "relicIconType": 17,
+    "relicNameTextId": 1210018,
+    "relicPrice": 10500
+  },
+  {
+    "grade": 3,
+    "id": 19,
+    "relicBuff": [
+      191
+    ],
+    "relicDescTextId": 1220019,
+    "relicIcon": "icon_collection300303_287",
+    "relicIconType": 17,
+    "relicNameTextId": 1210019,
+    "relicPrice": 35000
+  },
+  {
+    "grade": 3,
+    "id": 20,
+    "relicBuff": [
+      201
+    ],
+    "relicDescTextId": 1220020,
+    "relicIcon": "icon_questItem60_60",
+    "relicIconType": 13,
+    "relicNameTextId": 1210020,
+    "relicPrice": 30000
+  },
+  {
+    "grade": 2,
+    "id": 21,
+    "relicBuff": [
+      211
+    ],
+    "relicDescTextId": 1220021,
+    "relicIcon": "icon_collection300304_288",
+    "relicIconType": 17,
+    "relicNameTextId": 1210021,
+    "relicPrice": 20000
+  },
+  {
+    "grade": 3,
+    "id": 22,
+    "relicBuff": [
+      221
+    ],
+    "relicDescTextId": 1220022,
+    "relicIcon": "icon_collection300317_301",
+    "relicIconType": 17,
+    "relicNameTextId": 1210022,
+    "relicPrice": 32000
+  },
+  {
+    "id": 23,
+    "relicBuff": [
+      231
+    ],
+    "relicDescTextId": 1220023,
+    "relicIcon": "icon_equipment12_7",
+    "relicIconType": 10,
+    "relicNameTextId": 1210023,
+    "relicPrice": 6000
+  },
+  {
+    "grade": 1,
+    "id": 24,
+    "relicBuff": [
+      241
+    ],
+    "relicDescTextId": 1220024,
+    "relicIcon": "icon_equipment22_12",
+    "relicIconType": 10,
+    "relicNameTextId": 1210024,
+    "relicPrice": 14000
+  },
+  {
+    "grade": 2,
+    "id": 25,
+    "relicBuff": [
+      251
+    ],
+    "relicDescTextId": 1220025,
+    "relicIcon": "icon_equipment4203_81",
+    "relicIconType": 10,
+    "relicNameTextId": 1210025,
+    "relicPrice": 24000
+  },
+  {
+    "id": 26,
+    "relicBuff": [
+      261
+    ],
+    "relicDescTextId": 1220026,
+    "relicIcon": "icon_equipment2502_55",
+    "relicIconType": 10,
+    "relicNameTextId": 1210026,
+    "relicPrice": 6000
+  },
+  {
+    "grade": 1,
+    "id": 27,
+    "relicBuff": [
+      271
+    ],
+    "relicDescTextId": 1220027,
+    "relicIcon": "icon_equipment3502_60",
+    "relicIconType": 10,
+    "relicNameTextId": 1210027,
+    "relicPrice": 14000
+  },
+  {
+    "grade": 2,
+    "id": 28,
+    "relicBuff": [
+      281
+    ],
+    "relicDescTextId": 1220028,
+    "relicIcon": "icon_equipment4506_90",
+    "relicIconType": 10,
+    "relicNameTextId": 1210028,
+    "relicPrice": 24000
+  },
+  {
+    "id": 29,
+    "relicBuff": [
+      291
+    ],
+    "relicDescTextId": 1220029,
+    "relicIcon": "icon_resource101_9",
+    "relicIconType": 8,
+    "relicNameTextId": 1210029,
+    "relicPrice": 3800
+  },
+  {
+    "grade": 3,
+    "id": 30,
+    "relicBuff": [
+      301
+    ],
+    "relicDescTextId": 1220030,
+    "relicIcon": "icon_resource121_21",
+    "relicIconType": 8,
+    "relicNameTextId": 1210030,
+    "relicPrice": 28000
+  },
+  {
+    "id": 31,
+    "relicBuff": [
+      311
+    ],
+    "relicDescTextId": 1220031,
+    "relicIcon": "icon_resource102_10",
+    "relicIconType": 8,
+    "relicNameTextId": 1210031,
+    "relicPrice": 3800
+  },
+  {
+    "grade": 3,
+    "id": 32,
+    "relicBuff": [
+      321
+    ],
+    "relicDescTextId": 1220032,
+    "relicIcon": "icon_resource122_22",
+    "relicIconType": 8,
+    "relicNameTextId": 1210032,
+    "relicPrice": 28000
+  },
+  {
+    "grade": 1,
+    "id": 33,
+    "relicBuff": [
+      331
+    ],
+    "relicDescTextId": 1220033,
+    "relicIcon": "icon_equipment15_10",
+    "relicIconType": 10,
+    "relicNameTextId": 1210033,
+    "relicPrice": 12000
+  },
+  {
+    "grade": 1,
+    "id": 34,
+    "relicBuff": [
+      341
+    ],
+    "relicDescTextId": 1220034,
+    "relicIcon": "icon_equipment4503_87",
+    "relicIconType": 10,
+    "relicNameTextId": 1210034,
+    "relicPrice": 12000
+  },
+  {
+    "grade": 1,
+    "id": 35,
+    "relicBuff": [
+      351
+    ],
+    "relicDescTextId": 1220035,
+    "relicIcon": "icon_equipment4101_61",
+    "relicIconType": 10,
+    "relicNameTextId": 1210035,
+    "relicPrice": 12000
+  },
+  {
+    "grade": 1,
+    "id": 36,
+    "relicBuff": [
+      361
+    ],
+    "relicDescTextId": 1220036,
+    "relicIcon": "icon_equipment20001_1",
+    "relicIconType": 10,
+    "relicNameTextId": 1210036,
+    "relicPrice": 12000
+  },
+  {
+    "id": 37,
+    "relicBuff": [
+      371
+    ],
+    "relicDescTextId": 1220037,
+    "relicIcon": "icon_resource60010_93",
+    "relicIconType": 8,
+    "relicNameTextId": 1210037,
+    "relicPrice": 4000
+  },
+  {
+    "grade": 1,
+    "id": 38,
+    "relicBuff": [
+      381
+    ],
+    "relicDescTextId": 1220038,
+    "relicIcon": "icon_collection000302_26",
+    "relicIconType": 17,
+    "relicNameTextId": 1210038,
+    "relicPrice": 14100
+  },
+  {
+    "grade": 2,
+    "id": 39,
+    "relicBuff": [
+      391
+    ],
+    "relicDescTextId": 1220039,
+    "relicIcon": "icon_collection100501_121",
+    "relicIconType": 17,
+    "relicNameTextId": 1210039,
+    "relicPrice": 25750
+  },
+  {
+    "id": 40,
+    "relicBuff": [
+      401
+    ],
+    "relicDescTextId": 1220040,
+    "relicIcon": "icon_food2030_30",
+    "relicIconType": 5,
+    "relicNameTextId": 1210040,
+    "relicPrice": 4800
+  },
+  {
+    "grade": 1,
+    "id": 41,
+    "relicBuff": [
+      411
+    ],
+    "relicDescTextId": 1220041,
+    "relicIcon": "icon_food2010_10",
+    "relicIconType": 5,
+    "relicNameTextId": 1210041,
+    "relicPrice": 9600
+  },
+  {
+    "grade": 1,
+    "id": 42,
+    "relicBuff": [
+      421
+    ],
+    "relicDescTextId": 1220042,
+    "relicIcon": "icon_questItem9_9",
+    "relicIconType": 13,
+    "relicNameTextId": 1210042,
+    "relicPrice": 8000
+  },
+  {
+    "grade": 3,
+    "id": 43,
+    "relicBuff": [
+      431
+    ],
+    "relicDescTextId": 1220043,
+    "relicIcon": "icon_collection300305_289",
+    "relicIconType": 17,
+    "relicNameTextId": 1210043,
+    "relicPrice": 24000
+  },
+  {
+    "grade": 1,
+    "id": 44,
+    "relicBuff": [
+      441
+    ],
+    "relicDescTextId": 1220044,
+    "relicIcon": "icon_collection300318_302",
+    "relicIconType": 17,
+    "relicNameTextId": 1210044,
+    "relicPrice": 12000
+  },
+  {
+    "grade": 3,
+    "id": 45,
+    "relicBuff": [
+      451
+    ],
+    "relicDescTextId": 1220045,
+    "relicIcon": "icon_equipment4103_63",
+    "relicIconType": 10,
+    "relicNameTextId": 1210045,
+    "relicPrice": 48000
+  },
+  {
+    "id": 46,
+    "relicBuff": [
+      461
+    ],
+    "relicDescTextId": 1220046,
+    "relicIcon": "icon_equipment13_8",
+    "relicIconType": 10,
+    "relicNameTextId": 1210046,
+    "relicPrice": 4000
+  },
+  {
+    "grade": 3,
+    "id": 47,
+    "relicBuff": [
+      471
+    ],
+    "relicDescTextId": 1220047,
+    "relicIcon": "icon_equipment4303_75",
+    "relicIconType": 10,
+    "relicNameTextId": 1210047,
+    "relicPrice": 18000
+  },
+  {
+    "grade": 1,
+    "id": 48,
+    "relicBuff": [
+      481
+    ],
+    "relicDescTextId": 1220048,
+    "relicIcon": "icon_collection000808_79",
+    "relicIconType": 17,
+    "relicNameTextId": 1210048,
+    "relicPrice": 9000
+  },
+  {
+    "id": 49,
+    "relicBuff": [
+      491
+    ],
+    "relicDescTextId": 1220049,
+    "relicIcon": "icon_questItem57_57",
+    "relicIconType": 13,
+    "relicNameTextId": 1210049,
+    "relicPrice": 4800
+  },
+  {
+    "grade": 1,
+    "id": 50,
+    "relicBuff": [
+      501
+    ],
+    "relicDescTextId": 1220050,
+    "relicIcon": "icon_questItem59_59",
+    "relicIconType": 13,
+    "relicNameTextId": 1210050,
+    "relicPrice": 10400
+  },
+  {
+    "grade": 1,
+    "id": 51,
+    "relicBuff": [
+      511,
+      512
+    ],
+    "relicDescTextId": 1220051,
+    "relicIcon": "icon_collection300319_303",
+    "relicIconType": 17,
+    "relicNameTextId": 1210051,
+    "relicPrice": 6000
+  },
+  {
+    "grade": 2,
+    "id": 52,
+    "relicBuff": [
+      521,
+      522
+    ],
+    "relicDescTextId": 1220052,
+    "relicIcon": "icon_collection300306_290",
+    "relicIconType": 17,
+    "relicNameTextId": 1210052,
+    "relicPrice": 9000
+  },
+  {
+    "grade": 3,
+    "id": 53,
+    "relicBuff": [
+      531,
+      532
+    ],
+    "relicDescTextId": 1220053,
+    "relicIcon": "icon_collection300320_304",
+    "relicIconType": 17,
+    "relicNameTextId": 1210053,
+    "relicPrice": 18000
+  },
+  {
+    "grade": 1,
+    "id": 54,
+    "relicBuff": [
+      541,
+      542
+    ],
+    "relicDescTextId": 1220054,
+    "relicIcon": "icon_collection000501_47",
+    "relicIconType": 17,
+    "relicNameTextId": 1210054,
+    "relicPrice": 10500
+  },
+  {
+    "grade": 1,
+    "id": 55,
+    "relicBuff": [
+      551
+    ],
+    "relicDescTextId": 1220055,
+    "relicIcon": "icon_collection000605_59",
+    "relicIconType": 17,
+    "relicNameTextId": 1210055,
+    "relicPrice": 9000
+  },
+  {
+    "grade": 3,
+    "id": 56,
+    "relicBuff": [
+      561
+    ],
+    "relicDescTextId": 1220056,
+    "relicIcon": "icon_questItem2_2",
+    "relicIconType": 13,
+    "relicNameTextId": 1210056,
+    "relicPrice": 22500
+  },
+  {
+    "id": 57,
+    "relicBuff": [
+      571
+    ],
+    "relicDescTextId": 1220057,
+    "relicIcon": "icon_questItem3_3",
+    "relicIconType": 13,
+    "relicNameTextId": 1210057,
+    "relicPrice": 4400
+  },
+  {
+    "grade": 1,
+    "id": 58,
+    "relicBuff": [
+      581
+    ],
+    "relicDescTextId": 1220058,
+    "relicIcon": "icon_questItem46_46",
+    "relicIconType": 13,
+    "relicNameTextId": 1210058,
+    "relicPrice": 11200
+  },
+  {
+    "grade": 2,
+    "id": 59,
+    "relicBuff": [
+      591
+    ],
+    "relicDescTextId": 1220059,
+    "relicIcon": "icon_questItem47_47",
+    "relicIconType": 13,
+    "relicNameTextId": 1210059,
+    "relicPrice": 13500
+  },
+  {
+    "id": 60,
+    "relicBuff": [
+      601
+    ],
+    "relicDescTextId": 1220060,
+    "relicIcon": "icon_collection000504_24",
+    "relicIconType": 17,
+    "relicNameTextId": 1210060,
+    "relicPrice": 4000
+  },
+  {
+    "id": 61,
+    "relicBuff": [
+      611
+    ],
+    "relicDescTextId": 1220061,
+    "relicIcon": "icon_collection000505_49",
+    "relicIconType": 17,
+    "relicNameTextId": 1210061,
+    "relicPrice": 4400
+  },
+  {
+    "grade": 1,
+    "id": 62,
+    "relicBuff": [
+      621
+    ],
+    "relicDescTextId": 1220062,
+    "relicIcon": "icon_collection100503_123",
+    "relicIconType": 17,
+    "relicNameTextId": 1210062,
+    "relicPrice": 6600
+  },
+  {
+    "id": 63,
+    "relicBuff": [
+      631
+    ],
+    "relicDescTextId": 1220063,
+    "relicIcon": "icon_questItem000206_83",
+    "relicIconType": 13,
+    "relicNameTextId": 1210063,
+    "relicPrice": 4800
+  },
+  {
+    "id": 64,
+    "relicBuff": [
+      641
+    ],
+    "relicDescTextId": 1220064,
+    "relicIcon": "icon_collection100603_239",
+    "relicIconType": 17,
+    "relicNameTextId": 1210064,
+    "relicPrice": 3500
+  },
+  {
+    "id": 65,
+    "relicBuff": [
+      651
+    ],
+    "relicDescTextId": 1220065,
+    "relicIcon": "icon_food1053_53",
+    "relicIconType": 5,
+    "relicNameTextId": 1210065,
+    "relicPrice": 2500
+  },
+  {
+    "id": 66,
+    "relicBuff": [
+      661
+    ],
+    "relicDescTextId": 1220066,
+    "relicIcon": "icon_resource90005_140",
+    "relicIconType": 8,
+    "relicNameTextId": 1210066,
+    "relicPrice": 6600
+  },
+  {
+    "id": 67,
+    "relicBuff": [
+      671
+    ],
+    "relicDescTextId": 1220067,
+    "relicIcon": "icon_resource90020_202",
+    "relicIconType": 8,
+    "relicNameTextId": 1210067,
+    "relicPrice": 6600
+  },
+  {
+    "grade": 1,
+    "id": 68,
+    "relicBuff": [
+      681
+    ],
+    "relicDescTextId": 1220068,
+    "relicIcon": "icon_collection300307_291",
+    "relicIconType": 17,
+    "relicNameTextId": 1210068,
+    "relicPrice": 6500
+  },
+  {
+    "grade": 2,
+    "id": 69,
+    "relicBuff": [
+      691
+    ],
+    "relicDescTextId": 1220069,
+    "relicIcon": "icon_collection300321_305",
+    "relicIconType": 17,
+    "relicNameTextId": 1210069,
+    "relicPrice": 9500
+  },
+  {
+    "id": 70,
+    "relicBuff": [
+      701
+    ],
+    "relicDescTextId": 1220070,
+    "relicIcon": "icon_collection000609_63",
+    "relicIconType": 17,
+    "relicNameTextId": 1210070,
+    "relicPrice": 6500
+  },
+  {
+    "id": 71,
+    "relicBuff": [
+      711
+    ],
+    "relicDescTextId": 1220071,
+    "relicIcon": "icon_collection300308_292",
+    "relicIconType": 17,
+    "relicNameTextId": 1210071,
+    "relicPrice": 6500
+  },
+  {
+    "grade": 1,
+    "id": 72,
+    "relicBuff": [
+      721
+    ],
+    "relicDescTextId": 1220072,
+    "relicIcon": "icon_collection300309_293",
+    "relicIconType": 17,
+    "relicNameTextId": 1210072,
+    "relicPrice": 9000
+  },
+  {
+    "id": 73,
+    "relicBuff": [
+      731
+    ],
+    "relicDescTextId": 1220073,
+    "relicIcon": "icon_collection100605_241",
+    "relicIconType": 17,
+    "relicNameTextId": 1210073,
+    "relicType": 1
+  },
+  {
+    "id": 74,
+    "relicBuff": [
+      741
+    ],
+    "relicDescTextId": 1220074,
+    "relicIcon": "icon_collection300322_306",
+    "relicIconType": 17,
+    "relicNameTextId": 1210074,
+    "relicType": 1
+  },
+  {
+    "id": 75,
+    "relicBuff": [
+      751
+    ],
+    "relicDescTextId": 1220075,
+    "relicIcon": "icon_collection300323_307",
+    "relicIconType": 17,
+    "relicNameTextId": 1210075,
+    "relicType": 1
+  },
+  {
+    "id": 76,
+    "relicBuff": [
+      761
+    ],
+    "relicDescTextId": 1220076,
+    "relicIcon": "icon_food1061_61",
+    "relicIconType": 5,
+    "relicNameTextId": 1210076,
+    "relicPrice": 3000
+  },
+  {
+    "grade": 1,
+    "id": 77,
+    "relicBuff": [
+      771
+    ],
+    "relicDescTextId": 1220077,
+    "relicIcon": "icon_food1055_55",
+    "relicIconType": 5,
+    "relicNameTextId": 1210077,
+    "relicPrice": 6000
+  },
+  {
+    "grade": 3,
+    "id": 78,
+    "relicBuff": [
+      781
+    ],
+    "relicDescTextId": 1220078,
+    "relicIcon": "icon_collection300310_294",
+    "relicIconType": 17,
+    "relicNameTextId": 1210078,
+    "relicPrice": 33000
+  },
+  {
+    "grade": 3,
+    "id": 79,
+    "relicBuff": [
+      791
+    ],
+    "relicDescTextId": 1220079,
+    "relicIcon": "icon_collection300311_295",
+    "relicIconType": 17,
+    "relicNameTextId": 1210079,
+    "relicPrice": 33000
+  },
+  {
+    "grade": 1,
+    "id": 80,
+    "relicBuff": [
+      801
+    ],
+    "relicDescTextId": 1220080,
+    "relicIcon": "icon_collection100202_90",
+    "relicIconType": 17,
+    "relicNameTextId": 1210080,
+    "relicPrice": 11400
+  },
+  {
+    "grade": 1,
+    "id": 81,
+    "relicBuff": [
+      811,
+      812
+    ],
+    "relicDescTextId": 1220081,
+    "relicIcon": "icon_collection300312_296",
+    "relicIconType": 17,
+    "relicNameTextId": 1210081,
+    "relicPrice": 10000
+  },
+  {
+    "id": 82,
+    "relicBuff": [
+      821
+    ],
+    "relicDescTextId": 1220082,
+    "relicIcon": "icon_collection000510_54",
+    "relicIconType": 17,
+    "relicNameTextId": 1210082,
+    "relicType": 1
+  },
+  {
+    "id": 83,
+    "relicBuff": [
+      831
+    ],
+    "relicDescTextId": 1220083,
+    "relicIcon": "icon_resource50010_118",
+    "relicIconType": 8,
+    "relicNameTextId": 1210083,
+    "relicType": 1
+  },
+  {
+    "grade": 3,
+    "id": 84,
+    "relicBuff": [
+      841,
+      842
+    ],
+    "relicDescTextId": 1220084,
+    "relicIcon": "icon_collection300324_308",
+    "relicIconType": 17,
+    "relicNameTextId": 1210084,
+    "relicPrice": 28000
+  },
+  {
+    "grade": 3,
+    "id": 85,
+    "relicBuff": [
+      851,
+      852,
+      853
+    ],
+    "relicDescTextId": 1220085,
+    "relicIcon": "icon_questItem000606_108",
+    "relicIconType": 13,
+    "relicNameTextId": 1210085,
+    "relicPrice": 28000
+  },
+  {
+    "grade": 1,
+    "id": 86,
+    "relicBuff": [
+      861
+    ],
+    "relicDescTextId": 1220086,
+    "relicIcon": "icon_collection203_14",
+    "relicIconType": 17,
+    "relicNameTextId": 1210086,
+    "relicPrice": 10600
+  },
+  {
+    "grade": 1,
+    "id": 87,
+    "relicBuff": [
+      871
+    ],
+    "relicDescTextId": 1220087,
+    "relicIcon": "icon_questItem000403_93",
+    "relicIconType": 13,
+    "relicNameTextId": 1210087,
+    "relicPrice": 10600
+  },
+  {
+    "grade": 2,
+    "id": 88,
+    "relicBuff": [
+      881
+    ],
+    "relicDescTextId": 1220088,
+    "relicIcon": "icon_questItem001003_70",
+    "relicIconType": 13,
+    "relicNameTextId": 1210088,
+    "relicPrice": 18500
+  },
+  {
+    "grade": 1,
+    "id": 89,
+    "relicBuff": [
+      891,
+      892,
+      893
+    ],
+    "relicDescTextId": 1220089,
+    "relicIcon": "icon_questItem000504_101",
+    "relicIconType": 13,
+    "relicNameTextId": 1210089,
+    "relicPrice": 10000
+  },
+  {
+    "id": 90,
+    "relicBuff": [
+      901
+    ],
+    "relicDescTextId": 1220090,
+    "relicIcon": "icon_collection104_4",
+    "relicIconType": 17,
+    "relicNameTextId": 1210090,
+    "relicPrice": 4800
+  },
+  {
+    "id": 91,
+    "relicBuff": [
+      911
+    ],
+    "relicDescTextId": 1220091,
+    "relicIcon": "icon_collection300502_249",
+    "relicIconType": 17,
+    "relicNameTextId": 1210091,
+    "relicPrice": 4000
+  },
+  {
+    "id": 92,
+    "relicBuff": [
+      921
+    ],
+    "relicDescTextId": 1220092,
+    "relicIcon": "icon_questItem63_63",
+    "relicIconType": 13,
+    "relicNameTextId": 1210092,
+    "relicPrice": 6000
+  },
+  {
+    "id": 93,
+    "relicBuff": [
+      931
+    ],
+    "relicDescTextId": 1220093,
+    "relicIcon": "icon_questItem100403_142",
+    "relicIconType": 13,
+    "relicNameTextId": 1210093,
+    "relicPrice": 7200
+  },
+  {
+    "id": 94,
+    "relicBuff": [
+      941
+    ],
+    "relicDescTextId": 1220094,
+    "relicIcon": "icon_collection106_6",
+    "relicIconType": 17,
+    "relicNameTextId": 1210094,
+    "relicPrice": 6000
+  },
+  {
+    "id": 95,
+    "relicBuff": [
+      951
+    ],
+    "relicDescTextId": 1220095,
+    "relicIcon": "icon_questItem000306_90",
+    "relicIconType": 13,
+    "relicNameTextId": 1210095,
+    "relicPrice": 6000
+  },
+  {
+    "grade": 3,
+    "id": 96,
+    "relicBuff": [
+      961
+    ],
+    "relicDescTextId": 1220096,
+    "relicIcon": "icon_food2016_16",
+    "relicIconType": 5,
+    "relicNameTextId": 1210096,
+    "relicPrice": 32000
+  },
+  {
+    "grade": 3,
+    "id": 97,
+    "relicBuff": [
+      971
+    ],
+    "relicDescTextId": 1220097,
+    "relicIcon": "icon_food2010_10",
+    "relicIconType": 5,
+    "relicNameTextId": 1210097,
+    "relicPrice": 36000
+  },
+  {
+    "grade": 3,
+    "id": 98,
+    "relicBuff": [
+      981
+    ],
+    "relicDescTextId": 1220098,
+    "relicIcon": "icon_food2018_18",
+    "relicIconType": 5,
+    "relicNameTextId": 1210098,
+    "relicPrice": 36000
+  },
+  {
+    "grade": 1,
+    "id": 99,
+    "relicBuff": [
+      991
+    ],
+    "relicDescTextId": 1220099,
+    "relicIcon": "icon_questItem000903_67",
+    "relicIconType": 13,
+    "relicNameTextId": 1210099,
+    "relicPrice": 7000
+  },
+  {
+    "grade": 2,
+    "id": 100,
+    "relicBuff": [
+      1001
+    ],
+    "relicDescTextId": 1220100,
+    "relicIcon": "icon_questItem50_50",
+    "relicIconType": 13,
+    "relicNameTextId": 1210100,
+    "relicPrice": 10000
+  },
+  {
+    "id": 101,
+    "relicBuff": [
+      1011
+    ],
+    "relicDescTextId": 1220101,
+    "relicIcon": "icon_resource60005_88",
+    "relicIconType": 8,
+    "relicNameTextId": 1210101,
+    "relicPrice": 3500
+  },
+  {
+    "id": 102,
+    "relicBuff": [
+      1021
+    ],
+    "relicDescTextId": 1220102,
+    "relicIcon": "icon_questItem15_15",
+    "relicIconType": 13,
+    "relicNameTextId": 1210102,
+    "relicPrice": 3000
+  },
+  {
+    "grade": 2,
+    "id": 103,
+    "relicBuff": [
+      1031
+    ],
+    "relicDescTextId": 1220103,
+    "relicIcon": "icon_questItem27_27",
+    "relicIconType": 13,
+    "relicNameTextId": 1210103,
+    "relicPrice": 10000
+  },
+  {
+    "grade": 2,
+    "id": 104,
+    "relicBuff": [
+      1041
+    ],
+    "relicDescTextId": 1220104,
+    "relicIcon": "icon_collection000509_53",
+    "relicIconType": 17,
+    "relicNameTextId": 1210104,
+    "relicPrice": 18000
+  },
+  {
+    "grade": 1,
+    "id": 105,
+    "relicBuff": [
+      1051
+    ],
+    "relicDescTextId": 1220105,
+    "relicIcon": "icon_collection100401_114",
+    "relicIconType": 17,
+    "relicNameTextId": 1210105,
+    "relicPrice": 5800
+  },
+  {
+    "id": 106,
+    "relicBuff": [
+      1061
+    ],
+    "relicDescTextId": 1220106,
+    "relicIcon": "icon_questItem000801_115",
+    "relicIconType": 13,
+    "relicNameTextId": 1210106,
+    "relicPrice": 3200
+  },
+  {
+    "id": 107,
+    "relicBuff": [
+      1071
+    ],
+    "relicDescTextId": 1220107,
+    "relicIcon": "icon_questItem18_18",
+    "relicIconType": 13,
+    "relicNameTextId": 1210107,
+    "relicPrice": 3000
+  },
+  {
+    "id": 108,
+    "relicBuff": [
+      1081
+    ],
+    "relicDescTextId": 1220108,
+    "relicIcon": "icon_resource20015_185",
+    "relicIconType": 8,
+    "relicNameTextId": 1210108,
+    "relicPrice": 3500
+  },
+  {
+    "id": 109,
+    "relicBuff": [
+      1091,
+      1092
+    ],
+    "relicDescTextId": 1220109,
+    "relicIcon": "icon_collection000904_105",
+    "relicIconType": 17,
+    "relicNameTextId": 1210109,
+    "relicPrice": 4000
+  },
+  {
+    "grade": 1,
+    "id": 110,
+    "relicBuff": [
+      1101,
+      1102
+    ],
+    "relicDescTextId": 1220110,
+    "relicIcon": "icon_collection001002_110",
+    "relicIconType": 17,
+    "relicNameTextId": 1210110,
+    "relicPrice": 7000
+  },
+  {
+    "id": 111,
+    "relicBuff": [
+      1111
+    ],
+    "relicDescTextId": 1220111,
+    "relicIcon": "icon_collection100506_126",
+    "relicIconType": 17,
+    "relicNameTextId": 1210111,
+    "relicPrice": 5000
+  },
+  {
+    "id": 112,
+    "relicBuff": [
+      1121
+    ],
+    "relicDescTextId": 1220112,
+    "relicIcon": "icon_collection000903_104",
+    "relicIconType": 17,
+    "relicNameTextId": 1210112,
+    "relicPrice": 5000
+  },
+  {
+    "grade": 1,
+    "id": 113,
+    "relicBuff": [
+      1131
+    ],
+    "relicDescTextId": 1220113,
+    "relicIcon": "icon_collection001108_260",
+    "relicIconType": 17,
+    "relicNameTextId": 1210113,
+    "relicPrice": 8500
+  },
+  {
+    "grade": 1,
+    "id": 114,
+    "relicBuff": [
+      1141
+    ],
+    "relicDescTextId": 1220114,
+    "relicIcon": "icon_questItem100402_141",
+    "relicIconType": 13,
+    "relicNameTextId": 1210114,
+    "relicPrice": 10000
+  },
+  {
+    "grade": 3,
+    "id": 115,
+    "relicBuff": [
+      1151
+    ],
+    "relicDescTextId": 1220115,
+    "relicIcon": "icon_questItem54_54",
+    "relicIconType": 13,
+    "relicNameTextId": 1210115,
+    "relicPrice": 25000
+  },
+  {
+    "grade": 2,
+    "id": 901,
+    "relicBuff": [
+      9011
+    ],
+    "relicDescTextId": 1220901,
+    "relicIcon": "icon_food1047_47",
+    "relicIconType": 5,
+    "relicNameTextId": 1210901,
+    "relicType": 2
+  },
+  {
+    "grade": 2,
+    "id": 902,
+    "relicBuff": [
+      9021
+    ],
+    "relicDescTextId": 1220902,
+    "relicIcon": "icon_resource106_14",
+    "relicIconType": 8,
+    "relicNameTextId": 1210902,
+    "relicType": 2
+  },
+  {
+    "grade": 2,
+    "id": 903,
+    "relicBuff": [
+      9031
+    ],
+    "relicDescTextId": 1220903,
+    "relicIcon": "icon_equipment4103_63",
+    "relicIconType": 10,
+    "relicNameTextId": 1210903,
+    "relicType": 2
+  },
+  {
+    "grade": 3,
+    "id": 904,
+    "relicBuff": [
+      9041,
+      9042
+    ],
+    "relicDescTextId": 1220904,
+    "relicIcon": "icon_equipment201_21",
+    "relicIconType": 10,
+    "relicNameTextId": 1210904,
+    "relicType": 2
+  },
+  {
+    "grade": 3,
+    "id": 905,
+    "relicBuff": [
+      9051,
+      9052
+    ],
+    "relicDescTextId": 1220905,
+    "relicIcon": "icon_equipment9679_170",
+    "relicIconType": 10,
+    "relicNameTextId": 1210905,
+    "relicType": 2
+  },
+  {
+    "grade": 2,
+    "id": 906,
+    "relicBuff": [
+      9061
+    ],
+    "relicDescTextId": 1220906,
+    "relicIcon": "icon_collection000610_64",
+    "relicIconType": 17,
+    "relicNameTextId": 1210906,
+    "relicType": 2
+  },
+  {
+    "grade": 2,
+    "id": 907,
+    "relicBuff": [
+      9071,
+      9072
+    ],
+    "relicDescTextId": 1220907,
+    "relicIcon": "icon_resource90020_203",
+    "relicIconType": 8,
+    "relicNameTextId": 1210907,
+    "relicType": 2
+  },
+  {
+    "grade": 2,
+    "id": 908,
+    "relicBuff": [
+      9081,
+      9082
+    ],
+    "relicDescTextId": 1220908,
+    "relicIcon": "icon_collection107_7",
+    "relicIconType": 17,
+    "relicNameTextId": 1210908,
+    "relicType": 2
+  },
+  {
+    "grade": 2,
+    "id": 909,
+    "relicBuff": [
+      9091
+    ],
+    "relicDescTextId": 1220909,
+    "relicIcon": "icon_collection001001_110",
+    "relicIconType": 17,
+    "relicNameTextId": 1210909,
+    "relicType": 2
+  },
+  {
+    "grade": 2,
+    "id": 910,
+    "relicBuff": [
+      9101
+    ],
+    "relicDescTextId": 1220910,
+    "relicIcon": "icon_questItem64_64",
+    "relicIconType": 13,
+    "relicNameTextId": 1210910,
+    "relicType": 2
+  },
+  {
+    "grade": 2,
+    "id": 911,
+    "relicBuff": [
+      9111
+    ],
+    "relicDescTextId": 1220911,
+    "relicIcon": "icon_equipment4102_62",
+    "relicIconType": 10,
+    "relicNameTextId": 1210911,
+    "relicType": 2
+  },
+  {
+    "grade": 3,
+    "id": 912,
+    "relicBuff": [
+      9121,
+      9122
+    ],
+    "relicDescTextId": 1220912,
+    "relicIcon": "icon_equipment9607_116",
+    "relicIconType": 10,
+    "relicNameTextId": 1210912,
+    "relicType": 2
+  },
+  {
+    "grade": 3,
+    "id": 913,
+    "relicBuff": [
+      9131,
+      9132
+    ],
+    "relicDescTextId": 1220913,
+    "relicIcon": "icon_equipment9633_139",
+    "relicIconType": 10,
+    "relicNameTextId": 1210913,
+    "relicType": 2
+  },
+  {
+    "grade": 2,
+    "id": 914,
+    "relicBuff": [
+      9141,
+      9142
+    ],
+    "relicDescTextId": 1220914,
+    "relicIcon": "icon_collection100205_93",
+    "relicIconType": 17,
+    "relicNameTextId": 1210914,
+    "relicType": 2
+  },
+  {
+    "grade": 2,
+    "id": 915,
+    "relicBuff": [
+      9151
+    ],
+    "relicDescTextId": 1220915,
+    "relicIcon": "icon_equipment4305_77",
+    "relicIconType": 10,
+    "relicNameTextId": 1210915,
+    "relicType": 2
+  },
+  {
+    "grade": 2,
+    "id": 916,
+    "relicBuff": [
+      9161
+    ],
+    "relicDescTextId": 1220916,
+    "relicIcon": "icon_resource60008_91",
+    "relicIconType": 8,
+    "relicNameTextId": 1210916,
+    "relicType": 2
+  },
+  {
+    "grade": 3,
+    "id": 917,
+    "relicBuff": [
+      9171,
+      9172,
+      9173
+    ],
+    "relicDescTextId": 1220917,
+    "relicIcon": "icon_equipment4401_67",
+    "relicIconType": 10,
+    "relicNameTextId": 1210917,
+    "relicType": 2
+  },
+  {
+    "grade": 3,
+    "id": 918,
+    "relicBuff": [
+      9181,
+      9182,
+      9183
+    ],
+    "relicDescTextId": 1220918,
+    "relicIcon": "icon_equipment4404_70",
+    "relicIconType": 10,
+    "relicNameTextId": 1210918,
+    "relicType": 2
+  },
+  {
+    "grade": 2,
+    "id": 919,
+    "relicBuff": [
+      9191,
+      9192
+    ],
+    "relicDescTextId": 1220919,
+    "relicIcon": "icon_questItem000902_66",
+    "relicIconType": 13,
+    "relicNameTextId": 1210919,
+    "relicType": 2
+  },
+  {
+    "grade": 3,
+    "id": 920,
+    "relicBuff": [
+      9201
+    ],
+    "relicDescTextId": 1220920,
+    "relicIcon": "icon_questItem000408_144",
+    "relicIconType": 13,
+    "relicNameTextId": 1210920,
+    "relicType": 2
+  }
+]

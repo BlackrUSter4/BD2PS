@@ -1,0 +1,77 @@
+[
+  {
+    "groupId": 100,
+    "id": 1,
+    "rewardId": 900001
+  },
+  {
+    "groupId": 100,
+    "id": 2,
+    "rewardId": 901001
+  },
+  {
+    "groupId": 100,
+    "id": 3,
+    "rewardId": 902001
+  },
+  {
+    "groupId": 100,
+    "id": 4,
+    "rewardId": 903001
+  },
+  {
+    "groupId": 100,
+    "id": 5,
+    "rewardId": 904001
+  },
+  {
+    "groupId": 101,
+    "id": 1,
+    "rewardId": 900011
+  },
+  {
+    "groupId": 101,
+    "id": 2,
+    "rewardId": 901011
+  },
+  {
+    "groupId": 101,
+    "id": 3,
+    "rewardId": 902011
+  },
+  {
+    "groupId": 101,
+    "id": 4,
+    "rewardId": 903011
+  },
+  {
+    "groupId": 101,
+    "id": 5,
+    "rewardId": 904011
+  },
+  {
+    "groupId": 102,
+    "id": 1,
+    "rewardId": 900012
+  },
+  {
+    "groupId": 102,
+    "id": 2,
+    "rewardId": 901012
+  },
+  {
+    "groupId": 102,
+    "id": 3,
+    "rewardId": 902012
+  },
+  {
+    "groupId": 102,
+    "id": 4,
+    "rewardId": 903012
+  },
+  {
+    "groupId": 102,
+    "id": 5,
+    "rewardId": 904012
+  }
+]

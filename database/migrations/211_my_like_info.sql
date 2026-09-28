@@ -1,0 +1,5 @@
+CREATE TABLE "MyLikeInfo" (
+    "Index" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "Uid" BIGINT NOT NULL,
+    "TargetOwnerIndex" BIGINT
+);

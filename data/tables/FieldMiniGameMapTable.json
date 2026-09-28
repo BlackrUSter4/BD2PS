@@ -1,0 +1,110 @@
+[
+  {
+    "clearGoalLocalTextId": 16100,
+    "groupId": 1,
+    "id": 1,
+    "monsterGroupId": 1,
+    "monsterGrowthValue": 1.5,
+    "rewardCount": 500,
+    "rewardType": 43,
+    "stageClearValue": 999,
+    "stageDifficulty": 1
+  },
+  {
+    "clearGoalLocalTextId": 16101,
+    "groupId": 1,
+    "id": 2,
+    "monsterGroupId": 2,
+    "monsterGrowthValue": 1.5,
+    "rewardCount": 8000,
+    "rewardType": 43,
+    "stageClearValue": 999,
+    "stageDifficulty": 2
+  },
+  {
+    "clearGoalLocalTextId": 16101,
+    "groupId": 1,
+    "id": 3,
+    "monsterGroupId": 3,
+    "monsterGrowthValue": 1.5,
+    "rewardCount": 64000,
+    "rewardType": 43,
+    "stageClearValue": 999,
+    "stageDifficulty": 3
+  },
+  {
+    "clearGoalLocalTextId": 16100,
+    "groupId": 2,
+    "id": 1,
+    "monsterGroupId": 4,
+    "monsterGrowthValue": 1.5,
+    "rewardCount": 1000,
+    "rewardType": 43,
+    "stageClearValue": 999,
+    "stageDifficulty": 1
+  },
+  {
+    "clearGoalLocalTextId": 16101,
+    "groupId": 2,
+    "id": 2,
+    "monsterGroupId": 5,
+    "monsterGrowthValue": 1.5,
+    "rewardCount": 16000,
+    "rewardType": 43,
+    "stageClearValue": 999,
+    "stageDifficulty": 2
+  },
+  {
+    "clearGoalLocalTextId": 16101,
+    "groupId": 2,
+    "id": 3,
+    "monsterGroupId": 6,
+    "monsterGrowthValue": 1.5,
+    "rewardCount": 128000,
+    "rewardType": 43,
+    "stageClearValue": 999,
+    "stageDifficulty": 3
+  },
+  {
+    "clearGoalLocalTextId": 16100,
+    "groupId": 3,
+    "id": 1,
+    "monsterGroupId": 7,
+    "monsterGrowthValue": 1.5,
+    "rewardCount": 2000,
+    "rewardType": 43,
+    "stageClearValue": 999,
+    "stageDifficulty": 1
+  },
+  {
+    "clearGoalLocalTextId": 16101,
+    "groupId": 3,
+    "id": 2,
+    "monsterGroupId": 8,
+    "monsterGrowthValue": 1.5,
+    "rewardCount": 32000,
+    "rewardType": 43,
+    "stageClearValue": 999,
+    "stageDifficulty": 2
+  },
+  {
+    "clearGoalLocalTextId": 16101,
+    "groupId": 3,
+    "id": 3,
+    "monsterGroupId": 9,
+    "monsterGrowthValue": 1.25,
+    "rewardCount": 256000,
+    "rewardType": 43,
+    "stageClearValue": 999,
+    "stageDifficulty": 3
+  },
+  {
+    "clearGoalLocalTextId": 16103,
+    "groupId": 4,
+    "id": 1,
+    "monsterGroupId": 10,
+    "monsterGrowthValue": 1.25,
+    "stageClearValue": 1200,
+    "stageType": 1
+  }
+]

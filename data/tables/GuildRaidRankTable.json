@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "rank": 0.1,
+    "rankLocalTextId": 30060057,
+    "rewardCount": 1,
+    "rewardId": 1100025,
+    "rewardType": 9
+  },
+  {
+    "id": 2,
+    "rank": 1.0,
+    "rankLocalTextId": 30060058,
+    "rewardCount": 1,
+    "rewardId": 1100024,
+    "rewardType": 9
+  },
+  {
+    "id": 3,
+    "rank": 5.0,
+    "rankLocalTextId": 30060058,
+    "rewardCount": 1,
+    "rewardId": 1100023,
+    "rewardType": 9
+  },
+  {
+    "id": 4,
+    "rank": 10.0,
+    "rankLocalTextId": 30060058,
+    "rewardCount": 1,
+    "rewardId": 1100022,
+    "rewardType": 9
+  },
+  {
+    "id": 5,
+    "rank": 20.0,
+    "rankLocalTextId": 30060058,
+    "rewardCount": 1,
+    "rewardId": 1100021,
+    "rewardType": 9
+  },
+  {
+    "id": 6,
+    "rank": 30.0,
+    "rankLocalTextId": 30060058,
+    "rewardCount": 1,
+    "rewardId": 1100020,
+    "rewardType": 9
+  },
+  {
+    "id": 7,
+    "rank": 40.0,
+    "rankLocalTextId": 30060058,
+    "rewardCount": 1,
+    "rewardId": 1100019,
+    "rewardType": 9
+  },
+  {
+    "id": 8,
+    "rank": 50.0,
+    "rankLocalTextId": 30060058,
+    "rewardCount": 1,
+    "rewardId": 1100018,
+    "rewardType": 9
+  },
+  {
+    "id": 9,
+    "rank": 60.0,
+    "rankLocalTextId": 30060058,
+    "rewardCount": 1,
+    "rewardId": 1100017,
+    "rewardType": 9
+  },
+  {
+    "id": 10,
+    "rank": 70.0,
+    "rankLocalTextId": 30060058,
+    "rewardCount": 1,
+    "rewardId": 1100016,
+    "rewardType": 9
+  },
+  {
+    "id": 11,
+    "rank": 80.0,
+    "rankLocalTextId": 30060058,
+    "rewardCount": 1,
+    "rewardId": 1100015,
+    "rewardType": 9
+  },
+  {
+    "id": 12,
+    "rank": 100.0,
+    "rankLocalTextId": 30060058,
+    "rewardCount": 1,
+    "rewardId": 1100014,
+    "rewardType": 9
+  }
+]

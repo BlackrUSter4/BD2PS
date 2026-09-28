@@ -1,0 +1,8 @@
+[
+  { "elementType": [ 6 ], "id": 1, "menuIcon": "icon_pictorialbook1", "menuTitleLocalTextId": 5200020, "pictorialOrder": 1 },
+  { "id": 2, "menuIcon": "icon_pictorialbook2", "menuTitleLocalTextId": 5200021, "pictorialOrder": 6, "type": 1 },
+  { "elementType": [ 10 ], "id": 3, "menuIcon": "icon_pictorialbook4", "menuTitleLocalTextId": 5200022, "pictorialOrder": 3 },
+  { "elementType": [ 7 ], "id": 4, "menuIcon": "icon_pictorialbook5", "menuTitleLocalTextId": 5200023, "pictorialOrder": 5 },
+  { "elementType": [ 13, 17 ], "id": 5, "menuIcon": "icon_pictorialbook6", "menuTitleLocalTextId": 5200024, "pictorialOrder": 4, "useBlind": 1 },
+  { "elementType": [ 11 ], "id": 7, "menuIcon": "icon_pictorialbook7", "menuTitleLocalTextId": 201, "pictorialOrder": 2 }
+]

@@ -1,0 +1,14 @@
+[package]
+name = "database"
+edition.workspace = true
+version.workspace = true
+
+[dependencies]
+sqlx.workspace = true
+serde.workspace = true
+chrono.workspace = true
+protocol.workspace = true
+crypto.workspace = true
+tracing.workspace = true
+data.workspace = true
+serde_json.workspace = true

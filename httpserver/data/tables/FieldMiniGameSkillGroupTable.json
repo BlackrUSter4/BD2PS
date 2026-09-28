@@ -1,0 +1,221 @@
+[
+  {
+    "id": 1,
+    "maxLevel": 6,
+    "skillNameTextId": 80014,
+    "skillSubType": 2,
+    "skillType": 1,
+    "targetType": 2,
+    "uniqueCharGroupId": 1,
+    "upgradeSynergyId": 12
+  },
+  {
+    "id": 2,
+    "maxLevel": 6,
+    "skillNameTextId": 80015,
+    "skillSubType": 3,
+    "skillType": 1,
+    "targetType": 1,
+    "upgradeSynergyId": 21
+  },
+  {
+    "id": 3,
+    "maxLevel": 6,
+    "skillNameTextId": 80016,
+    "skillSubType": 4,
+    "skillType": 1,
+    "targetType": 2,
+    "upgradeSynergyId": 16
+  },
+  {
+    "id": 4,
+    "maxLevel": 6,
+    "skillNameTextId": 80017,
+    "skillSubType": 5,
+    "skillType": 1,
+    "targetType": 2,
+    "upgradeSynergyId": 15
+  },
+  {
+    "id": 5,
+    "maxLevel": 6,
+    "skillNameTextId": 80018,
+    "skillSubType": 6,
+    "skillType": 1,
+    "targetType": 1,
+    "upgradeSynergyId": 13
+  },
+  {
+    "id": 6,
+    "maxLevel": 6,
+    "skillNameTextId": 80019,
+    "skillSubType": 2,
+    "skillType": 1,
+    "targetType": 2,
+    "upgradeSynergyId": 18
+  },
+  {
+    "id": 7,
+    "maxLevel": 6,
+    "skillNameTextId": 80020,
+    "skillSubType": 7,
+    "skillType": 1,
+    "targetType": 2,
+    "upgradeSynergyId": 19
+  },
+  {
+    "id": 8,
+    "maxLevel": 6,
+    "skillNameTextId": 80021,
+    "skillSubType": 8,
+    "skillType": 1,
+    "targetType": 1,
+    "upgradeSynergyId": 14
+  },
+  {
+    "id": 9,
+    "maxLevel": 6,
+    "skillNameTextId": 80022,
+    "skillSubType": 9,
+    "skillType": 1,
+    "targetType": 1,
+    "upgradeSynergyId": 17
+  },
+  {
+    "id": 10,
+    "maxLevel": 6,
+    "skillNameTextId": 80023,
+    "skillSubType": 2,
+    "skillType": 1,
+    "targetType": 2,
+    "upgradeSynergyId": 20
+  },
+  {
+    "id": 11,
+    "maxLevel": 6,
+    "skillNameTextId": 80024,
+    "skillSubType": 10,
+    "skillType": 1,
+    "targetType": 3,
+    "uniqueCharGroupId": 2,
+    "upgradeSynergyId": 22
+  },
+  {
+    "id": 12,
+    "maxLevel": 5,
+    "skillNameTextId": 80025,
+    "skillSubType": 1,
+    "skillType": 2,
+    "upgradeSynergyId": 1
+  },
+  {
+    "id": 13,
+    "maxLevel": 5,
+    "skillNameTextId": 80026,
+    "skillSubType": 1,
+    "skillType": 2,
+    "upgradeSynergyId": 5
+  },
+  {
+    "id": 14,
+    "maxLevel": 5,
+    "skillNameTextId": 80027,
+    "skillSubType": 1,
+    "skillType": 2,
+    "upgradeSynergyId": 8
+  },
+  {
+    "id": 15,
+    "maxLevel": 5,
+    "skillNameTextId": 80028,
+    "skillSubType": 1,
+    "skillType": 2,
+    "upgradeSynergyId": 4
+  },
+  {
+    "id": 16,
+    "maxLevel": 5,
+    "skillNameTextId": 80029,
+    "skillSubType": 1,
+    "skillType": 2,
+    "upgradeSynergyId": 3
+  },
+  {
+    "id": 17,
+    "maxLevel": 5,
+    "skillNameTextId": 80030,
+    "skillSubType": 1,
+    "skillType": 2,
+    "upgradeSynergyId": 9
+  },
+  {
+    "id": 18,
+    "maxLevel": 5,
+    "skillNameTextId": 80031,
+    "skillSubType": 1,
+    "skillType": 2,
+    "upgradeSynergyId": 6
+  },
+  {
+    "id": 19,
+    "maxLevel": 5,
+    "skillNameTextId": 80032,
+    "skillSubType": 1,
+    "skillType": 2,
+    "upgradeSynergyId": 7
+  },
+  {
+    "id": 20,
+    "maxLevel": 5,
+    "skillNameTextId": 80033,
+    "skillSubType": 1,
+    "skillType": 2,
+    "upgradeSynergyId": 10
+  },
+  {
+    "id": 21,
+    "maxLevel": 5,
+    "skillNameTextId": 80034,
+    "skillSubType": 1,
+    "skillType": 2,
+    "upgradeSynergyId": 2
+  },
+  {
+    "id": 22,
+    "maxLevel": 5,
+    "skillNameTextId": 80035,
+    "skillSubType": 1,
+    "skillType": 2,
+    "upgradeSynergyId": 11
+  },
+  {
+    "id": 23,
+    "maxLevel": 1,
+    "skillNameTextId": 80036,
+    "skillSubType": 2001
+  },
+  {
+    "id": 24,
+    "maxLevel": 1,
+    "skillNameTextId": 80055,
+    "skillSubType": 2002
+  },
+  {
+    "id": 25,
+    "maxLevel": 1,
+    "skillNameTextId": 80053,
+    "skillSubType": 10,
+    "skillType": 3,
+    "targetType": 3,
+    "uniqueCharGroupId": 1
+  },
+  {
+    "id": 26,
+    "maxLevel": 1,
+    "skillNameTextId": 80054,
+    "skillSubType": 11,
+    "skillType": 3,
+    "targetType": 1,
+    "uniqueCharGroupId": 2
+  }
+]

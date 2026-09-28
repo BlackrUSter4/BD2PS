@@ -1,0 +1,592 @@
+[
+  {
+    "id": 1,
+    "occurrenceRatio": [
+      80,
+      80,
+      30,
+      50,
+      50
+    ],
+    "spawnMaxTime": 60,
+    "spawnMinTime": 16,
+    "spawnNpcId": [
+      3001,
+      3002,
+      3003,
+      3004,
+      3005
+    ]
+  },
+  {
+    "id": 2,
+    "occurrenceRatio": [
+      80,
+      80,
+      30,
+      50,
+      50
+    ],
+    "spawnMaxTime": 60,
+    "spawnMinTime": 16,
+    "spawnNpcId": [
+      3001,
+      3002,
+      3003,
+      3004,
+      3005
+    ]
+  },
+  {
+    "id": 3,
+    "occurrenceRatio": [
+      80,
+      80,
+      30,
+      50,
+      50
+    ],
+    "spawnMaxTime": 60,
+    "spawnMinTime": 16,
+    "spawnNpcId": [
+      3001,
+      3002,
+      3003,
+      3004,
+      3005
+    ]
+  },
+  {
+    "id": 4,
+    "occurrenceRatio": [
+      80,
+      80,
+      30,
+      50,
+      50
+    ],
+    "spawnMaxTime": 60,
+    "spawnMinTime": 16,
+    "spawnNpcId": [
+      3001,
+      3002,
+      3003,
+      3004,
+      3005
+    ]
+  },
+  {
+    "id": 5,
+    "occurrenceRatio": [
+      80,
+      80,
+      30,
+      50,
+      50
+    ],
+    "spawnMaxTime": 60,
+    "spawnMinTime": 16,
+    "spawnNpcId": [
+      3001,
+      3002,
+      3003,
+      3004,
+      3005
+    ]
+  },
+  {
+    "id": 6,
+    "occurrenceRatio": [
+      80,
+      80,
+      30,
+      50,
+      50
+    ],
+    "spawnMaxTime": 60,
+    "spawnMinTime": 16,
+    "spawnNpcId": [
+      3001,
+      3002,
+      3003,
+      3004,
+      3005
+    ]
+  },
+  {
+    "id": 7,
+    "occurrenceRatio": [
+      80,
+      80,
+      30,
+      50,
+      50
+    ],
+    "spawnMaxTime": 60,
+    "spawnMinTime": 16,
+    "spawnNpcId": [
+      3001,
+      3002,
+      3003,
+      3004,
+      3005
+    ]
+  },
+  {
+    "id": 8,
+    "occurrenceRatio": [
+      80,
+      80,
+      30,
+      50,
+      50
+    ],
+    "spawnMaxTime": 60,
+    "spawnMinTime": 16,
+    "spawnNpcId": [
+      3001,
+      3002,
+      3003,
+      3004,
+      3005
+    ]
+  },
+  {
+    "id": 9,
+    "occurrenceRatio": [
+      80,
+      80,
+      30,
+      50,
+      50
+    ],
+    "spawnMaxTime": 60,
+    "spawnMinTime": 16,
+    "spawnNpcId": [
+      3001,
+      3002,
+      3003,
+      3004,
+      3005
+    ]
+  },
+  {
+    "id": 10,
+    "occurrenceRatio": [
+      80,
+      80,
+      30,
+      50,
+      50
+    ],
+    "spawnMaxTime": 60,
+    "spawnMinTime": 16,
+    "spawnNpcId": [
+      3001,
+      3002,
+      3003,
+      3004,
+      3005
+    ]
+  },
+  {
+    "id": 11,
+    "occurrenceRatio": [
+      80,
+      80,
+      30,
+      50,
+      50
+    ],
+    "spawnMaxTime": 60,
+    "spawnMinTime": 16,
+    "spawnNpcId": [
+      3001,
+      3002,
+      3003,
+      3004,
+      3005
+    ]
+  },
+  {
+    "id": 12,
+    "occurrenceRatio": [
+      80,
+      80,
+      30,
+      50,
+      50
+    ],
+    "spawnMaxTime": 60,
+    "spawnMinTime": 16,
+    "spawnNpcId": [
+      3001,
+      3002,
+      3003,
+      3004,
+      3005
+    ]
+  },
+  {
+    "id": 13,
+    "occurrenceRatio": [
+      80,
+      80,
+      30,
+      50,
+      50
+    ],
+    "spawnMaxTime": 60,
+    "spawnMinTime": 16,
+    "spawnNpcId": [
+      3001,
+      3002,
+      3003,
+      3004,
+      3005
+    ]
+  },
+  {
+    "id": 14,
+    "occurrenceRatio": [
+      80,
+      80,
+      30,
+      50,
+      50
+    ],
+    "spawnMaxTime": 60,
+    "spawnMinTime": 16,
+    "spawnNpcId": [
+      3001,
+      3002,
+      3003,
+      3004,
+      3005
+    ]
+  },
+  {
+    "id": 15,
+    "occurrenceRatio": [
+      80,
+      80,
+      30,
+      50,
+      50
+    ],
+    "spawnMaxTime": 60,
+    "spawnMinTime": 16,
+    "spawnNpcId": [
+      3001,
+      3002,
+      3003,
+      3004,
+      3005
+    ]
+  },
+  {
+    "id": 16,
+    "occurrenceRatio": [
+      80,
+      80,
+      30,
+      50,
+      50
+    ],
+    "spawnMaxTime": 60,
+    "spawnMinTime": 16,
+    "spawnNpcId": [
+      3001,
+      3002,
+      3003,
+      3004,
+      3005
+    ]
+  },
+  {
+    "id": 17,
+    "occurrenceRatio": [
+      80,
+      80,
+      30,
+      50,
+      50
+    ],
+    "spawnMaxTime": 60,
+    "spawnMinTime": 16,
+    "spawnNpcId": [
+      3001,
+      3002,
+      3003,
+      3004,
+      3005
+    ]
+  },
+  {
+    "id": 18,
+    "occurrenceRatio": [
+      80,
+      80,
+      30,
+      50,
+      50
+    ],
+    "spawnMaxTime": 60,
+    "spawnMinTime": 16,
+    "spawnNpcId": [
+      3001,
+      3002,
+      3003,
+      3004,
+      3005
+    ]
+  },
+  {
+    "id": 19,
+    "occurrenceRatio": [
+      80,
+      80,
+      30,
+      50,
+      50
+    ],
+    "spawnMaxTime": 60,
+    "spawnMinTime": 16,
+    "spawnNpcId": [
+      3001,
+      3002,
+      3003,
+      3004,
+      3005
+    ]
+  },
+  {
+    "id": 20,
+    "occurrenceRatio": [
+      80,
+      80,
+      30,
+      50,
+      50
+    ],
+    "spawnMaxTime": 60,
+    "spawnMinTime": 16,
+    "spawnNpcId": [
+      3001,
+      3002,
+      3003,
+      3004,
+      3005
+    ]
+  },
+  {
+    "id": 21,
+    "occurrenceRatio": [
+      80,
+      80,
+      30,
+      50,
+      50,
+      10
+    ],
+    "spawnMaxTime": 60,
+    "spawnMinTime": 16,
+    "spawnNpcId": [
+      3001,
+      3002,
+      3003,
+      3004,
+      3005,
+      3007
+    ]
+  },
+  {
+    "id": 22,
+    "occurrenceRatio": [
+      80,
+      80,
+      30,
+      50,
+      50,
+      10
+    ],
+    "spawnMaxTime": 60,
+    "spawnMinTime": 16,
+    "spawnNpcId": [
+      3001,
+      3002,
+      3003,
+      3004,
+      3005,
+      3007
+    ]
+  },
+  {
+    "id": 23,
+    "occurrenceRatio": [
+      80,
+      80,
+      30,
+      50,
+      50,
+      10
+    ],
+    "spawnMaxTime": 60,
+    "spawnMinTime": 16,
+    "spawnNpcId": [
+      3001,
+      3002,
+      3003,
+      3004,
+      3005,
+      3007
+    ]
+  },
+  {
+    "id": 24,
+    "occurrenceRatio": [
+      80,
+      80,
+      30,
+      50,
+      50,
+      10
+    ],
+    "spawnMaxTime": 60,
+    "spawnMinTime": 16,
+    "spawnNpcId": [
+      3001,
+      3002,
+      3003,
+      3004,
+      3005,
+      3007
+    ]
+  },
+  {
+    "id": 25,
+    "occurrenceRatio": [
+      80,
+      80,
+      30,
+      50,
+      50,
+      10
+    ],
+    "spawnMaxTime": 60,
+    "spawnMinTime": 16,
+    "spawnNpcId": [
+      3001,
+      3002,
+      3003,
+      3004,
+      3005,
+      3007
+    ]
+  },
+  {
+    "id": 26,
+    "occurrenceRatio": [
+      80,
+      80,
+      30,
+      50,
+      50,
+      10
+    ],
+    "spawnMaxTime": 60,
+    "spawnMinTime": 16,
+    "spawnNpcId": [
+      3001,
+      3002,
+      3003,
+      3004,
+      3005,
+      3007
+    ]
+  },
+  {
+    "id": 27,
+    "occurrenceRatio": [
+      80,
+      80,
+      30,
+      50,
+      50,
+      10
+    ],
+    "spawnMaxTime": 60,
+    "spawnMinTime": 16,
+    "spawnNpcId": [
+      3001,
+      3002,
+      3003,
+      3004,
+      3005,
+      3007
+    ]
+  },
+  {
+    "id": 28,
+    "occurrenceRatio": [
+      80,
+      80,
+      30,
+      50,
+      50,
+      10
+    ],
+    "spawnMaxTime": 60,
+    "spawnMinTime": 16,
+    "spawnNpcId": [
+      3001,
+      3002,
+      3003,
+      3004,
+      3005,
+      3007
+    ]
+  },
+  {
+    "id": 29,
+    "occurrenceRatio": [
+      80,
+      80,
+      30,
+      50,
+      50,
+      10
+    ],
+    "spawnMaxTime": 60,
+    "spawnMinTime": 16,
+    "spawnNpcId": [
+      3001,
+      3002,
+      3003,
+      3004,
+      3005,
+      3007
+    ]
+  },
+  {
+    "id": 30,
+    "occurrenceRatio": [
+      80,
+      80,
+      30,
+      50,
+      50,
+      10
+    ],
+    "spawnMaxTime": 60,
+    "spawnMinTime": 16,
+    "spawnNpcId": [
+      3001,
+      3002,
+      3003,
+      3004,
+      3005,
+      3007
+    ]
+  }
+]

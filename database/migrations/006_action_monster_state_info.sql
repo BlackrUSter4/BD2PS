@@ -1,0 +1,20 @@
+CREATE TABLE "ActionMonsterStateInfo" (
+    "Index" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "Uid" BIGINT NOT NULL,
+    "Type" INTEGER,
+    "Seq" INTEGER,
+    "MonsterId" INTEGER,
+    "MonsterIndex" INTEGER,
+    "MonsterPosition" TEXT,
+    "MonsterVector" TEXT,
+    "Speed" REAL,
+    "DeltaTime" REAL,
+    "SendTime" BIGINT,
+    "Health" INTEGER,
+    "RageValue" INTEGER,
+    "GroggyValue" INTEGER,
+    "State" INTEGER,
+    "PatternInfo" TEXT,
+    "HitInfo" TEXT,
+    "AttackSkillId" INTEGER
+);

@@ -1,0 +1,605 @@
+// Merged package: Proto.Design.pack12010
+
+package Proto.Design.pack12010;
+
+
+// From: pack12010.db\BattleTable\BattleDeckTable.proto
+message BattleDeckTable {
+  optional int32 battleClearLocalTextId = 1;
+  optional int32 battleFailLocalTextId = 2;
+  repeated int32 battleFieldBuff = 3;
+  repeated int32 bonusPointLocalTextId = 4;
+  repeated int32 bonusPointThumnailLocalTextId = 5;
+  repeated int32 bonusPointType = 6;
+  repeated int32 bonusPointValue1 = 7;
+  repeated int32 bonusPointValue2 = 8;
+  repeated int32 bonusRewardCount = 9;
+  repeated int32 bonusRewardId = 10;
+  repeated int32 bonusRewardType = 11;
+  repeated int32 bonusScore = 12;
+  optional int32 challengeType = 13;
+  repeated int32 charId = 14;
+  optional int32 clearTime = 15;
+  optional int32 clearType = 16;
+  optional int32 clearTypeValue = 17;
+  optional int32 commonSoundId = 18;
+  repeated int32 costumeId = 19;
+  repeated int32 costumeId2 = 20;
+  optional int32 costumeUseType = 21;
+  optional double damageRate = 22;
+  optional int32 deathTimeStartTurnPvE = 23;
+  optional int32 difficultyId = 24;
+  optional int32 exp = 25;
+  optional int32 failWayPointId = 26;
+  optional int32 guideTutorialGroupId = 27;
+  optional double healthRate = 28;
+  optional int32 id = 29;
+  repeated int32 level = 30;
+  optional string mapScenePath = 31;
+  repeated int32 position = 32;
+  repeated int32 rewardCount = 33;
+  repeated int32 rewardId = 34;
+  optional int32 rewardSupplyType = 35;
+  repeated int32 rewardType = 36;
+  repeated int32 sequence = 37;
+  optional int32 simpleTalkGroupId = 38;
+  optional int32 solutionTipTextId = 39;
+  optional int32 tutorialId = 40;
+  optional int32 useBattleContinue = 41;
+}
+
+// From: pack12010.db\StoryTable\CinemaTalkTable.proto
+message CinemaTalkTable {
+  optional int32 acceptTimeline = 1;
+  optional string backgroundImgName = 2;
+  optional int32 bubbleType = 3;
+  optional int32 dialogStoryTextId = 4;
+  optional int32 emotionId = 5;
+  optional int32 emotionType = 6;
+  optional string faceIllustName = 7;
+  optional int32 id = 8;
+  repeated string illustCharAnimation = 9;
+  repeated int32 illustUniqueCharId = 10;
+  optional int32 nameTextId = 11;
+  optional int32 packId = 12;
+  optional string packIndex = 13;
+  optional int32 questGroupId = 14;
+  optional int32 questGroupIndex = 15;
+  optional int32 selectDialogId = 16;
+  optional int32 selectDialogTextIdIndex = 17;
+  optional string speakerName = 18;
+  optional int32 specialEffectPlayTimingType = 19;
+  optional int32 state = 20;
+  optional int32 tabType = 21;
+  optional int32 talkCharIndex = 22;
+  repeated int32 timelineSpecialEffectId = 23;
+  optional int32 visualNovelGroupId = 24;
+  optional string voiceResourceName = 25;
+}
+
+// From: pack12010.db\FieldTable\FieldActionObjectGroupTable.proto
+message FieldActionObjectGroupTable {
+  optional int32 id = 1;
+  optional int32 miniMapViewFlag = 2;
+  optional int32 regenSec = 3;
+  optional int32 type = 4;
+  optional int32 uiLocalTextId = 5;
+}
+
+// From: pack12010.db\FieldTable\FieldActionObjectTable.proto
+message FieldActionObjectTable {
+  optional int32 animatorType = 1;
+  optional int32 bundleType = 2;
+  repeated string disableTimeline = 3;
+  optional int32 fieldObjectGroupId = 4;
+  optional int32 id = 5;
+  optional int32 isEnableTimeline = 6;
+  optional int32 isSelfMovable = 7;
+  optional int32 mapId = 8;
+  optional double moveSpeed = 9;
+  optional int32 questEnableType = 10;
+  optional int32 questId = 11;
+  optional string resourceName = 12;
+  optional int32 resourceType = 13;
+  optional string samplePrefabName = 14;
+}
+
+// From: pack12010.db\FieldTable\FieldBoardObjectTable.proto
+message FieldBoardObjectTable {
+  optional int32 animatorType = 1;
+  optional int32 bundleType = 2;
+  optional int32 id = 3;
+  optional int32 mapId = 4;
+  optional int32 questId = 5;
+  optional string resourceName = 6;
+  optional int32 resourceType = 7;
+  optional int32 type = 8;
+}
+
+// From: pack12010.db\MapTable\FieldGateTable.proto
+message FieldGateTable {
+  optional int32 afterMapId = 1;
+  optional int32 barricadeLocalTextId = 2;
+  optional int32 beforeMapId = 3;
+  optional int32 bundleType = 4;
+  optional int32 enableCollectionId = 5;
+  optional int32 enableType = 6;
+  repeated int32 fieldMonsterId = 7;
+  optional int32 id = 8;
+  optional int32 interactionLocalTextId = 9;
+  optional int32 positionQuestId = 10;
+  repeated int32 questRange = 11;
+  optional string resourceName = 12;
+  optional int32 resourceType = 13;
+  optional int32 showQuestId = 14;
+  optional int32 type = 15;
+}
+
+// From: pack12010.db\MapTable\FieldMapRegionObjectTable.proto
+message FieldMapRegionObjectTable {
+  optional int32 id = 1;
+}
+
+// From: pack12010.db\FieldTable\FieldMiniGameObjectTable.proto
+message FieldMiniGameObjectTable {
+  optional int32 groupId = 1;
+  optional int32 id = 2;
+  optional int32 point = 3;
+  optional int32 pointType = 4;
+  optional int32 randomGroupId = 5;
+}
+
+// From: pack12010.db\FieldTable\FieldMiniGameTable.proto
+message FieldMiniGameTable {
+  optional int32 id = 1;
+  optional int32 mapId = 2;
+  optional int32 objectGroupId = 3;
+  repeated int32 randomActiveCount = 4;
+  repeated int32 randomGroupId = 5;
+  optional int32 startHpPoint = 6;
+  optional int32 timeLimit = 7;
+}
+
+// From: pack12010.db\FieldTable\FieldMonsterRegenTable.proto
+message FieldMonsterRegenTable {
+  optional int32 genDistance = 1;
+  optional int32 id = 2;
+  optional int32 lifeSeconds = 3;
+  optional int32 miniMapViewFlag = 4;
+  optional int32 nonGenDistance = 5;
+  optional int32 questId = 6;
+  optional int32 regenSec = 7;
+  optional int32 regenType = 8;
+  optional int32 resetType = 9;
+  optional int32 uiLocalTextId = 10;
+}
+
+// From: pack12010.db\FieldTable\FieldMonsterTable.proto
+message FieldMonsterTable {
+  optional int32 animatorType = 1;
+  repeated int32 battleDeckId = 2;
+  optional int32 bundleType = 3;
+  optional string damagedEffect = 4;
+  optional int32 directionType = 5;
+  optional int32 fieldBuffId = 6;
+  optional int32 fieldMonsterAIId = 7;
+  optional int32 fieldPointPosId = 8;
+  optional int32 hp = 9;
+  optional int32 id = 10;
+  optional string idleEffect = 11;
+  optional int32 interactionLocalTextId = 12;
+  optional string interactionSpriteName = 13;
+  optional int32 isAutoInteraction = 14;
+  optional int32 monsterCrashType = 15;
+  optional string monsterIllustName = 16;
+  optional int32 monsterNameTextId = 17;
+  optional int32 monsterSize = 18;
+  optional int32 monsterTalkStoryTextId = 19;
+  optional string monsterTimeLine = 20;
+  optional int32 phaseBattleGroupId = 21;
+  repeated int32 questRange = 22;
+  optional int32 rangeType = 23;
+  optional int32 regenId = 24;
+  optional string resourceName = 25;
+  optional int32 resourceType = 26;
+  optional int32 rewardCount = 27;
+  optional int32 rewardId = 28;
+  optional int32 rewardType = 29;
+  optional int32 type = 30;
+  optional int32 useBattleSkip = 31;
+}
+
+// From: pack12010.db\FieldTable\FieldNpcRewardTable.proto
+message FieldNpcRewardTable {
+  optional int32 groupId = 1;
+  optional int32 id = 2;
+  optional int32 rewardId = 3;
+}
+
+// From: pack12010.db\FieldTable\FieldNpcTable.proto
+message FieldNpcTable {
+  optional int32 animatorType = 1;
+  optional int32 bundleType = 2;
+  optional int32 directionType = 3;
+  repeated string disableTimeline = 4;
+  optional string faceIllustName = 5;
+  optional int32 holdingCollectionId = 6;
+  repeated int32 holdingCollectionTalkGroupIdList = 7;
+  optional int32 id = 8;
+  repeated int32 interactionList = 9;
+  optional int32 interactionLocalTextId = 10;
+  repeated string interactionSpriteName = 11;
+  repeated int32 interactionValue = 12;
+  optional int32 isEnableTimeline = 13;
+  optional int32 mapId = 14;
+  optional int32 npcDefaultStoryTextId = 15;
+  optional int32 npcNameTextId = 16;
+  optional int32 packId = 17;
+  repeated int32 questEnableType = 18;
+  repeated int32 questRange = 19;
+  optional int32 rangeType = 20;
+  optional int32 recoveryId = 21;
+  optional int32 reputationBadMessageLocalTextId = 22;
+  optional int32 reputationGoodMessageLocalTextId = 23;
+  optional string resourceName = 24;
+  optional int32 resourceType = 25;
+  repeated int32 talentCharmCharId = 26;
+  repeated int32 talentSkillFailTalkGroupId = 27;
+  repeated int32 talentSkillGroupList = 28;
+  repeated int32 talentSkillRewardGroupList = 29;
+  repeated int32 talentSkillSuccessTalkGroupId = 30;
+  repeated int32 talkGroupIdList = 31;
+  optional int32 tutorialId = 32;
+  optional int32 tutorialQuestId = 33;
+  optional string voiceResourceName = 34;
+}
+
+// From: pack12010.db\QuestTable\FieldObjectAnimationTable.proto
+message FieldObjectAnimationTable {
+  optional string actionAnimationName = 1;
+  repeated string disableTimeline = 2;
+  optional int32 id = 3;
+  optional string idleAnimationName = 4;
+  optional int32 interactionLocalTextId = 5;
+  optional int32 isEnableTimeline = 6;
+  repeated int32 questRange = 7;
+}
+
+// From: pack12010.db\MapTable\FieldObjectSwitchTable.proto
+message FieldObjectSwitchTable {
+  optional int32 failLocalTextId = 1;
+  optional int32 fieldObjectType = 2;
+  optional int32 id = 3;
+  repeated int32 objectId = 4;
+  optional int32 orderType = 5;
+  optional int32 successLocalTextId = 6;
+}
+
+// From: pack12010.db\FieldTable\FieldPointPositionTable.proto
+message FieldPointPositionTable {
+  optional int32 id = 1;
+}
+
+// From: pack12010.db\QuestTable\FieldQuestObjectTable.proto
+message FieldQuestObjectTable {
+  optional int32 animatorType = 1;
+  optional int32 bundleType = 2;
+  optional int32 conditionType = 3;
+  optional int32 directionType = 4;
+  optional int32 id = 5;
+  optional int32 interactionLocalTextId = 6;
+  optional int32 isAutoInteraction = 7;
+  optional int32 isDisableInteraction = 8;
+  optional int32 isDisableQuestMark = 9;
+  optional int32 isDisplayMiniMap = 10;
+  optional double markerRadius = 11;
+  repeated int32 questRange = 12;
+  optional int32 questSimpleTalkGroupId = 13;
+  optional string questTimeline = 14;
+  optional int32 rangeType = 15;
+  optional string resourceName = 16;
+  optional int32 resourceType = 17;
+  optional int32 rewardCount = 18;
+  optional int32 rewardId = 19;
+  optional int32 rewardType = 20;
+  optional int32 specialAnimationState = 21;
+}
+
+// From: pack12010.db\FieldTable\FieldResearchObjectTable.proto
+message FieldResearchObjectTable {
+  optional int32 collectionId = 1;
+  repeated string disableTimeline = 2;
+  optional int32 holdingCollectionId = 3;
+  optional int32 holdingCollectionInteractionLocalTextId = 4;
+  optional int32 id = 5;
+  optional int32 interactionLocalTextId = 6;
+  optional int32 isAutoInteraction = 7;
+  optional int32 isDisplayMiniMap = 8;
+  optional int32 isEnableTimeline = 9;
+  repeated int32 questRange = 10;
+  optional int32 questSimpleTalkGroupId = 11;
+  optional string questTimeline = 12;
+  optional string resourceName = 13;
+  optional int32 rewardCount = 14;
+  optional int32 rewardId = 15;
+  optional int32 rewardType = 16;
+  optional int32 talentSkillObjectId = 17;
+  optional int32 type = 18;
+}
+
+// From: pack12010.db\FieldTable\FieldRewardObjectGroupTable.proto
+message FieldRewardObjectGroupTable {
+  optional int32 buffId = 1;
+  repeated int32 buffIdList = 2;
+  repeated int32 buffTriggerRatio = 3;
+  optional int32 castingSec = 4;
+  optional int32 id = 5;
+  optional int32 miniMapViewFlag = 6;
+  optional int32 monsterId = 7;
+  optional int32 questId = 8;
+  optional int32 resetType = 9;
+  optional int32 rewardGroupId = 10;
+  optional string rewardIcon = 11;
+  optional int32 type = 12;
+  optional int32 uiLocalTextId = 13;
+}
+
+// From: pack12010.db\FieldTable\FieldRewardObjectTable.proto
+message FieldRewardObjectTable {
+  optional int32 animatorType = 1;
+  optional int32 bundleType = 2;
+  optional int32 fieldObjectGroupId = 3;
+  optional string followEffect = 4;
+  optional int32 id = 5;
+  optional int32 mapId = 6;
+  optional string resourceName = 7;
+  optional int32 resourceType = 8;
+}
+
+// From: pack12010.db\FieldTable\FieldStatueObjectTable.proto
+message FieldStatueObjectTable {
+  optional int32 id = 1;
+  optional int32 isEnableTimeline = 2;
+  optional int32 rewardLocalTextId = 3;
+  optional int32 rewardLocalTextType = 4;
+}
+
+// From: pack12010.db\MapTable\FieldThrowingTrapGroupTable.proto
+message FieldThrowingTrapGroupTable {
+  optional double decreaseWaitTime = 1;
+  optional int32 id = 2;
+  optional int32 isRandom = 3;
+  optional double minWaitTime = 4;
+  repeated int32 moveDirection = 5;
+  optional int32 moveSpeed = 6;
+  optional int32 moveType = 7;
+  optional int32 randomRegenCount = 8;
+  repeated int32 regenObject = 9;
+  optional double startTime = 10;
+  optional double waitTimeStart = 11;
+}
+
+// From: pack12010.db\MapTable\FieldThrowingTrapTable.proto
+message FieldThrowingTrapTable {
+  optional int32 animatorType = 1;
+  optional int32 bundleType = 2;
+  optional int32 id = 3;
+  optional string resourceName = 4;
+  optional int32 resourceType = 5;
+}
+
+// From: pack12010.db\MapTable\FieldTrapTable.proto
+message FieldTrapTable {
+  optional int32 animatorType = 1;
+  optional int32 bundleType = 2;
+  optional int32 defaultState = 3;
+  optional int32 fieldBuffCoolTime = 4;
+  optional int32 fieldBuffId = 5;
+  optional int32 id = 6;
+  optional int32 interactionLocalTextId = 7;
+  optional int32 mapId = 8;
+  optional int32 monsterBuffId = 9;
+  repeated int32 pointPositionId = 10;
+  repeated int32 questRange = 11;
+  optional int32 rangeType = 12;
+  optional int32 regenSec = 13;
+  optional int32 resetType = 14;
+  optional string resourceName = 15;
+  optional int32 resourceType = 16;
+  optional int32 trapSwitchId = 17;
+  optional int32 type = 18;
+}
+
+// From: pack12010.db\MapTable\FieldWaypointTable.proto
+message FieldWaypointTable {
+  repeated string disableTimeline = 1;
+  optional int32 id = 2;
+  optional int32 isEnableTimeline = 3;
+  optional int32 isSafeArea = 4;
+  optional int32 mapId = 5;
+  repeated int32 questRange = 6;
+}
+
+// From: pack12010.db\MapTable\HuntingGroundTable.proto
+message HuntingGroundTable {
+  optional int32 bossId = 1;
+  optional int32 difficulty = 2;
+  optional int32 id = 3;
+  optional int32 mapId = 4;
+  repeated int32 monsterId = 5;
+  optional int32 recommendGrowthPoint = 6;
+}
+
+// From: pack12010.db\TextTable\LocalTextTable.proto
+message LocalTextTable {
+  optional string date = 1;
+  optional int32 id = 2;
+  optional string text = 3;
+  optional string text_cn = 4;
+  optional string text_en = 5;
+  optional string text_jp = 6;
+  optional string text_tw = 7;
+}
+
+// From: pack12010.db\MapTable\MapUiObjectTable.proto
+message MapUiObjectTable {
+  optional int32 autoMoveInsideNpcId = 1;
+  optional int32 autoMoveLocalTextId = 2;
+  optional int32 availableAutoMove = 3;
+  optional int32 costumeList = 4;
+  optional string iconSpriteName = 5;
+  optional int32 id = 6;
+  optional int32 mapLocalTextId = 7;
+  optional int32 quikAutoMove = 8;
+  optional string quikAutoMoveIconName = 9;
+  optional int32 type = 10;
+}
+
+// From: pack12010.db\StoryTable\NPCTalkTable.proto
+message NPCTalkTable {
+  optional int32 bubbleType = 1;
+  optional string faceIllustName = 2;
+  optional int32 groupId = 3;
+  optional int32 id = 4;
+  optional string motion = 5;
+  optional int32 npcDialogStoryTextId = 6;
+  optional int32 npcNameTextId = 7;
+  optional int32 packId = 8;
+  optional int32 returnId = 9;
+  optional int32 selectDialogId = 10;
+  optional int32 speakerName = 11;
+  optional int32 tabType = 12;
+  optional string voiceResourceName = 13;
+}
+
+// From: pack12010.db\BattleTable\PhaseBattleTable.proto
+message PhaseBattleTable {
+  optional int32 audioCrossfade = 1;
+  optional int32 battleDeckTableId = 2;
+  optional int32 groupId = 3;
+  optional int32 id = 4;
+  optional string phaseTimeline = 5;
+}
+
+// From: pack12010.db\TextTable\QuestTextTable.proto
+message QuestTextTable {
+  optional string date = 1;
+  optional int32 id = 2;
+  optional string text = 3;
+  optional string text_cn = 4;
+  optional string text_en = 5;
+  optional string text_jp = 6;
+  optional string text_tw = 7;
+}
+
+// From: pack12010.db\QuestTable\QuestTitleTable.proto
+message QuestTitleTable {
+  optional int32 EndquestId = 1;
+  optional int32 StartquestId = 2;
+  optional int32 id = 3;
+  optional int32 questStartInfoQuestTextId = 4;
+  optional int32 questTitleQuestTextId = 5;
+}
+
+// From: pack12010.db\FieldTable\ReputationGroupTable.proto
+message ReputationGroupTable {
+  optional int32 downTime = 1;
+  optional int32 goodInn = 2;
+  optional int32 goodPrice = 3;
+  optional int32 groupNameTextId = 4;
+  optional int32 id = 5;
+  optional int32 type = 6;
+}
+
+// From: pack12010.db\StoryTable\SelectDialogTable.proto
+message SelectDialogTable {
+  repeated int32 dialogTextId = 1;
+  optional int32 disableDialogIndex = 2;
+  optional int32 id = 3;
+}
+
+// From: pack12010.db\StoryTable\SimpleTalkTable.proto
+message SimpleTalkTable {
+  optional int32 dialogStoryTextId = 1;
+  optional string faceIllustName = 2;
+  optional int32 groupId = 3;
+  optional int32 id = 4;
+  optional int32 nameTextId = 5;
+  optional int32 packId = 6;
+  optional string packIndex = 7;
+  optional int32 questGroupId = 8;
+  optional string voiceResourceName = 9;
+}
+
+// From: pack12010.db\TextTable\StoryTextTable.proto
+message StoryTextTable {
+  optional string date = 1;
+  optional int32 id = 2;
+  optional string text = 3;
+  optional string text_cn = 4;
+  optional string text_en = 5;
+  optional string text_jp = 6;
+  optional string text_tw = 7;
+}
+
+// From: pack12010.db\StoryTable\TimelineSpecialEffectTable.proto
+message TimelineSpecialEffectTable {
+  optional int32 id = 1;
+  optional string itemPath = 2;
+  optional string soundName = 3;
+  optional int32 type = 4;
+  optional string videoName = 5;
+}
+
+// From: pack12010.db\MapTable\TriggerTable.proto
+message TriggerTable {
+  optional int32 animatorType = 1;
+  optional double autoDisabledSec = 2;
+  optional int32 bundleType = 3;
+  repeated float delayTime = 4;
+  optional int32 disabledLocalTextId = 5;
+  optional int32 enabledLocalTextId = 6;
+  optional int32 id = 7;
+  optional int32 interactionLocalTextId = 8;
+  optional int32 isAutoInteraction = 9;
+  repeated int32 objectId = 10;
+  optional int32 objectType = 11;
+  repeated int32 questRange = 12;
+  optional string resourceName = 13;
+  optional int32 resourceType = 14;
+}
+
+// From: pack12010.db\StoryTable\VisualNovelDialogTable.proto
+message VisualNovelDialogTable {
+  optional string VoiceResourceName = 1;
+  optional string bgIllust = 2;
+  optional int32 cameraFocusNum = 3;
+  repeated int32 charAction = 4;
+  repeated string charFace = 5;
+  repeated int32 costumeDesignId = 6;
+  optional string faceIllustName = 7;
+  optional int32 groupId = 8;
+  optional string hiddenSpecialIllust = 9;
+  optional int32 id = 10;
+  optional int32 itemId = 11;
+  optional int32 itemType = 12;
+  optional int32 nameTextId = 13;
+  optional int32 packId = 14;
+  optional int32 selectDialogId = 15;
+  optional int32 selectNum = 16;
+  optional int32 soundEventId = 17;
+  optional int32 specialEvent = 18;
+  optional string specialIllust = 19;
+  optional int32 storyTextId = 20;
+  optional int32 talkCharNum = 21;
+  optional int32 type = 22;
+}
+
+// From: pack12010.db\StoryTable\VisualNovelSoundEventTable.proto
+message VisualNovelSoundEventTable {
+  optional string ambienceName = 1;
+  optional int32 commonSoundId = 2;
+  optional int32 echoType = 3;
+  optional int32 id = 4;
+  optional string soundEffect = 5;
+}

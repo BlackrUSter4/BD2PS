@@ -1,0 +1,674 @@
+[
+  {
+    "groupId": 1,
+    "id": 1,
+    "isDisplayResource": 1,
+    "resourceName": "icon_guildemblem1"
+  },
+  {
+    "groupId": 1,
+    "id": 2,
+    "resourceName": "icon_guildemblem1_1"
+  },
+  {
+    "groupId": 1,
+    "id": 3,
+    "resourceName": "icon_guildemblem1_2"
+  },
+  {
+    "groupId": 1,
+    "id": 4,
+    "resourceName": "icon_guildemblem1_3"
+  },
+  {
+    "groupId": 1,
+    "id": 5,
+    "resourceName": "icon_guildemblem1_4"
+  },
+  {
+    "groupId": 1,
+    "id": 6,
+    "resourceName": "icon_guildemblem1_5"
+  },
+  {
+    "groupId": 1,
+    "id": 7,
+    "resourceName": "icon_guildemblem1_6"
+  },
+  {
+    "groupId": 1,
+    "id": 8,
+    "resourceName": "icon_guildemblem1_7"
+  },
+  {
+    "groupId": 1,
+    "id": 9,
+    "resourceName": "icon_guildemblem1_8"
+  },
+  {
+    "groupId": 1,
+    "id": 10,
+    "resourceName": "icon_guildemblem1_9"
+  },
+  {
+    "groupId": 1,
+    "id": 11,
+    "resourceName": "icon_guildemblem1_10"
+  },
+  {
+    "groupId": 2,
+    "id": 12,
+    "isDisplayResource": 1,
+    "resourceName": "icon_guildemblem2"
+  },
+  {
+    "groupId": 2,
+    "id": 13,
+    "resourceName": "icon_guildemblem2_1"
+  },
+  {
+    "groupId": 2,
+    "id": 14,
+    "resourceName": "icon_guildemblem2_2"
+  },
+  {
+    "groupId": 2,
+    "id": 15,
+    "resourceName": "icon_guildemblem2_3"
+  },
+  {
+    "groupId": 2,
+    "id": 16,
+    "resourceName": "icon_guildemblem2_4"
+  },
+  {
+    "groupId": 2,
+    "id": 17,
+    "resourceName": "icon_guildemblem2_5"
+  },
+  {
+    "groupId": 2,
+    "id": 18,
+    "resourceName": "icon_guildemblem2_6"
+  },
+  {
+    "groupId": 2,
+    "id": 19,
+    "resourceName": "icon_guildemblem2_7"
+  },
+  {
+    "groupId": 2,
+    "id": 20,
+    "resourceName": "icon_guildemblem2_8"
+  },
+  {
+    "groupId": 2,
+    "id": 21,
+    "resourceName": "icon_guildemblem2_9"
+  },
+  {
+    "groupId": 2,
+    "id": 22,
+    "resourceName": "icon_guildemblem2_10"
+  },
+  {
+    "groupId": 3,
+    "id": 23,
+    "isDisplayResource": 1,
+    "resourceName": "icon_guildemblem3"
+  },
+  {
+    "groupId": 3,
+    "id": 24,
+    "resourceName": "icon_guildemblem3_1"
+  },
+  {
+    "groupId": 3,
+    "id": 25,
+    "resourceName": "icon_guildemblem3_2"
+  },
+  {
+    "groupId": 3,
+    "id": 26,
+    "resourceName": "icon_guildemblem3_3"
+  },
+  {
+    "groupId": 3,
+    "id": 27,
+    "resourceName": "icon_guildemblem3_4"
+  },
+  {
+    "groupId": 3,
+    "id": 28,
+    "resourceName": "icon_guildemblem3_5"
+  },
+  {
+    "groupId": 3,
+    "id": 29,
+    "resourceName": "icon_guildemblem3_6"
+  },
+  {
+    "groupId": 3,
+    "id": 30,
+    "resourceName": "icon_guildemblem3_7"
+  },
+  {
+    "groupId": 3,
+    "id": 31,
+    "resourceName": "icon_guildemblem3_8"
+  },
+  {
+    "groupId": 3,
+    "id": 32,
+    "resourceName": "icon_guildemblem3_9"
+  },
+  {
+    "groupId": 3,
+    "id": 33,
+    "resourceName": "icon_guildemblem3_10"
+  },
+  {
+    "groupId": 4,
+    "id": 34,
+    "isDisplayResource": 1,
+    "resourceName": "icon_guildemblem4"
+  },
+  {
+    "groupId": 4,
+    "id": 35,
+    "resourceName": "icon_guildemblem4_1"
+  },
+  {
+    "groupId": 4,
+    "id": 36,
+    "resourceName": "icon_guildemblem4_2"
+  },
+  {
+    "groupId": 4,
+    "id": 37,
+    "resourceName": "icon_guildemblem4_3"
+  },
+  {
+    "groupId": 4,
+    "id": 38,
+    "resourceName": "icon_guildemblem4_4"
+  },
+  {
+    "groupId": 4,
+    "id": 39,
+    "resourceName": "icon_guildemblem4_5"
+  },
+  {
+    "groupId": 4,
+    "id": 40,
+    "resourceName": "icon_guildemblem4_6"
+  },
+  {
+    "groupId": 4,
+    "id": 41,
+    "resourceName": "icon_guildemblem4_7"
+  },
+  {
+    "groupId": 4,
+    "id": 42,
+    "resourceName": "icon_guildemblem4_8"
+  },
+  {
+    "groupId": 4,
+    "id": 43,
+    "resourceName": "icon_guildemblem4_9"
+  },
+  {
+    "groupId": 4,
+    "id": 44,
+    "resourceName": "icon_guildemblem4_10"
+  },
+  {
+    "groupId": 5,
+    "id": 45,
+    "isDisplayResource": 1,
+    "resourceName": "icon_guildemblem5"
+  },
+  {
+    "groupId": 5,
+    "id": 46,
+    "resourceName": "icon_guildemblem5_1"
+  },
+  {
+    "groupId": 5,
+    "id": 47,
+    "resourceName": "icon_guildemblem5_2"
+  },
+  {
+    "groupId": 5,
+    "id": 48,
+    "resourceName": "icon_guildemblem5_3"
+  },
+  {
+    "groupId": 5,
+    "id": 49,
+    "resourceName": "icon_guildemblem5_4"
+  },
+  {
+    "groupId": 5,
+    "id": 50,
+    "resourceName": "icon_guildemblem5_5"
+  },
+  {
+    "groupId": 5,
+    "id": 51,
+    "resourceName": "icon_guildemblem5_6"
+  },
+  {
+    "groupId": 5,
+    "id": 52,
+    "resourceName": "icon_guildemblem5_7"
+  },
+  {
+    "groupId": 5,
+    "id": 53,
+    "resourceName": "icon_guildemblem5_8"
+  },
+  {
+    "groupId": 5,
+    "id": 54,
+    "resourceName": "icon_guildemblem5_9"
+  },
+  {
+    "groupId": 5,
+    "id": 55,
+    "resourceName": "icon_guildemblem5_10"
+  },
+  {
+    "groupId": 6,
+    "id": 56,
+    "isDisplayResource": 1,
+    "resourceName": "icon_guildemblem6"
+  },
+  {
+    "groupId": 6,
+    "id": 57,
+    "resourceName": "icon_guildemblem6_1"
+  },
+  {
+    "groupId": 6,
+    "id": 58,
+    "resourceName": "icon_guildemblem6_2"
+  },
+  {
+    "groupId": 6,
+    "id": 59,
+    "resourceName": "icon_guildemblem6_3"
+  },
+  {
+    "groupId": 6,
+    "id": 60,
+    "resourceName": "icon_guildemblem6_4"
+  },
+  {
+    "groupId": 6,
+    "id": 61,
+    "resourceName": "icon_guildemblem6_5"
+  },
+  {
+    "groupId": 6,
+    "id": 62,
+    "resourceName": "icon_guildemblem6_6"
+  },
+  {
+    "groupId": 6,
+    "id": 63,
+    "resourceName": "icon_guildemblem6_7"
+  },
+  {
+    "groupId": 6,
+    "id": 64,
+    "resourceName": "icon_guildemblem6_8"
+  },
+  {
+    "groupId": 6,
+    "id": 65,
+    "resourceName": "icon_guildemblem6_9"
+  },
+  {
+    "groupId": 6,
+    "id": 66,
+    "resourceName": "icon_guildemblem6_10"
+  },
+  {
+    "groupId": 7,
+    "id": 67,
+    "isDisplayResource": 1,
+    "resourceName": "icon_guildemblem7"
+  },
+  {
+    "groupId": 7,
+    "id": 68,
+    "resourceName": "icon_guildemblem7_1"
+  },
+  {
+    "groupId": 7,
+    "id": 69,
+    "resourceName": "icon_guildemblem7_2"
+  },
+  {
+    "groupId": 7,
+    "id": 70,
+    "resourceName": "icon_guildemblem7_3"
+  },
+  {
+    "groupId": 7,
+    "id": 71,
+    "resourceName": "icon_guildemblem7_4"
+  },
+  {
+    "groupId": 7,
+    "id": 72,
+    "resourceName": "icon_guildemblem7_5"
+  },
+  {
+    "groupId": 7,
+    "id": 73,
+    "resourceName": "icon_guildemblem7_6"
+  },
+  {
+    "groupId": 7,
+    "id": 74,
+    "resourceName": "icon_guildemblem7_7"
+  },
+  {
+    "groupId": 7,
+    "id": 75,
+    "resourceName": "icon_guildemblem7_8"
+  },
+  {
+    "groupId": 7,
+    "id": 76,
+    "resourceName": "icon_guildemblem7_9"
+  },
+  {
+    "groupId": 7,
+    "id": 77,
+    "resourceName": "icon_guildemblem7_10"
+  },
+  {
+    "groupId": 8,
+    "id": 78,
+    "isDisplayResource": 1,
+    "resourceName": "icon_guildemblem8"
+  },
+  {
+    "groupId": 8,
+    "id": 79,
+    "resourceName": "icon_guildemblem8_1"
+  },
+  {
+    "groupId": 8,
+    "id": 80,
+    "resourceName": "icon_guildemblem8_2"
+  },
+  {
+    "groupId": 8,
+    "id": 81,
+    "resourceName": "icon_guildemblem8_3"
+  },
+  {
+    "groupId": 8,
+    "id": 82,
+    "resourceName": "icon_guildemblem8_4"
+  },
+  {
+    "groupId": 8,
+    "id": 83,
+    "resourceName": "icon_guildemblem8_5"
+  },
+  {
+    "groupId": 8,
+    "id": 84,
+    "resourceName": "icon_guildemblem8_6"
+  },
+  {
+    "groupId": 8,
+    "id": 85,
+    "resourceName": "icon_guildemblem8_7"
+  },
+  {
+    "groupId": 8,
+    "id": 86,
+    "resourceName": "icon_guildemblem8_8"
+  },
+  {
+    "groupId": 8,
+    "id": 87,
+    "resourceName": "icon_guildemblem8_9"
+  },
+  {
+    "groupId": 8,
+    "id": 88,
+    "resourceName": "icon_guildemblem8_10"
+  },
+  {
+    "groupId": 9,
+    "id": 89,
+    "isDisplayResource": 1,
+    "resourceName": "icon_guildemblem9"
+  },
+  {
+    "groupId": 9,
+    "id": 90,
+    "resourceName": "icon_guildemblem9_1"
+  },
+  {
+    "groupId": 9,
+    "id": 91,
+    "resourceName": "icon_guildemblem9_2"
+  },
+  {
+    "groupId": 9,
+    "id": 92,
+    "resourceName": "icon_guildemblem9_3"
+  },
+  {
+    "groupId": 9,
+    "id": 93,
+    "resourceName": "icon_guildemblem9_4"
+  },
+  {
+    "groupId": 9,
+    "id": 94,
+    "resourceName": "icon_guildemblem9_5"
+  },
+  {
+    "groupId": 9,
+    "id": 95,
+    "resourceName": "icon_guildemblem9_6"
+  },
+  {
+    "groupId": 9,
+    "id": 96,
+    "resourceName": "icon_guildemblem9_7"
+  },
+  {
+    "groupId": 9,
+    "id": 97,
+    "resourceName": "icon_guildemblem9_8"
+  },
+  {
+    "groupId": 9,
+    "id": 98,
+    "resourceName": "icon_guildemblem9_9"
+  },
+  {
+    "groupId": 9,
+    "id": 99,
+    "resourceName": "icon_guildemblem9_10"
+  },
+  {
+    "groupId": 10,
+    "id": 100,
+    "isDisplayResource": 1,
+    "resourceName": "icon_guildemblem10"
+  },
+  {
+    "groupId": 10,
+    "id": 101,
+    "resourceName": "icon_guildemblem10_1"
+  },
+  {
+    "groupId": 10,
+    "id": 102,
+    "resourceName": "icon_guildemblem10_2"
+  },
+  {
+    "groupId": 10,
+    "id": 103,
+    "resourceName": "icon_guildemblem10_3"
+  },
+  {
+    "groupId": 10,
+    "id": 104,
+    "resourceName": "icon_guildemblem10_4"
+  },
+  {
+    "groupId": 10,
+    "id": 105,
+    "resourceName": "icon_guildemblem10_5"
+  },
+  {
+    "groupId": 10,
+    "id": 106,
+    "resourceName": "icon_guildemblem10_6"
+  },
+  {
+    "groupId": 10,
+    "id": 107,
+    "resourceName": "icon_guildemblem10_7"
+  },
+  {
+    "groupId": 10,
+    "id": 108,
+    "resourceName": "icon_guildemblem10_8"
+  },
+  {
+    "groupId": 10,
+    "id": 109,
+    "resourceName": "icon_guildemblem10_9"
+  },
+  {
+    "groupId": 10,
+    "id": 110,
+    "resourceName": "icon_guildemblem10_10"
+  },
+  {
+    "groupId": 11,
+    "id": 111,
+    "isDisplayResource": 1,
+    "resourceName": "icon_guildemblem11"
+  },
+  {
+    "groupId": 11,
+    "id": 112,
+    "resourceName": "icon_guildemblem11_1"
+  },
+  {
+    "groupId": 11,
+    "id": 113,
+    "resourceName": "icon_guildemblem11_2"
+  },
+  {
+    "groupId": 11,
+    "id": 114,
+    "resourceName": "icon_guildemblem11_3"
+  },
+  {
+    "groupId": 11,
+    "id": 115,
+    "resourceName": "icon_guildemblem11_4"
+  },
+  {
+    "groupId": 11,
+    "id": 116,
+    "resourceName": "icon_guildemblem11_5"
+  },
+  {
+    "groupId": 11,
+    "id": 117,
+    "resourceName": "icon_guildemblem11_6"
+  },
+  {
+    "groupId": 11,
+    "id": 118,
+    "resourceName": "icon_guildemblem11_7"
+  },
+  {
+    "groupId": 11,
+    "id": 119,
+    "resourceName": "icon_guildemblem11_8"
+  },
+  {
+    "groupId": 11,
+    "id": 120,
+    "resourceName": "icon_guildemblem11_9"
+  },
+  {
+    "groupId": 11,
+    "id": 121,
+    "resourceName": "icon_guildemblem11_10"
+  },
+  {
+    "groupId": 12,
+    "id": 122,
+    "isDisplayResource": 1,
+    "resourceName": "icon_guildemblem12"
+  },
+  {
+    "groupId": 12,
+    "id": 123,
+    "resourceName": "icon_guildemblem12_1"
+  },
+  {
+    "groupId": 12,
+    "id": 124,
+    "resourceName": "icon_guildemblem12_2"
+  },
+  {
+    "groupId": 12,
+    "id": 125,
+    "resourceName": "icon_guildemblem12_3"
+  },
+  {
+    "groupId": 12,
+    "id": 126,
+    "resourceName": "icon_guildemblem12_4"
+  },
+  {
+    "groupId": 12,
+    "id": 127,
+    "resourceName": "icon_guildemblem12_5"
+  },
+  {
+    "groupId": 12,
+    "id": 128,
+    "resourceName": "icon_guildemblem12_6"
+  },
+  {
+    "groupId": 12,
+    "id": 129,
+    "resourceName": "icon_guildemblem12_7"
+  },
+  {
+    "groupId": 12,
+    "id": 130,
+    "resourceName": "icon_guildemblem12_8"
+  },
+  {
+    "groupId": 12,
+    "id": 131,
+    "resourceName": "icon_guildemblem12_9"
+  },
+  {
+    "groupId": 12,
+    "id": 132,
+    "resourceName": "icon_guildemblem12_10"
+  }
+]

@@ -1,0 +1,699 @@
+[
+  {
+    "banMonsterPatternId": [
+      101005
+    ],
+    "baseModelName": "HornL",
+    "blowWeakPartsValue": 1.5,
+    "breakType": 1,
+    "brokenAnimationName": "Destroy_01",
+    "brokenModelName": "HornL_Broken",
+    "brokenValue": 1000,
+    "groupId": 101,
+    "id": 1,
+    "partsNameTextId": 81056
+  },
+  {
+    "banMonsterPatternId": [
+      101006
+    ],
+    "baseModelName": "HornR",
+    "blowWeakPartsValue": 1.5,
+    "breakType": 1,
+    "brokenAnimationName": "Destroy_02",
+    "brokenModelName": "HornR_Broken",
+    "brokenValue": 1000,
+    "groupId": 101,
+    "id": 2,
+    "partsNameTextId": 81057
+  },
+  {
+    "baseModelName": "WingL",
+    "blowWeakPartsValue": 1.0,
+    "breakType": 1,
+    "brokenAnimationName": "Destroy_04",
+    "brokenModelName": "WingL_Broken",
+    "brokenValue": 1000,
+    "cutWeakPartsValue": 1.0,
+    "groupId": 101,
+    "id": 3,
+    "partsNameTextId": 81058
+  },
+  {
+    "banMonsterPatternId": [
+      101008
+    ],
+    "baseModelName": "WingR",
+    "blowWeakPartsValue": 1.0,
+    "breakType": 1,
+    "brokenAnimationName": "Destroy_05",
+    "brokenModelName": "WingR_Broken",
+    "brokenValue": 1000,
+    "cutWeakPartsValue": 1.0,
+    "groupId": 101,
+    "id": 4,
+    "partsNameTextId": 81059
+  },
+  {
+    "groupId": 101,
+    "id": 5
+  },
+  {
+    "groupId": 101,
+    "id": 6
+  },
+  {
+    "groupId": 101,
+    "id": 7
+  },
+  {
+    "banMonsterPatternId": [
+      101004
+    ],
+    "baseModelName": "Tail",
+    "breakType": 2,
+    "brokenAnimationName": "Destroy_03",
+    "brokenModelName": "Tail_Broken",
+    "brokenValue": 1000,
+    "cutWeakPartsValue": 1.5,
+    "groupId": 101,
+    "id": 8,
+    "partsNameTextId": 81060
+  },
+  {
+    "banMonsterPatternId": [
+      102005,
+      102031
+    ],
+    "baseModelName": "HornL",
+    "blowWeakPartsValue": 1.5,
+    "breakType": 1,
+    "brokenAnimationName": "Destroy_01",
+    "brokenModelName": "HornL_Broken",
+    "brokenValue": 1500,
+    "groupId": 102,
+    "id": 1,
+    "partsNameTextId": 81056
+  },
+  {
+    "banMonsterPatternId": [
+      102006,
+      102009,
+      102033
+    ],
+    "baseModelName": "HornR",
+    "blowWeakPartsValue": 1.5,
+    "breakType": 1,
+    "brokenAnimationName": "Destroy_02",
+    "brokenModelName": "HornR_Broken",
+    "brokenValue": 1500,
+    "groupId": 102,
+    "id": 2,
+    "partsNameTextId": 81057
+  },
+  {
+    "banMonsterPatternId": [
+      102007,
+      102034,
+      102010
+    ],
+    "baseModelName": "WingL",
+    "blowWeakPartsValue": 1.0,
+    "breakType": 1,
+    "brokenAnimationName": "Destroy_04",
+    "brokenModelName": "WingL_Broken",
+    "brokenValue": 1500,
+    "cutWeakPartsValue": 1.0,
+    "groupId": 102,
+    "id": 3,
+    "partsNameTextId": 81058
+  },
+  {
+    "banMonsterPatternId": [
+      102008,
+      102030
+    ],
+    "baseModelName": "WingR",
+    "blowWeakPartsValue": 1.0,
+    "breakType": 1,
+    "brokenAnimationName": "Destroy_05",
+    "brokenModelName": "WingR_Broken",
+    "brokenValue": 1500,
+    "cutWeakPartsValue": 1.0,
+    "groupId": 102,
+    "id": 4,
+    "partsNameTextId": 81059
+  },
+  {
+    "groupId": 102,
+    "id": 5
+  },
+  {
+    "groupId": 102,
+    "id": 6
+  },
+  {
+    "groupId": 102,
+    "id": 7
+  },
+  {
+    "banMonsterPatternId": [
+      102004,
+      102025,
+      102027
+    ],
+    "baseModelName": "Tail",
+    "breakType": 2,
+    "brokenAnimationName": "Destroy_03",
+    "brokenModelName": "Tail_Broken",
+    "brokenValue": 1500,
+    "cutWeakPartsValue": 1.5,
+    "groupId": 102,
+    "id": 8,
+    "partsNameTextId": 81060
+  },
+  {
+    "banMonsterPatternId": [
+      103005,
+      103031
+    ],
+    "baseModelName": "HornL",
+    "blowWeakPartsValue": 1.5,
+    "breakType": 1,
+    "brokenAnimationName": "Destroy_01",
+    "brokenModelName": "HornL_Broken",
+    "brokenValue": 2000,
+    "groupId": 103,
+    "id": 1,
+    "partsNameTextId": 81056
+  },
+  {
+    "banMonsterPatternId": [
+      103006,
+      103009,
+      103033
+    ],
+    "baseModelName": "HornR",
+    "blowWeakPartsValue": 1.5,
+    "breakType": 1,
+    "brokenAnimationName": "Destroy_02",
+    "brokenModelName": "HornR_Broken",
+    "brokenValue": 2000,
+    "groupId": 103,
+    "id": 2,
+    "partsNameTextId": 81057
+  },
+  {
+    "banMonsterPatternId": [
+      103007,
+      103034,
+      103010
+    ],
+    "baseModelName": "WingL",
+    "blowWeakPartsValue": 1.0,
+    "breakType": 1,
+    "brokenAnimationName": "Destroy_04",
+    "brokenModelName": "WingL_Broken",
+    "brokenValue": 2000,
+    "cutWeakPartsValue": 1.0,
+    "groupId": 103,
+    "id": 3,
+    "partsNameTextId": 81058
+  },
+  {
+    "banMonsterPatternId": [
+      103008,
+      103030
+    ],
+    "baseModelName": "WingR",
+    "blowWeakPartsValue": 1.0,
+    "breakType": 1,
+    "brokenAnimationName": "Destroy_05",
+    "brokenModelName": "WingR_Broken",
+    "brokenValue": 2000,
+    "cutWeakPartsValue": 1.0,
+    "groupId": 103,
+    "id": 4,
+    "partsNameTextId": 81059
+  },
+  {
+    "groupId": 103,
+    "id": 5
+  },
+  {
+    "groupId": 103,
+    "id": 6
+  },
+  {
+    "groupId": 103,
+    "id": 7
+  },
+  {
+    "banMonsterPatternId": [
+      103004,
+      103025,
+      103027
+    ],
+    "baseModelName": "Tail",
+    "breakType": 2,
+    "brokenAnimationName": "Destroy_03",
+    "brokenModelName": "Tail_Broken",
+    "brokenValue": 2000,
+    "cutWeakPartsValue": 1.5,
+    "groupId": 103,
+    "id": 8,
+    "partsNameTextId": 81060
+  },
+  {
+    "banMonsterPatternId": [
+      104005,
+      104031
+    ],
+    "baseModelName": "HornL",
+    "blowWeakPartsValue": 1.5,
+    "breakType": 1,
+    "brokenAnimationName": "Destroy_01",
+    "brokenModelName": "HornL_Broken",
+    "brokenValue": 4000,
+    "groupId": 104,
+    "id": 1,
+    "partsNameTextId": 81056
+  },
+  {
+    "banMonsterPatternId": [
+      104006,
+      104009,
+      104033
+    ],
+    "baseModelName": "HornR",
+    "blowWeakPartsValue": 1.5,
+    "breakType": 1,
+    "brokenAnimationName": "Destroy_02",
+    "brokenModelName": "HornR_Broken",
+    "brokenValue": 4000,
+    "groupId": 104,
+    "id": 2,
+    "partsNameTextId": 81057
+  },
+  {
+    "banMonsterPatternId": [
+      104007,
+      104034,
+      104010
+    ],
+    "baseModelName": "WingL",
+    "blowWeakPartsValue": 1.0,
+    "breakType": 1,
+    "brokenAnimationName": "Destroy_04",
+    "brokenModelName": "WingL_Broken",
+    "brokenValue": 4000,
+    "cutWeakPartsValue": 1.0,
+    "groupId": 104,
+    "id": 3,
+    "partsNameTextId": 81058
+  },
+  {
+    "banMonsterPatternId": [
+      104008,
+      104030
+    ],
+    "baseModelName": "WingR",
+    "blowWeakPartsValue": 1.0,
+    "breakType": 1,
+    "brokenAnimationName": "Destroy_05",
+    "brokenModelName": "WingR_Broken",
+    "brokenValue": 4000,
+    "cutWeakPartsValue": 1.0,
+    "groupId": 104,
+    "id": 4,
+    "partsNameTextId": 81059
+  },
+  {
+    "groupId": 104,
+    "id": 5
+  },
+  {
+    "groupId": 104,
+    "id": 6
+  },
+  {
+    "groupId": 104,
+    "id": 7
+  },
+  {
+    "banMonsterPatternId": [
+      104004,
+      104025,
+      104027
+    ],
+    "baseModelName": "Tail",
+    "breakType": 2,
+    "brokenAnimationName": "Destroy_03",
+    "brokenModelName": "Tail_Broken",
+    "brokenValue": 4000,
+    "cutWeakPartsValue": 1.5,
+    "groupId": 104,
+    "id": 8,
+    "partsNameTextId": 81060
+  },
+  {
+    "groupId": 201,
+    "id": 1
+  },
+  {
+    "groupId": 201,
+    "id": 2
+  },
+  {
+    "baseModelName": "LHand",
+    "blowWeakPartsValue": 0.75,
+    "breakType": 1,
+    "brokenAnimationName": "Destroy_01",
+    "brokenModelName": "LHand_Broken",
+    "brokenValue": 1000,
+    "cutWeakPartsValue": 0.75,
+    "groupId": 201,
+    "id": 3,
+    "partsNameTextId": 81061
+  },
+  {
+    "baseModelName": "RHand",
+    "blowWeakPartsValue": 0.75,
+    "breakType": 1,
+    "brokenAnimationName": "Destroy_02",
+    "brokenModelName": "RHand_Broken",
+    "brokenValue": 1000,
+    "cutWeakPartsValue": 0.75,
+    "groupId": 201,
+    "id": 4,
+    "partsNameTextId": 81062
+  },
+  {
+    "banMonsterPatternId": [
+      201030
+    ],
+    "baseModelName": "LFoot",
+    "blowWeakPartsValue": 1.0,
+    "breakType": 1,
+    "brokenAnimationName": "Destroy_03",
+    "brokenModelName": "LFoot_Broken",
+    "brokenValue": 1000,
+    "cutWeakPartsValue": 0.75,
+    "groupId": 201,
+    "id": 5,
+    "partsNameTextId": 81063
+  },
+  {
+    "banMonsterPatternId": [
+      201029
+    ],
+    "baseModelName": "RFoot",
+    "blowWeakPartsValue": 1.0,
+    "breakType": 1,
+    "brokenAnimationName": "Destroy_04",
+    "brokenModelName": "RFoot_Broken",
+    "brokenValue": 1000,
+    "cutWeakPartsValue": 0.75,
+    "groupId": 201,
+    "id": 6,
+    "partsNameTextId": 81064
+  },
+  {
+    "banMonsterPatternId": [
+      201026
+    ],
+    "baseModelName": "Tail",
+    "breakType": 2,
+    "brokenAnimationName": "Destroy_05",
+    "brokenModelName": "Tail_Broken",
+    "brokenValue": 1000,
+    "cutWeakPartsValue": 1.5,
+    "groupId": 201,
+    "id": 7,
+    "partsNameTextId": 81065
+  },
+  {
+    "groupId": 202,
+    "id": 1
+  },
+  {
+    "groupId": 202,
+    "id": 2
+  },
+  {
+    "banMonsterPatternId": [
+      202032,
+      202038
+    ],
+    "baseModelName": "LHand",
+    "blowWeakPartsValue": 0.75,
+    "breakType": 1,
+    "brokenAnimationName": "Destroy_01",
+    "brokenModelName": "LHand_Broken",
+    "brokenValue": 1700,
+    "cutWeakPartsValue": 0.75,
+    "groupId": 202,
+    "id": 3,
+    "partsNameTextId": 81061
+  },
+  {
+    "banMonsterPatternId": [
+      202031,
+      202037
+    ],
+    "baseModelName": "RHand",
+    "blowWeakPartsValue": 0.75,
+    "breakType": 1,
+    "brokenAnimationName": "Destroy_02",
+    "brokenModelName": "RHand_Broken",
+    "brokenValue": 1700,
+    "cutWeakPartsValue": 0.75,
+    "groupId": 202,
+    "id": 4,
+    "partsNameTextId": 81062
+  },
+  {
+    "banMonsterPatternId": [
+      202030,
+      202041
+    ],
+    "baseModelName": "LFoot",
+    "blowWeakPartsValue": 1.0,
+    "breakType": 1,
+    "brokenAnimationName": "Destroy_03",
+    "brokenModelName": "LFoot_Broken",
+    "brokenValue": 1700,
+    "cutWeakPartsValue": 0.75,
+    "groupId": 202,
+    "id": 5,
+    "partsNameTextId": 81063
+  },
+  {
+    "banMonsterPatternId": [
+      202029,
+      202040
+    ],
+    "baseModelName": "RFoot",
+    "blowWeakPartsValue": 1.0,
+    "breakType": 1,
+    "brokenAnimationName": "Destroy_04",
+    "brokenModelName": "RFoot_Broken",
+    "brokenValue": 1700,
+    "cutWeakPartsValue": 0.75,
+    "groupId": 202,
+    "id": 6,
+    "partsNameTextId": 81064
+  },
+  {
+    "banMonsterPatternId": [
+      202026,
+      202027,
+      202028
+    ],
+    "baseModelName": "Tail",
+    "breakType": 2,
+    "brokenAnimationName": "Destroy_05",
+    "brokenModelName": "Tail_Broken",
+    "brokenValue": 1700,
+    "cutWeakPartsValue": 1.5,
+    "groupId": 202,
+    "id": 7,
+    "partsNameTextId": 81065
+  },
+  {
+    "groupId": 203,
+    "id": 1
+  },
+  {
+    "groupId": 203,
+    "id": 2
+  },
+  {
+    "banMonsterPatternId": [
+      203032,
+      203038
+    ],
+    "baseModelName": "LHand",
+    "blowWeakPartsValue": 0.75,
+    "breakType": 1,
+    "brokenAnimationName": "Destroy_01",
+    "brokenModelName": "LHand_Broken",
+    "brokenValue": 2200,
+    "cutWeakPartsValue": 0.75,
+    "groupId": 203,
+    "id": 3,
+    "partsNameTextId": 81061
+  },
+  {
+    "banMonsterPatternId": [
+      203031,
+      203037
+    ],
+    "baseModelName": "RHand",
+    "blowWeakPartsValue": 0.75,
+    "breakType": 1,
+    "brokenAnimationName": "Destroy_02",
+    "brokenModelName": "RHand_Broken",
+    "brokenValue": 2200,
+    "cutWeakPartsValue": 0.75,
+    "groupId": 203,
+    "id": 4,
+    "partsNameTextId": 81062
+  },
+  {
+    "banMonsterPatternId": [
+      203030,
+      203041
+    ],
+    "baseModelName": "LFoot",
+    "blowWeakPartsValue": 1.0,
+    "breakType": 1,
+    "brokenAnimationName": "Destroy_03",
+    "brokenModelName": "LFoot_Broken",
+    "brokenValue": 2200,
+    "cutWeakPartsValue": 0.75,
+    "groupId": 203,
+    "id": 5,
+    "partsNameTextId": 81063
+  },
+  {
+    "banMonsterPatternId": [
+      203029,
+      203040
+    ],
+    "baseModelName": "RFoot",
+    "blowWeakPartsValue": 1.0,
+    "breakType": 1,
+    "brokenAnimationName": "Destroy_04",
+    "brokenModelName": "RFoot_Broken",
+    "brokenValue": 2200,
+    "cutWeakPartsValue": 0.75,
+    "groupId": 203,
+    "id": 6,
+    "partsNameTextId": 81064
+  },
+  {
+    "banMonsterPatternId": [
+      203026,
+      203027,
+      203028
+    ],
+    "baseModelName": "Tail",
+    "breakType": 2,
+    "brokenAnimationName": "Destroy_05",
+    "brokenModelName": "Tail_Broken",
+    "brokenValue": 2200,
+    "cutWeakPartsValue": 1.5,
+    "groupId": 203,
+    "id": 7,
+    "partsNameTextId": 81065
+  },
+  {
+    "groupId": 204,
+    "id": 1
+  },
+  {
+    "groupId": 204,
+    "id": 2
+  },
+  {
+    "banMonsterPatternId": [
+      204032,
+      204038
+    ],
+    "baseModelName": "LHand",
+    "blowWeakPartsValue": 0.75,
+    "breakType": 1,
+    "brokenAnimationName": "Destroy_01",
+    "brokenModelName": "LHand_Broken",
+    "brokenValue": 4400,
+    "cutWeakPartsValue": 0.75,
+    "groupId": 204,
+    "id": 3,
+    "partsNameTextId": 81061
+  },
+  {
+    "banMonsterPatternId": [
+      204031,
+      204037
+    ],
+    "baseModelName": "RHand",
+    "blowWeakPartsValue": 0.75,
+    "breakType": 1,
+    "brokenAnimationName": "Destroy_02",
+    "brokenModelName": "RHand_Broken",
+    "brokenValue": 4400,
+    "cutWeakPartsValue": 0.75,
+    "groupId": 204,
+    "id": 4,
+    "partsNameTextId": 81062
+  },
+  {
+    "banMonsterPatternId": [
+      204030,
+      204041
+    ],
+    "baseModelName": "LFoot",
+    "blowWeakPartsValue": 1.0,
+    "breakType": 1,
+    "brokenAnimationName": "Destroy_03",
+    "brokenModelName": "LFoot_Broken",
+    "brokenValue": 4400,
+    "cutWeakPartsValue": 0.75,
+    "groupId": 204,
+    "id": 5,
+    "partsNameTextId": 81063
+  },
+  {
+    "banMonsterPatternId": [
+      204029,
+      204040
+    ],
+    "baseModelName": "RFoot",
+    "blowWeakPartsValue": 1.0,
+    "breakType": 1,
+    "brokenAnimationName": "Destroy_04",
+    "brokenModelName": "RFoot_Broken",
+    "brokenValue": 4400,
+    "cutWeakPartsValue": 0.75,
+    "groupId": 204,
+    "id": 6,
+    "partsNameTextId": 81064
+  },
+  {
+    "banMonsterPatternId": [
+      204026,
+      204027,
+      204028
+    ],
+    "baseModelName": "Tail",
+    "breakType": 2,
+    "brokenAnimationName": "Destroy_05",
+    "brokenModelName": "Tail_Broken",
+    "brokenValue": 4400,
+    "cutWeakPartsValue": 1.5,
+    "groupId": 204,
+    "id": 7,
+    "partsNameTextId": 81065
+  }
+]

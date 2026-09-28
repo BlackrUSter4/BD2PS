@@ -1,0 +1,5 @@
+[
+  { "iconSpriteNameLarge": "currency_dia1_3", "iconSpriteNameSmall": "currency_dia2_4", "id": 2, "itemDescNameTextId": 267, "itemNameTextId": 152 },
+  { "iconSpriteNameLarge": "currency_gold1_6", "iconSpriteNameSmall": "currency_gold2_7", "id": 4, "itemDescNameTextId": 266, "itemNameTextId": 151 },
+  { "iconSpriteNameLarge": "currency_catalyst1_1", "iconSpriteNameSmall": "currency_catalyst2_2", "id": 12, "itemDescNameTextId": 265, "itemNameTextId": 264 }
+]

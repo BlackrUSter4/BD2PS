@@ -1,0 +1,596 @@
+[
+  {
+    "bargainLocalTextId": 1820,
+    "groupBadNoticeLocalTextId": 44104,
+    "groupGoodMessageLocalTextId": 44101,
+    "id": 1,
+    "mapNameTextId": 1010001,
+    "npcLocalTextId": 1801,
+    "packId": 1,
+    "priceId": [
+      0
+    ],
+    "priceType": [
+      4
+    ],
+    "resetCount": 1,
+    "resetTermType": 1,
+    "startDay": 20231012
+  },
+  {
+    "bargainLocalTextId": 1821,
+    "groupBadNoticeLocalTextId": 44104,
+    "groupGoodMessageLocalTextId": 44102,
+    "id": 2,
+    "mapNameTextId": 1020001,
+    "npcLocalTextId": 1802,
+    "packId": 2,
+    "priceId": [
+      0
+    ],
+    "priceType": [
+      4
+    ],
+    "resetCount": 1,
+    "resetTermType": 1,
+    "startDay": 20231012
+  },
+  {
+    "bargainLocalTextId": 1822,
+    "groupBadNoticeLocalTextId": 44104,
+    "groupGoodMessageLocalTextId": 44103,
+    "id": 3,
+    "mapNameTextId": 1030001,
+    "npcLocalTextId": 1803,
+    "packId": 3,
+    "priceId": [
+      0
+    ],
+    "priceType": [
+      4
+    ],
+    "resetCount": 1,
+    "resetTermType": 1,
+    "startDay": 20231012
+  },
+  {
+    "bargainLocalTextId": 1823,
+    "groupBadNoticeLocalTextId": 44104,
+    "groupGoodMessageLocalTextId": 44104,
+    "id": 4,
+    "mapNameTextId": 1040001,
+    "npcLocalTextId": 1804,
+    "packId": 4,
+    "priceId": [
+      0
+    ],
+    "priceType": [
+      4
+    ],
+    "resetCount": 1,
+    "resetTermType": 1,
+    "startDay": 20231012
+  },
+  {
+    "bargainLocalTextId": 1824,
+    "groupBadNoticeLocalTextId": 44104,
+    "groupGoodMessageLocalTextId": 44105,
+    "id": 5,
+    "mapNameTextId": 1050001,
+    "npcLocalTextId": 1805,
+    "packId": 5,
+    "priceId": [
+      0
+    ],
+    "priceType": [
+      4
+    ],
+    "resetCount": 1,
+    "resetTermType": 1,
+    "startDay": 20231012
+  },
+  {
+    "bargainLocalTextId": 1825,
+    "groupBadNoticeLocalTextId": 44104,
+    "groupGoodMessageLocalTextId": 44106,
+    "id": 6,
+    "mapNameTextId": 1060001,
+    "npcLocalTextId": 1806,
+    "packId": 6,
+    "priceId": [
+      0
+    ],
+    "priceType": [
+      4
+    ],
+    "resetCount": 1,
+    "resetTermType": 1,
+    "startDay": 20231012
+  },
+  {
+    "bargainLocalTextId": 20007015,
+    "groupBadNoticeLocalTextId": 44104,
+    "groupGoodMessageLocalTextId": 20007014,
+    "id": 7,
+    "mapNameTextId": 1070001,
+    "npcLocalTextId": 20007013,
+    "packId": 7,
+    "priceId": [
+      0
+    ],
+    "priceType": [
+      4
+    ],
+    "resetCount": 1,
+    "resetTermType": 1,
+    "startDay": 20231012
+  },
+  {
+    "bargainLocalTextId": 20008015,
+    "groupBadNoticeLocalTextId": 44104,
+    "groupGoodMessageLocalTextId": 20008014,
+    "id": 8,
+    "mapNameTextId": 1080001,
+    "npcLocalTextId": 20008013,
+    "packId": 8,
+    "priceId": [
+      0
+    ],
+    "priceType": [
+      4
+    ],
+    "resetCount": 1,
+    "resetTermType": 1,
+    "startDay": 20231012
+  },
+  {
+    "bargainLocalTextId": 20009035,
+    "groupBadNoticeLocalTextId": 44104,
+    "groupGoodMessageLocalTextId": 20009034,
+    "id": 9,
+    "mapNameTextId": 1090001,
+    "npcLocalTextId": 20009033,
+    "packId": 9,
+    "priceId": [
+      0
+    ],
+    "priceType": [
+      4
+    ],
+    "resetCount": 1,
+    "resetTermType": 1,
+    "startDay": 20231012
+  },
+  {
+    "bargainLocalTextId": 20010025,
+    "groupBadNoticeLocalTextId": 44104,
+    "groupGoodMessageLocalTextId": 20010024,
+    "id": 10,
+    "mapNameTextId": 1100001,
+    "npcLocalTextId": 20010023,
+    "packId": 10,
+    "priceId": [
+      0
+    ],
+    "priceType": [
+      4
+    ],
+    "resetCount": 1,
+    "resetTermType": 1,
+    "startDay": 20231012
+  },
+  {
+    "bargainLocalTextId": 20011024,
+    "groupBadNoticeLocalTextId": 44104,
+    "groupGoodMessageLocalTextId": 20011023,
+    "id": 11,
+    "mapNameTextId": 2001102,
+    "npcLocalTextId": 20011022,
+    "packId": 11,
+    "priceId": [
+      0
+    ],
+    "priceType": [
+      4
+    ],
+    "resetCount": 1,
+    "resetTermType": 1,
+    "startDay": 20231012
+  },
+  {
+    "bargainLocalTextId": 20012024,
+    "groupBadNoticeLocalTextId": 44104,
+    "groupGoodMessageLocalTextId": 20012023,
+    "id": 12,
+    "mapNameTextId": 2001202,
+    "npcLocalTextId": 20012022,
+    "packId": 12,
+    "priceId": [
+      0
+    ],
+    "priceType": [
+      4
+    ],
+    "resetCount": 1,
+    "resetTermType": 1,
+    "startDay": 20231012
+  },
+  {
+    "bargainLocalTextId": 20013024,
+    "groupBadNoticeLocalTextId": 44104,
+    "groupGoodMessageLocalTextId": 20013023,
+    "id": 13,
+    "mapNameTextId": 2001330,
+    "npcLocalTextId": 20013022,
+    "packId": 13,
+    "priceId": [
+      0
+    ],
+    "priceType": [
+      4
+    ],
+    "resetCount": 1,
+    "resetTermType": 1,
+    "startDay": 20231012
+  },
+  {
+    "bargainLocalTextId": 20014024,
+    "groupBadNoticeLocalTextId": 44104,
+    "groupGoodMessageLocalTextId": 20014023,
+    "id": 14,
+    "mapNameTextId": 2001402,
+    "npcLocalTextId": 20014022,
+    "packId": 14,
+    "priceId": [
+      0
+    ],
+    "priceType": [
+      4
+    ],
+    "resetCount": 1,
+    "resetTermType": 1,
+    "startDay": 20231012
+  },
+  {
+    "bargainLocalTextId": 20015024,
+    "groupBadNoticeLocalTextId": 44104,
+    "groupGoodMessageLocalTextId": 20015022,
+    "id": 15,
+    "mapNameTextId": 2001502,
+    "npcLocalTextId": 20015022,
+    "packId": 15,
+    "priceId": [
+      0
+    ],
+    "priceType": [
+      4
+    ],
+    "resetCount": 1,
+    "resetTermType": 1,
+    "startDay": 20231012
+  },
+  {
+    "bargainLocalTextId": 20016024,
+    "groupBadNoticeLocalTextId": 44104,
+    "groupGoodMessageLocalTextId": 20016023,
+    "id": 16,
+    "mapNameTextId": 2001602,
+    "npcLocalTextId": 20016022,
+    "packId": 16,
+    "priceId": [
+      0
+    ],
+    "priceType": [
+      4
+    ],
+    "resetCount": 1,
+    "resetTermType": 1,
+    "startDay": 20231012
+  },
+  {
+    "bargainLocalTextId": 20017024,
+    "groupBadNoticeLocalTextId": 44104,
+    "groupGoodMessageLocalTextId": 20017023,
+    "id": 17,
+    "mapNameTextId": 2001721,
+    "npcLocalTextId": 20017022,
+    "packId": 17,
+    "priceId": [
+      0
+    ],
+    "priceType": [
+      4
+    ],
+    "resetCount": 1,
+    "resetTermType": 1,
+    "startDay": 20231012
+  },
+  {
+    "bargainLocalTextId": 20018024,
+    "groupBadNoticeLocalTextId": 44104,
+    "groupGoodMessageLocalTextId": 20018023,
+    "id": 18,
+    "mapNameTextId": 2001821,
+    "npcLocalTextId": 20018022,
+    "packId": 18,
+    "priceId": [
+      0
+    ],
+    "priceType": [
+      4
+    ],
+    "resetCount": 1,
+    "resetTermType": 1,
+    "startDay": 20231012
+  },
+  {
+    "bargainLocalTextId": 1826,
+    "groupBadNoticeLocalTextId": 44104,
+    "groupGoodMessageLocalTextId": 44110,
+    "id": 1001,
+    "mapNameTextId": 10010001,
+    "npcLocalTextId": 1810,
+    "packId": 1001,
+    "priceId": [
+      0
+    ],
+    "priceType": [
+      4
+    ],
+    "resetCount": 1,
+    "resetTermType": 1,
+    "startDay": 20231012
+  },
+  {
+    "bargainLocalTextId": 1827,
+    "groupBadNoticeLocalTextId": 44104,
+    "groupGoodMessageLocalTextId": 44512,
+    "id": 1002,
+    "mapNameTextId": 10020001,
+    "npcLocalTextId": 1811,
+    "packId": 1002,
+    "priceId": [
+      0
+    ],
+    "priceType": [
+      4
+    ],
+    "resetCount": 1,
+    "resetTermType": 1,
+    "startDay": 20231012
+  },
+  {
+    "bargainLocalTextId": 1830,
+    "groupBadNoticeLocalTextId": 44104,
+    "groupGoodMessageLocalTextId": 44513,
+    "id": 1003,
+    "mapNameTextId": 10030001,
+    "npcLocalTextId": 1813,
+    "packId": 1003,
+    "priceId": [
+      0
+    ],
+    "priceType": [
+      4
+    ],
+    "resetCount": 1,
+    "resetTermType": 1,
+    "startDay": 20231012
+  },
+  {
+    "bargainLocalTextId": 1828,
+    "groupBadNoticeLocalTextId": 44104,
+    "groupGoodMessageLocalTextId": 44515,
+    "id": 1004,
+    "mapNameTextId": 10040001,
+    "npcLocalTextId": 1812,
+    "packId": 1004,
+    "priceId": [
+      0
+    ],
+    "priceType": [
+      4
+    ],
+    "resetCount": 1,
+    "resetTermType": 1,
+    "startDay": 20231012
+  },
+  {
+    "bargainLocalTextId": 21005024,
+    "groupBadNoticeLocalTextId": 44104,
+    "groupGoodMessageLocalTextId": 21005023,
+    "id": 1005,
+    "mapNameTextId": 2100502,
+    "npcLocalTextId": 21005022,
+    "packId": 1005,
+    "priceId": [
+      0
+    ],
+    "priceType": [
+      4
+    ],
+    "resetCount": 1,
+    "resetTermType": 1,
+    "startDay": 20231012
+  },
+  {
+    "bargainLocalTextId": 21006044,
+    "groupBadNoticeLocalTextId": 44104,
+    "groupGoodMessageLocalTextId": 21006043,
+    "id": 1006,
+    "mapNameTextId": 2100602,
+    "npcLocalTextId": 21006042,
+    "packId": 1006,
+    "priceId": [
+      0
+    ],
+    "priceType": [
+      4
+    ],
+    "resetCount": 1,
+    "resetTermType": 1,
+    "startDay": 20231012
+  },
+  {
+    "bargainLocalTextId": 21007014,
+    "groupBadNoticeLocalTextId": 44104,
+    "groupGoodMessageLocalTextId": 21007013,
+    "id": 1007,
+    "mapNameTextId": 2100702,
+    "npcLocalTextId": 21007012,
+    "packId": 1007,
+    "priceId": [
+      0
+    ],
+    "priceType": [
+      4
+    ],
+    "resetCount": 1,
+    "resetTermType": 1,
+    "startDay": 20231012
+  },
+  {
+    "bargainLocalTextId": 22001024,
+    "groupBadNoticeLocalTextId": 44104,
+    "groupGoodMessageLocalTextId": 22001023,
+    "id": 2001,
+    "mapNameTextId": 2200102,
+    "npcLocalTextId": 22001022,
+    "packId": 2001,
+    "priceId": [
+      0
+    ],
+    "priceType": [
+      4
+    ],
+    "resetCount": 1,
+    "resetTermType": 1,
+    "startDay": 20231012
+  },
+  {
+    "bargainLocalTextId": 20002025,
+    "groupBadNoticeLocalTextId": 44104,
+    "groupGoodMessageLocalTextId": 20002024,
+    "id": 2002,
+    "mapNameTextId": 2200232,
+    "npcLocalTextId": 20002023,
+    "packId": 2002,
+    "priceId": [
+      0
+    ],
+    "priceType": [
+      4
+    ],
+    "resetCount": 1,
+    "resetTermType": 1,
+    "startDay": 20231012
+  },
+  {
+    "bargainLocalTextId": 22003023,
+    "groupBadNoticeLocalTextId": 44104,
+    "groupGoodMessageLocalTextId": 22003024,
+    "id": 2003,
+    "mapNameTextId": 2200302,
+    "npcLocalTextId": 22003022,
+    "packId": 2003,
+    "priceId": [
+      0
+    ],
+    "priceType": [
+      4
+    ],
+    "resetCount": 1,
+    "resetTermType": 1,
+    "startDay": 20231012
+  },
+  {
+    "bargainLocalTextId": 22004003,
+    "groupBadNoticeLocalTextId": 44104,
+    "groupGoodMessageLocalTextId": 22004002,
+    "id": 2004,
+    "mapNameTextId": 2200402,
+    "npcLocalTextId": 22004001,
+    "packId": 2004,
+    "priceId": [
+      0
+    ],
+    "priceType": [
+      4
+    ],
+    "resetCount": 1,
+    "resetTermType": 1,
+    "startDay": 20231012
+  },
+  {
+    "bargainLocalTextId": 22005003,
+    "groupBadNoticeLocalTextId": 44104,
+    "groupGoodMessageLocalTextId": 22005002,
+    "id": 2005,
+    "mapNameTextId": 2200503,
+    "npcLocalTextId": 22005001,
+    "packId": 2005,
+    "priceId": [
+      0
+    ],
+    "priceType": [
+      4
+    ],
+    "resetCount": 1,
+    "resetTermType": 1,
+    "startDay": 20231012
+  },
+  {
+    "bargainLocalTextId": 22006003,
+    "groupBadNoticeLocalTextId": 44104,
+    "groupGoodMessageLocalTextId": 22006002,
+    "id": 2006,
+    "mapNameTextId": 2200603,
+    "npcLocalTextId": 22006001,
+    "packId": 2006,
+    "priceId": [
+      0
+    ],
+    "priceType": [
+      4
+    ],
+    "resetCount": 1,
+    "resetTermType": 1,
+    "startDay": 20231012
+  },
+  {
+    "bargainLocalTextId": 22007024,
+    "groupBadNoticeLocalTextId": 44104,
+    "groupGoodMessageLocalTextId": 22007023,
+    "id": 2007,
+    "mapNameTextId": 2200702,
+    "npcLocalTextId": 22007022,
+    "packId": 2007,
+    "priceId": [
+      0
+    ],
+    "priceType": [
+      4
+    ],
+    "resetCount": 1,
+    "resetTermType": 1,
+    "startDay": 20231012
+  },
+  {
+    "bargainLocalTextId": 23004013,
+    "groupBadNoticeLocalTextId": 44104,
+    "groupGoodMessageLocalTextId": 30031008,
+    "id": 3004,
+    "mapNameTextId": 30040001,
+    "npcLocalTextId": 23004013,
+    "packId": 3004,
+    "priceId": [
+      0
+    ],
+    "priceType": [
+      4
+    ],
+    "resetCount": 1,
+    "resetTermType": 1,
+    "startDay": 20231012
+  }
+]

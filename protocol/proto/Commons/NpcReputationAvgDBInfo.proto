@@ -1,0 +1,5 @@
+﻿
+message NpcReputationAvgDBInfo {
+  optional int32 group_id = 1;
+  optional int32 reputation_avg = 2;
+}

@@ -1,0 +1,1001 @@
+[
+  {
+    "groupId": 1,
+    "id": 1,
+    "itemCount": [
+      1
+    ],
+    "itemId": [
+      1
+    ],
+    "itemType": [
+      25
+    ]
+  },
+  {
+    "conditionType": 1,
+    "groupId": 1,
+    "id": 2,
+    "itemCount": [
+      1,
+      1,
+      1
+    ],
+    "itemId": [
+      4,
+      13,
+      13
+    ],
+    "itemType": [
+      25,
+      25,
+      25
+    ],
+    "packId": 1,
+    "questId": 16
+  },
+  {
+    "conditionType": 1,
+    "groupId": 1,
+    "id": 3,
+    "itemCount": [
+      1
+    ],
+    "itemId": [
+      5
+    ],
+    "itemType": [
+      25
+    ],
+    "packId": 2,
+    "questId": 14
+  },
+  {
+    "conditionType": 1,
+    "groupId": 1,
+    "id": 4,
+    "itemCount": [
+      1
+    ],
+    "itemId": [
+      9
+    ],
+    "itemType": [
+      25
+    ],
+    "packId": 4,
+    "questId": 37
+  },
+  {
+    "conditionType": 1,
+    "groupId": 1,
+    "id": 5,
+    "itemCount": [
+      1
+    ],
+    "itemId": [
+      6
+    ],
+    "itemType": [
+      25
+    ],
+    "packId": 4,
+    "questId": 39
+  },
+  {
+    "conditionType": 1,
+    "groupId": 1,
+    "id": 6,
+    "itemCount": [
+      1
+    ],
+    "itemId": [
+      8
+    ],
+    "itemType": [
+      25
+    ],
+    "packId": 6,
+    "questId": 9
+  },
+  {
+    "conditionType": 1,
+    "groupId": 1,
+    "id": 7,
+    "itemCount": [
+      1
+    ],
+    "itemId": [
+      10
+    ],
+    "itemType": [
+      25
+    ],
+    "packId": 7,
+    "questId": 40
+  },
+  {
+    "conditionType": 1,
+    "groupId": 1,
+    "id": 8,
+    "itemCount": [
+      1,
+      1,
+      1
+    ],
+    "itemId": [
+      11,
+      12,
+      12
+    ],
+    "itemType": [
+      25,
+      25,
+      25
+    ],
+    "packId": 8,
+    "questId": 38
+  },
+  {
+    "conditionType": 1,
+    "groupId": 1,
+    "id": 9,
+    "itemCount": [
+      1
+    ],
+    "itemId": [
+      7
+    ],
+    "itemType": [
+      25
+    ],
+    "packId": 1001,
+    "questId": 36
+  },
+  {
+    "conditionType": 1,
+    "groupId": 3,
+    "id": 10,
+    "itemCount": [
+      1,
+      2,
+      2
+    ],
+    "itemId": [
+      101,
+      501,
+      501
+    ],
+    "itemType": [
+      27,
+      27,
+      27
+    ],
+    "packId": 1,
+    "questId": 46
+  },
+  {
+    "conditionType": 2,
+    "groupId": 2,
+    "id": 1
+  },
+  {
+    "groupId": 4,
+    "id": 1,
+    "itemCount": [
+      1
+    ],
+    "itemId": [
+      27
+    ],
+    "itemType": [
+      13
+    ]
+  },
+  {
+    "conditionType": 1,
+    "groupId": 5,
+    "id": 1,
+    "itemCount": [
+      1
+    ],
+    "itemId": [
+      111
+    ],
+    "itemType": [
+      19
+    ],
+    "packId": 10,
+    "questId": 41
+  },
+  {
+    "conditionType": 1,
+    "groupId": 6,
+    "id": 1,
+    "itemCount": [
+      1
+    ],
+    "itemId": [
+      1001
+    ],
+    "itemType": [
+      19
+    ],
+    "packId": 1001,
+    "questId": 38
+  },
+  {
+    "conditionType": 1,
+    "groupId": 6,
+    "id": 2,
+    "itemCount": [
+      1
+    ],
+    "itemId": [
+      1002
+    ],
+    "itemType": [
+      19
+    ],
+    "packId": 1002,
+    "questId": 36
+  },
+  {
+    "conditionType": 1,
+    "groupId": 6,
+    "id": 3,
+    "itemCount": [
+      1
+    ],
+    "itemId": [
+      1003
+    ],
+    "itemType": [
+      19
+    ],
+    "packId": 1003,
+    "questId": 34
+  },
+  {
+    "conditionType": 1,
+    "groupId": 6,
+    "id": 4,
+    "itemCount": [
+      1
+    ],
+    "itemId": [
+      1004
+    ],
+    "itemType": [
+      19
+    ],
+    "packId": 1004,
+    "questId": 34
+  },
+  {
+    "conditionType": 1,
+    "groupId": 6,
+    "id": 5,
+    "itemCount": [
+      1
+    ],
+    "itemId": [
+      1005
+    ],
+    "itemType": [
+      19
+    ],
+    "packId": 1005,
+    "questId": 29
+  },
+  {
+    "conditionType": 1,
+    "groupId": 6,
+    "id": 6,
+    "itemCount": [
+      1
+    ],
+    "itemId": [
+      1006
+    ],
+    "itemType": [
+      19
+    ],
+    "packId": 1006,
+    "questId": 29
+  },
+  {
+    "conditionType": 1,
+    "groupId": 6,
+    "id": 7,
+    "itemCount": [
+      1
+    ],
+    "itemId": [
+      3001
+    ],
+    "itemType": [
+      19
+    ],
+    "packId": 3001,
+    "questId": 6
+  },
+  {
+    "conditionType": 1,
+    "groupId": 6,
+    "id": 8,
+    "itemCount": [
+      1
+    ],
+    "itemId": [
+      3003
+    ],
+    "itemType": [
+      19
+    ],
+    "packId": 3003,
+    "questId": 5
+  },
+  {
+    "conditionType": 1,
+    "groupId": 6,
+    "id": 9,
+    "itemCount": [
+      1
+    ],
+    "itemId": [
+      3004
+    ],
+    "itemType": [
+      19
+    ],
+    "packId": 3004,
+    "questId": 3
+  },
+  {
+    "conditionType": 1,
+    "groupId": 6,
+    "id": 10,
+    "itemCount": [
+      1
+    ],
+    "itemId": [
+      3005
+    ],
+    "itemType": [
+      19
+    ],
+    "packId": 3005,
+    "questId": 3
+  },
+  {
+    "conditionType": 3,
+    "groupId": 7,
+    "id": 1,
+    "itemCount": [
+      0
+    ],
+    "itemId": [
+      2007
+    ],
+    "itemType": [
+      8
+    ]
+  },
+  {
+    "conditionType": 3,
+    "groupId": 8,
+    "id": 1,
+    "itemCount": [
+      0
+    ],
+    "itemId": [
+      2012
+    ],
+    "itemType": [
+      8
+    ]
+  },
+  {
+    "conditionType": 3,
+    "groupId": 9,
+    "id": 1,
+    "itemCount": [
+      0
+    ],
+    "itemId": [
+      2014
+    ],
+    "itemType": [
+      8
+    ]
+  },
+  {
+    "conditionType": 3,
+    "groupId": 10,
+    "id": 1,
+    "itemCount": [
+      0
+    ],
+    "itemId": [
+      2008
+    ],
+    "itemType": [
+      8
+    ]
+  },
+  {
+    "conditionType": 3,
+    "groupId": 11,
+    "id": 1,
+    "itemCount": [
+      0
+    ],
+    "itemId": [
+      2010
+    ],
+    "itemType": [
+      8
+    ]
+  },
+  {
+    "conditionType": 3,
+    "groupId": 12,
+    "id": 1,
+    "itemCount": [
+      0
+    ],
+    "itemId": [
+      2012
+    ],
+    "itemType": [
+      8
+    ]
+  },
+  {
+    "conditionType": 3,
+    "groupId": 13,
+    "id": 1,
+    "itemCount": [
+      0
+    ],
+    "itemId": [
+      2009
+    ],
+    "itemType": [
+      8
+    ]
+  },
+  {
+    "conditionType": 3,
+    "groupId": 14,
+    "id": 1,
+    "itemCount": [
+      0
+    ],
+    "itemId": [
+      2005
+    ],
+    "itemType": [
+      8
+    ]
+  },
+  {
+    "conditionType": 3,
+    "groupId": 15,
+    "id": 1,
+    "itemCount": [
+      0
+    ],
+    "itemId": [
+      2016
+    ],
+    "itemType": [
+      8
+    ]
+  },
+  {
+    "conditionType": 3,
+    "groupId": 16,
+    "id": 1,
+    "itemCount": [
+      0
+    ],
+    "itemId": [
+      2015
+    ],
+    "itemType": [
+      8
+    ]
+  },
+  {
+    "conditionType": 3,
+    "groupId": 17,
+    "id": 1,
+    "itemCount": [
+      0
+    ],
+    "itemId": [
+      2012
+    ],
+    "itemType": [
+      8
+    ]
+  },
+  {
+    "conditionType": 3,
+    "groupId": 18,
+    "id": 1,
+    "itemCount": [
+      0
+    ],
+    "itemId": [
+      2020
+    ],
+    "itemType": [
+      8
+    ]
+  },
+  {
+    "conditionType": 3,
+    "groupId": 19,
+    "id": 1,
+    "itemCount": [
+      0
+    ],
+    "itemId": [
+      2013
+    ],
+    "itemType": [
+      8
+    ]
+  },
+  {
+    "conditionType": 3,
+    "groupId": 20,
+    "id": 1,
+    "itemCount": [
+      0
+    ],
+    "itemId": [
+      2018
+    ],
+    "itemType": [
+      8
+    ]
+  },
+  {
+    "conditionType": 3,
+    "groupId": 21,
+    "id": 1,
+    "itemCount": [
+      0
+    ],
+    "itemId": [
+      2021
+    ],
+    "itemType": [
+      8
+    ]
+  },
+  {
+    "conditionType": 3,
+    "groupId": 22,
+    "id": 1,
+    "itemCount": [
+      0
+    ],
+    "itemId": [
+      2015
+    ],
+    "itemType": [
+      8
+    ]
+  },
+  {
+    "conditionType": 3,
+    "groupId": 23,
+    "id": 1,
+    "itemCount": [
+      0
+    ],
+    "itemId": [
+      2021
+    ],
+    "itemType": [
+      8
+    ]
+  },
+  {
+    "conditionType": 3,
+    "groupId": 24,
+    "id": 1,
+    "itemCount": [
+      0
+    ],
+    "itemId": [
+      2015
+    ],
+    "itemType": [
+      8
+    ]
+  },
+  {
+    "conditionType": 3,
+    "groupId": 25,
+    "id": 1,
+    "itemCount": [
+      0
+    ],
+    "itemId": [
+      2012
+    ],
+    "itemType": [
+      8
+    ]
+  },
+  {
+    "conditionType": 1,
+    "groupId": 26,
+    "id": 1,
+    "itemCount": [
+      1
+    ],
+    "itemId": [
+      66
+    ],
+    "itemType": [
+      25
+    ],
+    "packId": 15,
+    "questId": 9
+  },
+  {
+    "conditionType": 1,
+    "groupId": 26,
+    "id": 2,
+    "itemCount": [
+      1,
+      1,
+      1
+    ],
+    "itemId": [
+      67,
+      68,
+      69
+    ],
+    "itemType": [
+      25,
+      25,
+      25
+    ],
+    "packId": 15,
+    "questId": 40
+  },
+  {
+    "conditionType": 3,
+    "groupId": 27,
+    "id": 1,
+    "itemCount": [
+      0
+    ],
+    "itemId": [
+      2017
+    ],
+    "itemType": [
+      8
+    ]
+  },
+  {
+    "conditionType": 1,
+    "groupId": 28,
+    "id": 1,
+    "itemCount": [
+      2,
+      4
+    ],
+    "itemId": [
+      101,
+      501
+    ],
+    "itemType": [
+      27,
+      27
+    ],
+    "packId": 1,
+    "questId": 46
+  },
+  {
+    "conditionType": 3,
+    "groupId": 29,
+    "id": 1,
+    "itemCount": [
+      0
+    ],
+    "itemId": [
+      2015
+    ],
+    "itemType": [
+      8
+    ]
+  },
+  {
+    "conditionType": 3,
+    "groupId": 30,
+    "id": 1,
+    "itemCount": [
+      0
+    ],
+    "itemId": [
+      2012
+    ],
+    "itemType": [
+      8
+    ]
+  },
+  {
+    "conditionType": 1,
+    "groupId": 31,
+    "id": 1,
+    "itemCount": [
+      1,
+      1
+    ],
+    "itemId": [
+      100,
+      101
+    ],
+    "itemType": [
+      25,
+      25
+    ],
+    "packId": 16,
+    "questId": 39
+  },
+  {
+    "conditionType": 3,
+    "groupId": 32,
+    "id": 1,
+    "itemCount": [
+      0
+    ],
+    "itemId": [
+      2018
+    ],
+    "itemType": [
+      8
+    ]
+  },
+  {
+    "conditionType": 4,
+    "groupId": 33,
+    "id": 1
+  },
+  {
+    "conditionType": 3,
+    "groupId": 34,
+    "id": 1,
+    "itemCount": [
+      0
+    ],
+    "itemId": [
+      2021
+    ],
+    "itemType": [
+      8
+    ]
+  },
+  {
+    "conditionType": 5,
+    "groupId": 35,
+    "id": 1,
+    "itemCount": [
+      1
+    ],
+    "itemId": [
+      45004
+    ],
+    "itemType": [
+      47
+    ],
+    "magicGroupId": 461,
+    "magicId": 1
+  },
+  {
+    "conditionType": 5,
+    "groupId": 35,
+    "id": 2,
+    "itemCount": [
+      1
+    ],
+    "itemId": [
+      45001
+    ],
+    "itemType": [
+      47
+    ],
+    "magicGroupId": 606,
+    "magicId": 18
+  },
+  {
+    "conditionType": 5,
+    "groupId": 35,
+    "id": 3,
+    "itemCount": [
+      1
+    ],
+    "itemId": [
+      45002
+    ],
+    "itemType": [
+      47
+    ],
+    "magicGroupId": 606,
+    "magicId": 22
+  },
+  {
+    "conditionType": 5,
+    "groupId": 35,
+    "id": 4,
+    "itemCount": [
+      1
+    ],
+    "itemId": [
+      45003
+    ],
+    "itemType": [
+      47
+    ],
+    "magicGroupId": 606,
+    "magicId": 26
+  },
+  {
+    "conditionType": 5,
+    "groupId": 35,
+    "id": 5,
+    "itemCount": [
+      1
+    ],
+    "itemId": [
+      20004
+    ],
+    "itemType": [
+      47
+    ],
+    "magicGroupId": 512,
+    "magicId": 1001
+  },
+  {
+    "conditionType": 5,
+    "groupId": 35,
+    "id": 6,
+    "itemCount": [
+      1
+    ],
+    "itemId": [
+      20005
+    ],
+    "itemType": [
+      47
+    ],
+    "magicGroupId": 946,
+    "magicId": 1001
+  },
+  {
+    "conditionType": 6,
+    "groupId": 36,
+    "id": 1,
+    "itemCount": [
+      1
+    ],
+    "itemId": [
+      20001
+    ],
+    "itemType": [
+      47
+    ],
+    "magicId": 40
+  },
+  {
+    "conditionType": 3,
+    "groupId": 37,
+    "id": 1,
+    "itemCount": [
+      0
+    ],
+    "itemId": [
+      2015
+    ],
+    "itemType": [
+      8
+    ]
+  },
+  {
+    "conditionType": 5,
+    "groupId": 38,
+    "id": 1,
+    "itemCount": [
+      1
+    ],
+    "itemId": [
+      45005
+    ],
+    "itemType": [
+      47
+    ],
+    "magicGroupId": 4011,
+    "magicId": 1
+  },
+  {
+    "conditionType": 5,
+    "groupId": 38,
+    "id": 2,
+    "itemCount": [
+      1
+    ],
+    "itemId": [
+      45006
+    ],
+    "itemType": [
+      47
+    ],
+    "magicGroupId": 4016,
+    "magicId": 1
+  },
+  {
+    "conditionType": 3,
+    "groupId": 39,
+    "id": 1,
+    "itemCount": [
+      0
+    ],
+    "itemId": [
+      2015
+    ],
+    "itemType": [
+      8
+    ]
+  },
+  {
+    "conditionType": 3,
+    "groupId": 40,
+    "id": 1,
+    "itemCount": [
+      0
+    ],
+    "itemId": [
+      2012
+    ],
+    "itemType": [
+      8
+    ]
+  },
+  {
+    "conditionType": 3,
+    "groupId": 41,
+    "id": 1,
+    "itemCount": [
+      0
+    ],
+    "itemId": [
+      2016
+    ],
+    "itemType": [
+      8
+    ]
+  },
+  {
+    "conditionType": 3,
+    "groupId": 42,
+    "id": 1,
+    "itemCount": [
+      0
+    ],
+    "itemId": [
+      2021
+    ],
+    "itemType": [
+      8
+    ]
+  }
+]

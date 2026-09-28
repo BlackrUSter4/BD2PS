@@ -1,0 +1,210 @@
+[
+  {
+    "bossRoom": [
+      10
+    ],
+    "enemyDamageRate": 1.0,
+    "enemyHealthRate": 1.0,
+    "floorCount": 10,
+    "getGoldRate": 1.0,
+    "id": 1,
+    "nextSeasonOpenLevel": 2000,
+    "rewardCount": [
+      603
+    ],
+    "rewardId": [
+      8
+    ],
+    "scoreBonusRate": 0.25,
+    "spStartCount": 5,
+    "spTurnAddCount": 30000
+  },
+  {
+    "bossRoom": [
+      10
+    ],
+    "enemyDamageRate": 1.25,
+    "enemyHealthRate": 1.5,
+    "floorCount": 10,
+    "getGoldRate": 1.0,
+    "id": 2,
+    "nextSeasonOpenLevel": 2000,
+    "rewardCount": [
+      127
+    ],
+    "rewardId": [
+      8
+    ],
+    "scoreBonusRate": 0.2,
+    "spStartCount": 3,
+    "spTurnAddCount": 26000
+  },
+  {
+    "bossRoom": [
+      10,
+      20
+    ],
+    "enemyDamageRate": 1.5,
+    "enemyHealthRate": 2.5,
+    "floorCount": 20,
+    "getGoldRate": 1.0,
+    "id": 3,
+    "nextSeasonOpenLevel": 4000,
+    "rewardCount": [
+      1000
+    ],
+    "rewardId": [
+      8
+    ],
+    "scoreBonusRate": 0.2,
+    "spStartCount": 2,
+    "spTurnAddCount": 22000
+  },
+  {
+    "bossRoom": [
+      10,
+      20
+    ],
+    "enemyDamageRate": 2.0,
+    "enemyHealthRate": 5.0,
+    "floorCount": 20,
+    "getGoldRate": 0.9,
+    "id": 4,
+    "nextSeasonOpenLevel": 4000,
+    "rewardCount": [
+      1106
+    ],
+    "rewardId": [
+      8
+    ],
+    "scoreBonusRate": 0.15,
+    "spStartCount": 1,
+    "spTurnAddCount": 18000
+  },
+  {
+    "bossRoom": [
+      10,
+      20,
+      30
+    ],
+    "enemyDamageRate": 3.0,
+    "enemyHealthRate": 7.0,
+    "floorCount": 30,
+    "getGoldRate": 0.9,
+    "id": 5,
+    "nextSeasonOpenLevel": 6000,
+    "rewardCount": [
+      1000
+    ],
+    "rewardId": [
+      8
+    ],
+    "scoreBonusRate": 0.15,
+    "spStartCount": 1,
+    "spTurnAddCount": 14000
+  },
+  {
+    "bossRoom": [
+      10,
+      20,
+      30
+    ],
+    "enemyDamageRate": 4.0,
+    "enemyHealthRate": 10.0,
+    "floorCount": 30,
+    "getGoldRate": 0.8,
+    "id": 6,
+    "nextSeasonOpenLevel": 6000,
+    "rewardCount": [
+      603
+    ],
+    "rewardId": [
+      8
+    ],
+    "scoreBonusRate": 0.1,
+    "spTurnAddCount": 10000
+  },
+  {
+    "bossRoom": [
+      10,
+      20,
+      30
+    ],
+    "enemyDamageRate": 5.0,
+    "enemyHealthRate": 15.0,
+    "floorCount": 30,
+    "getGoldRate": 0.8,
+    "id": 7,
+    "nextSeasonOpenLevel": 6000,
+    "rewardCount": [
+      603
+    ],
+    "rewardId": [
+      8
+    ],
+    "scoreBonusRate": 0.1,
+    "spTurnAddCount": 10000
+  },
+  {
+    "bossRoom": [
+      10,
+      20,
+      30
+    ],
+    "enemyDamageRate": 6.0,
+    "enemyHealthRate": 24.0,
+    "floorCount": 30,
+    "getGoldRate": 0.8,
+    "id": 8,
+    "nextSeasonOpenLevel": 6000,
+    "rewardCount": [
+      17
+    ],
+    "rewardId": [
+      8
+    ],
+    "scoreBonusRate": 0.05,
+    "spTurnAddCount": 10000
+  },
+  {
+    "bossRoom": [
+      10,
+      20,
+      30
+    ],
+    "enemyDamageRate": 7.0,
+    "enemyHealthRate": 36.0,
+    "floorCount": 30,
+    "getGoldRate": 0.8,
+    "id": 9,
+    "nextSeasonOpenLevel": 6000,
+    "rewardCount": [
+      17
+    ],
+    "rewardId": [
+      8
+    ],
+    "scoreBonusRate": 0.05,
+    "spTurnAddCount": 10000
+  },
+  {
+    "bossRoom": [
+      10,
+      20,
+      30
+    ],
+    "enemyDamageRate": 8.0,
+    "enemyHealthRate": 50.0,
+    "floorCount": 30,
+    "getGoldRate": 0.7,
+    "id": 10,
+    "nextSeasonOpenLevel": 6000,
+    "rewardCount": [
+      17
+    ],
+    "rewardId": [
+      8
+    ],
+    "spTurnAddCount": 10000
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "idleChangeDamage": [
+      10000,
+      100000,
+      1000000
+    ],
+    "rewardObjectId": 1,
+    "rewardObjectInteractionLocalTextId": 9803,
+    "rewardObjectPrefabName": "NPC000007",
+    "totalWarPresetBaseCount": 5,
+    "totalWarPresetBuyCount": 5000,
+    "totalWarPresetBuyType": 4,
+    "totalWarPresetMaxCount": 5,
+    "totalWarStartBuffId": 200
+  }
+]

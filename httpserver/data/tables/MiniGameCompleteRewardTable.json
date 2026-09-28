@@ -1,0 +1,9 @@
+[
+  { "completeCount": 1, "groupId": 17, "id": 1, "rewardItemCount": 350, "rewardItemId": 112, "rewardItemType": 8 },
+  { "completeCount": 2, "groupId": 17, "id": 2, "rewardItemCount": 350, "rewardItemId": 111, "rewardItemType": 8 },
+  { "completeCount": 3, "groupId": 17, "id": 3, "rewardItemCount": 350, "rewardItemId": 113, "rewardItemType": 8 },
+  { "completeCount": 4, "groupId": 17, "id": 4, "rewardItemCount": 350, "rewardItemId": 115, "rewardItemType": 8 },
+  { "completeCount": 5, "groupId": 17, "id": 5, "rewardItemCount": 350, "rewardItemId": 114, "rewardItemType": 8 },
+  { "completeCount": 6, "groupId": 17, "id": 6, "rewardItemCount": 1000, "rewardItemType": 3 },
+  { "completeCount": 7, "groupId": 17, "id": 7, "rewardItemCount": 10, "rewardItemId": 1000, "rewardItemType": 8 }
+]

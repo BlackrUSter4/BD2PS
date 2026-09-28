@@ -1,0 +1,14 @@
+[
+  { "bgImageName": "bg_cashshop_default", "dialogueLocalTextId": 5200193, "groupId": 1, "id": 2, "illustName": "illust_npc000001_5", "priceId": [ 0 ], "priceType": [ 3 ], "priority": 1, "productGroupId": 400001 },
+  { "bgImageName": "bg_cashshop_default", "dialogueLocalTextId": 5200250, "groupId": 2, "id": 1, "illustName": "illust_npc000001_5", "priceId": [ 0, 1002, 1003 ], "priceType": [ 3, 8, 8 ], "priority": 2, "productGroupId": 700001 },
+  { "bgImageName": "bg_cashshop_default", "bulkOrderShow": 1, "dialogueLocalTextId": 5200251, "groupId": 3, "id": 1, "illustName": "illust_npc000001_5", "priceId": [ 0 ], "priceType": [ 22 ], "priority": 3, "productGroupId": 500001 },
+  { "bgImageName": "bg_cashshop_default", "bulkOrderShow": 1, "dialogueLocalTextId": 5200251, "groupId": 3, "id": 2, "illustName": "illust_npc000001_5", "priceId": [ 0 ], "priceType": [ 20 ], "priority": 3, "productGroupId": 600001 },
+  { "bgImageName": "bg_cashshop_equipment", "bulkOrderShow": 1, "dialogueLocalTextId": 1690017, "groupId": 3, "id": 3, "illustName": "illust_char003001_77", "priceId": [ 0 ], "priceType": [ 68 ], "priority": 3, "productGroupId": 1600001 },
+  { "bulkOrderShow": 1, "groupId": 4, "id": 1, "illustName": "illust_npc000001_5", "priceId": [ 0 ], "priceType": [ 3 ], "priority": 4, "productGroupId": 800001 },
+  { "bgImageName": "bg_cashshop_mirrorwars", "bulkOrderShow": 1, "dialogueLocalTextId": 3803, "groupId": 5, "id": 1, "illustName": "illust_npc300104_4", "priceId": [ 0 ], "priceType": [ 16 ], "priority": 5, "productGroupId": 1200001 },
+  { "bgImageName": "bg_cashshop_evilcastle", "bulkOrderShow": 1, "dialogueLocalTextId": 3805, "groupId": 5, "id": 2, "illustName": "illust_npc300103_3", "priceId": [ 0 ], "priceType": [ 18 ], "priority": 5, "productGroupId": 1300001 },
+  { "bgImageName": "bg_cashshop_guild", "bulkOrderShow": 1, "dialogueLocalTextId": 3807, "groupId": 5, "id": 3, "illustName": "illust_npc300601_9", "priceId": [ 0 ], "priceType": [ 39 ], "priority": 5, "productGroupId": 1000001 },
+  { "bgImageName": "bg_cashshop_goldencolosseum", "bulkOrderShow": 1, "dialogueLocalTextId": 360067, "groupId": 5, "id": 4, "illustName": "illust_char003901_180", "priceId": [ 0 ], "priceType": [ 60 ], "priority": 5, "productGroupId": 1400001 },
+  { "bgImageName": "bg_cashshop_fishing", "bulkOrderShow": 1, "dialogueLocalTextId": 3846, "groupId": 5, "id": 5, "illustName": "illust_npc400050_27", "priceId": [ 0 ], "priceType": [ 54 ], "priority": 5, "productGroupId": 1800001 },
+  { "bgImageName": "bg_cashshop_Inventorybattle", "bulkOrderShow": 1, "dialogueLocalTextId": 7900064, "groupId": 5, "id": 6, "illustName": "illust_npc400100_40", "priceId": [ 0 ], "priceType": [ 70 ], "priority": 5, "productGroupId": 2000001 }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "groupId": 1,
+    "id": 1,
+    "missionCount": 40,
+    "rewardCount": 2,
+    "rewardId": 2161,
+    "rewardType": 27
+  },
+  {
+    "groupId": 2,
+    "id": 1,
+    "missionCount": 1,
+    "rewardCount": 1,
+    "rewardId": 2160,
+    "rewardType": 27
+  }
+]

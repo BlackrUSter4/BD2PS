@@ -1,0 +1,5 @@
+﻿
+message NpcReputationInfoRequest {
+  optional int32 seq = 1;
+  optional int32 group_id = 2;
+}

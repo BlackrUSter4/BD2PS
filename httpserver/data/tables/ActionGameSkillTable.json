@@ -1,0 +1,9311 @@
+[
+  {
+    "attackId": 111,
+    "comboType": 4,
+    "comboValue": 112,
+    "groupId": 1,
+    "hitSoundName": "event:/Characters/PC/Common/Minigame/Action/Char001/Char001_Attack_01_Exp",
+    "id": 111,
+    "skillAnimationName": "Attack2",
+    "skillDescNameTextId": 81047,
+    "skillIconSpriteName": "actioncharskill_001_1",
+    "skillNameTextId": 81038,
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ],
+    "staminaValue": 2
+  },
+  {
+    "attackId": 112,
+    "comboType": 1,
+    "comboValue": 121,
+    "groupId": 1,
+    "hitSoundName": "event:/Characters/PC/Common/Minigame/Action/Char001/Char001_Attack_01_Exp",
+    "id": 112,
+    "skillAnimationName": "Attack2-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ],
+    "staminaValue": 2
+  },
+  {
+    "attackId": 121,
+    "comboType": 4,
+    "comboValue": 122,
+    "groupId": 1,
+    "hitSoundName": "event:/Characters/PC/Common/Minigame/Action/Char001/Char001_Attack_02_Exp",
+    "id": 121,
+    "skillAnimationName": "Attack3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ],
+    "staminaValue": 2
+  },
+  {
+    "attackId": 122,
+    "comboType": 1,
+    "comboValue": 131,
+    "groupId": 1,
+    "hitSoundName": "event:/Characters/PC/Common/Minigame/Action/Char001/Char001_Attack_02_Exp",
+    "id": 122,
+    "skillAnimationName": "Attack3-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ],
+    "staminaValue": 2
+  },
+  {
+    "attackId": 131,
+    "comboType": 4,
+    "comboValue": 132,
+    "groupId": 1,
+    "hitSoundName": "event:/Characters/PC/Common/Minigame/Action/Char001/Char001_Attack_04_Exp",
+    "id": 131,
+    "skillAnimationName": "Attack4",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ],
+    "staminaValue": 5
+  },
+  {
+    "attackId": 132,
+    "comboType": 4,
+    "comboValue": 133,
+    "groupId": 1,
+    "hitSoundName": "event:/Characters/PC/Common/Minigame/Action/Char001/Char001_Attack_04_Exp",
+    "id": 132,
+    "skillAnimationName": "Attack4-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 133,
+    "comboType": 4,
+    "comboValue": 134,
+    "groupId": 1,
+    "hitSoundName": "event:/Characters/PC/Common/Minigame/Action/Char001/Char001_Attack_04_Exp",
+    "id": 133,
+    "skillAnimationName": "Attack4-3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 134,
+    "comboType": 4,
+    "comboValue": 139,
+    "groupId": 1,
+    "hitSoundName": "event:/Characters/PC/Common/Minigame/Action/Char001/Char001_Attack_04_Exp",
+    "id": 134,
+    "skillAnimationName": "Attack4-4",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 139,
+    "comboType": 1,
+    "comboValue": 141,
+    "groupId": 1,
+    "hitSoundName": "event:/Characters/PC/Common/Minigame/Action/Char001/Char001_Attack_04_Exp",
+    "id": 139,
+    "skillAnimationName": "Attack4-5",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 141,
+    "comboType": 1,
+    "comboValue": 151,
+    "groupId": 1,
+    "hitSoundName": "event:/Characters/PC/Common/Minigame/Action/Char001/Char001_Attack_03_Exp",
+    "id": 141,
+    "skillAnimationName": "Attack1",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ],
+    "staminaValue": 5
+  },
+  {
+    "attackId": 151,
+    "groupId": 1,
+    "hitSoundName": "event:/Characters/PC/Common/Minigame/Action/Char001/Char001_Attack_04_Exp",
+    "id": 151,
+    "skillAnimationName": "Skill3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ],
+    "staminaValue": 5
+  },
+  {
+    "comboType": 3,
+    "comboValue": 6,
+    "groupId": 1,
+    "id": 5,
+    "skillAnimationName": "Special_Guard",
+    "skillCancelType": 1,
+    "skillDescNameTextId": 81049,
+    "skillIconSpriteName": "actioncharskill_common_guard",
+    "skillNameTextId": 81040,
+    "skillType": 4,
+    "skillTypeValue": [
+      0.5,
+      0.1,
+      0.5
+    ],
+    "staminaValue": 25
+  },
+  {
+    "attackId": 5,
+    "buffId": [
+      16
+    ],
+    "groupId": 1,
+    "id": 6,
+    "skillAnimationName": "Special_Counter",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "comboType": 3,
+    "comboValue": 9,
+    "groupId": 1,
+    "id": 7,
+    "skillAnimationName": "Dodge",
+    "skillCancelType": 1,
+    "skillIconSpriteName": "actioncharskill_common_dash",
+    "skillType": 3,
+    "skillTypeValue": [
+      0.0
+    ],
+    "staminaValue": 20
+  },
+  {
+    "groupId": 1,
+    "id": 8,
+    "skillIconSpriteName": "actioncharskill_common_potion",
+    "skillType": 6,
+    "skillTypeValue": [
+      0.5
+    ]
+  },
+  {
+    "buffId": [
+      12
+    ],
+    "groupId": 1,
+    "id": 9,
+    "skillType": 3,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 7,
+    "comboType": 5,
+    "groupId": 1,
+    "hitSoundName": "event:/Characters/PC/Common/Minigame/Action/Char001/Char001_Skill2_Hit_01",
+    "id": 10,
+    "skillAnimationName": "Skill2",
+    "skillCancelType": 1,
+    "skillDescNameTextId": 81048,
+    "skillIconSpriteName": "actioncharskill_001_2",
+    "skillNameTextId": 81039,
+    "skillType": 8,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 8,
+    "groupId": 1,
+    "hitSoundName": "event:/Characters/PC/Common/Minigame/Action/Char001/Char001_Skill3_Hit_01",
+    "id": 11,
+    "skillAnimationName": "Skill3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 2001,
+    "buffId": [
+      36
+    ],
+    "groupId": 2,
+    "hitSoundName": "event:/Characters/PC/Common/Minigame/Action/Char002/Char002_Charge_Attack1_Exp",
+    "id": 12,
+    "skillAnimationName": "Attack1_Charge",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 2002,
+    "buffId": [
+      36
+    ],
+    "comboType": 4,
+    "comboValue": 1302,
+    "groupId": 2,
+    "hitSoundName": "event:/Characters/PC/Common/Minigame/Action/Char002/Char002_Skill1_Exp",
+    "id": 13,
+    "skillAnimationName": "Attack2_Charge_1",
+    "skillCancelType": 1,
+    "skillDescNameTextId": 81051,
+    "skillIconSpriteName": "actioncharskill_002_2",
+    "skillNameTextId": 81042,
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ],
+    "staminaValue": 50
+  },
+  {
+    "attackId": 2002,
+    "comboType": 4,
+    "comboValue": 1303,
+    "groupId": 2,
+    "hitSoundName": "event:/Characters/PC/Common/Minigame/Action/Char002/Char002_Skill1_Exp",
+    "id": 1302,
+    "skillAnimationName": "Attack2_Charge_2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 2002,
+    "comboType": 4,
+    "comboValue": 1304,
+    "groupId": 2,
+    "hitSoundName": "event:/Characters/PC/Common/Minigame/Action/Char002/Char002_Skill1_Exp",
+    "id": 1303,
+    "skillAnimationName": "Attack2_Charge_2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 2002,
+    "comboType": 4,
+    "comboValue": 1305,
+    "groupId": 2,
+    "hitSoundName": "event:/Characters/PC/Common/Minigame/Action/Char002/Char002_Skill1_Exp",
+    "id": 1304,
+    "skillAnimationName": "Attack2_Charge_2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 2009,
+    "groupId": 2,
+    "hitSoundName": "event:/Characters/PC/Common/Minigame/Action/Char002/Char002_Skill2_Exp",
+    "id": 1305,
+    "skillAnimationName": "Attack2_Charge_3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 2003,
+    "buffId": [
+      25,
+      36
+    ],
+    "groupId": 2,
+    "hitSoundName": "event:/Characters/PC/Common/Minigame/Action/Char002/Char002_Charge_Attack3_Exp",
+    "id": 14,
+    "skillAnimationName": "Attack3_Charge",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "groupId": 2,
+    "id": 15,
+    "skillAnimationName": "Special_Charge",
+    "skillIconSpriteName": "actioncharskill_002_1",
+    "skillType": 5,
+    "skillTypeValue": [
+      0.9,
+      3.0,
+      1.0,
+      12.0,
+      19.0,
+      14.0
+    ],
+    "staminaValue": 20
+  },
+  {
+    "attackId": 2004,
+    "comboType": 1,
+    "comboValue": 17,
+    "groupId": 2,
+    "hitSoundName": "event:/Characters/PC/Common/Minigame/Action/Char002/Char002_Attack1_01_Exp",
+    "id": 16,
+    "skillAnimationName": "Attack1",
+    "skillDescNameTextId": 81050,
+    "skillIconSpriteName": "actioncharskill_002_1",
+    "skillNameTextId": 81041,
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ],
+    "staminaValue": 5
+  },
+  {
+    "attackId": 2005,
+    "comboType": 1,
+    "comboValue": 18,
+    "groupId": 2,
+    "hitSoundName": "event:/Characters/PC/Common/Minigame/Action/Char002/Char002_Attack2_Exp",
+    "id": 17,
+    "skillAnimationName": "Attack2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ],
+    "staminaValue": 5
+  },
+  {
+    "attackId": 2006,
+    "groupId": 2,
+    "hitSoundName": "event:/Characters/PC/Common/Minigame/Action/Char002/Char002_Attack3_Exp",
+    "id": 18,
+    "skillAnimationName": "Attack3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ],
+    "staminaValue": 5
+  },
+  {
+    "attackId": 2007,
+    "buffId": [
+      36
+    ],
+    "groupId": 2,
+    "hitSoundName": "event:/Characters/PC/Common/Minigame/Action/Char002/Char002_Charge_Attack2_Exp",
+    "id": 19,
+    "skillAnimationName": "Skill1",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "comboType": 3,
+    "comboValue": 21,
+    "groupId": 2,
+    "id": 20,
+    "skillAnimationName": "Special_Guard",
+    "skillCancelType": 1,
+    "skillDescNameTextId": 81052,
+    "skillIconSpriteName": "actioncharskill_common_guard",
+    "skillNameTextId": 81043,
+    "skillType": 4,
+    "skillTypeValue": [
+      0.5,
+      0.1,
+      0.5
+    ],
+    "staminaValue": 25
+  },
+  {
+    "attackId": 2008,
+    "buffId": [
+      33
+    ],
+    "groupId": 2,
+    "hitSoundName": "event:/Characters/PC/Common/Minigame/Action/Char002/Char002_Special_Counter_Exp",
+    "id": 21,
+    "skillAnimationName": "Special_Counter",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "comboType": 3,
+    "comboValue": 24,
+    "groupId": 2,
+    "id": 22,
+    "skillAnimationName": "Dodge",
+    "skillCancelType": 1,
+    "skillIconSpriteName": "actioncharskill_common_dash",
+    "skillType": 3,
+    "skillTypeValue": [
+      0.0
+    ],
+    "staminaValue": 20
+  },
+  {
+    "groupId": 2,
+    "id": 23,
+    "skillIconSpriteName": "actioncharskill_common_potion",
+    "skillType": 6,
+    "skillTypeValue": [
+      0.5
+    ]
+  },
+  {
+    "buffId": [
+      12
+    ],
+    "groupId": 2,
+    "id": 24,
+    "skillType": 3,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "groupId": 2,
+    "id": 216,
+    "skillAnimationName": "Special_Charge",
+    "skillType": 5,
+    "skillTypeValue": [
+      3.0,
+      1.0,
+      1.0,
+      13.0
+    ]
+  },
+  {
+    "attackId": 3001,
+    "comboType": 1,
+    "comboValue": 302,
+    "groupId": 3,
+    "hitSoundName": "event:/Characters/PC/Common/Minigame/Action/Char003/Char003_Attack1_Exp",
+    "id": 301,
+    "skillAnimationName": "Attack1",
+    "skillDescNameTextId": 81053,
+    "skillIconSpriteName": "actioncharskill_003_1",
+    "skillNameTextId": 81044,
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ],
+    "staminaValue": 5
+  },
+  {
+    "attackId": 3002,
+    "comboType": 1,
+    "comboValue": 303,
+    "groupId": 3,
+    "hitSoundName": "event:/Characters/PC/Common/Minigame/Action/Char003/Char003_Attack3_Exp",
+    "id": 302,
+    "skillAnimationName": "Attack3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ],
+    "staminaValue": 5
+  },
+  {
+    "attackId": 3003,
+    "comboType": 1,
+    "comboValue": 304,
+    "groupId": 3,
+    "hitSoundName": "event:/Characters/PC/Common/Minigame/Action/Char003/Char003_Attack2_Exp",
+    "id": 303,
+    "skillAnimationName": "Attack2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ],
+    "staminaValue": 5
+  },
+  {
+    "attackId": 3004,
+    "comboType": 4,
+    "comboValue": 305,
+    "groupId": 3,
+    "hitSoundName": "event:/Characters/PC/Common/Minigame/Action/Char003/Char003_Attack2_Exp",
+    "id": 304,
+    "skillAnimationName": "Attack2-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 3005,
+    "comboType": 4,
+    "comboValue": 306,
+    "groupId": 3,
+    "hitSoundName": "event:/Characters/PC/Common/Minigame/Action/Char003/Char003_Attack2_Exp",
+    "id": 305,
+    "skillAnimationName": "Attack2-3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 3006,
+    "comboType": 4,
+    "comboValue": 307,
+    "groupId": 3,
+    "hitSoundName": "event:/Characters/PC/Common/Minigame/Action/Char003/Char003_Attack2_Exp",
+    "id": 306,
+    "skillAnimationName": "Attack2-4",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 3007,
+    "comboType": 4,
+    "comboValue": 308,
+    "groupId": 3,
+    "hitSoundName": "event:/Characters/PC/Common/Minigame/Action/Char003/Char003_Attack2_Exp",
+    "id": 307,
+    "skillAnimationName": "Attack2-5",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 3008,
+    "buffId": [
+      21
+    ],
+    "groupId": 3,
+    "hitSoundName": "event:/Characters/PC/Common/Minigame/Action/Char003/Char003_Attack4_Exp",
+    "id": 308,
+    "skillAnimationName": "Attack4",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ],
+    "staminaValue": 5
+  },
+  {
+    "attackId": 3012,
+    "buffId": [
+      20,
+      30
+    ],
+    "comboType": 4,
+    "comboValue": 315,
+    "groupId": 3,
+    "id": 314,
+    "skillAnimationName": "Skill1",
+    "skillCancelType": 1,
+    "skillDescNameTextId": 81054,
+    "skillIconSpriteName": "actioncharskill_003_2",
+    "skillNameTextId": 81045,
+    "skillType": 3,
+    "skillTypeValue": [
+      0.0
+    ],
+    "staminaValue": 30
+  },
+  {
+    "attackId": 3009,
+    "comboType": 4,
+    "comboValue": 316,
+    "groupId": 3,
+    "hitSoundName": "event:/Characters/PC/Common/Minigame/Action/Char003/Char003_Skill2_Exp",
+    "id": 315,
+    "skillAnimationName": "Skill1_1",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 3010,
+    "groupId": 3,
+    "hitSoundName": "event:/Characters/PC/Common/Minigame/Action/Char003/Char003_Skill3_Exp",
+    "id": 316,
+    "skillAnimationName": "Skill1_2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "comboType": 3,
+    "comboValue": 318,
+    "groupId": 3,
+    "id": 317,
+    "skillAnimationName": "Special_Guard",
+    "skillCancelType": 1,
+    "skillDescNameTextId": 81055,
+    "skillIconSpriteName": "actioncharskill_common_guard",
+    "skillNameTextId": 81046,
+    "skillType": 4,
+    "skillTypeValue": [
+      0.5,
+      0.1,
+      0.5
+    ],
+    "staminaValue": 25
+  },
+  {
+    "attackId": 3011,
+    "buffId": [
+      26,
+      34
+    ],
+    "groupId": 3,
+    "hitSoundName": "event:/Characters/PC/Common/Minigame/Action/Char003/Char003_Special_Counter_Exp",
+    "id": 318,
+    "skillAnimationName": "Special_Counter",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "comboType": 3,
+    "comboValue": 321,
+    "groupId": 3,
+    "id": 319,
+    "skillAnimationName": "Dodge",
+    "skillCancelType": 1,
+    "skillIconSpriteName": "actioncharskill_common_dash",
+    "skillType": 3,
+    "skillTypeValue": [
+      0.0
+    ],
+    "staminaValue": 20
+  },
+  {
+    "groupId": 3,
+    "id": 320,
+    "skillIconSpriteName": "actioncharskill_common_potion",
+    "skillType": 6,
+    "skillTypeValue": [
+      0.5
+    ]
+  },
+  {
+    "buffId": [
+      12
+    ],
+    "groupId": 3,
+    "id": 321,
+    "skillType": 3,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 101001,
+    "buffId": [
+      17
+    ],
+    "groupId": 101,
+    "id": 101001,
+    "skillAnimationName": "Roar",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 101002,
+    "buffId": [
+      13
+    ],
+    "groupId": 101,
+    "id": 101002,
+    "skillAnimationName": "Attack1",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 101003,
+    "buffId": [
+      13
+    ],
+    "cooldown": 15.0,
+    "groupId": 101,
+    "id": 101003,
+    "skillAnimationName": "Attack2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 101004,
+    "buffId": [
+      14
+    ],
+    "cooldown": 18.0,
+    "groupId": 101,
+    "id": 101004,
+    "skillAnimationName": "Attack3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 101005,
+    "buffId": [
+      14
+    ],
+    "cooldown": 18.0,
+    "groupId": 101,
+    "id": 101005,
+    "skillAnimationName": "Attack4",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 101006,
+    "buffId": [
+      14
+    ],
+    "cooldown": 11.0,
+    "groupId": 101,
+    "id": 101006,
+    "skillAnimationName": "Attack5",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 101007,
+    "buffId": [
+      13
+    ],
+    "cooldown": 20.0,
+    "groupId": 101,
+    "id": 101007,
+    "skillAnimationName": "Attack6",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 101008,
+    "buffId": [
+      14
+    ],
+    "cooldown": 25.0,
+    "groupId": 101,
+    "id": 101008,
+    "skillAnimationName": "Skill1",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 101009,
+    "buffId": [
+      15
+    ],
+    "cooldown": 25.0,
+    "groupId": 101,
+    "id": 101009,
+    "skillAnimationName": "Skill2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 101010,
+    "buffId": [
+      15
+    ],
+    "cooldown": 25.0,
+    "groupId": 101,
+    "id": 101010,
+    "skillAnimationName": "Skill3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 101011,
+    "buffId": [
+      13
+    ],
+    "cooldown": 18.0,
+    "groupId": 101,
+    "id": 101011,
+    "skillAnimationName": "Rage_Skill1",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 101012,
+    "buffId": [
+      13
+    ],
+    "cooldown": 18.0,
+    "groupId": 101,
+    "id": 101012,
+    "skillAnimationName": "Rage_Skill2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 101013,
+    "buffId": [
+      13
+    ],
+    "cooldown": 25.0,
+    "groupId": 101,
+    "id": 101013,
+    "skillAnimationName": "Rage_Skill3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 101014,
+    "buffId": [
+      15
+    ],
+    "cooldown": 25.0,
+    "groupId": 101,
+    "id": 101014,
+    "skillAnimationName": "Rage_Skill4",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 101015,
+    "buffId": [
+      13
+    ],
+    "cooldown": 25.0,
+    "groupId": 101,
+    "id": 101015,
+    "skillAnimationName": "Rage_Skill5",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 101016,
+    "buffId": [
+      1
+    ],
+    "groupId": 101,
+    "id": 101016,
+    "skillAnimationName": "Rage_Skill6",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "buffId": [
+      10
+    ],
+    "groupId": 101,
+    "id": 101017,
+    "skillAnimationName": "Rage_Start",
+    "skillType": 7,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 101016,
+    "buffId": [
+      1
+    ],
+    "comboType": 4,
+    "comboValue": 101047,
+    "groupId": 101,
+    "id": 101018,
+    "skillAnimationName": "Rage_Skill6",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 101002,
+    "buffId": [
+      13
+    ],
+    "cooldown": 10.0,
+    "groupId": 101,
+    "id": 101019,
+    "skillAnimationName": "Attack1",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 101003,
+    "buffId": [
+      13
+    ],
+    "cooldown": 10.0,
+    "groupId": 101,
+    "id": 101020,
+    "skillAnimationName": "Attack2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 101017,
+    "buffId": [
+      28
+    ],
+    "comboType": 4,
+    "comboValue": 101016,
+    "groupId": 101,
+    "id": 101021,
+    "skillAnimationName": "Roar",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 101017,
+    "buffId": [
+      28
+    ],
+    "comboType": 4,
+    "comboValue": 101018,
+    "groupId": 101,
+    "id": 101022,
+    "skillAnimationName": "Roar",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 101002,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 101003,
+    "cooldown": 15.0,
+    "groupId": 101,
+    "id": 101023,
+    "skillAnimationName": "Attack1-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 101003,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 101004,
+    "cooldown": 15.0,
+    "groupId": 101,
+    "id": 101024,
+    "skillAnimationName": "Attack2-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 101004,
+    "buffId": [
+      14
+    ],
+    "comboType": 4,
+    "comboValue": 101036,
+    "cooldown": 15.0,
+    "groupId": 101,
+    "id": 101025,
+    "skillAnimationName": "Attack3-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 101005,
+    "buffId": [
+      14
+    ],
+    "comboType": 4,
+    "comboValue": 101035,
+    "cooldown": 15.0,
+    "groupId": 101,
+    "id": 101026,
+    "skillAnimationName": "Attack4-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 101002,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 101032,
+    "cooldown": 15.0,
+    "groupId": 101,
+    "id": 101027,
+    "skillAnimationName": "Attack1-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 101003,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 101033,
+    "cooldown": 15.0,
+    "groupId": 101,
+    "id": 101028,
+    "skillAnimationName": "Attack2-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 101004,
+    "buffId": [
+      14
+    ],
+    "comboType": 4,
+    "comboValue": 101031,
+    "cooldown": 15.0,
+    "groupId": 101,
+    "id": 101029,
+    "skillAnimationName": "Attack3-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 101005,
+    "buffId": [
+      14
+    ],
+    "comboType": 4,
+    "comboValue": 101034,
+    "cooldown": 15.0,
+    "groupId": 101,
+    "id": 101030,
+    "skillAnimationName": "Attack4-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 101019,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 101007,
+    "groupId": 101,
+    "id": 101031,
+    "skillAnimationName": "Attack4-3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 101003,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 101035,
+    "groupId": 101,
+    "id": 101032,
+    "skillAnimationName": "Attack2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 101004,
+    "buffId": [
+      14
+    ],
+    "comboType": 4,
+    "comboValue": 101036,
+    "groupId": 101,
+    "id": 101033,
+    "skillAnimationName": "Attack3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 101019,
+    "buffId": [
+      14
+    ],
+    "comboType": 4,
+    "comboValue": 101009,
+    "groupId": 101,
+    "id": 101034,
+    "skillAnimationName": "Attack4-3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 101018,
+    "buffId": [
+      14
+    ],
+    "groupId": 101,
+    "id": 101035,
+    "skillAnimationName": "Attack3-3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 101019,
+    "buffId": [
+      14
+    ],
+    "groupId": 101,
+    "id": 101036,
+    "skillAnimationName": "Attack4-3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 101018,
+    "buffId": [
+      14
+    ],
+    "cooldown": 18.0,
+    "groupId": 101,
+    "id": 101037,
+    "skillAnimationName": "Attack3-3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 101019,
+    "buffId": [
+      14
+    ],
+    "cooldown": 18.0,
+    "groupId": 101,
+    "id": 101038,
+    "skillAnimationName": "Attack4-3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 101018,
+    "buffId": [
+      14
+    ],
+    "comboType": 4,
+    "comboValue": 101005,
+    "cooldown": 18.0,
+    "groupId": 101,
+    "id": 101039,
+    "skillAnimationName": "Attack3-3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 101019,
+    "buffId": [
+      14
+    ],
+    "comboType": 4,
+    "comboValue": 101004,
+    "cooldown": 18.0,
+    "groupId": 101,
+    "id": 101040,
+    "skillAnimationName": "Attack4-3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 101020,
+    "buffId": [
+      15
+    ],
+    "cooldown": 25.0,
+    "groupId": 101,
+    "id": 101041,
+    "skillAnimationName": "Attack7",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 101021,
+    "buffId": [
+      17
+    ],
+    "cooldown": 25.0,
+    "groupId": 101,
+    "id": 101042,
+    "skillAnimationName": "Attack8",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 101020,
+    "buffId": [
+      15
+    ],
+    "comboType": 4,
+    "comboValue": 101042,
+    "cooldown": 25.0,
+    "groupId": 101,
+    "id": 101043,
+    "skillAnimationName": "Attack7",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 101021,
+    "buffId": [
+      17
+    ],
+    "comboType": 4,
+    "comboValue": 101041,
+    "cooldown": 25.0,
+    "groupId": 101,
+    "id": 101044,
+    "skillAnimationName": "Attack8",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "comboType": 4,
+    "comboValue": 101060,
+    "cooldown": 32.0,
+    "groupId": 101,
+    "id": 101045,
+    "skillAnimationName": "BackStep",
+    "skillType": 3,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "comboType": 4,
+    "comboValue": 101053,
+    "cooldown": 32.0,
+    "groupId": 101,
+    "id": 101046,
+    "skillAnimationName": "BackStep",
+    "skillType": 3,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 101021,
+    "buffId": [
+      17
+    ],
+    "groupId": 101,
+    "id": 101047,
+    "skillAnimationName": "Attack8",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 101007,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 101049,
+    "cooldown": 20.0,
+    "groupId": 101,
+    "id": 101048,
+    "skillAnimationName": "Attack6",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 101014,
+    "buffId": [
+      14
+    ],
+    "groupId": 101,
+    "id": 101049,
+    "skillAnimationName": "Rage_Skill4",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 101002,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 101051,
+    "cooldown": 35.0,
+    "groupId": 101,
+    "id": 101050,
+    "skillAnimationName": "Attack1",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 101019,
+    "buffId": [
+      14
+    ],
+    "comboType": 4,
+    "comboValue": 101052,
+    "groupId": 101,
+    "id": 101051,
+    "skillAnimationName": "Attack4-3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "comboType": 4,
+    "comboValue": 101053,
+    "groupId": 101,
+    "id": 101052,
+    "skillAnimationName": "BackStep",
+    "skillType": 3,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 101014,
+    "buffId": [
+      14
+    ],
+    "groupId": 101,
+    "id": 101053,
+    "skillAnimationName": "Rage_Skill4",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 101014,
+    "buffId": [
+      14
+    ],
+    "comboType": 4,
+    "comboValue": 101055,
+    "cooldown": 25.0,
+    "groupId": 101,
+    "id": 101054,
+    "skillAnimationName": "Rage_Skill4",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 101020,
+    "buffId": [
+      15
+    ],
+    "groupId": 101,
+    "id": 101055,
+    "skillAnimationName": "Attack7",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 101015,
+    "buffId": [
+      15
+    ],
+    "comboType": 4,
+    "comboValue": 101057,
+    "cooldown": 25.0,
+    "groupId": 101,
+    "id": 101056,
+    "skillAnimationName": "Rage_Skill5",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 101021,
+    "buffId": [
+      17
+    ],
+    "groupId": 101,
+    "id": 101057,
+    "skillAnimationName": "Attack8",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 101019,
+    "buffId": [
+      14
+    ],
+    "comboType": 4,
+    "comboValue": 101059,
+    "cooldown": 35.0,
+    "groupId": 101,
+    "id": 101058,
+    "skillAnimationName": "Attack4-3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "comboType": 4,
+    "comboValue": 101060,
+    "groupId": 101,
+    "id": 101059,
+    "skillAnimationName": "BackStep",
+    "skillType": 3,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 101010,
+    "buffId": [
+      15
+    ],
+    "groupId": 101,
+    "id": 101060,
+    "skillAnimationName": "Skill3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102001,
+    "buffId": [
+      17
+    ],
+    "groupId": 102,
+    "id": 102001,
+    "skillAnimationName": "Roar",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102002,
+    "buffId": [
+      13
+    ],
+    "groupId": 102,
+    "id": 102002,
+    "skillAnimationName": "Attack1",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102003,
+    "buffId": [
+      13
+    ],
+    "cooldown": 15.0,
+    "groupId": 102,
+    "id": 102003,
+    "skillAnimationName": "Attack2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102004,
+    "buffId": [
+      14
+    ],
+    "cooldown": 18.0,
+    "groupId": 102,
+    "id": 102004,
+    "skillAnimationName": "Attack3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102005,
+    "buffId": [
+      14
+    ],
+    "cooldown": 18.0,
+    "groupId": 102,
+    "id": 102005,
+    "skillAnimationName": "Attack4",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102006,
+    "buffId": [
+      14
+    ],
+    "cooldown": 11.0,
+    "groupId": 102,
+    "id": 102006,
+    "skillAnimationName": "Attack5",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102007,
+    "buffId": [
+      13
+    ],
+    "cooldown": 20.0,
+    "groupId": 102,
+    "id": 102007,
+    "skillAnimationName": "Attack6",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102008,
+    "buffId": [
+      14
+    ],
+    "cooldown": 25.0,
+    "groupId": 102,
+    "id": 102008,
+    "skillAnimationName": "Skill1",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102009,
+    "buffId": [
+      15
+    ],
+    "cooldown": 25.0,
+    "groupId": 102,
+    "id": 102009,
+    "skillAnimationName": "Skill2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102010,
+    "buffId": [
+      15
+    ],
+    "cooldown": 25.0,
+    "groupId": 102,
+    "id": 102010,
+    "skillAnimationName": "Skill3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102011,
+    "buffId": [
+      13
+    ],
+    "cooldown": 18.0,
+    "groupId": 102,
+    "id": 102011,
+    "skillAnimationName": "Rage_Skill1",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102012,
+    "buffId": [
+      13
+    ],
+    "cooldown": 18.0,
+    "groupId": 102,
+    "id": 102012,
+    "skillAnimationName": "Rage_Skill2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102013,
+    "buffId": [
+      13
+    ],
+    "cooldown": 25.0,
+    "groupId": 102,
+    "id": 102013,
+    "skillAnimationName": "Rage_Skill3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102014,
+    "buffId": [
+      15
+    ],
+    "cooldown": 25.0,
+    "groupId": 102,
+    "id": 102014,
+    "skillAnimationName": "Rage_Skill4",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102015,
+    "buffId": [
+      13
+    ],
+    "cooldown": 25.0,
+    "groupId": 102,
+    "id": 102015,
+    "skillAnimationName": "Rage_Skill5",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102016,
+    "buffId": [
+      1
+    ],
+    "groupId": 102,
+    "id": 102016,
+    "skillAnimationName": "Rage_Skill6",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "buffId": [
+      10
+    ],
+    "groupId": 102,
+    "id": 102017,
+    "skillAnimationName": "Rage_Start",
+    "skillType": 7,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102016,
+    "buffId": [
+      1
+    ],
+    "comboType": 4,
+    "comboValue": 102047,
+    "groupId": 102,
+    "id": 102018,
+    "skillAnimationName": "Rage_Skill6",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102002,
+    "buffId": [
+      13
+    ],
+    "cooldown": 10.0,
+    "groupId": 102,
+    "id": 102019,
+    "skillAnimationName": "Attack1",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102003,
+    "buffId": [
+      13
+    ],
+    "cooldown": 10.0,
+    "groupId": 102,
+    "id": 102020,
+    "skillAnimationName": "Attack2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102017,
+    "buffId": [
+      28
+    ],
+    "comboType": 4,
+    "comboValue": 102016,
+    "groupId": 102,
+    "id": 102021,
+    "skillAnimationName": "Roar",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102017,
+    "buffId": [
+      28
+    ],
+    "comboType": 4,
+    "comboValue": 102018,
+    "groupId": 102,
+    "id": 102022,
+    "skillAnimationName": "Roar",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102002,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 102003,
+    "cooldown": 15.0,
+    "groupId": 102,
+    "id": 102023,
+    "skillAnimationName": "Attack1-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102003,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 102004,
+    "cooldown": 15.0,
+    "groupId": 102,
+    "id": 102024,
+    "skillAnimationName": "Attack2-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102004,
+    "buffId": [
+      14
+    ],
+    "comboType": 4,
+    "comboValue": 102036,
+    "cooldown": 15.0,
+    "groupId": 102,
+    "id": 102025,
+    "skillAnimationName": "Attack3-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102005,
+    "buffId": [
+      14
+    ],
+    "comboType": 4,
+    "comboValue": 102035,
+    "cooldown": 15.0,
+    "groupId": 102,
+    "id": 102026,
+    "skillAnimationName": "Attack4-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102002,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 102032,
+    "cooldown": 15.0,
+    "groupId": 102,
+    "id": 102027,
+    "skillAnimationName": "Attack1-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102003,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 102033,
+    "cooldown": 15.0,
+    "groupId": 102,
+    "id": 102028,
+    "skillAnimationName": "Attack2-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102004,
+    "buffId": [
+      14
+    ],
+    "comboType": 4,
+    "comboValue": 102031,
+    "cooldown": 15.0,
+    "groupId": 102,
+    "id": 102029,
+    "skillAnimationName": "Attack3-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102005,
+    "buffId": [
+      14
+    ],
+    "comboType": 4,
+    "comboValue": 102034,
+    "cooldown": 15.0,
+    "groupId": 102,
+    "id": 102030,
+    "skillAnimationName": "Attack4-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102019,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 102007,
+    "groupId": 102,
+    "id": 102031,
+    "skillAnimationName": "Attack4-3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102003,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 102035,
+    "groupId": 102,
+    "id": 102032,
+    "skillAnimationName": "Attack2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102004,
+    "buffId": [
+      14
+    ],
+    "comboType": 4,
+    "comboValue": 102036,
+    "groupId": 102,
+    "id": 102033,
+    "skillAnimationName": "Attack3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102019,
+    "buffId": [
+      14
+    ],
+    "comboType": 4,
+    "comboValue": 102009,
+    "groupId": 102,
+    "id": 102034,
+    "skillAnimationName": "Attack4-3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102018,
+    "buffId": [
+      14
+    ],
+    "groupId": 102,
+    "id": 102035,
+    "skillAnimationName": "Attack3-3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102019,
+    "buffId": [
+      14
+    ],
+    "groupId": 102,
+    "id": 102036,
+    "skillAnimationName": "Attack4-3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102018,
+    "buffId": [
+      14
+    ],
+    "cooldown": 18.0,
+    "groupId": 102,
+    "id": 102037,
+    "skillAnimationName": "Attack3-3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102019,
+    "buffId": [
+      14
+    ],
+    "cooldown": 18.0,
+    "groupId": 102,
+    "id": 102038,
+    "skillAnimationName": "Attack4-3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102018,
+    "buffId": [
+      14
+    ],
+    "comboType": 4,
+    "comboValue": 102005,
+    "cooldown": 18.0,
+    "groupId": 102,
+    "id": 102039,
+    "skillAnimationName": "Attack3-3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102019,
+    "buffId": [
+      14
+    ],
+    "comboType": 4,
+    "comboValue": 102004,
+    "cooldown": 18.0,
+    "groupId": 102,
+    "id": 102040,
+    "skillAnimationName": "Attack4-3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102020,
+    "buffId": [
+      15
+    ],
+    "cooldown": 25.0,
+    "groupId": 102,
+    "id": 102041,
+    "skillAnimationName": "Attack7",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102021,
+    "buffId": [
+      17
+    ],
+    "cooldown": 25.0,
+    "groupId": 102,
+    "id": 102042,
+    "skillAnimationName": "Attack8",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102020,
+    "buffId": [
+      15
+    ],
+    "comboType": 4,
+    "comboValue": 102042,
+    "cooldown": 25.0,
+    "groupId": 102,
+    "id": 102043,
+    "skillAnimationName": "Attack7",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102021,
+    "buffId": [
+      17
+    ],
+    "comboType": 4,
+    "comboValue": 102041,
+    "cooldown": 25.0,
+    "groupId": 102,
+    "id": 102044,
+    "skillAnimationName": "Attack8",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "comboType": 4,
+    "comboValue": 102010,
+    "cooldown": 32.0,
+    "groupId": 102,
+    "id": 102045,
+    "skillAnimationName": "BackStep",
+    "skillType": 3,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "comboType": 4,
+    "comboValue": 102014,
+    "cooldown": 32.0,
+    "groupId": 102,
+    "id": 102046,
+    "skillAnimationName": "BackStep",
+    "skillType": 3,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102021,
+    "buffId": [
+      17
+    ],
+    "groupId": 102,
+    "id": 102047,
+    "skillAnimationName": "Attack8",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102007,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 102049,
+    "cooldown": 20.0,
+    "groupId": 102,
+    "id": 102048,
+    "skillAnimationName": "Attack6",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102014,
+    "buffId": [
+      14
+    ],
+    "groupId": 102,
+    "id": 102049,
+    "skillAnimationName": "Rage_Skill4",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102002,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 102051,
+    "cooldown": 35.0,
+    "groupId": 102,
+    "id": 102050,
+    "skillAnimationName": "Attack1",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102019,
+    "buffId": [
+      14
+    ],
+    "comboType": 4,
+    "comboValue": 102052,
+    "groupId": 102,
+    "id": 102051,
+    "skillAnimationName": "Attack4-3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "comboType": 4,
+    "comboValue": 102053,
+    "groupId": 102,
+    "id": 102052,
+    "skillAnimationName": "BackStep",
+    "skillType": 3,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102014,
+    "buffId": [
+      14
+    ],
+    "groupId": 102,
+    "id": 102053,
+    "skillAnimationName": "Rage_Skill4",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102014,
+    "buffId": [
+      14
+    ],
+    "comboType": 4,
+    "comboValue": 102055,
+    "cooldown": 25.0,
+    "groupId": 102,
+    "id": 102054,
+    "skillAnimationName": "Rage_Skill4",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102020,
+    "buffId": [
+      15
+    ],
+    "groupId": 102,
+    "id": 102055,
+    "skillAnimationName": "Attack7",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102015,
+    "buffId": [
+      15
+    ],
+    "comboType": 4,
+    "comboValue": 102057,
+    "cooldown": 25.0,
+    "groupId": 102,
+    "id": 102056,
+    "skillAnimationName": "Rage_Skill5",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102021,
+    "buffId": [
+      17
+    ],
+    "groupId": 102,
+    "id": 102057,
+    "skillAnimationName": "Attack8",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102019,
+    "buffId": [
+      14
+    ],
+    "comboType": 4,
+    "comboValue": 102059,
+    "cooldown": 35.0,
+    "groupId": 102,
+    "id": 102058,
+    "skillAnimationName": "Attack4-3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "comboType": 4,
+    "comboValue": 102060,
+    "groupId": 102,
+    "id": 102059,
+    "skillAnimationName": "BackStep",
+    "skillType": 3,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102010,
+    "buffId": [
+      15
+    ],
+    "groupId": 102,
+    "id": 102060,
+    "skillAnimationName": "Skill3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102001,
+    "buffId": [
+      17
+    ],
+    "groupId": 103,
+    "id": 103001,
+    "skillAnimationName": "Roar",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102002,
+    "buffId": [
+      13
+    ],
+    "groupId": 103,
+    "id": 103002,
+    "skillAnimationName": "Attack1",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102003,
+    "buffId": [
+      13
+    ],
+    "cooldown": 15.0,
+    "groupId": 103,
+    "id": 103003,
+    "skillAnimationName": "Attack2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102004,
+    "buffId": [
+      14
+    ],
+    "cooldown": 18.0,
+    "groupId": 103,
+    "id": 103004,
+    "skillAnimationName": "Attack3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102005,
+    "buffId": [
+      14
+    ],
+    "cooldown": 18.0,
+    "groupId": 103,
+    "id": 103005,
+    "skillAnimationName": "Attack4",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102006,
+    "buffId": [
+      14
+    ],
+    "cooldown": 11.0,
+    "groupId": 103,
+    "id": 103006,
+    "skillAnimationName": "Attack5",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102007,
+    "buffId": [
+      13
+    ],
+    "cooldown": 20.0,
+    "groupId": 103,
+    "id": 103007,
+    "skillAnimationName": "Attack6",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102008,
+    "buffId": [
+      14
+    ],
+    "cooldown": 25.0,
+    "groupId": 103,
+    "id": 103008,
+    "skillAnimationName": "Skill1",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102009,
+    "buffId": [
+      15
+    ],
+    "cooldown": 25.0,
+    "groupId": 103,
+    "id": 103009,
+    "skillAnimationName": "Skill2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102010,
+    "buffId": [
+      15
+    ],
+    "cooldown": 25.0,
+    "groupId": 103,
+    "id": 103010,
+    "skillAnimationName": "Skill3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102011,
+    "buffId": [
+      13
+    ],
+    "cooldown": 18.0,
+    "groupId": 103,
+    "id": 103011,
+    "skillAnimationName": "Rage_Skill1",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102012,
+    "buffId": [
+      13
+    ],
+    "cooldown": 18.0,
+    "groupId": 103,
+    "id": 103012,
+    "skillAnimationName": "Rage_Skill2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102013,
+    "buffId": [
+      13
+    ],
+    "cooldown": 25.0,
+    "groupId": 103,
+    "id": 103013,
+    "skillAnimationName": "Rage_Skill3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102014,
+    "buffId": [
+      15
+    ],
+    "cooldown": 25.0,
+    "groupId": 103,
+    "id": 103014,
+    "skillAnimationName": "Rage_Skill4",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102015,
+    "buffId": [
+      13
+    ],
+    "cooldown": 25.0,
+    "groupId": 103,
+    "id": 103015,
+    "skillAnimationName": "Rage_Skill5",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102016,
+    "buffId": [
+      1
+    ],
+    "groupId": 103,
+    "id": 103016,
+    "skillAnimationName": "Rage_Skill6",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "buffId": [
+      10
+    ],
+    "groupId": 103,
+    "id": 103017,
+    "skillAnimationName": "Rage_Start",
+    "skillType": 7,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102016,
+    "buffId": [
+      1
+    ],
+    "comboType": 4,
+    "comboValue": 103047,
+    "groupId": 103,
+    "id": 103018,
+    "skillAnimationName": "Rage_Skill6",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102002,
+    "buffId": [
+      13
+    ],
+    "cooldown": 10.0,
+    "groupId": 103,
+    "id": 103019,
+    "skillAnimationName": "Attack1",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102003,
+    "buffId": [
+      13
+    ],
+    "cooldown": 10.0,
+    "groupId": 103,
+    "id": 103020,
+    "skillAnimationName": "Attack2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102017,
+    "buffId": [
+      28
+    ],
+    "comboType": 4,
+    "comboValue": 103016,
+    "groupId": 103,
+    "id": 103021,
+    "skillAnimationName": "Roar",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102017,
+    "buffId": [
+      28
+    ],
+    "comboType": 4,
+    "comboValue": 103018,
+    "groupId": 103,
+    "id": 103022,
+    "skillAnimationName": "Roar",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102002,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 103003,
+    "cooldown": 15.0,
+    "groupId": 103,
+    "id": 103023,
+    "skillAnimationName": "Attack1-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102003,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 103004,
+    "cooldown": 15.0,
+    "groupId": 103,
+    "id": 103024,
+    "skillAnimationName": "Attack2-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102004,
+    "buffId": [
+      14
+    ],
+    "comboType": 4,
+    "comboValue": 103036,
+    "cooldown": 15.0,
+    "groupId": 103,
+    "id": 103025,
+    "skillAnimationName": "Attack3-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102005,
+    "buffId": [
+      14
+    ],
+    "comboType": 4,
+    "comboValue": 103035,
+    "cooldown": 15.0,
+    "groupId": 103,
+    "id": 103026,
+    "skillAnimationName": "Attack4-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102002,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 103032,
+    "cooldown": 15.0,
+    "groupId": 103,
+    "id": 103027,
+    "skillAnimationName": "Attack1-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102003,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 103033,
+    "cooldown": 15.0,
+    "groupId": 103,
+    "id": 103028,
+    "skillAnimationName": "Attack2-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102004,
+    "buffId": [
+      14
+    ],
+    "comboType": 4,
+    "comboValue": 103031,
+    "cooldown": 15.0,
+    "groupId": 103,
+    "id": 103029,
+    "skillAnimationName": "Attack3-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102005,
+    "buffId": [
+      14
+    ],
+    "comboType": 4,
+    "comboValue": 103034,
+    "cooldown": 15.0,
+    "groupId": 103,
+    "id": 103030,
+    "skillAnimationName": "Attack4-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102019,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 103007,
+    "groupId": 103,
+    "id": 103031,
+    "skillAnimationName": "Attack4-3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102003,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 103035,
+    "groupId": 103,
+    "id": 103032,
+    "skillAnimationName": "Attack2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102004,
+    "buffId": [
+      14
+    ],
+    "comboType": 4,
+    "comboValue": 103036,
+    "groupId": 103,
+    "id": 103033,
+    "skillAnimationName": "Attack3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102019,
+    "buffId": [
+      14
+    ],
+    "comboType": 4,
+    "comboValue": 103009,
+    "groupId": 103,
+    "id": 103034,
+    "skillAnimationName": "Attack4-3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102018,
+    "buffId": [
+      14
+    ],
+    "groupId": 103,
+    "id": 103035,
+    "skillAnimationName": "Attack3-3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102019,
+    "buffId": [
+      14
+    ],
+    "groupId": 103,
+    "id": 103036,
+    "skillAnimationName": "Attack4-3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102018,
+    "buffId": [
+      14
+    ],
+    "cooldown": 18.0,
+    "groupId": 103,
+    "id": 103037,
+    "skillAnimationName": "Attack3-3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102019,
+    "buffId": [
+      14
+    ],
+    "cooldown": 18.0,
+    "groupId": 103,
+    "id": 103038,
+    "skillAnimationName": "Attack4-3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102018,
+    "buffId": [
+      14
+    ],
+    "comboType": 4,
+    "comboValue": 103005,
+    "cooldown": 18.0,
+    "groupId": 103,
+    "id": 103039,
+    "skillAnimationName": "Attack3-3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102019,
+    "buffId": [
+      14
+    ],
+    "comboType": 4,
+    "comboValue": 103004,
+    "cooldown": 18.0,
+    "groupId": 103,
+    "id": 103040,
+    "skillAnimationName": "Attack4-3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102020,
+    "buffId": [
+      15
+    ],
+    "cooldown": 25.0,
+    "groupId": 103,
+    "id": 103041,
+    "skillAnimationName": "Attack7",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102021,
+    "buffId": [
+      17
+    ],
+    "cooldown": 25.0,
+    "groupId": 103,
+    "id": 103042,
+    "skillAnimationName": "Attack8",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102020,
+    "buffId": [
+      15
+    ],
+    "comboType": 4,
+    "comboValue": 103042,
+    "cooldown": 25.0,
+    "groupId": 103,
+    "id": 103043,
+    "skillAnimationName": "Attack7",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102021,
+    "buffId": [
+      17
+    ],
+    "comboType": 4,
+    "comboValue": 103041,
+    "cooldown": 25.0,
+    "groupId": 103,
+    "id": 103044,
+    "skillAnimationName": "Attack8",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "comboType": 4,
+    "comboValue": 103060,
+    "cooldown": 32.0,
+    "groupId": 103,
+    "id": 103045,
+    "skillAnimationName": "BackStep",
+    "skillType": 3,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "comboType": 4,
+    "comboValue": 103049,
+    "cooldown": 32.0,
+    "groupId": 103,
+    "id": 103046,
+    "skillAnimationName": "BackStep",
+    "skillType": 3,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102021,
+    "buffId": [
+      17
+    ],
+    "groupId": 103,
+    "id": 103047,
+    "skillAnimationName": "Attack8",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102007,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 103049,
+    "cooldown": 20.0,
+    "groupId": 103,
+    "id": 103048,
+    "skillAnimationName": "Attack6",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102014,
+    "buffId": [
+      14
+    ],
+    "groupId": 103,
+    "id": 103049,
+    "skillAnimationName": "Rage_Skill4",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102002,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 103051,
+    "cooldown": 35.0,
+    "groupId": 103,
+    "id": 103050,
+    "skillAnimationName": "Attack1",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102019,
+    "buffId": [
+      14
+    ],
+    "comboType": 4,
+    "comboValue": 103052,
+    "groupId": 103,
+    "id": 103051,
+    "skillAnimationName": "Attack4-3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "comboType": 4,
+    "comboValue": 103053,
+    "groupId": 103,
+    "id": 103052,
+    "skillAnimationName": "BackStep",
+    "skillType": 3,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102014,
+    "buffId": [
+      14
+    ],
+    "groupId": 103,
+    "id": 103053,
+    "skillAnimationName": "Rage_Skill4",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102014,
+    "buffId": [
+      14
+    ],
+    "comboType": 4,
+    "comboValue": 103055,
+    "cooldown": 25.0,
+    "groupId": 103,
+    "id": 103054,
+    "skillAnimationName": "Rage_Skill4",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102020,
+    "buffId": [
+      15
+    ],
+    "groupId": 103,
+    "id": 103055,
+    "skillAnimationName": "Attack7",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102015,
+    "buffId": [
+      15
+    ],
+    "comboType": 4,
+    "comboValue": 103057,
+    "cooldown": 25.0,
+    "groupId": 103,
+    "id": 103056,
+    "skillAnimationName": "Rage_Skill5",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102021,
+    "buffId": [
+      17
+    ],
+    "groupId": 103,
+    "id": 103057,
+    "skillAnimationName": "Attack8",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102019,
+    "buffId": [
+      14
+    ],
+    "comboType": 4,
+    "comboValue": 103059,
+    "cooldown": 35.0,
+    "groupId": 103,
+    "id": 103058,
+    "skillAnimationName": "Attack4-3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "comboType": 4,
+    "comboValue": 103060,
+    "groupId": 103,
+    "id": 103059,
+    "skillAnimationName": "BackStep",
+    "skillType": 3,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102010,
+    "buffId": [
+      15
+    ],
+    "groupId": 103,
+    "id": 103060,
+    "skillAnimationName": "Skill3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102001,
+    "buffId": [
+      17
+    ],
+    "groupId": 104,
+    "id": 104001,
+    "skillAnimationName": "Roar",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102002,
+    "buffId": [
+      13
+    ],
+    "groupId": 104,
+    "id": 104002,
+    "skillAnimationName": "Attack1",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102003,
+    "buffId": [
+      13
+    ],
+    "cooldown": 15.0,
+    "groupId": 104,
+    "id": 104003,
+    "skillAnimationName": "Attack2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102004,
+    "buffId": [
+      14
+    ],
+    "cooldown": 18.0,
+    "groupId": 104,
+    "id": 104004,
+    "skillAnimationName": "Attack3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102005,
+    "buffId": [
+      14
+    ],
+    "cooldown": 18.0,
+    "groupId": 104,
+    "id": 104005,
+    "skillAnimationName": "Attack4",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102006,
+    "buffId": [
+      14
+    ],
+    "cooldown": 11.0,
+    "groupId": 104,
+    "id": 104006,
+    "skillAnimationName": "Attack5",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102007,
+    "buffId": [
+      13
+    ],
+    "cooldown": 20.0,
+    "groupId": 104,
+    "id": 104007,
+    "skillAnimationName": "Attack6",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102008,
+    "buffId": [
+      14
+    ],
+    "cooldown": 25.0,
+    "groupId": 104,
+    "id": 104008,
+    "skillAnimationName": "Skill1",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102009,
+    "buffId": [
+      15
+    ],
+    "cooldown": 25.0,
+    "groupId": 104,
+    "id": 104009,
+    "skillAnimationName": "Skill2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102010,
+    "buffId": [
+      15
+    ],
+    "cooldown": 25.0,
+    "groupId": 104,
+    "id": 104010,
+    "skillAnimationName": "Skill3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102011,
+    "buffId": [
+      13
+    ],
+    "cooldown": 18.0,
+    "groupId": 104,
+    "id": 104011,
+    "skillAnimationName": "Rage_Skill1",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102012,
+    "buffId": [
+      13
+    ],
+    "cooldown": 18.0,
+    "groupId": 104,
+    "id": 104012,
+    "skillAnimationName": "Rage_Skill2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102013,
+    "buffId": [
+      13
+    ],
+    "cooldown": 25.0,
+    "groupId": 104,
+    "id": 104013,
+    "skillAnimationName": "Rage_Skill3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102014,
+    "buffId": [
+      15
+    ],
+    "cooldown": 25.0,
+    "groupId": 104,
+    "id": 104014,
+    "skillAnimationName": "Rage_Skill4",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102015,
+    "buffId": [
+      13
+    ],
+    "cooldown": 25.0,
+    "groupId": 104,
+    "id": 104015,
+    "skillAnimationName": "Rage_Skill5",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102016,
+    "buffId": [
+      1
+    ],
+    "groupId": 104,
+    "id": 104016,
+    "skillAnimationName": "Rage_Skill6",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "buffId": [
+      10
+    ],
+    "groupId": 104,
+    "id": 104017,
+    "skillAnimationName": "Rage_Start",
+    "skillType": 7,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102016,
+    "buffId": [
+      1
+    ],
+    "comboType": 4,
+    "comboValue": 104047,
+    "groupId": 104,
+    "id": 104018,
+    "skillAnimationName": "Rage_Skill6",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102002,
+    "buffId": [
+      13
+    ],
+    "cooldown": 10.0,
+    "groupId": 104,
+    "id": 104019,
+    "skillAnimationName": "Attack1",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102003,
+    "buffId": [
+      13
+    ],
+    "cooldown": 10.0,
+    "groupId": 104,
+    "id": 104020,
+    "skillAnimationName": "Attack2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102017,
+    "buffId": [
+      28
+    ],
+    "comboType": 4,
+    "comboValue": 104016,
+    "groupId": 104,
+    "id": 104021,
+    "skillAnimationName": "Roar",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102017,
+    "buffId": [
+      28
+    ],
+    "comboType": 4,
+    "comboValue": 104018,
+    "groupId": 104,
+    "id": 104022,
+    "skillAnimationName": "Roar",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102002,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 104003,
+    "cooldown": 15.0,
+    "groupId": 104,
+    "id": 104023,
+    "skillAnimationName": "Attack1-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102003,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 104004,
+    "cooldown": 15.0,
+    "groupId": 104,
+    "id": 104024,
+    "skillAnimationName": "Attack2-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102004,
+    "buffId": [
+      14
+    ],
+    "comboType": 4,
+    "comboValue": 104036,
+    "cooldown": 15.0,
+    "groupId": 104,
+    "id": 104025,
+    "skillAnimationName": "Attack3-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102005,
+    "buffId": [
+      14
+    ],
+    "comboType": 4,
+    "comboValue": 104035,
+    "cooldown": 15.0,
+    "groupId": 104,
+    "id": 104026,
+    "skillAnimationName": "Attack4-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102002,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 104032,
+    "cooldown": 15.0,
+    "groupId": 104,
+    "id": 104027,
+    "skillAnimationName": "Attack1-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102003,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 104033,
+    "cooldown": 15.0,
+    "groupId": 104,
+    "id": 104028,
+    "skillAnimationName": "Attack2-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102004,
+    "buffId": [
+      14
+    ],
+    "comboType": 4,
+    "comboValue": 104031,
+    "cooldown": 15.0,
+    "groupId": 104,
+    "id": 104029,
+    "skillAnimationName": "Attack3-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102005,
+    "buffId": [
+      14
+    ],
+    "comboType": 4,
+    "comboValue": 104034,
+    "cooldown": 15.0,
+    "groupId": 104,
+    "id": 104030,
+    "skillAnimationName": "Attack4-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102019,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 104007,
+    "groupId": 104,
+    "id": 104031,
+    "skillAnimationName": "Attack4-3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102003,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 104035,
+    "groupId": 104,
+    "id": 104032,
+    "skillAnimationName": "Attack2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102004,
+    "buffId": [
+      14
+    ],
+    "comboType": 4,
+    "comboValue": 104036,
+    "groupId": 104,
+    "id": 104033,
+    "skillAnimationName": "Attack3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102019,
+    "buffId": [
+      14
+    ],
+    "comboType": 4,
+    "comboValue": 104009,
+    "groupId": 104,
+    "id": 104034,
+    "skillAnimationName": "Attack4-3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102018,
+    "buffId": [
+      14
+    ],
+    "groupId": 104,
+    "id": 104035,
+    "skillAnimationName": "Attack3-3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102019,
+    "buffId": [
+      14
+    ],
+    "groupId": 104,
+    "id": 104036,
+    "skillAnimationName": "Attack4-3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102018,
+    "buffId": [
+      14
+    ],
+    "cooldown": 18.0,
+    "groupId": 104,
+    "id": 104037,
+    "skillAnimationName": "Attack3-3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102019,
+    "buffId": [
+      14
+    ],
+    "cooldown": 18.0,
+    "groupId": 104,
+    "id": 104038,
+    "skillAnimationName": "Attack4-3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102018,
+    "buffId": [
+      14
+    ],
+    "comboType": 4,
+    "comboValue": 104005,
+    "cooldown": 18.0,
+    "groupId": 104,
+    "id": 104039,
+    "skillAnimationName": "Attack3-3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102019,
+    "buffId": [
+      14
+    ],
+    "comboType": 4,
+    "comboValue": 104004,
+    "cooldown": 18.0,
+    "groupId": 104,
+    "id": 104040,
+    "skillAnimationName": "Attack4-3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102020,
+    "buffId": [
+      15
+    ],
+    "cooldown": 25.0,
+    "groupId": 104,
+    "id": 104041,
+    "skillAnimationName": "Attack7",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102021,
+    "buffId": [
+      17
+    ],
+    "cooldown": 25.0,
+    "groupId": 104,
+    "id": 104042,
+    "skillAnimationName": "Attack8",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102020,
+    "buffId": [
+      15
+    ],
+    "comboType": 4,
+    "comboValue": 104042,
+    "cooldown": 25.0,
+    "groupId": 104,
+    "id": 104043,
+    "skillAnimationName": "Attack7",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102021,
+    "buffId": [
+      17
+    ],
+    "comboType": 4,
+    "comboValue": 104041,
+    "cooldown": 25.0,
+    "groupId": 104,
+    "id": 104044,
+    "skillAnimationName": "Attack8",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "comboType": 4,
+    "comboValue": 104010,
+    "cooldown": 32.0,
+    "groupId": 104,
+    "id": 104045,
+    "skillAnimationName": "BackStep",
+    "skillType": 3,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "comboType": 4,
+    "comboValue": 104014,
+    "cooldown": 32.0,
+    "groupId": 104,
+    "id": 104046,
+    "skillAnimationName": "BackStep",
+    "skillType": 3,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102021,
+    "buffId": [
+      17
+    ],
+    "groupId": 104,
+    "id": 104047,
+    "skillAnimationName": "Attack8",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102007,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 104049,
+    "cooldown": 20.0,
+    "groupId": 104,
+    "id": 104048,
+    "skillAnimationName": "Attack6",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102014,
+    "buffId": [
+      14
+    ],
+    "groupId": 104,
+    "id": 104049,
+    "skillAnimationName": "Rage_Skill4",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102002,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 104051,
+    "cooldown": 35.0,
+    "groupId": 104,
+    "id": 104050,
+    "skillAnimationName": "Attack1",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102019,
+    "buffId": [
+      14
+    ],
+    "comboType": 4,
+    "comboValue": 104052,
+    "groupId": 104,
+    "id": 104051,
+    "skillAnimationName": "Attack4-3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "comboType": 4,
+    "comboValue": 104053,
+    "groupId": 104,
+    "id": 104052,
+    "skillAnimationName": "BackStep",
+    "skillType": 3,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102014,
+    "buffId": [
+      14
+    ],
+    "groupId": 104,
+    "id": 104053,
+    "skillAnimationName": "Rage_Skill4",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102014,
+    "buffId": [
+      14
+    ],
+    "comboType": 4,
+    "comboValue": 104055,
+    "cooldown": 25.0,
+    "groupId": 104,
+    "id": 104054,
+    "skillAnimationName": "Rage_Skill4",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102020,
+    "buffId": [
+      15
+    ],
+    "groupId": 104,
+    "id": 104055,
+    "skillAnimationName": "Attack7",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102015,
+    "buffId": [
+      15
+    ],
+    "comboType": 4,
+    "comboValue": 104057,
+    "cooldown": 25.0,
+    "groupId": 104,
+    "id": 104056,
+    "skillAnimationName": "Rage_Skill5",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102021,
+    "buffId": [
+      17
+    ],
+    "groupId": 104,
+    "id": 104057,
+    "skillAnimationName": "Attack8",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102019,
+    "buffId": [
+      14
+    ],
+    "comboType": 4,
+    "comboValue": 104059,
+    "cooldown": 35.0,
+    "groupId": 104,
+    "id": 104058,
+    "skillAnimationName": "Attack4-3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "comboType": 4,
+    "comboValue": 104060,
+    "groupId": 104,
+    "id": 104059,
+    "skillAnimationName": "BackStep",
+    "skillType": 3,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 102010,
+    "buffId": [
+      15
+    ],
+    "groupId": 104,
+    "id": 104060,
+    "skillAnimationName": "Skill3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201001,
+    "buffId": [
+      17
+    ],
+    "groupId": 201,
+    "id": 201001,
+    "skillAnimationName": "Roar",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201002,
+    "buffId": [
+      13
+    ],
+    "groupId": 201,
+    "id": 201002,
+    "skillAnimationName": "Attack1",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201002,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 201004,
+    "cooldown": 25.0,
+    "groupId": 201,
+    "id": 201003,
+    "skillAnimationName": "Attack1",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201003,
+    "buffId": [
+      13
+    ],
+    "groupId": 201,
+    "id": 201004,
+    "skillAnimationName": "Attack2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201002,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 201006,
+    "cooldown": 25.0,
+    "groupId": 201,
+    "id": 201005,
+    "skillAnimationName": "Attack1",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201004,
+    "buffId": [
+      13
+    ],
+    "groupId": 201,
+    "id": 201006,
+    "skillAnimationName": "Attack4",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201005,
+    "buffId": [
+      13
+    ],
+    "cooldown": 25.0,
+    "groupId": 201,
+    "id": 201007,
+    "skillAnimationName": "Attack5",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201006,
+    "buffId": [
+      13
+    ],
+    "cooldown": 25.0,
+    "groupId": 201,
+    "id": 201008,
+    "skillAnimationName": "Attack3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201006,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 201010,
+    "cooldown": 25.0,
+    "groupId": 201,
+    "id": 201009,
+    "skillAnimationName": "Attack3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201004,
+    "buffId": [
+      13
+    ],
+    "groupId": 201,
+    "id": 201010,
+    "skillAnimationName": "Attack4",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201006,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 201012,
+    "cooldown": 25.0,
+    "groupId": 201,
+    "id": 201011,
+    "skillAnimationName": "Attack3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201007,
+    "buffId": [
+      13
+    ],
+    "groupId": 201,
+    "id": 201012,
+    "skillAnimationName": "Attack6",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201007,
+    "buffId": [
+      13
+    ],
+    "cooldown": 25.0,
+    "groupId": 201,
+    "id": 201013,
+    "skillAnimationName": "Attack6",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201007,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 201015,
+    "cooldown": 25.0,
+    "groupId": 201,
+    "id": 201014,
+    "skillAnimationName": "Attack6",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201008,
+    "buffId": [
+      13
+    ],
+    "groupId": 201,
+    "id": 201015,
+    "skillAnimationName": "Attack8",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201008,
+    "buffId": [
+      13
+    ],
+    "cooldown": 25.0,
+    "groupId": 201,
+    "id": 201016,
+    "skillAnimationName": "Attack8",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201002,
+    "buffId": [
+      13,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 201018,
+    "cooldown": 25.0,
+    "groupId": 201,
+    "id": 201017,
+    "skillAnimationName": "Attack1",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201003,
+    "buffId": [
+      13,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 201019,
+    "groupId": 201,
+    "id": 201018,
+    "skillAnimationName": "Attack2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201009,
+    "buffId": [
+      13,
+      22
+    ],
+    "groupId": 201,
+    "id": 201019,
+    "skillAnimationName": "Attack17",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201005,
+    "buffId": [
+      13,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 201021,
+    "cooldown": 25.0,
+    "groupId": 201,
+    "id": 201020,
+    "skillAnimationName": "Attack5",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201010,
+    "buffId": [
+      15,
+      22
+    ],
+    "groupId": 201,
+    "id": 201021,
+    "skillAnimationName": "Attack17-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201007,
+    "buffId": [
+      13,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 201023,
+    "cooldown": 25.0,
+    "groupId": 201,
+    "id": 201022,
+    "skillAnimationName": "Attack6",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201011,
+    "buffId": [
+      13,
+      22
+    ],
+    "groupId": 201,
+    "id": 201023,
+    "skillAnimationName": "Attack6-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201007,
+    "buffId": [
+      13,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 201025,
+    "cooldown": 25.0,
+    "groupId": 201,
+    "id": 201024,
+    "skillAnimationName": "Attack6",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201011,
+    "buffId": [
+      13,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 201026,
+    "groupId": 201,
+    "id": 201025,
+    "skillAnimationName": "Attack6-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201008,
+    "buffId": [
+      13,
+      22
+    ],
+    "groupId": 201,
+    "id": 201026,
+    "skillAnimationName": "Attack8",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201012,
+    "buffId": [
+      14,
+      22
+    ],
+    "cooldown": 35.0,
+    "groupId": 201,
+    "hitSoundName": "event:/Monsters/Common/Minigame/Action/Boss002/Boss002_Attack_10_Exp",
+    "id": 201027,
+    "skillAnimationName": "Attack12",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201013,
+    "buffId": [
+      15
+    ],
+    "cooldown": 25.0,
+    "groupId": 201,
+    "id": 201028,
+    "skillAnimationName": "Attack9",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201014,
+    "buffId": [
+      14,
+      22
+    ],
+    "cooldown": 25.0,
+    "groupId": 201,
+    "id": 201029,
+    "skillAnimationName": "Attack15",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201014,
+    "buffId": [
+      14,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 201031,
+    "cooldown": 25.0,
+    "groupId": 201,
+    "id": 201030,
+    "skillAnimationName": "Attack15",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201015,
+    "buffId": [
+      14,
+      22
+    ],
+    "groupId": 201,
+    "id": 201031,
+    "skillAnimationName": "Attack16",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201016,
+    "buffId": [
+      14,
+      22
+    ],
+    "cooldown": 25.0,
+    "groupId": 201,
+    "hitSoundName": "event:/Monsters/Common/Minigame/Action/Boss002/Boss002_Attack_10_Exp",
+    "id": 201032,
+    "skillAnimationName": "Attack10",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201017,
+    "buffId": [
+      15
+    ],
+    "cooldown": 15.0,
+    "groupId": 201,
+    "id": 201033,
+    "skillAnimationName": "Attack19",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201017,
+    "buffId": [
+      15
+    ],
+    "comboType": 4,
+    "comboValue": 201035,
+    "cooldown": 15.0,
+    "groupId": 201,
+    "id": 201034,
+    "skillAnimationName": "Attack19",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201018,
+    "buffId": [
+      14,
+      22
+    ],
+    "groupId": 201,
+    "hitSoundName": "event:/Monsters/Common/Minigame/Action/Boss002/Boss002_Attack_10_Exp",
+    "id": 201035,
+    "skillAnimationName": "Attack11",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201018,
+    "buffId": [
+      14,
+      22
+    ],
+    "cooldown": 25.0,
+    "groupId": 201,
+    "hitSoundName": "event:/Monsters/Common/Minigame/Action/Boss002/Boss002_Attack_10_Exp",
+    "id": 201036,
+    "skillAnimationName": "Attack11",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201019,
+    "buffId": [
+      15
+    ],
+    "cooldown": 15.0,
+    "groupId": 201,
+    "id": 201037,
+    "skillAnimationName": "Attack18",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201019,
+    "buffId": [
+      15
+    ],
+    "comboType": 4,
+    "comboValue": 201039,
+    "cooldown": 15.0,
+    "groupId": 201,
+    "id": 201038,
+    "skillAnimationName": "Attack18",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201016,
+    "buffId": [
+      14,
+      22
+    ],
+    "groupId": 201,
+    "hitSoundName": "event:/Monsters/Common/Minigame/Action/Boss002/Boss002_Attack_10_Exp",
+    "id": 201039,
+    "skillAnimationName": "Attack10",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201020,
+    "buffId": [
+      14
+    ],
+    "comboType": 4,
+    "comboValue": 201041,
+    "cooldown": 25.0,
+    "groupId": 201,
+    "id": 201040,
+    "skillAnimationName": "Attack20",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201021,
+    "buffId": [
+      14
+    ],
+    "groupId": 201,
+    "id": 201041,
+    "skillAnimationName": "Attack21",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201021,
+    "buffId": [
+      14
+    ],
+    "cooldown": 25.0,
+    "groupId": 201,
+    "id": 201042,
+    "skillAnimationName": "Attack21",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201022,
+    "buffId": [
+      14
+    ],
+    "cooldown": 25.0,
+    "groupId": 201,
+    "id": 201043,
+    "skillAnimationName": "Attack7",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201023,
+    "buffId": [
+      14
+    ],
+    "cooldown": 30.0,
+    "groupId": 201,
+    "id": 201044,
+    "skillAnimationName": "Attack13",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201024,
+    "buffId": [
+      14
+    ],
+    "cooldown": 30.0,
+    "groupId": 201,
+    "id": 201045,
+    "skillAnimationName": "Attack14",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201023,
+    "buffId": [
+      14
+    ],
+    "cooldown": 30.0,
+    "groupId": 201,
+    "id": 201046,
+    "skillAnimationName": "Attack13",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201024,
+    "buffId": [
+      14
+    ],
+    "cooldown": 30.0,
+    "groupId": 201,
+    "id": 201047,
+    "skillAnimationName": "Attack14",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201009,
+    "buffId": [
+      13,
+      22
+    ],
+    "cooldown": 25.0,
+    "groupId": 201,
+    "id": 201048,
+    "skillAnimationName": "Attack17",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201009,
+    "buffId": [
+      13,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 201050,
+    "cooldown": 25.0,
+    "groupId": 201,
+    "id": 201049,
+    "skillAnimationName": "Attack17",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201025,
+    "buffId": [
+      15,
+      22
+    ],
+    "groupId": 201,
+    "id": 201050,
+    "skillAnimationName": "Attack17-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201026,
+    "buffId": [
+      28
+    ],
+    "comboType": 4,
+    "comboValue": 201052,
+    "groupId": 201,
+    "id": 201051,
+    "skillAnimationName": "Roar",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201027,
+    "buffId": [
+      15,
+      22
+    ],
+    "groupId": 201,
+    "id": 201052,
+    "skillAnimationName": "Attack22",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201026,
+    "buffId": [
+      28
+    ],
+    "comboType": 4,
+    "comboValue": 201054,
+    "groupId": 201,
+    "id": 201053,
+    "skillAnimationName": "Roar",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201027,
+    "buffId": [
+      15,
+      22
+    ],
+    "groupId": 201,
+    "id": 201054,
+    "skillAnimationName": "Attack22",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "buffId": [
+      31
+    ],
+    "groupId": 201,
+    "id": 201055,
+    "skillAnimationName": "Rage_Start",
+    "skillType": 7,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201023,
+    "buffId": [
+      14,
+      22
+    ],
+    "cooldown": 20.0,
+    "groupId": 201,
+    "id": 201056,
+    "skillAnimationName": "Attack13-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201024,
+    "buffId": [
+      14,
+      22
+    ],
+    "cooldown": 20.0,
+    "groupId": 201,
+    "id": 201057,
+    "skillAnimationName": "Attack14-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201009,
+    "buffId": [
+      13,
+      22
+    ],
+    "groupId": 201,
+    "id": 201058,
+    "skillAnimationName": "Attack17",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201023,
+    "buffId": [
+      14,
+      22
+    ],
+    "cooldown": 20.0,
+    "groupId": 201,
+    "id": 201059,
+    "skillAnimationName": "Attack13-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201024,
+    "buffId": [
+      14,
+      22
+    ],
+    "cooldown": 20.0,
+    "groupId": 201,
+    "id": 201060,
+    "skillAnimationName": "Attack14-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "comboType": 4,
+    "comboValue": 201062,
+    "cooldown": 40.0,
+    "groupId": 201,
+    "id": 201061,
+    "skillAnimationName": "BackStep",
+    "skillType": 3,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201022,
+    "buffId": [
+      14,
+      22
+    ],
+    "groupId": 201,
+    "hitSoundName": "event:/Monsters/Common/Minigame/Action/Boss002/Boss002_Attack_10_Exp",
+    "id": 201062,
+    "skillAnimationName": "Attack12",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "comboType": 4,
+    "comboValue": 201064,
+    "cooldown": 40.0,
+    "groupId": 201,
+    "id": 201063,
+    "skillAnimationName": "BackStep",
+    "skillType": 3,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201024,
+    "buffId": [
+      14,
+      22
+    ],
+    "groupId": 201,
+    "id": 201064,
+    "skillAnimationName": "Attack15",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "comboType": 4,
+    "comboValue": 201066,
+    "cooldown": 40.0,
+    "groupId": 201,
+    "id": 201065,
+    "skillAnimationName": "BackStep",
+    "skillType": 3,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201023,
+    "buffId": [
+      14
+    ],
+    "groupId": 201,
+    "id": 201066,
+    "skillAnimationName": "Attack13",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "comboType": 4,
+    "comboValue": 201068,
+    "cooldown": 40.0,
+    "groupId": 201,
+    "id": 201067,
+    "skillAnimationName": "BackStep",
+    "skillType": 3,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201024,
+    "buffId": [
+      14
+    ],
+    "groupId": 201,
+    "id": 201068,
+    "skillAnimationName": "Attack14",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201026,
+    "buffId": [
+      14,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 201070,
+    "cooldown": 25.0,
+    "groupId": 201,
+    "hitSoundName": "event:/Monsters/Common/Minigame/Action/Boss002/Boss002_Attack_10_Exp",
+    "id": 201069,
+    "skillAnimationName": "Attack10",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201018,
+    "buffId": [
+      14,
+      22
+    ],
+    "groupId": 201,
+    "hitSoundName": "event:/Monsters/Common/Minigame/Action/Boss002/Boss002_Attack_10_Exp",
+    "id": 201070,
+    "skillAnimationName": "Attack11",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "comboType": 4,
+    "comboValue": 201072,
+    "cooldown": 40.0,
+    "groupId": 201,
+    "id": 201071,
+    "skillAnimationName": "BackStep",
+    "skillType": 3,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201024,
+    "buffId": [
+      14,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 201073,
+    "groupId": 201,
+    "id": 201072,
+    "skillAnimationName": "Attack15",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201025,
+    "buffId": [
+      14,
+      22
+    ],
+    "groupId": 201,
+    "id": 201073,
+    "skillAnimationName": "Attack16",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "comboType": 4,
+    "comboValue": 201075,
+    "cooldown": 40.0,
+    "groupId": 201,
+    "id": 201074,
+    "skillAnimationName": "BackStep",
+    "skillType": 3,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201024,
+    "buffId": [
+      14,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 201076,
+    "groupId": 201,
+    "id": 201075,
+    "skillAnimationName": "Attack14-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "comboType": 4,
+    "comboValue": 201077,
+    "cooldown": 40.0,
+    "groupId": 201,
+    "id": 201076,
+    "skillAnimationName": "BackStep",
+    "skillType": 3,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201022,
+    "buffId": [
+      14,
+      22
+    ],
+    "groupId": 201,
+    "hitSoundName": "event:/Monsters/Common/Minigame/Action/Boss002/Boss002_Attack_10_Exp",
+    "id": 201077,
+    "skillAnimationName": "Attack12",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "comboType": 4,
+    "comboValue": 201079,
+    "cooldown": 40.0,
+    "groupId": 201,
+    "id": 201078,
+    "skillAnimationName": "BackStep",
+    "skillType": 3,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201023,
+    "buffId": [
+      14,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 201080,
+    "groupId": 201,
+    "id": 201079,
+    "skillAnimationName": "Attack13-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201025,
+    "buffId": [
+      15,
+      22
+    ],
+    "groupId": 201,
+    "id": 201080,
+    "skillAnimationName": "Attack17-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201024,
+    "buffId": [
+      14,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 201082,
+    "cooldown": 30.0,
+    "groupId": 201,
+    "id": 201081,
+    "skillAnimationName": "Attack15",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201025,
+    "buffId": [
+      15,
+      22
+    ],
+    "groupId": 201,
+    "id": 201082,
+    "skillAnimationName": "Attack17-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201006,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 201084,
+    "cooldown": 30.0,
+    "groupId": 201,
+    "id": 201083,
+    "skillAnimationName": "Attack3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201018,
+    "buffId": [
+      14,
+      22
+    ],
+    "groupId": 201,
+    "hitSoundName": "event:/Monsters/Common/Minigame/Action/Boss002/Boss002_Attack_10_Exp",
+    "id": 201084,
+    "skillAnimationName": "Attack11",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201004,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 201086,
+    "groupId": 201,
+    "id": 201085,
+    "skillAnimationName": "Attack4",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 201026,
+    "buffId": [
+      14,
+      22
+    ],
+    "cooldown": 30.0,
+    "groupId": 201,
+    "hitSoundName": "event:/Monsters/Common/Minigame/Action/Boss002/Boss002_Attack_10_Exp",
+    "id": 201086,
+    "skillAnimationName": "Attack10",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202001,
+    "buffId": [
+      17
+    ],
+    "groupId": 202,
+    "id": 202001,
+    "skillAnimationName": "Roar",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202002,
+    "buffId": [
+      13
+    ],
+    "groupId": 202,
+    "id": 202002,
+    "skillAnimationName": "Attack1",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202002,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 202004,
+    "cooldown": 25.0,
+    "groupId": 202,
+    "id": 202003,
+    "skillAnimationName": "Attack1",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202003,
+    "buffId": [
+      13
+    ],
+    "groupId": 202,
+    "id": 202004,
+    "skillAnimationName": "Attack2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202002,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 202006,
+    "cooldown": 25.0,
+    "groupId": 202,
+    "id": 202005,
+    "skillAnimationName": "Attack1",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202004,
+    "buffId": [
+      13
+    ],
+    "groupId": 202,
+    "id": 202006,
+    "skillAnimationName": "Attack4",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202005,
+    "buffId": [
+      13
+    ],
+    "cooldown": 25.0,
+    "groupId": 202,
+    "id": 202007,
+    "skillAnimationName": "Attack5",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202006,
+    "buffId": [
+      13
+    ],
+    "cooldown": 25.0,
+    "groupId": 202,
+    "id": 202008,
+    "skillAnimationName": "Attack3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202006,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 202010,
+    "cooldown": 25.0,
+    "groupId": 202,
+    "id": 202009,
+    "skillAnimationName": "Attack3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202004,
+    "buffId": [
+      13
+    ],
+    "groupId": 202,
+    "id": 202010,
+    "skillAnimationName": "Attack4",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202006,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 202012,
+    "cooldown": 25.0,
+    "groupId": 202,
+    "id": 202011,
+    "skillAnimationName": "Attack3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202007,
+    "buffId": [
+      13
+    ],
+    "groupId": 202,
+    "id": 202012,
+    "skillAnimationName": "Attack6",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202007,
+    "buffId": [
+      13
+    ],
+    "cooldown": 25.0,
+    "groupId": 202,
+    "id": 202013,
+    "skillAnimationName": "Attack6",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202007,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 202015,
+    "cooldown": 25.0,
+    "groupId": 202,
+    "id": 202014,
+    "skillAnimationName": "Attack6",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202008,
+    "buffId": [
+      13
+    ],
+    "groupId": 202,
+    "id": 202015,
+    "skillAnimationName": "Attack8",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202008,
+    "buffId": [
+      13
+    ],
+    "cooldown": 25.0,
+    "groupId": 202,
+    "id": 202016,
+    "skillAnimationName": "Attack8",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202002,
+    "buffId": [
+      13,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 202018,
+    "cooldown": 25.0,
+    "groupId": 202,
+    "id": 202017,
+    "skillAnimationName": "Attack1",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202003,
+    "buffId": [
+      13,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 202019,
+    "groupId": 202,
+    "id": 202018,
+    "skillAnimationName": "Attack2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202009,
+    "buffId": [
+      13,
+      22
+    ],
+    "groupId": 202,
+    "id": 202019,
+    "skillAnimationName": "Attack17",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202005,
+    "buffId": [
+      13,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 202021,
+    "cooldown": 25.0,
+    "groupId": 202,
+    "id": 202020,
+    "skillAnimationName": "Attack5",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202010,
+    "buffId": [
+      15,
+      22
+    ],
+    "groupId": 202,
+    "id": 202021,
+    "skillAnimationName": "Attack17-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202007,
+    "buffId": [
+      13,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 202023,
+    "cooldown": 25.0,
+    "groupId": 202,
+    "id": 202022,
+    "skillAnimationName": "Attack6",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202011,
+    "buffId": [
+      13,
+      22
+    ],
+    "groupId": 202,
+    "id": 202023,
+    "skillAnimationName": "Attack6-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202007,
+    "buffId": [
+      13,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 202025,
+    "cooldown": 25.0,
+    "groupId": 202,
+    "id": 202024,
+    "skillAnimationName": "Attack6",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202011,
+    "buffId": [
+      13,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 202026,
+    "groupId": 202,
+    "id": 202025,
+    "skillAnimationName": "Attack6-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202008,
+    "buffId": [
+      13,
+      22
+    ],
+    "groupId": 202,
+    "id": 202026,
+    "skillAnimationName": "Attack8",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202012,
+    "buffId": [
+      14,
+      22
+    ],
+    "cooldown": 35.0,
+    "groupId": 202,
+    "hitSoundName": "event:/Monsters/Common/Minigame/Action/Boss002/Boss002_Attack_10_Exp",
+    "id": 202027,
+    "skillAnimationName": "Attack12",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202013,
+    "buffId": [
+      15
+    ],
+    "cooldown": 25.0,
+    "groupId": 202,
+    "id": 202028,
+    "skillAnimationName": "Attack9",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202014,
+    "buffId": [
+      14,
+      22
+    ],
+    "cooldown": 25.0,
+    "groupId": 202,
+    "id": 202029,
+    "skillAnimationName": "Attack15",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202014,
+    "buffId": [
+      14,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 202031,
+    "cooldown": 25.0,
+    "groupId": 202,
+    "id": 202030,
+    "skillAnimationName": "Attack15",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202015,
+    "buffId": [
+      14,
+      22
+    ],
+    "groupId": 202,
+    "id": 202031,
+    "skillAnimationName": "Attack16",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202016,
+    "buffId": [
+      14,
+      22
+    ],
+    "cooldown": 25.0,
+    "groupId": 202,
+    "hitSoundName": "event:/Monsters/Common/Minigame/Action/Boss002/Boss002_Attack_10_Exp",
+    "id": 202032,
+    "skillAnimationName": "Attack10",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202017,
+    "buffId": [
+      15
+    ],
+    "cooldown": 15.0,
+    "groupId": 202,
+    "id": 202033,
+    "skillAnimationName": "Attack19",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202017,
+    "buffId": [
+      15
+    ],
+    "comboType": 4,
+    "comboValue": 202035,
+    "cooldown": 15.0,
+    "groupId": 202,
+    "id": 202034,
+    "skillAnimationName": "Attack19",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202018,
+    "buffId": [
+      14,
+      22
+    ],
+    "groupId": 202,
+    "hitSoundName": "event:/Monsters/Common/Minigame/Action/Boss002/Boss002_Attack_10_Exp",
+    "id": 202035,
+    "skillAnimationName": "Attack11",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202018,
+    "buffId": [
+      14,
+      22
+    ],
+    "cooldown": 25.0,
+    "groupId": 202,
+    "hitSoundName": "event:/Monsters/Common/Minigame/Action/Boss002/Boss002_Attack_10_Exp",
+    "id": 202036,
+    "skillAnimationName": "Attack11",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202019,
+    "buffId": [
+      15
+    ],
+    "cooldown": 15.0,
+    "groupId": 202,
+    "id": 202037,
+    "skillAnimationName": "Attack18",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202019,
+    "buffId": [
+      15
+    ],
+    "comboType": 4,
+    "comboValue": 202039,
+    "cooldown": 15.0,
+    "groupId": 202,
+    "id": 202038,
+    "skillAnimationName": "Attack18",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202016,
+    "buffId": [
+      14,
+      22
+    ],
+    "groupId": 202,
+    "hitSoundName": "event:/Monsters/Common/Minigame/Action/Boss002/Boss002_Attack_10_Exp",
+    "id": 202039,
+    "skillAnimationName": "Attack10",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202020,
+    "buffId": [
+      14
+    ],
+    "comboType": 4,
+    "comboValue": 202041,
+    "cooldown": 25.0,
+    "groupId": 202,
+    "id": 202040,
+    "skillAnimationName": "Attack20",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202021,
+    "buffId": [
+      14
+    ],
+    "groupId": 202,
+    "id": 202041,
+    "skillAnimationName": "Attack21",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202021,
+    "buffId": [
+      14
+    ],
+    "cooldown": 25.0,
+    "groupId": 202,
+    "id": 202042,
+    "skillAnimationName": "Attack21",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202022,
+    "buffId": [
+      14
+    ],
+    "cooldown": 25.0,
+    "groupId": 202,
+    "id": 202043,
+    "skillAnimationName": "Attack7",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202023,
+    "buffId": [
+      14
+    ],
+    "cooldown": 30.0,
+    "groupId": 202,
+    "id": 202044,
+    "skillAnimationName": "Attack13",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202024,
+    "buffId": [
+      14
+    ],
+    "cooldown": 30.0,
+    "groupId": 202,
+    "id": 202045,
+    "skillAnimationName": "Attack14",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202023,
+    "buffId": [
+      14
+    ],
+    "cooldown": 30.0,
+    "groupId": 202,
+    "id": 202046,
+    "skillAnimationName": "Attack13",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202024,
+    "buffId": [
+      14
+    ],
+    "cooldown": 30.0,
+    "groupId": 202,
+    "id": 202047,
+    "skillAnimationName": "Attack14",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202009,
+    "buffId": [
+      13,
+      22
+    ],
+    "cooldown": 25.0,
+    "groupId": 202,
+    "id": 202048,
+    "skillAnimationName": "Attack17",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202009,
+    "buffId": [
+      13,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 202050,
+    "cooldown": 25.0,
+    "groupId": 202,
+    "id": 202049,
+    "skillAnimationName": "Attack17",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202025,
+    "buffId": [
+      15,
+      22
+    ],
+    "groupId": 202,
+    "id": 202050,
+    "skillAnimationName": "Attack17-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202026,
+    "buffId": [
+      28
+    ],
+    "comboType": 4,
+    "comboValue": 202052,
+    "groupId": 202,
+    "id": 202051,
+    "skillAnimationName": "Roar",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202027,
+    "buffId": [
+      15,
+      22
+    ],
+    "groupId": 202,
+    "id": 202052,
+    "skillAnimationName": "Attack22",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202026,
+    "buffId": [
+      28
+    ],
+    "comboType": 4,
+    "comboValue": 202054,
+    "groupId": 202,
+    "id": 202053,
+    "skillAnimationName": "Roar",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202027,
+    "buffId": [
+      15,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 202087,
+    "groupId": 202,
+    "id": 202054,
+    "skillAnimationName": "Attack22",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "buffId": [
+      31
+    ],
+    "groupId": 202,
+    "id": 202055,
+    "skillAnimationName": "Rage_Start",
+    "skillType": 7,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202023,
+    "buffId": [
+      14,
+      22
+    ],
+    "cooldown": 20.0,
+    "groupId": 202,
+    "id": 202056,
+    "skillAnimationName": "Attack13-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202024,
+    "buffId": [
+      14,
+      22
+    ],
+    "cooldown": 20.0,
+    "groupId": 202,
+    "id": 202057,
+    "skillAnimationName": "Attack14-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202009,
+    "buffId": [
+      13,
+      22
+    ],
+    "groupId": 202,
+    "id": 202058,
+    "skillAnimationName": "Attack17",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202023,
+    "buffId": [
+      14,
+      22
+    ],
+    "cooldown": 20.0,
+    "groupId": 202,
+    "id": 202059,
+    "skillAnimationName": "Attack13-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202024,
+    "buffId": [
+      14,
+      22
+    ],
+    "cooldown": 20.0,
+    "groupId": 202,
+    "id": 202060,
+    "skillAnimationName": "Attack14-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "comboType": 4,
+    "comboValue": 202062,
+    "cooldown": 40.0,
+    "groupId": 202,
+    "id": 202061,
+    "skillAnimationName": "BackStep",
+    "skillType": 3,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202022,
+    "buffId": [
+      14,
+      22
+    ],
+    "groupId": 202,
+    "hitSoundName": "event:/Monsters/Common/Minigame/Action/Boss002/Boss002_Attack_10_Exp",
+    "id": 202062,
+    "skillAnimationName": "Attack12",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "comboType": 4,
+    "comboValue": 202064,
+    "cooldown": 40.0,
+    "groupId": 202,
+    "id": 202063,
+    "skillAnimationName": "BackStep",
+    "skillType": 3,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202024,
+    "buffId": [
+      14,
+      22
+    ],
+    "groupId": 202,
+    "id": 202064,
+    "skillAnimationName": "Attack15",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "comboType": 4,
+    "comboValue": 202066,
+    "cooldown": 40.0,
+    "groupId": 202,
+    "id": 202065,
+    "skillAnimationName": "BackStep",
+    "skillType": 3,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202023,
+    "buffId": [
+      14
+    ],
+    "groupId": 202,
+    "id": 202066,
+    "skillAnimationName": "Attack13",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "comboType": 4,
+    "comboValue": 202068,
+    "cooldown": 40.0,
+    "groupId": 202,
+    "id": 202067,
+    "skillAnimationName": "BackStep",
+    "skillType": 3,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202024,
+    "buffId": [
+      14
+    ],
+    "groupId": 202,
+    "id": 202068,
+    "skillAnimationName": "Attack14",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202026,
+    "buffId": [
+      14,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 202070,
+    "cooldown": 25.0,
+    "groupId": 202,
+    "hitSoundName": "event:/Monsters/Common/Minigame/Action/Boss002/Boss002_Attack_10_Exp",
+    "id": 202069,
+    "skillAnimationName": "Attack10",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202018,
+    "buffId": [
+      14,
+      22
+    ],
+    "groupId": 202,
+    "hitSoundName": "event:/Monsters/Common/Minigame/Action/Boss002/Boss002_Attack_10_Exp",
+    "id": 202070,
+    "skillAnimationName": "Attack11",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "comboType": 4,
+    "comboValue": 202072,
+    "cooldown": 40.0,
+    "groupId": 202,
+    "id": 202071,
+    "skillAnimationName": "BackStep",
+    "skillType": 3,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202024,
+    "buffId": [
+      14,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 202073,
+    "groupId": 202,
+    "id": 202072,
+    "skillAnimationName": "Attack15",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202025,
+    "buffId": [
+      14,
+      22
+    ],
+    "groupId": 202,
+    "id": 202073,
+    "skillAnimationName": "Attack16",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "comboType": 4,
+    "comboValue": 202075,
+    "cooldown": 40.0,
+    "groupId": 202,
+    "id": 202074,
+    "skillAnimationName": "BackStep",
+    "skillType": 3,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202024,
+    "buffId": [
+      14,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 202076,
+    "groupId": 202,
+    "id": 202075,
+    "skillAnimationName": "Attack14-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "comboType": 4,
+    "comboValue": 202077,
+    "cooldown": 40.0,
+    "groupId": 202,
+    "id": 202076,
+    "skillAnimationName": "BackStep",
+    "skillType": 3,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202022,
+    "buffId": [
+      14,
+      22
+    ],
+    "groupId": 202,
+    "hitSoundName": "event:/Monsters/Common/Minigame/Action/Boss002/Boss002_Attack_10_Exp",
+    "id": 202077,
+    "skillAnimationName": "Attack12",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "comboType": 4,
+    "comboValue": 202079,
+    "cooldown": 40.0,
+    "groupId": 202,
+    "id": 202078,
+    "skillAnimationName": "BackStep",
+    "skillType": 3,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202023,
+    "buffId": [
+      14,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 202080,
+    "groupId": 202,
+    "id": 202079,
+    "skillAnimationName": "Attack13-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202025,
+    "buffId": [
+      15,
+      22
+    ],
+    "groupId": 202,
+    "id": 202080,
+    "skillAnimationName": "Attack17-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202024,
+    "buffId": [
+      14,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 202082,
+    "cooldown": 30.0,
+    "groupId": 202,
+    "id": 202081,
+    "skillAnimationName": "Attack15",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202025,
+    "buffId": [
+      15,
+      22
+    ],
+    "groupId": 202,
+    "id": 202082,
+    "skillAnimationName": "Attack17-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202006,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 202084,
+    "cooldown": 30.0,
+    "groupId": 202,
+    "id": 202083,
+    "skillAnimationName": "Attack3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202018,
+    "buffId": [
+      14,
+      22
+    ],
+    "groupId": 202,
+    "hitSoundName": "event:/Monsters/Common/Minigame/Action/Boss002/Boss002_Attack_10_Exp",
+    "id": 202084,
+    "skillAnimationName": "Attack11",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202004,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 202086,
+    "groupId": 202,
+    "id": 202085,
+    "skillAnimationName": "Attack4",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202026,
+    "buffId": [
+      14,
+      22
+    ],
+    "cooldown": 30.0,
+    "groupId": 202,
+    "hitSoundName": "event:/Monsters/Common/Minigame/Action/Boss002/Boss002_Attack_10_Exp",
+    "id": 202086,
+    "skillAnimationName": "Attack10",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202025,
+    "buffId": [
+      15,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 202088,
+    "groupId": 202,
+    "id": 202087,
+    "skillAnimationName": "Attack17-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202009,
+    "buffId": [
+      13,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 202089,
+    "cooldown": 25.0,
+    "groupId": 202,
+    "id": 202088,
+    "skillAnimationName": "Attack17",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202025,
+    "buffId": [
+      15,
+      22
+    ],
+    "groupId": 202,
+    "id": 202089,
+    "skillAnimationName": "Attack17-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202001,
+    "buffId": [
+      17
+    ],
+    "groupId": 203,
+    "id": 203001,
+    "skillAnimationName": "Roar",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202002,
+    "buffId": [
+      13
+    ],
+    "groupId": 203,
+    "id": 203002,
+    "skillAnimationName": "Attack1",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202002,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 203004,
+    "cooldown": 25.0,
+    "groupId": 203,
+    "id": 203003,
+    "skillAnimationName": "Attack1",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202003,
+    "buffId": [
+      13
+    ],
+    "groupId": 203,
+    "id": 203004,
+    "skillAnimationName": "Attack2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202002,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 203006,
+    "cooldown": 25.0,
+    "groupId": 203,
+    "id": 203005,
+    "skillAnimationName": "Attack1",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202004,
+    "buffId": [
+      13
+    ],
+    "groupId": 203,
+    "id": 203006,
+    "skillAnimationName": "Attack4",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202005,
+    "buffId": [
+      13
+    ],
+    "cooldown": 25.0,
+    "groupId": 203,
+    "id": 203007,
+    "skillAnimationName": "Attack5",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202006,
+    "buffId": [
+      13
+    ],
+    "cooldown": 25.0,
+    "groupId": 203,
+    "id": 203008,
+    "skillAnimationName": "Attack3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202006,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 203010,
+    "cooldown": 25.0,
+    "groupId": 203,
+    "id": 203009,
+    "skillAnimationName": "Attack3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202004,
+    "buffId": [
+      13
+    ],
+    "groupId": 203,
+    "id": 203010,
+    "skillAnimationName": "Attack4",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202006,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 203012,
+    "cooldown": 25.0,
+    "groupId": 203,
+    "id": 203011,
+    "skillAnimationName": "Attack3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202007,
+    "buffId": [
+      13
+    ],
+    "groupId": 203,
+    "id": 203012,
+    "skillAnimationName": "Attack6",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202007,
+    "buffId": [
+      13
+    ],
+    "cooldown": 25.0,
+    "groupId": 203,
+    "id": 203013,
+    "skillAnimationName": "Attack6",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202007,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 203015,
+    "cooldown": 25.0,
+    "groupId": 203,
+    "id": 203014,
+    "skillAnimationName": "Attack6",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202008,
+    "buffId": [
+      13
+    ],
+    "groupId": 203,
+    "id": 203015,
+    "skillAnimationName": "Attack8",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202008,
+    "buffId": [
+      13
+    ],
+    "cooldown": 25.0,
+    "groupId": 203,
+    "id": 203016,
+    "skillAnimationName": "Attack8",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202002,
+    "buffId": [
+      13,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 203018,
+    "cooldown": 25.0,
+    "groupId": 203,
+    "id": 203017,
+    "skillAnimationName": "Attack1",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202003,
+    "buffId": [
+      13,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 203019,
+    "groupId": 203,
+    "id": 203018,
+    "skillAnimationName": "Attack2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202009,
+    "buffId": [
+      13,
+      22
+    ],
+    "groupId": 203,
+    "id": 203019,
+    "skillAnimationName": "Attack17",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202005,
+    "buffId": [
+      13,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 203021,
+    "cooldown": 25.0,
+    "groupId": 203,
+    "id": 203020,
+    "skillAnimationName": "Attack5",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202010,
+    "buffId": [
+      15,
+      22
+    ],
+    "groupId": 203,
+    "id": 203021,
+    "skillAnimationName": "Attack17-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202007,
+    "buffId": [
+      13,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 203023,
+    "cooldown": 25.0,
+    "groupId": 203,
+    "id": 203022,
+    "skillAnimationName": "Attack6",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202011,
+    "buffId": [
+      13,
+      22
+    ],
+    "groupId": 203,
+    "id": 203023,
+    "skillAnimationName": "Attack6-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202007,
+    "buffId": [
+      13,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 203025,
+    "cooldown": 25.0,
+    "groupId": 203,
+    "id": 203024,
+    "skillAnimationName": "Attack6",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202011,
+    "buffId": [
+      13,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 203026,
+    "groupId": 203,
+    "id": 203025,
+    "skillAnimationName": "Attack6-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202008,
+    "buffId": [
+      13,
+      22
+    ],
+    "groupId": 203,
+    "id": 203026,
+    "skillAnimationName": "Attack8",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202012,
+    "buffId": [
+      14,
+      22
+    ],
+    "cooldown": 35.0,
+    "groupId": 203,
+    "hitSoundName": "event:/Monsters/Common/Minigame/Action/Boss002/Boss002_Attack_10_Exp",
+    "id": 203027,
+    "skillAnimationName": "Attack12",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202013,
+    "buffId": [
+      15
+    ],
+    "cooldown": 25.0,
+    "groupId": 203,
+    "id": 203028,
+    "skillAnimationName": "Attack9",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202014,
+    "buffId": [
+      14,
+      22
+    ],
+    "cooldown": 25.0,
+    "groupId": 203,
+    "id": 203029,
+    "skillAnimationName": "Attack15",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202014,
+    "buffId": [
+      14,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 203031,
+    "cooldown": 25.0,
+    "groupId": 203,
+    "id": 203030,
+    "skillAnimationName": "Attack15",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202015,
+    "buffId": [
+      14,
+      22
+    ],
+    "groupId": 203,
+    "id": 203031,
+    "skillAnimationName": "Attack16",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202016,
+    "buffId": [
+      14,
+      22
+    ],
+    "cooldown": 25.0,
+    "groupId": 203,
+    "hitSoundName": "event:/Monsters/Common/Minigame/Action/Boss002/Boss002_Attack_10_Exp",
+    "id": 203032,
+    "skillAnimationName": "Attack10",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202017,
+    "buffId": [
+      15
+    ],
+    "cooldown": 15.0,
+    "groupId": 203,
+    "id": 203033,
+    "skillAnimationName": "Attack19",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202017,
+    "buffId": [
+      15
+    ],
+    "comboType": 4,
+    "comboValue": 203035,
+    "cooldown": 15.0,
+    "groupId": 203,
+    "id": 203034,
+    "skillAnimationName": "Attack19",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202018,
+    "buffId": [
+      14,
+      22
+    ],
+    "groupId": 203,
+    "hitSoundName": "event:/Monsters/Common/Minigame/Action/Boss002/Boss002_Attack_10_Exp",
+    "id": 203035,
+    "skillAnimationName": "Attack11",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202018,
+    "buffId": [
+      14,
+      22
+    ],
+    "cooldown": 25.0,
+    "groupId": 203,
+    "hitSoundName": "event:/Monsters/Common/Minigame/Action/Boss002/Boss002_Attack_10_Exp",
+    "id": 203036,
+    "skillAnimationName": "Attack11",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202019,
+    "buffId": [
+      15
+    ],
+    "cooldown": 15.0,
+    "groupId": 203,
+    "id": 203037,
+    "skillAnimationName": "Attack18",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202019,
+    "buffId": [
+      15
+    ],
+    "comboType": 4,
+    "comboValue": 203039,
+    "cooldown": 15.0,
+    "groupId": 203,
+    "id": 203038,
+    "skillAnimationName": "Attack18",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202016,
+    "buffId": [
+      14,
+      22
+    ],
+    "groupId": 203,
+    "hitSoundName": "event:/Monsters/Common/Minigame/Action/Boss002/Boss002_Attack_10_Exp",
+    "id": 203039,
+    "skillAnimationName": "Attack10",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202020,
+    "buffId": [
+      14
+    ],
+    "comboType": 4,
+    "comboValue": 203041,
+    "cooldown": 25.0,
+    "groupId": 203,
+    "id": 203040,
+    "skillAnimationName": "Attack20",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202021,
+    "buffId": [
+      14
+    ],
+    "groupId": 203,
+    "id": 203041,
+    "skillAnimationName": "Attack21",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202021,
+    "buffId": [
+      14
+    ],
+    "cooldown": 25.0,
+    "groupId": 203,
+    "id": 203042,
+    "skillAnimationName": "Attack21",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202022,
+    "buffId": [
+      14
+    ],
+    "cooldown": 25.0,
+    "groupId": 203,
+    "id": 203043,
+    "skillAnimationName": "Attack7",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202023,
+    "buffId": [
+      14
+    ],
+    "cooldown": 30.0,
+    "groupId": 203,
+    "id": 203044,
+    "skillAnimationName": "Attack13",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202024,
+    "buffId": [
+      14
+    ],
+    "cooldown": 30.0,
+    "groupId": 203,
+    "id": 203045,
+    "skillAnimationName": "Attack14",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202023,
+    "buffId": [
+      14
+    ],
+    "cooldown": 30.0,
+    "groupId": 203,
+    "id": 203046,
+    "skillAnimationName": "Attack13",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202024,
+    "buffId": [
+      14
+    ],
+    "cooldown": 30.0,
+    "groupId": 203,
+    "id": 203047,
+    "skillAnimationName": "Attack14",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202009,
+    "buffId": [
+      13,
+      22
+    ],
+    "cooldown": 25.0,
+    "groupId": 203,
+    "id": 203048,
+    "skillAnimationName": "Attack17",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202009,
+    "buffId": [
+      13,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 203050,
+    "cooldown": 25.0,
+    "groupId": 203,
+    "id": 203049,
+    "skillAnimationName": "Attack17",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202025,
+    "buffId": [
+      15,
+      22
+    ],
+    "groupId": 203,
+    "id": 203050,
+    "skillAnimationName": "Attack17-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202026,
+    "buffId": [
+      28
+    ],
+    "comboType": 4,
+    "comboValue": 203052,
+    "groupId": 203,
+    "id": 203051,
+    "skillAnimationName": "Roar",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202027,
+    "buffId": [
+      15,
+      22
+    ],
+    "groupId": 203,
+    "id": 203052,
+    "skillAnimationName": "Attack22",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202026,
+    "buffId": [
+      28
+    ],
+    "comboType": 4,
+    "comboValue": 203054,
+    "groupId": 203,
+    "id": 203053,
+    "skillAnimationName": "Roar",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202027,
+    "buffId": [
+      15,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 203087,
+    "groupId": 203,
+    "id": 203054,
+    "skillAnimationName": "Attack22",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "buffId": [
+      31
+    ],
+    "groupId": 203,
+    "id": 203055,
+    "skillAnimationName": "Rage_Start",
+    "skillType": 7,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202023,
+    "buffId": [
+      14,
+      22
+    ],
+    "cooldown": 20.0,
+    "groupId": 203,
+    "id": 203056,
+    "skillAnimationName": "Attack13-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202024,
+    "buffId": [
+      14,
+      22
+    ],
+    "cooldown": 20.0,
+    "groupId": 203,
+    "id": 203057,
+    "skillAnimationName": "Attack14-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202009,
+    "buffId": [
+      13,
+      22
+    ],
+    "groupId": 203,
+    "id": 203058,
+    "skillAnimationName": "Attack17",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202023,
+    "buffId": [
+      14,
+      22
+    ],
+    "cooldown": 20.0,
+    "groupId": 203,
+    "id": 203059,
+    "skillAnimationName": "Attack13-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202024,
+    "buffId": [
+      14,
+      22
+    ],
+    "cooldown": 20.0,
+    "groupId": 203,
+    "id": 203060,
+    "skillAnimationName": "Attack14-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "comboType": 4,
+    "comboValue": 203062,
+    "cooldown": 40.0,
+    "groupId": 203,
+    "id": 203061,
+    "skillAnimationName": "BackStep",
+    "skillType": 3,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202012,
+    "buffId": [
+      14,
+      22
+    ],
+    "groupId": 203,
+    "hitSoundName": "event:/Monsters/Common/Minigame/Action/Boss002/Boss002_Attack_10_Exp",
+    "id": 203062,
+    "skillAnimationName": "Attack12",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "comboType": 4,
+    "comboValue": 203064,
+    "cooldown": 40.0,
+    "groupId": 203,
+    "id": 203063,
+    "skillAnimationName": "BackStep",
+    "skillType": 3,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202014,
+    "buffId": [
+      14,
+      22
+    ],
+    "groupId": 203,
+    "id": 203064,
+    "skillAnimationName": "Attack15",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "comboType": 4,
+    "comboValue": 203066,
+    "cooldown": 40.0,
+    "groupId": 203,
+    "id": 203065,
+    "skillAnimationName": "BackStep",
+    "skillType": 3,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202023,
+    "buffId": [
+      14
+    ],
+    "groupId": 203,
+    "id": 203066,
+    "skillAnimationName": "Attack13",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "comboType": 4,
+    "comboValue": 203068,
+    "cooldown": 40.0,
+    "groupId": 203,
+    "id": 203067,
+    "skillAnimationName": "BackStep",
+    "skillType": 3,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202024,
+    "buffId": [
+      14
+    ],
+    "groupId": 203,
+    "id": 203068,
+    "skillAnimationName": "Attack14",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202016,
+    "buffId": [
+      14,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 203070,
+    "cooldown": 25.0,
+    "groupId": 203,
+    "hitSoundName": "event:/Monsters/Common/Minigame/Action/Boss002/Boss002_Attack_10_Exp",
+    "id": 203069,
+    "skillAnimationName": "Attack10",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202018,
+    "buffId": [
+      14,
+      22
+    ],
+    "groupId": 203,
+    "hitSoundName": "event:/Monsters/Common/Minigame/Action/Boss002/Boss002_Attack_10_Exp",
+    "id": 203070,
+    "skillAnimationName": "Attack11",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "comboType": 4,
+    "comboValue": 203072,
+    "cooldown": 40.0,
+    "groupId": 203,
+    "id": 203071,
+    "skillAnimationName": "BackStep",
+    "skillType": 3,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202014,
+    "buffId": [
+      14,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 203073,
+    "groupId": 203,
+    "id": 203072,
+    "skillAnimationName": "Attack15",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202015,
+    "buffId": [
+      14,
+      22
+    ],
+    "groupId": 203,
+    "id": 203073,
+    "skillAnimationName": "Attack16",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "comboType": 4,
+    "comboValue": 203075,
+    "cooldown": 40.0,
+    "groupId": 203,
+    "id": 203074,
+    "skillAnimationName": "BackStep",
+    "skillType": 3,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202024,
+    "buffId": [
+      14,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 203076,
+    "groupId": 203,
+    "id": 203075,
+    "skillAnimationName": "Attack14-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "comboType": 4,
+    "comboValue": 203077,
+    "cooldown": 40.0,
+    "groupId": 203,
+    "id": 203076,
+    "skillAnimationName": "BackStep",
+    "skillType": 3,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202012,
+    "buffId": [
+      14,
+      22
+    ],
+    "groupId": 203,
+    "hitSoundName": "event:/Monsters/Common/Minigame/Action/Boss002/Boss002_Attack_10_Exp",
+    "id": 203077,
+    "skillAnimationName": "Attack12",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "comboType": 4,
+    "comboValue": 203079,
+    "cooldown": 40.0,
+    "groupId": 203,
+    "id": 203078,
+    "skillAnimationName": "BackStep",
+    "skillType": 3,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202023,
+    "buffId": [
+      14,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 203080,
+    "groupId": 203,
+    "id": 203079,
+    "skillAnimationName": "Attack13-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202025,
+    "buffId": [
+      15,
+      22
+    ],
+    "groupId": 203,
+    "id": 203080,
+    "skillAnimationName": "Attack17-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202014,
+    "buffId": [
+      14,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 203082,
+    "cooldown": 30.0,
+    "groupId": 203,
+    "id": 203081,
+    "skillAnimationName": "Attack15",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202025,
+    "buffId": [
+      15,
+      22
+    ],
+    "groupId": 203,
+    "id": 203082,
+    "skillAnimationName": "Attack17-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202006,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 203084,
+    "cooldown": 30.0,
+    "groupId": 203,
+    "id": 203083,
+    "skillAnimationName": "Attack3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202018,
+    "buffId": [
+      14,
+      22
+    ],
+    "groupId": 203,
+    "hitSoundName": "event:/Monsters/Common/Minigame/Action/Boss002/Boss002_Attack_10_Exp",
+    "id": 203084,
+    "skillAnimationName": "Attack11",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202004,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 203086,
+    "groupId": 203,
+    "id": 203085,
+    "skillAnimationName": "Attack4",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202016,
+    "buffId": [
+      14,
+      22
+    ],
+    "cooldown": 30.0,
+    "groupId": 203,
+    "hitSoundName": "event:/Monsters/Common/Minigame/Action/Boss002/Boss002_Attack_10_Exp",
+    "id": 203086,
+    "skillAnimationName": "Attack10",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202025,
+    "buffId": [
+      15,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 203088,
+    "groupId": 203,
+    "id": 203087,
+    "skillAnimationName": "Attack17-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202009,
+    "buffId": [
+      13,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 203089,
+    "cooldown": 25.0,
+    "groupId": 203,
+    "id": 203088,
+    "skillAnimationName": "Attack17",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202025,
+    "buffId": [
+      15,
+      22
+    ],
+    "groupId": 203,
+    "id": 203089,
+    "skillAnimationName": "Attack17-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202001,
+    "buffId": [
+      17
+    ],
+    "groupId": 204,
+    "id": 204001,
+    "skillAnimationName": "Roar",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202002,
+    "buffId": [
+      13
+    ],
+    "groupId": 204,
+    "id": 204002,
+    "skillAnimationName": "Attack1",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202002,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 204004,
+    "cooldown": 25.0,
+    "groupId": 204,
+    "id": 204003,
+    "skillAnimationName": "Attack1",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202003,
+    "buffId": [
+      13
+    ],
+    "groupId": 204,
+    "id": 204004,
+    "skillAnimationName": "Attack2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202002,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 204006,
+    "cooldown": 25.0,
+    "groupId": 204,
+    "id": 204005,
+    "skillAnimationName": "Attack1",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202004,
+    "buffId": [
+      13
+    ],
+    "groupId": 204,
+    "id": 204006,
+    "skillAnimationName": "Attack4",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202005,
+    "buffId": [
+      13
+    ],
+    "cooldown": 25.0,
+    "groupId": 204,
+    "id": 204007,
+    "skillAnimationName": "Attack5",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202006,
+    "buffId": [
+      13
+    ],
+    "cooldown": 25.0,
+    "groupId": 204,
+    "id": 204008,
+    "skillAnimationName": "Attack3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202006,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 204010,
+    "cooldown": 25.0,
+    "groupId": 204,
+    "id": 204009,
+    "skillAnimationName": "Attack3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202004,
+    "buffId": [
+      13
+    ],
+    "groupId": 204,
+    "id": 204010,
+    "skillAnimationName": "Attack4",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202006,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 204012,
+    "cooldown": 25.0,
+    "groupId": 204,
+    "id": 204011,
+    "skillAnimationName": "Attack3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202007,
+    "buffId": [
+      13
+    ],
+    "groupId": 204,
+    "id": 204012,
+    "skillAnimationName": "Attack6",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202007,
+    "buffId": [
+      13
+    ],
+    "cooldown": 25.0,
+    "groupId": 204,
+    "id": 204013,
+    "skillAnimationName": "Attack6",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202007,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 204015,
+    "cooldown": 25.0,
+    "groupId": 204,
+    "id": 204014,
+    "skillAnimationName": "Attack6",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202008,
+    "buffId": [
+      13
+    ],
+    "groupId": 204,
+    "id": 204015,
+    "skillAnimationName": "Attack8",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202008,
+    "buffId": [
+      13
+    ],
+    "cooldown": 25.0,
+    "groupId": 204,
+    "id": 204016,
+    "skillAnimationName": "Attack8",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202002,
+    "buffId": [
+      13,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 204018,
+    "cooldown": 25.0,
+    "groupId": 204,
+    "id": 204017,
+    "skillAnimationName": "Attack1",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202003,
+    "buffId": [
+      13,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 204019,
+    "groupId": 204,
+    "id": 204018,
+    "skillAnimationName": "Attack2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202009,
+    "buffId": [
+      13,
+      22
+    ],
+    "groupId": 204,
+    "id": 204019,
+    "skillAnimationName": "Attack17",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202005,
+    "buffId": [
+      13,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 204021,
+    "cooldown": 25.0,
+    "groupId": 204,
+    "id": 204020,
+    "skillAnimationName": "Attack5",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202010,
+    "buffId": [
+      15,
+      22
+    ],
+    "groupId": 204,
+    "id": 204021,
+    "skillAnimationName": "Attack17-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202007,
+    "buffId": [
+      13,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 204023,
+    "cooldown": 25.0,
+    "groupId": 204,
+    "id": 204022,
+    "skillAnimationName": "Attack6",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202011,
+    "buffId": [
+      13,
+      22
+    ],
+    "groupId": 204,
+    "id": 204023,
+    "skillAnimationName": "Attack6-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202007,
+    "buffId": [
+      13,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 204025,
+    "cooldown": 25.0,
+    "groupId": 204,
+    "id": 204024,
+    "skillAnimationName": "Attack6",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202011,
+    "buffId": [
+      13,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 204026,
+    "groupId": 204,
+    "id": 204025,
+    "skillAnimationName": "Attack6-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202008,
+    "buffId": [
+      13,
+      22
+    ],
+    "groupId": 204,
+    "id": 204026,
+    "skillAnimationName": "Attack8",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202012,
+    "buffId": [
+      14,
+      22
+    ],
+    "cooldown": 35.0,
+    "groupId": 204,
+    "hitSoundName": "event:/Monsters/Common/Minigame/Action/Boss002/Boss002_Attack_10_Exp",
+    "id": 204027,
+    "skillAnimationName": "Attack12",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202013,
+    "buffId": [
+      15
+    ],
+    "cooldown": 25.0,
+    "groupId": 204,
+    "id": 204028,
+    "skillAnimationName": "Attack9",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202014,
+    "buffId": [
+      14,
+      22
+    ],
+    "cooldown": 25.0,
+    "groupId": 204,
+    "id": 204029,
+    "skillAnimationName": "Attack15",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202014,
+    "buffId": [
+      14,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 204031,
+    "cooldown": 25.0,
+    "groupId": 204,
+    "id": 204030,
+    "skillAnimationName": "Attack15",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202015,
+    "buffId": [
+      14,
+      22
+    ],
+    "groupId": 204,
+    "id": 204031,
+    "skillAnimationName": "Attack16",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202016,
+    "buffId": [
+      14,
+      22
+    ],
+    "cooldown": 25.0,
+    "groupId": 204,
+    "hitSoundName": "event:/Monsters/Common/Minigame/Action/Boss002/Boss002_Attack_10_Exp",
+    "id": 204032,
+    "skillAnimationName": "Attack10",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202017,
+    "buffId": [
+      15
+    ],
+    "cooldown": 15.0,
+    "groupId": 204,
+    "id": 204033,
+    "skillAnimationName": "Attack19",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202017,
+    "buffId": [
+      15
+    ],
+    "comboType": 4,
+    "comboValue": 204035,
+    "cooldown": 15.0,
+    "groupId": 204,
+    "id": 204034,
+    "skillAnimationName": "Attack19",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202018,
+    "buffId": [
+      14,
+      22
+    ],
+    "groupId": 204,
+    "hitSoundName": "event:/Monsters/Common/Minigame/Action/Boss002/Boss002_Attack_10_Exp",
+    "id": 204035,
+    "skillAnimationName": "Attack11",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202018,
+    "buffId": [
+      14,
+      22
+    ],
+    "cooldown": 25.0,
+    "groupId": 204,
+    "hitSoundName": "event:/Monsters/Common/Minigame/Action/Boss002/Boss002_Attack_10_Exp",
+    "id": 204036,
+    "skillAnimationName": "Attack11",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202019,
+    "buffId": [
+      15
+    ],
+    "cooldown": 15.0,
+    "groupId": 204,
+    "id": 204037,
+    "skillAnimationName": "Attack18",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202019,
+    "buffId": [
+      15
+    ],
+    "comboType": 4,
+    "comboValue": 204039,
+    "cooldown": 15.0,
+    "groupId": 204,
+    "id": 204038,
+    "skillAnimationName": "Attack18",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202016,
+    "buffId": [
+      14,
+      22
+    ],
+    "groupId": 204,
+    "hitSoundName": "event:/Monsters/Common/Minigame/Action/Boss002/Boss002_Attack_10_Exp",
+    "id": 204039,
+    "skillAnimationName": "Attack10",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202020,
+    "buffId": [
+      14
+    ],
+    "comboType": 4,
+    "comboValue": 204041,
+    "cooldown": 25.0,
+    "groupId": 204,
+    "id": 204040,
+    "skillAnimationName": "Attack20",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202021,
+    "buffId": [
+      14
+    ],
+    "groupId": 204,
+    "id": 204041,
+    "skillAnimationName": "Attack21",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202021,
+    "buffId": [
+      14
+    ],
+    "cooldown": 25.0,
+    "groupId": 204,
+    "id": 204042,
+    "skillAnimationName": "Attack21",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202022,
+    "buffId": [
+      14
+    ],
+    "cooldown": 25.0,
+    "groupId": 204,
+    "id": 204043,
+    "skillAnimationName": "Attack7",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202023,
+    "buffId": [
+      14
+    ],
+    "cooldown": 30.0,
+    "groupId": 204,
+    "id": 204044,
+    "skillAnimationName": "Attack13",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202024,
+    "buffId": [
+      14
+    ],
+    "cooldown": 30.0,
+    "groupId": 204,
+    "id": 204045,
+    "skillAnimationName": "Attack14",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202023,
+    "buffId": [
+      14
+    ],
+    "cooldown": 30.0,
+    "groupId": 204,
+    "id": 204046,
+    "skillAnimationName": "Attack13",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202024,
+    "buffId": [
+      14
+    ],
+    "cooldown": 30.0,
+    "groupId": 204,
+    "id": 204047,
+    "skillAnimationName": "Attack14",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202009,
+    "buffId": [
+      13,
+      22
+    ],
+    "cooldown": 25.0,
+    "groupId": 204,
+    "id": 204048,
+    "skillAnimationName": "Attack17",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202009,
+    "buffId": [
+      13,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 204050,
+    "cooldown": 25.0,
+    "groupId": 204,
+    "id": 204049,
+    "skillAnimationName": "Attack17",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202025,
+    "buffId": [
+      15,
+      22
+    ],
+    "groupId": 204,
+    "id": 204050,
+    "skillAnimationName": "Attack17-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202026,
+    "buffId": [
+      28
+    ],
+    "comboType": 4,
+    "comboValue": 204052,
+    "groupId": 204,
+    "id": 204051,
+    "skillAnimationName": "Roar",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202027,
+    "buffId": [
+      15,
+      22
+    ],
+    "groupId": 204,
+    "id": 204052,
+    "skillAnimationName": "Attack22",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202026,
+    "buffId": [
+      28
+    ],
+    "comboType": 4,
+    "comboValue": 204054,
+    "groupId": 204,
+    "id": 204053,
+    "skillAnimationName": "Roar",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202027,
+    "buffId": [
+      15,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 204087,
+    "groupId": 204,
+    "id": 204054,
+    "skillAnimationName": "Attack22",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "buffId": [
+      31
+    ],
+    "groupId": 204,
+    "id": 204055,
+    "skillAnimationName": "Rage_Start",
+    "skillType": 7,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202023,
+    "buffId": [
+      14,
+      22
+    ],
+    "cooldown": 20.0,
+    "groupId": 204,
+    "id": 204056,
+    "skillAnimationName": "Attack13-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202024,
+    "buffId": [
+      14,
+      22
+    ],
+    "cooldown": 20.0,
+    "groupId": 204,
+    "id": 204057,
+    "skillAnimationName": "Attack14-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202009,
+    "buffId": [
+      13,
+      22
+    ],
+    "groupId": 204,
+    "id": 204058,
+    "skillAnimationName": "Attack17",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202023,
+    "buffId": [
+      14,
+      22
+    ],
+    "cooldown": 20.0,
+    "groupId": 204,
+    "id": 204059,
+    "skillAnimationName": "Attack13-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202024,
+    "buffId": [
+      14,
+      22
+    ],
+    "cooldown": 20.0,
+    "groupId": 204,
+    "id": 204060,
+    "skillAnimationName": "Attack14-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "comboType": 4,
+    "comboValue": 204062,
+    "cooldown": 40.0,
+    "groupId": 204,
+    "id": 204061,
+    "skillAnimationName": "BackStep",
+    "skillType": 3,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202012,
+    "buffId": [
+      14,
+      22
+    ],
+    "groupId": 204,
+    "hitSoundName": "event:/Monsters/Common/Minigame/Action/Boss002/Boss002_Attack_10_Exp",
+    "id": 204062,
+    "skillAnimationName": "Attack12",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "comboType": 4,
+    "comboValue": 204064,
+    "cooldown": 40.0,
+    "groupId": 204,
+    "id": 204063,
+    "skillAnimationName": "BackStep",
+    "skillType": 3,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202014,
+    "buffId": [
+      14,
+      22
+    ],
+    "groupId": 204,
+    "id": 204064,
+    "skillAnimationName": "Attack15",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "comboType": 4,
+    "comboValue": 204066,
+    "cooldown": 40.0,
+    "groupId": 204,
+    "id": 204065,
+    "skillAnimationName": "BackStep",
+    "skillType": 3,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202023,
+    "buffId": [
+      14
+    ],
+    "groupId": 204,
+    "id": 204066,
+    "skillAnimationName": "Attack13",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "comboType": 4,
+    "comboValue": 204068,
+    "cooldown": 40.0,
+    "groupId": 204,
+    "id": 204067,
+    "skillAnimationName": "BackStep",
+    "skillType": 3,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202024,
+    "buffId": [
+      14
+    ],
+    "groupId": 204,
+    "id": 204068,
+    "skillAnimationName": "Attack14",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202016,
+    "buffId": [
+      14,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 204070,
+    "cooldown": 25.0,
+    "groupId": 204,
+    "hitSoundName": "event:/Monsters/Common/Minigame/Action/Boss002/Boss002_Attack_10_Exp",
+    "id": 204069,
+    "skillAnimationName": "Attack10",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202018,
+    "buffId": [
+      14,
+      22
+    ],
+    "groupId": 204,
+    "hitSoundName": "event:/Monsters/Common/Minigame/Action/Boss002/Boss002_Attack_10_Exp",
+    "id": 204070,
+    "skillAnimationName": "Attack11",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "comboType": 4,
+    "comboValue": 204072,
+    "cooldown": 40.0,
+    "groupId": 204,
+    "id": 204071,
+    "skillAnimationName": "BackStep",
+    "skillType": 3,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202014,
+    "buffId": [
+      14,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 204073,
+    "groupId": 204,
+    "id": 204072,
+    "skillAnimationName": "Attack15",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202015,
+    "buffId": [
+      14,
+      22
+    ],
+    "groupId": 204,
+    "id": 204073,
+    "skillAnimationName": "Attack16",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "comboType": 4,
+    "comboValue": 204075,
+    "cooldown": 40.0,
+    "groupId": 204,
+    "id": 204074,
+    "skillAnimationName": "BackStep",
+    "skillType": 3,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202024,
+    "buffId": [
+      14,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 204076,
+    "groupId": 204,
+    "id": 204075,
+    "skillAnimationName": "Attack14-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "comboType": 4,
+    "comboValue": 204077,
+    "cooldown": 40.0,
+    "groupId": 204,
+    "id": 204076,
+    "skillAnimationName": "BackStep",
+    "skillType": 3,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202012,
+    "buffId": [
+      14,
+      22
+    ],
+    "groupId": 204,
+    "hitSoundName": "event:/Monsters/Common/Minigame/Action/Boss002/Boss002_Attack_10_Exp",
+    "id": 204077,
+    "skillAnimationName": "Attack12",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "comboType": 4,
+    "comboValue": 204079,
+    "cooldown": 40.0,
+    "groupId": 204,
+    "id": 204078,
+    "skillAnimationName": "BackStep",
+    "skillType": 3,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202023,
+    "buffId": [
+      14,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 204080,
+    "groupId": 204,
+    "id": 204079,
+    "skillAnimationName": "Attack13-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202025,
+    "buffId": [
+      15,
+      22
+    ],
+    "groupId": 204,
+    "id": 204080,
+    "skillAnimationName": "Attack17-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202014,
+    "buffId": [
+      14,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 204082,
+    "cooldown": 30.0,
+    "groupId": 204,
+    "id": 204081,
+    "skillAnimationName": "Attack15",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202025,
+    "buffId": [
+      15,
+      22
+    ],
+    "groupId": 204,
+    "id": 204082,
+    "skillAnimationName": "Attack17-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202006,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 204084,
+    "cooldown": 30.0,
+    "groupId": 204,
+    "id": 204083,
+    "skillAnimationName": "Attack3",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202018,
+    "buffId": [
+      14,
+      22
+    ],
+    "groupId": 204,
+    "hitSoundName": "event:/Monsters/Common/Minigame/Action/Boss002/Boss002_Attack_10_Exp",
+    "id": 204084,
+    "skillAnimationName": "Attack11",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202004,
+    "buffId": [
+      13
+    ],
+    "comboType": 4,
+    "comboValue": 204086,
+    "groupId": 204,
+    "id": 204085,
+    "skillAnimationName": "Attack4",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202016,
+    "buffId": [
+      14,
+      22
+    ],
+    "cooldown": 30.0,
+    "groupId": 204,
+    "hitSoundName": "event:/Monsters/Common/Minigame/Action/Boss002/Boss002_Attack_10_Exp",
+    "id": 204086,
+    "skillAnimationName": "Attack10",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202025,
+    "buffId": [
+      15,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 204088,
+    "groupId": 204,
+    "id": 204087,
+    "skillAnimationName": "Attack17-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202009,
+    "buffId": [
+      13,
+      22
+    ],
+    "comboType": 4,
+    "comboValue": 204089,
+    "cooldown": 25.0,
+    "groupId": 204,
+    "id": 204088,
+    "skillAnimationName": "Attack17",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  },
+  {
+    "attackId": 202025,
+    "buffId": [
+      15,
+      22
+    ],
+    "groupId": 204,
+    "id": 204089,
+    "skillAnimationName": "Attack17-2",
+    "skillType": 1,
+    "skillTypeValue": [
+      0.0
+    ]
+  }
+]

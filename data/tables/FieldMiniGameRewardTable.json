@@ -1,0 +1,2018 @@
+[
+  {
+    "groupId": 1,
+    "id": 1,
+    "point": 1000,
+    "rewardCount": [
+      60
+    ],
+    "rewardId": [
+      2005
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 1,
+    "id": 2,
+    "point": 1500,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 1,
+    "id": 3,
+    "point": 2000,
+    "rewardCount": [
+      60
+    ],
+    "rewardId": [
+      2005
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 1,
+    "id": 4,
+    "point": 2500,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 1,
+    "id": 5,
+    "point": 3000,
+    "rewardCount": [
+      60
+    ],
+    "rewardId": [
+      2005
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 1,
+    "id": 6,
+    "point": 3500,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 1,
+    "id": 7,
+    "point": 4000,
+    "rewardCount": [
+      60
+    ],
+    "rewardId": [
+      2005
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 1,
+    "id": 8,
+    "point": 4500,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 1,
+    "id": 9,
+    "point": 5000,
+    "rewardCount": [
+      60
+    ],
+    "rewardId": [
+      2005
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 1,
+    "id": 10,
+    "point": 5500,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 1,
+    "id": 11,
+    "point": 6000,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 1,
+    "id": 12,
+    "point": 6500,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 2,
+    "id": 1,
+    "point": 2000,
+    "rewardCount": [
+      60
+    ],
+    "rewardId": [
+      2025
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 2,
+    "id": 2,
+    "point": 2500,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 2,
+    "id": 3,
+    "point": 3000,
+    "rewardCount": [
+      60
+    ],
+    "rewardId": [
+      2025
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 2,
+    "id": 4,
+    "point": 3500,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 2,
+    "id": 5,
+    "point": 4000,
+    "rewardCount": [
+      60
+    ],
+    "rewardId": [
+      2025
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 2,
+    "id": 6,
+    "point": 4500,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 2,
+    "id": 7,
+    "point": 5000,
+    "rewardCount": [
+      60
+    ],
+    "rewardId": [
+      2025
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 2,
+    "id": 8,
+    "point": 5500,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 2,
+    "id": 9,
+    "point": 6000,
+    "rewardCount": [
+      60
+    ],
+    "rewardId": [
+      2025
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 2,
+    "id": 10,
+    "point": 7000,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 2,
+    "id": 11,
+    "point": 8000,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 2,
+    "id": 12,
+    "point": 9000,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 3,
+    "id": 1,
+    "point": 1000,
+    "rewardCount": [
+      60
+    ],
+    "rewardId": [
+      2007
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 3,
+    "id": 2,
+    "point": 1500,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 3,
+    "id": 3,
+    "point": 2000,
+    "rewardCount": [
+      60
+    ],
+    "rewardId": [
+      2007
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 3,
+    "id": 4,
+    "point": 2200,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 3,
+    "id": 5,
+    "point": 2400,
+    "rewardCount": [
+      60
+    ],
+    "rewardId": [
+      2007
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 3,
+    "id": 6,
+    "point": 2600,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 3,
+    "id": 7,
+    "point": 2800,
+    "rewardCount": [
+      60
+    ],
+    "rewardId": [
+      2007
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 3,
+    "id": 8,
+    "point": 3000,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 3,
+    "id": 9,
+    "point": 3200,
+    "rewardCount": [
+      60
+    ],
+    "rewardId": [
+      2007
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 3,
+    "id": 10,
+    "point": 3400,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 3,
+    "id": 11,
+    "point": 3600,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 3,
+    "id": 12,
+    "point": 3800,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 4,
+    "id": 1,
+    "point": 1000,
+    "rewardCount": [
+      60
+    ],
+    "rewardId": [
+      2008
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 4,
+    "id": 2,
+    "point": 2000,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 4,
+    "id": 3,
+    "point": 3000,
+    "rewardCount": [
+      60
+    ],
+    "rewardId": [
+      2008
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 4,
+    "id": 4,
+    "point": 3500,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 4,
+    "id": 5,
+    "point": 4000,
+    "rewardCount": [
+      60
+    ],
+    "rewardId": [
+      2008
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 4,
+    "id": 6,
+    "point": 4500,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 4,
+    "id": 7,
+    "point": 5000,
+    "rewardCount": [
+      60
+    ],
+    "rewardId": [
+      2008
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 4,
+    "id": 8,
+    "point": 5500,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 4,
+    "id": 9,
+    "point": 6000,
+    "rewardCount": [
+      60
+    ],
+    "rewardId": [
+      2008
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 4,
+    "id": 10,
+    "point": 6500,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 4,
+    "id": 11,
+    "point": 7000,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 4,
+    "id": 12,
+    "point": 8000,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 6,
+    "id": 1,
+    "point": 500,
+    "rewardCount": [
+      60
+    ],
+    "rewardId": [
+      2010
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 6,
+    "id": 2,
+    "point": 1000,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 6,
+    "id": 3,
+    "point": 1500,
+    "rewardCount": [
+      60
+    ],
+    "rewardId": [
+      2010
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 6,
+    "id": 4,
+    "point": 2000,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 6,
+    "id": 5,
+    "point": 2500,
+    "rewardCount": [
+      60
+    ],
+    "rewardId": [
+      2010
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 6,
+    "id": 6,
+    "point": 3000,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 6,
+    "id": 7,
+    "point": 3500,
+    "rewardCount": [
+      60
+    ],
+    "rewardId": [
+      2010
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 6,
+    "id": 8,
+    "point": 4000,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 6,
+    "id": 9,
+    "point": 4500,
+    "rewardCount": [
+      60
+    ],
+    "rewardId": [
+      2010
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 6,
+    "id": 10,
+    "point": 5000,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 6,
+    "id": 11,
+    "point": 6000,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 6,
+    "id": 12,
+    "point": 7000,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 8,
+    "id": 1,
+    "point": 4000,
+    "rewardCount": [
+      60
+    ],
+    "rewardId": [
+      2013
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 8,
+    "id": 2,
+    "point": 4500,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 8,
+    "id": 3,
+    "point": 5000,
+    "rewardCount": [
+      60
+    ],
+    "rewardId": [
+      2013
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 8,
+    "id": 4,
+    "point": 5500,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 8,
+    "id": 5,
+    "point": 6000,
+    "rewardCount": [
+      60
+    ],
+    "rewardId": [
+      2013
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 8,
+    "id": 6,
+    "point": 6500,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 8,
+    "id": 7,
+    "point": 7000,
+    "rewardCount": [
+      60
+    ],
+    "rewardId": [
+      2013
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 8,
+    "id": 8,
+    "point": 7500,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 8,
+    "id": 9,
+    "point": 8000,
+    "rewardCount": [
+      60
+    ],
+    "rewardId": [
+      2013
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 8,
+    "id": 10,
+    "point": 8500,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 8,
+    "id": 11,
+    "point": 9000,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 8,
+    "id": 12,
+    "point": 9500,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 11,
+    "id": 1,
+    "point": 1000,
+    "rewardCount": [
+      60
+    ],
+    "rewardId": [
+      2017
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 11,
+    "id": 2,
+    "point": 2000,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 11,
+    "id": 3,
+    "point": 3000,
+    "rewardCount": [
+      60
+    ],
+    "rewardId": [
+      2017
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 11,
+    "id": 4,
+    "point": 4000,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 11,
+    "id": 5,
+    "point": 5000,
+    "rewardCount": [
+      60
+    ],
+    "rewardId": [
+      2017
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 11,
+    "id": 6,
+    "point": 6000,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 11,
+    "id": 7,
+    "point": 7000,
+    "rewardCount": [
+      60
+    ],
+    "rewardId": [
+      2017
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 11,
+    "id": 8,
+    "point": 8000,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 11,
+    "id": 9,
+    "point": 9000,
+    "rewardCount": [
+      60
+    ],
+    "rewardId": [
+      2017
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 11,
+    "id": 10,
+    "point": 10000,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 11,
+    "id": 11,
+    "point": 10500,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 11,
+    "id": 12,
+    "point": 11000,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 12,
+    "id": 1,
+    "point": 47,
+    "rewardCount": [
+      60
+    ],
+    "rewardId": [
+      2019
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 12,
+    "id": 2,
+    "point": 45,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 12,
+    "id": 3,
+    "point": 43,
+    "rewardCount": [
+      60
+    ],
+    "rewardId": [
+      2019
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 12,
+    "id": 4,
+    "point": 41,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 12,
+    "id": 5,
+    "point": 39,
+    "rewardCount": [
+      60
+    ],
+    "rewardId": [
+      2019
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 12,
+    "id": 6,
+    "point": 37,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 12,
+    "id": 7,
+    "point": 35,
+    "rewardCount": [
+      60
+    ],
+    "rewardId": [
+      2019
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 12,
+    "id": 8,
+    "point": 33,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 12,
+    "id": 9,
+    "point": 31,
+    "rewardCount": [
+      60
+    ],
+    "rewardId": [
+      2019
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 12,
+    "id": 10,
+    "point": 29,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 12,
+    "id": 11,
+    "point": 27,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 12,
+    "id": 12,
+    "point": 25,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 13,
+    "id": 1,
+    "point": 1000,
+    "rewardCount": [
+      120
+    ],
+    "rewardId": [
+      2020
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 13,
+    "id": 2,
+    "point": 1500,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 13,
+    "id": 3,
+    "point": 2000,
+    "rewardCount": [
+      120
+    ],
+    "rewardId": [
+      2020
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 13,
+    "id": 4,
+    "point": 2500,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 13,
+    "id": 5,
+    "point": 3000,
+    "rewardCount": [
+      120
+    ],
+    "rewardId": [
+      2020
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 13,
+    "id": 6,
+    "point": 3500,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 13,
+    "id": 7,
+    "point": 4000,
+    "rewardCount": [
+      120
+    ],
+    "rewardId": [
+      2020
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 13,
+    "id": 8,
+    "point": 4500,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 13,
+    "id": 9,
+    "point": 5000,
+    "rewardCount": [
+      120
+    ],
+    "rewardId": [
+      2020
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 13,
+    "id": 10,
+    "point": 5500,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 13,
+    "id": 11,
+    "point": 6000,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 13,
+    "id": 12,
+    "point": 6500,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 14,
+    "id": 1,
+    "point": 5,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 14,
+    "id": 2,
+    "point": 7,
+    "rewardCount": [
+      75
+    ],
+    "rewardId": [
+      2022
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 14,
+    "id": 3,
+    "point": 9,
+    "rewardCount": [
+      3
+    ],
+    "rewardId": [
+      2015
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 14,
+    "id": 4,
+    "point": 11,
+    "rewardCount": [
+      75
+    ],
+    "rewardId": [
+      2022
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 14,
+    "id": 5,
+    "point": 13,
+    "rewardCount": [
+      3
+    ],
+    "rewardId": [
+      2015
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 14,
+    "id": 6,
+    "point": 15,
+    "rewardCount": [
+      75
+    ],
+    "rewardId": [
+      2022
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 14,
+    "id": 7,
+    "point": 17,
+    "rewardCount": [
+      3
+    ],
+    "rewardId": [
+      2015
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 14,
+    "id": 8,
+    "point": 19,
+    "rewardCount": [
+      75
+    ],
+    "rewardId": [
+      2022
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 14,
+    "id": 9,
+    "point": 21,
+    "rewardCount": [
+      4
+    ],
+    "rewardId": [
+      2015
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 14,
+    "id": 10,
+    "point": 23,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 14,
+    "id": 11,
+    "point": 25,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 14,
+    "id": 12,
+    "point": 27,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 15,
+    "id": 1,
+    "point": 1000,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 15,
+    "id": 2,
+    "point": 1500,
+    "rewardCount": [
+      60
+    ],
+    "rewardId": [
+      2023
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 15,
+    "id": 3,
+    "point": 2000,
+    "rewardCount": [
+      3
+    ],
+    "rewardId": [
+      2015
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 15,
+    "id": 4,
+    "point": 2500,
+    "rewardCount": [
+      70
+    ],
+    "rewardId": [
+      2023
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 15,
+    "id": 5,
+    "point": 3000,
+    "rewardCount": [
+      3
+    ],
+    "rewardId": [
+      2015
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 15,
+    "id": 6,
+    "point": 3500,
+    "rewardCount": [
+      80
+    ],
+    "rewardId": [
+      2023
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 15,
+    "id": 7,
+    "point": 4000,
+    "rewardCount": [
+      3
+    ],
+    "rewardId": [
+      2015
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 15,
+    "id": 8,
+    "point": 4500,
+    "rewardCount": [
+      90
+    ],
+    "rewardId": [
+      2023
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 15,
+    "id": 9,
+    "point": 5000,
+    "rewardCount": [
+      4
+    ],
+    "rewardId": [
+      2015
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 15,
+    "id": 10,
+    "point": 5500,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 15,
+    "id": 11,
+    "point": 6000,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 15,
+    "id": 12,
+    "point": 6500,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 17,
+    "id": 1,
+    "point": 1000,
+    "rewardCount": [
+      60
+    ],
+    "rewardId": [
+      2024
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 17,
+    "id": 2,
+    "point": 2000,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 17,
+    "id": 3,
+    "point": 3000,
+    "rewardCount": [
+      60
+    ],
+    "rewardId": [
+      2024
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 17,
+    "id": 4,
+    "point": 3500,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 17,
+    "id": 5,
+    "point": 4000,
+    "rewardCount": [
+      60
+    ],
+    "rewardId": [
+      2024
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 17,
+    "id": 6,
+    "point": 4500,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 17,
+    "id": 7,
+    "point": 5000,
+    "rewardCount": [
+      60
+    ],
+    "rewardId": [
+      2024
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 17,
+    "id": 8,
+    "point": 5500,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 17,
+    "id": 9,
+    "point": 6000,
+    "rewardCount": [
+      60
+    ],
+    "rewardId": [
+      2024
+    ],
+    "rewardType": [
+      8
+    ]
+  },
+  {
+    "groupId": 17,
+    "id": 10,
+    "point": 6500,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 17,
+    "id": 11,
+    "point": 7000,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  },
+  {
+    "groupId": 17,
+    "id": 12,
+    "point": 8000,
+    "rewardCount": [
+      10000
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      4
+    ]
+  }
+]

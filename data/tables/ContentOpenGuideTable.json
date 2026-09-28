@@ -1,0 +1,914 @@
+[
+  {
+    "id": 1103,
+    "magicValue": 13004,
+    "openDescLocalTextId": 420031,
+    "openIconName": "icon_unlock_pack",
+    "openTitleLocalTextId": 420008,
+    "type": 1
+  },
+  {
+    "id": 1104,
+    "magicValue": 1,
+    "openDescLocalTextId": 420063,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 2
+  },
+  {
+    "id": 1105,
+    "magicValue": 1,
+    "openDescLocalTextId": 420095,
+    "openIconName": "icon_unlock_quest_npc",
+    "openTitleLocalTextId": 420010,
+    "type": 2
+  },
+  {
+    "id": 1106,
+    "magicValue": 1,
+    "openDescLocalTextId": 420047,
+    "openIconName": "icon_unlock_quest_today",
+    "openTitleLocalTextId": 420011,
+    "type": 2
+  },
+  {
+    "id": 1201,
+    "magicValue": 1,
+    "openDescLocalTextId": 420079,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 3
+  },
+  {
+    "id": 1202,
+    "magicValue": 1,
+    "openDescLocalTextId": 420025,
+    "openIconName": "icon_unlock_hunt",
+    "openTitleLocalTextId": 420012,
+    "type": 3
+  },
+  {
+    "id": 1301,
+    "magicValue": 1,
+    "openDescLocalTextId": 420026,
+    "openIconName": "icon_unlock_hunt",
+    "openTitleLocalTextId": 420012,
+    "type": 4
+  },
+  {
+    "id": 2103,
+    "magicValue": 2,
+    "openDescLocalTextId": 420064,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 2
+  },
+  {
+    "id": 2104,
+    "magicValue": 2,
+    "openDescLocalTextId": 420096,
+    "openIconName": "icon_unlock_quest_npc",
+    "openTitleLocalTextId": 420010,
+    "type": 2
+  },
+  {
+    "id": 2105,
+    "magicValue": 2,
+    "openDescLocalTextId": 420048,
+    "openIconName": "icon_unlock_quest_today",
+    "openTitleLocalTextId": 420011,
+    "type": 2
+  },
+  {
+    "id": 2201,
+    "magicValue": 2,
+    "openDescLocalTextId": 420080,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 3
+  },
+  {
+    "id": 2202,
+    "magicValue": 2,
+    "openDescLocalTextId": 420025,
+    "openIconName": "icon_unlock_hunt",
+    "openTitleLocalTextId": 420012,
+    "type": 3
+  },
+  {
+    "id": 2301,
+    "magicValue": 2,
+    "openDescLocalTextId": 420026,
+    "openIconName": "icon_unlock_hunt",
+    "openTitleLocalTextId": 420012,
+    "type": 4
+  },
+  {
+    "id": 3104,
+    "magicValue": 13001,
+    "openDescLocalTextId": 420035,
+    "openIconName": "icon_unlock_pack",
+    "openTitleLocalTextId": 420008,
+    "type": 1
+  },
+  {
+    "id": 3105,
+    "magicValue": 3,
+    "openDescLocalTextId": 420066,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 2
+  },
+  {
+    "id": 3106,
+    "magicValue": 3,
+    "openDescLocalTextId": 420097,
+    "openIconName": "icon_unlock_quest_npc",
+    "openTitleLocalTextId": 420010,
+    "type": 2
+  },
+  {
+    "id": 3107,
+    "magicValue": 3,
+    "openDescLocalTextId": 420050,
+    "openIconName": "icon_unlock_quest_today",
+    "openTitleLocalTextId": 420011,
+    "type": 2
+  },
+  {
+    "id": 3108,
+    "magicValue": 14,
+    "openDescLocalTextId": 420099,
+    "openIconName": "icon_unlock_pack",
+    "openTitleLocalTextId": 420008,
+    "type": 1
+  },
+  {
+    "id": 3201,
+    "magicValue": 3,
+    "openDescLocalTextId": 420082,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 3
+  },
+  {
+    "id": 3202,
+    "magicValue": 3,
+    "openDescLocalTextId": 420025,
+    "openIconName": "icon_unlock_hunt",
+    "openTitleLocalTextId": 420012,
+    "type": 3
+  },
+  {
+    "id": 3203,
+    "magicValue": 3,
+    "openDescLocalTextId": 420026,
+    "openIconName": "icon_unlock_hunt",
+    "openTitleLocalTextId": 420012,
+    "type": 4
+  },
+  {
+    "id": 4102,
+    "magicValue": 4,
+    "openDescLocalTextId": 420068,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 2
+  },
+  {
+    "id": 4103,
+    "magicValue": 4,
+    "openDescLocalTextId": 420098,
+    "openIconName": "icon_unlock_quest_npc",
+    "openTitleLocalTextId": 420010,
+    "type": 2
+  },
+  {
+    "id": 4104,
+    "magicValue": 4,
+    "openDescLocalTextId": 420052,
+    "openIconName": "icon_unlock_quest_today",
+    "openTitleLocalTextId": 420011,
+    "type": 2
+  },
+  {
+    "id": 4201,
+    "magicValue": 4,
+    "openDescLocalTextId": 420084,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 3
+  },
+  {
+    "id": 4202,
+    "magicValue": 4,
+    "openDescLocalTextId": 420025,
+    "openIconName": "icon_unlock_hunt",
+    "openTitleLocalTextId": 420012,
+    "type": 3
+  },
+  {
+    "id": 4301,
+    "magicValue": 4,
+    "openDescLocalTextId": 420026,
+    "openIconName": "icon_unlock_hunt",
+    "openTitleLocalTextId": 420012,
+    "type": 4
+  },
+  {
+    "id": 5102,
+    "magicValue": 13003,
+    "openDescLocalTextId": 420039,
+    "openIconName": "icon_unlock_pack",
+    "openTitleLocalTextId": 420008,
+    "type": 1
+  },
+  {
+    "id": 5103,
+    "magicValue": 5,
+    "openDescLocalTextId": 420069,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 2
+  },
+  {
+    "id": 5104,
+    "magicValue": 5,
+    "openDescLocalTextId": 420053,
+    "openIconName": "icon_unlock_quest_today",
+    "openTitleLocalTextId": 420011,
+    "type": 2
+  },
+  {
+    "id": 5201,
+    "magicValue": 5,
+    "openDescLocalTextId": 420085,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 3
+  },
+  {
+    "id": 5202,
+    "magicValue": 5,
+    "openDescLocalTextId": 420025,
+    "openIconName": "icon_unlock_hunt",
+    "openTitleLocalTextId": 420012,
+    "type": 3
+  },
+  {
+    "id": 5301,
+    "magicValue": 5,
+    "openDescLocalTextId": 420026,
+    "openIconName": "icon_unlock_hunt",
+    "openTitleLocalTextId": 420012,
+    "type": 4
+  },
+  {
+    "id": 6102,
+    "magicValue": 6,
+    "openDescLocalTextId": 420071,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 2
+  },
+  {
+    "id": 6103,
+    "magicValue": 6,
+    "openDescLocalTextId": 420055,
+    "openIconName": "icon_unlock_quest_today",
+    "openTitleLocalTextId": 420011,
+    "type": 2
+  },
+  {
+    "id": 6201,
+    "magicValue": 6,
+    "openDescLocalTextId": 420087,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 3
+  },
+  {
+    "id": 6202,
+    "magicValue": 6,
+    "openDescLocalTextId": 420025,
+    "openIconName": "icon_unlock_hunt",
+    "openTitleLocalTextId": 420012,
+    "type": 3
+  },
+  {
+    "id": 6301,
+    "magicValue": 6,
+    "openDescLocalTextId": 420026,
+    "openIconName": "icon_unlock_hunt",
+    "openTitleLocalTextId": 420012,
+    "type": 4
+  },
+  {
+    "id": 7102,
+    "magicValue": 7,
+    "openDescLocalTextId": 420072,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 2
+  },
+  {
+    "id": 7103,
+    "magicValue": 7,
+    "openDescLocalTextId": 420056,
+    "openIconName": "icon_unlock_quest_today",
+    "openTitleLocalTextId": 420011,
+    "type": 2
+  },
+  {
+    "id": 7201,
+    "magicValue": 7,
+    "openDescLocalTextId": 420088,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 3
+  },
+  {
+    "id": 7202,
+    "magicValue": 7,
+    "openDescLocalTextId": 420025,
+    "openIconName": "icon_unlock_hunt",
+    "openTitleLocalTextId": 420012,
+    "type": 3
+  },
+  {
+    "id": 7301,
+    "magicValue": 7,
+    "openDescLocalTextId": 420026,
+    "openIconName": "icon_unlock_hunt",
+    "openTitleLocalTextId": 420012,
+    "type": 4
+  },
+  {
+    "id": 8101,
+    "magicValue": 8,
+    "openDescLocalTextId": 420073,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 2
+  },
+  {
+    "id": 8102,
+    "magicValue": 8,
+    "openDescLocalTextId": 420057,
+    "openIconName": "icon_unlock_quest_today",
+    "openTitleLocalTextId": 420011,
+    "type": 2
+  },
+  {
+    "id": 8201,
+    "magicValue": 8,
+    "openDescLocalTextId": 420089,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 3
+  },
+  {
+    "id": 8202,
+    "magicValue": 8,
+    "openDescLocalTextId": 420025,
+    "openIconName": "icon_unlock_hunt",
+    "openTitleLocalTextId": 420012,
+    "type": 3
+  },
+  {
+    "id": 8301,
+    "magicValue": 8,
+    "openDescLocalTextId": 420026,
+    "openIconName": "icon_unlock_hunt",
+    "openTitleLocalTextId": 420012,
+    "type": 4
+  },
+  {
+    "id": 9101,
+    "magicValue": 9,
+    "openDescLocalTextId": 420076,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 2
+  },
+  {
+    "id": 9102,
+    "magicValue": 9,
+    "openDescLocalTextId": 420060,
+    "openIconName": "icon_unlock_quest_today",
+    "openTitleLocalTextId": 420011,
+    "type": 2
+  },
+  {
+    "id": 9201,
+    "magicValue": 9,
+    "openDescLocalTextId": 420092,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 3
+  },
+  {
+    "id": 9202,
+    "magicValue": 9,
+    "openDescLocalTextId": 420025,
+    "openIconName": "icon_unlock_hunt",
+    "openTitleLocalTextId": 420012,
+    "type": 3
+  },
+  {
+    "id": 9301,
+    "magicValue": 9,
+    "openDescLocalTextId": 420026,
+    "openIconName": "icon_unlock_hunt",
+    "openTitleLocalTextId": 420012,
+    "type": 4
+  },
+  {
+    "id": 10101,
+    "magicValue": 10,
+    "openDescLocalTextId": 420077,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 2
+  },
+  {
+    "id": 10102,
+    "magicValue": 10,
+    "openDescLocalTextId": 420061,
+    "openIconName": "icon_unlock_quest_today",
+    "openTitleLocalTextId": 420011,
+    "type": 2
+  },
+  {
+    "id": 10201,
+    "magicValue": 10,
+    "openDescLocalTextId": 420093,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 3
+  },
+  {
+    "id": 10202,
+    "magicValue": 10,
+    "openDescLocalTextId": 420025,
+    "openIconName": "icon_unlock_hunt",
+    "openTitleLocalTextId": 420012,
+    "type": 3
+  },
+  {
+    "id": 10301,
+    "magicValue": 10,
+    "openDescLocalTextId": 420026,
+    "openIconName": "icon_unlock_hunt",
+    "openTitleLocalTextId": 420012,
+    "type": 4
+  },
+  {
+    "id": 11101,
+    "magicValue": 11,
+    "openDescLocalTextId": 420078,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 2
+  },
+  {
+    "id": 11102,
+    "magicValue": 11,
+    "openDescLocalTextId": 420062,
+    "openIconName": "icon_unlock_quest_today",
+    "openTitleLocalTextId": 420011,
+    "type": 2
+  },
+  {
+    "id": 11201,
+    "magicValue": 11,
+    "openDescLocalTextId": 420094,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 3
+  },
+  {
+    "id": 12101,
+    "magicValue": 12,
+    "openDescLocalTextId": 420100,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 2
+  },
+  {
+    "id": 12102,
+    "magicValue": 12,
+    "openDescLocalTextId": 420101,
+    "openIconName": "icon_unlock_quest_today",
+    "openTitleLocalTextId": 420011,
+    "type": 2
+  },
+  {
+    "id": 12201,
+    "magicValue": 12,
+    "openDescLocalTextId": 420102,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 3
+  },
+  {
+    "id": 13101,
+    "magicValue": 13,
+    "openDescLocalTextId": 420103,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 2
+  },
+  {
+    "id": 13102,
+    "magicValue": 13,
+    "openDescLocalTextId": 420104,
+    "openIconName": "icon_unlock_quest_today",
+    "openTitleLocalTextId": 420011,
+    "type": 2
+  },
+  {
+    "id": 13201,
+    "magicValue": 13,
+    "openDescLocalTextId": 420105,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 3
+  },
+  {
+    "id": 14101,
+    "magicValue": 14,
+    "openDescLocalTextId": 420106,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 2
+  },
+  {
+    "id": 14102,
+    "magicValue": 14,
+    "openDescLocalTextId": 420107,
+    "openIconName": "icon_unlock_quest_today",
+    "openTitleLocalTextId": 420011,
+    "type": 2
+  },
+  {
+    "id": 14201,
+    "magicValue": 14,
+    "openDescLocalTextId": 420108,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 3
+  },
+  {
+    "id": 15101,
+    "magicValue": 15,
+    "openDescLocalTextId": 420115,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 2
+  },
+  {
+    "id": 15201,
+    "magicValue": 15,
+    "openDescLocalTextId": 420116,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 3
+  },
+  {
+    "id": 16101,
+    "magicValue": 16,
+    "openDescLocalTextId": 420117,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 2
+  },
+  {
+    "id": 16201,
+    "magicValue": 16,
+    "openDescLocalTextId": 420118,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 3
+  },
+  {
+    "id": 17101,
+    "magicValue": 17,
+    "openDescLocalTextId": 420119,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 2
+  },
+  {
+    "id": 17201,
+    "magicValue": 17,
+    "openDescLocalTextId": 420120,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 3
+  },
+  {
+    "id": 18101,
+    "magicValue": 18,
+    "openDescLocalTextId": 420121,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 2
+  },
+  {
+    "id": 18201,
+    "magicValue": 18,
+    "openDescLocalTextId": 420122,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 3
+  },
+  {
+    "id": 1001101,
+    "magicValue": 1001,
+    "openDescLocalTextId": 420024,
+    "openIconName": "icon_unlock_quest_today",
+    "openTitleLocalTextId": 420011,
+    "type": 2
+  },
+  {
+    "id": 1001102,
+    "magicValue": 1001,
+    "openDescLocalTextId": 420021,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 2
+  },
+  {
+    "id": 1001201,
+    "magicValue": 1001,
+    "openDescLocalTextId": 420022,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 3
+  },
+  {
+    "id": 1002101,
+    "magicValue": 1002,
+    "openDescLocalTextId": 420024,
+    "openIconName": "icon_unlock_quest_today",
+    "openTitleLocalTextId": 420011,
+    "type": 2
+  },
+  {
+    "id": 1002102,
+    "magicValue": 1002,
+    "openDescLocalTextId": 420023,
+    "openIconName": "icon_unlock_quest_npc",
+    "openTitleLocalTextId": 420010,
+    "type": 2
+  },
+  {
+    "id": 1002103,
+    "magicValue": 1002,
+    "openDescLocalTextId": 420021,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 2
+  },
+  {
+    "id": 1002201,
+    "magicValue": 1002,
+    "openDescLocalTextId": 420022,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 3
+  },
+  {
+    "id": 1003101,
+    "magicValue": 1003,
+    "openDescLocalTextId": 420024,
+    "openIconName": "icon_unlock_quest_today",
+    "openTitleLocalTextId": 420011,
+    "type": 2
+  },
+  {
+    "id": 1003102,
+    "magicValue": 1003,
+    "openDescLocalTextId": 420021,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 2
+  },
+  {
+    "id": 1003201,
+    "magicValue": 1003,
+    "openDescLocalTextId": 420022,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 3
+  },
+  {
+    "id": 1004101,
+    "magicValue": 1004,
+    "openDescLocalTextId": 420024,
+    "openIconName": "icon_unlock_quest_today",
+    "openTitleLocalTextId": 420011,
+    "type": 2
+  },
+  {
+    "id": 1004102,
+    "magicValue": 1004,
+    "openDescLocalTextId": 420021,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 2
+  },
+  {
+    "id": 1004201,
+    "magicValue": 1004,
+    "openDescLocalTextId": 420022,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 3
+  },
+  {
+    "id": 1005101,
+    "magicValue": 1005,
+    "openDescLocalTextId": 420024,
+    "openIconName": "icon_unlock_quest_today",
+    "openTitleLocalTextId": 420011,
+    "type": 2
+  },
+  {
+    "id": 1005102,
+    "magicValue": 1005,
+    "openDescLocalTextId": 420021,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 2
+  },
+  {
+    "id": 1005201,
+    "magicValue": 1005,
+    "openDescLocalTextId": 420022,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 3
+  },
+  {
+    "id": 1006101,
+    "magicValue": 1006,
+    "openDescLocalTextId": 420024,
+    "openIconName": "icon_unlock_quest_today",
+    "openTitleLocalTextId": 420011,
+    "type": 2
+  },
+  {
+    "id": 1006102,
+    "magicValue": 1006,
+    "openDescLocalTextId": 420021,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 2
+  },
+  {
+    "id": 1006201,
+    "magicValue": 1006,
+    "openDescLocalTextId": 420022,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 3
+  },
+  {
+    "id": 1007101,
+    "magicValue": 1007,
+    "openDescLocalTextId": 420024,
+    "openIconName": "icon_unlock_quest_today",
+    "openTitleLocalTextId": 420011,
+    "type": 2
+  },
+  {
+    "id": 1007102,
+    "magicValue": 1007,
+    "openDescLocalTextId": 420021,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 2
+  },
+  {
+    "id": 1007201,
+    "magicValue": 1007,
+    "openDescLocalTextId": 420022,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 3
+  },
+  {
+    "id": 2001102,
+    "magicValue": 2001,
+    "openDescLocalTextId": 420021,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 2
+  },
+  {
+    "id": 2001201,
+    "magicValue": 2001,
+    "openDescLocalTextId": 420022,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 3
+  },
+  {
+    "id": 2002102,
+    "magicValue": 2002,
+    "openDescLocalTextId": 420021,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 2
+  },
+  {
+    "id": 2002201,
+    "magicValue": 2002,
+    "openDescLocalTextId": 420022,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 3
+  },
+  {
+    "id": 2003102,
+    "magicValue": 2003,
+    "openDescLocalTextId": 420021,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 2
+  },
+  {
+    "id": 2003201,
+    "magicValue": 2003,
+    "openDescLocalTextId": 420022,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 3
+  },
+  {
+    "id": 2005102,
+    "magicValue": 2005,
+    "openDescLocalTextId": 420021,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 2
+  },
+  {
+    "id": 2005201,
+    "magicValue": 2005,
+    "openDescLocalTextId": 420022,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 3
+  },
+  {
+    "id": 2007102,
+    "magicValue": 2007,
+    "openDescLocalTextId": 420021,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 2
+  },
+  {
+    "id": 2007201,
+    "magicValue": 2007,
+    "openDescLocalTextId": 420022,
+    "openIconName": "icon_unlock_quest_main",
+    "openTitleLocalTextId": 420009,
+    "type": 3
+  },
+  {
+    "id": 3002101,
+    "magicValue": 51,
+    "openDescLocalTextId": 420013,
+    "openIconName": "icon_unlock_event",
+    "openTitleLocalTextId": 420001,
+    "type": 1
+  },
+  {
+    "id": 3002106,
+    "magicValue": 101,
+    "openDescLocalTextId": 420018,
+    "openIconName": "icon_unlock_collection",
+    "openTitleLocalTextId": 420006,
+    "type": 1
+  },
+  {
+    "id": 3002111,
+    "magicValue": 11,
+    "openDescLocalTextId": 420303,
+    "openIconName": "icon_unlock_pack",
+    "openTitleLocalTextId": 420302,
+    "type": 1
+  },
+  {
+    "id": 3003101,
+    "magicValue": 9,
+    "openDescLocalTextId": 420301,
+    "openIconName": "icon_unlock_devil",
+    "openTitleLocalTextId": 420300,
+    "type": 2
+  }
+]

@@ -1,0 +1,16 @@
+pub mod pvp_battle_deck_info;
+pub mod pvp_battle_deck_save;
+pub mod pvp_battle_end;
+pub mod pvp_battle_history;
+pub mod pvp_battle_history_deck_info;
+pub mod pvp_battle_matching;
+pub mod pvp_battle_once_reward_info;
+pub mod pvp_battle_rank_user_detail;
+pub mod pvp_battle_ranking;
+pub mod pvp_battle_replay_info;
+pub mod pvp_battle_reset;
+pub mod pvp_battle_reward;
+pub mod pvp_battle_start;
+pub mod pvp_battle_user_info;
+pub mod pvp_contents_item_renew;
+pub mod pvp_season_reward;

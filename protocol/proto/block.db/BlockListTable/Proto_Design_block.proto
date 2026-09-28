@@ -1,0 +1,25 @@
+// Merged package: Proto.Design.block
+
+package Proto.Design.block;
+
+
+
+
+
+// From: block.db\BlockListTable\UnableChattingTable.proto
+message UnableChattingTable {
+  optional int32 Id = 1;
+  optional string unableChattingText = 2;
+}
+
+// From: block.db\BlockListTable\UnableNickNameTable.proto
+message UnableNickNameTable {
+  optional int32 id = 1;
+  optional string unableNickNameText = 2;
+}
+
+// From: block.db\BlockListTable\UnableWildChatTable.proto
+message UnableWildChatTable {
+  optional int32 Id = 1;
+  optional string unableWildChatText = 2;
+}

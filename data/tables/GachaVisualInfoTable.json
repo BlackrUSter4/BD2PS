@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "merchantIlustName": "illust_npc000004_1",
+    "merchantNameTextID": 33,
+    "merchantTalkTextID": 2546,
+    "type": 10,
+    "voiceResourceName": "Common/NPC000004/NPC000004_Gacha_1"
+  },
+  {
+    "id": 2,
+    "merchantIlustName": "illust_npc000005_2",
+    "merchantNameTextID": 32,
+    "merchantTalkTextID": 2545,
+    "type": 11,
+    "voiceResourceName": "Common/NPC000005/NPC000005_Gacha_1"
+  }
+]

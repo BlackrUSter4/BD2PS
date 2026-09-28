@@ -1,0 +1,7 @@
+[
+  { "detectionAngle": 90, "detectionDistance": 0.1, "distanceChase": 1, "distanceDefault": 1, "encounterAngle": 360, "encounterDistance": 1.6, "id": 1, "lasttimeChase": 1, "lv": 1, "moving": 2, "speedChase": 1, "speedDefault": 1, "timeChase": 1, "timeDefault": 1, "timeDiscovery": 1 },
+  { "detectionAngle": 90, "detectionDistance": 4, "distanceChase": 5, "distanceDefault": 3, "encounterAngle": 360, "encounterDistance": 1.4, "id": 101, "lasttimeChase": 1, "lv": 2, "moving": 1, "speedChase": 2, "speedDefault": 0.6, "timeChase": 4, "timeDefault": 2 },
+  { "detectionAngle": 90, "detectionDistance": 3, "distanceChase": 6, "distanceDefault": 4, "distanceRun": 10, "encounterAngle": 360, "encounterDistance": 1.4, "id": 9100, "lasttimeChase": 1, "lv": 1, "moving": 1, "speedChase": 4, "speedDefault": 2, "speedRun": 5.5, "timeChase": 4, "timeDefault": 2, "timeRun": 5 },
+  { "detectionAngle": 90, "detectionDistance": 4, "distanceChase": 1, "distanceDefault": 1, "encounterAngle": 360, "encounterDistance": 2.5, "id": 2, "lasttimeChase": 1, "lv": 1, "moving": 2, "speedChase": 1, "speedDefault": 1, "timeChase": 1, "timeDefault": 1, "timeDiscovery": 1 },
+  { "detectionAngle": 90, "detectionDistance": 4, "distanceChase": 1, "distanceDefault": 1, "encounterAngle": 360, "encounterDistance": 2.5, "id": 201, "lasttimeChase": 1, "lv": 30, "moving": 2, "speedChase": 1, "speedDefault": 1, "timeChase": 1, "timeDefault": 1, "timeDiscovery": 1 }
+]

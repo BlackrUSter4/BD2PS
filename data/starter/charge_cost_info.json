@@ -1,0 +1,95 @@
+{
+  "costTimeInfo": [
+    {
+      "lastChargeTime": 1761679400198,
+      "costItemInfo": {
+        "invenIndex": 0,
+        "id": 0,
+        "type": 15,
+        "count": 40,
+        "keepFlag": 0,
+        "timeValue": 0,
+        "pictorialbookInfo": null,
+        "expiryTime": 0,
+        "sortId": 0,
+        "useCount": 0
+      }
+    },
+    {
+      "lastChargeTime": 1761679400198,
+      "costItemInfo": {
+        "invenIndex": 0,
+        "id": 0,
+        "type": 21,
+        "count": 60,
+        "keepFlag": 0,
+        "timeValue": 0,
+        "pictorialbookInfo": null,
+        "expiryTime": 0,
+        "sortId": 0,
+        "useCount": 0
+      }
+    },
+    {
+      "lastChargeTime": 1761679400198,
+      "costItemInfo": {
+        "invenIndex": 0,
+        "id": 0,
+        "type": 30,
+        "count": 5,
+        "keepFlag": 0,
+        "timeValue": 0,
+        "pictorialbookInfo": null,
+        "expiryTime": 0,
+        "sortId": 0,
+        "useCount": 0
+      }
+    },
+    {
+      "lastChargeTime": 1761679400198,
+      "costItemInfo": {
+        "invenIndex": 0,
+        "id": 0,
+        "type": 32,
+        "count": 60,
+        "keepFlag": 0,
+        "timeValue": 0,
+        "pictorialbookInfo": null,
+        "expiryTime": 0,
+        "sortId": 0,
+        "useCount": 0
+      }
+    },
+    {
+      "lastChargeTime": 1761679400198,
+      "costItemInfo": {
+        "invenIndex": 0,
+        "id": 0,
+        "type": 35,
+        "count": 3,
+        "keepFlag": 0,
+        "timeValue": 0,
+        "pictorialbookInfo": null,
+        "expiryTime": 0,
+        "sortId": 0,
+        "useCount": 0
+      }
+    },
+    {
+      "lastChargeTime": 1761679400198,
+      "costItemInfo": {
+        "invenIndex": 0,
+        "id": 0,
+        "type": 41,
+        "count": 3,
+        "keepFlag": 0,
+        "timeValue": 0,
+        "pictorialbookInfo": null,
+        "expiryTime": 0,
+        "sortId": 0,
+        "useCount": 0
+      }
+    }
+  ],
+  "eventScheduleInfo": []
+}

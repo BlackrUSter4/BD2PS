@@ -1,0 +1,10 @@
+pub mod friend_accept;
+pub mod friend_info_list;
+pub mod friend_receive_list;
+pub mod friend_recommend;
+pub mod friend_refuse;
+pub mod friend_remove;
+pub mod friend_search;
+pub mod friend_send;
+pub mod friend_send_list;
+pub mod friend_send_remove;

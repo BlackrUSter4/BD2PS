@@ -1,0 +1,1058 @@
+[
+  {
+    "id": 101,
+    "lockItemCount": [
+      0,
+      1
+    ],
+    "rerollItemCount": [
+      450,
+      1
+    ],
+    "rerollItemId": [
+      0,
+      16
+    ],
+    "rerollItemType": [
+      4,
+      8
+    ]
+  },
+  {
+    "id": 102,
+    "lockItemCount": [
+      0,
+      1
+    ],
+    "rerollItemCount": [
+      450,
+      1
+    ],
+    "rerollItemId": [
+      0,
+      16
+    ],
+    "rerollItemType": [
+      4,
+      8
+    ]
+  },
+  {
+    "id": 103,
+    "lockItemCount": [
+      0,
+      1
+    ],
+    "rerollItemCount": [
+      450,
+      1
+    ],
+    "rerollItemId": [
+      0,
+      16
+    ],
+    "rerollItemType": [
+      4,
+      8
+    ]
+  },
+  {
+    "id": 104,
+    "lockItemCount": [
+      0,
+      1
+    ],
+    "rerollItemCount": [
+      450,
+      1
+    ],
+    "rerollItemId": [
+      0,
+      16
+    ],
+    "rerollItemType": [
+      4,
+      8
+    ]
+  },
+  {
+    "id": 201,
+    "lockItemCount": [
+      0,
+      1
+    ],
+    "rerollItemCount": [
+      2500,
+      1
+    ],
+    "rerollItemId": [
+      0,
+      16
+    ],
+    "rerollItemType": [
+      4,
+      8
+    ]
+  },
+  {
+    "id": 202,
+    "lockItemCount": [
+      0,
+      2
+    ],
+    "rerollItemCount": [
+      2500,
+      2
+    ],
+    "rerollItemId": [
+      0,
+      16
+    ],
+    "rerollItemType": [
+      4,
+      8
+    ]
+  },
+  {
+    "id": 203,
+    "lockItemCount": [
+      0,
+      3
+    ],
+    "rerollItemCount": [
+      2500,
+      3
+    ],
+    "rerollItemId": [
+      0,
+      16
+    ],
+    "rerollItemType": [
+      4,
+      8
+    ]
+  },
+  {
+    "id": 204,
+    "lockItemCount": [
+      0,
+      4
+    ],
+    "rerollItemCount": [
+      2500,
+      4
+    ],
+    "rerollItemId": [
+      0,
+      16
+    ],
+    "rerollItemType": [
+      4,
+      8
+    ]
+  },
+  {
+    "id": 301,
+    "lockItemCount": [
+      0,
+      2
+    ],
+    "rerollItemCount": [
+      15000,
+      2
+    ],
+    "rerollItemId": [
+      0,
+      17
+    ],
+    "rerollItemType": [
+      4,
+      8
+    ]
+  },
+  {
+    "id": 302,
+    "lockItemCount": [
+      0,
+      4
+    ],
+    "rerollItemCount": [
+      15000,
+      4
+    ],
+    "rerollItemId": [
+      0,
+      17
+    ],
+    "rerollItemType": [
+      4,
+      8
+    ]
+  },
+  {
+    "id": 303,
+    "lockItemCount": [
+      0,
+      8
+    ],
+    "rerollItemCount": [
+      15000,
+      8
+    ],
+    "rerollItemId": [
+      0,
+      17
+    ],
+    "rerollItemType": [
+      4,
+      8
+    ]
+  },
+  {
+    "id": 304,
+    "lockItemCount": [
+      0,
+      10
+    ],
+    "rerollItemCount": [
+      15000,
+      10
+    ],
+    "rerollItemId": [
+      0,
+      17
+    ],
+    "rerollItemType": [
+      4,
+      8
+    ]
+  },
+  {
+    "id": 401,
+    "lockItemCount": [
+      0,
+      15
+    ],
+    "rerollItemCount": [
+      120000,
+      15
+    ],
+    "rerollItemId": [
+      0,
+      17
+    ],
+    "rerollItemType": [
+      4,
+      8
+    ]
+  },
+  {
+    "id": 402,
+    "lockItemCount": [
+      0,
+      30
+    ],
+    "rerollItemCount": [
+      120000,
+      30
+    ],
+    "rerollItemId": [
+      0,
+      17
+    ],
+    "rerollItemType": [
+      4,
+      8
+    ]
+  },
+  {
+    "id": 403,
+    "lockItemCount": [
+      0,
+      45
+    ],
+    "rerollItemCount": [
+      120000,
+      45
+    ],
+    "rerollItemId": [
+      0,
+      17
+    ],
+    "rerollItemType": [
+      4,
+      8
+    ]
+  },
+  {
+    "id": 404,
+    "lockItemCount": [
+      0,
+      60
+    ],
+    "rerollItemCount": [
+      120000,
+      60
+    ],
+    "rerollItemId": [
+      0,
+      17
+    ],
+    "rerollItemType": [
+      4,
+      8
+    ]
+  },
+  {
+    "id": 9103,
+    "lockItemCount": [
+      0
+    ],
+    "rerollItemCount": [
+      450
+    ],
+    "rerollItemId": [
+      0
+    ],
+    "rerollItemType": [
+      4
+    ]
+  },
+  {
+    "id": 9104,
+    "lockItemCount": [
+      0
+    ],
+    "rerollItemCount": [
+      450
+    ],
+    "rerollItemId": [
+      0
+    ],
+    "rerollItemType": [
+      4
+    ]
+  },
+  {
+    "id": 9105,
+    "lockItemCount": [
+      0
+    ],
+    "rerollItemCount": [
+      450
+    ],
+    "rerollItemId": [
+      0
+    ],
+    "rerollItemType": [
+      4
+    ]
+  },
+  {
+    "id": 9113,
+    "lockItemCount": [
+      0
+    ],
+    "rerollItemCount": [
+      450
+    ],
+    "rerollItemId": [
+      0
+    ],
+    "rerollItemType": [
+      4
+    ]
+  },
+  {
+    "id": 9114,
+    "lockItemCount": [
+      0
+    ],
+    "rerollItemCount": [
+      450
+    ],
+    "rerollItemId": [
+      0
+    ],
+    "rerollItemType": [
+      4
+    ]
+  },
+  {
+    "id": 9115,
+    "lockItemCount": [
+      0
+    ],
+    "rerollItemCount": [
+      450
+    ],
+    "rerollItemId": [
+      0
+    ],
+    "rerollItemType": [
+      4
+    ]
+  },
+  {
+    "id": 9123,
+    "lockItemCount": [
+      0
+    ],
+    "rerollItemCount": [
+      450
+    ],
+    "rerollItemId": [
+      0
+    ],
+    "rerollItemType": [
+      4
+    ]
+  },
+  {
+    "id": 9124,
+    "lockItemCount": [
+      0
+    ],
+    "rerollItemCount": [
+      450
+    ],
+    "rerollItemId": [
+      0
+    ],
+    "rerollItemType": [
+      4
+    ]
+  },
+  {
+    "id": 9125,
+    "lockItemCount": [
+      0
+    ],
+    "rerollItemCount": [
+      450
+    ],
+    "rerollItemId": [
+      0
+    ],
+    "rerollItemType": [
+      4
+    ]
+  },
+  {
+    "id": 9133,
+    "lockItemCount": [
+      0
+    ],
+    "rerollItemCount": [
+      450
+    ],
+    "rerollItemId": [
+      0
+    ],
+    "rerollItemType": [
+      4
+    ]
+  },
+  {
+    "id": 9134,
+    "lockItemCount": [
+      0
+    ],
+    "rerollItemCount": [
+      450
+    ],
+    "rerollItemId": [
+      0
+    ],
+    "rerollItemType": [
+      4
+    ]
+  },
+  {
+    "id": 9135,
+    "lockItemCount": [
+      0
+    ],
+    "rerollItemCount": [
+      450
+    ],
+    "rerollItemId": [
+      0
+    ],
+    "rerollItemType": [
+      4
+    ]
+  },
+  {
+    "id": 9203,
+    "lockItemCount": [
+      0
+    ],
+    "rerollItemCount": [
+      2500
+    ],
+    "rerollItemId": [
+      0
+    ],
+    "rerollItemType": [
+      4
+    ]
+  },
+  {
+    "id": 9204,
+    "lockItemCount": [
+      0
+    ],
+    "rerollItemCount": [
+      2500
+    ],
+    "rerollItemId": [
+      0
+    ],
+    "rerollItemType": [
+      4
+    ]
+  },
+  {
+    "id": 9205,
+    "lockItemCount": [
+      0
+    ],
+    "rerollItemCount": [
+      2500
+    ],
+    "rerollItemId": [
+      0
+    ],
+    "rerollItemType": [
+      4
+    ]
+  },
+  {
+    "id": 9213,
+    "lockItemCount": [
+      0
+    ],
+    "rerollItemCount": [
+      2500
+    ],
+    "rerollItemId": [
+      0
+    ],
+    "rerollItemType": [
+      4
+    ]
+  },
+  {
+    "id": 9214,
+    "lockItemCount": [
+      0
+    ],
+    "rerollItemCount": [
+      2500
+    ],
+    "rerollItemId": [
+      0
+    ],
+    "rerollItemType": [
+      4
+    ]
+  },
+  {
+    "id": 9215,
+    "lockItemCount": [
+      0
+    ],
+    "rerollItemCount": [
+      2500
+    ],
+    "rerollItemId": [
+      0
+    ],
+    "rerollItemType": [
+      4
+    ]
+  },
+  {
+    "id": 9223,
+    "lockItemCount": [
+      0
+    ],
+    "rerollItemCount": [
+      2500
+    ],
+    "rerollItemId": [
+      0
+    ],
+    "rerollItemType": [
+      4
+    ]
+  },
+  {
+    "id": 9224,
+    "lockItemCount": [
+      0
+    ],
+    "rerollItemCount": [
+      2500
+    ],
+    "rerollItemId": [
+      0
+    ],
+    "rerollItemType": [
+      4
+    ]
+  },
+  {
+    "id": 9225,
+    "lockItemCount": [
+      0
+    ],
+    "rerollItemCount": [
+      2500
+    ],
+    "rerollItemId": [
+      0
+    ],
+    "rerollItemType": [
+      4
+    ]
+  },
+  {
+    "id": 9233,
+    "lockItemCount": [
+      0,
+      5
+    ],
+    "rerollItemCount": [
+      2500,
+      5
+    ],
+    "rerollItemId": [
+      0,
+      16
+    ],
+    "rerollItemType": [
+      4,
+      8
+    ]
+  },
+  {
+    "id": 9234,
+    "lockItemCount": [
+      0,
+      6
+    ],
+    "rerollItemCount": [
+      2500,
+      6
+    ],
+    "rerollItemId": [
+      0,
+      16
+    ],
+    "rerollItemType": [
+      4,
+      8
+    ]
+  },
+  {
+    "id": 9235,
+    "lockItemCount": [
+      0
+    ],
+    "rerollItemCount": [
+      2500
+    ],
+    "rerollItemId": [
+      0
+    ],
+    "rerollItemType": [
+      4
+    ]
+  },
+  {
+    "id": 9303,
+    "lockItemCount": [
+      0
+    ],
+    "rerollItemCount": [
+      15000
+    ],
+    "rerollItemId": [
+      0
+    ],
+    "rerollItemType": [
+      4
+    ]
+  },
+  {
+    "id": 9304,
+    "lockItemCount": [
+      0
+    ],
+    "rerollItemCount": [
+      15000
+    ],
+    "rerollItemId": [
+      0
+    ],
+    "rerollItemType": [
+      4
+    ]
+  },
+  {
+    "id": 9305,
+    "lockItemCount": [
+      0
+    ],
+    "rerollItemCount": [
+      15000
+    ],
+    "rerollItemId": [
+      0
+    ],
+    "rerollItemType": [
+      4
+    ]
+  },
+  {
+    "id": 9313,
+    "lockItemCount": [
+      0
+    ],
+    "rerollItemCount": [
+      15000
+    ],
+    "rerollItemId": [
+      0
+    ],
+    "rerollItemType": [
+      4
+    ]
+  },
+  {
+    "id": 9314,
+    "lockItemCount": [
+      0
+    ],
+    "rerollItemCount": [
+      15000
+    ],
+    "rerollItemId": [
+      0
+    ],
+    "rerollItemType": [
+      4
+    ]
+  },
+  {
+    "id": 9315,
+    "lockItemCount": [
+      0
+    ],
+    "rerollItemCount": [
+      15000
+    ],
+    "rerollItemId": [
+      0
+    ],
+    "rerollItemType": [
+      4
+    ]
+  },
+  {
+    "id": 9323,
+    "lockItemCount": [
+      0
+    ],
+    "rerollItemCount": [
+      15000
+    ],
+    "rerollItemId": [
+      0
+    ],
+    "rerollItemType": [
+      4
+    ]
+  },
+  {
+    "id": 9324,
+    "lockItemCount": [
+      0
+    ],
+    "rerollItemCount": [
+      15000
+    ],
+    "rerollItemId": [
+      0
+    ],
+    "rerollItemType": [
+      4
+    ]
+  },
+  {
+    "id": 9325,
+    "lockItemCount": [
+      0
+    ],
+    "rerollItemCount": [
+      15000
+    ],
+    "rerollItemId": [
+      0
+    ],
+    "rerollItemType": [
+      4
+    ]
+  },
+  {
+    "id": 9333,
+    "lockItemCount": [
+      0,
+      30
+    ],
+    "rerollItemCount": [
+      15000,
+      30
+    ],
+    "rerollItemId": [
+      0,
+      17
+    ],
+    "rerollItemType": [
+      4,
+      8
+    ]
+  },
+  {
+    "id": 9334,
+    "lockItemCount": [
+      0,
+      45
+    ],
+    "rerollItemCount": [
+      15000,
+      45
+    ],
+    "rerollItemId": [
+      0,
+      17
+    ],
+    "rerollItemType": [
+      4,
+      8
+    ]
+  },
+  {
+    "id": 9335,
+    "lockItemCount": [
+      0,
+      60
+    ],
+    "rerollItemCount": [
+      15000,
+      60
+    ],
+    "rerollItemId": [
+      0,
+      17
+    ],
+    "rerollItemType": [
+      4,
+      8
+    ]
+  },
+  {
+    "id": 9403,
+    "lockItemCount": [
+      0
+    ],
+    "rerollItemCount": [
+      120000
+    ],
+    "rerollItemId": [
+      0
+    ],
+    "rerollItemType": [
+      4
+    ]
+  },
+  {
+    "id": 9404,
+    "lockItemCount": [
+      0
+    ],
+    "rerollItemCount": [
+      120000
+    ],
+    "rerollItemId": [
+      0
+    ],
+    "rerollItemType": [
+      4
+    ]
+  },
+  {
+    "id": 9405,
+    "lockItemCount": [
+      0
+    ],
+    "rerollItemCount": [
+      120000
+    ],
+    "rerollItemId": [
+      0
+    ],
+    "rerollItemType": [
+      4
+    ]
+  },
+  {
+    "id": 9413,
+    "lockItemCount": [
+      0
+    ],
+    "rerollItemCount": [
+      120000
+    ],
+    "rerollItemId": [
+      0
+    ],
+    "rerollItemType": [
+      4
+    ]
+  },
+  {
+    "id": 9414,
+    "lockItemCount": [
+      0
+    ],
+    "rerollItemCount": [
+      120000
+    ],
+    "rerollItemId": [
+      0
+    ],
+    "rerollItemType": [
+      4
+    ]
+  },
+  {
+    "id": 9415,
+    "lockItemCount": [
+      0
+    ],
+    "rerollItemCount": [
+      120000
+    ],
+    "rerollItemId": [
+      0
+    ],
+    "rerollItemType": [
+      4
+    ]
+  },
+  {
+    "id": 9423,
+    "lockItemCount": [
+      0
+    ],
+    "rerollItemCount": [
+      120000
+    ],
+    "rerollItemId": [
+      0
+    ],
+    "rerollItemType": [
+      4
+    ]
+  },
+  {
+    "id": 9424,
+    "lockItemCount": [
+      0
+    ],
+    "rerollItemCount": [
+      120000
+    ],
+    "rerollItemId": [
+      0
+    ],
+    "rerollItemType": [
+      4
+    ]
+  },
+  {
+    "id": 9425,
+    "lockItemCount": [
+      0
+    ],
+    "rerollItemCount": [
+      120000
+    ],
+    "rerollItemId": [
+      0
+    ],
+    "rerollItemType": [
+      4
+    ]
+  },
+  {
+    "id": 9433,
+    "lockItemCount": [
+      0,
+      60
+    ],
+    "rerollItemCount": [
+      120000,
+      60
+    ],
+    "rerollItemId": [
+      0,
+      17
+    ],
+    "rerollItemType": [
+      4,
+      8
+    ]
+  },
+  {
+    "id": 9434,
+    "lockItemCount": [
+      0,
+      60
+    ],
+    "rerollItemCount": [
+      120000,
+      60
+    ],
+    "rerollItemId": [
+      0,
+      17
+    ],
+    "rerollItemType": [
+      4,
+      8
+    ]
+  },
+  {
+    "id": 9435,
+    "lockItemCount": [
+      0,
+      60
+    ],
+    "rerollItemCount": [
+      120000,
+      60
+    ],
+    "rerollItemId": [
+      0,
+      17
+    ],
+    "rerollItemType": [
+      4,
+      8
+    ]
+  }
+]

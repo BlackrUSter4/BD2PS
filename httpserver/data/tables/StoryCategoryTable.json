@@ -1,0 +1,10 @@
+[
+  { "GuideGroupId": 185, "categoryLocalTextId": 2000630, "id": 1, "packType": [ 1 ], "sortId": 3 },
+  { "GuideGroupId": 185, "categoryLocalTextId": 2000620, "packType": [ 0 ], "sortId": 2 },
+  { "GuideGroupId": 185, "categoryLocalTextId": 1500026, "id": 2, "packType": [ 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 ], "sortId": 4 },
+  { "GuideGroupId": 185, "categoryLocalTextId": 1500027, "id": 3, "packType": [ 100 ], "sortId": 5 },
+  { "GuideGroupId": 185, "categoryLocalTextId": 342073, "id": 4, "sortId": 7 },
+  { "GuideGroupId": 185, "categoryLocalTextId": 342074, "id": 5, "sortId": 8 },
+  { "GuideGroupId": 193, "categoryLocalTextId": 1500217, "id": 6, "sortId": 6 },
+  { "GuideGroupId": 185, "categoryLocalTextId": 2001980, "id": 7, "packType": [ 1000 ], "sortId": 1 }
+]

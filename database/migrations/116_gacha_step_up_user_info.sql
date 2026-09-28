@@ -1,0 +1,6 @@
+CREATE TABLE "GachaStepUpUserInfo" (
+    "Index" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "Uid" BIGINT NOT NULL,
+    "GroupId" INTEGER,
+    "Id" INTEGER
+);
