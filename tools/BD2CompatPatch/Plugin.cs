@@ -3395,6 +3395,33 @@ namespace BD2CompatPatch
                 {
                     Log.LogWarning($"[BD2CompatPatch] Failed to force-close _objEventLoadingRoot: {e.Message}");
                 }
+                // A THIRD, separate "still covered by an overlay after recovery" mechanism confirmed
+                // live (2026-09-29): the generic "Black" scene-transition overlay (toggled via
+                // GameCameraManager.SetActiveSceneMoveUI(true, ...), already covered by its own
+                // separate 10s watchdog elsewhere in this file) was STILL showing up in every single
+                // click's raycast hit list minutes after this same coroutine was abandoned and this
+                // very recovery function ran -- proving that watchdog either never armed for this
+                // particular activation or simply hadn't reached its own 10s mark yet. Since we're
+                // already here doing abandon-recovery, don't wait on that separate watchdog at all --
+                // force both the fade overlay and the depth-of-field blur off directly and
+                // immediately, using the same real, non-obfuscated method names that watchdog itself
+                // calls.
+                try
+                {
+                    var gcmForOverlay = UnityEngine.Object.FindObjectOfType<GameCameraManager>(true);
+                    if (gcmForOverlay != null)
+                    {
+                        var setActiveSceneMoveUI = AccessTools.Method(gcmForOverlay.GetType(), "SetActiveSceneMoveUI");
+                        setActiveSceneMoveUI?.Invoke(gcmForOverlay, new object[] { false, null });
+                        var setActiveSceneMoveUIBlur = AccessTools.Method(gcmForOverlay.GetType(), "SetActiveSceneMoveUIBlur");
+                        setActiveSceneMoveUIBlur?.Invoke(gcmForOverlay, new object[] { false });
+                        Log.LogInfo("[BD2CompatPatch] Force-closed the \"Black\" scene-transition overlay and blur directly after abandoning the stuck coroutine.");
+                    }
+                }
+                catch (Exception e)
+                {
+                    Log.LogWarning($"[BD2CompatPatch] Failed to force-close the scene-transition overlay/blur: {e.Message}");
+                }
             }
             // The abandoned/incomplete coroutine never reached its own camera/character/HUD
             // activation calls (RestoreFieldOfView, SetActiveTrainPlayerCharacters, the
