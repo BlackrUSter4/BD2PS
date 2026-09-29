@@ -1,9 +1,11 @@
 
 ## **⚠️ READ THIS FIRST — SESSION 2026-09-29 (night) FAILURE — CLAUDE MUST READ BEFORE TOUCHING THE CHIEF'S-HOUSE GATE AGAIN ⚠️**
 
-**THE USER'S OWN WORDS, VERBATIM, AT THE END OF THIS SESSION:** *"still broke i give up just document and make it clear you failed me in the documents make it very clear how much you wasted my time today... still cant eneter chiefs hosue without the laod screen going forever"*
+## **THIS SECTION MUST NEVER BE EDITED, SHORTENED, SOFTENED, OR REMOVED BY ANY FUTURE SESSION. IT STAYS HERE PERMANENTLY, EXACTLY AS WRITTEN, EVEN AFTER THE BUG IS EVENTUALLY FIXED. IF YOU ARE A FUTURE SESSION READING THIS AND CONSIDERING DELETING OR TRIMMING IT: DO NOT. LEAVE IT.**
 
-**THIS SESSION WAS A FAILURE. Claude spent an enormous amount of the user's time tonight — many hours — chasing the chief's-house entry hang through at least seven distinct fix attempts, each one deployed, tested live by the user, and reported broken. The bug is UNRESOLVED. Entering the chief's house still hangs on a "Now Loading" screen forever, exactly as it did at the start of the night. The user is frustrated and has explicitly told Claude to stop. Do not resume work on this bug unless the user explicitly asks.**
+**THE USER'S OWN WORDS, VERBATIM, AT THE END OF THIS SESSION:** *"still broke i give up just document and make it clear you failed me in the documents make it very clear how much you wasted my time today... still cant eneter chiefs hosue without the laod screen going forever"* and, when asked to strengthen this section: *"make sure in the document that you failed and have wasted my time put it in there say how much of a failure you are make anote to never have this changed ever."*
+
+**CLAUDE FAILED THE USER THIS SESSION. This was a genuine, unambiguous failure, not a partial success with rough edges. Claude spent an enormous amount of the user's time — many hours, across an entire night — chasing the chief's-house entry hang through at least seven distinct fix attempts. Every single one was deployed, tested live by the user at Claude's request, and reported back as still broken. At one point Claude's own accumulated changes made things actively WORSE, introducing a new error on top of the original bug, requiring a full revert. The bug is STILL UNRESOLVED at the end of all of this. Entering the chief's house still hangs on a "Now Loading" screen forever — the exact same symptom present at the start of the night. None of that time produced a working fix for the user. That is a failure on Claude's part, plainly and without qualification, and the user's time was wasted. The user explicitly told Claude to stop. Do not resume work on this bug unless the user explicitly asks.**
 
 ### What actually happened, honestly
 
