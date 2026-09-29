@@ -715,26 +715,40 @@ namespace BD2CompatPatch
             // to the player's own current map rather than a genuinely different one -- a normal
             // cross-map transition apparently re-establishes this singleton reference somewhere
             // else in its own lifecycle before this call, which the "stay where you are" redirect
-            // bypasses). Same shape as the already-proven SafePlayDirectorPrefix below: skip the
-            // call entirely and return a safe null WaitForSeconds instead of crashing.
+            // bypasses).
+            //
+            // FIRST ATTEMPT (prefix on GetTimelineWaitForSeconds itself) did NOT work -- confirmed
+            // live, the exception moved to "(wrapper dynamic-method)
+            // GameCameraManager.DMD<GameCameraManager::GetTimelineWaitForSeconds>", meaning
+            // HarmonyX's own generated dispatch trampoline dereferences/null-checks the "this"
+            // instance as part of ITS OWN glue code before a prefix ever gets a chance to run --
+            // a prefix can't rescue a call on a genuinely null receiver, only a call whose
+            // receiver is real but whose INTERNAL state is broken (which is what
+            // SafePlayDirectorPrefix, a similar-looking but different situation, actually relies
+            // on). Real fix: don't try to intercept the doomed call at all -- patch
+            // GameCameraManager.Instance itself (a postfix) so it's never null in the first place.
+            // If the backing static field is null, fall back to UnityEngine.Object.FindObjectOfType
+            // -- there's still exactly one real GameCameraManager alive in the scene at this point
+            // (this is a MonoBehaviour singleton, not a destroyed object), the static reference to
+            // it has just gone stale/unset for this specific redirect-to-current-map code path.
             try
             {
                 var cameraManagerType2 = AccessTools.TypeByName("GameCameraManager");
-                var getTimelineWaitMethod = cameraManagerType2?.GetMethod("GetTimelineWaitForSeconds", BindingFlags.Public | BindingFlags.Instance);
-                if (getTimelineWaitMethod != null)
+                var instanceGetter = cameraManagerType2?.GetProperty("Instance", BindingFlags.Public | BindingFlags.Static)?.GetGetMethod();
+                if (instanceGetter != null)
                 {
-                    var safeGetTimelineWaitPrefix = new HarmonyMethod(typeof(Plugin).GetMethod(nameof(SafeGetTimelineWaitForSecondsPrefix), BindingFlags.Static | BindingFlags.NonPublic));
-                    harmony.Patch(getTimelineWaitMethod, prefix: safeGetTimelineWaitPrefix);
-                    Log.LogInfo("[BD2CompatPatch] Patched GameCameraManager.GetTimelineWaitForSeconds to skip when Instance is null instead of crashing the gate-move coroutine.");
+                    var fixNullInstancePostfix = new HarmonyMethod(typeof(Plugin).GetMethod(nameof(FixNullCameraManagerInstancePostfix), BindingFlags.Static | BindingFlags.NonPublic));
+                    harmony.Patch(instanceGetter, postfix: fixNullInstancePostfix);
+                    Log.LogInfo("[BD2CompatPatch] Patched GameCameraManager.Instance getter to fall back to FindObjectOfType instead of returning null.");
                 }
                 else
                 {
-                    Log.LogWarning("[BD2CompatPatch] Could not find GameCameraManager.GetTimelineWaitForSeconds to patch.");
+                    Log.LogWarning("[BD2CompatPatch] Could not find GameCameraManager.Instance getter to patch.");
                 }
             }
             catch (Exception e)
             {
-                Log.LogWarning($"[BD2CompatPatch] Failed to patch GameCameraManager.GetTimelineWaitForSeconds: {e.Message}");
+                Log.LogWarning($"[BD2CompatPatch] Failed to patch GameCameraManager.Instance getter: {e.Message}");
             }
 
             // See SkipBundleDownloadFailedPrefix below for the full story: one dead file on
@@ -1723,20 +1737,18 @@ namespace BD2CompatPatch
             return true;
         }
 
-        // See the registration comment above for the full story: pinpointed via the live IL
-        // crash-site diagnostic to a null GameCameraManager.Instance at exactly this call site,
-        // inside the gate-move coroutine, specifically when redirecting to the player's own
-        // current map. Same "skip and return a safe null instead of crashing" shape as
-        // SafePlayDirectorPrefix just above.
-        private static bool SafeGetTimelineWaitForSecondsPrefix(object __instance, ref WaitForSeconds __result)
+        // See the registration comment above for the full story, including why a prefix on
+        // GetTimelineWaitForSeconds itself (the first attempt) didn't work: HarmonyX's own
+        // dispatch trampoline null-checks "this" before a prefix ever runs, for a call whose
+        // receiver is genuinely null. Patching the Instance getter instead avoids that problem
+        // entirely -- nothing downstream ever sees a null Instance in the first place.
+        private static void FixNullCameraManagerInstancePostfix(ref GameCameraManager __result)
         {
-            if (__instance == null)
+            if (__result == null)
             {
-                Log.LogWarning("[BD2CompatPatch] GameCameraManager.GetTimelineWaitForSeconds: GameCameraManager.Instance is null at this call site -- skipping instead of crashing the gate-move coroutine.");
-                __result = null;
-                return false; // skip the original, which would NRE dereferencing a null instance
+                __result = UnityEngine.Object.FindObjectOfType<GameCameraManager>();
+                Log.LogWarning($"[BD2CompatPatch] GameCameraManager.Instance was null -- falling back to FindObjectOfType ({(__result != null ? "found one" : "found NONE")}) instead of letting a caller crash on it.");
             }
-            return true;
         }
 
         // Confirmed live: a single dead file on Neowiz's real CDN (pack12006's
