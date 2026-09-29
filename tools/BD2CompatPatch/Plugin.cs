@@ -1089,6 +1089,50 @@ namespace BD2CompatPatch
                 Log.LogWarning($"[BD2CompatPatch] Failed to patch GameFieldDefaultUI.RefreshMiniMap: {e.Message}");
             }
 
+            // DIAGNOSTIC (2026-09-29): tonight's (and last session's) still-unresolved mystery --
+            // "Error with opening database <path> -> msg : unable to open database file" followed
+            // by every subsequent query against that same handle reporting "out of memory" -- comes
+            // from exactly ONE place: a fully MANAGED (not P/Invoke/extern) C# SQLite engine
+            // implementation, class "ὥὭὪὢὭὦὦὬὩὠὮ", method "ὨὦὢὬὥὨὨὣὢὣὮ" (the real body behind both
+            // public Open()/OpenV2()-style entry points). Since it's pure managed code, Harmony can
+            // patch it directly -- no P/Invoke boundary in the way. The original code only ever
+            // logs the STRING error message (sqlite3_errmsg-equivalent); the raw integer result
+            // code and the file's real on-disk state at the exact moment of the failed open were
+            // never captured anywhere.
+            //
+            // ANSWER (confirmed live, finally, after two full sessions of guessing): rawResultCode
+            // = 14 (SQLITE_CANTOPEN) and fileExistsRightNow = False. The file is simply, genuinely
+            // NOT THERE at the moment of the open call -- not corrupted, not encrypted-with-a-
+            // wrong-key, not locked by another process (every one of those theories is now ruled
+            // out). The client's own Addressables cache-pruning logic deletes this specific hash
+            // file early in boot (confirmed independently: restoring the full ~195MB original cache
+            // right before launch, it's back down to 3 files within the first ~30-60s, every single
+            // time, well before this query ever fires) and then never re-fetches it before it's
+            // needed. Real fix below: self-heal by copying the file back in from the known-good
+            // backup the instant this exact failure happens, then let the real open retry on a
+            // freshly-restored file -- sidesteps the client's own broken cache lifecycle entirely
+            // instead of trying to out-guess whatever internal rule decides what to prune when.
+            try
+            {
+                var sqliteEngineType = AccessTools.TypeByName("ὥὭὪὢὭὦὦὬὩὠὮ");
+                var sqliteOpenMethod = sqliteEngineType?.GetMethod("ὨὦὢὬὥὨὨὣὢὣὮ", BindingFlags.NonPublic | BindingFlags.Static);
+                if (sqliteOpenMethod != null)
+                {
+                    var healPrefix = new HarmonyMethod(typeof(Plugin).GetMethod(nameof(SQLiteSelfHealMissingFilePrefix), BindingFlags.Static | BindingFlags.NonPublic));
+                    var diagPostfix = new HarmonyMethod(typeof(Plugin).GetMethod(nameof(SQLiteOpenDiagnosticPostfix), BindingFlags.Static | BindingFlags.NonPublic));
+                    harmony.Patch(sqliteOpenMethod, prefix: healPrefix, postfix: diagPostfix);
+                    Log.LogInfo("[BD2CompatPatch] Patched the managed SQLite engine's Open() to self-heal a missing cache file from the known-good backup before opening, plus diagnostic logging on any remaining failure.");
+                }
+                else
+                {
+                    Log.LogWarning("[BD2CompatPatch] Could not find the managed SQLite engine's Open() method to patch.");
+                }
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning($"[BD2CompatPatch] Failed to patch the SQLite engine's Open() for diagnostics: {e.Message}");
+            }
+
             // ROOT CAUSE of the "Replace Companion" screen's loading spinner spinning forever
             // (client "hangs" from the user's perspective, though the engine itself keeps running):
             // SpineManager's list-population code loads each companion's Spine illustration one at
@@ -2350,6 +2394,77 @@ namespace BD2CompatPatch
                 Log.LogWarning($"[BD2CompatPatch] {__originalMethod.DeclaringType?.Name}.{__originalMethod.Name} threw ({__exception.GetType().Name}: {__exception.Message}) -- swallowed so the caller keeps running.");
             }
             return null;
+        }
+
+        // See the registration comment above (near "ANSWER (confirmed live...)") for the full
+        // story. Runs BEFORE the real Open() body every single time it's called -- cheap no-op
+        // (one File.Exists check) on the overwhelming majority of calls where the file is already
+        // there; only does real work on the specific hash(es) the client's own cache pruning has
+        // deleted. Void return -- always lets the original Open() proceed afterward, now against a
+        // freshly-restored file when a backup existed.
+        private static void SQLiteSelfHealMissingFilePrefix(string __0)
+        {
+            try
+            {
+                string path = __0;
+                if (string.IsNullOrEmpty(path) || System.IO.File.Exists(path)) return;
+                string hash = System.IO.Path.GetFileName(path);
+                string tDir = System.IO.Path.GetDirectoryName(path); // .../Data/t
+                string dataDir = tDir != null ? System.IO.Path.GetDirectoryName(tDir) : null; // .../Data
+                string root = dataDir != null ? System.IO.Path.GetDirectoryName(dataDir) : null; // .../BrownDust II
+                if (root == null) return;
+                string backupPath = System.IO.Path.Combine(root, "_stale_cache_backup", "Data_t", hash);
+                if (System.IO.File.Exists(backupPath))
+                {
+                    System.IO.Directory.CreateDirectory(tDir);
+                    System.IO.File.Copy(backupPath, path, overwrite: false);
+                    Log.LogWarning($"[BD2CompatPatch] Self-healed missing SQLite cache file before open: restored {path} from backup {backupPath}.");
+                }
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning($"[BD2CompatPatch] SQLiteSelfHealMissingFilePrefix failed: {e.Message}");
+            }
+        }
+
+        // See the registration comment above (near "DIAGNOSTIC (2026-09-29)") for the full story.
+        // __0 is the path string (first parameter of the patched method), __1 the out db-handle
+        // (read-only here, never written back).
+        private static void SQLiteOpenDiagnosticPostfix(string __0, int __result, object __1)
+        {
+            try
+            {
+                if (__result == 0) return; // only diagnose real failures
+                string path = __0;
+                bool existsNow = System.IO.File.Exists(path);
+                long size = -1;
+                DateTime lastWriteUtc = default;
+                if (existsNow)
+                {
+                    var fi = new System.IO.FileInfo(path);
+                    size = fi.Length;
+                    lastWriteUtc = fi.LastWriteTimeUtc;
+                }
+                Log.LogWarning($"[BD2CompatPatch] SQLite engine Open() FAILED: path={path} rawResultCode={__result} handleNull={__1 == null} fileExistsRightNow={existsNow} fileSize={size} lastWriteUtc={lastWriteUtc}");
+                if (existsNow)
+                {
+                    try
+                    {
+                        using var fs = new System.IO.FileStream(path, System.IO.FileMode.Open, System.IO.FileAccess.Read, System.IO.FileShare.ReadWrite);
+                        var header = new byte[16];
+                        int read = fs.Read(header, 0, header.Length);
+                        Log.LogWarning($"[BD2CompatPatch] ...but a plain FileStream opened/read it fine right now ({read} bytes, header={BitConverter.ToString(header, 0, read)}) -- NOT a missing/locked-file problem, something inside the SQLite engine's own validation rejected it (header/page-size check, or an encryption-key mismatch).");
+                    }
+                    catch (Exception fsEx)
+                    {
+                        Log.LogWarning($"[BD2CompatPatch] ...and a plain FileStream ALSO can't open/read it right now: {fsEx.GetType().Name}: {fsEx.Message} -- this IS a genuine file-access problem (missing/locked/permission), not an SQLite-engine-specific rejection.");
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning($"[BD2CompatPatch] SQLiteOpenDiagnosticPostfix itself failed: {e.Message}");
+            }
         }
 
         // Exact call order taken from the decompiled MenuUI.UpdateIssue() body -- replicated here
