@@ -3237,7 +3237,14 @@ namespace BD2CompatPatch
                 // through on its own -- everything after that point then runs as normal, correct
                 // game code. Retried every ~3s in case a coroutine has more than one such gate in
                 // sequence (confirmed to happen at least once this session).
-                if (Time.realtimeSinceStartup - start > 3f && Time.realtimeSinceStartup - lastFlip > 3f)
+                // DELAYED to start at 6s rather than 3s (2026-09-29): now that the recursion filter
+                // fix above lets this reach `<>8__1.isClearQuest` (the field the chief's-house gate's
+                // own quest-wait loop really polls on), it would otherwise win the race against
+                // QuestUpdateCallbackWatchdogPrefix's own, more correct 5s recovery -- that one forces
+                // the REAL original callback (restoring player position/camera state exactly as a
+                // genuine server response would), whereas this blind flip just unblocks the loop
+                // without running any of that logic. Give the real callback's watchdog first crack.
+                if (Time.realtimeSinceStartup - start > 6f && Time.realtimeSinceStartup - lastFlip > 3f)
                 {
                     int flipped = TryForceStuckBoolFlags(inner);
                     if (flipped > 0)
@@ -3710,10 +3717,20 @@ namespace BD2CompatPatch
                     try { value = f.GetValue(iteratorStateMachine); }
                     catch { continue; }
                     if (value == null) continue;
-                    // Only descend into compiler-generated closures/state machines, not arbitrary
-                    // game objects reachable from the coroutine (managers, tables, etc.) -- keeps
-                    // this from reaching into and mutating unrelated live game state.
-                    if (!value.GetType().Name.Contains("<") && !value.GetType().Name.Contains("DisplayClass"))
+                    // CORRECTED (2026-09-29): only descending when the VALUE's own type name looks
+                    // like a compiler-generated closure ("<" or "DisplayClass") missed the real
+                    // stuck field this whole session -- confirmed live via a fresh decompile of the
+                    // actual running assembly (obtained by metadata token through ilspycmd, since the
+                    // cached decompile didn't have this method at all): the chief's-house gate
+                    // coroutine hoists its captured locals into `<>8__1`, a normal hand-written
+                    // helper class (its own type name has no "<" and isn't "DisplayClass" at all --
+                    // only compiler-synthesized anonymous closures are named that way; a developer's
+                    // OWN named class used for the same hoisting purpose is not), and it's THAT
+                    // object's own `isClearQuest` field that state 3's loop actually polls on. The
+                    // reliable, compiler-guaranteed signal for "this field holds a hoisted local
+                    // captured by a nested lambda" is the FIELD's own NAME (always "<>8__<N>"), not
+                    // the type name of whatever value it happens to hold -- so key off that instead.
+                    if (!f.Name.StartsWith("<>8__") && !value.GetType().Name.Contains("<") && !value.GetType().Name.Contains("DisplayClass"))
                     {
                         continue;
                     }
@@ -3746,7 +3763,11 @@ namespace BD2CompatPatch
                 if (v == null || depth >= maxDepth) continue;
                 if (typeof(UnityEngine.Object).IsAssignableFrom(f.FieldType)) continue;
                 if (f.FieldType.IsPrimitive || f.FieldType == typeof(string)) continue;
-                if (!v.GetType().Name.Contains("<") && !v.GetType().Name.Contains("DisplayClass")) continue;
+                // See TryForceStuckBoolFlags' own correction above: key off the FIELD's name
+                // ("<>8__N" is always a compiler-hoisted local regardless of its value's own type),
+                // not the value's type name -- a hand-written helper class used for the same
+                // hoisting purpose won't have "<" or "DisplayClass" in its own name.
+                if (!f.Name.StartsWith("<>8__") && !v.GetType().Name.Contains("<") && !v.GetType().Name.Contains("DisplayClass")) continue;
                 DumpObjectFieldsRecursive(v, depth + 1, maxDepth);
             }
         }
