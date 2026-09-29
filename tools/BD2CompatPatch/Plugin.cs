@@ -1903,6 +1903,7 @@ namespace BD2CompatPatch
                 catch (Exception e)
                 {
                     Log.LogWarning($"[BD2CompatPatch] EXCEPTION out of {label} after {frame} frames / {Time.realtimeSinceStartup - start:F1}s: {e}");
+                    LogCrashLocationAndCapturedState(e, inner);
                     yield break;
                 }
                 if (!moved) break;
@@ -2052,6 +2053,81 @@ namespace BD2CompatPatch
                 yield return inner.Current;
             }
             Log.LogInfo($"[BD2CompatPatch] EXIT {label} after {frame} frames / {Time.realtimeSinceStartup - start:F1}s");
+        }
+
+        // Ground-truth crash-site diagnostics, done entirely with the LIVE Mono runtime's own
+        // reflection -- no ilspycmd, no external decompiler, no MetadataLoadContext. Tonight's
+        // whole session found that every static tool disagrees with this assembly's actual
+        // runtime member names at least once; the one thing that's stayed correct all night is
+        // whatever the live game itself reports. Mono's own stack trace formatter already prints
+        // the exact IL byte offset the exception came from (e.g. "[0x0007e]") -- parse that back
+        // out, read the real IL bytes of the method that actually threw (via
+        // MethodBase.GetMethodBody(), a normal reflection API, not any external tool), decode the
+        // single instruction at that offset, and resolve its token through the SAME live module
+        // that's already running. This answers "what field/method access was this" with total
+        // certainty, sidestepping the entire naming-instability problem instead of fighting it.
+        private static void LogCrashLocationAndCapturedState(Exception e, object stateMachineInstance)
+        {
+            try
+            {
+                var throwingMethod = e.TargetSite;
+                var match = System.Text.RegularExpressions.Regex.Match(e.StackTrace ?? "", @"\[0x([0-9A-Fa-f]+)\]");
+                if (throwingMethod != null && match.Success)
+                {
+                    int offset = Convert.ToInt32(match.Groups[1].Value, 16);
+                    var body = throwingMethod.GetMethodBody();
+                    byte[] il = body?.GetILAsByteArray();
+                    if (il != null && offset >= 0 && offset + 5 <= il.Length)
+                    {
+                        byte op = il[offset];
+                        // Only decode the operand-token opcodes we actually care about here
+                        // (field/method access -- what a NullReferenceException is almost always
+                        // about); anything else just gets its raw opcode logged, which is still
+                        // more than Mono's own truncated trace gives us.
+                        string decoded = null;
+                        int tokenOffset = -1;
+                        if (op == 0x7B || op == 0x7D || op == 0x7E || op == 0x80) tokenOffset = offset + 1; // ldfld/stfld/ldsfld/stsfld
+                        else if (op == 0x28 || op == 0x6F || op == 0x73) tokenOffset = offset + 1; // call/callvirt/newobj
+                        if (tokenOffset >= 0 && tokenOffset + 4 <= il.Length)
+                        {
+                            int token = BitConverter.ToInt32(il, tokenOffset);
+                            try
+                            {
+                                var member = throwingMethod.Module.ResolveMember(token, throwingMethod.DeclaringType?.GetGenericArguments(), null);
+                                decoded = $"op=0x{op:X2} -> {member.MemberType} {member.DeclaringType?.Name}.{member.Name}";
+                            }
+                            catch (Exception resolveEx)
+                            {
+                                decoded = $"op=0x{op:X2} token=0x{token:X8} (resolve failed: {resolveEx.Message})";
+                            }
+                        }
+                        else
+                        {
+                            decoded = $"op=0x{op:X2} (no decodable operand)";
+                        }
+                        Log.LogWarning($"[BD2CompatPatch] Crash site: {throwingMethod.DeclaringType?.FullName}.{throwingMethod.Name} at IL offset 0x{offset:X} -- {decoded}");
+                    }
+                }
+
+                // Also dump the coroutine's own captured state (its fields hold whatever locals/
+                // parameters the compiler promoted into the state machine -- the GateSpotData
+                // parameter, the computed MapPositionData local, etc.) so a null field is visible
+                // directly, independent of the IL decode above.
+                if (stateMachineInstance != null)
+                {
+                    foreach (var f in stateMachineInstance.GetType().GetFields(BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic))
+                    {
+                        string valStr;
+                        try { valStr = f.GetValue(stateMachineInstance)?.ToString() ?? "null"; }
+                        catch (Exception fieldEx) { valStr = $"(read failed: {fieldEx.Message})"; }
+                        Log.LogWarning($"[BD2CompatPatch] Crash site captured state: {f.FieldType.Name} {f.Name} = {valStr}");
+                    }
+                }
+            }
+            catch (Exception diagEx)
+            {
+                Log.LogWarning($"[BD2CompatPatch] LogCrashLocationAndCapturedState itself failed: {diagEx.Message}");
+            }
         }
 
         // Non-generic, safe to patch normally (see the call site comment for why the generic
