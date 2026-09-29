@@ -3237,14 +3237,19 @@ namespace BD2CompatPatch
                 // through on its own -- everything after that point then runs as normal, correct
                 // game code. Retried every ~3s in case a coroutine has more than one such gate in
                 // sequence (confirmed to happen at least once this session).
-                // DELAYED to start at 6s rather than 3s (2026-09-29): now that the recursion filter
+                // DELAYED to start at 10s rather than 3s (2026-09-29): now that the recursion filter
                 // fix above lets this reach `<>8__1.isClearQuest` (the field the chief's-house gate's
                 // own quest-wait loop really polls on), it would otherwise win the race against
                 // QuestUpdateCallbackWatchdogPrefix's own, more correct 5s recovery -- that one forces
                 // the REAL original callback (restoring player position/camera state exactly as a
-                // genuine server response would), whereas this blind flip just unblocks the loop
-                // without running any of that logic. Give the real callback's watchdog first crack.
-                if (Time.realtimeSinceStartup - start > 6f && Time.realtimeSinceStartup - lastFlip > 3f)
+                // genuine server response would, and presumably the actual quest-progress signal),
+                // whereas this blind flip just unblocks the loop without running any of that logic.
+                // CONFIRMED live this session that a 6s delay here still isn't enough margin: that
+                // watchdog's own 5s timer only starts once its prefix actually RUNS, which itself
+                // fires ~1.5-2s after this wrapper's own `start` baseline (asset-loading/quest-lookup
+                // happens first) -- so its real-world fire time is closer to ~6.5-7s from THIS
+                // timer's baseline, not 5s. 10s gives a solid multi-second margin either way.
+                if (Time.realtimeSinceStartup - start > 10f && Time.realtimeSinceStartup - lastFlip > 3f)
                 {
                     int flipped = TryForceStuckBoolFlags(inner);
                     if (flipped > 0)
