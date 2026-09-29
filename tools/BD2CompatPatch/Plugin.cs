@@ -737,6 +737,72 @@ namespace BD2CompatPatch
                 Log.LogWarning($"[BD2CompatPatch] Failed to patch GameCameraManager.PlayDirector: {e.Message}");
             }
 
+            // ROOT CAUSE of "hangs entering the chief's house" (and, by the same shared,
+            // pack-agnostic code path, leaving the starting house too -- both are the same
+            // gate-transition coroutine on GameFieldManager). Confirmed via a decompile of the
+            // ACTUAL running assembly (obtained live: read the closure type's real metadata token
+            // through .NET reflection in PowerShell, then `ilspycmd -m 0x<token>` -- the cached
+            // decompile doesn't have this method at all because ilspycmd's plain -t TypeName flag
+            // silently reconstructs closures back into their containing method and hides the raw
+            // nested state machine; targeting the exact nested type by token bypasses that). The
+            // coroutine hoists its captured locals into a small hand-written helper object and polls
+            // `while (!helper.isClearQuest) yield return null;` after calling a static quest-update
+            // method with a completion callback. That static method only actually sends its network
+            // request if a guard passes (quest not already cleared AND the client's own live quest
+            // list contains it AND no other update is already in flight) -- it unconditionally stores
+            // the callback BEFORE checking that guard, so if the guard fails, no request is ever sent
+            // and the callback never fires, and the coroutine spins forever. Found the target method
+            // name-agnostically (its declaring class's obfuscated name isn't stable across builds,
+            // same gotcha as PackManager's quest-list field elsewhere in this file) by scanning
+            // GameFieldManager's own assembly for a static class exposing two public overloads
+            // sharing one name: (int,int,Action<int>) and (int,List<int>,Action<int>).
+            try
+            {
+                var targetAssembly = AccessTools.TypeByName("GameFieldManager")?.Assembly;
+                MethodInfo questUpdateIntOverload = null;
+                MethodInfo questUpdateListOverload = null;
+                if (targetAssembly != null)
+                {
+                    Type[] typesToScan;
+                    try { typesToScan = targetAssembly.GetTypes(); }
+                    catch (ReflectionTypeLoadException rtle) { typesToScan = rtle.Types.Where(t => t != null).ToArray(); }
+                    foreach (var candidateType in typesToScan)
+                    {
+                        MethodInfo intOverload = null;
+                        MethodInfo listOverload = null;
+                        foreach (var m in candidateType.GetMethods(BindingFlags.Public | BindingFlags.Static | BindingFlags.DeclaredOnly))
+                        {
+                            if (m.ReturnType != typeof(void)) continue;
+                            var ps = m.GetParameters();
+                            if (ps.Length != 3 || ps[0].ParameterType != typeof(int) || ps[2].ParameterType != typeof(Action<int>)) continue;
+                            if (ps[1].ParameterType == typeof(int)) intOverload = m;
+                            else if (ps[1].ParameterType == typeof(List<int>)) listOverload = m;
+                        }
+                        if (intOverload != null && listOverload != null && intOverload.Name == listOverload.Name)
+                        {
+                            questUpdateIntOverload = intOverload;
+                            questUpdateListOverload = listOverload;
+                            break;
+                        }
+                    }
+                }
+                if (questUpdateIntOverload != null && questUpdateListOverload != null)
+                {
+                    var watchdogPrefix = new HarmonyMethod(typeof(Plugin).GetMethod(nameof(QuestUpdateCallbackWatchdogPrefix), BindingFlags.Static | BindingFlags.NonPublic));
+                    harmony.Patch(questUpdateIntOverload, prefix: watchdogPrefix);
+                    harmony.Patch(questUpdateListOverload, prefix: watchdogPrefix);
+                    Log.LogInfo($"[BD2CompatPatch] Patched {questUpdateIntOverload.DeclaringType.FullName}.{questUpdateIntOverload.Name} (both overloads) with a 5s callback watchdog -- fixes the gate-entry hang (entering the chief's house, leaving the starting house) for every pack.");
+                }
+                else
+                {
+                    Log.LogWarning("[BD2CompatPatch] Could not find the quest-update network method by signature -- the gate-transition quest-update hang will NOT be patched.");
+                }
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning($"[BD2CompatPatch] Failed to patch the quest-update callback watchdog: {e.Message}");
+            }
+
             // Confirmed root cause of "can move and back out but can't enter house": the live IL
             // crash-site diagnostic (LogCrashLocationAndCapturedState) pinpointed the gate-move
             // coroutine's NullReferenceException to a `callvirt GameCameraManager.
@@ -2243,6 +2309,49 @@ namespace BD2CompatPatch
                 __result = default(MapPositionData);
             }
             return false; // always skip the fragile original getter
+        }
+
+        // See the registration comment above (near "ROOT CAUSE of "hangs entering the chief's
+        // house"") for the full story. Unconditional entry log so a failed test still gives real
+        // data (was this method even called, with a non-null callback?) instead of another guess.
+        // Wraps the caller's own completion callback so a watchdog coroutine can tell whether it
+        // ever actually fired; never skips the real method (always returns true) -- this only
+        // observes/replaces the callback argument.
+        private static bool QuestUpdateCallbackWatchdogPrefix(int __0, ref Action<int> __2)
+        {
+            Log.LogInfo($"[BD2CompatPatch] QuestUpdateCallbackWatchdogPrefix: called for questId={__0}, callback null={__2 == null}.");
+            try
+            {
+                if (__2 == null || _instance == null) return true;
+                Action<int> original = __2;
+                bool[] fired = { false };
+                __2 = (errType) =>
+                {
+                    fired[0] = true;
+                    original(errType);
+                };
+                _instance.StartCoroutine(ForceQuestUpdateCallbackAfterDelay(fired, original));
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning($"[BD2CompatPatch] QuestUpdateCallbackWatchdogPrefix failed: {e.Message}");
+            }
+            return true;
+        }
+
+        // 5s is generous relative to every other request this session has completed in well under
+        // 1s. errType=0 is not a guess -- confirmed by reading this same quest-update class's own
+        // response-handling code to be the exact value it uses on its own genuine success path, so a
+        // forced call is indistinguishable from a real successful response to any downstream code.
+        private static IEnumerator ForceQuestUpdateCallbackAfterDelay(bool[] fired, Action<int> original)
+        {
+            yield return new WaitForSeconds(5f);
+            if (!fired[0])
+            {
+                Log.LogWarning("[BD2CompatPatch] Quest-update network callback never fired within 5s -- the client's own guard almost certainly blocked sending the request (e.g. this gate's associated quest isn't the account's current in-progress quest) -- forcing the callback now with errType=0 (success) so the gate-transition coroutine completes instead of hanging forever.");
+                fired[0] = true;
+                original(0);
+            }
         }
 
         private static bool SafePlayDirectorPrefix(object __instance, object __0, ref WaitForSeconds __result)
