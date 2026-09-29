@@ -13,6 +13,7 @@ use database::db::{
     map::map_active_info::get_map_active_info, quest::quest_info::get_quest_info,
     reputation::reputation_info::get_reputation_info,
     talent::talent_skill_info::get_talent_skill_info,
+    user::user_quest as user_quest_db,
 };
 use sqlx::SqlitePool;
 use tracing::info;
@@ -191,8 +192,23 @@ pub async fn handle(pool: &SqlitePool, uid: i64, req: PackInGameInfoRequest) -> 
         })
         .collect::<Vec<_>>();
 
-    // --- 3. clearQuestIds should always include [1]
-    let clear_quest_ids = vec![1];
+    // --- 3. clearQuestIds: real cleared-quest history from UserQuest, scoped to the pack being
+    // entered when the client tells us which one (same source QuestInfoRequest already uses
+    // correctly). This was hardcoded to a permanent `vec![1]` before -- since PackInGameInfo
+    // fires on every pack-enter, that meant the client's own "what's actually been cleared"
+    // state got stomped back to "just quest 1" every single time, which is what was causing
+    // auto-navigate to keep re-targeting an early, already-cleared quest instead of whatever
+    // the real current objective is.
+    let clear_quest_ids: Vec<i32> = match req.pack_id {
+        Some(pack_id) => user_quest_db::get_by_uid_and_pack(pool, uid, pack_id)
+            .await
+            .unwrap_or_default(),
+        None => user_quest_db::get_all_by_uid(pool, uid).await.unwrap_or_default(),
+    }
+    .into_iter()
+    .filter(|r| r.status == 3)
+    .map(|r| r.quest_id as i32)
+    .collect();
 
     // --- 4. Build final response ---
     let response = PackInGameInfoResponse {

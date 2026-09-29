@@ -30,9 +30,19 @@ namespace BD2CompatPatch
     {
         internal static ManualLogSource Log;
 
+        // Keeps one-shot System.Threading.Timer instances (the LoadCameraAsset watchdog below)
+        // alive until they fire -- a Timer with no other live reference is eligible for GC at
+        // any point, which would silently cancel it before its callback ever runs.
+        private static readonly System.Collections.Concurrent.ConcurrentDictionary<System.Threading.Timer, byte> _loadCameraAssetWatchdogs = new();
+
+        // Self-reference so static Harmony patch methods can start coroutines on this
+        // MonoBehaviour (BepInEx only ever creates one instance of a given plugin).
+        private static Plugin _instance;
+
         private void Awake()
         {
             Log = Logger;
+            _instance = this;
             var harmony = new Harmony("bd2.compatpatch");
             int patched = 0;
 
@@ -107,23 +117,44 @@ namespace BD2CompatPatch
             // is the actual fix for the "white box" icons, not a workaround.
 
             // THE actual silent-hang root cause: GameCameraManager.LoadCameraAsset loads 120
-            // battle-camera timeline assets and spins `while (loadedCount < 120) yield return
-            // ...` waiting for a counter that only increments in the per-asset SUCCESS
-            // callback. Several of those 120 keys (Map/Timeline/InvBattle_*.playable etc.) are
-            // missing from our Addressables catalog and fail with InvalidKeyException, so the
-            // success callback never fires for them and the counter never reaches 120 — an
-            // infinite, completely silent loop (zero further log output), exactly matching the
-            // "stuck on loading screen forever" symptom. These timelines are already
-            // degraded/missing regardless, so skip the whole method rather than try to fix the
-            // broken per-asset counting.
+            // battle-camera/cutscene timeline assets and spins `while (loadedCount < 120) yield
+            // return ...` waiting for a counter that only increments in the per-asset SUCCESS
+            // callback (LoadedTimelineAsset). Several of those 120 keys are missing from our
+            // Addressables catalog and fail, so the success callback never fires for them and
+            // the counter never reaches 120 -- an infinite, completely silent loop.
+            //
+            // CORRECTION (found later the same project, after the fix below caused a full
+            // regression): the original fix here skipped the ENTIRE coroutine outright, on the
+            // theory that "these timelines are already degraded/missing regardless." Wrong --
+            // skipping the whole method means NONE of the 120 slots ever load, not just the
+            // broken ones, since the coroutine's own request-kickoff loop (the part that
+            // actually calls LoadAssetAsync for each of the 120 real, mostly-WORKING assets)
+            // never runs either. Confirmed live: every single cutscene in the game (story
+            // Quest_Main_XX timelines, not just battle cameras) started rendering as a plain
+            // black screen -- PlayDirector/GetTimelineWaitForSeconds's own safe-fallback logic
+            // (below) was firing for every timeline index, every time, because the backing
+            // array was permanently empty.
+            //
+            // Real fix: let the real coroutine run (do NOT skip it), so the 115+ genuinely
+            // available timeline assets actually load and cutscenes work again. Instead, guard
+            // only against the specific failure mode (a few keys that never resolve, forever)
+            // with a plain time-based watchdog: a few seconds after LoadCameraAsset starts, if
+            // the loaded-count field still hasn't reached 120, force it to 120 directly via
+            // reflection. The coroutine's own `while (loadedCount < 120) yield return ...` loop
+            // re-checks that field every frame regardless of what set it, so this unblocks the
+            // wait without needing to touch the coroutine's compiler-generated state machine at
+            // all. Whichever specific slots never loaded stay null in the timeline array --
+            // already handled safely, per-index, by the PlayDirector/GetTimelineWaitForSeconds
+            // prefixes below (that's the mechanism that was supposed to be handling this all
+            // along).
             try
             {
                 var loadCameraAsset = AccessTools.Method(typeof(GameCameraManager), "LoadCameraAsset");
                 if (loadCameraAsset != null)
                 {
-                    var skipPrefix = new HarmonyMethod(typeof(Plugin).GetMethod(nameof(SkipLoadCameraAssetPrefix), BindingFlags.Static | BindingFlags.NonPublic));
-                    harmony.Patch(loadCameraAsset, prefix: skipPrefix);
-                    Log.LogInfo("[BD2CompatPatch] Patched GameCameraManager.LoadCameraAsset to skip the broken timeline-count wait.");
+                    var watchdogPrefix = new HarmonyMethod(typeof(Plugin).GetMethod(nameof(StartLoadCameraAssetWatchdogPrefix), BindingFlags.Static | BindingFlags.NonPublic));
+                    harmony.Patch(loadCameraAsset, prefix: watchdogPrefix);
+                    Log.LogInfo("[BD2CompatPatch] Patched GameCameraManager.LoadCameraAsset with a load-count watchdog instead of skipping it outright.");
                 }
                 else
                 {
@@ -1064,9 +1095,14 @@ namespace BD2CompatPatch
                 Log.LogWarning($"[BD2CompatPatch] Failed to patch GetPrefabAsset diagnostic: {e.Message}");
             }
 
-            // TEMP DIAGNOSTIC: log every PackManager.EnterPack call (pack id + full call stack)
-            // to find out what's driving the client to enter Pack21 instead of the account's
-            // real, owned Pack1. Remove once resolved.
+            // RESOLVED: this was diagnostic instrumentation (including a full call-stack dump,
+            // removed now) that tracked down "why does the client enter pack21 instead of
+            // pack1" -- traced through IntroUI's fresh-account path (lastPlayPackDTO null,
+            // playingPackDTO null -> falls through to tutorialPackDTO) to
+            // GameDefaultTable.initPackId, a plain captured data value that was simply 21. Not a
+            // client bug or a UserInfo/UserPosition mismatch at all -- fixed by editing that one
+            // field in httpserver/data/tables/GameDefaultTable.json to 1. Left this id+path log
+            // in place (cheap, useful for future pack-transition debugging).
             try
             {
                 var enterPackDiag = new HarmonyMethod(typeof(Plugin).GetMethod(nameof(EnterPackDiagnostic), BindingFlags.Static | BindingFlags.NonPublic));
@@ -1079,6 +1115,35 @@ namespace BD2CompatPatch
             catch (Exception e)
             {
                 Log.LogWarning($"[BD2CompatPatch] Failed to patch EnterPack diagnostic: {e.Message}");
+            }
+
+            // The actual "why does a fresh-ish account enter pack21 instead of pack1" answer,
+            // found via the diagnostic above: IntroUI's no-history path (lastPlayPackDTO null,
+            // playingPackDTO null) falls through to `GameDefaultTable(0).InitPackId` as the
+            // account's starting pack. This server's own copy of that table has `initPackId: 21`
+            // -- but editing our copy alone doesn't help: like every other design table this
+            // session found, GameDefaultTable is loaded by the client from its own local
+            // Addressables cache, not served by us over the network, so our copy of the JSON is
+            // never actually read by a live client. Patching the real (non-obfuscated,
+            // Google.Protobuf-generated) property getter directly is the only fix that reaches
+            // the client regardless of what its local cache says.
+            try
+            {
+                var initPackIdGetter = typeof(Proto.Design.common.GameDefaultTable).GetMethod("get_InitPackId", BindingFlags.Public | BindingFlags.Instance);
+                if (initPackIdGetter != null)
+                {
+                    var forcePack1 = new HarmonyMethod(typeof(Plugin).GetMethod(nameof(ForceInitPackId1Postfix), BindingFlags.Static | BindingFlags.NonPublic));
+                    harmony.Patch(initPackIdGetter, postfix: forcePack1);
+                    Log.LogInfo("[BD2CompatPatch] Patched GameDefaultTable.InitPackId to always return 1 (Knight of Blood) instead of the live game's current 21.");
+                }
+                else
+                {
+                    Log.LogWarning("[BD2CompatPatch] Could not find GameDefaultTable.get_InitPackId to patch.");
+                }
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning($"[BD2CompatPatch] Failed to patch GameDefaultTable.InitPackId: {e.Message}");
             }
 
             // Root cause of "stuck on branded loading spinner after clicking Start Game, zero
@@ -1280,6 +1345,102 @@ namespace BD2CompatPatch
                 Log.LogWarning($"[BD2CompatPatch] Failed to patch GateSpotData.MapPositionData getter: {e.Message}");
             }
 
+            // A THIRD, separate crash site on the exact same "gate has no FieldGateTable row"
+            // condition: GateSpotData.IsPossibleJoinGate(ref string) -- called from
+            // PlayerController.OnTriggerEnter, i.e. every time the player's collider touches a
+            // gate trigger, before MoveMap is ever reached. Its own body null-checks the backing
+            // table row, LOGS a warning, then dereferences it anyway two lines later (identical
+            // "logged and dereferenced anyway" shape as every other DataNotFoundException-
+            // adjacent bug patched this session) -- confirmed live via Player.log's
+            // "CrashReporter Exception Catched" entries naming this exact method/NRE, not caught
+            // by any existing wrap (it isn't part of the FieldObjectBase-subclass sweep's method
+            // list). Fails OPEN (__result = true, "yes you may attempt this gate") rather than
+            // blocking the player from ever using a gate with incomplete data: MoveMap itself is
+            // already safe on broken destination data (the two patches directly above), so
+            // letting the join attempt through just means "try, and fail safely downstream" —
+            // failing closed here instead would silently block the gate forever with no
+            // downstream safety net able to help, which is exactly the reported "can't leave the
+            // house" symptom.
+            try
+            {
+                var gateSpotDataType3 = AccessTools.TypeByName("GateSpotData");
+                var isPossibleJoinGate = gateSpotDataType3?.GetMethods(BindingFlags.Public | BindingFlags.Instance)
+                    .FirstOrDefault(m => m.Name == "IsPossibleJoinGate"
+                        && m.ReturnType == typeof(bool)
+                        && m.GetParameters().Length == 1
+                        && m.GetParameters()[0].ParameterType == typeof(string).MakeByRefType());
+                if (isPossibleJoinGate != null)
+                {
+                    var finalizer = new HarmonyMethod(typeof(Plugin).GetMethod(nameof(SafeIsPossibleJoinGateFinalizer), BindingFlags.Static | BindingFlags.NonPublic));
+                    harmony.Patch(isPossibleJoinGate, finalizer: finalizer);
+                    Log.LogInfo("[BD2CompatPatch] Patched GateSpotData.IsPossibleJoinGate to fail open (allow join attempt) instead of crashing on a gate with no FieldGateTable row.");
+                }
+                else
+                {
+                    Log.LogWarning("[BD2CompatPatch] Could not find GateSpotData.IsPossibleJoinGate(ref string) to patch.");
+                }
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning($"[BD2CompatPatch] Failed to patch GateSpotData.IsPossibleJoinGate: {e.Message}");
+            }
+
+            // A FOURTH symptom traced to this same broken-transition family: the full-screen
+            // "Black" scene-transition overlay (a plain UI Image, confirmed live via the
+            // GraphicRaycaster diagnostics above -- click hits stop at "Black" on a canvas with
+            // sortOrder=600, blocking every button underneath) and the cinematic depth-of-field
+            // blur (GameCameraManager's _blurBackground TranslucentImage, confirmed by decompile
+            // to only ever get explicitly set back to non-blurred... actually only ever set TO
+            // alpha=1/full-blur at Cinema_End, with the real reset elsewhere not traced) can both
+            // get stuck ON indefinitely. Root cause is the same as everything above: these are
+            // toggled on at the START of a camera/cutscene transition
+            // (GameCameraManager.SetActiveSceneMoveUI(true, ...) /
+            // SetActiveSceneMoveUIBlur(true)) and only toggled back off by a LATER step in the
+            // same transition sequence (a specific PlayDirector call, a Timeline signal, etc.) --
+            // if anything in between throws or gets skipped (exactly what several of our own
+            // safety patches above do, deliberately, to avoid a worse crash/freeze), the "turn it
+            // back off" call simply never happens, and the player is left with a black overlay
+            // eating every click, or a permanently blurred world, or both. Rather than chase the
+            // exact broken step for every possible transition type (Main/Cinema/BattleEncount/
+            // CutScenes/Airway/EvilCastleFloor all funnel through the same two toggles), patch
+            // both toggles with a safety-net watchdog: whenever either is turned ON, schedule a
+            // real-time delayed call (a coroutine on this plugin's own MonoBehaviour -- Unity
+            // API calls are main-thread-only, unlike the plain-int LoadCameraAsset watchdog
+            // above, so a background Timer can't be used here) to force it back OFF a few
+            // seconds later regardless of whether the "real" turn-off ever ran. A transition that
+            // completes normally just gets turned off twice (harmless no-op the second time); one
+            // that gets stuck no longer stays stuck forever.
+            try
+            {
+                var setActiveSceneMoveUI = AccessTools.Method(typeof(GameCameraManager), "SetActiveSceneMoveUI");
+                if (setActiveSceneMoveUI != null)
+                {
+                    var watchdogPostfix = new HarmonyMethod(typeof(Plugin).GetMethod(nameof(SetActiveSceneMoveUIWatchdogPostfix), BindingFlags.Static | BindingFlags.NonPublic));
+                    harmony.Patch(setActiveSceneMoveUI, postfix: watchdogPostfix);
+                    Log.LogInfo("[BD2CompatPatch] Patched GameCameraManager.SetActiveSceneMoveUI with a stuck-transition-overlay watchdog.");
+                }
+                else
+                {
+                    Log.LogWarning("[BD2CompatPatch] Could not find GameCameraManager.SetActiveSceneMoveUI to patch.");
+                }
+
+                var setActiveSceneMoveUIBlur = AccessTools.Method(typeof(GameCameraManager), "SetActiveSceneMoveUIBlur");
+                if (setActiveSceneMoveUIBlur != null)
+                {
+                    var watchdogPostfix2 = new HarmonyMethod(typeof(Plugin).GetMethod(nameof(SetActiveSceneMoveUIBlurWatchdogPostfix), BindingFlags.Static | BindingFlags.NonPublic));
+                    harmony.Patch(setActiveSceneMoveUIBlur, postfix: watchdogPostfix2);
+                    Log.LogInfo("[BD2CompatPatch] Patched GameCameraManager.SetActiveSceneMoveUIBlur with a stuck-blur watchdog.");
+                }
+                else
+                {
+                    Log.LogWarning("[BD2CompatPatch] Could not find GameCameraManager.SetActiveSceneMoveUIBlur to patch.");
+                }
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning($"[BD2CompatPatch] Failed to patch the scene-move-UI watchdogs: {e.Message}");
+            }
+
             // Live retest of the two fixes above: the freeze IS gone (confirmed by the user --
             // "can move and back out but cant enter house"), but the gate-move coroutine itself
             // now throws a real NullReferenceException once it actually starts running (it used to
@@ -1462,11 +1623,55 @@ namespace BD2CompatPatch
             yield break;
         }
 
-        private static bool SkipLoadCameraAssetPrefix(ref IEnumerator __result)
+        // See the registration comment above for the full story (this used to unconditionally
+        // skip the whole coroutine, which broke every cutscene in the game). Starts a one-shot
+        // background timer that force-completes the loaded-asset counter if it's still stuck
+        // after a few seconds, then lets the REAL method run (returns true) so the 115+ working
+        // timeline assets actually load.
+        private static bool StartLoadCameraAssetWatchdogPrefix(object __instance)
         {
-            Log.LogInfo("[BD2CompatPatch] Skipping GameCameraManager.LoadCameraAsset (broken timeline-count wait).");
-            __result = EmptyEnumerable().GetEnumerator();
-            return false;
+            try
+            {
+                var instanceType = __instance.GetType();
+                var counterField = AccessTools.Field(instanceType, "ὨὡὭὫὨὫὮὭὮὪὯ");
+                if (counterField == null)
+                {
+                    Log.LogWarning("[BD2CompatPatch] LoadCameraAsset watchdog: could not find the loaded-asset counter field, letting the original method run unguarded.");
+                    return true;
+                }
+                var instanceRef = __instance;
+                System.Threading.Timer timer = null;
+                timer = new System.Threading.Timer(timerState =>
+                {
+                    try
+                    {
+                        int current = (int)counterField.GetValue(instanceRef);
+                        if (current < 120)
+                        {
+                            Log.LogWarning($"[BD2CompatPatch] LoadCameraAsset: only {current}/120 timeline assets loaded after the watchdog timeout -- forcing the count to 120 so cutscenes/battles aren't blocked forever by whichever ones never resolve.");
+                            counterField.SetValue(instanceRef, 120);
+                        }
+                    }
+                    catch (Exception e)
+                    {
+                        Log.LogWarning($"[BD2CompatPatch] LoadCameraAsset watchdog tick failed: {e.Message}");
+                    }
+                    finally
+                    {
+                        // One-shot: dispose immediately after firing so it doesn't linger, and
+                        // drop it from the keep-alive set (GC would otherwise collect a Timer
+                        // with no other live reference before it ever fires).
+                        timer?.Dispose();
+                        _loadCameraAssetWatchdogs.TryRemove(timer, out _);
+                    }
+                }, null, 6000, System.Threading.Timeout.Infinite);
+                _loadCameraAssetWatchdogs.TryAdd(timer, 0);
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning($"[BD2CompatPatch] LoadCameraAsset watchdog setup failed: {e.Message}");
+            }
+            return true; // let the real method run for real -- this is the actual fix
         }
 
         private static bool SkipMethodPrefix(MethodBase __originalMethod)
@@ -1637,6 +1842,69 @@ namespace BD2CompatPatch
                 return false; // skip the original MoveMap entirely -- never sets DontMove, nothing to undo
             }
             return true;
+        }
+
+        // See the registration comment above (near IsPossibleJoinGate) for the full story.
+        // Standard HarmonyX finalizer shape: Exception __exception plus a ref to the original
+        // return value. Only acts when the original threw; otherwise leaves __result (already
+        // set by the real method) untouched.
+        private static Exception SafeIsPossibleJoinGateFinalizer(Exception __exception, ref bool __result)
+        {
+            if (__exception != null)
+            {
+                Log.LogWarning($"[BD2CompatPatch] GateSpotData.IsPossibleJoinGate threw ({__exception.GetType().Name}: {__exception.Message}) -- failing open (allow join attempt) instead of blocking the gate.");
+                __result = true;
+            }
+            return null;
+        }
+
+        // See the registration comment above (near the "FOURTH symptom" note) for the full
+        // story. Fires whenever SetActiveSceneMoveUI(true, ...) runs; harmless if the transition
+        // finishes normally and turns itself off before the delay elapses.
+        private static void SetActiveSceneMoveUIWatchdogPostfix(object __instance, bool __0)
+        {
+            if (__0 && _instance != null)
+            {
+                _instance.StartCoroutine(ForceSetActiveSceneMoveUIOffAfterDelay(__instance));
+            }
+        }
+
+        private static IEnumerator ForceSetActiveSceneMoveUIOffAfterDelay(object instance)
+        {
+            yield return new WaitForSeconds(10f);
+            try
+            {
+                var method = AccessTools.Method(instance.GetType(), "SetActiveSceneMoveUI");
+                method?.Invoke(instance, new object[] { false, null });
+                Log.LogWarning("[BD2CompatPatch] SetActiveSceneMoveUI watchdog: forced the scene-transition overlay off after timeout (harmless if it already turned off normally).");
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning($"[BD2CompatPatch] SetActiveSceneMoveUI watchdog failed: {e.Message}");
+            }
+        }
+
+        private static void SetActiveSceneMoveUIBlurWatchdogPostfix(object __instance, bool __0)
+        {
+            if (__0 && _instance != null)
+            {
+                _instance.StartCoroutine(ForceSetActiveSceneMoveUIBlurOffAfterDelay(__instance));
+            }
+        }
+
+        private static IEnumerator ForceSetActiveSceneMoveUIBlurOffAfterDelay(object instance)
+        {
+            yield return new WaitForSeconds(10f);
+            try
+            {
+                var method = AccessTools.Method(instance.GetType(), "SetActiveSceneMoveUIBlur");
+                method?.Invoke(instance, new object[] { false });
+                Log.LogWarning("[BD2CompatPatch] SetActiveSceneMoveUIBlur watchdog: forced blur off after timeout (harmless if it already turned off normally).");
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning($"[BD2CompatPatch] SetActiveSceneMoveUIBlur watchdog failed: {e.Message}");
+            }
         }
 
         // See the registration comment above (near MoveMap(GateSpotData)) for the full story.
@@ -2481,6 +2749,13 @@ namespace BD2CompatPatch
             // underneath it -- the back-arrow trying to return to "the current pack" would hang,
             // and pack1's sprites/overworld models would render in a layout meant for pack21,
             // showing up as greyed-out/cut-off. Removed; only the diagnostic log above remains.
+        }
+
+        // See the registration comment above (near "the actual ... why does a fresh-ish account
+        // enter pack21") for the full story.
+        private static void ForceInitPackId1Postfix(ref int __result)
+        {
+            __result = 1;
         }
 
         // __args works regardless of the real (obfuscated) parameter names — index 1 is the

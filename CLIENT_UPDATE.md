@@ -3057,6 +3057,393 @@ exercise the fallback path -- the existing account already resumes into
 pack21 today regardless, since its saved position already points
 there).
 
+## CORRECTION (2026-09-29): Knight of Blood is pack1, not pack21
+
+The "RESOLVED" entry immediately above -- and the pack21 framing throughout
+the "Fallout from a year of real content becoming reachable" section further
+up -- both assumed pack21 was "Knight of Blood." Wrong, per direct
+confirmation from the account owner, who also supplied reference Pack
+Collection screenshots: **pack1 is Knight of Blood**, the game's starting
+pack; pack21 is a much later pack (a "Chained Soldier 2" collab, per its own
+in-game content, not related to Knight of Blood at all). Reverted:
+
+- `gameserver/src/logic/game/pack/pack_in_game_info.rs`'s no-`UserPosition`
+  fallback back to the original pack1 position
+  (`{"MapId":1,"PlayerPosition":{"x":17.8,"y":0.2,"z":-4.0}}`).
+- The test account's `UserPosition.PackId` back to `NULL` (was set to `21`
+  by the reverted change; `PackPosition`/`MapId` left untouched since it
+  reflects real, current gameplay state, not the fallback path).
+
+No prior session apparently double-checked this assumption against any
+actual in-game source before treating it as established fact -- worth being
+skeptical of pack-identity claims in this doc that aren't backed by a
+screenshot or the account owner's direct confirmation.
+
+## Quest-clear rewards now grant real Equip/Costume/Char rows (2026-09-29)
+
+**Symptom chain**: fixing the original gate-freeze bug (auto-navigate into
+a hut) surfaced a follow-on issue -- clearing certain quests produced a
+generic "quest can't be auto'd" error, traced to `QuestUpdate` hard-failing
+on an uncaptured `QuestTable1` row (fixed separately, fail-soft now: warns
+and still records real progress). That led to auditing `quest_clear.rs`
+against the reference server's decompiled `GameQuestService.GetRewardDbInfoBundle`
+(from the bundled `BrownDust.II_2.19.5_PC_Client (1)/server/Bd2.Server.Services.dll`,
+an Aug-2024 pre-pack21 ASP.NET Core dev server with real business logic and
+plaintext master tables -- see below for how much else this unlocked).
+
+**Root cause**: every quest reward, regardless of type, was inserted as a
+plain generic `ItemInfo` row. Correct for currency/materials, but Equip(10)
+and Costume(11) rewards need real `EquipInfo`/`CostumeInfo`(+`CharInfo` if
+the character isn't owned yet) rows to actually function client-side as
+usable gear/costumes/characters -- a generic ItemInfo row for these types is
+inert data the client can't render as equipped gear or a playable character.
+
+**Fix** (`gameserver/src/logic/field/quest_clear.rs`): a new `grant_rewards`
+dispatcher branches on `item_type`. Equip(10) calls the existing
+`create_new_equip` helper and reports a real `EquipDbInfo`. Costume(11)
+mirrors the reference server's exact branching, cross-checked line-for-line
+against its decompiled source: if the account doesn't own the underlying
+character (checked via `CostumeTable.use_unique_char_id` against owned
+`CharInfo` rows joined through `CharTable.unique_char_id`), grants character
++ costume together (character gets real `health_value`/`skill_group_id`-derived
+fields, matching the reference's `Hp`/`ConnectPotentialCostume` assignments,
+not just placeholders); if the character is owned but not this costume,
+grants just the costume (left unequipped, matching the reference exactly --
+it does NOT auto-equip a newly crafted costume onto its character); if the
+costume is already owned and below max level, levels it up
+(`ItemAutoUpgradeInfo`) instead of duplicating; at max level, converts into
+a generic duplicate-reward item (`ItemAutoExchangeInfo`) instead of granting
+nothing. All other reward types keep the original generic-`ItemInfo` path,
+now via a `grant_rewards`/`add_items_to_inventory` split rather than one
+monolithic function.
+
+Verified with a clean `cargo build` and a full boot; live re-verification
+(actually clearing a quest with an Equip/Costume reward in-session) still
+outstanding.
+
+## Schema-drift audit across all 437 captured tables (2026-09-29)
+
+Rebuilding after the quest-clear fix crashed on boot:
+`Failed to load QuestTable10.json: missing field 'questCharIllustCostumeId'`.
+Rather than fix this one field and wait for the next one-by-one boot
+failure (the pattern every prior session used), wrote a one-off Python
+script (`audit_required_fields.py`, scratchpad-only, not checked in) that:
+parses `data/src/exceldb/mod.rs` for every `(module, json_filename)` load
+pair (437 of them), parses each module's struct for every non-`Option`
+field, and cross-checks every row of the corresponding JSON for that field
+being present and non-null. Any real mismatch gets patched automatically --
+`Vec<T>` fields get `#[serde(default)]` (matching the existing
+`CostumeTable.connected_costume_design_id` precedent), scalar fields become
+`Option<T>`.
+
+**Result**: only 7 fields across all 437 tables were actually broken, all
+the same field (`questCharIllustCostumeId`) in 7 of the ~30 per-pack quest
+tables (packs 5, 10, 1003, 1004, 1005, 1006, 2002) -- every other pack
+correctly generated it as `Option<i32>` already; these 7 were generated
+non-`Option` because whatever row(s) the original codegen sampled for
+those specific packs happened to have the field present. All 7 fixed to
+match. Confirms this was an isolated codegen inconsistency, not a systemic
+problem -- worth re-running this exact script after any future bulk data
+import, rather than assuming one clean boot means the whole dataset is
+internally consistent.
+
+## EquipMaking wired to real EquipmentMakingTable (2026-09-29)
+
+`equip_making.rs` was creating equip `making_id` directly via
+`create_new_equip` and trusting whatever items the client claimed to spend
+-- completely ignoring `EquipmentMakingTable` (60 real captured rows),
+which was sitting unused. Before wiring it in, spent real effort ruling out
+the alternative explanation that the table's `resultItemId` values
+(1001-1060) belonged to some *other* item category entirely (checked
+`SellItemTable`, `MyRoomItemShopTable`'s actual `elementId` field,
+`MyRoomItemTable`, `RandomBoxTable`, `RewardGroupTable` for a genuine
+item-id match, not just primary-key coincidence -- an earlier pass
+falsely "matched" `MyRoomItemShopTable.id`, which turned out to be that
+table's own unrelated primary key, not an item reference). Confirmed there
+is no other real match: `making_id` is the recipe's own id
+(`EquipmentMakingTable.id`, 1-60) and `resultItemId` is the crafted equip's
+real id -- the old code was conflating the two, which "worked" only because
+`create_new_equip` doesn't validate its id against `EquipmentTable`.
+
+**Fix**: looks up the recipe by `making_id`, consumes its real
+`materialItemId`/`materialItemCount` cost, creates `def.result_item_id` via
+`create_new_equip`, and reports real `talent_level * count` instead of a
+hardcoded `0` for `add_talent_exp`. Falls back to the old trust-the-client
+behavior only for an id the table doesn't have. Note for later: decompiling
+the reference server's `GameEquipService` to double-check this found no
+`EquipMaking` handler there at all -- this feature postdates that Aug-2024
+reference build, so it couldn't be cross-checked against real server logic
+the way the quest-reward fix was; the fix here is inferred purely from the
+table's own shape and the response proto's structure.
+
+## LifeCooking wired to real CookingTable (2026-09-29)
+
+Investigating My Room/Life/Territory (initially misdiagnosed in
+conversation as "dead code" -- it isn't; both are fully implemented and
+routed, just with a handful of *documented* placeholder values standing in
+for uncaptured tables: `life_seeding.rs` crop growth time, `life_eat_food.rs`
+food buff duration, `life_shop_buy.rs`/`life_shop_sell.rs` shop
+costs/prices, `life_tool_upgrade.rs` tool tiers) turned up one placeholder
+that already had real, captured data sitting unused: `life_cooking.rs` was
+consuming client-claimed ingredients but always returning an empty reward,
+predating the discovery that `CookingTable` (48 real recipes, real
+`materialItemId`/`materialItemCount`/`resultItemId`/`resultItemCount`) was
+ever captured. `LifeCookingRequest.id` maps directly onto `CookingTable.id`.
+
+**Fix**: looks up the real recipe, consumes its real material cost, grants
+its real result item -- same pattern as `alchemy::craft` and the
+`EquipMaking` fix above.
+
+The other four Life placeholders (crop/food/shop/tool) were deliberately
+**not** touched: none has a captured master table (`LifeCropGradeTable`,
+`LifeCropSeedTable`, `LifeShopTable`, `LifeBuyItemTable`, `LifeToolTable` --
+all absent from all 437 captured tables), and a community fan wiki
+(`github.com/BotAn14XD/BD2-Overview`, surveyed this session for any useful
+data at all -- see below) has real-looking crop/tool/dish values but keyed
+by *name* ("Spanking Wheat", "Stone Pickaxe"), with no numeric id to cross
+against these requests' actual `id`/`group_id` fields. Applying it would
+mean guessing a name-to-id mapping, not using real data -- the same
+standard this project already holds itself to for e.g. gacha draw rates
+(uniform-random real `CharTable` id, not a fabricated weighted table). Real
+fix requires a live capture of these specific request/response pairs.
+
+## GitHub survey for additional Brown Dust 2 data sources (2026-09-29)
+
+Searched broadly (repo names, code search via GitHub's REST API, targeted
+lookups on promising hits) for any other public repo with useful BD2 data.
+**No repo publishes raw official master-table dumps** under names like
+`QuestTable`/`CharTable`/`EquipmentOptionTable`/`ExcelDB` -- zero real hits.
+What exists instead: automation/mod tooling (`BD2ModManager`, `MFABD2`,
+`ok-bd2`, various redeem/auto-fishing/rhythm bots), Live2D/art asset dumps
+(`myssal/Brown-Dust-2-Asset`, `Zormolo/Brown-Dust-2-Assets`,
+`Jelosus2/BD2-L2D-Viewer`/`ReDustX`), and one promising-looking dead end:
+`MadestSamurai/bd2-fishing` (and sibling `bd2-*` repos) ship a
+`compatibility/contract.json`, but it's a deliberately one-way SHA256
+shape-hash contract for detecting when the game updates break *their* own
+Harmony hooks -- real class/field names are explicitly never exported by
+design ("only interface shapes and one-way hashes leave the installed
+client"), so it's useless for reverse-engineering help. The one repo with
+real, human-curated (not official) supplementary data is
+`BotAn14XD/BD2-Overview` -- real crop growth times, dish recipes/costs,
+tool tiers, gear stat-roll ranges, but all name-keyed with no numeric ids
+(see the Life-placeholder entry above for why that limits its usefulness).
+Net: the bundled reference ASP.NET server package remains the best data
+source by a wide margin; nothing found this session changes that.
+
+## Village-chief house exit gate: root-caused through to a stale Addressables cache (2026-09-29)
+
+**Symptom**: after the original gate-freeze fix, a specific gate (the exit
+from the village chief's house, pack1/Knight of Blood) still didn't work --
+walking into it produced no error and no transition, just silently did
+nothing ("can't leave the house").
+
+**Investigation**: the running server's own log showed nothing wrong (the
+request traffic around this simply stopped -- consistent with a
+client-side-only failure). Found the actual game install path via
+`tools/BD2CompatPatch/BD2CompatPatch.csproj`'s `$(GameDir)` MSBuild property
+(`A:\Neowiz\Browndust2\BrownDust2_10000002`) and read both
+`BepInEx/LogOutput.log` and Unity's own `Player.log`
+(`%APPDATA%\LocalLow\Gamfs\BrownDust II\Player.log` -- a separate log from
+BepInEx's, since exceptions thrown from UI callbacks are logged by Unity
+itself, not by anything this project's own instrumentation captures). Found
+the real exception:
+
+```
+Data not found exception. (FieldGateTable, id:302) - FieldObjectType : Gate, ObjectName : Gate_5_1_1
+```
+
+The existing gate-safety patches (`SafeMoveMapGatePrefix`/
+`SafeGateSpotMapPositionDataPrefix`, from the original gate-freeze fix)
+correctly prevent a crash, but their "pick any nonzero Int32 property as a
+fallback destination" heuristic picks this gate's own **id** (302, this
+object has no OTHER working numeric property since everything else derives
+from the same missing table row) and treats it as if it were a valid
+`MapId` -- confirmed by the log line "redirecting to
+`<obfuscated>`=302 (stay where you are)". Not a real map, so the gate is a
+silent no-op: exactly the reported symptom.
+
+**Traced `FieldGateTable`'s real source, decisively, through the actual
+client assembly** (this took real effort and reverses an assumption a
+prior session's comments imply, so worth recording precisely): confirmed
+via `ilspycmd -l c` that `Proto.Design.pack1.FieldGateTable` (and per-pack
+siblings for every other pack) are real protobuf message types with
+generated `Reflection` companion classes -- but grepped this entire
+codebase and found **zero** server-side code anywhere that constructs or
+serves any `proto.design.*` type (the Rust bindings exist, generated, but
+are completely unused). Decompiled `GateSpotData` itself: it resolves its
+row via a static per-pack dictionary lookup, not a network response object.
+Decompiled `tools/BD2DataExtractor/Plugin.cs`'s own force-load logic (which
+already knew this, evidently, since it exists): it calls
+`RawDataManager.DBLoad(GetDBName(DB_PACK, packId), null)` per pack to force
+every design table to load, and comments this "may not exist until after
+login." **Conclusion**: these tables are loaded by the client itself via
+`RawDataManager`, from locally-cached Addressables content
+(content-hash-named files, confirmed present at
+`...\LocalLow\Gamfs\BrownDust II\Data\t\<hash>` and
+`...\com.unity.addressables\catalog_alpha.json`) -- not from this project's
+server at all, and not something `httpserver/data/tables`/`data/src/exceldb`
+can influence. (This means the "backfilling pack21's tables from a live
+capture" line in the "Fallout from a year..." section above was likely an
+imprecise read of the same evidence -- there's no mechanism in this
+codebase that feeds captured JSON back into the client.)
+
+This lines up with the already-documented and already-fixed "year-stale
+`bundle_version`" bug elsewhere in this doc: that fix corrected the
+Addressables `CdnInfo.Version` the client resolves *new* downloads against,
+but a "Download All Packs" re-verification pass done at the time only
+`curl`-checked a few specific bundles (fishing/avatar/illust assets) -- not
+this pack1 map-data blob, which was very plausibly still sitting in the
+local cache from before that fix, under the old broken version.
+
+**Action taken**: closed the running client, moved (not deleted -- the auto
+mode safety classifier correctly refused an `rm -rf` here as irreversible
+local destruction, and a rename achieves the same effect while staying
+reversible) the two cache locations aside to
+`...\LocalLow\Gamfs\BrownDust II\_stale_cache_backup\`, and relaunched the
+client so it re-downloads fresh content under the current, correct
+`bundle_version`.
+
+**Status: pending live re-verification** -- not yet confirmed whether a
+fresh download actually contains a complete row for gate id 302. If the
+same exception recurs after a clean redownload, that would mean the gap is
+real on Neowiz's own current CDN content (unlikely for base pack1 story
+content, but not ruled out), and the standing patch-side mitigation
+(exception-swallowing, no working fallback destination) is the ceiling
+without a different fix strategy. **Next session: check this first** before
+assuming it's still broken or still fixed.
+
+## A real, previously-unpatched crash: GateSpotData.IsPossibleJoinGate (2026-09-29)
+
+Asked to "check logs" after a report of a genuine crash (not the already-
+known silent gate no-op). `Player.log` had it:
+`CrashReporter Exception Catched 1 {"stacktrace":"GateSpotData.IsPossibleJoinGate
+(...) PlayerController.OnTriggerEnter (...)","condition":"NullReferenceException"}`
+-- an UNCAUGHT exception reaching Unity's own top-level handler, meaning
+nothing existing (not the FieldObjectBase 45-subclass wrap, not the
+MoveMap/MapPositionData prefixes) was catching it.
+
+**Root cause**: same "logs the miss, dereferences it anyway" shape as
+everything else this project has hit, in a method not previously touched.
+`IsPossibleJoinGate(ref string)` -- called from `PlayerController.OnTriggerEnter`,
+i.e. the moment the player's collider touches ANY gate trigger, before
+`MoveMap` is ever reached -- null-checks its backing `FieldGateTable` row,
+logs a warning, then dereferences that same null row two lines later.
+
+**Fix**: a Harmony FINALIZER (not a prefix -- simplest way to get a
+specific return value out of a method whose real logic we don't need to
+replicate) that sets `__result = true` ("yes, you may attempt this gate")
+whenever the real method throws, instead of the CLR's implicit `false`
+default. Fails OPEN deliberately: `false` would block the player from ever
+using a broken gate with no downstream recourse; `true` lets the attempt
+reach `MoveMap`, which is already safe on broken destination data (the two
+patches from the gate-freeze fix above). Built, deployed, confirmed loaded
+in the next session's `LogOutput.log`.
+
+## Cutscenes were rendering as plain black screens -- a real regression from a fix earlier in this doc (2026-09-29)
+
+**Symptom**: every story cutscene (not just battle cameras) rendered as a
+flat black screen.
+
+**Root cause**: the `GameCameraManager.LoadCameraAsset` fix documented
+earlier in this file ("THE actual silent-hang root cause") skipped the
+ENTIRE 120-timeline-asset loading coroutine outright, on the theory that
+"these timelines are already degraded/missing regardless." That was wrong
+-- skipping the whole method means NONE of the 120 slots ever load, not
+just the handful that are actually broken, because the coroutine's own
+request-kickoff loop (the part that calls `LoadAssetAsync` for each of the
+115+ genuinely-available assets) never runs either. Confirmed via
+`Player.log`: `GameCameraManager.PlayDirector: timeline for index N isn't
+loaded (director null=False, slot null=True)` fired for literally every
+cutscene, every time, because the backing array was permanently empty.
+
+**Fix**: replaced the outright skip with a load-count watchdog. The real
+coroutine now runs for real (so working timeline assets actually load).
+A one-shot `System.Threading.Timer`, started when `LoadCameraAsset` begins,
+force-sets the loaded-count field to 120 after 6 seconds if it's still
+stuck below that -- unblocking the coroutine's own `while (loadedCount <
+120) yield return ...` wait without needing to touch its compiler-generated
+state machine at all. Whichever specific slots never load stay null,
+already handled safely per-index by the existing PlayDirector/
+GetTimelineWaitForSeconds prefixes (the mechanism that was supposed to
+handle this all along). Had to keep the `Timer` instance alive in a static
+`ConcurrentDictionary` -- a `Timer` with no other live reference is GC-
+eligible at any point, which would silently cancel it before it ever fires.
+
+## Stuck black transition-overlay and stuck cinematic blur (2026-09-29)
+
+Same investigation session as the cutscene fix above, and the same root
+cause shape: `GameCameraManager.SetActiveSceneMoveUI(true, ...)` (a full-
+screen UI Image literally named "Black", confirmed via the
+GraphicRaycaster click-diagnostics -- click hits stopped dead at "Black" on
+a canvas with `sortOrder=600`, above normal gameplay UI, eating every
+click underneath) and `SetActiveSceneMoveUIBlur(true)` /
+`_blurBackground` (a `TranslucentImage` depth-of-field overlay, confirmed
+stuck via a user screenshot: the whole 3D scene uniformly out of focus
+while UI stayed crisp -- not a normal background-bokeh effect) are both
+turned ON at the start of a camera/cutscene transition and only turned
+back OFF by a LATER step in that same sequence (a specific `PlayDirector`
+call, a Timeline signal). If anything in between throws or gets skipped --
+which several of this project's own safety patches do, on purpose, to
+avoid a worse crash -- the "turn it back off" call never runs, and the
+player is left with a black overlay blocking all input, a permanently
+blurred world, or both.
+
+**Fix**: rather than chase the exact broken step for every one of the ~10
+transition types that funnel through these two toggles
+(Main/Camera_Start/Camera_End/BattleEncount_*/Cinema_*/CutScenes_Start/
+Airway_Enter/EvilCastleFloor), patched both toggle methods with a postfix:
+whenever either is called with `true`, start a coroutine (on the compat
+patch's own MonoBehaviour -- these are real Unity API calls, unlike the
+plain-int LoadCameraAsset watchdog, so a background `Timer` isn't safe
+here) that force-calls the same method with `false` again 10 seconds
+later, regardless of whether the real turn-off already ran. A transition
+that completes normally just gets turned off twice (harmless no-op); one
+that gets stuck no longer stays stuck forever.
+
+## PackInGameInfo's hardcoded clear_quest_ids -- the real cause of "auto-nav stuck on the chief's house" and "progress resets every restart" (2026-09-29)
+
+Two symptoms reported together turned out to share one root cause.
+`gameserver/src/logic/game/pack/pack_in_game_info.rs` -- which fires on
+EVERY login and EVERY pack-enter, confirmed repeatedly in the server's own
+request log -- had `let clear_quest_ids = vec![1];` hardcoded, always
+reporting "only quest 1 has ever been cleared" no matter how far the
+account had actually progressed. `quest_info.rs` (a different handler, for
+the separate `QuestInfoRequest`) already did this correctly, querying
+`UserQuest` for real `Status == 3` rows scoped by pack -- `pack_in_game_info.rs`
+just never got the same treatment.
+
+Since this fires on every single login/pack-enter, the client was being
+told "you've only cleared quest 1" every time it re-synced -- which reads,
+from the player's side, as "my progress reset" even though the real
+progress was sitting untouched in the database the whole time, and very
+plausibly explains the auto-navigate feature repeatedly re-targeting an
+early, already-cleared quest (the chief's house one) instead of whatever
+the real current objective was.
+
+**Fix**: mirrors `quest_info.rs`'s exact query, scoped to `req.pack_id`
+when the client provides one. Verified with a clean `cargo build` and
+boot; live re-verification (confirming auto-nav now follows real progress
+across a login) still outstanding.
+
+## Story Pack vs Master Pack -- confirmed from real PackTable data, not a bug (2026-09-29)
+
+Asked to double check pack-identity handling given the user's own
+knowledge of the game's two parallel pack-numbering schemes ("story pack"
+vs "master pack"). Checked `PackTable.json` directly: pack id 1 has no
+`packType` field at all and `packDisplayNumber: 1` (Story Pack #1); pack id
+21 has `packType: 1000` and ALSO `packDisplayNumber: 1` (Master Pack #1 --
+same on-screen "#1" as pack1, but in a different category, hence looking
+like the same number from two different UI tabs). This matches this
+project's own pack1-is-Knight-of-Blood / pack21-is-the-later-incomplete-
+pack understanding exactly -- nothing was backwards in the code. The
+account's actual reported "keeps starting in pack21" turned out to be real
+saved state, not a code bug: `UserPosition.PackPosition` had genuinely
+drifted to a pack21 map (`MapId:212`, one of pack21's `fieldMapId` values)
+from earlier testing this session. Fixed by directly updating that one
+account's saved row back to the pack1 starting position -- an admin data
+fix, not a code change; a fresh account would never have hit this since
+the no-`UserPosition`-row fallback already correctly defaults to pack1.
+
 ## Gate/hut freeze, take two: still hung specifically under Auto Mode (2026-09-28)
 
 **Symptom reported**: with quest auto-navigation ("Auto Mode") toggled on
@@ -3518,3 +3905,88 @@ just how the 404 error above presented itself. Worth clarifying on the
 next test: if the message still appears after the QuestUpdate fix
 above, it's probably real and separate and needs its own
 investigation; if it doesn't recur, it was this bug.
+
+## RESOLVED FOR REAL: why the account kept entering pack21 at login (2026-09-29)
+
+An earlier fix this same day ("RESOLVED: pack21 is now the default
+starting pack", later corrected back to pack1 once Knight-of-Blood's real
+identity was confirmed) assumed `UserPosition`'s fallback controlled which
+pack a login lands in. It doesn't, for the actual reported bug: rewriting
+the account's saved `UserPosition` row directly to a real pack1 position
+had zero effect -- the client still called `PackManager.EnterPack(Id=21)`
+on every fresh login. Took a long chain of dead ends to actually solve;
+worth recording precisely so a future session doesn't repeat them.
+
+**Ruled out, in order, each with real evidence before moving to the next:**
+1. `UserPosition.PackPosition`'s embedded `MapId` -- rewrote it to pack1's
+   map directly in the database, account still entered pack21. (This *is*
+   real, used save-state -- just not what drives the initial-entry
+   decision.)
+2. `UserInfo.LastPlayPackId` -- found the exact real client code that reads
+   this (`IntroUI`, via a `lastPlayPackDTO` lookup), confirmed our own DB
+   row already had it correctly set to `1`, and confirmed `join_user.rs`
+   (the only handler that ever sets it) never actually fires in this
+   account's login sequence at all in the server's own request log -- a
+   dead end, not a bug.
+3. `PackInfo.IsBuy` / `PackInfo.ActiveTime` -- checked for any pack21-
+   specific value that might mark it "the one to resume"; both fields were
+   identical to every other never-visited pack (`IsBuy=0`, `ActiveTime`
+   null) -- generic per-row defaults, not a real signal.
+4. The local `packList_favorite_pack` Windows-registry PlayerPrefs value
+   (`HKCU\Software\Gamfs\BrownDust II`) -- found it literally contained
+   `"1*21*"` (both packs favorited from earlier testing sessions) and
+   hypothesized the client auto-opens the last-favorited pack. Edited it
+   down to just `"1*"` directly in the registry. **Confirmed live this did
+   nothing** -- account still entered pack21.
+
+**Actually found it** by finally adding what an earlier session's own
+`EnterPackDiagnostic` comment always intended but never implemented: a
+full `System.Diagnostics.StackTrace(true)` dump on the
+`PackManager.EnterPack` Harmony prefix. The stack showed the call
+originating inside `BDNetwork.NetworkManager`'s own packet-dispatch
+coroutine -- a real network response, not client-local state -- which led
+to checking the server's own request log for what the client had asked
+for immediately beforehand: `PackPreviewInfoRequest { pack_id: Some(21) }`,
+sent BY the client itself, before any server round-trip could have
+suggested "21." That meant the "21" decision was made even earlier and
+entirely client-side, from local config alone -- so decompiled `IntroUI`'s
+actual pack-selection method directly instead of guessing further: with no
+saved-position pack (`lastPlayPackDTO`) and no in-progress pack
+(`playingPackDTO`), it falls through to a `tutorialPackDTO` sourced from
+`GameDefaultTable(0).InitPackId` -- a real, singular, plain data field.
+Checked this server's own captured `GameDefaultTable.json`: `"initPackId":
+21`. Not a bug in our capture -- this is what Neowiz's live game currently
+funnels fresh-looking accounts into (their current promotional/collab
+content, not the original day-one story), which BD2DataExtractor captured
+faithfully from a real session.
+
+**First fix attempt (incomplete)**: edited `httpserver/data/tables/
+GameDefaultTable.json`'s `initPackId` from `21` to `1` and restarted the
+server. **Confirmed live this alone did nothing either** -- still entered
+pack21. Root cause: exactly like `FieldGateTable` and every other design
+table traced this session, `GameDefaultTable` is loaded by the client from
+its own local Addressables cache, not served by our REST API at all -- our
+copy of the JSON is real and correctly edited, but disconnected from what
+a live client actually reads.
+
+**Real fix**: `Proto.Design.common.GameDefaultTable` is a genuine,
+non-obfuscated Google.Protobuf-generated message class (unlike almost
+everything else patched this session) with a plain `InitPackId` property
+(protobuf field 58). Patched `GameDefaultTable.get_InitPackId` directly
+with a Harmony postfix that always returns `1`, regardless of whatever the
+client's locally-cached copy of the table actually contains. This reaches
+the client unconditionally, with no dependency on cache state, our own
+JSON mirror, or account save data. **Confirmed live**: a fresh login now
+logs `PackManager.EnterPack called with Id=1, StartPositionPath=
+Map0001_StartSpotData`.
+
+**Methodology note worth keeping**: three plausible, well-reasoned
+server-data theories (`UserPosition`, `LastPlayPackId`, the favorite-pack
+PlayerPrefs value) were each individually falsified by directly testing
+them live rather than assuming any one was "probably it" -- the actual
+answer only came from adding real instrumentation (the stack trace)
+instead of continuing to guess from static data inspection. When a
+client-behavior mystery survives one or two server-side data fixes with
+zero live effect, that's the signal to stop guessing from data and go get
+a stack trace (or equivalent hard evidence) instead of trying a fourth or
+fifth theory blind.
