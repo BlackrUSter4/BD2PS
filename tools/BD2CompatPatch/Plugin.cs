@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
+using System.Reflection.Emit;
 using BepInEx;
 using BepInEx.Logging;
 using HarmonyLib;
@@ -2066,6 +2067,16 @@ namespace BD2CompatPatch
         // single instruction at that offset, and resolve its token through the SAME live module
         // that's already running. This answers "what field/method access was this" with total
         // certainty, sidestepping the entire naming-instability problem instead of fighting it.
+        // Built once from System.Reflection.Emit.OpCodes' own static fields -- the real, complete
+        // opcode table (keyed by Value: single-byte opcodes 0x00-0xFD as-is, two-byte 0xFE-prefixed
+        // ones as 0xFE00|secondByte) -- rather than a hand-typed partial list prone to the same
+        // "guessed and wrong" failure mode as every named-member guess earlier tonight.
+        private static readonly Dictionary<int, OpCode> _ilOpCodes = typeof(OpCodes)
+            .GetFields(BindingFlags.Public | BindingFlags.Static)
+            .Where(f => f.FieldType == typeof(OpCode))
+            .Select(f => (OpCode)f.GetValue(null))
+            .ToDictionary(op => (int)(ushort)op.Value, op => op);
+
         private static void LogCrashLocationAndCapturedState(Exception e, object stateMachineInstance)
         {
             try
@@ -2074,38 +2085,74 @@ namespace BD2CompatPatch
                 var match = System.Text.RegularExpressions.Regex.Match(e.StackTrace ?? "", @"\[0x([0-9A-Fa-f]+)\]");
                 if (throwingMethod != null && match.Success)
                 {
-                    int offset = Convert.ToInt32(match.Groups[1].Value, 16);
+                    int reportedOffset = Convert.ToInt32(match.Groups[1].Value, 16);
                     var body = throwingMethod.GetMethodBody();
                     byte[] il = body?.GetILAsByteArray();
-                    if (il != null && offset >= 0 && offset + 5 <= il.Length)
+                    if (il != null)
                     {
-                        byte op = il[offset];
-                        // Only decode the operand-token opcodes we actually care about here
-                        // (field/method access -- what a NullReferenceException is almost always
-                        // about); anything else just gets its raw opcode logged, which is still
-                        // more than Mono's own truncated trace gives us.
-                        string decoded = null;
-                        int tokenOffset = -1;
-                        if (op == 0x7B || op == 0x7D || op == 0x7E || op == 0x80) tokenOffset = offset + 1; // ldfld/stfld/ldsfld/stsfld
-                        else if (op == 0x28 || op == 0x6F || op == 0x73) tokenOffset = offset + 1; // call/callvirt/newobj
-                        if (tokenOffset >= 0 && tokenOffset + 4 <= il.Length)
+                        // Proper instruction-by-instruction walk from offset 0 using the real
+                        // opcode table (via System.Reflection.Emit.OpCodes, reflected once) rather
+                        // than a hand-picked partial list -- a single blind byte-offset lookup at
+                        // the reported offset previously landed mid-instruction on a harmless
+                        // ldc.i4.2, meaning Mono's reported offset doesn't necessarily line up with
+                        // where a naive index expects the *start* of the faulting instruction. Log
+                        // every instruction in a window around the reported offset instead, so the
+                        // real fault is visible by context even if the exact offset semantics are
+                        // slightly different from a raw byte index.
+                        Log.LogWarning($"[BD2CompatPatch] Crash site: {throwingMethod.DeclaringType?.FullName}.{throwingMethod.Name}, Mono reported IL offset 0x{reportedOffset:X} -- disassembly window:");
+                        int pos = 0;
+                        while (pos < il.Length)
                         {
-                            int token = BitConverter.ToInt32(il, tokenOffset);
-                            try
+                            int instrStart = pos;
+                            int opByte = il[pos];
+                            OpCode opcode;
+                            if (opByte == 0xFE && pos + 1 < il.Length)
                             {
-                                var member = throwingMethod.Module.ResolveMember(token, throwingMethod.DeclaringType?.GetGenericArguments(), null);
-                                decoded = $"op=0x{op:X2} -> {member.MemberType} {member.DeclaringType?.Name}.{member.Name}";
+                                int twoByteVal = 0xFE00 | il[pos + 1];
+                                if (!_ilOpCodes.TryGetValue(twoByteVal, out opcode)) break;
+                                pos += 2;
                             }
-                            catch (Exception resolveEx)
+                            else
                             {
-                                decoded = $"op=0x{op:X2} token=0x{token:X8} (resolve failed: {resolveEx.Message})";
+                                if (!_ilOpCodes.TryGetValue(opByte, out opcode)) break;
+                                pos += 1;
                             }
+                            int operandLen = opcode.OperandType switch
+                            {
+                                OperandType.InlineNone => 0,
+                                OperandType.ShortInlineBrTarget or OperandType.ShortInlineI or OperandType.ShortInlineVar => 1,
+                                OperandType.InlineVar => 2,
+                                OperandType.InlineSwitch => -1, // variable length, handled below
+                                OperandType.InlineI8 or OperandType.InlineR => 8,
+                                _ => 4, // InlineBrTarget/InlineField/InlineI/InlineMethod/InlineSig/InlineString/InlineTok/InlineType/ShortInlineR
+                            };
+                            if (operandLen == -1)
+                            {
+                                if (pos + 4 > il.Length) break;
+                                int caseCount = BitConverter.ToInt32(il, pos);
+                                operandLen = 4 + caseCount * 4;
+                            }
+                            if (pos + operandLen > il.Length) break;
+                            bool inWindow = instrStart >= reportedOffset - 24 && instrStart <= reportedOffset + 16;
+                            if (inWindow)
+                            {
+                                string marker = instrStart == reportedOffset ? " <== reported offset" : "";
+                                string operandStr = "";
+                                if (operandLen == 4 && (opcode.OperandType == OperandType.InlineField || opcode.OperandType == OperandType.InlineMethod
+                                    || opcode.OperandType == OperandType.InlineTok || opcode.OperandType == OperandType.InlineType))
+                                {
+                                    int token = BitConverter.ToInt32(il, pos);
+                                    try
+                                    {
+                                        var member = throwingMethod.Module.ResolveMember(token, throwingMethod.DeclaringType?.GetGenericArguments(), null);
+                                        operandStr = $" -> {member.MemberType} {member.DeclaringType?.Name}.{member.Name}";
+                                    }
+                                    catch (Exception resolveEx) { operandStr = $" token=0x{token:X8} (resolve failed: {resolveEx.Message})"; }
+                                }
+                                Log.LogWarning($"[BD2CompatPatch]   +0x{instrStart:X4} {opcode.Name}{operandStr}{marker}");
+                            }
+                            pos += operandLen;
                         }
-                        else
-                        {
-                            decoded = $"op=0x{op:X2} (no decodable operand)";
-                        }
-                        Log.LogWarning($"[BD2CompatPatch] Crash site: {throwingMethod.DeclaringType?.FullName}.{throwingMethod.Name} at IL offset 0x{offset:X} -- {decoded}");
                     }
                 }
 
