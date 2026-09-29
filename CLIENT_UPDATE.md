@@ -3305,3 +3305,44 @@ Treat the next session's first test as the real one, and if it's *still*
 not fully fixed, check whether `BeforeMapID`/`BeforeMapData` resolved at
 all live (grep Player.log for "redirecting to BeforeMapID" vs the older
 "returning MapId=0" message to tell which path actually fired).
+
+### `BeforeMapID` guess was wrong too -- switched to name-agnostic discovery
+
+Live retest, same repro ("village chief's house", both Auto Mode and
+manual navigation): still hung, same spot. Log showed why --
+**every single broken-gate catch that session said "no usable
+BeforeMapID fallback"**, across many different gates on different quest
+paths (`Gate_1_10_1`, `Gate_1_5_1`, `Gate_1_9_1`, `Gate_1_4_1`,
+`Gate_1_2_1`, `Gate_1_8_1`). That many different gates can't all
+coincidentally also have a broken "before" map — the property name
+itself doesn't resolve. Third wrong guessed name tonight for this one
+class, on top of the two independent static-tool-vs-runtime disagreements
+already documented above.
+
+**Stopped guessing names entirely.** `SafeGateSpotMapPositionDataPrefix`
+now discovers the fallback map id *by enumeration, not by name*: when the
+primary `MapID`-equivalent property is 0, it loops every public
+`Int32`-returning property on the same `GateSpotData` instance (skipping
+the one already tried) and uses the first one that's actually nonzero --
+whatever it's called. Reasoning: the player is physically standing on
+this gate right now, so *some* sibling int property has to hold a real,
+current map id; which literal name that is has proven unreliable to
+predict on this assembly three times in a row, so don't predict it, just
+find it live. Position (`movePlayerPosition`/`moveColleaguePosition`) is
+recovered the same way -- find whichever public property returns the
+nested `GateSpotData+Data` type, rather than guessing "CurrentMapData" vs
+"BeforeMapData" vs something else -- best-effort only, since a wrong/
+missing position just means landing at (0,0,0) on the right map, not a
+freeze.
+
+Rebuilt, redeployed (closed the hung client again to free the locked
+DLL). Fourth attempt at this exact bug tonight. **Whatever the next test
+shows, grep Player.log for `"redirecting to "` -- the message now
+includes whatever property name was actually discovered live, which
+finally answers the "what's it really called" question definitively
+instead of needing another guess.** If it hangs again with NO
+`"redirecting to"` line at all, that means every Int32 property on the
+gate came back 0/unusable too, which would point at something more
+fundamentally broken in this gate's data than initially assumed --
+worth re-reading the raw captured `FieldGateTable` row for pack21's
+gates at that point rather than patching further blind.

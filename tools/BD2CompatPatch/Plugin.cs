@@ -1538,6 +1538,7 @@ namespace BD2CompatPatch
                 int mapId = mapIdProp != null ? (int)mapIdProp.GetValue(__instance) : 0;
                 object data = dataProp?.GetValue(__instance);
                 bool usedFallback = false;
+                string fallbackPropName = null;
                 if (mapId <= 0)
                 {
                     // Confirmed live: just returning MapId=0 here and having the caller (see
@@ -1545,19 +1546,53 @@ namespace BD2CompatPatch
                     // THIS layer, but still leaves other systems hanging -- specifically, Auto Mode's
                     // quest-navigation coroutine appears to wait for an arrival/completion signal
                     // that a fully-skipped MoveMap never sends, so the player still froze at the same
-                    // spot. Real fix: don't abort, redirect. Fall back to BeforeMapID/BeforeMapData --
-                    // the map/position the player is CURRENTLY standing on, i.e. "stay where you are"
-                    // -- instead of MapId=0, so the real MoveMap body still runs to completion on a
-                    // genuinely valid (if boring) destination, and all of its normal cleanup/callback/
-                    // nav-state-clearing logic fires exactly like it would for any working gate.
-                    var beforeMapIdProp = type.GetProperty("BeforeMapID", BindingFlags.Public | BindingFlags.Instance);
-                    var beforeMapDataProp = type.GetProperty("BeforeMapData", BindingFlags.Public | BindingFlags.Instance);
-                    int beforeMapId = beforeMapIdProp != null ? (int)beforeMapIdProp.GetValue(__instance) : 0;
-                    if (beforeMapId > 0)
+                    // spot. Real fix: don't abort, redirect to a genuinely valid destination so
+                    // MoveMap's real body runs to completion normally (full cleanup/callback/
+                    // nav-state-clearing) instead of being skipped.
+                    //
+                    // A guessed literal name ("BeforeMapID") turned out wrong -- confirmed live, every
+                    // single broken gate hit "no usable BeforeMapID fallback" that whole session, for
+                    // gates on completely different quest paths, which only makes sense if the NAME
+                    // itself doesn't resolve (matches tonight's broader lesson: don't trust a specific
+                    // guessed name on this assembly). Name-agnostic fix instead: this gate's own
+                    // MapID-equivalent property is confirmed broken (0), but the player is physically
+                    // STANDING on this gate right now, so *some* other public Int32 property on this
+                    // same object almost certainly holds the map the player is already on (a
+                    // "before"/"current" id sibling) -- enumerate all public Int32-returning
+                    // properties other than the one just tried, and use the first one that's actually
+                    // nonzero, whatever it happens to be named.
+                    foreach (var prop in type.GetProperties(BindingFlags.Public | BindingFlags.Instance))
                     {
-                        mapId = beforeMapId;
-                        data = beforeMapDataProp?.GetValue(__instance);
-                        usedFallback = true;
+                        if (prop.PropertyType != typeof(int) || prop.GetIndexParameters().Length != 0) continue;
+                        if (mapIdProp != null && prop.MetadataToken == mapIdProp.MetadataToken) continue;
+                        int candidate;
+                        try { candidate = (int)prop.GetValue(__instance); }
+                        catch { continue; }
+                        if (candidate > 0)
+                        {
+                            mapId = candidate;
+                            fallbackPropName = prop.Name;
+                            usedFallback = true;
+                            break;
+                        }
+                    }
+                    if (usedFallback)
+                    {
+                        // Best-effort: also try to find a Data-typed sibling (the nested
+                        // GateSpotData+Data class -- a [Serializable] type, so its own name is
+                        // expected to survive same as [SerializeField] field names have all night)
+                        // so the player lands at a real recorded position instead of Vector3.zero.
+                        // Not critical to fixing the hang (worst case is landing at zero position on
+                        // the CORRECT map, a minor visual glitch, not a freeze), so keep this simple
+                        // and just fall back to null/zero-position if it doesn't resolve.
+                        data = null;
+                        foreach (var prop in type.GetProperties(BindingFlags.Public | BindingFlags.Instance))
+                        {
+                            if (prop.GetIndexParameters().Length != 0 || prop.PropertyType.Name != "Data") continue;
+                            try { data = prop.GetValue(__instance); }
+                            catch { continue; }
+                            if (data != null) break;
+                        }
                     }
                 }
                 Vector3 playerPosition = default;
@@ -1572,11 +1607,11 @@ namespace BD2CompatPatch
                 __result = new MapPositionData { MapId = mapId, PlayerPosition = playerPosition, ColleaguePositions = colleaguePositions };
                 if (usedFallback)
                 {
-                    Log.LogWarning($"[BD2CompatPatch] GateSpotData.MapPositionData ({__instance}): underlying gate data missing -- redirecting to BeforeMapID={mapId} (stay where you are) instead of throwing or aborting.");
+                    Log.LogWarning($"[BD2CompatPatch] GateSpotData.MapPositionData ({__instance}): underlying gate data missing -- redirecting to {fallbackPropName}={mapId} (stay where you are) instead of throwing or aborting.");
                 }
                 else if (mapId <= 0)
                 {
-                    Log.LogWarning($"[BD2CompatPatch] GateSpotData.MapPositionData ({__instance}): underlying gate data missing AND no usable BeforeMapID fallback -- returning MapId=0, transition will be skipped.");
+                    Log.LogWarning($"[BD2CompatPatch] GateSpotData.MapPositionData ({__instance}): underlying gate data missing AND no other Int32 property was usable as a fallback -- returning MapId=0, transition will be skipped.");
                 }
             }
             catch (Exception e)
