@@ -3463,3 +3463,43 @@ structural workaround -- genuinely expect this one to let house entry
 actually succeed, not just fail safely. Next test should confirm: no
 more `EXCEPTION out of GameFieldManager.<gate-move-coroutine>` at all,
 and the house should actually open.
+
+### Confirmed: house entry works end-to-end now
+
+User confirmed live: entering the house works. Log agrees --
+`EXIT GameFieldManager.<gate-move-coroutine>(Gate_1_5_1,False) after 7
+frames / 0.8s` (a clean exit, not an exception) with the
+`GetTimelineWaitForSeconds` unloaded-slot warning firing and being
+skipped harmlessly along the way, exactly as designed. **This closes
+out the whole gate/hut freeze saga** -- five real rounds tonight (wrong
+obfuscated name -> AccessTools.Property broke on a patched member ->
+skip-isn't-enough (hangs elsewhere instead) -> name-agnostic redirect ->
+GameCameraManager.Instance null -> GetTimelineWaitForSeconds' own
+unloaded-slot null), each one a genuine partial fix that moved the
+failure further along until nothing was left to fail on.
+
+Immediately after entering, a new (and separate) issue surfaced: a
+generic error popup, right after `Recv(Error = 404) : QuestUpdate` in
+the client log. Checked the server log for the same request --
+`QuestUpdateRequest: uid=1 quest_id=2 pack_id=1 progress=1`, HTTP `200
+OK` -- so this "404" is a GAME-PROTOCOL error code embedded in a
+successful HTTP response, not an HTTP-level failure. Root cause in
+`gameserver::logic::game::quest::quest_update::handle`: `quest_id=2`
+has no row in captured `QuestTable1` (another pack21 content gap, not a
+code bug -- same shape as every other one found tonight), so the
+handler hard-failed with `GameResponse::error(404)`. Fixed to match
+this project's established convention for missing captured data: record
+the real progress regardless, and treat the "clear" target as whatever
+progress was just reported when there's no real `condition_count` to
+compare against, instead of refusing the update outright. Rebuilt,
+restarted the server. Not yet re-confirmed live after this specific fix
+-- next step is exactly that.
+
+User also mentioned "this quest can't be auto" -- unclear yet whether
+that's a distinct, real client message (e.g. this particular
+indoor/house quest step genuinely doesn't support Auto Mode navigation,
+which could be normal, correct client behavior with nothing to fix) or
+just how the 404 error above presented itself. Worth clarifying on the
+next test: if the message still appears after the QuestUpdate fix
+above, it's probably real and separate and needs its own
+investigation; if it doesn't recur, it was this bug.
