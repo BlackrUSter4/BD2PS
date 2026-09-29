@@ -8,9 +8,10 @@ use sqlx::SqlitePool;
 async fn balance_version_check_handler(
     _pool: web::Data<SqlitePool>,
     body: String,
-    user_id: web::ReqData<i64>,
 ) -> Result<HttpResponse> {
-    let _uid = *user_id;
+    // BalanceVersionCheck is a public endpoint (auth middleware skips it, so no uid is ever
+    // inserted into request extensions) -- don't extract web::ReqData<i64>, same bug as
+    // ServerNowTime.
     let req =
         parse_packet::<BalanceVersionCheckRequest>("BalanceVersionCheck", &body).map_err(|e| {
             tracing::warn!("Failed to parse BalanceVersionCheck: {}", e);
