@@ -759,6 +759,37 @@ namespace BD2CompatPatch
                 Log.LogWarning($"[BD2CompatPatch] Failed to patch GameCameraManager.Instance getter: {e.Message}");
             }
 
+            // Live retest of the Instance-getter fix: it works (many "GameCameraManager.Instance
+            // was null -- falling back..." lines during early loading), but none of them are near
+            // the gate-move crash -- meaning Instance is genuinely non-null again by the time the
+            // gate is touched, and the SAME exact crash still happens anyway. So the NRE isn't
+            // about a null Instance at all (that part really is fixed) -- it's inside
+            // GetTimelineWaitForSeconds' OWN body, on some other null. Almost certainly the exact
+            // same shape as the already-solved SafePlayDirectorPrefix above (a per-transition-type
+            // array slot that hasn't loaded for this specific index) -- both methods plausibly
+            // share the same backing `_playableDirector`/timeline-array fields. This time a prefix
+            // *can* work: __instance is real now (confirmed by the Instance-getter fix), so
+            // Harmony's dispatch trampoline has no null "this" to choke on before reaching it.
+            try
+            {
+                var cameraManagerType3 = AccessTools.TypeByName("GameCameraManager");
+                var getTimelineWaitMethod2 = cameraManagerType3?.GetMethod("GetTimelineWaitForSeconds", BindingFlags.Public | BindingFlags.Instance);
+                if (getTimelineWaitMethod2 != null)
+                {
+                    var safeGetTimelineWaitPrefix2 = new HarmonyMethod(typeof(Plugin).GetMethod(nameof(SafeGetTimelineWaitForSecondsPrefix2), BindingFlags.Static | BindingFlags.NonPublic));
+                    harmony.Patch(getTimelineWaitMethod2, prefix: safeGetTimelineWaitPrefix2);
+                    Log.LogInfo("[BD2CompatPatch] Patched GameCameraManager.GetTimelineWaitForSeconds (again) to skip an unloaded timeline slot instead of crashing the gate-move coroutine.");
+                }
+                else
+                {
+                    Log.LogWarning("[BD2CompatPatch] Could not find GameCameraManager.GetTimelineWaitForSeconds to patch (second attempt).");
+                }
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning($"[BD2CompatPatch] Failed to patch GameCameraManager.GetTimelineWaitForSeconds (second attempt): {e.Message}");
+            }
+
             // See SkipBundleDownloadFailedPrefix below for the full story: one dead file on
             // Neowiz's real CDN shouldn't be able to abort the whole "Download All Packs" preload
             // and force-restart the client.
@@ -1757,6 +1788,35 @@ namespace BD2CompatPatch
                 __result = UnityEngine.Object.FindObjectOfType<GameCameraManager>();
                 Log.LogWarning($"[BD2CompatPatch] GameCameraManager.Instance was null -- falling back to FindObjectOfType ({(__result != null ? "found one" : "found NONE")}) instead of letting a caller crash on it.");
             }
+        }
+
+        // Second attempt at GetTimelineWaitForSeconds: the Instance-getter fix confirmed Instance
+        // is genuinely non-null by the time the gate-move coroutine reaches this call, so the NRE
+        // must be inside this method's own body instead. Same exact shape as the already-proven
+        // SafePlayDirectorPrefix above (reusing its own field-name discovery, since both methods
+        // very plausibly share the same backing timeline-director/per-index-slot-array fields): a
+        // per-transition-type array slot that hasn't loaded for the specific index this call uses.
+        private static bool SafeGetTimelineWaitForSecondsPrefix2(object __instance, object __0, ref WaitForSeconds __result)
+        {
+            try
+            {
+                var instanceType = __instance.GetType();
+                object director = AccessTools.Field(instanceType, "_playableDirector")?.GetValue(__instance);
+                var array = AccessTools.Field(instanceType, "ὥὯὢὢὧὩὢὩὩὩὤ")?.GetValue(__instance) as Array;
+                int idx = Convert.ToInt32(__0);
+                object slot = (array != null && idx >= 0 && idx < array.Length) ? array.GetValue(idx) : null;
+                if (director == null || slot == null)
+                {
+                    Log.LogWarning($"[BD2CompatPatch] GameCameraManager.GetTimelineWaitForSeconds: timeline for index {idx} isn't loaded (director null={director == null}, slot null={slot == null}) -- skipping instead of crashing the gate-move coroutine.");
+                    __result = null;
+                    return false;
+                }
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning($"[BD2CompatPatch] SafeGetTimelineWaitForSecondsPrefix2 check itself failed: {e.Message}");
+            }
+            return true;
         }
 
         // Confirmed live: a single dead file on Neowiz's real CDN (pack12006's
