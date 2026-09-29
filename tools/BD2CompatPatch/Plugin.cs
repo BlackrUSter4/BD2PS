@@ -3190,6 +3190,9 @@ namespace BD2CompatPatch
             float start = Time.realtimeSinceStartup;
             float lastFlip = -999f;
             int frame = 0;
+            bool dumpedFullStateOnStall = false;
+            int lastObservedStuckState = int.MinValue;
+            int repeatedStuckStateCount = 0;
             while (true)
             {
                 bool moved;
@@ -3208,8 +3211,10 @@ namespace BD2CompatPatch
                     // unrelated, unprotected NPC-lookup crash (since separately fixed) did exactly
                     // this. Run the same recovery here too so a FUTURE unprotected crash in this
                     // same coroutine degrades to "playable but missing a HUD widget" instead of
-                    // "field never finishes loading."
-                    if (label.Contains("GameFieldManager.ὬὭὢὤὥὨὤὦὧὧὤ"))
+                    // "field never finishes loading." Also covers the gate-transition coroutine
+                    // (ὧὨὭὬὩὮὨὣὨὠὡ) -- confirmed live (2026-09-29) it can leave a "Now Loading"
+                    // screen stuck up the same way the field-load coroutine can.
+                    if (label.Contains("GameFieldManager.ὬὭὢὤὥὨὤὦὧὧὤ") || label.Contains("GameFieldManager.ὧὨὭὬὩὮὨὣὨὠὡ"))
                     {
                         TryRecoverBlackScreenAfterFieldLoad(closeLoadingUi: true);
                     }
@@ -3239,6 +3244,74 @@ namespace BD2CompatPatch
                     {
                         Log.LogInfo($"[BD2CompatPatch] {label}: flipped {flipped} stuck bool flag(s) after {frame} frames -- letting it continue.");
                     }
+                    // DIAGNOSTIC (2026-09-29): the chief's-house gate flips exactly one bool
+                    // (isMoveStartMap) once, then keeps spinning for the remaining ~17s with nothing
+                    // further to flip -- meaning whatever's ACTUALLY still gating it either isn't a
+                    // bool at all, or isn't reachable by the bool-flipper's shallow (state
+                    // machine + one closure level) walk. Once, on the first retry that finds nothing
+                    // left to flip, dump every field on the top-level state machine itself (any
+                    // type, not just bool) so the next capture shows real candidates -- an int/float
+                    // counter, an enum state, a reference to some other object's own IsBusy flag --
+                    // instead of another guess.
+                    else
+                    {
+                        // DIAGNOSTIC (2026-09-29): confirmed live for the chief's-house gate -- once
+                        // there's nothing left to flip, <>1__state stops changing between retries
+                        // entirely (observed stuck at state=3 across the whole remaining ~17s, with
+                        // a captured local "spot" permanently null). That's proof this specific stall
+                        // isn't bool-gated and bool-flipping can never help it -- so once the SAME
+                        // state value repeats on TWO consecutive nothing-to-flip retries (~6s apart),
+                        // stop waiting out the full 20s and abandon right away. This doesn't fix the
+                        // underlying stall (still unknown why "spot" never gets assigned), but it cuts
+                        // the player's wait from 20s down to ~9-12s for a case we now know can never
+                        // self-resolve.
+                        if (!dumpedFullStateOnStall)
+                        {
+                            dumpedFullStateOnStall = true;
+                            try
+                            {
+                                Log.LogInfo($"[BD2CompatPatch] {label}: no more bools to flip after {frame} frames but still not progressing -- dumping full top-level state machine field state:");
+                                foreach (var f in inner.GetType().GetFields(BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic))
+                                {
+                                    object v;
+                                    try { v = f.GetValue(inner); }
+                                    catch (Exception ex) { v = $"<threw: {ex.Message}>"; }
+                                    Log.LogInfo($"[BD2CompatPatch]   {inner.GetType().Name}.{f.Name} ({f.FieldType.Name}) = {v}");
+                                }
+                            }
+                            catch (Exception e)
+                            {
+                                Log.LogWarning($"[BD2CompatPatch] Full state-machine field dump failed: {e.Message}");
+                            }
+                        }
+                        try
+                        {
+                            var stateField = inner.GetType().GetField("<>1__state", BindingFlags.Instance | BindingFlags.NonPublic);
+                            int currentState = stateField != null ? (int)stateField.GetValue(inner) : int.MinValue;
+                            if (currentState == lastObservedStuckState)
+                            {
+                                repeatedStuckStateCount++;
+                            }
+                            else
+                            {
+                                repeatedStuckStateCount = 0;
+                                lastObservedStuckState = currentState;
+                            }
+                            if (repeatedStuckStateCount >= 1)
+                            {
+                                Log.LogWarning($"[BD2CompatPatch] {label}: internal state ({currentState}) hasn't changed across 2+ consecutive nothing-to-flip retries -- this is unrecoverable via bool-flipping, abandoning now after {frame} frames / {Time.realtimeSinceStartup - start:F1}s instead of waiting out the full 20s.");
+                                if (label.Contains("GameFieldManager.ὬὭὢὤὥὨὤὦὧὧὤ") || label.Contains("GameFieldManager.ὧὨὭὬὩὮὨὣὨὠὡ"))
+                                {
+                                    TryRecoverBlackScreenAfterFieldLoad(closeLoadingUi: true);
+                                }
+                                yield break;
+                            }
+                        }
+                        catch (Exception e)
+                        {
+                            Log.LogWarning($"[BD2CompatPatch] Stuck-state tracking failed: {e.Message}");
+                        }
+                    }
                     lastFlip = Time.realtimeSinceStartup;
                 }
                 if (Time.realtimeSinceStartup - start > 20f)
@@ -3246,8 +3319,10 @@ namespace BD2CompatPatch
                     Log.LogWarning($"[BD2CompatPatch] {label} exceeded 20s ({frame} frames) with no sign of completing -- abandoning it so the game doesn't hang forever.");
                     // Whatever this coroutine hasn't finished, at minimum don't leave the player
                     // staring at a stuck loading screen -- force it closed as a last resort so the
-                    // field is at least visible/interactable.
-                    if (label.Contains("GameFieldManager.ὬὭὢὤὥὨὤὦὧὧὤ"))
+                    // field is at least visible/interactable. Also covers the gate-transition
+                    // coroutine (ὧὨὭὬὩὮὨὣὨὠὡ) -- confirmed live (2026-09-29) it can leave a "Now
+                    // Loading" screen stuck up the same way the field-load coroutine can.
+                    if (label.Contains("GameFieldManager.ὬὭὢὤὥὨὤὦὧὧὤ") || label.Contains("GameFieldManager.ὧὨὭὬὩὮὨὣὨὠὡ"))
                     {
                         TryRecoverBlackScreenAfterFieldLoad(closeLoadingUi: true);
                     }
@@ -3296,6 +3371,29 @@ namespace BD2CompatPatch
                 catch (Exception e)
                 {
                     Log.LogWarning($"[BD2CompatPatch] Failed to force-close LoadingUI: {e.Message}");
+                }
+                // A SECOND, separate "loading screen" mechanism confirmed live (2026-09-29): the
+                // chief's-house gate-transition coroutine calls GameCameraManager.SetLoadingUI(true,
+                // "loading_story_default"-style name) BEFORE getting permanently stuck later in the
+                // same coroutine chain (a captured "spot" local staying null forever) -- so it never
+                // reaches its own matching SetLoadingUI(false, ...) call. The 8s Addressables-load
+                // timeout on SetLoadingUI itself (SetLoadingUITimeoutWrapper) doesn't help here since
+                // the asset loads fine; the root just never gets told to hide again. Force it off
+                // directly via its own real, Inspector-bound field name.
+                try
+                {
+                    var gcmForLoadingRoot = UnityEngine.Object.FindObjectOfType<GameCameraManager>(true);
+                    var rootField = gcmForLoadingRoot != null ? AccessTools.Field(gcmForLoadingRoot.GetType(), "_objEventLoadingRoot") : null;
+                    var loadingRoot = rootField?.GetValue(gcmForLoadingRoot) as GameObject;
+                    if (loadingRoot != null && loadingRoot.activeSelf)
+                    {
+                        Log.LogInfo("[BD2CompatPatch] Force-closing GameCameraManager's _objEventLoadingRoot (the \"Now Loading\" screen) after abandoning the stuck coroutine.");
+                        loadingRoot.SetActive(false);
+                    }
+                }
+                catch (Exception e)
+                {
+                    Log.LogWarning($"[BD2CompatPatch] Failed to force-close _objEventLoadingRoot: {e.Message}");
                 }
             }
             // The abandoned/incomplete coroutine never reached its own camera/character/HUD
@@ -3593,6 +3691,32 @@ namespace BD2CompatPatch
                     // the specific flag gating a real wait (e.g. isClearQuest) or something else
                     // entirely unrelated and harmless. Log exactly which field, on which type.
                     Log.LogInfo($"[BD2CompatPatch] FlipFalseBoolFields: flipped {obj.GetType().FullName}.{f.Name} false->true.");
+                    // FURTHER DIAGNOSTIC (2026-09-29): flipping "isMoveStartMap" alone did NOT
+                    // unstick the chief's-house gate -- it kept spinning for the remaining ~17s with
+                    // no further bool ever found to flip, meaning either this flip didn't actually
+                    // change the real control flow (e.g. something re-derives its own condition
+                    // rather than reading this raw field), or there's a second, non-bool blocking
+                    // condition immediately after it. This field isn't present anywhere in the
+                    // cached decompile at all (a version-mismatch gap, same class of gotcha hit
+                    // earlier this session with PackManager's quest-list field) so static analysis
+                    // can't resolve it -- dump every OTHER field on the SAME containing object (name,
+                    // declared type, and current value) so the next capture gives real data instead
+                    // of another guess.
+                    try
+                    {
+                        foreach (var sibling in obj.GetType().GetFields(BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic))
+                        {
+                            if (sibling.Name == f.Name) continue;
+                            object siblingValue;
+                            try { siblingValue = sibling.GetValue(obj); }
+                            catch (Exception ex) { siblingValue = $"<threw: {ex.Message}>"; }
+                            Log.LogInfo($"[BD2CompatPatch]   sibling field on {obj.GetType().Name}: {sibling.Name} ({sibling.FieldType.Name}) = {siblingValue}");
+                        }
+                    }
+                    catch (Exception e)
+                    {
+                        Log.LogWarning($"[BD2CompatPatch] Sibling-field dump failed: {e.Message}");
+                    }
                 }
             }
             return flipped;
