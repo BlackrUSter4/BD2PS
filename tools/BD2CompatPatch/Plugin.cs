@@ -734,7 +734,15 @@ namespace BD2CompatPatch
             try
             {
                 var cameraManagerType2 = AccessTools.TypeByName("GameCameraManager");
-                var instanceGetter = cameraManagerType2?.GetProperty("Instance", BindingFlags.Public | BindingFlags.Static)?.GetGetMethod();
+                // GetMethod("get_Instance", ...) directly, NOT GetProperty("Instance",
+                // ...)?.GetGetMethod() -- confirmed live just now that the property-level lookup
+                // returns null on this assembly ("Could not find GameCameraManager.Instance getter
+                // to patch") even though the underlying get_Instance METHOD resolves fine (it's
+                // literally in the disassembly above as "call GameCameraManager.get_Instance").
+                // Exact same property-vs-method resolution gap already hit on GateSpotData earlier
+                // tonight -- Type.GetProperty is unreliable on this assembly, Type.GetMethod("get_X")
+                // has worked every single time.
+                var instanceGetter = cameraManagerType2?.GetMethod("get_Instance", BindingFlags.Public | BindingFlags.Static);
                 if (instanceGetter != null)
                 {
                     var fixNullInstancePostfix = new HarmonyMethod(typeof(Plugin).GetMethod(nameof(FixNullCameraManagerInstancePostfix), BindingFlags.Static | BindingFlags.NonPublic));
