@@ -737,53 +737,6 @@ namespace BD2CompatPatch
                 Log.LogWarning($"[BD2CompatPatch] Failed to patch GameCameraManager.PlayDirector: {e.Message}");
             }
 
-            // ROOT CAUSE (2026-09-29) of the "black screen with a Now Loading message that never
-            // goes away" report -- traced this far only after the earlier quest-update and
-            // SetSpecificSceneMoveByMenual fixes still left it reproducing via yet another path.
-            // Read GameCameraManager.SetLoadingUI(bool, string, Action=null)'s real body directly:
-            // it calls `_objEventLoadingRoot.SetActive(active)` SYNCHRONOUSLY as its very first line
-            // (this is the actual black full-screen loading root -- confirmed by name and by every
-            // caller across the whole client funneling through this one real, non-obfuscated method:
-            // battle returns, Hopscotch, the Defense minigame, story loading, all of it), THEN does
-            // `yield return <AddressablesLoadHandle>` to fetch the specific loading-prefab asset (a
-            // spinner/text prefab named e.g. "loading_story_default") before ever reaching its own
-            // final `onComplete?.Invoke()` line. If that Addressables load never completes -- the
-            // exact same fragility class already proven this session for the client-local SQLite
-            // cache and for the dialogue-skip scene-move fix above, just hitting a different asset
-            // this time -- the loading ROOT stays active forever (nothing ever calls SetActive(false)
-            // on it) and the calling coroutine (whatever triggered the loading screen -- confirmed
-            // this time to be reachable from the dialogue-skip path, but not exclusive to it) never
-            // gets past its own `yield return SetLoadingUI(...)` line either. Fix: rather than a
-            // fragile full reimplementation of this method's asset-loading/UI-anchoring logic, patch
-            // it with a POSTFIX that wraps its OWN returned IEnumerator in a timeout-driving wrapper
-            // (same manual MoveNext-driving shape as the pre-existing LoggingCoroutineWrapper
-            // elsewhere in this file) -- the healthy path is untouched (every MoveNext/yield just
-            // passes straight through), but if it hasn't finished within 8s, force the loading root
-            // GameObject inactive directly (reflectively, via the real, Inspector-bound field name
-            // "_objEventLoadingRoot" -- this style of underscore-prefixed serialized field name has
-            // proven reliable all project, unlike compiler-generated backing fields) and abandon the
-            // wait, so both the black screen clears AND the caller's own coroutine unblocks instead of
-            // hanging forever.
-            try
-            {
-                var cameraManagerTypeForLoadingUI = AccessTools.TypeByName("GameCameraManager");
-                var setLoadingUIMethod = cameraManagerTypeForLoadingUI?.GetMethod("SetLoadingUI", BindingFlags.Public | BindingFlags.Instance);
-                if (setLoadingUIMethod != null)
-                {
-                    var setLoadingUIWatchdogPostfix = new HarmonyMethod(typeof(Plugin).GetMethod(nameof(SetLoadingUIWatchdogPostfix), BindingFlags.Static | BindingFlags.NonPublic));
-                    harmony.Patch(setLoadingUIMethod, postfix: setLoadingUIWatchdogPostfix);
-                    Log.LogInfo("[BD2CompatPatch] Patched GameCameraManager.SetLoadingUI with an 8s asset-load timeout -- fixes the stuck black \"Now Loading\" screen.");
-                }
-                else
-                {
-                    Log.LogWarning("[BD2CompatPatch] Could not find GameCameraManager.SetLoadingUI to patch -- the stuck black loading-screen bug will NOT be patched.");
-                }
-            }
-            catch (Exception e)
-            {
-                Log.LogWarning($"[BD2CompatPatch] Failed to patch GameCameraManager.SetLoadingUI: {e.Message}");
-            }
-
             // Confirmed root cause of "can move and back out but can't enter house": the live IL
             // crash-site diagnostic (LogCrashLocationAndCapturedState) pinpointed the gate-move
             // coroutine's NullReferenceException to a `callvirt GameCameraManager.
@@ -1568,184 +1521,6 @@ namespace BD2CompatPatch
                 Log.LogWarning($"[BD2CompatPatch] Failed to patch GateSpotData.MapPositionData getter: {e.Message}");
             }
 
-            // ROOT CAUSE of "hangs on entering the chief's house" (and, by the same shared,
-            // pack-agnostic code path, any gate anywhere in any pack that's tied to a quest-update
-            // trigger): traced live via Player.log -- the exact same field-load coroutine already
-            // patched above (frame/yielding diagnostics) ran for the full 20s watchdog window with
-            // "yielding=null" on every single frame, right after logging "GateSpotData.MapPositionData
-            // (Gate_1_5_1): underlying gate data missing -- redirecting to ...=5 (stay where you are)".
-            // Confirmed by reading this coroutine's real body in the cached decompile
-            // (GameFieldManager's private GateSpotData/bool-taking helper): after moving the camera,
-            // it looks up a quest tied to this specific gate (TryGetGateSpotQuest, falling back to
-            // TryGetMapMoveQuest), and -- ONLY if one is found -- calls a static quest-update method
-            // with a completion callback, then spins `while (!isClearQuest) yield return null;` until
-            // that callback fires. That static method's own body (found in its own file) only actually
-            // SENDS the network request behind a three-part guard (quest not already cleared AND
-            // PackManager's own live quest list actually contains this quest id AND no other update is
-            // already in flight) -- critically, it unconditionally stores the callback in a static field
-            // BEFORE checking that guard. If the guard fails for any reason (most plausibly here: the
-            // gate's associated quest isn't the account's current in-progress quest -- entirely
-            // plausible now that PackInGameInfo honestly reports real quest state instead of the old
-            // hardcoded placeholder), no request is ever sent, the callback is never invoked, and the
-            // coroutine's wait loop spins forever -- exactly matching every observed symptom. This is
-            // pure client-side logic with no server-side hook to fix from our side, and it's declared on
-            // a static class with an obfuscated name that's already proven (this same session, for
-            // PackManager) to NOT reliably match between the cached decompile and this live build -- so
-            // don't hardcode that name. Find it name-agnostically instead: it's the same assembly as the
-            // already-trusted real type GameFieldManager, and it exposes two public static void overloads
-            // sharing one name, (int,int,Action<int>) and (int,List<int>,Action<int>) -- a signature
-            // shape specific enough that a false-positive match elsewhere in the whole assembly is very
-            // unlikely. Fix: wrap the caller-supplied callback so a watchdog coroutine can tell whether
-            // it ever actually fired, and if it hasn't within 5 real-time seconds (the round trip for
-            // every other request this session has completed in well under 1s; the field-load's own
-            // abandon-watchdog above doesn't fire until 20s, leaving a wide safety margin), force-invoke
-            // the ORIGINAL callback ourselves with errType=0 -- confirmed by reading this same file's own
-            // response-handling code to be the exact value it uses on its own genuine success path, so
-            // this is indistinguishable from a real successful response to every downstream consumer.
-            // This lets the gate-transition coroutine complete normally instead of freezing the player,
-            // for every pack, on every gate this code path can ever run for -- not a pack1- or
-            // gate-specific patch.
-            try
-            {
-                var gameFieldManagerTypeForQuestUpdate = AccessTools.TypeByName("GameFieldManager");
-                var targetAssembly = gameFieldManagerTypeForQuestUpdate?.Assembly;
-                MethodInfo questUpdateIntOverload = null;
-                MethodInfo questUpdateListOverload = null;
-                if (targetAssembly != null)
-                {
-                    Type[] typesToScan;
-                    try { typesToScan = targetAssembly.GetTypes(); }
-                    catch (ReflectionTypeLoadException rtle) { typesToScan = rtle.Types.Where(t => t != null).ToArray(); }
-                    foreach (var candidateType in typesToScan)
-                    {
-                        MethodInfo intOverload = null;
-                        MethodInfo listOverload = null;
-                        foreach (var m in candidateType.GetMethods(BindingFlags.Public | BindingFlags.Static | BindingFlags.DeclaredOnly))
-                        {
-                            if (m.ReturnType != typeof(void)) continue;
-                            var ps = m.GetParameters();
-                            if (ps.Length != 3 || ps[0].ParameterType != typeof(int) || ps[2].ParameterType != typeof(Action<int>)) continue;
-                            if (ps[1].ParameterType == typeof(int)) intOverload = m;
-                            else if (ps[1].ParameterType == typeof(List<int>)) listOverload = m;
-                        }
-                        if (intOverload != null && listOverload != null && intOverload.Name == listOverload.Name)
-                        {
-                            questUpdateIntOverload = intOverload;
-                            questUpdateListOverload = listOverload;
-                            break;
-                        }
-                    }
-                }
-                if (questUpdateIntOverload != null && questUpdateListOverload != null)
-                {
-                    var watchdogPrefix = new HarmonyMethod(typeof(Plugin).GetMethod(nameof(QuestUpdateCallbackWatchdogPrefix), BindingFlags.Static | BindingFlags.NonPublic));
-                    harmony.Patch(questUpdateIntOverload, prefix: watchdogPrefix);
-                    harmony.Patch(questUpdateListOverload, prefix: watchdogPrefix);
-                    Log.LogInfo($"[BD2CompatPatch] Patched {questUpdateIntOverload.DeclaringType.FullName}.{questUpdateIntOverload.Name} (both overloads) with a 5s callback watchdog -- fixes the gate-entry hang (e.g. entering the chief's house) for every pack.");
-                }
-                else
-                {
-                    Log.LogWarning("[BD2CompatPatch] Could not find the quest-update network method by signature (searched for matching (int,int,Action<int>)/(int,List<int>,Action<int>) static overloads) -- the gate-transition quest-update hang will NOT be patched.");
-                }
-            }
-            catch (Exception e)
-            {
-                Log.LogWarning($"[BD2CompatPatch] Failed to patch the quest-update callback watchdog: {e.Message}");
-            }
-
-            // ROOT CAUSE of "skipping the dialogue hangs on a loading screen" (user-reported
-            // 2026-09-29, distinct from the gate-entry hang above -- the gate itself completed fine;
-            // this happens AFTER entering, when the player skips the story dialogue). Traced via the
-            // cached decompile: TimelineSignalManager.OnClickSkipTimeline() -- the real skip-button
-            // handler, wired via Unity Inspector event to the (empty-bodied, logic-free)
-            // TimelineSkipUI.OnClickSkipUI() -- can decide the skip target requires moving to a
-            // different scene/map, and if so calls SetSpecificSceneMoveByMenual(sceneName, callback):
-            // it shows a full loading UI FIRST (SetUILoading(true,...)), then only hides it again
-            // (SetUILoading(false,...)) INSIDE that callback. That method's own body (also read
-            // directly) just starts a private coroutine that -- among other steps -- does
-            // `yield return <RawDataManager-equivalent>.Instance.<LoadMapAsync-equivalent>(mapTable)`,
-            // the EXACT SAME async map/scene asset load already implicated elsewhere this session
-            // (the field-load coroutine uses the identical call) and already proven fragile once
-            // this session (the Addressables cache-pruning bug behind the "unable to open database"
-            // saga). If that asset load never completes -- a plausible, even likely, way for a
-            // less-common dialogue-skip branch's target scene to be missing/unfetchable in this
-            // private-server client's cache -- the coroutine never reaches its own final
-            // `callback?.Invoke()` line, so the loading UI shown at the top of this whole chain never
-            // gets hidden again: exactly the reported symptom. Fix: same watchdog shape as the
-            // quest-update fix above, this time on a REAL (non-obfuscated) method name --
-            // TimelineSignalManager.SetSpecificSceneMoveByMenual(string, Action) keeps its real name
-            // in this build (confirmed: it's referenced by that exact literal string throughout the
-            // decompile, unlike most of this class's other members) -- so no signature-scanning is
-            // needed here, unlike the quest-update fix. Wrap the callback, and if it hasn't fired
-            // within 8 real-time seconds (generous: this loads real map/scene assets, slower than a
-            // plain network round trip, but still well short of leaving a player stuck indefinitely),
-            // force-invoke the original callback so the loading UI closes and the dialogue/timeline
-            // resumes -- the specific scene switch this branch wanted may not have visually happened,
-            // but the player is no longer stuck staring at a loading screen forever.
-            try
-            {
-                var timelineSignalManagerType = AccessTools.TypeByName("TimelineSignalManager");
-                var setSpecificSceneMoveMethod = timelineSignalManagerType?.GetMethod("SetSpecificSceneMoveByMenual", BindingFlags.Public | BindingFlags.Instance);
-                if (setSpecificSceneMoveMethod != null)
-                {
-                    var sceneMoveWatchdogPrefix = new HarmonyMethod(typeof(Plugin).GetMethod(nameof(SceneMoveByMenualWatchdogPrefix), BindingFlags.Static | BindingFlags.NonPublic));
-                    harmony.Patch(setSpecificSceneMoveMethod, prefix: sceneMoveWatchdogPrefix);
-                    Log.LogInfo("[BD2CompatPatch] Patched TimelineSignalManager.SetSpecificSceneMoveByMenual with an 8s completion watchdog -- fixes the stuck loading screen after skipping dialogue.");
-                }
-                else
-                {
-                    Log.LogWarning("[BD2CompatPatch] Could not find TimelineSignalManager.SetSpecificSceneMoveByMenual to patch -- the dialogue-skip stuck-loading-screen bug will NOT be patched.");
-                }
-            }
-            catch (Exception e)
-            {
-                Log.LogWarning($"[BD2CompatPatch] Failed to patch TimelineSignalManager.SetSpecificSceneMoveByMenual: {e.Message}");
-            }
-
-            // GENERIC SAFETY NET for "stuck loading screen" (found chasing the dialogue-skip hang
-            // above, but this one isn't specific to that path): retested after the
-            // SetSpecificSceneMoveByMenual fix and the dialogue-skip hang STILL happened -- this time
-            // via a completely different route (confirmed by that fix's own watchdog never firing at
-            // all this run) that never even reached the method just patched above. Rather than keep
-            // chasing individual callers one at a time (this codebase has many: SetUILoading(true,...)
-            // followed by a matching SetUILoading(false,...) buried in some OTHER async callback that
-            // may or may not ever run, the same "show now, hide later in a callback that might not
-            // fire" shape as every other stuck-overlay bug found this session), patch the ONE real,
-            // stable, non-obfuscated choke point ALL of them funnel through: AppManager.SetUILoading
-            // (public instance method, two overloads, both delegate straight to a private
-            // _uiLoadingIndicator field's own SetUILoading). Whenever it's called with its show
-            // argument true, start a watchdog: if AppManager.IsActiveUILoading() is STILL true 10
-            // real-time seconds later (generous -- every legitimate load this session has completed
-            // well under that), force it off by reflectively calling SetUILoading(false, false) on the
-            // same instance. This is a blanket safety net, not a fix for whatever specific async
-            // operation is failing to hide it -- but it means NO future "forgot to hide the loading
-            // screen" bug in this whole client, however it's caused, can strand the player forever,
-            // which is a better bet than continuing to chase individual call sites one hang at a time.
-            try
-            {
-                var appManagerType = AccessTools.TypeByName("AppManager");
-                var setUILoadingOverloads = appManagerType?.GetMethods(BindingFlags.Public | BindingFlags.Instance)
-                    .Where(m => m.Name == "SetUILoading" && m.GetParameters().Length >= 1 && m.GetParameters()[0].ParameterType == typeof(bool))
-                    .ToList();
-                if (setUILoadingOverloads != null && setUILoadingOverloads.Count > 0)
-                {
-                    var uiLoadingWatchdogPostfix = new HarmonyMethod(typeof(Plugin).GetMethod(nameof(SetUILoadingWatchdogPostfix), BindingFlags.Static | BindingFlags.NonPublic));
-                    foreach (var m in setUILoadingOverloads)
-                    {
-                        harmony.Patch(m, postfix: uiLoadingWatchdogPostfix);
-                    }
-                    Log.LogInfo($"[BD2CompatPatch] Patched AppManager.SetUILoading ({setUILoadingOverloads.Count} overload(s)) with a generic 10s stuck-loading-screen watchdog.");
-                }
-                else
-                {
-                    Log.LogWarning("[BD2CompatPatch] Could not find AppManager.SetUILoading to patch -- no generic stuck-loading-screen safety net will be active.");
-                }
-            }
-            catch (Exception e)
-            {
-                Log.LogWarning($"[BD2CompatPatch] Failed to patch AppManager.SetUILoading: {e.Message}");
-            }
-
             // A THIRD, separate crash site on the exact same "gate has no FieldGateTable row"
             // condition: GateSpotData.IsPossibleJoinGate(ref string) -- called from
             // PlayerController.OnTriggerEnter, i.e. every time the player's collider touches a
@@ -2332,127 +2107,6 @@ namespace BD2CompatPatch
             }
         }
 
-        // See the registration comment above (near "ROOT CAUSE of "hangs on entering the chief's
-        // house"") for the full story. Runs before EVERY call to either overload of the quest-update
-        // network method, for every pack -- wraps the caller's own completion callback in one that
-        // also flips a local `fired` flag, then hands the WRAPPED delegate back to the real method via
-        // `ref __2` so Harmony passes it through in place of the original. Never skips the real method
-        // (always returns true) -- this only observes/replaces the callback argument, nothing else.
-        private static bool QuestUpdateCallbackWatchdogPrefix(int __0, ref Action<int> __2)
-        {
-            // DIAGNOSTIC (2026-09-29): unconditional, so we can tell definitively whether this
-            // method is even being CALLED for a given gate transition, instead of inferring it from
-            // silence (the chief's-house hang never produced this method's own timeout warning, and
-            // it was ambiguous whether that meant the guard never blocked anything, or the method was
-            // never invoked at all because the gate has no associated quest this run).
-            Log.LogInfo($"[BD2CompatPatch] QuestUpdateCallbackWatchdogPrefix: called for questId={__0}, callback null={__2 == null}.");
-            try
-            {
-                if (__2 == null || _instance == null) return true;
-                Action<int> original = __2;
-                bool[] fired = { false };
-                __2 = (errType) =>
-                {
-                    fired[0] = true;
-                    original(errType);
-                };
-                _instance.StartCoroutine(ForceQuestUpdateCallbackAfterDelay(fired, original));
-            }
-            catch (Exception e)
-            {
-                Log.LogWarning($"[BD2CompatPatch] QuestUpdateCallbackWatchdogPrefix failed: {e.Message}");
-            }
-            return true;
-        }
-
-        // Companion to QuestUpdateCallbackWatchdogPrefix above. 5s is generous relative to every other
-        // request this session has ever completed in well under 1s, while still leaving a wide margin
-        // before the field-load coroutine's own 20s abandon-watchdog (registered separately, above)
-        // would otherwise fire and abandon the whole transition with no real recovery. errType=0 is not
-        // a guess -- it's the exact value this same quest-update class's own response handler passes on
-        // its genuine success path (confirmed by reading that method's body), so a caller has no way to
-        // distinguish this forced call from a real successful server response.
-        private static IEnumerator ForceQuestUpdateCallbackAfterDelay(bool[] fired, Action<int> original)
-        {
-            yield return new WaitForSeconds(5f);
-            if (!fired[0])
-            {
-                Log.LogWarning("[BD2CompatPatch] Quest-update network callback never fired within 5s -- the client's own guard almost certainly blocked sending the request (e.g. this gate's associated quest isn't the account's current in-progress quest) -- forcing the callback now with errType=0 (success) so the gate-transition coroutine completes instead of hanging forever.");
-                fired[0] = true;
-                original(0);
-            }
-        }
-
-        // See the registration comment above (near "ROOT CAUSE of "skipping the dialogue hangs on a
-        // loading screen"") for the full story. Same wrap-the-callback shape as
-        // QuestUpdateCallbackWatchdogPrefix above, on a method whose real name survived obfuscation
-        // (SetSpecificSceneMoveByMenual(string, Action)) so no signature-scan was needed to find it.
-        private static bool SceneMoveByMenualWatchdogPrefix(ref Action __1)
-        {
-            try
-            {
-                if (__1 == null || _instance == null) return true;
-                Action original = __1;
-                bool[] fired = { false };
-                __1 = () =>
-                {
-                    fired[0] = true;
-                    original();
-                };
-                _instance.StartCoroutine(ForceSceneMoveCallbackAfterDelay(fired, original));
-            }
-            catch (Exception e)
-            {
-                Log.LogWarning($"[BD2CompatPatch] SceneMoveByMenualWatchdogPrefix failed: {e.Message}");
-            }
-            return true;
-        }
-
-        // 8s (vs. 5s for the quest-update watchdog above) because this one waits on a real map/scene
-        // asset load, not a plain network round trip -- genuinely slower on a healthy path, so it
-        // needs more headroom before assuming it's stuck rather than just loading.
-        private static IEnumerator ForceSceneMoveCallbackAfterDelay(bool[] fired, Action original)
-        {
-            yield return new WaitForSeconds(8f);
-            if (!fired[0])
-            {
-                Log.LogWarning("[BD2CompatPatch] TimelineSignalManager.SetSpecificSceneMoveByMenual: scene-move never completed within 8s (likely a missing/unfetchable asset bundle for this dialogue-skip target scene) -- forcing the completion callback now so the loading screen closes and the dialogue/timeline resumes, instead of hanging forever.");
-                fired[0] = true;
-                original();
-            }
-        }
-
-        // See the registration comment above (near "GENERIC SAFETY NET for "stuck loading screen"")
-        // for the full story. `__0` is the show/hide bool (both overloads' first parameter) -- only
-        // arm the watchdog when it's actually being shown.
-        private static void SetUILoadingWatchdogPostfix(object __instance, bool __0)
-        {
-            if (__0 && _instance != null)
-            {
-                _instance.StartCoroutine(ForceUILoadingOffAfterDelay(__instance));
-            }
-        }
-
-        private static IEnumerator ForceUILoadingOffAfterDelay(object appManagerInstance)
-        {
-            yield return new WaitForSeconds(10f);
-            try
-            {
-                var isActiveMethod = AccessTools.Method(appManagerInstance.GetType(), "IsActiveUILoading");
-                bool stillActive = isActiveMethod != null && (bool)isActiveMethod.Invoke(appManagerInstance, null);
-                if (stillActive)
-                {
-                    Log.LogWarning("[BD2CompatPatch] AppManager.SetUILoading: loading UI still active 10s after being shown -- whatever async operation was supposed to hide it again appears to have hung or silently failed -- forcing it off now so the player isn't stuck staring at a loading screen forever.");
-                    var setMethod = AccessTools.Method(appManagerInstance.GetType(), "SetUILoading", new[] { typeof(bool), typeof(bool) });
-                    setMethod?.Invoke(appManagerInstance, new object[] { false, false });
-                }
-            }
-            catch (Exception e)
-            {
-                Log.LogWarning($"[BD2CompatPatch] ForceUILoadingOffAfterDelay failed: {e.Message}");
-            }
-        }
-
         // See the registration comment above (near MoveMap(GateSpotData)) for the full story.
         // Reimplements GateSpotData.MapPositionData using only its two sibling properties that the
         // broad FieldObjectBase finalizer wrap already handles safely (an int-returning MapId
@@ -2589,62 +2243,6 @@ namespace BD2CompatPatch
                 __result = default(MapPositionData);
             }
             return false; // always skip the fragile original getter
-        }
-
-        // See the registration comment above (near "ROOT CAUSE (2026-09-29) of the "black screen
-        // with a Now Loading message"") for the full story. `__0` is the show/hide bool -- only wrap
-        // the "show" call's returned enumerator; a "hide" call has nothing worth timing out.
-        private static void SetLoadingUIWatchdogPostfix(object __instance, bool __0, ref IEnumerator __result)
-        {
-            if (__0 && __result != null)
-            {
-                __result = SetLoadingUITimeoutWrapper(__instance, __result);
-            }
-        }
-
-        // Manually drives `inner` (same shape as the pre-existing LoggingCoroutineWrapper elsewhere
-        // in this file) so a timeout can be enforced without touching the original method's own
-        // logic at all -- every yielded value passes straight through unchanged on the healthy path.
-        private static IEnumerator SetLoadingUITimeoutWrapper(object cameraManagerInstance, IEnumerator inner)
-        {
-            float start = Time.realtimeSinceStartup;
-            while (true)
-            {
-                bool moved;
-                try
-                {
-                    moved = inner.MoveNext();
-                }
-                catch (Exception e)
-                {
-                    Log.LogWarning($"[BD2CompatPatch] GameCameraManager.SetLoadingUI threw ({e.GetType().Name}: {e.Message}) -- treating as failed so the caller isn't stuck behind it.");
-                    yield break;
-                }
-                if (!moved) yield break;
-                if (Time.realtimeSinceStartup - start > 8f)
-                {
-                    Log.LogWarning("[BD2CompatPatch] GameCameraManager.SetLoadingUI: loading-screen prefab asset never finished loading within 8s (likely a missing/unfetchable Addressables bundle) -- forcing the loading root off and abandoning the wait so the black screen doesn't stay up forever and the caller's own coroutine can continue.");
-                    try
-                    {
-                        var rootField = AccessTools.Field(cameraManagerInstance.GetType(), "_objEventLoadingRoot");
-                        var root = rootField?.GetValue(cameraManagerInstance) as GameObject;
-                        if (root != null)
-                        {
-                            root.SetActive(false);
-                        }
-                        else
-                        {
-                            Log.LogWarning("[BD2CompatPatch] SetLoadingUITimeoutWrapper: _objEventLoadingRoot field not found or null -- couldn't force the loading root off directly.");
-                        }
-                    }
-                    catch (Exception e2)
-                    {
-                        Log.LogWarning($"[BD2CompatPatch] Failed to force the loading root off: {e2.Message}");
-                    }
-                    yield break;
-                }
-                yield return inner.Current;
-            }
         }
 
         private static bool SafePlayDirectorPrefix(object __instance, object __0, ref WaitForSeconds __result)
@@ -3190,9 +2788,6 @@ namespace BD2CompatPatch
             float start = Time.realtimeSinceStartup;
             float lastFlip = -999f;
             int frame = 0;
-            bool dumpedFullStateOnStall = false;
-            int lastObservedStuckState = int.MinValue;
-            int repeatedStuckStateCount = 0;
             while (true)
             {
                 bool moved;
@@ -3211,10 +2806,8 @@ namespace BD2CompatPatch
                     // unrelated, unprotected NPC-lookup crash (since separately fixed) did exactly
                     // this. Run the same recovery here too so a FUTURE unprotected crash in this
                     // same coroutine degrades to "playable but missing a HUD widget" instead of
-                    // "field never finishes loading." Also covers the gate-transition coroutine
-                    // (ὧὨὭὬὩὮὨὣὨὠὡ) -- confirmed live (2026-09-29) it can leave a "Now Loading"
-                    // screen stuck up the same way the field-load coroutine can.
-                    if (label.Contains("GameFieldManager.ὬὭὢὤὥὨὤὦὧὧὤ") || label.Contains("GameFieldManager.ὧὨὭὬὩὮὨὣὨὠὡ"))
+                    // "field never finishes loading."
+                    if (label.Contains("GameFieldManager.ὬὭὢὤὥὨὤὦὧὧὤ"))
                     {
                         TryRecoverBlackScreenAfterFieldLoad(closeLoadingUi: true);
                     }
@@ -3237,86 +2830,12 @@ namespace BD2CompatPatch
                 // through on its own -- everything after that point then runs as normal, correct
                 // game code. Retried every ~3s in case a coroutine has more than one such gate in
                 // sequence (confirmed to happen at least once this session).
-                // DELAYED to start at 10s rather than 3s (2026-09-29): now that the recursion filter
-                // fix above lets this reach `<>8__1.isClearQuest` (the field the chief's-house gate's
-                // own quest-wait loop really polls on), it would otherwise win the race against
-                // QuestUpdateCallbackWatchdogPrefix's own, more correct 5s recovery -- that one forces
-                // the REAL original callback (restoring player position/camera state exactly as a
-                // genuine server response would, and presumably the actual quest-progress signal),
-                // whereas this blind flip just unblocks the loop without running any of that logic.
-                // CONFIRMED live this session that a 6s delay here still isn't enough margin: that
-                // watchdog's own 5s timer only starts once its prefix actually RUNS, which itself
-                // fires ~1.5-2s after this wrapper's own `start` baseline (asset-loading/quest-lookup
-                // happens first) -- so its real-world fire time is closer to ~6.5-7s from THIS
-                // timer's baseline, not 5s. 10s gives a solid multi-second margin either way.
-                if (Time.realtimeSinceStartup - start > 10f && Time.realtimeSinceStartup - lastFlip > 3f)
+                if (Time.realtimeSinceStartup - start > 3f && Time.realtimeSinceStartup - lastFlip > 3f)
                 {
                     int flipped = TryForceStuckBoolFlags(inner);
                     if (flipped > 0)
                     {
                         Log.LogInfo($"[BD2CompatPatch] {label}: flipped {flipped} stuck bool flag(s) after {frame} frames -- letting it continue.");
-                    }
-                    // DIAGNOSTIC (2026-09-29): the chief's-house gate flips exactly one bool
-                    // (isMoveStartMap) once, then keeps spinning for the remaining ~17s with nothing
-                    // further to flip -- meaning whatever's ACTUALLY still gating it either isn't a
-                    // bool at all, or isn't reachable by the bool-flipper's shallow (state
-                    // machine + one closure level) walk. Once, on the first retry that finds nothing
-                    // left to flip, dump every field on the top-level state machine itself (any
-                    // type, not just bool) so the next capture shows real candidates -- an int/float
-                    // counter, an enum state, a reference to some other object's own IsBusy flag --
-                    // instead of another guess.
-                    else
-                    {
-                        // DIAGNOSTIC (2026-09-29): confirmed live for the chief's-house gate -- once
-                        // there's nothing left to flip, <>1__state stops changing between retries
-                        // entirely (observed stuck at state=3 across the whole remaining ~17s, with
-                        // a captured local "spot" permanently null). That's proof this specific stall
-                        // isn't bool-gated and bool-flipping can never help it -- so once the SAME
-                        // state value repeats on TWO consecutive nothing-to-flip retries (~6s apart),
-                        // stop waiting out the full 20s and abandon right away. This doesn't fix the
-                        // underlying stall (still unknown why "spot" never gets assigned), but it cuts
-                        // the player's wait from 20s down to ~9-12s for a case we now know can never
-                        // self-resolve.
-                        if (!dumpedFullStateOnStall)
-                        {
-                            dumpedFullStateOnStall = true;
-                            try
-                            {
-                                Log.LogInfo($"[BD2CompatPatch] {label}: no more bools to flip after {frame} frames but still not progressing -- dumping full top-level state machine field state:");
-                                DumpObjectFieldsRecursive(inner, 0, 2);
-                            }
-                            catch (Exception e)
-                            {
-                                Log.LogWarning($"[BD2CompatPatch] Full state-machine field dump failed: {e.Message}");
-                            }
-                        }
-                        try
-                        {
-                            var stateField = inner.GetType().GetField("<>1__state", BindingFlags.Instance | BindingFlags.NonPublic);
-                            int currentState = stateField != null ? (int)stateField.GetValue(inner) : int.MinValue;
-                            if (currentState == lastObservedStuckState)
-                            {
-                                repeatedStuckStateCount++;
-                            }
-                            else
-                            {
-                                repeatedStuckStateCount = 0;
-                                lastObservedStuckState = currentState;
-                            }
-                            if (repeatedStuckStateCount >= 1)
-                            {
-                                Log.LogWarning($"[BD2CompatPatch] {label}: internal state ({currentState}) hasn't changed across 2+ consecutive nothing-to-flip retries -- this is unrecoverable via bool-flipping, abandoning now after {frame} frames / {Time.realtimeSinceStartup - start:F1}s instead of waiting out the full 20s.");
-                                if (label.Contains("GameFieldManager.ὬὭὢὤὥὨὤὦὧὧὤ") || label.Contains("GameFieldManager.ὧὨὭὬὩὮὨὣὨὠὡ"))
-                                {
-                                    TryRecoverBlackScreenAfterFieldLoad(closeLoadingUi: true);
-                                }
-                                yield break;
-                            }
-                        }
-                        catch (Exception e)
-                        {
-                            Log.LogWarning($"[BD2CompatPatch] Stuck-state tracking failed: {e.Message}");
-                        }
                     }
                     lastFlip = Time.realtimeSinceStartup;
                 }
@@ -3325,10 +2844,8 @@ namespace BD2CompatPatch
                     Log.LogWarning($"[BD2CompatPatch] {label} exceeded 20s ({frame} frames) with no sign of completing -- abandoning it so the game doesn't hang forever.");
                     // Whatever this coroutine hasn't finished, at minimum don't leave the player
                     // staring at a stuck loading screen -- force it closed as a last resort so the
-                    // field is at least visible/interactable. Also covers the gate-transition
-                    // coroutine (ὧὨὭὬὩὮὨὣὨὠὡ) -- confirmed live (2026-09-29) it can leave a "Now
-                    // Loading" screen stuck up the same way the field-load coroutine can.
-                    if (label.Contains("GameFieldManager.ὬὭὢὤὥὨὤὦὧὧὤ") || label.Contains("GameFieldManager.ὧὨὭὬὩὮὨὣὨὠὡ"))
+                    // field is at least visible/interactable.
+                    if (label.Contains("GameFieldManager.ὬὭὢὤὥὨὤὦὧὧὤ"))
                     {
                         TryRecoverBlackScreenAfterFieldLoad(closeLoadingUi: true);
                     }
@@ -3378,56 +2895,6 @@ namespace BD2CompatPatch
                 {
                     Log.LogWarning($"[BD2CompatPatch] Failed to force-close LoadingUI: {e.Message}");
                 }
-                // A SECOND, separate "loading screen" mechanism confirmed live (2026-09-29): the
-                // chief's-house gate-transition coroutine calls GameCameraManager.SetLoadingUI(true,
-                // "loading_story_default"-style name) BEFORE getting permanently stuck later in the
-                // same coroutine chain (a captured "spot" local staying null forever) -- so it never
-                // reaches its own matching SetLoadingUI(false, ...) call. The 8s Addressables-load
-                // timeout on SetLoadingUI itself (SetLoadingUITimeoutWrapper) doesn't help here since
-                // the asset loads fine; the root just never gets told to hide again. Force it off
-                // directly via its own real, Inspector-bound field name.
-                try
-                {
-                    var gcmForLoadingRoot = UnityEngine.Object.FindObjectOfType<GameCameraManager>(true);
-                    var rootField = gcmForLoadingRoot != null ? AccessTools.Field(gcmForLoadingRoot.GetType(), "_objEventLoadingRoot") : null;
-                    var loadingRoot = rootField?.GetValue(gcmForLoadingRoot) as GameObject;
-                    if (loadingRoot != null && loadingRoot.activeSelf)
-                    {
-                        Log.LogInfo("[BD2CompatPatch] Force-closing GameCameraManager's _objEventLoadingRoot (the \"Now Loading\" screen) after abandoning the stuck coroutine.");
-                        loadingRoot.SetActive(false);
-                    }
-                }
-                catch (Exception e)
-                {
-                    Log.LogWarning($"[BD2CompatPatch] Failed to force-close _objEventLoadingRoot: {e.Message}");
-                }
-                // A THIRD, separate "still covered by an overlay after recovery" mechanism confirmed
-                // live (2026-09-29): the generic "Black" scene-transition overlay (toggled via
-                // GameCameraManager.SetActiveSceneMoveUI(true, ...), already covered by its own
-                // separate 10s watchdog elsewhere in this file) was STILL showing up in every single
-                // click's raycast hit list minutes after this same coroutine was abandoned and this
-                // very recovery function ran -- proving that watchdog either never armed for this
-                // particular activation or simply hadn't reached its own 10s mark yet. Since we're
-                // already here doing abandon-recovery, don't wait on that separate watchdog at all --
-                // force both the fade overlay and the depth-of-field blur off directly and
-                // immediately, using the same real, non-obfuscated method names that watchdog itself
-                // calls.
-                try
-                {
-                    var gcmForOverlay = UnityEngine.Object.FindObjectOfType<GameCameraManager>(true);
-                    if (gcmForOverlay != null)
-                    {
-                        var setActiveSceneMoveUI = AccessTools.Method(gcmForOverlay.GetType(), "SetActiveSceneMoveUI");
-                        setActiveSceneMoveUI?.Invoke(gcmForOverlay, new object[] { false, null });
-                        var setActiveSceneMoveUIBlur = AccessTools.Method(gcmForOverlay.GetType(), "SetActiveSceneMoveUIBlur");
-                        setActiveSceneMoveUIBlur?.Invoke(gcmForOverlay, new object[] { false });
-                        Log.LogInfo("[BD2CompatPatch] Force-closed the \"Black\" scene-transition overlay and blur directly after abandoning the stuck coroutine.");
-                    }
-                }
-                catch (Exception e)
-                {
-                    Log.LogWarning($"[BD2CompatPatch] Failed to force-close the scene-transition overlay/blur: {e.Message}");
-                }
             }
             // The abandoned/incomplete coroutine never reached its own camera/character/HUD
             // activation calls (RestoreFieldOfView, SetActiveTrainPlayerCharacters, the
@@ -3454,40 +2921,6 @@ namespace BD2CompatPatch
                 Singleton<AppManager>.ὪὫὢὨὯὭὦὪὦὨὣ?.SetActiveOutGameUICamera(false);
                 var gfm = UnityEngine.Object.FindObjectOfType<GameFieldManager>();
                 gfm?.SetActiveTrainPlayerCharacters(true);
-                // CONFIRMED live (2026-09-29): the real gate-transition coroutine's own final step
-                // (whichever branch it takes) always ends by calling SetPlayerMoveState(...) --
-                // DontMove or Stop depending on context -- to restore normal control. Abandoning the
-                // coroutine early (the whole point of the stuck-state detection above) means that
-                // final call never runs, so whatever move-lock was applied at the START of the
-                // transition (movement is normally disabled for its whole duration) never gets lifted
-                // -- leaving the player standing frozen, unable to walk anywhere, even though clicks
-                // still register fine. MoveController's own move-state enum type name is obfuscated,
-                // so resolve it by its real, stable member names (Moving/DontMove/Stop/Anchored)
-                // rather than guessing the type's own name, then call the real, non-obfuscated
-                // GameFieldManager.SetPlayerMoveState(...) with Stop -- the same "idle but
-                // controllable" state the real coroutine's own most common path already uses.
-                try
-                {
-                    var moveStateEnumType = typeof(MoveController).GetNestedTypes(BindingFlags.Public | BindingFlags.NonPublic)
-                        .FirstOrDefault(t => t.IsEnum && new[] { "Moving", "DontMove", "Stop", "Anchored" }.All(n => Enum.GetNames(t).Contains(n)));
-                    var setPlayerMoveStateMethod = moveStateEnumType != null
-                        ? AccessTools.Method(typeof(GameFieldManager), "SetPlayerMoveState", new[] { moveStateEnumType })
-                        : null;
-                    if (gfm != null && setPlayerMoveStateMethod != null)
-                    {
-                        object stopValue = Enum.Parse(moveStateEnumType, "Stop");
-                        setPlayerMoveStateMethod.Invoke(gfm, new[] { stopValue });
-                        Log.LogInfo("[BD2CompatPatch] Restored player move state to Stop (controllable) after abandoning the stuck coroutine -- otherwise the player would be left frozen in place.");
-                    }
-                    else
-                    {
-                        Log.LogWarning($"[BD2CompatPatch] Could not restore player move state (enumFound={moveStateEnumType != null}, methodFound={setPlayerMoveStateMethod != null}, gfmFound={gfm != null}) -- the player may still be stuck unable to move.");
-                    }
-                }
-                catch (Exception e)
-                {
-                    Log.LogWarning($"[BD2CompatPatch] Failed to restore player move state: {e.Message}");
-                }
                 var findUiOpen = typeof(ὩὭὨὪὨὨὮὣὪὣὥ)
                     .GetMethods(BindingFlags.Public | BindingFlags.Static)
                     .FirstOrDefault(m => m.Name == "ὤὨὪὥὩὦὫὨὩὫὥ" && m.IsGenericMethodDefinition && m.GetParameters().Length == 0);
@@ -3722,20 +3155,10 @@ namespace BD2CompatPatch
                     try { value = f.GetValue(iteratorStateMachine); }
                     catch { continue; }
                     if (value == null) continue;
-                    // CORRECTED (2026-09-29): only descending when the VALUE's own type name looks
-                    // like a compiler-generated closure ("<" or "DisplayClass") missed the real
-                    // stuck field this whole session -- confirmed live via a fresh decompile of the
-                    // actual running assembly (obtained by metadata token through ilspycmd, since the
-                    // cached decompile didn't have this method at all): the chief's-house gate
-                    // coroutine hoists its captured locals into `<>8__1`, a normal hand-written
-                    // helper class (its own type name has no "<" and isn't "DisplayClass" at all --
-                    // only compiler-synthesized anonymous closures are named that way; a developer's
-                    // OWN named class used for the same hoisting purpose is not), and it's THAT
-                    // object's own `isClearQuest` field that state 3's loop actually polls on. The
-                    // reliable, compiler-guaranteed signal for "this field holds a hoisted local
-                    // captured by a nested lambda" is the FIELD's own NAME (always "<>8__<N>"), not
-                    // the type name of whatever value it happens to hold -- so key off that instead.
-                    if (!f.Name.StartsWith("<>8__") && !value.GetType().Name.Contains("<") && !value.GetType().Name.Contains("DisplayClass"))
+                    // Only descend into compiler-generated closures/state machines, not arbitrary
+                    // game objects reachable from the coroutine (managers, tables, etc.) -- keeps
+                    // this from reaching into and mutating unrelated live game state.
+                    if (!value.GetType().Name.Contains("<") && !value.GetType().Name.Contains("DisplayClass"))
                     {
                         continue;
                     }
@@ -3747,34 +3170,6 @@ namespace BD2CompatPatch
                 Log.LogWarning($"[BD2CompatPatch] TryForceStuckBoolFlags reflection failed: {e.Message}");
             }
             return flipped;
-        }
-
-        // Dumps every field on `obj`, and recurses into non-null reference-typed fields that look
-        // like compiler-generated closures/state machines (name contains "<" or "DisplayClass") up
-        // to `maxDepth` levels -- deliberately excludes UnityEngine.Object-derived values (a
-        // GameFieldManager `<>4__this` self-reference would otherwise pull in the entire live game
-        // state) so this stays targeted at the small, purpose-built capture objects a stuck
-        // `while(...) yield return null;` loop's condition actually depends on.
-        private static void DumpObjectFieldsRecursive(object obj, int depth, int maxDepth)
-        {
-            if (obj == null || depth > maxDepth) return;
-            string indent = new string(' ', (depth + 1) * 2);
-            foreach (var f in obj.GetType().GetFields(BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic))
-            {
-                object v;
-                try { v = f.GetValue(obj); }
-                catch (Exception ex) { v = $"<threw: {ex.Message}>"; }
-                Log.LogInfo($"[BD2CompatPatch] {indent}{obj.GetType().Name}.{f.Name} ({f.FieldType.Name}) = {v}");
-                if (v == null || depth >= maxDepth) continue;
-                if (typeof(UnityEngine.Object).IsAssignableFrom(f.FieldType)) continue;
-                if (f.FieldType.IsPrimitive || f.FieldType == typeof(string)) continue;
-                // See TryForceStuckBoolFlags' own correction above: key off the FIELD's name
-                // ("<>8__N" is always a compiler-hoisted local regardless of its value's own type),
-                // not the value's type name -- a hand-written helper class used for the same
-                // hoisting purpose won't have "<" or "DisplayClass" in its own name.
-                if (!f.Name.StartsWith("<>8__") && !v.GetType().Name.Contains("<") && !v.GetType().Name.Contains("DisplayClass")) continue;
-                DumpObjectFieldsRecursive(v, depth + 1, maxDepth);
-            }
         }
 
         private static int FlipFalseBoolFields(object obj)
@@ -3790,38 +3185,6 @@ namespace BD2CompatPatch
                 {
                     f.SetValue(obj, true);
                     flipped++;
-                    // DIAGNOSTIC (2026-09-29): logging just a count left the chief's-house hang
-                    // unexplained -- this fires on ANY false bool anywhere in the state machine or
-                    // one level of closures, so a count alone can't tell us whether it actually hit
-                    // the specific flag gating a real wait (e.g. isClearQuest) or something else
-                    // entirely unrelated and harmless. Log exactly which field, on which type.
-                    Log.LogInfo($"[BD2CompatPatch] FlipFalseBoolFields: flipped {obj.GetType().FullName}.{f.Name} false->true.");
-                    // FURTHER DIAGNOSTIC (2026-09-29): flipping "isMoveStartMap" alone did NOT
-                    // unstick the chief's-house gate -- it kept spinning for the remaining ~17s with
-                    // no further bool ever found to flip, meaning either this flip didn't actually
-                    // change the real control flow (e.g. something re-derives its own condition
-                    // rather than reading this raw field), or there's a second, non-bool blocking
-                    // condition immediately after it. This field isn't present anywhere in the
-                    // cached decompile at all (a version-mismatch gap, same class of gotcha hit
-                    // earlier this session with PackManager's quest-list field) so static analysis
-                    // can't resolve it -- dump every OTHER field on the SAME containing object (name,
-                    // declared type, and current value) so the next capture gives real data instead
-                    // of another guess.
-                    try
-                    {
-                        foreach (var sibling in obj.GetType().GetFields(BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic))
-                        {
-                            if (sibling.Name == f.Name) continue;
-                            object siblingValue;
-                            try { siblingValue = sibling.GetValue(obj); }
-                            catch (Exception ex) { siblingValue = $"<threw: {ex.Message}>"; }
-                            Log.LogInfo($"[BD2CompatPatch]   sibling field on {obj.GetType().Name}: {sibling.Name} ({sibling.FieldType.Name}) = {siblingValue}");
-                        }
-                    }
-                    catch (Exception e)
-                    {
-                        Log.LogWarning($"[BD2CompatPatch] Sibling-field dump failed: {e.Message}");
-                    }
                 }
             }
             return flipped;
