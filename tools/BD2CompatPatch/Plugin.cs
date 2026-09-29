@@ -1012,6 +1012,83 @@ namespace BD2CompatPatch
                 Log.LogWarning($"[BD2CompatPatch] Failed to wrap the CharUI chain with finalizers: {e.Message}");
             }
 
+            // Real crash found live (2026-09-29) once pack switching actually started changing
+            // maps for real: GameFieldManager.GetNPCController(npcId) throws a NullReferenceException
+            // when the requested NPC's own FieldNpcTable row is missing/uncaptured (confirmed via
+            // "Data not found exception. (FieldNpcTable, id:8)" immediately preceding it in the log).
+            // Its caller here, GameFieldDefaultUI.SetScoutProgressHUD (the mercenary-scout progress
+            // HUD widget), has no try/catch of its own, so this uncaught NRE aborts the entire
+            // field-load coroutine partway through -- skipping everything after it in that coroutine,
+            // including this plugin's own post-load black-screen recovery (which only runs on the
+            // coroutine's NORMAL completion path, not its exception path). Wrap GetNPCController
+            // itself (not just SetScoutProgressHUD) since it's a small, widely-reused lookup -- any
+            // other caller hitting the same missing-NPC-data shape is protected too.
+            try
+            {
+                var getNpcControllerMethod = AccessTools.Method(typeof(GameFieldManager), "GetNPCController");
+                if (getNpcControllerMethod != null)
+                {
+                    var swallowFinalizer5 = new HarmonyMethod(typeof(Plugin).GetMethod(nameof(SwallowExceptionFinalizer), BindingFlags.Static | BindingFlags.NonPublic));
+                    harmony.Patch(getNpcControllerMethod, finalizer: swallowFinalizer5);
+                    Log.LogInfo("[BD2CompatPatch] Patched GameFieldManager.GetNPCController to swallow exceptions on missing NPC data instead of aborting the field-load coroutine.");
+                }
+                else
+                {
+                    Log.LogWarning("[BD2CompatPatch] Could not find GameFieldManager.GetNPCController to patch.");
+                }
+
+                // Second layer: even with GetNPCController patched to return null instead of
+                // throwing, its caller here likely dereferences that null result immediately
+                // (e.g. NpcController.NpcDTO), which would just move the same abort one frame up
+                // the stack. SetScoutProgressHUD is a purely cosmetic HUD widget (mercenary scout
+                // progress) -- safe to skip entirely on any failure, same convention as every other
+                // optional-feature wrap in this file.
+                var setScoutProgressHudMethod = AccessTools.Method(typeof(GameFieldDefaultUI), "SetScoutProgressHUD");
+                if (setScoutProgressHudMethod != null)
+                {
+                    var swallowFinalizer6 = new HarmonyMethod(typeof(Plugin).GetMethod(nameof(SwallowExceptionFinalizer), BindingFlags.Static | BindingFlags.NonPublic));
+                    harmony.Patch(setScoutProgressHudMethod, finalizer: swallowFinalizer6);
+                    Log.LogInfo("[BD2CompatPatch] Patched GameFieldDefaultUI.SetScoutProgressHUD to swallow exceptions (cosmetic HUD widget, safe to skip on missing NPC data).");
+                }
+                else
+                {
+                    Log.LogWarning("[BD2CompatPatch] Could not find GameFieldDefaultUI.SetScoutProgressHUD to patch.");
+                }
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning($"[BD2CompatPatch] Failed to patch GameFieldManager.GetNPCController / SetScoutProgressHUD: {e.Message}");
+            }
+
+            // Real crash found live (2026-09-29), pack1 cold-start: GameFieldManager.RefreshGateSpotData
+            // (called from its own background coroutine, separate from the tracked field-load one)
+            // -> GameFieldDefaultUI.RefreshMiniMap -> ...RefreshMiniMapFieldRewards -> MapUI.
+            // GetOnceRewardInfos throws on missing FieldResearchObjectTable/FieldRewardObjectTable
+            // rows for the minimap's "once reward" markers. Uncaught, this aborts
+            // RefreshGateSpotData's whole coroutine partway through -- whatever LoadingUI-closing
+            // step normally runs after it never does, leaving a permanently stuck loading screen
+            // (confirmed live: "LoadingUI(Clone)" background eating every click forever after).
+            // RefreshMiniMap is a purely cosmetic HUD feature -- safe to skip entirely on failure,
+            // same convention as every other optional-feature wrap in this file.
+            try
+            {
+                var refreshMiniMapMethod = AccessTools.Method(typeof(GameFieldDefaultUI), "RefreshMiniMap");
+                if (refreshMiniMapMethod != null)
+                {
+                    var swallowFinalizer7 = new HarmonyMethod(typeof(Plugin).GetMethod(nameof(SwallowExceptionFinalizer), BindingFlags.Static | BindingFlags.NonPublic));
+                    harmony.Patch(refreshMiniMapMethod, finalizer: swallowFinalizer7);
+                    Log.LogInfo("[BD2CompatPatch] Patched GameFieldDefaultUI.RefreshMiniMap to swallow exceptions instead of aborting whatever coroutine called it (was leaving LoadingUI stuck forever).");
+                }
+                else
+                {
+                    Log.LogWarning("[BD2CompatPatch] Could not find GameFieldDefaultUI.RefreshMiniMap to patch.");
+                }
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning($"[BD2CompatPatch] Failed to patch GameFieldDefaultUI.RefreshMiniMap: {e.Message}");
+            }
+
             // ROOT CAUSE of the "Replace Companion" screen's loading spinner spinning forever
             // (client "hangs" from the user's perspective, though the engine itself keeps running):
             // SpineManager's list-population code loads each companion's Spine illustration one at
@@ -1129,23 +1206,18 @@ namespace BD2CompatPatch
             // the client regardless of what its local cache says.
             //
             // CORRECTION (2026-09-29): pack1 (Knight of Blood, the main starting story) is
-            // confirmed the intended real default, and its field data has since been imported
-            // for real (FieldGateTable/FieldMonsterTable/FieldWaypointTable, from the old
-            // reference server package) -- but pack1's COLD-START entry still crashes on a
-            // separate, unresolved bug: the client's own local encrypted SQLite cache file for
-            // field data (Data/t/<hash>) fails to open ("unable to open database file" / generic
-            // "out of memory"), independent of anything our server sends. This is the same bug
-            // documented as unresolved at the end of the previous session. Tried the pack21
-            // cold-start workaround (enters cleanly, no local-cache crash) but it has its OWN
-            // separate unresolved bug: GameCameraManager.Instance is null for the ENTIRE session
-            // (FindObjectOfType never finds one either, unlike an earlier debugging round where
-            // it was only transiently null during early loading) -- no camera ever renders the
-            // 3D world, producing a black screen even though UI/input keep working fine. Since
-            // the auth-middleware UID bug (real root cause of the earlier "no valid field deck"
-            // failure) and the missing starting-quest gap are now BOTH fixed server-side, and
-            // pack1 now has real field data, reverting to pack1 as the real cold-start default
-            // to retest -- the original local-cache crash may behave differently now, and pack1
-            // is confirmed the actually-intended default anyway.
+            // confirmed the intended real default. History of this value tonight: forced to 1,
+            // then to 21 (pack1 cold-start hit a since-partially-addressed local-cache crash),
+            // camera/click-catcher/black-screen bugs found and fixed along the way, then tried
+            // WARM-switching pack21->pack1 via the in-game PackList UI instead of a cold start --
+            // that loads pack1's own map/character data fine, but confirmed live via
+            // `[FMOD] Event not found: 'event:/BGM/Pack_21/...'` firing WHILE loading pack1's map
+            // that deeper subsystems (audio confirmed, presumably the actual rendered scene too)
+            // never fully re-anchor to the new pack on a warm switch -- only a genuine cold start
+            // fully commits to a pack. Back to forcing 1 to retest cold-start now that this
+            // session's other fixes (real auth UID, real field data, starting quest, camera
+            // recovery, NPC-lookup crash) are all in place -- the original local-cache crash may
+            // behave differently with all of this changed.
             try
             {
                 var initPackIdGetter = typeof(Proto.Design.common.GameDefaultTable).GetMethod("get_InitPackId", BindingFlags.Public | BindingFlags.Instance);
@@ -1968,6 +2040,30 @@ namespace BD2CompatPatch
                 object data = dataProp?.GetValue(__instance);
                 bool usedFallback = false;
                 string fallbackPropName = null;
+                // CORRECTION (2026-09-29): the "stay where you are" fallback below is correct for
+                // an ordinary in-map gate with missing destination data -- but it's WRONG for the
+                // entry gate of a pack switch. Pack-entry gates are always the "MapXXXX_StartSpotData"
+                // object (named that way by PackManager.EnterPack itself, confirmed in every
+                // "PackManager.EnterPack called with Id=N, StartPositionPath=MapXXXX_StartSpotData"
+                // diagnostic log line), and their own gate data is *also* commonly missing/uncaptured
+                // for this project. Falling back to "stay where you are" on THIS specific gate means
+                // the whole pack switch silently does nothing visually -- the client requests and
+                // loads the new pack's own assets/characters fine, but CurrentMapInfo never actually
+                // changes, so the rendered map stays whatever it was before. Confirmed live: warm
+                // pack-switching (pack21 -> pack1, -> pack3, back to pack1) always hit this exact
+                // fallback for the entry gate and the map visually never changed. Fix: parse the
+                // real target map id directly out of the gate's own name instead of falling back --
+                // "MapXXXX_StartSpotData(Clone)" always encodes it, independent of whatever this
+                // object's own (possibly-missing) design-table row says.
+                if (mapId <= 0 && __instance is UnityEngine.Object unityObj && unityObj != null)
+                {
+                    var nameMatch = System.Text.RegularExpressions.Regex.Match(unityObj.name, @"Map(\d+)_StartSpotData");
+                    if (nameMatch.Success && int.TryParse(nameMatch.Groups[1].Value, out int parsedMapId) && parsedMapId > 0)
+                    {
+                        mapId = parsedMapId;
+                        Log.LogWarning($"[BD2CompatPatch] GateSpotData.MapPositionData ({__instance}): underlying gate data missing on a pack-entry StartSpotData gate -- using MapId={parsedMapId} parsed from its own name instead of falling back to the current map (which would silently no-op the pack switch).");
+                    }
+                }
                 if (mapId <= 0)
                 {
                     // Confirmed live: just returning MapId=0 here and having the caller (see
@@ -2333,6 +2429,18 @@ namespace BD2CompatPatch
                 {
                     Log.LogWarning($"[BD2CompatPatch] EXCEPTION out of {label} after {frame} frames / {Time.realtimeSinceStartup - start:F1}s: {e}");
                     LogCrashLocationAndCapturedState(e, inner);
+                    // Defense in depth: an uncaught exception here previously skipped the
+                    // black-screen recovery entirely (it only ran on the normal-completion path
+                    // below), leaving the player looking at whatever half-loaded state existed
+                    // when this specific coroutine aborted -- confirmed live (2026-09-29) when an
+                    // unrelated, unprotected NPC-lookup crash (since separately fixed) did exactly
+                    // this. Run the same recovery here too so a FUTURE unprotected crash in this
+                    // same coroutine degrades to "playable but missing a HUD widget" instead of
+                    // "field never finishes loading."
+                    if (label.Contains("GameFieldManager.ὬὭὢὤὥὨὤὦὧὧὤ"))
+                    {
+                        TryRecoverBlackScreenAfterFieldLoad(closeLoadingUi: true);
+                    }
                     yield break;
                 }
                 if (!moved) break;
@@ -2819,7 +2927,7 @@ namespace BD2CompatPatch
         // enter pack21") for the full story.
         private static void ForceInitPackId1Postfix(ref int __result)
         {
-            __result = 21; // TEMP: testing the new black-screen recovery fix on pack21 before deciding
+            __result = 1; // pack1 (Knight of Blood) is the real, confirmed-intended default
         }
 
         // __args works regardless of the real (obfuscated) parameter names — index 1 is the
