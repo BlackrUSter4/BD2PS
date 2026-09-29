@@ -10,7 +10,7 @@ use database::db::{
     content::content_rank_statue_info::get_content_rank_statue_info,
     hunting::hunting_ground_info::get_hunting_ground_info,
     hunting::hunting_ground_monster::get_monsters_for_hunting_ground,
-    map::map_active_info::get_map_active_info, quest::quest_info::get_quest_info,
+    map::map_active_info::get_map_active_info,
     reputation::reputation_info::get_reputation_info,
     talent::talent_skill_info::get_talent_skill_info,
     user::user_quest as user_quest_db,
@@ -22,7 +22,30 @@ pub async fn handle(pool: &SqlitePool, uid: i64, req: PackInGameInfoRequest) -> 
     info!("Handling PackInGameInfoRequest: {:?}", req);
 
     // --- 1. Fetch all user data safely ---
-    let quest_rows = get_quest_info(pool, uid).await.unwrap_or_default();
+    // CORRECTION (2026-09-29): this used to call quest::quest_info::get_quest_info, which reads
+    // a completely different, unrelated "QuestInfo" table that nothing ever writes to (always
+    // empty) -- real per-account quest progress lives in UserQuest (the same table
+    // QuestAccept/QuestUpdate/QuestClear/clear_quest_ids below all use). That bug meant this
+    // response's quest_info always fell through to the hardcoded `id: Some(2)` placeholder
+    // below, regardless of real progress -- which is also the reason the client's on-screen
+    // quest tracker (GameFieldDefaultUI.ProgressInfo, populated via
+    // PackManager.Enter(questInfoList, ...) from exactly this field) never showed anything real:
+    // the client only displays a quest whose own QuestTable1.packId matches the pack currently
+    // being entered, and the placeholder id=2 only accidentally matched pack1's own quest 2 by
+    // coincidence -- for any other pack (or once quest 2 was actually cleared for real) it
+    // silently showed nothing. Only IN-PROGRESS (status=1) quests belong in the tracker -- a
+    // cleared (status=3) quest has already been reported via clear_quest_ids below.
+    let quest_rows: Vec<database::models::game::user::user_quest::UserQuest> = match req.pack_id {
+        Some(pack_id) => user_quest_db::get_by_uid_and_pack(pool, uid, pack_id)
+            .await
+            .unwrap_or_default(),
+        None => user_quest_db::get_all_by_uid(pool, uid)
+            .await
+            .unwrap_or_default(),
+    }
+    .into_iter()
+    .filter(|r| r.status == 1)
+    .collect();
     let rep_rows = get_reputation_info(pool, uid).await.unwrap_or_default();
 
     let map_rows = match get_map_active_info(pool, uid).await {
@@ -60,27 +83,19 @@ pub async fn handle(pool: &SqlitePool, uid: i64, req: PackInGameInfoRequest) -> 
     //  2.1 char_info — should be empty at world load
     let char_info = vec![];
 
-    //  2.2 quest_info — must contain at least one entry
-    let quest_info = if quest_rows.is_empty() {
-        vec![QuestDbInfo {
-            id: Some(2),
-            value: Some(0),
+    //  2.2 quest_info — real in-progress UserQuest rows for this pack. Honestly empty when the
+    // account genuinely has none in progress (matches this codebase's convention of not
+    // fabricating placeholder data), rather than the old hardcoded `id: Some(2)` fallback.
+    let quest_info = quest_rows
+        .into_iter()
+        .map(|q| QuestDbInfo {
+            id: Some(q.quest_id as i32),
+            value: Some(q.progress),
             object_id: vec![],
-            quest_level: Some(0),
-            quest_opt: Some(0),
-        }]
-    } else {
-        quest_rows
-            .into_iter()
-            .map(|q| QuestDbInfo {
-                id: q.id,
-                value: q.value,
-                object_id: vec![],
-                quest_level: q.quest_level,
-                quest_opt: q.quest_opt,
-            })
-            .collect()
-    };
+            quest_level: None,
+            quest_opt: None,
+        })
+        .collect();
 
     //  2.3 reputation_info — must exist (fallback if DB empty)
     let reputation_info = if rep_rows.is_empty() {
