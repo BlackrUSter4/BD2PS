@@ -18,6 +18,7 @@ pub struct Costumetable {
     #[serde(rename = "buffImmuneGroupID")]
     pub buff_immune_group_i_d: Option<i32>,
     #[serde(rename = "connectedCostumeDesignId")]
+    #[serde(default)]
     pub connected_costume_design_id: Vec<i32>,
     #[serde(rename = "costumeDescNameTextId")]
     pub costume_desc_name_text_id: i32,

@@ -10,7 +10,7 @@ pub struct Talenttable {
     #[serde(rename = "changeOff")]
     pub change_off: Option<i32>,
     #[serde(rename = "classType")]
-    pub class_type: i32,
+    pub class_type: Option<i32>,
     #[serde(rename = "growthGroupId")]
     pub growth_group_id: i32,
     #[serde(rename = "id")]
@@ -26,9 +26,9 @@ pub struct Talenttable {
     #[serde(rename = "talentDescNameTextId")]
     pub talent_desc_name_text_id: i32,
     #[serde(rename = "talentEffect")]
-    pub talent_effect: String,
+    pub talent_effect: Option<String>,
     #[serde(rename = "talentMark")]
-    pub talent_mark: String,
+    pub talent_mark: Option<String>,
     #[serde(rename = "talentNameTextId")]
     pub talent_name_text_id: i32,
     #[serde(rename = "talentSkillGroupId")]

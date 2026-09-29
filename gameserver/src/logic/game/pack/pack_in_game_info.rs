@@ -38,10 +38,10 @@ pub async fn handle(pool: &SqlitePool, uid: i64, req: PackInGameInfoRequest) -> 
         .await
         .unwrap_or_default();
 
-    // Fetch last saved user position, or fallback to default. Default pack changed to pack21
-    // ("Knight of Blood" / Chained Soldier 2 collab) per user request -- this exact MapId/position
-    // is a real, live-verified spot inside pack21 (one of its sub-map gate destinations, confirmed
-    // reachable this session), not a guess.
+    // Fetch last saved user position, or fallback to default. CORRECTION: an earlier session
+    // changed this fallback to a pack21 position believing pack21 was "Knight of Blood" -- the
+    // user directly confirmed Knight of Blood is actually pack1 (our internal pack ID 1, the main
+    // starting story), and pack21 is a much later pack. Reverted to pack1's original default.
     let position = sqlx::query_scalar::<_, Option<String>>(
         "SELECT PackPosition FROM UserPosition WHERE Uid = ?",
     )
@@ -51,7 +51,7 @@ pub async fn handle(pool: &SqlitePool, uid: i64, req: PackInGameInfoRequest) -> 
     .unwrap_or(None)
     .flatten()
     .unwrap_or_else(|| {
-        "{\"MapId\":5,\"PlayerPosition\":{\"x\":-1.0,\"y\":0.0,\"z\":-4.7},\"ColleaguePositions\":null}".to_string()
+        "{\"MapId\":1,\"PlayerPosition\":{\"x\":17.8,\"y\":0.2,\"z\":-4.0},\"ColleaguePositions\":null}".to_string()
     });
 
     // --- 2. Transform DB rows → proto structures ---
