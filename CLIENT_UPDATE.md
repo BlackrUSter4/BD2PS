@@ -3027,20 +3027,35 @@ when this session ended (deployed but not yet re-verified after the second,
 correct fix landed -- **next session: confirm live** before assuming this
 one's fully closed).
 
-## Not done this session: making a specific pack (Knight of Blood / pack21) the account's default/starting pack
+## RESOLVED (2026-09-29): pack21 (Knight of Blood) is now the default starting pack
 
-Requested but not investigated. Where to start: the account's starting
-map/position is NOT set anywhere in `starter_data.rs` (grepped, no
-`current_map`/`CurrentPackId`-shaped field there) -- the one live test
-account's actual starting `MapPositionData` (`InvenIndex=1790527065000`,
-handled through `PlayerController.SetChar`/`FieldCharacterController`,
-visible in Player.log as `ENTER PlayerController.SetChar(...)`) was set up
-through a *live gameplay flow* (character-select/tutorial), not the static
-starter JSON -- so the "default pack" is likely determined by whatever
-`MapPositionData`/`PackManager` state gets initialized on first login, not
-a single obvious config value. Needs a proper investigation pass (probably
-starting from wherever a brand new account's *very first* field-entry
-packet is constructed server-side) rather than a guess.
+Found the real mechanism, not documented anywhere before this: it's not
+`starter_data.rs` at all (confirmed, still no `current_map`/
+`CurrentPackId`-shaped field there) -- it's
+`gameserver::logic::game::pack::pack_in_game_info::handle`.
+`PackInGameInfoResponse.position` is populated from
+`UserPosition.PackPosition` (a JSON-encoded `MapId`/`PlayerPosition`
+string, keyed by Uid), and this table row is what the client resumes
+into on every login -- it gets updated live as the account plays
+(matches the `WaypointSave` requests seen in the server log throughout
+tonight). When no row exists yet (a genuinely brand-new account), the
+handler fell back to a hardcoded `{"MapId":1,...}` (pack1) string.
+
+Changed the fallback to a real pack21 position instead of pack1's --
+specifically `{"MapId":5,"PlayerPosition":{"x":-1.0,"y":0.0,"z":-4.7}}`,
+which isn't a guess: it's the exact position this session's own test
+account was sitting at inside pack21 (one of its sub-map gate
+destinations from tonight's gate-freeze testing), so it's proven
+reachable/valid. Also set `PackId=21` explicitly on the existing test
+account's `UserPosition` row (its saved `MapId` already happened to be
+a pack21 map from tonight's testing, just the `PackId` column itself
+was still null).
+
+Not yet re-confirmed live (would need either a fresh account with no
+`UserPosition` row, or the current account's row cleared, to actually
+exercise the fallback path -- the existing account already resumes into
+pack21 today regardless, since its saved position already points
+there).
 
 ## Gate/hut freeze, take two: still hung specifically under Auto Mode (2026-09-28)
 
