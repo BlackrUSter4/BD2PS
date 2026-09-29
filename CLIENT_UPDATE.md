@@ -3990,3 +3990,58 @@ client-behavior mystery survives one or two server-side data fixes with
 zero live effect, that's the signal to stop guessing from data and go get
 a stack trace (or equivalent hard evidence) instead of trying a fourth or
 fifth theory blind.
+
+## New finding, not yet resolved: the client's local design-table database itself is failing "out of memory" on every query (2026-09-29)
+
+While re-testing the pack1-entry fix above, `Player.log` showed something
+much bigger than any single missing row: **every** local table query --
+`SELECT id FROM FieldMonsterTable WHERE type = ...`, `Select * From
+FieldGateTable Where id = 999`, even `SELECT COUNT(*) FROM sqlite_master
+WHERE name = 'HuntingGroundTable'` -- was failing with a literal `out of
+memory` error, immediately followed by the usual `Data not found
+exception. (TableName, id:X)` cascade. This means `RawDataManager`'s local
+design-table storage is a genuine local SQLite database (not just
+Addressables-loaded ScriptableObjects as assumed earlier in this doc), and
+this session's real conclusion is: **a large, unknown fraction of every
+"Data not found exception" logged all session -- across every pack, not
+just 21 -- may have been this SQLite failure, not genuinely missing
+captured data at all.** That reframes a lot of "content gap, needs a live
+capture" conclusions earlier in this doc as unverified; they need
+re-checking once this is actually fixed.
+
+**Suspected cause, not confirmed**: this project's own cache-clearing fix
+earlier tonight (moving aside `Data/t` and `com.unity.addressables` to
+force a fresh Addressables re-download after the `bundle_version` fix) was
+followed by roughly ten rapid close/redeploy/relaunch cycles while
+iterating on unrelated BD2CompatPatch changes. Checked the cache size
+after all that: `Data/t` had only reached 96MB, well short of the ~195MB
+it reached the first time this same redownload was triggered and left
+alone. Strong circumstantial evidence the redownload was repeatedly
+interrupted mid-transfer and never actually completed, plausibly leaving
+whatever local file backs this SQLite database corrupt, truncated, or in
+a state its wrapper reports as generic "out of memory" rather than a
+specific I/O or corruption error.
+
+**Action taken**: cleared the cache a second time (same reversible
+move-aside pattern, `_stale_cache_backup2`) and this time let the client
+run completely undisturbed -- no restarts, no patch redeploys -- while
+polling cache size externally until it held stable across three
+consecutive 20-second checks (stabilized at ~167MB combined). Not yet
+independently confirmed this specific number represents a *complete*
+download rather than a different stopping point, since the original
+"complete" baseline (195MB + 64MB separately) doesn't cleanly map to this
+run's combined 167MB figure -- these are two different measurement passes
+and may not be comparable. **Next session: check `Player.log` from a
+fresh launch after this pass for whether the "out of memory" errors are
+actually gone before concluding this is fixed.**
+
+**Separately, per explicit instruction this session**: reset this
+project's own SQLite database (`target/debug/db/bd2v3.db`, the private
+server's account-progress store -- a completely different database from
+the client-local one above) for a clean baseline, since the test account
+had accumulated a lot of manual mid-session SQL surgery (PackId flips,
+PackPosition rewrites, etc.) while chasing the pack21 mystery. Old file
+preserved, not deleted, as `bd2v3.db.bak-20260929-015751`. Server
+recreated a fresh file and ran all migrations clean on next start; this
+does not touch, and would not fix, the client-local SQLite issue above --
+they are unrelated databases on unrelated ends of the connection.
