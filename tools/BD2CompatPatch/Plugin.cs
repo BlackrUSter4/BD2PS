@@ -1754,10 +1754,21 @@ namespace BD2CompatPatch
                 // shape as "Collider": a generic-sounding object winning lots of raycasts is not by
                 // itself evidence it's a bug. Keep stripping only names with no legitimate purpose
                 // found anywhere in the decompiled source.
+                // "Black" added (2026-09-29): a generic full-screen transition-fade overlay on a
+                // GameObject literally named "Canvas" (sortOrder=600, high priority) that sorted
+                // first in every raycast on a pack1 warm-switch whose intro cutscene got skipped
+                // (unloaded timeline data, same root cause as everything else tonight) -- neither
+                // of the two existing stuck-overlay watchdogs (SetActiveSceneMoveUI/-Blur) ever
+                // fired for it, meaning it's toggled by some OTHER method entirely, not those two.
+                // Symptom matched exactly: the world/message popups still render fine underneath,
+                // but every click forever after is eaten by this one element. Same generic-blocker
+                // shape as "Blocker"/"Image - InputBlock" below -- stripping it from raycast
+                // results only affects click routing, not whatever visually renders it.
                 int removed = resultAppendList.RemoveAll(r => r.gameObject != null && (
                     r.gameObject.name == "Blocker" ||
                     r.gameObject.name == "Image - InputBlock" ||
-                    r.gameObject.name == "Text - Enter"));
+                    r.gameObject.name == "Text - Enter" ||
+                    r.gameObject.name == "Black"));
                 if (isClick && removed > 0)
                 {
                     Log.LogInfo($"[BD2CompatPatch] Removed {removed} generic click-catcher hit(s) from raycast so the real UI underneath gets the click.");

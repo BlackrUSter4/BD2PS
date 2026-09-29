@@ -1,3 +1,37 @@
 [
-  { "genDistance": 40, "id": 6, "nonGenDistance": 8, "regenSec": 79200, "regenType": 1, "resetType": 2 }
+  {
+    "genDistance": 40,
+    "id": 6,
+    "nonGenDistance": 8,
+    "regenSec": 79200,
+    "regenType": 1,
+    "resetType": 2
+  },
+  {
+    "genDistance": 0,
+    "id": 1,
+    "nonGenDistance": 0,
+    "questId": 46,
+    "regenSec": 79200,
+    "regenType": 0,
+    "resetType": 1
+  },
+  {
+    "genDistance": 0,
+    "id": 2,
+    "nonGenDistance": 0,
+    "questId": 46,
+    "regenSec": 79200,
+    "regenType": 0,
+    "resetType": 1
+  },
+  {
+    "genDistance": 0,
+    "id": 5,
+    "nonGenDistance": 0,
+    "questId": 218,
+    "regenSec": 79200,
+    "regenType": 0,
+    "resetType": 1
+  }
 ]

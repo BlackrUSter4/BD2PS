@@ -1346,12 +1346,18 @@ pub async fn load_all_starter_data(pool: &SqlitePool, uid: i64) -> sqlx::Result<
     // Commit the transaction - all or nothing!
     tx.commit().await?;
 
-    // Grant the real main-story starting quest (QuestTable1 id=1, packId=1, no priorQuestId --
-    // the genuine first quest of pack1's chain). Without this, a fresh account has an entirely
-    // empty UserQuest table and the client's QuestListUI has nothing to show. Reuses the exact
-    // same real logic as gameserver::logic::game::quest::quest_accept::handle (grant real
-    // UserQuest row + real giveQuestItemId items), just invoked once at account creation
-    // instead of from a client request.
+    // CORRECTION (2026-09-29, re-reverted): briefly removed this on the theory that
+    // pre-seeding UserQuest directly (bypassing the client's own QuestAccept call) was why
+    // pack1's intro cutscene got stuck. Live-tested that theory and it was wrong: across a
+    // full session with UserQuest genuinely empty, the client NEVER called QuestAccept on its
+    // own on entering pack1 (confirmed zero QuestAccept requests server-side) -- the
+    // "Camera_Start" cutscene transition that did fire is purely client-local, unrelated to
+    // server quest state. So removing the seed only cost the player their starting quest for
+    // no benefit; the actual stuck-forever bug was the unrelated "Black" raycast click-catcher
+    // (see GraphicRaycastDiagnosticPostfix in BD2CompatPatch/Plugin.cs), now fixed there
+    // directly. Restoring the seed: grant the real main-story starting quest (QuestTable1
+    // id=1, packId=1, no priorQuestId) so a fresh account isn't left with an empty
+    // QuestListUI and zero starting items.
     grant_starting_quest(pool, uid).await?;
 
     tracing::info!("Finished loading all starter data for uid {uid}");
