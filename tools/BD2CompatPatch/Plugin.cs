@@ -1195,6 +1195,52 @@ namespace BD2CompatPatch
                 Log.LogWarning($"[BD2CompatPatch] Failed to patch GateSpotData.MapPositionData getter: {e.Message}");
             }
 
+            // Live retest of the two fixes above: the freeze IS gone (confirmed by the user --
+            // "can move and back out but cant enter house"), but the gate-move coroutine itself
+            // now throws a real NullReferenceException once it actually starts running (it used to
+            // never get this far), caught only by Unity's own generic top-level exception handler
+            // (visible as "HandleException Catched"/"CrashReporter Exception Catched" in
+            // Player.log, with no useful line info). Need real diagnostics on exactly what's null
+            // and where, without more blind guessing -- reuse the EXACT SAME proven technique
+            // already used successfully elsewhere in this file for other stuck/crashing coroutines
+            // (LoggingCoroutineWrapper via WrapCoroutinePostfix): wrap the METHOD that returns this
+            // coroutine's IEnumerator (called via StartCoroutine(...) inside MoveMap(GateSpotData))
+            // so its exceptions get logged with a FULL stack trace and captured-state visibility,
+            // instead of Unity's terse generic handler.
+            //
+            // Found name-agnostically by signature, not by a guessed/decompiled name (tonight's
+            // whole session says guessed names on this assembly cannot be trusted) -- the private
+            // coroutine method takes exactly (GateSpotData, bool) and returns IEnumerator, which is
+            // distinctive enough to find by scanning GameFieldManager's own declared methods.
+            try
+            {
+                MethodInfo moveMapCoroutineMethod = null;
+                foreach (var m in typeof(GameFieldManager).GetMethods(BindingFlags.NonPublic | BindingFlags.Public | BindingFlags.Instance | BindingFlags.DeclaredOnly))
+                {
+                    if (m.ReturnType != typeof(IEnumerator)) continue;
+                    var ps = m.GetParameters();
+                    if (ps.Length == 2 && ps[0].ParameterType == typeof(GateSpotData) && ps[1].ParameterType == typeof(bool))
+                    {
+                        moveMapCoroutineMethod = m;
+                        break;
+                    }
+                }
+                if (moveMapCoroutineMethod != null)
+                {
+                    var wrapPostfix3 = new HarmonyMethod(typeof(Plugin).GetMethod(nameof(WrapCoroutinePostfix), BindingFlags.Static | BindingFlags.NonPublic));
+                    harmony.Patch(moveMapCoroutineMethod, postfix: wrapPostfix3);
+                    Log.LogInfo($"[BD2CompatPatch] Wrapped GameFieldManager's gate-move coroutine ({moveMapCoroutineMethod.Name}) with full exception diagnostics.");
+                }
+                else
+                {
+                    Log.LogWarning("[BD2CompatPatch] Could not find GameFieldManager's gate-move coroutine (GateSpotData,bool)->IEnumerator to wrap.");
+                }
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning($"[BD2CompatPatch] Failed to wrap GameFieldManager's gate-move coroutine: {e.Message}");
+            }
+
             // Confirmed root cause of "Confirm button on the field character-setup popup freezes
             // the whole popup forever": FieldCharSettingPopupUI's confirm-click coroutine does
             // `while (!isNext) yield return null;` waiting on a network Send(...) callback to flip
