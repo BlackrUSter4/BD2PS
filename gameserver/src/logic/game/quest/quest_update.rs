@@ -21,10 +21,21 @@ pub async fn handle(pool: &SqlitePool, uid: i64, req: QuestUpdateRequest) -> Gam
     );
 
     let db = get_exceldb();
-    let quest_def = match db.questtable1.get(quest_id) {
-        Some(q) => q,
-        None => return GameResponse::error(404),
-    };
+    // Real content gap, not a code bug: pack21 (the "Knight of Blood" collab) has quests whose
+    // QuestTable1 row was never captured. Hard-failing here (the original behavior) surfaces as a
+    // generic error popup on the client and blocks story/quest progression through no fault of
+    // the player's -- same shape as every other pack21 data gap handled tonight (GateSpotData's
+    // MapPositionData, etc.): record real progress regardless, and treat the target as
+    // "whatever progress was just reported" when we have no captured condition_count to compare
+    // against, rather than refusing the update outright.
+    let quest_def = db.questtable1.get(quest_id);
+    if quest_def.is_none() {
+        tracing::warn!(
+            "QuestUpdate: quest_id={} not in captured QuestTable1 (pack21-style data gap) -- \
+             recording progress anyway instead of erroring out.",
+            quest_id
+        );
+    }
 
     let mut record = match get_user_quest(pool, uid, quest_id).await {
         Ok(Some(q)) => q,
@@ -45,7 +56,7 @@ pub async fn handle(pool: &SqlitePool, uid: i64, req: QuestUpdateRequest) -> Gam
     };
 
     record.progress = progress;
-    let target = quest_def.condition_count;
+    let target = quest_def.map(|q| q.condition_count).unwrap_or(progress);
     if progress >= target {
         record.status = 2; // Mark as ready-to-clear
     }
