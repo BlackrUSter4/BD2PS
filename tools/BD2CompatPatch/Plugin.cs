@@ -737,6 +737,53 @@ namespace BD2CompatPatch
                 Log.LogWarning($"[BD2CompatPatch] Failed to patch GameCameraManager.PlayDirector: {e.Message}");
             }
 
+            // ROOT CAUSE (2026-09-29) of the "black screen with a Now Loading message that never
+            // goes away" report -- traced this far only after the earlier quest-update and
+            // SetSpecificSceneMoveByMenual fixes still left it reproducing via yet another path.
+            // Read GameCameraManager.SetLoadingUI(bool, string, Action=null)'s real body directly:
+            // it calls `_objEventLoadingRoot.SetActive(active)` SYNCHRONOUSLY as its very first line
+            // (this is the actual black full-screen loading root -- confirmed by name and by every
+            // caller across the whole client funneling through this one real, non-obfuscated method:
+            // battle returns, Hopscotch, the Defense minigame, story loading, all of it), THEN does
+            // `yield return <AddressablesLoadHandle>` to fetch the specific loading-prefab asset (a
+            // spinner/text prefab named e.g. "loading_story_default") before ever reaching its own
+            // final `onComplete?.Invoke()` line. If that Addressables load never completes -- the
+            // exact same fragility class already proven this session for the client-local SQLite
+            // cache and for the dialogue-skip scene-move fix above, just hitting a different asset
+            // this time -- the loading ROOT stays active forever (nothing ever calls SetActive(false)
+            // on it) and the calling coroutine (whatever triggered the loading screen -- confirmed
+            // this time to be reachable from the dialogue-skip path, but not exclusive to it) never
+            // gets past its own `yield return SetLoadingUI(...)` line either. Fix: rather than a
+            // fragile full reimplementation of this method's asset-loading/UI-anchoring logic, patch
+            // it with a POSTFIX that wraps its OWN returned IEnumerator in a timeout-driving wrapper
+            // (same manual MoveNext-driving shape as the pre-existing LoggingCoroutineWrapper
+            // elsewhere in this file) -- the healthy path is untouched (every MoveNext/yield just
+            // passes straight through), but if it hasn't finished within 8s, force the loading root
+            // GameObject inactive directly (reflectively, via the real, Inspector-bound field name
+            // "_objEventLoadingRoot" -- this style of underscore-prefixed serialized field name has
+            // proven reliable all project, unlike compiler-generated backing fields) and abandon the
+            // wait, so both the black screen clears AND the caller's own coroutine unblocks instead of
+            // hanging forever.
+            try
+            {
+                var cameraManagerTypeForLoadingUI = AccessTools.TypeByName("GameCameraManager");
+                var setLoadingUIMethod = cameraManagerTypeForLoadingUI?.GetMethod("SetLoadingUI", BindingFlags.Public | BindingFlags.Instance);
+                if (setLoadingUIMethod != null)
+                {
+                    var setLoadingUIWatchdogPostfix = new HarmonyMethod(typeof(Plugin).GetMethod(nameof(SetLoadingUIWatchdogPostfix), BindingFlags.Static | BindingFlags.NonPublic));
+                    harmony.Patch(setLoadingUIMethod, postfix: setLoadingUIWatchdogPostfix);
+                    Log.LogInfo("[BD2CompatPatch] Patched GameCameraManager.SetLoadingUI with an 8s asset-load timeout -- fixes the stuck black \"Now Loading\" screen.");
+                }
+                else
+                {
+                    Log.LogWarning("[BD2CompatPatch] Could not find GameCameraManager.SetLoadingUI to patch -- the stuck black loading-screen bug will NOT be patched.");
+                }
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning($"[BD2CompatPatch] Failed to patch GameCameraManager.SetLoadingUI: {e.Message}");
+            }
+
             // Confirmed root cause of "can move and back out but can't enter house": the live IL
             // crash-site diagnostic (LogCrashLocationAndCapturedState) pinpointed the gate-move
             // coroutine's NullReferenceException to a `callvirt GameCameraManager.
@@ -1606,6 +1653,99 @@ namespace BD2CompatPatch
                 Log.LogWarning($"[BD2CompatPatch] Failed to patch the quest-update callback watchdog: {e.Message}");
             }
 
+            // ROOT CAUSE of "skipping the dialogue hangs on a loading screen" (user-reported
+            // 2026-09-29, distinct from the gate-entry hang above -- the gate itself completed fine;
+            // this happens AFTER entering, when the player skips the story dialogue). Traced via the
+            // cached decompile: TimelineSignalManager.OnClickSkipTimeline() -- the real skip-button
+            // handler, wired via Unity Inspector event to the (empty-bodied, logic-free)
+            // TimelineSkipUI.OnClickSkipUI() -- can decide the skip target requires moving to a
+            // different scene/map, and if so calls SetSpecificSceneMoveByMenual(sceneName, callback):
+            // it shows a full loading UI FIRST (SetUILoading(true,...)), then only hides it again
+            // (SetUILoading(false,...)) INSIDE that callback. That method's own body (also read
+            // directly) just starts a private coroutine that -- among other steps -- does
+            // `yield return <RawDataManager-equivalent>.Instance.<LoadMapAsync-equivalent>(mapTable)`,
+            // the EXACT SAME async map/scene asset load already implicated elsewhere this session
+            // (the field-load coroutine uses the identical call) and already proven fragile once
+            // this session (the Addressables cache-pruning bug behind the "unable to open database"
+            // saga). If that asset load never completes -- a plausible, even likely, way for a
+            // less-common dialogue-skip branch's target scene to be missing/unfetchable in this
+            // private-server client's cache -- the coroutine never reaches its own final
+            // `callback?.Invoke()` line, so the loading UI shown at the top of this whole chain never
+            // gets hidden again: exactly the reported symptom. Fix: same watchdog shape as the
+            // quest-update fix above, this time on a REAL (non-obfuscated) method name --
+            // TimelineSignalManager.SetSpecificSceneMoveByMenual(string, Action) keeps its real name
+            // in this build (confirmed: it's referenced by that exact literal string throughout the
+            // decompile, unlike most of this class's other members) -- so no signature-scanning is
+            // needed here, unlike the quest-update fix. Wrap the callback, and if it hasn't fired
+            // within 8 real-time seconds (generous: this loads real map/scene assets, slower than a
+            // plain network round trip, but still well short of leaving a player stuck indefinitely),
+            // force-invoke the original callback so the loading UI closes and the dialogue/timeline
+            // resumes -- the specific scene switch this branch wanted may not have visually happened,
+            // but the player is no longer stuck staring at a loading screen forever.
+            try
+            {
+                var timelineSignalManagerType = AccessTools.TypeByName("TimelineSignalManager");
+                var setSpecificSceneMoveMethod = timelineSignalManagerType?.GetMethod("SetSpecificSceneMoveByMenual", BindingFlags.Public | BindingFlags.Instance);
+                if (setSpecificSceneMoveMethod != null)
+                {
+                    var sceneMoveWatchdogPrefix = new HarmonyMethod(typeof(Plugin).GetMethod(nameof(SceneMoveByMenualWatchdogPrefix), BindingFlags.Static | BindingFlags.NonPublic));
+                    harmony.Patch(setSpecificSceneMoveMethod, prefix: sceneMoveWatchdogPrefix);
+                    Log.LogInfo("[BD2CompatPatch] Patched TimelineSignalManager.SetSpecificSceneMoveByMenual with an 8s completion watchdog -- fixes the stuck loading screen after skipping dialogue.");
+                }
+                else
+                {
+                    Log.LogWarning("[BD2CompatPatch] Could not find TimelineSignalManager.SetSpecificSceneMoveByMenual to patch -- the dialogue-skip stuck-loading-screen bug will NOT be patched.");
+                }
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning($"[BD2CompatPatch] Failed to patch TimelineSignalManager.SetSpecificSceneMoveByMenual: {e.Message}");
+            }
+
+            // GENERIC SAFETY NET for "stuck loading screen" (found chasing the dialogue-skip hang
+            // above, but this one isn't specific to that path): retested after the
+            // SetSpecificSceneMoveByMenual fix and the dialogue-skip hang STILL happened -- this time
+            // via a completely different route (confirmed by that fix's own watchdog never firing at
+            // all this run) that never even reached the method just patched above. Rather than keep
+            // chasing individual callers one at a time (this codebase has many: SetUILoading(true,...)
+            // followed by a matching SetUILoading(false,...) buried in some OTHER async callback that
+            // may or may not ever run, the same "show now, hide later in a callback that might not
+            // fire" shape as every other stuck-overlay bug found this session), patch the ONE real,
+            // stable, non-obfuscated choke point ALL of them funnel through: AppManager.SetUILoading
+            // (public instance method, two overloads, both delegate straight to a private
+            // _uiLoadingIndicator field's own SetUILoading). Whenever it's called with its show
+            // argument true, start a watchdog: if AppManager.IsActiveUILoading() is STILL true 10
+            // real-time seconds later (generous -- every legitimate load this session has completed
+            // well under that), force it off by reflectively calling SetUILoading(false, false) on the
+            // same instance. This is a blanket safety net, not a fix for whatever specific async
+            // operation is failing to hide it -- but it means NO future "forgot to hide the loading
+            // screen" bug in this whole client, however it's caused, can strand the player forever,
+            // which is a better bet than continuing to chase individual call sites one hang at a time.
+            try
+            {
+                var appManagerType = AccessTools.TypeByName("AppManager");
+                var setUILoadingOverloads = appManagerType?.GetMethods(BindingFlags.Public | BindingFlags.Instance)
+                    .Where(m => m.Name == "SetUILoading" && m.GetParameters().Length >= 1 && m.GetParameters()[0].ParameterType == typeof(bool))
+                    .ToList();
+                if (setUILoadingOverloads != null && setUILoadingOverloads.Count > 0)
+                {
+                    var uiLoadingWatchdogPostfix = new HarmonyMethod(typeof(Plugin).GetMethod(nameof(SetUILoadingWatchdogPostfix), BindingFlags.Static | BindingFlags.NonPublic));
+                    foreach (var m in setUILoadingOverloads)
+                    {
+                        harmony.Patch(m, postfix: uiLoadingWatchdogPostfix);
+                    }
+                    Log.LogInfo($"[BD2CompatPatch] Patched AppManager.SetUILoading ({setUILoadingOverloads.Count} overload(s)) with a generic 10s stuck-loading-screen watchdog.");
+                }
+                else
+                {
+                    Log.LogWarning("[BD2CompatPatch] Could not find AppManager.SetUILoading to patch -- no generic stuck-loading-screen safety net will be active.");
+                }
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning($"[BD2CompatPatch] Failed to patch AppManager.SetUILoading: {e.Message}");
+            }
+
             // A THIRD, separate crash site on the exact same "gate has no FieldGateTable row"
             // condition: GateSpotData.IsPossibleJoinGate(ref string) -- called from
             // PlayerController.OnTriggerEnter, i.e. every time the player's collider touches a
@@ -2198,8 +2338,14 @@ namespace BD2CompatPatch
         // also flips a local `fired` flag, then hands the WRAPPED delegate back to the real method via
         // `ref __2` so Harmony passes it through in place of the original. Never skips the real method
         // (always returns true) -- this only observes/replaces the callback argument, nothing else.
-        private static bool QuestUpdateCallbackWatchdogPrefix(ref Action<int> __2)
+        private static bool QuestUpdateCallbackWatchdogPrefix(int __0, ref Action<int> __2)
         {
+            // DIAGNOSTIC (2026-09-29): unconditional, so we can tell definitively whether this
+            // method is even being CALLED for a given gate transition, instead of inferring it from
+            // silence (the chief's-house hang never produced this method's own timeout warning, and
+            // it was ambiguous whether that meant the guard never blocked anything, or the method was
+            // never invoked at all because the gate has no associated quest this run).
+            Log.LogInfo($"[BD2CompatPatch] QuestUpdateCallbackWatchdogPrefix: called for questId={__0}, callback null={__2 == null}.");
             try
             {
                 if (__2 == null || _instance == null) return true;
@@ -2234,6 +2380,76 @@ namespace BD2CompatPatch
                 Log.LogWarning("[BD2CompatPatch] Quest-update network callback never fired within 5s -- the client's own guard almost certainly blocked sending the request (e.g. this gate's associated quest isn't the account's current in-progress quest) -- forcing the callback now with errType=0 (success) so the gate-transition coroutine completes instead of hanging forever.");
                 fired[0] = true;
                 original(0);
+            }
+        }
+
+        // See the registration comment above (near "ROOT CAUSE of "skipping the dialogue hangs on a
+        // loading screen"") for the full story. Same wrap-the-callback shape as
+        // QuestUpdateCallbackWatchdogPrefix above, on a method whose real name survived obfuscation
+        // (SetSpecificSceneMoveByMenual(string, Action)) so no signature-scan was needed to find it.
+        private static bool SceneMoveByMenualWatchdogPrefix(ref Action __1)
+        {
+            try
+            {
+                if (__1 == null || _instance == null) return true;
+                Action original = __1;
+                bool[] fired = { false };
+                __1 = () =>
+                {
+                    fired[0] = true;
+                    original();
+                };
+                _instance.StartCoroutine(ForceSceneMoveCallbackAfterDelay(fired, original));
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning($"[BD2CompatPatch] SceneMoveByMenualWatchdogPrefix failed: {e.Message}");
+            }
+            return true;
+        }
+
+        // 8s (vs. 5s for the quest-update watchdog above) because this one waits on a real map/scene
+        // asset load, not a plain network round trip -- genuinely slower on a healthy path, so it
+        // needs more headroom before assuming it's stuck rather than just loading.
+        private static IEnumerator ForceSceneMoveCallbackAfterDelay(bool[] fired, Action original)
+        {
+            yield return new WaitForSeconds(8f);
+            if (!fired[0])
+            {
+                Log.LogWarning("[BD2CompatPatch] TimelineSignalManager.SetSpecificSceneMoveByMenual: scene-move never completed within 8s (likely a missing/unfetchable asset bundle for this dialogue-skip target scene) -- forcing the completion callback now so the loading screen closes and the dialogue/timeline resumes, instead of hanging forever.");
+                fired[0] = true;
+                original();
+            }
+        }
+
+        // See the registration comment above (near "GENERIC SAFETY NET for "stuck loading screen"")
+        // for the full story. `__0` is the show/hide bool (both overloads' first parameter) -- only
+        // arm the watchdog when it's actually being shown.
+        private static void SetUILoadingWatchdogPostfix(object __instance, bool __0)
+        {
+            if (__0 && _instance != null)
+            {
+                _instance.StartCoroutine(ForceUILoadingOffAfterDelay(__instance));
+            }
+        }
+
+        private static IEnumerator ForceUILoadingOffAfterDelay(object appManagerInstance)
+        {
+            yield return new WaitForSeconds(10f);
+            try
+            {
+                var isActiveMethod = AccessTools.Method(appManagerInstance.GetType(), "IsActiveUILoading");
+                bool stillActive = isActiveMethod != null && (bool)isActiveMethod.Invoke(appManagerInstance, null);
+                if (stillActive)
+                {
+                    Log.LogWarning("[BD2CompatPatch] AppManager.SetUILoading: loading UI still active 10s after being shown -- whatever async operation was supposed to hide it again appears to have hung or silently failed -- forcing it off now so the player isn't stuck staring at a loading screen forever.");
+                    var setMethod = AccessTools.Method(appManagerInstance.GetType(), "SetUILoading", new[] { typeof(bool), typeof(bool) });
+                    setMethod?.Invoke(appManagerInstance, new object[] { false, false });
+                }
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning($"[BD2CompatPatch] ForceUILoadingOffAfterDelay failed: {e.Message}");
             }
         }
 
@@ -2373,6 +2589,62 @@ namespace BD2CompatPatch
                 __result = default(MapPositionData);
             }
             return false; // always skip the fragile original getter
+        }
+
+        // See the registration comment above (near "ROOT CAUSE (2026-09-29) of the "black screen
+        // with a Now Loading message"") for the full story. `__0` is the show/hide bool -- only wrap
+        // the "show" call's returned enumerator; a "hide" call has nothing worth timing out.
+        private static void SetLoadingUIWatchdogPostfix(object __instance, bool __0, ref IEnumerator __result)
+        {
+            if (__0 && __result != null)
+            {
+                __result = SetLoadingUITimeoutWrapper(__instance, __result);
+            }
+        }
+
+        // Manually drives `inner` (same shape as the pre-existing LoggingCoroutineWrapper elsewhere
+        // in this file) so a timeout can be enforced without touching the original method's own
+        // logic at all -- every yielded value passes straight through unchanged on the healthy path.
+        private static IEnumerator SetLoadingUITimeoutWrapper(object cameraManagerInstance, IEnumerator inner)
+        {
+            float start = Time.realtimeSinceStartup;
+            while (true)
+            {
+                bool moved;
+                try
+                {
+                    moved = inner.MoveNext();
+                }
+                catch (Exception e)
+                {
+                    Log.LogWarning($"[BD2CompatPatch] GameCameraManager.SetLoadingUI threw ({e.GetType().Name}: {e.Message}) -- treating as failed so the caller isn't stuck behind it.");
+                    yield break;
+                }
+                if (!moved) yield break;
+                if (Time.realtimeSinceStartup - start > 8f)
+                {
+                    Log.LogWarning("[BD2CompatPatch] GameCameraManager.SetLoadingUI: loading-screen prefab asset never finished loading within 8s (likely a missing/unfetchable Addressables bundle) -- forcing the loading root off and abandoning the wait so the black screen doesn't stay up forever and the caller's own coroutine can continue.");
+                    try
+                    {
+                        var rootField = AccessTools.Field(cameraManagerInstance.GetType(), "_objEventLoadingRoot");
+                        var root = rootField?.GetValue(cameraManagerInstance) as GameObject;
+                        if (root != null)
+                        {
+                            root.SetActive(false);
+                        }
+                        else
+                        {
+                            Log.LogWarning("[BD2CompatPatch] SetLoadingUITimeoutWrapper: _objEventLoadingRoot field not found or null -- couldn't force the loading root off directly.");
+                        }
+                    }
+                    catch (Exception e2)
+                    {
+                        Log.LogWarning($"[BD2CompatPatch] Failed to force the loading root off: {e2.Message}");
+                    }
+                    yield break;
+                }
+                yield return inner.Current;
+            }
         }
 
         private static bool SafePlayDirectorPrefix(object __instance, object __0, ref WaitForSeconds __result)
@@ -3315,6 +3587,12 @@ namespace BD2CompatPatch
                 {
                     f.SetValue(obj, true);
                     flipped++;
+                    // DIAGNOSTIC (2026-09-29): logging just a count left the chief's-house hang
+                    // unexplained -- this fires on ANY false bool anywhere in the state machine or
+                    // one level of closures, so a count alone can't tell us whether it actually hit
+                    // the specific flag gating a real wait (e.g. isClearQuest) or something else
+                    // entirely unrelated and harmless. Log exactly which field, on which type.
+                    Log.LogInfo($"[BD2CompatPatch] FlipFalseBoolFields: flipped {obj.GetType().FullName}.{f.Name} false->true.");
                 }
             }
             return flipped;
