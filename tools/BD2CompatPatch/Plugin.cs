@@ -1127,6 +1127,25 @@ namespace BD2CompatPatch
             // never actually read by a live client. Patching the real (non-obfuscated,
             // Google.Protobuf-generated) property getter directly is the only fix that reaches
             // the client regardless of what its local cache says.
+            //
+            // CORRECTION (2026-09-29): pack1 (Knight of Blood, the main starting story) is
+            // confirmed the intended real default, and its field data has since been imported
+            // for real (FieldGateTable/FieldMonsterTable/FieldWaypointTable, from the old
+            // reference server package) -- but pack1's COLD-START entry still crashes on a
+            // separate, unresolved bug: the client's own local encrypted SQLite cache file for
+            // field data (Data/t/<hash>) fails to open ("unable to open database file" / generic
+            // "out of memory"), independent of anything our server sends. This is the same bug
+            // documented as unresolved at the end of the previous session. Tried the pack21
+            // cold-start workaround (enters cleanly, no local-cache crash) but it has its OWN
+            // separate unresolved bug: GameCameraManager.Instance is null for the ENTIRE session
+            // (FindObjectOfType never finds one either, unlike an earlier debugging round where
+            // it was only transiently null during early loading) -- no camera ever renders the
+            // 3D world, producing a black screen even though UI/input keep working fine. Since
+            // the auth-middleware UID bug (real root cause of the earlier "no valid field deck"
+            // failure) and the missing starting-quest gap are now BOTH fixed server-side, and
+            // pack1 now has real field data, reverting to pack1 as the real cold-start default
+            // to retest -- the original local-cache crash may behave differently now, and pack1
+            // is confirmed the actually-intended default anyway.
             try
             {
                 var initPackIdGetter = typeof(Proto.Design.common.GameDefaultTable).GetMethod("get_InitPackId", BindingFlags.Public | BindingFlags.Instance);
@@ -2053,7 +2072,10 @@ namespace BD2CompatPatch
         {
             if (__result == null)
             {
-                __result = UnityEngine.Object.FindObjectOfType<GameCameraManager>();
+                // includeInactive: true -- a disabled-but-present GameCameraManager (e.g. one left
+                // inactive after a failed async load step) would be invisible to the default
+                // FindObjectOfType overload, which skips inactive GameObjects entirely.
+                __result = UnityEngine.Object.FindObjectOfType<GameCameraManager>(true);
                 Log.LogWarning($"[BD2CompatPatch] GameCameraManager.Instance was null -- falling back to FindObjectOfType ({(__result != null ? "found one" : "found NONE")}) instead of letting a caller crash on it.");
             }
         }
@@ -2336,119 +2358,150 @@ namespace BD2CompatPatch
                     // field is at least visible/interactable.
                     if (label.Contains("GameFieldManager.ὬὭὢὤὥὨὤὦὧὧὤ"))
                     {
-                        try
-                        {
-                            var loadingUi = UnityEngine.Object.FindObjectOfType<LoadingUI>();
-                            if (loadingUi != null)
-                            {
-                                Log.LogInfo("[BD2CompatPatch] Force-closing LoadingUI after abandoning the stuck coroutine.");
-                                loadingUi.CloseUIImmediately();
-                            }
-                        }
-                        catch (Exception e)
-                        {
-                            Log.LogWarning($"[BD2CompatPatch] Failed to force-close LoadingUI: {e.Message}");
-                        }
-                        // The abandoned coroutine never reached its own camera/character/HUD
-                        // activation calls (RestoreFieldOfView, SetActiveTrainPlayerCharacters,
-                        // the GameFieldDefaultUI/CurrencyManageUI reveal), which is why the screen
-                        // stays solid black even after the loading UI itself closes. Do the
-                        // essential ones directly -- calling these ordinary public methods
-                        // normally (not patching them) is unaffected by the generic-sharing issue
-                        // that ruled out patching UIManager's own lookup helper.
-                        try
-                        {
-                            var gcm = UnityEngine.Object.FindObjectOfType<GameCameraManager>();
-                            if (gcm != null)
-                            {
-                                gcm.SetActive(true);
-                                gcm.RestoreFieldOfView();
-                            }
-                            // The out-of-field UI cameras (OutGameUICamera etc.) stay enabled with
-                            // SolidColor clear flags and a higher render depth than the field
-                            // camera, so every frame they paint over it -- this is the actual cause
-                            // of the black screen even with the field camera correctly positioned
-                            // and enabled. Normally cleared up by AppManager.SetActiveOutGameUICamera(false)
-                            // deep inside the same abandoned coroutine chain; call it directly.
-                            Singleton<AppManager>.ὪὫὢὨὯὭὦὪὦὨὣ?.SetActiveOutGameUICamera(false);
-                            var gfm = UnityEngine.Object.FindObjectOfType<GameFieldManager>();
-                            gfm?.SetActiveTrainPlayerCharacters(true);
-                            var findUiOpen = typeof(ὩὭὨὪὨὨὮὣὪὣὥ)
-                                .GetMethods(BindingFlags.Public | BindingFlags.Static)
-                                .FirstOrDefault(m => m.Name == "ὤὨὪὥὩὦὫὨὩὫὥ" && m.IsGenericMethodDefinition && m.GetParameters().Length == 0);
-                            foreach (var uiType in new[] { typeof(GameFieldDefaultUI), typeof(CurrencyManageUI) })
-                            {
-                                var ui = findUiOpen?.MakeGenericMethod(uiType).Invoke(null, null) as UIBase;
-                                ui?.SetActive(true);
-                            }
-                            // SetActive(true) alone doesn't run GameFieldDefaultUI's own Init()
-                            // (currency display, quest counts, reputation icon, event banner,
-                            // and -- critically -- whatever wires up its ProgressInfo sub-object).
-                            // Normally called from within the same abandoned coroutine chain.
-                            // Without it, ProgressInfo.OnClick throws a NullReferenceException on
-                            // literally every click/keypress (it's one branch of OnClickUI's long
-                            // `||` dispatch chain), which aborts that whole chain before later
-                            // branches (menu/home navigation) ever get a chance to run -- this is
-                            // the actual cause of "can't go home" and several of the blank icons.
-                            var gameFieldDefaultUi = UnityEngine.Object.FindObjectOfType<GameFieldDefaultUI>();
-                            if (gameFieldDefaultUi != null)
-                            {
-                                // These fields (chat, channel select, avatar customization, etc.)
-                                // are lobby/social features our server doesn't implement -- they're
-                                // genuinely absent for this pack, and the client's own Init()
-                                // doesn't null-check before touching them, so it throws on the
-                                // first one and aborts everything after (currency, quest counts,
-                                // event banner, reputation icon, ProgressInfo wiring). Give each
-                                // null Component-typed field a harmless stub (an inactive GameObject
-                                // with the component attached) so Init() can run past them --
-                                // these features stay non-functional either way since we don't
-                                // back them server-side, but the REST of Init() gets to complete.
-                                try
-                                {
-                                    var stubRoot = new GameObject("BD2CompatPatch_Stubs");
-                                    UnityEngine.Object.DontDestroyOnLoad(stubRoot);
-                                    stubRoot.SetActive(false);
-                                    // GameFieldDefaultUI's own null fields are one layer -- but it
-                                    // also has non-null nested helper objects (ProgressInfo and
-                                    // similar) whose OWN internal fields (quest slot prefabs,
-                                    // ScrollRect, etc.) are separately null and not reachable by
-                                    // only scanning the top-level type. Recurse into fields whose
-                                    // type is declared nested inside GameFieldDefaultUI (keeps this
-                                    // from wandering into unrelated singletons/managers).
-                                    int stubbed = StubNullFieldsRecursive(gameFieldDefaultUi, typeof(GameFieldDefaultUI), stubRoot, new HashSet<object>(), 0);
-                                    Log.LogInfo($"[BD2CompatPatch] Stubbed {stubbed} null GameFieldDefaultUI field(s) (including nested) so Init() can complete.");
-                                }
-                                catch (Exception diagEx)
-                                {
-                                    Log.LogWarning($"[BD2CompatPatch] Field stubbing failed: {diagEx.Message}");
-                                }
-                                try
-                                {
-                                    gameFieldDefaultUi.Init();
-                                    Log.LogInfo("[BD2CompatPatch] GameFieldDefaultUI.Init() succeeded.");
-                                }
-                                catch (Exception initEx)
-                                {
-                                    Log.LogWarning($"[BD2CompatPatch] GameFieldDefaultUI.Init() threw: {initEx}");
-                                }
-                            }
-                            Log.LogInfo("[BD2CompatPatch] Directly activated camera/character/HUD after abandoning the stuck coroutine.");
-                            foreach (var cam in UnityEngine.Camera.allCameras)
-                            {
-                                Log.LogInfo($"[BD2CompatPatch] Camera '{cam.name}': enabled={cam.enabled} gameObjectActive={cam.gameObject.activeInHierarchy} depth={cam.depth} clearFlags={cam.clearFlags} cullingMask={cam.cullingMask} pos={cam.transform.position} targetTexture={cam.targetTexture}");
-                            }
-                            Log.LogInfo($"[BD2CompatPatch] Camera.main={(UnityEngine.Camera.main != null ? UnityEngine.Camera.main.name : "null")}, total allCameras={UnityEngine.Camera.allCamerasCount}");
-                        }
-                        catch (Exception e)
-                        {
-                            Log.LogWarning($"[BD2CompatPatch] Failed to directly activate camera/character/HUD: {e.Message}");
-                        }
+                        TryRecoverBlackScreenAfterFieldLoad(closeLoadingUi: true);
                     }
                     yield break;
                 }
                 yield return inner.Current;
             }
             Log.LogInfo($"[BD2CompatPatch] EXIT {label} after {frame} frames / {Time.realtimeSinceStartup - start:F1}s");
+            // CORRECTION (2026-09-29): the coroutine can also complete NORMALLY (well under the
+            // 20s abandon threshold -- ~4s observed) while the screen is STILL solid black.
+            // Originally gated this on GameCameraManager being null, but a retest showed
+            // GameCameraManager is found fine (non-null) on normal completion while the screen is
+            // STILL black -- meaning the real cause here isn't a missing camera manager at all,
+            // it's the SEPARATE mechanism the recovery body's own comment already documents: the
+            // out-of-field UI cameras (OutGameUICamera etc.) staying enabled with SolidColor clear
+            // flags and a higher render depth, painting over an otherwise-healthy field camera
+            // every frame. That cleanup (AppManager.SetActiveOutGameUICamera(false)) is normally
+            // reached deep inside this same coroutine chain -- since we can't tell from here
+            // whether THIS particular normal completion actually reached it, just always run the
+            // recovery unconditionally on this coroutine's normal exit. Every step inside is
+            // idempotent (SetActive/RestoreFieldOfView/etc. on an already-correct state is a
+            // harmless no-op), so this is safe even when nothing was actually wrong.
+            if (label.Contains("GameFieldManager.ὬὭὢὤὥὨὤὦὧὧὤ"))
+            {
+                Log.LogInfo($"[BD2CompatPatch] {label} completed normally -- running black-screen recovery unconditionally (idempotent) to cover the OutGameUICamera-overlay case.");
+                TryRecoverBlackScreenAfterFieldLoad(closeLoadingUi: false);
+            }
+        }
+
+        // Extracted from the 20s-abandon watchdog above (which no longer duplicates this body) so
+        // the same recovery can also run after a coroutine that completed NORMALLY but still left
+        // the screen black (see the correction note at its normal-exit call site).
+        private static void TryRecoverBlackScreenAfterFieldLoad(bool closeLoadingUi)
+        {
+            if (closeLoadingUi)
+            {
+                try
+                {
+                    var loadingUi = UnityEngine.Object.FindObjectOfType<LoadingUI>();
+                    if (loadingUi != null)
+                    {
+                        Log.LogInfo("[BD2CompatPatch] Force-closing LoadingUI after abandoning the stuck coroutine.");
+                        loadingUi.CloseUIImmediately();
+                    }
+                }
+                catch (Exception e)
+                {
+                    Log.LogWarning($"[BD2CompatPatch] Failed to force-close LoadingUI: {e.Message}");
+                }
+            }
+            // The abandoned/incomplete coroutine never reached its own camera/character/HUD
+            // activation calls (RestoreFieldOfView, SetActiveTrainPlayerCharacters, the
+            // GameFieldDefaultUI/CurrencyManageUI reveal), which is why the screen stays solid
+            // black even after the loading UI itself closes. Do the essential ones directly --
+            // calling these ordinary public methods normally (not patching them) is unaffected by
+            // the generic-sharing issue that ruled out patching UIManager's own lookup helper.
+            // Uses the includeInactive overload: a disabled-but-present GameCameraManager would
+            // otherwise be invisible to the default FindObjectOfType overload used everywhere else.
+            try
+            {
+                var gcm = UnityEngine.Object.FindObjectOfType<GameCameraManager>(true);
+                if (gcm != null)
+                {
+                    gcm.SetActive(true);
+                    gcm.RestoreFieldOfView();
+                }
+                // The out-of-field UI cameras (OutGameUICamera etc.) stay enabled with
+                // SolidColor clear flags and a higher render depth than the field
+                // camera, so every frame they paint over it -- this is the actual cause
+                // of the black screen even with the field camera correctly positioned
+                // and enabled. Normally cleared up by AppManager.SetActiveOutGameUICamera(false)
+                // deep inside the same abandoned coroutine chain; call it directly.
+                Singleton<AppManager>.ὪὫὢὨὯὭὦὪὦὨὣ?.SetActiveOutGameUICamera(false);
+                var gfm = UnityEngine.Object.FindObjectOfType<GameFieldManager>();
+                gfm?.SetActiveTrainPlayerCharacters(true);
+                var findUiOpen = typeof(ὩὭὨὪὨὨὮὣὪὣὥ)
+                    .GetMethods(BindingFlags.Public | BindingFlags.Static)
+                    .FirstOrDefault(m => m.Name == "ὤὨὪὥὩὦὫὨὩὫὥ" && m.IsGenericMethodDefinition && m.GetParameters().Length == 0);
+                foreach (var uiType in new[] { typeof(GameFieldDefaultUI), typeof(CurrencyManageUI) })
+                {
+                    var ui = findUiOpen?.MakeGenericMethod(uiType).Invoke(null, null) as UIBase;
+                    ui?.SetActive(true);
+                }
+                // SetActive(true) alone doesn't run GameFieldDefaultUI's own Init()
+                // (currency display, quest counts, reputation icon, event banner,
+                // and -- critically -- whatever wires up its ProgressInfo sub-object).
+                // Normally called from within the same abandoned coroutine chain.
+                // Without it, ProgressInfo.OnClick throws a NullReferenceException on
+                // literally every click/keypress (it's one branch of OnClickUI's long
+                // `||` dispatch chain), which aborts that whole chain before later
+                // branches (menu/home navigation) ever get a chance to run -- this is
+                // the actual cause of "can't go home" and several of the blank icons.
+                var gameFieldDefaultUi = UnityEngine.Object.FindObjectOfType<GameFieldDefaultUI>();
+                if (gameFieldDefaultUi != null)
+                {
+                    // These fields (chat, channel select, avatar customization, etc.)
+                    // are lobby/social features our server doesn't implement -- they're
+                    // genuinely absent for this pack, and the client's own Init()
+                    // doesn't null-check before touching them, so it throws on the
+                    // first one and aborts everything after (currency, quest counts,
+                    // event banner, reputation icon, ProgressInfo wiring). Give each
+                    // null Component-typed field a harmless stub (an inactive GameObject
+                    // with the component attached) so Init() can run past them --
+                    // these features stay non-functional either way since we don't
+                    // back them server-side, but the REST of Init() gets to complete.
+                    try
+                    {
+                        var stubRoot = new GameObject("BD2CompatPatch_Stubs");
+                        UnityEngine.Object.DontDestroyOnLoad(stubRoot);
+                        stubRoot.SetActive(false);
+                        // GameFieldDefaultUI's own null fields are one layer -- but it
+                        // also has non-null nested helper objects (ProgressInfo and
+                        // similar) whose OWN internal fields (quest slot prefabs,
+                        // ScrollRect, etc.) are separately null and not reachable by
+                        // only scanning the top-level type. Recurse into fields whose
+                        // type is declared nested inside GameFieldDefaultUI (keeps this
+                        // from wandering into unrelated singletons/managers).
+                        int stubbed = StubNullFieldsRecursive(gameFieldDefaultUi, typeof(GameFieldDefaultUI), stubRoot, new HashSet<object>(), 0);
+                        Log.LogInfo($"[BD2CompatPatch] Stubbed {stubbed} null GameFieldDefaultUI field(s) (including nested) so Init() can complete.");
+                    }
+                    catch (Exception diagEx)
+                    {
+                        Log.LogWarning($"[BD2CompatPatch] Field stubbing failed: {diagEx.Message}");
+                    }
+                    try
+                    {
+                        gameFieldDefaultUi.Init();
+                        Log.LogInfo("[BD2CompatPatch] GameFieldDefaultUI.Init() succeeded.");
+                    }
+                    catch (Exception initEx)
+                    {
+                        Log.LogWarning($"[BD2CompatPatch] GameFieldDefaultUI.Init() threw: {initEx}");
+                    }
+                }
+                Log.LogInfo("[BD2CompatPatch] Directly activated camera/character/HUD (black-screen recovery).");
+                foreach (var cam in UnityEngine.Camera.allCameras)
+                {
+                    Log.LogInfo($"[BD2CompatPatch] Camera '{cam.name}': enabled={cam.enabled} gameObjectActive={cam.gameObject.activeInHierarchy} depth={cam.depth} clearFlags={cam.clearFlags} cullingMask={cam.cullingMask} pos={cam.transform.position} targetTexture={cam.targetTexture}");
+                }
+                Log.LogInfo($"[BD2CompatPatch] Camera.main={(UnityEngine.Camera.main != null ? UnityEngine.Camera.main.name : "null")}, total allCameras={UnityEngine.Camera.allCamerasCount}");
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning($"[BD2CompatPatch] Failed to directly activate camera/character/HUD: {e.Message}");
+            }
         }
 
         // Ground-truth crash-site diagnostics, done entirely with the LIVE Mono runtime's own
@@ -2755,7 +2808,7 @@ namespace BD2CompatPatch
         // enter pack21") for the full story.
         private static void ForceInitPackId1Postfix(ref int __result)
         {
-            __result = 1;
+            __result = 21; // TEMP: testing the new black-screen recovery fix on pack21 before deciding
         }
 
         // __args works regardless of the real (obfuscated) parameter names — index 1 is the

@@ -1346,6 +1346,51 @@ pub async fn load_all_starter_data(pool: &SqlitePool, uid: i64) -> sqlx::Result<
     // Commit the transaction - all or nothing!
     tx.commit().await?;
 
+    // Grant the real main-story starting quest (QuestTable1 id=1, packId=1, no priorQuestId --
+    // the genuine first quest of pack1's chain). Without this, a fresh account has an entirely
+    // empty UserQuest table and the client's QuestListUI has nothing to show. Reuses the exact
+    // same real logic as gameserver::logic::game::quest::quest_accept::handle (grant real
+    // UserQuest row + real giveQuestItemId items), just invoked once at account creation
+    // instead of from a client request.
+    grant_starting_quest(pool, uid).await?;
+
     tracing::info!("Finished loading all starter data for uid {uid}");
+    Ok(())
+}
+
+async fn grant_starting_quest(pool: &SqlitePool, uid: i64) -> sqlx::Result<()> {
+    use crate::db::{item::item_info, user::user_quest as quest_db};
+    use crate::models::game::user::user_quest::UserQuest;
+
+    const STARTING_QUEST_ID: i32 = 1;
+    const STARTING_PACK_ID: i32 = 1;
+    const DEFAULT_ITEM_TYPE: i32 = 1;
+
+    let game_data = data::exceldb::get();
+    let Some(quest_def) = game_data.questtable1.get(STARTING_QUEST_ID) else {
+        tracing::warn!("grant_starting_quest: QuestTable1 id={STARTING_QUEST_ID} not found, skipping");
+        return Ok(());
+    };
+
+    if quest_db::get_user_quest(pool, uid, STARTING_QUEST_ID).await?.is_some() {
+        return Ok(());
+    }
+
+    let record = UserQuest {
+        index: 0,
+        uid,
+        quest_id: STARTING_QUEST_ID as i64,
+        pack_id: Some(STARTING_PACK_ID),
+        status: 1,
+        progress: 0,
+        reward_claimed: 0,
+        last_update: Some(chrono::Utc::now().timestamp_millis()),
+    };
+    quest_db::add_user_quest(pool, &record).await?;
+
+    for id in quest_def.give_quest_item_id.iter().flatten() {
+        item_info::grant(pool, uid, *id, DEFAULT_ITEM_TYPE, 1).await?;
+    }
+
     Ok(())
 }

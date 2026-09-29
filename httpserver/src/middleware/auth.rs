@@ -6,7 +6,7 @@ use actix_web::{
     middleware::Next,
 };
 use sqlx::SqlitePool;
-use tracing::{debug, info, warn};
+use tracing::{debug, error, info, warn};
 
 pub async fn auth_middleware(
     req: ServiceRequest,
@@ -84,32 +84,21 @@ pub async fn auth_middleware(
         ErrorUnauthorized("Invalid authentication")
     })?;
 
-    // Get database pool and convert to UID
-   // 1. Keep the pool retrieval intact so Actix doesn't crash
-    let _pool = req
+    // Get database pool and convert owner_index -> real account UID
+    let pool = req
         .app_data::<actix_web::web::Data<SqlitePool>>()
         .ok_or_else(|| ErrorUnauthorized("Internal error"))?;
 
-    // 2. COMMENT OUT THE REAL DATABASE LOOKUP
-    /*
     let uid =
         gameserver::logic::game::account::get_uid_for_owner_index(pool.get_ref(), owner_index)
             .await
             .map_err(|e| {
-                error!("Failed to get UID: {}", e);
+                error!("Failed to get UID for owner_index {}: {}", owner_index, e);
                 ErrorUnauthorized("Invalid authentication")
             })?;
-    */
 
-    // 3. HARDCODE A FAKE LOGICAL UID (e.g., User ID #1)
-    let uid: i64 = 1; 
+    debug!("Resolved owner_index {} to UID {} for {}", owner_index, uid, path);
 
-    info!(
-        "BYPASSED AUTH: Hardcoded owner_index {} to (UID: {}) for {}",
-        owner_index, uid, path
-    );
-    
-    // 4. Attach the fake UID to the request extensions context exactly as expected
     req.extensions_mut().insert(uid);
 
     next.call(req).await

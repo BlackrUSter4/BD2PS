@@ -1,12 +1,1802 @@
 [
-  { "animatorType": 1, "fieldMonsterAIId": 9100, "hp": 1, "id": 4001, "idleEffect": "Eff_FieldMonster901", "isAutoInteraction": 1, "monsterNameTextId": 28084, "monsterSize": 1, "regenId": 6, "resourceName": "FieldMonster901", "resourceType": 1, "rewardCount": 1, "rewardId": 112004, "rewardType": 9, "type": 2 },
-  { "animatorType": 1, "fieldMonsterAIId": 9100, "hp": 1, "id": 4002, "idleEffect": "Eff_FieldMonster901", "isAutoInteraction": 1, "monsterNameTextId": 28084, "monsterSize": 1, "regenId": 6, "resourceName": "FieldMonster901", "resourceType": 1, "rewardCount": 1, "rewardId": 112004, "rewardType": 9, "type": 2 },
-  { "animatorType": 1, "fieldMonsterAIId": 9100, "hp": 1, "id": 4003, "idleEffect": "Eff_FieldMonster901", "isAutoInteraction": 1, "monsterNameTextId": 28084, "monsterSize": 1, "regenId": 6, "resourceName": "FieldMonster901", "resourceType": 1, "rewardCount": 1, "rewardId": 112004, "rewardType": 9, "type": 2 },
-  { "animatorType": 1, "fieldMonsterAIId": 9100, "hp": 1, "id": 4004, "idleEffect": "Eff_FieldMonster901", "isAutoInteraction": 1, "monsterNameTextId": 28084, "monsterSize": 1, "regenId": 6, "resourceName": "FieldMonster901", "resourceType": 1, "rewardCount": 1, "rewardId": 112004, "rewardType": 9, "type": 2 },
-  { "animatorType": 1, "fieldMonsterAIId": 9100, "hp": 1, "id": 4005, "idleEffect": "Eff_FieldMonster901", "isAutoInteraction": 1, "monsterNameTextId": 28084, "monsterSize": 1, "regenId": 6, "resourceName": "FieldMonster901", "resourceType": 1, "rewardCount": 1, "rewardId": 112004, "rewardType": 9, "type": 2 },
-  { "animatorType": 1, "battleDeckId": [ 201 ], "bundleType": 1, "fieldMonsterAIId": 9502, "id": 201, "isAutoInteraction": 1, "monsterNameTextId": 28075, "monsterSize": 1, "questRange": [ 0 ], "resourceName": "Char805901", "resourceType": 1 },
-  { "animatorType": 1, "battleDeckId": [ 202 ], "bundleType": 1, "fieldMonsterAIId": 9502, "id": 202, "isAutoInteraction": 1, "monsterNameTextId": 28075, "monsterSize": 1, "questRange": [ 0 ], "resourceName": "Char805901", "resourceType": 1 },
-  { "animatorType": 1, "battleDeckId": [ 203 ], "bundleType": 1, "fieldMonsterAIId": 9502, "id": 203, "isAutoInteraction": 1, "monsterNameTextId": 28075, "monsterSize": 1, "questRange": [ 0 ], "resourceName": "Char805901", "resourceType": 1 },
-  { "animatorType": 1, "battleDeckId": [ 204 ], "bundleType": 1, "fieldMonsterAIId": 9502, "id": 204, "isAutoInteraction": 1, "monsterNameTextId": 28075, "monsterSize": 1, "questRange": [ 0 ], "resourceName": "Char805901", "resourceType": 1 },
-  { "animatorType": 1, "battleDeckId": [ 205 ], "bundleType": 1, "fieldMonsterAIId": 9502, "id": 205, "isAutoInteraction": 1, "monsterNameTextId": 28075, "monsterSize": 1, "questRange": [ 0 ], "resourceName": "Char805901", "resourceType": 1 }
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      1
+    ],
+    "bundleType": 1,
+    "directionType": 7,
+    "fieldMonsterAIId": 1,
+    "hp": 0,
+    "id": 1,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28075,
+    "monsterSize": 0,
+    "questRange": [
+      9
+    ],
+    "regenId": 0,
+    "resourceName": "Char800301",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 0,
+    "useBattleSkip": 0
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      2
+    ],
+    "bundleType": 1,
+    "directionType": 7,
+    "fieldMonsterAIId": 1,
+    "hp": 0,
+    "id": 2,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28075,
+    "monsterSize": 0,
+    "questRange": [
+      11
+    ],
+    "regenId": 0,
+    "resourceName": "Char800301",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 0,
+    "useBattleSkip": 0
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      3
+    ],
+    "bundleType": 1,
+    "directionType": 7,
+    "fieldMonsterAIId": 1,
+    "hp": 0,
+    "id": 3,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28075,
+    "monsterSize": 0,
+    "questRange": [
+      13
+    ],
+    "regenId": 0,
+    "resourceName": "Char800301",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 0,
+    "useBattleSkip": 0
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      5
+    ],
+    "bundleType": 1,
+    "directionType": 6,
+    "fieldMonsterAIId": 1,
+    "hp": 0,
+    "id": 5,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28075,
+    "monsterSize": 0,
+    "questRange": [
+      16
+    ],
+    "regenId": 0,
+    "resourceName": "Char800301",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 0,
+    "useBattleSkip": 0
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      7
+    ],
+    "bundleType": 1,
+    "directionType": 5,
+    "fieldMonsterAIId": 2,
+    "hp": 0,
+    "id": 7,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28075,
+    "monsterSize": 0,
+    "questRange": [
+      18
+    ],
+    "regenId": 0,
+    "resourceName": "Char800601",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 1,
+    "useBattleSkip": 0
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      8
+    ],
+    "bundleType": 1,
+    "directionType": 5,
+    "fieldMonsterAIId": 1,
+    "hp": 0,
+    "id": 8,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28075,
+    "monsterSize": 0,
+    "questRange": [
+      24
+    ],
+    "regenId": 0,
+    "resourceName": "Char800401",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 0,
+    "useBattleSkip": 0
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      9
+    ],
+    "bundleType": 1,
+    "directionType": 5,
+    "fieldMonsterAIId": 1,
+    "hp": 0,
+    "id": 9,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28075,
+    "monsterSize": 0,
+    "questRange": [
+      26
+    ],
+    "regenId": 0,
+    "resourceName": "Char800401",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 0,
+    "useBattleSkip": 0
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      10
+    ],
+    "bundleType": 1,
+    "directionType": 6,
+    "fieldMonsterAIId": 1,
+    "hp": 0,
+    "id": 10,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28075,
+    "monsterSize": 0,
+    "questRange": [
+      28
+    ],
+    "regenId": 0,
+    "resourceName": "Char800501",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 0,
+    "useBattleSkip": 0
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      12
+    ],
+    "bundleType": 1,
+    "directionType": 6,
+    "fieldMonsterAIId": 1,
+    "hp": 0,
+    "id": 12,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28075,
+    "monsterSize": 0,
+    "questRange": [
+      31
+    ],
+    "regenId": 0,
+    "resourceName": "Char800501",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 0,
+    "useBattleSkip": 0
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      15
+    ],
+    "bundleType": 1,
+    "directionType": 5,
+    "fieldMonsterAIId": 2,
+    "hp": 0,
+    "id": 15,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28075,
+    "monsterSize": 0,
+    "questRange": [
+      33
+    ],
+    "regenId": 0,
+    "resourceName": "Char801001",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 1,
+    "useBattleSkip": 0
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      16
+    ],
+    "bundleType": 1,
+    "directionType": 7,
+    "fieldMonsterAIId": 2,
+    "hp": 0,
+    "id": 16,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28075,
+    "monsterSize": 0,
+    "questRange": [
+      44
+    ],
+    "regenId": 0,
+    "resourceName": "Char800701",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 1,
+    "useBattleSkip": 0
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      101
+    ],
+    "bundleType": 1,
+    "directionType": 0,
+    "fieldMonsterAIId": 101,
+    "hp": 0,
+    "id": 101,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28075,
+    "monsterSize": 1,
+    "questRange": [
+      0
+    ],
+    "regenId": 1,
+    "resourceName": "Char805901",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 0,
+    "useBattleSkip": 1
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      102
+    ],
+    "bundleType": 1,
+    "directionType": 0,
+    "fieldMonsterAIId": 101,
+    "hp": 0,
+    "id": 102,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28075,
+    "monsterSize": 1,
+    "questRange": [
+      0
+    ],
+    "regenId": 1,
+    "resourceName": "Char805901",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 0,
+    "useBattleSkip": 1
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      103
+    ],
+    "bundleType": 1,
+    "directionType": 0,
+    "fieldMonsterAIId": 101,
+    "hp": 0,
+    "id": 103,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28075,
+    "monsterSize": 1,
+    "questRange": [
+      0
+    ],
+    "regenId": 1,
+    "resourceName": "Char805901",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 0,
+    "useBattleSkip": 1
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      104
+    ],
+    "bundleType": 1,
+    "directionType": 0,
+    "fieldMonsterAIId": 101,
+    "hp": 0,
+    "id": 104,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28075,
+    "monsterSize": 1,
+    "questRange": [
+      0
+    ],
+    "regenId": 1,
+    "resourceName": "Char805901",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 0,
+    "useBattleSkip": 1
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      105
+    ],
+    "bundleType": 1,
+    "directionType": 0,
+    "fieldMonsterAIId": 101,
+    "hp": 0,
+    "id": 105,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28075,
+    "monsterSize": 1,
+    "questRange": [
+      0
+    ],
+    "regenId": 1,
+    "resourceName": "Char805901",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 0,
+    "useBattleSkip": 1
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      111
+    ],
+    "bundleType": 1,
+    "directionType": 0,
+    "fieldMonsterAIId": 101,
+    "hp": 0,
+    "id": 111,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28075,
+    "monsterSize": 1,
+    "questRange": [
+      0
+    ],
+    "regenId": 2,
+    "resourceName": "Char805901",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 0,
+    "useBattleSkip": 1
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      112
+    ],
+    "bundleType": 1,
+    "directionType": 0,
+    "fieldMonsterAIId": 101,
+    "hp": 0,
+    "id": 112,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28075,
+    "monsterSize": 1,
+    "questRange": [
+      0
+    ],
+    "regenId": 2,
+    "resourceName": "Char805901",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 0,
+    "useBattleSkip": 1
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      113
+    ],
+    "bundleType": 1,
+    "directionType": 0,
+    "fieldMonsterAIId": 101,
+    "hp": 0,
+    "id": 113,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28075,
+    "monsterSize": 1,
+    "questRange": [
+      0
+    ],
+    "regenId": 2,
+    "resourceName": "Char805901",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 0,
+    "useBattleSkip": 1
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      114
+    ],
+    "bundleType": 1,
+    "directionType": 0,
+    "fieldMonsterAIId": 101,
+    "hp": 0,
+    "id": 114,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28075,
+    "monsterSize": 1,
+    "questRange": [
+      0
+    ],
+    "regenId": 2,
+    "resourceName": "Char805901",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 0,
+    "useBattleSkip": 1
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      115
+    ],
+    "bundleType": 1,
+    "directionType": 0,
+    "fieldMonsterAIId": 101,
+    "hp": 0,
+    "id": 115,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28075,
+    "monsterSize": 1,
+    "questRange": [
+      0
+    ],
+    "regenId": 2,
+    "resourceName": "Char805901",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 0,
+    "useBattleSkip": 1
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      201
+    ],
+    "bundleType": 1,
+    "directionType": 0,
+    "fieldMonsterAIId": 9502,
+    "hp": 0,
+    "id": 201,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28075,
+    "monsterSize": 1,
+    "questRange": [
+      0
+    ],
+    "regenId": 0,
+    "resourceName": "Char805901",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 0,
+    "useBattleSkip": 0
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      202
+    ],
+    "bundleType": 1,
+    "directionType": 0,
+    "fieldMonsterAIId": 9502,
+    "hp": 0,
+    "id": 202,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28075,
+    "monsterSize": 1,
+    "questRange": [
+      0
+    ],
+    "regenId": 0,
+    "resourceName": "Char805901",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 0,
+    "useBattleSkip": 0
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      203
+    ],
+    "bundleType": 1,
+    "directionType": 0,
+    "fieldMonsterAIId": 9502,
+    "hp": 0,
+    "id": 203,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28075,
+    "monsterSize": 1,
+    "questRange": [
+      0
+    ],
+    "regenId": 0,
+    "resourceName": "Char805901",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 0,
+    "useBattleSkip": 0
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      204
+    ],
+    "bundleType": 1,
+    "directionType": 0,
+    "fieldMonsterAIId": 9502,
+    "hp": 0,
+    "id": 204,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28075,
+    "monsterSize": 1,
+    "questRange": [
+      0
+    ],
+    "regenId": 0,
+    "resourceName": "Char805901",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 0,
+    "useBattleSkip": 0
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      205
+    ],
+    "bundleType": 1,
+    "directionType": 0,
+    "fieldMonsterAIId": 9502,
+    "hp": 0,
+    "id": 205,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28075,
+    "monsterSize": 1,
+    "questRange": [
+      0
+    ],
+    "regenId": 0,
+    "resourceName": "Char805901",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 0,
+    "useBattleSkip": 0
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      206
+    ],
+    "bundleType": 1,
+    "directionType": 0,
+    "fieldMonsterAIId": 9503,
+    "hp": 0,
+    "id": 206,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28076,
+    "monsterSize": 0,
+    "questRange": [
+      0
+    ],
+    "regenId": 0,
+    "resourceName": "Char800601",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 1,
+    "useBattleSkip": 0
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      101
+    ],
+    "bundleType": 1,
+    "directionType": 0,
+    "fieldMonsterAIId": 101,
+    "hp": 0,
+    "id": 301,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28078,
+    "monsterSize": 1,
+    "questRange": [
+      0
+    ],
+    "regenId": 5,
+    "resourceName": "Char800401",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 0,
+    "useBattleSkip": 1
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      101
+    ],
+    "bundleType": 1,
+    "directionType": 0,
+    "fieldMonsterAIId": 101,
+    "hp": 0,
+    "id": 302,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28078,
+    "monsterSize": 1,
+    "questRange": [
+      0
+    ],
+    "regenId": 5,
+    "resourceName": "Char800401",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 0,
+    "useBattleSkip": 1
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      101
+    ],
+    "bundleType": 1,
+    "directionType": 0,
+    "fieldMonsterAIId": 101,
+    "hp": 0,
+    "id": 303,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28078,
+    "monsterSize": 1,
+    "questRange": [
+      0
+    ],
+    "regenId": 5,
+    "resourceName": "Char800401",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 0,
+    "useBattleSkip": 1
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      101
+    ],
+    "bundleType": 1,
+    "directionType": 0,
+    "fieldMonsterAIId": 101,
+    "hp": 0,
+    "id": 304,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28078,
+    "monsterSize": 1,
+    "questRange": [
+      0
+    ],
+    "regenId": 5,
+    "resourceName": "Char800401",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 0,
+    "useBattleSkip": 1
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      101
+    ],
+    "bundleType": 1,
+    "directionType": 0,
+    "fieldMonsterAIId": 101,
+    "hp": 0,
+    "id": 305,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28078,
+    "monsterSize": 1,
+    "questRange": [
+      0
+    ],
+    "regenId": 5,
+    "resourceName": "Char800401",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 0,
+    "useBattleSkip": 1
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      101
+    ],
+    "bundleType": 1,
+    "directionType": 0,
+    "fieldMonsterAIId": 101,
+    "hp": 0,
+    "id": 306,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28079,
+    "monsterSize": 1,
+    "questRange": [
+      0
+    ],
+    "regenId": 5,
+    "resourceName": "Char800501",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 1,
+    "useBattleSkip": 1
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      101
+    ],
+    "bundleType": 1,
+    "directionType": 0,
+    "fieldMonsterAIId": 101,
+    "hp": 0,
+    "id": 307,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28078,
+    "monsterSize": 1,
+    "questRange": [
+      0
+    ],
+    "regenId": 5,
+    "resourceName": "Char800401",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 0,
+    "useBattleSkip": 1
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      101
+    ],
+    "bundleType": 1,
+    "directionType": 0,
+    "fieldMonsterAIId": 101,
+    "hp": 0,
+    "id": 308,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28078,
+    "monsterSize": 1,
+    "questRange": [
+      0
+    ],
+    "regenId": 5,
+    "resourceName": "Char800401",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 0,
+    "useBattleSkip": 1
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      101
+    ],
+    "bundleType": 1,
+    "directionType": 0,
+    "fieldMonsterAIId": 101,
+    "hp": 0,
+    "id": 309,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28080,
+    "monsterSize": 1,
+    "questRange": [
+      0
+    ],
+    "regenId": 5,
+    "resourceName": "Char801201",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 1,
+    "useBattleSkip": 1
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      1201
+    ],
+    "bundleType": 1,
+    "directionType": 0,
+    "fieldMonsterAIId": 9502,
+    "hp": 0,
+    "id": 1201,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28075,
+    "monsterSize": 1,
+    "questRange": [
+      0
+    ],
+    "regenId": 0,
+    "resourceName": "Char805901",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 0,
+    "useBattleSkip": 0
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      1202
+    ],
+    "bundleType": 1,
+    "directionType": 0,
+    "fieldMonsterAIId": 9502,
+    "hp": 0,
+    "id": 1202,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28075,
+    "monsterSize": 1,
+    "questRange": [
+      0
+    ],
+    "regenId": 0,
+    "resourceName": "Char805901",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 0,
+    "useBattleSkip": 0
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      1203
+    ],
+    "bundleType": 1,
+    "directionType": 0,
+    "fieldMonsterAIId": 9502,
+    "hp": 0,
+    "id": 1203,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28075,
+    "monsterSize": 1,
+    "questRange": [
+      0
+    ],
+    "regenId": 0,
+    "resourceName": "Char805901",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 0,
+    "useBattleSkip": 0
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      1204
+    ],
+    "bundleType": 1,
+    "directionType": 0,
+    "fieldMonsterAIId": 9502,
+    "hp": 0,
+    "id": 1204,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28075,
+    "monsterSize": 1,
+    "questRange": [
+      0
+    ],
+    "regenId": 0,
+    "resourceName": "Char805901",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 0,
+    "useBattleSkip": 0
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      1205
+    ],
+    "bundleType": 1,
+    "directionType": 0,
+    "fieldMonsterAIId": 9502,
+    "hp": 0,
+    "id": 1205,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28075,
+    "monsterSize": 1,
+    "questRange": [
+      0
+    ],
+    "regenId": 0,
+    "resourceName": "Char805901",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 0,
+    "useBattleSkip": 0
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      1206
+    ],
+    "bundleType": 1,
+    "directionType": 0,
+    "fieldMonsterAIId": 9503,
+    "hp": 0,
+    "id": 1206,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28076,
+    "monsterSize": 0,
+    "questRange": [
+      0
+    ],
+    "regenId": 0,
+    "resourceName": "Char800601",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 1,
+    "useBattleSkip": 0
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      301
+    ],
+    "bundleType": 1,
+    "directionType": 0,
+    "fieldMonsterAIId": 101,
+    "hp": 0,
+    "id": 2001,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28081,
+    "monsterSize": 0,
+    "questRange": [
+      103
+    ],
+    "regenId": 0,
+    "resourceName": "Char805901",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 0,
+    "useBattleSkip": 0
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      302
+    ],
+    "bundleType": 1,
+    "directionType": 0,
+    "fieldMonsterAIId": 101,
+    "hp": 0,
+    "id": 2002,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28082,
+    "monsterSize": 0,
+    "questRange": [
+      106
+    ],
+    "regenId": 0,
+    "resourceName": "Char805901",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 0,
+    "useBattleSkip": 0
+  },
+  {
+    "animatorType": 0,
+    "battleDeckId": [
+      303
+    ],
+    "bundleType": 0,
+    "directionType": 0,
+    "fieldMonsterAIId": 201,
+    "hp": 0,
+    "id": 2003,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28083,
+    "monsterSize": 0,
+    "questRange": [
+      108
+    ],
+    "regenId": 0,
+    "resourceName": "",
+    "resourceType": 0,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 1,
+    "useBattleSkip": 0
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      101
+    ],
+    "bundleType": 1,
+    "directionType": 0,
+    "fieldMonsterAIId": 101,
+    "hp": 0,
+    "id": 2004,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28083,
+    "monsterSize": 0,
+    "questRange": [
+      211
+    ],
+    "regenId": 0,
+    "resourceName": "Char800101",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 0,
+    "useBattleSkip": 0
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      101
+    ],
+    "bundleType": 1,
+    "directionType": 0,
+    "fieldMonsterAIId": 101,
+    "hp": 0,
+    "id": 2005,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28083,
+    "monsterSize": 0,
+    "questRange": [
+      211
+    ],
+    "regenId": 0,
+    "resourceName": "Char800101",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 0,
+    "useBattleSkip": 0
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      101
+    ],
+    "bundleType": 1,
+    "directionType": 0,
+    "fieldMonsterAIId": 101,
+    "hp": 0,
+    "id": 2101,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28078,
+    "monsterSize": 0,
+    "questRange": [
+      211
+    ],
+    "regenId": 0,
+    "resourceName": "Char800401",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 0,
+    "useBattleSkip": 0
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      101
+    ],
+    "bundleType": 1,
+    "directionType": 0,
+    "fieldMonsterAIId": 101,
+    "hp": 0,
+    "id": 2102,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28078,
+    "monsterSize": 0,
+    "questRange": [
+      212
+    ],
+    "regenId": 0,
+    "resourceName": "Char800401",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 0,
+    "useBattleSkip": 0
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      101
+    ],
+    "bundleType": 1,
+    "directionType": 0,
+    "fieldMonsterAIId": 101,
+    "hp": 0,
+    "id": 2103,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28079,
+    "monsterSize": 0,
+    "questRange": [
+      213
+    ],
+    "regenId": 0,
+    "resourceName": "Char800501",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 0,
+    "useBattleSkip": 0
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      101
+    ],
+    "bundleType": 1,
+    "directionType": 0,
+    "fieldMonsterAIId": 101,
+    "hp": 0,
+    "id": 2104,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28079,
+    "monsterSize": 0,
+    "questRange": [
+      214
+    ],
+    "regenId": 0,
+    "resourceName": "Char800501",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 0,
+    "useBattleSkip": 0
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      101
+    ],
+    "bundleType": 1,
+    "directionType": 0,
+    "fieldMonsterAIId": 201,
+    "hp": 0,
+    "id": 2105,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28080,
+    "monsterSize": 0,
+    "questRange": [
+      216
+    ],
+    "regenId": 0,
+    "resourceName": "Char801201",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 0,
+    "useBattleSkip": 0
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      2201
+    ],
+    "bundleType": 1,
+    "directionType": 0,
+    "fieldMonsterAIId": 9502,
+    "hp": 0,
+    "id": 2201,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28075,
+    "monsterSize": 1,
+    "questRange": [
+      0
+    ],
+    "regenId": 0,
+    "resourceName": "Char805901",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 0,
+    "useBattleSkip": 0
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      2202
+    ],
+    "bundleType": 1,
+    "directionType": 0,
+    "fieldMonsterAIId": 9502,
+    "hp": 0,
+    "id": 2202,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28075,
+    "monsterSize": 1,
+    "questRange": [
+      0
+    ],
+    "regenId": 0,
+    "resourceName": "Char805901",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 0,
+    "useBattleSkip": 0
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      2203
+    ],
+    "bundleType": 1,
+    "directionType": 0,
+    "fieldMonsterAIId": 9502,
+    "hp": 0,
+    "id": 2203,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28075,
+    "monsterSize": 1,
+    "questRange": [
+      0
+    ],
+    "regenId": 0,
+    "resourceName": "Char805901",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 0,
+    "useBattleSkip": 0
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      2204
+    ],
+    "bundleType": 1,
+    "directionType": 0,
+    "fieldMonsterAIId": 9502,
+    "hp": 0,
+    "id": 2204,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28075,
+    "monsterSize": 1,
+    "questRange": [
+      0
+    ],
+    "regenId": 0,
+    "resourceName": "Char805901",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 0,
+    "useBattleSkip": 0
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      2205
+    ],
+    "bundleType": 1,
+    "directionType": 0,
+    "fieldMonsterAIId": 9502,
+    "hp": 0,
+    "id": 2205,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28075,
+    "monsterSize": 1,
+    "questRange": [
+      0
+    ],
+    "regenId": 0,
+    "resourceName": "Char805901",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 0,
+    "useBattleSkip": 0
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      2206
+    ],
+    "bundleType": 1,
+    "directionType": 0,
+    "fieldMonsterAIId": 9503,
+    "hp": 0,
+    "id": 2206,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28076,
+    "monsterSize": 0,
+    "questRange": [
+      0
+    ],
+    "regenId": 0,
+    "resourceName": "Char800601",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 1,
+    "useBattleSkip": 0
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      311
+    ],
+    "bundleType": 1,
+    "directionType": 1,
+    "fieldMonsterAIId": 101,
+    "hp": 0,
+    "id": 3001,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28081,
+    "monsterSize": 0,
+    "questRange": [
+      310
+    ],
+    "regenId": 0,
+    "resourceName": "Char805901",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 0,
+    "useBattleSkip": 0
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      312
+    ],
+    "bundleType": 1,
+    "directionType": 5,
+    "fieldMonsterAIId": 101,
+    "hp": 0,
+    "id": 3002,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28081,
+    "monsterSize": 0,
+    "questRange": [
+      312
+    ],
+    "regenId": 0,
+    "resourceName": "Char805901",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 0,
+    "useBattleSkip": 0
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      101
+    ],
+    "bundleType": 1,
+    "directionType": 0,
+    "fieldMonsterAIId": 101,
+    "hp": 0,
+    "id": 3003,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28081,
+    "monsterSize": 0,
+    "questRange": [
+      312
+    ],
+    "regenId": 0,
+    "resourceName": "Char800301",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 0,
+    "useBattleSkip": 0
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      101
+    ],
+    "bundleType": 1,
+    "directionType": 0,
+    "fieldMonsterAIId": 101,
+    "hp": 0,
+    "id": 3004,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28081,
+    "monsterSize": 0,
+    "questRange": [
+      314
+    ],
+    "regenId": 0,
+    "resourceName": "Char800301",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 0,
+    "useBattleSkip": 0
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      101
+    ],
+    "bundleType": 1,
+    "directionType": 0,
+    "fieldMonsterAIId": 101,
+    "hp": 0,
+    "id": 3005,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28081,
+    "monsterSize": 0,
+    "questRange": [
+      315
+    ],
+    "regenId": 0,
+    "resourceName": "Char800301",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 0,
+    "useBattleSkip": 0
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      101
+    ],
+    "bundleType": 1,
+    "directionType": 0,
+    "fieldMonsterAIId": 101,
+    "hp": 0,
+    "id": 3006,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28081,
+    "monsterSize": 0,
+    "questRange": [
+      316
+    ],
+    "regenId": 0,
+    "resourceName": "Char800301",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 0,
+    "useBattleSkip": 0
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [],
+    "bundleType": 0,
+    "directionType": 0,
+    "fieldMonsterAIId": 9100,
+    "hp": 1,
+    "id": 4001,
+    "idleEffect": "Eff_FieldMonster901",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28084,
+    "monsterSize": 1,
+    "questRange": [],
+    "regenId": 6,
+    "resourceName": "FieldMonster901",
+    "resourceType": 1,
+    "rewardCount": 1,
+    "rewardId": 112004,
+    "rewardType": 9,
+    "type": 2,
+    "useBattleSkip": 0
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [],
+    "bundleType": 0,
+    "directionType": 0,
+    "fieldMonsterAIId": 9100,
+    "hp": 1,
+    "id": 4002,
+    "idleEffect": "Eff_FieldMonster901",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28084,
+    "monsterSize": 1,
+    "questRange": [],
+    "regenId": 6,
+    "resourceName": "FieldMonster901",
+    "resourceType": 1,
+    "rewardCount": 1,
+    "rewardId": 112004,
+    "rewardType": 9,
+    "type": 2,
+    "useBattleSkip": 0
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [],
+    "bundleType": 0,
+    "directionType": 0,
+    "fieldMonsterAIId": 9100,
+    "hp": 1,
+    "id": 4003,
+    "idleEffect": "Eff_FieldMonster901",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28084,
+    "monsterSize": 1,
+    "questRange": [],
+    "regenId": 6,
+    "resourceName": "FieldMonster901",
+    "resourceType": 1,
+    "rewardCount": 1,
+    "rewardId": 112004,
+    "rewardType": 9,
+    "type": 2,
+    "useBattleSkip": 0
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [],
+    "bundleType": 0,
+    "directionType": 0,
+    "fieldMonsterAIId": 9100,
+    "hp": 1,
+    "id": 4004,
+    "idleEffect": "Eff_FieldMonster901",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28084,
+    "monsterSize": 1,
+    "questRange": [],
+    "regenId": 6,
+    "resourceName": "FieldMonster901",
+    "resourceType": 1,
+    "rewardCount": 1,
+    "rewardId": 112004,
+    "rewardType": 9,
+    "type": 2,
+    "useBattleSkip": 0
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [],
+    "bundleType": 0,
+    "directionType": 0,
+    "fieldMonsterAIId": 9100,
+    "hp": 1,
+    "id": 4005,
+    "idleEffect": "Eff_FieldMonster901",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28084,
+    "monsterSize": 1,
+    "questRange": [],
+    "regenId": 6,
+    "resourceName": "FieldMonster901",
+    "resourceType": 1,
+    "rewardCount": 1,
+    "rewardId": 112004,
+    "rewardType": 9,
+    "type": 2,
+    "useBattleSkip": 0
+  },
+  {
+    "animatorType": 1,
+    "battleDeckId": [
+      6001
+    ],
+    "bundleType": 1,
+    "directionType": 0,
+    "fieldMonsterAIId": 1,
+    "hp": 0,
+    "id": 6001,
+    "idleEffect": "",
+    "isAutoInteraction": 1,
+    "monsterNameTextId": 28075,
+    "monsterSize": 0,
+    "questRange": [
+      1003
+    ],
+    "regenId": 0,
+    "resourceName": "Char805901",
+    "resourceType": 1,
+    "rewardCount": 0,
+    "rewardId": 0,
+    "rewardType": 0,
+    "type": 0,
+    "useBattleSkip": 0
+  }
 ]
