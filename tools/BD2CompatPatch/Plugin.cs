@@ -38,6 +38,7 @@ namespace BD2CompatPatch
         // Self-reference so static Harmony patch methods can start coroutines on this
         // MonoBehaviour (BepInEx only ever creates one instance of a given plugin).
         private static Plugin _instance;
+        private static bool _dumpedDownloadPopupButtonRects;
 
         private void Awake()
         {
@@ -1950,6 +1951,32 @@ namespace BD2CompatPatch
                     Log.LogInfo($"[BD2CompatPatch] GraphicRaycaster '{__instance.name}' click at {eventData.position}: hits=[{hitsBefore}]");
                 }
 
+                // ONE-TIME DIAGNOSTIC (2026-09-29, automated click-driving session): need the exact
+                // screen rect of DownloadPopupUI's real "Button - Download"/"Button - Cancel"
+                // objects to drive clicks programmatically instead of guessing coordinates blindly --
+                // "Button - Back" (a different, apparently full-screen object on the same canvas)
+                // was catching every blind click attempt.
+                if (__instance.name == "DownloadPopupUI(Clone)" && !_dumpedDownloadPopupButtonRects)
+                {
+                    _dumpedDownloadPopupButtonRects = true;
+                    foreach (var btnName in new[] { "Button - Download", "Button - Cancel", "Button - Back" })
+                    {
+                        var found = __instance.GetComponentsInChildren<RectTransform>(true)
+                            .FirstOrDefault(rt => rt.name == btnName);
+                        if (found == null)
+                        {
+                            Log.LogWarning($"[BD2CompatPatch] DownloadPopupUI button rect dump: '{btnName}' not found.");
+                            continue;
+                        }
+                        var corners = new Vector3[4];
+                        found.GetWorldCorners(corners);
+                        var cam = __instance.GetComponent<Canvas>()?.worldCamera;
+                        Vector2 screenMin = RectTransformUtility.WorldToScreenPoint(cam, corners[0]);
+                        Vector2 screenMax = RectTransformUtility.WorldToScreenPoint(cam, corners[2]);
+                        Log.LogWarning($"[BD2CompatPatch] DownloadPopupUI button rect: '{btnName}' screenMin={screenMin} screenMax={screenMax} center=({(screenMin.x + screenMax.x) / 2f},{(screenMin.y + screenMax.y) / 2f})");
+                    }
+                }
+
                 // ROOT CAUSE of "literally every click in the game does nothing, on every screen":
                 // confirmed via the diagnostic above -- across dozens of clicks on completely
                 // different screens (field, popups), the raycast hit list is topped by one of a
@@ -1999,12 +2026,21 @@ namespace BD2CompatPatch
                 // dialogue portrait elsewhere (the same mistake shape as the reverted "TouchScreen"/
                 // "Collider" entries above) -- if a future session finds dialogue portraits that
                 // should be tappable no longer responding, this is the first thing to revert.
+                // "Button - Back" added (2026-09-29, automated click-driving session): confirmed via
+                // the RectTransform screen-corner dump above -- on DownloadPopupUI(Clone) this object
+                // spans the ENTIRE canvas (screen rect (0,0)-(1536,1152), i.e. the full screen), while
+                // the real, functional "Button - Download"/"Button - Cancel" occupy only a small
+                // ~122x40 region in the middle -- confirmed this exact full-screen object was eating
+                // every click anywhere on screen, including directly over the real buttons, on the
+                // very first download/patch prompt shown after any client (re)start. Same generic
+                // full-screen-modal-backdrop-sorted-in-front-of-real-content shape as "Black" above.
                 int removed = resultAppendList.RemoveAll(r => r.gameObject != null && (
                     r.gameObject.name == "Blocker" ||
                     r.gameObject.name == "Image - InputBlock" ||
                     r.gameObject.name == "Text - Enter" ||
                     r.gameObject.name == "Black" ||
-                    r.gameObject.name == "Image - Char"));
+                    r.gameObject.name == "Image - Char" ||
+                    r.gameObject.name == "Button - Back"));
                 if (isClick && removed > 0)
                 {
                     Log.LogInfo($"[BD2CompatPatch] Removed {removed} generic click-catcher hit(s) from raycast so the real UI underneath gets the click.");
