@@ -68,7 +68,7 @@ pub struct Questtable10 {
     #[serde(rename = "prologSkipQuestTextId")]
     pub prolog_skip_quest_text_id: i32,
     #[serde(rename = "questCharIllustCostumeId")]
-    pub quest_char_illust_costume_id: i32,
+    pub quest_char_illust_costume_id: Option<i32>,
     #[serde(rename = "questConditionQuestTextId")]
     pub quest_condition_quest_text_id: i32,
     #[serde(rename = "questDescQuestTextId")]

@@ -1,7 +1,21 @@
+use crate::logic::game::equip::{create_new_equip, get_equip_with_base, to_dbinfo};
 use anyhow::{Result, anyhow};
-use bd2::proto::proto_net::{ItemDbInfo, QuestClearResponse, QuestDbInfo, RewardDbInfoBundle};
+use bd2::proto::proto_net::{
+    CharDbInfo, CostumeDbInfo, EquipDbInfo, ItemDbInfo, QuestClearResponse, QuestDbInfo,
+    RewardDbInfoBundle,
+};
 use data::exceldb;
+use database::db::char::char_info::{get_char_info, insert as insert_char};
+use database::db::costume::costume_info::{get_costume_info, insert as insert_costume};
+use database::models::game::char::char_info::CharInfo;
+use database::models::game::costume::costume_info::CostumeInfo;
 use sqlx::SqlitePool;
+
+/// Reward item types that need a real, playable DB row instead of a generic ItemInfo stack --
+/// matches the reference server's GameQuestService.GetRewardDbInfoBundle special-casing.
+const ITEM_TYPE_EQUIP: i32 = 10;
+const ITEM_TYPE_CHAR: i32 = 6;
+const ITEM_TYPE_COSTUME: i32 = 11;
 
 #[derive(Debug, Clone, PartialEq)]
 pub struct QuestReward {
@@ -33,20 +47,22 @@ pub async fn handle_quest_clear(
     // Step 4: Roll rewards from quest definition
     let rewards = extract_rewards(quest)?;
 
-    // Step 5: Insert rewards into inventory
-    let item_db_infos = add_items_to_inventory(pool, uid, &rewards).await?;
+    // Step 5: Grant rewards -- Equip/Costume/Char rewards get real, usable DB rows (matching the
+    // reference server's GameQuestService.GetRewardDbInfoBundle); everything else is a plain
+    // ItemInfo stack as before.
+    let granted = grant_rewards(pool, uid, &rewards).await?;
 
     // Step 6: Build RewardDBInfoBundle
     let reward_bundle = RewardDbInfoBundle {
-        item_info: item_db_infos.clone(),
-        view_item_info: item_db_infos.clone(),
-        original_item_info: item_db_infos.clone(),
-        char_info: vec![],
-        costume_info: vec![],
-        equip_info: vec![],
+        item_info: granted.item_info.clone(),
+        view_item_info: granted.item_info.clone(),
+        original_item_info: granted.item_info,
+        char_info: granted.char_info,
+        costume_info: granted.costume_info,
+        equip_info: granted.equip_info,
         my_room_trophy_info: vec![],
-        item_auto_exchange_info: vec![],
-        item_auto_upgrade_info: vec![],
+        item_auto_exchange_info: granted.item_auto_exchange_info,
+        item_auto_upgrade_info: granted.item_auto_upgrade_info,
         repaid_currency: vec![],
     };
 
@@ -138,6 +154,289 @@ fn extract_rewards(quest: &data::exceldb::questtable1::Questtable1) -> Result<Ve
             count: counts[i],
         })
         .collect())
+}
+
+// -------------------- Reward Granting --------------------
+
+#[derive(Default)]
+struct GrantedRewards {
+    item_info: Vec<ItemDbInfo>,
+    char_info: Vec<CharDbInfo>,
+    costume_info: Vec<CostumeDbInfo>,
+    equip_info: Vec<EquipDbInfo>,
+    item_auto_upgrade_info: Vec<bd2::proto::proto_net::ItemAutoUpgradeInfo>,
+    item_auto_exchange_info: Vec<bd2::proto::proto_net::ItemAutoExchangeInfo>,
+}
+
+fn char_db_info(row: &CharInfo) -> CharDbInfo {
+    CharDbInfo {
+        inven_index: row.inven_index,
+        id: row.id,
+        hp: row.hp,
+        level: row.level,
+        costume_id: row.costume_id,
+        exp: row.exp,
+        use_costume: row.use_costume,
+        talent_level: row.talent_level,
+        talent_exp: row.talent_exp,
+        solidarity_reward: row.solidarity_reward,
+        expiry_time: row.expiry_time,
+        pictorialbook_info: vec![],
+        connect_potential_costume: row.connect_potential_costume,
+    }
+}
+
+fn costume_db_info(row: &CostumeInfo) -> CostumeDbInfo {
+    CostumeDbInfo {
+        inven_index: row.inven_index,
+        id: row.id,
+        level: row.level,
+        use_char: row.use_char,
+        pictorialbook_info: vec![],
+        sort_id: row.sort_id,
+        use_my_room_count: row.use_my_room_count,
+        potential_id: vec![],
+        design_id: row.design_id,
+    }
+}
+
+/// Grants one Costume-type reward, mirroring the reference server's `GetRewardDbInfoBundle`
+/// Costume case: if the account doesn't yet own the underlying character, both the character
+/// and the costume are created together (the costume becomes the character's equipped
+/// costume); if the character is owned but not this specific costume, only the costume is
+/// created (left unequipped, exactly as the reference does); if the costume is already owned
+/// and below max level, it's leveled up instead of duplicated.
+async fn grant_costume_reward(
+    pool: &SqlitePool,
+    uid: i64,
+    costume_id: i32,
+    granted: &mut GrantedRewards,
+) -> Result<()> {
+    let game_data = exceldb::get();
+    let Some(costume_def) = game_data.costumetable.get(costume_id) else {
+        tracing::warn!("quest_clear: CostumeTable missing id {}", costume_id);
+        return Ok(());
+    };
+    let unique_char_id = costume_def.use_unique_char_id;
+    let max_level = costume_def.max_level;
+    let skill_group_id = costume_def.skill_group_id;
+
+    let owned_chars = get_char_info(pool, uid).await.unwrap_or_default();
+    let owned_char = owned_chars.iter().find(|c| {
+        c.id.and_then(|id| game_data.chartable.get(id))
+            .map(|ch| ch.unique_char_id == unique_char_id)
+            .unwrap_or(false)
+    });
+
+    let now = chrono::Utc::now().timestamp_millis();
+
+    if owned_char.is_none() {
+        // Character not owned yet: grant character + costume together.
+        let Some(char_def) = game_data
+            .chartable
+            .iter()
+            .find(|ch| ch.unique_char_id == unique_char_id)
+        else {
+            tracing::warn!(
+                "quest_clear: no CharTable row for unique_char_id {} (costume {})",
+                unique_char_id,
+                costume_id
+            );
+            return Ok(());
+        };
+
+        let char_inven_index = now;
+        let costume_inven_index = -char_inven_index;
+        let char_row = CharInfo {
+            index: 0,
+            uid,
+            inven_index: Some(char_inven_index),
+            id: Some(char_def.id),
+            hp: Some(char_def.health_value.round() as i64),
+            level: Some(1),
+            costume_id: Some(costume_id),
+            exp: Some(0),
+            use_costume: Some(costume_inven_index),
+            talent_level: Some(1),
+            talent_exp: Some(0),
+            solidarity_reward: Some(1),
+            expiry_time: Some(-32400000),
+            pictorialbook_info_index: None,
+            connect_potential_costume: skill_group_id,
+            class_level: 0,
+        };
+        insert_char(pool, &char_row).await?;
+        let costume_row = CostumeInfo {
+            index: 0,
+            uid,
+            inven_index: Some(costume_inven_index),
+            id: Some(costume_id),
+            level: Some(1),
+            use_char: Some(char_inven_index),
+            pictorialbook_info_index: None,
+            sort_id: None,
+            use_my_room_count: None,
+            potential_id: None,
+            design_id: None,
+        };
+        insert_costume(pool, &costume_row).await?;
+
+        granted.char_info.push(char_db_info(&char_row));
+        granted.costume_info.push(costume_db_info(&costume_row));
+        granted.item_info.push(ItemDbInfo {
+            id: Some(costume_id),
+            r#type: Some(ITEM_TYPE_COSTUME),
+            count: Some(1),
+            ..Default::default()
+        });
+        granted.item_info.push(ItemDbInfo {
+            id: Some(char_def.id),
+            r#type: Some(ITEM_TYPE_CHAR),
+            count: Some(1),
+            ..Default::default()
+        });
+        return Ok(());
+    }
+
+    // Character already owned -- check whether this specific costume is too.
+    let owned_costumes = get_costume_info(pool, uid).await.unwrap_or_default();
+    if let Some(existing_costume) = owned_costumes.iter().find(|c| c.id == Some(costume_id)) {
+        let current_level = existing_costume.level.unwrap_or(1);
+        if max_level.map(|m| current_level < m).unwrap_or(false) {
+            // Below max level: level the existing costume up instead of duplicating it.
+            let new_level = current_level + 1;
+            database::db::costume::costume_info::set_level(
+                pool,
+                uid,
+                existing_costume.index,
+                new_level,
+            )
+            .await?;
+            granted
+                .item_auto_upgrade_info
+                .push(bd2::proto::proto_net::ItemAutoUpgradeInfo {
+                    inven_index: existing_costume.inven_index,
+                    item_type: Some(ITEM_TYPE_COSTUME),
+                    item_id: Some(costume_id),
+                    before_level: Some(current_level),
+                    after_level: Some(new_level),
+                    sort_id: None,
+                });
+            granted.item_info.push(ItemDbInfo {
+                id: Some(costume_id),
+                r#type: Some(ITEM_TYPE_COSTUME),
+                count: Some(1),
+                ..Default::default()
+            });
+            granted.item_info.push(ItemDbInfo {
+                id: Some(unique_char_id),
+                r#type: Some(ITEM_TYPE_CHAR),
+                count: Some(1),
+                ..Default::default()
+            });
+        } else {
+            // Already at max level: converts into a generic duplicate-reward item instead
+            // (matches the reference server's dupe-exchange behavior for maxed costumes).
+            let exchange_item = ItemDbInfo {
+                r#type: Some(20),
+                count: Some(1),
+                ..Default::default()
+            };
+            granted.item_info.push(exchange_item);
+            granted
+                .item_auto_exchange_info
+                .push(bd2::proto::proto_net::ItemAutoExchangeInfo {
+                    original_item_type: Some(ITEM_TYPE_COSTUME),
+                    original_item_id: Some(costume_id),
+                    original_item_count: Some(1),
+                    exchange_item_type: Some(20),
+                    exchange_item_id: None,
+                    exchange_item_count: Some(1),
+                    sort_id: None,
+                });
+        }
+        return Ok(());
+    }
+
+    // Character owned, but not this costume yet: grant just the costume (unequipped).
+    let costume_inven_index = now;
+    let costume_row = CostumeInfo {
+        index: 0,
+        uid,
+        inven_index: Some(costume_inven_index),
+        id: Some(costume_id),
+        level: Some(1),
+        use_char: None,
+        pictorialbook_info_index: None,
+        sort_id: None,
+        use_my_room_count: None,
+        potential_id: None,
+        design_id: None,
+    };
+    insert_costume(pool, &costume_row).await?;
+    granted.costume_info.push(costume_db_info(&costume_row));
+    granted.item_info.push(ItemDbInfo {
+        id: Some(costume_id),
+        r#type: Some(ITEM_TYPE_COSTUME),
+        count: Some(1),
+        ..Default::default()
+    });
+    granted.item_info.push(ItemDbInfo {
+        id: Some(unique_char_id),
+        r#type: Some(ITEM_TYPE_CHAR),
+        count: Some(1),
+        ..Default::default()
+    });
+    Ok(())
+}
+
+async fn grant_rewards(
+    pool: &SqlitePool,
+    uid: i64,
+    items: &[QuestReward],
+) -> Result<GrantedRewards> {
+    let mut granted = GrantedRewards::default();
+    let mut generic_items = Vec::new();
+
+    for item in items {
+        match item.item_type {
+            ITEM_TYPE_EQUIP => match create_new_equip(pool, uid, item.item_id).await {
+                Ok(equip_index) => {
+                    if let Some((equip, base)) = get_equip_with_base(pool, uid, equip_index).await
+                    {
+                        granted.equip_info.push(to_dbinfo(&equip, base.as_ref()));
+                    }
+                    granted.item_info.push(ItemDbInfo {
+                        id: Some(item.item_id),
+                        r#type: Some(ITEM_TYPE_EQUIP),
+                        count: Some(1),
+                        ..Default::default()
+                    });
+                }
+                Err(e) => {
+                    tracing::warn!(
+                        "quest_clear: failed to grant equip {}: {:?}",
+                        item.item_id,
+                        e
+                    );
+                }
+            },
+            ITEM_TYPE_COSTUME => {
+                if let Err(e) = grant_costume_reward(pool, uid, item.item_id, &mut granted).await {
+                    tracing::warn!(
+                        "quest_clear: failed to grant costume {}: {:?}",
+                        item.item_id,
+                        e
+                    );
+                }
+            }
+            _ => generic_items.push(item.clone()),
+        }
+    }
+
+    let plain_items = add_items_to_inventory(pool, uid, &generic_items).await?;
+    granted.item_info.extend(plain_items);
+    Ok(granted)
 }
 
 // -------------------- Inventory --------------------
