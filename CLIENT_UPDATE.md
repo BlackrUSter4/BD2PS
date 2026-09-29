@@ -3346,3 +3346,70 @@ gate came back 0/unusable too, which would point at something more
 fundamentally broken in this gate's data than initially assumed --
 worth re-reading the raw captured `FieldGateTable` row for pack21's
 gates at that point rather than patching further blind.
+
+### Live retest: the freeze is fixed. Entering the house still fails, but safely now.
+
+Confirmed by the user directly: **"can move and back out but cant enter
+house"** -- the permanent hang is gone. Log evidence backs this up: the
+name-agnostic redirect found real nonzero fallback values (`...=5`,
+`...=1`, `...=6`, etc. across different gates), meaning `MoveMap`'s real
+body now actually runs instead of being skipped. It then throws a real
+`NullReferenceException` inside `GameFieldManager`'s private move
+coroutine (`GameFieldManager+<anon>.MoveNext()`, called from
+`PlayerController.OnTriggerEnter -> ...MoveMap`) -- but this time Unity's
+own top-level exception handler (`HandleException`/`CrashReporter`)
+catches it and the coroutine just ends, instead of hanging silently. Net
+effect: walking into the house no longer works, but the game stays fully
+playable. This is real, meaningful progress -- worth remembering the
+starting point (permanent freeze, every time) when judging "still not
+fully fixed" reports going forward.
+
+No quest-clear network request shows up in the server log anywhere near
+this attempt, meaning the NRE happens *before* the quest round-trip this
+coroutine can do (`TryGetGateSpotQuest`/`SendPacket`) -- so it's not (yet)
+a server-side data problem for this specific failure, more likely a
+client-side null somewhere between `SetCharPosition` and the scene load,
+or this specific gate simply has no quest tied to it and something else
+in the simpler path is null. Not chased further this round (see below for
+what *was* chased and fixed instead) -- next step if resumed: get the
+`HandleException`/`CrashReporter` JSON payload's `condition`/`stacktrace`
+fields have basically no line info (`<cfa42b4a41f647e3bd507f4bab110e25>:0`,
+build-standard for this Mono AOT build), so pinpointing the exact null
+will likely need selectively wrapping pieces of that coroutine (postfix/
+finalizer diagnostics, same technique used elsewhere in this file) rather
+than more static decompilation -- tonight's whole experience says static
+tools can't be trusted for exact member names on this assembly anyway.
+
+### Unrelated but real: found and fixed 500s on every public (auth-skipped) endpoint
+
+While checking the server log around the house-entry attempt (no request
+appeared there, as above), noticed something else entirely:
+**`/ServerNowTime` was returning `500 Internal Server Error` on every
+single call**, repeatedly, right around the same time. Root cause: `
+auth_middleware` skips authentication (and the uid-into-request-extensions
+insert that comes with it) for a fixed list of public endpoints
+(`MaintenanceInfo`, `ServerInfo`, `ServerNowTime`, `NoticeInfo`,
+`BalanceVersionCheck`, `JoinUser`, `LoginUser`, plus a few others) -- but
+6 of their route handlers still declared `user_id: web::ReqData<i64>`.
+Actix fails that extraction outright when nothing was ever inserted,
+returning a 500 *before the handler body runs at all*. Checked every
+handler on the skip-list: `ServerNowTime`, `MaintenanceInfo`,
+`ServerInfo`, `NoticeInfo`, `BalanceVersionCheck`, and `JoinUser` all had
+this exact bug (4 already had the value dead/unused and underscore-
+prefixed; `MaintenanceInfo` and `JoinUser` resolve their real uid a
+different way already, e.g. `JoinUser` parses it straight from the
+request's own `access_token`). `LoginUser`'s buggy twin
+(`routes/game/login/login_user.rs`) turned out to be genuinely dead code
+(confirmed via `main.rs` -- only `routes/user/login_user.rs`, which has
+no such bug, is actually registered), matching an already-known finding
+from a much earlier session. `SpineInteractionRecordData` and
+`StateCheckInfoJson` were checked too and don't have this bug.
+
+Fixed all 6 real instances: dropped the `web::ReqData<i64>` parameter and
+pass `0` through where a uid argument is still structurally required
+downstream. Rebuilt and restarted `httpserver` (had to stop the running
+instance first -- Windows had the exe file-locked). Not yet confirmed
+whether this was contributing to any of tonight's other flakiness
+(`서버 정보 요청 타임아웃` / "server info request timeout" messages seen
+earlier could easily be this exact bug on `ServerInfo` itself) -- worth
+watching for those messages specifically disappearing on the next test.
