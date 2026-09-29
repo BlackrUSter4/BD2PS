@@ -804,6 +804,43 @@ namespace BD2CompatPatch
                 Log.LogWarning($"[BD2CompatPatch] Failed to patch the quest-update callback watchdog: {e.Message}");
             }
 
+            // ROOT CAUSE of "it still makes you download every client restart" (user-reported
+            // 2026-09-29, automated click-driving session): DownloadPopupUI's real "Button -
+            // Download"/"Button - Cancel" objects are not directly clickable by raycast at all --
+            // confirmed live via a RectTransform screen-corner dump plus systematic click testing
+            // across their entire reported bounding box: every click in that region hits sibling
+            // "Image - Mask"/"Image - Backgrond" objects instead (the popup panel's own backdrop),
+            // and none of it ever reaches DownloadPopupUI.OnClickUI (confirmed: no OnClickDownload
+            // or CloseForceUI activity ever appears in Player.log no matter where in the button's
+            // own bounds the click lands) -- Unity isn't bubbling the click up to the Button
+            // component the way it would if these were true parent/child. In short: this popup's
+            // Download button appears to be genuinely unclickable through normal input. Rather than
+            // keep chasing raycast geometry, patch RefreshUI (real, non-obfuscated name, called once
+            // the popup has fully populated itself and enabled _btnDownload) with a postfix that
+            // immediately calls the same OnClickUI(_btnDownload) path a real click would have taken
+            // -- auto-confirming the download every time this popup appears, permanently fixing the
+            // "download on every restart" friction instead of just working around today's click
+            // issue.
+            try
+            {
+                var downloadPopupType = AccessTools.TypeByName("DownloadPopupUI");
+                var refreshUIMethod = downloadPopupType?.GetMethod("RefreshUI", BindingFlags.Public | BindingFlags.Instance);
+                if (refreshUIMethod != null)
+                {
+                    var autoConfirmPostfix = new HarmonyMethod(typeof(Plugin).GetMethod(nameof(AutoConfirmDownloadPostfix), BindingFlags.Static | BindingFlags.NonPublic));
+                    harmony.Patch(refreshUIMethod, postfix: autoConfirmPostfix);
+                    Log.LogInfo("[BD2CompatPatch] Patched DownloadPopupUI.RefreshUI to auto-confirm the download popup -- fixes it being unclickable and the \"download every restart\" friction.");
+                }
+                else
+                {
+                    Log.LogWarning("[BD2CompatPatch] Could not find DownloadPopupUI.RefreshUI to patch -- the download popup will remain unclickable.");
+                }
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning($"[BD2CompatPatch] Failed to patch DownloadPopupUI.RefreshUI: {e.Message}");
+            }
+
             // Confirmed root cause of "can move and back out but can't enter house": the live IL
             // crash-site diagnostic (LogCrashLocationAndCapturedState) pinpointed the gate-move
             // coroutine's NullReferenceException to a `callvirt GameCameraManager.
@@ -2387,6 +2424,32 @@ namespace BD2CompatPatch
                 Log.LogWarning("[BD2CompatPatch] Quest-update network callback never fired within 5s -- the client's own guard almost certainly blocked sending the request (e.g. this gate's associated quest isn't the account's current in-progress quest) -- forcing the callback now with errType=0 (success) so the gate-transition coroutine completes instead of hanging forever.");
                 fired[0] = true;
                 original(0);
+            }
+        }
+
+        // See the registration comment above (near "ROOT CAUSE of "it still makes you download
+        // every client restart"") for the full story. Runs right after the real RefreshUI body has
+        // finished populating the popup and enabling its Download button -- calls the exact same
+        // public OnClickUI(GameObject) a real click on that button would have invoked.
+        private static void AutoConfirmDownloadPostfix(object __instance)
+        {
+            try
+            {
+                var type = __instance.GetType();
+                var btnDownloadField = AccessTools.Field(type, "_btnDownload");
+                var btnDownload = btnDownloadField?.GetValue(__instance) as GameObject;
+                if (btnDownload == null)
+                {
+                    Log.LogWarning("[BD2CompatPatch] AutoConfirmDownloadPostfix: _btnDownload field not found or null -- can't auto-confirm.");
+                    return;
+                }
+                var onClickUI = type.GetMethod("OnClickUI", BindingFlags.Public | BindingFlags.Instance);
+                onClickUI?.Invoke(__instance, new object[] { btnDownload });
+                Log.LogInfo("[BD2CompatPatch] Auto-confirmed the download popup (called OnClickUI(_btnDownload) directly) so the client doesn't get stuck on an unclickable download prompt.");
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning($"[BD2CompatPatch] AutoConfirmDownloadPostfix failed: {e.Message}");
             }
         }
 
