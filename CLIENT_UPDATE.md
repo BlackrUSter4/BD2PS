@@ -3243,8 +3243,65 @@ regression, no change needed there.
 Rebuilt, redeployed. The live client had the previous build's DLL locked
 (a genuinely hung session from testing the prior attempt) -- closed it to
 free the file before copying the new one. Server and mitmdump both still
-up from before. **Still needs an actual live walk-into-the-hut-with-Auto-
-Mode-on retest with this newest build** -- every previous attempt tonight
-either no-op'd silently or hit a still-broken piece; this is the first
-build where both known-broken pieces are fixed and confirmed to at least
-compile/deploy. Treat the next session's first test as the real one.
+up from before.
+
+### Live retest: getter patch worked, but the hang still happened -- "skip" isn't enough, need "redirect"
+
+Live retest (after fixing `AccessTools.Property`) showed the fix mostly
+working: the log is full of real, confirmed
+`"underlying gate data missing -- returning MapId=0"` catches walking
+pack21, and the very last two log lines before the game went silent were
+exactly the expected skip:
+```
+GateSpotData.MapPositionData (Gate_1_5_1): underlying gate data missing -- returning MapId=0 instead of throwing.
+GameFieldManager.MoveMap(GateSpotData): this gate's destination data is broken (MapId<=0) -- skipping the transition instead of freezing the player.
+```
+**But the client still froze at that exact point anyway.** Root cause:
+skipping `MoveMap` entirely prevents the crash, but MoveMap's real body is
+also what runs `AddVisitedGate(...)` and invokes a completion-callback
+delegate at the end -- something else (almost certainly Auto Mode's own
+quest-navigation coroutine, since Auto Mode specifically drives the player
+toward quest objectives) is very likely waiting on one of those signals to
+know the transition finished, and a fully-skipped MoveMap never sends it.
+The fix prevented the *crash* but not the *hang* -- it just moved where in
+the sequence the freeze happens.
+
+**Real fix: don't abort, redirect.** `SafeGateSpotMapPositionDataPrefix`
+now falls back to the gate's own `BeforeMapID`/`BeforeMapData` (the map
+and position the player is *currently* standing on -- "stay where you
+are") instead of `MapId=0` whenever the primary data is missing. This is
+a real, valid, always-available destination (the player is already
+standing on it), so `MoveMap`'s real body runs to completion normally --
+full cleanup, `AddVisitedGate`, completion callback, everything -- instead
+of being skipped. `SafeMoveMapGatePrefix`'s `MapId<=0`-skip stays in place
+as a last-resort fallback only for the (should be rare/impossible) case
+where `BeforeMapID` is *also* unusable.
+
+Also worth recording: while investigating this, a standalone
+`MetadataLoadContext` reflection probe -- the SAME probe that earlier
+this session reliably showed `GateSpotData`'s plain public names,
+cross-verified via raw IL token resolution -- **started showing garbled
+names for the exact same type/token on a later rerun**, then stayed
+garbled on every rerun after that despite the DLL file being confirmed
+byte-identical (SHA256 hash checked twice) across the whole session. Not
+explained. Doesn't change the practical rule already written up above
+(trust live runtime log evidence over any static tool), but is a second,
+independent data point that *no* static tool's output should be trusted
+as stable for this assembly, not even one that was right five minutes
+ago in the same process session. `BeforeMapID`/`BeforeMapData` were used
+here based on the earlier, multiply-corroborated probe (structurally
+consistent with the also-proven-live `MapID`/`AfterMapID` and
+`CurrentMapData`/`QuestBeforeMapData`/`QuestAfterMapData` sibling names)
+plus a defensive `if (beforeMapIdProp != null && beforeMapId > 0)`
+fallback so a wrong guess degrades to the previous (already-live-tested)
+MapId=0 behavior rather than breaking anything further.
+
+Rebuilt, redeployed (closed the hung client to free the locked DLL first,
+same as before). **Still needs an actual live walk-into-the-hut-with-
+Auto-Mode-on retest with this newest build** -- this is the third attempt
+at this exact bug tonight (wrong name -> AccessTools.Property broke ->
+skip-isn't-enough), each one real progress but not yet the final word.
+Treat the next session's first test as the real one, and if it's *still*
+not fully fixed, check whether `BeforeMapID`/`BeforeMapData` resolved at
+all live (grep Player.log for "redirecting to BeforeMapID" vs the older
+"returning MapId=0" message to tell which path actually fired).

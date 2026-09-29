@@ -1537,6 +1537,29 @@ namespace BD2CompatPatch
                 var dataProp = type.GetProperty("CurrentMapData", BindingFlags.Public | BindingFlags.Instance);
                 int mapId = mapIdProp != null ? (int)mapIdProp.GetValue(__instance) : 0;
                 object data = dataProp?.GetValue(__instance);
+                bool usedFallback = false;
+                if (mapId <= 0)
+                {
+                    // Confirmed live: just returning MapId=0 here and having the caller (see
+                    // SafeMoveMapGatePrefix) skip the whole transition prevents the crash/hang at
+                    // THIS layer, but still leaves other systems hanging -- specifically, Auto Mode's
+                    // quest-navigation coroutine appears to wait for an arrival/completion signal
+                    // that a fully-skipped MoveMap never sends, so the player still froze at the same
+                    // spot. Real fix: don't abort, redirect. Fall back to BeforeMapID/BeforeMapData --
+                    // the map/position the player is CURRENTLY standing on, i.e. "stay where you are"
+                    // -- instead of MapId=0, so the real MoveMap body still runs to completion on a
+                    // genuinely valid (if boring) destination, and all of its normal cleanup/callback/
+                    // nav-state-clearing logic fires exactly like it would for any working gate.
+                    var beforeMapIdProp = type.GetProperty("BeforeMapID", BindingFlags.Public | BindingFlags.Instance);
+                    var beforeMapDataProp = type.GetProperty("BeforeMapData", BindingFlags.Public | BindingFlags.Instance);
+                    int beforeMapId = beforeMapIdProp != null ? (int)beforeMapIdProp.GetValue(__instance) : 0;
+                    if (beforeMapId > 0)
+                    {
+                        mapId = beforeMapId;
+                        data = beforeMapDataProp?.GetValue(__instance);
+                        usedFallback = true;
+                    }
+                }
                 Vector3 playerPosition = default;
                 Vector3[] colleaguePositions = null;
                 if (data != null)
@@ -1547,9 +1570,13 @@ namespace BD2CompatPatch
                     colleaguePositions = dataType.GetField("moveColleaguePosition")?.GetValue(data) as Vector3[];
                 }
                 __result = new MapPositionData { MapId = mapId, PlayerPosition = playerPosition, ColleaguePositions = colleaguePositions };
-                if (mapId <= 0)
+                if (usedFallback)
                 {
-                    Log.LogWarning($"[BD2CompatPatch] GateSpotData.MapPositionData ({__instance}): underlying gate data missing -- returning MapId=0 instead of throwing.");
+                    Log.LogWarning($"[BD2CompatPatch] GateSpotData.MapPositionData ({__instance}): underlying gate data missing -- redirecting to BeforeMapID={mapId} (stay where you are) instead of throwing or aborting.");
+                }
+                else if (mapId <= 0)
+                {
+                    Log.LogWarning($"[BD2CompatPatch] GateSpotData.MapPositionData ({__instance}): underlying gate data missing AND no usable BeforeMapID fallback -- returning MapId=0, transition will be skipped.");
                 }
             }
             catch (Exception e)
