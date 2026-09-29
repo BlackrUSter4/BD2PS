@@ -1133,6 +1133,47 @@ namespace BD2CompatPatch
                 Log.LogWarning($"[BD2CompatPatch] Failed to patch the SQLite engine's Open() for diagnostics: {e.Message}");
             }
 
+            // DIAGNOSTIC (2026-09-29): the top-right quest tracker still isn't showing anything
+            // even after fixing PackInGameInfo's real data source server-side (see doc). Trace the
+            // actual client-side gating logic live rather than guess further: GameFieldDefaultUI.
+            // SetProgressQuest(int) is the real, public entry point wrapping the private loop that
+            // iterates PackManager.Instance's own quest-list field and only creates a tracker slot
+            // when THREE conditions all hold (quest.IsDisplayQuest, quest.Id != the "just cleared"
+            // sentinel arg, and the quest's own QuestTable1 packId matches PackManager's current
+            // pack). Log the quest list's contents and the current-pack value every time this runs
+            // so we can see exactly which of the three conditions is failing, if any.
+            try
+            {
+                var setProgressQuestMethod = AccessTools.Method(typeof(GameFieldDefaultUI), "SetProgressQuest");
+                if (setProgressQuestMethod != null)
+                {
+                    var questDiagPrefix = new HarmonyMethod(typeof(Plugin).GetMethod(nameof(SetProgressQuestDiagnosticPrefix), BindingFlags.Static | BindingFlags.NonPublic));
+                    var questDiagPostfix = new HarmonyMethod(typeof(Plugin).GetMethod(nameof(SetProgressQuestDiagnosticPostfix), BindingFlags.Static | BindingFlags.NonPublic));
+                    harmony.Patch(setProgressQuestMethod, prefix: questDiagPrefix, postfix: questDiagPostfix);
+                    Log.LogInfo("[BD2CompatPatch] Patched GameFieldDefaultUI.SetProgressQuest for quest-tracker diagnostic logging.");
+                }
+                else
+                {
+                    Log.LogWarning("[BD2CompatPatch] Could not find GameFieldDefaultUI.SetProgressQuest to diagnose.");
+                }
+
+                var addProgressQuestMethod = AccessTools.Method(typeof(GameFieldDefaultUI), "AddProgressQuest");
+                if (addProgressQuestMethod != null)
+                {
+                    var addQuestDiagPrefix = new HarmonyMethod(typeof(Plugin).GetMethod(nameof(AddProgressQuestDiagnosticPrefix), BindingFlags.Static | BindingFlags.NonPublic));
+                    harmony.Patch(addProgressQuestMethod, prefix: addQuestDiagPrefix);
+                    Log.LogInfo("[BD2CompatPatch] Patched GameFieldDefaultUI.AddProgressQuest for quest-tracker diagnostic logging.");
+                }
+                else
+                {
+                    Log.LogWarning("[BD2CompatPatch] Could not find GameFieldDefaultUI.AddProgressQuest to diagnose.");
+                }
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning($"[BD2CompatPatch] Failed to patch quest-tracker diagnostics: {e.Message}");
+            }
+
             // ROOT CAUSE of the "Replace Companion" screen's loading spinner spinning forever
             // (client "hangs" from the user's perspective, though the engine itself keeps running):
             // SpineManager's list-population code loads each companion's Spine illustration one at
@@ -1880,11 +1921,24 @@ namespace BD2CompatPatch
                 // but every click forever after is eaten by this one element. Same generic-blocker
                 // shape as "Blocker"/"Image - InputBlock" below -- stripping it from raycast
                 // results only affects click routing, not whatever visually renders it.
+                // "Image - Char" added (2026-09-29): confirmed live sitting alongside "Black" on
+                // the SAME generic "Canvas" GameObject (sortOrder=600) after a story cutscene
+                // (StorySkipUI/TimelineBalloonUI, the pack1 quest-1 intro) -- almost certainly the
+                // character illustration on the "loading_story_default.prefab" story-loading
+                // overlay (seen requested earlier in the same log) left stuck active, same root
+                // cause as "Black" (a skipped cutscene never signals the overlay to close). Exact
+                // same symptom: field/UI underneath renders and responds fine, this one element
+                // just eats every click forever after. CAUTION unlike "Black": "Image - Char" is a
+                // much more generic name that could plausibly be a legitimate tap-to-advance
+                // dialogue portrait elsewhere (the same mistake shape as the reverted "TouchScreen"/
+                // "Collider" entries above) -- if a future session finds dialogue portraits that
+                // should be tappable no longer responding, this is the first thing to revert.
                 int removed = resultAppendList.RemoveAll(r => r.gameObject != null && (
                     r.gameObject.name == "Blocker" ||
                     r.gameObject.name == "Image - InputBlock" ||
                     r.gameObject.name == "Text - Enter" ||
-                    r.gameObject.name == "Black"));
+                    r.gameObject.name == "Black" ||
+                    r.gameObject.name == "Image - Char"));
                 if (isClick && removed > 0)
                 {
                     Log.LogInfo($"[BD2CompatPatch] Removed {removed} generic click-catcher hit(s) from raycast so the real UI underneath gets the click.");
@@ -2425,6 +2479,207 @@ namespace BD2CompatPatch
             {
                 Log.LogWarning($"[BD2CompatPatch] SQLiteSelfHealMissingFilePrefix failed: {e.Message}");
             }
+        }
+
+        // See the registration comment above (near "the top-right quest tracker still isn't
+        // showing") for the full story. CORRECTION: the obfuscated field names harvested from the
+        // cached ilspycmd decompile did NOT match this live build at all (confirmed: both lookups
+        // came back "field not found") -- same tooling-disagreement gotcha documented earlier this
+        // project, just hitting a plain field this time instead of a property. Switched to a
+        // TYPE-based scan instead of a guessed name: find the field whose type is List<QuestDBInfo>
+        // (QuestDBInfo is a real, unobfuscated Google.Protobuf message type, safe to resolve by
+        // name at runtime). If that still comes back empty, dump every field's name+type so the
+        // next round has real data to work from instead of another guess.
+        private static void SetProgressQuestDiagnosticPrefix(int __0)
+        {
+            try
+            {
+                var pm = Singleton<PackManager>.ὪὫὢὨὯὭὦὪὦὨὣ;
+                if (pm == null)
+                {
+                    Log.LogWarning($"[BD2CompatPatch] SetProgressQuest({__0}) diagnostic: PackManager.Instance is null.");
+                    return;
+                }
+                var pmType = pm.GetType();
+                var questDbInfoType = AccessTools.TypeByName("Proto.Net.QuestDBInfo") ?? AccessTools.TypeByName("QuestDBInfo");
+                FieldInfo questListField = null;
+                if (questDbInfoType != null)
+                {
+                    var listOfQuestType = typeof(List<>).MakeGenericType(questDbInfoType);
+                    questListField = pmType.GetFields(BindingFlags.NonPublic | BindingFlags.Public | BindingFlags.Instance)
+                        .FirstOrDefault(f => f.FieldType == listOfQuestType);
+                }
+                var questList = questListField?.GetValue(pm) as System.Collections.IList;
+                Log.LogWarning($"[BD2CompatPatch] SetProgressQuest({__0}) diagnostic: questDbInfoTypeFound={questDbInfoType != null}, questListField={questListField?.Name ?? "NOT FOUND"}, questList.Count={(questList?.Count.ToString() ?? "N/A")}");
+                if (questList != null)
+                {
+                    foreach (var q in questList)
+                    {
+                        if (q == null) continue;
+                        var qType = q.GetType();
+                        var idProp = qType.GetProperty("Id");
+                        var isDisplayProp = qType.GetProperty("IsDisplayQuest");
+                        object qid = idProp?.GetValue(q);
+                        object isDisplay = isDisplayProp?.GetValue(q);
+                        Log.LogWarning($"[BD2CompatPatch]   questList entry: Id={qid} IsDisplayQuest={isDisplay}");
+                    }
+                }
+                else
+                {
+                    // Fallback dump: every instance field on PackManager, name + type, so we have
+                    // real live data to pick the right one from instead of guessing again.
+                    Log.LogWarning("[BD2CompatPatch] questList field not found by type -- dumping all PackManager instance fields for the next round:");
+                    foreach (var f in pmType.GetFields(BindingFlags.NonPublic | BindingFlags.Public | BindingFlags.Instance))
+                    {
+                        Log.LogWarning($"[BD2CompatPatch]   field: {f.Name} : {f.FieldType.FullName}");
+                    }
+                }
+                // The third (still unverified) gating condition compares each quest's own
+                // QuestTable1 "packId"-equivalent field against PackManager's own "current pack"
+                // value. Dump every int-returning PUBLIC property on PackManager (name-agnostic --
+                // properties tend to survive obfuscation/rebuilds better than their backing field
+                // names, which just proved unreliable above) so the real "current pack" one can be
+                // picked out by its value (should read 1, since we just cold-started into pack1).
+                foreach (var p in pmType.GetProperties(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance))
+                {
+                    if (p.PropertyType != typeof(int) || p.GetIndexParameters().Length != 0) continue;
+                    object val;
+                    try { val = p.GetValue(pm); }
+                    catch { continue; }
+                    Log.LogWarning($"[BD2CompatPatch]   PackManager int property: {p.Name} = {val}");
+                }
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning($"[BD2CompatPatch] SetProgressQuestDiagnosticPrefix failed: {e.Message}");
+            }
+        }
+
+        // Runs AFTER the real SetProgressQuest body -- checks whether a tracker slot actually got
+        // created (via the real, underscore-prefixed field names "_progressInfo" on
+        // GameFieldDefaultUI and "_questSlotDic" on its nested ProgressInfo -- Unity
+        // [SerializeField]-style names like these have survived obfuscation reliably all project,
+        // unlike compiler-generated backing fields). If the dictionary is still empty after this
+        // call despite the prefix showing a matching, displayable quest, the gating condition
+        // itself is rejecting it (most likely the client's own local QuestTable1 packId lookup for
+        // this quest, not anything server-side) -- if the dictionary DOES gain an entry, the data
+        // path is entirely fine and the bug is purely in slot/UI visibility instead.
+        private static void SetProgressQuestDiagnosticPostfix(object __instance, int __0)
+        {
+            try
+            {
+                var giType = __instance.GetType();
+                var progressInfoField = giType.GetField("_progressInfo", BindingFlags.NonPublic | BindingFlags.Instance);
+                var progressInfo = progressInfoField?.GetValue(__instance);
+                if (progressInfo == null)
+                {
+                    Log.LogWarning($"[BD2CompatPatch] SetProgressQuest({__0}) postfix: _progressInfo field not found or null.");
+                    return;
+                }
+                var piType = progressInfo.GetType();
+                var slotDicField = piType.GetField("_questSlotDic", BindingFlags.NonPublic | BindingFlags.Instance);
+                var slotDic = slotDicField?.GetValue(progressInfo) as System.Collections.IDictionary;
+                Log.LogWarning($"[BD2CompatPatch] SetProgressQuest({__0}) postfix: _questSlotDic.Count={(slotDic?.Count.ToString() ?? "N/A (field not found)")}");
+                if (slotDic != null)
+                {
+                    foreach (System.Collections.DictionaryEntry entry in slotDic)
+                    {
+                        Log.LogWarning($"[BD2CompatPatch]   slotDic key (quest id with a real tracker slot) = {entry.Key}");
+                        // The slot exists in the dictionary -- now check whether it (and every
+                        // ancestor up to the scene root) is actually active and where it sits on
+                        // screen. ProgressInfoSlot is a real, unobfuscated MonoBehaviour type, so
+                        // its own .gameObject/.transform are directly usable.
+                        if (entry.Value is MonoBehaviour slotMb)
+                        {
+                            var t = slotMb.transform;
+                            var rt = slotMb.transform as RectTransform;
+                            Log.LogWarning($"[BD2CompatPatch]     slot GameObject '{t.name}': activeSelf={t.gameObject.activeSelf} activeInHierarchy={t.gameObject.activeInHierarchy} localPos={t.localPosition} anchoredPos={(rt != null ? rt.anchoredPosition.ToString() : "N/A (not a RectTransform)")}");
+                            var canvasGroup = slotMb.GetComponentInParent<CanvasGroup>();
+                            if (canvasGroup != null)
+                            {
+                                Log.LogWarning($"[BD2CompatPatch]     nearest ANCESTOR CanvasGroup '{canvasGroup.name}': alpha={canvasGroup.alpha} interactable={canvasGroup.interactable} blocksRaycasts={canvasGroup.blocksRaycasts}");
+                            }
+                            // ProgressInfoSlot.AddSlot (the real method used to populate this slot,
+                            // confirmed via decompile) normally starts a reveal coroutine after
+                            // setting content -- if that coroutine is a fade-in on a CanvasGroup
+                            // somewhere on the slot itself or its children and gets interrupted
+                            // (e.g. by the SAME kind of stuck-coroutine pattern already found
+                            // elsewhere this project), the slot would sit at alpha=0 forever:
+                            // technically fully "active" by every check above, but fully
+                            // transparent. Check self+children (GetComponentInParent above only
+                            // covers ancestors) and force any found CanvasGroup fully visible --
+                            // harmless no-op if it was already at alpha=1.
+                            foreach (var childCg in slotMb.GetComponentsInChildren<CanvasGroup>(true))
+                            {
+                                Log.LogWarning($"[BD2CompatPatch]     CHILD/SELF CanvasGroup '{childCg.name}': alpha={childCg.alpha} (forcing to 1)");
+                                childCg.alpha = 1f;
+                                childCg.interactable = true;
+                                childCg.blocksRaycasts = true;
+                            }
+                            // Also dump every Graphic (Image/Text/TMP) under the slot with its own
+                            // color alpha, in case the reveal animation instead fades a Graphic's
+                            // color.a directly rather than going through a CanvasGroup.
+                            foreach (var g in slotMb.GetComponentsInChildren<Graphic>(true))
+                            {
+                                Log.LogWarning($"[BD2CompatPatch]     Graphic '{g.name}' ({g.GetType().Name}): color={g.color} enabled={g.enabled}");
+                                if (g.color.a < 1f)
+                                {
+                                    var c = g.color;
+                                    c.a = 1f;
+                                    g.color = c;
+                                    Log.LogWarning($"[BD2CompatPatch]       ...was below full alpha, forced to 1.");
+                                }
+                            }
+                            var ancestor = t.parent;
+                            int depth = 0;
+                            while (ancestor != null && depth < 15)
+                            {
+                                var ancestorRt = ancestor as RectTransform;
+                                var mask = ancestor.GetComponent<Mask>();
+                                var rectMask2d = ancestor.GetComponent<RectMask2D>();
+                                string maskInfo = mask != null ? $" HAS Mask(enabled={mask.enabled})" : (rectMask2d != null ? $" HAS RectMask2D(enabled={rectMask2d.enabled})" : "");
+                                Log.LogWarning($"[BD2CompatPatch]     ancestor[{depth}] '{ancestor.name}': activeSelf={ancestor.gameObject.activeSelf} rect={(ancestorRt != null ? ancestorRt.rect.ToString() : "N/A")}{maskInfo}");
+                                ancestor = ancestor.parent;
+                                depth++;
+                            }
+                            // If any ancestor is a mask, check whether the slot's own world-space
+                            // corners actually overlap that mask's world-space rect -- a slot can
+                            // be fully active/full-alpha and still be entirely clipped out of view
+                            // by a ScrollRect Viewport's mask if it's scrolled to the wrong offset
+                            // or its Content/anchors are misconfigured.
+                            if (rt != null)
+                            {
+                                var corners = new Vector3[4];
+                                rt.GetWorldCorners(corners);
+                                Log.LogWarning($"[BD2CompatPatch]     slot world corners: BL={corners[0]} TR={corners[2]}");
+                                var viewportTransform = slotMb.GetComponentsInParent<RectTransform>(true)
+                                    .FirstOrDefault(r => r.GetComponent<Mask>() != null || r.GetComponent<RectMask2D>() != null);
+                                if (viewportTransform != null)
+                                {
+                                    var vpCorners = new Vector3[4];
+                                    viewportTransform.GetWorldCorners(vpCorners);
+                                    Log.LogWarning($"[BD2CompatPatch]     nearest mask '{viewportTransform.name}' world corners: BL={vpCorners[0]} TR={vpCorners[2]}");
+                                    bool overlaps = corners[0].x < vpCorners[2].x && corners[2].x > vpCorners[0].x && corners[0].y < vpCorners[2].y && corners[2].y > vpCorners[0].y;
+                                    Log.LogWarning($"[BD2CompatPatch]     slot overlaps its mask's visible area: {overlaps}{(overlaps ? "" : " <== LIKELY CLIPPED OUT OF VIEW, this is probably the real bug")}");
+                                }
+                            }
+                        }
+                        else
+                        {
+                            Log.LogWarning($"[BD2CompatPatch]     slot value is not a MonoBehaviour: {entry.Value?.GetType().FullName ?? "null"}");
+                        }
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning($"[BD2CompatPatch] SetProgressQuestDiagnosticPostfix failed: {e.Message}");
+            }
+        }
+
+        private static void AddProgressQuestDiagnosticPrefix(int __0, bool __1)
+        {
+            Log.LogWarning($"[BD2CompatPatch] AddProgressQuest called: questId={__0}, arg1={__1}");
         }
 
         // See the registration comment above (near "DIAGNOSTIC (2026-09-29)") for the full story.
