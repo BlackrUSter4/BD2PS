@@ -3183,7 +3183,68 @@ system HTTP proxy re-enabled (`ProxyEnable` had reverted to disabled and
 mitmdump wasn't running at all -- this alone was blocking login entirely,
 independent of the gate/hut bug; ordinary variant of the documented
 "mitmdump degrades silently" operational reminder, just compounded by the
-proxy toggle also being off). **Still needs an actual live walk-into-the-
-hut-with-Auto-Mode-on retest** -- this session ran out before that
-happened; next session should treat this as the first real test of the
-fix, not a re-verification, since the previous "fix" never really existed.
+proxy toggle also being off).
+
+### Follow-up correction: the plain names ARE real, but only the game's own Mono runtime can see them -- not this dev machine's build tooling
+
+Live test confirmed the getter patch itself works (many real
+`"underlying gate data missing -- returning MapId=0"` log lines walking
+pack21). But `SafeMoveMapGatePrefix` started failing differently:
+`[Warning: HarmonyX] AccessTools.Property: Could not find property for
+type GateSpotData and name MapPositionData`. Attempted the obvious
+"better" fix -- direct compile-time C# access (`__0.MapPositionData`)
+instead of any string-based reflection, since `BD2CompatPatch.csproj`
+already references `Assembly-CSharp.dll` directly. **That failed to even
+compile**: Roslyn (via this machine's `dotnet build`) reports
+`GateSpotData` has no such member at all, for `MapPositionData`, `MapID`,
+*and* `CurrentMapData` alike.
+
+So there are now two *different* disagreements, not one:
+1. `ilspycmd -t`/`-l`/`-m` (ICSharpCode.Decompiler, modern .NET 8 tooling)
+   -- shows garbled names for these members.
+2. `dotnet build`/Roslyn (also modern .NET 8 SDK tooling, run on this same
+   dev machine) -- can't see these members at all under either name.
+3. A standalone `System.Reflection.MetadataLoadContext` probe (also
+   modern .NET 8) -- sees the plain names fine.
+4. The live game's own Mono/.NET-Framework runtime reflection (what
+   HarmonyX actually runs on once loaded into the BepInEx-patched game)
+   -- also sees the plain names fine, proven by the getter patch and its
+   registration (`GetMethod("get_MapPositionData", ...)`) both working
+   live, repeatedly, all night.
+
+Working theory, not fully confirmed: this assembly's string heap uses
+some obfuscator-driven compression/overlap trick that old-style Mono/.NET
+Framework metadata readers (#3/#4 above... only #4 is old-style, #3 is
+also modern .NET 8 yet still gets it right, so it's not simply "old vs
+new") handle differently from whatever `ilspycmd`'s friendly resolver and
+Roslyn's own metadata import both do. Not chased to a definitive root
+cause -- **the pragmatic rule going forward: trust runtime behavior over
+any static tool's output for this specific assembly.** If a Harmony patch
+registration or reflection call *actually succeeds live* (confirmed via
+its own log line), that name is correct, full stop, regardless of what
+any decompiler or the local compiler says about it. Conversely, don't
+reach for direct C# member access against `Assembly-CSharp.dll` types in
+`BD2CompatPatch.csproj` even when a member is confirmed real and
+public -- it may not compile here even though it works at runtime in the
+actual game. Also specifically avoid `AccessTools.Property(...)` for any
+member this plugin has *also* Harmony-patched elsewhere -- plain
+`Type.GetMethod("get_X", ...)`/`Type.GetProperty("X", ...)` + `Invoke`/
+`GetValue` has been reliable everywhere it's been tried tonight;
+`AccessTools.Property` specifically broke on exactly the one member this
+plugin also patches with a prefix, which may or may not be a coincidence.
+
+Reverted `SafeMoveMapGatePrefix` to `Type.GetMethod("get_MapPositionData",
+...)` + `Invoke` (matching the getter-patch registration's own proven
+style) instead of `AccessTools.Property`. `SafeGateSpotMapPositionDataPrefix`
+was untouched in the end -- it was already using plain `Type.GetProperty`
+reflection from the start and had already been confirmed working live: no
+regression, no change needed there.
+
+Rebuilt, redeployed. The live client had the previous build's DLL locked
+(a genuinely hung session from testing the prior attempt) -- closed it to
+free the file before copying the new one. Server and mitmdump both still
+up from before. **Still needs an actual live walk-into-the-hut-with-Auto-
+Mode-on retest with this newest build** -- every previous attempt tonight
+either no-op'd silently or hit a still-broken piece; this is the first
+build where both known-broken pieces are fixed and confirmed to at least
+compile/deploy. Treat the next session's first test as the real one.

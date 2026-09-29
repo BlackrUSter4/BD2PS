@@ -1472,17 +1472,27 @@ namespace BD2CompatPatch
         {
             try
             {
-                var mapPosProp = AccessTools.Property(typeof(GateSpotData), "MapPositionData");
-                object mapPos = mapPosProp?.GetValue(__0);
+                // NOT AccessTools.Property(typeof(GateSpotData), "MapPositionData") -- confirmed
+                // live that this specific Harmony helper mysteriously fails to find the property
+                // ("AccessTools.Property: Could not find property for type GateSpotData and name
+                // MapPositionData") once SafeGateSpotMapPositionDataPrefix (below) patches that same
+                // getter, even though the property really does exist and a plain
+                // GetMethod("get_MapPositionData", ...) by name finds and Invokes it fine (also
+                // confirmed live -- that's exactly how the registration below finds it). Direct C#
+                // access (`__0.MapPositionData`) doesn't work either: BD2CompatPatch.csproj's own
+                // Roslyn compile-time reference to Assembly-CSharp.dll doesn't see this member at
+                // all (compile error), even though it's really there and the game's own Mono runtime
+                // reflection finds it fine once loaded live -- see the longer note in
+                // SafeGateSpotMapPositionDataPrefix. So: plain GetMethod + Invoke, matching the style
+                // that's actually proven working, not AccessTools.Property and not direct access.
+                var mapPositionDataGetterM = typeof(GateSpotData).GetMethod("get_MapPositionData", BindingFlags.Public | BindingFlags.Instance);
+                object mapPos = mapPositionDataGetterM?.Invoke(__0, null);
+                var mapIdProperty = mapPos?.GetType().GetProperty("MapId");
+                int mapId = mapIdProperty != null ? (int)mapIdProperty.GetValue(mapPos) : 0;
                 // The getter itself is now patched safe (see SafeGateSpotMapPositionDataPrefix) and
                 // will no longer throw here -- but it fails safe to MapId=0 rather than skipping
                 // silently, so this call site still needs to recognize that as "broken" itself,
-                // exactly like it used to recognize the exception. Read via reflection since __0's
-                // static type here is the real GateSpotData already.
-                // MapPositionData.MapId is an auto-property (compiles to a get_MapId method plus a
-                // hidden backing field), not a plain field -- GetProperty, not GetField.
-                var mapIdProperty = mapPos?.GetType().GetProperty("MapId");
-                int mapId = mapIdProperty != null ? (int)mapIdProperty.GetValue(mapPos) : 0;
+                // exactly like it used to recognize the exception.
                 if (mapId <= 0)
                 {
                     Log.LogWarning("[BD2CompatPatch] GameFieldManager.MoveMap(GateSpotData): this gate's destination data is broken (MapId<=0) -- skipping the transition instead of freezing the player.");
@@ -1509,6 +1519,19 @@ namespace BD2CompatPatch
         {
             try
             {
+                // NOTE: BD2CompatPatch.csproj's own compile-time reference to Assembly-CSharp.dll
+                // (via `dotnet build`/Roslyn) does NOT see MapID/CurrentMapData/MapPositionData as
+                // members of GateSpotData at all -- direct C# access to them is a compile error here,
+                // even though the live game's own Mono runtime reflection (what HarmonyX actually
+                // uses once this plugin is loaded) finds and uses them correctly, confirmed live:
+                // this exact reflection lookup already produced many successful
+                // "underlying gate data missing -- returning MapId=0" log lines in real play.
+                // Best guess: Roslyn/ilspycmd (both modern .NET 8 tooling) and the old-school
+                // Mono/.NET-Framework runtime the game itself runs on parse this specific
+                // assembly's string heap differently -- possibly an obfuscator heap-compression
+                // trick the two disagree on. Since the RUNTIME reflection is the one that actually
+                // matters (that's what's really executing), stick with plain Type.GetProperty
+                // string lookups here rather than compile-time member access.
                 var type = __instance.GetType();
                 var mapIdProp = type.GetProperty("MapID", BindingFlags.Public | BindingFlags.Instance);
                 var dataProp = type.GetProperty("CurrentMapData", BindingFlags.Public | BindingFlags.Instance);
