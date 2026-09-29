@@ -3271,13 +3271,7 @@ namespace BD2CompatPatch
                             try
                             {
                                 Log.LogInfo($"[BD2CompatPatch] {label}: no more bools to flip after {frame} frames but still not progressing -- dumping full top-level state machine field state:");
-                                foreach (var f in inner.GetType().GetFields(BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic))
-                                {
-                                    object v;
-                                    try { v = f.GetValue(inner); }
-                                    catch (Exception ex) { v = $"<threw: {ex.Message}>"; }
-                                    Log.LogInfo($"[BD2CompatPatch]   {inner.GetType().Name}.{f.Name} ({f.FieldType.Name}) = {v}");
-                                }
+                                DumpObjectFieldsRecursive(inner, 0, 2);
                             }
                             catch (Exception e)
                             {
@@ -3731,6 +3725,30 @@ namespace BD2CompatPatch
                 Log.LogWarning($"[BD2CompatPatch] TryForceStuckBoolFlags reflection failed: {e.Message}");
             }
             return flipped;
+        }
+
+        // Dumps every field on `obj`, and recurses into non-null reference-typed fields that look
+        // like compiler-generated closures/state machines (name contains "<" or "DisplayClass") up
+        // to `maxDepth` levels -- deliberately excludes UnityEngine.Object-derived values (a
+        // GameFieldManager `<>4__this` self-reference would otherwise pull in the entire live game
+        // state) so this stays targeted at the small, purpose-built capture objects a stuck
+        // `while(...) yield return null;` loop's condition actually depends on.
+        private static void DumpObjectFieldsRecursive(object obj, int depth, int maxDepth)
+        {
+            if (obj == null || depth > maxDepth) return;
+            string indent = new string(' ', (depth + 1) * 2);
+            foreach (var f in obj.GetType().GetFields(BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic))
+            {
+                object v;
+                try { v = f.GetValue(obj); }
+                catch (Exception ex) { v = $"<threw: {ex.Message}>"; }
+                Log.LogInfo($"[BD2CompatPatch] {indent}{obj.GetType().Name}.{f.Name} ({f.FieldType.Name}) = {v}");
+                if (v == null || depth >= maxDepth) continue;
+                if (typeof(UnityEngine.Object).IsAssignableFrom(f.FieldType)) continue;
+                if (f.FieldType.IsPrimitive || f.FieldType == typeof(string)) continue;
+                if (!v.GetType().Name.Contains("<") && !v.GetType().Name.Contains("DisplayClass")) continue;
+                DumpObjectFieldsRecursive(v, depth + 1, maxDepth);
+            }
         }
 
         private static int FlipFalseBoolFields(object obj)
