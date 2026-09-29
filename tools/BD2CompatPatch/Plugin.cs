@@ -3421,6 +3421,40 @@ namespace BD2CompatPatch
                 Singleton<AppManager>.ὪὫὢὨὯὭὦὪὦὨὣ?.SetActiveOutGameUICamera(false);
                 var gfm = UnityEngine.Object.FindObjectOfType<GameFieldManager>();
                 gfm?.SetActiveTrainPlayerCharacters(true);
+                // CONFIRMED live (2026-09-29): the real gate-transition coroutine's own final step
+                // (whichever branch it takes) always ends by calling SetPlayerMoveState(...) --
+                // DontMove or Stop depending on context -- to restore normal control. Abandoning the
+                // coroutine early (the whole point of the stuck-state detection above) means that
+                // final call never runs, so whatever move-lock was applied at the START of the
+                // transition (movement is normally disabled for its whole duration) never gets lifted
+                // -- leaving the player standing frozen, unable to walk anywhere, even though clicks
+                // still register fine. MoveController's own move-state enum type name is obfuscated,
+                // so resolve it by its real, stable member names (Moving/DontMove/Stop/Anchored)
+                // rather than guessing the type's own name, then call the real, non-obfuscated
+                // GameFieldManager.SetPlayerMoveState(...) with Stop -- the same "idle but
+                // controllable" state the real coroutine's own most common path already uses.
+                try
+                {
+                    var moveStateEnumType = typeof(MoveController).GetNestedTypes(BindingFlags.Public | BindingFlags.NonPublic)
+                        .FirstOrDefault(t => t.IsEnum && new[] { "Moving", "DontMove", "Stop", "Anchored" }.All(n => Enum.GetNames(t).Contains(n)));
+                    var setPlayerMoveStateMethod = moveStateEnumType != null
+                        ? AccessTools.Method(typeof(GameFieldManager), "SetPlayerMoveState", new[] { moveStateEnumType })
+                        : null;
+                    if (gfm != null && setPlayerMoveStateMethod != null)
+                    {
+                        object stopValue = Enum.Parse(moveStateEnumType, "Stop");
+                        setPlayerMoveStateMethod.Invoke(gfm, new[] { stopValue });
+                        Log.LogInfo("[BD2CompatPatch] Restored player move state to Stop (controllable) after abandoning the stuck coroutine -- otherwise the player would be left frozen in place.");
+                    }
+                    else
+                    {
+                        Log.LogWarning($"[BD2CompatPatch] Could not restore player move state (enumFound={moveStateEnumType != null}, methodFound={setPlayerMoveStateMethod != null}, gfmFound={gfm != null}) -- the player may still be stuck unable to move.");
+                    }
+                }
+                catch (Exception e)
+                {
+                    Log.LogWarning($"[BD2CompatPatch] Failed to restore player move state: {e.Message}");
+                }
                 var findUiOpen = typeof(ὩὭὨὪὨὨὮὣὪὣὥ)
                     .GetMethods(BindingFlags.Public | BindingFlags.Static)
                     .FirstOrDefault(m => m.Name == "ὤὨὪὥὩὦὫὨὩὫὥ" && m.IsGenericMethodDefinition && m.GetParameters().Length == 0);
