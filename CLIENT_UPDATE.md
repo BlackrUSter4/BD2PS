@@ -4122,3 +4122,29 @@ While preparing to test the fix above, discovered this session had briefly launc
 ### 4. Standing process change: reset quest state before every story-related retest
 
 Per explicit instruction ("reset the story to test it, always do this"), resetting the relevant `UserQuest` row(s) back to Status=1/Progress=0/RewardClaimed=0 (with a DB backup taken first) is now a standard step before every story/quest-progression retest, done proactively rather than on request.
+
+## Session 2026-09-29 (continued, late evening): chief's-house-path gate stall -- mitigated but NOT root-caused; quest-trigger gap found
+
+**Checkpoint marker**: `gate-stall-mitigated-quest-trigger-gap` (git tag). This entry documents an honest, in-progress state -- the underlying bug is still not understood, only its worst symptoms have been contained.
+
+### The bug
+
+Every gate transition on the path from the starting house to the chief's house (`Gate_1_4_1`, `Gate_4_1_1`, `Gate_1_5_1` -- leaving the starting house and entering the chief's house) can hit a genuine, unrecoverable internal stall inside `GameFieldManager`'s gate-transition coroutine. Confirmed live via a purpose-built recursive field-dump diagnostic (patched into the coroutine wrapper this session): a NESTED closure (captured as `<>8__1` on the outer coroutine's own state machine) gets stuck forever at its own internal `<>1__state == 3`, with a captured local field named `spot` (type `GateSpotData`) permanently `null`. Once stuck there, nothing further happens -- `<>2__current` reads back as a bare `null` every single frame, meaning the closure is spinning on a plain `yield return null;` whose guard condition depends on `spot` (or something reachable only through it) never becoming true.
+
+**This is NOT the same bug as the earlier-documented "underlying gate data missing" issue** (the `SafeGateSpotMapPositionDataPrefix` "stay where you are" fallback) -- that one is about the GATE's OWN `MapPositionData`/`FieldGateTable` row being incomplete, already patched around. This is a SEPARATE, later step -- something that's supposed to look up or receive a real `GateSpotData` representing the *interior's own start spot* so the player can be positioned there, and that lookup/assignment never succeeds.
+
+**Root cause still unknown.** The field name `spot` and the closure's own type name (`ὭὦὧὢὪὠὣὢὯὤὡ`, obfuscated) do not appear ANYWHERE in the cached ilspycmd decompile at `%TEMP%\bd2_decompile\out\` -- a version-mismatch gap between that decompile snapshot and this live client build, the same class of gotcha documented earlier this project for other obfuscated identifiers, just total this time rather than a name mismatch. Static analysis cannot resolve this; it needs more live reflection data than has been captured so far.
+
+### What's been mitigated (not fixed)
+
+1. **Wait time cut from 20s to ~9s**: the existing "abandon after 20s" watchdog only ever kicked in at the full 20s mark. Added direct detection of this specific stall shape (same internal `<>1__state` value repeating across 2+ consecutive 3s-interval bool-flip retries with nothing left to flip) and abandon immediately once detected, since bool-flipping has now been proven live to be structurally incapable of resolving this stall (the one real bool involved, `isMoveStartMap`, gets forced true within the first ~3s but changes nothing afterward).
+2. **Player movement restored after abandonment**: previously, abandoning the coroutine left the player's move-state exactly where the stall left it (movement disabled for the whole transition), so the player was stuck standing frozen in place even though clicks still registered fine. Now explicitly restores `GameFieldManager.SetPlayerMoveState(Stop)` (the same "idle but controllable" state the coroutine's own healthy path already uses) as part of recovery.
+3. **Two separate stuck-overlay mechanisms force-closed directly**: the generic "Now Loading" root (`GameCameraManager`'s own `_objEventLoadingRoot`, driven by `SetLoadingUI`) and the generic full-screen "Black" fade/blur overlay (`SetActiveSceneMoveUI`/`SetActiveSceneMoveUIBlur`) were BOTH confirmed live to still be showing after abandonment, even though each already had its own separate watchdog elsewhere in this file -- neither fired in time (or at all) for this specific stall. Rather than continue relying on those separate watchdogs, both are now force-closed directly and immediately as part of the same abandon-recovery.
+
+### Newly found gap: the quest trigger never fires either
+
+Since recovery works by *abandoning* the stuck coroutine rather than letting it complete, whatever quest-progression logic is meant to run as part of that SAME coroutine chain (this exact gate is where the pack1 story quest is supposed to advance) never runs either. Confirmed live: quest 1 stayed at `Status=1` (in-progress, completely unchanged) even after the player successfully entered the chief's house on a run where the stall-detection-and-recovery fired. The recovery prevents the freeze but is not a substitute for the coroutine's real, intended behavior -- entering the house currently "works" only in the sense that the player isn't stuck anymore, not in the sense that the story actually progresses.
+
+### Next step
+
+A recursive (now 2-level-deep) field dump was added this session specifically to inspect `<>8__1`'s own captured fields (whatever real data the nested closure holds -- very possibly a target spot NAME string, or a list of candidate spots, that would explain exactly why the `spot` lookup fails) on the NEXT test capture. This is queued but not yet captured/read as of this checkpoint -- the honest state is "we have a promising diagnostic in flight, not yet an answer."
