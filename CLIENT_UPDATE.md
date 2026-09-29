@@ -3413,3 +3413,53 @@ whether this was contributing to any of tonight's other flakiness
 (`서버 정보 요청 타임아웃` / "server info request timeout" messages seen
 earlier could easily be this exact bug on `ServerInfo` itself) -- worth
 watching for those messages specifically disappearing on the next test.
+
+### Found the actual root cause of "can't enter house" via live IL disassembly
+
+User pushed back on leaving "can't enter" as a known-acceptable
+remaining issue -- correctly; kept going. Static decompilation of
+`GameFieldManager`'s coroutine classes was a dead end (hundreds of
+nested compiler-generated types, none reliably named by any static
+tool). Instead, added ground-truth diagnostics that run entirely inside
+the LIVE game process: parse the IL byte offset Mono's own stack trace
+already reports (`[0x0007e]`), read the real IL of the exact method that
+threw via the standard `MethodBase.GetMethodBody()` reflection API (no
+external tool), and do a proper instruction-by-instruction disassembly
+(via `System.Reflection.Emit.OpCodes`' own static fields as the opcode
+table) around that offset, resolving any field/method/type tokens
+through the same live module.
+
+First pass showed the reported offset landing on a harmless
+`ldc.i4.1` -- but the FULL disassembly right up to that point told the
+whole story:
+```
+ldfld    spot
+callvirt GateSpotData.get_MapPositionData      <- confirmed safe now (getter patch works)
+stfld    mapPositionData
+ldarg.0
+call     GameCameraManager.get_Instance
+ldc.i4.1                                        <== Mono's reported offset
+callvirt GameCameraManager.GetTimelineWaitForSeconds
+```
+`callvirt` null-checks its receiver before dispatching -- so
+`GameCameraManager.Instance` is null at exactly this point, and the
+`GetTimelineWaitForSeconds` call throws before ever running (Mono
+reports the offset of the *next* instruction after the presumably-
+inlined `get_Instance`, not literally the callvirt's own address, which
+is why the first pass's naive index landed one instruction early).
+Real map transitions apparently re-establish this singleton somewhere
+else in their own lifecycle before this call runs; the "stay on your own
+current map" redirect (the actual freeze fix) skips whatever normally
+does that, since it's not really transitioning maps at all.
+
+**Fix**: patched `GameCameraManager.GetTimelineWaitForSeconds` itself
+(found and resolved with total certainty via the live disassembly, not
+a guess) with a prefix that skips the call and returns a safe `null`
+`WaitForSeconds` when `Instance` is null -- exact same shape as the
+already-proven `SafePlayDirectorPrefix` just above it. Rebuilt,
+redeployed. This is the first fix in this whole saga built from a
+100%-certain, live-verified root cause rather than a name guess or a
+structural workaround -- genuinely expect this one to let house entry
+actually succeed, not just fail safely. Next test should confirm: no
+more `EXCEPTION out of GameFieldManager.<gate-move-coroutine>` at all,
+and the house should actually open.

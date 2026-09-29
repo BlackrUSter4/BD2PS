@@ -706,6 +706,37 @@ namespace BD2CompatPatch
                 Log.LogWarning($"[BD2CompatPatch] Failed to patch GameCameraManager.PlayDirector: {e.Message}");
             }
 
+            // Confirmed root cause of "can move and back out but can't enter house": the live IL
+            // crash-site diagnostic (LogCrashLocationAndCapturedState) pinpointed the gate-move
+            // coroutine's NullReferenceException to a `callvirt GameCameraManager.
+            // GetTimelineWaitForSeconds` right after `call GameCameraManager.get_Instance` -- i.e.
+            // GameCameraManager.Instance is null at exactly this point (the singleton hasn't been
+            // (re)assigned yet, or was cleared, specifically when the gate-move coroutine redirects
+            // to the player's own current map rather than a genuinely different one -- a normal
+            // cross-map transition apparently re-establishes this singleton reference somewhere
+            // else in its own lifecycle before this call, which the "stay where you are" redirect
+            // bypasses). Same shape as the already-proven SafePlayDirectorPrefix below: skip the
+            // call entirely and return a safe null WaitForSeconds instead of crashing.
+            try
+            {
+                var cameraManagerType2 = AccessTools.TypeByName("GameCameraManager");
+                var getTimelineWaitMethod = cameraManagerType2?.GetMethod("GetTimelineWaitForSeconds", BindingFlags.Public | BindingFlags.Instance);
+                if (getTimelineWaitMethod != null)
+                {
+                    var safeGetTimelineWaitPrefix = new HarmonyMethod(typeof(Plugin).GetMethod(nameof(SafeGetTimelineWaitForSecondsPrefix), BindingFlags.Static | BindingFlags.NonPublic));
+                    harmony.Patch(getTimelineWaitMethod, prefix: safeGetTimelineWaitPrefix);
+                    Log.LogInfo("[BD2CompatPatch] Patched GameCameraManager.GetTimelineWaitForSeconds to skip when Instance is null instead of crashing the gate-move coroutine.");
+                }
+                else
+                {
+                    Log.LogWarning("[BD2CompatPatch] Could not find GameCameraManager.GetTimelineWaitForSeconds to patch.");
+                }
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning($"[BD2CompatPatch] Failed to patch GameCameraManager.GetTimelineWaitForSeconds: {e.Message}");
+            }
+
             // See SkipBundleDownloadFailedPrefix below for the full story: one dead file on
             // Neowiz's real CDN shouldn't be able to abort the whole "Download All Packs" preload
             // and force-restart the client.
@@ -1688,6 +1719,22 @@ namespace BD2CompatPatch
             catch (Exception e)
             {
                 Log.LogWarning($"[BD2CompatPatch] SafePlayDirectorPrefix check itself failed: {e.Message}");
+            }
+            return true;
+        }
+
+        // See the registration comment above for the full story: pinpointed via the live IL
+        // crash-site diagnostic to a null GameCameraManager.Instance at exactly this call site,
+        // inside the gate-move coroutine, specifically when redirecting to the player's own
+        // current map. Same "skip and return a safe null instead of crashing" shape as
+        // SafePlayDirectorPrefix just above.
+        private static bool SafeGetTimelineWaitForSecondsPrefix(object __instance, ref WaitForSeconds __result)
+        {
+            if (__instance == null)
+            {
+                Log.LogWarning("[BD2CompatPatch] GameCameraManager.GetTimelineWaitForSeconds: GameCameraManager.Instance is null at this call site -- skipping instead of crashing the gate-move coroutine.");
+                __result = null;
+                return false; // skip the original, which would NRE dereferencing a null instance
             }
             return true;
         }
