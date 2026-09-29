@@ -39,6 +39,7 @@ namespace BD2CompatPatch
         // MonoBehaviour (BepInEx only ever creates one instance of a given plugin).
         private static Plugin _instance;
         private static bool _dumpedDownloadPopupButtonRects;
+        private static bool _dumpedQuestTrackerRects;
 
         private void Awake()
         {
@@ -839,6 +840,28 @@ namespace BD2CompatPatch
             catch (Exception e)
             {
                 Log.LogWarning($"[BD2CompatPatch] Failed to patch DownloadPopupUI.RefreshUI: {e.Message}");
+            }
+
+            // ONE-TIME DIAGNOSTIC (2026-09-29, automated click-driving session): clicks and drags on
+            // the field's own "TouchScreen" click-to-move layer are being received (confirmed via the
+            // raycast diagnostic) but produce no visible movement and no SaveUserPosition network
+            // call at all -- log every SetPlayerMoveState call so we can see whether the player is
+            // simply locked in a non-Moving state the whole time, or something else entirely.
+            try
+            {
+                var gfmTypeForMoveState = AccessTools.TypeByName("GameFieldManager");
+                var setMoveStateMethod = gfmTypeForMoveState?.GetMethods(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance)
+                    .FirstOrDefault(m => m.Name == "SetPlayerMoveState" && m.GetParameters().Length == 1);
+                if (setMoveStateMethod != null)
+                {
+                    var moveStateDiagPostfix = new HarmonyMethod(typeof(Plugin).GetMethod(nameof(SetPlayerMoveStateDiagnosticPostfix), BindingFlags.Static | BindingFlags.NonPublic));
+                    harmony.Patch(setMoveStateMethod, postfix: moveStateDiagPostfix);
+                    Log.LogInfo("[BD2CompatPatch] Patched GameFieldManager.SetPlayerMoveState for diagnostic logging (automated click-driving session).");
+                }
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning($"[BD2CompatPatch] Failed to patch SetPlayerMoveState diagnostic: {e.Message}");
             }
 
             // Confirmed root cause of "can move and back out but can't enter house": the live IL
@@ -2014,6 +2037,42 @@ namespace BD2CompatPatch
                     }
                 }
 
+                // ONE-TIME DIAGNOSTIC (2026-09-29, automated click-driving session): need the exact
+                // screen rect of the top-right quest-tracker "auto move" icon to click it precisely
+                // instead of guessing coordinates blindly. Searches every active RectTransform in the
+                // scene (not scoped to one raycaster/canvas, since we don't know which canvas owns it
+                // yet) whose name suggests quest/auto-move UI, once, the first time any click happens
+                // after the field has loaded.
+                if (isClick && !_dumpedQuestTrackerRects && __instance.name == "GameFieldDefaultUI(Clone)")
+                {
+                    _dumpedQuestTrackerRects = true;
+                    try
+                    {
+                        var allRects = UnityEngine.Object.FindObjectsOfType<RectTransform>(false);
+                        foreach (var rt in allRects)
+                        {
+                            var n = rt.name;
+                            if (n.IndexOf("auto", StringComparison.OrdinalIgnoreCase) < 0
+                                && n.IndexOf("quest", StringComparison.OrdinalIgnoreCase) < 0
+                                && n.IndexOf("progress", StringComparison.OrdinalIgnoreCase) < 0)
+                            {
+                                continue;
+                            }
+                            var canvas = rt.GetComponentInParent<Canvas>();
+                            var cam = canvas != null ? canvas.worldCamera : null;
+                            var corners = new Vector3[4];
+                            rt.GetWorldCorners(corners);
+                            Vector2 screenMin = RectTransformUtility.WorldToScreenPoint(cam, corners[0]);
+                            Vector2 screenMax = RectTransformUtility.WorldToScreenPoint(cam, corners[2]);
+                            Log.LogWarning($"[BD2CompatPatch] Quest-tracker candidate: '{rt.gameObject.name}' (parent canvas='{canvas?.name}') active={rt.gameObject.activeInHierarchy} screenMin={screenMin} screenMax={screenMax} center=({(screenMin.x + screenMax.x) / 2f},{(screenMin.y + screenMax.y) / 2f})");
+                        }
+                    }
+                    catch (Exception e)
+                    {
+                        Log.LogWarning($"[BD2CompatPatch] Quest-tracker rect dump failed: {e.Message}");
+                    }
+                }
+
                 // ROOT CAUSE of "literally every click in the game does nothing, on every screen":
                 // confirmed via the diagnostic above -- across dozens of clicks on completely
                 // different screens (field, popups), the raycast hit list is topped by one of a
@@ -2450,6 +2509,22 @@ namespace BD2CompatPatch
             catch (Exception e)
             {
                 Log.LogWarning($"[BD2CompatPatch] AutoConfirmDownloadPostfix failed: {e.Message}");
+            }
+        }
+
+        // See the registration comment above (near "clicks and drags on the field's own
+        // "TouchScreen" click-to-move layer") for the full story. `__0` is the MoveController move
+        // -state enum argument -- log its raw int value plus name so we can see it without knowing
+        // the enum's own (obfuscated) type at compile time.
+        private static void SetPlayerMoveStateDiagnosticPostfix(object __0)
+        {
+            try
+            {
+                Log.LogInfo($"[BD2CompatPatch] SetPlayerMoveState called: value={__0} (int={Convert.ToInt32(__0)})");
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning($"[BD2CompatPatch] SetPlayerMoveStateDiagnosticPostfix failed: {e.Message}");
             }
         }
 
