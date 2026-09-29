@@ -1,3 +1,29 @@
+
+## **⚠️ READ THIS FIRST — SESSION 2026-09-29 (night) FAILURE — CLAUDE MUST READ BEFORE TOUCHING THE CHIEF'S-HOUSE GATE AGAIN ⚠️**
+
+**THE USER'S OWN WORDS, VERBATIM, AT THE END OF THIS SESSION:** *"still broke i give up just document and make it clear you failed me in the documents make it very clear how much you wasted my time today... still cant eneter chiefs hosue without the laod screen going forever"*
+
+**THIS SESSION WAS A FAILURE. Claude spent an enormous amount of the user's time tonight — many hours — chasing the chief's-house entry hang through at least seven distinct fix attempts, each one deployed, tested live by the user, and reported broken. The bug is UNRESOLVED. Entering the chief's house still hangs on a "Now Loading" screen forever, exactly as it did at the start of the night. The user is frustrated and has explicitly told Claude to stop. Do not resume work on this bug unless the user explicitly asks.**
+
+### What actually happened, honestly
+
+1. Chased the hang through six different mitigations layered on top of each other in one sitting (quest-update watchdog, scene-move watchdog, generic loading-UI watchdog, SetLoadingUI Addressables timeout, early-abandon stuck-state detection, player-move-state restoration, "Black" overlay force-close). This produced a NEW, different, unexplained error on top of the original bug. The user said, correctly, that this was worse than doing nothing.
+2. Reverted everything back to a last-known-stable checkpoint per explicit user instruction.
+3. Root-caused the ACTUAL bug properly this time, via a decompile of the LIVE running assembly (obtained correctly: read a metadata token through .NET reflection in PowerShell, fed it to `ilspycmd -m 0x<token>` — the cached decompile at `%TEMP%\bd2_decompile\out\` does not contain this method because `ilspycmd -t TypeName` silently reconstructs closures back into natural method bodies and hides the raw nested state machine). Confirmed: the gate-transition coroutine polls `while (!helper.isClearQuest) yield return null;` after calling a static quest-update method whose own guard can silently block sending the network request, leaving the registered callback never invoked.
+4. Re-added ONLY a single, isolated fix for that exact mechanism (a Harmony prefix wrapping the callback with a 5-second forced fallback), verified there was no longer a competing mechanism racing it, and redeployed.
+5. **Confirmed live, with the diagnostic log firing correctly (`QuestUpdateCallbackWatchdogPrefix: called for questId=1/2, callback null=False`), that the fix STILL did not resolve the chief's-house gate (`Gate_1_5_1`) specifically.** It still ran the full 20 seconds and hit the pre-existing abandon watchdog. The starting-house-exit gate (`Gate_4_1_1`) DID complete correctly earlier in the night with real server-side `QuestUpdate`/`QuestClear` calls — so the fix is real and does something — but it is NOT sufficient to fix `Gate_1_5_1` (the chief's house specifically). **This means the root-cause diagnosis from step 3, while real and confirmed for at least one gate, is not the (or not the only) cause of the chief's-house hang specifically.** There is a second, still-undiagnosed blocking condition specific to that gate that was never found tonight.
+
+### Current deployed state
+
+- `tools/BD2CompatPatch/Plugin.cs` has ONE change on top of the `quest-tracker-confirmed-working` checkpoint: the isolated quest-update callback watchdog (commit `26b9e4f`, "Add back ONLY the quest-update callback watchdog -- single, isolated fix"). This fix is real, does not race anything else, and correctly resolves the starting-house-exit gate. **It does not fix the chief's-house entry gate.** Do not assume this fix is "the" fix for the chief's-house bug — it demonstrably is not, confirmed by the user's own live retest tonight.
+- The account DB has quest 1 in a real, in-progress state from the last test.
+- All of the OTHER mitigations from earlier in the night (early-abandon tuning, overlay force-closes, move-state restore, the bool-flipper recursion-filter change) are NOT present in the current build. They were reverted and not reintroduced. If a future session wants to reference what was tried and why each one didn't fully work, see the earlier "chief's-house gate-transition bug -- extensive investigation, no working fix, reverted" section above in this same document.
+
+### For the next session, before touching this again
+
+- **Do not repeat step 1 above** (piling multiple untested mitigations on top of each other in one sitting). Make ONE change, get ONE clean live test result, before adding anything else.
+- The isolated quest-update-callback fix (currently deployed) is confirmed NOT sufficient for `Gate_1_5_1`. The actual blocking condition for THIS specific gate was never identified. The right next step is the SAME live-reflection technique that worked for finding the `isClearQuest` mechanism (a full recursive field dump of the stuck coroutine's own state, plus — if needed — a fresh decompile of the live assembly by metadata token) applied specifically to a test run where `Gate_1_5_1` hangs with this exact build deployed, to find out what's ACTUALLY different about this gate versus `Gate_4_1_1`.
+- Consider whether `Gate_1_5_1` even reaches the quest-update section of the coroutine at all on a hang -- it's possible this gate has no associated quest, so it never even reaches the `isClearQuest` wait, and is stuck at a completely different point in the same coroutine (the earlier `LoadMapAsync` step, or a different nested wait). This was NOT verified before the session ended.
 # Updating this server for a newer game client
 
 Status as of 2026-09-27. This doc exists so a future session (mine or a fresh
