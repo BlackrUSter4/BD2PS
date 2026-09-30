@@ -7,8 +7,10 @@ use bd2::proto::proto_net::{
 use data::exceldb;
 use database::db::char::char_info::{get_char_info, insert as insert_char};
 use database::db::costume::costume_info::{get_costume_info, insert as insert_costume};
+use database::db::recipe::recipe_info as recipe_db;
 use database::models::game::char::char_info::CharInfo;
 use database::models::game::costume::costume_info::CostumeInfo;
+use database::models::game::recipe::recipe_info::RecipeInfo;
 use sqlx::SqlitePool;
 
 /// Reward item types that need a real, playable DB row instead of a generic ItemInfo stack --
@@ -53,6 +55,27 @@ pub async fn handle_quest_clear(
         // clearing an uncaptured quest still feels like progress rather than a dead end.
         let placeholder_reward = QuestReward { item_id: 0, item_type: 4, count: 500 };
         let granted_items = add_items_to_inventory(pool, uid, std::slice::from_ref(&placeholder_reward)).await?;
+
+        // Real root cause found live (2026-09-30): this account's cooking recipes never
+        // unlocked because the story quest that's supposed to introduce cooking (quest 5, "I'll
+        // cook, get the ingredients") is itself in this same captured-data gap -- its REAL
+        // reward almost certainly unlocks the beginner recipe set, but we have no way to
+        // recover what that reward actually was. Rather than require a manual DB grant every
+        // time this quest is reset and re-cleared, reproduce that unlock here directly (the
+        // same six talentLevel-1 recipes for pack1, matching CookingResearchRequest's own
+        // real, already-implemented unlock path) so a fresh or reset account gets it
+        // automatically going forward.
+        if quest_id == 5 {
+            for (seq, recipe_id) in [101, 102, 103, 104, 105, 106].into_iter().enumerate() {
+                if !recipe_db::is_unlocked(pool, uid, recipe_id).await.unwrap_or(false) {
+                    let _ = recipe_db::add_recipe_info(
+                        pool,
+                        &RecipeInfo { index: 0, uid, seq: Some(seq as i32 + 1), recipe_id },
+                    )
+                    .await;
+                }
+            }
+        }
         // CORRECTION (2026-09-30): `quest_info: None` here crashed the CLIENT with a
         // NullReferenceException inside TimelinePlayManager's QuestClearResponse handler --
         // confirmed live via the client's own crash report (sent to /sendmail as a side effect,
