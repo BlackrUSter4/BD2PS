@@ -70,6 +70,14 @@ namespace BD2CompatPatch
                     TryOpenGachaDirectly();
                 }
                 _heartbeatFrameCount++;
+                // DEBUG (2026-09-30): temporarily unconditional so the corrupted-cutscene camera
+                // diagnostic can fire even before GameFieldManager exists (the corruption is
+                // visible during a pre-field story/intro sequence, confirmed live -- the
+                // GameFieldManager-gated version never captured it across several retests).
+                if (_heartbeatFrameCount % 60 == 0)
+                {
+                    DumpFullscreenGraphicsOnce();
+                }
                 if (_heartbeatFrameCount % 60 == 0 && UnityEngine.Object.FindObjectOfType<GameFieldManager>() != null)
                 {
                     // Cheap/lightweight only -- the full recovery (SetActiveTrainPlayerCharacters,
@@ -3353,6 +3361,70 @@ namespace BD2CompatPatch
             }
         }
 
+        private static bool _dumpedFullscreenGraphics;
+
+        // Diagnostic only (2026-09-30): user reports the intro cutscene's actual visual content
+        // is corrupted (solid overexposed white fill + a hard diagonal black wedge with rainbow/
+        // chromatic fringing along the boundary) even after the stuck-UIRoot-cover fix above --
+        // confirmed live this is a SEPARATE problem, not fixed by neutralizing that cover. Dump
+        // every currently-active Graphic whose RectTransform covers a large fraction of the
+        // screen, plus its sprite/texture name if it has one, to identify what's actually
+        // rendering this rather than guessing further.
+        private static void DumpFullscreenGraphicsOnce()
+        {
+            if (_dumpedFullscreenGraphics) return;
+            try
+            {
+                // CORRECTION: the original size-based filter used RectTransform world-corner
+                // distances as if they were screen pixels -- wrong for any canvas that isn't
+                // Screen Space Overlay (e.g. a world-space canvas driving a Spine portrait
+                // capture, a real possibility here), where world units are a totally different
+                // scale and a genuinely full-screen element could measure as "2 units wide".
+                // Target by ancestry instead, directly matching what raycast diagnostics already
+                // proved is the actual blocking/visible content: anything under a "SpineRoot" or
+                // "UIRoot" named ancestor, regardless of measured size or render mode.
+                var graphics = UnityEngine.Object.FindObjectsOfType<UnityEngine.UI.Graphic>(true);
+                foreach (var g in graphics)
+                {
+                    if (g == null || !g.gameObject.activeInHierarchy) continue;
+                    var t = g.transform;
+                    bool underSuspectRoot = false;
+                    var walk = t;
+                    while (walk != null)
+                    {
+                        if (walk.name == "SpineRoot" || walk.name == "UIRoot")
+                        {
+                            underSuspectRoot = true;
+                            break;
+                        }
+                        walk = walk.parent;
+                    }
+                    if (!underSuspectRoot) continue;
+                    string extra = "";
+                    if (g is UnityEngine.UI.Image img)
+                    {
+                        extra = $"sprite={img.sprite?.name ?? "null"} color={img.color}";
+                    }
+                    else if (g is UnityEngine.UI.RawImage raw)
+                    {
+                        extra = $"texture={raw.texture?.name ?? "null"} color={raw.color}";
+                    }
+                    var canvas = g.canvas;
+                    Log.LogInfo($"[BD2CompatPatch] Suspect Graphic: '{g.gameObject.name}' type={g.GetType().Name} canvas={canvas?.name} renderMode={canvas?.renderMode} sortingOrder={canvas?.sortingOrder} parent={t.parent?.name} {extra}");
+                }
+                foreach (var cam in UnityEngine.Camera.allCameras)
+                {
+                    Log.LogInfo($"[BD2CompatPatch] Camera '{cam.name}': enabled={cam.enabled} gameObjectActive={cam.gameObject.activeInHierarchy} depth={cam.depth} clearFlags={cam.clearFlags} backgroundColor={cam.backgroundColor} cullingMask={cam.cullingMask} pos={cam.transform.position} rotation={cam.transform.eulerAngles} fov={cam.fieldOfView} rect={cam.rect} targetTexture={cam.targetTexture}");
+                }
+                Log.LogInfo($"[BD2CompatPatch] Camera.main={(UnityEngine.Camera.main != null ? UnityEngine.Camera.main.name : "null")}, total allCameras={UnityEngine.Camera.allCamerasCount}");
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning($"[BD2CompatPatch] DumpFullscreenGraphicsOnce failed: {e.Message}");
+            }
+            _dumpedFullscreenGraphics = true;
+        }
+
         private static void TryRecoverBlackScreenAfterFieldLoad(bool closeLoadingUi)
         {
             NeutralizeStuckBlackOverlay();
@@ -3459,7 +3531,7 @@ namespace BD2CompatPatch
                 Log.LogInfo("[BD2CompatPatch] Directly activated camera/character/HUD (black-screen recovery).");
                 foreach (var cam in UnityEngine.Camera.allCameras)
                 {
-                    Log.LogInfo($"[BD2CompatPatch] Camera '{cam.name}': enabled={cam.enabled} gameObjectActive={cam.gameObject.activeInHierarchy} depth={cam.depth} clearFlags={cam.clearFlags} cullingMask={cam.cullingMask} pos={cam.transform.position} targetTexture={cam.targetTexture}");
+                    Log.LogInfo($"[BD2CompatPatch] Camera '{cam.name}': enabled={cam.enabled} gameObjectActive={cam.gameObject.activeInHierarchy} depth={cam.depth} clearFlags={cam.clearFlags} backgroundColor={cam.backgroundColor} cullingMask={cam.cullingMask} pos={cam.transform.position} rotation={cam.transform.eulerAngles} fov={cam.fieldOfView} rect={cam.rect} targetTexture={cam.targetTexture}");
                 }
                 Log.LogInfo($"[BD2CompatPatch] Camera.main={(UnityEngine.Camera.main != null ? UnityEngine.Camera.main.name : "null")}, total allCameras={UnityEngine.Camera.allCamerasCount}");
             }
