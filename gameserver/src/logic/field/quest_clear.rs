@@ -40,10 +40,19 @@ pub async fn handle_quest_clear(
     // determine from missing captured data.
     let Some(quest) = game_data.questtable1.get(quest_id) else {
         tracing::warn!(
-            "QuestClear: quest_id={} not in captured QuestTable1 (data gap) -- marking cleared anyway, no rewards/next_quest available.",
+            "QuestClear: quest_id={} not in captured QuestTable1 (data gap) -- marking cleared, granting a placeholder reward (no real reward data captured for this quest).",
             quest_id
         );
         mark_quest_complete(pool, uid, quest_id).await?;
+        // User report (2026-09-30): a cleared quest with an empty reward bundle reads as "the
+        // quest didn't grant anything" -- confirmed real, not just a display glitch (this
+        // account's own quest 5 clear granted nothing at all). We have no way to know the TRUE
+        // reward for a quest missing from captured data, but every quest in this pack we DO have
+        // real data for (1, 21) grants the same shape of reward: rewardType 4 (currency), a
+        // few hundred units. Grant that same placeholder shape here instead of nothing, so
+        // clearing an uncaptured quest still feels like progress rather than a dead end.
+        let placeholder_reward = QuestReward { item_id: 0, item_type: 4, count: 500 };
+        let granted_items = add_items_to_inventory(pool, uid, std::slice::from_ref(&placeholder_reward)).await?;
         // CORRECTION (2026-09-30): `quest_info: None` here crashed the CLIENT with a
         // NullReferenceException inside TimelinePlayManager's QuestClearResponse handler --
         // confirmed live via the client's own crash report (sent to /sendmail as a side effect,
@@ -55,7 +64,12 @@ pub async fn handle_quest_clear(
         // instead of a real gap. Real content gap in the data, but the RESPONSE must still be a
         // valid, populated message.
         return Ok(QuestClearResponse {
-            reward_info_bundle: Some(RewardDbInfoBundle::default()),
+            reward_info_bundle: Some(RewardDbInfoBundle {
+                item_info: granted_items.clone(),
+                view_item_info: granted_items.clone(),
+                original_item_info: granted_items,
+                ..Default::default()
+            }),
             quest_info: Some(QuestDbInfo {
                 id: Some(quest_id + 1),
                 value: Some(0),
