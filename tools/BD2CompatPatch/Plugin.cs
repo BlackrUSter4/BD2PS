@@ -826,6 +826,68 @@ namespace BD2CompatPatch
                 Log.LogWarning($"[BD2CompatPatch] Failed to patch the prefab-load completion handler: {e.Message}");
             }
 
+            // ROOT CAUSE of the crash-after-every-battle (and, separately, the cooking
+            // currency-icon toast): confirmed via the decompiled source (ὠὪὧὡὤὬὯὡὯὮὧ<T>.
+            // ὦὤὮὪὪὧὩὠὩὭὢ inside ὤὣὪὥὨὡὣὯὧὯὯ) -- this is the generic "GetAsset<T>" load-
+            // completion handler (icons/sprites/textures loaded by address), the sibling of the
+            // GetPrefabAsset/prefab handlers patched above. On op.OperationException != null it
+            // unconditionally THROWS (never calls callback -- its OWN sibling branch for
+            // op.Status==Failed/None just logs a warning and returns without one either, so
+            // skipping the throw entirely matches this method's own established graceful
+            // behavior, not a guess). Whatever screen requested the missing/invalid-key asset
+            // (a reward icon on the post-battle result screen, a currency icon after cooking,
+            // etc.) never gets its completion callback and its UI never resolves -- exactly the
+            // "stuck until forced back to the title screen" symptom, with zero logged exception
+            // text anywhere (the throw happens inside Unity's own Addressables completion-event
+            // dispatch, well outside any of our other diagnostics).
+            //
+            // THIS close to the documented "must NOT patch the open generic" danger above, but
+            // deliberately different from it: that warning is about a patch that bakes in
+            // type-specific behavior (a cast, a typeof(), a strongly-typed field access) which
+            // then gets silently shared across every other reference-type instantiation by the
+            // CLR's canonical generic-code sharing. This prefix does no such thing -- __0 is
+            // read as plain `object` (a boxed AsyncOperationHandle<T>) and every field access
+            // below goes through reflection with no T anywhere in the patch's own code, so the
+            // exact same code path runs identically for every T.
+            //
+            // CONFIRMED LIVE this can't be patched as the open generic method DEFINITION though --
+            // Harmony/Mono refuses with "IL Compile Error (unknown location)" and silently never
+            // applies (registration logs success-looking text but nothing ever actually patches).
+            // Must patch one CLOSED instantiation instead (MakeGenericMethod). Given the earlier
+            // "everything is SpriteAtlas-typed" regression was Mono's shared-generic-code trampoline
+            // applying ONE instantiation's JIT'd body across every OTHER reference-type T too, and
+            // this prefix's body is deliberately identical for every T (no cast, no typeof, nothing
+            // T-specific at all), that same sharing works FOR us here instead of against us: patching
+            // one arbitrary closed instantiation (T=UnityEngine.Object, the loosest type that
+            // satisfies the `where T : UnityEngine.Object` constraint) should cover every other
+            // reference-type T used at any real call site (Sprite, Texture2D, GameObject, etc.)
+            // through that same sharing, without needing to enumerate every T actually used.
+            try
+            {
+                var loaderType = AccessTools.TypeByName("ὤὣὪὥὨὡὣὯὧὯὯ");
+                var getAssetClosureType = AccessTools.Inner(loaderType, "ὠὪὧὡὤὬὯὡὯὮὧ");
+                MethodInfo getAssetCompletionMethod = null;
+                if (getAssetClosureType != null)
+                {
+                    var closedClosureType = getAssetClosureType.MakeGenericType(typeof(UnityEngine.Object));
+                    getAssetCompletionMethod = closedClosureType.GetMethod("ὦὤὮὪὪὧὩὠὩὭὢ", BindingFlags.NonPublic | BindingFlags.Instance);
+                }
+                if (getAssetCompletionMethod != null)
+                {
+                    var gracefulGetAssetFailPrefix = new HarmonyMethod(typeof(Plugin).GetMethod(nameof(GracefulGetAssetFailurePrefix), BindingFlags.Static | BindingFlags.NonPublic));
+                    harmony.Patch(getAssetCompletionMethod, prefix: gracefulGetAssetFailPrefix);
+                    Log.LogInfo("[BD2CompatPatch] Patched the closed GetAsset<UnityEngine.Object> load completion handler (covers every reference-type T via Mono's shared generic code) to log and skip on a missing/invalid asset instead of throwing.");
+                }
+                else
+                {
+                    Log.LogWarning("[BD2CompatPatch] Could not find the generic GetAsset<T> completion handler to patch.");
+                }
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning($"[BD2CompatPatch] Failed to patch the generic GetAsset<T> completion handler: {e.Message}");
+            }
+
             // See SafePlayDirectorPrefix below for the full story: a not-yet-loaded cutscene
             // timeline shouldn't be able to hang the client on the logo splash screen forever.
             try
@@ -1295,6 +1357,56 @@ namespace BD2CompatPatch
             catch (Exception e)
             {
                 Log.LogWarning($"[BD2CompatPatch] Failed to wrap BattleResultUI methods with finalizers: {e.Message}");
+            }
+
+            // NEW bug surfaced live (2026-09-30) once a battle actually reached its first real
+            // character turn: `BattleCharAnimation.SetBattleTurnInfo` throws a
+            // NullReferenceException (Unity's own crash reporter caught it -- "HandleException
+            // Catched"/"CrashReporter Exception Catched" -- since this is a raw uncaught throw
+            // inside a coroutine's MoveNext(), not something any of our other diagnostics tap),
+            // which kills `BattleCharTurn`'s turn-processing coroutine stone dead: no further
+            // turns are ever processed, `BattleUI_FieldBattle` never closes, and the battle is
+            // permanently stuck (worse than the earlier post-battle popup -- there isn't even a
+            // popup this time, just a silent freeze with every click swallowed by the still-alive
+            // battle canvas). Confirmed via the debug line printed right before the throw
+            // ("SetBattleCharData:0:empty : Grid : 0, CharId : 20, CostumeId : 202") that this is
+            // the same missing-captured-data shape as everything else this project -- some
+            // per-character battle-animation lookup for this char/costume combination comes back
+            // empty and the code dereferences it anyway instead of checking first. Same
+            // established fix as FieldObjectBase/LifeObjectBase/BattleResultUI: wrap the whole
+            // class so a missing lookup skips that one step instead of freezing the entire fight.
+            try
+            {
+                var battleCharAnimationType = AccessTools.TypeByName("BattleCharAnimation");
+                if (battleCharAnimationType != null)
+                {
+                    var swallowFinalizerBattleAnim = new HarmonyMethod(typeof(Plugin).GetMethod(nameof(SwallowExceptionFinalizer), BindingFlags.Static | BindingFlags.NonPublic));
+                    int wrappedBattleAnim = 0;
+                    foreach (var m in battleCharAnimationType.GetMethods(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.DeclaredOnly))
+                    {
+                        if (m.IsGenericMethodDefinition || m.IsAbstract) continue;
+                        if (m.IsSpecialName && !(m.Name.StartsWith("get_") || m.Name.StartsWith("set_"))) continue;
+                        if (m.GetParameters().Any(p => p.ParameterType.IsByRef)) continue;
+                        try
+                        {
+                            harmony.Patch(m, finalizer: swallowFinalizerBattleAnim);
+                            wrappedBattleAnim++;
+                        }
+                        catch (Exception patchEx)
+                        {
+                            Log.LogWarning($"[BD2CompatPatch] Failed to wrap BattleCharAnimation.{m.Name}: {patchEx.Message}");
+                        }
+                    }
+                    Log.LogInfo($"[BD2CompatPatch] Wrapped {wrappedBattleAnim} BattleCharAnimation methods with an exception-swallowing finalizer (fixes the battle freezing solid on the first character turn).");
+                }
+                else
+                {
+                    Log.LogWarning("[BD2CompatPatch] Could not find BattleCharAnimation type to wrap with exception-swallowing finalizers.");
+                }
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning($"[BD2CompatPatch] Failed to wrap BattleCharAnimation methods with finalizers: {e.Message}");
             }
 
             // Confirmed live: opening the Characters screen for a pack21 (Knight of Blood /
@@ -2497,6 +2609,32 @@ namespace BD2CompatPatch
                 Log.LogWarning($"[BD2CompatPatch] GracefulPrefabLoadFailurePrefix itself failed: {e.Message}");
             }
             return false; // skip the original, which would throw
+        }
+
+        // Deliberately T-agnostic: __0 is the boxed AsyncOperationHandle<T> taken as plain
+        // `object` (Harmony boxes value-type params for you when the patch parameter is
+        // untyped), and every access below is reflection-only with no T anywhere in this
+        // method's own code -- see the long comment at the patch-registration site for why that
+        // symmetry is what makes patching the OPEN generic definition safe here, unlike the
+        // "must NOT patch" open generics elsewhere in this same loader class.
+        private static bool GracefulGetAssetFailurePrefix(object __instance, object __0)
+        {
+            try
+            {
+                var opType = __0.GetType();
+                var operationException = opType.GetProperty("OperationException")?.GetValue(__0) as Exception;
+                if (operationException == null)
+                {
+                    return true; // no exception -- let the original Status-based handling run untouched
+                }
+                string assetAddress = AccessTools.Field(__instance.GetType(), "assetAddress")?.GetValue(__instance) as string;
+                Log.LogWarning($"[BD2CompatPatch] GetAsset<T> load failed for '{assetAddress}' ({operationException.GetType().Name}: {operationException.Message}) -- skipping instead of throwing so the requesting screen doesn't get stuck.");
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning($"[BD2CompatPatch] GracefulGetAssetFailurePrefix itself failed: {e.Message}");
+            }
+            return false; // skip the original, which would throw (its own callback is never invoked on this branch either way)
         }
 
         // Confirmed live: field entry throws a NullReferenceException inside
