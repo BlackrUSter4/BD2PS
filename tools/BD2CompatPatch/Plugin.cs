@@ -1252,6 +1252,51 @@ namespace BD2CompatPatch
                 Log.LogWarning($"[BD2CompatPatch] Failed to wrap LifeObjectBase methods with finalizers: {e.Message}");
             }
 
+            // User report (2026-09-30): every single field-battle result (win or lose -- confirmed
+            // live, the server's own BattleEnd log shows this happening on every attempt) is
+            // immediately followed by an ErrorMessagePopupUI and, after enough repeats, the client
+            // gets kicked all the way back to the title screen. No exception text is ever logged
+            // for it anywhere (unlike every other crash this session, which at least printed a
+            // DataNotFoundException or a full stack trace) -- meaning whatever's throwing inside
+            // BattleResultUI's own setup isn't going through any of the logging paths this patch
+            // already taps. Same established fix as FieldObjectBase/LifeObjectBase: wrap the whole
+            // class so whatever it's silently choking on (almost certainly yet another missing
+            // captured-data lookup, e.g. a stage-clear-reward or achievement table) degrades to a
+            // skipped step instead of a crash that eventually restarts the client.
+            try
+            {
+                var battleResultUiType = AccessTools.TypeByName("BattleResultUI");
+                if (battleResultUiType != null)
+                {
+                    var swallowFinalizerBattle = new HarmonyMethod(typeof(Plugin).GetMethod(nameof(SwallowExceptionFinalizer), BindingFlags.Static | BindingFlags.NonPublic));
+                    int wrappedBattle = 0;
+                    foreach (var m in battleResultUiType.GetMethods(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.DeclaredOnly))
+                    {
+                        if (m.IsGenericMethodDefinition || m.IsAbstract) continue;
+                        if (m.IsSpecialName && !(m.Name.StartsWith("get_") || m.Name.StartsWith("set_"))) continue;
+                        if (m.GetParameters().Any(p => p.ParameterType.IsByRef)) continue;
+                        try
+                        {
+                            harmony.Patch(m, finalizer: swallowFinalizerBattle);
+                            wrappedBattle++;
+                        }
+                        catch (Exception patchEx)
+                        {
+                            Log.LogWarning($"[BD2CompatPatch] Failed to wrap BattleResultUI.{m.Name}: {patchEx.Message}");
+                        }
+                    }
+                    Log.LogInfo($"[BD2CompatPatch] Wrapped {wrappedBattle} BattleResultUI methods with an exception-swallowing finalizer.");
+                }
+                else
+                {
+                    Log.LogWarning("[BD2CompatPatch] Could not find BattleResultUI type to wrap with exception-swallowing finalizers.");
+                }
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning($"[BD2CompatPatch] Failed to wrap BattleResultUI methods with finalizers: {e.Message}");
+            }
+
             // Confirmed live: opening the Characters screen for a pack21 (Knight of Blood /
             // Chained Soldier 2 collab) character shows the wrong avatar and then hangs on a
             // stuck black transition overlay forever. Root cause is the exact same "log the
