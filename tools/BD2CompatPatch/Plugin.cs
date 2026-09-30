@@ -41,12 +41,113 @@ namespace BD2CompatPatch
         private static bool _dumpedDownloadPopupButtonRects;
         private static bool _dumpedQuestTrackerRects;
 
+        private static int _heartbeatFrameCount;
+
+        // Debug shortcut: press F9 anywhere in the field to jump straight to the Gacha screen
+        // via GachaMainUI.OpenGachaUI(), bypassing story/navigation entirely. Uses the same
+        // generic UI-opener helper (find-or-open a singleton UIBase of type T) already relied on
+        // by TryRecoverBlackScreenAfterFieldLoad.
+        //
+        // Also runs the same black-screen recovery on a ~1s heartbeat whenever a GameFieldManager
+        // is present -- the one-shot per-gate-coroutine recovery calls only cover the exact
+        // moment a specific coroutine exits, but the black screen has been observed recurring
+        // AFTER that point too (e.g. once dialogue closes and the game's own subsequent UI
+        // transition re-enables OutGameUICamera again). Every step inside is idempotent, so
+        // running it repeatedly while in the field is harmless.
+        //
+        // NOTE: this used to be our own MonoBehaviour Update() -- confirmed live (2026-09-29)
+        // that BepInEx never calls it on this plugin instance in this game's specific
+        // Mono/IL2CPP interop setup (F9 never logged, the 60-frame modulo heartbeat never fired
+        // even once across minutes of real gameplay). Piggybacking on UnityEngine.EventSystems.
+        // EventSystem.Update instead -- a real Unity built-in method guaranteed to run every
+        // frame on the main thread in any UGUI game -- sidesteps that mystery entirely.
+        private static void HeartbeatPostfix()
+        {
+            try
+            {
+                if (UnityEngine.Input.GetKeyDown(UnityEngine.KeyCode.F9))
+                {
+                    TryOpenGachaDirectly();
+                }
+                _heartbeatFrameCount++;
+                if (_heartbeatFrameCount % 60 == 0 && UnityEngine.Object.FindObjectOfType<GameFieldManager>() != null)
+                {
+                    // Cheap/lightweight only -- the full recovery (SetActiveTrainPlayerCharacters,
+                    // GameFieldDefaultUI.Init(), etc.) is NOT safe to re-run every second: live
+                    // testing (2026-09-29) showed player movement input stopped working entirely
+                    // after reaching a new area, immediately downstream of this heartbeat starting
+                    // to fire repeatedly there -- almost certainly the repeated forced
+                    // re-activation stomping on the player controller's own state each tick. Only
+                    // the Black-overlay neutralize (genuinely idempotent, touches nothing
+                    // movement-related) belongs on a tight repeating loop; the heavier recovery
+                    // stays one-shot, gated to actual gate-coroutine completion only.
+                    NeutralizeStuckBlackOverlay();
+                    NeutralizeStuckIntroScreen();
+                }
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning($"[BD2CompatPatch] HeartbeatPostfix failed: {e.Message}");
+            }
+        }
+
+        private static void TryOpenGachaDirectly()
+        {
+            try
+            {
+                var uiOpenerType = AccessTools.TypeByName("ὩὭὨὪὨὨὮὣὪὣὥ");
+                var findUiOpen = uiOpenerType?
+                    .GetMethods(BindingFlags.Public | BindingFlags.Static)
+                    .FirstOrDefault(m => m.Name == "ὤὨὪὥὩὦὫὨὩὫὥ" && m.IsGenericMethodDefinition && m.GetParameters().Length == 0);
+                if (findUiOpen == null)
+                {
+                    Log.LogWarning("[BD2CompatPatch] TryOpenGachaDirectly: UI-opener helper method not found.");
+                    return;
+                }
+                var gachaUi = findUiOpen.MakeGenericMethod(typeof(GachaMainUI)).Invoke(null, null) as GachaMainUI;
+                if (gachaUi == null)
+                {
+                    Log.LogWarning("[BD2CompatPatch] TryOpenGachaDirectly: GachaMainUI instance not found/opened.");
+                    return;
+                }
+                (gachaUi as UIBase)?.SetActive(true);
+                var openMethod = typeof(GachaMainUI)
+                    .GetMethods(BindingFlags.Public | BindingFlags.Instance)
+                    .Where(m => m.Name == "OpenGachaUI")
+                    .OrderBy(m => m.GetParameters().Length)
+                    .FirstOrDefault();
+                if (openMethod == null)
+                {
+                    Log.LogWarning("[BD2CompatPatch] TryOpenGachaDirectly: OpenGachaUI method not found.");
+                    return;
+                }
+                var args = openMethod.GetParameters().Select(p => p.HasDefaultValue ? p.DefaultValue : (p.ParameterType.IsValueType ? Activator.CreateInstance(p.ParameterType) : null)).ToArray();
+                openMethod.Invoke(gachaUi, args);
+                Log.LogInfo("[BD2CompatPatch] TryOpenGachaDirectly: called GachaMainUI.OpenGachaUI() directly (F9 shortcut).");
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning($"[BD2CompatPatch] TryOpenGachaDirectly failed: {e}");
+            }
+        }
+
         private void Awake()
         {
             Log = Logger;
             _instance = this;
             var harmony = new Harmony("bd2.compatpatch");
             int patched = 0;
+
+            try
+            {
+                var eventSystemUpdate = AccessTools.Method(typeof(UnityEngine.EventSystems.EventSystem), "Update");
+                harmony.Patch(eventSystemUpdate, postfix: new HarmonyMethod(typeof(Plugin).GetMethod(nameof(HeartbeatPostfix), BindingFlags.Static | BindingFlags.NonPublic)));
+                Log.LogInfo("[BD2CompatPatch] Patched EventSystem.Update for the F9/black-screen-recovery heartbeat.");
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning($"[BD2CompatPatch] Failed to patch EventSystem.Update for heartbeat: {e.Message}");
+            }
 
             var targets = typeof(RawDataManager)
                 .GetMethods(BindingFlags.Public | BindingFlags.Instance | BindingFlags.DeclaredOnly)
@@ -3090,7 +3191,7 @@ namespace BD2CompatPatch
                     // this. Run the same recovery here too so a FUTURE unprotected crash in this
                     // same coroutine degrades to "playable but missing a HUD widget" instead of
                     // "field never finishes loading."
-                    if (label.Contains("GameFieldManager.ὬὭὢὤὥὨὤὦὧὧὤ"))
+                    if (label.Contains("GameFieldManager.ὬὭὢὤὥὨὤὦὧὧὤ") || label.Contains("Gate"))
                     {
                         TryRecoverBlackScreenAfterFieldLoad(closeLoadingUi: true);
                     }
@@ -3128,7 +3229,7 @@ namespace BD2CompatPatch
                     // Whatever this coroutine hasn't finished, at minimum don't leave the player
                     // staring at a stuck loading screen -- force it closed as a last resort so the
                     // field is at least visible/interactable.
-                    if (label.Contains("GameFieldManager.ὬὭὢὤὥὨὤὦὧὧὤ"))
+                    if (label.Contains("GameFieldManager.ὬὭὢὤὥὨὤὦὧὧὤ") || label.Contains("Gate"))
                     {
                         TryRecoverBlackScreenAfterFieldLoad(closeLoadingUi: true);
                     }
@@ -3151,7 +3252,7 @@ namespace BD2CompatPatch
             // recovery unconditionally on this coroutine's normal exit. Every step inside is
             // idempotent (SetActive/RestoreFieldOfView/etc. on an already-correct state is a
             // harmless no-op), so this is safe even when nothing was actually wrong.
-            if (label.Contains("GameFieldManager.ὬὭὢὤὥὨὤὦὧὧὤ"))
+            if (label.Contains("GameFieldManager.ὬὭὢὤὥὨὤὦὧὧὤ") || label.Contains("Gate"))
             {
                 Log.LogInfo($"[BD2CompatPatch] {label} completed normally -- running black-screen recovery unconditionally (idempotent) to cover the OutGameUICamera-overlay case.");
                 TryRecoverBlackScreenAfterFieldLoad(closeLoadingUi: false);
@@ -3161,8 +3262,100 @@ namespace BD2CompatPatch
         // Extracted from the 20s-abandon watchdog above (which no longer duplicates this body) so
         // the same recovery can also run after a coroutine that completed NORMALLY but still left
         // the screen black (see the correction note at its normal-exit call site).
+        private static bool _loggedBlackOverlayDiagnostic;
+
+        // User's own live observation (2026-09-29): the screen is black because a full-screen
+        // transition/fade overlay literally named "Black" is staying up too long -- it shows
+        // up as the actual raycast target in click diagnostics ("GraphicRaycaster 'Canvas'
+        // click ...: hits=[Black]"), sitting directly under a bare root "Canvas", separate
+        // from any named UI prefab. Whatever coroutine is supposed to fade/deactivate it after
+        // a scene transition never reaches that point (same shape as every other stuck-flag
+        // bug this session). Find it directly and force it out of the way rather than guessing
+        // at camera/OutGameUICamera causes. Deliberately touches ONLY this overlay (no camera/
+        // character reactivation) so it's cheap and safe to call on every heartbeat tick.
+        private static void NeutralizeStuckBlackOverlay()
+        {
+            try
+            {
+                var graphics = UnityEngine.Object.FindObjectsOfType<UnityEngine.UI.Graphic>(true);
+                foreach (var g in graphics)
+                {
+                    if (g == null || g.gameObject.name != "Black") continue;
+                    if (!_loggedBlackOverlayDiagnostic)
+                    {
+                        var cg = g.GetComponent<CanvasGroup>();
+                        Log.LogInfo($"[BD2CompatPatch] Found 'Black' overlay: activeSelf={g.gameObject.activeSelf}, color={g.color}, canvasGroupAlpha={(cg != null ? cg.alpha.ToString() : "n/a")}, parent={g.transform.parent?.name}");
+                    }
+                    var color = g.color;
+                    if (color.a > 0f || g.gameObject.activeSelf)
+                    {
+                        color.a = 0f;
+                        g.color = color;
+                        g.gameObject.SetActive(false);
+                        Log.LogInfo($"[BD2CompatPatch] Neutralized stuck 'Black' overlay under '{g.transform.parent?.name}'.");
+                    }
+                }
+                _loggedBlackOverlayDiagnostic = true;
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning($"[BD2CompatPatch] Black-overlay neutralize failed: {e.Message}");
+            }
+        }
+
+        private static bool _loggedStuckIntroDiagnostic;
+
+        // User's own live observation (2026-09-30): the starting cutscene played for the first
+        // time ever (progress -- SafePlayDirectorPrefix's skip-on-missing-timeline mitigation is
+        // presumably what let it get this far instead of hanging), but the client was then stuck
+        // on the logo screen afterward. Raycast diagnostics show a leftover "Image - Background"
+        // under a "UIRoot" canvas at sortOrder=9999 (topmost) still eating priority over the
+        // already-loaded GameFieldDefaultUI underneath (both show up in the same raycast hit
+        // list, confirming the real field truly is loaded fine beneath it). This is IntroUI's own
+        // canvas never getting torn down -- its normal close path is presumably wired to the same
+        // cutscene-completion signal that SafePlayDirectorPrefix intentionally skips. Force-close
+        // it directly once real gameplay (GameFieldManager) is confirmed present, the same
+        // approach as the Letterbox black-overlay fix above.
+        private static void NeutralizeStuckIntroScreen()
+        {
+            // CORRECTION (2026-09-30, same day): "UIRoot" is NOT specific to IntroUI -- it's a
+            // shared generic popup-panel child structure (UIRoot > SpineRoot + Image -
+            // Background) reused by many different UI classes (AvatarLifeUIBase, MenuUI,
+            // UserInfoUI, PassRootUI, etc., confirmed by decompile grep). FindObjectOfType<IntroUI>
+            // never found anything live (confirmed: this never logged), so the real leftover is
+            // some OTHER popup whose content (a Spine character portrait, almost certainly the
+            // skipped cutscene's own dialogue/portrait UI) never finished loading, leaving just
+            // its generic dimmed background visible and blocking. Rather than guess which UI
+            // class it is, target the actual symptom directly: a "UIRoot" Canvas sitting at the
+            // anomalously high sortingOrder=9999 (confirmed via raycast diagnostics) is not a
+            // legitimate value for any currently-open real popup -- treat it as stuck and hide it.
+            try
+            {
+                var canvases = UnityEngine.Object.FindObjectsOfType<Canvas>(true);
+                foreach (var c in canvases)
+                {
+                    if (c == null || c.gameObject.name != "UIRoot" || c.sortingOrder < 9000) continue;
+                    if (!_loggedStuckIntroDiagnostic)
+                    {
+                        Log.LogInfo($"[BD2CompatPatch] Found stuck 'UIRoot' canvas: sortingOrder={c.sortingOrder}, activeSelf={c.gameObject.activeSelf}, parent={c.transform.parent?.name}.");
+                    }
+                    if (c.gameObject.activeSelf)
+                    {
+                        c.gameObject.SetActive(false);
+                        Log.LogInfo($"[BD2CompatPatch] Neutralized stuck 'UIRoot' canvas (sortingOrder={c.sortingOrder}) under '{c.transform.parent?.name}'.");
+                    }
+                }
+                _loggedStuckIntroDiagnostic = true;
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning($"[BD2CompatPatch] Stuck-UIRoot neutralize failed: {e.Message}");
+            }
+        }
+
         private static void TryRecoverBlackScreenAfterFieldLoad(bool closeLoadingUi)
         {
+            NeutralizeStuckBlackOverlay();
             if (closeLoadingUi)
             {
                 try
@@ -3426,31 +3619,43 @@ namespace BD2CompatPatch
             int flipped = 0;
             try
             {
-                flipped += FlipFalseBoolFields(iteratorStateMachine);
-                var iteratorFields = iteratorStateMachine.GetType().GetFields(BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic);
-                foreach (var f in iteratorFields)
-                {
-                    if (f.FieldType.IsPrimitive || f.FieldType == typeof(string) || typeof(UnityEngine.Object).IsAssignableFrom(f.FieldType))
-                    {
-                        continue;
-                    }
-                    object value;
-                    try { value = f.GetValue(iteratorStateMachine); }
-                    catch { continue; }
-                    if (value == null) continue;
-                    // Only descend into compiler-generated closures/state machines, not arbitrary
-                    // game objects reachable from the coroutine (managers, tables, etc.) -- keeps
-                    // this from reaching into and mutating unrelated live game state.
-                    if (!value.GetType().Name.Contains("<") && !value.GetType().Name.Contains("DisplayClass"))
-                    {
-                        continue;
-                    }
-                    flipped += FlipFalseBoolFields(value);
-                }
+                var visited = new HashSet<object>();
+                flipped = TryForceStuckBoolFlagsRecursive(iteratorStateMachine, visited, 0);
             }
             catch (Exception e)
             {
                 Log.LogWarning($"[BD2CompatPatch] TryForceStuckBoolFlags reflection failed: {e.Message}");
+            }
+            return flipped;
+        }
+
+        private static int TryForceStuckBoolFlagsRecursive(object obj, HashSet<object> visited, int depth)
+        {
+            if (obj == null || depth > 6 || !visited.Add(obj)) return 0;
+            int flipped = FlipFalseBoolFields(obj);
+            var fields = obj.GetType().GetFields(BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic);
+            foreach (var f in fields)
+            {
+                if (f.FieldType.IsPrimitive || f.FieldType == typeof(string) || typeof(UnityEngine.Object).IsAssignableFrom(f.FieldType))
+                {
+                    continue;
+                }
+                object value;
+                try { value = f.GetValue(obj); }
+                catch { continue; }
+                if (value == null) continue;
+                // Descend into compiler-generated closures/state machines, not arbitrary game
+                // objects reachable from the coroutine (managers, tables, etc.) -- keeps this from
+                // reaching into and mutating unrelated live game state. A hoisted local's FIELD
+                // name (e.g. "<>8__1", "<>4__this") is the reliable signal -- its VALUE's type is
+                // often just a normal hand-written class, so checking only the value's type name
+                // (as this used to) misses real stuck fields living inside it.
+                bool looksCompilerGenerated = f.Name.StartsWith("<") || value.GetType().Name.Contains("<") || value.GetType().Name.Contains("DisplayClass");
+                if (!looksCompilerGenerated)
+                {
+                    continue;
+                }
+                flipped += TryForceStuckBoolFlagsRecursive(value, visited, depth + 1);
             }
             return flipped;
         }

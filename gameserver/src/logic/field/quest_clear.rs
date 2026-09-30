@@ -31,11 +31,26 @@ pub async fn handle_quest_clear(
 ) -> Result<QuestClearResponse> {
     let game_data = exceldb::get();
 
-    // Step 1: Find quest entry
-    let quest = game_data
-        .questtable1
-        .get(quest_id)
-        .ok_or_else(|| anyhow!("QuestTable1: quest {} not found", quest_id))?;
+    // Step 1: Find quest entry. Same real content gap as quest_update (a captured-data hole,
+    // not a code bug -- some quests, e.g. quest 2 in this pack, have no row in QuestTable1 at
+    // all). Hard-failing here used to surface as a client-side error popup (10404) that
+    // silently blocks story progress -- e.g. entering the chief's house and having nothing
+    // happen, confirmed live (2026-09-30). Match the established convention: record the clear
+    // and let the player continue, just without rewards/next-quest data we have no way to
+    // determine from missing captured data.
+    let Some(quest) = game_data.questtable1.get(quest_id) else {
+        tracing::warn!(
+            "QuestClear: quest_id={} not in captured QuestTable1 (data gap) -- marking cleared anyway, no rewards/next_quest available.",
+            quest_id
+        );
+        mark_quest_complete(pool, uid, quest_id).await?;
+        return Ok(QuestClearResponse {
+            reward_info_bundle: Some(RewardDbInfoBundle::default()),
+            quest_info: None,
+            clear_quest_id: Some(quest_id),
+            ..Default::default()
+        });
+    };
 
     // Step 2: Mark quest complete in DB
     mark_quest_complete(pool, uid, quest_id).await?;
