@@ -1325,6 +1325,107 @@ namespace BD2CompatPatch
                 Log.LogWarning($"[BD2CompatPatch] Failed to patch GameFieldDefaultUI.RefreshMiniMap: {e.Message}");
             }
 
+            // Real crash found live (2026-09-30): entering the field for the first time this
+            // session, BDNetwork.NetworkManager's own batch-response handler maps the initial
+            // FieldObjectDBInfo[] batch (every reward/NPC/gate/etc. object on the map) into game
+            // objects; one of them (a reward object) does a FieldRewardObjectTable lookup for a
+            // row we never captured (id 6011) and throws DataNotFoundException uncaught --
+            // confirmed via the client's own crash report. This is a DIFFERENT call path than the
+            // FieldObjectBase-family wraps above (RefreshMiniMap, FieldObjectBase itself, etc.) --
+            // it happens earlier, during the network response's own object-mapping step, before
+            // any FieldObjectBase instance exists to wrap. Same "stuck LoadingUI forever" symptom:
+            // the exception aborts NetworkManager's batch handler partway through, so whatever
+            // step normally closes LoadingUI afterward never runs. Rather than chase yet another
+            // caller one at a time, patch the actual table type ("FieldRewardObjectTable", named
+            // directly in the exception message and, per this codebase's own established
+            // convention, also its real client-side type name) so EVERY caller of a missing row
+            // -- this one and any future one -- gets the same safe, non-throwing behavior.
+            // CORRECTION (2026-09-30, same crash, retested live): "FieldRewardObjectTable" is a
+            // real type, but wrapping its 25 methods did NOT stop the crash -- confirmed live, the
+            // identical exception/stack still appeared, uncaught, immediately after redeploying
+            // that fix. The actual throwing class in the stack trace is a DIFFERENT, small,
+            // still-obfuscated wrapper type (named literally "ὧὣὭὥὢὢὠὣὥὫὣ" in this exact build's
+            // stack trace -- a per-table lookup helper, `Get(groupId, id)`, that just happens to
+            // hold "FieldRewardObjectTable" as an internal string constant for its own
+            // DataNotFoundException messages) -- NOT the same type AccessTools.TypeByName matched
+            // by that name. Target the real one directly, by the exact name this stack trace gave
+            // us (same caveat as every other raw-obfuscated-name patch in this file: this name is
+            // only valid for this exact build and may drift on a future one).
+            try
+            {
+                var rewardLookupWrapperType = AccessTools.TypeByName("ὧὣὭὥὢὢὠὣὥὫὣ");
+                if (rewardLookupWrapperType != null)
+                {
+                    var swallowFinalizer6b = new HarmonyMethod(typeof(Plugin).GetMethod(nameof(SwallowExceptionFinalizer), BindingFlags.Static | BindingFlags.NonPublic));
+                    int wrapped6b = 0;
+                    foreach (var m in rewardLookupWrapperType.GetMethods(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.Static | BindingFlags.DeclaredOnly))
+                    {
+                        if (m.IsGenericMethodDefinition || m.IsAbstract) continue;
+                        if (m.IsSpecialName && !(m.Name.StartsWith("get_") || m.Name.StartsWith("set_"))) continue;
+                        if (m.GetParameters().Any(p => p.ParameterType.IsByRef)) continue;
+                        try
+                        {
+                            harmony.Patch(m, finalizer: swallowFinalizer6b);
+                            wrapped6b++;
+                        }
+                        catch (Exception patchEx)
+                        {
+                            Log.LogWarning($"[BD2CompatPatch] Failed to wrap ὧὣὭὥὢὢὠὣὥὫὣ.{m.Name}: {patchEx.Message}");
+                        }
+                    }
+                    Log.LogInfo($"[BD2CompatPatch] Wrapped {wrapped6b} ὧὣὭὥὢὢὠὣὥὫὣ (reward-lookup-wrapper) methods with an exception-swallowing finalizer (missing rows shouldn't be able to abort NetworkManager's batch handler and strand LoadingUI).");
+                }
+                else
+                {
+                    Log.LogWarning("[BD2CompatPatch] Could not find ὧὣὭὥὢὢὠὣὥὫὣ (reward-lookup-wrapper) to patch.");
+                }
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning($"[BD2CompatPatch] Failed to patch ὧὣὭὥὢὢὠὣὥὫὣ: {e.Message}");
+            }
+
+            // Defense in depth for the same crash: even with the lookup wrapper above swallowing
+            // its own DataNotFoundException and returning a default/null row, this per-object
+            // reward-mapping class (also named directly in the same stack trace,
+            // "ὢὯὯὣὧὦὯὠὢὪὬ") may itself do the "log the miss, dereference it anyway" thing every
+            // other class in this codebase has been caught doing this session -- wrap the whole
+            // class so a null/default row from the fix above still can't crash the batch handler
+            // one frame later.
+            try
+            {
+                var rewardMapperType = AccessTools.TypeByName("ὢὯὯὣὧὦὯὠὢὪὬ");
+                if (rewardMapperType != null)
+                {
+                    var swallowFinalizer6c = new HarmonyMethod(typeof(Plugin).GetMethod(nameof(SwallowExceptionFinalizer), BindingFlags.Static | BindingFlags.NonPublic));
+                    int wrapped6c = 0;
+                    foreach (var m in rewardMapperType.GetMethods(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.Static | BindingFlags.DeclaredOnly))
+                    {
+                        if (m.IsGenericMethodDefinition || m.IsAbstract) continue;
+                        if (m.IsSpecialName && !(m.Name.StartsWith("get_") || m.Name.StartsWith("set_"))) continue;
+                        if (m.GetParameters().Any(p => p.ParameterType.IsByRef)) continue;
+                        try
+                        {
+                            harmony.Patch(m, finalizer: swallowFinalizer6c);
+                            wrapped6c++;
+                        }
+                        catch (Exception patchEx)
+                        {
+                            Log.LogWarning($"[BD2CompatPatch] Failed to wrap ὢὯὯὣὧὦὯὠὢὪὬ.{m.Name}: {patchEx.Message}");
+                        }
+                    }
+                    Log.LogInfo($"[BD2CompatPatch] Wrapped {wrapped6c} ὢὯὯὣὧὦὯὠὢὪὬ (reward-object-mapper) methods with an exception-swallowing finalizer.");
+                }
+                else
+                {
+                    Log.LogWarning("[BD2CompatPatch] Could not find ὢὯὯὣὧὦὯὠὢὪὬ (reward-object-mapper) to patch.");
+                }
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning($"[BD2CompatPatch] Failed to patch ὢὯὯὣὧὦὯὠὢὪὬ: {e.Message}");
+            }
+
             // DIAGNOSTIC (2026-09-29): tonight's (and last session's) still-unresolved mystery --
             // "Error with opening database <path> -> msg : unable to open database file" followed
             // by every subsequent query against that same handle reporting "out of memory" -- comes
