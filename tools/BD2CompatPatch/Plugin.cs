@@ -1201,6 +1201,57 @@ namespace BD2CompatPatch
                 Log.LogWarning($"[BD2CompatPatch] Failed to wrap FieldObjectBase methods with finalizers: {e.Message}");
             }
 
+            // User report (2026-09-30): "cutscenes for characters being added to the party don't
+            // work and i cant cook to advance the story." LifeBuildingObject (the field object
+            // behind cooking stations, per decompile: LifeBuildingObject.Interact ->
+            // AvatarLifeCookingUI) inherits from a SEPARATE base class, "LifeObjectBase" -- not
+            // FieldObjectBase, so none of the wrapping above (or anywhere else this session) has
+            // ever covered it. Same established bug family (a design-table lookup throws on a
+            // missing row, uncaught, aborting whatever setup was in progress) would silently
+            // prevent the cooking station's own interaction button from ever registering --
+            // explaining why nothing happens when trying to cook: there's no button-registration
+            // failure visible, just nothing to click. Same fix as FieldObjectBase: wrap the base
+            // class and every subclass.
+            try
+            {
+                var lifeObjectBaseType = AccessTools.TypeByName("LifeObjectBase");
+                if (lifeObjectBaseType != null)
+                {
+                    var swallowFinalizerLife = new HarmonyMethod(typeof(Plugin).GetMethod(nameof(SwallowExceptionFinalizer), BindingFlags.Static | BindingFlags.NonPublic));
+                    int wrappedLife = 0;
+                    int lifeSubclassCount = 0;
+                    foreach (var t in lifeObjectBaseType.Assembly.GetTypes())
+                    {
+                        if (!lifeObjectBaseType.IsAssignableFrom(t)) continue;
+                        if (t != lifeObjectBaseType) lifeSubclassCount++;
+                        foreach (var m in t.GetMethods(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.DeclaredOnly))
+                        {
+                            if (m.IsGenericMethodDefinition || m.IsAbstract) continue;
+                            if (m.IsSpecialName && !(m.Name.StartsWith("get_") || m.Name.StartsWith("set_"))) continue;
+                            if (m.GetParameters().Any(p => p.ParameterType.IsByRef)) continue;
+                            try
+                            {
+                                harmony.Patch(m, finalizer: swallowFinalizerLife);
+                                wrappedLife++;
+                            }
+                            catch (Exception patchEx)
+                            {
+                                Log.LogWarning($"[BD2CompatPatch] Failed to wrap {t.Name}.{m.Name}: {patchEx.Message}");
+                            }
+                        }
+                    }
+                    Log.LogInfo($"[BD2CompatPatch] Wrapped {wrappedLife} methods across LifeObjectBase and {lifeSubclassCount} subclasses (cooking stations, etc.) with an exception-swallowing finalizer.");
+                }
+                else
+                {
+                    Log.LogWarning("[BD2CompatPatch] Could not find LifeObjectBase type to wrap with exception-swallowing finalizers.");
+                }
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning($"[BD2CompatPatch] Failed to wrap LifeObjectBase methods with finalizers: {e.Message}");
+            }
+
             // Confirmed live: opening the Characters screen for a pack21 (Knight of Blood /
             // Chained Soldier 2 collab) character shows the wrong avatar and then hangs on a
             // stuck black transition overlay forever. Root cause is the exact same "log the
