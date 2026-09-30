@@ -44,9 +44,25 @@ pub async fn handle_quest_clear(
             quest_id
         );
         mark_quest_complete(pool, uid, quest_id).await?;
+        // CORRECTION (2026-09-30): `quest_info: None` here crashed the CLIENT with a
+        // NullReferenceException inside TimelinePlayManager's QuestClearResponse handler --
+        // confirmed live via the client's own crash report (sent to /sendmail as a side effect,
+        // decoded from the server access log). The client unconditionally reads into QuestInfo
+        // after a clear; it never expects that field to be absent. A real response always
+        // carries a quest_info (the real next quest), so a null Option here is itself an
+        // unrepresentable state, not just "no data" -- give it a best-guess placeholder
+        // (quest_id + 1, the game's own convention for this pack's linear quest numbering)
+        // instead of a real gap. Real content gap in the data, but the RESPONSE must still be a
+        // valid, populated message.
         return Ok(QuestClearResponse {
             reward_info_bundle: Some(RewardDbInfoBundle::default()),
-            quest_info: None,
+            quest_info: Some(QuestDbInfo {
+                id: Some(quest_id + 1),
+                value: Some(0),
+                object_id: vec![],
+                quest_level: Some(0),
+                quest_opt: Some(0),
+            }),
             clear_quest_id: Some(quest_id),
             ..Default::default()
         });
