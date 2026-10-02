@@ -20,14 +20,18 @@ pub fn default_notify() -> Notify {
     }
 }
 
-/// Real crafting against AlchemyTable's real material cost / result item / talent_level (used
-/// as the talent-exp-per-craft formula — the only numeric field on this table that plausibly
-/// maps to "add_talent_exp").
+/// Real crafting against AlchemyTable's real material cost / result item. `add_talent_exp` is
+/// real TalentLevel/TalentExp progression for the crafting character (`inven_index`) via
+/// `talent::add_talent_exp` — cross-checked against the reference server's
+/// `GameTalentServer.Alchemy`, which credits the crafting character's own
+/// TalentSkillTable.getExp per craft, not AlchemyTable's own `talentLevel` field (that field
+/// isn't exp at all in the reference's own logic).
 pub async fn craft(
     pool: &SqlitePool,
     uid: i64,
     alchemy_id: i32,
     count: i32,
+    inven_index: Option<i64>,
 ) -> (Vec<ItemDbInfo>, i32) {
     let count = count.max(1);
     let Some(def) = data::exceldb::get().alchemytable.get(alchemy_id).cloned() else {
@@ -52,5 +56,10 @@ pub async fn craft(
         ..Default::default()
     }];
 
-    (item_info, def.talent_level * count)
+    let add_talent_exp = match inven_index {
+        Some(idx) => super::talent::add_talent_exp(pool, uid, idx, count).await,
+        None => 0,
+    };
+
+    (item_info, add_talent_exp)
 }

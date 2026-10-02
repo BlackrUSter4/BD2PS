@@ -8,11 +8,18 @@ use database::db::item::item_info;
 use sqlx::SqlitePool;
 use tracing::info;
 
-/// Real crafting against EquipmentMakingTable's real material cost / result equip id / talent
-/// level (same pattern as alchemy::craft and life_cooking): `making_id` is the recipe's own id
+/// Real crafting against EquipmentMakingTable's real material cost / result equip id (same
+/// pattern as alchemy::craft and life_cooking): `making_id` is the recipe's own id
 /// (EquipmentMakingTable.id), not the crafted equip's id -- the earlier version conflated the
 /// two and created equip `making_id` directly, which only happened to "work" because
 /// create_new_equip doesn't validate its id against EquipmentTable.
+///
+/// `add_talent_exp` is real TalentLevel/TalentExp progression for the crafting character
+/// (`req.inven_index`) via `talent::add_talent_exp` -- cross-checked against the reference
+/// server's `GameTalentServer.EquipMaking`, which credits the crafting character's own
+/// TalentSkillTable.getExp per craft, not a flat per-recipe constant (the earlier
+/// `def.talent_level * count` was the wrong table/field entirely: EquipmentMakingTable's
+/// `talentLevel` field isn't exp at all in the reference's own logic).
 pub async fn handle(pool: &SqlitePool, uid: i64, req: EquipMakingRequest) -> GameResponse {
     info!("Handling EquipMakingRequest: {:?}", req);
 
@@ -38,7 +45,9 @@ pub async fn handle(pool: &SqlitePool, uid: i64, req: EquipMakingRequest) -> Gam
                     }
                 }
             }
-            add_talent_exp = def.talent_level * count;
+            if let Some(inven_index) = req.inven_index {
+                add_talent_exp = super::super::talent::add_talent_exp(pool, uid, inven_index, count).await;
+            }
         }
         None => {
             // Unknown recipe id (shouldn't happen with a real client) -- fall back to the old

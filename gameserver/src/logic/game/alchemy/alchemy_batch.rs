@@ -11,7 +11,7 @@ pub async fn handle(pool: &SqlitePool, uid: i64, req: AlchemyBatchRequest) -> Ga
     info!("Handling AlchemyBatchRequest: {:?}", req);
 
     let (item_info, add_talent_exp) = match req.alchemy_id {
-        Some(id) => craft(pool, uid, id, req.alchemy_count.unwrap_or(1)).await,
+        Some(id) => craft(pool, uid, id, req.alchemy_count.unwrap_or(1), req.inven_index).await,
         None => (vec![], 0),
     };
 

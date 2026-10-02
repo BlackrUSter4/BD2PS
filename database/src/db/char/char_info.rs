@@ -257,6 +257,25 @@ pub async fn set_level_exp(
     Ok(())
 }
 
+/// Update talent level + exp for a character (EquipMaking/Alchemy/TalentSkillUse/
+/// TalentSkillUpgrade all feed the same per-character TalentLevel/TalentExp progression).
+pub async fn set_talent_level_exp(
+    pool: &SqlitePool,
+    uid: i64,
+    inven_index: i64,
+    talent_level: i32,
+    talent_exp: i32,
+) -> sqlx::Result<()> {
+    sqlx::query("UPDATE CharInfo SET TalentLevel = ?, TalentExp = ? WHERE Uid = ? AND InvenIndex = ?")
+        .bind(talent_level)
+        .bind(talent_exp)
+        .bind(uid)
+        .bind(inven_index)
+        .execute(pool)
+        .await?;
+    Ok(())
+}
+
 /// Bump the class/tier stage for a character (CharClassUp).
 pub async fn set_class_level(
     pool: &SqlitePool,
