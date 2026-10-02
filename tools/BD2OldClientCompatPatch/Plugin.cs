@@ -54,6 +54,7 @@ namespace BD2OldClientCompatPatch
 			PatchStatCalcNullGuard(harmony);
 
 			PatchSkipFieldEntry(harmony);
+			PatchRedirectBrokenFieldScene(harmony);
 
 			StartCoroutine(DumpVisibleTextPeriodically());
 
@@ -194,6 +195,49 @@ namespace BD2OldClientCompatPatch
 			catch (Exception e)
 			{
 				Log.LogWarning($"[BD2OldClientCompatPatch] Could not arm field-entry skip: {e.Message}");
+			}
+		}
+
+		// The real fix for the field-entry problem, found 2026-10-02 after
+		// chasing individual crash sites in the cascade proved unreliable
+		// (multiple independent code paths trigger field entry, and catching
+		// the fallout after Addressables throws leaves things like
+		// GameCameraManager half-initialized, which looks like it causes a
+		// native-level crash no catchable C# guard can fix). Confirmed via
+		// the client's own Addressables catalog
+		// (com.unity.addressables/catalog_alpha.json) that field/map scenes
+		// use keys shaped "<PackId>_Map/Scenes/<name>.unity", and NONE of
+		// those exist in this build at all (zero matches for any "*.unity"
+		// key under "*/Scenes/*") - only four flat keys exist: Scenes/Empty,
+		// Scenes/MyRoom, Scenes/ReGame, Scenes/Splash. So instead of letting
+		// a broken field key reach Addressables and fail, intercept
+		// Addressables.LoadSceneAsync(object key, ...) itself (the one true
+		// common chokepoint every field-entry path funnels through) and
+		// REWRITE the key to "Scenes/MyRoom" whenever it matches the broken
+		// shape - redirecting to the client's real, working home scene
+		// instead of just suppressing a crash.
+		private static void PatchRedirectBrokenFieldScene(Harmony harmony)
+		{
+			Type addressablesType = AccessTools.TypeByName("UnityEngine.AddressableAssets.Addressables");
+			MethodInfo loadSceneAsync = addressablesType
+				?.GetMethods(BindingFlags.Public | BindingFlags.Static)
+				.FirstOrDefault(m => m.Name == "LoadSceneAsync"
+					&& m.GetParameters().Length == 4
+					&& m.GetParameters()[0].ParameterType == typeof(object)
+					&& m.GetParameters()[1].ParameterType.Name == "LoadSceneMode");
+			if (loadSceneAsync == null)
+			{
+				Log.LogWarning("[BD2OldClientCompatPatch] Addressables.LoadSceneAsync(object,...) not found for redirect patch.");
+				return;
+			}
+			try
+			{
+				harmony.Patch(loadSceneAsync, prefix: new HarmonyMethod(typeof(RedirectBrokenFieldScenePatch), nameof(RedirectBrokenFieldScenePatch.Prefix)));
+				Log.LogInfo("[BD2OldClientCompatPatch] Field-scene redirect armed on Addressables.LoadSceneAsync(object,...).");
+			}
+			catch (Exception e)
+			{
+				Log.LogWarning($"[BD2OldClientCompatPatch] Could not arm field-scene redirect: {e.Message}");
 			}
 		}
 
@@ -1095,6 +1139,24 @@ namespace BD2OldClientCompatPatch
 		{
 			Plugin.Log.LogInfo("[BD2OldClientCompatPatch] Skipped field-entry attempt (no field scenes exist in this client build).");
 			return false;
+		}
+	}
+
+	// Rewrites any Addressables scene key shaped like a (nonexistent) field
+	// map - "<PackId>_Map/Scenes/<name>.unity" - to the real, bundled home
+	// scene key "Scenes/MyRoom" before the original load runs. See
+	// PatchRedirectBrokenFieldScene for the full reasoning. Harmony passes
+	// the original "object key" parameter by name here, as a ref, so it can
+	// be rewritten before the real method sees it.
+	internal static class RedirectBrokenFieldScenePatch
+	{
+		internal static void Prefix(ref object key)
+		{
+			if (key is string s && s.Contains("/Scenes/") && s.EndsWith(".unity"))
+			{
+				Plugin.Log.LogInfo($"[BD2OldClientCompatPatch] Redirecting broken field scene key \"{s}\" -> \"Scenes/MyRoom\".");
+				key = "Scenes/MyRoom";
+			}
 		}
 	}
 
