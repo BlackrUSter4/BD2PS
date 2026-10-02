@@ -53,6 +53,8 @@ namespace BD2OldClientCompatPatch
 			PatchGenericExceptionSelfHeal(harmony);
 			PatchStatCalcNullGuard(harmony);
 
+			PatchSkipFieldEntry(harmony);
+
 			StartCoroutine(DumpVisibleTextPeriodically());
 
 			Log.LogInfo("[BD2OldClientCompatPatch] Loaded.");
@@ -156,6 +158,45 @@ namespace BD2OldClientCompatPatch
 		// non-deterministic placeholder names) it's safe to hardcode.
 		// Swallowing here just means that one character's stats don't populate
 		// for this response instead of tearing down the whole connection.
+		// Confirmed live 2026-10-02: even with every downstream crash site in
+		// the field-entry cascade guarded (async scene-load completion,
+		// GameCameraManager.Awake, its nested sibling), the process still
+		// dies with NO further log output shortly after they all fire - this
+		// looks like a native-level crash from GameCameraManager being left
+		// half-initialized by a finalizer that swallowed an exception
+		// mid-Awake(), then used by Unity's own render loop on a later frame
+		// (something a catchable C# exception guard fundamentally can't fix).
+		// This client has NO field/map scene assets at all (confirmed against
+		// the Addressables catalog - only Empty/MyRoom/ReGame/Splash are
+		// bundled), so field entry can never succeed here regardless of which
+		// map id is requested. Better fix: skip the whole attempt at its
+		// entry point instead of letting it start and catching the fallout.
+		// This entry point (ὤὤὢὯὭὠὤὧὠὫὯ.ὩὪὧὪὣὠὡὥὭὤὮ()) is a DIFFERENT
+		// top-level handler than the one the working shop/pack-collection
+		// flow goes through (IntroUI.ὢὩὫὩὦὬὭὫὭὧὦ()), so skipping it should
+        // not affect the already-working path.
+		private static void PatchSkipFieldEntry(Harmony harmony)
+		{
+			Type outerType = typeof(CharDBInfo).Assembly.GetTypes().FirstOrDefault(t => t.Name == "ὤὤὢὯὭὠὤὧὠὫὯ");
+			MethodInfo target = outerType
+				?.GetMethods(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static | BindingFlags.Instance)
+				.FirstOrDefault(m => m.Name == "ὩὪὧὪὣὠὡὥὭὤὮ" && m.GetParameters().Length == 0);
+			if (target == null)
+			{
+				Log.LogWarning("[BD2OldClientCompatPatch] Field-entry skip target not found.");
+				return;
+			}
+			try
+			{
+				harmony.Patch(target, prefix: new HarmonyMethod(typeof(SkipFieldEntryPatch), nameof(SkipFieldEntryPatch.Prefix)));
+				Log.LogInfo($"[BD2OldClientCompatPatch] Field-entry skip armed on {outerType.Name}.{target.Name}().");
+			}
+			catch (Exception e)
+			{
+				Log.LogWarning($"[BD2OldClientCompatPatch] Could not arm field-entry skip: {e.Message}");
+			}
+		}
+
 		private static void PatchStatCalcNullGuard(Harmony harmony)
 		{
 			Type declaringType = typeof(CharDBInfo).Assembly.GetTypes().FirstOrDefault(t => t.Name == "ὣὭὤὮὤὢὧὭὮὡὭ");
@@ -1043,6 +1084,17 @@ namespace BD2OldClientCompatPatch
 				Plugin.Log.LogWarning($"[BD2OldClientCompatPatch] Swallowed exception in processor: {__exception}");
 			}
 			return null;
+		}
+	}
+
+	// Skips the field-entry entry point entirely rather than letting it run
+	// and catching the fallout - see PatchSkipFieldEntry for why.
+	internal static class SkipFieldEntryPatch
+	{
+		internal static bool Prefix()
+		{
+			Plugin.Log.LogInfo("[BD2OldClientCompatPatch] Skipped field-entry attempt (no field scenes exist in this client build).");
+			return false;
 		}
 	}
 
