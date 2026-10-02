@@ -7,27 +7,34 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Fieldgatetable {
-    #[serde(rename = "afterMapId")]
+    #[serde(rename = "afterMapId", default)]
     pub after_map_id: Option<i32>,
-    #[serde(rename = "barricadeLocalTextId")]
+    #[serde(rename = "barricadeLocalTextId", default)]
     pub barricade_local_text_id: Option<i32>,
-    #[serde(rename = "beforeMapId")]
+    #[serde(rename = "beforeMapId", default)]
     pub before_map_id: Option<i32>,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "positionQuestId")]
+    #[serde(rename = "positionQuestId", default)]
     pub position_quest_id: Option<i32>,
-    #[serde(rename = "questRange")]
+    #[serde(rename = "questRange", default)]
     pub quest_range: Option<Vec<i32>>,
-    #[serde(rename = "showQuestId")]
+    #[serde(rename = "showQuestId", default)]
     pub show_quest_id: Option<i32>,
-    #[serde(rename = "type")]
+    #[serde(rename = "type", default)]
     pub r#type: Option<i32>,
+    /// Not a real client-sent field; synthesized at import time from which
+    /// server/Data/PACK/<n>/ folder a row came from, since `id` is only
+    /// unique within a single pack, not globally. See CLIENT_UPDATE.md's
+    /// 2026-10-02 "(packId, id) composite key" entries.
+    #[serde(rename = "PackId", default)]
+    pub pack_id: i32,
 }
 
 pub struct FieldgatetableTable {
     records: Vec<Fieldgatetable>,
     by_id: HashMap<i32, usize>,
+    by_pack: HashMap<(i32, i32), usize>,
 }
 
 impl FieldgatetableTable {
@@ -36,20 +43,30 @@ impl FieldgatetableTable {
         let records: Vec<Fieldgatetable> = serde_json::from_str(&json)?;
         
         let mut by_id = HashMap::with_capacity(records.len());
+        let mut by_pack = HashMap::with_capacity(records.len());
         
         for (idx, record) in records.iter().enumerate() {
             by_id.insert(record.id, idx);
+            by_pack.insert((record.pack_id, record.id), idx);
         }
         
         Ok(Self {
             records,
             by_id,
+            by_pack,
         })
     }
 
     #[inline]
     pub fn get(&self, id: i32) -> Option<&Fieldgatetable> {
         self.by_id.get(&id).map(|&idx| &self.records[idx])
+    }
+
+    /// Pack-scoped lookup — use this over `get()` for any new call site,
+    /// since `id` collides across packs (see `pack_id` field doc).
+    #[inline]
+    pub fn get_by_pack(&self, pack_id: i32, id: i32) -> Option<&Fieldgatetable> {
+        self.by_pack.get(&(pack_id, id)).map(|&idx| &self.records[idx])
     }
 
     #[inline]

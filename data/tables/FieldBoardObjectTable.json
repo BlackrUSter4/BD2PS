@@ -6,6 +6,150 @@
     "questId": 49,
     "resourceName": "HuntingGroundBorad",
     "resourceType": 2,
-    "type": 1
+    "type": 1,
+    "PackId": 1
+  },
+  {
+    "animatorType": 0,
+    "bundleType": 0,
+    "id": 101,
+    "mapId": 23,
+    "questId": 48,
+    "resourceName": "HuntingGroundBoard",
+    "resourceType": 2,
+    "type": 1,
+    "PackId": 2
+  },
+  {
+    "animatorType": 0,
+    "bundleType": 0,
+    "id": 101,
+    "mapId": 33,
+    "questId": 48,
+    "resourceName": "HuntingGroundBoard",
+    "resourceType": 2,
+    "type": 1,
+    "PackId": 3
+  },
+  {
+    "animatorType": 0,
+    "bundleType": 0,
+    "id": 101,
+    "mapId": 43,
+    "questId": 44,
+    "resourceName": "HuntingGroundBoard",
+    "resourceType": 2,
+    "type": 1,
+    "PackId": 4
+  },
+  {
+    "animatorType": 0,
+    "bundleType": 0,
+    "id": 101,
+    "mapId": 53,
+    "questId": 45,
+    "resourceName": "HuntingGroundBoard",
+    "resourceType": 2,
+    "type": 1,
+    "PackId": 5
+  },
+  {
+    "animatorType": 0,
+    "bundleType": 0,
+    "id": 1,
+    "mapId": 607,
+    "questId": 48,
+    "resourceName": "HuntingGroundBoard",
+    "resourceType": 2,
+    "type": 1,
+    "PackId": 6
+  },
+  {
+    "animatorType": 0,
+    "bundleType": 0,
+    "id": 1,
+    "mapId": 73,
+    "questId": 41,
+    "resourceName": "HuntingGroundBoard",
+    "resourceType": 2,
+    "type": 1,
+    "PackId": 7
+  },
+  {
+    "animatorType": 0,
+    "bundleType": 0,
+    "id": 1,
+    "mapId": 83,
+    "questId": 40,
+    "resourceName": "HuntingGroundBoard",
+    "resourceType": 2,
+    "type": 1,
+    "PackId": 8
+  },
+  {
+    "animatorType": 0,
+    "bundleType": 0,
+    "id": 1,
+    "mapId": 93,
+    "questId": 41,
+    "resourceName": "HuntingGroundBoard",
+    "resourceType": 2,
+    "type": 1,
+    "PackId": 9
+  },
+  {
+    "animatorType": 0,
+    "bundleType": 0,
+    "id": 1,
+    "mapId": 103,
+    "questId": 42,
+    "resourceName": "HuntingGroundBoard",
+    "resourceType": 2,
+    "type": 1,
+    "PackId": 10
+  },
+  {
+    "animatorType": 0,
+    "bundleType": 0,
+    "id": 1,
+    "mapId": 103,
+    "questId": 42,
+    "resourceName": "HuntingGroundBoard",
+    "resourceType": 2,
+    "type": 1,
+    "PackId": 11
+  },
+  {
+    "animatorType": 0,
+    "bundleType": 0,
+    "id": 1,
+    "mapId": 103,
+    "questId": 42,
+    "resourceName": "HuntingGroundBoard",
+    "resourceType": 2,
+    "type": 1,
+    "PackId": 12
+  },
+  {
+    "animatorType": 0,
+    "bundleType": 0,
+    "id": 1,
+    "mapId": 103,
+    "questId": 42,
+    "resourceName": "HuntingGroundBoard",
+    "resourceType": 2,
+    "type": 1,
+    "PackId": 13
+  },
+  {
+    "animatorType": 0,
+    "bundleType": 0,
+    "id": 1,
+    "mapId": 103,
+    "questId": 42,
+    "resourceName": "HuntingGroundBoard",
+    "resourceType": 2,
+    "type": 1,
+    "PackId": 14
   }
 ]

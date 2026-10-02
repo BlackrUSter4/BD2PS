@@ -1,3 +1,4779 @@
 [
-  { "dialogTextId": [ 40000001, 40000002 ], "disableDialogIndex": -1, "id": 130 }
+  {
+    "dialogTextId": [
+      40000001,
+      40000002
+    ],
+    "disableDialogIndex": -1,
+    "id": 130,
+    "PackId": 1
+  },
+  {
+    "dialogTextId": [
+      4901,
+      4902
+    ],
+    "disableDialogIndex": -1,
+    "id": 1,
+    "packIndex": "NotUse",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      4901,
+      4902,
+      4903,
+      4904,
+      4905
+    ],
+    "disableDialogIndex": -1,
+    "id": 2,
+    "packIndex": "NotUse",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      4901,
+      4902,
+      4903,
+      4904,
+      4906
+    ],
+    "disableDialogIndex": 4,
+    "id": 3,
+    "packIndex": "NotUse",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      4701
+    ],
+    "disableDialogIndex": -1,
+    "id": 4,
+    "packIndex": "NotUse",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      4702,
+      4703
+    ],
+    "disableDialogIndex": -1,
+    "id": 5,
+    "packIndex": "NotUse",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      4704,
+      4705
+    ],
+    "disableDialogIndex": -1,
+    "id": 6,
+    "packIndex": "NotUse",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      4706,
+      4707
+    ],
+    "disableDialogIndex": -1,
+    "id": 7,
+    "packIndex": "NotUse",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      4708
+    ],
+    "disableDialogIndex": -1,
+    "id": 8,
+    "packIndex": "NotUse",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      4709,
+      4710
+    ],
+    "disableDialogIndex": -1,
+    "id": 9,
+    "packIndex": "NotUse",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      4711
+    ],
+    "disableDialogIndex": -1,
+    "id": 10,
+    "packIndex": "NotUse",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      4712
+    ],
+    "disableDialogIndex": -1,
+    "id": 11,
+    "packIndex": "NotUse",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      4713,
+      4714
+    ],
+    "disableDialogIndex": -1,
+    "id": 12,
+    "packIndex": "NotUse",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      4715,
+      4716
+    ],
+    "disableDialogIndex": -1,
+    "id": 13,
+    "packIndex": "NotUse",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      4717,
+      4718
+    ],
+    "disableDialogIndex": -1,
+    "id": 14,
+    "packIndex": "NotUse",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      4719
+    ],
+    "disableDialogIndex": -1,
+    "id": 15,
+    "packIndex": "NotUse",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      4720,
+      4721
+    ],
+    "disableDialogIndex": -1,
+    "id": 16,
+    "packIndex": "NotUse",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      4722,
+      4723
+    ],
+    "disableDialogIndex": -1,
+    "id": 17,
+    "packIndex": "NotUse",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      4724
+    ],
+    "disableDialogIndex": -1,
+    "id": 18,
+    "packIndex": "NotUse",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      4725
+    ],
+    "disableDialogIndex": -1,
+    "id": 19,
+    "packIndex": "NotUse",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      4726,
+      4727,
+      4728,
+      4912
+    ],
+    "disableDialogIndex": 3,
+    "id": 20,
+    "packIndex": "NotUse",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      4729,
+      4730,
+      4731,
+      4732,
+      4912
+    ],
+    "disableDialogIndex": 4,
+    "id": 21,
+    "packIndex": "NotUse",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      4734,
+      4733
+    ],
+    "disableDialogIndex": -1,
+    "id": 22,
+    "packIndex": "NotUse",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      4735,
+      4736
+    ],
+    "disableDialogIndex": -1,
+    "id": 23,
+    "packIndex": "NotUse",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      4737,
+      4738
+    ],
+    "disableDialogIndex": -1,
+    "id": 24,
+    "packIndex": "NotUse",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      4740,
+      4739
+    ],
+    "disableDialogIndex": -1,
+    "id": 25,
+    "packIndex": "NotUse",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      4741,
+      4742
+    ],
+    "disableDialogIndex": -1,
+    "id": 26,
+    "packIndex": "NotUse",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      4744,
+      4743
+    ],
+    "disableDialogIndex": -1,
+    "id": 27,
+    "packIndex": "NotUse",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      4745,
+      4746,
+      4747
+    ],
+    "disableDialogIndex": -1,
+    "id": 28,
+    "packIndex": "NotUse",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      4748,
+      4751,
+      4749
+    ],
+    "disableDialogIndex": -1,
+    "id": 29,
+    "packIndex": "NotUse",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      4752,
+      4753,
+      4754,
+      4912
+    ],
+    "disableDialogIndex": 3,
+    "id": 30,
+    "packIndex": "NotUse",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      4755,
+      4756,
+      4757
+    ],
+    "disableDialogIndex": -1,
+    "id": 31,
+    "packIndex": "NotUse",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      4801,
+      4802
+    ],
+    "disableDialogIndex": -1,
+    "id": 100,
+    "packIndex": "NotUse",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      4803,
+      4804
+    ],
+    "disableDialogIndex": -1,
+    "id": 101,
+    "packIndex": "NotUse",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      4805
+    ],
+    "disableDialogIndex": -1,
+    "id": 102,
+    "packIndex": "NotUse",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      4806,
+      4807
+    ],
+    "disableDialogIndex": -1,
+    "id": 103,
+    "packIndex": "NotUse",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      4808,
+      4809
+    ],
+    "disableDialogIndex": -1,
+    "id": 104,
+    "packIndex": "NotUse",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      4810
+    ],
+    "disableDialogIndex": -1,
+    "id": 105,
+    "packIndex": "NotUse",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      4811,
+      4812
+    ],
+    "disableDialogIndex": -1,
+    "id": 106,
+    "packIndex": "NotUse",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      4813
+    ],
+    "disableDialogIndex": -1,
+    "id": 107,
+    "packIndex": "NotUse",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      4814,
+      4815
+    ],
+    "disableDialogIndex": -1,
+    "id": 108,
+    "packIndex": "NotUse",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      4816,
+      4817
+    ],
+    "disableDialogIndex": -1,
+    "id": 109,
+    "packIndex": "NotUse",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      4818,
+      4819
+    ],
+    "disableDialogIndex": -1,
+    "id": 110,
+    "packIndex": "NotUse",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      4820
+    ],
+    "disableDialogIndex": -1,
+    "id": 111,
+    "packIndex": "NotUse",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      4821,
+      4822
+    ],
+    "disableDialogIndex": -1,
+    "id": 112,
+    "packIndex": "NotUse",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      4823,
+      4824
+    ],
+    "disableDialogIndex": -1,
+    "id": 113,
+    "packIndex": "NotUse",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      4825
+    ],
+    "disableDialogIndex": -1,
+    "id": 114,
+    "packIndex": "NotUse",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      4826,
+      4827
+    ],
+    "disableDialogIndex": -1,
+    "id": 115,
+    "packIndex": "NotUse",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      4828
+    ],
+    "disableDialogIndex": -1,
+    "id": 116,
+    "packIndex": "NotUse",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      4829
+    ],
+    "disableDialogIndex": -1,
+    "id": 117,
+    "packIndex": "NotUse",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      4830,
+      4831
+    ],
+    "disableDialogIndex": -1,
+    "id": 118,
+    "packIndex": "NotUse",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      4832
+    ],
+    "disableDialogIndex": -1,
+    "id": 119,
+    "packIndex": "NotUse",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      4833,
+      4834
+    ],
+    "disableDialogIndex": -1,
+    "id": 120,
+    "packIndex": "NotUse",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      4835,
+      4836
+    ],
+    "disableDialogIndex": -1,
+    "id": 121,
+    "packIndex": "NotUse",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      4837
+    ],
+    "disableDialogIndex": -1,
+    "id": 122,
+    "packIndex": "NotUse",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      40000101,
+      40000102,
+      40000103
+    ],
+    "disableDialogIndex": -1,
+    "id": 150,
+    "packIndex": "Pack 2",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      40000104,
+      40000105
+    ],
+    "disableDialogIndex": -1,
+    "id": 151,
+    "packIndex": "Pack 2",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      42500008,
+      42500009,
+      42500010
+    ],
+    "disableDialogIndex": -1,
+    "id": 1004,
+    "packIndex": "NotUse",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      42500011,
+      42500012,
+      42500013
+    ],
+    "disableDialogIndex": -1,
+    "id": 1005,
+    "packIndex": "NotUse",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      42500014,
+      42500015,
+      42500016
+    ],
+    "disableDialogIndex": -1,
+    "id": 1006,
+    "packIndex": "NotUse",
+    "PackId": 2
+  },
+  {
+    "dialogTextId": [
+      4901,
+      4902
+    ],
+    "disableDialogIndex": -1,
+    "id": 1,
+    "packIndex": "NotUse",
+    "PackId": 3
+  },
+  {
+    "dialogTextId": [
+      4901,
+      4902,
+      4903,
+      4904,
+      4905
+    ],
+    "disableDialogIndex": -1,
+    "id": 2,
+    "packIndex": "NotUse",
+    "PackId": 3
+  },
+  {
+    "dialogTextId": [
+      4901,
+      4902,
+      4903,
+      4904,
+      4906
+    ],
+    "disableDialogIndex": 4,
+    "id": 3,
+    "packIndex": "NotUse",
+    "PackId": 3
+  },
+  {
+    "dialogTextId": [
+      4701
+    ],
+    "disableDialogIndex": -1,
+    "id": 4,
+    "packIndex": "NotUse",
+    "PackId": 3
+  },
+  {
+    "dialogTextId": [
+      4702,
+      4703
+    ],
+    "disableDialogIndex": -1,
+    "id": 5,
+    "packIndex": "NotUse",
+    "PackId": 3
+  },
+  {
+    "dialogTextId": [
+      4704,
+      4705
+    ],
+    "disableDialogIndex": -1,
+    "id": 6,
+    "packIndex": "NotUse",
+    "PackId": 3
+  },
+  {
+    "dialogTextId": [
+      4706,
+      4707
+    ],
+    "disableDialogIndex": -1,
+    "id": 7,
+    "packIndex": "NotUse",
+    "PackId": 3
+  },
+  {
+    "dialogTextId": [
+      4708
+    ],
+    "disableDialogIndex": -1,
+    "id": 8,
+    "packIndex": "NotUse",
+    "PackId": 3
+  },
+  {
+    "dialogTextId": [
+      4709,
+      4710
+    ],
+    "disableDialogIndex": -1,
+    "id": 9,
+    "packIndex": "NotUse",
+    "PackId": 3
+  },
+  {
+    "dialogTextId": [
+      4711
+    ],
+    "disableDialogIndex": -1,
+    "id": 10,
+    "packIndex": "NotUse",
+    "PackId": 3
+  },
+  {
+    "dialogTextId": [
+      4712
+    ],
+    "disableDialogIndex": -1,
+    "id": 11,
+    "packIndex": "NotUse",
+    "PackId": 3
+  },
+  {
+    "dialogTextId": [
+      4713,
+      4714
+    ],
+    "disableDialogIndex": -1,
+    "id": 12,
+    "packIndex": "NotUse",
+    "PackId": 3
+  },
+  {
+    "dialogTextId": [
+      4715,
+      4716
+    ],
+    "disableDialogIndex": -1,
+    "id": 13,
+    "packIndex": "NotUse",
+    "PackId": 3
+  },
+  {
+    "dialogTextId": [
+      4717,
+      4718
+    ],
+    "disableDialogIndex": -1,
+    "id": 14,
+    "packIndex": "NotUse",
+    "PackId": 3
+  },
+  {
+    "dialogTextId": [
+      4719
+    ],
+    "disableDialogIndex": -1,
+    "id": 15,
+    "packIndex": "NotUse",
+    "PackId": 3
+  },
+  {
+    "dialogTextId": [
+      4720,
+      4721
+    ],
+    "disableDialogIndex": -1,
+    "id": 16,
+    "packIndex": "NotUse",
+    "PackId": 3
+  },
+  {
+    "dialogTextId": [
+      4722,
+      4723
+    ],
+    "disableDialogIndex": -1,
+    "id": 17,
+    "packIndex": "NotUse",
+    "PackId": 3
+  },
+  {
+    "dialogTextId": [
+      4724
+    ],
+    "disableDialogIndex": -1,
+    "id": 18,
+    "packIndex": "NotUse",
+    "PackId": 3
+  },
+  {
+    "dialogTextId": [
+      4725
+    ],
+    "disableDialogIndex": -1,
+    "id": 19,
+    "packIndex": "NotUse",
+    "PackId": 3
+  },
+  {
+    "dialogTextId": [
+      4726,
+      4727,
+      4728,
+      4912
+    ],
+    "disableDialogIndex": 3,
+    "id": 20,
+    "packIndex": "NotUse",
+    "PackId": 3
+  },
+  {
+    "dialogTextId": [
+      4729,
+      4730,
+      4731,
+      4732,
+      4912
+    ],
+    "disableDialogIndex": 4,
+    "id": 21,
+    "packIndex": "NotUse",
+    "PackId": 3
+  },
+  {
+    "dialogTextId": [
+      4734,
+      4733
+    ],
+    "disableDialogIndex": -1,
+    "id": 22,
+    "packIndex": "NotUse",
+    "PackId": 3
+  },
+  {
+    "dialogTextId": [
+      4735,
+      4736
+    ],
+    "disableDialogIndex": -1,
+    "id": 23,
+    "packIndex": "NotUse",
+    "PackId": 3
+  },
+  {
+    "dialogTextId": [
+      4737,
+      4738
+    ],
+    "disableDialogIndex": -1,
+    "id": 24,
+    "packIndex": "NotUse",
+    "PackId": 3
+  },
+  {
+    "dialogTextId": [
+      4740,
+      4739
+    ],
+    "disableDialogIndex": -1,
+    "id": 25,
+    "packIndex": "NotUse",
+    "PackId": 3
+  },
+  {
+    "dialogTextId": [
+      4741,
+      4742
+    ],
+    "disableDialogIndex": -1,
+    "id": 26,
+    "packIndex": "NotUse",
+    "PackId": 3
+  },
+  {
+    "dialogTextId": [
+      4744,
+      4743
+    ],
+    "disableDialogIndex": -1,
+    "id": 27,
+    "packIndex": "NotUse",
+    "PackId": 3
+  },
+  {
+    "dialogTextId": [
+      4745,
+      4746,
+      4747
+    ],
+    "disableDialogIndex": -1,
+    "id": 28,
+    "packIndex": "NotUse",
+    "PackId": 3
+  },
+  {
+    "dialogTextId": [
+      4748,
+      4751,
+      4749
+    ],
+    "disableDialogIndex": -1,
+    "id": 29,
+    "packIndex": "NotUse",
+    "PackId": 3
+  },
+  {
+    "dialogTextId": [
+      4752,
+      4753,
+      4754,
+      4912
+    ],
+    "disableDialogIndex": 3,
+    "id": 30,
+    "packIndex": "NotUse",
+    "PackId": 3
+  },
+  {
+    "dialogTextId": [
+      4755,
+      4756,
+      4757
+    ],
+    "disableDialogIndex": -1,
+    "id": 31,
+    "packIndex": "NotUse",
+    "PackId": 3
+  },
+  {
+    "dialogTextId": [
+      4801,
+      4802
+    ],
+    "disableDialogIndex": -1,
+    "id": 100,
+    "packIndex": "NotUse",
+    "PackId": 3
+  },
+  {
+    "dialogTextId": [
+      4803,
+      4804
+    ],
+    "disableDialogIndex": -1,
+    "id": 101,
+    "packIndex": "NotUse",
+    "PackId": 3
+  },
+  {
+    "dialogTextId": [
+      4805
+    ],
+    "disableDialogIndex": -1,
+    "id": 102,
+    "packIndex": "NotUse",
+    "PackId": 3
+  },
+  {
+    "dialogTextId": [
+      4806,
+      4807
+    ],
+    "disableDialogIndex": -1,
+    "id": 103,
+    "packIndex": "NotUse",
+    "PackId": 3
+  },
+  {
+    "dialogTextId": [
+      4808,
+      4809
+    ],
+    "disableDialogIndex": -1,
+    "id": 104,
+    "packIndex": "NotUse",
+    "PackId": 3
+  },
+  {
+    "dialogTextId": [
+      4810
+    ],
+    "disableDialogIndex": -1,
+    "id": 105,
+    "packIndex": "NotUse",
+    "PackId": 3
+  },
+  {
+    "dialogTextId": [
+      4811,
+      4812
+    ],
+    "disableDialogIndex": -1,
+    "id": 106,
+    "packIndex": "NotUse",
+    "PackId": 3
+  },
+  {
+    "dialogTextId": [
+      4813
+    ],
+    "disableDialogIndex": -1,
+    "id": 107,
+    "packIndex": "NotUse",
+    "PackId": 3
+  },
+  {
+    "dialogTextId": [
+      4814,
+      4815
+    ],
+    "disableDialogIndex": -1,
+    "id": 108,
+    "packIndex": "NotUse",
+    "PackId": 3
+  },
+  {
+    "dialogTextId": [
+      4816,
+      4817
+    ],
+    "disableDialogIndex": -1,
+    "id": 109,
+    "packIndex": "NotUse",
+    "PackId": 3
+  },
+  {
+    "dialogTextId": [
+      4818,
+      4819
+    ],
+    "disableDialogIndex": -1,
+    "id": 110,
+    "packIndex": "NotUse",
+    "PackId": 3
+  },
+  {
+    "dialogTextId": [
+      4820
+    ],
+    "disableDialogIndex": -1,
+    "id": 111,
+    "packIndex": "NotUse",
+    "PackId": 3
+  },
+  {
+    "dialogTextId": [
+      4821,
+      4822
+    ],
+    "disableDialogIndex": -1,
+    "id": 112,
+    "packIndex": "NotUse",
+    "PackId": 3
+  },
+  {
+    "dialogTextId": [
+      4823,
+      4824
+    ],
+    "disableDialogIndex": -1,
+    "id": 113,
+    "packIndex": "NotUse",
+    "PackId": 3
+  },
+  {
+    "dialogTextId": [
+      4825
+    ],
+    "disableDialogIndex": -1,
+    "id": 114,
+    "packIndex": "NotUse",
+    "PackId": 3
+  },
+  {
+    "dialogTextId": [
+      4826,
+      4827
+    ],
+    "disableDialogIndex": -1,
+    "id": 115,
+    "packIndex": "NotUse",
+    "PackId": 3
+  },
+  {
+    "dialogTextId": [
+      4828
+    ],
+    "disableDialogIndex": -1,
+    "id": 116,
+    "packIndex": "NotUse",
+    "PackId": 3
+  },
+  {
+    "dialogTextId": [
+      4829
+    ],
+    "disableDialogIndex": -1,
+    "id": 117,
+    "packIndex": "NotUse",
+    "PackId": 3
+  },
+  {
+    "dialogTextId": [
+      4830,
+      4831
+    ],
+    "disableDialogIndex": -1,
+    "id": 118,
+    "packIndex": "NotUse",
+    "PackId": 3
+  },
+  {
+    "dialogTextId": [
+      4832
+    ],
+    "disableDialogIndex": -1,
+    "id": 119,
+    "packIndex": "NotUse",
+    "PackId": 3
+  },
+  {
+    "dialogTextId": [
+      4833,
+      4834
+    ],
+    "disableDialogIndex": -1,
+    "id": 120,
+    "packIndex": "NotUse",
+    "PackId": 3
+  },
+  {
+    "dialogTextId": [
+      4835,
+      4836
+    ],
+    "disableDialogIndex": -1,
+    "id": 121,
+    "packIndex": "NotUse",
+    "PackId": 3
+  },
+  {
+    "dialogTextId": [
+      4837
+    ],
+    "disableDialogIndex": -1,
+    "id": 122,
+    "packIndex": "NotUse",
+    "PackId": 3
+  },
+  {
+    "dialogTextId": [
+      42500008,
+      42500009,
+      42500010
+    ],
+    "disableDialogIndex": -1,
+    "id": 1004,
+    "packIndex": "NotUse",
+    "PackId": 3
+  },
+  {
+    "dialogTextId": [
+      42500011,
+      42500012,
+      42500013
+    ],
+    "disableDialogIndex": -1,
+    "id": 1005,
+    "packIndex": "NotUse",
+    "PackId": 3
+  },
+  {
+    "dialogTextId": [
+      42500014,
+      42500015,
+      42500016
+    ],
+    "disableDialogIndex": -1,
+    "id": 1006,
+    "packIndex": "NotUse",
+    "PackId": 3
+  },
+  {
+    "dialogTextId": [
+      40000201,
+      40000202,
+      40000203
+    ],
+    "disableDialogIndex": -1,
+    "id": 152,
+    "packIndex": "Pack8",
+    "PackId": 8
+  },
+  {
+    "dialogTextId": [
+      40000204,
+      40000205,
+      40000206
+    ],
+    "disableDialogIndex": -1,
+    "id": 153,
+    "packIndex": "Pack8",
+    "PackId": 8
+  },
+  {
+    "dialogTextId": [
+      40000207,
+      40000208,
+      40000209
+    ],
+    "disableDialogIndex": -1,
+    "id": 154,
+    "packIndex": "Pack8",
+    "PackId": 8
+  },
+  {
+    "dialogTextId": [
+      40000901,
+      40000902,
+      40000903
+    ],
+    "disableDialogIndex": -1,
+    "id": 155,
+    "packIndex": "Pack9",
+    "PackId": 9
+  },
+  {
+    "dialogTextId": [
+      4901,
+      4902
+    ],
+    "disableDialogIndex": -1,
+    "id": 1,
+    "packIndex": "NotUse",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      4901,
+      4902,
+      4903,
+      4904,
+      4905
+    ],
+    "disableDialogIndex": -1,
+    "id": 2,
+    "packIndex": "NotUse",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      4901,
+      4902,
+      4903,
+      4904,
+      4906
+    ],
+    "disableDialogIndex": 4,
+    "id": 3,
+    "packIndex": "NotUse",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      4701
+    ],
+    "disableDialogIndex": -1,
+    "id": 4,
+    "packIndex": "NotUse",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      4702,
+      4703
+    ],
+    "disableDialogIndex": -1,
+    "id": 5,
+    "packIndex": "NotUse",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      4704,
+      4705
+    ],
+    "disableDialogIndex": -1,
+    "id": 6,
+    "packIndex": "NotUse",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      4706,
+      4707
+    ],
+    "disableDialogIndex": -1,
+    "id": 7,
+    "packIndex": "NotUse",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      4708
+    ],
+    "disableDialogIndex": -1,
+    "id": 8,
+    "packIndex": "NotUse",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      4709,
+      4710
+    ],
+    "disableDialogIndex": -1,
+    "id": 9,
+    "packIndex": "NotUse",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      4711
+    ],
+    "disableDialogIndex": -1,
+    "id": 10,
+    "packIndex": "NotUse",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      4712
+    ],
+    "disableDialogIndex": -1,
+    "id": 11,
+    "packIndex": "NotUse",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      4713,
+      4714
+    ],
+    "disableDialogIndex": -1,
+    "id": 12,
+    "packIndex": "NotUse",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      4715,
+      4716
+    ],
+    "disableDialogIndex": -1,
+    "id": 13,
+    "packIndex": "NotUse",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      4717,
+      4718
+    ],
+    "disableDialogIndex": -1,
+    "id": 14,
+    "packIndex": "NotUse",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      4719
+    ],
+    "disableDialogIndex": -1,
+    "id": 15,
+    "packIndex": "NotUse",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      4720,
+      4721
+    ],
+    "disableDialogIndex": -1,
+    "id": 16,
+    "packIndex": "NotUse",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      4722,
+      4723
+    ],
+    "disableDialogIndex": -1,
+    "id": 17,
+    "packIndex": "NotUse",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      4724
+    ],
+    "disableDialogIndex": -1,
+    "id": 18,
+    "packIndex": "NotUse",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      4725
+    ],
+    "disableDialogIndex": -1,
+    "id": 19,
+    "packIndex": "NotUse",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      4726,
+      4727,
+      4728,
+      4912
+    ],
+    "disableDialogIndex": 3,
+    "id": 20,
+    "packIndex": "NotUse",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      4729,
+      4730,
+      4731,
+      4732,
+      4912
+    ],
+    "disableDialogIndex": 4,
+    "id": 21,
+    "packIndex": "NotUse",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      4734,
+      4733
+    ],
+    "disableDialogIndex": -1,
+    "id": 22,
+    "packIndex": "NotUse",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      4735,
+      4736
+    ],
+    "disableDialogIndex": -1,
+    "id": 23,
+    "packIndex": "NotUse",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      4737,
+      4738
+    ],
+    "disableDialogIndex": -1,
+    "id": 24,
+    "packIndex": "NotUse",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      4740,
+      4739
+    ],
+    "disableDialogIndex": -1,
+    "id": 25,
+    "packIndex": "NotUse",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      4741,
+      4742
+    ],
+    "disableDialogIndex": -1,
+    "id": 26,
+    "packIndex": "NotUse",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      4744,
+      4743
+    ],
+    "disableDialogIndex": -1,
+    "id": 27,
+    "packIndex": "NotUse",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      4745,
+      4746,
+      4747
+    ],
+    "disableDialogIndex": -1,
+    "id": 28,
+    "packIndex": "NotUse",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      4748,
+      4751,
+      4749
+    ],
+    "disableDialogIndex": -1,
+    "id": 29,
+    "packIndex": "NotUse",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      4752,
+      4753,
+      4754,
+      4912
+    ],
+    "disableDialogIndex": 3,
+    "id": 30,
+    "packIndex": "NotUse",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      4755,
+      4756,
+      4757
+    ],
+    "disableDialogIndex": -1,
+    "id": 31,
+    "packIndex": "NotUse",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      4801,
+      4802
+    ],
+    "disableDialogIndex": -1,
+    "id": 100,
+    "packIndex": "NotUse",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      4803,
+      4804
+    ],
+    "disableDialogIndex": -1,
+    "id": 101,
+    "packIndex": "NotUse",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      4805
+    ],
+    "disableDialogIndex": -1,
+    "id": 102,
+    "packIndex": "NotUse",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      4806,
+      4807
+    ],
+    "disableDialogIndex": -1,
+    "id": 103,
+    "packIndex": "NotUse",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      4808,
+      4809
+    ],
+    "disableDialogIndex": -1,
+    "id": 104,
+    "packIndex": "NotUse",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      4810
+    ],
+    "disableDialogIndex": -1,
+    "id": 105,
+    "packIndex": "NotUse",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      4811,
+      4812
+    ],
+    "disableDialogIndex": -1,
+    "id": 106,
+    "packIndex": "NotUse",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      4813
+    ],
+    "disableDialogIndex": -1,
+    "id": 107,
+    "packIndex": "NotUse",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      4814,
+      4815
+    ],
+    "disableDialogIndex": -1,
+    "id": 108,
+    "packIndex": "NotUse",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      4816,
+      4817
+    ],
+    "disableDialogIndex": -1,
+    "id": 109,
+    "packIndex": "NotUse",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      4818,
+      4819
+    ],
+    "disableDialogIndex": -1,
+    "id": 110,
+    "packIndex": "NotUse",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      4820
+    ],
+    "disableDialogIndex": -1,
+    "id": 111,
+    "packIndex": "NotUse",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      4821,
+      4822
+    ],
+    "disableDialogIndex": -1,
+    "id": 112,
+    "packIndex": "NotUse",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      4823,
+      4824
+    ],
+    "disableDialogIndex": -1,
+    "id": 113,
+    "packIndex": "NotUse",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      4825
+    ],
+    "disableDialogIndex": -1,
+    "id": 114,
+    "packIndex": "NotUse",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      4826,
+      4827
+    ],
+    "disableDialogIndex": -1,
+    "id": 115,
+    "packIndex": "NotUse",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      4828
+    ],
+    "disableDialogIndex": -1,
+    "id": 116,
+    "packIndex": "NotUse",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      4829
+    ],
+    "disableDialogIndex": -1,
+    "id": 117,
+    "packIndex": "NotUse",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      4830,
+      4831
+    ],
+    "disableDialogIndex": -1,
+    "id": 118,
+    "packIndex": "NotUse",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      4832
+    ],
+    "disableDialogIndex": -1,
+    "id": 119,
+    "packIndex": "NotUse",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      4833,
+      4834
+    ],
+    "disableDialogIndex": -1,
+    "id": 120,
+    "packIndex": "NotUse",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      4835,
+      4836
+    ],
+    "disableDialogIndex": -1,
+    "id": 121,
+    "packIndex": "NotUse",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      4837
+    ],
+    "disableDialogIndex": -1,
+    "id": 122,
+    "packIndex": "NotUse",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      42500001,
+      42500002,
+      42500003
+    ],
+    "disableDialogIndex": -1,
+    "id": 1001,
+    "packIndex": "Pack 1001",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      42500004,
+      42500005
+    ],
+    "disableDialogIndex": -1,
+    "id": 1002,
+    "packIndex": "Pack 1001",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      42500006,
+      42500007
+    ],
+    "disableDialogIndex": -1,
+    "id": 1003,
+    "packIndex": "Pack 1001",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      42500008,
+      42500009,
+      42500010
+    ],
+    "disableDialogIndex": -1,
+    "id": 1004,
+    "packIndex": "NotUse",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      42500011,
+      42500012,
+      42500013
+    ],
+    "disableDialogIndex": -1,
+    "id": 1005,
+    "packIndex": "NotUse",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      42500014,
+      42500015,
+      42500016
+    ],
+    "disableDialogIndex": -1,
+    "id": 1006,
+    "packIndex": "NotUse",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      20520,
+      20523,
+      20526,
+      22001
+    ],
+    "disableDialogIndex": 3,
+    "id": 10501,
+    "packIndex": "Pack 1001",
+    "PackId": 1001
+  },
+  {
+    "dialogTextId": [
+      4901,
+      4902
+    ],
+    "disableDialogIndex": -1,
+    "id": 1,
+    "packIndex": "NotUse",
+    "PackId": 1002
+  },
+  {
+    "dialogTextId": [
+      4901,
+      4902,
+      4903,
+      4904,
+      4905
+    ],
+    "disableDialogIndex": -1,
+    "id": 2,
+    "packIndex": "NotUse",
+    "PackId": 1002
+  },
+  {
+    "dialogTextId": [
+      4901,
+      4902,
+      4903,
+      4904,
+      4906
+    ],
+    "disableDialogIndex": 4,
+    "id": 3,
+    "packIndex": "NotUse",
+    "PackId": 1002
+  },
+  {
+    "dialogTextId": [
+      4701
+    ],
+    "disableDialogIndex": -1,
+    "id": 4,
+    "packIndex": "NotUse",
+    "PackId": 1002
+  },
+  {
+    "dialogTextId": [
+      4702,
+      4703
+    ],
+    "disableDialogIndex": -1,
+    "id": 5,
+    "packIndex": "NotUse",
+    "PackId": 1002
+  },
+  {
+    "dialogTextId": [
+      4704,
+      4705
+    ],
+    "disableDialogIndex": -1,
+    "id": 6,
+    "packIndex": "NotUse",
+    "PackId": 1002
+  },
+  {
+    "dialogTextId": [
+      4706,
+      4707
+    ],
+    "disableDialogIndex": -1,
+    "id": 7,
+    "packIndex": "NotUse",
+    "PackId": 1002
+  },
+  {
+    "dialogTextId": [
+      4708
+    ],
+    "disableDialogIndex": -1,
+    "id": 8,
+    "packIndex": "NotUse",
+    "PackId": 1002
+  },
+  {
+    "dialogTextId": [
+      4709,
+      4710
+    ],
+    "disableDialogIndex": -1,
+    "id": 9,
+    "packIndex": "NotUse",
+    "PackId": 1002
+  },
+  {
+    "dialogTextId": [
+      4711
+    ],
+    "disableDialogIndex": -1,
+    "id": 10,
+    "packIndex": "NotUse",
+    "PackId": 1002
+  },
+  {
+    "dialogTextId": [
+      4712
+    ],
+    "disableDialogIndex": -1,
+    "id": 11,
+    "packIndex": "NotUse",
+    "PackId": 1002
+  },
+  {
+    "dialogTextId": [
+      4713,
+      4714
+    ],
+    "disableDialogIndex": -1,
+    "id": 12,
+    "packIndex": "NotUse",
+    "PackId": 1002
+  },
+  {
+    "dialogTextId": [
+      4715,
+      4716
+    ],
+    "disableDialogIndex": -1,
+    "id": 13,
+    "packIndex": "NotUse",
+    "PackId": 1002
+  },
+  {
+    "dialogTextId": [
+      4717,
+      4718
+    ],
+    "disableDialogIndex": -1,
+    "id": 14,
+    "packIndex": "NotUse",
+    "PackId": 1002
+  },
+  {
+    "dialogTextId": [
+      4719
+    ],
+    "disableDialogIndex": -1,
+    "id": 15,
+    "packIndex": "NotUse",
+    "PackId": 1002
+  },
+  {
+    "dialogTextId": [
+      4720,
+      4721
+    ],
+    "disableDialogIndex": -1,
+    "id": 16,
+    "packIndex": "NotUse",
+    "PackId": 1002
+  },
+  {
+    "dialogTextId": [
+      4722,
+      4723
+    ],
+    "disableDialogIndex": -1,
+    "id": 17,
+    "packIndex": "NotUse",
+    "PackId": 1002
+  },
+  {
+    "dialogTextId": [
+      4724
+    ],
+    "disableDialogIndex": -1,
+    "id": 18,
+    "packIndex": "NotUse",
+    "PackId": 1002
+  },
+  {
+    "dialogTextId": [
+      4725
+    ],
+    "disableDialogIndex": -1,
+    "id": 19,
+    "packIndex": "NotUse",
+    "PackId": 1002
+  },
+  {
+    "dialogTextId": [
+      4726,
+      4727,
+      4728,
+      4912
+    ],
+    "disableDialogIndex": 3,
+    "id": 20,
+    "packIndex": "NotUse",
+    "PackId": 1002
+  },
+  {
+    "dialogTextId": [
+      4729,
+      4730,
+      4731,
+      4732,
+      4912
+    ],
+    "disableDialogIndex": 4,
+    "id": 21,
+    "packIndex": "NotUse",
+    "PackId": 1002
+  },
+  {
+    "dialogTextId": [
+      4734,
+      4733
+    ],
+    "disableDialogIndex": -1,
+    "id": 22,
+    "packIndex": "NotUse",
+    "PackId": 1002
+  },
+  {
+    "dialogTextId": [
+      4735,
+      4736
+    ],
+    "disableDialogIndex": -1,
+    "id": 23,
+    "packIndex": "NotUse",
+    "PackId": 1002
+  },
+  {
+    "dialogTextId": [
+      4737,
+      4738
+    ],
+    "disableDialogIndex": -1,
+    "id": 24,
+    "packIndex": "NotUse",
+    "PackId": 1002
+  },
+  {
+    "dialogTextId": [
+      4740,
+      4739
+    ],
+    "disableDialogIndex": -1,
+    "id": 25,
+    "packIndex": "NotUse",
+    "PackId": 1002
+  },
+  {
+    "dialogTextId": [
+      4741,
+      4742
+    ],
+    "disableDialogIndex": -1,
+    "id": 26,
+    "packIndex": "NotUse",
+    "PackId": 1002
+  },
+  {
+    "dialogTextId": [
+      4744,
+      4743
+    ],
+    "disableDialogIndex": -1,
+    "id": 27,
+    "packIndex": "NotUse",
+    "PackId": 1002
+  },
+  {
+    "dialogTextId": [
+      4745,
+      4746,
+      4747
+    ],
+    "disableDialogIndex": -1,
+    "id": 28,
+    "packIndex": "NotUse",
+    "PackId": 1002
+  },
+  {
+    "dialogTextId": [
+      4748,
+      4751,
+      4749
+    ],
+    "disableDialogIndex": -1,
+    "id": 29,
+    "packIndex": "NotUse",
+    "PackId": 1002
+  },
+  {
+    "dialogTextId": [
+      4752,
+      4753,
+      4754,
+      4912
+    ],
+    "disableDialogIndex": 3,
+    "id": 30,
+    "packIndex": "NotUse",
+    "PackId": 1002
+  },
+  {
+    "dialogTextId": [
+      4755,
+      4756,
+      4757
+    ],
+    "disableDialogIndex": -1,
+    "id": 31,
+    "packIndex": "NotUse",
+    "PackId": 1002
+  },
+  {
+    "dialogTextId": [
+      4801,
+      4802
+    ],
+    "disableDialogIndex": -1,
+    "id": 100,
+    "packIndex": "NotUse",
+    "PackId": 1002
+  },
+  {
+    "dialogTextId": [
+      4803,
+      4804
+    ],
+    "disableDialogIndex": -1,
+    "id": 101,
+    "packIndex": "NotUse",
+    "PackId": 1002
+  },
+  {
+    "dialogTextId": [
+      4805
+    ],
+    "disableDialogIndex": -1,
+    "id": 102,
+    "packIndex": "NotUse",
+    "PackId": 1002
+  },
+  {
+    "dialogTextId": [
+      4806,
+      4807
+    ],
+    "disableDialogIndex": -1,
+    "id": 103,
+    "packIndex": "NotUse",
+    "PackId": 1002
+  },
+  {
+    "dialogTextId": [
+      4808,
+      4809
+    ],
+    "disableDialogIndex": -1,
+    "id": 104,
+    "packIndex": "NotUse",
+    "PackId": 1002
+  },
+  {
+    "dialogTextId": [
+      4810
+    ],
+    "disableDialogIndex": -1,
+    "id": 105,
+    "packIndex": "NotUse",
+    "PackId": 1002
+  },
+  {
+    "dialogTextId": [
+      4811,
+      4812
+    ],
+    "disableDialogIndex": -1,
+    "id": 106,
+    "packIndex": "NotUse",
+    "PackId": 1002
+  },
+  {
+    "dialogTextId": [
+      4813
+    ],
+    "disableDialogIndex": -1,
+    "id": 107,
+    "packIndex": "NotUse",
+    "PackId": 1002
+  },
+  {
+    "dialogTextId": [
+      4814,
+      4815
+    ],
+    "disableDialogIndex": -1,
+    "id": 108,
+    "packIndex": "NotUse",
+    "PackId": 1002
+  },
+  {
+    "dialogTextId": [
+      4816,
+      4817
+    ],
+    "disableDialogIndex": -1,
+    "id": 109,
+    "packIndex": "NotUse",
+    "PackId": 1002
+  },
+  {
+    "dialogTextId": [
+      4818,
+      4819
+    ],
+    "disableDialogIndex": -1,
+    "id": 110,
+    "packIndex": "NotUse",
+    "PackId": 1002
+  },
+  {
+    "dialogTextId": [
+      4820
+    ],
+    "disableDialogIndex": -1,
+    "id": 111,
+    "packIndex": "NotUse",
+    "PackId": 1002
+  },
+  {
+    "dialogTextId": [
+      4821,
+      4822
+    ],
+    "disableDialogIndex": -1,
+    "id": 112,
+    "packIndex": "NotUse",
+    "PackId": 1002
+  },
+  {
+    "dialogTextId": [
+      4823,
+      4824
+    ],
+    "disableDialogIndex": -1,
+    "id": 113,
+    "packIndex": "NotUse",
+    "PackId": 1002
+  },
+  {
+    "dialogTextId": [
+      4825
+    ],
+    "disableDialogIndex": -1,
+    "id": 114,
+    "packIndex": "NotUse",
+    "PackId": 1002
+  },
+  {
+    "dialogTextId": [
+      4826,
+      4827
+    ],
+    "disableDialogIndex": -1,
+    "id": 115,
+    "packIndex": "NotUse",
+    "PackId": 1002
+  },
+  {
+    "dialogTextId": [
+      4828
+    ],
+    "disableDialogIndex": -1,
+    "id": 116,
+    "packIndex": "NotUse",
+    "PackId": 1002
+  },
+  {
+    "dialogTextId": [
+      4829
+    ],
+    "disableDialogIndex": -1,
+    "id": 117,
+    "packIndex": "NotUse",
+    "PackId": 1002
+  },
+  {
+    "dialogTextId": [
+      4830,
+      4831
+    ],
+    "disableDialogIndex": -1,
+    "id": 118,
+    "packIndex": "NotUse",
+    "PackId": 1002
+  },
+  {
+    "dialogTextId": [
+      4832
+    ],
+    "disableDialogIndex": -1,
+    "id": 119,
+    "packIndex": "NotUse",
+    "PackId": 1002
+  },
+  {
+    "dialogTextId": [
+      4833,
+      4834
+    ],
+    "disableDialogIndex": -1,
+    "id": 120,
+    "packIndex": "NotUse",
+    "PackId": 1002
+  },
+  {
+    "dialogTextId": [
+      4835,
+      4836
+    ],
+    "disableDialogIndex": -1,
+    "id": 121,
+    "packIndex": "NotUse",
+    "PackId": 1002
+  },
+  {
+    "dialogTextId": [
+      4837
+    ],
+    "disableDialogIndex": -1,
+    "id": 122,
+    "packIndex": "NotUse",
+    "PackId": 1002
+  },
+  {
+    "dialogTextId": [
+      42500008,
+      42500009,
+      42500010
+    ],
+    "disableDialogIndex": -1,
+    "id": 1004,
+    "packIndex": "NotUse",
+    "PackId": 1002
+  },
+  {
+    "dialogTextId": [
+      42500011,
+      42500012,
+      42500013
+    ],
+    "disableDialogIndex": -1,
+    "id": 1005,
+    "packIndex": "NotUse",
+    "PackId": 1002
+  },
+  {
+    "dialogTextId": [
+      42500014,
+      42500015,
+      42500016
+    ],
+    "disableDialogIndex": -1,
+    "id": 1006,
+    "packIndex": "NotUse",
+    "PackId": 1002
+  },
+  {
+    "dialogTextId": [
+      4901,
+      4902
+    ],
+    "disableDialogIndex": -1,
+    "id": 1,
+    "packIndex": "NotUse",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      4901,
+      4902,
+      4903,
+      4904,
+      4905
+    ],
+    "disableDialogIndex": -1,
+    "id": 2,
+    "packIndex": "NotUse",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      4901,
+      4902,
+      4903,
+      4904,
+      4906
+    ],
+    "disableDialogIndex": 4,
+    "id": 3,
+    "packIndex": "NotUse",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      4701
+    ],
+    "disableDialogIndex": -1,
+    "id": 4,
+    "packIndex": "NotUse",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      4702,
+      4703
+    ],
+    "disableDialogIndex": -1,
+    "id": 5,
+    "packIndex": "NotUse",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      4704,
+      4705
+    ],
+    "disableDialogIndex": -1,
+    "id": 6,
+    "packIndex": "NotUse",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      4706,
+      4707
+    ],
+    "disableDialogIndex": -1,
+    "id": 7,
+    "packIndex": "NotUse",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      4708
+    ],
+    "disableDialogIndex": -1,
+    "id": 8,
+    "packIndex": "NotUse",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      4709,
+      4710
+    ],
+    "disableDialogIndex": -1,
+    "id": 9,
+    "packIndex": "NotUse",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      4711
+    ],
+    "disableDialogIndex": -1,
+    "id": 10,
+    "packIndex": "NotUse",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      4712
+    ],
+    "disableDialogIndex": -1,
+    "id": 11,
+    "packIndex": "NotUse",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      4713,
+      4714
+    ],
+    "disableDialogIndex": -1,
+    "id": 12,
+    "packIndex": "NotUse",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      4715,
+      4716
+    ],
+    "disableDialogIndex": -1,
+    "id": 13,
+    "packIndex": "NotUse",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      4717,
+      4718
+    ],
+    "disableDialogIndex": -1,
+    "id": 14,
+    "packIndex": "NotUse",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      4719
+    ],
+    "disableDialogIndex": -1,
+    "id": 15,
+    "packIndex": "NotUse",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      4720,
+      4721
+    ],
+    "disableDialogIndex": -1,
+    "id": 16,
+    "packIndex": "NotUse",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      4722,
+      4723
+    ],
+    "disableDialogIndex": -1,
+    "id": 17,
+    "packIndex": "NotUse",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      4724
+    ],
+    "disableDialogIndex": -1,
+    "id": 18,
+    "packIndex": "NotUse",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      4725
+    ],
+    "disableDialogIndex": -1,
+    "id": 19,
+    "packIndex": "NotUse",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      4726,
+      4727,
+      4728,
+      4912
+    ],
+    "disableDialogIndex": 3,
+    "id": 20,
+    "packIndex": "NotUse",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      4729,
+      4730,
+      4731,
+      4732,
+      4912
+    ],
+    "disableDialogIndex": 4,
+    "id": 21,
+    "packIndex": "NotUse",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      4734,
+      4733
+    ],
+    "disableDialogIndex": -1,
+    "id": 22,
+    "packIndex": "NotUse",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      4735,
+      4736
+    ],
+    "disableDialogIndex": -1,
+    "id": 23,
+    "packIndex": "NotUse",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      4737,
+      4738
+    ],
+    "disableDialogIndex": -1,
+    "id": 24,
+    "packIndex": "NotUse",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      4740,
+      4739
+    ],
+    "disableDialogIndex": -1,
+    "id": 25,
+    "packIndex": "NotUse",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      4741,
+      4742
+    ],
+    "disableDialogIndex": -1,
+    "id": 26,
+    "packIndex": "NotUse",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      4744,
+      4743
+    ],
+    "disableDialogIndex": -1,
+    "id": 27,
+    "packIndex": "NotUse",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      4745,
+      4746,
+      4747
+    ],
+    "disableDialogIndex": -1,
+    "id": 28,
+    "packIndex": "NotUse",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      4748,
+      4751,
+      4749
+    ],
+    "disableDialogIndex": -1,
+    "id": 29,
+    "packIndex": "NotUse",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      4752,
+      4753,
+      4754,
+      4912
+    ],
+    "disableDialogIndex": 3,
+    "id": 30,
+    "packIndex": "NotUse",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      4755,
+      4756,
+      4757
+    ],
+    "disableDialogIndex": -1,
+    "id": 31,
+    "packIndex": "NotUse",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      4801,
+      4802
+    ],
+    "disableDialogIndex": -1,
+    "id": 100,
+    "packIndex": "NotUse",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      4803,
+      4804
+    ],
+    "disableDialogIndex": -1,
+    "id": 101,
+    "packIndex": "NotUse",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      4805
+    ],
+    "disableDialogIndex": -1,
+    "id": 102,
+    "packIndex": "NotUse",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      4806,
+      4807
+    ],
+    "disableDialogIndex": -1,
+    "id": 103,
+    "packIndex": "NotUse",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      4808,
+      4809
+    ],
+    "disableDialogIndex": -1,
+    "id": 104,
+    "packIndex": "NotUse",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      4810
+    ],
+    "disableDialogIndex": -1,
+    "id": 105,
+    "packIndex": "NotUse",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      4811,
+      4812
+    ],
+    "disableDialogIndex": -1,
+    "id": 106,
+    "packIndex": "NotUse",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      4813
+    ],
+    "disableDialogIndex": -1,
+    "id": 107,
+    "packIndex": "NotUse",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      4814,
+      4815
+    ],
+    "disableDialogIndex": -1,
+    "id": 108,
+    "packIndex": "NotUse",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      4816,
+      4817
+    ],
+    "disableDialogIndex": -1,
+    "id": 109,
+    "packIndex": "NotUse",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      4818,
+      4819
+    ],
+    "disableDialogIndex": -1,
+    "id": 110,
+    "packIndex": "NotUse",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      4820
+    ],
+    "disableDialogIndex": -1,
+    "id": 111,
+    "packIndex": "NotUse",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      4821,
+      4822
+    ],
+    "disableDialogIndex": -1,
+    "id": 112,
+    "packIndex": "NotUse",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      4823,
+      4824
+    ],
+    "disableDialogIndex": -1,
+    "id": 113,
+    "packIndex": "NotUse",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      4825
+    ],
+    "disableDialogIndex": -1,
+    "id": 114,
+    "packIndex": "NotUse",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      4826,
+      4827
+    ],
+    "disableDialogIndex": -1,
+    "id": 115,
+    "packIndex": "NotUse",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      4828
+    ],
+    "disableDialogIndex": -1,
+    "id": 116,
+    "packIndex": "NotUse",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      4829
+    ],
+    "disableDialogIndex": -1,
+    "id": 117,
+    "packIndex": "NotUse",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      4830,
+      4831
+    ],
+    "disableDialogIndex": -1,
+    "id": 118,
+    "packIndex": "NotUse",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      4832
+    ],
+    "disableDialogIndex": -1,
+    "id": 119,
+    "packIndex": "NotUse",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      4833,
+      4834
+    ],
+    "disableDialogIndex": -1,
+    "id": 120,
+    "packIndex": "NotUse",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      4835,
+      4836
+    ],
+    "disableDialogIndex": -1,
+    "id": 121,
+    "packIndex": "NotUse",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      4837
+    ],
+    "disableDialogIndex": -1,
+    "id": 122,
+    "packIndex": "NotUse",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      42500008,
+      42500009,
+      42500010
+    ],
+    "disableDialogIndex": -1,
+    "id": 1004,
+    "packIndex": "NotUse",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      42500011,
+      42500012,
+      42500013
+    ],
+    "disableDialogIndex": -1,
+    "id": 1005,
+    "packIndex": "NotUse",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      42500014,
+      42500015,
+      42500016
+    ],
+    "disableDialogIndex": -1,
+    "id": 1006,
+    "packIndex": "NotUse",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      42500020,
+      42500021,
+      42500022
+    ],
+    "disableDialogIndex": -1,
+    "id": 1008,
+    "packIndex": "Pack 1003",
+    "PackId": 1003
+  },
+  {
+    "dialogTextId": [
+      4901,
+      4902
+    ],
+    "disableDialogIndex": -1,
+    "id": 1,
+    "packIndex": "NotUse",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      4901,
+      4902,
+      4903,
+      4904,
+      4905
+    ],
+    "disableDialogIndex": -1,
+    "id": 2,
+    "packIndex": "NotUse",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      4901,
+      4902,
+      4903,
+      4904,
+      4906
+    ],
+    "disableDialogIndex": 4,
+    "id": 3,
+    "packIndex": "NotUse",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      4701
+    ],
+    "disableDialogIndex": -1,
+    "id": 4,
+    "packIndex": "NotUse",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      4702,
+      4703
+    ],
+    "disableDialogIndex": -1,
+    "id": 5,
+    "packIndex": "NotUse",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      4704,
+      4705
+    ],
+    "disableDialogIndex": -1,
+    "id": 6,
+    "packIndex": "NotUse",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      4706,
+      4707
+    ],
+    "disableDialogIndex": -1,
+    "id": 7,
+    "packIndex": "NotUse",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      4708
+    ],
+    "disableDialogIndex": -1,
+    "id": 8,
+    "packIndex": "NotUse",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      4709,
+      4710
+    ],
+    "disableDialogIndex": -1,
+    "id": 9,
+    "packIndex": "NotUse",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      4711
+    ],
+    "disableDialogIndex": -1,
+    "id": 10,
+    "packIndex": "NotUse",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      4712
+    ],
+    "disableDialogIndex": -1,
+    "id": 11,
+    "packIndex": "NotUse",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      4713,
+      4714
+    ],
+    "disableDialogIndex": -1,
+    "id": 12,
+    "packIndex": "NotUse",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      4715,
+      4716
+    ],
+    "disableDialogIndex": -1,
+    "id": 13,
+    "packIndex": "NotUse",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      4717,
+      4718
+    ],
+    "disableDialogIndex": -1,
+    "id": 14,
+    "packIndex": "NotUse",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      4719
+    ],
+    "disableDialogIndex": -1,
+    "id": 15,
+    "packIndex": "NotUse",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      4720,
+      4721
+    ],
+    "disableDialogIndex": -1,
+    "id": 16,
+    "packIndex": "NotUse",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      4722,
+      4723
+    ],
+    "disableDialogIndex": -1,
+    "id": 17,
+    "packIndex": "NotUse",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      4724
+    ],
+    "disableDialogIndex": -1,
+    "id": 18,
+    "packIndex": "NotUse",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      4725
+    ],
+    "disableDialogIndex": -1,
+    "id": 19,
+    "packIndex": "NotUse",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      4726,
+      4727,
+      4728,
+      4912
+    ],
+    "disableDialogIndex": 3,
+    "id": 20,
+    "packIndex": "NotUse",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      4729,
+      4730,
+      4731,
+      4732,
+      4912
+    ],
+    "disableDialogIndex": 4,
+    "id": 21,
+    "packIndex": "NotUse",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      4734,
+      4733
+    ],
+    "disableDialogIndex": -1,
+    "id": 22,
+    "packIndex": "NotUse",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      4735,
+      4736
+    ],
+    "disableDialogIndex": -1,
+    "id": 23,
+    "packIndex": "NotUse",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      4737,
+      4738
+    ],
+    "disableDialogIndex": -1,
+    "id": 24,
+    "packIndex": "NotUse",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      4740,
+      4739
+    ],
+    "disableDialogIndex": -1,
+    "id": 25,
+    "packIndex": "NotUse",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      4741,
+      4742
+    ],
+    "disableDialogIndex": -1,
+    "id": 26,
+    "packIndex": "NotUse",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      4744,
+      4743
+    ],
+    "disableDialogIndex": -1,
+    "id": 27,
+    "packIndex": "NotUse",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      4745,
+      4746,
+      4747
+    ],
+    "disableDialogIndex": -1,
+    "id": 28,
+    "packIndex": "NotUse",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      4748,
+      4751,
+      4749
+    ],
+    "disableDialogIndex": -1,
+    "id": 29,
+    "packIndex": "NotUse",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      4752,
+      4753,
+      4754,
+      4912
+    ],
+    "disableDialogIndex": 3,
+    "id": 30,
+    "packIndex": "NotUse",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      4755,
+      4756,
+      4757
+    ],
+    "disableDialogIndex": -1,
+    "id": 31,
+    "packIndex": "NotUse",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      4801,
+      4802
+    ],
+    "disableDialogIndex": -1,
+    "id": 100,
+    "packIndex": "NotUse",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      4803,
+      4804
+    ],
+    "disableDialogIndex": -1,
+    "id": 101,
+    "packIndex": "NotUse",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      4805
+    ],
+    "disableDialogIndex": -1,
+    "id": 102,
+    "packIndex": "NotUse",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      4806,
+      4807
+    ],
+    "disableDialogIndex": -1,
+    "id": 103,
+    "packIndex": "NotUse",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      4808,
+      4809
+    ],
+    "disableDialogIndex": -1,
+    "id": 104,
+    "packIndex": "NotUse",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      4810
+    ],
+    "disableDialogIndex": -1,
+    "id": 105,
+    "packIndex": "NotUse",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      4811,
+      4812
+    ],
+    "disableDialogIndex": -1,
+    "id": 106,
+    "packIndex": "NotUse",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      4813
+    ],
+    "disableDialogIndex": -1,
+    "id": 107,
+    "packIndex": "NotUse",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      4814,
+      4815
+    ],
+    "disableDialogIndex": -1,
+    "id": 108,
+    "packIndex": "NotUse",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      4816,
+      4817
+    ],
+    "disableDialogIndex": -1,
+    "id": 109,
+    "packIndex": "NotUse",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      4818,
+      4819
+    ],
+    "disableDialogIndex": -1,
+    "id": 110,
+    "packIndex": "NotUse",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      4820
+    ],
+    "disableDialogIndex": -1,
+    "id": 111,
+    "packIndex": "NotUse",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      4821,
+      4822
+    ],
+    "disableDialogIndex": -1,
+    "id": 112,
+    "packIndex": "NotUse",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      4823,
+      4824
+    ],
+    "disableDialogIndex": -1,
+    "id": 113,
+    "packIndex": "NotUse",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      4825
+    ],
+    "disableDialogIndex": -1,
+    "id": 114,
+    "packIndex": "NotUse",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      4826,
+      4827
+    ],
+    "disableDialogIndex": -1,
+    "id": 115,
+    "packIndex": "NotUse",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      4828
+    ],
+    "disableDialogIndex": -1,
+    "id": 116,
+    "packIndex": "NotUse",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      4829
+    ],
+    "disableDialogIndex": -1,
+    "id": 117,
+    "packIndex": "NotUse",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      4830,
+      4831
+    ],
+    "disableDialogIndex": -1,
+    "id": 118,
+    "packIndex": "NotUse",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      4832
+    ],
+    "disableDialogIndex": -1,
+    "id": 119,
+    "packIndex": "NotUse",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      4833,
+      4834
+    ],
+    "disableDialogIndex": -1,
+    "id": 120,
+    "packIndex": "NotUse",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      4835,
+      4836
+    ],
+    "disableDialogIndex": -1,
+    "id": 121,
+    "packIndex": "NotUse",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      4837
+    ],
+    "disableDialogIndex": -1,
+    "id": 122,
+    "packIndex": "NotUse",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      42500008,
+      42500009,
+      42500010
+    ],
+    "disableDialogIndex": -1,
+    "id": 1004,
+    "packIndex": "NotUse",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      42500011,
+      42500012,
+      42500013
+    ],
+    "disableDialogIndex": -1,
+    "id": 1005,
+    "packIndex": "NotUse",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      42500014,
+      42500015,
+      42500016
+    ],
+    "disableDialogIndex": -1,
+    "id": 1006,
+    "packIndex": "NotUse",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      42500017,
+      42500018,
+      42500019
+    ],
+    "disableDialogIndex": -1,
+    "id": 1007,
+    "packIndex": "Pack 1004",
+    "PackId": 1004
+  },
+  {
+    "dialogTextId": [
+      4901,
+      4902
+    ],
+    "disableDialogIndex": -1,
+    "id": 1,
+    "packIndex": "NotUse",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      4901,
+      4902,
+      4903,
+      4904,
+      4905
+    ],
+    "disableDialogIndex": -1,
+    "id": 2,
+    "packIndex": "NotUse",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      4901,
+      4902,
+      4903,
+      4904,
+      4906
+    ],
+    "disableDialogIndex": 4,
+    "id": 3,
+    "packIndex": "NotUse",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      4701
+    ],
+    "disableDialogIndex": -1,
+    "id": 4,
+    "packIndex": "NotUse",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      4702,
+      4703
+    ],
+    "disableDialogIndex": -1,
+    "id": 5,
+    "packIndex": "NotUse",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      4704,
+      4705
+    ],
+    "disableDialogIndex": -1,
+    "id": 6,
+    "packIndex": "NotUse",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      4706,
+      4707
+    ],
+    "disableDialogIndex": -1,
+    "id": 7,
+    "packIndex": "NotUse",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      4708
+    ],
+    "disableDialogIndex": -1,
+    "id": 8,
+    "packIndex": "NotUse",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      4709,
+      4710
+    ],
+    "disableDialogIndex": -1,
+    "id": 9,
+    "packIndex": "NotUse",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      4711
+    ],
+    "disableDialogIndex": -1,
+    "id": 10,
+    "packIndex": "NotUse",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      4712
+    ],
+    "disableDialogIndex": -1,
+    "id": 11,
+    "packIndex": "NotUse",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      4713,
+      4714
+    ],
+    "disableDialogIndex": -1,
+    "id": 12,
+    "packIndex": "NotUse",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      4715,
+      4716
+    ],
+    "disableDialogIndex": -1,
+    "id": 13,
+    "packIndex": "NotUse",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      4717,
+      4718
+    ],
+    "disableDialogIndex": -1,
+    "id": 14,
+    "packIndex": "NotUse",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      4719
+    ],
+    "disableDialogIndex": -1,
+    "id": 15,
+    "packIndex": "NotUse",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      4720,
+      4721
+    ],
+    "disableDialogIndex": -1,
+    "id": 16,
+    "packIndex": "NotUse",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      4722,
+      4723
+    ],
+    "disableDialogIndex": -1,
+    "id": 17,
+    "packIndex": "NotUse",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      4724
+    ],
+    "disableDialogIndex": -1,
+    "id": 18,
+    "packIndex": "NotUse",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      4725
+    ],
+    "disableDialogIndex": -1,
+    "id": 19,
+    "packIndex": "NotUse",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      4726,
+      4727,
+      4728,
+      4912
+    ],
+    "disableDialogIndex": 3,
+    "id": 20,
+    "packIndex": "NotUse",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      4729,
+      4730,
+      4731,
+      4732,
+      4912
+    ],
+    "disableDialogIndex": 4,
+    "id": 21,
+    "packIndex": "NotUse",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      4734,
+      4733
+    ],
+    "disableDialogIndex": -1,
+    "id": 22,
+    "packIndex": "NotUse",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      4735,
+      4736
+    ],
+    "disableDialogIndex": -1,
+    "id": 23,
+    "packIndex": "NotUse",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      4737,
+      4738
+    ],
+    "disableDialogIndex": -1,
+    "id": 24,
+    "packIndex": "NotUse",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      4740,
+      4739
+    ],
+    "disableDialogIndex": -1,
+    "id": 25,
+    "packIndex": "NotUse",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      4741,
+      4742
+    ],
+    "disableDialogIndex": -1,
+    "id": 26,
+    "packIndex": "NotUse",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      4744,
+      4743
+    ],
+    "disableDialogIndex": -1,
+    "id": 27,
+    "packIndex": "NotUse",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      4745,
+      4746,
+      4747
+    ],
+    "disableDialogIndex": -1,
+    "id": 28,
+    "packIndex": "NotUse",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      4748,
+      4751,
+      4749
+    ],
+    "disableDialogIndex": -1,
+    "id": 29,
+    "packIndex": "NotUse",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      4752,
+      4753,
+      4754,
+      4912
+    ],
+    "disableDialogIndex": 3,
+    "id": 30,
+    "packIndex": "NotUse",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      4755,
+      4756,
+      4757
+    ],
+    "disableDialogIndex": -1,
+    "id": 31,
+    "packIndex": "NotUse",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      4801,
+      4802
+    ],
+    "disableDialogIndex": -1,
+    "id": 100,
+    "packIndex": "NotUse",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      4803,
+      4804
+    ],
+    "disableDialogIndex": -1,
+    "id": 101,
+    "packIndex": "NotUse",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      4805
+    ],
+    "disableDialogIndex": -1,
+    "id": 102,
+    "packIndex": "NotUse",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      4806,
+      4807
+    ],
+    "disableDialogIndex": -1,
+    "id": 103,
+    "packIndex": "NotUse",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      4808,
+      4809
+    ],
+    "disableDialogIndex": -1,
+    "id": 104,
+    "packIndex": "NotUse",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      4810
+    ],
+    "disableDialogIndex": -1,
+    "id": 105,
+    "packIndex": "NotUse",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      4811,
+      4812
+    ],
+    "disableDialogIndex": -1,
+    "id": 106,
+    "packIndex": "NotUse",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      4813
+    ],
+    "disableDialogIndex": -1,
+    "id": 107,
+    "packIndex": "NotUse",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      4814,
+      4815
+    ],
+    "disableDialogIndex": -1,
+    "id": 108,
+    "packIndex": "NotUse",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      4816,
+      4817
+    ],
+    "disableDialogIndex": -1,
+    "id": 109,
+    "packIndex": "NotUse",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      4818,
+      4819
+    ],
+    "disableDialogIndex": -1,
+    "id": 110,
+    "packIndex": "NotUse",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      4820
+    ],
+    "disableDialogIndex": -1,
+    "id": 111,
+    "packIndex": "NotUse",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      4821,
+      4822
+    ],
+    "disableDialogIndex": -1,
+    "id": 112,
+    "packIndex": "NotUse",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      4823,
+      4824
+    ],
+    "disableDialogIndex": -1,
+    "id": 113,
+    "packIndex": "NotUse",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      4825
+    ],
+    "disableDialogIndex": -1,
+    "id": 114,
+    "packIndex": "NotUse",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      4826,
+      4827
+    ],
+    "disableDialogIndex": -1,
+    "id": 115,
+    "packIndex": "NotUse",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      4828
+    ],
+    "disableDialogIndex": -1,
+    "id": 116,
+    "packIndex": "NotUse",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      4829
+    ],
+    "disableDialogIndex": -1,
+    "id": 117,
+    "packIndex": "NotUse",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      4830,
+      4831
+    ],
+    "disableDialogIndex": -1,
+    "id": 118,
+    "packIndex": "NotUse",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      4832
+    ],
+    "disableDialogIndex": -1,
+    "id": 119,
+    "packIndex": "NotUse",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      4833,
+      4834
+    ],
+    "disableDialogIndex": -1,
+    "id": 120,
+    "packIndex": "NotUse",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      4835,
+      4836
+    ],
+    "disableDialogIndex": -1,
+    "id": 121,
+    "packIndex": "NotUse",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      4837
+    ],
+    "disableDialogIndex": -1,
+    "id": 122,
+    "packIndex": "NotUse",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      42500008,
+      42500009,
+      42500010
+    ],
+    "disableDialogIndex": -1,
+    "id": 1004,
+    "packIndex": "NotUse",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      42500011,
+      42500012,
+      42500013
+    ],
+    "disableDialogIndex": -1,
+    "id": 1005,
+    "packIndex": "NotUse",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      42500014,
+      42500015,
+      42500016
+    ],
+    "disableDialogIndex": -1,
+    "id": 1006,
+    "packIndex": "NotUse",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      42500017,
+      42500018,
+      42500019
+    ],
+    "disableDialogIndex": -1,
+    "id": 1007,
+    "packIndex": "Pack 1004",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      11017,
+      11029,
+      11022
+    ],
+    "disableDialogIndex": -1,
+    "id": 1008,
+    "packIndex": "Pack 1005",
+    "PackId": 1005
+  },
+  {
+    "dialogTextId": [
+      4901,
+      4902
+    ],
+    "disableDialogIndex": -1,
+    "id": 1,
+    "packIndex": "NotUse",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      4901,
+      4902,
+      4903,
+      4904,
+      4905
+    ],
+    "disableDialogIndex": -1,
+    "id": 2,
+    "packIndex": "NotUse",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      4901,
+      4902,
+      4903,
+      4904,
+      4906
+    ],
+    "disableDialogIndex": 4,
+    "id": 3,
+    "packIndex": "NotUse",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      4701
+    ],
+    "disableDialogIndex": -1,
+    "id": 4,
+    "packIndex": "NotUse",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      4702,
+      4703
+    ],
+    "disableDialogIndex": -1,
+    "id": 5,
+    "packIndex": "NotUse",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      4704,
+      4705
+    ],
+    "disableDialogIndex": -1,
+    "id": 6,
+    "packIndex": "NotUse",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      4706,
+      4707
+    ],
+    "disableDialogIndex": -1,
+    "id": 7,
+    "packIndex": "NotUse",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      4708
+    ],
+    "disableDialogIndex": -1,
+    "id": 8,
+    "packIndex": "NotUse",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      4709,
+      4710
+    ],
+    "disableDialogIndex": -1,
+    "id": 9,
+    "packIndex": "NotUse",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      4711
+    ],
+    "disableDialogIndex": -1,
+    "id": 10,
+    "packIndex": "NotUse",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      4712
+    ],
+    "disableDialogIndex": -1,
+    "id": 11,
+    "packIndex": "NotUse",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      4713,
+      4714
+    ],
+    "disableDialogIndex": -1,
+    "id": 12,
+    "packIndex": "NotUse",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      4715,
+      4716
+    ],
+    "disableDialogIndex": -1,
+    "id": 13,
+    "packIndex": "NotUse",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      4717,
+      4718
+    ],
+    "disableDialogIndex": -1,
+    "id": 14,
+    "packIndex": "NotUse",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      4719
+    ],
+    "disableDialogIndex": -1,
+    "id": 15,
+    "packIndex": "NotUse",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      4720,
+      4721
+    ],
+    "disableDialogIndex": -1,
+    "id": 16,
+    "packIndex": "NotUse",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      4722,
+      4723
+    ],
+    "disableDialogIndex": -1,
+    "id": 17,
+    "packIndex": "NotUse",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      4724
+    ],
+    "disableDialogIndex": -1,
+    "id": 18,
+    "packIndex": "NotUse",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      4725
+    ],
+    "disableDialogIndex": -1,
+    "id": 19,
+    "packIndex": "NotUse",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      4726,
+      4727,
+      4728,
+      4912
+    ],
+    "disableDialogIndex": 3,
+    "id": 20,
+    "packIndex": "NotUse",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      4729,
+      4730,
+      4731,
+      4732,
+      4912
+    ],
+    "disableDialogIndex": 4,
+    "id": 21,
+    "packIndex": "NotUse",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      4734,
+      4733
+    ],
+    "disableDialogIndex": -1,
+    "id": 22,
+    "packIndex": "NotUse",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      4735,
+      4736
+    ],
+    "disableDialogIndex": -1,
+    "id": 23,
+    "packIndex": "NotUse",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      4737,
+      4738
+    ],
+    "disableDialogIndex": -1,
+    "id": 24,
+    "packIndex": "NotUse",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      4740,
+      4739
+    ],
+    "disableDialogIndex": -1,
+    "id": 25,
+    "packIndex": "NotUse",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      4741,
+      4742
+    ],
+    "disableDialogIndex": -1,
+    "id": 26,
+    "packIndex": "NotUse",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      4744,
+      4743
+    ],
+    "disableDialogIndex": -1,
+    "id": 27,
+    "packIndex": "NotUse",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      4745,
+      4746,
+      4747
+    ],
+    "disableDialogIndex": -1,
+    "id": 28,
+    "packIndex": "NotUse",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      4748,
+      4751,
+      4749
+    ],
+    "disableDialogIndex": -1,
+    "id": 29,
+    "packIndex": "NotUse",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      4752,
+      4753,
+      4754,
+      4912
+    ],
+    "disableDialogIndex": 3,
+    "id": 30,
+    "packIndex": "NotUse",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      4755,
+      4756,
+      4757
+    ],
+    "disableDialogIndex": -1,
+    "id": 31,
+    "packIndex": "NotUse",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      4801,
+      4802
+    ],
+    "disableDialogIndex": -1,
+    "id": 100,
+    "packIndex": "NotUse",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      4803,
+      4804
+    ],
+    "disableDialogIndex": -1,
+    "id": 101,
+    "packIndex": "NotUse",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      4805
+    ],
+    "disableDialogIndex": -1,
+    "id": 102,
+    "packIndex": "NotUse",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      4806,
+      4807
+    ],
+    "disableDialogIndex": -1,
+    "id": 103,
+    "packIndex": "NotUse",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      4808,
+      4809
+    ],
+    "disableDialogIndex": -1,
+    "id": 104,
+    "packIndex": "NotUse",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      4810
+    ],
+    "disableDialogIndex": -1,
+    "id": 105,
+    "packIndex": "NotUse",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      4811,
+      4812
+    ],
+    "disableDialogIndex": -1,
+    "id": 106,
+    "packIndex": "NotUse",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      4813
+    ],
+    "disableDialogIndex": -1,
+    "id": 107,
+    "packIndex": "NotUse",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      4814,
+      4815
+    ],
+    "disableDialogIndex": -1,
+    "id": 108,
+    "packIndex": "NotUse",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      4816,
+      4817
+    ],
+    "disableDialogIndex": -1,
+    "id": 109,
+    "packIndex": "NotUse",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      4818,
+      4819
+    ],
+    "disableDialogIndex": -1,
+    "id": 110,
+    "packIndex": "NotUse",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      4820
+    ],
+    "disableDialogIndex": -1,
+    "id": 111,
+    "packIndex": "NotUse",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      4821,
+      4822
+    ],
+    "disableDialogIndex": -1,
+    "id": 112,
+    "packIndex": "NotUse",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      4823,
+      4824
+    ],
+    "disableDialogIndex": -1,
+    "id": 113,
+    "packIndex": "NotUse",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      4825
+    ],
+    "disableDialogIndex": -1,
+    "id": 114,
+    "packIndex": "NotUse",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      4826,
+      4827
+    ],
+    "disableDialogIndex": -1,
+    "id": 115,
+    "packIndex": "NotUse",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      4828
+    ],
+    "disableDialogIndex": -1,
+    "id": 116,
+    "packIndex": "NotUse",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      4829
+    ],
+    "disableDialogIndex": -1,
+    "id": 117,
+    "packIndex": "NotUse",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      4830,
+      4831
+    ],
+    "disableDialogIndex": -1,
+    "id": 118,
+    "packIndex": "NotUse",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      4832
+    ],
+    "disableDialogIndex": -1,
+    "id": 119,
+    "packIndex": "NotUse",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      4833,
+      4834
+    ],
+    "disableDialogIndex": -1,
+    "id": 120,
+    "packIndex": "NotUse",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      4835,
+      4836
+    ],
+    "disableDialogIndex": -1,
+    "id": 121,
+    "packIndex": "NotUse",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      4837
+    ],
+    "disableDialogIndex": -1,
+    "id": 122,
+    "packIndex": "NotUse",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      42500008,
+      42500009,
+      42500010
+    ],
+    "disableDialogIndex": -1,
+    "id": 1004,
+    "packIndex": "NotUse",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      42500011,
+      42500012,
+      42500013
+    ],
+    "disableDialogIndex": -1,
+    "id": 1005,
+    "packIndex": "NotUse",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      42500014,
+      42500015,
+      42500016
+    ],
+    "disableDialogIndex": -1,
+    "id": 1006,
+    "packIndex": "NotUse",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      42500017,
+      42500018,
+      42500019
+    ],
+    "disableDialogIndex": -1,
+    "id": 1007,
+    "packIndex": "Pack 1004",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      11017,
+      11029,
+      11022
+    ],
+    "disableDialogIndex": -1,
+    "id": 1008,
+    "packIndex": "Pack 1005",
+    "PackId": 1006
+  },
+  {
+    "dialogTextId": [
+      42500020,
+      42500021
+    ],
+    "disableDialogIndex": -1,
+    "id": 1009,
+    "packIndex": "Pack 1006",
+    "PackId": 1006
+  }
 ]

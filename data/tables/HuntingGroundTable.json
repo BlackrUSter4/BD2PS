@@ -1,3 +1,421 @@
 [
-  { "bossId": 206, "id": 1, "mapId": 13, "monsterId": [ 201, 202, 203, 204, 205 ], "recommendGrowthPoint": 3138 }
+  {
+    "bossId": 206,
+    "id": 1,
+    "mapId": 13,
+    "monsterId": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "recommendGrowthPoint": 3138,
+    "PackId": 1
+  },
+  {
+    "bossId": 206,
+    "difficulty": 0,
+    "id": 1,
+    "mapId": 28,
+    "monsterId": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "recommendGrowthPoint": 4233,
+    "PackId": 2
+  },
+  {
+    "bossId": 1206,
+    "difficulty": 1,
+    "id": 2,
+    "mapId": 28,
+    "monsterId": [
+      1201,
+      1202,
+      1203,
+      1204,
+      1205
+    ],
+    "recommendGrowthPoint": 9810,
+    "PackId": 2
+  },
+  {
+    "bossId": 2206,
+    "difficulty": 2,
+    "id": 3,
+    "mapId": 28,
+    "monsterId": [
+      2201,
+      2202,
+      2203,
+      2204,
+      2205
+    ],
+    "recommendGrowthPoint": 15492,
+    "PackId": 2
+  },
+  {
+    "bossId": 206,
+    "difficulty": 0,
+    "id": 1,
+    "mapId": 38,
+    "monsterId": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "recommendGrowthPoint": 5167,
+    "PackId": 3
+  },
+  {
+    "bossId": 1206,
+    "difficulty": 1,
+    "id": 2,
+    "mapId": 38,
+    "monsterId": [
+      1201,
+      1202,
+      1203,
+      1204,
+      1205
+    ],
+    "recommendGrowthPoint": 10674,
+    "PackId": 3
+  },
+  {
+    "bossId": 2206,
+    "difficulty": 2,
+    "id": 3,
+    "mapId": 38,
+    "monsterId": [
+      2201,
+      2202,
+      2203,
+      2204,
+      2205
+    ],
+    "recommendGrowthPoint": 15826,
+    "PackId": 3
+  },
+  {
+    "bossId": 206,
+    "difficulty": 0,
+    "id": 1,
+    "mapId": 48,
+    "monsterId": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "recommendGrowthPoint": 5812,
+    "PackId": 4
+  },
+  {
+    "bossId": 1206,
+    "difficulty": 1,
+    "id": 2,
+    "mapId": 48,
+    "monsterId": [
+      1201,
+      1202,
+      1203,
+      1204,
+      1205
+    ],
+    "recommendGrowthPoint": 11087,
+    "PackId": 4
+  },
+  {
+    "bossId": 2206,
+    "difficulty": 2,
+    "id": 3,
+    "mapId": 48,
+    "monsterId": [
+      2201,
+      2202,
+      2203,
+      2204,
+      2205
+    ],
+    "recommendGrowthPoint": 16260,
+    "PackId": 4
+  },
+  {
+    "bossId": 206,
+    "difficulty": 0,
+    "id": 1,
+    "mapId": 59,
+    "monsterId": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "recommendGrowthPoint": 6840,
+    "PackId": 5
+  },
+  {
+    "bossId": 1206,
+    "difficulty": 1,
+    "id": 2,
+    "mapId": 59,
+    "monsterId": [
+      1201,
+      1202,
+      1203,
+      1204,
+      1205
+    ],
+    "recommendGrowthPoint": 12064,
+    "PackId": 5
+  },
+  {
+    "bossId": 2206,
+    "difficulty": 2,
+    "id": 3,
+    "mapId": 59,
+    "monsterId": [
+      2201,
+      2202,
+      2203,
+      2204,
+      2205
+    ],
+    "recommendGrowthPoint": 17075,
+    "PackId": 5
+  },
+  {
+    "bossId": 206,
+    "difficulty": 0,
+    "id": 1,
+    "mapId": 631,
+    "monsterId": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "recommendGrowthPoint": 7909,
+    "PackId": 6
+  },
+  {
+    "bossId": 1206,
+    "difficulty": 1,
+    "id": 2,
+    "mapId": 631,
+    "monsterId": [
+      1201,
+      1202,
+      1203,
+      1204,
+      1205
+    ],
+    "recommendGrowthPoint": 13265,
+    "PackId": 6
+  },
+  {
+    "bossId": 2206,
+    "difficulty": 2,
+    "id": 3,
+    "mapId": 631,
+    "monsterId": [
+      2201,
+      2202,
+      2203,
+      2204,
+      2205
+    ],
+    "recommendGrowthPoint": 17823,
+    "PackId": 6
+  },
+  {
+    "bossId": 206,
+    "difficulty": 0,
+    "id": 1,
+    "mapId": 77,
+    "monsterId": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "recommendGrowthPoint": 9073,
+    "PackId": 7
+  },
+  {
+    "bossId": 1206,
+    "difficulty": 1,
+    "id": 2,
+    "mapId": 77,
+    "monsterId": [
+      1201,
+      1202,
+      1203,
+      1204,
+      1205
+    ],
+    "recommendGrowthPoint": 14510,
+    "PackId": 7
+  },
+  {
+    "bossId": 2206,
+    "difficulty": 2,
+    "id": 3,
+    "mapId": 77,
+    "monsterId": [
+      2201,
+      2202,
+      2203,
+      2204,
+      2205
+    ],
+    "recommendGrowthPoint": 18833,
+    "PackId": 7
+  },
+  {
+    "bossId": 206,
+    "difficulty": 0,
+    "id": 1,
+    "mapId": 87,
+    "monsterId": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "recommendGrowthPoint": 10080,
+    "PackId": 8
+  },
+  {
+    "bossId": 1206,
+    "difficulty": 1,
+    "id": 2,
+    "mapId": 87,
+    "monsterId": [
+      1201,
+      1202,
+      1203,
+      1204,
+      1205
+    ],
+    "recommendGrowthPoint": 15299,
+    "PackId": 8
+  },
+  {
+    "bossId": 2206,
+    "difficulty": 2,
+    "id": 3,
+    "mapId": 87,
+    "monsterId": [
+      2201,
+      2202,
+      2203,
+      2204,
+      2205
+    ],
+    "recommendGrowthPoint": 19722,
+    "PackId": 8
+  },
+  {
+    "bossId": 206,
+    "difficulty": 0,
+    "id": 1,
+    "mapId": 99,
+    "monsterId": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "recommendGrowthPoint": 12096,
+    "PackId": 9
+  },
+  {
+    "bossId": 1206,
+    "difficulty": 1,
+    "id": 2,
+    "mapId": 99,
+    "monsterId": [
+      1201,
+      1202,
+      1203,
+      1204,
+      1205
+    ],
+    "recommendGrowthPoint": 18066,
+    "PackId": 9
+  },
+  {
+    "bossId": 2206,
+    "difficulty": 2,
+    "id": 3,
+    "mapId": 99,
+    "monsterId": [
+      2201,
+      2202,
+      2203,
+      2204,
+      2205
+    ],
+    "recommendGrowthPoint": 24285,
+    "PackId": 9
+  },
+  {
+    "bossId": 206,
+    "difficulty": 0,
+    "id": 1,
+    "mapId": 107,
+    "monsterId": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "recommendGrowthPoint": 15355,
+    "PackId": 10
+  },
+  {
+    "bossId": 1206,
+    "difficulty": 1,
+    "id": 2,
+    "mapId": 107,
+    "monsterId": [
+      1201,
+      1202,
+      1203,
+      1204,
+      1205
+    ],
+    "recommendGrowthPoint": 22823,
+    "PackId": 10
+  },
+  {
+    "bossId": 2206,
+    "difficulty": 2,
+    "id": 3,
+    "mapId": 107,
+    "monsterId": [
+      2201,
+      2202,
+      2203,
+      2204,
+      2205
+    ],
+    "recommendGrowthPoint": 30040,
+    "PackId": 10
+  }
 ]
