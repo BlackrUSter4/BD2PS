@@ -70,13 +70,27 @@ namespace BD2CompatPatch
                     TryOpenGachaDirectly();
                 }
                 _heartbeatFrameCount++;
-                // DEBUG (2026-09-30): temporarily unconditional so the corrupted-cutscene camera
-                // diagnostic can fire even before GameFieldManager exists (the corruption is
-                // visible during a pre-field story/intro sequence, confirmed live -- the
-                // GameFieldManager-gated version never captured it across several retests).
                 if (_heartbeatFrameCount % 60 == 0)
                 {
-                    DumpFullscreenGraphicsOnce();
+                    // DumpFullscreenGraphicsOnce() TURNED OFF (2026-09-30, user request: "the
+                    // dumper is still active to turn it off we had problems with it earlier") --
+                    // this was a diagnostic-only tool for the idle camera-zoom/blur investigation,
+                    // which was abandoned as a dead end (see CLIENT_UPDATE.md's 2026-09-30 failure
+                    // section). Its own exception-guarded _dumpedFullscreenGraphics one-shot flag
+                    // only gets set at the very end of the try block, so any exception partway
+                    // through the dump left it un-set and caused it to keep re-running every
+                    // second instead of once -- the "problems" referenced. Left the function body
+                    // defined below (unused) rather than deleted, in case a future session revives
+                    // the blur investigation and wants it back; just don't call it from the
+                    // heartbeat.
+                    // Stronger safety net for the "StorySkipUI present but EventSystem.RaycastAll
+                    // returns zero results for every click" freeze (confirmed live 2026-09-30,
+                    // same shape as the LoadCameraAsset pacing bug -- it reproduced again on a
+                    // retry even with the pacing-transpiler fix in place, so this is a race, not a
+                    // guaranteed fix). Deliberately unconditional on GameFieldManager, same reason
+                    // as DumpFullscreenGraphicsOnce above: this freeze happens during the
+                    // pre-field story/intro sequence, before GameFieldManager exists.
+                    WatchdogRecoverStuckStorySkip();
                 }
                 if (_heartbeatFrameCount % 60 == 0 && UnityEngine.Object.FindObjectOfType<GameFieldManager>() != null)
                 {
@@ -97,6 +111,12 @@ namespace BD2CompatPatch
             {
                 Log.LogWarning($"[BD2CompatPatch] HeartbeatPostfix failed: {e.Message}");
             }
+        }
+
+        private static bool AlwaysContentOpenPrefix(ref bool __result)
+        {
+            __result = true;
+            return false; // skip the original ticket-ownership/level check entirely
         }
 
         private static void TryOpenGachaDirectly()
@@ -275,6 +295,41 @@ namespace BD2CompatPatch
             catch (Exception e)
             {
                 Log.LogWarning($"[BD2CompatPatch] Failed to patch GameCameraManager.LoadCameraAsset: {e.Message}");
+            }
+
+            // REAL fix for the watchdog above being a band-aid: it only hides the symptom (stops
+            // the caller from waiting forever) -- it doesn't make the stuck loads actually finish,
+            // so whichever of the 120 timeline slots were still mid-load when it fires stay
+            // permanently empty, and every cutscene/dialogue signal depending on that exact slot
+            // never fires, which surfaces live as a black-screen freeze on the next cutscene
+            // transition (confirmed reproducing identically without this fix). The real decompiled
+            // loop fires off 10 Addressables.LoadAssetAsync calls back to back before EVER
+            // yielding once (`if ((i+1) % 10 == 0) yield return null;`), which under this heavily
+            // Harmony-instrumented debug build is a real cause of some of those 10-packs never
+            // getting their async continuations scheduled. Confirmed live via curl that the
+            // underlying CDN files are NOT missing. Fix the actual pacing bug with a transpiler:
+            // change the modulo-10 yield gate to modulo-1, so the coroutine yields after every
+            // single kickoff instead of every ten, giving Unity's main thread a chance to actually
+            // schedule and drive each one forward. Identify the compiler-generated state machine
+            // by scanning for a literal string unique to LoadCameraAsset's own body (ilspycmd
+            // can't even render the type's name as text, and nothing guarantees the runtime name
+            // would match anyway) rather than trusting a name match.
+            try
+            {
+                var moveNext = FindMoveNextContainingString(typeof(GameCameraManager), "Camera/ShakeSource/BattleCameraNoise.asset");
+                if (moveNext != null)
+                {
+                    harmony.Patch(moveNext, transpiler: new HarmonyMethod(typeof(Plugin).GetMethod(nameof(YieldEveryIterationTranspiler), BindingFlags.Static | BindingFlags.NonPublic)));
+                    Log.LogInfo("[BD2CompatPatch] Patched LoadCameraAsset's state machine MoveNext with a transpiler to yield every iteration instead of every 10 (real fix for stalled timeline-asset loads).");
+                }
+                else
+                {
+                    Log.LogWarning("[BD2CompatPatch] Could not find LoadCameraAsset's compiler-generated MoveNext to transpile.");
+                }
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning($"[BD2CompatPatch] Failed to transpile LoadCameraAsset's MoveNext: {e.Message}");
             }
 
             // Project-wide helper: `ThrowIfNull<T>(row, () => new DataNotFoundException(...))`,
@@ -908,6 +963,97 @@ namespace BD2CompatPatch
             catch (Exception e)
             {
                 Log.LogWarning($"[BD2CompatPatch] Failed to patch GameCameraManager.PlayDirector: {e.Message}");
+            }
+
+            // User request: stop asking every launch, period. Unity Addressables' own
+            // remote-catalog-diff workflow (AppManager.CheckDownload) re-runs every single
+            // launch regardless of our server responses. Skip it outright: immediately report
+            // "nothing to download" instead of letting it diff catalogs at all. Safe given a
+            // real, complete download already landed earlier this project -- individual asset
+            // loads (Addressables.LoadAssetAsync et al) are a separate, per-asset lazy mechanism
+            // unaffected by skipping this one bulk precheck.
+            try
+            {
+                var checkDownloadMethod = AccessTools.Method(typeof(AppManager), "CheckDownload");
+                if (checkDownloadMethod != null)
+                {
+                    var skipCheckDownloadPrefix = new HarmonyMethod(typeof(Plugin).GetMethod(nameof(SkipCheckDownloadPrefix), BindingFlags.Static | BindingFlags.NonPublic));
+                    harmony.Patch(checkDownloadMethod, prefix: skipCheckDownloadPrefix);
+                    Log.LogInfo("[BD2CompatPatch] Patched AppManager.CheckDownload to always report nothing-to-download (skips the every-launch download screen entirely).");
+                }
+                else
+                {
+                    Log.LogWarning("[BD2CompatPatch] Could not find AppManager.CheckDownload to patch.");
+                }
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning($"[BD2CompatPatch] Failed to patch AppManager.CheckDownload: {e.Message}");
+            }
+
+            // User request: the gacha button (and every other content-gated lobby feature) is
+            // stuck showing locked. Traced the REAL gate live via decompile (2026-10-01): it is
+            // NOT a tutorial/quest-clear flag at all -- every caller (MenuUI's gacha button click
+            // handler, MenuUI.SetMenuGacha's own lock-icon toggle, GachaMainUI's shortcut handler,
+            // plus the equivalent checks for Friend/Shop/PictorialBook/MyRoom/Guild/Dating/
+            // TacticsBingo) all bottom out in ONE method on the big player-data static class
+            // (obfuscated name below) that checks whether the account's inventory contains an
+            // item whose id equals ContentOpenTable's TicketId for that content type (for Gacha:
+            // ContentOpenTable row {groupId:4, id:1, ticketId:41}), plus a SquadLevel<=level
+            // check. Granting item 41 via the DB (done earlier) should have been sufficient on its
+            // own, but rather than keep chasing why the live client isn't picking that up (sync
+            // timing, category filtering, etc.), patch the check itself to always report open --
+            // this is a private test server, so unlocking every content gate outright is the
+            // actually-wanted behavior, not just a Gacha-specific workaround.
+            try
+            {
+                var contentGateType = AccessTools.TypeByName("ὣὡὧὡὦὣὣὬὨὪὫ");
+                var isContentOpenMethod = contentGateType?
+                    .GetMethods(BindingFlags.Public | BindingFlags.Static)
+                    .FirstOrDefault(m => m.Name == "ὦὤὡὧὯὠὬὬὦὣὭ"
+                        && m.ReturnType == typeof(bool)
+                        && m.GetParameters().Length == 2
+                        && m.GetParameters()[0].ParameterType == typeof(Proto.Net.Define_ContentOpenType)
+                        && m.GetParameters()[1].ParameterType == typeof(int));
+                if (isContentOpenMethod != null)
+                {
+                    harmony.Patch(isContentOpenMethod, prefix: new HarmonyMethod(typeof(Plugin).GetMethod(nameof(AlwaysContentOpenPrefix), BindingFlags.Static | BindingFlags.NonPublic)));
+                    Log.LogInfo("[BD2CompatPatch] Patched the content-open ticket-ownership check to always report unlocked (gacha/friend/shop/pictorial-book/my-room/guild/dating/etc. all content gates bypassed).");
+                }
+                else
+                {
+                    Log.LogWarning("[BD2CompatPatch] Could not find the content-open ticket-check method to patch.");
+                }
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning($"[BD2CompatPatch] Failed to patch the content-open check: {e.Message}");
+            }
+
+            // DIAGNOSTIC: confirm whether TimelineSignalManager's talk-queue methods actually
+            // fire during cutscene playback on THIS account (412287269) -- the new guest account
+            // (380164960) never called any of these even once during a full cutscene, while this
+            // account's TimelineBalloonUI canvas was observed live in the raycast diagnostics
+            // (present in the hierarchy), which doesn't by itself prove real dialogue data ever
+            // reached it (the canvas can exist as an empty shell without StartTalk ever running).
+            try
+            {
+                var talkManagerType = typeof(TimelineSignalManager);
+                int patchedTalkMethods = 0;
+                foreach (var methodName in new[] { "SetTalkGroupId", "SetTalkMinMaxId", "NextSpeaker" })
+                {
+                    var m = AccessTools.Method(talkManagerType, methodName);
+                    if (m != null)
+                    {
+                        harmony.Patch(m, prefix: new HarmonyMethod(typeof(Plugin).GetMethod(nameof(TimelineSignalDiagnosticPrefix), BindingFlags.Static | BindingFlags.NonPublic)));
+                        patchedTalkMethods++;
+                    }
+                }
+                Log.LogInfo($"[BD2CompatPatch] Patched {patchedTalkMethods}/3 TimelineSignalManager talk methods for dialogue diagnostics.");
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning($"[BD2CompatPatch] Failed to patch TimelineSignalManager talk methods: {e.Message}");
             }
 
             // ROOT CAUSE of "hangs entering the chief's house" (and, by the same shared,
@@ -2395,6 +2541,128 @@ namespace BD2CompatPatch
             return true; // let the real method run for real -- this is the actual fix
         }
 
+        // Skips AppManager.CheckDownload's real body entirely and immediately invokes its own
+        // callbacks as if nothing needed downloading. Real signature (params are obfuscated,
+        // addressed positionally via __args instead): (string bundleLabel, Action<bool>
+        // onComplete, Action onDownloadComplete, Action<List<DependencyTool.ResultInfo>> ?,
+        // Action<int,int> onProgress). onComplete(false) = "not a patch, nothing to show";
+        // onDownloadComplete() = tells the caller the (skipped) download finished.
+        private static bool SkipCheckDownloadPrefix(object[] __args)
+        {
+            try
+            {
+                if (__args.Length > 1 && __args[1] is Action<bool> onComplete)
+                {
+                    onComplete(false);
+                }
+                if (__args.Length > 2 && __args[2] is Action onDownloadComplete)
+                {
+                    onDownloadComplete();
+                }
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning($"[BD2CompatPatch] SkipCheckDownloadPrefix failed: {e.Message}");
+            }
+            return false;
+        }
+
+        private static void TimelineSignalDiagnosticPrefix(object __instance, MethodBase __originalMethod, object[] __args)
+        {
+            try
+            {
+                var argsStr = __args != null && __args.Length > 0 ? string.Join(", ", __args.Select(a => a?.ToString() ?? "null")) : "(none)";
+                int queueCount = -1;
+                try
+                {
+                    var queueField = AccessTools.Field(__instance.GetType(), "ὯὭὬὬὧὧὪὩὠὢὣ");
+                    if (queueField?.GetValue(__instance) is System.Collections.ICollection q)
+                    {
+                        queueCount = q.Count;
+                    }
+                }
+                catch { /* best-effort */ }
+                Log.LogInfo($"[BD2CompatPatch] TimelineSignalManager.{__originalMethod.Name}({argsStr}) called, talk queue count={queueCount}.");
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning($"[BD2CompatPatch] TimelineSignalDiagnosticPrefix failed: {e.Message}");
+            }
+        }
+
+        // Scans every nested IEnumerator-implementing type's MoveNext method for a raw `ldstr`
+        // (opcode 0x72) instruction whose resolved string token equals `targetLiteral`, returning
+        // the first match. Used when a compiler-generated state-machine type's name can't be
+        // trusted (ilspycmd renders it as unprintable, and nothing guarantees the runtime name
+        // matches the method it was generated from) but the method's own string literals are
+        // still real, readable, and unique enough to identify it unambiguously by content instead
+        // of by name.
+        private static MethodInfo FindMoveNextContainingString(Type enclosingType, string targetLiteral)
+        {
+            foreach (var nested in enclosingType.GetNestedTypes(BindingFlags.NonPublic | BindingFlags.Public))
+            {
+                if (!typeof(IEnumerator).IsAssignableFrom(nested)) continue;
+                var moveNext = nested.GetMethod("MoveNext", BindingFlags.NonPublic | BindingFlags.Public | BindingFlags.Instance);
+                if (moveNext == null) continue;
+                byte[] il;
+                try
+                {
+                    il = moveNext.GetMethodBody()?.GetILAsByteArray();
+                }
+                catch
+                {
+                    continue;
+                }
+                if (il == null) continue;
+                for (int i = 0; i < il.Length - 4; i++)
+                {
+                    if (il[i] != 0x72) continue; // ldstr
+                    int token = BitConverter.ToInt32(il, i + 1);
+                    string resolved;
+                    try
+                    {
+                        resolved = moveNext.Module.ResolveString(token);
+                    }
+                    catch
+                    {
+                        continue;
+                    }
+                    if (resolved == targetLiteral)
+                    {
+                        return moveNext;
+                    }
+                }
+            }
+            return null;
+        }
+
+        // Finds the literal constant 10 (the modulo-10 yield gate: `if ((i+1) % 10 == 0) yield
+        // return null;`) wherever it appears as an Ldc_I4/Ldc_I4_S operand and changes it to 1,
+        // so the compiler-generated state machine yields after every iteration instead of every
+        // ten. Blanket replacement is safe here because LoadCameraAsset's MoveNext has exactly
+        // one integer literal in its whole body (confirmed via the decompile: the only other
+        // numeric constants are the float 0.01f duration-pad and the 120 max-load-count, neither
+        // of which round-trips through Ldc_I4/Ldc_I4_S the same way a small int constant does).
+        private static IEnumerable<CodeInstruction> YieldEveryIterationTranspiler(IEnumerable<CodeInstruction> instructions)
+        {
+            int replaced = 0;
+            foreach (var instruction in instructions)
+            {
+                if (instruction.opcode == OpCodes.Ldc_I4_S && instruction.operand is sbyte sb && sb == 10)
+                {
+                    instruction.operand = (sbyte)1;
+                    replaced++;
+                }
+                else if (instruction.opcode == OpCodes.Ldc_I4 && instruction.operand is int iv && iv == 10)
+                {
+                    instruction.operand = 1;
+                    replaced++;
+                }
+                yield return instruction;
+            }
+            Log.LogInfo($"[BD2CompatPatch] YieldEveryIterationTranspiler: replaced {replaced} occurrence(s) of the constant 10 with 1.");
+        }
+
         private static bool SkipMethodPrefix(MethodBase __originalMethod)
         {
             Log.LogInfo($"[BD2CompatPatch] Skipping {__originalMethod.DeclaringType?.Name}.{__originalMethod.Name} entirely.");
@@ -3172,7 +3440,7 @@ namespace BD2CompatPatch
         {
             if (__exception != null)
             {
-                Log.LogWarning($"[BD2CompatPatch] {__originalMethod.DeclaringType?.Name}.{__originalMethod.Name} threw ({__exception.GetType().Name}: {__exception.Message}) -- swallowed so the caller keeps running.");
+                Log.LogWarning($"[BD2CompatPatch] {__originalMethod.DeclaringType?.Name}.{__originalMethod.Name} threw ({__exception.GetType().Name}: {__exception.Message}) -- swallowed so the caller keeps running.\n{__exception.StackTrace}");
             }
             return null;
         }
@@ -3693,6 +3961,100 @@ namespace BD2CompatPatch
             catch (Exception e)
             {
                 Log.LogWarning($"[BD2CompatPatch] Stuck-UIRoot neutralize failed: {e.Message}");
+            }
+        }
+
+        private static float _storySkipStuckSince = -1f;
+        private static float _storySkipLastFireTime = -1f;
+
+        // Finds a live singleton instance by TYPE IDENTITY rather than trusting any obfuscated
+        // member name (the project rule: trust only live runtime evidence for member names, never
+        // a static decompiler's rendering of a compiler-generated/obfuscated name). A type's own
+        // signature (its properties'/fields' declared TYPE) isn't obfuscated even when the member
+        // NAME is, so "the one static property/field whose type equals the declaring type" reliably
+        // identifies a classic Unity singleton's Instance accessor without needing to read or guess
+        // its real (obfuscated) name.
+        private static object GetSingletonInstance(Type type)
+        {
+            if (type == null) return null;
+            foreach (var prop in type.GetProperties(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static))
+            {
+                if (prop.PropertyType != type || prop.GetIndexParameters().Length != 0) continue;
+                try
+                {
+                    var v = prop.GetValue(null);
+                    if (v != null) return v;
+                }
+                catch { /* best-effort */ }
+            }
+            foreach (var field in type.GetFields(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static))
+            {
+                if (field.FieldType != type) continue;
+                try
+                {
+                    var v = field.GetValue(null);
+                    if (v != null) return v;
+                }
+                catch { /* best-effort */ }
+            }
+            return null;
+        }
+
+        // Stronger safety net requested by the user (2026-09-30) after the LoadCameraAsset pacing
+        // transpiler fix (the real root-cause fix for the cutscene freeze) was confirmed to help but
+        // NOT be 100% reliable -- it cleared quest 16's cutscene cleanly on one run, then reproduced
+        // the identical freeze on a retry with the same build (a race condition, not a guaranteed
+        // fix). Confirmed signature from EventSystemRaycastAllDiagnosticPostfix's own logging: a
+        // StorySkipUI(Clone) canvas is present and active, but EventSystem.RaycastAll returns NO
+        // results at all for every click -- the whole scene stops responding to input even though
+        // the cutscene UI itself never got torn down. Rather than guess at the internal cause, drive
+        // the game's OWN skip-button handler directly after a timeout, exactly as if the player had
+        // pressed the real skip button -- this reuses whatever real cleanup logic
+        // TimelineSignalManager.OnClickSkipTimeline already does (closing the balloon/select UI,
+        // clearing its talk queue, pausing/advancing the director) instead of us re-implementing it.
+        private static void WatchdogRecoverStuckStorySkip()
+        {
+            try
+            {
+                var storySkipGo = UnityEngine.Object.FindObjectsOfType<UnityEngine.UI.Graphic>(true)
+                    .Select(g => g.gameObject)
+                    .FirstOrDefault(go => go != null && go.activeInHierarchy && go.name.StartsWith("StorySkipUI"));
+                if (storySkipGo == null)
+                {
+                    // Not stuck (or recovered) -- reset tracking so the next occurrence gets its
+                    // own fresh timeout instead of firing instantly off stale state.
+                    _storySkipStuckSince = -1f;
+                    _storySkipLastFireTime = -1f;
+                    return;
+                }
+                float now = UnityEngine.Time.unscaledTime;
+                if (_storySkipStuckSince < 0f)
+                {
+                    _storySkipStuckSince = now;
+                    return;
+                }
+                float elapsed = now - _storySkipStuckSince;
+                if (elapsed < 8f) return; // give the normal pacing fix a real chance first
+                if (_storySkipLastFireTime >= 0f && now - _storySkipLastFireTime < 5f) return; // retry, don't spam
+
+                Log.LogWarning($"[BD2CompatPatch] WatchdogRecoverStuckStorySkip: StorySkipUI active for {elapsed:F1}s with no progress -- forcing TimelineSignalManager.OnClickSkipTimeline().");
+                var timelineManagerType = typeof(TimelineSignalManager);
+                var instance = GetSingletonInstance(timelineManagerType);
+                var skipMethod = AccessTools.Method(timelineManagerType, "OnClickSkipTimeline");
+                if (instance != null && skipMethod != null)
+                {
+                    skipMethod.Invoke(instance, null);
+                    Log.LogInfo("[BD2CompatPatch] WatchdogRecoverStuckStorySkip: called TimelineSignalManager.OnClickSkipTimeline() directly.");
+                }
+                else
+                {
+                    Log.LogWarning($"[BD2CompatPatch] WatchdogRecoverStuckStorySkip: could not invoke skip (instance found={instance != null}, method found={skipMethod != null}).");
+                }
+                _storySkipLastFireTime = now;
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning($"[BD2CompatPatch] WatchdogRecoverStuckStorySkip failed: {e.Message}");
             }
         }
 
