@@ -1,3 +1,481 @@
 [
-  { "dailyPayGachaCount": 1, "dailyPayGachaPriceCount": 90, "freeCountDay": 1, "gachaCount": 1, "gachaLocalTextId": 2509, "gachaRewardId": 10100113, "gachaTicketId": [ 1000 ], "id": 10100113, "priceCount": 200, "priceType": 3 }
+  {
+    "gachaCount": 1,
+    "gachaLocalTextId": 2509,
+    "gachaRewardId": 950001,
+    "gachaTicketId": [1000],
+    "id": 950001,
+    "priceCount": 200,
+    "priceType": 3
+  },
+  {
+    "gachaCount": 10,
+    "gachaLocalTextId": 2510,
+    "gachaRewardId": 950002,
+    "gachaTicketId": [1000],
+    "id": 950002,
+    "priceCount": 2000,
+    "priceType": 3
+  },
+  {
+    "dailyPayGachaCount": 1,
+    "dailyPayGachaPriceCount": 90,
+    "freeCountDay": 1,
+    "gachaCount": 1,
+    "gachaLocalTextId": 2509,
+    "gachaRewardId": 10100113,
+    "gachaTicketId": [
+      1000
+    ],
+    "id": 10100113,
+    "priceCount": 200,
+    "priceType": 3
+  },
+  {
+    "gachaCount": 10,
+    "gachaLocalTextId": 2510,
+    "gachaRewardId": 9100037,
+    "gachaTicketId": [
+      0
+    ],
+    "id": 9100037,
+    "priceCount": 1,
+    "priceId": 450030,
+    "priceType": 19
+  },
+  {
+    "gachaCount": 1,
+    "gachaLocalTextId": 2509,
+    "gachaRewardId": 70011,
+    "gachaTicketId": [
+      1106
+    ],
+    "id": 40
+  },
+  {
+    "gachaCount": 1,
+    "gachaLocalTextId": 2509,
+    "gachaRewardId": 60100001,
+    "gachaTicketId": [
+      1100
+    ],
+    "id": 60100001
+  },
+  {
+    "gachaCount": 1,
+    "gachaLocalTextId": 2509,
+    "gachaRewardId": 60100003,
+    "gachaTicketId": [
+      1107
+    ],
+    "id": 60100003
+  },
+  {
+    "gachaCount": 1,
+    "gachaLocalTextId": 2509,
+    "gachaRewardId": 60100004,
+    "gachaTicketId": [
+      1109
+    ],
+    "id": 60100004
+  },
+  {
+    "gachaCount": 1,
+    "gachaLocalTextId": 2509,
+    "gachaRewardId": 60100005,
+    "gachaTicketId": [
+      1110
+    ],
+    "id": 60100005
+  },
+  {
+    "gachaCount": 1,
+    "gachaLocalTextId": 2509,
+    "gachaRewardId": 60100006,
+    "gachaTicketId": [
+      1111
+    ],
+    "id": 60100006
+  },
+  {
+    "gachaCount": 1,
+    "gachaLocalTextId": 2509,
+    "gachaRewardId": 60100002,
+    "gachaTicketId": [
+      1101
+    ],
+    "id": 60100002
+  },
+  {
+    "dailyPayGachaCount": 1,
+    "dailyPayGachaPriceCount": 90,
+    "freeCountDay": 1,
+    "gachaCount": 1,
+    "gachaLocalTextId": 2509,
+    "gachaRewardId": 10100146,
+    "gachaTicketId": [
+      1000
+    ],
+    "id": 10100146,
+    "priceCount": 200,
+    "priceType": 3
+  },
+  {
+    "fixedGachaRewardId": 9100035,
+    "gachaCount": 10,
+    "gachaLocalTextId": 2510,
+    "gachaRewardId": 9100033,
+    "gachaTicketId": [
+      0
+    ],
+    "id": 9100033
+  },
+  {
+    "dailyPayGachaCount": 1,
+    "dailyPayGachaPriceCount": 90,
+    "freeCountDay": 1,
+    "gachaCount": 1,
+    "gachaLocalTextId": 2509,
+    "gachaRewardId": 20100082,
+    "gachaTicketId": [
+      1000
+    ],
+    "id": 20100082,
+    "priceCount": 200,
+    "priceType": 3
+  },
+  {
+    "gachaCount": 10,
+    "gachaLocalTextId": 2510,
+    "gachaRewardId": 8100122,
+    "gachaTicketId": [
+      0
+    ],
+    "id": 8100122,
+    "priceCount": 2000,
+    "priceType": 2
+  },
+  {
+    "gachaCount": 10,
+    "gachaLocalTextId": 2510,
+    "gachaRewardId": 8100118,
+    "gachaTicketId": [
+      0
+    ],
+    "id": 8100118,
+    "priceCount": 2000,
+    "priceType": 2
+  },
+  {
+    "dailyPayGachaCount": 1,
+    "dailyPayGachaPriceCount": 90,
+    "freeCountDay": 1,
+    "gachaCount": 1,
+    "gachaLocalTextId": 2509,
+    "gachaRewardId": 10100145,
+    "gachaTicketId": [
+      1000
+    ],
+    "id": 10100145,
+    "priceCount": 200,
+    "priceType": 3
+  },
+  {
+    "dailyPayGachaCount": 1,
+    "dailyPayGachaPriceCount": 90,
+    "freeCountDay": 1,
+    "gachaCount": 1,
+    "gachaLocalTextId": 2509,
+    "gachaRewardId": 10100040,
+    "gachaTicketId": [
+      1000
+    ],
+    "id": 10100040,
+    "priceCount": 200,
+    "priceType": 3
+  },
+  {
+    "gachaCount": 10,
+    "gachaLocalTextId": 2510,
+    "gachaRewardId": 8100123,
+    "gachaTicketId": [
+      0
+    ],
+    "id": 8100123,
+    "priceCount": 1500,
+    "priceType": 2
+  },
+  {
+    "gachaCount": 10,
+    "gachaLocalTextId": 2510,
+    "gachaRewardId": 8100124,
+    "gachaTicketId": [
+      0
+    ],
+    "id": 8100124,
+    "priceCount": 1000,
+    "priceType": 2
+  },
+  {
+    "gachaCount": 10,
+    "gachaLocalTextId": 2510,
+    "gachaRewardId": 8100125,
+    "gachaTicketId": [
+      0
+    ],
+    "id": 8100125,
+    "priceCount": 500,
+    "priceType": 2
+  },
+  {
+    "gachaCount": 10,
+    "gachaLocalTextId": 2510,
+    "gachaRewardId": 11000146,
+    "gachaTicketId": [
+      1000
+    ],
+    "id": 11000146,
+    "priceCount": 2000,
+    "priceType": 3
+  },
+  {
+    "gachaCount": 10,
+    "gachaLocalTextId": 2510,
+    "gachaRewardId": 8100119,
+    "gachaTicketId": [
+      0
+    ],
+    "id": 8100119,
+    "priceCount": 1500,
+    "priceType": 2
+  },
+  {
+    "gachaCount": 10,
+    "gachaLocalTextId": 2510,
+    "gachaRewardId": 8100120,
+    "gachaTicketId": [
+      0
+    ],
+    "id": 8100120,
+    "priceCount": 1000,
+    "priceType": 2
+  },
+  {
+    "gachaCount": 10,
+    "gachaLocalTextId": 2510,
+    "gachaRewardId": 8100121,
+    "gachaTicketId": [
+      0
+    ],
+    "id": 8100121,
+    "priceCount": 500,
+    "priceType": 2
+  },
+  {
+    "gachaCount": 10,
+    "gachaLocalTextId": 2510,
+    "gachaRewardId": 11000145,
+    "gachaTicketId": [
+      1000
+    ],
+    "id": 11000145,
+    "priceCount": 2000,
+    "priceType": 3
+  },
+  {
+    "gachaCount": 1,
+    "gachaLocalTextId": 2509,
+    "gachaRewardId": 100,
+    "gachaTicketId": [
+      1108,
+      1000
+    ],
+    "id": 100,
+    "priceCount": 200,
+    "priceType": 3
+  },
+  {
+    "gachaCount": 10,
+    "gachaLocalTextId": 2510,
+    "gachaRewardId": 11000040,
+    "gachaTicketId": [
+      1000
+    ],
+    "id": 11000040,
+    "priceCount": 2000,
+    "priceType": 3
+  },
+  {
+    "gachaCount": 10,
+    "gachaLocalTextId": 2510,
+    "gachaRewardId": 11000113,
+    "gachaTicketId": [
+      1000
+    ],
+    "id": 11000113,
+    "priceCount": 2000,
+    "priceType": 3
+  },
+  {
+    "dailyPayGachaCount": 1,
+    "dailyPayGachaPriceCount": 90,
+    "freeCountDay": 1,
+    "gachaCount": 1,
+    "gachaLocalTextId": 2509,
+    "gachaRewardId": 20100083,
+    "gachaTicketId": [
+      1000
+    ],
+    "id": 20100083,
+    "priceCount": 200,
+    "priceType": 3
+  },
+  {
+    "dailyPayGachaCount": 1,
+    "dailyPayGachaPriceCount": 90,
+    "freeCountDay": 1,
+    "gachaCount": 1,
+    "gachaLocalTextId": 2509,
+    "gachaRewardId": 20100070,
+    "gachaTicketId": [
+      1000
+    ],
+    "id": 20100070,
+    "priceCount": 200,
+    "priceType": 3
+  },
+  {
+    "dailyPayGachaCount": 1,
+    "dailyPayGachaPriceCount": 90,
+    "freeCountDay": 1,
+    "gachaCount": 1,
+    "gachaLocalTextId": 2509,
+    "gachaRewardId": 20100034,
+    "gachaTicketId": [
+      1000
+    ],
+    "id": 20100034,
+    "priceCount": 200,
+    "priceType": 3
+  },
+  {
+    "gachaCount": 1,
+    "gachaLocalTextId": 2509,
+    "gachaRewardId": 70100001,
+    "gachaTicketId": [
+      1102
+    ],
+    "id": 70100001
+  },
+  {
+    "gachaCount": 1,
+    "gachaLocalTextId": 2509,
+    "gachaRewardId": 70100002,
+    "gachaTicketId": [
+      1103
+    ],
+    "id": 70100002
+  },
+  {
+    "gachaCount": 1,
+    "gachaLocalTextId": 2509,
+    "gachaRewardId": 70200001,
+    "gachaTicketId": [
+      1104
+    ],
+    "id": 70200001
+  },
+  {
+    "gachaCount": 1,
+    "gachaLocalTextId": 2509,
+    "gachaRewardId": 70200002,
+    "gachaTicketId": [
+      1105
+    ],
+    "id": 70200002
+  },
+  {
+    "gachaCount": 1,
+    "gachaLocalTextId": 2509,
+    "gachaRewardId": 200,
+    "gachaTicketId": [
+      1000
+    ],
+    "id": 200,
+    "priceCount": 200,
+    "priceType": 3
+  },
+  {
+    "gachaCount": 10,
+    "gachaLocalTextId": 2510,
+    "gachaRewardId": 21000083,
+    "gachaTicketId": [
+      1000
+    ],
+    "id": 21000083,
+    "priceCount": 2000,
+    "priceType": 3
+  },
+  {
+    "gachaCount": 10,
+    "gachaLocalTextId": 2510,
+    "gachaRewardId": 21000082,
+    "gachaTicketId": [
+      1000
+    ],
+    "id": 21000082,
+    "priceCount": 2000,
+    "priceType": 3
+  },
+  {
+    "gachaCount": 10,
+    "gachaLocalTextId": 2510,
+    "gachaRewardId": 21000034,
+    "gachaTicketId": [
+      1000
+    ],
+    "id": 21000034,
+    "priceCount": 2000,
+    "priceType": 3
+  },
+  {
+    "gachaCount": 10,
+    "gachaLocalTextId": 2510,
+    "gachaRewardId": 21000070,
+    "gachaTicketId": [
+      1000
+    ],
+    "id": 21000070,
+    "priceCount": 2000,
+    "priceType": 3
+  },
+  {
+    "gachaCount": 10,
+    "gachaLocalTextId": 2510,
+    "gachaRewardId": 201,
+    "gachaTicketId": [
+      1000
+    ],
+    "id": 201,
+    "priceCount": 2000,
+    "priceType": 3
+  },
+  {
+    "gachaCount": 10,
+    "gachaLocalTextId": 2510,
+    "gachaRewardId": 71200001,
+    "gachaTicketId": [
+      1104
+    ],
+    "id": 71200001
+  },
+  {
+    "gachaCount": 10,
+    "gachaLocalTextId": 2510,
+    "gachaRewardId": 71200002,
+    "gachaTicketId": [
+      1105
+    ],
+    "id": 71200002
+  }
 ]

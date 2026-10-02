@@ -1,0 +1,344 @@
+[
+  {
+    "episodeTitleQuestTextId": 1641,
+    "groupId": 801,
+    "id": 1,
+    "rewardCount": [
+      80
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      3
+    ],
+    "skipQuestTextId": 1651,
+    "timelineName": "Novel_Friendship_80151",
+    "unlockFriendshipLevel": 1,
+    "visualNovelDialogGroupId": 80151
+  },
+  {
+    "episodeTitleQuestTextId": 1642,
+    "groupId": 801,
+    "id": 2,
+    "rewardCount": [
+      80
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      3
+    ],
+    "skipQuestTextId": 1652,
+    "timelineName": "Novel_Friendship_80152",
+    "unlockFriendshipLevel": 3,
+    "visualNovelDialogGroupId": 80152
+  },
+  {
+    "episodeTitleQuestTextId": 1643,
+    "groupId": 801,
+    "id": 3,
+    "rewardCount": [
+      80,
+      1
+    ],
+    "rewardId": [
+      0,
+      312
+    ],
+    "rewardType": [
+      3,
+      25
+    ],
+    "skipQuestTextId": 1653,
+    "timelineName": "Novel_Friendship_80153",
+    "unlockFriendshipLevel": 5,
+    "visualNovelDialogGroupId": 80153
+  },
+  {
+    "episodeTitleQuestTextId": 1644,
+    "groupId": 801,
+    "id": 4,
+    "rewardCount": [
+      80
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      3
+    ],
+    "skipQuestTextId": 1654,
+    "timelineName": "Novel_Friendship_80154",
+    "unlockFriendshipLevel": 7,
+    "visualNovelDialogGroupId": 80154
+  },
+  {
+    "episodeTitleQuestTextId": 1645,
+    "groupId": 801,
+    "id": 5,
+    "rewardCount": [
+      80,
+      1
+    ],
+    "rewardId": [
+      0,
+      313
+    ],
+    "rewardType": [
+      3,
+      25
+    ],
+    "skipQuestTextId": 1655,
+    "timelineName": "Novel_Friendship_80155",
+    "unlockFriendshipLevel": 9,
+    "visualNovelDialogGroupId": 80155
+  },
+  {
+    "episodeTitleQuestTextId": 1646,
+    "groupId": 801,
+    "id": 6,
+    "rewardCount": [
+      100
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      3
+    ],
+    "skipQuestTextId": 1656,
+    "timelineName": "Novel_Friendship_80156",
+    "unlockFriendshipLevel": 10,
+    "visualNovelDialogGroupId": 80156
+  },
+  {
+    "episodeTitleQuestTextId": 1501,
+    "groupId": 67302,
+    "id": 1,
+    "rewardCount": [
+      80
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      3
+    ],
+    "skipQuestTextId": 1511,
+    "timelineName": "Novel_Friendship_6730251",
+    "unlockFriendshipLevel": 1,
+    "visualNovelDialogGroupId": 6730251
+  },
+  {
+    "episodeTitleQuestTextId": 1502,
+    "groupId": 67302,
+    "id": 2,
+    "rewardCount": [
+      80
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      3
+    ],
+    "skipQuestTextId": 1512,
+    "timelineName": "Novel_Friendship_6730252",
+    "unlockFriendshipLevel": 3,
+    "visualNovelDialogGroupId": 6730252
+  },
+  {
+    "episodeTitleQuestTextId": 1503,
+    "groupId": 67302,
+    "id": 3,
+    "rewardCount": [
+      80,
+      1
+    ],
+    "rewardId": [
+      0,
+      300
+    ],
+    "rewardType": [
+      3,
+      25
+    ],
+    "skipQuestTextId": 1513,
+    "timelineName": "Novel_Friendship_6730253",
+    "unlockFriendshipLevel": 5,
+    "visualNovelDialogGroupId": 6730253
+  },
+  {
+    "episodeTitleQuestTextId": 1504,
+    "groupId": 67302,
+    "id": 4,
+    "rewardCount": [
+      80
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      3
+    ],
+    "skipQuestTextId": 1514,
+    "timelineName": "Novel_Friendship_6730254",
+    "unlockFriendshipLevel": 7,
+    "visualNovelDialogGroupId": 6730254
+  },
+  {
+    "episodeTitleQuestTextId": 1505,
+    "groupId": 67302,
+    "id": 5,
+    "rewardCount": [
+      80,
+      1
+    ],
+    "rewardId": [
+      0,
+      301
+    ],
+    "rewardType": [
+      3,
+      25
+    ],
+    "skipQuestTextId": 1515,
+    "timelineName": "Novel_Friendship_6730255",
+    "unlockFriendshipLevel": 9,
+    "visualNovelDialogGroupId": 6730255
+  },
+  {
+    "episodeTitleQuestTextId": 1506,
+    "groupId": 67302,
+    "id": 6,
+    "rewardCount": [
+      100
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      3
+    ],
+    "skipQuestTextId": 1516,
+    "timelineName": "Novel_Friendship_6730256",
+    "unlockFriendshipLevel": 10,
+    "visualNovelDialogGroupId": 6730256
+  },
+  {
+    "episodeTitleQuestTextId": 1601,
+    "groupId": 65102,
+    "id": 1,
+    "rewardCount": [
+      80
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      3
+    ],
+    "skipQuestTextId": 1611,
+    "timelineName": "Novel_Friendship_6510251",
+    "unlockFriendshipLevel": 1,
+    "visualNovelDialogGroupId": 6510251
+  },
+  {
+    "episodeTitleQuestTextId": 1602,
+    "groupId": 65102,
+    "id": 2,
+    "rewardCount": [
+      80
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      3
+    ],
+    "skipQuestTextId": 1612,
+    "timelineName": "Novel_Friendship_6510252",
+    "unlockFriendshipLevel": 3,
+    "visualNovelDialogGroupId": 6510252
+  },
+  {
+    "episodeTitleQuestTextId": 1603,
+    "groupId": 65102,
+    "id": 3,
+    "rewardCount": [
+      80
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      3
+    ],
+    "skipQuestTextId": 1613,
+    "timelineName": "Novel_Friendship_6510253",
+    "unlockFriendshipLevel": 5,
+    "visualNovelDialogGroupId": 6510253
+  },
+  {
+    "episodeTitleQuestTextId": 1604,
+    "groupId": 65102,
+    "id": 4,
+    "rewardCount": [
+      80,
+      1
+    ],
+    "rewardId": [
+      0,
+      307
+    ],
+    "rewardType": [
+      3,
+      25
+    ],
+    "skipQuestTextId": 1614,
+    "timelineName": "Novel_Friendship_6510254",
+    "unlockFriendshipLevel": 7,
+    "visualNovelDialogGroupId": 6510254
+  },
+  {
+    "episodeTitleQuestTextId": 1605,
+    "groupId": 65102,
+    "id": 5,
+    "rewardCount": [
+      80
+    ],
+    "rewardId": [
+      0
+    ],
+    "rewardType": [
+      3
+    ],
+    "skipQuestTextId": 1615,
+    "timelineName": "Novel_Friendship_6510255",
+    "unlockFriendshipLevel": 9,
+    "visualNovelDialogGroupId": 6510255
+  },
+  {
+    "episodeTitleQuestTextId": 1606,
+    "groupId": 65102,
+    "id": 6,
+    "rewardCount": [
+      100,
+      1
+    ],
+    "rewardId": [
+      0,
+      308
+    ],
+    "rewardType": [
+      3,
+      25
+    ],
+    "skipQuestTextId": 1616,
+    "timelineName": "Novel_Friendship_6510256",
+    "unlockFriendshipLevel": 10,
+    "visualNovelDialogGroupId": 6510256
+  }
+]

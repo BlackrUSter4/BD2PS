@@ -2691,5 +2691,12 @@
     "equipmentGroupId": 138,
     "equipmentId": 943041,
     "id": 419
+  },
+  {
+    "category": 3,
+    "collectionBuffId": 7344,
+    "equipmentGroupId": 145,
+    "equipmentId": 943211,
+    "id": 433
   }
 ]

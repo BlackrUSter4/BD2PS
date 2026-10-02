@@ -1,5 +1,52 @@
 [
-  { "buttonName": "Button_Click", "id": 1, "soundFilePath": "UI_Button_Click" },
-  { "buttonName": "Button_Cancel", "id": 2, "soundFilePath": "UI_Button_Cancel" },
-  { "buttonName": "Cursor_Click", "id": 5, "soundFilePath": "UI_Cursor_Click" }
+  {
+    "buttonName": "Button_Click",
+    "id": 1,
+    "soundFilePath": "UI_Button_Click"
+  },
+  {
+    "buttonName": "Button_Cancel",
+    "id": 2,
+    "soundFilePath": "UI_Button_Cancel"
+  },
+  {
+    "buttonName": "Cursor_Click",
+    "id": 5,
+    "soundFilePath": "UI_Cursor_Click"
+  },
+  {
+    "buttonName": "VNovel_Button_02",
+    "id": 27,
+    "soundFilePath": "UI_VNovel_Button_02"
+  },
+  {
+    "buttonName": "Button_Smelt",
+    "id": 11,
+    "soundFilePath": "UI_Button_Smelt"
+  },
+  {
+    "buttonName": "Button_Equip",
+    "id": 9,
+    "soundFilePath": "UI_Button_Equip"
+  },
+  {
+    "buttonName": "Cursor_Move",
+    "id": 6,
+    "soundFilePath": "UI_Cursor_Move"
+  },
+  {
+    "buttonName": "Sichuan_Button_Click_01",
+    "id": 107,
+    "soundFilePath": "UI_Sichuan_Button_Click_01"
+  },
+  {
+    "buttonName": "Button_Gold",
+    "id": 7,
+    "soundFilePath": "UI_Button_Gold"
+  },
+  {
+    "buttonName": "Button_Unequip",
+    "id": 10,
+    "soundFilePath": "UI_Button_Unequip"
+  }
 ]

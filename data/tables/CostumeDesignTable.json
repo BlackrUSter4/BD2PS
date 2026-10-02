@@ -1,11 +1,1536 @@
 [
-  { "burstCutInNameTextId": [ 41060201, 42060201, 43060201 ], "costumeId": 60201, "faceIconName": "icon_char100601_11", "faceIllustName": "illust_face100601_36", "iconSpriteName": "icon_costume100601_12", "id": 60201, "illustName": "illust_char100601_11", "inventoryIllustName": "illust_inven_char100601_11", "prefabName": "Char100601", "simpleIllustName": "illust_simple_char100601_11", "voiceResourceName": "Common/Char100601/Char100601_BattleReady" },
-  { "burstCutInNameTextId": [ 41063301, 42063301, 43063301 ], "costumeId": 63301, "faceIconName": "icon_char063301_61", "faceIllustName": "illust_face06330101_429", "iconSpriteName": "icon_costume063301_99", "id": 63301, "illustName": "illust_char063301_63", "inventoryIllustName": "illust_inven_char063301_63", "prefabName": "Char063301", "simpleIllustName": "illust_simple_char063301_63", "voiceResourceName": "Common/Char063301/Char063301_BattleReady" },
-  { "burstCutInNameTextId": [ 41001301, 42001301, 43001301 ], "costumeId": 1301, "faceIconName": "icon_char100101_5", "faceIllustName": "illust_face100101_13", "iconSpriteName": "icon_costume100101_4", "id": 1301, "illustName": "illust_char100101_4", "inventoryIllustName": "illust_inven_char100101_4", "prefabName": "Char100101", "simpleIllustName": "illust_simple_char100101_4", "voiceResourceName": "Common/Char100101/Char100101_BattleReady" },
-  { "burstCutInNameTextId": [ 41001401, 42001401, 43001401 ], "costumeId": 1401, "faceIconName": "icon_char100201_6", "faceIllustName": "illust_face100201_16", "iconSpriteName": "icon_costume100201_5", "id": 1401, "illustName": "illust_char100201_5", "inventoryIllustName": "illust_inven_char100201_5", "prefabName": "Char100201", "simpleIllustName": "illust_simple_char100201_5", "voiceResourceName": "Common/Char100201/Char100201_BattleReady" },
-  { "burstCutInNameTextId": [ 41001501, 42001501, 43001501 ], "costumeId": 1501, "faceIconName": "icon_char100301_7", "faceIllustName": "illust_face100301_19", "iconSpriteName": "icon_costume100301_6", "id": 1501, "illustName": "illust_char100301_6", "inventoryIllustName": "illust_inven_char100301_6", "prefabName": "Char100301", "simpleIllustName": "illust_simple_char100301_6", "voiceResourceName": "Common/Char100301/Char100301_BattleReady" },
-  { "burstCutInNameTextId": [ 41000101, 42000101, 43000101 ], "costumeId": 101, "faceIconName": "icon_char000101_1", "faceIllustName": "illust_face000101_1", "iconSpriteName": "icon_costume101_1", "id": 101, "illustName": "illust_char000101_1", "inventoryIllustName": "illust_inven_char000101_1", "lobbyCutscene": "CutScene000101", "loopPrefabName": [ "CutScene000101_loop", "CutScene000101_loop_2" ], "prefabName": "Char000101", "simpleIllustName": "illust_simple_char000101_1", "skillIllustName": [ "illust_loop_char000101_1", "illust_loop_char000101_2" ], "voiceResourceName": "Common/Char000101/Char000101_BattleReady" },
-  { "burstCutInNameTextId": [ 41000201, 42000201, 43000201 ], "costumeId": 201, "faceIconName": "icon_char000201_2", "faceIllustName": "illust_face000201_5", "iconSpriteName": "icon_costume201_2", "id": 201, "illustName": "illust_char000201_2", "inventoryIllustName": "illust_inven_char000201_2", "lobbyCutscene": "CutScene000201", "loopPrefabName": [ "CutScene000201_loop", "CutScene000201_loop_2" ], "prefabName": "Char000201", "simpleIllustName": "illust_simple_char000201_2", "skillIllustName": [ "illust_loop_char000201_1", "illust_loop_char000201_2" ], "voiceResourceName": "Common/Char000201/Char000201_BattleReady" },
-  { "burstCutInNameTextId": [ 41021301, 41021301, 41021301 ], "costumeId": 21301, "faceIconName": "icon_char021301_220", "faceIllustName": "illust_face4001670101_18", "iconSpriteName": "icon_costume021301_236", "id": 21301, "illustName": "illust_char021301_217", "inventoryIllustName": "illust_inven_char021301_217", "isCollabo": 1, "lobbyCutscene": "CutScene021301", "loopPrefabName": [ "CutScene021301_loop", "CutScene021301_loop_2" ], "prefabName": "Char021301", "simpleIllustName": "illust_simple_char021301_217", "skillIllustName": [ "illust_loop_char021301_1", "illust_loop_char021301_2" ], "voiceResourceName": "Common/Char021301/Char021301_BattleReady" },
-  { "costumeId": 927200, "faceIconName": "icon_char927200_4", "id": 927200, "prefabName": "Char927201", "skillTimelineName": "Char927201_Skill4" }
+  {
+    "burstCutInNameTextId": [
+      41060201,
+      42060201,
+      43060201
+    ],
+    "costumeId": 60201,
+    "faceIconName": "icon_char100601_11",
+    "faceIllustName": "illust_face100601_36",
+    "iconSpriteName": "icon_costume100601_12",
+    "id": 60201,
+    "illustName": "illust_char100601_11",
+    "inventoryIllustName": "illust_inven_char100601_11",
+    "prefabName": "Char100601",
+    "simpleIllustName": "illust_simple_char100601_11",
+    "voiceResourceName": "Common/Char100601/Char100601_BattleReady"
+  },
+  {
+    "burstCutInNameTextId": [
+      41063301,
+      42063301,
+      43063301
+    ],
+    "costumeId": 63301,
+    "faceIconName": "icon_char063301_61",
+    "faceIllustName": "illust_face06330101_429",
+    "iconSpriteName": "icon_costume063301_99",
+    "id": 63301,
+    "illustName": "illust_char063301_63",
+    "inventoryIllustName": "illust_inven_char063301_63",
+    "prefabName": "Char063301",
+    "simpleIllustName": "illust_simple_char063301_63",
+    "voiceResourceName": "Common/Char063301/Char063301_BattleReady"
+  },
+  {
+    "burstCutInNameTextId": [
+      41001301,
+      42001301,
+      43001301
+    ],
+    "costumeId": 1301,
+    "faceIconName": "icon_char100101_5",
+    "faceIllustName": "illust_face100101_13",
+    "iconSpriteName": "icon_costume100101_4",
+    "id": 1301,
+    "illustName": "illust_char100101_4",
+    "inventoryIllustName": "illust_inven_char100101_4",
+    "prefabName": "Char100101",
+    "simpleIllustName": "illust_simple_char100101_4",
+    "voiceResourceName": "Common/Char100101/Char100101_BattleReady"
+  },
+  {
+    "burstCutInNameTextId": [
+      41001401,
+      42001401,
+      43001401
+    ],
+    "costumeId": 1401,
+    "faceIconName": "icon_char100201_6",
+    "faceIllustName": "illust_face100201_16",
+    "iconSpriteName": "icon_costume100201_5",
+    "id": 1401,
+    "illustName": "illust_char100201_5",
+    "inventoryIllustName": "illust_inven_char100201_5",
+    "prefabName": "Char100201",
+    "simpleIllustName": "illust_simple_char100201_5",
+    "voiceResourceName": "Common/Char100201/Char100201_BattleReady"
+  },
+  {
+    "burstCutInNameTextId": [
+      41001501,
+      42001501,
+      43001501
+    ],
+    "costumeId": 1501,
+    "faceIconName": "icon_char100301_7",
+    "faceIllustName": "illust_face100301_19",
+    "iconSpriteName": "icon_costume100301_6",
+    "id": 1501,
+    "illustName": "illust_char100301_6",
+    "inventoryIllustName": "illust_inven_char100301_6",
+    "prefabName": "Char100301",
+    "simpleIllustName": "illust_simple_char100301_6",
+    "voiceResourceName": "Common/Char100301/Char100301_BattleReady"
+  },
+  {
+    "burstCutInNameTextId": [
+      41000101,
+      42000101,
+      43000101
+    ],
+    "costumeId": 101,
+    "faceIconName": "icon_char000101_1",
+    "faceIllustName": "illust_face000101_1",
+    "iconSpriteName": "icon_costume101_1",
+    "id": 101,
+    "illustName": "illust_char000101_1",
+    "inventoryIllustName": "illust_inven_char000101_1",
+    "lobbyCutscene": "CutScene000101",
+    "loopPrefabName": [
+      "CutScene000101_loop",
+      "CutScene000101_loop_2"
+    ],
+    "prefabName": "Char000101",
+    "simpleIllustName": "illust_simple_char000101_1",
+    "skillIllustName": [
+      "illust_loop_char000101_1",
+      "illust_loop_char000101_2"
+    ],
+    "voiceResourceName": "Common/Char000101/Char000101_BattleReady"
+  },
+  {
+    "burstCutInNameTextId": [
+      41000201,
+      42000201,
+      43000201
+    ],
+    "costumeId": 201,
+    "faceIconName": "icon_char000201_2",
+    "faceIllustName": "illust_face000201_5",
+    "iconSpriteName": "icon_costume201_2",
+    "id": 201,
+    "illustName": "illust_char000201_2",
+    "inventoryIllustName": "illust_inven_char000201_2",
+    "lobbyCutscene": "CutScene000201",
+    "loopPrefabName": [
+      "CutScene000201_loop",
+      "CutScene000201_loop_2"
+    ],
+    "prefabName": "Char000201",
+    "simpleIllustName": "illust_simple_char000201_2",
+    "skillIllustName": [
+      "illust_loop_char000201_1",
+      "illust_loop_char000201_2"
+    ],
+    "voiceResourceName": "Common/Char000201/Char000201_BattleReady"
+  },
+  {
+    "burstCutInNameTextId": [
+      41021301,
+      41021301,
+      41021301
+    ],
+    "costumeId": 21301,
+    "faceIconName": "icon_char021301_220",
+    "faceIllustName": "illust_face4001670101_18",
+    "iconSpriteName": "icon_costume021301_236",
+    "id": 21301,
+    "illustName": "illust_char021301_217",
+    "inventoryIllustName": "illust_inven_char021301_217",
+    "isCollabo": 1,
+    "lobbyCutscene": "CutScene021301",
+    "loopPrefabName": [
+      "CutScene021301_loop",
+      "CutScene021301_loop_2"
+    ],
+    "prefabName": "Char021301",
+    "simpleIllustName": "illust_simple_char021301_217",
+    "skillIllustName": [
+      "illust_loop_char021301_1",
+      "illust_loop_char021301_2"
+    ],
+    "voiceResourceName": "Common/Char021301/Char021301_BattleReady"
+  },
+  {
+    "costumeId": 927200,
+    "faceIconName": "icon_char927200_4",
+    "id": 927200,
+    "prefabName": "Char927201",
+    "skillTimelineName": "Char927201_Skill4"
+  },
+  {
+    "burstCutInNameTextId": [
+      41062801,
+      42062801,
+      43062801
+    ],
+    "costumeId": 62801,
+    "faceIconName": "icon_char101301_59",
+    "faceIllustName": "illust_face10130101_427",
+    "iconSpriteName": "icon_costume101301_97",
+    "id": 62801,
+    "illustName": "illust_char101301_61",
+    "inventoryIllustName": "illust_inven_char101301_61",
+    "prefabName": "Char101301",
+    "simpleIllustName": "illust_simple_char101301_61",
+    "voiceResourceName": "Common/Char101301/Char101301_BattleReady"
+  },
+  {
+    "burstCutInNameTextId": [
+      41062601,
+      42062601,
+      43062601
+    ],
+    "costumeId": 62601,
+    "faceIconName": "icon_char103701_21",
+    "faceIllustName": "illust_face10370101_426",
+    "iconSpriteName": "icon_costume103701_36",
+    "id": 62601,
+    "illustName": "illust_char103701_36",
+    "inventoryIllustName": "illust_inven_char103701_36",
+    "prefabName": "Char103701",
+    "simpleIllustName": "illust_simple_char103701_36",
+    "voiceResourceName": "Common/Char103701/Char103701_BattleReady"
+  },
+  {
+    "costumeId": 996000,
+    "faceIconName": "icon_char996000_225",
+    "id": 996000,
+    "prefabName": "Char996000"
+  },
+  {
+    "burstCutInNameTextId": [
+      41000202,
+      42000202,
+      43000202
+    ],
+    "costumeId": 202,
+    "faceIconName": "icon_char000202_3",
+    "faceIllustName": "illust_face000201_5",
+    "iconSpriteName": "icon_costume202_3",
+    "id": 202,
+    "illustName": "illust_char000202_3",
+    "inventoryIllustName": "illust_inven_char000202_3",
+    "lobbyCutscene": "CutScene000202",
+    "loopPrefabName": [
+      "CutScene000202_loop",
+      "CutScene000202_loop_2",
+      "CutScene000202_loop_3"
+    ],
+    "prefabName": "Char000202",
+    "simpleIllustName": "illust_simple_char000202_3",
+    "skillIllustName": [
+      "illust_loop_char000202_1",
+      "illust_loop_char000202_2",
+      "illust_loop_char000202_3"
+    ],
+    "voiceResourceName": "Common/Char000202/Char000202_BattleReady"
+  },
+  {
+    "burstCutInNameTextId": [
+      41000806,
+      42000806,
+      43000806
+    ],
+    "costumeId": 806,
+    "faceIconName": "icon_char000806_119",
+    "faceIllustName": "illust_face00080101_241",
+    "iconSpriteName": "icon_costume000806_138",
+    "id": 806,
+    "illustName": "illust_char000806_116",
+    "inventoryIllustName": "illust_inven_char000806_116",
+    "lobbyCutscene": "CutScene000806",
+    "loopPrefabName": [
+      "CutScene000806_loop",
+      "CutScene000806_loop_2"
+    ],
+    "prefabName": "Char000806",
+    "simpleIllustName": "illust_simple_char000806_116",
+    "skillIllustName": [
+      "illust_loop_char000806_1",
+      "illust_loop_char000806_2"
+    ],
+    "voiceResourceName": "Common/Char000806/Char000806_BattleReady"
+  },
+  {
+    "burstCutInNameTextId": [
+      41001107,
+      42001107,
+      43001107
+    ],
+    "costumeId": 1107,
+    "faceIconName": "icon_char001107_138",
+    "faceIllustName": "illust_face00110101_346",
+    "iconSpriteName": "icon_costume001107_157",
+    "id": 1107,
+    "illustName": "illust_char001107_135",
+    "inventoryIllustName": "illust_inven_char001107_135",
+    "lobbyCutscene": "CutScene001107",
+    "loopPrefabName": [
+      "CutScene001107_loop",
+      "CutScene001107_loop_2",
+      "CutScene001107_loop_3"
+    ],
+    "prefabName": "Char001107",
+    "simpleIllustName": "illust_simple_char001107_135",
+    "skillIllustName": [
+      "illust_loop_char001107_1",
+      "illust_loop_char001107_2",
+      "illust_loop_char001107_3"
+    ],
+    "voiceResourceName": "Common/Char001107/Char001107_BattleReady"
+  },
+  {
+    "burstCutInNameTextId": [
+      41060402,
+      42060402,
+      43060402
+    ],
+    "costumeId": 60402,
+    "faceIconName": "icon_char060402_40",
+    "faceIllustName": "illust_face06040101_295",
+    "iconSpriteName": "icon_costume060402_80",
+    "id": 60402,
+    "illustName": "illust_char060402_28",
+    "inventoryIllustName": "illust_inven_char060402_28",
+    "lobbyCutscene": "CutScene060402",
+    "loopPrefabName": [
+      "CutScene060402_loop"
+    ],
+    "prefabName": "Char060402",
+    "simpleIllustName": "illust_simple_char060402_28",
+    "skillIllustName": [
+      "illust_loop_char060402_1"
+    ],
+    "voiceResourceName": "Common/Char060402/Char060402_BattleReady"
+  },
+  {
+    "burstCutInNameTextId": [
+      41062701,
+      42062701,
+      43062701
+    ],
+    "costumeId": 62701,
+    "faceIconName": "icon_char101201_56",
+    "faceIllustName": "illust_face10120101_424",
+    "iconSpriteName": "icon_costume101201_96",
+    "id": 62701,
+    "illustName": "illust_char101201_75",
+    "inventoryIllustName": "illust_inven_char101201_75",
+    "prefabName": "Char101201",
+    "simpleIllustName": "illust_simple_char101201_75",
+    "voiceResourceName": "Common/Char101201/Char101201_BattleReady"
+  },
+  {
+    "burstCutInNameTextId": [
+      41003001,
+      42003001,
+      43003001
+    ],
+    "costumeId": 3001,
+    "faceIconName": "icon_char003001_75",
+    "faceIllustName": "illust_face00300101_431",
+    "iconSpriteName": "icon_costume003001_102",
+    "id": 3001,
+    "illustName": "illust_char003001_77",
+    "inventoryIllustName": "illust_inven_char003001_77",
+    "prefabName": "Char003001",
+    "simpleIllustName": "illust_simple_char003001_77",
+    "voiceResourceName": "Common/Char003001/Char003001_BattleReady"
+  },
+  {
+    "burstCutInNameTextId": [
+      41061902,
+      42061902,
+      43061902
+    ],
+    "costumeId": 61902,
+    "faceIconName": "icon_char101402_16",
+    "faceIllustName": "illust_face10140101_421",
+    "iconSpriteName": "icon_costume101402_16",
+    "id": 61902,
+    "illustName": "illust_char101402_16",
+    "inventoryIllustName": "illust_inven_char101402_16",
+    "prefabName": "Char101402",
+    "simpleIllustName": "illust_simple_char101402_16",
+    "voiceResourceName": "Common/Char101402/Char101402_BattleReady"
+  },
+  {
+    "burstCutInNameTextId": [
+      41060601,
+      42060601,
+      43060601
+    ],
+    "costumeId": 60601,
+    "faceIconName": "icon_char060601_78",
+    "faceIllustName": "illust_face06060101_433",
+    "iconSpriteName": "icon_costume060601_106",
+    "id": 60601,
+    "illustName": "illust_char060601_80",
+    "inventoryIllustName": "illust_inven_char060601_80",
+    "lobbyCutscene": "CutScene060601",
+    "loopPrefabName": [
+      "CutScene060601_loop"
+    ],
+    "prefabName": "Char060601",
+    "simpleIllustName": "illust_simple_char060601_80",
+    "skillIllustName": [
+      "illust_loop_char060601_1"
+    ],
+    "voiceResourceName": "Common/Char060601/Char060601_BattleReady"
+  },
+  {
+    "burstCutInNameTextId": [
+      41061002,
+      42061002,
+      43061002
+    ],
+    "costumeId": 61002,
+    "faceIconName": "icon_char061002_42",
+    "faceIllustName": "illust_face06100101_436",
+    "iconSpriteName": "icon_costume061002_82",
+    "id": 61002,
+    "illustName": "illust_char061002_26",
+    "inventoryIllustName": "illust_inven_char061002_26",
+    "lobbyCutscene": "CutScene061002",
+    "loopPrefabName": [
+      "CutScene061002_loop",
+      "CutScene061002_loop_2"
+    ],
+    "prefabName": "Char061002",
+    "simpleIllustName": "illust_simple_char061002_26",
+    "skillIllustName": [
+      "illust_loop_char061002_1",
+      "illust_loop_char061002_2"
+    ],
+    "voiceResourceName": "Common/Char061002/Char061002_BattleReady"
+  },
+  {
+    "burstCutInNameTextId": [
+      41000406,
+      42000406,
+      43000406
+    ],
+    "costumeId": 406,
+    "faceIconName": "icon_char000406_96",
+    "faceIllustName": "illust_face000401_126",
+    "iconSpriteName": "icon_costume000406_116",
+    "id": 406,
+    "illustName": "illust_char000406_93",
+    "inventoryIllustName": "illust_inven_char000406_93",
+    "prefabName": "Char000406",
+    "simpleIllustName": "illust_simple_char000406_93",
+    "voiceResourceName": "Common/Char000406/Char000406_BattleReady"
+  },
+  {
+    "burstCutInNameTextId": [
+      41060706,
+      42060706,
+      43060706
+    ],
+    "costumeId": 60706,
+    "faceIconName": "icon_char060706_121",
+    "faceIllustName": "illust_face06070101_434",
+    "iconSpriteName": "icon_costume060706_140",
+    "id": 60706,
+    "illustName": "illust_char060706_118",
+    "inventoryIllustName": "illust_inven_char060706_118",
+    "lobbyCutscene": "CutScene060706",
+    "loopPrefabName": [
+      "CutScene060706_loop",
+      "CutScene060706_loop_2",
+      "CutScene060706_loop_3"
+    ],
+    "prefabName": "Char060706",
+    "simpleIllustName": "illust_simple_char060706_118",
+    "skillIllustName": [
+      "illust_loop_char060706_1",
+      "illust_loop_char060706_2",
+      "illust_loop_char060706_3"
+    ],
+    "voiceResourceName": "Common/Char060706/Char060706_BattleReady"
+  },
+  {
+    "burstCutInNameTextId": [
+      41001207,
+      42001207,
+      43001207
+    ],
+    "costumeId": 1207,
+    "faceIconName": "icon_char001207_117",
+    "faceIllustName": "illust_face00120101_364",
+    "iconSpriteName": "icon_costume001207_136",
+    "id": 1207,
+    "illustName": "illust_char001207_114",
+    "inventoryIllustName": "illust_inven_char001207_114",
+    "lobbyCutscene": "CutScene001207",
+    "loopPrefabName": [
+      "CutScene001207_loop",
+      "CutScene001207_loop_2"
+    ],
+    "prefabName": "Char001207",
+    "simpleIllustName": "illust_simple_char001207_114",
+    "skillIllustName": [
+      "illust_loop_char001207_1",
+      "illust_loop_char001207_2"
+    ],
+    "voiceResourceName": "Common/Char001207/Char001207_BattleReady"
+  },
+  {
+    "costumeId": 800100,
+    "faceIconName": "icon_char800101_1",
+    "id": 800100,
+    "prefabName": "Char800101"
+  },
+  {
+    "costumeId": 800300,
+    "faceIconName": "icon_char800301_3",
+    "id": 800300,
+    "prefabName": "Char800301"
+  },
+  {
+    "burstCutInNameTextId": [
+      41060101,
+      42060101,
+      43060101
+    ],
+    "costumeId": 60101,
+    "faceIconName": "icon_char100501_9",
+    "faceIllustName": "illust_face100501_30",
+    "iconSpriteName": "icon_costume100501_9",
+    "id": 60101,
+    "illustName": "illust_char100501_9",
+    "inventoryIllustName": "illust_inven_char100501_9",
+    "lobbyCutscene": "CutScene100501",
+    "loopPrefabName": [
+      "CutScene100501_loop"
+    ],
+    "prefabName": "Char100501",
+    "simpleIllustName": "illust_simple_char100501_9",
+    "skillIllustName": [
+      "illust_loop_char100501_1"
+    ],
+    "voiceResourceName": "Common/Char100501/Char100501_BattleReady"
+  },
+  {
+    "burstCutInNameTextId": [
+      41065001,
+      42065001,
+      43065001
+    ],
+    "costumeId": 65001,
+    "faceIconName": "icon_char103501_25",
+    "faceIllustName": "illust_face103501_118",
+    "iconSpriteName": "icon_costume103501_34",
+    "id": 65001,
+    "illustName": "illust_char103501_34",
+    "inventoryIllustName": "illust_inven_char103501_34",
+    "lobbyCutscene": "CutScene103501",
+    "loopPrefabName": [
+      "CutScene103501_loop",
+      "CutScene103501_loop_2",
+      "CutScene103501_loop_3"
+    ],
+    "prefabName": "Char103501",
+    "simpleIllustName": "illust_simple_char103501_34",
+    "skillIllustName": [
+      "illust_loop_char103501_1",
+      "illust_loop_char103501_2",
+      "illust_loop_char103501_3"
+    ],
+    "voiceResourceName": "Common/Char103501/Char103501_BattleReady"
+  },
+  {
+    "burstCutInNameTextId": [
+      41064901,
+      42064901,
+      43064901
+    ],
+    "costumeId": 64901,
+    "faceIconName": "icon_char103401_24",
+    "faceIllustName": "illust_face103401_112",
+    "iconSpriteName": "icon_costume103401_33",
+    "id": 64901,
+    "illustName": "illust_char103401_33",
+    "inventoryIllustName": "illust_inven_char103401_33",
+    "lobbyCutscene": "CutScene103401",
+    "loopPrefabName": [
+      "CutScene103401_loop",
+      "CutScene103401_loop_2"
+    ],
+    "prefabName": "Char103401",
+    "simpleIllustName": "illust_simple_char103401_33",
+    "skillIllustName": [
+      "illust_loop_char103401_1",
+      "illust_loop_char103401_2"
+    ],
+    "voiceResourceName": "Common/Char103401/Char103401_BattleReady"
+  },
+  {
+    "burstCutInNameTextId": [
+      41064801,
+      42064801,
+      43064801
+    ],
+    "costumeId": 64801,
+    "faceIconName": "icon_char103301_23",
+    "faceIllustName": "illust_face103301_105",
+    "iconSpriteName": "icon_costume103301_32",
+    "id": 64801,
+    "illustName": "illust_char103301_32",
+    "inventoryIllustName": "illust_inven_char103301_32",
+    "lobbyCutscene": "CutScene103301",
+    "loopPrefabName": [
+      "CutScene103301_loop"
+    ],
+    "prefabName": "Char103301",
+    "simpleIllustName": "illust_simple_char103301_32",
+    "skillIllustName": [
+      "illust_loop_char103301_1"
+    ],
+    "voiceResourceName": "Common/Char103301/Char103301_BattleReady"
+  },
+  {
+    "costumeId": 101400,
+    "faceIconName": "icon_char100201_6",
+    "faceIllustName": "illust_face100201_16",
+    "iconSpriteName": "icon_costume100201_5",
+    "id": 101400,
+    "illustName": "illust_char100201_5",
+    "inventoryIllustName": "illust_inven_char100201_5",
+    "prefabName": "Char100201",
+    "simpleIllustName": "illust_simple_char100201_5",
+    "voiceResourceName": "Common/Char100201/Char100201_BattleReady"
+  },
+  {
+    "costumeId": 950100,
+    "faceIconName": "icon_char95001_88",
+    "id": 950100,
+    "prefabName": "Char95001"
+  },
+  {
+    "costumeId": 800800,
+    "faceIconName": "icon_char800801_8",
+    "id": 800800,
+    "prefabName": "Char800801"
+  },
+  {
+    "burstCutInNameTextId": [
+      41000103,
+      42000103,
+      43000103
+    ],
+    "costumeId": 103,
+    "faceIconName": "icon_char000103_64",
+    "faceIllustName": "illust_face000101_1",
+    "iconSpriteName": "icon_costume000103_20",
+    "id": 103,
+    "illustName": "illust_char000103_59",
+    "inventoryIllustName": "illust_inven_char000103_59",
+    "lobbyCutscene": "CutScene000103",
+    "loopPrefabName": [
+      "CutScene000103_loop",
+      "CutScene000103_loop_2"
+    ],
+    "prefabName": "Char000103",
+    "simpleIllustName": "illust_simple_char000103_59",
+    "skillIllustName": [
+      "illust_loop_char000103_1",
+      "illust_loop_char000103_2"
+    ],
+    "voiceResourceName": "Common/Char000103/Char000103_BattleReady"
+  },
+  {
+    "costumeId": 101300,
+    "faceIconName": "icon_char100101_5",
+    "faceIllustName": "illust_face100101_13",
+    "iconSpriteName": "icon_costume100101_4",
+    "id": 101300,
+    "illustName": "illust_char100101_4",
+    "inventoryIllustName": "illust_inven_char100101_4",
+    "prefabName": "Char100101",
+    "simpleIllustName": "illust_simple_char100101_4",
+    "voiceResourceName": "Common/Char100101/Char100101_BattleReady"
+  },
+  {
+    "costumeId": 800200,
+    "faceIconName": "icon_char800201_2",
+    "id": 800200,
+    "prefabName": "Char800201"
+  },
+  {
+    "burstCutInNameTextId": [
+      41003601,
+      42003601,
+      43003601
+    ],
+    "costumeId": 3601,
+    "faceIconName": "icon_char003601_141",
+    "faceIllustName": "illust_npcface0013120101_1022",
+    "iconSpriteName": "icon_costume003601_160",
+    "id": 3601,
+    "illustName": "illust_char003601_138",
+    "inventoryIllustName": "illust_inven_char003601_138",
+    "lobbyCutscene": "CutScene003601",
+    "loopPrefabName": [
+      "CutScene003601_loop",
+      "CutScene003601_loop_2"
+    ],
+    "prefabName": "Char003601",
+    "simpleIllustName": "illust_simple_char003601_138",
+    "skillIllustName": [
+      "illust_loop_char003601_1",
+      "illust_loop_char003601_2"
+    ],
+    "voiceResourceName": "Common/Char003601/Char003601_BattleReady"
+  },
+  {
+    "burstCutInNameTextId": [
+      41001106,
+      42001106,
+      43001106
+    ],
+    "costumeId": 1106,
+    "faceIconName": "icon_char001106_120",
+    "faceIllustName": "illust_face00110101_346",
+    "iconSpriteName": "icon_costume001106_139",
+    "id": 1106,
+    "illustName": "illust_char001106_117",
+    "inventoryIllustName": "illust_inven_char001106_117",
+    "lobbyCutscene": "CutScene001106",
+    "loopPrefabName": [
+      "CutScene001106_loop",
+      "CutScene001106_loop_2",
+      "CutScene001106_loop_3"
+    ],
+    "prefabName": "Char001106",
+    "simpleIllustName": "illust_simple_char001106_117",
+    "skillIllustName": [
+      "illust_loop_char001106_1",
+      "illust_loop_char001106_2",
+      "illust_loop_char001106_3"
+    ],
+    "voiceResourceName": "Common/Char001106/Char001106_BattleReady"
+  },
+  {
+    "burstCutInNameTextId": [
+      41061103,
+      42061103,
+      43061103
+    ],
+    "costumeId": 61103,
+    "faceIconName": "icon_char061103_190",
+    "faceIllustName": "illust_face06110101_437",
+    "iconSpriteName": "icon_costume061103_207",
+    "id": 61103,
+    "illustName": "illust_char061103_187",
+    "inventoryIllustName": "illust_inven_char061103_187",
+    "lobbyCutscene": "CutScene061103",
+    "loopPrefabName": [
+      "CutScene061103_loop",
+      "CutScene061103_loop_2"
+    ],
+    "prefabName": "Char061103",
+    "simpleIllustName": "illust_simple_char061103_187",
+    "skillIllustName": [
+      "illust_loop_char061103_1",
+      "illust_loop_char061103_2"
+    ],
+    "voiceResourceName": "Common/Char061103/Char061103_BattleReady"
+  },
+  {
+    "costumeId": 800600,
+    "faceIconName": "icon_char800601_6",
+    "id": 800600,
+    "prefabName": "Char800601"
+  },
+  {
+    "burstCutInNameTextId": [
+      41021101,
+      41021101,
+      41021101
+    ],
+    "costumeId": 21101,
+    "faceIconName": "icon_char021101_218",
+    "faceIllustName": "illust_face4001650101_1",
+    "iconSpriteName": "icon_costume021101_234",
+    "id": 21101,
+    "illustName": "illust_char021101_215",
+    "inventoryIllustName": "illust_inven_char021101_215",
+    "isCollabo": 1,
+    "lobbyCutscene": "CutScene021101",
+    "loopPrefabName": [
+      "CutScene021101_loop",
+      "CutScene021101_loop_2"
+    ],
+    "prefabName": "Char021101",
+    "simpleIllustName": "illust_simple_char021101_215",
+    "skillIllustName": [
+      "illust_loop_char021101_1",
+      "illust_loop_char021101_2"
+    ],
+    "voiceResourceName": "Common/Char021101/Char021101_BattleReady"
+  },
+  {
+    "burstCutInNameTextId": [
+      41000707,
+      42000707,
+      43000707
+    ],
+    "costumeId": 707,
+    "faceIconName": "icon_char000707_137",
+    "faceIllustName": "illust_face00070101_335",
+    "iconSpriteName": "icon_costume000707_156",
+    "id": 707,
+    "illustName": "illust_char000707_134",
+    "inventoryIllustName": "illust_inven_char000707_134",
+    "lobbyCutscene": "CutScene000707",
+    "loopPrefabName": [
+      "CutScene000707_loop",
+      "CutScene000707_loop_2"
+    ],
+    "prefabName": "Char000707",
+    "simpleIllustName": "illust_simple_char000707_134",
+    "skillIllustName": [
+      "illust_loop_char000707_1",
+      "illust_loop_char000707_2"
+    ],
+    "voiceResourceName": "Common/Char000707/Char000707_BattleReady"
+  },
+  {
+    "burstCutInNameTextId": [
+      41060802,
+      42060802,
+      43060802
+    ],
+    "costumeId": 60802,
+    "faceIconName": "icon_char060802_32",
+    "faceIllustName": "illust_face06080101_435",
+    "iconSpriteName": "icon_costume060802_77",
+    "id": 60802,
+    "illustName": "illust_char060802_50",
+    "inventoryIllustName": "illust_inven_char060802_50",
+    "lobbyCutscene": "CutScene060802",
+    "loopPrefabName": [
+      "CutScene060802_loop",
+      "CutScene060802_loop_2"
+    ],
+    "prefabName": "Char060802",
+    "simpleIllustName": "illust_simple_char060802_50",
+    "skillIllustName": [
+      "illust_loop_char060802_1",
+      "illust_loop_char060802_2"
+    ],
+    "voiceResourceName": "Common/Char060802/Char060802_BattleReady"
+  },
+  {
+    "burstCutInNameTextId": [
+      41066401,
+      42066401,
+      43066401
+    ],
+    "costumeId": 66401,
+    "faceIconName": "icon_char066401_97",
+    "faceIllustName": "illust_face06640101_446",
+    "iconSpriteName": "icon_costume066401_117",
+    "id": 66401,
+    "illustName": "illust_char066401_94",
+    "inventoryIllustName": "illust_inven_char066401_94",
+    "lobbyCutscene": "CutScene066401",
+    "loopPrefabName": [
+      "CutScene066401_loop"
+    ],
+    "prefabName": "Char066401",
+    "simpleIllustName": "illust_simple_char066401_94",
+    "skillIllustName": [
+      "illust_loop_char066401_1"
+    ],
+    "voiceResourceName": "Common/Char066401/Char066401_BattleReady"
+  },
+  {
+    "burstCutInNameTextId": [
+      41003303,
+      42003303,
+      43003303
+    ],
+    "costumeId": 3303,
+    "faceIconName": "icon_char003303_152",
+    "faceIllustName": "illust_face00330201_652",
+    "iconSpriteName": "icon_costume003303_169",
+    "id": 3303,
+    "illustName": "illust_char003303_149",
+    "inventoryIllustName": "illust_inven_char003303_149",
+    "lobbyCutscene": "CutScene003303",
+    "loopPrefabName": [
+      "CutScene003303_loop",
+      "CutScene003303_loop_2"
+    ],
+    "prefabName": "Char003303",
+    "simpleIllustName": "illust_simple_char003303_149",
+    "skillIllustName": [
+      "illust_loop_char003303_1",
+      "illust_loop_char003303_2"
+    ],
+    "voiceResourceName": "Common/Char003303/Char003303_BattleReady"
+  },
+  {
+    "burstCutInNameTextId": [
+      41067604,
+      42067604,
+      43067604
+    ],
+    "costumeId": 67604,
+    "faceIconName": "icon_char067604_192",
+    "faceIllustName": "illust_npcface06760101_869",
+    "iconSpriteName": "icon_costume067604_209",
+    "id": 67604,
+    "illustName": "illust_char067604_189",
+    "inventoryIllustName": "illust_inven_char067604_189",
+    "lobbyCutscene": "CutScene067604",
+    "loopPrefabName": [
+      "CutScene067604_loop",
+      "CutScene067604_loop_2",
+      "CutScene067604_loop_3"
+    ],
+    "prefabName": "Char067604",
+    "simpleIllustName": "illust_simple_char067604_189",
+    "skillIllustName": [
+      "illust_loop_char067604_1",
+      "illust_loop_char067604_2",
+      "illust_loop_char067604_3"
+    ],
+    "voiceResourceName": "Common/Char067604/Char067604_BattleReady"
+  },
+  {
+    "burstCutInNameTextId": [
+      41061003,
+      42061003,
+      43061003
+    ],
+    "costumeId": 61003,
+    "faceIconName": "icon_char061003_213",
+    "faceIllustName": "illust_face06100101_436",
+    "iconSpriteName": "icon_costume061003_229",
+    "id": 61003,
+    "illustName": "illust_char061003_210",
+    "inventoryIllustName": "illust_inven_char061003_210",
+    "lobbyCutscene": "CutScene061003",
+    "loopPrefabName": [
+      "CutScene061003_loop",
+      "CutScene061003_loop_2"
+    ],
+    "prefabName": "Char061003",
+    "simpleIllustName": "illust_simple_char061003_210",
+    "skillIllustName": [
+      "illust_loop_char061003_1",
+      "illust_loop_char061003_2"
+    ],
+    "voiceResourceName": "Common/Char061003/Char061003_BattleReady"
+  },
+  {
+    "burstCutInNameTextId": [
+      41000708,
+      42000708,
+      43000708
+    ],
+    "costumeId": 708,
+    "faceIconName": "icon_char000708_173",
+    "faceIllustName": "illust_face00070101_335",
+    "iconSpriteName": "icon_costume000708_190",
+    "id": 708,
+    "illustName": "illust_char000708_170",
+    "inventoryIllustName": "illust_inven_char000708_170",
+    "lobbyCutscene": "CutScene000708",
+    "loopPrefabName": [
+      "CutScene000708_loop",
+      "CutScene000708_loop_2"
+    ],
+    "prefabName": "Char000708",
+    "simpleIllustName": "illust_simple_char000708_170",
+    "skillIllustName": [
+      "illust_loop_char000708_1",
+      "illust_loop_char000708_2"
+    ],
+    "voiceResourceName": "Common/Char000708/Char000708_BattleReady"
+  },
+  {
+    "burstCutInNameTextId": [
+      41003402,
+      42003402,
+      43003402
+    ],
+    "costumeId": 3402,
+    "faceIconName": "icon_char003402_155",
+    "faceIllustName": "illust_face00340101_646",
+    "iconSpriteName": "icon_costume003402_172",
+    "id": 3402,
+    "illustName": "illust_char003402_152",
+    "inventoryIllustName": "illust_inven_char003402_152",
+    "lobbyCutscene": "CutScene003402",
+    "loopPrefabName": [
+      "CutScene003402_loop",
+      "CutScene003402_loop_2"
+    ],
+    "prefabName": "Char003402",
+    "simpleIllustName": "illust_simple_char003402_152",
+    "skillIllustName": [
+      "illust_loop_char003402_1",
+      "illust_loop_char003402_2"
+    ],
+    "voiceResourceName": "Common/Char003402/Char003402_BattleReady"
+  },
+  {
+    "burstCutInNameTextId": [
+      41061305,
+      42061305,
+      43061305
+    ],
+    "costumeId": 61305,
+    "faceIconName": "icon_char061305_131",
+    "faceIllustName": "illust_face06130101_29",
+    "iconSpriteName": "icon_costume061305_150",
+    "id": 61305,
+    "illustName": "illust_char061305_128",
+    "inventoryIllustName": "illust_inven_char061305_128",
+    "lobbyCutscene": "CutScene061305",
+    "loopPrefabName": [
+      "CutScene061305_loop",
+      "CutScene061305_loop_2"
+    ],
+    "prefabName": "Char061305",
+    "simpleIllustName": "illust_simple_char061305_128",
+    "skillIllustName": [
+      "illust_loop_char061305_1",
+      "illust_loop_char061305_2"
+    ],
+    "voiceResourceName": "Common/Char061305/Char061305_BattleReady"
+  },
+  {
+    "burstCutInNameTextId": [
+      41000506,
+      42000506,
+      43000506
+    ],
+    "costumeId": 506,
+    "faceIconName": "icon_char000506_110",
+    "faceIllustName": "illust_face000501_34",
+    "iconSpriteName": "icon_costume000506_129",
+    "id": 506,
+    "illustName": "illust_char000506_107",
+    "inventoryIllustName": "illust_inven_char000506_107",
+    "lobbyCutscene": "CutScene000506",
+    "loopPrefabName": [
+      "CutScene000506_loop",
+      "CutScene000506_loop_2",
+      "CutScene000506_loop_3"
+    ],
+    "prefabName": "Char000506",
+    "simpleIllustName": "illust_simple_char000506_107",
+    "skillIllustName": [
+      "illust_loop_char000506_1",
+      "illust_loop_char000506_2",
+      "illust_loop_char000506_3"
+    ],
+    "voiceResourceName": "Common/Char000506/Char000506_BattleReady"
+  },
+  {
+    "burstCutInNameTextId": [
+      41021201,
+      41021201,
+      41021201
+    ],
+    "costumeId": 21201,
+    "faceIconName": "icon_char021201_219",
+    "faceIllustName": "illust_face4001660101_12",
+    "iconSpriteName": "icon_costume021201_235",
+    "id": 21201,
+    "illustName": "illust_char021201_216",
+    "inventoryIllustName": "illust_inven_char021201_216",
+    "isCollabo": 1,
+    "lobbyCutscene": "CutScene021201",
+    "loopPrefabName": [
+      "CutScene021201_loop",
+      "CutScene021201_loop_2"
+    ],
+    "prefabName": "Char021201",
+    "simpleIllustName": "illust_simple_char021201_216",
+    "skillIllustName": [
+      "illust_loop_char021201_1",
+      "illust_loop_char021201_2"
+    ],
+    "voiceResourceName": "Common/Char021201/Char021201_BattleReady"
+  },
+  {
+    "burstCutInNameTextId": [
+      41063001,
+      42063001,
+      43063001
+    ],
+    "costumeId": 63001,
+    "faceIconName": "icon_char063001_60",
+    "faceIllustName": "illust_face06300101_428",
+    "iconSpriteName": "icon_costume063001_98",
+    "id": 63001,
+    "illustName": "illust_char063001_62",
+    "inventoryIllustName": "illust_inven_char063001_62",
+    "prefabName": "Char063001",
+    "simpleIllustName": "illust_simple_char063001_62",
+    "voiceResourceName": "Common/Char063001/Char063001_BattleReady"
+  },
+  {
+    "burstCutInNameTextId": [
+      41062501,
+      42062501,
+      43062501
+    ],
+    "costumeId": 62501,
+    "faceIconName": "icon_char103601_20",
+    "faceIllustName": "illust_face10360101_425",
+    "iconSpriteName": "icon_costume103601_35",
+    "id": 62501,
+    "illustName": "illust_char103601_35",
+    "inventoryIllustName": "illust_inven_char103601_35",
+    "prefabName": "Char103601",
+    "simpleIllustName": "illust_simple_char103601_35",
+    "voiceResourceName": "Common/Char103601/Char103601_BattleReady"
+  },
+  {
+    "burstCutInNameTextId": [
+      41000801,
+      42000801,
+      43000801
+    ],
+    "costumeId": 801,
+    "faceIconName": "icon_char000801_37",
+    "faceIllustName": "illust_face00080101_241",
+    "iconSpriteName": "icon_costume000801_53",
+    "id": 801,
+    "illustName": "illust_char000801_21",
+    "inventoryIllustName": "illust_inven_char000801_21",
+    "lobbyCutscene": "CutScene000801",
+    "loopPrefabName": [
+      "CutScene000801_loop"
+    ],
+    "prefabName": "Char000801",
+    "simpleIllustName": "illust_simple_char000801_21",
+    "skillIllustName": [
+      "illust_loop_char000801_1"
+    ],
+    "voiceResourceName": "Common/Char000801/Char000801_BattleReady"
+  },
+  {
+    "burstCutInNameTextId": [
+      41003501,
+      42003501,
+      43003501
+    ],
+    "costumeId": 3501,
+    "faceIconName": "icon_char003501_134",
+    "faceIllustName": "illust_face00350101_581",
+    "iconSpriteName": "icon_costume003501_153",
+    "id": 3501,
+    "illustName": "illust_char003501_131",
+    "inventoryIllustName": "illust_inven_char003501_131",
+    "lobbyCutscene": "CutScene003501",
+    "loopPrefabName": [
+      "CutScene003501_loop",
+      "CutScene003501_loop_2",
+      "CutScene003501_loop_3"
+    ],
+    "prefabName": "Char003501",
+    "simpleIllustName": "illust_simple_char003501_131",
+    "skillIllustName": [
+      "illust_loop_char003501_1",
+      "illust_loop_char003501_2",
+      "illust_loop_char003501_3"
+    ],
+    "voiceResourceName": "Common/Char003501/Char003501_BattleReady"
+  },
+  {
+    "costumeId": 20301,
+    "faceIconName": "icon_char020301_144",
+    "faceIllustName": "illust_face02030101_17",
+    "iconSpriteName": "icon_costume020301_163",
+    "id": 20301,
+    "illustName": "illust_char020301_141",
+    "inventoryIllustName": "illust_inven_char020301_141",
+    "isCollabo": 1,
+    "lobbyCutscene": "CutScene020301",
+    "loopPrefabName": [
+      "CutScene020301_loop",
+      "CutScene020301_loop_2"
+    ],
+    "prefabName": "Char020301",
+    "simpleIllustName": "illust_simple_char020301_141",
+    "skillIllustName": [
+      "illust_loop_char020301_1",
+      "illust_loop_char020301_2"
+    ],
+    "voiceResourceName": "Common/Char020301/Char020301_BattleReady"
+  },
+  {
+    "costumeId": 20401,
+    "faceIconName": "icon_char020401_145",
+    "faceIllustName": "illust_face02040101_33",
+    "iconSpriteName": "icon_costume020401_164",
+    "id": 20401,
+    "illustName": "illust_char020401_142",
+    "inventoryIllustName": "illust_inven_char020401_142",
+    "isCollabo": 1,
+    "lobbyCutscene": "CutScene020401",
+    "loopPrefabName": [
+      "CutScene020401_loop",
+      "CutScene020401_loop_2"
+    ],
+    "prefabName": "Char020401",
+    "simpleIllustName": "illust_simple_char020401_142",
+    "skillIllustName": [
+      "illust_loop_char020401_1",
+      "illust_loop_char020401_2"
+    ],
+    "voiceResourceName": "Common/Char020401/Char020401_BattleReady"
+  },
+  {
+    "costumeId": 20201,
+    "faceIconName": "icon_char020201_143",
+    "faceIllustName": "illust_face02020101_6",
+    "iconSpriteName": "icon_costume020201_162",
+    "id": 20201,
+    "illustName": "illust_char020201_140",
+    "inventoryIllustName": "illust_inven_char020201_140",
+    "isCollabo": 1,
+    "lobbyCutscene": "CutScene020201",
+    "loopPrefabName": [
+      "CutScene020201_loop",
+      "CutScene020201_loop_2"
+    ],
+    "prefabName": "Char020201",
+    "simpleIllustName": "illust_simple_char020201_140",
+    "skillIllustName": [
+      "illust_loop_char020201_1",
+      "illust_loop_char020201_2"
+    ],
+    "voiceResourceName": "Common/Char020201/Char020201_BattleReady"
+  },
+  {
+    "costumeId": 20501,
+    "faceIconName": "icon_char020501_146",
+    "faceIllustName": "illust_face02050101_46",
+    "iconSpriteName": "icon_costume020501_165",
+    "id": 20501,
+    "illustName": "illust_char020501_143",
+    "inventoryIllustName": "illust_inven_char020501_143",
+    "isCollabo": 1,
+    "lobbyCutscene": "CutScene020501",
+    "loopPrefabName": [
+      "CutScene020501_loop",
+      "CutScene020501_loop_2"
+    ],
+    "prefabName": "Char020501",
+    "simpleIllustName": "illust_simple_char020501_143",
+    "skillIllustName": [
+      "illust_loop_char020501_1",
+      "illust_loop_char020501_2"
+    ],
+    "voiceResourceName": "Common/Char020501/Char020501_BattleReady"
+  },
+  {
+    "burstCutInNameTextId": [
+      41067302,
+      42067302,
+      43067302
+    ],
+    "costumeId": 67302,
+    "faceIconName": "icon_char067302_142",
+    "faceIllustName": "illust_face06730201_791",
+    "iconSpriteName": "icon_costume067302_161",
+    "id": 67302,
+    "illustName": "illust_char067302_139",
+    "inventoryIllustName": "illust_inven_char067302_139",
+    "lobbyCutscene": "CutScene067302",
+    "loopPrefabName": [
+      "CutScene067302_loop"
+    ],
+    "prefabName": "Char067302",
+    "simpleIllustName": "illust_simple_char067302_139",
+    "skillIllustName": [
+      "illust_loop_char067302_1"
+    ],
+    "voiceResourceName": "Common/Char067302/Char067302_BattleReady"
+  },
+  {
+    "burstCutInNameTextId": [
+      41067401,
+      42067401,
+      43067401
+    ],
+    "costumeId": 67401,
+    "faceIconName": "icon_char067401_140",
+    "faceIllustName": "illust_face06740101_634",
+    "iconSpriteName": "icon_costume067401_159",
+    "id": 67401,
+    "illustName": "illust_char067401_137",
+    "inventoryIllustName": "illust_inven_char067401_137",
+    "lobbyCutscene": "CutScene067401",
+    "loopPrefabName": [
+      "CutScene067401_loop",
+      "CutScene067401_loop_2"
+    ],
+    "prefabName": "Char067401",
+    "simpleIllustName": "illust_simple_char067401_137",
+    "skillIllustName": [
+      "illust_loop_char067401_1",
+      "illust_loop_char067401_2"
+    ],
+    "voiceResourceName": "Common/Char067401/Char067401_BattleReady"
+  },
+  {
+    "burstCutInNameTextId": [
+      41065802,
+      42065802,
+      43065802
+    ],
+    "costumeId": 65802,
+    "faceIconName": "icon_char065802_106",
+    "faceIllustName": "illust_face06580201_44",
+    "iconSpriteName": "icon_costume065802_125",
+    "id": 65802,
+    "illustName": "illust_char065802_103",
+    "inventoryIllustName": "illust_inven_char065802_103",
+    "lobbyCutscene": "CutScene065802",
+    "loopPrefabName": [
+      "CutScene065802_loop",
+      "CutScene065802_loop_2"
+    ],
+    "prefabName": "Char065802",
+    "simpleIllustName": "illust_simple_char065802_103",
+    "skillIllustName": [
+      "illust_loop_char065802_1",
+      "illust_loop_char065802_2"
+    ],
+    "voiceResourceName": "Common/Char065802/Char065802_BattleReady"
+  },
+  {
+    "burstCutInNameTextId": [
+      41003101,
+      42003101,
+      43003101
+    ],
+    "costumeId": 3101,
+    "faceIconName": "icon_char003101_125",
+    "faceIllustName": "illust_face00310101_661",
+    "iconSpriteName": "icon_costume003101_144",
+    "id": 3101,
+    "illustName": "illust_char003101_122",
+    "inventoryIllustName": "illust_inven_char003101_122",
+    "lobbyCutscene": "CutScene003101",
+    "loopPrefabName": [
+      "CutScene003101_loop"
+    ],
+    "prefabName": "Char003101",
+    "simpleIllustName": "illust_simple_char003101_122",
+    "skillIllustName": [
+      "illust_loop_char003101_1"
+    ],
+    "voiceResourceName": "Common/Char003101/Char003101_BattleReady"
+  },
+  {
+    "burstCutInNameTextId": [
+      41065102,
+      42065102,
+      43065102
+    ],
+    "costumeId": 65102,
+    "faceIconName": "icon_char065102_108",
+    "faceIllustName": "illust_face06510101_16",
+    "iconSpriteName": "icon_costume065102_127",
+    "id": 65102,
+    "illustName": "illust_char065102_105",
+    "inventoryIllustName": "illust_inven_char065102_105",
+    "lobbyCutscene": "CutScene065102",
+    "loopPrefabName": [
+      "CutScene065102_loop"
+    ],
+    "prefabName": "Char065102",
+    "simpleIllustName": "illust_simple_char065102_105",
+    "skillIllustName": [
+      "illust_loop_char065102_1"
+    ],
+    "voiceResourceName": "Common/Char065102/Char065102_BattleReady"
+  },
+  {
+    "burstCutInNameTextId": [
+      41002406,
+      42002406,
+      43002406
+    ],
+    "costumeId": 2406,
+    "faceIconName": "icon_char002406_111",
+    "faceIllustName": "illust_face00240101_408",
+    "iconSpriteName": "icon_costume002406_130",
+    "id": 2406,
+    "illustName": "illust_char002406_108",
+    "inventoryIllustName": "illust_inven_char002406_108",
+    "lobbyCutscene": "CutScene002406",
+    "loopPrefabName": [
+      "CutScene002406_loop",
+      "CutScene002406_loop_2"
+    ],
+    "prefabName": "Char002406",
+    "simpleIllustName": "illust_simple_char002406_108",
+    "skillIllustName": [
+      "illust_loop_char002406_1",
+      "illust_loop_char002406_2"
+    ],
+    "voiceResourceName": "Common/Char002406/Char002406_BattleReady"
+  },
+  {
+    "burstCutInNameTextId": [
+      41066402,
+      42066402,
+      43066402
+    ],
+    "costumeId": 66402,
+    "faceIconName": "icon_char066402_98",
+    "faceIllustName": "illust_face06640101_446",
+    "iconSpriteName": "icon_costume066402_118",
+    "id": 66402,
+    "illustName": "illust_char066402_95",
+    "inventoryIllustName": "illust_inven_char066402_95",
+    "lobbyCutscene": "CutScene066402",
+    "loopPrefabName": [
+      "CutScene066402_loop",
+      "CutScene066402_loop_2"
+    ],
+    "prefabName": "Char066402",
+    "simpleIllustName": "illust_simple_char066402_95",
+    "skillIllustName": [
+      "illust_loop_char066402_1",
+      "illust_loop_char066402_2"
+    ],
+    "voiceResourceName": "Common/Char066402/Char066402_BattleReady"
+  },
+  {
+    "burstCutInNameTextId": [
+      41000901,
+      42000901,
+      43000901
+    ],
+    "costumeId": 901,
+    "faceIconName": "icon_char100401_8",
+    "faceIllustName": "illust_face100401_28",
+    "iconSpriteName": "icon_costume100401_8",
+    "id": 901,
+    "illustName": "illust_char100401_8",
+    "inventoryIllustName": "illust_inven_char100401_8",
+    "prefabName": "Char100401",
+    "simpleIllustName": "illust_simple_char100401_8",
+    "voiceResourceName": "Common/Char100401/Char100401_BattleReady"
+  },
+  {
+    "burstCutInNameTextId": [
+      41062101,
+      42062101,
+      43062101
+    ],
+    "costumeId": 62101,
+    "faceIconName": "icon_char101501_55",
+    "faceIllustName": "illust_face10150101_423",
+    "iconSpriteName": "icon_costume101501_95",
+    "id": 62101,
+    "illustName": "illust_char101501_65",
+    "inventoryIllustName": "illust_inven_char101501_65",
+    "prefabName": "Char101501",
+    "simpleIllustName": "illust_simple_char101501_65",
+    "voiceResourceName": "Common/Char101501/Char101501_BattleReady"
+  },
+  {
+    "burstCutInNameTextId": [
+      41063401,
+      42063401,
+      43063401
+    ],
+    "costumeId": 63401,
+    "faceIconName": "icon_char063401_62",
+    "faceIllustName": "illust_face06340101_430",
+    "iconSpriteName": "icon_costume063401_100",
+    "id": 63401,
+    "illustName": "illust_char063401_64",
+    "inventoryIllustName": "illust_inven_char063401_64",
+    "prefabName": "Char063401",
+    "simpleIllustName": "illust_simple_char063401_64",
+    "voiceResourceName": "Common/Char063401/Char063401_BattleReady"
+  },
+  {
+    "burstCutInNameTextId": [
+      41062002,
+      42062002,
+      43062002
+    ],
+    "costumeId": 62002,
+    "faceIconName": "icon_char062002_33",
+    "faceIllustName": "illust_face06200101_422",
+    "iconSpriteName": "icon_costume062002_78",
+    "id": 62002,
+    "illustName": "illust_char062002_51",
+    "inventoryIllustName": "illust_inven_char062002_51",
+    "prefabName": "Char062002",
+    "simpleIllustName": "illust_simple_char062002_51",
+    "voiceResourceName": "Common/Char062002/Char062002_BattleReady"
+  },
+  {
+    "burstCutInNameTextId": [
+      41061102,
+      42061102,
+      43061102
+    ],
+    "costumeId": 61102,
+    "faceIconName": "icon_char061102_43",
+    "faceIllustName": "illust_face06110101_437",
+    "iconSpriteName": "icon_costume061102_83",
+    "id": 61102,
+    "illustName": "illust_char061102_27",
+    "inventoryIllustName": "illust_inven_char061102_27",
+    "lobbyCutscene": "CutScene061102",
+    "loopPrefabName": [
+      "CutScene061102_loop",
+      "CutScene061102_loop_2"
+    ],
+    "prefabName": "Char061102",
+    "simpleIllustName": "illust_simple_char061102_27",
+    "skillIllustName": [
+      "illust_loop_char061102_1",
+      "illust_loop_char061102_2"
+    ],
+    "voiceResourceName": "Common/Char061102/Char061102_BattleReady"
+  },
+  {
+    "burstCutInNameTextId": [
+      41001601,
+      42001601,
+      43001601
+    ],
+    "costumeId": 1601,
+    "faceIconName": "icon_char100801_12",
+    "faceIllustName": "illust_face100801_33",
+    "iconSpriteName": "icon_costume100801_11",
+    "id": 1601,
+    "illustName": "illust_char100801_12",
+    "inventoryIllustName": "illust_inven_char100801_12",
+    "prefabName": "Char100801",
+    "simpleIllustName": "illust_simple_char100801_12",
+    "voiceResourceName": "Common/Char100801/Char100801_BattleReady"
+  }
 ]

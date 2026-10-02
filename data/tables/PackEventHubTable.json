@@ -1,4 +1,2029 @@
 [
-  { "archivingSortId": -1, "atlasName": "EventPackGUI", "bgmName": "BGM_EventMain_Mini", "eventBgIllustName": "bg_minieventpack", "eventLogoName": "minieventpack_title", "eventNameTextId": 6110003, "eventResourceId": 2062, "fakePackId": 3007, "guideDescTextId": [ 132102, 132103, 132104, 132105 ], "guideTitleTextId": [ 132107, 1500217, 1500220, 1400149 ], "hubType": 1, "id": 1003, "label": "MooncakeWishes", "loadingPageName": "loading_MiniEvent", "packBannerName": "minieventpack_title", "packId": 13007 },
-  { "archivingSortId": -1, "atlasName": "EventPackGUI", "bgmName": "BGM_EventMain", "collaboId": 10, "eventBgIllustName": "bg_eventpack", "eventLogoName": "eventpack_title1", "eventNameTextId": 6100097, "eventResourceId": 2074, "fakePackId": 2010, "guideDescTextId": [ 131002, 131004, 131005, 131007, 2001511 ], "guideTitleTextId": [ 131180, 130003, 130004, 130006, 2001510 ], "id": 59, "isHUD": 1, "label": "TimetoSubmit", "packBannerName": "eventpack_title", "packId": 12010 }
+  {
+    "archivingSortId": -1,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain_Mini",
+    "eventBgIllustName": "bg_minieventpack",
+    "eventLogoName": "minieventpack_title",
+    "eventNameTextId": 6110003,
+    "eventResourceId": 2062,
+    "fakePackId": 3007,
+    "guideDescTextId": [
+      132102,
+      132103,
+      132104,
+      132105
+    ],
+    "guideTitleTextId": [
+      132107,
+      1500217,
+      1500220,
+      1400149
+    ],
+    "hubType": 1,
+    "id": 1003,
+    "label": "MooncakeWishes",
+    "loadingPageName": "loading_MiniEvent",
+    "packBannerName": "minieventpack_title",
+    "packId": 13007
+  },
+  {
+    "archivingSortId": -1,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain",
+    "collaboId": 10,
+    "eventBgIllustName": "bg_eventpack",
+    "eventLogoName": "eventpack_title1",
+    "eventNameTextId": 6100097,
+    "eventResourceId": 2074,
+    "fakePackId": 2010,
+    "guideDescTextId": [
+      131002,
+      131004,
+      131005,
+      131007,
+      2001511
+    ],
+    "guideTitleTextId": [
+      131180,
+      130003,
+      130004,
+      130006,
+      2001510
+    ],
+    "id": 59,
+    "isHUD": 1,
+    "label": "TimetoSubmit",
+    "packBannerName": "eventpack_title",
+    "packId": 12010
+  },
+  {
+    "archivingSortId": 1,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain",
+    "contentGenreId": [
+      6
+    ],
+    "eventBgIllustName": "bg_eventpack",
+    "eventLogoName": "eventpack_title1",
+    "eventNameTextId": 6100001,
+    "eventResourceId": 2005,
+    "fakePackId": 1006,
+    "guideDescTextId": [
+      131002,
+      131003,
+      131004,
+      131005,
+      131013,
+      131007,
+      2001511
+    ],
+    "guideTitleTextId": [
+      131001,
+      130002,
+      130003,
+      130004,
+      130005,
+      130006,
+      2001510
+    ],
+    "id": 1,
+    "label": "WindyCat",
+    "packBannerName": "eventpack_title",
+    "packCoverName": "coverpack_f_season1001",
+    "packId": 10001,
+    "storyGroupId": 1,
+    "storySynopsisQuestTextId": 4015
+  },
+  {
+    "archivingSortId": 22,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain",
+    "contentGenreId": [
+      5
+    ],
+    "eventBgIllustName": "bg_eventpack",
+    "eventLogoName": "eventpack_title2",
+    "eventNameTextId": 6100004,
+    "eventResourceId": 2052,
+    "fakePackId": 2002,
+    "guideDescTextId": [
+      131002,
+      131003,
+      131004,
+      131005,
+      131013,
+      131007,
+      2001511
+    ],
+    "guideTitleTextId": [
+      131014,
+      130002,
+      130003,
+      130004,
+      130005,
+      130006,
+      2001510
+    ],
+    "id": 2,
+    "label": "FireworksMemories_2",
+    "packBannerName": "eventpack_title",
+    "packCoverName": "coverpack_f_season13",
+    "packId": 12002,
+    "storyGroupId": 2,
+    "storySynopsisQuestTextId": 4010
+  },
+  {
+    "archivingSortId": 2,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain",
+    "contentGenreId": [
+      3
+    ],
+    "eventBgIllustName": "bg_eventpack",
+    "eventLogoName": "eventpack_title2",
+    "eventNameTextId": 6100007,
+    "eventResourceId": 2007,
+    "fakePackId": 1004,
+    "guideDescTextId": [
+      131002,
+      131003,
+      131004,
+      131005,
+      131013,
+      131007,
+      2001511
+    ],
+    "guideTitleTextId": [
+      131031,
+      130002,
+      130003,
+      130004,
+      130005,
+      130006,
+      2001510
+    ],
+    "id": 3,
+    "label": "IdolFantasm",
+    "packBannerName": "eventpack_title",
+    "packCoverName": "coverpack_f_season1003",
+    "packId": 11004,
+    "storyGroupId": 3,
+    "storySynopsisQuestTextId": 4016
+  },
+  {
+    "archivingSortId": 3,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain",
+    "contentGenreId": [
+      3
+    ],
+    "eventBgIllustName": "bg_eventpack",
+    "eventLogoName": "eventpack_title2",
+    "eventNameTextId": 6100010,
+    "eventResourceId": 2008,
+    "fakePackId": 1003,
+    "guideDescTextId": [
+      131002,
+      131003,
+      131004,
+      131005,
+      131013,
+      131007,
+      2001511
+    ],
+    "guideTitleTextId": [
+      131047,
+      130002,
+      130003,
+      130004,
+      130005,
+      130006,
+      2001510
+    ],
+    "id": 4,
+    "label": "MaidImpossible",
+    "packBannerName": "eventpack_title",
+    "packCoverName": "coverpack_f_season1004",
+    "packId": 11003,
+    "storyGroupId": 4,
+    "storySynopsisQuestTextId": 4017
+  },
+  {
+    "archivingSortId": 4,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain",
+    "contentGenreId": [
+      5
+    ],
+    "eventBgIllustName": "bg_eventpack",
+    "eventLogoName": "eventpack_title2",
+    "eventNameTextId": 6100013,
+    "eventResourceId": 2009,
+    "fakePackId": 1002,
+    "guideDescTextId": [
+      131059,
+      131003,
+      131004,
+      131005,
+      131007,
+      2001511
+    ],
+    "guideTitleTextId": [
+      131055,
+      130002,
+      130003,
+      130004,
+      130006,
+      2001510
+    ],
+    "id": 5,
+    "label": "AndroidSoul",
+    "packBannerName": "eventpack_title",
+    "packCoverName": "coverpack_f_season1005",
+    "packId": 11002,
+    "storyGroupId": 5,
+    "storySynopsisQuestTextId": 4018
+  },
+  {
+    "archivingSortId": 5,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain",
+    "contentGenreId": [
+      2
+    ],
+    "eventBgIllustName": "bg_eventpack",
+    "eventLogoName": "eventpack_title2",
+    "eventNameTextId": 6100016,
+    "eventResourceId": 2010,
+    "fakePackId": 1001,
+    "guideDescTextId": [
+      131002,
+      131003,
+      131004,
+      131005,
+      131013,
+      131007,
+      2001511
+    ],
+    "guideTitleTextId": [
+      131061,
+      130002,
+      130003,
+      130004,
+      130005,
+      130006,
+      2001510
+    ],
+    "id": 6,
+    "label": "SchoolCrisis",
+    "packBannerName": "eventpack_title",
+    "packCoverName": "coverpack_f_season1006",
+    "packId": 11001,
+    "storyGroupId": 6,
+    "storySynopsisQuestTextId": 4019
+  },
+  {
+    "archivingSortId": -1,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain",
+    "eventBgIllustName": "bg_eventpack",
+    "eventLogoName": "eventpack_title1",
+    "eventNameTextId": 6100019,
+    "eventResourceId": 2011,
+    "fakePackId": 1001,
+    "guideDescTextId": [
+      131059,
+      131003,
+      131004,
+      131005,
+      131007,
+      2001511
+    ],
+    "guideTitleTextId": [
+      131066,
+      130002,
+      130003,
+      130004,
+      130006,
+      2001510
+    ],
+    "id": 7,
+    "label": "OperationMoe",
+    "packBannerName": "eventpack_title",
+    "packId": 11001,
+    "storyGroupId": 7
+  },
+  {
+    "archivingSortId": 6,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain",
+    "contentGenreId": [
+      7
+    ],
+    "eventBgIllustName": "bg_eventpack",
+    "eventLogoName": "eventpack_title1",
+    "eventNameTextId": 6100022,
+    "eventResourceId": 2013,
+    "fakePackId": 1005,
+    "guideDescTextId": [
+      131002,
+      131003,
+      131004,
+      131005,
+      131013,
+      131007,
+      2001511
+    ],
+    "guideTitleTextId": [
+      131070,
+      130002,
+      130003,
+      130004,
+      130005,
+      130006,
+      2001510
+    ],
+    "id": 8,
+    "label": "MarryMe",
+    "packBannerName": "eventpack_title",
+    "packCoverName": "coverpack_f_season1008",
+    "packId": 11005,
+    "storyGroupId": 8,
+    "storySynopsisQuestTextId": 4020
+  },
+  {
+    "archivingSortId": -1,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain",
+    "collaboId": 1,
+    "eventBgIllustName": "bg_eventpack",
+    "eventLogoName": "eventpack_title1",
+    "eventNameTextId": 6100025,
+    "eventResourceId": 2016,
+    "fakePackId": 6,
+    "guideDescTextId": [
+      131059,
+      131003,
+      131004,
+      131005,
+      131007,
+      2001511
+    ],
+    "guideTitleTextId": [
+      131077,
+      130002,
+      130003,
+      130004,
+      130006,
+      2001510
+    ],
+    "id": 9,
+    "isHUD": 1,
+    "label": "MushokuTensei",
+    "packBannerName": "eventpack_title",
+    "packId": 10006,
+    "storyGroupId": 9
+  },
+  {
+    "archivingSortId": -1,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain",
+    "collaboId": 2,
+    "eventBgIllustName": "bg_eventpack",
+    "eventLogoName": "eventpack_title2",
+    "eventNameTextId": 6100028,
+    "eventResourceId": 2016,
+    "fakePackId": 4,
+    "guideDescTextId": [
+      131059,
+      131003,
+      131004,
+      131005,
+      131007,
+      2001511
+    ],
+    "guideTitleTextId": [
+      131153,
+      130002,
+      130003,
+      130004,
+      130006,
+      2001510
+    ],
+    "id": 10,
+    "isHUD": 1,
+    "label": "MushokuTensei",
+    "packBannerName": "eventpack_title",
+    "packId": 10004,
+    "storyGroupId": 9,
+    "subStoryGroupId": 10
+  },
+  {
+    "archivingSortId": 15,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain",
+    "contentGenreId": [
+      3
+    ],
+    "eventBgIllustName": "bg_eventpack",
+    "eventLogoName": "eventpack_title1",
+    "eventNameTextId": 6100031,
+    "eventResourceId": 2017,
+    "fakePackId": 2001,
+    "guideDescTextId": [
+      131002,
+      131003,
+      131004,
+      131005,
+      131013,
+      131007,
+      2001511
+    ],
+    "guideTitleTextId": [
+      131088,
+      130002,
+      130003,
+      130004,
+      130005,
+      130006,
+      2001510
+    ],
+    "id": 11,
+    "label": "PostSummerKnight2",
+    "packBannerName": "eventpack_title",
+    "packCoverName": "coverpack_f_season6",
+    "packId": 12001,
+    "storyGroupId": 28,
+    "storySynopsisQuestTextId": 4003
+  },
+  {
+    "archivingSortId": 7,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain",
+    "contentGenreId": [
+      2
+    ],
+    "eventBgIllustName": "bg_eventpack",
+    "eventLogoName": "eventpack_title1",
+    "eventNameTextId": 6100034,
+    "eventResourceId": 2019,
+    "fakePackId": 1001,
+    "guideDescTextId": [
+      131002,
+      131003,
+      131004,
+      131005,
+      131013,
+      131007,
+      2001511
+    ],
+    "guideTitleTextId": [
+      131095,
+      130002,
+      130003,
+      130004,
+      130005,
+      130006,
+      2001510
+    ],
+    "id": 12,
+    "label": "DietRush",
+    "packBannerName": "eventpack_title",
+    "packCoverName": "coverpack_f_season1009",
+    "packId": 11001,
+    "storyGroupId": 12,
+    "storySynopsisQuestTextId": 4021
+  },
+  {
+    "archivingSortId": 8,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain",
+    "contentGenreId": [
+      3
+    ],
+    "eventBgIllustName": "bg_eventpack",
+    "eventLogoName": "eventpack_title2",
+    "eventNameTextId": 6100037,
+    "eventResourceId": 2020,
+    "fakePackId": 2003,
+    "guideDescTextId": [
+      131002,
+      131003,
+      131004,
+      131005,
+      131013,
+      131007,
+      2001511
+    ],
+    "guideTitleTextId": [
+      131101,
+      130002,
+      130003,
+      130004,
+      130005,
+      130006,
+      2001510
+    ],
+    "id": 13,
+    "label": "ClickClickSummer",
+    "packBannerName": "eventpack_title",
+    "packCoverName": "coverpack_f_season1010",
+    "packId": 12003,
+    "storyGroupId": 13,
+    "storySynopsisQuestTextId": 4022
+  },
+  {
+    "archivingSortId": -1,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain",
+    "collaboId": 3,
+    "eventBgIllustName": "bg_eventpack",
+    "eventLogoName": "eventpack_title1",
+    "eventNameTextId": 6100040,
+    "eventResourceId": 2022,
+    "fakePackId": 2004,
+    "guideDescTextId": [
+      131002,
+      131004,
+      131005,
+      131013,
+      131007,
+      2001511
+    ],
+    "guideTitleTextId": [
+      131107,
+      130003,
+      130004,
+      130005,
+      130006,
+      2001510
+    ],
+    "id": 14,
+    "isHUD": 1,
+    "label": "ShinobiRoad",
+    "packBannerName": "eventpack_title",
+    "packId": 12004
+  },
+  {
+    "archivingSortId": -1,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain",
+    "collaboId": 4,
+    "eventBgIllustName": "bg_eventpack",
+    "eventLogoName": "eventpack_title2",
+    "eventNameTextId": 6100043,
+    "eventResourceId": 2023,
+    "fakePackId": 2004,
+    "guideDescTextId": [
+      131002,
+      131004,
+      131005,
+      131013,
+      131007,
+      2001511
+    ],
+    "guideTitleTextId": [
+      131113,
+      130003,
+      130004,
+      130005,
+      130006,
+      2001510
+    ],
+    "id": 15,
+    "isHUD": 1,
+    "label": "Akatsuki",
+    "packBannerName": "eventpack_title",
+    "packId": 12004
+  },
+  {
+    "archivingSortId": -1,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain",
+    "eventBgIllustName": "bg_eventpack",
+    "eventLogoName": "eventpack_title2",
+    "eventNameTextId": 6100046,
+    "eventResourceId": 2016,
+    "fakePackId": 4,
+    "guideDescTextId": [
+      130072,
+      131004,
+      131005,
+      131007,
+      2001511
+    ],
+    "guideTitleTextId": [
+      131120,
+      130003,
+      130004,
+      130006,
+      2001510
+    ],
+    "id": 16,
+    "label": "Berserk",
+    "packBannerName": "eventpack_title",
+    "packId": 10004
+  },
+  {
+    "archivingSortId": 9,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain",
+    "contentGenreId": [
+      4
+    ],
+    "eventBgIllustName": "bg_eventpack",
+    "eventLogoName": "eventpack_title1",
+    "eventNameTextId": 6100050,
+    "eventResourceId": 2024,
+    "fakePackId": 1007,
+    "guideDescTextId": [
+      131002,
+      131003,
+      131004,
+      131005,
+      131013,
+      131007,
+      2001511
+    ],
+    "guideTitleTextId": [
+      131131,
+      130002,
+      130003,
+      130004,
+      130005,
+      130006,
+      2001510
+    ],
+    "id": 17,
+    "label": "CartaWarZ",
+    "packBannerName": "eventpack_title",
+    "packCoverName": "coverpack_f_season1011",
+    "packId": 11007,
+    "storyGroupId": 14,
+    "storySynopsisQuestTextId": 4023
+  },
+  {
+    "archivingSortId": 11,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain",
+    "contentGenreId": [
+      2
+    ],
+    "eventBgIllustName": "bg_eventpack",
+    "eventLogoName": "eventpack_title1",
+    "eventNameTextId": 6100057,
+    "eventResourceId": 2028,
+    "fakePackId": 1001,
+    "guideDescTextId": [
+      131002,
+      131003,
+      131004,
+      131005,
+      131007,
+      2001511
+    ],
+    "guideTitleTextId": [
+      131134,
+      130002,
+      130003,
+      130004,
+      130006,
+      2001510
+    ],
+    "id": 18,
+    "label": "OnsenTraining_1",
+    "packBannerName": "eventpack_title",
+    "packCoverName": "coverpack_f_season2",
+    "packId": 11001,
+    "storyGroupId": 18,
+    "storySynopsisQuestTextId": 49
+  },
+  {
+    "archivingSortId": -1,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain",
+    "eventBgIllustName": "bg_eventpack",
+    "eventLogoName": "eventpack_title2",
+    "eventNameTextId": 6100058,
+    "eventResourceId": 2030,
+    "fakePackId": 1001,
+    "guideDescTextId": [
+      131002,
+      131003,
+      131004,
+      131005,
+      131007,
+      2001511
+    ],
+    "guideTitleTextId": [
+      131136,
+      130002,
+      130003,
+      130004,
+      130006,
+      2001510
+    ],
+    "id": 19,
+    "label": "OnsenTraining_2",
+    "packBannerName": "eventpack_title",
+    "packId": 11001,
+    "storyGroupId": 18
+  },
+  {
+    "archivingSortId": 10,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain",
+    "contentGenreId": [
+      5
+    ],
+    "eventBgIllustName": "bg_eventpack",
+    "eventLogoName": "eventpack_title1",
+    "eventNameTextId": 6100053,
+    "eventResourceId": 2026,
+    "fakePackId": 2005,
+    "guideDescTextId": [
+      131002,
+      131003,
+      131004,
+      131005,
+      17069,
+      131007,
+      2001511
+    ],
+    "guideTitleTextId": [
+      131133,
+      130002,
+      130003,
+      130004,
+      17068,
+      130006,
+      2001510
+    ],
+    "id": 20,
+    "label": "GoodbyeFreedom_1",
+    "packBannerName": "eventpack_title",
+    "packCoverName": "coverpack_f_season1",
+    "packId": 12005,
+    "storyGroupId": 20,
+    "storySynopsisQuestTextId": 48
+  },
+  {
+    "archivingSortId": -1,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain",
+    "eventBgIllustName": "bg_eventpack",
+    "eventLogoName": "eventpack_title2",
+    "eventNameTextId": 6100056,
+    "eventResourceId": 2027,
+    "fakePackId": 2005,
+    "guideDescTextId": [
+      131002,
+      131003,
+      131004,
+      131005,
+      17069,
+      131007,
+      2001511
+    ],
+    "guideTitleTextId": [
+      131135,
+      130002,
+      130003,
+      130004,
+      17068,
+      130006,
+      2001510
+    ],
+    "id": 21,
+    "label": "GoodbyeFreedom_2",
+    "packBannerName": "eventpack_title",
+    "packId": 12005,
+    "storyGroupId": 20
+  },
+  {
+    "archivingSortId": 12,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain",
+    "contentGenreId": [
+      1
+    ],
+    "eventBgIllustName": "bg_eventpack",
+    "eventLogoName": "eventpack_title1",
+    "eventNameTextId": 6100059,
+    "eventResourceId": 2031,
+    "fakePackId": 1,
+    "guideDescTextId": [
+      131002,
+      131003,
+      131004,
+      131005,
+      131007,
+      2001511
+    ],
+    "guideTitleTextId": [
+      131137,
+      130002,
+      130003,
+      130004,
+      130006,
+      2001510
+    ],
+    "id": 22,
+    "label": "CrimsonDestiny_1",
+    "packBannerName": "eventpack_title",
+    "packCoverName": "coverpack_f_season3",
+    "packId": 11006,
+    "storyGroupId": 22,
+    "storySynopsisQuestTextId": 50
+  },
+  {
+    "archivingSortId": -1,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain",
+    "eventBgIllustName": "bg_eventpack",
+    "eventLogoName": "eventpack_title2",
+    "eventNameTextId": 6100060,
+    "eventResourceId": 2032,
+    "fakePackId": 1,
+    "guideDescTextId": [
+      131002,
+      131003,
+      131004,
+      131005,
+      131007,
+      2001511
+    ],
+    "guideTitleTextId": [
+      131138,
+      130002,
+      130003,
+      130004,
+      130006,
+      2001510
+    ],
+    "id": 23,
+    "label": "CrimsonDestiny_2",
+    "packBannerName": "eventpack_title",
+    "packId": 11006,
+    "storyGroupId": 22
+  },
+  {
+    "archivingSortId": 13,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain",
+    "contentGenreId": [
+      1
+    ],
+    "eventBgIllustName": "bg_eventpack",
+    "eventLogoName": "eventpack_title1",
+    "eventNameTextId": 6100061,
+    "eventResourceId": 2033,
+    "fakePackId": 1,
+    "guideDescTextId": [
+      131002,
+      131003,
+      131004,
+      131005,
+      131007,
+      2001511
+    ],
+    "guideTitleTextId": [
+      131139,
+      130002,
+      130003,
+      130004,
+      130006,
+      2001510
+    ],
+    "id": 24,
+    "label": "Delight_1",
+    "packBannerName": "eventpack_title",
+    "packCoverName": "coverpack_f_season4",
+    "packId": 11006,
+    "storyGroupId": 24,
+    "storySynopsisQuestTextId": 4001
+  },
+  {
+    "archivingSortId": -1,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain",
+    "eventBgIllustName": "bg_eventpack",
+    "eventLogoName": "eventpack_title2",
+    "eventNameTextId": 6100062,
+    "eventResourceId": 2034,
+    "fakePackId": 1,
+    "guideDescTextId": [
+      131002,
+      131003,
+      131004,
+      131005,
+      131007,
+      2001511
+    ],
+    "guideTitleTextId": [
+      131140,
+      130002,
+      130003,
+      130004,
+      130006,
+      2001510
+    ],
+    "id": 25,
+    "label": "Delight_2",
+    "packBannerName": "eventpack_title",
+    "packId": 11006,
+    "storyGroupId": 24
+  },
+  {
+    "archivingSortId": 14,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain",
+    "contentGenreId": [
+      1
+    ],
+    "eventBgIllustName": "bg_eventpack",
+    "eventLogoName": "eventpack_title1",
+    "eventNameTextId": 6100063,
+    "eventResourceId": 2035,
+    "fakePackId": 1,
+    "guideDescTextId": [
+      131002,
+      131003,
+      131004,
+      131005,
+      131007,
+      2001511
+    ],
+    "guideTitleTextId": [
+      131141,
+      130002,
+      130003,
+      130004,
+      130006,
+      2001510
+    ],
+    "id": 26,
+    "label": "InnocentFullmoon",
+    "packBannerName": "eventpack_title",
+    "packCoverName": "coverpack_f_season5",
+    "packId": 11006,
+    "storyGroupId": 26,
+    "storySynopsisQuestTextId": 4002
+  },
+  {
+    "archivingSortId": -1,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain",
+    "eventBgIllustName": "bg_eventpack",
+    "eventLogoName": "eventpack_title2",
+    "eventNameTextId": 6100064,
+    "eventResourceId": 2036,
+    "fakePackId": 1,
+    "guideDescTextId": [
+      131002,
+      131003,
+      131004,
+      131005,
+      131007,
+      2001511
+    ],
+    "guideTitleTextId": [
+      131142,
+      130002,
+      130003,
+      130004,
+      130006,
+      2001510
+    ],
+    "id": 27,
+    "label": "BlackNewmoon",
+    "packBannerName": "eventpack_title",
+    "packId": 11006,
+    "storyGroupId": 26
+  },
+  {
+    "archivingSortId": -1,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain",
+    "collaboId": 5,
+    "eventBgIllustName": "bg_eventpack",
+    "eventLogoName": "eventpack_title1",
+    "eventNameTextId": 6100065,
+    "eventResourceId": 2037,
+    "fakePackId": 2006,
+    "guideDescTextId": [
+      130072,
+      131004,
+      131005,
+      131007,
+      2001511
+    ],
+    "guideTitleTextId": [
+      131143,
+      130003,
+      130004,
+      130006,
+      2001510
+    ],
+    "id": 28,
+    "isHUD": 1,
+    "label": "JourneyToAnotherWorld",
+    "packBannerName": "eventpack_title",
+    "packId": 12006
+  },
+  {
+    "archivingSortId": -1,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain",
+    "collaboId": 6,
+    "eventBgIllustName": "bg_eventpack",
+    "eventLogoName": "eventpack_title2",
+    "eventNameTextId": 6100066,
+    "eventResourceId": 2038,
+    "fakePackId": 2006,
+    "guideDescTextId": [
+      130072,
+      131004,
+      131005,
+      131007,
+      2001511
+    ],
+    "guideTitleTextId": [
+      131144,
+      130003,
+      130004,
+      130006,
+      2001510
+    ],
+    "id": 29,
+    "isHUD": 1,
+    "label": "GoblinDoomsday",
+    "packBannerName": "eventpack_title",
+    "packId": 12006
+  },
+  {
+    "archivingSortId": 16,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain",
+    "collaboId": 7,
+    "contentGenreId": [
+      3
+    ],
+    "eventBgIllustName": "bg_eventpack",
+    "eventLogoName": "eventpack_title2",
+    "eventNameTextId": 6100067,
+    "eventResourceId": 2040,
+    "fakePackId": 2007,
+    "guideDescTextId": [
+      131002,
+      131003,
+      131004,
+      131005,
+      131007,
+      2001511
+    ],
+    "guideTitleTextId": [
+      131145,
+      130002,
+      130003,
+      130004,
+      130006,
+      2001510
+    ],
+    "id": 30,
+    "isHUD": 1,
+    "label": "MidsummerDream",
+    "packBannerName": "eventpack_title",
+    "packCoverName": "coverpack_f_season7",
+    "packId": 12007,
+    "storyGroupId": 30,
+    "storySynopsisQuestTextId": 4004
+  },
+  {
+    "archivingSortId": -1,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain",
+    "collaboId": 8,
+    "eventBgIllustName": "bg_eventpack",
+    "eventLogoName": "eventpack_title1",
+    "eventNameTextId": 6100068,
+    "eventResourceId": 2041,
+    "fakePackId": 2007,
+    "guideDescTextId": [
+      131002,
+      131003,
+      131004,
+      131005,
+      131007,
+      2001511
+    ],
+    "guideTitleTextId": [
+      131146,
+      130002,
+      130003,
+      130004,
+      130006,
+      2001510
+    ],
+    "id": 31,
+    "isHUD": 1,
+    "label": "FlamingoRush",
+    "packBannerName": "eventpack_title",
+    "packId": 12007,
+    "storyGroupId": 30
+  },
+  {
+    "archivingSortId": 18,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain",
+    "contentGenreId": [
+      3
+    ],
+    "eventBgIllustName": "bg_eventpack",
+    "eventLogoName": "eventpack_title2",
+    "eventNameTextId": 6100071,
+    "eventResourceId": 2044,
+    "fakePackId": 2003,
+    "guideDescTextId": [
+      131002,
+      131003,
+      131004,
+      131005,
+      131007,
+      2001511
+    ],
+    "guideTitleTextId": [
+      131149,
+      130002,
+      130003,
+      130004,
+      130006,
+      2001510
+    ],
+    "id": 34,
+    "label": "BeautyonDuty",
+    "packBannerName": "eventpack_title",
+    "packCoverName": "coverpack_f_season9",
+    "packId": 12003,
+    "storyGroupId": 34,
+    "storySynopsisQuestTextId": 4006
+  },
+  {
+    "archivingSortId": -1,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain",
+    "eventBgIllustName": "bg_eventpack",
+    "eventLogoName": "eventpack_title1",
+    "eventNameTextId": 6100072,
+    "eventResourceId": 2045,
+    "fakePackId": 2003,
+    "guideDescTextId": [
+      131002,
+      131003,
+      131004,
+      131005,
+      131007,
+      2001511
+    ],
+    "guideTitleTextId": [
+      131150,
+      130002,
+      130003,
+      130004,
+      130006,
+      2001510
+    ],
+    "id": 35,
+    "label": "BikiniImpossible",
+    "packBannerName": "eventpack_title",
+    "packId": 12003,
+    "storyGroupId": 34
+  },
+  {
+    "archivingSortId": 19,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain",
+    "contentGenreId": [
+      1
+    ],
+    "eventBgIllustName": "bg_eventpack",
+    "eventLogoName": "eventpack_title2",
+    "eventNameTextId": 6100073,
+    "eventResourceId": 2046,
+    "fakePackId": 1,
+    "guideDescTextId": [
+      131002,
+      131003,
+      131004,
+      131005,
+      131007,
+      2001511
+    ],
+    "guideTitleTextId": [
+      131151,
+      130002,
+      130003,
+      130004,
+      130006,
+      2001510
+    ],
+    "id": 36,
+    "label": "StigmaofDreams",
+    "packBannerName": "eventpack_title",
+    "packCoverName": "coverpack_f_season10",
+    "packId": 11006,
+    "storyGroupId": 36,
+    "storySynopsisQuestTextId": 4007
+  },
+  {
+    "archivingSortId": -1,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain",
+    "eventBgIllustName": "bg_eventpack",
+    "eventLogoName": "eventpack_title1",
+    "eventNameTextId": 6100074,
+    "eventResourceId": 2047,
+    "fakePackId": 1,
+    "guideDescTextId": [
+      131002,
+      131003,
+      131004,
+      131005,
+      131007,
+      2001511
+    ],
+    "guideTitleTextId": [
+      131152,
+      130002,
+      130003,
+      130004,
+      130006,
+      2001510
+    ],
+    "id": 37,
+    "label": "StarlightChild",
+    "packBannerName": "eventpack_title",
+    "packId": 11006,
+    "storyGroupId": 36
+  },
+  {
+    "archivingSortId": 20,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain",
+    "contentGenreId": [
+      7
+    ],
+    "eventBgIllustName": "bg_eventpack",
+    "eventLogoName": "eventpack_title1",
+    "eventNameTextId": 6100076,
+    "eventResourceId": 2049,
+    "fakePackId": 1005,
+    "guideDescTextId": [
+      131002,
+      131003,
+      131004,
+      131005,
+      131007,
+      2001511
+    ],
+    "guideTitleTextId": [
+      131154,
+      130002,
+      130003,
+      130004,
+      130006,
+      2001510
+    ],
+    "id": 38,
+    "label": "HalloweenNight",
+    "packBannerName": "eventpack_title",
+    "packCoverName": "coverpack_f_season11",
+    "packId": 11005,
+    "storyGroupId": 38,
+    "storySynopsisQuestTextId": 4008
+  },
+  {
+    "archivingSortId": -1,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain",
+    "eventBgIllustName": "bg_eventpack",
+    "eventLogoName": "eventpack_title2",
+    "eventNameTextId": 6100077,
+    "eventResourceId": 2050,
+    "fakePackId": 1005,
+    "guideDescTextId": [
+      131002,
+      131003,
+      131004,
+      131005,
+      131007,
+      2001511
+    ],
+    "guideTitleTextId": [
+      131155,
+      130002,
+      130003,
+      130004,
+      130006,
+      2001510
+    ],
+    "id": 39,
+    "label": "MagicforWishes",
+    "packBannerName": "eventpack_title",
+    "packId": 11005,
+    "storyGroupId": 38
+  },
+  {
+    "archivingSortId": 21,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain",
+    "contentGenreId": [
+      1
+    ],
+    "eventBgIllustName": "bg_eventpack",
+    "eventLogoName": "eventpack_title1",
+    "eventNameTextId": 6100078,
+    "eventResourceId": 2051,
+    "fakePackId": 1,
+    "guideDescTextId": [
+      131002,
+      131003,
+      131004,
+      131005,
+      131007,
+      2001511
+    ],
+    "guideTitleTextId": [
+      131156,
+      130002,
+      130003,
+      130004,
+      130006,
+      2001510
+    ],
+    "id": 40,
+    "label": "Crossroads",
+    "packBannerName": "eventpack_title",
+    "packCoverName": "coverpack_f_season12",
+    "packId": 11006,
+    "storyGroupId": 40,
+    "storySynopsisQuestTextId": 4009
+  },
+  {
+    "archivingSortId": 23,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain",
+    "contentGenreId": [
+      7
+    ],
+    "eventBgIllustName": "bg_eventpack",
+    "eventLogoName": "eventpack_title1",
+    "eventNameTextId": 6100079,
+    "eventResourceId": 2053,
+    "fakePackId": 2008,
+    "guideDescTextId": [
+      131002,
+      131003,
+      131004,
+      131005,
+      131007,
+      2001511
+    ],
+    "guideTitleTextId": [
+      131157,
+      130002,
+      130003,
+      130004,
+      130006,
+      2001510
+    ],
+    "id": 41,
+    "label": "ReadySetHop",
+    "packBannerName": "eventpack_title",
+    "packCoverName": "coverpack_f_season14",
+    "packId": 12008,
+    "storyGroupId": 41,
+    "storySynopsisQuestTextId": 4011
+  },
+  {
+    "archivingSortId": -1,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain",
+    "eventBgIllustName": "bg_eventpack",
+    "eventLogoName": "eventpack_title2",
+    "eventNameTextId": 6100080,
+    "eventResourceId": 2054,
+    "fakePackId": 2008,
+    "guideDescTextId": [
+      131002,
+      131003,
+      131004,
+      131005,
+      131007,
+      2001511
+    ],
+    "guideTitleTextId": [
+      131158,
+      130002,
+      130003,
+      130004,
+      130006,
+      2001510
+    ],
+    "id": 42,
+    "label": "AshDash",
+    "packBannerName": "eventpack_title",
+    "packId": 12008,
+    "storyGroupId": 41
+  },
+  {
+    "archivingSortId": 24,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain",
+    "contentGenreId": [
+      2
+    ],
+    "eventBgIllustName": "bg_eventpack",
+    "eventLogoName": "eventpack_title1",
+    "eventNameTextId": 6100081,
+    "eventResourceId": 2055,
+    "fakePackId": 1008,
+    "guideDescTextId": [
+      131002,
+      131003,
+      131004,
+      131005,
+      131007,
+      2001511
+    ],
+    "guideTitleTextId": [
+      131159,
+      130002,
+      130003,
+      130004,
+      130006,
+      2001510
+    ],
+    "id": 43,
+    "label": "GoldenTamago",
+    "packBannerName": "eventpack_title",
+    "packCoverName": "coverpack_f_season15",
+    "packId": 11008,
+    "storyGroupId": 43,
+    "storySynopsisQuestTextId": 4012
+  },
+  {
+    "archivingSortId": -1,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain",
+    "eventBgIllustName": "bg_eventpack",
+    "eventLogoName": "eventpack_title2",
+    "eventNameTextId": 6100082,
+    "eventResourceId": 2056,
+    "fakePackId": 1008,
+    "guideDescTextId": [
+      131002,
+      131003,
+      131004,
+      131005,
+      131007,
+      2001511
+    ],
+    "guideTitleTextId": [
+      131160,
+      130002,
+      130003,
+      130004,
+      130006,
+      2001510
+    ],
+    "id": 44,
+    "label": "ChickenortheEgg",
+    "packBannerName": "eventpack_title",
+    "packId": 11008,
+    "storyGroupId": 43
+  },
+  {
+    "archivingSortId": 25,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain",
+    "contentGenreId": [
+      4
+    ],
+    "eventBgIllustName": "bg_eventpack",
+    "eventLogoName": "eventpack_title1",
+    "eventNameTextId": 6100083,
+    "eventResourceId": 2057,
+    "fakePackId": 1007,
+    "guideDescTextId": [
+      131002,
+      131003,
+      131004,
+      131005,
+      131007,
+      2001511
+    ],
+    "guideTitleTextId": [
+      131161,
+      130002,
+      130003,
+      130004,
+      130006,
+      2001510
+    ],
+    "id": 45,
+    "label": "MartWar",
+    "packBannerName": "eventpack_title",
+    "packCoverName": "coverpack_f_season16",
+    "packId": 11007,
+    "storyGroupId": 45,
+    "storySynopsisQuestTextId": 4013
+  },
+  {
+    "archivingSortId": -1,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain",
+    "eventBgIllustName": "bg_eventpack",
+    "eventLogoName": "eventpack_title2",
+    "eventNameTextId": 6100084,
+    "eventResourceId": 2058,
+    "fakePackId": 1007,
+    "guideDescTextId": [
+      131002,
+      131003,
+      131004,
+      131005,
+      131007,
+      2001511
+    ],
+    "guideTitleTextId": [
+      131162,
+      130002,
+      130003,
+      130004,
+      130006,
+      2001510
+    ],
+    "id": 46,
+    "label": "MagicalLyrical",
+    "packBannerName": "eventpack_title",
+    "packId": 11007,
+    "storyGroupId": 45
+  },
+  {
+    "archivingSortId": 26,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain",
+    "contentGenreId": [
+      1
+    ],
+    "eventBgIllustName": "bg_eventpack",
+    "eventLogoName": "eventpack_title1",
+    "eventNameTextId": 6100085,
+    "eventResourceId": 2060,
+    "fakePackId": 1,
+    "guideDescTextId": [
+      131002,
+      131003,
+      131004,
+      131005,
+      131007,
+      2001511
+    ],
+    "guideTitleTextId": [
+      131163,
+      130002,
+      130003,
+      130004,
+      130006,
+      2001510
+    ],
+    "id": 47,
+    "label": "PsycheArtist",
+    "packBannerName": "eventpack_title",
+    "packCoverName": "coverpack_f_season17",
+    "packId": 11006,
+    "storyGroupId": 47,
+    "storySynopsisQuestTextId": 4014
+  },
+  {
+    "archivingSortId": -1,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain",
+    "eventBgIllustName": "bg_eventpack",
+    "eventLogoName": "eventpack_title2",
+    "eventNameTextId": 6100086,
+    "eventResourceId": 2061,
+    "fakePackId": 1,
+    "guideDescTextId": [
+      131002,
+      131003,
+      131004,
+      131005,
+      131007,
+      2001511
+    ],
+    "guideTitleTextId": [
+      131165,
+      130002,
+      130003,
+      130004,
+      130006,
+      2001510
+    ],
+    "id": 48,
+    "label": "TheErosion",
+    "packBannerName": "eventpack_title",
+    "packId": 11006,
+    "storyGroupId": 47
+  },
+  {
+    "archivingSortId": 27,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain",
+    "contentGenreId": [
+      4
+    ],
+    "eventBgIllustName": "bg_eventpack",
+    "eventLogoName": "eventpack_title1",
+    "eventNameTextId": 6100087,
+    "eventResourceId": 2064,
+    "fakePackId": 1009,
+    "guideDescTextId": [
+      131002,
+      131003,
+      131004,
+      131005,
+      131007,
+      2001511
+    ],
+    "guideTitleTextId": [
+      131166,
+      130002,
+      130003,
+      130004,
+      130006,
+      2001510
+    ],
+    "id": 49,
+    "label": "StrangeRequest",
+    "packBannerName": "eventpack_title",
+    "packCoverName": "coverpack_f_season18",
+    "packId": 11009,
+    "storyGroupId": 49,
+    "storySynopsisQuestTextId": 4024
+  },
+  {
+    "archivingSortId": -1,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain",
+    "eventBgIllustName": "bg_eventpack",
+    "eventLogoName": "eventpack_title2",
+    "eventNameTextId": 6100088,
+    "eventResourceId": 2065,
+    "fakePackId": 1009,
+    "guideDescTextId": [
+      131002,
+      131003,
+      131004,
+      131005,
+      131007,
+      2001511
+    ],
+    "guideTitleTextId": [
+      131171,
+      130002,
+      130003,
+      130004,
+      130006,
+      2001510
+    ],
+    "id": 50,
+    "label": "DarkMagica",
+    "packBannerName": "eventpack_title",
+    "packId": 11009,
+    "storyGroupId": 49
+  },
+  {
+    "archivingSortId": 28,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain",
+    "contentGenreId": [
+      3
+    ],
+    "eventBgIllustName": "bg_eventpack",
+    "eventLogoName": "eventpack_title1",
+    "eventNameTextId": 6100089,
+    "eventResourceId": 2066,
+    "fakePackId": 2009,
+    "guideDescTextId": [
+      131002,
+      131003,
+      131004,
+      131005,
+      131007,
+      2001511
+    ],
+    "guideTitleTextId": [
+      131172,
+      130002,
+      130003,
+      130004,
+      130006,
+      2001510
+    ],
+    "id": 51,
+    "label": "CasinoParty",
+    "packBannerName": "eventpack_title",
+    "packCoverName": "coverpack_f_season19",
+    "packId": 12009,
+    "storyGroupId": 51,
+    "storySynopsisQuestTextId": 4025
+  },
+  {
+    "archivingSortId": -1,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain",
+    "eventBgIllustName": "bg_eventpack",
+    "eventLogoName": "eventpack_title2",
+    "eventNameTextId": 6100090,
+    "eventResourceId": 2067,
+    "fakePackId": 2009,
+    "guideDescTextId": [
+      131002,
+      131003,
+      131004,
+      131005,
+      131007,
+      2001511
+    ],
+    "guideTitleTextId": [
+      131173,
+      130002,
+      130003,
+      130004,
+      130006,
+      2001510
+    ],
+    "id": 52,
+    "label": "EndofGamble",
+    "packBannerName": "eventpack_title",
+    "packId": 12009,
+    "storyGroupId": 51
+  },
+  {
+    "archivingSortId": -1,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain",
+    "contentGenreId": [
+      3
+    ],
+    "eventBgIllustName": "bg_eventpack",
+    "eventLogoName": "eventpack_title1",
+    "eventNameTextId": 6100091,
+    "eventResourceId": 2068,
+    "fakePackId": 2009,
+    "guideDescTextId": [
+      131002,
+      131003,
+      131004,
+      131005,
+      131007,
+      2001511
+    ],
+    "guideTitleTextId": [
+      131174,
+      130002,
+      130003,
+      130004,
+      130006,
+      2001510
+    ],
+    "id": 53,
+    "label": "SerendipityParty",
+    "packBannerName": "eventpack_title",
+    "packCoverName": "coverpack_f_season20",
+    "packId": 12009,
+    "storySynopsisQuestTextId": 4026
+  },
+  {
+    "archivingSortId": -1,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain",
+    "eventBgIllustName": "bg_eventpack",
+    "eventLogoName": "eventpack_title2",
+    "eventNameTextId": 6100092,
+    "eventResourceId": 2069,
+    "fakePackId": 2009,
+    "guideDescTextId": [
+      131002,
+      131003,
+      131004,
+      131005,
+      131007,
+      2001511
+    ],
+    "guideTitleTextId": [
+      131175,
+      130002,
+      130003,
+      130004,
+      130006,
+      2001510
+    ],
+    "id": 54,
+    "label": "FoxsGambit",
+    "packBannerName": "eventpack_title",
+    "packId": 12009
+  },
+  {
+    "archivingSortId": -1,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain",
+    "contentGenreId": [
+      6
+    ],
+    "eventBgIllustName": "bg_eventpack",
+    "eventLogoName": "eventpack_title1",
+    "eventNameTextId": 6100093,
+    "eventResourceId": 2070,
+    "fakePackId": 1010,
+    "guideDescTextId": [
+      131002,
+      131003,
+      131004,
+      131005,
+      131007,
+      2001511
+    ],
+    "guideTitleTextId": [
+      131176,
+      130002,
+      130003,
+      130004,
+      130006,
+      2001510
+    ],
+    "id": 55,
+    "label": "TheSuccessor",
+    "packBannerName": "eventpack_title",
+    "packCoverName": "coverpack_f_season21",
+    "packId": 11010,
+    "storySynopsisQuestTextId": 4027
+  },
+  {
+    "archivingSortId": -1,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain",
+    "eventBgIllustName": "bg_eventpack",
+    "eventLogoName": "eventpack_title2",
+    "eventNameTextId": 6100094,
+    "eventResourceId": 2071,
+    "fakePackId": 1010,
+    "guideDescTextId": [
+      131002,
+      131003,
+      131004,
+      131005,
+      131007,
+      2001511
+    ],
+    "guideTitleTextId": [
+      131177,
+      130002,
+      130003,
+      130004,
+      130006,
+      2001510
+    ],
+    "id": 56,
+    "label": "TheSunnySmile",
+    "packBannerName": "eventpack_title",
+    "packId": 11010
+  },
+  {
+    "archivingSortId": -1,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain",
+    "contentGenreId": [
+      1
+    ],
+    "eventBgIllustName": "bg_eventpack",
+    "eventLogoName": "eventpack_title1",
+    "eventNameTextId": 6100095,
+    "eventResourceId": 2072,
+    "guideDescTextId": [
+      131002,
+      131003,
+      131004,
+      131005,
+      131007,
+      2001511
+    ],
+    "guideTitleTextId": [
+      131178,
+      130002,
+      130003,
+      130004,
+      130006,
+      2001510
+    ],
+    "id": 57,
+    "label": "UNTAMED",
+    "packBannerName": "eventpack_title",
+    "packCoverName": "coverpack_f_season22",
+    "packId": 11006,
+    "storySynopsisQuestTextId": 4028
+  },
+  {
+    "archivingSortId": -1,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain",
+    "collaboId": 9,
+    "eventBgIllustName": "bg_eventpack",
+    "eventLogoName": "eventpack_title2",
+    "eventNameTextId": 6100096,
+    "eventResourceId": 2073,
+    "fakePackId": 2010,
+    "guideDescTextId": [
+      131002,
+      131004,
+      131005,
+      131007,
+      2001511
+    ],
+    "guideTitleTextId": [
+      131179,
+      130003,
+      130004,
+      130006,
+      2001510
+    ],
+    "id": 58,
+    "isHUD": 1,
+    "label": "EternalChains",
+    "packBannerName": "eventpack_title",
+    "packId": 12010
+  },
+  {
+    "archivingSortId": -1,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain_Mini",
+    "eventBgIllustName": "bg_minieventpack",
+    "eventLogoName": "minieventpack_title",
+    "eventNameTextId": 6110001,
+    "eventResourceId": 2059,
+    "fakePackId": 1001,
+    "guideDescTextId": [
+      132102,
+      132103,
+      131013,
+      132104,
+      132105
+    ],
+    "guideTitleTextId": [
+      132101,
+      1500217,
+      130005,
+      1500220,
+      1400149
+    ],
+    "hubType": 1,
+    "id": 1001,
+    "label": "ValentineCRACKDOWN",
+    "loadingPageName": "loading_MiniEvent",
+    "packBannerName": "minieventpack_title",
+    "packId": 11001
+  },
+  {
+    "archivingSortId": -1,
+    "atlasName": "EventPackGUI",
+    "bgmName": "BGM_EventMain_Mini",
+    "eventBgIllustName": "bg_minieventpack",
+    "eventLogoName": "minieventpack_title",
+    "eventNameTextId": 6110002,
+    "eventResourceId": 2062,
+    "fakePackId": 3007,
+    "guideDescTextId": [
+      132102,
+      132103,
+      131013,
+      132104,
+      132105
+    ],
+    "guideTitleTextId": [
+      132106,
+      1500217,
+      130005,
+      1500220,
+      1400149
+    ],
+    "hubType": 1,
+    "id": 1002,
+    "label": "FoolsGame",
+    "loadingPageName": "loading_MiniEvent",
+    "packBannerName": "minieventpack_title",
+    "packId": 13007
+  }
 ]

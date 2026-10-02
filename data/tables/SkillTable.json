@@ -1,20 +1,894 @@
 [
-  { "attackRange": 9, "attackRangeCount": 1, "attackType": 1, "buffId": [ 101001, 101002 ], "cooldown": 5, "groupId": 101, "repeatCount": 2, "skillDescSkillTextId": 20001010, "skillDesignId": 101, "skillNameSkillTextId": 10001010, "skillUseRate": 1, "spReqCount": 3 },
-  { "attackRange": 2, "attackRangeCount": 1, "attackType": 1, "buffId": [ 201001 ], "cooldown": 5, "groupId": 201, "repeatCount": 3, "skillDescSkillTextId": 20002010, "skillDesignId": 201, "skillNameSkillTextId": 10002010, "skillUseRate": 1, "spReqCount": 4 },
-  { "attackRange": 1, "attackRangeCount": 1, "attackType": 1, "buffId": [ 202001 ], "cooldown": 5, "groupId": 202, "repeatCount": 1, "skillDescSkillTextId": 20002020, "skillDesignId": 202, "skillNameSkillTextId": 10002020, "skillUseRate": 1, "spReqCount": 3 },
-  { "attackMoveType": 1, "attackRange": 8, "attackRangeCount": 1, "attackType": 1, "buffId": [ 901001, 901002 ], "cooldown": 7, "groupId": 901, "repeatCount": 2, "skillDescSkillTextId": 20009010, "skillDesignId": 901, "skillNameSkillTextId": 10009010, "skillUseRate": 1, "spReqCount": 4, "targetType": 1 },
-  { "attackRangeCount": 1, "attackType": 1, "buffId": [ 1601001, 1601002, 1601003 ], "cooldown": 7, "groupId": 1601, "repeatCount": 2, "skillDescSkillTextId": 20016010, "skillDesignId": 1601, "skillNameSkillTextId": 10016010, "skillUseRate": 1, "spReqCount": 4 },
-  { "attackMoveType": 1, "attackRange": 1, "attackRangeCount": 2, "attackType": 1, "buffId": [ 21301001, 21301002 ], "cooldown": 1, "groupId": 21301, "repeatCount": 1, "skillDescSkillTextId": 20213010, "skillDesignId": 21301, "skillNameSkillTextId": 10213010, "skillUseRate": 1, "spReqCount": 5 },
-  { "attackRange": 4, "attackRangeCount": 1, "attackType": 1, "buffId": [ 60101001 ], "cooldown": 1, "groupId": 60101, "repeatCount": 1, "skillDescSkillTextId": 20601010, "skillDesignId": 60101, "skillNameSkillTextId": 10601010, "skillUseRate": 1, "spReqCount": 5 },
-  { "attackRangeCount": 1, "attackType": 1, "buffId": [ 60601001, 60601002 ], "cooldown": 5, "groupId": 60601, "repeatCount": 1, "skillDescSkillTextId": 20606010, "skillDesignId": 60601, "skillNameSkillTextId": 10606010, "skillUseRate": 1, "spReqCount": 4 },
-  { "attackRange": 8, "attackRangeCount": 1, "attackType": 1, "buffId": [ 62102001, 62102002, 62102003 ], "cooldown": 7, "groupId": 62102, "repeatCount": 1, "skillDescSkillTextId": 20621020, "skillDesignId": 62102, "skillNameSkillTextId": 10621020, "skillUseRate": 1, "spReqCount": 2 },
-  { "attackMoveType": 1, "attackRange": 6, "attackRangeCount": 1, "attackType": 1, "buffId": [ 62601001, 62601002 ], "cooldown": 7, "groupId": 62601, "repeatCount": 1, "skillDescSkillTextId": 20626010, "skillDesignId": 62601, "skillNameSkillTextId": 10626010, "skillUseRate": 1, "spReqCount": 3, "targetType": 1 },
-  { "attackRangeCount": 1, "attackType": 1, "buffId": [ 62801101 ], "cooldown": 3, "groupId": 62801, "id": 1, "repeatCount": 1, "skillDescSkillTextId": 20628011, "skillDesignId": 62801, "skillNameSkillTextId": 10628011, "skillUseRate": 1, "spReqCount": 2 },
-  { "attackRange": 1, "attackRangeCount": 1, "attackType": 1, "buffId": [ 63001101 ], "cooldown": 3, "groupId": 63001, "id": 1, "repeatCount": 3, "skillDescSkillTextId": 20630011, "skillDesignId": 63001, "skillNameSkillTextId": 10630011, "skillUseRate": 1, "spReqCount": 4 },
-  { "attackMoveType": 1, "attackRange": 5, "attackRangeCount": 1, "attackType": 1, "buffId": [ 63301001, 63301002 ], "cooldown": 7, "groupId": 63301, "repeatCount": 2, "skillDescSkillTextId": 20633010, "skillDesignId": 63301, "skillNameSkillTextId": 10633010, "skillUseRate": 1, "spReqCount": 4 },
-  { "attackRangeCount": 1, "attackType": 1, "buffId": [ 64701101 ], "cooldown": 3, "groupId": 64701, "id": 1, "repeatCount": 1, "skillDescSkillTextId": 20647011, "skillDesignId": 64701, "skillNameSkillTextId": 10647011, "skillUseRate": 1, "spReqCount": 3 },
-  { "attackMoveType": 1, "attackRange": 1, "attackRangeCount": 1, "attackType": 1, "buffId": [ 64801101 ], "cooldown": 3, "groupId": 64801, "id": 1, "repeatCount": 1, "skillDescSkillTextId": 20648011, "skillDesignId": 64801, "skillNameSkillTextId": 10648011, "skillUseRate": 1, "spReqCount": 4 },
-  { "attackMoveType": 1, "attackRangeCount": 1, "attackType": 1, "buffId": [ 64901101, 64901102 ], "cooldown": 3, "groupId": 64901, "id": 1, "repeatCount": 2, "skillDescSkillTextId": 20649011, "skillDesignId": 64901, "skillNameSkillTextId": 10649011, "skillUseRate": 1, "spReqCount": 2, "targetType": 1 },
-  { "attackRangeCount": 1, "attackType": 1, "buffId": [ 65001101 ], "cooldown": 3, "groupId": 65001, "id": 1, "repeatCount": 2, "skillDescSkillTextId": 20650011, "skillDesignId": 65001, "skillNameSkillTextId": 10650011, "skillUseRate": 1, "spReqCount": 4 },
-  { "attackRangeCount": 1, "attackType": 1, "buffId": [ 67601001 ], "cooldown": 3, "groupId": 67601, "repeatCount": 12, "skillDescSkillTextId": 20676010, "skillDesignId": 67601, "skillNameSkillTextId": 10676010, "skillUseRate": 1, "spReqCount": 5 }
+  {
+    "attackRange": 9,
+    "attackRangeCount": 1,
+    "attackType": 1,
+    "buffId": [
+      101001,
+      101002
+    ],
+    "cooldown": 5,
+    "groupId": 101,
+    "repeatCount": 2,
+    "skillDescSkillTextId": 20001010,
+    "skillDesignId": 101,
+    "skillNameSkillTextId": 10001010,
+    "skillUseRate": 1,
+    "spReqCount": 3
+  },
+  {
+    "attackRange": 2,
+    "attackRangeCount": 1,
+    "attackType": 1,
+    "buffId": [
+      201001
+    ],
+    "cooldown": 5,
+    "groupId": 201,
+    "repeatCount": 3,
+    "skillDescSkillTextId": 20002010,
+    "skillDesignId": 201,
+    "skillNameSkillTextId": 10002010,
+    "skillUseRate": 1,
+    "spReqCount": 4
+  },
+  {
+    "attackRange": 1,
+    "attackRangeCount": 1,
+    "attackType": 1,
+    "buffId": [
+      202001
+    ],
+    "cooldown": 5,
+    "groupId": 202,
+    "repeatCount": 1,
+    "skillDescSkillTextId": 20002020,
+    "skillDesignId": 202,
+    "skillNameSkillTextId": 10002020,
+    "skillUseRate": 1,
+    "spReqCount": 3
+  },
+  {
+    "attackMoveType": 1,
+    "attackRange": 8,
+    "attackRangeCount": 1,
+    "attackType": 1,
+    "buffId": [
+      901001,
+      901002
+    ],
+    "cooldown": 7,
+    "groupId": 901,
+    "repeatCount": 2,
+    "skillDescSkillTextId": 20009010,
+    "skillDesignId": 901,
+    "skillNameSkillTextId": 10009010,
+    "skillUseRate": 1,
+    "spReqCount": 4,
+    "targetType": 1
+  },
+  {
+    "attackRangeCount": 1,
+    "attackType": 1,
+    "buffId": [
+      1601001,
+      1601002,
+      1601003
+    ],
+    "cooldown": 7,
+    "groupId": 1601,
+    "repeatCount": 2,
+    "skillDescSkillTextId": 20016010,
+    "skillDesignId": 1601,
+    "skillNameSkillTextId": 10016010,
+    "skillUseRate": 1,
+    "spReqCount": 4
+  },
+  {
+    "attackMoveType": 1,
+    "attackRange": 1,
+    "attackRangeCount": 2,
+    "attackType": 1,
+    "buffId": [
+      21301001,
+      21301002
+    ],
+    "cooldown": 1,
+    "groupId": 21301,
+    "repeatCount": 1,
+    "skillDescSkillTextId": 20213010,
+    "skillDesignId": 21301,
+    "skillNameSkillTextId": 10213010,
+    "skillUseRate": 1,
+    "spReqCount": 5
+  },
+  {
+    "attackRange": 4,
+    "attackRangeCount": 1,
+    "attackType": 1,
+    "buffId": [
+      60101001
+    ],
+    "cooldown": 1,
+    "groupId": 60101,
+    "repeatCount": 1,
+    "skillDescSkillTextId": 20601010,
+    "skillDesignId": 60101,
+    "skillNameSkillTextId": 10601010,
+    "skillUseRate": 1,
+    "spReqCount": 5
+  },
+  {
+    "attackRangeCount": 1,
+    "attackType": 1,
+    "buffId": [
+      60601001,
+      60601002
+    ],
+    "cooldown": 5,
+    "groupId": 60601,
+    "repeatCount": 1,
+    "skillDescSkillTextId": 20606010,
+    "skillDesignId": 60601,
+    "skillNameSkillTextId": 10606010,
+    "skillUseRate": 1,
+    "spReqCount": 4
+  },
+  {
+    "attackRange": 8,
+    "attackRangeCount": 1,
+    "attackType": 1,
+    "buffId": [
+      62102001,
+      62102002,
+      62102003
+    ],
+    "cooldown": 7,
+    "groupId": 62102,
+    "repeatCount": 1,
+    "skillDescSkillTextId": 20621020,
+    "skillDesignId": 62102,
+    "skillNameSkillTextId": 10621020,
+    "skillUseRate": 1,
+    "spReqCount": 2
+  },
+  {
+    "attackMoveType": 1,
+    "attackRange": 6,
+    "attackRangeCount": 1,
+    "attackType": 1,
+    "buffId": [
+      62601001,
+      62601002
+    ],
+    "cooldown": 7,
+    "groupId": 62601,
+    "repeatCount": 1,
+    "skillDescSkillTextId": 20626010,
+    "skillDesignId": 62601,
+    "skillNameSkillTextId": 10626010,
+    "skillUseRate": 1,
+    "spReqCount": 3,
+    "targetType": 1
+  },
+  {
+    "attackRangeCount": 1,
+    "attackType": 1,
+    "buffId": [
+      62801101
+    ],
+    "cooldown": 3,
+    "groupId": 62801,
+    "id": 1,
+    "repeatCount": 1,
+    "skillDescSkillTextId": 20628011,
+    "skillDesignId": 62801,
+    "skillNameSkillTextId": 10628011,
+    "skillUseRate": 1,
+    "spReqCount": 2
+  },
+  {
+    "attackRange": 1,
+    "attackRangeCount": 1,
+    "attackType": 1,
+    "buffId": [
+      63001101
+    ],
+    "cooldown": 3,
+    "groupId": 63001,
+    "id": 1,
+    "repeatCount": 3,
+    "skillDescSkillTextId": 20630011,
+    "skillDesignId": 63001,
+    "skillNameSkillTextId": 10630011,
+    "skillUseRate": 1,
+    "spReqCount": 4
+  },
+  {
+    "attackMoveType": 1,
+    "attackRange": 5,
+    "attackRangeCount": 1,
+    "attackType": 1,
+    "buffId": [
+      63301001,
+      63301002
+    ],
+    "cooldown": 7,
+    "groupId": 63301,
+    "repeatCount": 2,
+    "skillDescSkillTextId": 20633010,
+    "skillDesignId": 63301,
+    "skillNameSkillTextId": 10633010,
+    "skillUseRate": 1,
+    "spReqCount": 4
+  },
+  {
+    "attackRangeCount": 1,
+    "attackType": 1,
+    "buffId": [
+      64701101
+    ],
+    "cooldown": 3,
+    "groupId": 64701,
+    "id": 1,
+    "repeatCount": 1,
+    "skillDescSkillTextId": 20647011,
+    "skillDesignId": 64701,
+    "skillNameSkillTextId": 10647011,
+    "skillUseRate": 1,
+    "spReqCount": 3
+  },
+  {
+    "attackMoveType": 1,
+    "attackRange": 1,
+    "attackRangeCount": 1,
+    "attackType": 1,
+    "buffId": [
+      64801101
+    ],
+    "cooldown": 3,
+    "groupId": 64801,
+    "id": 1,
+    "repeatCount": 1,
+    "skillDescSkillTextId": 20648011,
+    "skillDesignId": 64801,
+    "skillNameSkillTextId": 10648011,
+    "skillUseRate": 1,
+    "spReqCount": 4
+  },
+  {
+    "attackMoveType": 1,
+    "attackRangeCount": 1,
+    "attackType": 1,
+    "buffId": [
+      64901101,
+      64901102
+    ],
+    "cooldown": 3,
+    "groupId": 64901,
+    "id": 1,
+    "repeatCount": 2,
+    "skillDescSkillTextId": 20649011,
+    "skillDesignId": 64901,
+    "skillNameSkillTextId": 10649011,
+    "skillUseRate": 1,
+    "spReqCount": 2,
+    "targetType": 1
+  },
+  {
+    "attackRangeCount": 1,
+    "attackType": 1,
+    "buffId": [
+      65001101
+    ],
+    "cooldown": 3,
+    "groupId": 65001,
+    "id": 1,
+    "repeatCount": 2,
+    "skillDescSkillTextId": 20650011,
+    "skillDesignId": 65001,
+    "skillNameSkillTextId": 10650011,
+    "skillUseRate": 1,
+    "spReqCount": 4
+  },
+  {
+    "attackRangeCount": 1,
+    "attackType": 1,
+    "buffId": [
+      67601001
+    ],
+    "cooldown": 3,
+    "groupId": 67601,
+    "repeatCount": 12,
+    "skillDescSkillTextId": 20676010,
+    "skillDesignId": 67601,
+    "skillNameSkillTextId": 10676010,
+    "skillUseRate": 1,
+    "spReqCount": 5
+  },
+  {
+    "attackMoveType": 1,
+    "attackRange": 8,
+    "attackRangeCount": 1,
+    "attackType": 1,
+    "buffId": [
+      901501,
+      901502
+    ],
+    "cooldown": 3,
+    "groupId": 901,
+    "id": 5,
+    "repeatCount": 2,
+    "skillDescSkillTextId": 20009015,
+    "skillDesignId": 901,
+    "skillNameSkillTextId": 10009015,
+    "skillUseRate": 1,
+    "spReqCount": 3,
+    "targetType": 1
+  },
+  {
+    "attackMoveType": 1,
+    "attackRange": 7,
+    "attackRangeCount": 1,
+    "attackType": 1,
+    "buffId": [
+      1301501,
+      1301502
+    ],
+    "cooldown": 3,
+    "groupId": 1301,
+    "id": 5,
+    "repeatCount": 2,
+    "skillDescSkillTextId": 20013015,
+    "skillDesignId": 1301,
+    "skillNameSkillTextId": 10013015,
+    "skillUseRate": 1,
+    "spReqCount": 3,
+    "targetType": 1
+  },
+  {
+    "attackRangeCount": 1,
+    "attackType": 1,
+    "buffId": [
+      1401501,
+      1401502,
+      1401503
+    ],
+    "cooldown": 3,
+    "groupId": 1401,
+    "id": 5,
+    "repeatCount": 1,
+    "skillDescSkillTextId": 20014015,
+    "skillDesignId": 1401,
+    "skillNameSkillTextId": 10014015,
+    "skillUseRate": 1,
+    "spReqCount": 1
+  },
+  {
+    "attackRange": 6,
+    "attackRangeCount": 1,
+    "attackType": 1,
+    "buffId": [
+      1501501,
+      1501502
+    ],
+    "cooldown": 3,
+    "groupId": 1501,
+    "id": 5,
+    "repeatCount": 1,
+    "skillDescSkillTextId": 20015015,
+    "skillDesignId": 1501,
+    "skillNameSkillTextId": 10015015,
+    "skillUseRate": 1,
+    "spReqCount": 2,
+    "targetType": 1
+  },
+  {
+    "attackRangeCount": 1,
+    "attackType": 1,
+    "buffId": [
+      1601501,
+      1601502,
+      1601503
+    ],
+    "cooldown": 3,
+    "groupId": 1601,
+    "id": 5,
+    "repeatCount": 2,
+    "skillDescSkillTextId": 20016015,
+    "skillDesignId": 1601,
+    "skillNameSkillTextId": 10016015,
+    "skillUseRate": 1,
+    "spReqCount": 3
+  },
+  {
+    "attackMoveType": 1,
+    "attackRange": 4,
+    "attackRangeCount": 2,
+    "attackType": 1,
+    "buffId": [
+      2401201
+    ],
+    "cooldown": 9,
+    "groupId": 2401,
+    "id": 2,
+    "repeatCount": 1,
+    "skillDescSkillTextId": 20024012,
+    "skillDesignId": 2401,
+    "skillNameSkillTextId": 10024012,
+    "skillUseRate": 1,
+    "spReqCount": 3,
+    "targetType": 1
+  },
+  {
+    "attackRange": 5,
+    "attackRangeCount": 1,
+    "attackType": 1,
+    "buffId": [
+      3001501,
+      3001502
+    ],
+    "cooldown": 3,
+    "groupId": 3001,
+    "id": 5,
+    "repeatCount": 2,
+    "skillDescSkillTextId": 20030015,
+    "skillDesignId": 3001,
+    "skillNameSkillTextId": 10030015,
+    "skillUseRate": 1,
+    "spReqCount": 5
+  },
+  {
+    "attackMoveType": 1,
+    "attackRange": 6,
+    "attackRangeCount": 1,
+    "attackType": 1,
+    "buffId": [
+      3101501,
+      3101502
+    ],
+    "cooldown": 5,
+    "groupId": 3101,
+    "id": 5,
+    "repeatCount": 1,
+    "skillDescSkillTextId": 20031015,
+    "skillDesignId": 3101,
+    "skillNameSkillTextId": 10031015,
+    "skillUseRate": 1,
+    "spReqCount": 2,
+    "targetType": 1
+  },
+  {
+    "attackMoveType": 1,
+    "attackRange": 1,
+    "attackRangeCount": 2,
+    "attackType": 1,
+    "buffId": [
+      20401401,
+      20401402
+    ],
+    "cooldown": 1,
+    "groupId": 20401,
+    "id": 4,
+    "repeatCount": 5,
+    "skillDescSkillTextId": 20204014,
+    "skillDesignId": 20401,
+    "skillNameSkillTextId": 10204014,
+    "skillUseRate": 1,
+    "spReqCount": 4
+  },
+  {
+    "attackRangeCount": 1,
+    "attackType": 1,
+    "buffId": [
+      20501501
+    ],
+    "cooldown": 1,
+    "groupId": 20501,
+    "id": 5,
+    "repeatCount": 12,
+    "skillDescSkillTextId": 20205015,
+    "skillDesignId": 20501,
+    "skillNameSkillTextId": 10205015,
+    "skillUseRate": 1,
+    "spReqCount": 4
+  },
+  {
+    "attackRange": 4,
+    "attackRangeCount": 1,
+    "attackType": 1,
+    "buffId": [
+      60101501
+    ],
+    "cooldown": 1,
+    "groupId": 60101,
+    "id": 5,
+    "repeatCount": 1,
+    "skillDescSkillTextId": 20601015,
+    "skillDesignId": 60101,
+    "skillNameSkillTextId": 10601015,
+    "skillUseRate": 1,
+    "spReqCount": 3
+  },
+  {
+    "attackRange": 4,
+    "attackRangeCount": 1,
+    "attackType": 1,
+    "buffId": [
+      60102501,
+      60102502
+    ],
+    "cooldown": 3,
+    "groupId": 60102,
+    "id": 5,
+    "repeatCount": 3,
+    "skillDescSkillTextId": 20601025,
+    "skillDesignId": 60102,
+    "skillNameSkillTextId": 10601025,
+    "skillUseRate": 1,
+    "spReqCount": 5
+  },
+  {
+    "attackMoveType": 1,
+    "attackRange": 4,
+    "attackRangeCount": 1,
+    "attackType": 1,
+    "buffId": [
+      60201501,
+      60201502,
+      60201503
+    ],
+    "cooldown": 3,
+    "groupId": 60201,
+    "id": 5,
+    "repeatCount": 2,
+    "skillDescSkillTextId": 20602015,
+    "skillDesignId": 60201,
+    "skillNameSkillTextId": 10602015,
+    "skillUseRate": 1,
+    "spReqCount": 2
+  },
+  {
+    "attackRange": 6,
+    "attackRangeCount": 1,
+    "attackType": 1,
+    "buffId": [
+      61902501,
+      61902502,
+      61902503
+    ],
+    "cooldown": 1,
+    "groupId": 61902,
+    "id": 5,
+    "repeatCount": 1,
+    "skillDescSkillTextId": 20619025,
+    "skillDesignId": 61902,
+    "skillNameSkillTextId": 10619025,
+    "skillUseRate": 1,
+    "spReqCount": 1
+  },
+  {
+    "attackRange": 13,
+    "attackRangeCount": 1,
+    "attackType": 1,
+    "buffId": [
+      61901501,
+      61901502
+    ],
+    "cooldown": 3,
+    "groupId": 61901,
+    "id": 5,
+    "repeatCount": 2,
+    "skillDescSkillTextId": 20619015,
+    "skillDesignId": 61901,
+    "skillNameSkillTextId": 10619015,
+    "skillUseRate": 1,
+    "spReqCount": 4
+  },
+  {
+    "attackRangeCount": 1,
+    "attackType": 1,
+    "buffId": [
+      62002501,
+      62002502
+    ],
+    "cooldown": 3,
+    "groupId": 62002,
+    "id": 5,
+    "repeatCount": 1,
+    "skillDescSkillTextId": 20620025,
+    "skillDesignId": 62002,
+    "skillNameSkillTextId": 10620025,
+    "skillUseRate": 1,
+    "spReqCount": 4
+  },
+  {
+    "attackMoveType": 1,
+    "attackRangeCount": 1,
+    "attackType": 1,
+    "buffId": [
+      62001501,
+      62001502,
+      62001503
+    ],
+    "cooldown": 3,
+    "groupId": 62001,
+    "id": 5,
+    "repeatCount": 2,
+    "skillDescSkillTextId": 20620015,
+    "skillDesignId": 62001,
+    "skillNameSkillTextId": 10620015,
+    "skillUseRate": 1,
+    "spReqCount": 4
+  },
+  {
+    "attackRange": 5,
+    "attackRangeCount": 1,
+    "attackType": 1,
+    "buffId": [
+      62101501,
+      62101502
+    ],
+    "cooldown": 3,
+    "groupId": 62101,
+    "id": 5,
+    "repeatCount": 2,
+    "skillDescSkillTextId": 20621015,
+    "skillDesignId": 62101,
+    "skillNameSkillTextId": 10621015,
+    "skillUseRate": 1,
+    "spReqCount": 4
+  },
+  {
+    "attackRange": 8,
+    "attackRangeCount": 1,
+    "attackType": 1,
+    "buffId": [
+      62102501,
+      62102502,
+      62102503
+    ],
+    "cooldown": 3,
+    "groupId": 62102,
+    "id": 5,
+    "repeatCount": 1,
+    "skillDescSkillTextId": 20621025,
+    "skillDesignId": 62102,
+    "skillNameSkillTextId": 10621025,
+    "skillUseRate": 1,
+    "spReqCount": 1
+  },
+  {
+    "attackMoveType": 1,
+    "attackRange": 1,
+    "attackRangeCount": 2,
+    "attackType": 1,
+    "buffId": [
+      62501501
+    ],
+    "cooldown": 3,
+    "groupId": 62501,
+    "id": 5,
+    "repeatCount": 2,
+    "skillDescSkillTextId": 20625015,
+    "skillDesignId": 62501,
+    "skillNameSkillTextId": 10625015,
+    "skillUseRate": 1,
+    "spReqCount": 4
+  },
+  {
+    "attackMoveType": 1,
+    "attackRange": 6,
+    "attackRangeCount": 1,
+    "attackType": 1,
+    "buffId": [
+      62601501,
+      62601502
+    ],
+    "cooldown": 3,
+    "groupId": 62601,
+    "id": 5,
+    "repeatCount": 1,
+    "skillDescSkillTextId": 20626015,
+    "skillDesignId": 62601,
+    "skillNameSkillTextId": 10626015,
+    "skillUseRate": 1,
+    "spReqCount": 2,
+    "targetType": 1
+  },
+  {
+    "attackMoveType": 1,
+    "attackRangeCount": 1,
+    "attackType": 1,
+    "buffId": [
+      62701501,
+      62701502
+    ],
+    "cooldown": 3,
+    "groupId": 62701,
+    "id": 5,
+    "repeatCount": 1,
+    "skillDescSkillTextId": 20627015,
+    "skillDesignId": 62701,
+    "skillNameSkillTextId": 10627015,
+    "skillUseRate": 1,
+    "spReqCount": 2,
+    "targetType": 1
+  },
+  {
+    "attackMoveType": 1,
+    "attackRange": 4,
+    "attackRangeCount": 1,
+    "attackType": 1,
+    "buffId": [
+      62702501
+    ],
+    "cooldown": 3,
+    "groupId": 62702,
+    "id": 5,
+    "repeatCount": 3,
+    "skillDescSkillTextId": 20627025,
+    "skillDesignId": 62702,
+    "skillNameSkillTextId": 10627025,
+    "skillUseRate": 1,
+    "spReqCount": 5,
+    "targetType": 1
+  },
+  {
+    "attackRangeCount": 1,
+    "attackType": 1,
+    "buffId": [
+      62801501
+    ],
+    "cooldown": 3,
+    "groupId": 62801,
+    "id": 5,
+    "repeatCount": 1,
+    "skillDescSkillTextId": 20628015,
+    "skillDesignId": 62801,
+    "skillNameSkillTextId": 10628015,
+    "skillUseRate": 1,
+    "spReqCount": 1
+  },
+  {
+    "attackRangeCount": 1,
+    "attackType": 1,
+    "buffId": [
+      62802501,
+      62802502,
+      62802503
+    ],
+    "cooldown": 3,
+    "groupId": 62802,
+    "id": 5,
+    "repeatCount": 1,
+    "skillDescSkillTextId": 20628025,
+    "skillDesignId": 62802,
+    "skillNameSkillTextId": 10628025,
+    "skillUseRate": 1,
+    "spReqCount": 2
+  },
+  {
+    "attackRange": 1,
+    "attackRangeCount": 1,
+    "attackType": 1,
+    "buffId": [
+      63001501
+    ],
+    "cooldown": 3,
+    "groupId": 63001,
+    "id": 5,
+    "repeatCount": 3,
+    "skillDescSkillTextId": 20630015,
+    "skillDesignId": 63001,
+    "skillNameSkillTextId": 10630015,
+    "skillUseRate": 1,
+    "spReqCount": 3
+  },
+  {
+    "attackMoveType": 1,
+    "attackRange": 5,
+    "attackRangeCount": 1,
+    "attackType": 1,
+    "buffId": [
+      63301501,
+      63301502
+    ],
+    "cooldown": 3,
+    "groupId": 63301,
+    "id": 5,
+    "repeatCount": 2,
+    "skillDescSkillTextId": 20633015,
+    "skillDesignId": 63301,
+    "skillNameSkillTextId": 10633015,
+    "skillUseRate": 1,
+    "spReqCount": 3
+  },
+  {
+    "attackMoveType": 1,
+    "attackRange": 6,
+    "attackRangeCount": 1,
+    "attackType": 1,
+    "buffId": [
+      63401501
+    ],
+    "cooldown": 3,
+    "groupId": 63401,
+    "id": 5,
+    "repeatCount": 1,
+    "skillDescSkillTextId": 20634015,
+    "skillDesignId": 63401,
+    "skillNameSkillTextId": 10634015,
+    "skillUseRate": 1,
+    "spReqCount": 2
+  },
+  {
+    "attackRangeCount": 1,
+    "attackType": 1,
+    "buffId": [
+      64701501
+    ],
+    "cooldown": 3,
+    "groupId": 64701,
+    "id": 5,
+    "repeatCount": 1,
+    "skillDescSkillTextId": 20647015,
+    "skillDesignId": 64701,
+    "skillNameSkillTextId": 10647015,
+    "skillUseRate": 1,
+    "spReqCount": 2
+  },
+  {
+    "attackMoveType": 1,
+    "attackRange": 1,
+    "attackRangeCount": 1,
+    "attackType": 1,
+    "buffId": [
+      64801501
+    ],
+    "cooldown": 3,
+    "groupId": 64801,
+    "id": 5,
+    "repeatCount": 1,
+    "skillDescSkillTextId": 20648015,
+    "skillDesignId": 64801,
+    "skillNameSkillTextId": 10648015,
+    "skillUseRate": 1,
+    "spReqCount": 3
+  },
+  {
+    "attackMoveType": 1,
+    "attackRangeCount": 1,
+    "attackType": 1,
+    "buffId": [
+      64901501,
+      64901502
+    ],
+    "cooldown": 3,
+    "groupId": 64901,
+    "id": 5,
+    "repeatCount": 2,
+    "skillDescSkillTextId": 20649015,
+    "skillDesignId": 64901,
+    "skillNameSkillTextId": 10649015,
+    "skillUseRate": 1,
+    "spReqCount": 1,
+    "targetType": 1
+  },
+  {
+    "attackRangeCount": 1,
+    "attackType": 1,
+    "buffId": [
+      65001501
+    ],
+    "cooldown": 3,
+    "groupId": 65001,
+    "id": 5,
+    "repeatCount": 2,
+    "skillDescSkillTextId": 20650015,
+    "skillDesignId": 65001,
+    "skillNameSkillTextId": 10650015,
+    "skillUseRate": 1,
+    "spReqCount": 3
+  }
 ]

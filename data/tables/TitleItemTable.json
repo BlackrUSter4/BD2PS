@@ -1740,5 +1740,13 @@
     "titleMissionTextId": 346054,
     "titleNameTextId": "346007",
     "titleSortNumber": 4404
+  },
+  {
+    "grade": 1,
+    "id": 518,
+    "titleItemName": "item_title_event_18",
+    "titleMissionTextId": 346180,
+    "titleNameTextId": "346173",
+    "titleSortNumber": 6925
   }
 ]

@@ -1,0 +1,1732 @@
+[
+  {
+    "id": 1,
+    "isoCode": "AE",
+    "moneyName": "AED",
+    "textCn": "阿拉伯聯合大公國",
+    "textEn": "United Arab Emirates",
+    "textJp": "アラブ首長国連邦",
+    "textKr": "아랍에미리트",
+    "textTw": "阿拉伯联合酋长国"
+  },
+  {
+    "id": 2,
+    "isoCode": "AG",
+    "moneyName": "USD",
+    "textCn": "安地卡及巴布達",
+    "textEn": "Antigua & Barbuda",
+    "textJp": "アンティグア・バーブーダ",
+    "textKr": "앤티가 바부다",
+    "textTw": "安提瓜和巴布达"
+  },
+  {
+    "id": 3,
+    "isoCode": "AL",
+    "moneyName": "USD",
+    "textCn": "阿爾巴尼亞",
+    "textEn": "Albania",
+    "textJp": "アルバニア",
+    "textKr": "알바니아",
+    "textTw": "阿尔巴尼亚"
+  },
+  {
+    "id": 4,
+    "isoCode": "AM",
+    "moneyName": "USD",
+    "textCn": "亞美尼亞",
+    "textEn": "Armenia",
+    "textJp": "アルメニア",
+    "textKr": "아르메니아",
+    "textTw": "亚美尼亚"
+  },
+  {
+    "id": 5,
+    "isoCode": "AO",
+    "moneyName": "USD",
+    "textCn": "安哥拉",
+    "textEn": "Angola",
+    "textJp": "アンゴラ",
+    "textKr": "앙골라",
+    "textTw": "安哥拉"
+  },
+  {
+    "id": 6,
+    "isoCode": "AR",
+    "moneyName": "USD",
+    "textCn": "阿根廷",
+    "textEn": "Argentina",
+    "textJp": "アルゼンチン",
+    "textKr": "아르헨티나",
+    "textTw": "阿根廷"
+  },
+  {
+    "id": 7,
+    "isoCode": "AT",
+    "moneyName": "EUR",
+    "textCn": "奧地利",
+    "textEn": "Austria",
+    "textJp": "オーストリア",
+    "textKr": "오스트리아",
+    "textTw": "奥地利"
+  },
+  {
+    "id": 8,
+    "isoCode": "AU",
+    "moneyName": "AUD",
+    "textCn": "澳洲",
+    "textEn": "Australia",
+    "textJp": "オーストラリア",
+    "textKr": "호주",
+    "textTw": "澳大利亚"
+  },
+  {
+    "id": 9,
+    "isoCode": "AW",
+    "moneyName": "USD",
+    "textCn": "荷屬阿魯巴",
+    "textEn": "Aruba",
+    "textJp": "アルバ",
+    "textKr": "아루바",
+    "textTw": "阿鲁巴"
+  },
+  {
+    "id": 10,
+    "isoCode": "AZ",
+    "moneyName": "USD",
+    "textCn": "亞塞拜然",
+    "textEn": "Azerbaijan",
+    "textJp": "アゼルバイジャン",
+    "textKr": "아제르바이잔",
+    "textTw": "阿塞拜疆"
+  },
+  {
+    "id": 11,
+    "isoCode": "BA",
+    "moneyName": "USD",
+    "textCn": "波士尼亞與赫塞哥維納",
+    "textEn": "Bosnia & Herzegovina",
+    "textJp": "ボスニア・ヘルツェゴビナ",
+    "textKr": "보스니아 헤르체고비나",
+    "textTw": "波斯尼亚和黑塞哥维那"
+  },
+  {
+    "id": 12,
+    "isoCode": "BD",
+    "moneyName": "BDT",
+    "textCn": "孟加拉",
+    "textEn": "Bangladesh",
+    "textJp": "バングラデシュ",
+    "textKr": "방글라데시",
+    "textTw": "孟加拉国"
+  },
+  {
+    "id": 13,
+    "isoCode": "BE",
+    "moneyName": "EUR",
+    "textCn": "比利時",
+    "textEn": "Belgium",
+    "textJp": "ベルギー",
+    "textKr": "벨기에",
+    "textTw": "比利时"
+  },
+  {
+    "id": 14,
+    "isoCode": "BF",
+    "moneyName": "EUR",
+    "textCn": "布吉納法索",
+    "textEn": "Burkina Faso",
+    "textJp": "ブルキナファソ",
+    "textKr": "부르키나파소",
+    "textTw": "布基纳法索"
+  },
+  {
+    "id": 15,
+    "isoCode": "BG",
+    "moneyName": "EUR",
+    "textCn": "保加利亞",
+    "textEn": "Bulgaria",
+    "textJp": "ブルガリア",
+    "textKr": "불가리아",
+    "textTw": "保加利亚"
+  },
+  {
+    "id": 16,
+    "isoCode": "BH",
+    "moneyName": "USD",
+    "textCn": "巴林",
+    "textEn": "Bahrain",
+    "textJp": "バーレーン",
+    "textKr": "바레인",
+    "textTw": "巴林"
+  },
+  {
+    "id": 17,
+    "isoCode": "BJ",
+    "moneyName": "EUR",
+    "textCn": "貝南",
+    "textEn": "Benin",
+    "textJp": "ベナン",
+    "textKr": "베냉",
+    "textTw": "贝宁"
+  },
+  {
+    "id": 18,
+    "isoCode": "BM",
+    "moneyName": "USD",
+    "textCn": "百慕達",
+    "textEn": "Bermuda",
+    "textJp": "バミューダ",
+    "textKr": "버뮤다",
+    "textTw": "百慕大"
+  },
+  {
+    "id": 19,
+    "isoCode": "BO",
+    "moneyName": "BOB",
+    "textCn": "玻利維亞",
+    "textEn": "Bolivia",
+    "textJp": "ボリビア",
+    "textKr": "볼리비아",
+    "textTw": "玻利维亚"
+  },
+  {
+    "id": 20,
+    "isoCode": "BR",
+    "moneyName": "BRL",
+    "textCn": "巴西",
+    "textEn": "Brazil",
+    "textJp": "ブラジル",
+    "textKr": "브라질",
+    "textTw": "巴西"
+  },
+  {
+    "id": 21,
+    "isoCode": "BS",
+    "moneyName": "USD",
+    "textCn": "巴哈馬",
+    "textEn": "Bahamas",
+    "textJp": "バハマ",
+    "textKr": "바하마",
+    "textTw": "巴哈马"
+  },
+  {
+    "id": 22,
+    "isoCode": "BW",
+    "moneyName": "USD",
+    "textCn": "波札那",
+    "textEn": "Botswana",
+    "textJp": "ボツワナ",
+    "textKr": "보츠와나",
+    "textTw": "博茨瓦纳"
+  },
+  {
+    "id": 23,
+    "isoCode": "BY",
+    "moneyName": "USD",
+    "textCn": "白俄羅斯",
+    "textEn": "Belarus",
+    "textJp": "ベラルーシ",
+    "textKr": "벨라루스",
+    "textTw": "白俄罗斯"
+  },
+  {
+    "id": 24,
+    "isoCode": "BZ",
+    "moneyName": "USD",
+    "textCn": "貝里斯",
+    "textEn": "Belize",
+    "textJp": "ベリーズ",
+    "textKr": "벨리즈",
+    "textTw": "伯利兹"
+  },
+  {
+    "id": 25,
+    "isoCode": "CA",
+    "moneyName": "CAD",
+    "textCn": "加拿大",
+    "textEn": "Canada",
+    "textJp": "カナダ",
+    "textKr": "캐나다",
+    "textTw": "加拿大"
+  },
+  {
+    "id": 26,
+    "isoCode": "CD",
+    "moneyName": "USD",
+    "textCn": "剛果（金夏沙）",
+    "textEn": "Congo - Kinshasa",
+    "textJp": "コンゴ民主共和国(キンシャサ)",
+    "textKr": "콩고-킨샤사",
+    "textTw": "刚果（金）"
+  },
+  {
+    "id": 27,
+    "isoCode": "CF",
+    "moneyName": "EUR",
+    "textCn": "中非共和國",
+    "textEn": "Central African Republic",
+    "textJp": "中央アフリカ共和国",
+    "textKr": "중앙 아프리카 공화국",
+    "textTw": "中非共和国"
+  },
+  {
+    "id": 28,
+    "isoCode": "CG",
+    "moneyName": "USD",
+    "textCn": "剛果（布拉薩）",
+    "textEn": "Congo - Brazzaville",
+    "textJp": "コンゴ共和国(ブラザビル)",
+    "textKr": "콩고-브라자빌",
+    "textTw": "刚果（布）"
+  },
+  {
+    "id": 29,
+    "isoCode": "CH",
+    "moneyName": "CHF",
+    "textCn": "瑞士",
+    "textEn": "Switzerland",
+    "textJp": "スイス",
+    "textKr": "스위스",
+    "textTw": "瑞士"
+  },
+  {
+    "id": 30,
+    "isoCode": "CI",
+    "moneyName": "XOF",
+    "textCn": "象牙海岸",
+    "textEn": "Côte d’Ivoire",
+    "textJp": "コートジボワール",
+    "textKr": "코트디부아르",
+    "textTw": "科特迪瓦"
+  },
+  {
+    "id": 31,
+    "isoCode": "CL",
+    "moneyName": "CLP",
+    "textCn": "智利",
+    "textEn": "Chile",
+    "textJp": "チリ",
+    "textKr": "칠레",
+    "textTw": "智利"
+  },
+  {
+    "id": 32,
+    "isoCode": "CM",
+    "moneyName": "XAF",
+    "textCn": "喀麥隆",
+    "textEn": "Cameroon",
+    "textJp": "カメルーン",
+    "textKr": "카메룬",
+    "textTw": "喀麦隆"
+  },
+  {
+    "id": 33,
+    "isoCode": "CO",
+    "moneyName": "COP",
+    "textCn": "哥倫比亞",
+    "textEn": "Colombia",
+    "textJp": "コロンビア",
+    "textKr": "콜롬비아",
+    "textTw": "哥伦比亚"
+  },
+  {
+    "id": 34,
+    "isoCode": "CR",
+    "moneyName": "CRC",
+    "textCn": "哥斯大黎加",
+    "textEn": "Costa Rica",
+    "textJp": "コスタリカ",
+    "textKr": "코스타리카",
+    "textTw": "哥斯达黎加"
+  },
+  {
+    "id": 35,
+    "isoCode": "CV",
+    "moneyName": "USD",
+    "textCn": "維德角",
+    "textEn": "Cape Verde",
+    "textJp": "カーボベルデ",
+    "textKr": "카보베르데",
+    "textTw": "佛得角"
+  },
+  {
+    "id": 36,
+    "isoCode": "CY",
+    "moneyName": "EUR",
+    "textCn": "賽普勒斯",
+    "textEn": "Cyprus",
+    "textJp": "キプロス",
+    "textKr": "키프로스",
+    "textTw": "塞浦路斯"
+  },
+  {
+    "id": 37,
+    "isoCode": "CZ",
+    "moneyName": "CZK",
+    "textCn": "捷克",
+    "textEn": "Czechia",
+    "textJp": "チェコ",
+    "textKr": "체코",
+    "textTw": "捷克"
+  },
+  {
+    "id": 38,
+    "isoCode": "DE",
+    "moneyName": "EUR",
+    "textCn": "德國",
+    "textEn": "Germany",
+    "textJp": "ドイツ",
+    "textKr": "독일",
+    "textTw": "德国"
+  },
+  {
+    "id": 39,
+    "isoCode": "DJ",
+    "moneyName": "USD",
+    "textCn": "吉布地",
+    "textEn": "Djibouti",
+    "textJp": "ジブチ",
+    "textKr": "지부티",
+    "textTw": "吉布提"
+  },
+  {
+    "id": 40,
+    "isoCode": "DK",
+    "moneyName": "DKK",
+    "textCn": "丹麥",
+    "textEn": "Denmark",
+    "textJp": "デンマーク",
+    "textKr": "덴마크",
+    "textTw": "丹麦"
+  },
+  {
+    "id": 41,
+    "isoCode": "DM",
+    "moneyName": "USD",
+    "textCn": "多米尼克",
+    "textEn": "Dominica",
+    "textJp": "ドミニカ国",
+    "textKr": "도미니카",
+    "textTw": "多米尼克"
+  },
+  {
+    "id": 42,
+    "isoCode": "DO",
+    "moneyName": "USD",
+    "textCn": "多明尼加共和國",
+    "textEn": "Dominican Republic",
+    "textJp": "ドミニカ共和国",
+    "textKr": "도미니카 공화국",
+    "textTw": "多米尼加共和国"
+  },
+  {
+    "id": 43,
+    "isoCode": "DZ",
+    "moneyName": "DZD",
+    "textCn": "阿爾及利亞",
+    "textEn": "Algeria",
+    "textJp": "アルジェリア",
+    "textKr": "알제리",
+    "textTw": "阿尔及利亚"
+  },
+  {
+    "id": 44,
+    "isoCode": "EC",
+    "moneyName": "USD",
+    "textCn": "厄瓜多",
+    "textEn": "Ecuador",
+    "textJp": "エクアドル",
+    "textKr": "에콰도르",
+    "textTw": "厄瓜多尔"
+  },
+  {
+    "id": 45,
+    "isoCode": "EE",
+    "moneyName": "EUR",
+    "textCn": "愛沙尼亞",
+    "textEn": "Estonia",
+    "textJp": "エストニア",
+    "textKr": "에스토니아",
+    "textTw": "爱沙尼亚"
+  },
+  {
+    "id": 46,
+    "isoCode": "EG",
+    "moneyName": "EGP",
+    "textCn": "埃及",
+    "textEn": "Egypt",
+    "textJp": "エジプト",
+    "textKr": "이집트",
+    "textTw": "埃及"
+  },
+  {
+    "id": 47,
+    "isoCode": "ER",
+    "moneyName": "USD",
+    "textCn": "厄利垂亞",
+    "textEn": "Eritrea",
+    "textJp": "エリトリア",
+    "textKr": "에리트리아",
+    "textTw": "厄立特里亚"
+  },
+  {
+    "id": 48,
+    "isoCode": "ES",
+    "moneyName": "EUR",
+    "textCn": "西班牙",
+    "textEn": "Spain",
+    "textJp": "スペイン",
+    "textKr": "스페인",
+    "textTw": "西班牙"
+  },
+  {
+    "id": 49,
+    "isoCode": "FI",
+    "moneyName": "EUR",
+    "textCn": "芬蘭",
+    "textEn": "Finland",
+    "textJp": "フィンランド",
+    "textKr": "핀란드",
+    "textTw": "芬兰"
+  },
+  {
+    "id": 50,
+    "isoCode": "FJ",
+    "moneyName": "USD",
+    "textCn": "斐濟",
+    "textEn": "Fiji",
+    "textJp": "フィジー",
+    "textKr": "피지",
+    "textTw": "斐济"
+  },
+  {
+    "id": 51,
+    "isoCode": "FM",
+    "moneyName": "USD",
+    "textCn": "密克羅尼西亞",
+    "textEn": "Micronesia",
+    "textJp": "ミクロネシア連邦",
+    "textKr": "미크로네시아",
+    "textTw": "密克罗尼西亚"
+  },
+  {
+    "id": 52,
+    "isoCode": "FR",
+    "moneyName": "EUR",
+    "textCn": "法國",
+    "textEn": "France",
+    "textJp": "フランス",
+    "textKr": "프랑스",
+    "textTw": "法国"
+  },
+  {
+    "id": 53,
+    "isoCode": "GA",
+    "moneyName": "EUR",
+    "textCn": "加彭",
+    "textEn": "Gabon",
+    "textJp": "ガボン",
+    "textKr": "가봉",
+    "textTw": "加蓬"
+  },
+  {
+    "id": 54,
+    "isoCode": "GB",
+    "moneyName": "GBP",
+    "textCn": "英國",
+    "textEn": "United Kingdom",
+    "textJp": "イギリス",
+    "textKr": "영국",
+    "textTw": "英国"
+  },
+  {
+    "id": 55,
+    "isoCode": "GD",
+    "moneyName": "USD",
+    "textCn": "格瑞那達",
+    "textEn": "Grenada",
+    "textJp": "グレナダ",
+    "textKr": "그레나다",
+    "textTw": "格林纳达"
+  },
+  {
+    "id": 56,
+    "isoCode": "GE",
+    "moneyName": "GEL",
+    "textCn": "喬治亞",
+    "textEn": "Georgia",
+    "textJp": "ジョージア",
+    "textKr": "조지아",
+    "textTw": "格鲁吉亚"
+  },
+  {
+    "id": 57,
+    "isoCode": "GH",
+    "moneyName": "GHS",
+    "textCn": "迦納",
+    "textEn": "Ghana",
+    "textJp": "ガーナ",
+    "textKr": "가나",
+    "textTw": "加纳"
+  },
+  {
+    "id": 58,
+    "isoCode": "GI",
+    "moneyName": "GBP",
+    "textCn": "直布羅陀",
+    "textEn": "Gibraltar",
+    "textJp": "ジブラルタル",
+    "textKr": "지브롤터",
+    "textTw": "直布罗陀"
+  },
+  {
+    "id": 59,
+    "isoCode": "GM",
+    "moneyName": "USD",
+    "textCn": "甘比亞",
+    "textEn": "Gambia",
+    "textJp": "ガンビア",
+    "textKr": "감비아",
+    "textTw": "冈比亚"
+  },
+  {
+    "id": 60,
+    "isoCode": "GN",
+    "moneyName": "USD",
+    "textCn": "幾內亞",
+    "textEn": "Guinea",
+    "textJp": "ギニア",
+    "textKr": "기니",
+    "textTw": "几内亚"
+  },
+  {
+    "id": 61,
+    "isoCode": "GR",
+    "moneyName": "EUR",
+    "textCn": "希臘",
+    "textEn": "Greece",
+    "textJp": "ギリシャ",
+    "textKr": "그리스",
+    "textTw": "希腊"
+  },
+  {
+    "id": 62,
+    "isoCode": "GT",
+    "moneyName": "USD",
+    "textCn": "瓜地馬拉",
+    "textEn": "Guatemala",
+    "textJp": "グアテマラ",
+    "textKr": "과테말라",
+    "textTw": "危地马拉"
+  },
+  {
+    "id": 63,
+    "isoCode": "GW",
+    "moneyName": "EUR",
+    "textCn": "幾內亞比索",
+    "textEn": "Guinea-Bissau",
+    "textJp": "ギニアビサウ",
+    "textKr": "기니비사우",
+    "textTw": "几内亚比绍"
+  },
+  {
+    "id": 64,
+    "isoCode": "HK",
+    "moneyName": "HKD",
+    "textCn": "中國香港特別行政區",
+    "textEn": "Hong Kong SAR China",
+    "textJp": "中華人民共和国香港特別行政区",
+    "textKr": "홍콩",
+    "textTw": "中国香港特别行政区"
+  },
+  {
+    "id": 65,
+    "isoCode": "HN",
+    "moneyName": "USD",
+    "textCn": "宏都拉斯",
+    "textEn": "Honduras",
+    "textJp": "ホンジュラス",
+    "textKr": "온두라스",
+    "textTw": "洪都拉斯"
+  },
+  {
+    "id": 66,
+    "isoCode": "HR",
+    "moneyName": "EUR",
+    "textCn": "克羅埃西亞",
+    "textEn": "Croatia",
+    "textJp": "クロアチア",
+    "textKr": "크로아티아",
+    "textTw": "克罗地亚"
+  },
+  {
+    "id": 67,
+    "isoCode": "HT",
+    "moneyName": "USD",
+    "textCn": "海地",
+    "textEn": "Haiti",
+    "textJp": "ハイチ",
+    "textKr": "아이티",
+    "textTw": "海地"
+  },
+  {
+    "id": 68,
+    "isoCode": "HU",
+    "moneyName": "HUF",
+    "textCn": "匈牙利",
+    "textEn": "Hungary",
+    "textJp": "ハンガリー",
+    "textKr": "헝가리",
+    "textTw": "匈牙利"
+  },
+  {
+    "id": 69,
+    "isoCode": "ID",
+    "moneyName": "IDR",
+    "textCn": "印尼",
+    "textEn": "Indonesia",
+    "textJp": "インドネシア",
+    "textKr": "인도네시아",
+    "textTw": "印度尼西亚"
+  },
+  {
+    "id": 70,
+    "isoCode": "IE",
+    "moneyName": "EUR",
+    "textCn": "愛爾蘭",
+    "textEn": "Ireland",
+    "textJp": "アイルランド",
+    "textKr": "아일랜드",
+    "textTw": "爱尔兰"
+  },
+  {
+    "id": 71,
+    "isoCode": "IL",
+    "moneyName": "ILS",
+    "textCn": "以色列",
+    "textEn": "Israel",
+    "textJp": "イスラエル",
+    "textKr": "이스라엘",
+    "textTw": "以色列"
+  },
+  {
+    "id": 72,
+    "isoCode": "IN",
+    "moneyName": "INR",
+    "textCn": "印度",
+    "textEn": "India",
+    "textJp": "インド",
+    "textKr": "인도",
+    "textTw": "印度"
+  },
+  {
+    "id": 73,
+    "isoCode": "IQ",
+    "moneyName": "IQD",
+    "textCn": "伊拉克",
+    "textEn": "Iraq",
+    "textJp": "イラク",
+    "textKr": "이라크",
+    "textTw": "伊拉克"
+  },
+  {
+    "id": 74,
+    "isoCode": "IS",
+    "moneyName": "EUR",
+    "textCn": "冰島",
+    "textEn": "Iceland",
+    "textJp": "アイスランド",
+    "textKr": "아이슬란드",
+    "textTw": "冰岛"
+  },
+  {
+    "id": 75,
+    "isoCode": "IT",
+    "moneyName": "EUR",
+    "textCn": "義大利",
+    "textEn": "Italy",
+    "textJp": "イタリア",
+    "textKr": "이탈리아",
+    "textTw": "意大利"
+  },
+  {
+    "id": 76,
+    "isoCode": "JM",
+    "moneyName": "USD",
+    "textCn": "牙買加",
+    "textEn": "Jamaica",
+    "textJp": "ジャマイカ",
+    "textKr": "자메이카",
+    "textTw": "牙买加"
+  },
+  {
+    "id": 77,
+    "isoCode": "JO",
+    "moneyName": "JOD",
+    "textCn": "約旦",
+    "textEn": "Jordan",
+    "textJp": "ヨルダン",
+    "textKr": "요르단",
+    "textTw": "约旦"
+  },
+  {
+    "id": 78,
+    "isoCode": "JP",
+    "moneyName": "JPY",
+    "textCn": "日本",
+    "textEn": "Japan",
+    "textJp": "日本",
+    "textKr": "일본",
+    "textTw": "日本"
+  },
+  {
+    "id": 79,
+    "isoCode": "KE",
+    "moneyName": "KES",
+    "textCn": "肯亞",
+    "textEn": "Kenya",
+    "textJp": "ケニア",
+    "textKr": "케냐",
+    "textTw": "肯尼亚"
+  },
+  {
+    "id": 80,
+    "isoCode": "KG",
+    "moneyName": "USD",
+    "textCn": "吉爾吉斯",
+    "textEn": "Kyrgyzstan",
+    "textJp": "キルギス",
+    "textKr": "키르기스스탄",
+    "textTw": "吉尔吉斯斯坦"
+  },
+  {
+    "id": 81,
+    "isoCode": "KH",
+    "moneyName": "USD",
+    "textCn": "柬埔寨",
+    "textEn": "Cambodia",
+    "textJp": "カンボジア",
+    "textKr": "캄보디아",
+    "textTw": "柬埔寨"
+  },
+  {
+    "id": 82,
+    "isoCode": "KM",
+    "moneyName": "USD",
+    "textCn": "葛摩",
+    "textEn": "Comoros",
+    "textJp": "コモロ",
+    "textKr": "코모로",
+    "textTw": "科摩罗"
+  },
+  {
+    "id": 83,
+    "isoCode": "KN",
+    "moneyName": "USD",
+    "textCn": "聖克里斯多福及尼維斯",
+    "textEn": "St. Kitts & Nevis",
+    "textJp": "セントクリストファー・ネーヴィス",
+    "textKr": "세인트키츠 네비스",
+    "textTw": "圣基茨和尼维斯"
+  },
+  {
+    "id": 84,
+    "isoCode": "KR",
+    "moneyName": "KRW",
+    "textCn": "南韓",
+    "textEn": "South Korea",
+    "textJp": "韓国",
+    "textKr": "대한민국",
+    "textTw": "韩国"
+  },
+  {
+    "id": 85,
+    "isoCode": "KW",
+    "moneyName": "USD",
+    "textCn": "科威特",
+    "textEn": "Kuwait",
+    "textJp": "クウェート",
+    "textKr": "쿠웨이트",
+    "textTw": "科威特"
+  },
+  {
+    "id": 86,
+    "isoCode": "KY",
+    "moneyName": "USD",
+    "textCn": "開曼群島",
+    "textEn": "Cayman Islands",
+    "textJp": "ケイマン諸島",
+    "textKr": "케이맨 제도",
+    "textTw": "开曼群岛"
+  },
+  {
+    "id": 87,
+    "isoCode": "KZ",
+    "moneyName": "KZT",
+    "textCn": "哈薩克",
+    "textEn": "Kazakhstan",
+    "textJp": "カザフスタン",
+    "textKr": "카자흐스탄",
+    "textTw": "哈萨克斯坦"
+  },
+  {
+    "id": 88,
+    "isoCode": "LA",
+    "moneyName": "USD",
+    "textCn": "寮國",
+    "textEn": "Laos",
+    "textJp": "ラオス",
+    "textKr": "라오스",
+    "textTw": "老挝"
+  },
+  {
+    "id": 89,
+    "isoCode": "LB",
+    "moneyName": "USD",
+    "textCn": "黎巴嫩",
+    "textEn": "Lebanon",
+    "textJp": "レバノン",
+    "textKr": "레바논",
+    "textTw": "黎巴嫩"
+  },
+  {
+    "id": 90,
+    "isoCode": "LC",
+    "moneyName": "USD",
+    "textCn": "聖露西亞",
+    "textEn": "St. Lucia",
+    "textJp": "セントルシア",
+    "textKr": "세인트루시아",
+    "textTw": "圣卢西亚"
+  },
+  {
+    "id": 91,
+    "isoCode": "LI",
+    "moneyName": "CHF",
+    "textCn": "列支敦斯登",
+    "textEn": "Liechtenstein",
+    "textJp": "リヒテンシュタイン",
+    "textKr": "리히텐슈타인",
+    "textTw": "列支敦士登"
+  },
+  {
+    "id": 92,
+    "isoCode": "LK",
+    "moneyName": "LKR",
+    "textCn": "斯里蘭卡",
+    "textEn": "Sri Lanka",
+    "textJp": "スリランカ",
+    "textKr": "스리랑카",
+    "textTw": "斯里兰卡"
+  },
+  {
+    "id": 93,
+    "isoCode": "LR",
+    "moneyName": "USD",
+    "textCn": "賴比瑞亞",
+    "textEn": "Liberia",
+    "textJp": "リベリア",
+    "textKr": "라이베리아",
+    "textTw": "利比里亚"
+  },
+  {
+    "id": 94,
+    "isoCode": "LT",
+    "moneyName": "EUR",
+    "textCn": "立陶宛",
+    "textEn": "Lithuania",
+    "textJp": "リトアニア",
+    "textKr": "리투아니아",
+    "textTw": "立陶宛"
+  },
+  {
+    "id": 95,
+    "isoCode": "LU",
+    "moneyName": "EUR",
+    "textCn": "盧森堡",
+    "textEn": "Luxembourg",
+    "textJp": "ルクセンブルク",
+    "textKr": "룩셈부르크",
+    "textTw": "卢森堡"
+  },
+  {
+    "id": 96,
+    "isoCode": "LV",
+    "moneyName": "EUR",
+    "textCn": "拉脫維亞",
+    "textEn": "Latvia",
+    "textJp": "ラトビア",
+    "textKr": "라트비아",
+    "textTw": "拉脱维亚"
+  },
+  {
+    "id": 97,
+    "isoCode": "LY",
+    "moneyName": "USD",
+    "textCn": "利比亞",
+    "textEn": "Libya",
+    "textJp": "リビア",
+    "textKr": "리비아",
+    "textTw": "利比亚"
+  },
+  {
+    "id": 98,
+    "isoCode": "MA",
+    "moneyName": "MAD",
+    "textCn": "摩洛哥",
+    "textEn": "Morocco",
+    "textJp": "モロッコ",
+    "textKr": "모로코",
+    "textTw": "摩洛哥"
+  },
+  {
+    "id": 99,
+    "isoCode": "MC",
+    "moneyName": "EUR",
+    "textCn": "摩納哥",
+    "textEn": "Monaco",
+    "textJp": "モナコ",
+    "textKr": "모나코",
+    "textTw": "摩纳哥"
+  },
+  {
+    "id": 100,
+    "isoCode": "MD",
+    "moneyName": "USD",
+    "textCn": "摩爾多瓦",
+    "textEn": "Moldova",
+    "textJp": "モルドバ",
+    "textKr": "몰도바",
+    "textTw": "摩尔多瓦"
+  },
+  {
+    "id": 101,
+    "isoCode": "MK",
+    "moneyName": "USD",
+    "textCn": "北馬其頓",
+    "textEn": "North Macedonia",
+    "textJp": "北マケドニア",
+    "textKr": "북마케도니아",
+    "textTw": "北马其顿"
+  },
+  {
+    "id": 102,
+    "isoCode": "ML",
+    "moneyName": "EUR",
+    "textCn": "馬利",
+    "textEn": "Mali",
+    "textJp": "マリ",
+    "textKr": "말리",
+    "textTw": "马里"
+  },
+  {
+    "id": 103,
+    "isoCode": "MM",
+    "moneyName": "MMK",
+    "textCn": "緬甸",
+    "textEn": "Myanmar (Burma)",
+    "textJp": "ミャンマー (ビルマ)",
+    "textKr": "미얀마",
+    "textTw": "缅甸"
+  },
+  {
+    "id": 104,
+    "isoCode": "MN",
+    "moneyName": "MNT",
+    "textCn": "蒙古",
+    "textEn": "Mongolia",
+    "textJp": "モンゴル",
+    "textKr": "몽골",
+    "textTw": "蒙古"
+  },
+  {
+    "id": 105,
+    "isoCode": "MO",
+    "moneyName": "MOP",
+    "textCn": "中國澳門特別行政區",
+    "textEn": "Macao SAR China",
+    "textJp": "中華人民共和国マカオ特別行政区",
+    "textKr": "마카오",
+    "textTw": "中国澳门特别行政区"
+  },
+  {
+    "id": 106,
+    "isoCode": "MT",
+    "moneyName": "EUR",
+    "textCn": "馬爾他",
+    "textEn": "Malta",
+    "textJp": "マルタ",
+    "textKr": "몰타",
+    "textTw": "马耳他"
+  },
+  {
+    "id": 107,
+    "isoCode": "MU",
+    "moneyName": "USD",
+    "textCn": "模里西斯",
+    "textEn": "Mauritius",
+    "textJp": "モーリシャス",
+    "textKr": "모리셔스",
+    "textTw": "毛里求斯"
+  },
+  {
+    "id": 108,
+    "isoCode": "MV",
+    "moneyName": "USD",
+    "textCn": "馬爾地夫",
+    "textEn": "Maldives",
+    "textJp": "モルディブ",
+    "textKr": "몰디브",
+    "textTw": "马尔代夫"
+  },
+  {
+    "id": 109,
+    "isoCode": "MX",
+    "moneyName": "MXN",
+    "textCn": "墨西哥",
+    "textEn": "Mexico",
+    "textJp": "メキシコ",
+    "textKr": "멕시코",
+    "textTw": "墨西哥"
+  },
+  {
+    "id": 110,
+    "isoCode": "MY",
+    "moneyName": "MYR",
+    "textCn": "馬來西亞",
+    "textEn": "Malaysia",
+    "textJp": "マレーシア",
+    "textKr": "말레이시아",
+    "textTw": "马来西亚"
+  },
+  {
+    "id": 111,
+    "isoCode": "MZ",
+    "moneyName": "USD",
+    "textCn": "莫三比克",
+    "textEn": "Mozambique",
+    "textJp": "モザンビーク",
+    "textKr": "모잠비크",
+    "textTw": "莫桑比克"
+  },
+  {
+    "id": 112,
+    "isoCode": "NA",
+    "moneyName": "USD",
+    "textCn": "納米比亞",
+    "textEn": "Namibia",
+    "textJp": "ナミビア",
+    "textKr": "나미비아",
+    "textTw": "纳米比亚"
+  },
+  {
+    "id": 113,
+    "isoCode": "NE",
+    "moneyName": "EUR",
+    "textCn": "尼日",
+    "textEn": "Niger",
+    "textJp": "ニジェール",
+    "textKr": "니제르",
+    "textTw": "尼日尔"
+  },
+  {
+    "id": 114,
+    "isoCode": "NG",
+    "moneyName": "NGN",
+    "textCn": "奈及利亞",
+    "textEn": "Nigeria",
+    "textJp": "ナイジェリア",
+    "textKr": "나이지리아",
+    "textTw": "尼日利亚"
+  },
+  {
+    "id": 115,
+    "isoCode": "NI",
+    "moneyName": "USD",
+    "textCn": "尼加拉瓜",
+    "textEn": "Nicaragua",
+    "textJp": "ニカラグア",
+    "textKr": "니카라과",
+    "textTw": "尼加拉瓜"
+  },
+  {
+    "id": 116,
+    "isoCode": "NL",
+    "moneyName": "EUR",
+    "textCn": "荷蘭",
+    "textEn": "Netherlands",
+    "textJp": "オランダ",
+    "textKr": "네덜란드",
+    "textTw": "荷兰"
+  },
+  {
+    "id": 117,
+    "isoCode": "NO",
+    "moneyName": "NOK",
+    "textCn": "挪威",
+    "textEn": "Norway",
+    "textJp": "ノルウェー",
+    "textKr": "노르웨이",
+    "textTw": "挪威"
+  },
+  {
+    "id": 118,
+    "isoCode": "NP",
+    "moneyName": "USD",
+    "textCn": "尼泊爾",
+    "textEn": "Nepal",
+    "textJp": "ネパール",
+    "textKr": "네팔",
+    "textTw": "尼泊尔"
+  },
+  {
+    "id": 119,
+    "isoCode": "NZ",
+    "moneyName": "NZD",
+    "textCn": "紐西蘭",
+    "textEn": "New Zealand",
+    "textJp": "ニュージーランド",
+    "textKr": "뉴질랜드",
+    "textTw": "新西兰"
+  },
+  {
+    "id": 120,
+    "isoCode": "OM",
+    "moneyName": "USD",
+    "textCn": "阿曼",
+    "textEn": "Oman",
+    "textJp": "オマーン",
+    "textKr": "오만",
+    "textTw": "阿曼"
+  },
+  {
+    "id": 121,
+    "isoCode": "PA",
+    "moneyName": "USD",
+    "textCn": "巴拿馬",
+    "textEn": "Panama",
+    "textJp": "パナマ",
+    "textKr": "파나마",
+    "textTw": "巴拿马"
+  },
+  {
+    "id": 122,
+    "isoCode": "PE",
+    "moneyName": "PEN",
+    "textCn": "秘魯",
+    "textEn": "Peru",
+    "textJp": "ペルー",
+    "textKr": "페루",
+    "textTw": "秘鲁"
+  },
+  {
+    "id": 123,
+    "isoCode": "PG",
+    "moneyName": "USD",
+    "textCn": "巴布亞紐幾內亞",
+    "textEn": "Papua New Guinea",
+    "textJp": "パプアニューギニア",
+    "textKr": "파푸아뉴기니",
+    "textTw": "巴布亚新几内亚"
+  },
+  {
+    "id": 124,
+    "isoCode": "PH",
+    "moneyName": "PHP",
+    "textCn": "菲律賓",
+    "textEn": "Philippines",
+    "textJp": "フィリピン",
+    "textKr": "필리핀",
+    "textTw": "菲律宾"
+  },
+  {
+    "id": 125,
+    "isoCode": "PK",
+    "moneyName": "PKR",
+    "textCn": "巴基斯坦",
+    "textEn": "Pakistan",
+    "textJp": "パキスタン",
+    "textKr": "파키스탄",
+    "textTw": "巴基斯坦"
+  },
+  {
+    "id": 126,
+    "isoCode": "PL",
+    "moneyName": "PLN",
+    "textCn": "波蘭",
+    "textEn": "Poland",
+    "textJp": "ポーランド",
+    "textKr": "폴란드",
+    "textTw": "波兰"
+  },
+  {
+    "id": 127,
+    "isoCode": "PT",
+    "moneyName": "EUR",
+    "textCn": "葡萄牙",
+    "textEn": "Portugal",
+    "textJp": "ポルトガル",
+    "textKr": "포르투갈",
+    "textTw": "葡萄牙"
+  },
+  {
+    "id": 128,
+    "isoCode": "PY",
+    "moneyName": "PYG",
+    "textCn": "巴拉圭",
+    "textEn": "Paraguay",
+    "textJp": "パラグアイ",
+    "textKr": "파라과이",
+    "textTw": "巴拉圭"
+  },
+  {
+    "id": 129,
+    "isoCode": "QA",
+    "moneyName": "QAR",
+    "textCn": "卡達",
+    "textEn": "Qatar",
+    "textJp": "カタール",
+    "textKr": "카타르",
+    "textTw": "卡塔尔"
+  },
+  {
+    "id": 130,
+    "isoCode": "RO",
+    "moneyName": "RON",
+    "textCn": "羅馬尼亞",
+    "textEn": "Romania",
+    "textJp": "ルーマニア",
+    "textKr": "루마니아",
+    "textTw": "罗马尼亚"
+  },
+  {
+    "id": 131,
+    "isoCode": "RS",
+    "moneyName": "RSD",
+    "textCn": "塞爾維亞",
+    "textEn": "Serbia",
+    "textJp": "セルビア",
+    "textKr": "세르비아",
+    "textTw": "塞尔维亚"
+  },
+  {
+    "id": 132,
+    "isoCode": "RU",
+    "moneyName": "RUB",
+    "textCn": "俄羅斯",
+    "textEn": "Russia",
+    "textJp": "ロシア",
+    "textKr": "러시아",
+    "textTw": "俄罗斯"
+  },
+  {
+    "id": 133,
+    "isoCode": "RW",
+    "moneyName": "USD",
+    "textCn": "盧安達",
+    "textEn": "Rwanda",
+    "textJp": "ルワンダ",
+    "textKr": "르완다",
+    "textTw": "卢旺达"
+  },
+  {
+    "id": 134,
+    "isoCode": "SA",
+    "moneyName": "SAR",
+    "textCn": "沙烏地阿拉伯",
+    "textEn": "Saudi Arabia",
+    "textJp": "サウジアラビア",
+    "textKr": "사우디아라비아",
+    "textTw": "沙特阿拉伯"
+  },
+  {
+    "id": 135,
+    "isoCode": "SB",
+    "moneyName": "USD",
+    "textCn": "索羅門群島",
+    "textEn": "Solomon Islands",
+    "textJp": "ソロモン諸島",
+    "textKr": "솔로몬 제도",
+    "textTw": "所罗门群岛"
+  },
+  {
+    "id": 136,
+    "isoCode": "SC",
+    "moneyName": "USD",
+    "textCn": "塞席爾",
+    "textEn": "Seychelles",
+    "textJp": "セーシェル",
+    "textKr": "세이셸",
+    "textTw": "塞舌尔"
+  },
+  {
+    "id": 137,
+    "isoCode": "SE",
+    "moneyName": "SEK",
+    "textCn": "瑞典",
+    "textEn": "Sweden",
+    "textJp": "スウェーデン",
+    "textKr": "스웨덴",
+    "textTw": "瑞典"
+  },
+  {
+    "id": 138,
+    "isoCode": "SG",
+    "moneyName": "SGD",
+    "textCn": "新加坡",
+    "textEn": "Singapore",
+    "textJp": "シンガポール",
+    "textKr": "싱가포르",
+    "textTw": "新加坡"
+  },
+  {
+    "id": 139,
+    "isoCode": "SI",
+    "moneyName": "EUR",
+    "textCn": "斯洛維尼亞",
+    "textEn": "Slovenia",
+    "textJp": "スロベニア",
+    "textKr": "슬로베니아",
+    "textTw": "斯洛文尼亚"
+  },
+  {
+    "id": 140,
+    "isoCode": "SK",
+    "moneyName": "EUR",
+    "textCn": "斯洛伐克",
+    "textEn": "Slovakia",
+    "textJp": "スロバキア",
+    "textKr": "슬로바키아",
+    "textTw": "斯洛伐克"
+  },
+  {
+    "id": 141,
+    "isoCode": "SL",
+    "moneyName": "USD",
+    "textCn": "獅子山",
+    "textEn": "Sierra Leone",
+    "textJp": "シエラレオネ",
+    "textKr": "시에라리온",
+    "textTw": "塞拉利昂"
+  },
+  {
+    "id": 142,
+    "isoCode": "SM",
+    "moneyName": "EUR",
+    "textCn": "聖馬利諾",
+    "textEn": "San Marino",
+    "textJp": "サンマリノ",
+    "textKr": "산마리노",
+    "textTw": "圣马力诺"
+  },
+  {
+    "id": 143,
+    "isoCode": "SN",
+    "moneyName": "XOF",
+    "textCn": "塞內加爾",
+    "textEn": "Senegal",
+    "textJp": "セネガル",
+    "textKr": "세네갈",
+    "textTw": "塞内加尔"
+  },
+  {
+    "id": 144,
+    "isoCode": "SO",
+    "moneyName": "USD",
+    "textCn": "索馬利亞",
+    "textEn": "Somalia",
+    "textJp": "ソマリア",
+    "textKr": "소말리아",
+    "textTw": "索马里"
+  },
+  {
+    "id": 145,
+    "isoCode": "SR",
+    "moneyName": "USD",
+    "textCn": "蘇利南",
+    "textEn": "Suriname",
+    "textJp": "スリナム",
+    "textKr": "수리남",
+    "textTw": "苏里南"
+  },
+  {
+    "id": 146,
+    "isoCode": "SV",
+    "moneyName": "USD",
+    "textCn": "薩爾瓦多",
+    "textEn": "El Salvador",
+    "textJp": "エルサルバドル",
+    "textKr": "엘살바도르",
+    "textTw": "萨尔瓦多"
+  },
+  {
+    "id": 147,
+    "isoCode": "TC",
+    "moneyName": "USD",
+    "textCn": "土克斯及開科斯群島",
+    "textEn": "Turks & Caicos Islands",
+    "textJp": "タークス・カイコス諸島",
+    "textKr": "터크스 케이커스 제도",
+    "textTw": "特克斯和凯科斯群岛"
+  },
+  {
+    "id": 148,
+    "isoCode": "TD",
+    "moneyName": "USD",
+    "textCn": "查德",
+    "textEn": "Chad",
+    "textJp": "チャド",
+    "textKr": "차드",
+    "textTw": "乍得"
+  },
+  {
+    "id": 149,
+    "isoCode": "TG",
+    "moneyName": "EUR",
+    "textCn": "多哥",
+    "textEn": "Togo",
+    "textJp": "トーゴ",
+    "textKr": "토고",
+    "textTw": "多哥"
+  },
+  {
+    "id": 150,
+    "isoCode": "TH",
+    "moneyName": "THB",
+    "textCn": "泰國",
+    "textEn": "Thailand",
+    "textJp": "タイ",
+    "textKr": "태국",
+    "textTw": "泰国"
+  },
+  {
+    "id": 151,
+    "isoCode": "TJ",
+    "moneyName": "USD",
+    "textCn": "塔吉克",
+    "textEn": "Tajikistan",
+    "textJp": "タジキスタン",
+    "textKr": "타지키스탄",
+    "textTw": "塔吉克斯坦"
+  },
+  {
+    "id": 152,
+    "isoCode": "TM",
+    "moneyName": "USD",
+    "textCn": "土庫曼",
+    "textEn": "Turkmenistan",
+    "textJp": "トルクメニスタン",
+    "textKr": "투르크메니스탄",
+    "textTw": "土库曼斯坦"
+  },
+  {
+    "id": 153,
+    "isoCode": "TN",
+    "moneyName": "USD",
+    "textCn": "突尼西亞",
+    "textEn": "Tunisia",
+    "textJp": "チュニジア",
+    "textKr": "튀니지",
+    "textTw": "突尼斯"
+  },
+  {
+    "id": 154,
+    "isoCode": "TO",
+    "moneyName": "USD",
+    "textCn": "東加",
+    "textEn": "Tonga",
+    "textJp": "トンガ",
+    "textKr": "통가",
+    "textTw": "汤加"
+  },
+  {
+    "id": 155,
+    "isoCode": "TR",
+    "moneyName": "TRY",
+    "textCn": "土耳其",
+    "textEn": "Türkiye",
+    "textJp": "トルコ",
+    "textKr": "튀르키예",
+    "textTw": "土耳其"
+  },
+  {
+    "id": 156,
+    "isoCode": "TT",
+    "moneyName": "USD",
+    "textCn": "千里達及托巴哥",
+    "textEn": "Trinidad & Tobago",
+    "textJp": "トリニダード・トバゴ",
+    "textKr": "트리니다드 토바고",
+    "textTw": "特立尼达和多巴哥"
+  },
+  {
+    "id": 157,
+    "isoCode": "TW",
+    "moneyName": "TWD",
+    "textCn": "台灣",
+    "textEn": "Taiwan",
+    "textJp": "台湾",
+    "textKr": "대만",
+    "textTw": "台湾"
+  },
+  {
+    "id": 158,
+    "isoCode": "TZ",
+    "moneyName": "TZS",
+    "textCn": "坦尚尼亞",
+    "textEn": "Tanzania",
+    "textJp": "タンザニア",
+    "textKr": "탄자니아",
+    "textTw": "坦桑尼亚"
+  },
+  {
+    "id": 159,
+    "isoCode": "UA",
+    "moneyName": "UAH",
+    "textCn": "烏克蘭",
+    "textEn": "Ukraine",
+    "textJp": "ウクライナ",
+    "textKr": "우크라이나",
+    "textTw": "乌克兰"
+  },
+  {
+    "id": 160,
+    "isoCode": "UG",
+    "moneyName": "USD",
+    "textCn": "烏干達",
+    "textEn": "Uganda",
+    "textJp": "ウガンダ",
+    "textKr": "우간다",
+    "textTw": "乌干达"
+  },
+  {
+    "id": 161,
+    "isoCode": "US",
+    "moneyName": "USD",
+    "textCn": "美國",
+    "textEn": "United States",
+    "textJp": "アメリカ合衆国",
+    "textKr": "미국",
+    "textTw": "美国"
+  },
+  {
+    "id": 162,
+    "isoCode": "UY",
+    "moneyName": "USD",
+    "textCn": "烏拉圭",
+    "textEn": "Uruguay",
+    "textJp": "ウルグアイ",
+    "textKr": "우루과이",
+    "textTw": "乌拉圭"
+  },
+  {
+    "id": 163,
+    "isoCode": "UZ",
+    "moneyName": "USD",
+    "textCn": "烏茲別克",
+    "textEn": "Uzbekistan",
+    "textJp": "ウズベキスタン",
+    "textKr": "우즈베키스탄",
+    "textTw": "乌兹别克斯坦"
+  },
+  {
+    "id": 164,
+    "isoCode": "VA",
+    "moneyName": "EUR",
+    "textCn": "梵蒂岡",
+    "textEn": "Vatican City",
+    "textJp": "バチカン市国",
+    "textKr": "바티칸",
+    "textTw": "梵蒂冈"
+  },
+  {
+    "id": 165,
+    "isoCode": "VE",
+    "moneyName": "USD",
+    "textCn": "委內瑞拉",
+    "textEn": "Venezuela",
+    "textJp": "ベネズエラ",
+    "textKr": "베네수엘라",
+    "textTw": "委内瑞拉"
+  },
+  {
+    "id": 166,
+    "isoCode": "VG",
+    "moneyName": "USD",
+    "textCn": "英屬維京群島",
+    "textEn": "British Virgin Islands",
+    "textJp": "英領ヴァージン諸島",
+    "textKr": "영국령 버진아일랜드",
+    "textTw": "英属维尔京群岛"
+  },
+  {
+    "id": 167,
+    "isoCode": "VN",
+    "moneyName": "VND",
+    "textCn": "越南",
+    "textEn": "Vietnam",
+    "textJp": "ベトナム",
+    "textKr": "베트남",
+    "textTw": "越南"
+  },
+  {
+    "id": 168,
+    "isoCode": "VU",
+    "moneyName": "USD",
+    "textCn": "萬那杜",
+    "textEn": "Vanuatu",
+    "textJp": "バヌアツ",
+    "textKr": "바누아투",
+    "textTw": "瓦努阿图"
+  },
+  {
+    "id": 169,
+    "isoCode": "WS",
+    "moneyName": "USD",
+    "textCn": "薩摩亞",
+    "textEn": "Samoa",
+    "textJp": "サモア",
+    "textKr": "사모아",
+    "textTw": "萨摩亚"
+  },
+  {
+    "id": 170,
+    "isoCode": "YE",
+    "moneyName": "USD",
+    "textCn": "葉門",
+    "textEn": "Yemen",
+    "textJp": "イエメン",
+    "textKr": "예멘",
+    "textTw": "也门"
+  },
+  {
+    "id": 171,
+    "isoCode": "ZA",
+    "moneyName": "ZAR",
+    "textCn": "南非",
+    "textEn": "South Africa",
+    "textJp": "南アフリカ",
+    "textKr": "남아프리카공화국",
+    "textTw": "南非"
+  },
+  {
+    "id": 172,
+    "isoCode": "ZM",
+    "moneyName": "USD",
+    "textCn": "尚比亞",
+    "textEn": "Zambia",
+    "textJp": "ザンビア",
+    "textKr": "잠비아",
+    "textTw": "赞比亚"
+  },
+  {
+    "id": 173,
+    "isoCode": "ZW",
+    "moneyName": "USD",
+    "textCn": "辛巴威",
+    "textEn": "Zimbabwe",
+    "textJp": "ジンバブエ",
+    "textKr": "짐바브웨",
+    "textTw": "津巴布韦"
+  }
+]

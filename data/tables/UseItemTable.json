@@ -1,3 +1,24 @@
 [
-  { "grade": 1, "iconSpriteName": "icon_useitem1_1", "id": 1, "itemDescNameTextId": 65001, "itemNameTextId": 60001, "notTrash": 1, "sortType": 1, "stackCount": 10, "useItemType": 1 }
+  {
+    "grade": 1,
+    "iconSpriteName": "icon_useitem1_1",
+    "id": 1,
+    "itemDescNameTextId": 65001,
+    "itemNameTextId": 60001,
+    "notTrash": 1,
+    "sortType": 1,
+    "stackCount": 10,
+    "useItemType": 1
+  },
+  {
+    "grade": 1,
+    "iconSpriteName": "icon_useitem2_2",
+    "id": 2,
+    "itemDescNameTextId": 65002,
+    "itemNameTextId": 60002,
+    "notTrash": 1,
+    "sortType": 2,
+    "stackCount": 10,
+    "useItemType": 2
+  }
 ]

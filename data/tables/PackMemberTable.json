@@ -1,3 +1,12 @@
 [
-  { "changeType": 1, "id": 1, "subMemberType": 1 }
+  {
+    "changeType": 1,
+    "id": 1,
+    "subMemberType": 1
+  },
+  {
+    "changeType": 1,
+    "id": 10,
+    "packType": 9
+  }
 ]

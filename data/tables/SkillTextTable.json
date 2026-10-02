@@ -1,7 +1,90 @@
 [
-  { "id": 20002020, "nodeAddTargetBuffTextId": [ 10 ], "nodeAddText": "Deal \u003c#ddc37a\u003e\u003c1\u003c\u003c/color\u003e \u003c#ddc37a\u003eFixed DMG (Physical)\u003c/color\u003e to the enemy equal to \u003c#ffa024\u003e\u003c6\u003c%\u003c/color\u003e of your \u003c#ffa024\u003eATK\u003c/color\u003e.", "targetBuffTextId": [ 10 ], "text": "Deal \u003c#ddc37a\u003e\u003c1\u003c\u003c/color\u003e \u003c#ddc37a\u003eFixed DMG (Physical)\u003c/color\u003e to the enemy equal to \u003c#ffa024\u003e\u003c6\u003c%\u003c/color\u003e of your \u003c#ffa024\u003eATK\u003c/color\u003e." },
-  { "id": 20649011, "nodeAddTargetBuffTextId": [ 3 ], "nodeAddText": "Attack the enemy \u003c#ffa024\u003e2 times\u003c/color\u003e, dealing \u003c#ddc37a\u003e\u003c1\u003c\u003c/color\u003e \u003c#ddc37a\u003ePhysical DMG\u003c/color\u003e equal to \u003c#ffa024\u003e\u003c6\u003c%\u003c/color\u003e of your \u003c#ffa024\u003eATK\u003c/color\u003e per hit. |Apply Concentrated Fire to the enemy for \u003c#ffa024\u003e{5{ turn(s)\u003c/color\u003e.", "targetBuffTextId": [ 3 ], "text": "Attack the enemy \u003c#ffa024\u003e2 times\u003c/color\u003e, dealing \u003c#ddc37a\u003e\u003c1\u003c\u003c/color\u003e \u003c#ddc37a\u003ePhysical DMG\u003c/color\u003e equal to \u003c#ffa024\u003e\u003c6\u003c%\u003c/color\u003e of your \u003c#ffa024\u003eATK\u003c/color\u003e per hit. Apply Concentrated Fire to the enemy for \u003c#ffa024\u003e{5{ turn(s)\u003c/color\u003e." },
-  { "id": 20601010, "nodeAddTargetBuffTextId": [ 18 ], "nodeAddText": "Self-destruct to deal \u003c#ddc37a\u003e\u003c1\u003c\u003c/color\u003e \u003c#ddc37a\u003ePhysical DMG\u003c/color\u003e to the enemy equal to \u003c#ffa024\u003e\u003c6\u003c%\u003c/color\u003e of your \u003c#ffa024\u003eATK\u003c/color\u003e. Self-destruct attacks cannot be evaded.", "targetBuffTextId": [ 18 ], "text": "Self-destruct to deal \u003c#ddc37a\u003e\u003c1\u003c\u003c/color\u003e \u003c#ddc37a\u003ePhysical DMG\u003c/color\u003e to the enemy equal to \u003c#ffa024\u003e\u003c6\u003c%\u003c/color\u003e of your \u003c#ffa024\u003eATK\u003c/color\u003e. Self-destruct attacks cannot be evaded." },
-  { "id": 20001010, "nodeAddTargetBuffTextId": [ 57 ], "nodeAddText": "Use \u003c#ffa024\u003e{8{%\u003c/color\u003e of \u003c#ffa024\u003eyour Current HP\u003c/color\u003e to increase your \u003c#ffa024\u003eATK\u003c/color\u003e by \u003c#ffa024\u003e{6{%\u003c/color\u003e for \u003c#ffa024\u003e{5{ turn(s)\u003c/color\u003e. |Attack the enemy \u003c#ffa024\u003e2 times\u003c/color\u003e, dealing \u003c#ddc37a\u003e\u003c1\u003c\u003c/color\u003e \u003c#ddc37a\u003ePhysical DMG\u003c/color\u003e equal to \u003c#ffa024\u003e\u003c6\u003c%\u003c/color\u003e of your \u003c#ffa024\u003eATK\u003c/color\u003e per hit.", "targetBuffTextId": [ 57 ], "text": "Use \u003c#ffa024\u003e{8{%\u003c/color\u003e of \u003c#ffa024\u003eyour Current HP\u003c/color\u003e to increase your \u003c#ffa024\u003eATK\u003c/color\u003e by \u003c#ffa024\u003e{6{%\u003c/color\u003e for \u003c#ffa024\u003e{5{ turn(s)\u003c/color\u003e. Attack the enemy \u003c#ffa024\u003e2 times\u003c/color\u003e, dealing \u003c#ddc37a\u003e\u003c1\u003c\u003c/color\u003e \u003c#ddc37a\u003ePhysical DMG\u003c/color\u003e equal to \u003c#ffa024\u003e\u003c6\u003c%\u003c/color\u003e of your \u003c#ffa024\u003eATK\u003c/color\u003e per hit." },
-  { "id": 20002010, "nodeAddTargetBuffTextId": [ 10 ], "nodeAddText": "Attack the enemy \u003c#ffa024\u003e3 times\u003c/color\u003e, dealing \u003c#ddc37a\u003e\u003c1\u003c\u003c/color\u003e \u003c#ddc37a\u003eFixed DMG (Physical)\u003c/color\u003e equal to \u003c#ffa024\u003e\u003c6\u003c%\u003c/color\u003e of your \u003c#ffa024\u003eATK\u003c/color\u003e per hit.", "targetBuffTextId": [ 10 ], "text": "Attack the enemy \u003c#ffa024\u003e3 times\u003c/color\u003e, dealing \u003c#ddc37a\u003e\u003c1\u003c\u003c/color\u003e \u003c#ddc37a\u003eFixed DMG (Physical)\u003c/color\u003e equal to \u003c#ffa024\u003e\u003c6\u003c%\u003c/color\u003e of your \u003c#ffa024\u003eATK\u003c/color\u003e per hit." }
+  {
+    "id": 20002020,
+    "nodeAddTargetBuffTextId": [
+      10
+    ],
+    "nodeAddText": "Deal <#ddc37a><1<</color> <#ddc37a>Fixed DMG (Physical)</color> to the enemy equal to <#ffa024><6<%</color> of your <#ffa024>ATK</color>.",
+    "targetBuffTextId": [
+      10
+    ],
+    "text": "Deal <#ddc37a><1<</color> <#ddc37a>Fixed DMG (Physical)</color> to the enemy equal to <#ffa024><6<%</color> of your <#ffa024>ATK</color>."
+  },
+  {
+    "id": 20649011,
+    "nodeAddTargetBuffTextId": [
+      3
+    ],
+    "nodeAddText": "Attack the enemy <#ffa024>2 times</color>, dealing <#ddc37a><1<</color> <#ddc37a>Physical DMG</color> equal to <#ffa024><6<%</color> of your <#ffa024>ATK</color> per hit. |Apply Concentrated Fire to the enemy for <#ffa024>{5{ turn(s)</color>.",
+    "targetBuffTextId": [
+      3
+    ],
+    "text": "Attack the enemy <#ffa024>2 times</color>, dealing <#ddc37a><1<</color> <#ddc37a>Physical DMG</color> equal to <#ffa024><6<%</color> of your <#ffa024>ATK</color> per hit. Apply Concentrated Fire to the enemy for <#ffa024>{5{ turn(s)</color>."
+  },
+  {
+    "id": 20601010,
+    "nodeAddTargetBuffTextId": [
+      18
+    ],
+    "nodeAddText": "Self-destruct to deal <#ddc37a><1<</color> <#ddc37a>Physical DMG</color> to the enemy equal to <#ffa024><6<%</color> of your <#ffa024>ATK</color>. Self-destruct attacks cannot be evaded.",
+    "targetBuffTextId": [
+      18
+    ],
+    "text": "Self-destruct to deal <#ddc37a><1<</color> <#ddc37a>Physical DMG</color> to the enemy equal to <#ffa024><6<%</color> of your <#ffa024>ATK</color>. Self-destruct attacks cannot be evaded."
+  },
+  {
+    "id": 20001010,
+    "nodeAddTargetBuffTextId": [
+      57
+    ],
+    "nodeAddText": "Use <#ffa024>{8{%</color> of <#ffa024>your Current HP</color> to increase your <#ffa024>ATK</color> by <#ffa024>{6{%</color> for <#ffa024>{5{ turn(s)</color>. |Attack the enemy <#ffa024>2 times</color>, dealing <#ddc37a><1<</color> <#ddc37a>Physical DMG</color> equal to <#ffa024><6<%</color> of your <#ffa024>ATK</color> per hit.",
+    "targetBuffTextId": [
+      57
+    ],
+    "text": "Use <#ffa024>{8{%</color> of <#ffa024>your Current HP</color> to increase your <#ffa024>ATK</color> by <#ffa024>{6{%</color> for <#ffa024>{5{ turn(s)</color>. Attack the enemy <#ffa024>2 times</color>, dealing <#ddc37a><1<</color> <#ddc37a>Physical DMG</color> equal to <#ffa024><6<%</color> of your <#ffa024>ATK</color> per hit."
+  },
+  {
+    "id": 20002010,
+    "nodeAddTargetBuffTextId": [
+      10
+    ],
+    "nodeAddText": "Attack the enemy <#ffa024>3 times</color>, dealing <#ddc37a><1<</color> <#ddc37a>Fixed DMG (Physical)</color> equal to <#ffa024><6<%</color> of your <#ffa024>ATK</color> per hit.",
+    "targetBuffTextId": [
+      10
+    ],
+    "text": "Attack the enemy <#ffa024>3 times</color>, dealing <#ddc37a><1<</color> <#ddc37a>Fixed DMG (Physical)</color> equal to <#ffa024><6<%</color> of your <#ffa024>ATK</color> per hit."
+  },
+  {
+    "id": 20008010,
+    "nodeAddTargetBuffTextId": [
+      37
+    ],
+    "nodeAddText": "Attack the enemy <#ffa024>3 times</color>, dealing <#ddc37a><1<</color> <#ddc37a>Physical DMG</color> equal to <#ffa024><6<%</color> of your <#ffa024>ATK</color> per hit. |Apply Burn to the enemy for <#ffa024>{5{ turn(s)</color>, dealing <#ddc37a>{1{</color> <#ddc37a>Physical DMG</color> equal to <#ffa024>{6{%</color> of your <#ffa024>ATK</color>.",
+    "targetBuffTextId": [
+      37
+    ],
+    "text": "Attack the enemy <#ffa024>3 times</color>, dealing <#ddc37a><1<</color> <#ddc37a>Physical DMG</color> equal to <#ffa024><6<%</color> of your <#ffa024>ATK</color> per hit. Apply Burn to the enemy for <#ffa024>{5{ turn(s)</color>, dealing <#ddc37a>{1{</color> <#ddc37a>Physical DMG</color> equal to <#ffa024>{6{%</color> of your <#ffa024>ATK</color>."
+  },
+  {
+    "id": 20008011,
+    "nodeAddTargetBuffTextId": [
+      37
+    ],
+    "nodeAddText": "Attack the enemy <#ffa024>3 times</color>, dealing <#ddc37a><1<</color> <#ddc37a>Physical DMG</color> equal to <#ffa024><6<%</color> of your <#ffa024>ATK</color> per hit. |Apply Burn to the enemy for <#ffa024>{5{ turn(s)</color>, dealing <#ddc37a>{1{</color> <#ddc37a>Physical DMG</color> equal to <#ffa024>{6{%</color> of your <#ffa024>ATK</color>.",
+    "targetBuffTextId": [
+      37
+    ],
+    "text": "Attack the enemy <#ffa024>3 times</color>, dealing <#ddc37a><1<</color> <#ddc37a>Physical DMG</color> equal to <#ffa024><6<%</color> of your <#ffa024>ATK</color> per hit. Apply Burn to the enemy for <#ffa024>{5{ turn(s)</color>, dealing <#ddc37a>{1{</color> <#ddc37a>Physical DMG</color> equal to <#ffa024>{6{%</color> of your <#ffa024>ATK</color>."
+  },
+  {
+    "id": 20650015,
+    "nodeAddTargetBuffTextId": [
+      10
+    ],
+    "nodeAddText": "Attack the enemy <#ffa024>2 times</color>, dealing <#ddc37a><1<</color> <#ddc37a>Fixed DMG (Physical)</color> equal to <#ffa024><6<%</color> of your <#ffa024>ATK</color> per hit.",
+    "targetBuffTextId": [
+      10
+    ],
+    "text": "Attack the enemy <#ffa024>2 times</color>, dealing <#ddc37a><1<</color> <#ddc37a>Fixed DMG (Physical)</color> equal to <#ffa024><6<%</color> of your <#ffa024>ATK</color> per hit."
+  }
 ]

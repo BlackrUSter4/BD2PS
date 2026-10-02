@@ -1,4 +1,110 @@
 [
-  { "endDate": "2025-12-08", "groupId": 201, "id": 2011, "startDate": "1999-01-01" },
-  { "endDate": "2099-01-01", "groupId": 201, "id": 2016, "startDate": "2025-12-08" }
+  {
+    "endDate": "2025-12-08",
+    "groupId": 201,
+    "id": 2011,
+    "startDate": "1999-01-01"
+  },
+  {
+    "endDate": "2099-01-01",
+    "groupId": 201,
+    "id": 2016,
+    "startDate": "2025-12-08"
+  },
+  {
+    "endDate": "2025-12-08",
+    "groupId": 202,
+    "id": 2024,
+    "startDate": "1999-01-01"
+  },
+  {
+    "endDate": "2099-01-01",
+    "groupId": 202,
+    "id": 2026,
+    "startDate": "2025-12-08"
+  },
+  {
+    "endDate": "2025-12-08",
+    "groupId": 203,
+    "id": 2031,
+    "startDate": "1999-01-01"
+  },
+  {
+    "endDate": "2099-01-01",
+    "groupId": 203,
+    "id": 2036,
+    "startDate": "2025-12-08"
+  },
+  {
+    "endDate": "2025-12-08",
+    "groupId": 204,
+    "id": 2044,
+    "startDate": "1999-01-01"
+  },
+  {
+    "endDate": "2099-01-01",
+    "groupId": 204,
+    "id": 2046,
+    "startDate": "2025-12-08"
+  },
+  {
+    "endDate": "2025-12-08",
+    "groupId": 205,
+    "id": 2051,
+    "startDate": "1999-01-01"
+  },
+  {
+    "endDate": "2099-01-01",
+    "groupId": 205,
+    "id": 2056,
+    "startDate": "2025-12-08"
+  },
+  {
+    "endDate": "2025-12-08",
+    "groupId": 206,
+    "id": 2064,
+    "startDate": "1999-01-01"
+  },
+  {
+    "endDate": "2099-01-01",
+    "groupId": 206,
+    "id": 2066,
+    "startDate": "2025-12-08"
+  },
+  {
+    "endDate": "2025-12-08",
+    "groupId": 207,
+    "id": 2071,
+    "startDate": "1999-01-01"
+  },
+  {
+    "endDate": "2099-01-01",
+    "groupId": 207,
+    "id": 2076,
+    "startDate": "2025-12-08"
+  },
+  {
+    "endDate": "2024-05-13",
+    "groupId": 1,
+    "id": 112,
+    "startDate": "1999-01-01"
+  },
+  {
+    "endDate": "2099-01-01",
+    "groupId": 1,
+    "id": 113,
+    "startDate": "2024-05-13"
+  },
+  {
+    "endDate": "2099-01-01",
+    "groupId": 1,
+    "id": 114,
+    "startDate": "2025-12-08"
+  },
+  {
+    "endDate": "2099-01-01",
+    "groupId": 1,
+    "id": 115,
+    "startDate": "2025-12-08"
+  }
 ]

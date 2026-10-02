@@ -1,19 +1,585 @@
 [
-  { "active": 1, "growthId": [ 331, 336 ], "id": 1, "imprintSlot1": 3, "imprintSlot2": 9, "imprintSlot3": 24 },
-  { "active": 1, "growthId": [ 331, 338 ], "id": 2, "imprintSlot1": 3, "imprintSlot2": 9, "imprintSlot3": 24 },
-  { "active": 1, "growthId": [ 371, 375 ], "id": 9, "imprintSlot1": 1, "imprintSlot2": 7, "imprintSlot3": 22 },
-  { "active": 1, "growthId": [ 351, 357 ], "id": 16, "imprintSlot1": 2, "imprintSlot2": 8, "imprintSlot3": 23 },
-  { "active": 1, "growthId": [ 332, 338 ], "id": 213, "imprintSlot1": 3, "imprintSlot2": 15, "imprintSlot3": 30 },
-  { "active": 1, "growthId": [ 371, 376 ], "id": 601, "imprintSlot1": 1, "imprintSlot2": 7, "imprintSlot3": 22 },
-  { "active": 1, "growthId": [ 341, 340 ], "id": 606, "imprintSlot1": 3, "imprintSlot2": 9, "imprintSlot3": 24 },
-  { "active": 1, "growthId": [ 351, 359 ], "id": 621, "imprintSlot1": 2, "imprintSlot2": 8, "imprintSlot3": 23 },
-  { "active": 1, "growthId": [ 382, 380 ], "id": 626, "imprintSlot1": 1, "imprintSlot2": 13, "imprintSlot3": 28 },
-  { "active": 1, "growthId": [ 371, 378 ], "id": 628, "imprintSlot1": 1, "imprintSlot2": 7, "imprintSlot3": 22 },
-  { "active": 1, "growthId": [ 371, 375 ], "id": 630, "imprintSlot1": 1, "imprintSlot2": 7, "imprintSlot3": 22 },
-  { "active": 1, "growthId": [ 372, 375 ], "id": 633, "imprintSlot1": 1, "imprintSlot2": 13, "imprintSlot3": 28 },
-  { "active": 1, "growthId": [ 381, 380 ], "id": 647, "imprintSlot1": 1, "imprintSlot2": 7, "imprintSlot3": 22 },
-  { "active": 1, "growthId": [ 371, 375 ], "id": 648, "imprintSlot1": 1, "imprintSlot2": 7, "imprintSlot3": 22 },
-  { "active": 1, "growthId": [ 371, 377 ], "id": 649, "imprintSlot1": 1, "imprintSlot2": 7, "imprintSlot3": 22 },
-  { "active": 1, "growthId": [ 371, 376 ], "id": 650, "imprintSlot1": 1, "imprintSlot2": 7, "imprintSlot3": 22 },
-  { "active": 1, "growthId": [ 331, 335 ], "id": 676, "imprintSlot1": 3, "imprintSlot2": 9, "imprintSlot3": 24 }
+  {
+    "active": 1,
+    "growthId": [
+      331,
+      336
+    ],
+    "id": 1,
+    "imprintSlot1": 3,
+    "imprintSlot2": 9,
+    "imprintSlot3": 24
+  },
+  {
+    "active": 1,
+    "growthId": [
+      331,
+      338
+    ],
+    "id": 2,
+    "imprintSlot1": 3,
+    "imprintSlot2": 9,
+    "imprintSlot3": 24
+  },
+  {
+    "active": 1,
+    "growthId": [
+      371,
+      375
+    ],
+    "id": 9,
+    "imprintSlot1": 1,
+    "imprintSlot2": 7,
+    "imprintSlot3": 22
+  },
+  {
+    "active": 1,
+    "growthId": [
+      351,
+      357
+    ],
+    "id": 16,
+    "imprintSlot1": 2,
+    "imprintSlot2": 8,
+    "imprintSlot3": 23
+  },
+  {
+    "active": 1,
+    "growthId": [
+      332,
+      338
+    ],
+    "id": 213,
+    "imprintSlot1": 3,
+    "imprintSlot2": 15,
+    "imprintSlot3": 30
+  },
+  {
+    "active": 1,
+    "growthId": [
+      371,
+      376
+    ],
+    "id": 601,
+    "imprintSlot1": 1,
+    "imprintSlot2": 7,
+    "imprintSlot3": 22
+  },
+  {
+    "active": 1,
+    "growthId": [
+      341,
+      340
+    ],
+    "id": 606,
+    "imprintSlot1": 3,
+    "imprintSlot2": 9,
+    "imprintSlot3": 24
+  },
+  {
+    "active": 1,
+    "growthId": [
+      351,
+      359
+    ],
+    "id": 621,
+    "imprintSlot1": 2,
+    "imprintSlot2": 8,
+    "imprintSlot3": 23
+  },
+  {
+    "active": 1,
+    "growthId": [
+      382,
+      380
+    ],
+    "id": 626,
+    "imprintSlot1": 1,
+    "imprintSlot2": 13,
+    "imprintSlot3": 28
+  },
+  {
+    "active": 1,
+    "growthId": [
+      371,
+      378
+    ],
+    "id": 628,
+    "imprintSlot1": 1,
+    "imprintSlot2": 7,
+    "imprintSlot3": 22
+  },
+  {
+    "active": 1,
+    "growthId": [
+      371,
+      375
+    ],
+    "id": 630,
+    "imprintSlot1": 1,
+    "imprintSlot2": 7,
+    "imprintSlot3": 22
+  },
+  {
+    "active": 1,
+    "growthId": [
+      372,
+      375
+    ],
+    "id": 633,
+    "imprintSlot1": 1,
+    "imprintSlot2": 13,
+    "imprintSlot3": 28
+  },
+  {
+    "active": 1,
+    "growthId": [
+      381,
+      380
+    ],
+    "id": 647,
+    "imprintSlot1": 1,
+    "imprintSlot2": 7,
+    "imprintSlot3": 22
+  },
+  {
+    "active": 1,
+    "growthId": [
+      371,
+      375
+    ],
+    "id": 648,
+    "imprintSlot1": 1,
+    "imprintSlot2": 7,
+    "imprintSlot3": 22
+  },
+  {
+    "active": 1,
+    "growthId": [
+      371,
+      377
+    ],
+    "id": 649,
+    "imprintSlot1": 1,
+    "imprintSlot2": 7,
+    "imprintSlot3": 22
+  },
+  {
+    "active": 1,
+    "growthId": [
+      371,
+      376
+    ],
+    "id": 650,
+    "imprintSlot1": 1,
+    "imprintSlot2": 7,
+    "imprintSlot3": 22
+  },
+  {
+    "active": 1,
+    "growthId": [
+      331,
+      335
+    ],
+    "id": 676,
+    "imprintSlot1": 3,
+    "imprintSlot2": 9,
+    "imprintSlot3": 24
+  },
+  {
+    "active": 1,
+    "growthId": [
+      331,
+      337
+    ],
+    "id": 4,
+    "imprintSlot1": 3,
+    "imprintSlot2": 9,
+    "imprintSlot3": 24
+  },
+  {
+    "active": 1,
+    "growthId": [
+      334,
+      333
+    ],
+    "id": 5,
+    "imprintSlot1": 3,
+    "imprintSlot2": 21,
+    "imprintSlot3": 24
+  },
+  {
+    "active": 1,
+    "growthId": [
+      332,
+      339
+    ],
+    "id": 7,
+    "imprintSlot1": 3,
+    "imprintSlot2": 15,
+    "imprintSlot3": 30
+  },
+  {
+    "active": 1,
+    "growthId": [
+      331,
+      336
+    ],
+    "id": 8,
+    "imprintSlot1": 3,
+    "imprintSlot2": 9,
+    "imprintSlot3": 24
+  },
+  {
+    "active": 1,
+    "growthId": [
+      341,
+      340
+    ],
+    "id": 11,
+    "imprintSlot1": 3,
+    "imprintSlot2": 9,
+    "imprintSlot3": 24
+  },
+  {
+    "active": 1,
+    "growthId": [
+      331,
+      336
+    ],
+    "id": 12,
+    "imprintSlot1": 3,
+    "imprintSlot2": 9,
+    "imprintSlot3": 24
+  },
+  {
+    "active": 1,
+    "growthId": [
+      371,
+      377
+    ],
+    "id": 13,
+    "imprintSlot1": 1,
+    "imprintSlot2": 7,
+    "imprintSlot3": 22
+  },
+  {
+    "active": 1,
+    "growthId": [
+      381,
+      380
+    ],
+    "id": 14,
+    "imprintSlot1": 1,
+    "imprintSlot2": 7,
+    "imprintSlot3": 22
+  },
+  {
+    "active": 1,
+    "growthId": [
+      362,
+      360
+    ],
+    "id": 15,
+    "imprintSlot1": 2,
+    "imprintSlot2": 14,
+    "imprintSlot3": 29
+  },
+  {
+    "active": 1,
+    "growthId": [
+      342,
+      340
+    ],
+    "id": 24,
+    "imprintSlot1": 3,
+    "imprintSlot2": 15,
+    "imprintSlot3": 30
+  },
+  {
+    "active": 1,
+    "growthId": [
+      351,
+      358
+    ],
+    "id": 30,
+    "imprintSlot1": 2,
+    "imprintSlot2": 8,
+    "imprintSlot3": 23
+  },
+  {
+    "active": 1,
+    "growthId": [
+      362,
+      360
+    ],
+    "id": 31,
+    "imprintSlot1": 2,
+    "imprintSlot2": 14,
+    "imprintSlot3": 29
+  },
+  {
+    "active": 1,
+    "growthId": [
+      332,
+      335
+    ],
+    "id": 34,
+    "imprintSlot1": 3,
+    "imprintSlot2": 15,
+    "imprintSlot3": 30
+  },
+  {
+    "active": 1,
+    "growthId": [
+      331,
+      337
+    ],
+    "id": 202,
+    "imprintSlot1": 3,
+    "imprintSlot2": 9,
+    "imprintSlot3": 24
+  },
+  {
+    "active": 1,
+    "growthId": [
+      332,
+      337
+    ],
+    "id": 203,
+    "imprintSlot1": 3,
+    "imprintSlot2": 15,
+    "imprintSlot3": 30
+  },
+  {
+    "active": 1,
+    "growthId": [
+      332,
+      335
+    ],
+    "id": 204,
+    "imprintSlot1": 3,
+    "imprintSlot2": 15,
+    "imprintSlot3": 30
+  },
+  {
+    "active": 1,
+    "growthId": [
+      331,
+      337
+    ],
+    "id": 205,
+    "imprintSlot1": 3,
+    "imprintSlot2": 9,
+    "imprintSlot3": 24
+  },
+  {
+    "active": 1,
+    "growthId": [
+      352,
+      359
+    ],
+    "id": 602,
+    "imprintSlot1": 2,
+    "imprintSlot2": 14,
+    "imprintSlot3": 29
+  },
+  {
+    "active": 1,
+    "growthId": [
+      332,
+      339
+    ],
+    "id": 604,
+    "imprintSlot1": 3,
+    "imprintSlot2": 15,
+    "imprintSlot3": 30
+  },
+  {
+    "active": 1,
+    "growthId": [
+      331,
+      335
+    ],
+    "id": 607,
+    "imprintSlot1": 3,
+    "imprintSlot2": 9,
+    "imprintSlot3": 24
+  },
+  {
+    "active": 1,
+    "growthId": [
+      331,
+      336
+    ],
+    "id": 608,
+    "imprintSlot1": 3,
+    "imprintSlot2": 9,
+    "imprintSlot3": 24
+  },
+  {
+    "active": 1,
+    "growthId": [
+      342,
+      340
+    ],
+    "id": 610,
+    "imprintSlot1": 3,
+    "imprintSlot2": 15,
+    "imprintSlot3": 30
+  },
+  {
+    "active": 1,
+    "growthId": [
+      331,
+      339
+    ],
+    "id": 611,
+    "imprintSlot1": 3,
+    "imprintSlot2": 9,
+    "imprintSlot3": 24
+  },
+  {
+    "active": 1,
+    "growthId": [
+      332,
+      337
+    ],
+    "id": 613,
+    "imprintSlot1": 3,
+    "imprintSlot2": 15,
+    "imprintSlot3": 30
+  },
+  {
+    "active": 1,
+    "growthId": [
+      352,
+      359
+    ],
+    "id": 619,
+    "imprintSlot1": 2,
+    "imprintSlot2": 14,
+    "imprintSlot3": 29
+  },
+  {
+    "active": 1,
+    "growthId": [
+      361,
+      360
+    ],
+    "id": 620,
+    "imprintSlot1": 2,
+    "imprintSlot2": 8,
+    "imprintSlot3": 23
+  },
+  {
+    "active": 1,
+    "growthId": [
+      372,
+      379
+    ],
+    "id": 625,
+    "imprintSlot1": 1,
+    "imprintSlot2": 13,
+    "imprintSlot3": 28
+  },
+  {
+    "active": 1,
+    "growthId": [
+      352,
+      358
+    ],
+    "id": 627,
+    "imprintSlot1": 2,
+    "imprintSlot2": 14,
+    "imprintSlot3": 29
+  },
+  {
+    "active": 1,
+    "growthId": [
+      382,
+      380
+    ],
+    "id": 634,
+    "imprintSlot1": 1,
+    "imprintSlot2": 13,
+    "imprintSlot3": 28
+  },
+  {
+    "active": 1,
+    "growthId": [
+      331,
+      338
+    ],
+    "id": 651,
+    "imprintSlot1": 3,
+    "imprintSlot2": 9,
+    "imprintSlot3": 24
+  },
+  {
+    "active": 1,
+    "growthId": [
+      332,
+      339
+    ],
+    "id": 658,
+    "imprintSlot1": 3,
+    "imprintSlot2": 15,
+    "imprintSlot3": 30
+  },
+  {
+    "active": 1,
+    "growthId": [
+      334,
+      333
+    ],
+    "id": 664,
+    "imprintSlot1": 3,
+    "imprintSlot2": 21,
+    "imprintSlot3": 24
+  },
+  {
+    "active": 1,
+    "growthId": [
+      332,
+      336
+    ],
+    "id": 673,
+    "imprintSlot1": 3,
+    "imprintSlot2": 15,
+    "imprintSlot3": 30
+  },
+  {
+    "active": 1,
+    "growthId": [
+      332,
+      338
+    ],
+    "id": 674,
+    "imprintSlot1": 3,
+    "imprintSlot2": 15,
+    "imprintSlot3": 30
+  },
+  {
+    "active": 1,
+    "growthId": [
+      331,
+      337
+    ],
+    "id": 33,
+    "imprintSlot1": 3,
+    "imprintSlot2": 9,
+    "imprintSlot3": 24
+  },
+  {
+    "active": 1,
+    "growthId": [
+      331,
+      338
+    ],
+    "id": 211,
+    "imprintSlot1": 3,
+    "imprintSlot2": 9,
+    "imprintSlot3": 24
+  }
 ]
