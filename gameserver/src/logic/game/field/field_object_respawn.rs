@@ -22,12 +22,10 @@ use tracing::info;
 /// response is left empty — no data source ties a respawned monster back to
 /// a specific FieldObjectDBInfo id.
 ///
-/// NOT fixed here, flagged for later: `FieldObjectRespawnInfo` (the DB table
-/// this persists into) keys only on (Uid, FieldObjectGroupId) with no pack
-/// column, so two different packs' same-numbered group (e.g. both having a
-/// group 601) would still share one respawn-timer row per account. Lower
-/// urgency than the lookup-table bug just fixed (this is "two packs'
-/// cooldowns interfere," not "wrong data entirely"), but a real gap.
+/// `FieldObjectRespawnInfo` (the DB table this persists into) now also keys
+/// on PackId (migration 412) — previously two different packs' same-numbered
+/// group (e.g. both having a group 601) shared one respawn-timer row per
+/// account.
 pub async fn handle(pool: &SqlitePool, uid: i64, req: FieldObjectRespawnRequest) -> GameResponse {
     info!("Handling FieldObjectRespawnRequest: {:?}", req);
 
@@ -40,7 +38,7 @@ pub async fn handle(pool: &SqlitePool, uid: i64, req: FieldObjectRespawnRequest)
             .map(|r| r.regen_sec as i64)
             .unwrap_or(300);
         let respawn_time = chrono::Utc::now().timestamp_millis() + regen_sec * 1000;
-        let _ = db::upsert(pool, uid, group_id, respawn_time).await;
+        let _ = db::upsert(pool, uid, pack_id, group_id, respawn_time).await;
         field_object_respawn_info.push(FieldObjectRespawnDbInfo {
             field_object_group_id: Some(group_id),
             respawn_time: Some(respawn_time),

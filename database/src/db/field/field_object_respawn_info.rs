@@ -11,8 +11,10 @@ pub async fn add_field_object_respawn_info(
 INSERT INTO FieldObjectRespawnInfo (
     Uid,
     FieldObjectGroupId,
-    RespawnTime
+    RespawnTime,
+    PackId
 ) VALUES (
+    ?,
     ?,
     ?,
     ?
@@ -22,6 +24,7 @@ INSERT INTO FieldObjectRespawnInfo (
     .bind(&data.uid)
     .bind(&data.field_object_group_id)
     .bind(&data.respawn_time)
+    .bind(&data.pack_id)
     .execute(pool)
     .await?;
 
@@ -41,44 +44,49 @@ pub async fn get_field_object_respawn_info(
     .await
 }
 
-/// Get the respawn-tracking row for one field object group, if it's been saved.
+/// Get the respawn-tracking row for one field object group in one pack, if it's been saved.
 pub async fn get_by_uid_and_group(
     pool: &SqlitePool,
     uid: i64,
+    pack_id: i32,
     group_id: i32,
 ) -> sqlx::Result<Option<FieldObjectRespawnInfo>> {
     sqlx::query_as::<_, FieldObjectRespawnInfo>(
-        "SELECT * FROM FieldObjectRespawnInfo WHERE Uid = ? AND FieldObjectGroupId = ?",
+        "SELECT * FROM FieldObjectRespawnInfo WHERE Uid = ? AND PackId = ? AND FieldObjectGroupId = ?",
     )
     .bind(uid)
+    .bind(pack_id)
     .bind(group_id)
     .fetch_optional(pool)
     .await
 }
 
-/// Save/overwrite the respawn timer for one group.
+/// Save/overwrite the respawn timer for one group within one pack.
 pub async fn upsert(
     pool: &SqlitePool,
     uid: i64,
+    pack_id: i32,
     group_id: i32,
     respawn_time: i64,
 ) -> sqlx::Result<()> {
-    if get_by_uid_and_group(pool, uid, group_id).await?.is_some() {
+    if get_by_uid_and_group(pool, uid, pack_id, group_id).await?.is_some() {
         sqlx::query(
-            "UPDATE FieldObjectRespawnInfo SET RespawnTime = ? WHERE Uid = ? AND FieldObjectGroupId = ?",
+            "UPDATE FieldObjectRespawnInfo SET RespawnTime = ? WHERE Uid = ? AND PackId = ? AND FieldObjectGroupId = ?",
         )
         .bind(respawn_time)
         .bind(uid)
+        .bind(pack_id)
         .bind(group_id)
         .execute(pool)
         .await?;
     } else {
         sqlx::query(
-            "INSERT INTO FieldObjectRespawnInfo (Uid, FieldObjectGroupId, RespawnTime) VALUES (?, ?, ?)",
+            "INSERT INTO FieldObjectRespawnInfo (Uid, FieldObjectGroupId, RespawnTime, PackId) VALUES (?, ?, ?, ?)",
         )
         .bind(uid)
         .bind(group_id)
         .bind(respawn_time)
+        .bind(pack_id)
         .execute(pool)
         .await?;
     }
@@ -140,8 +148,10 @@ pub async fn insert(pool: &SqlitePool, data: &FieldObjectRespawnInfo) -> sqlx::R
 INSERT INTO FieldObjectRespawnInfo (
     Uid,
     FieldObjectGroupId,
-    RespawnTime
+    RespawnTime,
+    PackId
 ) VALUES (
+    ?,
     ?,
     ?,
     ?
@@ -151,6 +161,7 @@ INSERT INTO FieldObjectRespawnInfo (
     .bind(&data.uid)
     .bind(&data.field_object_group_id)
     .bind(&data.respawn_time)
+    .bind(&data.pack_id)
     .execute(pool)
     .await?;
 
