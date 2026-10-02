@@ -4,6 +4,7 @@ use common::packet_code::PacketCodeType;
 use crypto::network::GameResponse;
 use database::db::battle::{battle_char_info, battle_session};
 use database::db::item::item_info;
+use database::db::user::user_info as user_info_db;
 use database::models::game::battle::battle_char_info::BattleCharInfo;
 use sqlx::SqlitePool;
 use tracing::info;
@@ -108,8 +109,22 @@ pub async fn handle(pool: &SqlitePool, uid: i64, req: BattleEndRequest) -> GameR
         tracing::warn!("BattleEnd: failed to clear battle session: {}", e);
     }
 
+    // Real gap found live (2026-09-30): this response left `user_level_exp` (and every
+    // other optional field beyond these three) at its default None, which left
+    // BattleResultUI's exp/level/clear-info panels permanently inactive regardless of
+    // whether a real reward was granted -- confirmed via repeated "Coroutine couldn't be
+    // started because the game object 'Content'/'ClearLevelInfo' is inactive!" log spam
+    // right after this response, every single battle. Real user exp, not fabricated.
+    let user_level_exp = user_info_db::get_user_info(pool, uid)
+        .await
+        .unwrap_or_default()
+        .into_iter()
+        .next()
+        .and_then(|u| u.exp);
+
     let response = BattleEndResponse {
         battle_result: req.battle_result,
+        user_level_exp,
         char_info: req.char_info.clone(),
         reward_bundle,
         ..Default::default()

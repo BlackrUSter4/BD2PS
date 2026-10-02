@@ -1,22 +1,35 @@
 use bd2::prost::Message;
-use bd2::proto::proto_net::{BattleVerifyStateRequest, BattleVerifyStateResponse, Notify};
+use bd2::proto::proto_net::{BattleVerifyStateRequest, BattleVerifyStateResponse, DefineBattleVerifyState, Notify};
 use common::packet_code::PacketCodeType;
 use crypto::network::GameResponse;
 use database::db::battle::battle_session;
 use sqlx::SqlitePool;
 use tracing::info;
 
-/// Real check: does this account actually have a live battle session right
-/// now (state=1) or not (state=0)? This is exactly what BattleSession
-/// exists to answer. Red/blue rosters are left empty — BattleCharInfo has
-/// no team-side column to split them by, so populating one arbitrarily
-/// would be a fabrication rather than a real read.
+/// Real bug found live (2026-09-30): this used to return the bare integer 1
+/// (from a wrong guess that `state` was just a live-session boolean) any
+/// time a BattleSession row existed, and never anything else. But the real
+/// proto enum (`DefineBattleVerifyState`) has 4 values -- NONE/IN_PROGRESS/
+/// SUCCESS/ERROR -- and the client polls this endpoint in a loop waiting
+/// for it to leave IN_PROGRESS. Since nothing ever moved it off 1, the
+/// client polled forever and eventually hit its OWN hardcoded retry cap,
+/// surfacing as a client-side "전투검증 요청 횟수가 초과되었습니다." (battle
+/// verification request count exceeded) error popup right after the
+/// battle-result screen -- confirmed live via Player.log once
+/// BD2CompatPatch was extended to log the popup's real title text.
+/// This project has no real server-side battle simulation to verify the
+/// client's report against (same trust-the-client model as every other
+/// async battle system here: Colosseum/Ib/etc.), so there is nothing to
+/// actually keep the client waiting on -- report SUCCESS immediately.
 pub async fn handle(pool: &SqlitePool, uid: i64, req: BattleVerifyStateRequest) -> GameResponse {
     info!("Handling BattleVerifyStateRequest: {:?}", req);
 
+    // Still a real read (not hardcoded): only claim success if this account
+    // actually has a battle session on file; otherwise report NONE, which
+    // is honest -- there is nothing here to verify.
     let state = match battle_session::get(pool, uid).await {
-        Ok(Some(_)) => 1,
-        _ => 0,
+        Ok(Some(_)) => DefineBattleVerifyState::BattleVerifyStateSuccess as i32,
+        _ => DefineBattleVerifyState::BattleVerifyStateNone as i32,
     };
 
     let response = BattleVerifyStateResponse {
