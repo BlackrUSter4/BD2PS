@@ -19,6 +19,22 @@ use tracing::info;
 /// handful of rows), so a uniformly-random real CharTable id is granted
 /// instead of a fabricated "correct" weighted roll. Every draw is logged
 /// for real via GachaLogInfo.
+///
+/// User request (2026-10-01): the characters captured when this project's
+/// client was updated (added in the newer game version, not present in the
+/// server's original pre-update roster) weren't appearing to be "in the
+/// pool" -- added a dedicated banner for them (GachaGroupTable id 90001,
+/// "New Characters", GachaTable ids 950001/950002 for single/ten-pull) so
+/// they're pulled separately rather than mixed into the default banner's
+/// full-roster pool below.
+const NEW_CHARACTER_BANNER_GACHA_IDS: [i32; 2] = [950001, 950002];
+const NEW_CHARACTER_IDS: [i32; 65] = [
+    21, 22, 23, 24, 30, 40, 50, 60, 70, 74, 80, 100, 110, 120, 240, 300, 310, 320, 330, 331, 332,
+    333, 334, 340, 341, 342, 343, 344, 350, 354, 360, 364, 384, 2020, 2030, 2040, 2050, 2110,
+    2120, 6040, 6070, 6080, 6100, 6110, 6130, 6140, 6190, 6200, 6250, 6270, 6340, 6510, 6580,
+    6640, 6680, 6720, 6730, 6740, 6764, 80010, 80020, 80030, 80060, 80080, 95010,
+];
+
 pub async fn handle(pool: &SqlitePool, uid: i64, req: GachaBuyRequest) -> GameResponse {
     info!("Handling GachaBuyRequest: {:?}", req);
 
@@ -26,9 +42,19 @@ pub async fn handle(pool: &SqlitePool, uid: i64, req: GachaBuyRequest) -> GameRe
     let game_data = exceldb::get();
     let now = chrono::Utc::now().timestamp_millis();
 
+    let is_new_character_banner = req
+        .id
+        .is_some_and(|id| NEW_CHARACTER_BANNER_GACHA_IDS.contains(&id));
+    let pool_source: Vec<_> = game_data
+        .chartable
+        .all()
+        .iter()
+        .filter(|c| !is_new_character_banner || NEW_CHARACTER_IDS.contains(&c.id))
+        .collect();
+
     let mut char_infos = Vec::new();
     for _ in 0..draw_count {
-        let Some(picked) = game_data.chartable.all().choose(&mut rand::thread_rng()) else {
+        let Some(&picked) = pool_source.choose(&mut rand::thread_rng()) else {
             break;
         };
         let char_inven_index = now + char_infos.len() as i64;
