@@ -4,6 +4,7 @@ use common::packet_code::PacketCodeType;
 use crypto::network::GameResponse;
 use data::exceldb;
 use database::db::battle::battle_session;
+use database::db::user::user_position::get_current_pack_id;
 use database::models::game::battle::battle_session::BattleSession;
 use sqlx::SqlitePool;
 use tracing::info;
@@ -15,8 +16,16 @@ use tracing::info;
 /// is for (needed later by BattleEnd, which carries none of that context
 /// itself), and hand back real monster stats when a FieldMonsterTable entry
 /// exists for the requested monster_id.
+///
+/// `BattleEnterRequest` itself carries no pack id (unlike e.g.
+/// FieldObjectResearchRequest) — resolved via the account's own saved
+/// position instead (`get_current_pack_id`, see its doc comment). This also
+/// finally gives `BattleSession.pack_id` a real value instead of the
+/// permanent `None` it had before 2026-10-02.
 pub async fn handle(pool: &SqlitePool, uid: i64, req: BattleEnterRequest) -> GameResponse {
     info!("Handling BattleEnterRequest: {:?}", req);
+
+    let pack_id = get_current_pack_id(pool, uid).await;
 
     let now = chrono::Utc::now().timestamp_millis();
     let session = BattleSession {
@@ -24,7 +33,7 @@ pub async fn handle(pool: &SqlitePool, uid: i64, req: BattleEnterRequest) -> Gam
         battle_index: None,
         group_id: req.group_id,
         monster_id: req.monster_id,
-        pack_id: None,
+        pack_id: Some(pack_id),
         battle_deck: req.battle_deck,
         battle_mode: req.battle_mode,
         monster_hunt_id: req.monster_hunt_id,
@@ -41,7 +50,7 @@ pub async fn handle(pool: &SqlitePool, uid: i64, req: BattleEnterRequest) -> Gam
     let monster_info = req.monster_id.and_then(|monster_id| {
         exceldb::get()
             .fieldmonstertable
-            .get(monster_id)
+            .get_by_pack(pack_id, monster_id)
             .map(|m| MonsterDbInfo {
                 monster_id: Some(monster_id),
                 battle_deck: m.battle_deck_id.as_ref().and_then(|v| v.first().copied()),

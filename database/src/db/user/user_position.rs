@@ -1,6 +1,38 @@
 use crate::models::game::user::user_position::UserPosition;
 use sqlx::SqlitePool;
 
+/// Resolve the account's CURRENT pack id for server logic that needs one but
+/// has no pack_id in its own request proto (unlike e.g. FieldObjectResearchRequest,
+/// which the client already tells us directly — see CLIENT_UPDATE.md's 2026-10-02
+/// "(packId, id) composite key" entries).
+///
+/// `UserPosition.PackId` itself is never populated by any real handler (only
+/// `SaveUserPositionRequest` writes this table, and it only ever sets
+/// `PackPosition`, a JSON blob like `{"MapId":1,"PlayerPosition":{...}}` —
+/// `PackId` stays NULL forever). The real, live-updated source of the
+/// account's current pack is that blob's `MapId`, resolved through
+/// `MapTable.packId` (every map belongs to exactly one pack, and MapTable's
+/// `id` is a real global id, unlike the small per-pack-local ids this fix's
+/// sibling tables needed a composite key for). Falls back to pack 1 (the
+/// game's starting pack) when no position is saved yet or the saved MapId
+/// doesn't resolve — same convention `pack_in_game_info.rs` already uses for
+/// the position itself.
+pub async fn get_current_pack_id(pool: &SqlitePool, uid: i64) -> i32 {
+    let position: Option<String> =
+        sqlx::query_scalar("SELECT PackPosition FROM UserPosition WHERE Uid = ?")
+            .bind(uid)
+            .fetch_optional(pool)
+            .await
+            .ok()
+            .flatten();
+
+    position
+        .and_then(|pos| serde_json::from_str::<serde_json::Value>(&pos).ok())
+        .and_then(|v| v.get("MapId").and_then(|m| m.as_i64()))
+        .and_then(|map_id| data::exceldb::get().maptable.get(map_id as i32).map(|m| m.pack_id))
+        .unwrap_or(1)
+}
+
 /// Add a single UserPosition record from a Rust struct.
 pub async fn add_user_position(pool: &SqlitePool, data: &UserPosition) -> sqlx::Result<()> {
     sqlx::query(

@@ -5,19 +5,25 @@ use bd2::proto::proto_net::{
 use common::packet_code::PacketCodeType;
 use crypto::network::GameResponse;
 use database::db::item::item_info;
+use database::db::user::user_position::get_current_pack_id;
 use sqlx::SqlitePool;
 use tracing::info;
 
 /// Real reward grant from FieldMonsterTable's real reward_id/type/count fields when the
 /// monster has one configured. `char_info`/`equip_info` left empty (no server-side field
 /// combat state exists — same as field_monster_damage.rs).
+///
+/// `FieldMonsterEventRequest` carries no pack id — resolved via the account's
+/// own saved position instead (`get_current_pack_id`), since `monster_id`
+/// collides across packs (see Fieldmonstertable::pack_id's doc comment).
 pub async fn handle(pool: &SqlitePool, uid: i64, req: FieldMonsterEventRequest) -> GameResponse {
     info!("Handling FieldMonsterEventRequest: {:?}", req);
 
     let mut item_infos = Vec::new();
     let mut monster_info = None;
     if let Some(monster_id) = req.monster_id {
-        if let Some(monster) = data::exceldb::get().fieldmonstertable.get(monster_id) {
+        let pack_id = get_current_pack_id(pool, uid).await;
+        if let Some(monster) = data::exceldb::get().fieldmonstertable.get_by_pack(pack_id, monster_id) {
             monster_info = Some(MonsterDbInfo {
                 monster_id: Some(monster_id),
                 active_flag: Some(true),
