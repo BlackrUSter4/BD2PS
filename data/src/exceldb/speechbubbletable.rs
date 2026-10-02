@@ -7,11 +7,11 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Speechbubbletable {
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "localText")]
+    #[serde(rename = "localText", default)]
     pub local_text: i32,
-    #[serde(rename = "remindType")]
+    #[serde(rename = "remindType", default)]
     pub remind_type: Option<i32>,
 }
 

@@ -7,13 +7,13 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Fieldminigamesurvivalboxtable {
-    #[serde(rename = "guaranteedDrop")]
+    #[serde(rename = "guaranteedDrop", default)]
     pub guaranteed_drop: Option<i32>,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "itemId")]
+    #[serde(rename = "itemId", default)]
     pub item_id: Vec<i32>,
-    #[serde(rename = "ratio")]
+    #[serde(rename = "ratio", default)]
     pub ratio: Vec<i32>,
 }
 

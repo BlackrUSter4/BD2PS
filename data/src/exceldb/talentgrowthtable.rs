@@ -7,17 +7,17 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Talentgrowthtable {
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "growthItemCount")]
+    #[serde(rename = "growthItemCount", default)]
     pub growth_item_count: Option<Vec<i32>>,
-    #[serde(rename = "growthItemId")]
+    #[serde(rename = "growthItemId", default)]
     pub growth_item_id: Option<Vec<i32>>,
-    #[serde(rename = "growthItemType")]
+    #[serde(rename = "growthItemType", default)]
     pub growth_item_type: Option<Vec<i32>>,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "needExp")]
+    #[serde(rename = "needExp", default)]
     pub need_exp: Option<i32>,
 }
 

@@ -7,67 +7,67 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Maptable {
-    #[serde(rename = "accelerationSpeed")]
+    #[serde(rename = "accelerationSpeed", default)]
     pub acceleration_speed: Option<f32>,
-    #[serde(rename = "advantCharElement")]
+    #[serde(rename = "advantCharElement", default)]
     pub advant_char_element: Option<i32>,
-    #[serde(rename = "ambienceName")]
+    #[serde(rename = "ambienceName", default)]
     pub ambience_name: Option<String>,
-    #[serde(rename = "audioCrossfade")]
+    #[serde(rename = "audioCrossfade", default)]
     pub audio_crossfade: Option<i32>,
-    #[serde(rename = "battleDeckId")]
+    #[serde(rename = "battleDeckId", default)]
     pub battle_deck_id: Option<Vec<i32>>,
-    #[serde(rename = "commonSoundId")]
+    #[serde(rename = "commonSoundId", default)]
     pub common_sound_id: Option<i32>,
-    #[serde(rename = "encounteSafeValue")]
+    #[serde(rename = "encounteSafeValue", default)]
     pub encounte_safe_value: Option<i32>,
-    #[serde(rename = "encounterMaxValue")]
+    #[serde(rename = "encounterMaxValue", default)]
     pub encounter_max_value: Option<i32>,
-    #[serde(rename = "envEffectResourceName")]
+    #[serde(rename = "envEffectResourceName", default)]
     pub env_effect_resource_name: Option<String>,
-    #[serde(rename = "flashlightResouceName")]
+    #[serde(rename = "flashlightResouceName", default)]
     pub flashlight_resouce_name: Option<String>,
-    #[serde(rename = "footStepSoundType")]
+    #[serde(rename = "footStepSoundType", default)]
     pub foot_step_sound_type: Option<i32>,
-    #[serde(rename = "gateId")]
+    #[serde(rename = "gateId", default)]
     pub gate_id: Option<Vec<i32>>,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "isInsideMap")]
+    #[serde(rename = "isInsideMap", default)]
     pub is_inside_map: Option<i32>,
-    #[serde(rename = "mapEffect")]
+    #[serde(rename = "mapEffect", default)]
     pub map_effect: Option<i32>,
-    #[serde(rename = "mapEffectFreqMax")]
+    #[serde(rename = "mapEffectFreqMax", default)]
     pub map_effect_freq_max: Option<i32>,
-    #[serde(rename = "mapEffectFreqMin")]
+    #[serde(rename = "mapEffectFreqMin", default)]
     pub map_effect_freq_min: Option<i32>,
-    #[serde(rename = "mapGroupId")]
+    #[serde(rename = "mapGroupId", default)]
     pub map_group_id: i32,
-    #[serde(rename = "mapNameTextId")]
+    #[serde(rename = "mapNameTextId", default)]
     pub map_name_text_id: i32,
-    #[serde(rename = "mapScale")]
+    #[serde(rename = "mapScale", default)]
     pub map_scale: Option<i32>,
-    #[serde(rename = "mapScenePath")]
+    #[serde(rename = "mapScenePath", default)]
     pub map_scene_path: String,
-    #[serde(rename = "mapType")]
+    #[serde(rename = "mapType", default)]
     pub map_type: Option<i32>,
-    #[serde(rename = "maxSpeed")]
+    #[serde(rename = "maxSpeed", default)]
     pub max_speed: Option<f32>,
-    #[serde(rename = "minimapSize")]
+    #[serde(rename = "minimapSize", default)]
     pub minimap_size: Option<String>,
-    #[serde(rename = "minimapSpriteName")]
+    #[serde(rename = "minimapSpriteName", default)]
     pub minimap_sprite_name: Option<String>,
-    #[serde(rename = "monsterElement")]
+    #[serde(rename = "monsterElement", default)]
     pub monster_element: Option<i32>,
-    #[serde(rename = "offset")]
+    #[serde(rename = "offset", default)]
     pub offset: Option<String>,
-    #[serde(rename = "packId")]
+    #[serde(rename = "packId", default)]
     pub pack_id: i32,
-    #[serde(rename = "showHpUi")]
+    #[serde(rename = "showHpUi", default)]
     pub show_hp_ui: Option<i32>,
-    #[serde(rename = "showQuestId")]
+    #[serde(rename = "showQuestId", default)]
     pub show_quest_id: Option<i32>,
-    #[serde(rename = "timeLineEffectUse")]
+    #[serde(rename = "timeLineEffectUse", default)]
     pub time_line_effect_use: Option<i32>,
 }
 

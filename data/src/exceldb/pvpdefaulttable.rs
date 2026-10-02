@@ -7,59 +7,59 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Pvpdefaulttable {
-    #[serde(rename = "BattleBGM")]
+    #[serde(rename = "BattleBGM", default)]
     pub battle_b_g_m: String,
-    #[serde(rename = "VP_Min")]
+    #[serde(rename = "VP_Min", default)]
     pub v_p_min: i32,
-    #[serde(rename = "apBoostMaxCount")]
+    #[serde(rename = "apBoostMaxCount", default)]
     pub ap_boost_max_count: i32,
-    #[serde(rename = "battleEndTurn")]
+    #[serde(rename = "battleEndTurn", default)]
     pub battle_end_turn: i32,
-    #[serde(rename = "battleHistoryHour")]
+    #[serde(rename = "battleHistoryHour", default)]
     pub battle_history_hour: i32,
-    #[serde(rename = "battleHistoryLimitCount")]
+    #[serde(rename = "battleHistoryLimitCount", default)]
     pub battle_history_limit_count: i32,
-    #[serde(rename = "battleHistoryRefreshCoolTime")]
+    #[serde(rename = "battleHistoryRefreshCoolTime", default)]
     pub battle_history_refresh_cool_time: i32,
-    #[serde(rename = "battlePenaltyRatio")]
+    #[serde(rename = "battlePenaltyRatio", default)]
     pub battle_penalty_ratio: i32,
-    #[serde(rename = "battlePenaltyRound")]
+    #[serde(rename = "battlePenaltyRound", default)]
     pub battle_penalty_round: i32,
-    #[serde(rename = "battleReadyTime")]
+    #[serde(rename = "battleReadyTime", default)]
     pub battle_ready_time: i32,
-    #[serde(rename = "battleSkipWaitTurn")]
+    #[serde(rename = "battleSkipWaitTurn", default)]
     pub battle_skip_wait_turn: i32,
-    #[serde(rename = "careCount")]
+    #[serde(rename = "careCount", default)]
     pub care_count: i32,
-    #[serde(rename = "careLose")]
+    #[serde(rename = "careLose", default)]
     pub care_lose: i32,
-    #[serde(rename = "carePointMax")]
+    #[serde(rename = "carePointMax", default)]
     pub care_point_max: i32,
-    #[serde(rename = "careWin")]
+    #[serde(rename = "careWin", default)]
     pub care_win: i32,
-    #[serde(rename = "correctionFactor")]
+    #[serde(rename = "correctionFactor", default)]
     pub correction_factor: i32,
-    #[serde(rename = "matchCount")]
+    #[serde(rename = "matchCount", default)]
     pub match_count: i32,
-    #[serde(rename = "matchExcludeCount")]
+    #[serde(rename = "matchExcludeCount", default)]
     pub match_exclude_count: i32,
-    #[serde(rename = "matchVpRange")]
+    #[serde(rename = "matchVpRange", default)]
     pub match_vp_range: Vec<i32>,
-    #[serde(rename = "newbieCare")]
+    #[serde(rename = "newbieCare", default)]
     pub newbie_care: i32,
-    #[serde(rename = "popularCostumeMinRankGroupId")]
+    #[serde(rename = "popularCostumeMinRankGroupId", default)]
     pub popular_costume_min_rank_group_id: i32,
-    #[serde(rename = "pvpUseCoinCount")]
+    #[serde(rename = "pvpUseCoinCount", default)]
     pub pvp_use_coin_count: i32,
-    #[serde(rename = "repeatBattleInterval")]
+    #[serde(rename = "repeatBattleInterval", default)]
     pub repeat_battle_interval: i32,
-    #[serde(rename = "searchingPoolCount")]
+    #[serde(rename = "searchingPoolCount", default)]
     pub searching_pool_count: i32,
-    #[serde(rename = "startVP")]
+    #[serde(rename = "startVP", default)]
     pub start_v_p: i32,
-    #[serde(rename = "topRankBoundary")]
+    #[serde(rename = "topRankBoundary", default)]
     pub top_rank_boundary: i32,
-    #[serde(rename = "topRankMatchVpRange")]
+    #[serde(rename = "topRankMatchVpRange", default)]
     pub top_rank_match_vp_range: Vec<i32>,
 }
 

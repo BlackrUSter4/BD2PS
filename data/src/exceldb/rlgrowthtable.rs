@@ -7,23 +7,23 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Rlgrowthtable {
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "growthDescLocalTextId")]
+    #[serde(rename = "growthDescLocalTextId", default)]
     pub growth_desc_local_text_id: i32,
-    #[serde(rename = "growthIcon")]
+    #[serde(rename = "growthIcon", default)]
     pub growth_icon: String,
-    #[serde(rename = "growthNameLocalTextId")]
+    #[serde(rename = "growthNameLocalTextId", default)]
     pub growth_name_local_text_id: i32,
-    #[serde(rename = "growthType")]
+    #[serde(rename = "growthType", default)]
     pub growth_type: i32,
-    #[serde(rename = "growthValue")]
+    #[serde(rename = "growthValue", default)]
     pub growth_value: f32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "priceCount")]
+    #[serde(rename = "priceCount", default)]
     pub price_count: i32,
-    #[serde(rename = "priceType")]
+    #[serde(rename = "priceType", default)]
     pub price_type: i32,
 }
 

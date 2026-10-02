@@ -7,29 +7,29 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Rhythmgamemusictable {
-    #[serde(rename = "challengeMaxScore")]
+    #[serde(rename = "challengeMaxScore", default)]
     pub challenge_max_score: i32,
-    #[serde(rename = "hardMaxScore")]
+    #[serde(rename = "hardMaxScore", default)]
     pub hard_max_score: i32,
-    #[serde(rename = "hardNotesName")]
+    #[serde(rename = "hardNotesName", default)]
     pub hard_notes_name: String,
-    #[serde(rename = "hardTotalJudgCount")]
+    #[serde(rename = "hardTotalJudgCount", default)]
     pub hard_total_judg_count: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "musicDescLocalTextId")]
+    #[serde(rename = "musicDescLocalTextId", default)]
     pub music_desc_local_text_id: i32,
-    #[serde(rename = "musicTitleLocalTextId")]
+    #[serde(rename = "musicTitleLocalTextId", default)]
     pub music_title_local_text_id: i32,
-    #[serde(rename = "normalMaxScore")]
+    #[serde(rename = "normalMaxScore", default)]
     pub normal_max_score: i32,
-    #[serde(rename = "normalNotesName")]
+    #[serde(rename = "normalNotesName", default)]
     pub normal_notes_name: String,
-    #[serde(rename = "normalTotalJudgCount")]
+    #[serde(rename = "normalTotalJudgCount", default)]
     pub normal_total_judg_count: i32,
-    #[serde(rename = "playTime")]
+    #[serde(rename = "playTime", default)]
     pub play_time: i32,
-    #[serde(rename = "sortId")]
+    #[serde(rename = "sortId", default)]
     pub sort_id: i32,
 }
 

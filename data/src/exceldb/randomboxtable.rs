@@ -7,25 +7,25 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Randomboxtable {
-    #[serde(rename = "dropType")]
+    #[serde(rename = "dropType", default)]
     pub drop_type: Option<i32>,
-    #[serde(rename = "grade")]
+    #[serde(rename = "grade", default)]
     pub grade: i32,
-    #[serde(rename = "iconSpriteName")]
+    #[serde(rename = "iconSpriteName", default)]
     pub icon_sprite_name: Option<String>,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "itemDescRandomBoxTextId")]
+    #[serde(rename = "itemDescRandomBoxTextId", default)]
     pub item_desc_random_box_text_id: Option<i32>,
-    #[serde(rename = "itemNameRandomBoxTextId")]
+    #[serde(rename = "itemNameRandomBoxTextId", default)]
     pub item_name_random_box_text_id: Option<i32>,
-    #[serde(rename = "notTrash")]
+    #[serde(rename = "notTrash", default)]
     pub not_trash: i32,
-    #[serde(rename = "rewardGroupId")]
+    #[serde(rename = "rewardGroupId", default)]
     pub reward_group_id: i32,
-    #[serde(rename = "sortType")]
+    #[serde(rename = "sortType", default)]
     pub sort_type: i32,
-    #[serde(rename = "stackCount")]
+    #[serde(rename = "stackCount", default)]
     pub stack_count: Option<i32>,
 }
 

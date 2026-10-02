@@ -7,27 +7,27 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Foodtable {
-    #[serde(rename = "favoriteRecoveryPoint")]
+    #[serde(rename = "favoriteRecoveryPoint", default)]
     pub favorite_recovery_point: i32,
-    #[serde(rename = "foodType")]
+    #[serde(rename = "foodType", default)]
     pub food_type: Option<i32>,
-    #[serde(rename = "grade")]
+    #[serde(rename = "grade", default)]
     pub grade: i32,
-    #[serde(rename = "iconSpriteName")]
+    #[serde(rename = "iconSpriteName", default)]
     pub icon_sprite_name: String,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "itemAcquireId")]
+    #[serde(rename = "itemAcquireId", default)]
     pub item_acquire_id: Option<Vec<i32>>,
-    #[serde(rename = "itemDescNameTextId")]
+    #[serde(rename = "itemDescNameTextId", default)]
     pub item_desc_name_text_id: i32,
-    #[serde(rename = "itemNameTextId")]
+    #[serde(rename = "itemNameTextId", default)]
     pub item_name_text_id: i32,
-    #[serde(rename = "recoveryPoint")]
+    #[serde(rename = "recoveryPoint", default)]
     pub recovery_point: i32,
-    #[serde(rename = "sortType")]
+    #[serde(rename = "sortType", default)]
     pub sort_type: i32,
-    #[serde(rename = "stackCount")]
+    #[serde(rename = "stackCount", default)]
     pub stack_count: i32,
 }
 

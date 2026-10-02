@@ -7,9 +7,9 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Rhythmgamegradetable {
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "minAccuracy")]
+    #[serde(rename = "minAccuracy", default)]
     pub min_accuracy: Option<i32>,
 }
 

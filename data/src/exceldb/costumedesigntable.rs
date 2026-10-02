@@ -7,37 +7,37 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Costumedesigntable {
-    #[serde(rename = "costumeId")]
+    #[serde(rename = "costumeId", default)]
     pub costume_id: Option<i32>,
-    #[serde(rename = "faceIconName")]
+    #[serde(rename = "faceIconName", default)]
     pub face_icon_name: Option<String>,
-    #[serde(rename = "faceIllustName")]
+    #[serde(rename = "faceIllustName", default)]
     pub face_illust_name: Option<String>,
-    #[serde(rename = "iconSpriteName")]
+    #[serde(rename = "iconSpriteName", default)]
     pub icon_sprite_name: Option<String>,
     #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "illustName")]
+    #[serde(rename = "illustName", default)]
     pub illust_name: Option<String>,
-    #[serde(rename = "inventoryIllustName")]
+    #[serde(rename = "inventoryIllustName", default)]
     pub inventory_illust_name: Option<String>,
-    #[serde(rename = "isCollabo")]
+    #[serde(rename = "isCollabo", default)]
     pub is_collabo: Option<i32>,
-    #[serde(rename = "lobbyCutscene")]
+    #[serde(rename = "lobbyCutscene", default)]
     pub lobby_cutscene: Option<String>,
-    #[serde(rename = "loopPrefabName")]
+    #[serde(rename = "loopPrefabName", default)]
     pub loop_prefab_name: Option<Vec<String>>,
-    #[serde(rename = "prefabName")]
+    #[serde(rename = "prefabName", default)]
     pub prefab_name: Option<String>,
-    #[serde(rename = "simpleIllustName")]
+    #[serde(rename = "simpleIllustName", default)]
     pub simple_illust_name: Option<String>,
-    #[serde(rename = "skillIllustName")]
+    #[serde(rename = "skillIllustName", default)]
     pub skill_illust_name: Option<Vec<String>>,
-    #[serde(rename = "skillTimelineName")]
+    #[serde(rename = "skillTimelineName", default)]
     pub skill_timeline_name: Option<String>,
-    #[serde(rename = "voiceResourceName")]
+    #[serde(rename = "voiceResourceName", default)]
     pub voice_resource_name: Option<String>,
-    #[serde(rename = "burstCutInNameTextId")]
+    #[serde(rename = "burstCutInNameTextId", default)]
     pub burst_cut_in_name_text_id: Option<Vec<i32>>,
 }
 

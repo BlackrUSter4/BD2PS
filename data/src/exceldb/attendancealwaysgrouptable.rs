@@ -7,11 +7,11 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Attendancealwaysgrouptable {
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "nextId")]
+    #[serde(rename = "nextId", default)]
     pub next_id: Option<i32>,
 }
 

@@ -7,35 +7,35 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Minigameboardtable {
-    #[serde(rename = "boardUiPrefab")]
+    #[serde(rename = "boardUiPrefab", default)]
     pub board_ui_prefab: String,
-    #[serde(rename = "charSpriteResource")]
+    #[serde(rename = "charSpriteResource", default)]
     pub char_sprite_resource: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "itemCount")]
+    #[serde(rename = "itemCount", default)]
     pub item_count: i32,
-    #[serde(rename = "itemId")]
+    #[serde(rename = "itemId", default)]
     pub item_id: i32,
-    #[serde(rename = "itemType")]
+    #[serde(rename = "itemType", default)]
     pub item_type: i32,
-    #[serde(rename = "miniGameCompleteRewardGroupId")]
+    #[serde(rename = "miniGameCompleteRewardGroupId", default)]
     pub mini_game_complete_reward_group_id: i32,
-    #[serde(rename = "miniGameTitleLocalTextId")]
+    #[serde(rename = "miniGameTitleLocalTextId", default)]
     pub mini_game_title_local_text_id: i32,
-    #[serde(rename = "moveControllerGroupId")]
+    #[serde(rename = "moveControllerGroupId", default)]
     pub move_controller_group_id: i32,
-    #[serde(rename = "playSpeed")]
+    #[serde(rename = "playSpeed", default)]
     pub play_speed: i32,
-    #[serde(rename = "scaffoldGroupId")]
+    #[serde(rename = "scaffoldGroupId", default)]
     pub scaffold_group_id: i32,
-    #[serde(rename = "tokenDescLocalTextId")]
+    #[serde(rename = "tokenDescLocalTextId", default)]
     pub token_desc_local_text_id: i32,
-    #[serde(rename = "tokenInfoLocation")]
+    #[serde(rename = "tokenInfoLocation", default)]
     pub token_info_location: i32,
-    #[serde(rename = "tokenShortCutId")]
+    #[serde(rename = "tokenShortCutId", default)]
     pub token_short_cut_id: i32,
-    #[serde(rename = "tokenTitleLocalTextId")]
+    #[serde(rename = "tokenTitleLocalTextId", default)]
     pub token_title_local_text_id: i32,
 }
 

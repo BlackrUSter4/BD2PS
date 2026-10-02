@@ -7,31 +7,31 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Minigamebingotable {
-    #[serde(rename = "bingoCompleteRewardGroupId")]
+    #[serde(rename = "bingoCompleteRewardGroupId", default)]
     pub bingo_complete_reward_group_id: i32,
-    #[serde(rename = "bingoLineRewardGroupId")]
+    #[serde(rename = "bingoLineRewardGroupId", default)]
     pub bingo_line_reward_group_id: i32,
-    #[serde(rename = "bingoRewardGroupId")]
+    #[serde(rename = "bingoRewardGroupId", default)]
     pub bingo_reward_group_id: i32,
-    #[serde(rename = "bingoUiPrefab")]
+    #[serde(rename = "bingoUiPrefab", default)]
     pub bingo_ui_prefab: String,
-    #[serde(rename = "columnCount")]
+    #[serde(rename = "columnCount", default)]
     pub column_count: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "itemCount")]
+    #[serde(rename = "itemCount", default)]
     pub item_count: i32,
-    #[serde(rename = "itemId")]
+    #[serde(rename = "itemId", default)]
     pub item_id: i32,
-    #[serde(rename = "itemType")]
+    #[serde(rename = "itemType", default)]
     pub item_type: i32,
-    #[serde(rename = "tokenDescLocalTextId")]
+    #[serde(rename = "tokenDescLocalTextId", default)]
     pub token_desc_local_text_id: i32,
-    #[serde(rename = "tokenInfoLocation")]
+    #[serde(rename = "tokenInfoLocation", default)]
     pub token_info_location: i32,
-    #[serde(rename = "tokenShortCutId")]
+    #[serde(rename = "tokenShortCutId", default)]
     pub token_short_cut_id: i32,
-    #[serde(rename = "tokenTitleLocalTextId")]
+    #[serde(rename = "tokenTitleLocalTextId", default)]
     pub token_title_local_text_id: i32,
 }
 

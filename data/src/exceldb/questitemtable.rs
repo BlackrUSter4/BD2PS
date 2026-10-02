@@ -7,19 +7,19 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Questitemtable {
-    #[serde(rename = "iconSpriteName")]
+    #[serde(rename = "iconSpriteName", default)]
     pub icon_sprite_name: String,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "itemDescNameTextId")]
+    #[serde(rename = "itemDescNameTextId", default)]
     pub item_desc_name_text_id: i32,
-    #[serde(rename = "itemNameTextId")]
+    #[serde(rename = "itemNameTextId", default)]
     pub item_name_text_id: i32,
-    #[serde(rename = "notTrash")]
+    #[serde(rename = "notTrash", default)]
     pub not_trash: i32,
-    #[serde(rename = "stackCount")]
+    #[serde(rename = "stackCount", default)]
     pub stack_count: i32,
-    #[serde(rename = "itemAcquireNameTextId")]
+    #[serde(rename = "itemAcquireNameTextId", default)]
     pub item_acquire_name_text_id: Option<i32>,
 }
 

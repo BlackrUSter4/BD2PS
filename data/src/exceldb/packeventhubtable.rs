@@ -7,49 +7,49 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Packeventhubtable {
-    #[serde(rename = "archivingSortId")]
+    #[serde(rename = "archivingSortId", default)]
     pub archiving_sort_id: i32,
-    #[serde(rename = "atlasName")]
+    #[serde(rename = "atlasName", default)]
     pub atlas_name: String,
-    #[serde(rename = "bgmName")]
+    #[serde(rename = "bgmName", default)]
     pub bgm_name: String,
-    #[serde(rename = "collaboId")]
+    #[serde(rename = "collaboId", default)]
     pub collabo_id: Option<i32>,
-    #[serde(rename = "contentGenreId")]
+    #[serde(rename = "contentGenreId", default)]
     pub content_genre_id: Option<Vec<i32>>,
-    #[serde(rename = "eventBgIllustName")]
+    #[serde(rename = "eventBgIllustName", default)]
     pub event_bg_illust_name: String,
-    #[serde(rename = "eventLogoName")]
+    #[serde(rename = "eventLogoName", default)]
     pub event_logo_name: String,
-    #[serde(rename = "eventNameTextId")]
+    #[serde(rename = "eventNameTextId", default)]
     pub event_name_text_id: i32,
-    #[serde(rename = "eventResourceId")]
+    #[serde(rename = "eventResourceId", default)]
     pub event_resource_id: i32,
-    #[serde(rename = "fakePackId")]
+    #[serde(rename = "fakePackId", default)]
     pub fake_pack_id: i32,
-    #[serde(rename = "guideDescTextId")]
+    #[serde(rename = "guideDescTextId", default)]
     pub guide_desc_text_id: Vec<i32>,
-    #[serde(rename = "guideTitleTextId")]
+    #[serde(rename = "guideTitleTextId", default)]
     pub guide_title_text_id: Vec<i32>,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "isHUD")]
+    #[serde(rename = "isHUD", default)]
     pub is_h_u_d: Option<i32>,
-    #[serde(rename = "label")]
+    #[serde(rename = "label", default)]
     pub label: String,
-    #[serde(rename = "packBannerName")]
+    #[serde(rename = "packBannerName", default)]
     pub pack_banner_name: String,
-    #[serde(rename = "packCoverName")]
+    #[serde(rename = "packCoverName", default)]
     pub pack_cover_name: Option<String>,
-    #[serde(rename = "packId")]
+    #[serde(rename = "packId", default)]
     pub pack_id: i32,
-    #[serde(rename = "storyGroupId")]
+    #[serde(rename = "storyGroupId", default)]
     pub story_group_id: Option<i32>,
-    #[serde(rename = "storySynopsisQuestTextId")]
+    #[serde(rename = "storySynopsisQuestTextId", default)]
     pub story_synopsis_quest_text_id: Option<i32>,
-    #[serde(rename = "hubType")]
+    #[serde(rename = "hubType", default)]
     pub hub_type: Option<i32>,
-    #[serde(rename = "loadingPageName")]
+    #[serde(rename = "loadingPageName", default)]
     pub loading_page_name: Option<String>,
 }
 

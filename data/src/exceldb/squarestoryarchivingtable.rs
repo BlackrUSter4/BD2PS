@@ -7,11 +7,11 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Squarestoryarchivingtable {
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "packId")]
+    #[serde(rename = "packId", default)]
     pub pack_id: Vec<i32>,
-    #[serde(rename = "storyArchivingTableName")]
+    #[serde(rename = "storyArchivingTableName", default)]
     pub story_archiving_table_name: Vec<String>,
 }
 

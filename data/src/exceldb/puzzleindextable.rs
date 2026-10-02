@@ -7,9 +7,9 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Puzzleindextable {
-    #[serde(rename = "Word")]
+    #[serde(rename = "Word", default)]
     pub word: String,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
 }
 

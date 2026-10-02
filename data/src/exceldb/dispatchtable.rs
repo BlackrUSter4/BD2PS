@@ -7,23 +7,23 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Dispatchtable {
-    #[serde(rename = "dispatchEndLocalTextId")]
+    #[serde(rename = "dispatchEndLocalTextId", default)]
     pub dispatch_end_local_text_id: i32,
-    #[serde(rename = "dispatchLevel")]
+    #[serde(rename = "dispatchLevel", default)]
     pub dispatch_level: i32,
-    #[serde(rename = "dispatchLocalTextId")]
+    #[serde(rename = "dispatchLocalTextId", default)]
     pub dispatch_local_text_id: i32,
-    #[serde(rename = "dispatchTime")]
+    #[serde(rename = "dispatchTime", default)]
     pub dispatch_time: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "nameTextId")]
+    #[serde(rename = "nameTextId", default)]
     pub name_text_id: i32,
-    #[serde(rename = "prefabName")]
+    #[serde(rename = "prefabName", default)]
     pub prefab_name: String,
-    #[serde(rename = "rewardGroupId")]
+    #[serde(rename = "rewardGroupId", default)]
     pub reward_group_id: i32,
-    #[serde(rename = "spriteName")]
+    #[serde(rename = "spriteName", default)]
     pub sprite_name: String,
 }
 

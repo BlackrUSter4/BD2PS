@@ -7,15 +7,15 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Equipmentoptionrerolltable {
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "lockItemCount")]
+    #[serde(rename = "lockItemCount", default)]
     pub lock_item_count: Vec<i32>,
-    #[serde(rename = "rerollItemCount")]
+    #[serde(rename = "rerollItemCount", default)]
     pub reroll_item_count: Vec<i32>,
-    #[serde(rename = "rerollItemId")]
+    #[serde(rename = "rerollItemId", default)]
     pub reroll_item_id: Vec<i32>,
-    #[serde(rename = "rerollItemType")]
+    #[serde(rename = "rerollItemType", default)]
     pub reroll_item_type: Vec<i32>,
 }
 

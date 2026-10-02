@@ -7,25 +7,25 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Equipmentgrowthtable {
-    #[serde(rename = "breakResultItemCount")]
+    #[serde(rename = "breakResultItemCount", default)]
     pub break_result_item_count: Vec<i32>,
-    #[serde(rename = "breakResultItemId")]
+    #[serde(rename = "breakResultItemId", default)]
     pub break_result_item_id: Vec<i32>,
-    #[serde(rename = "breakResultItemType")]
+    #[serde(rename = "breakResultItemType", default)]
     pub break_result_item_type: Vec<i32>,
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "growthPoint")]
+    #[serde(rename = "growthPoint", default)]
     pub growth_point: i32,
     #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "upgradeItemCount")]
+    #[serde(rename = "upgradeItemCount", default)]
     pub upgrade_item_count: Vec<i32>,
-    #[serde(rename = "upgradeItemId")]
+    #[serde(rename = "upgradeItemId", default)]
     pub upgrade_item_id: Vec<i32>,
-    #[serde(rename = "upgradeItemType")]
+    #[serde(rename = "upgradeItemType", default)]
     pub upgrade_item_type: Vec<i32>,
-    #[serde(rename = "upgradeSuccessRatio")]
+    #[serde(rename = "upgradeSuccessRatio", default)]
     pub upgrade_success_ratio: Option<f32>,
 }
 

@@ -7,23 +7,23 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Equipmentoptiontable {
-    #[serde(rename = "defaultValue")]
+    #[serde(rename = "defaultValue", default)]
     pub default_value: f32,
-    #[serde(rename = "getRatio")]
+    #[serde(rename = "getRatio", default)]
     pub get_ratio: i32,
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "growthValue")]
+    #[serde(rename = "growthValue", default)]
     pub growth_value: Option<f32>,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "levelValue")]
+    #[serde(rename = "levelValue", default)]
     pub level_value: Option<Vec<f32>>,
-    #[serde(rename = "rankValue1")]
+    #[serde(rename = "rankValue1", default)]
     pub rank_value1: Option<Vec<f32>>,
-    #[serde(rename = "rankValue2")]
+    #[serde(rename = "rankValue2", default)]
     pub rank_value2: Option<Vec<f32>>,
-    #[serde(rename = "rankValue3")]
+    #[serde(rename = "rankValue3", default)]
     pub rank_value3: Option<Vec<f32>>,
 }
 

@@ -7,9 +7,9 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Collabotable {
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "nameTextId")]
+    #[serde(rename = "nameTextId", default)]
     pub name_text_id: String,
 }
 

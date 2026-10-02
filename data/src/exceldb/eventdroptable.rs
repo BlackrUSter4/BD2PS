@@ -7,19 +7,19 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Eventdroptable {
-    #[serde(rename = "eventNameLocalTextId")]
+    #[serde(rename = "eventNameLocalTextId", default)]
     pub event_name_local_text_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "packId")]
+    #[serde(rename = "packId", default)]
     pub pack_id: Vec<i32>,
-    #[serde(rename = "ratio")]
+    #[serde(rename = "ratio", default)]
     pub ratio: i32,
-    #[serde(rename = "rewardItemCount")]
+    #[serde(rename = "rewardItemCount", default)]
     pub reward_item_count: i32,
-    #[serde(rename = "rewardItemId")]
+    #[serde(rename = "rewardItemId", default)]
     pub reward_item_id: i32,
-    #[serde(rename = "rewardItemType")]
+    #[serde(rename = "rewardItemType", default)]
     pub reward_item_type: i32,
 }
 

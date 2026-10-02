@@ -7,13 +7,13 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Characterquickuitable {
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "quickUi")]
+    #[serde(rename = "quickUi", default)]
     pub quick_ui: i32,
-    #[serde(rename = "quickUiLocalTextId")]
+    #[serde(rename = "quickUiLocalTextId", default)]
     pub quick_ui_local_text_id: i32,
-    #[serde(rename = "quickUiSpriteName")]
+    #[serde(rename = "quickUiSpriteName", default)]
     pub quick_ui_sprite_name: String,
 }
 

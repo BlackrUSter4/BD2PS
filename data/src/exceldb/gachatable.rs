@@ -7,25 +7,25 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Gachatable {
-    #[serde(rename = "dailyPayGachaCount")]
+    #[serde(rename = "dailyPayGachaCount", default)]
     pub daily_pay_gacha_count: Option<i32>,
-    #[serde(rename = "dailyPayGachaPriceCount")]
+    #[serde(rename = "dailyPayGachaPriceCount", default)]
     pub daily_pay_gacha_price_count: Option<i32>,
-    #[serde(rename = "freeCountDay")]
+    #[serde(rename = "freeCountDay", default)]
     pub free_count_day: Option<i32>,
-    #[serde(rename = "gachaCount")]
+    #[serde(rename = "gachaCount", default)]
     pub gacha_count: i32,
-    #[serde(rename = "gachaLocalTextId")]
+    #[serde(rename = "gachaLocalTextId", default)]
     pub gacha_local_text_id: i32,
-    #[serde(rename = "gachaRewardId")]
+    #[serde(rename = "gachaRewardId", default)]
     pub gacha_reward_id: i32,
-    #[serde(rename = "gachaTicketId")]
+    #[serde(rename = "gachaTicketId", default)]
     pub gacha_ticket_id: Vec<i32>,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "priceCount")]
+    #[serde(rename = "priceCount", default)]
     pub price_count: Option<i32>,
-    #[serde(rename = "priceType")]
+    #[serde(rename = "priceType", default)]
     pub price_type: Option<i32>,
 }
 

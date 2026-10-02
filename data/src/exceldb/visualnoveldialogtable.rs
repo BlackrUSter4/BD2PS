@@ -7,39 +7,39 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Visualnoveldialogtable {
-    #[serde(rename = "VoiceResourceName")]
+    #[serde(rename = "VoiceResourceName", default)]
     pub voice_resource_name: Option<String>,
-    #[serde(rename = "bgIllust")]
+    #[serde(rename = "bgIllust", default)]
     pub bg_illust: Option<String>,
-    #[serde(rename = "cameraFocusNum")]
+    #[serde(rename = "cameraFocusNum", default)]
     pub camera_focus_num: Option<i32>,
-    #[serde(rename = "charAction")]
+    #[serde(rename = "charAction", default)]
     pub char_action: Vec<i32>,
-    #[serde(rename = "charFace")]
+    #[serde(rename = "charFace", default)]
     pub char_face: Vec<String>,
-    #[serde(rename = "costumeDesignId")]
+    #[serde(rename = "costumeDesignId", default)]
     pub costume_design_id: Vec<i32>,
-    #[serde(rename = "faceIllustName")]
+    #[serde(rename = "faceIllustName", default)]
     pub face_illust_name: Option<String>,
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "nameTextId")]
+    #[serde(rename = "nameTextId", default)]
     pub name_text_id: Option<i32>,
-    #[serde(rename = "selectDialogId")]
+    #[serde(rename = "selectDialogId", default)]
     pub select_dialog_id: Option<i32>,
-    #[serde(rename = "soundEventId")]
+    #[serde(rename = "soundEventId", default)]
     pub sound_event_id: Option<i32>,
-    #[serde(rename = "specialEvent")]
+    #[serde(rename = "specialEvent", default)]
     pub special_event: Option<i32>,
-    #[serde(rename = "specialIllust")]
+    #[serde(rename = "specialIllust", default)]
     pub special_illust: Option<String>,
-    #[serde(rename = "storyTextId")]
+    #[serde(rename = "storyTextId", default)]
     pub story_text_id: Option<i32>,
-    #[serde(rename = "talkCharNum")]
+    #[serde(rename = "talkCharNum", default)]
     pub talk_char_num: i32,
-    #[serde(rename = "type")]
+    #[serde(rename = "type", default)]
     pub r#type: Option<i32>,
 }
 

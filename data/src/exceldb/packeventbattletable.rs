@@ -7,25 +7,25 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Packeventbattletable {
-    #[serde(rename = "battleDeckId")]
+    #[serde(rename = "battleDeckId", default)]
     pub battle_deck_id: i32,
-    #[serde(rename = "battlePower")]
+    #[serde(rename = "battlePower", default)]
     pub battle_power: i32,
-    #[serde(rename = "eventApCount")]
+    #[serde(rename = "eventApCount", default)]
     pub event_ap_count: i32,
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "isFixedCamera")]
+    #[serde(rename = "isFixedCamera", default)]
     pub is_fixed_camera: Option<i32>,
-    #[serde(rename = "quickBattlePossible")]
+    #[serde(rename = "quickBattlePossible", default)]
     pub quick_battle_possible: Option<i32>,
-    #[serde(rename = "repeatRewardCount")]
+    #[serde(rename = "repeatRewardCount", default)]
     pub repeat_reward_count: Vec<i32>,
-    #[serde(rename = "repeatRewardType")]
+    #[serde(rename = "repeatRewardType", default)]
     pub repeat_reward_type: Vec<i32>,
-    #[serde(rename = "repeatRewardid")]
+    #[serde(rename = "repeatRewardid", default)]
     pub repeat_rewardid: Vec<i32>,
 }
 

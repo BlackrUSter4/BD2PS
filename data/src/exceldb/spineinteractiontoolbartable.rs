@@ -7,9 +7,9 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Spineinteractiontoolbartable {
-    #[serde(rename = "IconSpriteName")]
+    #[serde(rename = "IconSpriteName", default)]
     pub icon_sprite_name: String,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: Option<i32>,
 }
 

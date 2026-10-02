@@ -7,17 +7,17 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Charawakegrowthtable {
-    #[serde(rename = "growthItemCount")]
+    #[serde(rename = "growthItemCount", default)]
     pub growth_item_count: Option<Vec<i32>>,
-    #[serde(rename = "growthItemId")]
+    #[serde(rename = "growthItemId", default)]
     pub growth_item_id: Option<Vec<i32>>,
-    #[serde(rename = "growthItemType")]
+    #[serde(rename = "growthItemType", default)]
     pub growth_item_type: Option<Vec<i32>>,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "statType")]
+    #[serde(rename = "statType", default)]
     pub stat_type: i32,
-    #[serde(rename = "statValue")]
+    #[serde(rename = "statValue", default)]
     pub stat_value: f32,
 }
 

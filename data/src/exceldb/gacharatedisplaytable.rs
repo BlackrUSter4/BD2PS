@@ -7,17 +7,17 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Gacharatedisplaytable {
-    #[serde(rename = "displayRate")]
+    #[serde(rename = "displayRate", default)]
     pub display_rate: f32,
-    #[serde(rename = "gachaGroupId")]
+    #[serde(rename = "gachaGroupId", default)]
     pub gacha_group_id: i32,
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "nameLocalText")]
+    #[serde(rename = "nameLocalText", default)]
     pub name_local_text: i32,
-    #[serde(rename = "type")]
+    #[serde(rename = "type", default)]
     pub r#type: i32,
 }
 

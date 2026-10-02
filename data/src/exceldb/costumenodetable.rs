@@ -7,61 +7,61 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Costumenodetable {
-    #[serde(rename = "activeItemCount")]
+    #[serde(rename = "activeItemCount", default)]
     pub active_item_count: Vec<i32>,
-    #[serde(rename = "activeItemId")]
+    #[serde(rename = "activeItemId", default)]
     pub active_item_id: Vec<i32>,
-    #[serde(rename = "activeItemType")]
+    #[serde(rename = "activeItemType", default)]
     pub active_item_type: Vec<i32>,
-    #[serde(rename = "addBuffId")]
+    #[serde(rename = "addBuffId", default)]
     pub add_buff_id: Option<i32>,
-    #[serde(rename = "addBuffModifyBuffMagicValue")]
+    #[serde(rename = "addBuffModifyBuffMagicValue", default)]
     pub add_buff_modify_buff_magic_value: Option<f32>,
-    #[serde(rename = "addBuffModifyBuffTurn")]
+    #[serde(rename = "addBuffModifyBuffTurn", default)]
     pub add_buff_modify_buff_turn: Option<i32>,
-    #[serde(rename = "addBuffModifyBuffValue")]
+    #[serde(rename = "addBuffModifyBuffValue", default)]
     pub add_buff_modify_buff_value: Option<f32>,
-    #[serde(rename = "addBuffOrder")]
+    #[serde(rename = "addBuffOrder", default)]
     pub add_buff_order: Option<i32>,
-    #[serde(rename = "addBuffTextOrder")]
+    #[serde(rename = "addBuffTextOrder", default)]
     pub add_buff_text_order: Option<i32>,
-    #[serde(rename = "attackRange")]
+    #[serde(rename = "attackRange", default)]
     pub attack_range: Option<i32>,
-    #[serde(rename = "attackRangeCount")]
+    #[serde(rename = "attackRangeCount", default)]
     pub attack_range_count: Option<i32>,
-    #[serde(rename = "conditionAddBuffModifyBuffOrder")]
+    #[serde(rename = "conditionAddBuffModifyBuffOrder", default)]
     pub condition_add_buff_modify_buff_order: Option<i32>,
-    #[serde(rename = "conditionAddBuffModifyBuffTurn")]
+    #[serde(rename = "conditionAddBuffModifyBuffTurn", default)]
     pub condition_add_buff_modify_buff_turn: Option<i32>,
-    #[serde(rename = "conditionAddBuffModifyBuffValue")]
+    #[serde(rename = "conditionAddBuffModifyBuffValue", default)]
     pub condition_add_buff_modify_buff_value: Option<f32>,
-    #[serde(rename = "conditionGrade")]
+    #[serde(rename = "conditionGrade", default)]
     pub condition_grade: Option<i32>,
-    #[serde(rename = "conditionNodeId")]
+    #[serde(rename = "conditionNodeId", default)]
     pub condition_node_id: Option<Vec<i32>>,
-    #[serde(rename = "cooldownDecreaseValue")]
+    #[serde(rename = "cooldownDecreaseValue", default)]
     pub cooldown_decrease_value: Option<i32>,
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "modifyBuffMagicValue")]
+    #[serde(rename = "modifyBuffMagicValue", default)]
     pub modify_buff_magic_value: Option<f32>,
-    #[serde(rename = "modifyBuffOrder")]
+    #[serde(rename = "modifyBuffOrder", default)]
     pub modify_buff_order: Option<i32>,
-    #[serde(rename = "modifyBuffTurn")]
+    #[serde(rename = "modifyBuffTurn", default)]
     pub modify_buff_turn: Option<i32>,
-    #[serde(rename = "modifyBuffValue")]
+    #[serde(rename = "modifyBuffValue", default)]
     pub modify_buff_value: Option<f32>,
-    #[serde(rename = "nodeGroupType")]
+    #[serde(rename = "nodeGroupType", default)]
     pub node_group_type: i32,
-    #[serde(rename = "nodeType")]
+    #[serde(rename = "nodeType", default)]
     pub node_type: i32,
-    #[serde(rename = "spDecreaseValue")]
+    #[serde(rename = "spDecreaseValue", default)]
     pub sp_decrease_value: Option<i32>,
-    #[serde(rename = "statType")]
+    #[serde(rename = "statType", default)]
     pub stat_type: Option<i32>,
-    #[serde(rename = "statValue")]
+    #[serde(rename = "statValue", default)]
     pub stat_value: Option<f32>,
 }
 

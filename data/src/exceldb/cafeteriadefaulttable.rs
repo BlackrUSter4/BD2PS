@@ -6,61 +6,61 @@ use anyhow::Result;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Cafeteriadefaulttable {
-    #[serde(rename = "NpcSpawnDistance")]
+    #[serde(rename = "NpcSpawnDistance", default)]
     pub npc_spawn_distance: i32,
-    #[serde(rename = "basicInteractionMaxCount")]
+    #[serde(rename = "basicInteractionMaxCount", default)]
     pub basic_interaction_max_count: i32,
-    #[serde(rename = "basicInteractionTerm")]
+    #[serde(rename = "basicInteractionTerm", default)]
     pub basic_interaction_term: i32,
-    #[serde(rename = "bubbleDuration")]
+    #[serde(rename = "bubbleDuration", default)]
     pub bubble_duration: i32,
-    #[serde(rename = "bubbleMaxCount")]
+    #[serde(rename = "bubbleMaxCount", default)]
     pub bubble_max_count: i32,
-    #[serde(rename = "cafeteriaGuideId")]
+    #[serde(rename = "cafeteriaGuideId", default)]
     pub cafeteria_guide_id: i32,
-    #[serde(rename = "cafeteriaNoteConditionValue")]
+    #[serde(rename = "cafeteriaNoteConditionValue", default)]
     pub cafeteria_note_condition_value: i32,
-    #[serde(rename = "dailyShopCurrencyLimit")]
+    #[serde(rename = "dailyShopCurrencyLimit", default)]
     pub daily_shop_currency_limit: i32,
-    #[serde(rename = "defaultBasicInterationCount")]
+    #[serde(rename = "defaultBasicInterationCount", default)]
     pub default_basic_interation_count: i32,
-    #[serde(rename = "defaultUniqueInterationCount")]
+    #[serde(rename = "defaultUniqueInterationCount", default)]
     pub default_unique_interation_count: i32,
-    #[serde(rename = "eventRewardType")]
+    #[serde(rename = "eventRewardType", default)]
     pub event_reward_type: i32,
-    #[serde(rename = "interactionIgonoreTime")]
+    #[serde(rename = "interactionIgonoreTime", default)]
     pub interaction_igonore_time: i32,
-    #[serde(rename = "lowMemSpawnCount")]
+    #[serde(rename = "lowMemSpawnCount", default)]
     pub low_mem_spawn_count: i32,
-    #[serde(rename = "maxRewardTime")]
+    #[serde(rename = "maxRewardTime", default)]
     pub max_reward_time: i32,
-    #[serde(rename = "minRewardTime")]
+    #[serde(rename = "minRewardTime", default)]
     pub min_reward_time: i32,
-    #[serde(rename = "normalMemSpawnCount")]
+    #[serde(rename = "normalMemSpawnCount", default)]
     pub normal_mem_spawn_count: i32,
-    #[serde(rename = "noteRewardType")]
+    #[serde(rename = "noteRewardType", default)]
     pub note_reward_type: i32,
-    #[serde(rename = "noteRewardValue")]
+    #[serde(rename = "noteRewardValue", default)]
     pub note_reward_value: i32,
-    #[serde(rename = "questNameTextId")]
+    #[serde(rename = "questNameTextId", default)]
     pub quest_name_text_id: i32,
-    #[serde(rename = "questSkipTextId")]
+    #[serde(rename = "questSkipTextId", default)]
     pub quest_skip_text_id: i32,
-    #[serde(rename = "startTimelineName")]
+    #[serde(rename = "startTimelineName", default)]
     pub start_timeline_name: String,
-    #[serde(rename = "startVisualNovelDialogId")]
+    #[serde(rename = "startVisualNovelDialogId", default)]
     pub start_visual_novel_dialog_id: i32,
-    #[serde(rename = "uniqueInteractionMaxCount")]
+    #[serde(rename = "uniqueInteractionMaxCount", default)]
     pub unique_interaction_max_count: i32,
-    #[serde(rename = "uniqueInteractionTerm")]
+    #[serde(rename = "uniqueInteractionTerm", default)]
     pub unique_interaction_term: i32,
-    #[serde(rename = "visualNovelEndRewardCount")]
+    #[serde(rename = "visualNovelEndRewardCount", default)]
     pub visual_novel_end_reward_count: i32,
-    #[serde(rename = "visualNovelEndRewardId")]
+    #[serde(rename = "visualNovelEndRewardId", default)]
     pub visual_novel_end_reward_id: i32,
-    #[serde(rename = "visualNovelEndRewardType")]
+    #[serde(rename = "visualNovelEndRewardType", default)]
     pub visual_novel_end_reward_type: i32,
-    #[serde(rename = "questTitleQuestTextId")]
+    #[serde(rename = "questTitleQuestTextId", default)]
     pub quest_title_quest_text_id: Option<i32>,
 }
 

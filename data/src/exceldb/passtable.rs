@@ -7,39 +7,39 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Passtable {
-    #[serde(rename = "bannerFontLocalTextId")]
+    #[serde(rename = "bannerFontLocalTextId", default)]
     pub banner_font_local_text_id: i32,
-    #[serde(rename = "coreRewardCount")]
+    #[serde(rename = "coreRewardCount", default)]
     pub core_reward_count: Option<i32>,
-    #[serde(rename = "coreRewardId")]
+    #[serde(rename = "coreRewardId", default)]
     pub core_reward_id: Option<i32>,
-    #[serde(rename = "coreRewardType")]
+    #[serde(rename = "coreRewardType", default)]
     pub core_reward_type: Option<i32>,
-    #[serde(rename = "expEventMissionGroupId")]
+    #[serde(rename = "expEventMissionGroupId", default)]
     pub exp_event_mission_group_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "isShowCoreReward")]
+    #[serde(rename = "isShowCoreReward", default)]
     pub is_show_core_reward: Option<i32>,
-    #[serde(rename = "mainBannerName")]
+    #[serde(rename = "mainBannerName", default)]
     pub main_banner_name: String,
-    #[serde(rename = "newbiePassGroupId")]
+    #[serde(rename = "newbiePassGroupId", default)]
     pub newbie_pass_group_id: Option<i32>,
-    #[serde(rename = "newbiePassStep")]
+    #[serde(rename = "newbiePassStep", default)]
     pub newbie_pass_step: Option<i32>,
-    #[serde(rename = "passLevelGroupId")]
+    #[serde(rename = "passLevelGroupId", default)]
     pub pass_level_group_id: i32,
-    #[serde(rename = "passNameTextId")]
+    #[serde(rename = "passNameTextId", default)]
     pub pass_name_text_id: i32,
-    #[serde(rename = "passType")]
+    #[serde(rename = "passType", default)]
     pub pass_type: Option<i32>,
-    #[serde(rename = "prefabName")]
+    #[serde(rename = "prefabName", default)]
     pub prefab_name: String,
-    #[serde(rename = "scheduleType")]
+    #[serde(rename = "scheduleType", default)]
     pub schedule_type: Option<i32>,
-    #[serde(rename = "sortId")]
+    #[serde(rename = "sortId", default)]
     pub sort_id: Option<i32>,
-    #[serde(rename = "subBannerName")]
+    #[serde(rename = "subBannerName", default)]
     pub sub_banner_name: String,
 }
 

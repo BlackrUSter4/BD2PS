@@ -7,19 +7,19 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Titleitemtable {
-    #[serde(rename = "grade")]
+    #[serde(rename = "grade", default)]
     pub grade: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "titleItemName")]
+    #[serde(rename = "titleItemName", default)]
     pub title_item_name: String,
-    #[serde(rename = "titleMissionTextId")]
+    #[serde(rename = "titleMissionTextId", default)]
     pub title_mission_text_id: i32,
-    #[serde(rename = "titleNameTextId")]
+    #[serde(rename = "titleNameTextId", default)]
     pub title_name_text_id: String,
-    #[serde(rename = "titleSortNumber")]
+    #[serde(rename = "titleSortNumber", default)]
     pub title_sort_number: i32,
-    #[serde(rename = "type")]
+    #[serde(rename = "type", default)]
     pub r#type: Option<i32>,
 }
 

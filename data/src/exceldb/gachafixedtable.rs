@@ -7,17 +7,17 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Gachafixedtable {
-    #[serde(rename = "g3EquipFixedCount")]
+    #[serde(rename = "g3EquipFixedCount", default)]
     pub g3_equip_fixed_count: Option<i32>,
-    #[serde(rename = "g4CostumeFixedCount")]
+    #[serde(rename = "g4CostumeFixedCount", default)]
     pub g4_costume_fixed_count: Option<i32>,
-    #[serde(rename = "g4EquipFixedCount")]
+    #[serde(rename = "g4EquipFixedCount", default)]
     pub g4_equip_fixed_count: Option<i32>,
-    #[serde(rename = "g5CostumeFixedCount")]
+    #[serde(rename = "g5CostumeFixedCount", default)]
     pub g5_costume_fixed_count: Option<i32>,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "isResetFixedCount")]
+    #[serde(rename = "isResetFixedCount", default)]
     pub is_reset_fixed_count: Option<i32>,
 }
 

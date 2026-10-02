@@ -7,21 +7,21 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Monsterhuntrewardtable {
-    #[serde(rename = "dailyRewardCount")]
+    #[serde(rename = "dailyRewardCount", default)]
     pub daily_reward_count: Vec<i32>,
-    #[serde(rename = "dailyRewardId")]
+    #[serde(rename = "dailyRewardId", default)]
     pub daily_reward_id: Vec<i32>,
-    #[serde(rename = "dailyRewardType")]
+    #[serde(rename = "dailyRewardType", default)]
     pub daily_reward_type: Vec<i32>,
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "level")]
+    #[serde(rename = "level", default)]
     pub level: i32,
-    #[serde(rename = "rewardCount")]
+    #[serde(rename = "rewardCount", default)]
     pub reward_count: Vec<i32>,
-    #[serde(rename = "rewardId")]
+    #[serde(rename = "rewardId", default)]
     pub reward_id: Vec<i32>,
-    #[serde(rename = "rewardType")]
+    #[serde(rename = "rewardType", default)]
     pub reward_type: Vec<i32>,
 }
 

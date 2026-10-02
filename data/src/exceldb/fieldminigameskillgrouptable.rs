@@ -7,21 +7,21 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Fieldminigameskillgrouptable {
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "maxLevel")]
+    #[serde(rename = "maxLevel", default)]
     pub max_level: i32,
-    #[serde(rename = "skillNameTextId")]
+    #[serde(rename = "skillNameTextId", default)]
     pub skill_name_text_id: i32,
-    #[serde(rename = "skillSubType")]
+    #[serde(rename = "skillSubType", default)]
     pub skill_sub_type: i32,
-    #[serde(rename = "skillType")]
+    #[serde(rename = "skillType", default)]
     pub skill_type: Option<i32>,
-    #[serde(rename = "targetType")]
+    #[serde(rename = "targetType", default)]
     pub target_type: Option<i32>,
-    #[serde(rename = "uniqueCharGroupId")]
+    #[serde(rename = "uniqueCharGroupId", default)]
     pub unique_char_group_id: Option<i32>,
-    #[serde(rename = "upgradeSynergyId")]
+    #[serde(rename = "upgradeSynergyId", default)]
     pub upgrade_synergy_id: Option<i32>,
 }
 

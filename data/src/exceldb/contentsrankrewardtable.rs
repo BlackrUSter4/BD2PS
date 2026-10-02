@@ -7,19 +7,19 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Contentsrankrewardtable {
-    #[serde(rename = "contentsType")]
+    #[serde(rename = "contentsType", default)]
     pub contents_type: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "rank")]
+    #[serde(rename = "rank", default)]
     pub rank: i32,
-    #[serde(rename = "rewardCount")]
+    #[serde(rename = "rewardCount", default)]
     pub reward_count: Vec<i32>,
-    #[serde(rename = "rewardId")]
+    #[serde(rename = "rewardId", default)]
     pub reward_id: Vec<i32>,
-    #[serde(rename = "rewardType")]
+    #[serde(rename = "rewardType", default)]
     pub reward_type: Vec<i32>,
-    #[serde(rename = "season")]
+    #[serde(rename = "season", default)]
     pub season: Option<i32>,
 }
 

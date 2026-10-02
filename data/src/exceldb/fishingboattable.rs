@@ -7,13 +7,13 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Fishingboattable {
-    #[serde(rename = "boatBuffGroupId")]
+    #[serde(rename = "boatBuffGroupId", default)]
     pub boat_buff_group_id: Vec<i32>,
-    #[serde(rename = "costType")]
+    #[serde(rename = "costType", default)]
     pub cost_type: i32,
-    #[serde(rename = "designId")]
+    #[serde(rename = "designId", default)]
     pub design_id: Vec<i32>,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
 }
 

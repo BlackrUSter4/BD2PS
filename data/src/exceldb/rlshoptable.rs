@@ -7,19 +7,19 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Rlshoptable {
-    #[serde(rename = "haveCharCostumeSlotOption")]
+    #[serde(rename = "haveCharCostumeSlotOption", default)]
     pub have_char_costume_slot_option: Vec<i32>,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "rerollExpensive")]
+    #[serde(rename = "rerollExpensive", default)]
     pub reroll_expensive: i32,
-    #[serde(rename = "rerollNameTextId")]
+    #[serde(rename = "rerollNameTextId", default)]
     pub reroll_name_text_id: i32,
-    #[serde(rename = "rerollPrice")]
+    #[serde(rename = "rerollPrice", default)]
     pub reroll_price: i32,
-    #[serde(rename = "sellRelicChoiceTableId")]
+    #[serde(rename = "sellRelicChoiceTableId", default)]
     pub sell_relic_choice_table_id: i32,
-    #[serde(rename = "sellRelicCount")]
+    #[serde(rename = "sellRelicCount", default)]
     pub sell_relic_count: i32,
 }
 

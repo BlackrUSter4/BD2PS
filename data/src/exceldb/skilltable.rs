@@ -7,39 +7,39 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Skilltable {
-    #[serde(rename = "attackMoveType")]
+    #[serde(rename = "attackMoveType", default)]
     pub attack_move_type: Option<i32>,
-    #[serde(rename = "attackRange")]
+    #[serde(rename = "attackRange", default)]
     pub attack_range: Option<i32>,
-    #[serde(rename = "attackRangeCount")]
+    #[serde(rename = "attackRangeCount", default)]
     pub attack_range_count: i32,
-    #[serde(rename = "attackType")]
+    #[serde(rename = "attackType", default)]
     pub attack_type: Option<i32>,
-    #[serde(rename = "buffId")]
+    #[serde(rename = "buffId", default)]
     pub buff_id: Option<Vec<i32>>,
-    #[serde(rename = "cooldown")]
+    #[serde(rename = "cooldown", default)]
     pub cooldown: Option<i32>,
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: Option<i32>,
     #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "mainTargetType")]
+    #[serde(rename = "mainTargetType", default)]
     pub main_target_type: Option<i32>,
-    #[serde(rename = "mainTargetValue")]
+    #[serde(rename = "mainTargetValue", default)]
     pub main_target_value: Option<i32>,
-    #[serde(rename = "repeatCount")]
+    #[serde(rename = "repeatCount", default)]
     pub repeat_count: i32,
-    #[serde(rename = "skillDescSkillTextId")]
+    #[serde(rename = "skillDescSkillTextId", default)]
     pub skill_desc_skill_text_id: i32,
-    #[serde(rename = "skillDesignId")]
+    #[serde(rename = "skillDesignId", default)]
     pub skill_design_id: Option<i32>,
-    #[serde(rename = "skillNameSkillTextId")]
+    #[serde(rename = "skillNameSkillTextId", default)]
     pub skill_name_skill_text_id: i32,
-    #[serde(rename = "skillUseRate")]
+    #[serde(rename = "skillUseRate", default)]
     pub skill_use_rate: f32,
-    #[serde(rename = "spReqCount")]
+    #[serde(rename = "spReqCount", default)]
     pub sp_req_count: Option<i32>,
-    #[serde(rename = "targetType")]
+    #[serde(rename = "targetType", default)]
     pub target_type: Option<i32>,
 }
 

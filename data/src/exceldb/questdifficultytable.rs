@@ -7,11 +7,11 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Questdifficultytable {
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "recommendGrowthPoint")]
+    #[serde(rename = "recommendGrowthPoint", default)]
     pub recommend_growth_point: i32,
 }
 

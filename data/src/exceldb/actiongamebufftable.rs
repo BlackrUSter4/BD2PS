@@ -7,27 +7,27 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Actiongamebufftable {
-    #[serde(rename = "buffActiveType")]
+    #[serde(rename = "buffActiveType", default)]
     pub buff_active_type: i32,
-    #[serde(rename = "buffApplyType")]
+    #[serde(rename = "buffApplyType", default)]
     pub buff_apply_type: i32,
-    #[serde(rename = "buffDescNameTextId")]
+    #[serde(rename = "buffDescNameTextId", default)]
     pub buff_desc_name_text_id: Option<i32>,
-    #[serde(rename = "buffEffectName")]
+    #[serde(rename = "buffEffectName", default)]
     pub buff_effect_name: Option<String>,
-    #[serde(rename = "buffNameTextId")]
+    #[serde(rename = "buffNameTextId", default)]
     pub buff_name_text_id: Option<i32>,
-    #[serde(rename = "buffSpriteName")]
+    #[serde(rename = "buffSpriteName", default)]
     pub buff_sprite_name: Option<String>,
-    #[serde(rename = "buffTime")]
+    #[serde(rename = "buffTime", default)]
     pub buff_time: f32,
-    #[serde(rename = "buffValue")]
+    #[serde(rename = "buffValue", default)]
     pub buff_value: Option<f32>,
-    #[serde(rename = "classType")]
+    #[serde(rename = "classType", default)]
     pub class_type: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "subMagicValue")]
+    #[serde(rename = "subMagicValue", default)]
     pub sub_magic_value: Option<Vec<f32>>,
 }
 

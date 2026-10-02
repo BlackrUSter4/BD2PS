@@ -7,33 +7,33 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Lobbysettingitemtable {
-    #[serde(rename = "iconSpriteName")]
+    #[serde(rename = "iconSpriteName", default)]
     pub icon_sprite_name: Vec<String>,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "interactionId")]
+    #[serde(rename = "interactionId", default)]
     pub interaction_id: Option<i32>,
-    #[serde(rename = "interactionResourceName")]
+    #[serde(rename = "interactionResourceName", default)]
     pub interaction_resource_name: Option<String>,
-    #[serde(rename = "itemNameTextId")]
+    #[serde(rename = "itemNameTextId", default)]
     pub item_name_text_id: Option<i32>,
-    #[serde(rename = "itemPath")]
+    #[serde(rename = "itemPath", default)]
     pub item_path: Option<Vec<String>>,
-    #[serde(rename = "packId")]
+    #[serde(rename = "packId", default)]
     pub pack_id: Option<i32>,
-    #[serde(rename = "prestigeSkinId")]
+    #[serde(rename = "prestigeSkinId", default)]
     pub prestige_skin_id: Option<i32>,
-    #[serde(rename = "provideType")]
+    #[serde(rename = "provideType", default)]
     pub provide_type: Option<i32>,
-    #[serde(rename = "type")]
+    #[serde(rename = "type", default)]
     pub r#type: i32,
-    #[serde(rename = "wallpaperBGFullPath")]
+    #[serde(rename = "wallpaperBGFullPath", default)]
     pub wallpaper_b_g_full_path: Option<Vec<String>>,
-    #[serde(rename = "wallpaperPath")]
+    #[serde(rename = "wallpaperPath", default)]
     pub wallpaper_path: Option<Vec<String>>,
-    #[serde(rename = "costumeId")]
+    #[serde(rename = "costumeId", default)]
     pub costume_id: Option<i32>,
-    #[serde(rename = "wallPaperBGLoadType")]
+    #[serde(rename = "wallPaperBGLoadType", default)]
     pub wall_paper_bg_load_type: Option<Vec<i32>>,
 }
 

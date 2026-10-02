@@ -6,15 +6,15 @@ use anyhow::Result;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Datingdefaulttable {
-    #[serde(rename = "datingApMax")]
+    #[serde(rename = "datingApMax", default)]
     pub dating_ap_max: i32,
-    #[serde(rename = "DailyPurchaseLimit")]
+    #[serde(rename = "DailyPurchaseLimit", default)]
     pub daily_purchase_limit: Option<i32>,
-    #[serde(rename = "PurchasePriceCount")]
+    #[serde(rename = "PurchasePriceCount", default)]
     pub purchase_price_count: Option<Vec<i32>>,
-    #[serde(rename = "PurchasePriceId")]
+    #[serde(rename = "PurchasePriceId", default)]
     pub purchase_price_id: Option<Vec<i32>>,
-    #[serde(rename = "PurchasePriceType")]
+    #[serde(rename = "PurchasePriceType", default)]
     pub purchase_price_type: Option<Vec<i32>>,
 }
 

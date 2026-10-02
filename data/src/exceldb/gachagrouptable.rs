@@ -7,73 +7,73 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Gachagrouptable {
-    #[serde(rename = "bannerFontLocalTextId")]
+    #[serde(rename = "bannerFontLocalTextId", default)]
     pub banner_font_local_text_id: Option<i32>,
-    #[serde(rename = "buyLimitCount")]
+    #[serde(rename = "buyLimitCount", default)]
     pub buy_limit_count: Option<i32>,
-    #[serde(rename = "descLocalTextId")]
+    #[serde(rename = "descLocalTextId", default)]
     pub desc_local_text_id: i32,
-    #[serde(rename = "endGetItemCount")]
+    #[serde(rename = "endGetItemCount", default)]
     pub end_get_item_count: Option<i32>,
-    #[serde(rename = "endGetItemType")]
+    #[serde(rename = "endGetItemType", default)]
     pub end_get_item_type: Option<i32>,
-    #[serde(rename = "fixedId")]
+    #[serde(rename = "fixedId", default)]
     pub fixed_id: Option<i32>,
-    #[serde(rename = "gachaBannerBg")]
+    #[serde(rename = "gachaBannerBg", default)]
     pub gacha_banner_bg: String,
-    #[serde(rename = "gachaBannerImage")]
+    #[serde(rename = "gachaBannerImage", default)]
     pub gacha_banner_image: String,
-    #[serde(rename = "gachaNameTextId")]
+    #[serde(rename = "gachaNameTextId", default)]
     pub gacha_name_text_id: i32,
-    #[serde(rename = "gachaSpineBg")]
+    #[serde(rename = "gachaSpineBg", default)]
     pub gacha_spine_bg: Option<String>,
-    #[serde(rename = "gachaSubType")]
+    #[serde(rename = "gachaSubType", default)]
     pub gacha_sub_type: Option<i32>,
-    #[serde(rename = "gachaType")]
+    #[serde(rename = "gachaType", default)]
     pub gacha_type: Option<i32>,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "isDisplayUiOwnGachaTicket")]
+    #[serde(rename = "isDisplayUiOwnGachaTicket", default)]
     pub is_display_ui_own_gacha_ticket: Option<i32>,
-    #[serde(rename = "isPickUpExchange")]
+    #[serde(rename = "isPickUpExchange", default)]
     pub is_pick_up_exchange: Option<i32>,
-    #[serde(rename = "isSelectedFromPity")]
+    #[serde(rename = "isSelectedFromPity", default)]
     pub is_selected_from_pity: Option<i32>,
-    #[serde(rename = "isSpecialSelectionGacha")]
+    #[serde(rename = "isSpecialSelectionGacha", default)]
     pub is_special_selection_gacha: Option<i32>,
-    #[serde(rename = "oneTimeGachaId")]
+    #[serde(rename = "oneTimeGachaId", default)]
     pub one_time_gacha_id: Option<i32>,
-    #[serde(rename = "pickUpExchangeCost")]
+    #[serde(rename = "pickUpExchangeCost", default)]
     pub pick_up_exchange_cost: Option<i32>,
-    #[serde(rename = "pickUpItemId")]
+    #[serde(rename = "pickUpItemId", default)]
     pub pick_up_item_id: Option<i32>,
-    #[serde(rename = "pointCount")]
+    #[serde(rename = "pointCount", default)]
     pub point_count: Option<i32>,
-    #[serde(rename = "scheduleType")]
+    #[serde(rename = "scheduleType", default)]
     pub schedule_type: Option<i32>,
-    #[serde(rename = "selectCount")]
+    #[serde(rename = "selectCount", default)]
     pub select_count: Option<i32>,
-    #[serde(rename = "selectionChangeCount")]
+    #[serde(rename = "selectionChangeCount", default)]
     pub selection_change_count: Option<i32>,
-    #[serde(rename = "selectionChoiceRate")]
+    #[serde(rename = "selectionChoiceRate", default)]
     pub selection_choice_rate: Option<i32>,
-    #[serde(rename = "sortId")]
+    #[serde(rename = "sortId", default)]
     pub sort_id: Option<i32>,
-    #[serde(rename = "tenTimeGachaId")]
+    #[serde(rename = "tenTimeGachaId", default)]
     pub ten_time_gacha_id: i32,
-    #[serde(rename = "useAccumulateRateLog")]
+    #[serde(rename = "useAccumulateRateLog", default)]
     pub use_accumulate_rate_log: Option<i32>,
-    #[serde(rename = "useGachaTicketOption")]
+    #[serde(rename = "useGachaTicketOption", default)]
     pub use_gacha_ticket_option: Option<i32>,
-    #[serde(rename = "useSelectionOnlyFixedApply")]
+    #[serde(rename = "useSelectionOnlyFixedApply", default)]
     pub use_selection_only_fixed_apply: Option<i32>,
-    #[serde(rename = "cashProductGroupId")]
+    #[serde(rename = "cashProductGroupId", default)]
     pub cash_product_group_id: Option<i32>,
-    #[serde(rename = "cashProductId")]
+    #[serde(rename = "cashProductId", default)]
     pub cash_product_id: Option<i32>,
-    #[serde(rename = "gachaLocalText")]
+    #[serde(rename = "gachaLocalText", default)]
     pub gacha_local_text: Option<i32>,
-    #[serde(rename = "isShowGachaRateWhenConditionSatisfied")]
+    #[serde(rename = "isShowGachaRateWhenConditionSatisfied", default)]
     pub is_show_gacha_rate_when_condition_satisfied: Option<i32>,
 }
 

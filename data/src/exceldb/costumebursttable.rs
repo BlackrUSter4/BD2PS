@@ -7,33 +7,33 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Costumebursttable {
-    #[serde(rename = "buffOrder")]
+    #[serde(rename = "buffOrder", default)]
     pub buff_order: Vec<i32>,
-    #[serde(rename = "burstBuff")]
+    #[serde(rename = "burstBuff", default)]
     pub burst_buff: Vec<i32>,
-    #[serde(rename = "burstText")]
+    #[serde(rename = "burstText", default)]
     pub burst_text: Vec<i32>,
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "itemCount")]
+    #[serde(rename = "itemCount", default)]
     pub item_count: Vec<i32>,
-    #[serde(rename = "itemId")]
+    #[serde(rename = "itemId", default)]
     pub item_id: Vec<i32>,
-    #[serde(rename = "itemType")]
+    #[serde(rename = "itemType", default)]
     pub item_type: Vec<i32>,
-    #[serde(rename = "modifyAttackRange")]
+    #[serde(rename = "modifyAttackRange", default)]
     pub modify_attack_range: Option<i32>,
-    #[serde(rename = "modifyAttackRangeCount")]
+    #[serde(rename = "modifyAttackRangeCount", default)]
     pub modify_attack_range_count: Option<i32>,
-    #[serde(rename = "modifyAttackRangeIndex")]
+    #[serde(rename = "modifyAttackRangeIndex", default)]
     pub modify_attack_range_index: Option<i32>,
-    #[serde(rename = "modifyValue")]
+    #[serde(rename = "modifyValue", default)]
     pub modify_value: Vec<f32>,
-    #[serde(rename = "spReqCount")]
+    #[serde(rename = "spReqCount", default)]
     pub sp_req_count: i32,
-    #[serde(rename = "valueType")]
+    #[serde(rename = "valueType", default)]
     pub value_type: Vec<i32>,
 }
 

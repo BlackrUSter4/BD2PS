@@ -7,17 +7,17 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Contentopenguidetable {
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "magicValue")]
+    #[serde(rename = "magicValue", default)]
     pub magic_value: i32,
-    #[serde(rename = "openDescLocalTextId")]
+    #[serde(rename = "openDescLocalTextId", default)]
     pub open_desc_local_text_id: i32,
-    #[serde(rename = "openIconName")]
+    #[serde(rename = "openIconName", default)]
     pub open_icon_name: String,
-    #[serde(rename = "openTitleLocalTextId")]
+    #[serde(rename = "openTitleLocalTextId", default)]
     pub open_title_local_text_id: i32,
-    #[serde(rename = "type")]
+    #[serde(rename = "type", default)]
     pub r#type: i32,
 }
 

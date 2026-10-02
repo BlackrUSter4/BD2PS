@@ -7,19 +7,19 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Rlscoretable {
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "scoreConditionValue")]
+    #[serde(rename = "scoreConditionValue", default)]
     pub score_condition_value: Option<i32>,
-    #[serde(rename = "scoreDescNameTextId")]
+    #[serde(rename = "scoreDescNameTextId", default)]
     pub score_desc_name_text_id: i32,
-    #[serde(rename = "scoreNameTextId")]
+    #[serde(rename = "scoreNameTextId", default)]
     pub score_name_text_id: i32,
-    #[serde(rename = "scoreType")]
+    #[serde(rename = "scoreType", default)]
     pub score_type: i32,
-    #[serde(rename = "scoreValue")]
+    #[serde(rename = "scoreValue", default)]
     pub score_value: Option<i32>,
-    #[serde(rename = "scoreValueVeiw")]
+    #[serde(rename = "scoreValueVeiw", default)]
     pub score_value_veiw: Option<i32>,
 }
 

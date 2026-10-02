@@ -7,11 +7,11 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Statuerewardtable {
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "rewardCount")]
+    #[serde(rename = "rewardCount", default)]
     pub reward_count: i32,
-    #[serde(rename = "rewardType")]
+    #[serde(rename = "rewardType", default)]
     pub reward_type: i32,
 }
 

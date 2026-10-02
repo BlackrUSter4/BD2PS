@@ -7,21 +7,21 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Spineinteractionpointtable {
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "interactionGroupId")]
+    #[serde(rename = "interactionGroupId", default)]
     pub interaction_group_id: i32,
-    #[serde(rename = "interactionToolId")]
+    #[serde(rename = "interactionToolId", default)]
     pub interaction_tool_id: Option<i32>,
-    #[serde(rename = "soundFXName")]
+    #[serde(rename = "soundFXName", default)]
     pub sound_f_x_name: Option<Vec<String>>,
-    #[serde(rename = "soundMotionFXName")]
+    #[serde(rename = "soundMotionFXName", default)]
     pub sound_motion_f_x_name: Option<String>,
-    #[serde(rename = "soundMotionVoiceName")]
+    #[serde(rename = "soundMotionVoiceName", default)]
     pub sound_motion_voice_name: Option<String>,
-    #[serde(rename = "soundVoiceName")]
+    #[serde(rename = "soundVoiceName", default)]
     pub sound_voice_name: Option<Vec<String>>,
 }
 

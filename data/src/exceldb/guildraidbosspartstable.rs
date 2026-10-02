@@ -7,33 +7,33 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Guildraidbosspartstable {
-    #[serde(rename = "bossBodyPosition")]
+    #[serde(rename = "bossBodyPosition", default)]
     pub boss_body_position: Option<i32>,
-    #[serde(rename = "bossPartIcon1")]
+    #[serde(rename = "bossPartIcon1", default)]
     pub boss_part_icon1: String,
-    #[serde(rename = "bossPartIcon2")]
+    #[serde(rename = "bossPartIcon2", default)]
     pub boss_part_icon2: Option<String>,
-    #[serde(rename = "bossSkillType")]
+    #[serde(rename = "bossSkillType", default)]
     pub boss_skill_type: Option<i32>,
-    #[serde(rename = "conditionId")]
+    #[serde(rename = "conditionId", default)]
     pub condition_id: Option<i32>,
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "parentCharId")]
+    #[serde(rename = "parentCharId", default)]
     pub parent_char_id: i32,
-    #[serde(rename = "partLocalTextId")]
+    #[serde(rename = "partLocalTextId", default)]
     pub part_local_text_id: i32,
-    #[serde(rename = "priority")]
+    #[serde(rename = "priority", default)]
     pub priority: Option<i32>,
-    #[serde(rename = "turnType")]
+    #[serde(rename = "turnType", default)]
     pub turn_type: Option<i32>,
-    #[serde(rename = "type")]
+    #[serde(rename = "type", default)]
     pub r#type: Option<i32>,
-    #[serde(rename = "useCostume")]
+    #[serde(rename = "useCostume", default)]
     pub use_costume: Option<i32>,
-    #[serde(rename = "weakDmgValue")]
+    #[serde(rename = "weakDmgValue", default)]
     pub weak_dmg_value: Option<f32>,
 }
 

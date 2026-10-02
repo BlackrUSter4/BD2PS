@@ -7,13 +7,13 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Costumenodegrouptable {
-    #[serde(rename = "charUniqueId")]
+    #[serde(rename = "charUniqueId", default)]
     pub char_unique_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "isActive")]
+    #[serde(rename = "isActive", default)]
     pub is_active: Option<i32>,
-    #[serde(rename = "nodeUIPrefab")]
+    #[serde(rename = "nodeUIPrefab", default)]
     pub node_u_i_prefab: Option<String>,
 }
 

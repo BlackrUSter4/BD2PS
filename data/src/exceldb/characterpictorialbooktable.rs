@@ -7,17 +7,17 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Characterpictorialbooktable {
-    #[serde(rename = "charId")]
+    #[serde(rename = "charId", default)]
     pub char_id: Vec<i32>,
-    #[serde(rename = "collectionBuffId")]
+    #[serde(rename = "collectionBuffId", default)]
     pub collection_buff_id: i32,
-    #[serde(rename = "groupDescLocalTextId")]
+    #[serde(rename = "groupDescLocalTextId", default)]
     pub group_desc_local_text_id: i32,
-    #[serde(rename = "groupLocalTextId")]
+    #[serde(rename = "groupLocalTextId", default)]
     pub group_local_text_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "tabType")]
+    #[serde(rename = "tabType", default)]
     pub tab_type: i32,
 }
 

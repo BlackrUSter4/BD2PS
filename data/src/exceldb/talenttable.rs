@@ -7,35 +7,35 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Talenttable {
-    #[serde(rename = "changeOff")]
+    #[serde(rename = "changeOff", default)]
     pub change_off: Option<i32>,
-    #[serde(rename = "classType")]
+    #[serde(rename = "classType", default)]
     pub class_type: Option<i32>,
-    #[serde(rename = "growthGroupId")]
+    #[serde(rename = "growthGroupId", default)]
     pub growth_group_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "isSkip")]
+    #[serde(rename = "isSkip", default)]
     pub is_skip: Option<i32>,
-    #[serde(rename = "maxLevel")]
+    #[serde(rename = "maxLevel", default)]
     pub max_level: i32,
-    #[serde(rename = "skillEffectTalk1")]
+    #[serde(rename = "skillEffectTalk1", default)]
     pub skill_effect_talk1: Option<i32>,
-    #[serde(rename = "skillEffectTalk2")]
+    #[serde(rename = "skillEffectTalk2", default)]
     pub skill_effect_talk2: Option<i32>,
-    #[serde(rename = "talentDescNameTextId")]
+    #[serde(rename = "talentDescNameTextId", default)]
     pub talent_desc_name_text_id: i32,
-    #[serde(rename = "talentEffect")]
+    #[serde(rename = "talentEffect", default)]
     pub talent_effect: Option<String>,
-    #[serde(rename = "talentMark")]
+    #[serde(rename = "talentMark", default)]
     pub talent_mark: Option<String>,
-    #[serde(rename = "talentNameTextId")]
+    #[serde(rename = "talentNameTextId", default)]
     pub talent_name_text_id: i32,
-    #[serde(rename = "talentSkillGroupId")]
+    #[serde(rename = "talentSkillGroupId", default)]
     pub talent_skill_group_id: i32,
-    #[serde(rename = "banPackId")]
+    #[serde(rename = "banPackId", default)]
     pub ban_pack_id: Option<Vec<i32>>,
-    #[serde(rename = "fixedButtonHidden")]
+    #[serde(rename = "fixedButtonHidden", default)]
     pub fixed_button_hidden: Option<i32>,
 }
 

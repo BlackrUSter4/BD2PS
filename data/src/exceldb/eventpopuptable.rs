@@ -7,19 +7,19 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Eventpopuptable {
-    #[serde(rename = "conditionType")]
+    #[serde(rename = "conditionType", default)]
     pub condition_type: i32,
-    #[serde(rename = "eventType")]
+    #[serde(rename = "eventType", default)]
     pub event_type: i32,
-    #[serde(rename = "eventTypeGroupId")]
+    #[serde(rename = "eventTypeGroupId", default)]
     pub event_type_group_id: i32,
-    #[serde(rename = "eventTypeId")]
+    #[serde(rename = "eventTypeId", default)]
     pub event_type_id: i32,
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "popupType")]
+    #[serde(rename = "popupType", default)]
     pub popup_type: i32,
 }
 

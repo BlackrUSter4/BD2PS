@@ -7,9 +7,9 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Achievementtaptable {
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "tapLocalTextId")]
+    #[serde(rename = "tapLocalTextId", default)]
     pub tap_local_text_id: i32,
 }
 

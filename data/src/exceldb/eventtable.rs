@@ -7,27 +7,27 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Eventtable {
-    #[serde(rename = "bannerFontLocalTextId")]
+    #[serde(rename = "bannerFontLocalTextId", default)]
     pub banner_font_local_text_id: i32,
-    #[serde(rename = "bannerResouceName")]
+    #[serde(rename = "bannerResouceName", default)]
     pub banner_resouce_name: String,
-    #[serde(rename = "categoryBanner")]
+    #[serde(rename = "categoryBanner", default)]
     pub category_banner: String,
-    #[serde(rename = "coinExchangeType")]
+    #[serde(rename = "coinExchangeType", default)]
     pub coin_exchange_type: Option<i32>,
-    #[serde(rename = "eventId")]
+    #[serde(rename = "eventId", default)]
     pub event_id: i32,
-    #[serde(rename = "eventType")]
+    #[serde(rename = "eventType", default)]
     pub event_type: Option<i32>,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "isActiveOnEnter")]
+    #[serde(rename = "isActiveOnEnter", default)]
     pub is_active_on_enter: Option<i32>,
-    #[serde(rename = "packageConnect")]
+    #[serde(rename = "packageConnect", default)]
     pub package_connect: Option<String>,
-    #[serde(rename = "sortId")]
+    #[serde(rename = "sortId", default)]
     pub sort_id: Option<i32>,
-    #[serde(rename = "eventSubType")]
+    #[serde(rename = "eventSubType", default)]
     pub event_sub_type: Option<i32>,
 }
 

@@ -7,45 +7,45 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Myroomitemtable {
-    #[serde(rename = "canRotate")]
+    #[serde(rename = "canRotate", default)]
     pub can_rotate: Option<i32>,
-    #[serde(rename = "charInteract")]
+    #[serde(rename = "charInteract", default)]
     pub char_interact: Option<Vec<i32>>,
-    #[serde(rename = "dodgePrefabName")]
+    #[serde(rename = "dodgePrefabName", default)]
     pub dodge_prefab_name: Option<String>,
-    #[serde(rename = "enumCountId")]
+    #[serde(rename = "enumCountId", default)]
     pub enum_count_id: i32,
-    #[serde(rename = "filterId")]
+    #[serde(rename = "filterId", default)]
     pub filter_id: Option<i32>,
-    #[serde(rename = "filterNameTextId")]
+    #[serde(rename = "filterNameTextId", default)]
     pub filter_name_text_id: Option<i32>,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "itemAnimation")]
+    #[serde(rename = "itemAnimation", default)]
     pub item_animation: Option<i32>,
-    #[serde(rename = "itemInteract")]
+    #[serde(rename = "itemInteract", default)]
     pub item_interact: Option<Vec<i32>>,
-    #[serde(rename = "itemSpriteName")]
+    #[serde(rename = "itemSpriteName", default)]
     pub item_sprite_name: Option<String>,
-    #[serde(rename = "itemUnlockLocalTextId")]
+    #[serde(rename = "itemUnlockLocalTextId", default)]
     pub item_unlock_local_text_id: Option<i32>,
-    #[serde(rename = "location")]
+    #[serde(rename = "location", default)]
     pub location: Option<i32>,
-    #[serde(rename = "maxCount")]
+    #[serde(rename = "maxCount", default)]
     pub max_count: i32,
-    #[serde(rename = "objectDescNameTextId")]
+    #[serde(rename = "objectDescNameTextId", default)]
     pub object_desc_name_text_id: Option<i32>,
-    #[serde(rename = "objectNameTextId")]
+    #[serde(rename = "objectNameTextId", default)]
     pub object_name_text_id: Option<i32>,
-    #[serde(rename = "objectType")]
+    #[serde(rename = "objectType", default)]
     pub object_type: Option<i32>,
-    #[serde(rename = "packId")]
+    #[serde(rename = "packId", default)]
     pub pack_id: Option<i32>,
-    #[serde(rename = "prefabName")]
+    #[serde(rename = "prefabName", default)]
     pub prefab_name: Option<String>,
-    #[serde(rename = "questLevel")]
+    #[serde(rename = "questLevel", default)]
     pub quest_level: Option<i32>,
-    #[serde(rename = "roomItemType")]
+    #[serde(rename = "roomItemType", default)]
     pub room_item_type: Option<i32>,
 }
 

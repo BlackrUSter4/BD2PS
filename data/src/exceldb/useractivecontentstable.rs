@@ -7,21 +7,21 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Useractivecontentstable {
-    #[serde(rename = "activeDay")]
+    #[serde(rename = "activeDay", default)]
     pub active_day: Option<i32>,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "type")]
+    #[serde(rename = "type", default)]
     pub r#type: Option<i32>,
-    #[serde(rename = "typeGroupId")]
+    #[serde(rename = "typeGroupId", default)]
     pub type_group_id: Option<i32>,
-    #[serde(rename = "typeId")]
+    #[serde(rename = "typeId", default)]
     pub type_id: i32,
-    #[serde(rename = "userType")]
+    #[serde(rename = "userType", default)]
     pub user_type: Option<i32>,
-    #[serde(rename = "contentTicketId")]
+    #[serde(rename = "contentTicketId", default)]
     pub content_ticket_id: Option<i32>,
-    #[serde(rename = "scheduleType")]
+    #[serde(rename = "scheduleType", default)]
     pub schedule_type: Option<i32>,
 }
 

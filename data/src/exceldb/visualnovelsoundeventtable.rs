@@ -7,13 +7,13 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Visualnovelsoundeventtable {
-    #[serde(rename = "ambienceName")]
+    #[serde(rename = "ambienceName", default)]
     pub ambience_name: Option<String>,
-    #[serde(rename = "commonSoundId")]
+    #[serde(rename = "commonSoundId", default)]
     pub common_sound_id: Option<i32>,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "soundEffect")]
+    #[serde(rename = "soundEffect", default)]
     pub sound_effect: Option<String>,
 }
 

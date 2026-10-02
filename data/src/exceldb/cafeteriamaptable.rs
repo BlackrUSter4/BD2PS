@@ -7,9 +7,9 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Cafeteriamaptable {
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "pointPositionId")]
+    #[serde(rename = "pointPositionId", default)]
     pub point_position_id: i32,
 }
 

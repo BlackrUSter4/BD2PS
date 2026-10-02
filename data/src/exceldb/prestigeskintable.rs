@@ -7,17 +7,17 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Prestigeskintable {
-    #[serde(rename = "costumeId")]
+    #[serde(rename = "costumeId", default)]
     pub costume_id: i32,
-    #[serde(rename = "effectTooltipDescLocalTextId")]
+    #[serde(rename = "effectTooltipDescLocalTextId", default)]
     pub effect_tooltip_desc_local_text_id: i32,
-    #[serde(rename = "effectTooltipSpriteName")]
+    #[serde(rename = "effectTooltipSpriteName", default)]
     pub effect_tooltip_sprite_name: String,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "lobbySettingItemId")]
+    #[serde(rename = "lobbySettingItemId", default)]
     pub lobby_setting_item_id: i32,
-    #[serde(rename = "skinNameTextId")]
+    #[serde(rename = "skinNameTextId", default)]
     pub skin_name_text_id: i32,
 }
 

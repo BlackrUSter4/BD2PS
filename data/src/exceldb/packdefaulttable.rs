@@ -7,9 +7,9 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Packdefaulttable {
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "packLoadingPrefabName")]
+    #[serde(rename = "packLoadingPrefabName", default)]
     pub pack_loading_prefab_name: String,
 }
 

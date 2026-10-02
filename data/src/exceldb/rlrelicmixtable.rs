@@ -7,13 +7,13 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Rlrelicmixtable {
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "mixMaterialRelicId1")]
+    #[serde(rename = "mixMaterialRelicId1", default)]
     pub mix_material_relic_id1: i32,
-    #[serde(rename = "mixMaterialRelicId2")]
+    #[serde(rename = "mixMaterialRelicId2", default)]
     pub mix_material_relic_id2: i32,
-    #[serde(rename = "mixResultRelicId")]
+    #[serde(rename = "mixResultRelicId", default)]
     pub mix_result_relic_id: i32,
 }
 

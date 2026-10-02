@@ -7,19 +7,19 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Gachastepuptable {
-    #[serde(rename = "fixedId")]
+    #[serde(rename = "fixedId", default)]
     pub fixed_id: Option<i32>,
-    #[serde(rename = "gachaGroupId")]
+    #[serde(rename = "gachaGroupId", default)]
     pub gacha_group_id: i32,
-    #[serde(rename = "gachaId")]
+    #[serde(rename = "gachaId", default)]
     pub gacha_id: i32,
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "isDisplayFixedItem")]
+    #[serde(rename = "isDisplayFixedItem", default)]
     pub is_display_fixed_item: Option<i32>,
-    #[serde(rename = "stepLocalTextId")]
+    #[serde(rename = "stepLocalTextId", default)]
     pub step_local_text_id: i32,
 }
 

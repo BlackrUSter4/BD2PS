@@ -7,9 +7,9 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Presettable {
-    #[serde(rename = "iconName")]
+    #[serde(rename = "iconName", default)]
     pub icon_name: String,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
 }
 

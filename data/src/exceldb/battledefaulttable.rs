@@ -6,73 +6,73 @@ use anyhow::Result;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Battledefaulttable {
-    #[serde(rename = "AtkMax")]
+    #[serde(rename = "AtkMax", default)]
     pub atk_max: i32,
-    #[serde(rename = "CriDMax")]
+    #[serde(rename = "CriDMax", default)]
     pub cri_d_max: f32,
-    #[serde(rename = "CriMax")]
+    #[serde(rename = "CriMax", default)]
     pub cri_max: f32,
-    #[serde(rename = "DefMax")]
+    #[serde(rename = "DefMax", default)]
     pub def_max: f32,
-    #[serde(rename = "FieldObjectBattleRearrangeEffectTime")]
+    #[serde(rename = "FieldObjectBattleRearrangeEffectTime", default)]
     pub field_object_battle_rearrange_effect_time: i32,
-    #[serde(rename = "FieldObjectBattleRearrangeTime")]
+    #[serde(rename = "FieldObjectBattleRearrangeTime", default)]
     pub field_object_battle_rearrange_time: i32,
-    #[serde(rename = "HpMaxLimit")]
+    #[serde(rename = "HpMaxLimit", default)]
     pub hp_max_limit: i32,
-    #[serde(rename = "SpReductionMax")]
+    #[serde(rename = "SpReductionMax", default)]
     pub sp_reduction_max: i32,
-    #[serde(rename = "SpReductionMin")]
+    #[serde(rename = "SpReductionMin", default)]
     pub sp_reduction_min: i32,
-    #[serde(rename = "battleContinueCostItemCount")]
+    #[serde(rename = "battleContinueCostItemCount", default)]
     pub battle_continue_cost_item_count: i32,
-    #[serde(rename = "battleContinueCostItemType")]
+    #[serde(rename = "battleContinueCostItemType", default)]
     pub battle_continue_cost_item_type: i32,
-    #[serde(rename = "battleContinueMaxCount")]
+    #[serde(rename = "battleContinueMaxCount", default)]
     pub battle_continue_max_count: i32,
-    #[serde(rename = "battlePowerConst")]
+    #[serde(rename = "battlePowerConst", default)]
     pub battle_power_const: i32,
-    #[serde(rename = "chainDamageValue")]
+    #[serde(rename = "chainDamageValue", default)]
     pub chain_damage_value: f32,
-    #[serde(rename = "chainMaxCount")]
+    #[serde(rename = "chainMaxCount", default)]
     pub chain_max_count: i32,
-    #[serde(rename = "deathTimeBuffId")]
+    #[serde(rename = "deathTimeBuffId", default)]
     pub death_time_buff_id: i32,
-    #[serde(rename = "deathTimeStartTurnPvP")]
+    #[serde(rename = "deathTimeStartTurnPvP", default)]
     pub death_time_start_turn_pv_p: i32,
-    #[serde(rename = "frontMoveSec")]
+    #[serde(rename = "frontMoveSec", default)]
     pub front_move_sec: f32,
-    #[serde(rename = "minAttackDamage")]
+    #[serde(rename = "minAttackDamage", default)]
     pub min_attack_damage: i32,
-    #[serde(rename = "sideMoveSec")]
+    #[serde(rename = "sideMoveSec", default)]
     pub side_move_sec: f32,
-    #[serde(rename = "spGuildRaidMaxCount")]
+    #[serde(rename = "spGuildRaidMaxCount", default)]
     pub sp_guild_raid_max_count: i32,
-    #[serde(rename = "spMaxCount")]
+    #[serde(rename = "spMaxCount", default)]
     pub sp_max_count: i32,
-    #[serde(rename = "spStartGuildRaidCount")]
+    #[serde(rename = "spStartGuildRaidCount", default)]
     pub sp_start_guild_raid_count: i32,
-    #[serde(rename = "spStartHunterCount")]
+    #[serde(rename = "spStartHunterCount", default)]
     pub sp_start_hunter_count: Option<i32>,
-    #[serde(rename = "spStartPvECount")]
+    #[serde(rename = "spStartPvECount", default)]
     pub sp_start_pv_e_count: i32,
-    #[serde(rename = "spStartPvPBLUECount")]
+    #[serde(rename = "spStartPvPBLUECount", default)]
     pub sp_start_pv_p_b_l_u_e_count: i32,
-    #[serde(rename = "spStartPvPREDCount")]
+    #[serde(rename = "spStartPvPREDCount", default)]
     pub sp_start_pv_p_r_e_d_count: i32,
-    #[serde(rename = "spTurnAddGuildRaidCount")]
+    #[serde(rename = "spTurnAddGuildRaidCount", default)]
     pub sp_turn_add_guild_raid_count: i32,
-    #[serde(rename = "spTurnAddHunterCount")]
+    #[serde(rename = "spTurnAddHunterCount", default)]
     pub sp_turn_add_hunter_count: Option<i32>,
-    #[serde(rename = "spTurnAddPvPCount")]
+    #[serde(rename = "spTurnAddPvPCount", default)]
     pub sp_turn_add_pv_p_count: i32,
-    #[serde(rename = "strongElementEffect")]
+    #[serde(rename = "strongElementEffect", default)]
     pub strong_element_effect: f32,
-    #[serde(rename = "turnPassSec")]
+    #[serde(rename = "turnPassSec", default)]
     pub turn_pass_sec: f32,
-    #[serde(rename = "CriRatio")]
+    #[serde(rename = "CriRatio", default)]
     pub cri_ratio: Option<i32>,
-    #[serde(rename = "battleResumeLimit")]
+    #[serde(rename = "battleResumeLimit", default)]
     pub battle_resume_limit: Option<i32>,
 }
 

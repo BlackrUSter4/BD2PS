@@ -7,45 +7,45 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Achievementtable {
-    #[serde(rename = "conditionSubType")]
+    #[serde(rename = "conditionSubType", default)]
     pub condition_sub_type: Option<i32>,
-    #[serde(rename = "conditionType")]
+    #[serde(rename = "conditionType", default)]
     pub condition_type: i32,
-    #[serde(rename = "conditionValue")]
+    #[serde(rename = "conditionValue", default)]
     pub condition_value: f32,
-    #[serde(rename = "contentsGroup")]
+    #[serde(rename = "contentsGroup", default)]
     pub contents_group: Option<i32>,
-    #[serde(rename = "descLocalTextId")]
+    #[serde(rename = "descLocalTextId", default)]
     pub desc_local_text_id: i32,
-    #[serde(rename = "eventType")]
+    #[serde(rename = "eventType", default)]
     pub event_type: i32,
-    #[serde(rename = "exp")]
+    #[serde(rename = "exp", default)]
     pub exp: Option<i32>,
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "iconName")]
+    #[serde(rename = "iconName", default)]
     pub icon_name: String,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "parentGroupId")]
+    #[serde(rename = "parentGroupId", default)]
     pub parent_group_id: Option<i32>,
-    #[serde(rename = "rewardItemCount")]
+    #[serde(rename = "rewardItemCount", default)]
     pub reward_item_count: Option<Vec<i32>>,
-    #[serde(rename = "rewardItemId")]
+    #[serde(rename = "rewardItemId", default)]
     pub reward_item_id: Option<Vec<i32>>,
-    #[serde(rename = "rewardItemType")]
+    #[serde(rename = "rewardItemType", default)]
     pub reward_item_type: Option<Vec<i32>>,
-    #[serde(rename = "shortCutId")]
+    #[serde(rename = "shortCutId", default)]
     pub short_cut_id: Option<i32>,
-    #[serde(rename = "tabType")]
+    #[serde(rename = "tabType", default)]
     pub tab_type: Option<i32>,
-    #[serde(rename = "titleLocalTextId")]
+    #[serde(rename = "titleLocalTextId", default)]
     pub title_local_text_id: i32,
-    #[serde(rename = "useBlind")]
+    #[serde(rename = "useBlind", default)]
     pub use_blind: Option<i32>,
-    #[serde(rename = "useType")]
+    #[serde(rename = "useType", default)]
     pub use_type: Option<i32>,
-    #[serde(rename = "overCount")]
+    #[serde(rename = "overCount", default)]
     pub over_count: Option<i64>,
 }
 

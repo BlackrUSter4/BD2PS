@@ -7,17 +7,17 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Charleveltable {
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "health")]
+    #[serde(rename = "health", default)]
     pub health: Option<f32>,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "levelupExp")]
+    #[serde(rename = "levelupExp", default)]
     pub levelup_exp: Option<i32>,
-    #[serde(rename = "magicPower")]
+    #[serde(rename = "magicPower", default)]
     pub magic_power: Option<f32>,
-    #[serde(rename = "physicalPower")]
+    #[serde(rename = "physicalPower", default)]
     pub physical_power: Option<f32>,
 }
 

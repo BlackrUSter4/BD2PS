@@ -7,23 +7,23 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Passbuytable {
-    #[serde(rename = "buyItemCount")]
+    #[serde(rename = "buyItemCount", default)]
     pub buy_item_count: i32,
-    #[serde(rename = "buyItemId")]
+    #[serde(rename = "buyItemId", default)]
     pub buy_item_id: Option<i32>,
-    #[serde(rename = "buyItemType")]
+    #[serde(rename = "buyItemType", default)]
     pub buy_item_type: i32,
-    #[serde(rename = "cashProductGroupId")]
+    #[serde(rename = "cashProductGroupId", default)]
     pub cash_product_group_id: Option<i32>,
-    #[serde(rename = "cashProductId")]
+    #[serde(rename = "cashProductId", default)]
     pub cash_product_id: Option<i32>,
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "type")]
+    #[serde(rename = "type", default)]
     pub r#type: Option<i32>,
-    #[serde(rename = "unlockLevel")]
+    #[serde(rename = "unlockLevel", default)]
     pub unlock_level: i32,
 }
 

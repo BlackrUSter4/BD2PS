@@ -7,15 +7,15 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Equipmentgradetable {
-    #[serde(rename = "equipGradeLocalTextId")]
+    #[serde(rename = "equipGradeLocalTextId", default)]
     pub equip_grade_local_text_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "rankSmeltItemCount")]
+    #[serde(rename = "rankSmeltItemCount", default)]
     pub rank_smelt_item_count: Vec<i32>,
-    #[serde(rename = "rankSmeltItemId")]
+    #[serde(rename = "rankSmeltItemId", default)]
     pub rank_smelt_item_id: Vec<i32>,
-    #[serde(rename = "rankSmeltItemType")]
+    #[serde(rename = "rankSmeltItemType", default)]
     pub rank_smelt_item_type: Vec<i32>,
 }
 

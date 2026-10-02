@@ -7,15 +7,15 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Buffimmunegrouptable {
-    #[serde(rename = "buffClassType")]
+    #[serde(rename = "buffClassType", default)]
     pub buff_class_type: Vec<String>,
-    #[serde(rename = "buffGroupType")]
+    #[serde(rename = "buffGroupType", default)]
     pub buff_group_type: Vec<i32>,
-    #[serde(rename = "buffImmuneApplySkillTextId")]
+    #[serde(rename = "buffImmuneApplySkillTextId", default)]
     pub buff_immune_apply_skill_text_id: Vec<i32>,
-    #[serde(rename = "buffSubType")]
+    #[serde(rename = "buffSubType", default)]
     pub buff_sub_type: Vec<i32>,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
 }
 

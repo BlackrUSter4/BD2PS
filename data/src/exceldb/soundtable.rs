@@ -7,11 +7,11 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Soundtable {
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "packId")]
+    #[serde(rename = "packId", default)]
     pub pack_id: Option<i32>,
-    #[serde(rename = "soundFilePath")]
+    #[serde(rename = "soundFilePath", default)]
     pub sound_file_path: String,
 }
 

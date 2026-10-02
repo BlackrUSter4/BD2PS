@@ -7,11 +7,11 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Guildemblemresourcetable {
-    #[serde(rename = "displayResourceName")]
+    #[serde(rename = "displayResourceName", default)]
     pub display_resource_name: String,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "resourceName")]
+    #[serde(rename = "resourceName", default)]
     pub resource_name: String,
 }
 

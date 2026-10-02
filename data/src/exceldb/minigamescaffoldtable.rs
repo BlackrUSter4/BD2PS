@@ -7,15 +7,15 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Minigamescaffoldtable {
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "itemCount")]
+    #[serde(rename = "itemCount", default)]
     pub item_count: i32,
-    #[serde(rename = "itemId")]
+    #[serde(rename = "itemId", default)]
     pub item_id: Option<i32>,
-    #[serde(rename = "itemType")]
+    #[serde(rename = "itemType", default)]
     pub item_type: i32,
 }
 

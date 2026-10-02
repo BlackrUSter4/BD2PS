@@ -7,19 +7,19 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Currencytable {
-    #[serde(rename = "iconSpriteNameLarge")]
+    #[serde(rename = "iconSpriteNameLarge", default)]
     pub icon_sprite_name_large: Option<String>,
-    #[serde(rename = "iconSpriteNameSmall")]
+    #[serde(rename = "iconSpriteNameSmall", default)]
     pub icon_sprite_name_small: Option<String>,
     #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "itemDescNameTextId")]
+    #[serde(rename = "itemDescNameTextId", default)]
     pub item_desc_name_text_id: Option<i32>,
-    #[serde(rename = "itemNameTextId")]
+    #[serde(rename = "itemNameTextId", default)]
     pub item_name_text_id: Option<i32>,
-    #[serde(rename = "targetItemId")]
+    #[serde(rename = "targetItemId", default)]
     pub target_item_id: Option<i32>,
-    #[serde(rename = "targetItemType")]
+    #[serde(rename = "targetItemType", default)]
     pub target_item_type: Option<i32>,
 }
 

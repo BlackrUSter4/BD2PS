@@ -7,13 +7,13 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Adventuregroupbufftable {
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "statType")]
+    #[serde(rename = "statType", default)]
     pub stat_type: i32,
-    #[serde(rename = "statValue")]
+    #[serde(rename = "statValue", default)]
     pub stat_value: Option<f32>,
-    #[serde(rename = "buffCategory")]
+    #[serde(rename = "buffCategory", default)]
     pub buff_category: Option<i32>,
 }
 

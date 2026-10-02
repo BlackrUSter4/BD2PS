@@ -7,29 +7,29 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Mgddefaulttable {
-    #[serde(rename = "dangerEffectTime")]
+    #[serde(rename = "dangerEffectTime", default)]
     pub danger_effect_time: i32,
-    #[serde(rename = "dangerEffectValue")]
+    #[serde(rename = "dangerEffectValue", default)]
     pub danger_effect_value: i32,
-    #[serde(rename = "elementAdvantage")]
+    #[serde(rename = "elementAdvantage", default)]
     pub element_advantage: f32,
-    #[serde(rename = "elementPenalty")]
+    #[serde(rename = "elementPenalty", default)]
     pub element_penalty: f32,
-    #[serde(rename = "eventMissionGroupId")]
+    #[serde(rename = "eventMissionGroupId", default)]
     pub event_mission_group_id: i32,
-    #[serde(rename = "gameOverValue")]
+    #[serde(rename = "gameOverValue", default)]
     pub game_over_value: i32,
-    #[serde(rename = "iconSpriteNameLarge")]
+    #[serde(rename = "iconSpriteNameLarge", default)]
     pub icon_sprite_name_large: String,
-    #[serde(rename = "iconSpriteNameSmall")]
+    #[serde(rename = "iconSpriteNameSmall", default)]
     pub icon_sprite_name_small: String,
-    #[serde(rename = "loadingLimit")]
+    #[serde(rename = "loadingLimit", default)]
     pub loading_limit: i32,
-    #[serde(rename = "startCost")]
+    #[serde(rename = "startCost", default)]
     pub start_cost: i32,
-    #[serde(rename = "startWaitTime")]
+    #[serde(rename = "startWaitTime", default)]
     pub start_wait_time: i32,
-    #[serde(rename = "summonCost")]
+    #[serde(rename = "summonCost", default)]
     pub summon_cost: i32,
 }
 

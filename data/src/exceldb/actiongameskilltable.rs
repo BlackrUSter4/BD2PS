@@ -7,37 +7,37 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Actiongameskilltable {
-    #[serde(rename = "attackId")]
+    #[serde(rename = "attackId", default)]
     pub attack_id: Option<i32>,
-    #[serde(rename = "buffId")]
+    #[serde(rename = "buffId", default)]
     pub buff_id: Option<Vec<i32>>,
-    #[serde(rename = "comboType")]
+    #[serde(rename = "comboType", default)]
     pub combo_type: Option<i32>,
-    #[serde(rename = "comboValue")]
+    #[serde(rename = "comboValue", default)]
     pub combo_value: Option<i32>,
-    #[serde(rename = "cooldown")]
+    #[serde(rename = "cooldown", default)]
     pub cooldown: Option<f32>,
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "hitSoundName")]
+    #[serde(rename = "hitSoundName", default)]
     pub hit_sound_name: Option<String>,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "skillAnimationName")]
+    #[serde(rename = "skillAnimationName", default)]
     pub skill_animation_name: Option<String>,
-    #[serde(rename = "skillCancelType")]
+    #[serde(rename = "skillCancelType", default)]
     pub skill_cancel_type: Option<i32>,
-    #[serde(rename = "skillDescNameTextId")]
+    #[serde(rename = "skillDescNameTextId", default)]
     pub skill_desc_name_text_id: Option<i32>,
-    #[serde(rename = "skillIconSpriteName")]
+    #[serde(rename = "skillIconSpriteName", default)]
     pub skill_icon_sprite_name: Option<String>,
-    #[serde(rename = "skillNameTextId")]
+    #[serde(rename = "skillNameTextId", default)]
     pub skill_name_text_id: Option<i32>,
-    #[serde(rename = "skillType")]
+    #[serde(rename = "skillType", default)]
     pub skill_type: i32,
-    #[serde(rename = "skillTypeValue")]
+    #[serde(rename = "skillTypeValue", default)]
     pub skill_type_value: Vec<f32>,
-    #[serde(rename = "staminaValue")]
+    #[serde(rename = "staminaValue", default)]
     pub stamina_value: Option<i32>,
 }
 

@@ -7,11 +7,11 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Contentgenretable {
-    #[serde(rename = "genreDescQuestTextId")]
+    #[serde(rename = "genreDescQuestTextId", default)]
     pub genre_desc_quest_text_id: i32,
-    #[serde(rename = "genreTitleQuestTextId")]
+    #[serde(rename = "genreTitleQuestTextId", default)]
     pub genre_title_quest_text_id: Vec<i32>,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
 }
 

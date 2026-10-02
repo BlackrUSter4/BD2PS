@@ -7,13 +7,13 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Guildflagresourcetable {
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "isDisplayResource")]
+    #[serde(rename = "isDisplayResource", default)]
     pub is_display_resource: Option<i32>,
-    #[serde(rename = "resourceName")]
+    #[serde(rename = "resourceName", default)]
     pub resource_name: String,
 }
 

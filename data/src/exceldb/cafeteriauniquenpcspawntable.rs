@@ -7,15 +7,15 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Cafeteriauniquenpcspawntable {
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "occurrenceRatio")]
+    #[serde(rename = "occurrenceRatio", default)]
     pub occurrence_ratio: Vec<i32>,
-    #[serde(rename = "spawnMaxTime")]
+    #[serde(rename = "spawnMaxTime", default)]
     pub spawn_max_time: i32,
-    #[serde(rename = "spawnMinTime")]
+    #[serde(rename = "spawnMinTime", default)]
     pub spawn_min_time: i32,
-    #[serde(rename = "spawnNpcId")]
+    #[serde(rename = "spawnNpcId", default)]
     pub spawn_npc_id: Vec<i32>,
 }
 

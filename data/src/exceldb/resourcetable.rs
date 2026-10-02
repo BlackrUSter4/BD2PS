@@ -7,31 +7,31 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Resourcetable {
-    #[serde(rename = "grade")]
+    #[serde(rename = "grade", default)]
     pub grade: i32,
-    #[serde(rename = "iconBackgroundName")]
+    #[serde(rename = "iconBackgroundName", default)]
     pub icon_background_name: Option<String>,
-    #[serde(rename = "iconSpriteName")]
+    #[serde(rename = "iconSpriteName", default)]
     pub icon_sprite_name: String,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "itemAcquireId")]
+    #[serde(rename = "itemAcquireId", default)]
     pub item_acquire_id: Option<Vec<i32>>,
-    #[serde(rename = "itemDescNameTextId")]
+    #[serde(rename = "itemDescNameTextId", default)]
     pub item_desc_name_text_id: i32,
-    #[serde(rename = "itemNameTextId")]
+    #[serde(rename = "itemNameTextId", default)]
     pub item_name_text_id: i32,
-    #[serde(rename = "itemSubNameTextId")]
+    #[serde(rename = "itemSubNameTextId", default)]
     pub item_sub_name_text_id: i32,
-    #[serde(rename = "magicValue")]
+    #[serde(rename = "magicValue", default)]
     pub magic_value: Option<i32>,
-    #[serde(rename = "notTrash")]
+    #[serde(rename = "notTrash", default)]
     pub not_trash: Option<i32>,
-    #[serde(rename = "sortType")]
+    #[serde(rename = "sortType", default)]
     pub sort_type: i32,
-    #[serde(rename = "stackCount")]
+    #[serde(rename = "stackCount", default)]
     pub stack_count: i32,
-    #[serde(rename = "type")]
+    #[serde(rename = "type", default)]
     pub r#type: Option<i32>,
 }
 

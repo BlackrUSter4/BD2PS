@@ -7,13 +7,13 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Contentopentable {
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "openHelpLocalTextId")]
+    #[serde(rename = "openHelpLocalTextId", default)]
     pub open_help_local_text_id: Option<i32>,
-    #[serde(rename = "ticketId")]
+    #[serde(rename = "ticketId", default)]
     pub ticket_id: i32,
 }
 

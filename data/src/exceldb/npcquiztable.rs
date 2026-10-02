@@ -7,27 +7,27 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Npcquiztable {
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "mapId")]
+    #[serde(rename = "mapId", default)]
     pub map_id: i32,
-    #[serde(rename = "npcDistance")]
+    #[serde(rename = "npcDistance", default)]
     pub npc_distance: f32,
-    #[serde(rename = "npcId")]
+    #[serde(rename = "npcId", default)]
     pub npc_id: i32,
-    #[serde(rename = "npcTalkGroupId")]
+    #[serde(rename = "npcTalkGroupId", default)]
     pub npc_talk_group_id: i32,
-    #[serde(rename = "npcTalkPackId")]
+    #[serde(rename = "npcTalkPackId", default)]
     pub npc_talk_pack_id: i32,
-    #[serde(rename = "rewardCount")]
+    #[serde(rename = "rewardCount", default)]
     pub reward_count: Vec<i32>,
-    #[serde(rename = "rewardId")]
+    #[serde(rename = "rewardId", default)]
     pub reward_id: Vec<i32>,
-    #[serde(rename = "rewardType")]
+    #[serde(rename = "rewardType", default)]
     pub reward_type: Vec<i32>,
-    #[serde(rename = "openDelayDays")]
+    #[serde(rename = "openDelayDays", default)]
     pub open_delay_days: Option<i32>,
 }
 

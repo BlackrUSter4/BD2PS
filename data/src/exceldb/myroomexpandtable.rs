@@ -7,19 +7,19 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Myroomexpandtable {
-    #[serde(rename = "carpetLimitCount")]
+    #[serde(rename = "carpetLimitCount", default)]
     pub carpet_limit_count: i32,
-    #[serde(rename = "charLimitCount")]
+    #[serde(rename = "charLimitCount", default)]
     pub char_limit_count: i32,
-    #[serde(rename = "defaultRoom")]
+    #[serde(rename = "defaultRoom", default)]
     pub default_room: Option<i32>,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "objectLimitCount")]
+    #[serde(rename = "objectLimitCount", default)]
     pub object_limit_count: i32,
-    #[serde(rename = "priceCount")]
+    #[serde(rename = "priceCount", default)]
     pub price_count: Option<i32>,
-    #[serde(rename = "priceType")]
+    #[serde(rename = "priceType", default)]
     pub price_type: Option<i32>,
 }
 

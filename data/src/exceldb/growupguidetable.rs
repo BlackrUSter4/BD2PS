@@ -7,17 +7,17 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Growupguidetable {
-    #[serde(rename = "category")]
+    #[serde(rename = "category", default)]
     pub category: i32,
-    #[serde(rename = "categoryId")]
+    #[serde(rename = "categoryId", default)]
     pub category_id: i32,
-    #[serde(rename = "descText")]
+    #[serde(rename = "descText", default)]
     pub desc_text: i32,
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "guideTutorialId")]
+    #[serde(rename = "guideTutorialId", default)]
     pub guide_tutorial_id: Option<Vec<i32>>,
-    #[serde(rename = "shortCutId")]
+    #[serde(rename = "shortCutId", default)]
     pub short_cut_id: Option<i32>,
 }
 

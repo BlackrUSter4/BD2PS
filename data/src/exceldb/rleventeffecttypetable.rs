@@ -7,15 +7,15 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Rleventeffecttypetable {
-    #[serde(rename = "effectType")]
+    #[serde(rename = "effectType", default)]
     pub effect_type: i32,
-    #[serde(rename = "effectValue1")]
+    #[serde(rename = "effectValue1", default)]
     pub effect_value1: Option<i32>,
-    #[serde(rename = "effectValue2")]
+    #[serde(rename = "effectValue2", default)]
     pub effect_value2: Option<i32>,
-    #[serde(rename = "eventEffectNameTextId")]
+    #[serde(rename = "eventEffectNameTextId", default)]
     pub event_effect_name_text_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
 }
 

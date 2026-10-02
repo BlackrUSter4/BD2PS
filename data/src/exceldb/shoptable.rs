@@ -7,29 +7,29 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Shoptable {
-    #[serde(rename = "bargainLocalTextId")]
+    #[serde(rename = "bargainLocalTextId", default)]
     pub bargain_local_text_id: i32,
-    #[serde(rename = "groupBadNoticeLocalTextId")]
+    #[serde(rename = "groupBadNoticeLocalTextId", default)]
     pub group_bad_notice_local_text_id: i32,
-    #[serde(rename = "groupGoodMessageLocalTextId")]
+    #[serde(rename = "groupGoodMessageLocalTextId", default)]
     pub group_good_message_local_text_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "mapNameTextId")]
+    #[serde(rename = "mapNameTextId", default)]
     pub map_name_text_id: i32,
-    #[serde(rename = "npcLocalTextId")]
+    #[serde(rename = "npcLocalTextId", default)]
     pub npc_local_text_id: i32,
-    #[serde(rename = "packId")]
+    #[serde(rename = "packId", default)]
     pub pack_id: i32,
-    #[serde(rename = "priceId")]
+    #[serde(rename = "priceId", default)]
     pub price_id: Vec<i32>,
-    #[serde(rename = "priceType")]
+    #[serde(rename = "priceType", default)]
     pub price_type: Vec<i32>,
-    #[serde(rename = "resetCount")]
+    #[serde(rename = "resetCount", default)]
     pub reset_count: i32,
-    #[serde(rename = "resetTermType")]
+    #[serde(rename = "resetTermType", default)]
     pub reset_term_type: i32,
-    #[serde(rename = "startDay")]
+    #[serde(rename = "startDay", default)]
     pub start_day: i32,
 }
 

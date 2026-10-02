@@ -7,9 +7,9 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Guildraidgolemskillleveltable {
-    #[serde(rename = "costumeId")]
+    #[serde(rename = "costumeId", default)]
     pub costume_id: Vec<i32>,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
 }
 

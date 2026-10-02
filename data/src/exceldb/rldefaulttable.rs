@@ -7,49 +7,49 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Rldefaulttable {
-    #[serde(rename = "bgmName")]
+    #[serde(rename = "bgmName", default)]
     pub bgm_name: String,
-    #[serde(rename = "bossRoom")]
+    #[serde(rename = "bossRoom", default)]
     pub boss_room: Vec<i32>,
-    #[serde(rename = "costumeSlot1Option")]
+    #[serde(rename = "costumeSlot1Option", default)]
     pub costume_slot1_option: i32,
-    #[serde(rename = "costumeSlot2Option")]
+    #[serde(rename = "costumeSlot2Option", default)]
     pub costume_slot2_option: i32,
-    #[serde(rename = "costumeSlot3Option")]
+    #[serde(rename = "costumeSlot3Option", default)]
     pub costume_slot3_option: i32,
-    #[serde(rename = "costumeSlot4Option")]
+    #[serde(rename = "costumeSlot4Option", default)]
     pub costume_slot4_option: i32,
-    #[serde(rename = "costumeUpgradePrice")]
+    #[serde(rename = "costumeUpgradePrice", default)]
     pub costume_upgrade_price: i32,
-    #[serde(rename = "entryBuyPrice")]
+    #[serde(rename = "entryBuyPrice", default)]
     pub entry_buy_price: i32,
-    #[serde(rename = "floorCount")]
+    #[serde(rename = "floorCount", default)]
     pub floor_count: i32,
-    #[serde(rename = "floorId")]
+    #[serde(rename = "floorId", default)]
     pub floor_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "memberChangeSP")]
+    #[serde(rename = "memberChangeSP", default)]
     pub member_change_s_p: i32,
-    #[serde(rename = "roguelikeApCount")]
+    #[serde(rename = "roguelikeApCount", default)]
     pub roguelike_ap_count: i32,
-    #[serde(rename = "roguelikeGrowthCurrency")]
+    #[serde(rename = "roguelikeGrowthCurrency", default)]
     pub roguelike_growth_currency: i32,
-    #[serde(rename = "roomRatio")]
+    #[serde(rename = "roomRatio", default)]
     pub room_ratio: i32,
-    #[serde(rename = "seasonDefaultLostGold")]
+    #[serde(rename = "seasonDefaultLostGold", default)]
     pub season_default_lost_gold: i32,
-    #[serde(rename = "shopDiscountRate")]
+    #[serde(rename = "shopDiscountRate", default)]
     pub shop_discount_rate: f32,
-    #[serde(rename = "shopHealPrice")]
+    #[serde(rename = "shopHealPrice", default)]
     pub shop_heal_price: i32,
-    #[serde(rename = "shopRerollExpensive")]
+    #[serde(rename = "shopRerollExpensive", default)]
     pub shop_reroll_expensive: i32,
-    #[serde(rename = "shopRerollPrice")]
+    #[serde(rename = "shopRerollPrice", default)]
     pub shop_reroll_price: i32,
-    #[serde(rename = "startCostumeCount")]
+    #[serde(rename = "startCostumeCount", default)]
     pub start_costume_count: i32,
-    #[serde(rename = "startGold")]
+    #[serde(rename = "startGold", default)]
     pub start_gold: i32,
 }
 

@@ -7,31 +7,31 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Talentskilltable {
-    #[serde(rename = "catalystValue")]
+    #[serde(rename = "catalystValue", default)]
     pub catalyst_value: Option<i32>,
-    #[serde(rename = "classType")]
+    #[serde(rename = "classType", default)]
     pub class_type: i32,
-    #[serde(rename = "costumeDesignId")]
+    #[serde(rename = "costumeDesignId", default)]
     pub costume_design_id: Option<Vec<i32>>,
-    #[serde(rename = "costumeId")]
+    #[serde(rename = "costumeId", default)]
     pub costume_id: Option<Vec<i32>>,
-    #[serde(rename = "getExp")]
+    #[serde(rename = "getExp", default)]
     pub get_exp: Option<i32>,
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "resetType")]
+    #[serde(rename = "resetType", default)]
     pub reset_type: Option<i32>,
-    #[serde(rename = "talentSkillDescLocalTextId")]
+    #[serde(rename = "talentSkillDescLocalTextId", default)]
     pub talent_skill_desc_local_text_id: Option<Vec<i32>>,
-    #[serde(rename = "talentSkillIconSpriteName")]
+    #[serde(rename = "talentSkillIconSpriteName", default)]
     pub talent_skill_icon_sprite_name: String,
-    #[serde(rename = "talentSkillNameLocalTextId")]
+    #[serde(rename = "talentSkillNameLocalTextId", default)]
     pub talent_skill_name_local_text_id: Option<Vec<i32>>,
-    #[serde(rename = "targetType")]
+    #[serde(rename = "targetType", default)]
     pub target_type: Option<i32>,
-    #[serde(rename = "valueList")]
+    #[serde(rename = "valueList", default)]
     pub value_list: Vec<f32>,
 }
 

@@ -7,23 +7,23 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Mercenaryscouttable {
-    #[serde(rename = "appearProb")]
+    #[serde(rename = "appearProb", default)]
     pub appear_prob: Option<i32>,
-    #[serde(rename = "costumeId")]
+    #[serde(rename = "costumeId", default)]
     pub costume_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "packId")]
+    #[serde(rename = "packId", default)]
     pub pack_id: i32,
-    #[serde(rename = "presentItemCount")]
+    #[serde(rename = "presentItemCount", default)]
     pub present_item_count: Vec<i32>,
-    #[serde(rename = "presentItemId")]
+    #[serde(rename = "presentItemId", default)]
     pub present_item_id: Vec<i32>,
-    #[serde(rename = "presentItemType")]
+    #[serde(rename = "presentItemType", default)]
     pub present_item_type: Vec<i32>,
-    #[serde(rename = "talkGroupId")]
+    #[serde(rename = "talkGroupId", default)]
     pub talk_group_id: i32,
-    #[serde(rename = "type")]
+    #[serde(rename = "type", default)]
     pub r#type: Option<i32>,
 }
 

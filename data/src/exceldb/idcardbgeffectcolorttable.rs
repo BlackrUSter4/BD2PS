@@ -7,9 +7,9 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Idcardbgeffectcolorttable {
-    #[serde(rename = "bgEffectColorValue")]
+    #[serde(rename = "bgEffectColorValue", default)]
     pub bg_effect_color_value: String,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
 }
 

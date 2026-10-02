@@ -7,33 +7,33 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Rleventtable {
-    #[serde(rename = "choice1EffectId")]
+    #[serde(rename = "choice1EffectId", default)]
     pub choice1_effect_id: Vec<i32>,
-    #[serde(rename = "choice1FailEffectId")]
+    #[serde(rename = "choice1FailEffectId", default)]
     pub choice1_fail_effect_id: Vec<i32>,
-    #[serde(rename = "choice2EffectId")]
+    #[serde(rename = "choice2EffectId", default)]
     pub choice2_effect_id: Vec<i32>,
-    #[serde(rename = "choiceDescNameTextId")]
+    #[serde(rename = "choiceDescNameTextId", default)]
     pub choice_desc_name_text_id: Vec<i32>,
-    #[serde(rename = "choiceFailResultNameTextId")]
+    #[serde(rename = "choiceFailResultNameTextId", default)]
     pub choice_fail_result_name_text_id: Vec<i32>,
-    #[serde(rename = "choiceResultNameTextId")]
+    #[serde(rename = "choiceResultNameTextId", default)]
     pub choice_result_name_text_id: Vec<i32>,
-    #[serde(rename = "choiceType")]
+    #[serde(rename = "choiceType", default)]
     pub choice_type: Vec<i32>,
-    #[serde(rename = "eventDescNameTextId")]
+    #[serde(rename = "eventDescNameTextId", default)]
     pub event_desc_name_text_id: i32,
-    #[serde(rename = "eventNameTextId")]
+    #[serde(rename = "eventNameTextId", default)]
     pub event_name_text_id: i32,
-    #[serde(rename = "eventSuccessRate")]
+    #[serde(rename = "eventSuccessRate", default)]
     pub event_success_rate: Vec<i32>,
-    #[serde(rename = "exitChoiceSwitch")]
+    #[serde(rename = "exitChoiceSwitch", default)]
     pub exit_choice_switch: Option<i32>,
-    #[serde(rename = "exitDescNameTextId")]
+    #[serde(rename = "exitDescNameTextId", default)]
     pub exit_desc_name_text_id: Option<i32>,
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
 }
 

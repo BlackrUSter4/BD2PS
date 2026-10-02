@@ -7,29 +7,29 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Cafeterialeveltable {
-    #[serde(rename = "bubbleCooldown")]
+    #[serde(rename = "bubbleCooldown", default)]
     pub bubble_cooldown: i32,
-    #[serde(rename = "cafeteriaCostumeMax")]
+    #[serde(rename = "cafeteriaCostumeMax", default)]
     pub cafeteria_costume_max: i32,
-    #[serde(rename = "cafeteriaCustomerNpcSpawnCount")]
+    #[serde(rename = "cafeteriaCustomerNpcSpawnCount", default)]
     pub cafeteria_customer_npc_spawn_count: i32,
-    #[serde(rename = "dayFxSoundResourceName")]
+    #[serde(rename = "dayFxSoundResourceName", default)]
     pub day_fx_sound_resource_name: String,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "mapGrade")]
+    #[serde(rename = "mapGrade", default)]
     pub map_grade: i32,
-    #[serde(rename = "nightFxSoundResourceName")]
+    #[serde(rename = "nightFxSoundResourceName", default)]
     pub night_fx_sound_resource_name: String,
-    #[serde(rename = "skillType")]
+    #[serde(rename = "skillType", default)]
     pub skill_type: Vec<i32>,
-    #[serde(rename = "skillValue1")]
+    #[serde(rename = "skillValue1", default)]
     pub skill_value1: Vec<i32>,
-    #[serde(rename = "skillValue2")]
+    #[serde(rename = "skillValue2", default)]
     pub skill_value2: Vec<i32>,
-    #[serde(rename = "skillValue3")]
+    #[serde(rename = "skillValue3", default)]
     pub skill_value3: Vec<i32>,
-    #[serde(rename = "skillValue4")]
+    #[serde(rename = "skillValue4", default)]
     pub skill_value4: Vec<i32>,
 }
 

@@ -7,17 +7,17 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Paidshoptable {
-    #[serde(rename = "IsVisibleAfterPurchase")]
+    #[serde(rename = "IsVisibleAfterPurchase", default)]
     pub is_visible_after_purchase: Option<i32>,
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "iconResourceName")]
+    #[serde(rename = "iconResourceName", default)]
     pub icon_resource_name: String,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "subTitleLocalTextId")]
+    #[serde(rename = "subTitleLocalTextId", default)]
     pub sub_title_local_text_id: Option<i32>,
-    #[serde(rename = "titleLocalTextId")]
+    #[serde(rename = "titleLocalTextId", default)]
     pub title_local_text_id: i32,
 }
 

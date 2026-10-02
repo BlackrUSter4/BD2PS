@@ -7,19 +7,19 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Mgdenemytable {
-    #[serde(rename = "costumeId")]
+    #[serde(rename = "costumeId", default)]
     pub costume_id: i32,
-    #[serde(rename = "dropGold")]
+    #[serde(rename = "dropGold", default)]
     pub drop_gold: Option<i32>,
-    #[serde(rename = "element")]
+    #[serde(rename = "element", default)]
     pub element: Option<i32>,
-    #[serde(rename = "enemyScale")]
+    #[serde(rename = "enemyScale", default)]
     pub enemy_scale: f32,
-    #[serde(rename = "health")]
+    #[serde(rename = "health", default)]
     pub health: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "moveSpeed")]
+    #[serde(rename = "moveSpeed", default)]
     pub move_speed: f32,
 }
 

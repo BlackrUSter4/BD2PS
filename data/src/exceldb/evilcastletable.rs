@@ -7,47 +7,47 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Evilcastletable {
-    #[serde(rename = "PointPositionId")]
+    #[serde(rename = "PointPositionId", default)]
     pub point_position_id: i32,
-    #[serde(rename = "RewardCount")]
+    #[serde(rename = "RewardCount", default)]
     pub reward_count: Vec<i32>,
-    #[serde(rename = "RewardId")]
+    #[serde(rename = "RewardId", default)]
     pub reward_id: Vec<i32>,
-    #[serde(rename = "RewardType")]
+    #[serde(rename = "RewardType", default)]
     pub reward_type: Vec<i32>,
-    #[serde(rename = "battlePower")]
+    #[serde(rename = "battlePower", default)]
     pub battle_power: i32,
-    #[serde(rename = "bestRecordTimeline")]
+    #[serde(rename = "bestRecordTimeline", default)]
     pub best_record_timeline: String,
-    #[serde(rename = "bossDescLocalTextId")]
+    #[serde(rename = "bossDescLocalTextId", default)]
     pub boss_desc_local_text_id: i32,
-    #[serde(rename = "bossId")]
+    #[serde(rename = "bossId", default)]
     pub boss_id: i32,
-    #[serde(rename = "bossNameTextId")]
+    #[serde(rename = "bossNameTextId", default)]
     pub boss_name_text_id: i32,
-    #[serde(rename = "bossTargetLocalText")]
+    #[serde(rename = "bossTargetLocalText", default)]
     pub boss_target_local_text: i32,
-    #[serde(rename = "clearDescLocalTextId")]
+    #[serde(rename = "clearDescLocalTextId", default)]
     pub clear_desc_local_text_id: i32,
-    #[serde(rename = "floorDescLocalTextId")]
+    #[serde(rename = "floorDescLocalTextId", default)]
     pub floor_desc_local_text_id: i32,
-    #[serde(rename = "floorNameLocalTextId")]
+    #[serde(rename = "floorNameLocalTextId", default)]
     pub floor_name_local_text_id: i32,
-    #[serde(rename = "iconSpriteName")]
+    #[serde(rename = "iconSpriteName", default)]
     pub icon_sprite_name: String,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "mapId")]
+    #[serde(rename = "mapId", default)]
     pub map_id: i32,
-    #[serde(rename = "monsterId")]
+    #[serde(rename = "monsterId", default)]
     pub monster_id: Vec<i32>,
-    #[serde(rename = "normalDescLocalTextId")]
+    #[serde(rename = "normalDescLocalTextId", default)]
     pub normal_desc_local_text_id: i32,
-    #[serde(rename = "normalTargetLocalText")]
+    #[serde(rename = "normalTargetLocalText", default)]
     pub normal_target_local_text: i32,
-    #[serde(rename = "recordUpdateTimeline")]
+    #[serde(rename = "recordUpdateTimeline", default)]
     pub record_update_timeline: String,
-    #[serde(rename = "timeAttackId")]
+    #[serde(rename = "timeAttackId", default)]
     pub time_attack_id: i32,
 }
 

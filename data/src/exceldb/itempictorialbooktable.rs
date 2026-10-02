@@ -7,15 +7,15 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Itempictorialbooktable {
-    #[serde(rename = "category")]
+    #[serde(rename = "category", default)]
     pub category: Option<i32>,
-    #[serde(rename = "collectionBuffId")]
+    #[serde(rename = "collectionBuffId", default)]
     pub collection_buff_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "itemId")]
+    #[serde(rename = "itemId", default)]
     pub item_id: i32,
-    #[serde(rename = "packId")]
+    #[serde(rename = "packId", default)]
     pub pack_id: i32,
 }
 

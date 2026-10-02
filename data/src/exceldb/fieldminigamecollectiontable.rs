@@ -7,19 +7,19 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Fieldminigamecollectiontable {
-    #[serde(rename = "collectionValue")]
+    #[serde(rename = "collectionValue", default)]
     pub collection_value: Option<i32>,
-    #[serde(rename = "iconSpriteName")]
+    #[serde(rename = "iconSpriteName", default)]
     pub icon_sprite_name: Option<String>,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "itemDescLocalTextId")]
+    #[serde(rename = "itemDescLocalTextId", default)]
     pub item_desc_local_text_id: i32,
-    #[serde(rename = "itemNameTextId")]
+    #[serde(rename = "itemNameTextId", default)]
     pub item_name_text_id: i32,
-    #[serde(rename = "lockedIconSpriteName")]
+    #[serde(rename = "lockedIconSpriteName", default)]
     pub locked_icon_sprite_name: String,
-    #[serde(rename = "type")]
+    #[serde(rename = "type", default)]
     pub r#type: Option<i32>,
 }
 

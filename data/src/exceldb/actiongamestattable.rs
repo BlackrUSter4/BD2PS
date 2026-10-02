@@ -7,27 +7,27 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Actiongamestattable {
-    #[serde(rename = "criticalDamageRate")]
+    #[serde(rename = "criticalDamageRate", default)]
     pub critical_damage_rate: Option<f32>,
-    #[serde(rename = "groggyHealthValue")]
+    #[serde(rename = "groggyHealthValue", default)]
     pub groggy_health_value: Option<i32>,
-    #[serde(rename = "healthMaxValue")]
+    #[serde(rename = "healthMaxValue", default)]
     pub health_max_value: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "moveSpeed")]
+    #[serde(rename = "moveSpeed", default)]
     pub move_speed: f32,
-    #[serde(rename = "powerValue")]
+    #[serde(rename = "powerValue", default)]
     pub power_value: f32,
-    #[serde(rename = "rageMaxValue")]
+    #[serde(rename = "rageMaxValue", default)]
     pub rage_max_value: Option<i32>,
-    #[serde(rename = "recoveryCount")]
+    #[serde(rename = "recoveryCount", default)]
     pub recovery_count: Option<i32>,
-    #[serde(rename = "specialGaugeMaxValue")]
+    #[serde(rename = "specialGaugeMaxValue", default)]
     pub special_gauge_max_value: Option<i32>,
-    #[serde(rename = "staminaMaxValue")]
+    #[serde(rename = "staminaMaxValue", default)]
     pub stamina_max_value: Option<f32>,
-    #[serde(rename = "staminaRecoveryValue")]
+    #[serde(rename = "staminaRecoveryValue", default)]
     pub stamina_recovery_value: Option<f32>,
 }
 

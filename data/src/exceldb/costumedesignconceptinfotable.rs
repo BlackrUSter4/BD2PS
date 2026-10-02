@@ -7,53 +7,53 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Costumedesignconceptinfotable {
-    #[serde(rename = "ageProfileTextId")]
+    #[serde(rename = "ageProfileTextId", default)]
     pub age_profile_text_id: i32,
-    #[serde(rename = "associationProfileTextId")]
+    #[serde(rename = "associationProfileTextId", default)]
     pub association_profile_text_id: i32,
-    #[serde(rename = "birthDayProfileTextId")]
+    #[serde(rename = "birthDayProfileTextId", default)]
     pub birth_day_profile_text_id: i32,
-    #[serde(rename = "cutSceneDialogProfileTextId")]
+    #[serde(rename = "cutSceneDialogProfileTextId", default)]
     pub cut_scene_dialog_profile_text_id: Option<Vec<i32>>,
-    #[serde(rename = "cutSceneDialogVoiceResourceName")]
+    #[serde(rename = "cutSceneDialogVoiceResourceName", default)]
     pub cut_scene_dialog_voice_resource_name: Option<Vec<String>>,
-    #[serde(rename = "dislikeProfileTextId")]
+    #[serde(rename = "dislikeProfileTextId", default)]
     pub dislike_profile_text_id: i32,
-    #[serde(rename = "favoriteProfileTextId")]
+    #[serde(rename = "favoriteProfileTextId", default)]
     pub favorite_profile_text_id: i32,
-    #[serde(rename = "generalDialogProfileTextId")]
+    #[serde(rename = "generalDialogProfileTextId", default)]
     pub general_dialog_profile_text_id: Vec<i32>,
-    #[serde(rename = "generalDialogVoiceResourceName")]
+    #[serde(rename = "generalDialogVoiceResourceName", default)]
     pub general_dialog_voice_resource_name: Vec<String>,
-    #[serde(rename = "heightProfileTextId")]
+    #[serde(rename = "heightProfileTextId", default)]
     pub height_profile_text_id: i32,
-    #[serde(rename = "hobbyProfileTextId")]
+    #[serde(rename = "hobbyProfileTextId", default)]
     pub hobby_profile_text_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "preciousProfileTextId")]
+    #[serde(rename = "preciousProfileTextId", default)]
     pub precious_profile_text_id: i32,
-    #[serde(rename = "rumor1ProfileTextId")]
+    #[serde(rename = "rumor1ProfileTextId", default)]
     pub rumor1_profile_text_id: i32,
-    #[serde(rename = "rumor2ProfileTextId")]
+    #[serde(rename = "rumor2ProfileTextId", default)]
     pub rumor2_profile_text_id: i32,
-    #[serde(rename = "skillDialogProfileTextId")]
+    #[serde(rename = "skillDialogProfileTextId", default)]
     pub skill_dialog_profile_text_id: Option<Vec<i32>>,
-    #[serde(rename = "skillDialogVoiceResourceName")]
+    #[serde(rename = "skillDialogVoiceResourceName", default)]
     pub skill_dialog_voice_resource_name: Option<Vec<String>>,
-    #[serde(rename = "summaryProfileTextId")]
+    #[serde(rename = "summaryProfileTextId", default)]
     pub summary_profile_text_id: i32,
-    #[serde(rename = "talentDialogProfileTextId")]
+    #[serde(rename = "talentDialogProfileTextId", default)]
     pub talent_dialog_profile_text_id: Option<Vec<i32>>,
-    #[serde(rename = "talentDialogVoiceResourceName")]
+    #[serde(rename = "talentDialogVoiceResourceName", default)]
     pub talent_dialog_voice_resource_name: Option<Vec<String>>,
-    #[serde(rename = "victoryDialogProfileTextId")]
+    #[serde(rename = "victoryDialogProfileTextId", default)]
     pub victory_dialog_profile_text_id: Vec<i32>,
-    #[serde(rename = "victoryDialogVoiceResourceName")]
+    #[serde(rename = "victoryDialogVoiceResourceName", default)]
     pub victory_dialog_voice_resource_name: Vec<String>,
-    #[serde(rename = "contentGenreId")]
+    #[serde(rename = "contentGenreId", default)]
     pub content_genre_id: Option<i32>,
-    #[serde(rename = "costumeBgResoureceName")]
+    #[serde(rename = "costumeBgResoureceName", default)]
     pub costume_bg_resourece_name: Option<String>,
 }
 

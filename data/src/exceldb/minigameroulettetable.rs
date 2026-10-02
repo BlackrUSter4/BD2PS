@@ -7,23 +7,23 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Minigameroulettetable {
-    #[serde(rename = "freeCountDay")]
+    #[serde(rename = "freeCountDay", default)]
     pub free_count_day: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "itemCount")]
+    #[serde(rename = "itemCount", default)]
     pub item_count: i32,
-    #[serde(rename = "itemId")]
+    #[serde(rename = "itemId", default)]
     pub item_id: i32,
-    #[serde(rename = "itemMaxConsume")]
+    #[serde(rename = "itemMaxConsume", default)]
     pub item_max_consume: i32,
-    #[serde(rename = "itemType")]
+    #[serde(rename = "itemType", default)]
     pub item_type: i32,
-    #[serde(rename = "rouletteAccumulatedRewardGroupId")]
+    #[serde(rename = "rouletteAccumulatedRewardGroupId", default)]
     pub roulette_accumulated_reward_group_id: i32,
-    #[serde(rename = "rouletteRewardGroupId")]
+    #[serde(rename = "rouletteRewardGroupId", default)]
     pub roulette_reward_group_id: i32,
-    #[serde(rename = "rouletteUiPrefab")]
+    #[serde(rename = "rouletteUiPrefab", default)]
     pub roulette_ui_prefab: String,
 }
 

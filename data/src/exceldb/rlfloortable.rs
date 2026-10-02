@@ -7,33 +7,33 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Rlfloortable {
-    #[serde(rename = "bossBattleLevelMax")]
+    #[serde(rename = "bossBattleLevelMax", default)]
     pub boss_battle_level_max: i32,
-    #[serde(rename = "bossBattleLevelMin")]
+    #[serde(rename = "bossBattleLevelMin", default)]
     pub boss_battle_level_min: i32,
-    #[serde(rename = "eliteBattleLevelMax")]
+    #[serde(rename = "eliteBattleLevelMax", default)]
     pub elite_battle_level_max: i32,
-    #[serde(rename = "eliteBattleLevelMin")]
+    #[serde(rename = "eliteBattleLevelMin", default)]
     pub elite_battle_level_min: i32,
-    #[serde(rename = "eventBattleLevelMax")]
+    #[serde(rename = "eventBattleLevelMax", default)]
     pub event_battle_level_max: i32,
-    #[serde(rename = "eventBattleLevelMin")]
+    #[serde(rename = "eventBattleLevelMin", default)]
     pub event_battle_level_min: i32,
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "normalBattleLevelMax")]
+    #[serde(rename = "normalBattleLevelMax", default)]
     pub normal_battle_level_max: i32,
-    #[serde(rename = "normalBattleLevelMin")]
+    #[serde(rename = "normalBattleLevelMin", default)]
     pub normal_battle_level_min: i32,
-    #[serde(rename = "roomGroupId")]
+    #[serde(rename = "roomGroupId", default)]
     pub room_group_id: Vec<i32>,
-    #[serde(rename = "roomRatio")]
+    #[serde(rename = "roomRatio", default)]
     pub room_ratio: Vec<i32>,
-    #[serde(rename = "shopRoomCount")]
+    #[serde(rename = "shopRoomCount", default)]
     pub shop_room_count: Option<i32>,
-    #[serde(rename = "treasureRoomCount")]
+    #[serde(rename = "treasureRoomCount", default)]
     pub treasure_room_count: Option<i32>,
 }
 

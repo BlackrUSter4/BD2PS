@@ -7,9 +7,9 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Minigamebuttoninfotable {
-    #[serde(rename = "buttonInfo")]
+    #[serde(rename = "buttonInfo", default)]
     pub button_info: String,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: Option<i32>,
 }
 

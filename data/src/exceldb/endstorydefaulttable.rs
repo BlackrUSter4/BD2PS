@@ -7,13 +7,13 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Endstorydefaulttable {
-    #[serde(rename = "endGuideTableGroupID")]
+    #[serde(rename = "endGuideTableGroupID", default)]
     pub end_guide_table_group_i_d: i32,
-    #[serde(rename = "endPackId")]
+    #[serde(rename = "endPackId", default)]
     pub end_pack_id: i32,
-    #[serde(rename = "endPackTutorialId")]
+    #[serde(rename = "endPackTutorialId", default)]
     pub end_pack_tutorial_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
 }
 

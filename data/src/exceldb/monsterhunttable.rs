@@ -7,69 +7,69 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Monsterhunttable {
-    #[serde(rename = "battleDeckId")]
+    #[serde(rename = "battleDeckId", default)]
     pub battle_deck_id: i32,
-    #[serde(rename = "bossTip2LocalTextId")]
+    #[serde(rename = "bossTip2LocalTextId", default)]
     pub boss_tip2_local_text_id: i32,
-    #[serde(rename = "bossTipLocalTextId")]
+    #[serde(rename = "bossTipLocalTextId", default)]
     pub boss_tip_local_text_id: i32,
-    #[serde(rename = "bossUpTimeline")]
+    #[serde(rename = "bossUpTimeline", default)]
     pub boss_up_timeline: String,
-    #[serde(rename = "descTextId")]
+    #[serde(rename = "descTextId", default)]
     pub desc_text_id: i32,
-    #[serde(rename = "firstBossTimeline")]
+    #[serde(rename = "firstBossTimeline", default)]
     pub first_boss_timeline: String,
-    #[serde(rename = "fixCriticalChain")]
+    #[serde(rename = "fixCriticalChain", default)]
     pub fix_critical_chain: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "levelUpDamageRate")]
+    #[serde(rename = "levelUpDamageRate", default)]
     pub level_up_damage_rate: f32,
-    #[serde(rename = "levelUpDamageSlope")]
+    #[serde(rename = "levelUpDamageSlope", default)]
     pub level_up_damage_slope: f32,
-    #[serde(rename = "levelUpHealthRate")]
+    #[serde(rename = "levelUpHealthRate", default)]
     pub level_up_health_rate: f32,
-    #[serde(rename = "levelUpHealthSlope")]
+    #[serde(rename = "levelUpHealthSlope", default)]
     pub level_up_health_slope: f32,
-    #[serde(rename = "mapId")]
+    #[serde(rename = "mapId", default)]
     pub map_id: i32,
-    #[serde(rename = "monsterHuntChallengeableLevel")]
+    #[serde(rename = "monsterHuntChallengeableLevel", default)]
     pub monster_hunt_challengeable_level: i32,
-    #[serde(rename = "monsterHuntRankValueCount")]
+    #[serde(rename = "monsterHuntRankValueCount", default)]
     pub monster_hunt_rank_value_count: i32,
-    #[serde(rename = "monsterId")]
+    #[serde(rename = "monsterId", default)]
     pub monster_id: i32,
-    #[serde(rename = "openLevelValue")]
+    #[serde(rename = "openLevelValue", default)]
     pub open_level_value: i32,
-    #[serde(rename = "packId")]
+    #[serde(rename = "packId", default)]
     pub pack_id: i32,
-    #[serde(rename = "partsGroupId")]
+    #[serde(rename = "partsGroupId", default)]
     pub parts_group_id: i32,
-    #[serde(rename = "pointId")]
+    #[serde(rename = "pointId", default)]
     pub point_id: i32,
-    #[serde(rename = "positionScale")]
+    #[serde(rename = "positionScale", default)]
     pub position_scale: f32,
-    #[serde(rename = "rewardGroupId")]
+    #[serde(rename = "rewardGroupId", default)]
     pub reward_group_id: i32,
-    #[serde(rename = "rewardLevel")]
+    #[serde(rename = "rewardLevel", default)]
     pub reward_level: i32,
-    #[serde(rename = "stage2Level")]
+    #[serde(rename = "stage2Level", default)]
     pub stage2_level: i32,
-    #[serde(rename = "stage2Ratio")]
+    #[serde(rename = "stage2Ratio", default)]
     pub stage2_ratio: f32,
-    #[serde(rename = "stage3Level")]
+    #[serde(rename = "stage3Level", default)]
     pub stage3_level: i32,
-    #[serde(rename = "stage3Ratio")]
+    #[serde(rename = "stage3Ratio", default)]
     pub stage3_ratio: f32,
-    #[serde(rename = "startTimeline")]
+    #[serde(rename = "startTimeline", default)]
     pub start_timeline: String,
-    #[serde(rename = "statuePackId")]
+    #[serde(rename = "statuePackId", default)]
     pub statue_pack_id: i32,
-    #[serde(rename = "teamOpenLevel")]
+    #[serde(rename = "teamOpenLevel", default)]
     pub team_open_level: Vec<i32>,
-    #[serde(rename = "spStartHunterCount")]
+    #[serde(rename = "spStartHunterCount", default)]
     pub sp_start_hunter_count: Option<i32>,
-    #[serde(rename = "spTurnAddHunterCount")]
+    #[serde(rename = "spTurnAddHunterCount", default)]
     pub sp_turn_add_hunter_count: Option<i32>,
 }
 

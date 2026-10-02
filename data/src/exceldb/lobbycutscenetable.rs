@@ -7,17 +7,17 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Lobbycutscenetable {
-    #[serde(rename = "costumeConceptInfoTextEnumCount")]
+    #[serde(rename = "costumeConceptInfoTextEnumCount", default)]
     pub costume_concept_info_text_enum_count: Vec<i32>,
-    #[serde(rename = "costumeConceptInfoTextType")]
+    #[serde(rename = "costumeConceptInfoTextType", default)]
     pub costume_concept_info_text_type: Vec<i32>,
-    #[serde(rename = "costumeConceptInfoVoiceEnumCount")]
+    #[serde(rename = "costumeConceptInfoVoiceEnumCount", default)]
     pub costume_concept_info_voice_enum_count: Vec<i32>,
-    #[serde(rename = "costumeConceptInfoVoiceType")]
+    #[serde(rename = "costumeConceptInfoVoiceType", default)]
     pub costume_concept_info_voice_type: Vec<i32>,
-    #[serde(rename = "costumeDesignId")]
+    #[serde(rename = "costumeDesignId", default)]
     pub costume_design_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
 }
 

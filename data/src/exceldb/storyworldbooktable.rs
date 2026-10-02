@@ -7,21 +7,21 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Storyworldbooktable {
-    #[serde(rename = "calendarId")]
+    #[serde(rename = "calendarId", default)]
     pub calendar_id: i32,
-    #[serde(rename = "contentWorldbookTextId")]
+    #[serde(rename = "contentWorldbookTextId", default)]
     pub content_worldbook_text_id: i32,
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "sortId")]
+    #[serde(rename = "sortId", default)]
     pub sort_id: i32,
-    #[serde(rename = "titleWolrdbookTextId")]
+    #[serde(rename = "titleWolrdbookTextId", default)]
     pub title_wolrdbook_text_id: i32,
-    #[serde(rename = "unlockPackId")]
+    #[serde(rename = "unlockPackId", default)]
     pub unlock_pack_id: Option<i32>,
-    #[serde(rename = "unlockQuestId")]
+    #[serde(rename = "unlockQuestId", default)]
     pub unlock_quest_id: Option<i32>,
 }
 

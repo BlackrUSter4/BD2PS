@@ -7,13 +7,13 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Gachavisualtable {
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "type")]
+    #[serde(rename = "type", default)]
     pub r#type: i32,
-    #[serde(rename = "visualLocalTextID")]
+    #[serde(rename = "visualLocalTextID", default)]
     pub visual_local_text_i_d: i32,
-    #[serde(rename = "voiceResourceName")]
+    #[serde(rename = "voiceResourceName", default)]
     pub voice_resource_name: Option<String>,
 }
 

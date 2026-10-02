@@ -7,23 +7,23 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Rlrelictable {
-    #[serde(rename = "grade")]
+    #[serde(rename = "grade", default)]
     pub grade: Option<i32>,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "relicBuff")]
+    #[serde(rename = "relicBuff", default)]
     pub relic_buff: Vec<i32>,
-    #[serde(rename = "relicDescTextId")]
+    #[serde(rename = "relicDescTextId", default)]
     pub relic_desc_text_id: i32,
-    #[serde(rename = "relicIcon")]
+    #[serde(rename = "relicIcon", default)]
     pub relic_icon: String,
-    #[serde(rename = "relicIconType")]
+    #[serde(rename = "relicIconType", default)]
     pub relic_icon_type: i32,
-    #[serde(rename = "relicNameTextId")]
+    #[serde(rename = "relicNameTextId", default)]
     pub relic_name_text_id: i32,
-    #[serde(rename = "relicPrice")]
+    #[serde(rename = "relicPrice", default)]
     pub relic_price: Option<i32>,
-    #[serde(rename = "relicType")]
+    #[serde(rename = "relicType", default)]
     pub relic_type: Option<i32>,
 }
 

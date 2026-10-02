@@ -7,29 +7,29 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Rlleveltable {
-    #[serde(rename = "bossRoom")]
+    #[serde(rename = "bossRoom", default)]
     pub boss_room: Vec<i32>,
-    #[serde(rename = "enemyDamageRate")]
+    #[serde(rename = "enemyDamageRate", default)]
     pub enemy_damage_rate: f32,
-    #[serde(rename = "enemyHealthRate")]
+    #[serde(rename = "enemyHealthRate", default)]
     pub enemy_health_rate: f32,
-    #[serde(rename = "floorCount")]
+    #[serde(rename = "floorCount", default)]
     pub floor_count: i32,
-    #[serde(rename = "getGoldRate")]
+    #[serde(rename = "getGoldRate", default)]
     pub get_gold_rate: f32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "nextSeasonOpenLevel")]
+    #[serde(rename = "nextSeasonOpenLevel", default)]
     pub next_season_open_level: i32,
-    #[serde(rename = "rewardCount")]
+    #[serde(rename = "rewardCount", default)]
     pub reward_count: Vec<i32>,
-    #[serde(rename = "rewardId")]
+    #[serde(rename = "rewardId", default)]
     pub reward_id: Vec<i32>,
-    #[serde(rename = "scoreBonusRate")]
+    #[serde(rename = "scoreBonusRate", default)]
     pub score_bonus_rate: Option<f32>,
-    #[serde(rename = "spStartCount")]
+    #[serde(rename = "spStartCount", default)]
     pub sp_start_count: Option<i32>,
-    #[serde(rename = "spTurnAddCount")]
+    #[serde(rename = "spTurnAddCount", default)]
     pub sp_turn_add_count: i32,
 }
 

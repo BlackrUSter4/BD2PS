@@ -7,17 +7,17 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Guildraidflagtable {
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "guildRaidFlagDescNameTextId")]
+    #[serde(rename = "guildRaidFlagDescNameTextId", default)]
     pub guild_raid_flag_desc_name_text_id: i32,
-    #[serde(rename = "guildRaidFlagGrade")]
+    #[serde(rename = "guildRaidFlagGrade", default)]
     pub guild_raid_flag_grade: i32,
-    #[serde(rename = "guildRaidFlagNameTextId")]
+    #[serde(rename = "guildRaidFlagNameTextId", default)]
     pub guild_raid_flag_name_text_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "rank")]
+    #[serde(rename = "rank", default)]
     pub rank: f32,
 }
 

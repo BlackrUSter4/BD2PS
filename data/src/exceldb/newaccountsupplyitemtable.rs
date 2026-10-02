@@ -6,11 +6,11 @@ use anyhow::Result;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Newaccountsupplyitemtable {
-    #[serde(rename = "supplyItemCount")]
+    #[serde(rename = "supplyItemCount", default)]
     pub supply_item_count: Vec<i32>,
-    #[serde(rename = "supplyItemId")]
+    #[serde(rename = "supplyItemId", default)]
     pub supply_item_id: Vec<i32>,
-    #[serde(rename = "supplyItemType")]
+    #[serde(rename = "supplyItemType", default)]
     pub supply_item_type: Vec<i32>,
 }
 

@@ -7,15 +7,15 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Instantuseitemtable {
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "itemDescNameTextId")]
+    #[serde(rename = "itemDescNameTextId", default)]
     pub item_desc_name_text_id: i32,
-    #[serde(rename = "itemNameTextId")]
+    #[serde(rename = "itemNameTextId", default)]
     pub item_name_text_id: i32,
-    #[serde(rename = "itemSpriteName")]
+    #[serde(rename = "itemSpriteName", default)]
     pub item_sprite_name: String,
-    #[serde(rename = "itemSubNameTextId")]
+    #[serde(rename = "itemSubNameTextId", default)]
     pub item_sub_name_text_id: i32,
 }
 

@@ -7,11 +7,11 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Textdescriptiontable {
-    #[serde(rename = "descSkillTextId")]
+    #[serde(rename = "descSkillTextId", default)]
     pub desc_skill_text_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "targetSkillTextId")]
+    #[serde(rename = "targetSkillTextId", default)]
     pub target_skill_text_id: i32,
 }
 

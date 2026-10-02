@@ -7,15 +7,15 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Charrecoverytable {
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "recoveryAddItemCount")]
+    #[serde(rename = "recoveryAddItemCount", default)]
     pub recovery_add_item_count: i32,
-    #[serde(rename = "recoveryItemCount")]
+    #[serde(rename = "recoveryItemCount", default)]
     pub recovery_item_count: i32,
-    #[serde(rename = "recoveryItemType")]
+    #[serde(rename = "recoveryItemType", default)]
     pub recovery_item_type: i32,
-    #[serde(rename = "recoverySquadLevel")]
+    #[serde(rename = "recoverySquadLevel", default)]
     pub recovery_squad_level: i32,
 }
 

@@ -7,23 +7,23 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Battlepowertable {
-    #[serde(rename = "awakePower")]
+    #[serde(rename = "awakePower", default)]
     pub awake_power: i32,
-    #[serde(rename = "costumeGradePower")]
+    #[serde(rename = "costumeGradePower", default)]
     pub costume_grade_power: i32,
-    #[serde(rename = "costumePower")]
+    #[serde(rename = "costumePower", default)]
     pub costume_power: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "imprintGradePower")]
+    #[serde(rename = "imprintGradePower", default)]
     pub imprint_grade_power: i32,
-    #[serde(rename = "levelValuePower")]
+    #[serde(rename = "levelValuePower", default)]
     pub level_value_power: i32,
-    #[serde(rename = "potentialConnectionNodePower")]
+    #[serde(rename = "potentialConnectionNodePower", default)]
     pub potential_connection_node_power: i32,
-    #[serde(rename = "potentialPublicNodePower")]
+    #[serde(rename = "potentialPublicNodePower", default)]
     pub potential_public_node_power: i32,
-    #[serde(rename = "potentialSkillNodePower")]
+    #[serde(rename = "potentialSkillNodePower", default)]
     pub potential_skill_node_power: i32,
 }
 

@@ -7,15 +7,15 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Gacharandomvisualtable {
-    #[serde(rename = "grade")]
+    #[serde(rename = "grade", default)]
     pub grade: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "randomVisualId")]
+    #[serde(rename = "randomVisualId", default)]
     pub random_visual_id: Vec<i32>,
-    #[serde(rename = "ratio")]
+    #[serde(rename = "ratio", default)]
     pub ratio: Vec<i32>,
-    #[serde(rename = "type")]
+    #[serde(rename = "type", default)]
     pub r#type: i32,
 }
 

@@ -7,55 +7,55 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Fieldminigamesurvivaltable {
-    #[serde(rename = "bombItemPrefab")]
+    #[serde(rename = "bombItemPrefab", default)]
     pub bomb_item_prefab: String,
-    #[serde(rename = "bossMonsterSpawnRange")]
+    #[serde(rename = "bossMonsterSpawnRange", default)]
     pub boss_monster_spawn_range: f32,
-    #[serde(rename = "bossRageTime")]
+    #[serde(rename = "bossRageTime", default)]
     pub boss_rage_time: i32,
-    #[serde(rename = "bossRageValue")]
+    #[serde(rename = "bossRageValue", default)]
     pub boss_rage_value: i32,
-    #[serde(rename = "bossSpawnPointPrefab")]
+    #[serde(rename = "bossSpawnPointPrefab", default)]
     pub boss_spawn_point_prefab: String,
-    #[serde(rename = "boxNavPrefab")]
+    #[serde(rename = "boxNavPrefab", default)]
     pub box_nav_prefab: String,
-    #[serde(rename = "characterGroupId")]
+    #[serde(rename = "characterGroupId", default)]
     pub character_group_id: i32,
-    #[serde(rename = "eventMissionGroupId")]
+    #[serde(rename = "eventMissionGroupId", default)]
     pub event_mission_group_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "itemLimitCount")]
+    #[serde(rename = "itemLimitCount", default)]
     pub item_limit_count: i32,
-    #[serde(rename = "knockbackRange")]
+    #[serde(rename = "knockbackRange", default)]
     pub knockback_range: f32,
-    #[serde(rename = "knockbackTime")]
+    #[serde(rename = "knockbackTime", default)]
     pub knockback_time: f32,
-    #[serde(rename = "levelupProtectionTime")]
+    #[serde(rename = "levelupProtectionTime", default)]
     pub levelup_protection_time: f32,
-    #[serde(rename = "loadingPrefabName")]
+    #[serde(rename = "loadingPrefabName", default)]
     pub loading_prefab_name: String,
-    #[serde(rename = "mapGroupId")]
+    #[serde(rename = "mapGroupId", default)]
     pub map_group_id: i32,
-    #[serde(rename = "monsterAttackInterval")]
+    #[serde(rename = "monsterAttackInterval", default)]
     pub monster_attack_interval: f32,
-    #[serde(rename = "monsterSpawnRange")]
+    #[serde(rename = "monsterSpawnRange", default)]
     pub monster_spawn_range: f32,
-    #[serde(rename = "monsterSpwanSpotCount")]
+    #[serde(rename = "monsterSpwanSpotCount", default)]
     pub monster_spwan_spot_count: i32,
-    #[serde(rename = "normalPickupSpeed")]
+    #[serde(rename = "normalPickupSpeed", default)]
     pub normal_pickup_speed: f32,
-    #[serde(rename = "playerAttackInterval")]
+    #[serde(rename = "playerAttackInterval", default)]
     pub player_attack_interval: f32,
-    #[serde(rename = "skillCapacity")]
+    #[serde(rename = "skillCapacity", default)]
     pub skill_capacity: i32,
-    #[serde(rename = "spawnLimitCount")]
+    #[serde(rename = "spawnLimitCount", default)]
     pub spawn_limit_count: i32,
-    #[serde(rename = "stunEffectPrefabName")]
+    #[serde(rename = "stunEffectPrefabName", default)]
     pub stun_effect_prefab_name: String,
-    #[serde(rename = "timeLimit")]
+    #[serde(rename = "timeLimit", default)]
     pub time_limit: i32,
-    #[serde(rename = "ultimateReadyPrefab")]
+    #[serde(rename = "ultimateReadyPrefab", default)]
     pub ultimate_ready_prefab: String,
 }
 

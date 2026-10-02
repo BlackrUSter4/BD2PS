@@ -7,19 +7,19 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Randomboxtexttable {
-    #[serde(rename = "date")]
+    #[serde(rename = "date", default)]
     pub date: String,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "text")]
+    #[serde(rename = "text", default)]
     pub text: String,
-    #[serde(rename = "textCn")]
+    #[serde(rename = "textCn", default)]
     pub text_cn: String,
-    #[serde(rename = "textEn")]
+    #[serde(rename = "textEn", default)]
     pub text_en: String,
-    #[serde(rename = "textJp")]
+    #[serde(rename = "textJp", default)]
     pub text_jp: String,
-    #[serde(rename = "textTw")]
+    #[serde(rename = "textTw", default)]
     pub text_tw: String,
 }
 

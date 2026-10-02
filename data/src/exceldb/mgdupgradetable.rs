@@ -7,17 +7,17 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Mgdupgradetable {
-    #[serde(rename = "darkupgradeCost")]
+    #[serde(rename = "darkupgradeCost", default)]
     pub darkupgrade_cost: i32,
-    #[serde(rename = "fireupgradeCost")]
+    #[serde(rename = "fireupgradeCost", default)]
     pub fireupgrade_cost: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "lightupgradeCost")]
+    #[serde(rename = "lightupgradeCost", default)]
     pub lightupgrade_cost: i32,
-    #[serde(rename = "waterupgradeCost")]
+    #[serde(rename = "waterupgradeCost", default)]
     pub waterupgrade_cost: i32,
-    #[serde(rename = "windupgradeCost")]
+    #[serde(rename = "windupgradeCost", default)]
     pub windupgrade_cost: i32,
 }
 

@@ -7,19 +7,19 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Fieldmonsterbufftable {
-    #[serde(rename = "alertDetectionAngle")]
+    #[serde(rename = "alertDetectionAngle", default)]
     pub alert_detection_angle: f32,
-    #[serde(rename = "alertDetectionDistance")]
+    #[serde(rename = "alertDetectionDistance", default)]
     pub alert_detection_distance: f32,
-    #[serde(rename = "buffTIme")]
+    #[serde(rename = "buffTIme", default)]
     pub buff_t_ime: f32,
-    #[serde(rename = "detectionIgnoreWall")]
+    #[serde(rename = "detectionIgnoreWall", default)]
     pub detection_ignore_wall: i32,
-    #[serde(rename = "distanceChase")]
+    #[serde(rename = "distanceChase", default)]
     pub distance_chase: f32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "moveSpeed")]
+    #[serde(rename = "moveSpeed", default)]
     pub move_speed: f32,
 }
 

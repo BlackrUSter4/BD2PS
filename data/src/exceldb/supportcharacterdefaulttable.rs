@@ -6,19 +6,19 @@ use anyhow::Result;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Supportcharacterdefaulttable {
-    #[serde(rename = "DailyMaxSupportRewardCount")]
+    #[serde(rename = "DailyMaxSupportRewardCount", default)]
     pub daily_max_support_reward_count: i32,
-    #[serde(rename = "DailyRecommendedSupportCount")]
+    #[serde(rename = "DailyRecommendedSupportCount", default)]
     pub daily_recommended_support_count: i32,
-    #[serde(rename = "DailySupportCount")]
+    #[serde(rename = "DailySupportCount", default)]
     pub daily_support_count: i32,
-    #[serde(rename = "SupportCombatPower")]
+    #[serde(rename = "SupportCombatPower", default)]
     pub support_combat_power: i32,
-    #[serde(rename = "SupportGuideTutorial")]
+    #[serde(rename = "SupportGuideTutorial", default)]
     pub support_guide_tutorial: i32,
-    #[serde(rename = "SupportRewardItemType")]
+    #[serde(rename = "SupportRewardItemType", default)]
     pub support_reward_item_type: i32,
-    #[serde(rename = "SupportRewardValue")]
+    #[serde(rename = "SupportRewardValue", default)]
     pub support_reward_value: i32,
 }
 

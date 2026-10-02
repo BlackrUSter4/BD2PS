@@ -7,15 +7,15 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Cafeteriatimetable {
-    #[serde(rename = "BgmParameter")]
+    #[serde(rename = "BgmParameter", default)]
     pub bgm_parameter: Option<i32>,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "lightParameter")]
+    #[serde(rename = "lightParameter", default)]
     pub light_parameter: Option<i32>,
-    #[serde(rename = "spawnTime")]
+    #[serde(rename = "spawnTime", default)]
     pub spawn_time: i32,
-    #[serde(rename = "startTime")]
+    #[serde(rename = "startTime", default)]
     pub start_time: String,
 }
 

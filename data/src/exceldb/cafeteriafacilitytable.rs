@@ -7,11 +7,11 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Cafeteriafacilitytable {
-    #[serde(rename = "facilityType")]
+    #[serde(rename = "facilityType", default)]
     pub facility_type: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "objectName")]
+    #[serde(rename = "objectName", default)]
     pub object_name: String,
 }
 

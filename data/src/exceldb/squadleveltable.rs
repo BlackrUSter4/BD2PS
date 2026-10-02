@@ -7,9 +7,9 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Squadleveltable {
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "needEXP")]
+    #[serde(rename = "needEXP", default)]
     pub need_e_x_p: Option<i32>,
 }
 

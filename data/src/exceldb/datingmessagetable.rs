@@ -7,17 +7,17 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Datingmessagetable {
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "message1DatingTextId")]
+    #[serde(rename = "message1DatingTextId", default)]
     pub message1_dating_text_id: Option<i32>,
-    #[serde(rename = "messageType")]
+    #[serde(rename = "messageType", default)]
     pub message_type: i32,
-    #[serde(rename = "speakerType")]
+    #[serde(rename = "speakerType", default)]
     pub speaker_type: Option<i32>,
-    #[serde(rename = "triggerType")]
+    #[serde(rename = "triggerType", default)]
     pub trigger_type: Option<i32>,
 }
 

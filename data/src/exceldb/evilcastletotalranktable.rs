@@ -7,17 +7,17 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Evilcastletotalranktable {
-    #[serde(rename = "RewardCount")]
+    #[serde(rename = "RewardCount", default)]
     pub reward_count: Vec<i32>,
-    #[serde(rename = "RewardId")]
+    #[serde(rename = "RewardId", default)]
     pub reward_id: Vec<i32>,
-    #[serde(rename = "RewardType")]
+    #[serde(rename = "RewardType", default)]
     pub reward_type: Vec<i32>,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "rank")]
+    #[serde(rename = "rank", default)]
     pub rank: i32,
-    #[serde(rename = "rankLocalTextId")]
+    #[serde(rename = "rankLocalTextId", default)]
     pub rank_local_text_id: i32,
 }
 

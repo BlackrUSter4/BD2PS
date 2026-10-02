@@ -7,27 +7,27 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Actiongamemonsterpartstable {
-    #[serde(rename = "banMonsterPatternId")]
+    #[serde(rename = "banMonsterPatternId", default)]
     pub ban_monster_pattern_id: Option<Vec<i32>>,
-    #[serde(rename = "baseModelName")]
+    #[serde(rename = "baseModelName", default)]
     pub base_model_name: Option<String>,
-    #[serde(rename = "blowWeakPartsValue")]
+    #[serde(rename = "blowWeakPartsValue", default)]
     pub blow_weak_parts_value: Option<f32>,
-    #[serde(rename = "breakType")]
+    #[serde(rename = "breakType", default)]
     pub break_type: Option<i32>,
-    #[serde(rename = "brokenAnimationName")]
+    #[serde(rename = "brokenAnimationName", default)]
     pub broken_animation_name: Option<String>,
-    #[serde(rename = "brokenModelName")]
+    #[serde(rename = "brokenModelName", default)]
     pub broken_model_name: Option<String>,
-    #[serde(rename = "brokenValue")]
+    #[serde(rename = "brokenValue", default)]
     pub broken_value: Option<i32>,
-    #[serde(rename = "cutWeakPartsValue")]
+    #[serde(rename = "cutWeakPartsValue", default)]
     pub cut_weak_parts_value: Option<f32>,
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "partsNameTextId")]
+    #[serde(rename = "partsNameTextId", default)]
     pub parts_name_text_id: Option<i32>,
 }
 

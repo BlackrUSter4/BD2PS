@@ -7,19 +7,19 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Likabilitypartnertable {
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "mainCharacterPointWeight")]
+    #[serde(rename = "mainCharacterPointWeight", default)]
     pub main_character_point_weight: f32,
-    #[serde(rename = "partnerUniqueIds")]
+    #[serde(rename = "partnerUniqueIds", default)]
     pub partner_unique_ids: Vec<i32>,
-    #[serde(rename = "rewardCount")]
+    #[serde(rename = "rewardCount", default)]
     pub reward_count: Vec<i32>,
-    #[serde(rename = "rewardId")]
+    #[serde(rename = "rewardId", default)]
     pub reward_id: Vec<i32>,
-    #[serde(rename = "rewardType")]
+    #[serde(rename = "rewardType", default)]
     pub reward_type: Vec<i32>,
-    #[serde(rename = "storyId")]
+    #[serde(rename = "storyId", default)]
     pub story_id: Vec<i32>,
 }
 

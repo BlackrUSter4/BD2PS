@@ -7,19 +7,19 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Worldbufftable {
-    #[serde(rename = "buffIcon")]
+    #[serde(rename = "buffIcon", default)]
     pub buff_icon: String,
-    #[serde(rename = "buffNoticeLocalTextId")]
+    #[serde(rename = "buffNoticeLocalTextId", default)]
     pub buff_notice_local_text_id: i32,
-    #[serde(rename = "buffTitleLocalTextId")]
+    #[serde(rename = "buffTitleLocalTextId", default)]
     pub buff_title_local_text_id: i32,
-    #[serde(rename = "buffValue")]
+    #[serde(rename = "buffValue", default)]
     pub buff_value: f32,
-    #[serde(rename = "buffdescLocalTextId")]
+    #[serde(rename = "buffdescLocalTextId", default)]
     pub buffdesc_local_text_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "statType")]
+    #[serde(rename = "statType", default)]
     pub stat_type: i32,
 }
 

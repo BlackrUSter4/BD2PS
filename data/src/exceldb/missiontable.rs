@@ -7,39 +7,39 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Missiontable {
-    #[serde(rename = "conditionSubType")]
+    #[serde(rename = "conditionSubType", default)]
     pub condition_sub_type: Option<i32>,
-    #[serde(rename = "conditionSubTypeParams")]
+    #[serde(rename = "conditionSubTypeParams", default)]
     pub condition_sub_type_params: Option<Vec<i32>>,
-    #[serde(rename = "conditionType")]
+    #[serde(rename = "conditionType", default)]
     pub condition_type: Option<i32>,
-    #[serde(rename = "conditionValue")]
+    #[serde(rename = "conditionValue", default)]
     pub condition_value: i32,
-    #[serde(rename = "descLocalTextId")]
+    #[serde(rename = "descLocalTextId", default)]
     pub desc_local_text_id: i32,
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "groupType")]
+    #[serde(rename = "groupType", default)]
     pub group_type: Option<i32>,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "isConditionSubTypeMoreCheck")]
+    #[serde(rename = "isConditionSubTypeMoreCheck", default)]
     pub is_condition_sub_type_more_check: Option<i32>,
-    #[serde(rename = "isHighlight")]
+    #[serde(rename = "isHighlight", default)]
     pub is_highlight: Option<i32>,
-    #[serde(rename = "passExp")]
+    #[serde(rename = "passExp", default)]
     pub pass_exp: Option<i32>,
-    #[serde(rename = "rewardCount")]
+    #[serde(rename = "rewardCount", default)]
     pub reward_count: Option<i32>,
-    #[serde(rename = "rewardId")]
+    #[serde(rename = "rewardId", default)]
     pub reward_id: Option<i32>,
-    #[serde(rename = "rewardType")]
+    #[serde(rename = "rewardType", default)]
     pub reward_type: Option<i32>,
-    #[serde(rename = "shortCutId")]
+    #[serde(rename = "shortCutId", default)]
     pub short_cut_id: Option<i32>,
-    #[serde(rename = "sortId")]
+    #[serde(rename = "sortId", default)]
     pub sort_id: i32,
-    #[serde(rename = "titleLocalTextId")]
+    #[serde(rename = "titleLocalTextId", default)]
     pub title_local_text_id: i32,
 }
 

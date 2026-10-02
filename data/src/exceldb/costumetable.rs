@@ -7,58 +7,57 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Costumetable {
-    #[serde(rename = "attackMoveType")]
+    #[serde(rename = "attackMoveType", default)]
     pub attack_move_type: Option<i32>,
-    #[serde(rename = "attackRange")]
+    #[serde(rename = "attackRange", default)]
     pub attack_range: Option<i32>,
-    #[serde(rename = "attackRangeCount")]
+    #[serde(rename = "attackRangeCount", default)]
     pub attack_range_count: i32,
-    #[serde(rename = "attackType")]
+    #[serde(rename = "attackType", default)]
     pub attack_type: Option<i32>,
-    #[serde(rename = "buffImmuneGroupID")]
+    #[serde(rename = "buffImmuneGroupID", default)]
     pub buff_immune_group_i_d: Option<i32>,
-    #[serde(rename = "connectedCostumeDesignId")]
-    #[serde(default)]
+    #[serde(rename = "connectedCostumeDesignId", default)]
     pub connected_costume_design_id: Vec<i32>,
-    #[serde(rename = "costumeDescNameTextId")]
+    #[serde(rename = "costumeDescNameTextId", default)]
     pub costume_desc_name_text_id: i32,
-    #[serde(rename = "costumeDialog")]
+    #[serde(rename = "costumeDialog", default)]
     pub costume_dialog: i32,
-    #[serde(rename = "costumeNameTextId")]
+    #[serde(rename = "costumeNameTextId", default)]
     pub costume_name_text_id: i32,
-    #[serde(rename = "growthGroupId")]
+    #[serde(rename = "growthGroupId", default)]
     pub growth_group_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "japaneseCharacterVoiceActorNameTextId")]
+    #[serde(rename = "japaneseCharacterVoiceActorNameTextId", default)]
     pub japanese_character_voice_actor_name_text_id: Option<i32>,
-    #[serde(rename = "koreanCharacterVoiceActorNameTextId")]
+    #[serde(rename = "koreanCharacterVoiceActorNameTextId", default)]
     pub korean_character_voice_actor_name_text_id: Option<i32>,
-    #[serde(rename = "maxLevel")]
+    #[serde(rename = "maxLevel", default)]
     pub max_level: Option<i32>,
-    #[serde(rename = "norSubAttackBuffId")]
+    #[serde(rename = "norSubAttackBuffId", default)]
     pub nor_sub_attack_buff_id: Option<i32>,
-    #[serde(rename = "norSubAttackDescSkillTextId")]
+    #[serde(rename = "norSubAttackDescSkillTextId", default)]
     pub nor_sub_attack_desc_skill_text_id: Option<i32>,
-    #[serde(rename = "norSubAttackNameSkillTextId")]
+    #[serde(rename = "norSubAttackNameSkillTextId", default)]
     pub nor_sub_attack_name_skill_text_id: i32,
-    #[serde(rename = "normalAttackDescSkillTextId")]
+    #[serde(rename = "normalAttackDescSkillTextId", default)]
     pub normal_attack_desc_skill_text_id: i32,
-    #[serde(rename = "normalAttackNameSkillTextId")]
+    #[serde(rename = "normalAttackNameSkillTextId", default)]
     pub normal_attack_name_skill_text_id: i32,
-    #[serde(rename = "notTrash")]
+    #[serde(rename = "notTrash", default)]
     pub not_trash: i32,
-    #[serde(rename = "packId")]
+    #[serde(rename = "packId", default)]
     pub pack_id: Option<i32>,
-    #[serde(rename = "skillGroupId")]
+    #[serde(rename = "skillGroupId", default)]
     pub skill_group_id: Option<i32>,
-    #[serde(rename = "spAttackAddCount")]
+    #[serde(rename = "spAttackAddCount", default)]
     pub sp_attack_add_count: i32,
-    #[serde(rename = "targetType")]
+    #[serde(rename = "targetType", default)]
     pub target_type: Option<i32>,
-    #[serde(rename = "useRoguelike")]
+    #[serde(rename = "useRoguelike", default)]
     pub use_roguelike: Option<i32>,
-    #[serde(rename = "useUniqueCharId")]
+    #[serde(rename = "useUniqueCharId", default)]
     pub use_unique_char_id: i32,
 }
 

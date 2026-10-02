@@ -7,23 +7,23 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Eventmissiongrouptable {
-    #[serde(rename = "eventMissionType")]
+    #[serde(rename = "eventMissionType", default)]
     pub event_mission_type: Option<i32>,
-    #[serde(rename = "eventNameTextId")]
+    #[serde(rename = "eventNameTextId", default)]
     pub event_name_text_id: Option<i32>,
-    #[serde(rename = "guideDescLocalTextId")]
+    #[serde(rename = "guideDescLocalTextId", default)]
     pub guide_desc_local_text_id: Option<Vec<i32>>,
-    #[serde(rename = "guideTitleLocalTextId")]
+    #[serde(rename = "guideTitleLocalTextId", default)]
     pub guide_title_local_text_id: Option<Vec<i32>>,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "isCompleteHide")]
+    #[serde(rename = "isCompleteHide", default)]
     pub is_complete_hide: Option<i32>,
-    #[serde(rename = "missionGroupId")]
+    #[serde(rename = "missionGroupId", default)]
     pub mission_group_id: Vec<i32>,
-    #[serde(rename = "scheduleType")]
+    #[serde(rename = "scheduleType", default)]
     pub schedule_type: Option<i32>,
-    #[serde(rename = "usePass")]
+    #[serde(rename = "usePass", default)]
     pub use_pass: Option<i32>,
 }
 

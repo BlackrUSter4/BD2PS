@@ -7,43 +7,43 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Fieldminigamechartable {
-    #[serde(rename = "amor")]
+    #[serde(rename = "amor", default)]
     pub amor: f32,
-    #[serde(rename = "charGrowthId")]
+    #[serde(rename = "charGrowthId", default)]
     pub char_growth_id: i32,
-    #[serde(rename = "charSkillGroupId")]
+    #[serde(rename = "charSkillGroupId", default)]
     pub char_skill_group_id: i32,
-    #[serde(rename = "charUltimateSkillGroupId")]
+    #[serde(rename = "charUltimateSkillGroupId", default)]
     pub char_ultimate_skill_group_id: i32,
-    #[serde(rename = "cooldownValue")]
+    #[serde(rename = "cooldownValue", default)]
     pub cooldown_value: f32,
-    #[serde(rename = "costumeId")]
+    #[serde(rename = "costumeId", default)]
     pub costume_id: i32,
-    #[serde(rename = "durationValue")]
+    #[serde(rename = "durationValue", default)]
     pub duration_value: f32,
-    #[serde(rename = "expGainValue")]
+    #[serde(rename = "expGainValue", default)]
     pub exp_gain_value: f32,
-    #[serde(rename = "goldGainValue")]
+    #[serde(rename = "goldGainValue", default)]
     pub gold_gain_value: f32,
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "hpRecoveryPerSecond")]
+    #[serde(rename = "hpRecoveryPerSecond", default)]
     pub hp_recovery_per_second: f32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "itemPickupRange")]
+    #[serde(rename = "itemPickupRange", default)]
     pub item_pickup_range: f32,
-    #[serde(rename = "moveSpeed")]
+    #[serde(rename = "moveSpeed", default)]
     pub move_speed: f32,
-    #[serde(rename = "powerValue")]
+    #[serde(rename = "powerValue", default)]
     pub power_value: f32,
-    #[serde(rename = "prefabPath")]
+    #[serde(rename = "prefabPath", default)]
     pub prefab_path: String,
-    #[serde(rename = "projectileSpeed")]
+    #[serde(rename = "projectileSpeed", default)]
     pub projectile_speed: f32,
-    #[serde(rename = "rerollCount")]
+    #[serde(rename = "rerollCount", default)]
     pub reroll_count: i32,
-    #[serde(rename = "startHp")]
+    #[serde(rename = "startHp", default)]
     pub start_hp: i32,
 }
 

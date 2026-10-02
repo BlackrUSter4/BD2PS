@@ -7,19 +7,19 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Monsterhuntskillconditiontable {
-    #[serde(rename = "conditionTarget")]
+    #[serde(rename = "conditionTarget", default)]
     pub condition_target: Vec<i32>,
-    #[serde(rename = "conditionType")]
+    #[serde(rename = "conditionType", default)]
     pub condition_type: Vec<i32>,
-    #[serde(rename = "conditionValue")]
+    #[serde(rename = "conditionValue", default)]
     pub condition_value: Vec<f32>,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "limitLocalTextId")]
+    #[serde(rename = "limitLocalTextId", default)]
     pub limit_local_text_id: i32,
-    #[serde(rename = "limitType")]
+    #[serde(rename = "limitType", default)]
     pub limit_type: i32,
-    #[serde(rename = "limitValue")]
+    #[serde(rename = "limitValue", default)]
     pub limit_value: i32,
 }
 

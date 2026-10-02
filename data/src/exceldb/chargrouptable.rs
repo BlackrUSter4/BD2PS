@@ -7,13 +7,13 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Chargrouptable {
-    #[serde(rename = "charId")]
+    #[serde(rename = "charId", default)]
     pub char_id: i32,
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "level")]
+    #[serde(rename = "level", default)]
     pub level: i32,
 }
 

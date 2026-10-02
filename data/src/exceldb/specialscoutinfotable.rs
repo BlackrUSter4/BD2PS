@@ -6,15 +6,15 @@ use anyhow::Result;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Specialscoutinfotable {
-    #[serde(rename = "appearTotalCount")]
+    #[serde(rename = "appearTotalCount", default)]
     pub appear_total_count: i32,
-    #[serde(rename = "autoResetMinute")]
+    #[serde(rename = "autoResetMinute", default)]
     pub auto_reset_minute: i32,
-    #[serde(rename = "resetCostCount")]
+    #[serde(rename = "resetCostCount", default)]
     pub reset_cost_count: i32,
-    #[serde(rename = "resetCostType")]
+    #[serde(rename = "resetCostType", default)]
     pub reset_cost_type: i32,
-    #[serde(rename = "resetLimitCount")]
+    #[serde(rename = "resetLimitCount", default)]
     pub reset_limit_count: i32,
 }
 

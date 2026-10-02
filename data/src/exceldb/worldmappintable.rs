@@ -7,25 +7,25 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Worldmappintable {
-    #[serde(rename = "huntPackId")]
+    #[serde(rename = "huntPackId", default)]
     pub hunt_pack_id: Option<i32>,
-    #[serde(rename = "huntPinIcoSpriteName")]
+    #[serde(rename = "huntPinIcoSpriteName", default)]
     pub hunt_pin_ico_sprite_name: String,
-    #[serde(rename = "huntTypeGroupId")]
+    #[serde(rename = "huntTypeGroupId", default)]
     pub hunt_type_group_id: Option<i32>,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "mapDescNameTextId")]
+    #[serde(rename = "mapDescNameTextId", default)]
     pub map_desc_name_text_id: i32,
-    #[serde(rename = "mapNameTextId")]
+    #[serde(rename = "mapNameTextId", default)]
     pub map_name_text_id: i32,
-    #[serde(rename = "mapPinIconSpriteName")]
+    #[serde(rename = "mapPinIconSpriteName", default)]
     pub map_pin_icon_sprite_name: String,
-    #[serde(rename = "mapPinThumbSpriteName")]
+    #[serde(rename = "mapPinThumbSpriteName", default)]
     pub map_pin_thumb_sprite_name: String,
-    #[serde(rename = "packId")]
+    #[serde(rename = "packId", default)]
     pub pack_id: Option<i32>,
-    #[serde(rename = "type")]
+    #[serde(rename = "type", default)]
     pub r#type: Option<i32>,
 }
 

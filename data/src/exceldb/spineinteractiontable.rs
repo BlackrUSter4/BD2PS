@@ -7,15 +7,15 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Spineinteractiontable {
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "soundAmbName")]
+    #[serde(rename = "soundAmbName", default)]
     pub sound_amb_name: String,
-    #[serde(rename = "soundBGMName")]
+    #[serde(rename = "soundBGMName", default)]
     pub sound_b_g_m_name: String,
-    #[serde(rename = "unlockDatingId")]
+    #[serde(rename = "unlockDatingId", default)]
     pub unlock_dating_id: Option<i32>,
-    #[serde(rename = "unlockDatinggroupId")]
+    #[serde(rename = "unlockDatinggroupId", default)]
     pub unlock_datinggroup_id: Option<i32>,
 }
 

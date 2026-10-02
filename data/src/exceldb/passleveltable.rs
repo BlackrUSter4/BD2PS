@@ -7,25 +7,25 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Passleveltable {
-    #[serde(rename = "basicRewardCount")]
+    #[serde(rename = "basicRewardCount", default)]
     pub basic_reward_count: i32,
-    #[serde(rename = "basicRewardId")]
+    #[serde(rename = "basicRewardId", default)]
     pub basic_reward_id: i32,
-    #[serde(rename = "basicRewardType")]
+    #[serde(rename = "basicRewardType", default)]
     pub basic_reward_type: i32,
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "nextNeedExp")]
+    #[serde(rename = "nextNeedExp", default)]
     pub next_need_exp: Option<i32>,
-    #[serde(rename = "pass1RewardCount")]
+    #[serde(rename = "pass1RewardCount", default)]
     pub pass1_reward_count: Option<i32>,
-    #[serde(rename = "pass1RewardId")]
+    #[serde(rename = "pass1RewardId", default)]
     pub pass1_reward_id: Option<i32>,
-    #[serde(rename = "pass1RewardType")]
+    #[serde(rename = "pass1RewardType", default)]
     pub pass1_reward_type: Option<i32>,
-    #[serde(rename = "premiumType")]
+    #[serde(rename = "premiumType", default)]
     pub premium_type: Option<i32>,
 }
 

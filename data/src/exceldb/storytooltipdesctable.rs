@@ -7,13 +7,13 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Storytooltipdesctable {
-    #[serde(rename = "descTextId")]
+    #[serde(rename = "descTextId", default)]
     pub desc_text_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "sortId")]
+    #[serde(rename = "sortId", default)]
     pub sort_id: i32,
-    #[serde(rename = "titleTextId")]
+    #[serde(rename = "titleTextId", default)]
     pub title_text_id: i32,
 }
 

@@ -7,35 +7,35 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Cashproducttable {
-    #[serde(rename = "appleInAppId")]
+    #[serde(rename = "appleInAppId", default)]
     pub apple_in_app_id: Option<String>,
-    #[serde(rename = "googleInAppId")]
+    #[serde(rename = "googleInAppId", default)]
     pub google_in_app_id: Option<String>,
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "priceCount")]
+    #[serde(rename = "priceCount", default)]
     pub price_count: Option<i32>,
-    #[serde(rename = "priceId")]
+    #[serde(rename = "priceId", default)]
     pub price_id: Option<i32>,
-    #[serde(rename = "priceType")]
+    #[serde(rename = "priceType", default)]
     pub price_type: Option<i32>,
-    #[serde(rename = "priority")]
+    #[serde(rename = "priority", default)]
     pub priority: Option<i32>,
-    #[serde(rename = "productLocalTextId")]
+    #[serde(rename = "productLocalTextId", default)]
     pub product_local_text_id: i32,
-    #[serde(rename = "purchaseLimitCount")]
+    #[serde(rename = "purchaseLimitCount", default)]
     pub purchase_limit_count: Option<i32>,
-    #[serde(rename = "purchaseLimitType")]
+    #[serde(rename = "purchaseLimitType", default)]
     pub purchase_limit_type: Option<i32>,
-    #[serde(rename = "randomboxId")]
+    #[serde(rename = "randomboxId", default)]
     pub randombox_id: i32,
-    #[serde(rename = "saleGroup")]
+    #[serde(rename = "saleGroup", default)]
     pub sale_group: Option<i32>,
-    #[serde(rename = "timeLimitType")]
+    #[serde(rename = "timeLimitType", default)]
     pub time_limit_type: Option<i32>,
-    #[serde(rename = "bulkOrderAvailability")]
+    #[serde(rename = "bulkOrderAvailability", default)]
     pub bulk_order_availability: Option<i32>,
 }
 

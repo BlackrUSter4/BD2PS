@@ -7,11 +7,11 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Battlefieldbufftable {
-    #[serde(rename = "buffID")]
+    #[serde(rename = "buffID", default)]
     pub buff_i_d: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "teamType")]
+    #[serde(rename = "teamType", default)]
     pub team_type: Option<i32>,
 }
 

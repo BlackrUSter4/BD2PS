@@ -7,27 +7,27 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Costumegrowthtable {
-    #[serde(rename = "getExchangeItemCount")]
+    #[serde(rename = "getExchangeItemCount", default)]
     pub get_exchange_item_count: Option<i32>,
-    #[serde(rename = "getExchangeItemId")]
+    #[serde(rename = "getExchangeItemId", default)]
     pub get_exchange_item_id: Option<i32>,
-    #[serde(rename = "getExchangeItemType")]
+    #[serde(rename = "getExchangeItemType", default)]
     pub get_exchange_item_type: Option<i32>,
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "growthItemCount")]
+    #[serde(rename = "growthItemCount", default)]
     pub growth_item_count: Option<Vec<i32>>,
-    #[serde(rename = "growthItemId")]
+    #[serde(rename = "growthItemId", default)]
     pub growth_item_id: Option<Vec<i32>>,
-    #[serde(rename = "growthItemType")]
+    #[serde(rename = "growthItemType", default)]
     pub growth_item_type: Option<Vec<i32>>,
     #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "mileageItemCount")]
+    #[serde(rename = "mileageItemCount", default)]
     pub mileage_item_count: Option<i32>,
-    #[serde(rename = "mileageItemType")]
+    #[serde(rename = "mileageItemType", default)]
     pub mileage_item_type: Option<i32>,
-    #[serde(rename = "overExchangeCount")]
+    #[serde(rename = "overExchangeCount", default)]
     pub over_exchange_count: Option<i32>,
 }
 

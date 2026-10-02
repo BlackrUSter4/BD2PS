@@ -7,55 +7,55 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Bufftable {
-    #[serde(rename = "AddBuffId")]
+    #[serde(rename = "AddBuffId", default)]
     pub add_buff_id: Option<i32>,
-    #[serde(rename = "buffApplyType")]
+    #[serde(rename = "buffApplyType", default)]
     pub buff_apply_type: Option<i32>,
-    #[serde(rename = "buffConditionId")]
+    #[serde(rename = "buffConditionId", default)]
     pub buff_condition_id: Option<i32>,
-    #[serde(rename = "buffCountType")]
+    #[serde(rename = "buffCountType", default)]
     pub buff_count_type: Option<i32>,
-    #[serde(rename = "buffDescSkillTextId")]
+    #[serde(rename = "buffDescSkillTextId", default)]
     pub buff_desc_skill_text_id: Option<i32>,
-    #[serde(rename = "buffDisplayType")]
+    #[serde(rename = "buffDisplayType", default)]
     pub buff_display_type: Option<i32>,
-    #[serde(rename = "buffDisplayValue")]
+    #[serde(rename = "buffDisplayValue", default)]
     pub buff_display_value: Option<i32>,
     #[serde(rename = "buffGroup", default)]
     pub buff_group: Vec<i32>,
-    #[serde(rename = "buffIconSpriteName")]
+    #[serde(rename = "buffIconSpriteName", default)]
     pub buff_icon_sprite_name: Option<String>,
-    #[serde(rename = "buffMakerType")]
+    #[serde(rename = "buffMakerType", default)]
     pub buff_maker_type: Option<i32>,
-    #[serde(rename = "buffSkillTextId")]
+    #[serde(rename = "buffSkillTextId", default)]
     pub buff_skill_text_id: Option<i32>,
-    #[serde(rename = "buffTurn")]
+    #[serde(rename = "buffTurn", default)]
     pub buff_turn: Option<i32>,
-    #[serde(rename = "buffType")]
+    #[serde(rename = "buffType", default)]
     pub buff_type: Option<i32>,
-    #[serde(rename = "buffValue")]
+    #[serde(rename = "buffValue", default)]
     pub buff_value: Option<f32>,
-    #[serde(rename = "classType")]
+    #[serde(rename = "classType", default)]
     pub class_type: String,
-    #[serde(rename = "conditionAddBuffId")]
+    #[serde(rename = "conditionAddBuffId", default)]
     pub condition_add_buff_id: Option<i32>,
-    #[serde(rename = "effectPrefabName")]
+    #[serde(rename = "effectPrefabName", default)]
     pub effect_prefab_name: Option<String>,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "magicValue")]
+    #[serde(rename = "magicValue", default)]
     pub magic_value: Option<f32>,
-    #[serde(rename = "overLapCount")]
+    #[serde(rename = "overLapCount", default)]
     pub over_lap_count: Option<i32>,
-    #[serde(rename = "overLapMax")]
+    #[serde(rename = "overLapMax", default)]
     pub over_lap_max: Option<i32>,
-    #[serde(rename = "ownerType")]
+    #[serde(rename = "ownerType", default)]
     pub owner_type: Option<i32>,
-    #[serde(rename = "specialEffectPrefabName")]
+    #[serde(rename = "specialEffectPrefabName", default)]
     pub special_effect_prefab_name: Option<String>,
-    #[serde(rename = "statType")]
+    #[serde(rename = "statType", default)]
     pub stat_type: Option<i32>,
-    #[serde(rename = "subType")]
+    #[serde(rename = "subType", default)]
     pub sub_type: Option<i32>,
 }
 

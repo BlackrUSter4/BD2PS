@@ -7,17 +7,17 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Charawaketable {
-    #[serde(rename = "active")]
+    #[serde(rename = "active", default)]
     pub active: i32,
-    #[serde(rename = "growthId")]
+    #[serde(rename = "growthId", default)]
     pub growth_id: Vec<i32>,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "imprintSlot1")]
+    #[serde(rename = "imprintSlot1", default)]
     pub imprint_slot1: i32,
-    #[serde(rename = "imprintSlot2")]
+    #[serde(rename = "imprintSlot2", default)]
     pub imprint_slot2: i32,
-    #[serde(rename = "imprintSlot3")]
+    #[serde(rename = "imprintSlot3", default)]
     pub imprint_slot3: i32,
 }
 

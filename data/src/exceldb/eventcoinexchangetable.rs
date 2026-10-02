@@ -7,25 +7,25 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Eventcoinexchangetable {
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "keyType")]
+    #[serde(rename = "keyType", default)]
     pub key_type: Option<i32>,
-    #[serde(rename = "limitedRatio")]
+    #[serde(rename = "limitedRatio", default)]
     pub limited_ratio: Option<i32>,
-    #[serde(rename = "pageId")]
+    #[serde(rename = "pageId", default)]
     pub page_id: i32,
-    #[serde(rename = "ratio")]
+    #[serde(rename = "ratio", default)]
     pub ratio: i32,
-    #[serde(rename = "rewardItemCount")]
+    #[serde(rename = "rewardItemCount", default)]
     pub reward_item_count: i32,
-    #[serde(rename = "rewardItemId")]
+    #[serde(rename = "rewardItemId", default)]
     pub reward_item_id: Option<i32>,
-    #[serde(rename = "rewardItemType")]
+    #[serde(rename = "rewardItemType", default)]
     pub reward_item_type: i32,
-    #[serde(rename = "setCount")]
+    #[serde(rename = "setCount", default)]
     pub set_count: i32,
 }
 

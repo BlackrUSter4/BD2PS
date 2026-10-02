@@ -7,13 +7,13 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Skilldesigntable {
-    #[serde(rename = "cameraShakeType")]
+    #[serde(rename = "cameraShakeType", default)]
     pub camera_shake_type: Option<i32>,
-    #[serde(rename = "cameraZoomInType")]
+    #[serde(rename = "cameraZoomInType", default)]
     pub camera_zoom_in_type: Option<i32>,
     #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "skillIconSpriteName")]
+    #[serde(rename = "skillIconSpriteName", default)]
     pub skill_icon_sprite_name: String,
 }
 

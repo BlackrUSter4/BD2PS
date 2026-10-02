@@ -7,17 +7,17 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Fieldminigamesurvivalitemtable {
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "itemPrefabName")]
+    #[serde(rename = "itemPrefabName", default)]
     pub item_prefab_name: String,
-    #[serde(rename = "itemType")]
+    #[serde(rename = "itemType", default)]
     pub item_type: Option<i32>,
-    #[serde(rename = "itemValue")]
+    #[serde(rename = "itemValue", default)]
     pub item_value: i32,
-    #[serde(rename = "itemValue2")]
+    #[serde(rename = "itemValue2", default)]
     pub item_value2: Option<i32>,
-    #[serde(rename = "lifeTime")]
+    #[serde(rename = "lifeTime", default)]
     pub life_time: i32,
 }
 

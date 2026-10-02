@@ -7,31 +7,31 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Packeventstorytable {
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "mapId")]
+    #[serde(rename = "mapId", default)]
     pub map_id: Option<i32>,
-    #[serde(rename = "packId")]
+    #[serde(rename = "packId", default)]
     pub pack_id: i32,
-    #[serde(rename = "questConditionQuestTextId")]
+    #[serde(rename = "questConditionQuestTextId", default)]
     pub quest_condition_quest_text_id: i32,
-    #[serde(rename = "questGroupId")]
+    #[serde(rename = "questGroupId", default)]
     pub quest_group_id: i32,
-    #[serde(rename = "questNameQuestTextId")]
+    #[serde(rename = "questNameQuestTextId", default)]
     pub quest_name_quest_text_id: i32,
-    #[serde(rename = "questTitleQuestTextId")]
+    #[serde(rename = "questTitleQuestTextId", default)]
     pub quest_title_quest_text_id: i32,
-    #[serde(rename = "rewardCount")]
+    #[serde(rename = "rewardCount", default)]
     pub reward_count: Vec<i32>,
-    #[serde(rename = "rewardId")]
+    #[serde(rename = "rewardId", default)]
     pub reward_id: Vec<i32>,
-    #[serde(rename = "rewardType")]
+    #[serde(rename = "rewardType", default)]
     pub reward_type: Vec<i32>,
-    #[serde(rename = "storyType")]
+    #[serde(rename = "storyType", default)]
     pub story_type: Option<i32>,
-    #[serde(rename = "timelineName")]
+    #[serde(rename = "timelineName", default)]
     pub timeline_name: String,
 }
 

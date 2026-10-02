@@ -7,21 +7,21 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Rewardgrouptable {
-    #[serde(rename = "dropCount")]
+    #[serde(rename = "dropCount", default)]
     pub drop_count: Option<i32>,
-    #[serde(rename = "dropType")]
+    #[serde(rename = "dropType", default)]
     pub drop_type: Option<i32>,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "itemCount")]
+    #[serde(rename = "itemCount", default)]
     pub item_count: Option<Vec<i32>>,
-    #[serde(rename = "itemId")]
+    #[serde(rename = "itemId", default)]
     pub item_id: Option<Vec<i32>>,
-    #[serde(rename = "itemType")]
+    #[serde(rename = "itemType", default)]
     pub item_type: Option<Vec<i32>>,
-    #[serde(rename = "mailId")]
+    #[serde(rename = "mailId", default)]
     pub mail_id: Option<i32>,
-    #[serde(rename = "ratio")]
+    #[serde(rename = "ratio", default)]
     pub ratio: Option<Vec<i32>>,
 }
 

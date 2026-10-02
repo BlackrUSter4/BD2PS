@@ -7,27 +7,27 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Equipmentmakingtable {
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "itemDesLocalTextId")]
+    #[serde(rename = "itemDesLocalTextId", default)]
     pub item_des_local_text_id: i32,
-    #[serde(rename = "itemNameLocalTextId")]
+    #[serde(rename = "itemNameLocalTextId", default)]
     pub item_name_local_text_id: i32,
-    #[serde(rename = "materialItemCount")]
+    #[serde(rename = "materialItemCount", default)]
     pub material_item_count: Vec<i32>,
-    #[serde(rename = "materialItemId")]
+    #[serde(rename = "materialItemId", default)]
     pub material_item_id: Vec<i32>,
-    #[serde(rename = "materialItemType")]
+    #[serde(rename = "materialItemType", default)]
     pub material_item_type: Vec<i32>,
-    #[serde(rename = "resultItemCount")]
+    #[serde(rename = "resultItemCount", default)]
     pub result_item_count: i32,
-    #[serde(rename = "resultItemId")]
+    #[serde(rename = "resultItemId", default)]
     pub result_item_id: i32,
-    #[serde(rename = "resultItemType")]
+    #[serde(rename = "resultItemType", default)]
     pub result_item_type: i32,
-    #[serde(rename = "sortOrder")]
+    #[serde(rename = "sortOrder", default)]
     pub sort_order: i32,
-    #[serde(rename = "talentLevel")]
+    #[serde(rename = "talentLevel", default)]
     pub talent_level: i32,
 }
 

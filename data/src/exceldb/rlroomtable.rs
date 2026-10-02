@@ -7,25 +7,25 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Rlroomtable {
-    #[serde(rename = "battleDeckId")]
+    #[serde(rename = "battleDeckId", default)]
     pub battle_deck_id: i32,
-    #[serde(rename = "battleRecoveryRate")]
+    #[serde(rename = "battleRecoveryRate", default)]
     pub battle_recovery_rate: f32,
-    #[serde(rename = "battleRewardPoint")]
+    #[serde(rename = "battleRewardPoint", default)]
     pub battle_reward_point: Option<i32>,
-    #[serde(rename = "costumeChoiceCount")]
+    #[serde(rename = "costumeChoiceCount", default)]
     pub costume_choice_count: Option<i32>,
-    #[serde(rename = "eventChoiceId")]
+    #[serde(rename = "eventChoiceId", default)]
     pub event_choice_id: i32,
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "rewardRelicId")]
+    #[serde(rename = "rewardRelicId", default)]
     pub reward_relic_id: Option<Vec<i32>>,
-    #[serde(rename = "shopTableId")]
+    #[serde(rename = "shopTableId", default)]
     pub shop_table_id: i32,
-    #[serde(rename = "type")]
+    #[serde(rename = "type", default)]
     pub r#type: i32,
 }
 

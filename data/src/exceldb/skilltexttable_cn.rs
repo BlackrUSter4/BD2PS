@@ -7,15 +7,15 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct SkilltexttableCn {
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: Option<i32>,
-    #[serde(rename = "nodeAddTargetBuffTextId")]
+    #[serde(rename = "nodeAddTargetBuffTextId", default)]
     pub node_add_target_buff_text_id: Option<Vec<i32>>,
-    #[serde(rename = "nodeAddText")]
+    #[serde(rename = "nodeAddText", default)]
     pub node_add_text: Option<String>,
-    #[serde(rename = "targetBuffTextId")]
+    #[serde(rename = "targetBuffTextId", default)]
     pub target_buff_text_id: Option<Vec<i32>>,
-    #[serde(rename = "text")]
+    #[serde(rename = "text", default)]
     pub text: Option<String>,
 }
 

@@ -7,19 +7,19 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Pictorialbookmaintable {
-    #[serde(rename = "elementType")]
+    #[serde(rename = "elementType", default)]
     pub element_type: Option<Vec<i32>>,
     #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "menuIcon")]
+    #[serde(rename = "menuIcon", default)]
     pub menu_icon: Option<String>,
-    #[serde(rename = "menuTitleLocalTextId")]
+    #[serde(rename = "menuTitleLocalTextId", default)]
     pub menu_title_local_text_id: Option<i32>,
-    #[serde(rename = "pictorialOrder")]
+    #[serde(rename = "pictorialOrder", default)]
     pub pictorial_order: Option<i32>,
-    #[serde(rename = "type")]
+    #[serde(rename = "type", default)]
     pub r#type: Option<i32>,
-    #[serde(rename = "useBlind")]
+    #[serde(rename = "useBlind", default)]
     pub use_blind: Option<i32>,
 }
 

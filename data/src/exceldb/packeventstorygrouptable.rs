@@ -7,9 +7,9 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Packeventstorygrouptable {
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "storyNameLocalTextId")]
+    #[serde(rename = "storyNameLocalTextId", default)]
     pub story_name_local_text_id: i32,
 }
 

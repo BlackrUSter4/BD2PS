@@ -7,13 +7,13 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Charfieldvoicetable {
-    #[serde(rename = "damageVoiceName")]
+    #[serde(rename = "damageVoiceName", default)]
     pub damage_voice_name: Option<String>,
-    #[serde(rename = "dashVoiceName")]
+    #[serde(rename = "dashVoiceName", default)]
     pub dash_voice_name: Option<String>,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "liftVoiceName")]
+    #[serde(rename = "liftVoiceName", default)]
     pub lift_voice_name: Option<String>,
 }
 

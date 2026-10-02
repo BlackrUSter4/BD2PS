@@ -7,45 +7,45 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Rhythmgamedefaulttable {
-    #[serde(rename = "defaultCharacter")]
+    #[serde(rename = "defaultCharacter", default)]
     pub default_character: i32,
-    #[serde(rename = "eventMissionGroupId")]
+    #[serde(rename = "eventMissionGroupId", default)]
     pub event_mission_group_id: i32,
-    #[serde(rename = "feverGaugeTotal")]
+    #[serde(rename = "feverGaugeTotal", default)]
     pub fever_gauge_total: i32,
-    #[serde(rename = "feverMaxTouchableDivider")]
+    #[serde(rename = "feverMaxTouchableDivider", default)]
     pub fever_max_touchable_divider: i32,
-    #[serde(rename = "hardJudgment")]
+    #[serde(rename = "hardJudgment", default)]
     pub hard_judgment: Vec<i32>,
-    #[serde(rename = "hardMissAvailable")]
+    #[serde(rename = "hardMissAvailable", default)]
     pub hard_miss_available: i32,
-    #[serde(rename = "hardSlidingNoteSpace")]
+    #[serde(rename = "hardSlidingNoteSpace", default)]
     pub hard_sliding_note_space: i32,
-    #[serde(rename = "moreThanChallengeScore")]
+    #[serde(rename = "moreThanChallengeScore", default)]
     pub more_than_challenge_score: i32,
-    #[serde(rename = "moreThanComboPivot")]
+    #[serde(rename = "moreThanComboPivot", default)]
     pub more_than_combo_pivot: Vec<i32>,
-    #[serde(rename = "moreThanComboScore")]
+    #[serde(rename = "moreThanComboScore", default)]
     pub more_than_combo_score: Vec<i32>,
-    #[serde(rename = "nomalJudgment")]
+    #[serde(rename = "nomalJudgment", default)]
     pub nomal_judgment: Vec<i32>,
-    #[serde(rename = "normalMissAvailable")]
+    #[serde(rename = "normalMissAvailable", default)]
     pub normal_miss_available: i32,
-    #[serde(rename = "normalSlidingNoteSpace")]
+    #[serde(rename = "normalSlidingNoteSpace", default)]
     pub normal_sliding_note_space: i32,
-    #[serde(rename = "notesTimingMax")]
+    #[serde(rename = "notesTimingMax", default)]
     pub notes_timing_max: i32,
-    #[serde(rename = "notesTimingMin")]
+    #[serde(rename = "notesTimingMin", default)]
     pub notes_timing_min: i32,
-    #[serde(rename = "notesTimingSetting")]
+    #[serde(rename = "notesTimingSetting", default)]
     pub notes_timing_setting: i32,
-    #[serde(rename = "recoveryHpJudgement")]
+    #[serde(rename = "recoveryHpJudgement", default)]
     pub recovery_hp_judgement: i32,
-    #[serde(rename = "score")]
+    #[serde(rename = "score", default)]
     pub score: Vec<i32>,
-    #[serde(rename = "scoreAccuracy")]
+    #[serde(rename = "scoreAccuracy", default)]
     pub score_accuracy: Vec<i32>,
-    #[serde(rename = "scoreAccuracyAddingPoint")]
+    #[serde(rename = "scoreAccuracyAddingPoint", default)]
     pub score_accuracy_adding_point: Vec<i32>,
 }
 

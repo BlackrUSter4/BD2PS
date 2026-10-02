@@ -7,25 +7,25 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Useraltertable {
-    #[serde(rename = "conditionType")]
+    #[serde(rename = "conditionType", default)]
     pub condition_type: Option<i32>,
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "itemCount")]
+    #[serde(rename = "itemCount", default)]
     pub item_count: Option<Vec<i32>>,
-    #[serde(rename = "itemId")]
+    #[serde(rename = "itemId", default)]
     pub item_id: Option<Vec<i32>>,
-    #[serde(rename = "itemType")]
+    #[serde(rename = "itemType", default)]
     pub item_type: Option<Vec<i32>>,
-    #[serde(rename = "magicGroupId")]
+    #[serde(rename = "magicGroupId", default)]
     pub magic_group_id: Option<i32>,
-    #[serde(rename = "magicId")]
+    #[serde(rename = "magicId", default)]
     pub magic_id: Option<i32>,
-    #[serde(rename = "packId")]
+    #[serde(rename = "packId", default)]
     pub pack_id: Option<i32>,
-    #[serde(rename = "questId")]
+    #[serde(rename = "questId", default)]
     pub quest_id: Option<i32>,
 }
 

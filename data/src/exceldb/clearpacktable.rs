@@ -7,17 +7,17 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Clearpacktable {
-    #[serde(rename = "contentsTicketId")]
+    #[serde(rename = "contentsTicketId", default)]
     pub contents_ticket_id: i32,
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "packId")]
+    #[serde(rename = "packId", default)]
     pub pack_id: i32,
-    #[serde(rename = "packLevel")]
+    #[serde(rename = "packLevel", default)]
     pub pack_level: Option<i32>,
-    #[serde(rename = "rewardRandomBoxId")]
+    #[serde(rename = "rewardRandomBoxId", default)]
     pub reward_random_box_id: i32,
-    #[serde(rename = "type")]
+    #[serde(rename = "type", default)]
     pub r#type: Option<i32>,
 }
 

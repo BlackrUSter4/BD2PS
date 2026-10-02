@@ -6,25 +6,25 @@ use anyhow::Result;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Contentrankinfotable {
-    #[serde(rename = "evilCastleFloorMyRankMaxCount")]
+    #[serde(rename = "evilCastleFloorMyRankMaxCount", default)]
     pub evil_castle_floor_my_rank_max_count: i32,
-    #[serde(rename = "evilCastleFloorTopRankMaxCount")]
+    #[serde(rename = "evilCastleFloorTopRankMaxCount", default)]
     pub evil_castle_floor_top_rank_max_count: i32,
-    #[serde(rename = "evilCastleTotalMyRankMaxCount")]
+    #[serde(rename = "evilCastleTotalMyRankMaxCount", default)]
     pub evil_castle_total_my_rank_max_count: i32,
-    #[serde(rename = "evilCastleTotalTopRankMaxCount")]
+    #[serde(rename = "evilCastleTotalTopRankMaxCount", default)]
     pub evil_castle_total_top_rank_max_count: i32,
-    #[serde(rename = "mirrorWarMyRankMaxCount")]
+    #[serde(rename = "mirrorWarMyRankMaxCount", default)]
     pub mirror_war_my_rank_max_count: i32,
-    #[serde(rename = "mirrorWarTopRankMaxCount")]
+    #[serde(rename = "mirrorWarTopRankMaxCount", default)]
     pub mirror_war_top_rank_max_count: i32,
-    #[serde(rename = "monsterHuntMyRankMaxCount")]
+    #[serde(rename = "monsterHuntMyRankMaxCount", default)]
     pub monster_hunt_my_rank_max_count: i32,
-    #[serde(rename = "monsterHuntTopRankMaxCount")]
+    #[serde(rename = "monsterHuntTopRankMaxCount", default)]
     pub monster_hunt_top_rank_max_count: i32,
-    #[serde(rename = "roguelikeMyRankMaxCount")]
+    #[serde(rename = "roguelikeMyRankMaxCount", default)]
     pub roguelike_my_rank_max_count: i32,
-    #[serde(rename = "roguelikeTopRankMaxCount")]
+    #[serde(rename = "roguelikeTopRankMaxCount", default)]
     pub roguelike_top_rank_max_count: i32,
 }
 

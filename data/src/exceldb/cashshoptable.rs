@@ -7,25 +7,25 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Cashshoptable {
-    #[serde(rename = "bgImageName")]
+    #[serde(rename = "bgImageName", default)]
     pub bg_image_name: Option<String>,
-    #[serde(rename = "dialogueLocalTextId")]
+    #[serde(rename = "dialogueLocalTextId", default)]
     pub dialogue_local_text_id: Option<i32>,
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "illustName")]
+    #[serde(rename = "illustName", default)]
     pub illust_name: String,
-    #[serde(rename = "priceId")]
+    #[serde(rename = "priceId", default)]
     pub price_id: Vec<i32>,
-    #[serde(rename = "priceType")]
+    #[serde(rename = "priceType", default)]
     pub price_type: Vec<i32>,
-    #[serde(rename = "priority")]
+    #[serde(rename = "priority", default)]
     pub priority: i32,
-    #[serde(rename = "productGroupId")]
+    #[serde(rename = "productGroupId", default)]
     pub product_group_id: i32,
-    #[serde(rename = "bulkOrderShow")]
+    #[serde(rename = "bulkOrderShow", default)]
     pub bulk_order_show: Option<i32>,
 }
 

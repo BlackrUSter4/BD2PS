@@ -7,9 +7,9 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Idcardtextcolorttable {
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "textColorValue")]
+    #[serde(rename = "textColorValue", default)]
     pub text_color_value: String,
 }
 

@@ -7,25 +7,25 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Fieldminigamemaptable {
-    #[serde(rename = "clearGoalLocalTextId")]
+    #[serde(rename = "clearGoalLocalTextId", default)]
     pub clear_goal_local_text_id: i32,
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "monsterGroupId")]
+    #[serde(rename = "monsterGroupId", default)]
     pub monster_group_id: i32,
-    #[serde(rename = "monsterGrowthValue")]
+    #[serde(rename = "monsterGrowthValue", default)]
     pub monster_growth_value: f32,
-    #[serde(rename = "rewardCount")]
+    #[serde(rename = "rewardCount", default)]
     pub reward_count: Option<i32>,
-    #[serde(rename = "rewardType")]
+    #[serde(rename = "rewardType", default)]
     pub reward_type: Option<i32>,
-    #[serde(rename = "stageClearValue")]
+    #[serde(rename = "stageClearValue", default)]
     pub stage_clear_value: i32,
-    #[serde(rename = "stageDifficulty")]
+    #[serde(rename = "stageDifficulty", default)]
     pub stage_difficulty: Option<i32>,
-    #[serde(rename = "stageType")]
+    #[serde(rename = "stageType", default)]
     pub stage_type: Option<i32>,
 }
 

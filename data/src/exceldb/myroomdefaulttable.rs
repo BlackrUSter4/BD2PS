@@ -6,17 +6,17 @@ use anyhow::Result;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Myroomdefaulttable {
-    #[serde(rename = "charLimitCount")]
+    #[serde(rename = "charLimitCount", default)]
     pub char_limit_count: i32,
-    #[serde(rename = "defaultItemCount")]
+    #[serde(rename = "defaultItemCount", default)]
     pub default_item_count: i32,
-    #[serde(rename = "defaultItemId")]
+    #[serde(rename = "defaultItemId", default)]
     pub default_item_id: i32,
-    #[serde(rename = "defaultItemType")]
+    #[serde(rename = "defaultItemType", default)]
     pub default_item_type: i32,
-    #[serde(rename = "otherPlayerListCount")]
+    #[serde(rename = "otherPlayerListCount", default)]
     pub other_player_list_count: i32,
-    #[serde(rename = "popularLimitCountPercent")]
+    #[serde(rename = "popularLimitCountPercent", default)]
     pub popular_limit_count_percent: i32,
 }
 

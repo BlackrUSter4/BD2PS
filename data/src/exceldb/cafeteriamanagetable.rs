@@ -7,21 +7,21 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Cafeteriamanagetable {
-    #[serde(rename = "costType")]
+    #[serde(rename = "costType", default)]
     pub cost_type: i32,
-    #[serde(rename = "costValue")]
+    #[serde(rename = "costValue", default)]
     pub cost_value: Option<i32>,
-    #[serde(rename = "facilityId")]
+    #[serde(rename = "facilityId", default)]
     pub facility_id: Option<i32>,
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: Option<i32>,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "manageIconResourceName")]
+    #[serde(rename = "manageIconResourceName", default)]
     pub manage_icon_resource_name: String,
-    #[serde(rename = "manageLocalTextId")]
+    #[serde(rename = "manageLocalTextId", default)]
     pub manage_local_text_id: i32,
-    #[serde(rename = "parttimeId")]
+    #[serde(rename = "parttimeId", default)]
     pub parttime_id: Option<i32>,
 }
 

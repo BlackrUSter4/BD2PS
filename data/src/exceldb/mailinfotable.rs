@@ -7,19 +7,19 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Mailinfotable {
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "messageLocalTextId")]
+    #[serde(rename = "messageLocalTextId", default)]
     pub message_local_text_id: i32,
-    #[serde(rename = "periodDate")]
+    #[serde(rename = "periodDate", default)]
     pub period_date: Option<i32>,
-    #[serde(rename = "productLocalTextId")]
+    #[serde(rename = "productLocalTextId", default)]
     pub product_local_text_id: Option<i32>,
-    #[serde(rename = "senderLocalTextId")]
+    #[serde(rename = "senderLocalTextId", default)]
     pub sender_local_text_id: i32,
-    #[serde(rename = "titleLocalTextId")]
+    #[serde(rename = "titleLocalTextId", default)]
     pub title_local_text_id: i32,
-    #[serde(rename = "type")]
+    #[serde(rename = "type", default)]
     pub r#type: Option<i32>,
 }
 

@@ -6,13 +6,13 @@ use anyhow::Result;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Idcarddefaulttable {
-    #[serde(rename = "defaultItemCount")]
+    #[serde(rename = "defaultItemCount", default)]
     pub default_item_count: i32,
-    #[serde(rename = "defaultItemId")]
+    #[serde(rename = "defaultItemId", default)]
     pub default_item_id: i32,
-    #[serde(rename = "defaultItemType")]
+    #[serde(rename = "defaultItemType", default)]
     pub default_item_type: i32,
-    #[serde(rename = "idCardPresetMaxCount")]
+    #[serde(rename = "idCardPresetMaxCount", default)]
     pub id_card_preset_max_count: i32,
 }
 

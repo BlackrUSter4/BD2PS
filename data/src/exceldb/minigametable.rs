@@ -7,13 +7,13 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Minigametable {
-    #[serde(rename = "answerIndex")]
+    #[serde(rename = "answerIndex", default)]
     pub answer_index: Vec<i32>,
-    #[serde(rename = "gameType")]
+    #[serde(rename = "gameType", default)]
     pub game_type: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "prefabName")]
+    #[serde(rename = "prefabName", default)]
     pub prefab_name: String,
 }
 

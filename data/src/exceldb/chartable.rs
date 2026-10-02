@@ -7,47 +7,47 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Chartable {
-    #[serde(rename = "charGrowthId")]
+    #[serde(rename = "charGrowthId", default)]
     pub char_growth_id: i32,
-    #[serde(rename = "charNameTextId")]
+    #[serde(rename = "charNameTextId", default)]
     pub char_name_text_id: i32,
-    #[serde(rename = "criticalChanceValue")]
+    #[serde(rename = "criticalChanceValue", default)]
     pub critical_chance_value: Option<f32>,
-    #[serde(rename = "criticalDamageRateValue")]
+    #[serde(rename = "criticalDamageRateValue", default)]
     pub critical_damage_rate_value: Option<f32>,
-    #[serde(rename = "defaultCostumeId")]
+    #[serde(rename = "defaultCostumeId", default)]
     pub default_costume_id: i32,
-    #[serde(rename = "element")]
+    #[serde(rename = "element", default)]
     pub element: Option<i32>,
-    #[serde(rename = "elementDefenseValue")]
+    #[serde(rename = "elementDefenseValue", default)]
     pub element_defense_value: Option<f32>,
-    #[serde(rename = "elementPowerValue")]
+    #[serde(rename = "elementPowerValue", default)]
     pub element_power_value: Option<f32>,
-    #[serde(rename = "grade")]
+    #[serde(rename = "grade", default)]
     pub grade: i32,
-    #[serde(rename = "growthgrade")]
+    #[serde(rename = "growthgrade", default)]
     pub growthgrade: i32,
-    #[serde(rename = "healthValue")]
+    #[serde(rename = "healthValue", default)]
     pub health_value: f32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "magicDefenseValue")]
+    #[serde(rename = "magicDefenseValue", default)]
     pub magic_defense_value: Option<f32>,
-    #[serde(rename = "magicPowerValue")]
+    #[serde(rename = "magicPowerValue", default)]
     pub magic_power_value: Option<f32>,
-    #[serde(rename = "nextCharId")]
+    #[serde(rename = "nextCharId", default)]
     pub next_char_id: Option<i32>,
-    #[serde(rename = "physicalDefenseValue")]
+    #[serde(rename = "physicalDefenseValue", default)]
     pub physical_defense_value: Option<f32>,
-    #[serde(rename = "physicalPowerValue")]
+    #[serde(rename = "physicalPowerValue", default)]
     pub physical_power_value: Option<f32>,
-    #[serde(rename = "talentId")]
+    #[serde(rename = "talentId", default)]
     pub talent_id: Option<i32>,
-    #[serde(rename = "type")]
+    #[serde(rename = "type", default)]
     pub r#type: Option<i32>,
-    #[serde(rename = "uniqueCharId")]
+    #[serde(rename = "uniqueCharId", default)]
     pub unique_char_id: i32,
-    #[serde(rename = "usePackTemporary")]
+    #[serde(rename = "usePackTemporary", default)]
     pub use_pack_temporary: Option<i32>,
 }
 

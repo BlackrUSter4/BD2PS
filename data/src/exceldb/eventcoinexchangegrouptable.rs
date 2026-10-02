@@ -7,55 +7,55 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Eventcoinexchangegrouptable {
-    #[serde(rename = "baseCostumeId")]
+    #[serde(rename = "baseCostumeId", default)]
     pub base_costume_id: Option<i32>,
-    #[serde(rename = "baseCostumeNameLocalTextId")]
+    #[serde(rename = "baseCostumeNameLocalTextId", default)]
     pub base_costume_name_local_text_id: Option<i32>,
-    #[serde(rename = "baseCostumeObtainTitleLocalTextId")]
+    #[serde(rename = "baseCostumeObtainTitleLocalTextId", default)]
     pub base_costume_obtain_title_local_text_id: Option<i32>,
-    #[serde(rename = "endPageId")]
+    #[serde(rename = "endPageId", default)]
     pub end_page_id: i32,
-    #[serde(rename = "eventNameLocalTextId")]
+    #[serde(rename = "eventNameLocalTextId", default)]
     pub event_name_local_text_id: i32,
-    #[serde(rename = "firstButtonCount")]
+    #[serde(rename = "firstButtonCount", default)]
     pub first_button_count: i32,
-    #[serde(rename = "guideDescLocalTextId")]
+    #[serde(rename = "guideDescLocalTextId", default)]
     pub guide_desc_local_text_id: Vec<i32>,
-    #[serde(rename = "guideTitleLocalTextId")]
+    #[serde(rename = "guideTitleLocalTextId", default)]
     pub guide_title_local_text_id: Vec<i32>,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "isRepeatableReward")]
+    #[serde(rename = "isRepeatableReward", default)]
     pub is_repeatable_reward: Option<i32>,
-    #[serde(rename = "itemAcquireId")]
+    #[serde(rename = "itemAcquireId", default)]
     pub item_acquire_id: Option<Vec<i32>>,
-    #[serde(rename = "itemCount")]
+    #[serde(rename = "itemCount", default)]
     pub item_count: i32,
-    #[serde(rename = "itemId")]
+    #[serde(rename = "itemId", default)]
     pub item_id: Option<i32>,
-    #[serde(rename = "itemType")]
+    #[serde(rename = "itemType", default)]
     pub item_type: i32,
-    #[serde(rename = "probabilityInfoLocalTextId")]
+    #[serde(rename = "probabilityInfoLocalTextId", default)]
     pub probability_info_local_text_id: Option<i32>,
-    #[serde(rename = "ratioWebLink")]
+    #[serde(rename = "ratioWebLink", default)]
     pub ratio_web_link: Option<i32>,
-    #[serde(rename = "secondButtonCount")]
+    #[serde(rename = "secondButtonCount", default)]
     pub second_button_count: Option<i32>,
-    #[serde(rename = "skinGuideDescLocalTextId")]
+    #[serde(rename = "skinGuideDescLocalTextId", default)]
     pub skin_guide_desc_local_text_id: Option<i32>,
-    #[serde(rename = "skinGuideTitleLocalTextId")]
+    #[serde(rename = "skinGuideTitleLocalTextId", default)]
     pub skin_guide_title_local_text_id: Option<i32>,
-    #[serde(rename = "startPageId")]
+    #[serde(rename = "startPageId", default)]
     pub start_page_id: i32,
-    #[serde(rename = "tokenInfoLocation")]
+    #[serde(rename = "tokenInfoLocation", default)]
     pub token_info_location: Option<i32>,
-    #[serde(rename = "tokenShortCutId")]
+    #[serde(rename = "tokenShortCutId", default)]
     pub token_short_cut_id: Option<i32>,
-    #[serde(rename = "unlockRatioCount")]
+    #[serde(rename = "unlockRatioCount", default)]
     pub unlock_ratio_count: Option<i32>,
-    #[serde(rename = "freeCount")]
+    #[serde(rename = "freeCount", default)]
     pub free_count: Option<i32>,
-    #[serde(rename = "freeCountType")]
+    #[serde(rename = "freeCountType", default)]
     pub free_count_type: Option<i32>,
 }
 

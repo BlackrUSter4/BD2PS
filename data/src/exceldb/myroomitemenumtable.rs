@@ -7,11 +7,11 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Myroomitemenumtable {
-    #[serde(rename = "gridX")]
+    #[serde(rename = "gridX", default)]
     pub grid_x: i32,
-    #[serde(rename = "gridY")]
+    #[serde(rename = "gridY", default)]
     pub grid_y: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
 }
 

@@ -7,21 +7,21 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Sellitemtable {
-    #[serde(rename = "discountRate")]
+    #[serde(rename = "discountRate", default)]
     pub discount_rate: i32,
-    #[serde(rename = "elementCount")]
+    #[serde(rename = "elementCount", default)]
     pub element_count: i32,
-    #[serde(rename = "elementId")]
+    #[serde(rename = "elementId", default)]
     pub element_id: i32,
-    #[serde(rename = "elementType")]
+    #[serde(rename = "elementType", default)]
     pub element_type: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "premiumRate")]
+    #[serde(rename = "premiumRate", default)]
     pub premium_rate: i32,
-    #[serde(rename = "priceCount")]
+    #[serde(rename = "priceCount", default)]
     pub price_count: i32,
-    #[serde(rename = "priceType")]
+    #[serde(rename = "priceType", default)]
     pub price_type: i32,
 }
 

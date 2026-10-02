@@ -7,15 +7,15 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Titlecalltable {
-    #[serde(rename = "JP")]
+    #[serde(rename = "JP", default)]
     pub j_p: Option<i32>,
-    #[serde(rename = "KR")]
+    #[serde(rename = "KR", default)]
     pub k_r: Option<i32>,
-    #[serde(rename = "Ratio")]
+    #[serde(rename = "Ratio", default)]
     pub ratio: f32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "soundVoiceName")]
+    #[serde(rename = "soundVoiceName", default)]
     pub sound_voice_name: String,
 }
 

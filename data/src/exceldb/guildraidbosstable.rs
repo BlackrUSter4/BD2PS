@@ -7,39 +7,39 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Guildraidbosstable {
-    #[serde(rename = "addScore")]
+    #[serde(rename = "addScore", default)]
     pub add_score: i32,
-    #[serde(rename = "battleMap")]
+    #[serde(rename = "battleMap", default)]
     pub battle_map: String,
-    #[serde(rename = "bossNameTextId")]
+    #[serde(rename = "bossNameTextId", default)]
     pub boss_name_text_id: i32,
-    #[serde(rename = "bossRankNameTextId")]
+    #[serde(rename = "bossRankNameTextId", default)]
     pub boss_rank_name_text_id: i32,
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "levelUpDamageRate")]
+    #[serde(rename = "levelUpDamageRate", default)]
     pub level_up_damage_rate: f32,
-    #[serde(rename = "levelUpDamageSlope")]
+    #[serde(rename = "levelUpDamageSlope", default)]
     pub level_up_damage_slope: f32,
-    #[serde(rename = "levelUpHealthRate")]
+    #[serde(rename = "levelUpHealthRate", default)]
     pub level_up_health_rate: f32,
-    #[serde(rename = "levelUpHealthSlope")]
+    #[serde(rename = "levelUpHealthSlope", default)]
     pub level_up_health_slope: f32,
-    #[serde(rename = "monsterId")]
+    #[serde(rename = "monsterId", default)]
     pub monster_id: i32,
-    #[serde(rename = "partsGroupId")]
+    #[serde(rename = "partsGroupId", default)]
     pub parts_group_id: i32,
-    #[serde(rename = "positionScale")]
+    #[serde(rename = "positionScale", default)]
     pub position_scale: f32,
-    #[serde(rename = "raidBossBattleDeckId")]
+    #[serde(rename = "raidBossBattleDeckId", default)]
     pub raid_boss_battle_deck_id: i32,
-    #[serde(rename = "readyMap")]
+    #[serde(rename = "readyMap", default)]
     pub ready_map: String,
-    #[serde(rename = "rewardCount")]
+    #[serde(rename = "rewardCount", default)]
     pub reward_count: i32,
-    #[serde(rename = "rewardType")]
+    #[serde(rename = "rewardType", default)]
     pub reward_type: i32,
 }
 

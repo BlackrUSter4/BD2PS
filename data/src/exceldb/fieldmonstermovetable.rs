@@ -7,45 +7,45 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Fieldmonstermovetable {
-    #[serde(rename = "detectionAngle")]
+    #[serde(rename = "detectionAngle", default)]
     pub detection_angle: f32,
-    #[serde(rename = "detectionDistance")]
+    #[serde(rename = "detectionDistance", default)]
     pub detection_distance: f32,
-    #[serde(rename = "detectionIgnoreWall")]
+    #[serde(rename = "detectionIgnoreWall", default)]
     pub detection_ignore_wall: Option<i32>,
-    #[serde(rename = "distanceChase")]
+    #[serde(rename = "distanceChase", default)]
     pub distance_chase: f32,
-    #[serde(rename = "distanceDefault")]
+    #[serde(rename = "distanceDefault", default)]
     pub distance_default: f32,
-    #[serde(rename = "distanceRun")]
+    #[serde(rename = "distanceRun", default)]
     pub distance_run: Option<f32>,
-    #[serde(rename = "encounterAngle")]
+    #[serde(rename = "encounterAngle", default)]
     pub encounter_angle: f32,
-    #[serde(rename = "encounterDistance")]
+    #[serde(rename = "encounterDistance", default)]
     pub encounter_distance: f32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "lasttimeChase")]
+    #[serde(rename = "lasttimeChase", default)]
     pub lasttime_chase: f32,
-    #[serde(rename = "lv")]
+    #[serde(rename = "lv", default)]
     pub lv: i32,
-    #[serde(rename = "moveIgnoreWall")]
+    #[serde(rename = "moveIgnoreWall", default)]
     pub move_ignore_wall: Option<i32>,
-    #[serde(rename = "moving")]
+    #[serde(rename = "moving", default)]
     pub moving: i32,
-    #[serde(rename = "speedChase")]
+    #[serde(rename = "speedChase", default)]
     pub speed_chase: f32,
-    #[serde(rename = "speedDefault")]
+    #[serde(rename = "speedDefault", default)]
     pub speed_default: f32,
-    #[serde(rename = "speedRun")]
+    #[serde(rename = "speedRun", default)]
     pub speed_run: Option<f32>,
-    #[serde(rename = "timeChase")]
+    #[serde(rename = "timeChase", default)]
     pub time_chase: f32,
-    #[serde(rename = "timeDefault")]
+    #[serde(rename = "timeDefault", default)]
     pub time_default: f32,
-    #[serde(rename = "timeDiscovery")]
+    #[serde(rename = "timeDiscovery", default)]
     pub time_discovery: Option<f32>,
-    #[serde(rename = "timeRun")]
+    #[serde(rename = "timeRun", default)]
     pub time_run: Option<f32>,
 }
 

@@ -7,17 +7,17 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Guidetutorialtable {
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "guideOrder")]
+    #[serde(rename = "guideOrder", default)]
     pub guide_order: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "resourceName")]
+    #[serde(rename = "resourceName", default)]
     pub resource_name: String,
-    #[serde(rename = "textLocalTextId")]
+    #[serde(rename = "textLocalTextId", default)]
     pub text_local_text_id: i32,
-    #[serde(rename = "titleLocalTextId")]
+    #[serde(rename = "titleLocalTextId", default)]
     pub title_local_text_id: i32,
 }
 

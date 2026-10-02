@@ -7,21 +7,21 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Evilcastletimeattacktable {
-    #[serde(rename = "DeductTime")]
+    #[serde(rename = "DeductTime", default)]
     pub deduct_time: i32,
-    #[serde(rename = "LimitPoint")]
+    #[serde(rename = "LimitPoint", default)]
     pub limit_point: i32,
-    #[serde(rename = "bossExtraPoints")]
+    #[serde(rename = "bossExtraPoints", default)]
     pub boss_extra_points: f32,
-    #[serde(rename = "damageAddPoint")]
+    #[serde(rename = "damageAddPoint", default)]
     pub damage_add_point: i32,
-    #[serde(rename = "damageMaxLimit")]
+    #[serde(rename = "damageMaxLimit", default)]
     pub damage_max_limit: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "survivalAddPoint")]
+    #[serde(rename = "survivalAddPoint", default)]
     pub survival_add_point: i32,
-    #[serde(rename = "turnAddPoint")]
+    #[serde(rename = "turnAddPoint", default)]
     pub turn_add_point: i32,
 }
 

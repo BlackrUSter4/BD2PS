@@ -7,15 +7,15 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Idcarditemtshoptable {
-    #[serde(rename = "buyMaxCount")]
+    #[serde(rename = "buyMaxCount", default)]
     pub buy_max_count: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "priceCount")]
+    #[serde(rename = "priceCount", default)]
     pub price_count: Vec<i32>,
-    #[serde(rename = "priceId")]
+    #[serde(rename = "priceId", default)]
     pub price_id: Vec<i32>,
-    #[serde(rename = "priceType")]
+    #[serde(rename = "priceType", default)]
     pub price_type: Vec<i32>,
 }
 

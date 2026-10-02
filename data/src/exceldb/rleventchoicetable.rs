@@ -7,9 +7,9 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Rleventchoicetable {
-    #[serde(rename = "eventGroupId")]
+    #[serde(rename = "eventGroupId", default)]
     pub event_group_id: Vec<i32>,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
 }
 

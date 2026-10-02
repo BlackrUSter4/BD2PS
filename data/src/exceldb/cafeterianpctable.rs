@@ -7,23 +7,23 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Cafeterianpctable {
-    #[serde(rename = "gender")]
+    #[serde(rename = "gender", default)]
     pub gender: Option<i32>,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "movePatternGroupId")]
+    #[serde(rename = "movePatternGroupId", default)]
     pub move_pattern_group_id: Option<i32>,
-    #[serde(rename = "npcNameTextId")]
+    #[serde(rename = "npcNameTextId", default)]
     pub npc_name_text_id: Option<i32>,
-    #[serde(rename = "parttimePrefabName")]
+    #[serde(rename = "parttimePrefabName", default)]
     pub parttime_prefab_name: String,
-    #[serde(rename = "parttimeType")]
+    #[serde(rename = "parttimeType", default)]
     pub parttime_type: i32,
-    #[serde(rename = "rewardCount")]
+    #[serde(rename = "rewardCount", default)]
     pub reward_count: Option<i32>,
-    #[serde(rename = "rewardId")]
+    #[serde(rename = "rewardId", default)]
     pub reward_id: Option<i32>,
-    #[serde(rename = "rewardType")]
+    #[serde(rename = "rewardType", default)]
     pub reward_type: Option<i32>,
 }
 

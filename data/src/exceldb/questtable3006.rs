@@ -7,33 +7,33 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Questtable3006 {
-    #[serde(rename = "acceptCinemaName")]
+    #[serde(rename = "acceptCinemaName", default)]
     pub accept_cinema_name: String,
-    #[serde(rename = "conditionCount")]
+    #[serde(rename = "conditionCount", default)]
     pub condition_count: i32,
-    #[serde(rename = "conditionType")]
+    #[serde(rename = "conditionType", default)]
     pub condition_type: i32,
-    #[serde(rename = "displayMapId")]
+    #[serde(rename = "displayMapId", default)]
     pub display_map_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "magicValue")]
+    #[serde(rename = "magicValue", default)]
     pub magic_value: Vec<i32>,
-    #[serde(rename = "mapId")]
+    #[serde(rename = "mapId", default)]
     pub map_id: i32,
-    #[serde(rename = "packId")]
+    #[serde(rename = "packId", default)]
     pub pack_id: i32,
-    #[serde(rename = "prologSkipQuestTextId")]
+    #[serde(rename = "prologSkipQuestTextId", default)]
     pub prolog_skip_quest_text_id: i32,
-    #[serde(rename = "questConditionQuestTextId")]
+    #[serde(rename = "questConditionQuestTextId", default)]
     pub quest_condition_quest_text_id: i32,
-    #[serde(rename = "questDescQuestTextId")]
+    #[serde(rename = "questDescQuestTextId", default)]
     pub quest_desc_quest_text_id: i32,
-    #[serde(rename = "questNameQuestTextId")]
+    #[serde(rename = "questNameQuestTextId", default)]
     pub quest_name_quest_text_id: i32,
-    #[serde(rename = "questSkipQuestTextId")]
+    #[serde(rename = "questSkipQuestTextId", default)]
     pub quest_skip_quest_text_id: i32,
-    #[serde(rename = "timelineStartMapId")]
+    #[serde(rename = "timelineStartMapId", default)]
     pub timeline_start_map_id: i32,
 }
 

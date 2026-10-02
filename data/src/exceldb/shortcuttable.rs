@@ -7,11 +7,11 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Shortcuttable {
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "magicValue")]
+    #[serde(rename = "magicValue", default)]
     pub magic_value: Option<Vec<i32>>,
-    #[serde(rename = "uiName")]
+    #[serde(rename = "uiName", default)]
     pub ui_name: String,
 }
 

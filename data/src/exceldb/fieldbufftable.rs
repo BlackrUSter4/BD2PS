@@ -7,33 +7,33 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Fieldbufftable {
-    #[serde(rename = "buffDescLocalTextId")]
+    #[serde(rename = "buffDescLocalTextId", default)]
     pub buff_desc_local_text_id: i32,
-    #[serde(rename = "buffLargeIcon")]
+    #[serde(rename = "buffLargeIcon", default)]
     pub buff_large_icon: Option<String>,
-    #[serde(rename = "buffNameLocalTextId")]
+    #[serde(rename = "buffNameLocalTextId", default)]
     pub buff_name_local_text_id: i32,
-    #[serde(rename = "buffSmallIcon")]
+    #[serde(rename = "buffSmallIcon", default)]
     pub buff_small_icon: Option<String>,
-    #[serde(rename = "buffTime")]
+    #[serde(rename = "buffTime", default)]
     pub buff_time: Option<f32>,
-    #[serde(rename = "buffType")]
+    #[serde(rename = "buffType", default)]
     pub buff_type: Option<i32>,
-    #[serde(rename = "disappearTime")]
+    #[serde(rename = "disappearTime", default)]
     pub disappear_time: Option<f32>,
-    #[serde(rename = "fieldDescLocalTextId")]
+    #[serde(rename = "fieldDescLocalTextId", default)]
     pub field_desc_local_text_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "knockBack")]
+    #[serde(rename = "knockBack", default)]
     pub knock_back: Option<i32>,
-    #[serde(rename = "renderType")]
+    #[serde(rename = "renderType", default)]
     pub render_type: Option<i32>,
-    #[serde(rename = "selectBuff")]
+    #[serde(rename = "selectBuff", default)]
     pub select_buff: Option<i32>,
-    #[serde(rename = "targetType")]
+    #[serde(rename = "targetType", default)]
     pub target_type: Option<i32>,
-    #[serde(rename = "value")]
+    #[serde(rename = "value", default)]
     pub value: Option<f32>,
 }
 

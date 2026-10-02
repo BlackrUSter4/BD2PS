@@ -7,15 +7,15 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Solidarityleveltable {
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "rewardCount")]
+    #[serde(rename = "rewardCount", default)]
     pub reward_count: Option<Vec<i32>>,
-    #[serde(rename = "rewardId")]
+    #[serde(rename = "rewardId", default)]
     pub reward_id: Option<Vec<i32>>,
-    #[serde(rename = "rewardType")]
+    #[serde(rename = "rewardType", default)]
     pub reward_type: Option<Vec<i32>>,
-    #[serde(rename = "solidarityLevelRequire")]
+    #[serde(rename = "solidarityLevelRequire", default)]
     pub solidarity_level_require: Option<i32>,
 }
 

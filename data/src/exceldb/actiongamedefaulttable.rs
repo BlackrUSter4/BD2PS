@@ -7,37 +7,37 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Actiongamedefaulttable {
-    #[serde(rename = "aggroDecreaseValue")]
+    #[serde(rename = "aggroDecreaseValue", default)]
     pub aggro_decrease_value: f32,
-    #[serde(rename = "alertStateBuffId")]
+    #[serde(rename = "alertStateBuffId", default)]
     pub alert_state_buff_id: i32,
-    #[serde(rename = "blowDamageSoundName")]
+    #[serde(rename = "blowDamageSoundName", default)]
     pub blow_damage_sound_name: String,
-    #[serde(rename = "brokenBuffId")]
+    #[serde(rename = "brokenBuffId", default)]
     pub broken_buff_id: i32,
-    #[serde(rename = "cutDamageSoundName")]
+    #[serde(rename = "cutDamageSoundName", default)]
     pub cut_damage_sound_name: String,
-    #[serde(rename = "damageLimit")]
+    #[serde(rename = "damageLimit", default)]
     pub damage_limit: i32,
-    #[serde(rename = "emergencyHpRate")]
+    #[serde(rename = "emergencyHpRate", default)]
     pub emergency_hp_rate: f32,
-    #[serde(rename = "eventMissionGroupId")]
+    #[serde(rename = "eventMissionGroupId", default)]
     pub event_mission_group_id: i32,
-    #[serde(rename = "healEffectPrefabName")]
+    #[serde(rename = "healEffectPrefabName", default)]
     pub heal_effect_prefab_name: String,
-    #[serde(rename = "justDodgeEffectPrefabName")]
+    #[serde(rename = "justDodgeEffectPrefabName", default)]
     pub just_dodge_effect_prefab_name: String,
-    #[serde(rename = "justDodgeInvincibleTime")]
+    #[serde(rename = "justDodgeInvincibleTime", default)]
     pub just_dodge_invincible_time: f32,
-    #[serde(rename = "loadingLimit")]
+    #[serde(rename = "loadingLimit", default)]
     pub loading_limit: i32,
-    #[serde(rename = "outGameBgmName")]
+    #[serde(rename = "outGameBgmName", default)]
     pub out_game_bgm_name: String,
-    #[serde(rename = "rageDamageValue")]
+    #[serde(rename = "rageDamageValue", default)]
     pub rage_damage_value: f32,
-    #[serde(rename = "rankMaxCount")]
+    #[serde(rename = "rankMaxCount", default)]
     pub rank_max_count: i32,
-    #[serde(rename = "skillHoldThreshold")]
+    #[serde(rename = "skillHoldThreshold", default)]
     pub skill_hold_threshold: f32,
 }
 

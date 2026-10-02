@@ -7,13 +7,13 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Cafeteriamovepatterntable {
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "movePatternRepeat")]
+    #[serde(rename = "movePatternRepeat", default)]
     pub move_pattern_repeat: i32,
-    #[serde(rename = "stopTime")]
+    #[serde(rename = "stopTime", default)]
     pub stop_time: Option<i32>,
 }
 

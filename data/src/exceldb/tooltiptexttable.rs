@@ -7,19 +7,19 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Tooltiptexttable {
-    #[serde(rename = "date")]
+    #[serde(rename = "date", default)]
     pub date: Option<String>,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "text")]
+    #[serde(rename = "text", default)]
     pub text: Option<String>,
-    #[serde(rename = "text_cn")]
+    #[serde(rename = "text_cn", default)]
     pub text_cn: Option<String>,
-    #[serde(rename = "text_en")]
+    #[serde(rename = "text_en", default)]
     pub text_en: Option<String>,
-    #[serde(rename = "text_jp")]
+    #[serde(rename = "text_jp", default)]
     pub text_jp: Option<String>,
-    #[serde(rename = "text_tw")]
+    #[serde(rename = "text_tw", default)]
     pub text_tw: Option<String>,
 }
 

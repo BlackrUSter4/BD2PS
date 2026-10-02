@@ -7,39 +7,39 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Cashpackagetable {
-    #[serde(rename = "badgeResourceName")]
+    #[serde(rename = "badgeResourceName", default)]
     pub badge_resource_name: Option<String>,
-    #[serde(rename = "bannerFontLocalTextId")]
+    #[serde(rename = "bannerFontLocalTextId", default)]
     pub banner_font_local_text_id: Option<i32>,
-    #[serde(rename = "categoryResourceName")]
+    #[serde(rename = "categoryResourceName", default)]
     pub category_resource_name: Option<String>,
-    #[serde(rename = "contentsGroupId")]
+    #[serde(rename = "contentsGroupId", default)]
     pub contents_group_id: Option<i32>,
-    #[serde(rename = "contentsLocalTextId")]
+    #[serde(rename = "contentsLocalTextId", default)]
     pub contents_local_text_id: Option<i32>,
-    #[serde(rename = "contentsResourceName")]
+    #[serde(rename = "contentsResourceName", default)]
     pub contents_resource_name: Option<String>,
-    #[serde(rename = "contentsSortId")]
+    #[serde(rename = "contentsSortId", default)]
     pub contents_sort_id: Option<i32>,
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "isActiveOnEnter")]
+    #[serde(rename = "isActiveOnEnter", default)]
     pub is_active_on_enter: Option<i32>,
-    #[serde(rename = "packageType")]
+    #[serde(rename = "packageType", default)]
     pub package_type: Option<i32>,
-    #[serde(rename = "paidShopGroupId")]
+    #[serde(rename = "paidShopGroupId", default)]
     pub paid_shop_group_id: Option<i32>,
-    #[serde(rename = "paidShopId")]
+    #[serde(rename = "paidShopId", default)]
     pub paid_shop_id: i32,
-    #[serde(rename = "priority")]
+    #[serde(rename = "priority", default)]
     pub priority: Option<i32>,
-    #[serde(rename = "resourceName")]
+    #[serde(rename = "resourceName", default)]
     pub resource_name: Option<String>,
-    #[serde(rename = "saleGroup")]
+    #[serde(rename = "saleGroup", default)]
     pub sale_group: Option<i32>,
-    #[serde(rename = "shortCutId")]
+    #[serde(rename = "shortCutId", default)]
     pub short_cut_id: Option<i32>,
 }
 

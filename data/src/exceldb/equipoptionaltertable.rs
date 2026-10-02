@@ -7,35 +7,35 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Equipoptionaltertable {
-    #[serde(rename = "afterMain1OptGroupId")]
+    #[serde(rename = "afterMain1OptGroupId", default)]
     pub after_main1_opt_group_id: Option<i32>,
-    #[serde(rename = "afterMain1OptId")]
+    #[serde(rename = "afterMain1OptId", default)]
     pub after_main1_opt_id: Vec<i32>,
-    #[serde(rename = "afterMain2OptGroupId")]
+    #[serde(rename = "afterMain2OptGroupId", default)]
     pub after_main2_opt_group_id: Option<i32>,
-    #[serde(rename = "afterMain2OptId")]
+    #[serde(rename = "afterMain2OptId", default)]
     pub after_main2_opt_id: Vec<i32>,
-    #[serde(rename = "afterPrivateOptGroupId")]
+    #[serde(rename = "afterPrivateOptGroupId", default)]
     pub after_private_opt_group_id: Option<i32>,
-    #[serde(rename = "afterPrivateOptId")]
+    #[serde(rename = "afterPrivateOptId", default)]
     pub after_private_opt_id: Option<i32>,
-    #[serde(rename = "beforeMain1OptGroupId")]
+    #[serde(rename = "beforeMain1OptGroupId", default)]
     pub before_main1_opt_group_id: Option<i32>,
-    #[serde(rename = "beforeMain1OptId")]
+    #[serde(rename = "beforeMain1OptId", default)]
     pub before_main1_opt_id: Vec<i32>,
-    #[serde(rename = "beforeMain2OptGroupId")]
+    #[serde(rename = "beforeMain2OptGroupId", default)]
     pub before_main2_opt_group_id: Option<i32>,
-    #[serde(rename = "beforeMain2OptId")]
+    #[serde(rename = "beforeMain2OptId", default)]
     pub before_main2_opt_id: Vec<i32>,
-    #[serde(rename = "beforePrivateOptGroupId")]
+    #[serde(rename = "beforePrivateOptGroupId", default)]
     pub before_private_opt_group_id: Option<i32>,
-    #[serde(rename = "beforePrivateOptId")]
+    #[serde(rename = "beforePrivateOptId", default)]
     pub before_private_opt_id: Option<i32>,
-    #[serde(rename = "equipId")]
+    #[serde(rename = "equipId", default)]
     pub equip_id: i32,
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
 }
 

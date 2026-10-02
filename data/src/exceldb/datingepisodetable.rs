@@ -7,33 +7,33 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Datingepisodetable {
-    #[serde(rename = "datingDialogGroupId")]
+    #[serde(rename = "datingDialogGroupId", default)]
     pub dating_dialog_group_id: i32,
-    #[serde(rename = "datingMessage1")]
+    #[serde(rename = "datingMessage1", default)]
     pub dating_message1: Option<i32>,
-    #[serde(rename = "datingMessage2")]
+    #[serde(rename = "datingMessage2", default)]
     pub dating_message2: i32,
-    #[serde(rename = "episodeTitleDatingTextId")]
+    #[serde(rename = "episodeTitleDatingTextId", default)]
     pub episode_title_dating_text_id: i32,
-    #[serde(rename = "episodeType")]
+    #[serde(rename = "episodeType", default)]
     pub episode_type: Option<i32>,
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "rewardCount")]
+    #[serde(rename = "rewardCount", default)]
     pub reward_count: i32,
-    #[serde(rename = "rewardDatingPoint")]
+    #[serde(rename = "rewardDatingPoint", default)]
     pub reward_dating_point: i32,
-    #[serde(rename = "rewardId")]
+    #[serde(rename = "rewardId", default)]
     pub reward_id: i32,
-    #[serde(rename = "rewardType")]
+    #[serde(rename = "rewardType", default)]
     pub reward_type: i32,
-    #[serde(rename = "skipQuestTextId")]
+    #[serde(rename = "skipQuestTextId", default)]
     pub skip_quest_text_id: i32,
-    #[serde(rename = "talkStatusTextId")]
+    #[serde(rename = "talkStatusTextId", default)]
     pub talk_status_text_id: i32,
-    #[serde(rename = "timelineName")]
+    #[serde(rename = "timelineName", default)]
     pub timeline_name: String,
 }
 

@@ -6,27 +6,27 @@ use anyhow::Result;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Squaredefaulttable {
-    #[serde(rename = "avatarSetClearContentTicketId")]
+    #[serde(rename = "avatarSetClearContentTicketId", default)]
     pub avatar_set_clear_content_ticket_id: Vec<i32>,
-    #[serde(rename = "defaultChannelCount")]
+    #[serde(rename = "defaultChannelCount", default)]
     pub default_channel_count: i32,
-    #[serde(rename = "defaultSpawnPostion")]
+    #[serde(rename = "defaultSpawnPostion", default)]
     pub default_spawn_postion: Vec<i32>,
-    #[serde(rename = "limitChannelUserCount")]
+    #[serde(rename = "limitChannelUserCount", default)]
     pub limit_channel_user_count: i32,
-    #[serde(rename = "newChannelDesnsityValue")]
+    #[serde(rename = "newChannelDesnsityValue", default)]
     pub new_channel_desnsity_value: i32,
-    #[serde(rename = "questNameTextId")]
+    #[serde(rename = "questNameTextId", default)]
     pub quest_name_text_id: i32,
-    #[serde(rename = "questSkipTextId")]
+    #[serde(rename = "questSkipTextId", default)]
     pub quest_skip_text_id: i32,
-    #[serde(rename = "questTitleQuestTextId")]
+    #[serde(rename = "questTitleQuestTextId", default)]
     pub quest_title_quest_text_id: i32,
-    #[serde(rename = "squareTimelineName")]
+    #[serde(rename = "squareTimelineName", default)]
     pub square_timeline_name: String,
-    #[serde(rename = "squareTutorialId")]
+    #[serde(rename = "squareTutorialId", default)]
     pub square_tutorial_id: i32,
-    #[serde(rename = "squareVisualNovelDialogId")]
+    #[serde(rename = "squareVisualNovelDialogId", default)]
     pub square_visual_novel_dialog_id: i32,
 }
 

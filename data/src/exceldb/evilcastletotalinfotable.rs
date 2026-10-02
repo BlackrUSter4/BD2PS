@@ -7,13 +7,13 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Evilcastletotalinfotable {
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "lobbyBackGroudImagePath")]
+    #[serde(rename = "lobbyBackGroudImagePath", default)]
     pub lobby_back_groud_image_path: String,
-    #[serde(rename = "lobbyIconPath")]
+    #[serde(rename = "lobbyIconPath", default)]
     pub lobby_icon_path: String,
-    #[serde(rename = "lobbyIllustPath")]
+    #[serde(rename = "lobbyIllustPath", default)]
     pub lobby_illust_path: String,
 }
 

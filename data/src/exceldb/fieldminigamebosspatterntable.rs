@@ -7,29 +7,29 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Fieldminigamebosspatterntable {
-    #[serde(rename = "attackCount")]
+    #[serde(rename = "attackCount", default)]
     pub attack_count: i32,
-    #[serde(rename = "attackRange")]
+    #[serde(rename = "attackRange", default)]
     pub attack_range: f32,
-    #[serde(rename = "attackSpeed")]
+    #[serde(rename = "attackSpeed", default)]
     pub attack_speed: f32,
-    #[serde(rename = "attackType")]
+    #[serde(rename = "attackType", default)]
     pub attack_type: Option<i32>,
-    #[serde(rename = "attackValue")]
+    #[serde(rename = "attackValue", default)]
     pub attack_value: f32,
-    #[serde(rename = "chargeTime")]
+    #[serde(rename = "chargeTime", default)]
     pub charge_time: f32,
-    #[serde(rename = "detectRange")]
+    #[serde(rename = "detectRange", default)]
     pub detect_range: f32,
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "isImmovable")]
+    #[serde(rename = "isImmovable", default)]
     pub is_immovable: Option<i32>,
-    #[serde(rename = "patternPrefabName")]
+    #[serde(rename = "patternPrefabName", default)]
     pub pattern_prefab_name: Option<String>,
-    #[serde(rename = "throwingTrapGroupId")]
+    #[serde(rename = "throwingTrapGroupId", default)]
     pub throwing_trap_group_id: Option<i32>,
 }
 

@@ -7,33 +7,33 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Idcarditemtable {
-    #[serde(rename = "filterId")]
+    #[serde(rename = "filterId", default)]
     pub filter_id: i32,
-    #[serde(rename = "filterNameTextId")]
+    #[serde(rename = "filterNameTextId", default)]
     pub filter_name_text_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "itemDescNameTextId")]
+    #[serde(rename = "itemDescNameTextId", default)]
     pub item_desc_name_text_id: i32,
-    #[serde(rename = "itemNameTextId")]
+    #[serde(rename = "itemNameTextId", default)]
     pub item_name_text_id: i32,
-    #[serde(rename = "itemSpriteName")]
+    #[serde(rename = "itemSpriteName", default)]
     pub item_sprite_name: String,
-    #[serde(rename = "itemSubNameTextId")]
+    #[serde(rename = "itemSubNameTextId", default)]
     pub item_sub_name_text_id: i32,
-    #[serde(rename = "itemUnlockLocalTextId")]
+    #[serde(rename = "itemUnlockLocalTextId", default)]
     pub item_unlock_local_text_id: Option<i32>,
-    #[serde(rename = "magicValue")]
+    #[serde(rename = "magicValue", default)]
     pub magic_value: Option<Vec<i32>>,
-    #[serde(rename = "maxCount")]
+    #[serde(rename = "maxCount", default)]
     pub max_count: i32,
-    #[serde(rename = "prefabName")]
+    #[serde(rename = "prefabName", default)]
     pub prefab_name: String,
-    #[serde(rename = "sortId")]
+    #[serde(rename = "sortId", default)]
     pub sort_id: Option<i32>,
-    #[serde(rename = "type")]
+    #[serde(rename = "type", default)]
     pub r#type: Option<i32>,
-    #[serde(rename = "unlockConditionType")]
+    #[serde(rename = "unlockConditionType", default)]
     pub unlock_condition_type: Option<i32>,
 }
 

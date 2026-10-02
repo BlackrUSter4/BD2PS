@@ -7,13 +7,13 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Packmembertable {
-    #[serde(rename = "changeType")]
+    #[serde(rename = "changeType", default)]
     pub change_type: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "packType")]
+    #[serde(rename = "packType", default)]
     pub pack_type: Option<i32>,
-    #[serde(rename = "subMemberType")]
+    #[serde(rename = "subMemberType", default)]
     pub sub_member_type: Option<i32>,
 }
 

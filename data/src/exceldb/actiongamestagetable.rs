@@ -7,29 +7,29 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Actiongamestagetable {
-    #[serde(rename = "charMonsterId")]
+    #[serde(rename = "charMonsterId", default)]
     pub char_monster_id: i32,
-    #[serde(rename = "clearTime")]
+    #[serde(rename = "clearTime", default)]
     pub clear_time: i32,
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "loadingSceneName")]
+    #[serde(rename = "loadingSceneName", default)]
     pub loading_scene_name: String,
-    #[serde(rename = "mapSceneName")]
+    #[serde(rename = "mapSceneName", default)]
     pub map_scene_name: String,
-    #[serde(rename = "stageDescLocalTextId")]
+    #[serde(rename = "stageDescLocalTextId", default)]
     pub stage_desc_local_text_id: i32,
-    #[serde(rename = "stageDifficulty")]
+    #[serde(rename = "stageDifficulty", default)]
     pub stage_difficulty: i32,
-    #[serde(rename = "stageNameLocalTextId")]
+    #[serde(rename = "stageNameLocalTextId", default)]
     pub stage_name_local_text_id: i32,
-    #[serde(rename = "stageTitleLocalTextId")]
+    #[serde(rename = "stageTitleLocalTextId", default)]
     pub stage_title_local_text_id: i32,
-    #[serde(rename = "stageType")]
+    #[serde(rename = "stageType", default)]
     pub stage_type: i32,
-    #[serde(rename = "timeLimit")]
+    #[serde(rename = "timeLimit", default)]
     pub time_limit: i32,
 }
 

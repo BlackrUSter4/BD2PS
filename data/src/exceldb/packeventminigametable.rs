@@ -7,35 +7,35 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Packeventminigametable {
-    #[serde(rename = "contentGenreId")]
+    #[serde(rename = "contentGenreId", default)]
     pub content_genre_id: Option<i32>,
-    #[serde(rename = "eventClearType")]
+    #[serde(rename = "eventClearType", default)]
     pub event_clear_type: i32,
-    #[serde(rename = "eventClearValue")]
+    #[serde(rename = "eventClearValue", default)]
     pub event_clear_value: Option<i32>,
-    #[serde(rename = "eventDescLocalTextId")]
+    #[serde(rename = "eventDescLocalTextId", default)]
     pub event_desc_local_text_id: i32,
-    #[serde(rename = "eventNameLocalTextId")]
+    #[serde(rename = "eventNameLocalTextId", default)]
     pub event_name_local_text_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "mapId")]
+    #[serde(rename = "mapId", default)]
     pub map_id: Option<i32>,
-    #[serde(rename = "miniGameRewardGroupId")]
+    #[serde(rename = "miniGameRewardGroupId", default)]
     pub mini_game_reward_group_id: Option<i32>,
-    #[serde(rename = "minigameHubBanner")]
+    #[serde(rename = "minigameHubBanner", default)]
     pub minigame_hub_banner: Option<String>,
-    #[serde(rename = "packId")]
+    #[serde(rename = "packId", default)]
     pub pack_id: Option<i32>,
-    #[serde(rename = "pointPositionId")]
+    #[serde(rename = "pointPositionId", default)]
     pub point_position_id: Option<i32>,
-    #[serde(rename = "prefabName")]
+    #[serde(rename = "prefabName", default)]
     pub prefab_name: Option<String>,
-    #[serde(rename = "staticCostumeId")]
+    #[serde(rename = "staticCostumeId", default)]
     pub static_costume_id: Option<i32>,
-    #[serde(rename = "staticCostumePath")]
+    #[serde(rename = "staticCostumePath", default)]
     pub static_costume_path: Option<String>,
-    #[serde(rename = "staticCostumeType")]
+    #[serde(rename = "staticCostumeType", default)]
     pub static_costume_type: Option<i32>,
 }
 

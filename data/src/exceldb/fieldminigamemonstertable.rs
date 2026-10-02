@@ -7,39 +7,39 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Fieldminigamemonstertable {
-    #[serde(rename = "attackPatternGroupId")]
+    #[serde(rename = "attackPatternGroupId", default)]
     pub attack_pattern_group_id: Option<i32>,
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "growthValue")]
+    #[serde(rename = "growthValue", default)]
     pub growth_value: Option<f32>,
-    #[serde(rename = "health")]
+    #[serde(rename = "health", default)]
     pub health: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "itemBoxId")]
+    #[serde(rename = "itemBoxId", default)]
     pub item_box_id: Option<Vec<i32>>,
-    #[serde(rename = "monsterPrefabName")]
+    #[serde(rename = "monsterPrefabName", default)]
     pub monster_prefab_name: String,
-    #[serde(rename = "moveSpeed")]
+    #[serde(rename = "moveSpeed", default)]
     pub move_speed: f32,
-    #[serde(rename = "patternCooldown")]
+    #[serde(rename = "patternCooldown", default)]
     pub pattern_cooldown: Option<f32>,
-    #[serde(rename = "powerValue")]
+    #[serde(rename = "powerValue", default)]
     pub power_value: f32,
-    #[serde(rename = "repeatCount")]
+    #[serde(rename = "repeatCount", default)]
     pub repeat_count: i32,
-    #[serde(rename = "spawnCount")]
+    #[serde(rename = "spawnCount", default)]
     pub spawn_count: i32,
-    #[serde(rename = "spawnDelayTime")]
+    #[serde(rename = "spawnDelayTime", default)]
     pub spawn_delay_time: Option<f32>,
-    #[serde(rename = "spawnDuration")]
+    #[serde(rename = "spawnDuration", default)]
     pub spawn_duration: Option<i32>,
-    #[serde(rename = "spawnTime")]
+    #[serde(rename = "spawnTime", default)]
     pub spawn_time: Option<i32>,
-    #[serde(rename = "startSpawnTime")]
+    #[serde(rename = "startSpawnTime", default)]
     pub start_spawn_time: Option<i32>,
-    #[serde(rename = "type")]
+    #[serde(rename = "type", default)]
     pub r#type: Option<i32>,
 }
 

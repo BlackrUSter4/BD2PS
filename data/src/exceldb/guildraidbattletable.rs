@@ -7,19 +7,19 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Guildraidbattletable {
-    #[serde(rename = "battleDeckId")]
+    #[serde(rename = "battleDeckId", default)]
     pub battle_deck_id: i32,
-    #[serde(rename = "battleMaxCount")]
+    #[serde(rename = "battleMaxCount", default)]
     pub battle_max_count: i32,
-    #[serde(rename = "battlePower")]
+    #[serde(rename = "battlePower", default)]
     pub battle_power: i32,
-    #[serde(rename = "golemBonusExp")]
+    #[serde(rename = "golemBonusExp", default)]
     pub golem_bonus_exp: i32,
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "level")]
+    #[serde(rename = "level", default)]
     pub level: i32,
 }
 

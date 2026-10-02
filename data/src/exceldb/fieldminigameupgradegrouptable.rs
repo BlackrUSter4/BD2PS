@@ -7,15 +7,15 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Fieldminigameupgradegrouptable {
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "statType")]
+    #[serde(rename = "statType", default)]
     pub stat_type: i32,
-    #[serde(rename = "upgradeDescLocalTextId")]
+    #[serde(rename = "upgradeDescLocalTextId", default)]
     pub upgrade_desc_local_text_id: i32,
-    #[serde(rename = "upgradeNameTextId")]
+    #[serde(rename = "upgradeNameTextId", default)]
     pub upgrade_name_text_id: i32,
-    #[serde(rename = "upgradeSpriteName")]
+    #[serde(rename = "upgradeSpriteName", default)]
     pub upgrade_sprite_name: String,
 }
 

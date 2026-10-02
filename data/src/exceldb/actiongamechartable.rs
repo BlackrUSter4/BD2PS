@@ -7,39 +7,39 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Actiongamechartable {
-    #[serde(rename = "charDescNameTextId")]
+    #[serde(rename = "charDescNameTextId", default)]
     pub char_desc_name_text_id: i32,
-    #[serde(rename = "charIcon")]
+    #[serde(rename = "charIcon", default)]
     pub char_icon: String,
-    #[serde(rename = "charIllustName")]
+    #[serde(rename = "charIllustName", default)]
     pub char_illust_name: Option<String>,
-    #[serde(rename = "charNameImage")]
+    #[serde(rename = "charNameImage", default)]
     pub char_name_image: String,
-    #[serde(rename = "charNameTextId")]
+    #[serde(rename = "charNameTextId", default)]
     pub char_name_text_id: i32,
-    #[serde(rename = "charPrefabPath")]
+    #[serde(rename = "charPrefabPath", default)]
     pub char_prefab_path: String,
-    #[serde(rename = "charSkillGroupId")]
+    #[serde(rename = "charSkillGroupId", default)]
     pub char_skill_group_id: i32,
-    #[serde(rename = "charStatId")]
+    #[serde(rename = "charStatId", default)]
     pub char_stat_id: i32,
-    #[serde(rename = "charStatImageName")]
+    #[serde(rename = "charStatImageName", default)]
     pub char_stat_image_name: Option<String>,
-    #[serde(rename = "charThumName")]
+    #[serde(rename = "charThumName", default)]
     pub char_thum_name: String,
-    #[serde(rename = "charTitleNameTextId")]
+    #[serde(rename = "charTitleNameTextId", default)]
     pub char_title_name_text_id: i32,
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "hitEffPrefab")]
+    #[serde(rename = "hitEffPrefab", default)]
     pub hit_eff_prefab: Option<String>,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "monsterPartsGroupId")]
+    #[serde(rename = "monsterPartsGroupId", default)]
     pub monster_parts_group_id: Option<i32>,
-    #[serde(rename = "monsterType")]
+    #[serde(rename = "monsterType", default)]
     pub monster_type: Option<i32>,
-    #[serde(rename = "voiceResourceName")]
+    #[serde(rename = "voiceResourceName", default)]
     pub voice_resource_name: Option<String>,
 }
 

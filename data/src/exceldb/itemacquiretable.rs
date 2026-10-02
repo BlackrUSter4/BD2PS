@@ -7,15 +7,15 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Itemacquiretable {
-    #[serde(rename = "acquireDescTextId")]
+    #[serde(rename = "acquireDescTextId", default)]
     pub acquire_desc_text_id: Option<i32>,
-    #[serde(rename = "acquireIconName")]
+    #[serde(rename = "acquireIconName", default)]
     pub acquire_icon_name: String,
-    #[serde(rename = "acquireTitleTextId")]
+    #[serde(rename = "acquireTitleTextId", default)]
     pub acquire_title_text_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "shortCutId")]
+    #[serde(rename = "shortCutId", default)]
     pub short_cut_id: Option<i32>,
 }
 

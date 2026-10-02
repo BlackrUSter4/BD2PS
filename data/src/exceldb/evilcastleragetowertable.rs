@@ -7,13 +7,13 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Evilcastleragetowertable {
-    #[serde(rename = "battleDeckId")]
+    #[serde(rename = "battleDeckId", default)]
     pub battle_deck_id: i32,
-    #[serde(rename = "battlePower")]
+    #[serde(rename = "battlePower", default)]
     pub battle_power: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "isFixedCamera")]
+    #[serde(rename = "isFixedCamera", default)]
     pub is_fixed_camera: Option<i32>,
 }
 

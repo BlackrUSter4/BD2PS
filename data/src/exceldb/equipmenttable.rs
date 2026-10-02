@@ -7,47 +7,47 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Equipmenttable {
-    #[serde(rename = "grade")]
+    #[serde(rename = "grade", default)]
     pub grade: i32,
-    #[serde(rename = "growthGroupId")]
+    #[serde(rename = "growthGroupId", default)]
     pub growth_group_id: i32,
-    #[serde(rename = "iconSpriteName")]
+    #[serde(rename = "iconSpriteName", default)]
     pub icon_sprite_name: String,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "isMonsterHunt")]
+    #[serde(rename = "isMonsterHunt", default)]
     pub is_monster_hunt: Option<i32>,
-    #[serde(rename = "itemAcquireId")]
+    #[serde(rename = "itemAcquireId", default)]
     pub item_acquire_id: Vec<i32>,
-    #[serde(rename = "itemDescNameTextId")]
+    #[serde(rename = "itemDescNameTextId", default)]
     pub item_desc_name_text_id: i32,
-    #[serde(rename = "itemNameTextId")]
+    #[serde(rename = "itemNameTextId", default)]
     pub item_name_text_id: i32,
-    #[serde(rename = "itemSubDescLocalTextId")]
+    #[serde(rename = "itemSubDescLocalTextId", default)]
     pub item_sub_desc_local_text_id: i32,
-    #[serde(rename = "mainOptionGroupId")]
+    #[serde(rename = "mainOptionGroupId", default)]
     pub main_option_group_id: Vec<i32>,
-    #[serde(rename = "maxLevel")]
+    #[serde(rename = "maxLevel", default)]
     pub max_level: i32,
-    #[serde(rename = "notTrash")]
+    #[serde(rename = "notTrash", default)]
     pub not_trash: i32,
-    #[serde(rename = "optionRerollId")]
+    #[serde(rename = "optionRerollId", default)]
     pub option_reroll_id: i32,
-    #[serde(rename = "privateUniqueCharId")]
+    #[serde(rename = "privateUniqueCharId", default)]
     pub private_unique_char_id: Option<i32>,
-    #[serde(rename = "privateUniqueOptionGroupId")]
+    #[serde(rename = "privateUniqueOptionGroupId", default)]
     pub private_unique_option_group_id: Option<Vec<i32>>,
-    #[serde(rename = "qualityType")]
+    #[serde(rename = "qualityType", default)]
     pub quality_type: Option<i32>,
-    #[serde(rename = "rankGroupId")]
+    #[serde(rename = "rankGroupId", default)]
     pub rank_group_id: i32,
-    #[serde(rename = "slotType")]
+    #[serde(rename = "slotType", default)]
     pub slot_type: Option<i32>,
-    #[serde(rename = "subOptionGroupId")]
+    #[serde(rename = "subOptionGroupId", default)]
     pub sub_option_group_id: Vec<i32>,
-    #[serde(rename = "uniqueEquipId")]
+    #[serde(rename = "uniqueEquipId", default)]
     pub unique_equip_id: i32,
-    #[serde(rename = "expect")]
+    #[serde(rename = "expect", default)]
     pub expect: Option<i32>,
 }
 

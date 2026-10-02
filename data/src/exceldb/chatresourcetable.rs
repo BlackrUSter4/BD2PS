@@ -7,11 +7,11 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Chatresourcetable {
-    #[serde(rename = "chatResourceType")]
+    #[serde(rename = "chatResourceType", default)]
     pub chat_resource_type: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "resourceName")]
+    #[serde(rename = "resourceName", default)]
     pub resource_name: String,
 }
 

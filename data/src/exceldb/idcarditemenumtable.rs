@@ -7,9 +7,9 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Idcarditemenumtable {
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "maxEditCount")]
+    #[serde(rename = "maxEditCount", default)]
     pub max_edit_count: i32,
 }
 

@@ -7,21 +7,21 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Rlbufftable {
-    #[serde(rename = "conditionTiming")]
+    #[serde(rename = "conditionTiming", default)]
     pub condition_timing: Option<i32>,
-    #[serde(rename = "conditionType")]
+    #[serde(rename = "conditionType", default)]
     pub condition_type: Option<i32>,
-    #[serde(rename = "conditionValue")]
+    #[serde(rename = "conditionValue", default)]
     pub condition_value: Option<i32>,
-    #[serde(rename = "effectApplyType")]
+    #[serde(rename = "effectApplyType", default)]
     pub effect_apply_type: Option<i32>,
-    #[serde(rename = "effectApplyValue")]
+    #[serde(rename = "effectApplyValue", default)]
     pub effect_apply_value: Vec<i32>,
-    #[serde(rename = "effectType")]
+    #[serde(rename = "effectType", default)]
     pub effect_type: Option<i32>,
-    #[serde(rename = "effectValue")]
+    #[serde(rename = "effectValue", default)]
     pub effect_value: f32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
 }
 

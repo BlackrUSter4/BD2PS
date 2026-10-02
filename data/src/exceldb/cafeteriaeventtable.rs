@@ -7,23 +7,23 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Cafeteriaeventtable {
-    #[serde(rename = "TimelineName")]
+    #[serde(rename = "TimelineName", default)]
     pub timeline_name: Option<String>,
-    #[serde(rename = "bubbleIconSprite")]
+    #[serde(rename = "bubbleIconSprite", default)]
     pub bubble_icon_sprite: String,
-    #[serde(rename = "eventType")]
+    #[serde(rename = "eventType", default)]
     pub event_type: i32,
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "reactionPrefabName")]
+    #[serde(rename = "reactionPrefabName", default)]
     pub reaction_prefab_name: Option<Vec<String>>,
-    #[serde(rename = "reactionTime")]
+    #[serde(rename = "reactionTime", default)]
     pub reaction_time: Option<Vec<i32>>,
-    #[serde(rename = "rewardCount")]
+    #[serde(rename = "rewardCount", default)]
     pub reward_count: i32,
-    #[serde(rename = "rewardType")]
+    #[serde(rename = "rewardType", default)]
     pub reward_type: i32,
 }
 

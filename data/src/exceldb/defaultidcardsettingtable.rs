@@ -7,19 +7,19 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Defaultidcardsettingtable {
-    #[serde(rename = "cardItemEnumType")]
+    #[serde(rename = "cardItemEnumType", default)]
     pub card_item_enum_type: i32,
-    #[serde(rename = "colorValue")]
+    #[serde(rename = "colorValue", default)]
     pub color_value: Option<String>,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "itemId")]
+    #[serde(rename = "itemId", default)]
     pub item_id: Option<i32>,
-    #[serde(rename = "positionXValue")]
+    #[serde(rename = "positionXValue", default)]
     pub position_x_value: Option<f32>,
-    #[serde(rename = "positionYValue")]
+    #[serde(rename = "positionYValue", default)]
     pub position_y_value: Option<f32>,
-    #[serde(rename = "scaleValue")]
+    #[serde(rename = "scaleValue", default)]
     pub scale_value: f32,
 }
 

@@ -7,15 +7,15 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Actiongametable {
-    #[serde(rename = "battleStartTimeline")]
+    #[serde(rename = "battleStartTimeline", default)]
     pub battle_start_timeline: String,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "stageGroupId")]
+    #[serde(rename = "stageGroupId", default)]
     pub stage_group_id: i32,
-    #[serde(rename = "stageMonsterIcon")]
+    #[serde(rename = "stageMonsterIcon", default)]
     pub stage_monster_icon: String,
-    #[serde(rename = "stageThumName")]
+    #[serde(rename = "stageThumName", default)]
     pub stage_thum_name: String,
 }
 

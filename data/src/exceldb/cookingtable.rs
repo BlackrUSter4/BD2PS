@@ -7,33 +7,33 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Cookingtable {
-    #[serde(rename = "grade")]
+    #[serde(rename = "grade", default)]
     pub grade: i32,
-    #[serde(rename = "iconSpriteName")]
+    #[serde(rename = "iconSpriteName", default)]
     pub icon_sprite_name: String,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "itemAcquireId")]
+    #[serde(rename = "itemAcquireId", default)]
     pub item_acquire_id: Option<Vec<i32>>,
-    #[serde(rename = "itemDescNameTextId")]
+    #[serde(rename = "itemDescNameTextId", default)]
     pub item_desc_name_text_id: i32,
-    #[serde(rename = "itemSubNameTextId")]
+    #[serde(rename = "itemSubNameTextId", default)]
     pub item_sub_name_text_id: i32,
-    #[serde(rename = "materialItemCount")]
+    #[serde(rename = "materialItemCount", default)]
     pub material_item_count: Vec<i32>,
-    #[serde(rename = "materialItemId")]
+    #[serde(rename = "materialItemId", default)]
     pub material_item_id: Vec<i32>,
-    #[serde(rename = "packId")]
+    #[serde(rename = "packId", default)]
     pub pack_id: i32,
-    #[serde(rename = "recipeNameTextId")]
+    #[serde(rename = "recipeNameTextId", default)]
     pub recipe_name_text_id: i32,
-    #[serde(rename = "resultItemCount")]
+    #[serde(rename = "resultItemCount", default)]
     pub result_item_count: i32,
-    #[serde(rename = "resultItemId")]
+    #[serde(rename = "resultItemId", default)]
     pub result_item_id: i32,
-    #[serde(rename = "stackCount")]
+    #[serde(rename = "stackCount", default)]
     pub stack_count: i32,
-    #[serde(rename = "talentLevel")]
+    #[serde(rename = "talentLevel", default)]
     pub talent_level: i32,
 }
 

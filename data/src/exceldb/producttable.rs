@@ -7,23 +7,23 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Producttable {
-    #[serde(rename = "buyMaxCount")]
+    #[serde(rename = "buyMaxCount", default)]
     pub buy_max_count: Option<i32>,
-    #[serde(rename = "elementCount")]
+    #[serde(rename = "elementCount", default)]
     pub element_count: i32,
-    #[serde(rename = "elementId")]
+    #[serde(rename = "elementId", default)]
     pub element_id: Option<i32>,
-    #[serde(rename = "elementType")]
+    #[serde(rename = "elementType", default)]
     pub element_type: i32,
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "noBargain")]
+    #[serde(rename = "noBargain", default)]
     pub no_bargain: Option<i32>,
-    #[serde(rename = "priceCount")]
+    #[serde(rename = "priceCount", default)]
     pub price_count: i32,
-    #[serde(rename = "priceType")]
+    #[serde(rename = "priceType", default)]
     pub price_type: i32,
 }
 

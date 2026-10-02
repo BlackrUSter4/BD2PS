@@ -7,19 +7,19 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Standingtalktable {
-    #[serde(rename = "backgroundImgName")]
+    #[serde(rename = "backgroundImgName", default)]
     pub background_img_name: Option<String>,
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "illustCharAnimation")]
+    #[serde(rename = "illustCharAnimation", default)]
     pub illust_char_animation: Option<Vec<String>>,
-    #[serde(rename = "illustUniqueCharId")]
+    #[serde(rename = "illustUniqueCharId", default)]
     pub illust_unique_char_id: Option<Vec<i32>>,
-    #[serde(rename = "state")]
+    #[serde(rename = "state", default)]
     pub state: i32,
-    #[serde(rename = "talkCharIndex")]
+    #[serde(rename = "talkCharIndex", default)]
     pub talk_char_index: Option<i32>,
 }
 

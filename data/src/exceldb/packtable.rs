@@ -7,111 +7,111 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Packtable {
-    #[serde(rename = "bgmName")]
+    #[serde(rename = "bgmName", default)]
     pub bgm_name: String,
-    #[serde(rename = "bgmSoundId")]
+    #[serde(rename = "bgmSoundId", default)]
     pub bgm_sound_id: i32,
-    #[serde(rename = "bgmTitleLocalTextId")]
+    #[serde(rename = "bgmTitleLocalTextId", default)]
     pub bgm_title_local_text_id: i32,
-    #[serde(rename = "bundleLabel")]
+    #[serde(rename = "bundleLabel", default)]
     pub bundle_label: String,
-    #[serde(rename = "buyDescLocalTextId")]
+    #[serde(rename = "buyDescLocalTextId", default)]
     pub buy_desc_local_text_id: i32,
-    #[serde(rename = "buyRewardCount")]
+    #[serde(rename = "buyRewardCount", default)]
     pub buy_reward_count: Option<Vec<i32>>,
-    #[serde(rename = "buyRewardId")]
+    #[serde(rename = "buyRewardId", default)]
     pub buy_reward_id: Option<Vec<i32>>,
-    #[serde(rename = "buyRewardType")]
+    #[serde(rename = "buyRewardType", default)]
     pub buy_reward_type: Option<Vec<i32>>,
-    #[serde(rename = "caseBackTextureName")]
+    #[serde(rename = "caseBackTextureName", default)]
     pub case_back_texture_name: String,
-    #[serde(rename = "caseBackThumbnailTextureName")]
+    #[serde(rename = "caseBackThumbnailTextureName", default)]
     pub case_back_thumbnail_texture_name: String,
-    #[serde(rename = "caseFrontPrefabName")]
+    #[serde(rename = "caseFrontPrefabName", default)]
     pub case_front_prefab_name: String,
-    #[serde(rename = "contentGenreId")]
+    #[serde(rename = "contentGenreId", default)]
     pub content_genre_id: Option<Vec<i32>>,
-    #[serde(rename = "contentTypeTextId")]
+    #[serde(rename = "contentTypeTextId", default)]
     pub content_type_text_id: Option<i32>,
-    #[serde(rename = "dockingOnce")]
+    #[serde(rename = "dockingOnce", default)]
     pub docking_once: i32,
-    #[serde(rename = "epilogLocalTextId")]
+    #[serde(rename = "epilogLocalTextId", default)]
     pub epilog_local_text_id: i32,
-    #[serde(rename = "fieldMapId")]
+    #[serde(rename = "fieldMapId", default)]
     pub field_map_id: Option<Vec<i32>>,
-    #[serde(rename = "fieldMonsterGroupId")]
+    #[serde(rename = "fieldMonsterGroupId", default)]
     pub field_monster_group_id: Option<Vec<i32>>,
-    #[serde(rename = "fieldObjectGroupId")]
+    #[serde(rename = "fieldObjectGroupId", default)]
     pub field_object_group_id: Option<Vec<i32>>,
-    #[serde(rename = "fieldTrapGroupId")]
+    #[serde(rename = "fieldTrapGroupId", default)]
     pub field_trap_group_id: Option<Vec<i32>>,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "isSkipPackInsertDirection")]
+    #[serde(rename = "isSkipPackInsertDirection", default)]
     pub is_skip_pack_insert_direction: Option<i32>,
-    #[serde(rename = "mainQuestRewardCount")]
+    #[serde(rename = "mainQuestRewardCount", default)]
     pub main_quest_reward_count: Option<Vec<i32>>,
-    #[serde(rename = "mainQuestRewardCount1")]
+    #[serde(rename = "mainQuestRewardCount1", default)]
     pub main_quest_reward_count1: Option<Vec<i32>>,
-    #[serde(rename = "mainQuestRewardCount2")]
+    #[serde(rename = "mainQuestRewardCount2", default)]
     pub main_quest_reward_count2: Option<Vec<i32>>,
-    #[serde(rename = "mainQuestRewardCount3")]
+    #[serde(rename = "mainQuestRewardCount3", default)]
     pub main_quest_reward_count3: Option<Vec<i32>>,
-    #[serde(rename = "mainQuestRewardCount4")]
+    #[serde(rename = "mainQuestRewardCount4", default)]
     pub main_quest_reward_count4: Option<Vec<i32>>,
-    #[serde(rename = "mainQuestRewardId")]
+    #[serde(rename = "mainQuestRewardId", default)]
     pub main_quest_reward_id: Option<Vec<i32>>,
-    #[serde(rename = "mainQuestRewardId1")]
+    #[serde(rename = "mainQuestRewardId1", default)]
     pub main_quest_reward_id1: Option<Vec<i32>>,
-    #[serde(rename = "mainQuestRewardId2")]
+    #[serde(rename = "mainQuestRewardId2", default)]
     pub main_quest_reward_id2: Option<Vec<i32>>,
-    #[serde(rename = "mainQuestRewardId3")]
+    #[serde(rename = "mainQuestRewardId3", default)]
     pub main_quest_reward_id3: Option<Vec<i32>>,
-    #[serde(rename = "mainQuestRewardId4")]
+    #[serde(rename = "mainQuestRewardId4", default)]
     pub main_quest_reward_id4: Option<Vec<i32>>,
-    #[serde(rename = "mainQuestRewardType")]
+    #[serde(rename = "mainQuestRewardType", default)]
     pub main_quest_reward_type: Option<Vec<i32>>,
-    #[serde(rename = "mainQuestRewardType1")]
+    #[serde(rename = "mainQuestRewardType1", default)]
     pub main_quest_reward_type1: Option<Vec<i32>>,
-    #[serde(rename = "mainQuestRewardType2")]
+    #[serde(rename = "mainQuestRewardType2", default)]
     pub main_quest_reward_type2: Option<Vec<i32>>,
-    #[serde(rename = "mainQuestRewardType3")]
+    #[serde(rename = "mainQuestRewardType3", default)]
     pub main_quest_reward_type3: Option<Vec<i32>>,
-    #[serde(rename = "mainQuestRewardType4")]
+    #[serde(rename = "mainQuestRewardType4", default)]
     pub main_quest_reward_type4: Option<Vec<i32>>,
-    #[serde(rename = "nextPackId")]
+    #[serde(rename = "nextPackId", default)]
     pub next_pack_id: Option<i32>,
-    #[serde(rename = "packDescNameTextId")]
+    #[serde(rename = "packDescNameTextId", default)]
     pub pack_desc_name_text_id: i32,
-    #[serde(rename = "packHide")]
+    #[serde(rename = "packHide", default)]
     pub pack_hide: Option<i32>,
-    #[serde(rename = "packLoadingPrefabName")]
+    #[serde(rename = "packLoadingPrefabName", default)]
     pub pack_loading_prefab_name: String,
-    #[serde(rename = "packNameTextId")]
+    #[serde(rename = "packNameTextId", default)]
     pub pack_name_text_id: i32,
-    #[serde(rename = "packPeriod")]
+    #[serde(rename = "packPeriod", default)]
     pub pack_period: Option<i32>,
-    #[serde(rename = "packPreviewName")]
+    #[serde(rename = "packPreviewName", default)]
     pub pack_preview_name: Vec<String>,
-    #[serde(rename = "packSpriteName")]
+    #[serde(rename = "packSpriteName", default)]
     pub pack_sprite_name: String,
-    #[serde(rename = "packType")]
+    #[serde(rename = "packType", default)]
     pub pack_type: Option<i32>,
-    #[serde(rename = "packUnopenedResourceName")]
+    #[serde(rename = "packUnopenedResourceName", default)]
     pub pack_unopened_resource_name: String,
-    #[serde(rename = "prologLocalTextId")]
+    #[serde(rename = "prologLocalTextId", default)]
     pub prolog_local_text_id: i32,
-    #[serde(rename = "startPositionPath")]
+    #[serde(rename = "startPositionPath", default)]
     pub start_position_path: String,
-    #[serde(rename = "storySynopsisQuestTextId")]
+    #[serde(rename = "storySynopsisQuestTextId", default)]
     pub story_synopsis_quest_text_id: Option<i32>,
-    #[serde(rename = "useSchedule")]
+    #[serde(rename = "useSchedule", default)]
     pub use_schedule: Option<i32>,
-    #[serde(rename = "waypointPriceType")]
+    #[serde(rename = "waypointPriceType", default)]
     pub waypoint_price_type: i32,
-    #[serde(rename = "packDisplayNumber")]
+    #[serde(rename = "packDisplayNumber", default)]
     pub pack_display_number: Option<i32>,
-    #[serde(rename = "shopMapId")]
+    #[serde(rename = "shopMapId", default)]
     pub shop_map_id: Option<i32>,
 }
 

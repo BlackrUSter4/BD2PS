@@ -7,9 +7,9 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Sichuanblockdesigntable {
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "resouceName")]
+    #[serde(rename = "resouceName", default)]
     pub resouce_name: String,
 }
 

@@ -6,23 +6,23 @@ use anyhow::Result;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Totalwardefaulttable {
-    #[serde(rename = "idleChangeDamage")]
+    #[serde(rename = "idleChangeDamage", default)]
     pub idle_change_damage: Vec<i32>,
-    #[serde(rename = "rewardObjectId")]
+    #[serde(rename = "rewardObjectId", default)]
     pub reward_object_id: i32,
-    #[serde(rename = "rewardObjectInteractionLocalTextId")]
+    #[serde(rename = "rewardObjectInteractionLocalTextId", default)]
     pub reward_object_interaction_local_text_id: i32,
-    #[serde(rename = "rewardObjectPrefabName")]
+    #[serde(rename = "rewardObjectPrefabName", default)]
     pub reward_object_prefab_name: String,
-    #[serde(rename = "totalWarPresetBaseCount")]
+    #[serde(rename = "totalWarPresetBaseCount", default)]
     pub total_war_preset_base_count: i32,
-    #[serde(rename = "totalWarPresetBuyCount")]
+    #[serde(rename = "totalWarPresetBuyCount", default)]
     pub total_war_preset_buy_count: i32,
-    #[serde(rename = "totalWarPresetBuyType")]
+    #[serde(rename = "totalWarPresetBuyType", default)]
     pub total_war_preset_buy_type: i32,
-    #[serde(rename = "totalWarPresetMaxCount")]
+    #[serde(rename = "totalWarPresetMaxCount", default)]
     pub total_war_preset_max_count: i32,
-    #[serde(rename = "totalWarStartBuffId")]
+    #[serde(rename = "totalWarStartBuffId", default)]
     pub total_war_start_buff_id: i32,
 }
 

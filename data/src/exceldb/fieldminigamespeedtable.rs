@@ -7,31 +7,31 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Fieldminigamespeedtable {
-    #[serde(rename = "boosterSpeed")]
+    #[serde(rename = "boosterSpeed", default)]
     pub booster_speed: f32,
-    #[serde(rename = "boosterTime")]
+    #[serde(rename = "boosterTime", default)]
     pub booster_time: i32,
-    #[serde(rename = "clearTime")]
+    #[serde(rename = "clearTime", default)]
     pub clear_time: i32,
-    #[serde(rename = "decreaseValue")]
+    #[serde(rename = "decreaseValue", default)]
     pub decrease_value: i32,
-    #[serde(rename = "ghostPosition")]
+    #[serde(rename = "ghostPosition", default)]
     pub ghost_position: i32,
-    #[serde(rename = "ghostPrefab")]
+    #[serde(rename = "ghostPrefab", default)]
     pub ghost_prefab: String,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "maxCount")]
+    #[serde(rename = "maxCount", default)]
     pub max_count: i32,
-    #[serde(rename = "objectGroupId")]
+    #[serde(rename = "objectGroupId", default)]
     pub object_group_id: i32,
-    #[serde(rename = "runCount")]
+    #[serde(rename = "runCount", default)]
     pub run_count: Vec<i32>,
-    #[serde(rename = "runSpeed")]
+    #[serde(rename = "runSpeed", default)]
     pub run_speed: Vec<f32>,
-    #[serde(rename = "runValue")]
+    #[serde(rename = "runValue", default)]
     pub run_value: i32,
-    #[serde(rename = "startHpPoint")]
+    #[serde(rename = "startHpPoint", default)]
     pub start_hp_point: i32,
 }
 

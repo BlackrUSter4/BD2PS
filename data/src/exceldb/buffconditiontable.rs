@@ -7,23 +7,23 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Buffconditiontable {
-    #[serde(rename = "attackType")]
+    #[serde(rename = "attackType", default)]
     pub attack_type: Option<Vec<i32>>,
-    #[serde(rename = "buffGroup")]
+    #[serde(rename = "buffGroup", default)]
     pub buff_group: Option<Vec<i32>>,
-    #[serde(rename = "chainLess")]
+    #[serde(rename = "chainLess", default)]
     pub chain_less: Option<i32>,
-    #[serde(rename = "chainMore")]
+    #[serde(rename = "chainMore", default)]
     pub chain_more: Option<i32>,
-    #[serde(rename = "chainMultiple")]
+    #[serde(rename = "chainMultiple", default)]
     pub chain_multiple: Option<i32>,
-    #[serde(rename = "element")]
+    #[serde(rename = "element", default)]
     pub element: Option<Vec<i32>>,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "mainTarget")]
+    #[serde(rename = "mainTarget", default)]
     pub main_target: Option<i32>,
-    #[serde(rename = "subTarget")]
+    #[serde(rename = "subTarget", default)]
     pub sub_target: Option<i32>,
 }
 

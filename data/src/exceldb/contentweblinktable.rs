@@ -7,17 +7,17 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Contentweblinktable {
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "linkUrlPathCn")]
+    #[serde(rename = "linkUrlPathCn", default)]
     pub link_url_path_cn: String,
-    #[serde(rename = "linkUrlPathEn")]
+    #[serde(rename = "linkUrlPathEn", default)]
     pub link_url_path_en: String,
-    #[serde(rename = "linkUrlPathJp")]
+    #[serde(rename = "linkUrlPathJp", default)]
     pub link_url_path_jp: String,
-    #[serde(rename = "linkUrlPathKr")]
+    #[serde(rename = "linkUrlPathKr", default)]
     pub link_url_path_kr: String,
-    #[serde(rename = "linkUrlPathTw")]
+    #[serde(rename = "linkUrlPathTw", default)]
     pub link_url_path_tw: String,
 }
 

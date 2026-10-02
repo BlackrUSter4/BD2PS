@@ -7,37 +7,37 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Huntdispatchtable {
-    #[serde(rename = "apPerTime")]
+    #[serde(rename = "apPerTime", default)]
     pub ap_per_time: i32,
-    #[serde(rename = "battleCountBoss")]
+    #[serde(rename = "battleCountBoss", default)]
     pub battle_count_boss: i32,
-    #[serde(rename = "battleCountMonster")]
+    #[serde(rename = "battleCountMonster", default)]
     pub battle_count_monster: i32,
-    #[serde(rename = "clearTime")]
+    #[serde(rename = "clearTime", default)]
     pub clear_time: i32,
-    #[serde(rename = "difficulty")]
+    #[serde(rename = "difficulty", default)]
     pub difficulty: Option<i32>,
-    #[serde(rename = "dispatchNameTextId")]
+    #[serde(rename = "dispatchNameTextId", default)]
     pub dispatch_name_text_id: i32,
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "mapUiObjectId")]
+    #[serde(rename = "mapUiObjectId", default)]
     pub map_ui_object_id: Option<i32>,
-    #[serde(rename = "packId")]
+    #[serde(rename = "packId", default)]
     pub pack_id: i32,
-    #[serde(rename = "packNameTextId")]
+    #[serde(rename = "packNameTextId", default)]
     pub pack_name_text_id: i32,
-    #[serde(rename = "rewardGrowthRate")]
+    #[serde(rename = "rewardGrowthRate", default)]
     pub reward_growth_rate: Option<i32>,
-    #[serde(rename = "typeGroupId")]
+    #[serde(rename = "typeGroupId", default)]
     pub type_group_id: Option<i32>,
-    #[serde(rename = "typeId")]
+    #[serde(rename = "typeId", default)]
     pub type_id: i32,
-    #[serde(rename = "visualItemId")]
+    #[serde(rename = "visualItemId", default)]
     pub visual_item_id: Vec<i32>,
-    #[serde(rename = "visualItemType")]
+    #[serde(rename = "visualItemType", default)]
     pub visual_item_type: Vec<i32>,
 }
 

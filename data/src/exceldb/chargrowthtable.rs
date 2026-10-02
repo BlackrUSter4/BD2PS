@@ -7,17 +7,17 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Chargrowthtable {
-    #[serde(rename = "charLevelGroupId")]
+    #[serde(rename = "charLevelGroupId", default)]
     pub char_level_group_id: i32,
-    #[serde(rename = "classupItemCount")]
+    #[serde(rename = "classupItemCount", default)]
     pub classup_item_count: Option<Vec<i32>>,
-    #[serde(rename = "classupItemId")]
+    #[serde(rename = "classupItemId", default)]
     pub classup_item_id: Option<Vec<i32>>,
-    #[serde(rename = "classupItemType")]
+    #[serde(rename = "classupItemType", default)]
     pub classup_item_type: Option<Vec<i32>>,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "maxLevel")]
+    #[serde(rename = "maxLevel", default)]
     pub max_level: i32,
 }
 

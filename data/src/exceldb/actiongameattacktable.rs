@@ -7,19 +7,19 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Actiongameattacktable {
-    #[serde(rename = "attackType")]
+    #[serde(rename = "attackType", default)]
     pub attack_type: Option<i32>,
-    #[serde(rename = "groggySkillValue")]
+    #[serde(rename = "groggySkillValue", default)]
     pub groggy_skill_value: Option<i32>,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "repeatCount")]
+    #[serde(rename = "repeatCount", default)]
     pub repeat_count: Option<i32>,
-    #[serde(rename = "skillValue")]
+    #[serde(rename = "skillValue", default)]
     pub skill_value: Option<f32>,
-    #[serde(rename = "specialGaugeValue")]
+    #[serde(rename = "specialGaugeValue", default)]
     pub special_gauge_value: Option<i32>,
-    #[serde(rename = "unblockableType")]
+    #[serde(rename = "unblockableType", default)]
     pub unblockable_type: Option<i32>,
 }
 

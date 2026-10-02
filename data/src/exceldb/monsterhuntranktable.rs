@@ -7,23 +7,23 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Monsterhuntranktable {
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "rankImageIcon")]
+    #[serde(rename = "rankImageIcon", default)]
     pub rank_image_icon: String,
-    #[serde(rename = "rankNameTextId")]
+    #[serde(rename = "rankNameTextId", default)]
     pub rank_name_text_id: String,
-    #[serde(rename = "ranking")]
+    #[serde(rename = "ranking", default)]
     pub ranking: f32,
-    #[serde(rename = "rankingType")]
+    #[serde(rename = "rankingType", default)]
     pub ranking_type: Option<i32>,
-    #[serde(rename = "seasonRewardCount")]
+    #[serde(rename = "seasonRewardCount", default)]
     pub season_reward_count: Vec<i32>,
-    #[serde(rename = "seasonRewardId")]
+    #[serde(rename = "seasonRewardId", default)]
     pub season_reward_id: Vec<i32>,
-    #[serde(rename = "seasonRewardType")]
+    #[serde(rename = "seasonRewardType", default)]
     pub season_reward_type: Vec<i32>,
 }
 

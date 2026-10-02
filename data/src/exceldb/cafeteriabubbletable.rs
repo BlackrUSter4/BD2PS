@@ -7,19 +7,19 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Cafeteriabubbletable {
-    #[serde(rename = "bubbleLocalTextId")]
+    #[serde(rename = "bubbleLocalTextId", default)]
     pub bubble_local_text_id: i32,
-    #[serde(rename = "emotion")]
+    #[serde(rename = "emotion", default)]
     pub emotion: Option<i32>,
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "npcId")]
+    #[serde(rename = "npcId", default)]
     pub npc_id: Option<i32>,
-    #[serde(rename = "npcType")]
+    #[serde(rename = "npcType", default)]
     pub npc_type: i32,
-    #[serde(rename = "status")]
+    #[serde(rename = "status", default)]
     pub status: Option<i32>,
 }
 

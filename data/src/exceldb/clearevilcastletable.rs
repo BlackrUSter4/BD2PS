@@ -7,17 +7,17 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Clearevilcastletable {
-    #[serde(rename = "contentsTicketId")]
+    #[serde(rename = "contentsTicketId", default)]
     pub contents_ticket_id: i32,
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "rewardRandomBoxId")]
+    #[serde(rename = "rewardRandomBoxId", default)]
     pub reward_random_box_id: i32,
-    #[serde(rename = "towerMagicId")]
+    #[serde(rename = "towerMagicId", default)]
     pub tower_magic_id: i32,
-    #[serde(rename = "towerType")]
+    #[serde(rename = "towerType", default)]
     pub tower_type: i32,
-    #[serde(rename = "type")]
+    #[serde(rename = "type", default)]
     pub r#type: Option<i32>,
 }
 

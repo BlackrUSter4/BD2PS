@@ -7,21 +7,21 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Fieldobjectscenedata1 {
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "objectName")]
+    #[serde(rename = "objectName", default)]
     pub object_name: String,
-    #[serde(rename = "positionX")]
+    #[serde(rename = "positionX", default)]
     pub position_x: f32,
-    #[serde(rename = "positionY")]
+    #[serde(rename = "positionY", default)]
     pub position_y: f32,
-    #[serde(rename = "positionZ")]
+    #[serde(rename = "positionZ", default)]
     pub position_z: f32,
-    #[serde(rename = "sceneName")]
+    #[serde(rename = "sceneName", default)]
     pub scene_name: String,
-    #[serde(rename = "tableId")]
+    #[serde(rename = "tableId", default)]
     pub table_id: i32,
-    #[serde(rename = "objectType")]
+    #[serde(rename = "objectType", default)]
     pub object_type: Option<i32>,
 }
 

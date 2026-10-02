@@ -6,11 +6,11 @@ use anyhow::Result;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Cookingresearchtable {
-    #[serde(rename = "catalystValue")]
+    #[serde(rename = "catalystValue", default)]
     pub catalyst_value: Vec<i32>,
-    #[serde(rename = "failItemId")]
+    #[serde(rename = "failItemId", default)]
     pub fail_item_id: i32,
-    #[serde(rename = "useSlotCount")]
+    #[serde(rename = "useSlotCount", default)]
     pub use_slot_count: Vec<i32>,
 }
 

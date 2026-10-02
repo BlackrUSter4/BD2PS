@@ -7,27 +7,27 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Packeventlisttable {
-    #[serde(rename = "actionType")]
+    #[serde(rename = "actionType", default)]
     pub action_type: Option<String>,
-    #[serde(rename = "bgCharIllustName")]
+    #[serde(rename = "bgCharIllustName", default)]
     pub bg_char_illust_name: Option<String>,
-    #[serde(rename = "eventHubContentIconName")]
+    #[serde(rename = "eventHubContentIconName", default)]
     pub event_hub_content_icon_name: Option<String>,
-    #[serde(rename = "hubContentLocalTextId")]
+    #[serde(rename = "hubContentLocalTextId", default)]
     pub hub_content_local_text_id: i32,
-    #[serde(rename = "hubContentType")]
+    #[serde(rename = "hubContentType", default)]
     pub hub_content_type: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "slotIndex")]
+    #[serde(rename = "slotIndex", default)]
     pub slot_index: i32,
-    #[serde(rename = "sortId")]
+    #[serde(rename = "sortId", default)]
     pub sort_id: Option<i32>,
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: Option<i32>,
-    #[serde(rename = "hubContentId")]
+    #[serde(rename = "hubContentId", default)]
     pub hub_content_id: Option<i32>,
-    #[serde(rename = "endDateType")]
+    #[serde(rename = "endDateType", default)]
     pub end_date_type: Option<i32>,
 }
 

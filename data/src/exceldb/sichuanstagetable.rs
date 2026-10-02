@@ -7,21 +7,21 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Sichuanstagetable {
-    #[serde(rename = "clearTime")]
+    #[serde(rename = "clearTime", default)]
     pub clear_time: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "limitTime")]
+    #[serde(rename = "limitTime", default)]
     pub limit_time: Vec<i32>,
-    #[serde(rename = "randomBlockGroupID")]
+    #[serde(rename = "randomBlockGroupID", default)]
     pub random_block_group_i_d: Vec<i32>,
-    #[serde(rename = "randomBlockLimit")]
+    #[serde(rename = "randomBlockLimit", default)]
     pub random_block_limit: Vec<i32>,
-    #[serde(rename = "randomBlockTypeCount")]
+    #[serde(rename = "randomBlockTypeCount", default)]
     pub random_block_type_count: Vec<i32>,
-    #[serde(rename = "stageLayoutData")]
+    #[serde(rename = "stageLayoutData", default)]
     pub stage_layout_data: String,
-    #[serde(rename = "touchable")]
+    #[serde(rename = "touchable", default)]
     pub touchable: i32,
 }
 

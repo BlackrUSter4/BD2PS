@@ -7,29 +7,29 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Storylibrarytable {
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "isProlog")]
+    #[serde(rename = "isProlog", default)]
     pub is_prolog: Option<i32>,
-    #[serde(rename = "mapId")]
+    #[serde(rename = "mapId", default)]
     pub map_id: Option<i32>,
-    #[serde(rename = "packId")]
+    #[serde(rename = "packId", default)]
     pub pack_id: i32,
-    #[serde(rename = "questConditionQuestTextId")]
+    #[serde(rename = "questConditionQuestTextId", default)]
     pub quest_condition_quest_text_id: i32,
-    #[serde(rename = "questDescQuestTextId")]
+    #[serde(rename = "questDescQuestTextId", default)]
     pub quest_desc_quest_text_id: i32,
-    #[serde(rename = "questGroupId")]
+    #[serde(rename = "questGroupId", default)]
     pub quest_group_id: i32,
-    #[serde(rename = "questId")]
+    #[serde(rename = "questId", default)]
     pub quest_id: i32,
-    #[serde(rename = "questNameQuestTextId")]
+    #[serde(rename = "questNameQuestTextId", default)]
     pub quest_name_quest_text_id: i32,
-    #[serde(rename = "questTypeId")]
+    #[serde(rename = "questTypeId", default)]
     pub quest_type_id: Option<i32>,
-    #[serde(rename = "storyType")]
+    #[serde(rename = "storyType", default)]
     pub story_type: i32,
-    #[serde(rename = "timelineName")]
+    #[serde(rename = "timelineName", default)]
     pub timeline_name: Option<String>,
 }
 

@@ -7,27 +7,27 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Sichuandefaulttable {
-    #[serde(rename = "alertTime")]
+    #[serde(rename = "alertTime", default)]
     pub alert_time: i32,
-    #[serde(rename = "challengeHintTime")]
+    #[serde(rename = "challengeHintTime", default)]
     pub challenge_hint_time: i32,
-    #[serde(rename = "comboBonusFaceillust")]
+    #[serde(rename = "comboBonusFaceillust", default)]
     pub combo_bonus_faceillust: String,
-    #[serde(rename = "comboTimer")]
+    #[serde(rename = "comboTimer", default)]
     pub combo_timer: i32,
-    #[serde(rename = "hintTime")]
+    #[serde(rename = "hintTime", default)]
     pub hint_time: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "loadingPrefabName")]
+    #[serde(rename = "loadingPrefabName", default)]
     pub loading_prefab_name: String,
-    #[serde(rename = "puzzleHeight")]
+    #[serde(rename = "puzzleHeight", default)]
     pub puzzle_height: i32,
-    #[serde(rename = "puzzleWidth")]
+    #[serde(rename = "puzzleWidth", default)]
     pub puzzle_width: i32,
-    #[serde(rename = "rankMaxCount")]
+    #[serde(rename = "rankMaxCount", default)]
     pub rank_max_count: i32,
-    #[serde(rename = "timerBonus")]
+    #[serde(rename = "timerBonus", default)]
     pub timer_bonus: i32,
 }
 

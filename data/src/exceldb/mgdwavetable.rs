@@ -7,19 +7,19 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Mgdwavetable {
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "spawnMonsterId")]
+    #[serde(rename = "spawnMonsterId", default)]
     pub spawn_monster_id: i32,
-    #[serde(rename = "spawnTime")]
+    #[serde(rename = "spawnTime", default)]
     pub spawn_time: i32,
-    #[serde(rename = "spawnValue")]
+    #[serde(rename = "spawnValue", default)]
     pub spawn_value: i32,
-    #[serde(rename = "waitingTime")]
+    #[serde(rename = "waitingTime", default)]
     pub waiting_time: f32,
-    #[serde(rename = "waveType")]
+    #[serde(rename = "waveType", default)]
     pub wave_type: Option<i32>,
 }
 

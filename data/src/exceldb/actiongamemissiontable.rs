@@ -7,25 +7,25 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Actiongamemissiontable {
-    #[serde(rename = "conditionSubType")]
+    #[serde(rename = "conditionSubType", default)]
     pub condition_sub_type: i32,
-    #[serde(rename = "conditionSubTypeParam")]
+    #[serde(rename = "conditionSubTypeParam", default)]
     pub condition_sub_type_param: Option<i32>,
-    #[serde(rename = "conditionType")]
+    #[serde(rename = "conditionType", default)]
     pub condition_type: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "missionDescNameTextId")]
+    #[serde(rename = "missionDescNameTextId", default)]
     pub mission_desc_name_text_id: i32,
-    #[serde(rename = "missionNameNameTextId")]
+    #[serde(rename = "missionNameNameTextId", default)]
     pub mission_name_name_text_id: i32,
-    #[serde(rename = "monsterType")]
+    #[serde(rename = "monsterType", default)]
     pub monster_type: i32,
-    #[serde(rename = "rewardCount")]
+    #[serde(rename = "rewardCount", default)]
     pub reward_count: Option<i32>,
-    #[serde(rename = "rewardId")]
+    #[serde(rename = "rewardId", default)]
     pub reward_id: Option<i32>,
-    #[serde(rename = "rewardType")]
+    #[serde(rename = "rewardType", default)]
     pub reward_type: Option<i32>,
 }
 

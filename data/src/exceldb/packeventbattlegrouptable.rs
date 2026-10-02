@@ -7,11 +7,11 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Packeventbattlegrouptable {
-    #[serde(rename = "battleNameTextId")]
+    #[serde(rename = "battleNameTextId", default)]
     pub battle_name_text_id: i32,
-    #[serde(rename = "eventNameLocalTextId")]
+    #[serde(rename = "eventNameLocalTextId", default)]
     pub event_name_local_text_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
 }
 

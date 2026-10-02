@@ -7,13 +7,13 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Eventlostcointable {
-    #[serde(rename = "eventPackId")]
+    #[serde(rename = "eventPackId", default)]
     pub event_pack_id: Vec<i32>,
-    #[serde(rename = "guideDescLocalTextId")]
+    #[serde(rename = "guideDescLocalTextId", default)]
     pub guide_desc_local_text_id: Vec<i32>,
-    #[serde(rename = "guideTitleLocalTextId")]
+    #[serde(rename = "guideTitleLocalTextId", default)]
     pub guide_title_local_text_id: Vec<i32>,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
 }
 

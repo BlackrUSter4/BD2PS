@@ -7,9 +7,9 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Limitedcostumetable {
-    #[serde(rename = "endDate")]
+    #[serde(rename = "endDate", default)]
     pub end_date: String,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
 }
 

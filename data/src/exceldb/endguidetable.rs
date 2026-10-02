@@ -7,21 +7,21 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Endguidetable {
-    #[serde(rename = "atlasName")]
+    #[serde(rename = "atlasName", default)]
     pub atlas_name: Option<String>,
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "guideDescLocalTextId")]
+    #[serde(rename = "guideDescLocalTextId", default)]
     pub guide_desc_local_text_id: i32,
-    #[serde(rename = "guideNameLocalTextId")]
+    #[serde(rename = "guideNameLocalTextId", default)]
     pub guide_name_local_text_id: i32,
-    #[serde(rename = "guideTextureName")]
+    #[serde(rename = "guideTextureName", default)]
     pub guide_texture_name: Option<String>,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "spinePrefabName")]
+    #[serde(rename = "spinePrefabName", default)]
     pub spine_prefab_name: String,
-    #[serde(rename = "spriteName")]
+    #[serde(rename = "spriteName", default)]
     pub sprite_name: Option<String>,
 }
 

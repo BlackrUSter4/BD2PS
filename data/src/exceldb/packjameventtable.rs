@@ -6,13 +6,13 @@ use anyhow::Result;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Packjameventtable {
-    #[serde(rename = "insertMax")]
+    #[serde(rename = "insertMax", default)]
     pub insert_max: i32,
-    #[serde(rename = "insertMin")]
+    #[serde(rename = "insertMin", default)]
     pub insert_min: i32,
-    #[serde(rename = "rewardCount")]
+    #[serde(rename = "rewardCount", default)]
     pub reward_count: i32,
-    #[serde(rename = "rewardType")]
+    #[serde(rename = "rewardType", default)]
     pub reward_type: i32,
 }
 

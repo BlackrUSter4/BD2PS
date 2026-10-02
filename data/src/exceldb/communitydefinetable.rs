@@ -6,15 +6,15 @@ use anyhow::Result;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Communitydefinetable {
-    #[serde(rename = "friendSendExpireDay")]
+    #[serde(rename = "friendSendExpireDay", default)]
     pub friend_send_expire_day: i32,
-    #[serde(rename = "maxFriendCount")]
+    #[serde(rename = "maxFriendCount", default)]
     pub max_friend_count: i32,
-    #[serde(rename = "maxFriendRecommendCount")]
+    #[serde(rename = "maxFriendRecommendCount", default)]
     pub max_friend_recommend_count: i32,
-    #[serde(rename = "maxFriendRecvCount")]
+    #[serde(rename = "maxFriendRecvCount", default)]
     pub max_friend_recv_count: i32,
-    #[serde(rename = "maxFriendSendCount")]
+    #[serde(rename = "maxFriendSendCount", default)]
     pub max_friend_send_count: i32,
 }
 

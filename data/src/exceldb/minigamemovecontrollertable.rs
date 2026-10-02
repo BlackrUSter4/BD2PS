@@ -7,17 +7,17 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Minigamemovecontrollertable {
-    #[serde(rename = "controllerResourceName")]
+    #[serde(rename = "controllerResourceName", default)]
     pub controller_resource_name: String,
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "moveMaxCount")]
+    #[serde(rename = "moveMaxCount", default)]
     pub move_max_count: i32,
-    #[serde(rename = "moveMinCount")]
+    #[serde(rename = "moveMinCount", default)]
     pub move_min_count: i32,
-    #[serde(rename = "type")]
+    #[serde(rename = "type", default)]
     pub r#type: i32,
 }
 

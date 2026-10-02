@@ -7,27 +7,27 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Actiongamemonsterpatterntable {
-    #[serde(rename = "attackRangeMin")]
+    #[serde(rename = "attackRangeMin", default)]
     pub attack_range_min: Option<f32>,
-    #[serde(rename = "conditionType1")]
+    #[serde(rename = "conditionType1", default)]
     pub condition_type1: Option<i32>,
-    #[serde(rename = "conditionType2")]
+    #[serde(rename = "conditionType2", default)]
     pub condition_type2: Option<i32>,
-    #[serde(rename = "conditionValue1")]
+    #[serde(rename = "conditionValue1", default)]
     pub condition_value1: Option<i32>,
-    #[serde(rename = "conditionValue2")]
+    #[serde(rename = "conditionValue2", default)]
     pub condition_value2: Option<i32>,
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "maxCount")]
+    #[serde(rename = "maxCount", default)]
     pub max_count: Option<i32>,
-    #[serde(rename = "priority")]
+    #[serde(rename = "priority", default)]
     pub priority: i32,
-    #[serde(rename = "probability")]
+    #[serde(rename = "probability", default)]
     pub probability: f32,
-    #[serde(rename = "skillId")]
+    #[serde(rename = "skillId", default)]
     pub skill_id: i32,
 }
 

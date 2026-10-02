@@ -7,43 +7,43 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Fieldminigameskilltable {
-    #[serde(rename = "attackCount")]
+    #[serde(rename = "attackCount", default)]
     pub attack_count: Option<i32>,
-    #[serde(rename = "attackRange")]
+    #[serde(rename = "attackRange", default)]
     pub attack_range: Option<f32>,
-    #[serde(rename = "attackSize")]
+    #[serde(rename = "attackSize", default)]
     pub attack_size: Option<f32>,
-    #[serde(rename = "cooldown")]
+    #[serde(rename = "cooldown", default)]
     pub cooldown: Option<f32>,
-    #[serde(rename = "duration")]
+    #[serde(rename = "duration", default)]
     pub duration: Option<f32>,
-    #[serde(rename = "effectPrefabName")]
+    #[serde(rename = "effectPrefabName", default)]
     pub effect_prefab_name: Option<String>,
-    #[serde(rename = "groupId")]
+    #[serde(rename = "groupId", default)]
     pub group_id: i32,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "knockbackType")]
+    #[serde(rename = "knockbackType", default)]
     pub knockback_type: Option<i32>,
-    #[serde(rename = "pierce")]
+    #[serde(rename = "pierce", default)]
     pub pierce: Option<i32>,
-    #[serde(rename = "projectileSpeed")]
+    #[serde(rename = "projectileSpeed", default)]
     pub projectile_speed: Option<f32>,
-    #[serde(rename = "projectileTerm")]
+    #[serde(rename = "projectileTerm", default)]
     pub projectile_term: Option<f32>,
-    #[serde(rename = "secondEffectPrefabName")]
+    #[serde(rename = "secondEffectPrefabName", default)]
     pub second_effect_prefab_name: Option<String>,
-    #[serde(rename = "skillDescLocalTextId")]
+    #[serde(rename = "skillDescLocalTextId", default)]
     pub skill_desc_local_text_id: i32,
-    #[serde(rename = "skillIconSpriteName")]
+    #[serde(rename = "skillIconSpriteName", default)]
     pub skill_icon_sprite_name: String,
-    #[serde(rename = "skillNameLocalTextId")]
+    #[serde(rename = "skillNameLocalTextId", default)]
     pub skill_name_local_text_id: i32,
-    #[serde(rename = "skillValue")]
+    #[serde(rename = "skillValue", default)]
     pub skill_value: f32,
-    #[serde(rename = "statType")]
+    #[serde(rename = "statType", default)]
     pub stat_type: Option<i32>,
-    #[serde(rename = "upgradeDescLocalTextId")]
+    #[serde(rename = "upgradeDescLocalTextId", default)]
     pub upgrade_desc_local_text_id: i32,
 }
 

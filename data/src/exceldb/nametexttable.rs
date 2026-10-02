@@ -7,19 +7,19 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Nametexttable {
-    #[serde(rename = "date")]
+    #[serde(rename = "date", default)]
     pub date: String,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "text")]
+    #[serde(rename = "text", default)]
     pub text: Option<String>,
-    #[serde(rename = "textCn")]
+    #[serde(rename = "textCn", default)]
     pub text_cn: Option<String>,
-    #[serde(rename = "textEn")]
+    #[serde(rename = "textEn", default)]
     pub text_en: Option<String>,
-    #[serde(rename = "textJp")]
+    #[serde(rename = "textJp", default)]
     pub text_jp: Option<String>,
-    #[serde(rename = "textTw")]
+    #[serde(rename = "textTw", default)]
     pub text_tw: Option<String>,
 }
 

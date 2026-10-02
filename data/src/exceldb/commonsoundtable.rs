@@ -7,23 +7,23 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Commonsoundtable {
-    #[serde(rename = "bgmPlayerHidden")]
+    #[serde(rename = "bgmPlayerHidden", default)]
     pub bgm_player_hidden: Option<i32>,
-    #[serde(rename = "contentTicketId")]
+    #[serde(rename = "contentTicketId", default)]
     pub content_ticket_id: Option<i32>,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "packId")]
+    #[serde(rename = "packId", default)]
     pub pack_id: Option<i32>,
-    #[serde(rename = "sortId")]
+    #[serde(rename = "sortId", default)]
     pub sort_id: Option<i32>,
-    #[serde(rename = "soundNameTextId")]
+    #[serde(rename = "soundNameTextId", default)]
     pub sound_name_text_id: Option<i32>,
-    #[serde(rename = "soundPath")]
+    #[serde(rename = "soundPath", default)]
     pub sound_path: String,
-    #[serde(rename = "soundSourceNameTextId")]
+    #[serde(rename = "soundSourceNameTextId", default)]
     pub sound_source_name_text_id: Option<i32>,
-    #[serde(rename = "bgmImage")]
+    #[serde(rename = "bgmImage", default)]
     pub bgm_image: Option<String>,
 }
 

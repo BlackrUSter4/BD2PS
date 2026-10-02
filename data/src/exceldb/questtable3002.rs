@@ -7,59 +7,59 @@ use std::collections::HashMap;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Questtable3002 {
-    #[serde(rename = "acceptCinemaName")]
+    #[serde(rename = "acceptCinemaName", default)]
     pub accept_cinema_name: Option<String>,
-    #[serde(rename = "acceptTutorialId")]
+    #[serde(rename = "acceptTutorialId", default)]
     pub accept_tutorial_id: Option<i32>,
-    #[serde(rename = "clearTime")]
+    #[serde(rename = "clearTime", default)]
     pub clear_time: Option<i32>,
-    #[serde(rename = "completeCinemaName")]
+    #[serde(rename = "completeCinemaName", default)]
     pub complete_cinema_name: String,
-    #[serde(rename = "completeNpcId")]
+    #[serde(rename = "completeNpcId", default)]
     pub complete_npc_id: Option<i32>,
-    #[serde(rename = "conditionCount")]
+    #[serde(rename = "conditionCount", default)]
     pub condition_count: i32,
-    #[serde(rename = "conditionType")]
+    #[serde(rename = "conditionType", default)]
     pub condition_type: Option<i32>,
-    #[serde(rename = "displayMapId")]
+    #[serde(rename = "displayMapId", default)]
     pub display_map_id: i32,
-    #[serde(rename = "displayRewardCount")]
+    #[serde(rename = "displayRewardCount", default)]
     pub display_reward_count: Vec<i32>,
-    #[serde(rename = "displayRewardId")]
+    #[serde(rename = "displayRewardId", default)]
     pub display_reward_id: Vec<i32>,
-    #[serde(rename = "displayRewardType")]
+    #[serde(rename = "displayRewardType", default)]
     pub display_reward_type: Vec<i32>,
-    #[serde(rename = "giveQuestItemId")]
+    #[serde(rename = "giveQuestItemId", default)]
     pub give_quest_item_id: Option<Vec<i32>>,
-    #[serde(rename = "id")]
+    #[serde(rename = "id", default)]
     pub id: i32,
-    #[serde(rename = "magicValue")]
+    #[serde(rename = "magicValue", default)]
     pub magic_value: Vec<i32>,
-    #[serde(rename = "mapId")]
+    #[serde(rename = "mapId", default)]
     pub map_id: i32,
-    #[serde(rename = "nextQuestId")]
+    #[serde(rename = "nextQuestId", default)]
     pub next_quest_id: Option<i32>,
-    #[serde(rename = "packId")]
+    #[serde(rename = "packId", default)]
     pub pack_id: i32,
-    #[serde(rename = "priorQuestId")]
+    #[serde(rename = "priorQuestId", default)]
     pub prior_quest_id: Option<i32>,
-    #[serde(rename = "prologSkipQuestTextId")]
+    #[serde(rename = "prologSkipQuestTextId", default)]
     pub prolog_skip_quest_text_id: i32,
-    #[serde(rename = "questConditionQuestTextId")]
+    #[serde(rename = "questConditionQuestTextId", default)]
     pub quest_condition_quest_text_id: i32,
-    #[serde(rename = "questDescQuestTextId")]
+    #[serde(rename = "questDescQuestTextId", default)]
     pub quest_desc_quest_text_id: i32,
-    #[serde(rename = "questNameQuestTextId")]
+    #[serde(rename = "questNameQuestTextId", default)]
     pub quest_name_quest_text_id: i32,
-    #[serde(rename = "questSkipQuestTextId")]
+    #[serde(rename = "questSkipQuestTextId", default)]
     pub quest_skip_quest_text_id: i32,
-    #[serde(rename = "rewardCount")]
+    #[serde(rename = "rewardCount", default)]
     pub reward_count: Vec<i32>,
-    #[serde(rename = "rewardId")]
+    #[serde(rename = "rewardId", default)]
     pub reward_id: Vec<i32>,
-    #[serde(rename = "rewardType")]
+    #[serde(rename = "rewardType", default)]
     pub reward_type: Vec<i32>,
-    #[serde(rename = "timelineStartMapId")]
+    #[serde(rename = "timelineStartMapId", default)]
     pub timeline_start_map_id: i32,
 }
 
