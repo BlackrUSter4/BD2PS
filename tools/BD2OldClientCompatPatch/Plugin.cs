@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
@@ -9,6 +10,7 @@ using Mono.Cecil;
 using Mono.Cecil.Cil;
 using Proto.Design.common;
 using Proto.Net;
+using UnityEngine;
 
 namespace BD2OldClientCompatPatch
 {
@@ -33,10 +35,413 @@ namespace BD2OldClientCompatPatch
 				harmony.Patch(ctor, prefix: new HarmonyMethod(typeof(DataNotFoundExceptionDiagnostic), nameof(DataNotFoundExceptionDiagnostic.Prefix)));
 			}
 
+			// Composite-key overload - confirmed live, 2026-10-02: CharLevelTable is
+			// looked up by (CharGrowthId, Level), a totally different method from the
+			// single-int GetValueObject<T> path already handled above, and that
+			// composite lookup was still failing even after the simple-key one got
+			// patched.
+			ConstructorInfo ctorComposite = AccessTools.Constructor(typeof(DataNotFoundException), new[] { typeof(string), typeof(int), typeof(int), typeof(string) });
+			if (ctorComposite != null)
+			{
+				CompositeKeyDataNotFoundDiagnostic.HarmonyInstance = harmony;
+				harmony.Patch(ctorComposite, prefix: new HarmonyMethod(typeof(CompositeKeyDataNotFoundDiagnostic), nameof(CompositeKeyDataNotFoundDiagnostic.Prefix)));
+				Log.LogInfo("[BD2OldClientCompatPatch] Composite-key self-heal armed.");
+			}
+
 			PatchGetValueObject(harmony);
 			PatchAllTableLookupsOnAccessorClass(harmony);
+			PatchGenericExceptionSelfHeal(harmony);
+			PatchStatCalcNullGuard(harmony);
+
+			StartCoroutine(DumpVisibleTextPeriodically());
 
 			Log.LogInfo("[BD2OldClientCompatPatch] Loaded.");
+		}
+
+		// Reads whatever the disconnect notification's FULL text actually says -
+		// screen captures of this window are cropped at the right edge and the
+		// box visibly extends past it, so this is more reliable than a screenshot.
+		// Reflection-based (no UnityEngine.UI/TMPro project reference needed): finds
+		// any loaded type named exactly "Text" or "TextMeshProUGUI"/"TMP_Text" across
+		// every loaded assembly, calls Object.FindObjectsOfType on each, and logs
+		// every active, non-empty string found along with its GameObject's name.
+		private static IEnumerator DumpVisibleTextPeriodically()
+		{
+			var textTypes = new List<Type>();
+			foreach (Assembly asm in AppDomain.CurrentDomain.GetAssemblies())
+			{
+				Type[] types;
+				try { types = asm.GetTypes(); }
+				catch { continue; }
+				foreach (Type t in types)
+				{
+					if ((t.Name == "Text" || t.Name == "TextMeshProUGUI" || t.Name == "TMP_Text")
+						&& typeof(UnityEngine.Object).IsAssignableFrom(t))
+					{
+						textTypes.Add(t);
+					}
+				}
+			}
+			Log.LogInfo($"[BD2OldClientCompatPatch] [textdump] found {textTypes.Count} text component type(s): {string.Join(", ", textTypes.Select(t => t.FullName))}");
+
+			int tick = 0;
+			while (true)
+			{
+				yield return new WaitForSecondsRealtime(5f);
+				tick++;
+				Log.LogInfo($"[BD2OldClientCompatPatch] [textdump] tick {tick}");
+				foreach (Type textType in textTypes)
+				{
+					UnityEngine.Object[] found;
+					try
+					{
+						found = Resources.FindObjectsOfTypeAll(textType);
+					}
+					catch (Exception e)
+					{
+						Log.LogWarning($"[BD2OldClientCompatPatch] [textdump] FindObjectsOfTypeAll({textType.Name}) failed: {e.Message}");
+						continue;
+					}
+					PropertyInfo textProp = textType.GetProperty("text");
+					foreach (UnityEngine.Object obj in found)
+					{
+						if (obj is not Component comp || !comp.gameObject.activeInHierarchy)
+						{
+							continue;
+						}
+						string text = textProp?.GetValue(comp) as string;
+						if (!string.IsNullOrWhiteSpace(text))
+						{
+							Log.LogInfo($"[BD2OldClientCompatPatch] [textdump] {comp.gameObject.name}: \"{text}\"");
+						}
+					}
+				}
+			}
+		}
+
+		// Generalized version of the same self-heal idea, for exceptions that
+		// AREN'T DataNotFoundException. Confirmed live, 2026-10-02: a genuine
+		// NullReferenceException deep in character-stat-refresh logic
+		// (route "AllCharRefresh") happens in a DIFFERENT top-level handler than
+		// the one already wrapped with a finalizer - manually chasing each new
+		// obfuscated method name one at a time (via ilspycmd across SEPARATE
+		// invocations) turned out fundamentally unreliable here: ilspycmd's
+		// placeholder-name assignment for obfuscated members is not even
+		// deterministic run-to-run, so a name read from one decompile and typed
+		// into a later, separate ilspycmd invocation can silently refer to nothing.
+		// Live runtime reflection (via a real exception's own StackTrace) does not
+		// have this problem - it reads the assembly's actual metadata every time.
+		// So: hook Unity's own stable, non-obfuscated Debug.LogException, and for
+		// any exception whose stack touches Assembly-CSharp code, wrap every such
+		// frame with the same exception-swallowing finalizer, reactively,
+		// forever, the first time each one is actually seen live. Doesn't save the
+		// CURRENT occurrence (already past the point of interception by the time
+		// LogException runs) but self-heals every later retry, same as the
+		// DataNotFoundException self-heal already does for that narrower case.
+		// Real root cause of the "Disconnected from the server" / AllCharRefresh
+		// disconnect loop, found live 2026-10-02 via the logMessageReceived
+		// diagnostic net: a genuine NullReferenceException inside
+		// ὣὭὤὮὤὢὧὭὮὡὭ.ὫὩὭὭὨὨὡὢὨὧὡ(enum, CharTable, CharLevelTable) - the per-character
+		// stat-calc routine called once per character while building the
+		// AllCharRefresh response. Both CharTable and CharLevelTable are pure
+		// value-type protobuf messages (decompiled and confirmed - no nested
+		// reference fields), so neither fallback object itself can be the null;
+		// something else inside this method (a different table/cache lookup for
+		// whichever specific character is being processed) is the real null.
+		// Rather than keep chasing that one field through more obfuscated,
+		// decompile-unstable IL, apply the same proven exception-swallowing
+		// finalizer pattern already used elsewhere in this plugin directly to
+		// this exact method - this obfuscated name has now shown up identically
+		// across many separate live runs today, so (unlike ilspycmd's
+		// non-deterministic placeholder names) it's safe to hardcode.
+		// Swallowing here just means that one character's stats don't populate
+		// for this response instead of tearing down the whole connection.
+		private static void PatchStatCalcNullGuard(Harmony harmony)
+		{
+			Type declaringType = typeof(CharDBInfo).Assembly.GetTypes().FirstOrDefault(t => t.Name == "ὣὭὤὮὤὢὧὭὮὡὭ");
+			if (declaringType == null)
+			{
+				Log.LogWarning("[BD2OldClientCompatPatch] StatCalcNullGuard: declaring type not found.");
+				return;
+			}
+			MethodInfo target = declaringType
+				.GetMethods(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static | BindingFlags.Instance)
+				.FirstOrDefault(m => m.Name == "ὫὩὭὭὨὨὡὢὨὧὡ"
+					&& m.GetParameters().Length == 3
+					&& m.GetParameters().Any(p => p.ParameterType == typeof(CharLevelTable))
+					&& m.GetParameters().Any(p => p.ParameterType == typeof(CharTable)));
+			if (target == null)
+			{
+				Log.LogWarning("[BD2OldClientCompatPatch] StatCalcNullGuard: target method not found.");
+				return;
+			}
+			try
+			{
+				harmony.Patch(target, finalizer: new HarmonyMethod(typeof(SwallowExceptionPatch), nameof(SwallowExceptionPatch.Finalizer)));
+				Log.LogInfo($"[BD2OldClientCompatPatch] StatCalcNullGuard: wrapped {declaringType.FullName}.{target.Name}(enum,CharTable,CharLevelTable).");
+			}
+			catch (Exception e)
+			{
+				Log.LogWarning($"[BD2OldClientCompatPatch] StatCalcNullGuard failed: {e.Message}");
+			}
+
+			// Confirmed live 2026-10-02: swallowing the inner stat-calc NRE above
+			// is NOT enough - its caller still unconditionally uses the (now
+			// missing) result and throws its OWN exception, which still
+			// propagates all the way up to the top-level "AllCharRefresh" packet
+			// handler and still disconnects. Wrap THAT top-level handler too, as
+			// the outer safety net - its exact name has shown up identically in
+			// every single run's stack trace today (parameterless, declared on
+			// "ὤὤὢὯὭὠὤὧὠὫὯ"), so hardcoding it is safe the same way the inner one
+			// was. This is the method the project's own notes already identified
+			// as "the real site" for the AllCharRefresh disconnect, previously
+			// left unwrapped because a different (wrong) top-level handler got
+			// wrapped instead.
+			// A SECOND, unrelated, and apparently FATAL gap - confirmed live,
+			// 2026-10-02, reproducible on every single launch after the
+			// AllCharRefresh fix above cleared the way to it: once the client
+			// gets past character refresh, IntroUI calls into
+			// PackagePopupUI.GetEntranceUIDataList() (a real, non-obfuscated
+			// class/method name - no fragile lookup needed) to build the
+			// shop/IAP entrance popup from CashPackageTable rows, and throws a
+			// NullReferenceException there that kills the whole process outright
+			// - not just a disconnect-and-retry this time. Because it's fatal on
+			// FIRST occurrence, the reactive self-heal (which only wraps a
+			// method AFTER seeing it throw once, via Debug.LogException) is too
+			// late to save it - this one needs a PROACTIVE wrap in place before
+			// it's ever called at all.
+			Type packagePopupType = AccessTools.TypeByName("PackagePopupUI");
+			MethodInfo entranceListMethod = packagePopupType != null
+				? AccessTools.Method(packagePopupType, "GetEntranceUIDataList")
+				: null;
+			if (entranceListMethod != null)
+			{
+				try
+				{
+					// This one returns List<T> - a bare swallow leaves __result at
+					// null (the method threw before reaching its own "return
+					// list;"), and the caller iterates the result unconditionally,
+					// which would just trade this crash for an immediate new one.
+					// Force an empty instance of the real return type instead.
+					SafeEmptyResultPatch.ResultTypes[entranceListMethod] = entranceListMethod.ReturnType;
+					harmony.Patch(entranceListMethod, finalizer: new HarmonyMethod(typeof(SafeEmptyResultPatch), nameof(SafeEmptyResultPatch.Finalizer)));
+					Log.LogInfo("[BD2OldClientCompatPatch] StatCalcNullGuard: proactively wrapped PackagePopupUI.GetEntranceUIDataList() with a safe-empty-result guard.");
+				}
+				catch (Exception e)
+				{
+					Log.LogWarning($"[BD2OldClientCompatPatch] Could not proactively wrap PackagePopupUI.GetEntranceUIDataList: {e.Message}");
+				}
+			}
+
+			// A THIRD gap in the same shop/package UI family, confirmed live
+			// 2026-10-02 right after the two above: this one is reached via an
+			// ASYNC Addressables load-completion callback
+			// (PackInfoUI prefab instantiation finishing), not synchronously from
+			// IntroUI's own call chain - so wrapping an earlier method in that
+			// chain would never have caught it. Confirmed this run: client
+			// actually reached the lobby (UID shown, settings/power icons
+			// visible on screen) for the first time all session, then crashed
+			// here shortly after. ArgumentNullException from
+			// Dictionary.ContainsKey(null) inside PackInfoUI+FrontPage, called
+			// from PackInfoUI.SetNewPackInfoState - both real, stable class
+			// names. Proactively guard the public entry point.
+			Type packInfoType = AccessTools.TypeByName("PackInfoUI");
+			MethodInfo setNewPackInfoState = packInfoType != null
+				? AccessTools.Method(packInfoType, "SetNewPackInfoState")
+				: null;
+			if (setNewPackInfoState != null)
+			{
+				try
+				{
+					harmony.Patch(setNewPackInfoState, finalizer: new HarmonyMethod(typeof(SwallowExceptionPatch), nameof(SwallowExceptionPatch.Finalizer)));
+					Log.LogInfo("[BD2OldClientCompatPatch] StatCalcNullGuard: proactively wrapped PackInfoUI.SetNewPackInfoState().");
+				}
+				catch (Exception e)
+				{
+					Log.LogWarning($"[BD2OldClientCompatPatch] Could not proactively wrap PackInfoUI.SetNewPackInfoState: {e.Message}");
+				}
+			}
+
+			// A FOURTH gap, confirmed live 2026-10-02 right after the three
+			// above cleared: client progressed past the lobby/shop popups into
+			// loading an actual field/map scene, and hit a missing
+			// FieldMonsterRegenDTO (field monster spawn data) entry, fatal again
+			// on first occurrence because it's reached via an async batch
+			// network response handler (BDNetwork.NetworkManager.Success -> a
+			// UniTask continuation), same shape as the earlier async
+			// PackInfoUI case. Proactively wrap the exact nested-class throw
+			// site from the live stack trace.
+			Type fieldMonsterOuterType = typeof(CharDBInfo).Assembly.GetTypes().FirstOrDefault(t => t.Name == "ὥὣὤὣὧὯὢὤὥὬὨ");
+			MethodInfo fieldMonsterMethod = fieldMonsterOuterType
+				?.GetMethods(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static | BindingFlags.Instance)
+				.FirstOrDefault(m => m.Name == "ὥὥὦὦὤὩὣὮὯὩὢ" && m.GetParameters().Length == 1 && m.GetParameters()[0].ParameterType == typeof(int));
+			if (fieldMonsterMethod != null)
+			{
+				try
+				{
+					if (fieldMonsterMethod.ReturnType != typeof(void) && !fieldMonsterMethod.ReturnType.IsValueType)
+					{
+						SafeEmptyResultPatch.ResultTypes[fieldMonsterMethod] = fieldMonsterMethod.ReturnType;
+						harmony.Patch(fieldMonsterMethod, finalizer: new HarmonyMethod(typeof(SafeEmptyResultPatch), nameof(SafeEmptyResultPatch.Finalizer)));
+					}
+					else
+					{
+						harmony.Patch(fieldMonsterMethod, finalizer: new HarmonyMethod(typeof(SwallowExceptionPatch), nameof(SwallowExceptionPatch.Finalizer)));
+					}
+					Log.LogInfo($"[BD2OldClientCompatPatch] StatCalcNullGuard: proactively wrapped {fieldMonsterOuterType.FullName}.{fieldMonsterMethod.Name}(int).");
+				}
+				catch (Exception e)
+				{
+					Log.LogWarning($"[BD2OldClientCompatPatch] Could not proactively wrap field monster method: {e.Message}");
+				}
+			}
+			else
+			{
+				Log.LogWarning("[BD2OldClientCompatPatch] Field monster throw-site method not found for proactive wrap.");
+			}
+
+			// A FIFTH gap, confirmed live 2026-10-02 right after the four above
+			// cleared: client progressed into actually loading a field/map
+			// scene and crashed inside the LOADING SCREEN's own coroutine
+			// (LoadingUI -> SoundManager.PlayFadeInBackgroundRunningSounds ->
+			// PlayBackgroundSoundDependingOnMapInfo), a NullReferenceException
+			// formatting a sound path from a MapTable field that's null for
+			// this map (another old-client data gap, same family as
+			// CharTable/CostumeTable). A coroutine exception reached directly
+			// (not via the UniTask/async machinery that catches the sibling
+			// deck-building exception seen in the same burst) is a much more
+			// likely candidate for what actually killed the process, so fix
+			// this one proactively first. SoundManager is a real, stable class
+			// name - no fragile lookup needed.
+			Type soundManagerType = AccessTools.TypeByName("SoundManager");
+			MethodInfo playBgSound = soundManagerType != null
+				? AccessTools.Method(soundManagerType, "PlayBackgroundSoundDependingOnMapInfo")
+				: null;
+			if (playBgSound != null)
+			{
+				try
+				{
+					harmony.Patch(playBgSound, finalizer: new HarmonyMethod(typeof(SwallowExceptionPatch), nameof(SwallowExceptionPatch.Finalizer)));
+					Log.LogInfo("[BD2OldClientCompatPatch] StatCalcNullGuard: proactively wrapped SoundManager.PlayBackgroundSoundDependingOnMapInfo().");
+				}
+				catch (Exception e)
+				{
+					Log.LogWarning($"[BD2OldClientCompatPatch] Could not proactively wrap SoundManager.PlayBackgroundSoundDependingOnMapInfo: {e.Message}");
+				}
+			}
+			else
+			{
+				Log.LogWarning("[BD2OldClientCompatPatch] SoundManager.PlayBackgroundSoundDependingOnMapInfo not found for proactive wrap.");
+			}
+
+			// A SIXTH gap, confirmed live 2026-10-02: a THIRD, previously
+			// unseen overload pair on the SAME CostumeTable accessor class
+			// already known from PatchAllTableLookupsOnAccessorClass (that one
+			// patched ὢὣὭὢὥὭὭὤὯὬὬ for CostumeTable and ὠὦὠὠὡὦὭὯὢὦὦ for
+			// CostumeNodeGroupTable) - this one, named ὧὫὬὦὩὥὠὣὩὨὦ, has an
+			// (int) and a (CharDBInfo) overload, reached via the async
+			// deck-building chain during field-related batch processing.
+			// Proactively wrap both overloads with a safe-empty-result guard
+			// (both presumably return CostumeTable, used unconditionally by
+			// callers).
+			Type costumeAccessorType = typeof(CharDBInfo).Assembly.GetTypes().FirstOrDefault(t => t.Name == "ὥὨὫὬὣὨὮὮὡὬὣ");
+			if (costumeAccessorType != null)
+			{
+				foreach (MethodInfo overload in costumeAccessorType
+					.GetMethods(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static | BindingFlags.Instance)
+					.Where(m => m.Name == "ὧὫὬὦὩὥὠὣὩὨὦ" && m.GetParameters().Length == 1))
+				{
+					try
+					{
+						if (overload.ReturnType != typeof(void) && !overload.ReturnType.IsValueType)
+						{
+							SafeEmptyResultPatch.ResultTypes[overload] = overload.ReturnType;
+							harmony.Patch(overload, finalizer: new HarmonyMethod(typeof(SafeEmptyResultPatch), nameof(SafeEmptyResultPatch.Finalizer)));
+						}
+						else
+						{
+							harmony.Patch(overload, finalizer: new HarmonyMethod(typeof(SwallowExceptionPatch), nameof(SwallowExceptionPatch.Finalizer)));
+						}
+						Log.LogInfo($"[BD2OldClientCompatPatch] StatCalcNullGuard: proactively wrapped {costumeAccessorType.Name}.ὧὫὬὦὩὥὠὣὩὨὦ({overload.GetParameters()[0].ParameterType.Name}).");
+					}
+					catch (Exception e)
+					{
+						Log.LogWarning($"[BD2OldClientCompatPatch] Could not proactively wrap costume accessor overload: {e.Message}");
+					}
+				}
+			}
+			else
+			{
+				Log.LogWarning("[BD2OldClientCompatPatch] Costume accessor type not found for third-overload proactive wrap.");
+			}
+
+			Type outerType = typeof(CharDBInfo).Assembly.GetTypes().FirstOrDefault(t => t.Name == "ὤὤὢὯὭὠὤὧὠὫὯ");
+			if (outerType == null)
+			{
+				Log.LogWarning("[BD2OldClientCompatPatch] StatCalcNullGuard: outer AllCharRefresh type not found.");
+				return;
+			}
+			MethodInfo outerTarget = outerType
+				.GetMethods(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static | BindingFlags.Instance)
+				.FirstOrDefault(m => m.Name == "ὨὥὩὫὭὩὫὩὭὯὠ" && m.GetParameters().Length == 0);
+			if (outerTarget == null)
+			{
+				Log.LogWarning("[BD2OldClientCompatPatch] StatCalcNullGuard: outer AllCharRefresh method not found.");
+				return;
+			}
+			try
+			{
+				harmony.Patch(outerTarget, finalizer: new HarmonyMethod(typeof(SwallowExceptionPatch), nameof(SwallowExceptionPatch.Finalizer)));
+				Log.LogInfo($"[BD2OldClientCompatPatch] StatCalcNullGuard: wrapped outer handler {outerType.FullName}.{outerTarget.Name}().");
+			}
+			catch (Exception e)
+			{
+				Log.LogWarning($"[BD2OldClientCompatPatch] StatCalcNullGuard outer wrap failed: {e.Message}");
+			}
+		}
+
+		private static void PatchGenericExceptionSelfHeal(Harmony harmony)
+		{
+			GenericExceptionSelfHeal.HarmonyInstance = harmony;
+			HarmonyMethod prefix = new HarmonyMethod(typeof(GenericExceptionSelfHeal), nameof(GenericExceptionSelfHeal.Prefix));
+			int armed = 0;
+
+			// Two separate overloads exist (Exception) and (Exception, Object) - the
+			// game's internal top-level catch handler might call either one. Missing
+			// the one actually used here meant this self-heal silently never fired at
+			// all despite looking armed (confirmed live, 2026-10-02: zero "wrapped"
+			// log lines ever appeared across several runs even though the client kept
+			// disconnecting/retrying the whole time - the 2-arg-only hook was the gap).
+			MethodInfo logException2 = AccessTools.Method(typeof(UnityEngine.Debug), "LogException", new[] { typeof(Exception), typeof(UnityEngine.Object) });
+			if (logException2 != null)
+			{
+				harmony.Patch(logException2, prefix: prefix);
+				armed++;
+			}
+			MethodInfo logException1 = AccessTools.Method(typeof(UnityEngine.Debug), "LogException", new[] { typeof(Exception) });
+			if (logException1 != null)
+			{
+				harmony.Patch(logException1, prefix: prefix);
+				armed++;
+			}
+
+			// Belt-and-suspenders: Application.logMessageReceived fires for EVERY
+			// Debug.Log* call made through ANY path, including internal engine
+			// exception reporting that might not even go through the public
+			// Debug.LogException API at all. This gives us the exception's message
+			// and a STRING stack trace (no live StackFrame objects), so it can't
+			// drive the Harmony-patch-by-MethodInfo self-heal directly - it's used
+			// purely as a diagnostic net to confirm whether an exception happened at
+			// all when the two hooks above stay silent.
+			UnityEngine.Application.logMessageReceived += (string condition, string stackTrace, UnityEngine.LogType type) =>
+			{
+				if (type == UnityEngine.LogType.Exception || type == UnityEngine.LogType.Error)
+				{
+					Log.LogInfo($"[BD2OldClientCompatPatch] [logMessageReceived] {type}: {condition}\n{stackTrace}");
+				}
+			};
+
+			Log.LogInfo($"[BD2OldClientCompatPatch] Generic exception self-heal armed on {armed} Debug.LogException overload(s) + logMessageReceived diagnostic.");
 		}
 
 		// The real fix, found 2026-10-02 after the per-accessor-class approach below
@@ -150,6 +555,7 @@ namespace BD2OldClientCompatPatch
 			using ModuleDefinition cecilModule = ModuleDefinition.ReadModule(typeof(CharDBInfo).Assembly.Location);
 
 			MethodDefinition processorCecil = null;
+			MethodInfo processorRuntime = null;
 			foreach (MethodInfo candidate in FindCharDbInfoProcessorCandidates())
 			{
 				MethodDefinition candidateCecil = ResolveCecil(candidate, cecilModule);
@@ -161,6 +567,7 @@ namespace BD2OldClientCompatPatch
 				if (probe != null)
 				{
 					processorCecil = candidateCecil;
+					processorRuntime = candidate;
 					Log.LogInfo($"[BD2OldClientCompatPatch] Processor: {candidate.DeclaringType.FullName}.{candidate.Name}");
 					break;
 				}
@@ -169,6 +576,28 @@ namespace BD2OldClientCompatPatch
 			{
 				Log.LogWarning("[BD2OldClientCompatPatch] Could not locate the real CharDBInfo processor.");
 				return;
+			}
+
+			// Real bug found live, 2026-10-02: even with CharTable/CostumeTable/
+			// CharLevelTable all correctly resolved (not null), this SAME processor
+			// still throws a genuine NullReferenceException deeper inside its own
+			// stat-calculation logic (route "/Game/AllCharRefresh", confirmed via
+			// Player.log's own CrashReporter capture - NOT a DataNotFoundException,
+			// a different bug entirely, something else in that call chain is null).
+			// Same proven fix already used throughout this project's OTHER compat
+			// patch (BD2CompatPatch, for the current client): wrap the whole
+			// processor with a Harmony FINALIZER that swallows any exception, so a
+			// bug deeper in this stat-calc logic degrades to "this one char's
+			// refresh silently did nothing" instead of stalling the entire
+			// AllCharRefresh flow (and the login sequence depending on it) forever.
+			try
+			{
+				harmony.Patch(processorRuntime, finalizer: new HarmonyMethod(typeof(SwallowExceptionPatch), nameof(SwallowExceptionPatch.Finalizer)));
+				Log.LogInfo($"[BD2OldClientCompatPatch] Wrapped processor {processorRuntime.DeclaringType.FullName}.{processorRuntime.Name} with an exception-swallowing finalizer.");
+			}
+			catch (Exception e)
+			{
+				Log.LogWarning($"[BD2OldClientCompatPatch] Could not attach finalizer to processor: {e.Message}");
 			}
 
 			foreach (Type targetType in TableFallbacks.AllTypes())
@@ -377,6 +806,193 @@ namespace BD2OldClientCompatPatch
 	// auto-retries its whole login/batch flow every few minutes (confirmed live,
 	// 2026-10-02 - that's what its "Disconnected from server, Restarting..." loop
 	// actually is) - so patching here lets the NEXT retry self-heal without a redeploy.
+	// Harmony finalizer: if __exception is non-null, log it (so it's still visible
+	// for diagnosis) and return null to swallow it instead of letting it propagate.
+	// Matches the exact technique BD2CompatPatch (this project's current-client
+	// compat patch) already uses successfully for this same class of bug.
+	// Companion to DataNotFoundExceptionDiagnostic, for the (string, int, int,
+	// string) constructor overload - composite-key lookups like CharLevelTable's
+	// (CharGrowthId, Level). No Cecil IL-walk needed here: a direct whole-assembly
+	// scan for "(int,int) -> a type named __0" is cheap enough and more reliable
+	// than re-deriving a stack-frame anchor for every new composite-key table.
+	internal static class CompositeKeyDataNotFoundDiagnostic
+	{
+		internal static Harmony HarmonyInstance;
+		private static readonly HashSet<MethodInfo> AlreadyPatched = new();
+
+		internal static void Prefix(string __0, int __1, int __2)
+		{
+			Plugin.Log.LogInfo($"[BD2OldClientCompatPatch] Composite DataNotFoundException({__0}, {__1}, {__2})");
+			if (HarmonyInstance == null)
+			{
+				return;
+			}
+			foreach (Type type in typeof(CharDBInfo).Assembly.GetTypes())
+			{
+				MethodInfo[] methods;
+				try
+				{
+					methods = type.GetMethods(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static | BindingFlags.DeclaredOnly);
+				}
+				catch
+				{
+					continue;
+				}
+				foreach (MethodInfo m in methods)
+				{
+					if (m.ReturnType.Name != __0)
+					{
+						continue;
+					}
+					ParameterInfo[] p = m.GetParameters();
+					if (p.Length != 2 || p[0].ParameterType != typeof(int) || p[1].ParameterType != typeof(int))
+					{
+						continue;
+					}
+					if (!AlreadyPatched.Add(m))
+					{
+						continue;
+					}
+					try
+					{
+						HarmonyInstance.Patch(m, postfix: new HarmonyMethod(typeof(CompositeKeyLookupPatch), nameof(CompositeKeyLookupPatch.Postfix)));
+						Plugin.Log.LogInfo($"[BD2OldClientCompatPatch] Composite-key self-heal: patched {m.DeclaringType.FullName}.{m.Name} ({__0}).");
+					}
+					catch (Exception e)
+					{
+						Plugin.Log.LogWarning($"[BD2OldClientCompatPatch] Composite-key patch failed for {m.Name}: {e.Message}");
+					}
+				}
+			}
+		}
+	}
+
+	// Default-constructs an empty instance whenever the composite-key lookup
+	// comes back null - same "legitimate empty row, not fabricated data"
+	// reasoning as the id-0 sentinel case, just for a 2-int key instead of 1.
+	internal static class CompositeKeyLookupPatch
+	{
+		internal static void Postfix(MethodBase __originalMethod, ref object __result)
+		{
+			if (__result != null || __originalMethod is not MethodInfo mi)
+			{
+				return;
+			}
+			try
+			{
+				__result = Activator.CreateInstance(mi.ReturnType);
+				Plugin.Log.LogInfo($"[BD2OldClientCompatPatch] {mi.ReturnType.Name}: composite-key miss, returned a default-constructed instance.");
+			}
+			catch (Exception e)
+			{
+				Plugin.Log.LogWarning($"[BD2OldClientCompatPatch] Could not default-construct {mi.ReturnType.Name}: {e.Message}");
+			}
+		}
+	}
+
+	internal static class GenericExceptionSelfHeal
+	{
+		internal static Harmony HarmonyInstance;
+		private static readonly HashSet<MethodBase> AlreadyWrapped = new();
+
+		internal static void Prefix(Exception exception)
+		{
+			if (exception == null || HarmonyInstance == null)
+			{
+				return;
+			}
+			System.Diagnostics.StackTrace trace;
+			try
+			{
+				trace = new System.Diagnostics.StackTrace(exception, true);
+			}
+			catch
+			{
+				return;
+			}
+			System.Diagnostics.StackFrame[] frames = trace.GetFrames();
+			if (frames == null)
+			{
+				return;
+			}
+			foreach (System.Diagnostics.StackFrame frame in frames)
+			{
+				if (frame.GetMethod() is not MethodInfo mi)
+				{
+					continue;
+				}
+				// Only wrap our own game's code (Assembly-CSharp), never BCL/Unity
+				// internals - those aren't safe or meaningful to finalizer-wrap, and
+				// most won't even be patchable.
+				if (mi.Module.Assembly != typeof(CharDBInfo).Assembly)
+				{
+					continue;
+				}
+				if (mi.IsGenericMethodDefinition || mi.ContainsGenericParameters)
+				{
+					continue; // same MonoMod limitation as the open GetValueObject<T> case
+				}
+				if (!AlreadyWrapped.Add(mi))
+				{
+					continue;
+				}
+				try
+				{
+					HarmonyInstance.Patch(mi, finalizer: new HarmonyMethod(typeof(SwallowExceptionPatch), nameof(SwallowExceptionPatch.Finalizer)));
+					Plugin.Log.LogInfo($"[BD2OldClientCompatPatch] Generic self-heal: wrapped {mi.DeclaringType?.FullName}.{mi.Name} after seeing it throw live.");
+				}
+				catch (Exception e)
+				{
+					Plugin.Log.LogWarning($"[BD2OldClientCompatPatch] Generic self-heal could not wrap {mi.Name}: {e.Message}");
+				}
+			}
+		}
+	}
+
+	internal static class SwallowExceptionPatch
+	{
+		internal static Exception Finalizer(Exception __exception)
+		{
+			if (__exception != null)
+			{
+				Plugin.Log.LogWarning($"[BD2OldClientCompatPatch] Swallowed exception in processor: {__exception}");
+			}
+			return null;
+		}
+	}
+
+	// Same exception-swallowing idea as SwallowExceptionPatch, but for a method
+	// whose return value callers use unconditionally (e.g. iterate without a
+	// null check) - a bare swallow would leave __result at null and just trade
+	// one crash for an immediate new one. Forces a real empty instance of the
+	// method's own declared return type instead (works for List<T> and any
+	// other type with a parameterless constructor).
+	internal static class SafeEmptyResultPatch
+	{
+		internal static readonly Dictionary<MethodBase, Type> ResultTypes = new();
+
+		internal static Exception Finalizer(MethodBase __originalMethod, Exception __exception, ref object __result)
+		{
+			if (__exception == null)
+			{
+				return null;
+			}
+			Plugin.Log.LogWarning($"[BD2OldClientCompatPatch] Swallowed exception (safe-empty-result): {__exception}");
+			if (ResultTypes.TryGetValue(__originalMethod, out Type returnType))
+			{
+				try
+				{
+					__result = Activator.CreateInstance(returnType);
+				}
+				catch
+				{
+					// Leave __result as-is if the return type has no parameterless ctor.
+				}
+			}
+			return null;
+		}
+	}
+
 	internal static class DataNotFoundExceptionDiagnostic
 	{
 		internal static Harmony HarmonyInstance;
