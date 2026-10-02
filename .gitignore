@@ -2,3 +2,20 @@
 Cargo.lock
 tools/BD2DataExtractor/bin
 tools/BD2DataExtractor/obj
+tools/BD2CompatPatch/bin
+tools/BD2CompatPatch/obj
+tools/RoutePatcher/bin
+tools/RoutePatcher/obj
+
+# Scratch decompile dumps from mining reference server builds - large,
+# regenerable from the source DLLs via ilspycmd, not meant to be versioned.
+tools/OldServerDecompiled/
+tools/OldServerDecompiled2/
+
+# Local MITM test certs/keys - regenerable, private key material shouldn't
+# be versioned even in a local-only repo.
+scripts/oldserver-cert/
+
+# Transient server/proxy run logs.
+*.out.log
+*.err.log
