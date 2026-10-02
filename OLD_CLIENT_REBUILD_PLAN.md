@@ -222,20 +222,28 @@ installed here too (cached package from an earlier session's scratchpad,
   long as this loop is visible, something in the flow is still throwing
   somewhere, even if the server side is fine.
 
-### State as of this entry - genuinely unresolved, do not claim otherwise
+### State as of this entry - FAILED to reach a working state, say so plainly
 
 `CharTable`, `CostumeNodeGroupTable`, `CostumeTable` (both paths), and
-`CharLevelTable`'s `id:0` case are all confirmed fixed and reloaded live.
-But the client was still showing the "Disconnected from server,
-Restarting..." loop as of this entry, with a background monitor armed to
-catch whatever table gap surfaces next (this flow clearly touches more
-tables than the 4 found so far - `CharLevelTable` was only found because
-`CharTable`/`CostumeTable` fixing let the flow get one step further, and
-the same will likely happen again). **Nothing here has been confirmed
-working end-to-end yet (no screenshot has shown anything past this same
-disconnect screen with all current fixes applied) - do not mark this
-resolved until a live screenshot shows the account actually past login,
-ideally with the 3 characters visible.**
+`CharLevelTable`'s `id:0` case are all confirmed fixed and reloaded live -
+the specific hard crashes that used to kill the client outright on login
+are genuinely gone. **But the account never once got past login during
+this whole session.** Every run sat on the "Disconnected from server,
+Restarting..." loop for the entire time it was left running, and the user
+closed the client themselves at the end of the session with it still in
+that state ("i clicked out tis broken"). The old server's own log
+confirms every `LoginUser`/`BatchService` request succeeded cleanly every
+time (no server-side error, ever) - so whatever is actually blocking
+progress at this point is entirely client-side and was never identified,
+because no single run lasted long enough (the client's own reconnect
+backoff grows each retry - observed gaps of 1:41, 2:16, 2:47 within one
+session) for a new gap to surface and get caught before the process was
+closed.
+
+**Do not read the fixes above as partial success glossing over this.**
+Four real crash-causing bugs got fixed. The actual goal - a playable
+account on the old client - was not reached. That is a failure of this
+session's goal, not a rough edge on an otherwise-working path.
 
 ### For whoever picks this back up
 
@@ -249,6 +257,15 @@ ideally with the 3 characters visible.**
    ported characters, add real fallback data to `TableFallbacks` in
    `tools/BD2OldClientCompatPatch/Plugin.cs`) or something else entirely
    (investigate before assuming).
+   **Leave it running longer than feels necessary before concluding
+   nothing new is happening** - this session's biggest process mistake
+   was checking too early and relaunching repeatedly instead of waiting:
+   the client's own reconnect backoff grows each retry (1:41, then 2:16,
+   then 2:47 observed within one run), and relaunching resets that timer
+   instead of letting a later, slower cycle actually happen. Use a
+   background watcher (`tail -f` the log, or equivalent) and genuinely
+   wait several minutes on ONE continuous run rather than killing and
+   restarting every time nothing new has appeared after 20-30 seconds.
 2. Once login completes cleanly with no more disconnect loop, confirm the
    3 characters actually render/work via a live screenshot or the user's
    own check - this has not happened yet.
