@@ -16,6 +16,13 @@ pub async fn handle(_pool: &SqlitePool, _uid: i64, req: MaintenanceInfoRequest) 
     let market_info = MaintenanceInfo {
         market_type: Some(4),
         version: Some("2.8.13".to_string()),
+        // CORRECTION (2026-09-30, same night): a prior "fix" here changed this to
+        // 20260923193640 after observing that value in GameData/ CDN request paths --
+        // wrong move. That value belongs to a DIFFERENT version scheme (ServerInfo's
+        // separate `game_data_version` field). THIS field's real, correct value was
+        // confirmed empirically: https://bd2-cdn.akamaized.net/ServerData/StandaloneWindows64/HD/<value>/catalog_alpha.hash
+        // returns 200 for 20260921135230 and 404 for 20260923193640. Do not change this
+        // again without testing that exact URL first.
         bundle_version: Some("20260921135230".to_string()),
         is_bundle_update: Some(false),
         maintenance_type: Some(0),

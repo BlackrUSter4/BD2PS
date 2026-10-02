@@ -9,6 +9,9 @@ pub async fn handle(req: MaintenanceInfoRequest) -> BaseResponse {
     let market_info = MaintenanceInfo {
         market_type: Some(4),
         version: Some("2.8.13".to_string()),
+        // Keep in sync with gameserver::logic::game::maintenance::maintenance_info --
+        // see its comment for why this exact value matters (verified against the real
+        // ServerData/.../catalog_alpha.hash CDN path, not just guessed from a URL).
         bundle_version: Some("20260921135230".to_string()),
         is_bundle_update: Some(false),
         maintenance_type: Some(0),
