@@ -6,6 +6,8 @@ tools/BD2CompatPatch/bin
 tools/BD2CompatPatch/obj
 tools/RoutePatcher/bin
 tools/RoutePatcher/obj
+tools/BD2OldClientCompatPatch/bin
+tools/BD2OldClientCompatPatch/obj
 
 # Scratch decompile dumps from mining reference server builds - large,
 # regenerable from the source DLLs via ilspycmd, not meant to be versioned.
