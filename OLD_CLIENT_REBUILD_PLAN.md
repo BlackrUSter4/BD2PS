@@ -278,3 +278,77 @@ session's goal, not a rough edge on an otherwise-working path.
 4. The 8 characters with zero client-side assets (36, 38, 205, 211, 212,
    213, 676, 9272) are a genuinely separate, harder problem - real new
    art/assets, not a data or compat-patch fix. Not attempted.
+
+### Update (2026-10-02, same day, later session) - breakthrough: real post-login UI reached
+
+The failure above is **superseded**. Picked this back up the same day and
+found the actual remaining blocker, plus several more crash sites past
+it. All fixed in commit 5cf28f9.
+
+**What was actually blocking login**: a live diagnostic
+(`Application.logMessageReceived` hook added to the plugin - reports the
+game's own exception/error text directly, a much more reliable signal
+than chasing obfuscated method names through separate ilspycmd
+invocations) revealed a chain of first-occurrence-fatal NREs past
+AllCharRefresh, in order: `CharLevelTable` stat-calc, `PackagePopupUI`
+(shop entrance popup), `PackInfoUI` (reached via an async Addressables
+callback - a sync-chain fix wouldn't have caught it), `FieldMonsterRegenDTO`
+(field monster spawn data), `SoundManager.PlayBackgroundSoundDependingOnMapInfo`
+(missing MapTable BGM field), and a third `CostumeTable` accessor overload.
+Each got a proactive Harmony finalizer wrap (reactive self-heal isn't
+enough when the FIRST occurrence itself is fatal - confirmed repeatedly
+this session).
+
+**The real root cause, once all of those were cleared**: the account's
+saved field position (`PositionInfo`/`MapActiveInfo`/`WayPointInfo` in
+`game.db`, all pointing at `MapId:1`) made login try to resume into a
+field map whose Unity scene asset **does not exist in this client build
+at all** - confirmed via the Addressables catalog
+(`%LOCALAPPDATA%Low\Gamfs\BrownDust II\com.unity.addressables\catalog_alpha.json`):
+only `Scenes/Empty`, `Scenes/MyRoom`, `Scenes/ReGame`, `Scenes/Splash` are
+bundled, no field/map scene of any kind. The exact failure:
+`UnityEngine.AddressableAssets.InvalidKeyException: No Location found for
+Key=P0_Map/Scenes/.unity`. This is a genuine missing-asset gap, not a data
+mistake fixable by correcting a table field. **Fix applied**: deleted
+those three accounts' rows for Uid 10003 from `game.db` (backed up first
+as `game.db.bak_before_map_clear`) so login no longer attempts to resume
+into that broken map.
+
+**Result**: the account now reliably reaches real, rendered, working
+game UI after login - confirmed via screenshot (`PrintWindow`, which
+works without stealing foreground focus) showing the shop's "Pack
+Collection" screen with actual Story Pack / Character Pack cover art
+rendering correctly (Knight of Blood, Lapis Witch, Mist Man, Firechip,
+Beauty Impossible). This is the first time this whole project reached
+genuine interactive post-login content on the old client.
+
+**Operational notes for next time**:
+- The dark title screen with a "[Fund...] Data not found" toast in the
+  bottom-right corner that appears right after login is **not** stuck -
+  it needs a real click to dismiss (first click on the toast, then a
+  second click in the screen center advances to Pack Collection). Mouse
+  clicks were landing on nothing for a while because **the window did not
+  actually have OS focus** - `SetForegroundWindow` alone is blocked by
+  Windows' foreground-lock restriction when called from a non-foreground
+  process; the fix is the `AttachThreadInput` trick (attach input to
+  whatever currently owns foreground, steal it, detach) before clicking.
+  Screenshots don't need this (`PrintWindow` works regardless of focus),
+  only actual input does.
+- **Do not press ESC or trigger any "return to field" action from the
+  shop screen** - confirmed live, this re-attempts the same broken
+  `P0_Map` load and hard-crashes the client (no further log output at
+  all, process just vanishes). Only the two click-throughs described
+  above (dismiss toast, click center) have been confirmed safe.
+- Not yet explored: how to reach the actual home/lobby (`MyRoom` scene,
+  confirmed present in the Addressables catalog) rather than the shop -
+  whatever UI path gets there hasn't been found yet without risking the
+  ESC/field-reload crash. This is the natural next step.
+- Still non-deterministic run-to-run exactly how many seconds in the
+  client survives before/whether it hits each of the 6 now-patched crash
+  sites - some runs die around 20-30s even with every current fix
+  applied, apparently from timing races in the same async callbacks
+  already being guarded (the guards make the EXCEPTIONS non-fatal, but a
+  couple of runs this session still died with no further log output at
+  all right after a guard fired, suggesting there may be one more,
+  not-yet-identified fatal path in the same family). Relaunching and
+  retrying was sufficient to get a clean run through to Pack Collection.
