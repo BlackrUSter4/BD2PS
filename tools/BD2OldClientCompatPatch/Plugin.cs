@@ -375,6 +375,91 @@ namespace BD2OldClientCompatPatch
 				Log.LogWarning("[BD2OldClientCompatPatch] Costume accessor type not found for third-overload proactive wrap.");
 			}
 
+			// A SEVENTH gap, confirmed live 2026-10-02: clearing the account's
+			// saved field position (PositionInfo/MapActiveInfo/WayPointInfo)
+			// stops login from trying to RESUME a field on its own, but the
+			// shop/pack-collection flow independently tries to enter a field
+			// afterward regardless - hitting the exact same missing-asset
+			// problem (no field/map scene bundled in this client at all, see
+			// the P0_Map InvalidKeyException notes elsewhere in this file).
+			// The reactive self-heal DID catch this (confirmed: "Generic
+			// self-heal: wrapped ...ὯὭὧὡὥὭὦὤὩὩὧ.ὯὯὭὭὥὡὭὠὯὪὨ after seeing it
+			// throw live" appears in the log), but only after the first,
+			// still-fatal occurrence already killed the run. Proactively wrap
+			// it from the start using the now-confirmed-stable name (resolved
+			// successfully via reflection multiple times this session) so the
+			// very first occurrence is also safe.
+			Type asyncOpHandlerType = typeof(CharDBInfo).Assembly.GetTypes().FirstOrDefault(t => t.Name == "ὯὭὧὡὥὭὦὤὩὩὧ");
+			MethodInfo asyncOpHandlerMethod = asyncOpHandlerType
+				?.GetMethods(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static | BindingFlags.Instance)
+				.FirstOrDefault(m => m.Name == "ὯὯὭὭὥὡὭὠὯὪὨ" && !m.IsGenericMethodDefinition && !m.ContainsGenericParameters);
+			if (asyncOpHandlerMethod != null)
+			{
+				try
+				{
+					harmony.Patch(asyncOpHandlerMethod, finalizer: new HarmonyMethod(typeof(SwallowExceptionPatch), nameof(SwallowExceptionPatch.Finalizer)));
+					Log.LogInfo($"[BD2OldClientCompatPatch] StatCalcNullGuard: proactively wrapped {asyncOpHandlerType.Name}.ὯὯὭὭὥὡὭὠὯὪὨ() (field-load async completion).");
+				}
+				catch (Exception e)
+				{
+					Log.LogWarning($"[BD2OldClientCompatPatch] Could not proactively wrap field-load async completion: {e.Message}");
+				}
+			}
+			else
+			{
+				Log.LogWarning("[BD2OldClientCompatPatch] Field-load async completion method not found for proactive wrap.");
+			}
+
+			// An EIGHTH gap, confirmed live 2026-10-02, cascading directly from
+			// the seventh above: even with the field-load completion handler
+			// itself guarded, GameCameraManager.Awake() (a real, stable class
+			// name - the camera setup that runs when the game tries to move
+			// into the now-failed field scene) still throws its own NRE
+			// downstream, because it assumes field data exists unconditionally.
+			// Proactively guard it directly.
+			Type gameCameraManagerType = AccessTools.TypeByName("GameCameraManager");
+			MethodInfo gameCameraAwake = gameCameraManagerType != null
+				? AccessTools.Method(gameCameraManagerType, "Awake")
+				: null;
+			if (gameCameraAwake != null)
+			{
+				try
+				{
+					harmony.Patch(gameCameraAwake, finalizer: new HarmonyMethod(typeof(SwallowExceptionPatch), nameof(SwallowExceptionPatch.Finalizer)));
+					Log.LogInfo("[BD2OldClientCompatPatch] StatCalcNullGuard: proactively wrapped GameCameraManager.Awake().");
+				}
+				catch (Exception e)
+				{
+					Log.LogWarning($"[BD2OldClientCompatPatch] Could not proactively wrap GameCameraManager.Awake: {e.Message}");
+				}
+			}
+			else
+			{
+				Log.LogWarning("[BD2OldClientCompatPatch] GameCameraManager.Awake not found for proactive wrap.");
+			}
+
+			// Same cascade, a second confirmed sibling call site: a nested
+			// class on the same ὠὤὩὣὧὬὦὮὩὡὨ (field manager) type, seen
+			// reactively self-healing this same run right after the above -
+			// wrap it proactively too now that its name is confirmed stable.
+			Type fieldManagerOuterType = typeof(CharDBInfo).Assembly.GetTypes().FirstOrDefault(t => t.Name == "ὠὤὩὣὧὬὦὮὩὡὨ");
+			Type fieldManagerNestedType = typeof(CharDBInfo).Assembly.GetTypes().FirstOrDefault(t => t.Name == "ὣὯὠὭὪὤὪὢὣὡὥ");
+			MethodInfo fieldManagerNestedMethod = fieldManagerNestedType
+				?.GetMethods(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static | BindingFlags.Instance)
+				.FirstOrDefault(m => m.Name == "ὣὪὥὨὢὡὤὭὦὤὧ" && !m.IsGenericMethodDefinition && !m.ContainsGenericParameters);
+			if (fieldManagerNestedMethod != null)
+			{
+				try
+				{
+					harmony.Patch(fieldManagerNestedMethod, finalizer: new HarmonyMethod(typeof(SwallowExceptionPatch), nameof(SwallowExceptionPatch.Finalizer)));
+					Log.LogInfo($"[BD2OldClientCompatPatch] StatCalcNullGuard: proactively wrapped {fieldManagerOuterType?.Name}+{fieldManagerNestedType.Name}.ὣὪὥὨὢὡὤὭὦὤὧ().");
+				}
+				catch (Exception e)
+				{
+					Log.LogWarning($"[BD2OldClientCompatPatch] Could not proactively wrap field manager nested method: {e.Message}");
+				}
+			}
+
 			Type outerType = typeof(CharDBInfo).Assembly.GetTypes().FirstOrDefault(t => t.Name == "ὤὤὢὯὭὠὤὧὠὫὯ");
 			if (outerType == null)
 			{
