@@ -1,8 +1,92 @@
 [
-  { "cameraShakeType": 1, "cameraZoomInType": 1, "id": 202, "skillIconSpriteName": "skillicon_7" },
-  { "cameraShakeType": 1, "cameraZoomInType": 1, "id": 64901, "skillIconSpriteName": "skillicon_83" },
-  { "cameraShakeType": 1, "cameraZoomInType": 1, "id": 60101, "skillIconSpriteName": "skillicon_37" },
-  { "cameraShakeType": 1, "cameraZoomInType": 1, "id": 101, "skillIconSpriteName": "skillicon_1" },
-  { "cameraShakeType": 1, "cameraZoomInType": 1, "id": 201, "skillIconSpriteName": "skillicon_6" },
-  { "cameraShakeType": 1, "cameraZoomInType": 1, "id": 101300, "skillIconSpriteName": "skillicon_28" }
+  {
+    "cameraShakeType": 1,
+    "cameraZoomInType": 1,
+    "id": 202,
+    "skillIconSpriteName": "skillicon_7"
+  },
+  {
+    "cameraShakeType": 1,
+    "cameraZoomInType": 1,
+    "id": 64901,
+    "skillIconSpriteName": "skillicon_83"
+  },
+  {
+    "cameraShakeType": 1,
+    "cameraZoomInType": 1,
+    "id": 60101,
+    "skillIconSpriteName": "skillicon_37"
+  },
+  {
+    "cameraShakeType": 1,
+    "cameraZoomInType": 1,
+    "id": 101,
+    "skillIconSpriteName": "skillicon_1"
+  },
+  {
+    "cameraShakeType": 1,
+    "cameraZoomInType": 1,
+    "id": 201,
+    "skillIconSpriteName": "skillicon_6"
+  },
+  {
+    "cameraShakeType": 1,
+    "cameraZoomInType": 1,
+    "id": 101300,
+    "skillIconSpriteName": "skillicon_28"
+  },
+  {
+    "cameraShakeType": 1,
+    "cameraZoomInType": 1,
+    "id": 64801,
+    "skillIconSpriteName": "skillicon_82"
+  },
+  {
+    "cameraShakeType": 1,
+    "cameraZoomInType": 1,
+    "id": 65001,
+    "skillIconSpriteName": "skillicon_84"
+  },
+  {
+    "cameraShakeType": 1,
+    "cameraZoomInType": 1,
+    "id": 800300,
+    "skillIconSpriteName": "skillicon_1011"
+  },
+  {
+    "cameraShakeType": 1,
+    "cameraZoomInType": 1,
+    "id": 800100,
+    "skillIconSpriteName": "skillicon_1003"
+  },
+  {
+    "cameraShakeType": 1,
+    "cameraZoomInType": 1,
+    "id": 950100,
+    "skillIconSpriteName": "skillicon_1001"
+  },
+  {
+    "cameraShakeType": 1,
+    "cameraZoomInType": 1,
+    "id": 103,
+    "skillIconSpriteName": "skillicon_5"
+  },
+  {
+    "cameraShakeType": 1,
+    "cameraZoomInType": 1,
+    "id": 800200,
+    "skillIconSpriteName": "skillicon_1017"
+  },
+  {
+    "cameraShakeType": 1,
+    "cameraZoomInType": 1,
+    "id": 800600,
+    "skillIconSpriteName": "skillicon_2011"
+  },
+  {
+    "cameraShakeType": 1,
+    "cameraZoomInType": 1,
+    "id": 801,
+    "skillIconSpriteName": "skillicon_21"
+  }
 ]

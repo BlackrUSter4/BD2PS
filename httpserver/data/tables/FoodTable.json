@@ -1,5 +1,1397 @@
 [
-  { "favoriteRecoveryPoint": 2, "foodType": 2, "grade": 1, "iconSpriteName": "icon_food1004_4", "id": 1004, "itemAcquireId": [ 75, 274, 275, 276, 282, 283, 4, 10, 250, 253, 254, 307, 320, 317, 325 ], "itemDescNameTextId": 31201, "itemNameTextId": 30201, "recoveryPoint": 2, "sortType": 6, "stackCount": 99999 },
-  { "favoriteRecoveryPoint": 2, "foodType": 2, "grade": 1, "iconSpriteName": "icon_food1013_13", "id": 1013, "itemAcquireId": [ 47, 2, 4, 11, 250, 251, 252, 253, 254 ], "itemDescNameTextId": 31401, "itemNameTextId": 30401, "recoveryPoint": 2, "sortType": 6, "stackCount": 99999 },
-  { "favoriteRecoveryPoint": 2, "foodType": 2, "grade": 1, "iconSpriteName": "icon_food1014_14", "id": 1014, "itemAcquireId": [ 47, 55, 2, 9, 10, 252 ], "itemDescNameTextId": 31402, "itemNameTextId": 30402, "recoveryPoint": 2, "sortType": 6, "stackCount": 99999 }
+  {
+    "favoriteRecoveryPoint": 2,
+    "foodType": 2,
+    "grade": 1,
+    "iconSpriteName": "icon_food1004_4",
+    "id": 1004,
+    "itemAcquireId": [
+      75,
+      274,
+      275,
+      276,
+      282,
+      283,
+      4,
+      10,
+      250,
+      253,
+      254,
+      307,
+      320,
+      317,
+      325
+    ],
+    "itemDescNameTextId": 31201,
+    "itemNameTextId": 30201,
+    "recoveryPoint": 2,
+    "sortType": 6,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 2,
+    "foodType": 2,
+    "grade": 1,
+    "iconSpriteName": "icon_food1013_13",
+    "id": 1013,
+    "itemAcquireId": [
+      47,
+      2,
+      4,
+      11,
+      250,
+      251,
+      252,
+      253,
+      254
+    ],
+    "itemDescNameTextId": 31401,
+    "itemNameTextId": 30401,
+    "recoveryPoint": 2,
+    "sortType": 6,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 2,
+    "foodType": 2,
+    "grade": 1,
+    "iconSpriteName": "icon_food1014_14",
+    "id": 1014,
+    "itemAcquireId": [
+      47,
+      55,
+      2,
+      9,
+      10,
+      252
+    ],
+    "itemDescNameTextId": 31402,
+    "itemNameTextId": 30402,
+    "recoveryPoint": 2,
+    "sortType": 6,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 2,
+    "foodType": 2,
+    "grade": 1,
+    "iconSpriteName": "icon_food1015_15",
+    "id": 1015,
+    "itemAcquireId": [
+      48,
+      56,
+      288,
+      273,
+      312,
+      320,
+      3,
+      4,
+      9,
+      10,
+      250,
+      14,
+      253,
+      254,
+      317
+    ],
+    "itemDescNameTextId": 31403,
+    "itemNameTextId": 30403,
+    "recoveryPoint": 2,
+    "sortType": 6,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 2,
+    "foodType": 2,
+    "grade": 1,
+    "iconSpriteName": "icon_food1027_27",
+    "id": 1027,
+    "itemAcquireId": [
+      3,
+      5,
+      249,
+      12,
+      13,
+      14,
+      255,
+      314,
+      317
+    ],
+    "itemDescNameTextId": 31505,
+    "itemNameTextId": 30505,
+    "recoveryPoint": 2,
+    "sortType": 6,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 35,
+    "grade": 1,
+    "iconSpriteName": "icon_food2002_2",
+    "id": 2002,
+    "itemAcquireId": [
+      114
+    ],
+    "itemDescNameTextId": 48101,
+    "itemNameTextId": 47101,
+    "recoveryPoint": 35,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 32,
+    "grade": 1,
+    "iconSpriteName": "icon_food2003_3",
+    "id": 2003,
+    "itemAcquireId": [
+      114
+    ],
+    "itemDescNameTextId": 48102,
+    "itemNameTextId": 47102,
+    "recoveryPoint": 32,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 34,
+    "grade": 1,
+    "iconSpriteName": "icon_food2028_28",
+    "id": 2028,
+    "itemAcquireId": [
+      114
+    ],
+    "itemDescNameTextId": 48301,
+    "itemNameTextId": 47301,
+    "recoveryPoint": 34,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 31,
+    "grade": 1,
+    "iconSpriteName": "icon_food2006_6",
+    "id": 2006,
+    "itemAcquireId": [
+      114
+    ],
+    "itemDescNameTextId": 48103,
+    "itemNameTextId": 47103,
+    "recoveryPoint": 31,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 33,
+    "grade": 1,
+    "iconSpriteName": "icon_food2009_9",
+    "id": 2009,
+    "itemAcquireId": [
+      114
+    ],
+    "itemDescNameTextId": 48104,
+    "itemNameTextId": 47104,
+    "recoveryPoint": 33,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 36,
+    "grade": 1,
+    "iconSpriteName": "icon_food2030_30",
+    "id": 2030,
+    "itemAcquireId": [
+      114
+    ],
+    "itemDescNameTextId": 48105,
+    "itemNameTextId": 47105,
+    "recoveryPoint": 36,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 59,
+    "grade": 2,
+    "iconSpriteName": "icon_food2004_4",
+    "id": 2004,
+    "itemAcquireId": [
+      115
+    ],
+    "itemDescNameTextId": 48201,
+    "itemNameTextId": 47201,
+    "recoveryPoint": 59,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 49,
+    "grade": 2,
+    "iconSpriteName": "icon_food2007_7",
+    "id": 2007,
+    "itemAcquireId": [
+      115
+    ],
+    "itemDescNameTextId": 48202,
+    "itemNameTextId": 47202,
+    "recoveryPoint": 49,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 57,
+    "grade": 2,
+    "iconSpriteName": "icon_food2010_10",
+    "id": 2010,
+    "itemAcquireId": [
+      115
+    ],
+    "itemDescNameTextId": 48203,
+    "itemNameTextId": 47203,
+    "recoveryPoint": 57,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 53,
+    "grade": 2,
+    "iconSpriteName": "icon_food2013_13",
+    "id": 2013,
+    "itemAcquireId": [
+      115
+    ],
+    "itemDescNameTextId": 48305,
+    "itemNameTextId": 47305,
+    "recoveryPoint": 53,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 52,
+    "grade": 2,
+    "iconSpriteName": "icon_food2015_15",
+    "id": 2015,
+    "itemAcquireId": [
+      115
+    ],
+    "itemDescNameTextId": 48205,
+    "itemNameTextId": 47205,
+    "recoveryPoint": 52,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 56,
+    "grade": 2,
+    "iconSpriteName": "icon_food2032_32",
+    "id": 2032,
+    "itemAcquireId": [
+      115
+    ],
+    "itemDescNameTextId": 48206,
+    "itemNameTextId": 47206,
+    "recoveryPoint": 56,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 166,
+    "grade": 3,
+    "iconSpriteName": "icon_food2022_22",
+    "id": 2022,
+    "itemAcquireId": [
+      116
+    ],
+    "itemDescNameTextId": 48309,
+    "itemNameTextId": 47309,
+    "recoveryPoint": 166,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 174,
+    "grade": 3,
+    "iconSpriteName": "icon_food2005_5",
+    "id": 2005,
+    "itemAcquireId": [
+      116
+    ],
+    "itemDescNameTextId": 48303,
+    "itemNameTextId": 47303,
+    "recoveryPoint": 174,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 202,
+    "grade": 3,
+    "iconSpriteName": "icon_food2008_8",
+    "id": 2008,
+    "itemAcquireId": [
+      116
+    ],
+    "itemDescNameTextId": 48304,
+    "itemNameTextId": 47304,
+    "recoveryPoint": 202,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 218,
+    "grade": 3,
+    "iconSpriteName": "icon_food2012_12",
+    "id": 2012,
+    "itemAcquireId": [
+      116
+    ],
+    "itemDescNameTextId": 48204,
+    "itemNameTextId": 47204,
+    "recoveryPoint": 218,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 174,
+    "grade": 3,
+    "iconSpriteName": "icon_food2017_17",
+    "id": 2017,
+    "itemAcquireId": [
+      116
+    ],
+    "itemDescNameTextId": 48306,
+    "itemNameTextId": 47306,
+    "recoveryPoint": 174,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 189,
+    "grade": 3,
+    "iconSpriteName": "icon_food2019_19",
+    "id": 2019,
+    "itemAcquireId": [
+      116
+    ],
+    "itemDescNameTextId": 48307,
+    "itemNameTextId": 47307,
+    "recoveryPoint": 189,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 200,
+    "grade": 3,
+    "iconSpriteName": "icon_food2021_21",
+    "id": 2021,
+    "itemAcquireId": [
+      116
+    ],
+    "itemDescNameTextId": 48308,
+    "itemNameTextId": 47308,
+    "recoveryPoint": 200,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 178,
+    "grade": 3,
+    "iconSpriteName": "icon_food2024_24",
+    "id": 2024,
+    "itemAcquireId": [
+      116
+    ],
+    "itemDescNameTextId": 48310,
+    "itemNameTextId": 47310,
+    "recoveryPoint": 178,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 197,
+    "grade": 3,
+    "iconSpriteName": "icon_food2026_26",
+    "id": 2026,
+    "itemAcquireId": [
+      116
+    ],
+    "itemDescNameTextId": 48311,
+    "itemNameTextId": 47311,
+    "recoveryPoint": 197,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 192,
+    "grade": 3,
+    "iconSpriteName": "icon_food2029_29",
+    "id": 2029,
+    "itemAcquireId": [
+      116
+    ],
+    "itemDescNameTextId": 48302,
+    "itemNameTextId": 47302,
+    "recoveryPoint": 192,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 199,
+    "grade": 3,
+    "iconSpriteName": "icon_food2031_31",
+    "id": 2031,
+    "itemAcquireId": [
+      116
+    ],
+    "itemDescNameTextId": 48312,
+    "itemNameTextId": 47312,
+    "recoveryPoint": 199,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 195,
+    "grade": 3,
+    "iconSpriteName": "icon_food2033_33",
+    "id": 2033,
+    "itemAcquireId": [
+      116
+    ],
+    "itemDescNameTextId": 48313,
+    "itemNameTextId": 47313,
+    "recoveryPoint": 195,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 182,
+    "grade": 3,
+    "iconSpriteName": "icon_food2034_34",
+    "id": 2034,
+    "itemAcquireId": [
+      116
+    ],
+    "itemDescNameTextId": 48314,
+    "itemNameTextId": 47314,
+    "recoveryPoint": 182,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 215,
+    "grade": 4,
+    "iconSpriteName": "icon_food2014_14",
+    "id": 2014,
+    "itemAcquireId": [
+      117
+    ],
+    "itemDescNameTextId": 48402,
+    "itemNameTextId": 47402,
+    "recoveryPoint": 215,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 219,
+    "grade": 4,
+    "iconSpriteName": "icon_food2011_11",
+    "id": 2011,
+    "itemAcquireId": [
+      117
+    ],
+    "itemDescNameTextId": 48401,
+    "itemNameTextId": 47401,
+    "recoveryPoint": 219,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 246,
+    "grade": 4,
+    "iconSpriteName": "icon_food2016_16",
+    "id": 2016,
+    "itemAcquireId": [
+      117
+    ],
+    "itemDescNameTextId": 48403,
+    "itemNameTextId": 47403,
+    "recoveryPoint": 246,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 205,
+    "grade": 4,
+    "iconSpriteName": "icon_food2018_18",
+    "id": 2018,
+    "itemAcquireId": [
+      117
+    ],
+    "itemDescNameTextId": 48404,
+    "itemNameTextId": 47404,
+    "recoveryPoint": 205,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 215,
+    "grade": 4,
+    "iconSpriteName": "icon_food2020_20",
+    "id": 2020,
+    "itemAcquireId": [
+      117
+    ],
+    "itemDescNameTextId": 48405,
+    "itemNameTextId": 47405,
+    "recoveryPoint": 215,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 232,
+    "grade": 4,
+    "iconSpriteName": "icon_food2023_23",
+    "id": 2023,
+    "itemAcquireId": [
+      117
+    ],
+    "itemDescNameTextId": 48406,
+    "itemNameTextId": 47406,
+    "recoveryPoint": 232,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 209,
+    "grade": 4,
+    "iconSpriteName": "icon_food2025_25",
+    "id": 2025,
+    "itemAcquireId": [
+      117
+    ],
+    "itemDescNameTextId": 48407,
+    "itemNameTextId": 47407,
+    "recoveryPoint": 209,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 212,
+    "grade": 4,
+    "iconSpriteName": "icon_food2027_27",
+    "id": 2027,
+    "itemAcquireId": [
+      117
+    ],
+    "itemDescNameTextId": 48408,
+    "itemNameTextId": 47408,
+    "recoveryPoint": 212,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 218,
+    "grade": 4,
+    "iconSpriteName": "icon_food2035_35",
+    "id": 2035,
+    "itemAcquireId": [
+      117
+    ],
+    "itemDescNameTextId": 48409,
+    "itemNameTextId": 47409,
+    "recoveryPoint": 218,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 429,
+    "grade": 5,
+    "iconSpriteName": "icon_food3001_1",
+    "id": 3001,
+    "itemAcquireId": [
+      118
+    ],
+    "itemDescNameTextId": 48502,
+    "itemNameTextId": 47502,
+    "recoveryPoint": 429,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 414,
+    "grade": 5,
+    "iconSpriteName": "icon_food3002_2",
+    "id": 3002,
+    "itemAcquireId": [
+      118
+    ],
+    "itemDescNameTextId": 48503,
+    "itemNameTextId": 47503,
+    "recoveryPoint": 414,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 434,
+    "grade": 5,
+    "iconSpriteName": "icon_food3003_3",
+    "id": 3003,
+    "itemAcquireId": [
+      118
+    ],
+    "itemDescNameTextId": 48504,
+    "itemNameTextId": 47504,
+    "recoveryPoint": 434,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 464,
+    "grade": 5,
+    "iconSpriteName": "icon_food3004_4",
+    "id": 3004,
+    "itemAcquireId": [
+      118
+    ],
+    "itemDescNameTextId": 48505,
+    "itemNameTextId": 47505,
+    "recoveryPoint": 464,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 430,
+    "grade": 5,
+    "iconSpriteName": "icon_food3005_5",
+    "id": 3005,
+    "itemAcquireId": [
+      118
+    ],
+    "itemDescNameTextId": 48506,
+    "itemNameTextId": 47506,
+    "recoveryPoint": 430,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 407,
+    "grade": 5,
+    "iconSpriteName": "icon_food3006_6",
+    "id": 3006,
+    "itemAcquireId": [
+      118
+    ],
+    "itemDescNameTextId": 48507,
+    "itemNameTextId": 47507,
+    "recoveryPoint": 407,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 429,
+    "grade": 5,
+    "iconSpriteName": "icon_food3007_7",
+    "id": 3007,
+    "itemAcquireId": [
+      118
+    ],
+    "itemDescNameTextId": 48508,
+    "itemNameTextId": 47508,
+    "recoveryPoint": 429,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 473,
+    "grade": 5,
+    "iconSpriteName": "icon_food3008_8",
+    "id": 3008,
+    "itemAcquireId": [
+      118
+    ],
+    "itemDescNameTextId": 48509,
+    "itemNameTextId": 47509,
+    "recoveryPoint": 473,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 439,
+    "grade": 5,
+    "iconSpriteName": "icon_food3009_9",
+    "id": 3009,
+    "itemAcquireId": [
+      118
+    ],
+    "itemDescNameTextId": 48510,
+    "itemNameTextId": 47510,
+    "recoveryPoint": 439,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 437,
+    "grade": 5,
+    "iconSpriteName": "icon_food3010_10",
+    "id": 3010,
+    "itemAcquireId": [
+      118
+    ],
+    "itemDescNameTextId": 48511,
+    "itemNameTextId": 47511,
+    "recoveryPoint": 437,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 469,
+    "grade": 5,
+    "iconSpriteName": "icon_food3011_11",
+    "id": 3011,
+    "itemAcquireId": [
+      118
+    ],
+    "itemDescNameTextId": 48501,
+    "itemNameTextId": 47501,
+    "recoveryPoint": 469,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 440,
+    "grade": 5,
+    "iconSpriteName": "icon_food3012_12",
+    "id": 3012,
+    "itemAcquireId": [
+      118
+    ],
+    "itemDescNameTextId": 48512,
+    "itemNameTextId": 47512,
+    "recoveryPoint": 440,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 410,
+    "grade": 5,
+    "iconSpriteName": "icon_food3013_13",
+    "id": 3013,
+    "itemAcquireId": [
+      118
+    ],
+    "itemDescNameTextId": 48513,
+    "itemNameTextId": 47513,
+    "recoveryPoint": 410,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 429,
+    "grade": 5,
+    "iconSpriteName": "icon_food3014_14",
+    "id": 3014,
+    "itemAcquireId": [
+      118
+    ],
+    "itemDescNameTextId": 48514,
+    "itemNameTextId": 47514,
+    "recoveryPoint": 429,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 500,
+    "grade": 5,
+    "iconSpriteName": "icon_food2038_122",
+    "id": 3015,
+    "itemAcquireId": [
+      118
+    ],
+    "itemDescNameTextId": 48520,
+    "itemNameTextId": 47515,
+    "recoveryPoint": 500,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 500,
+    "grade": 5,
+    "iconSpriteName": "icon_food2039_123",
+    "id": 3016,
+    "itemAcquireId": [
+      118
+    ],
+    "itemDescNameTextId": 48521,
+    "itemNameTextId": 47516,
+    "recoveryPoint": 500,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 500,
+    "grade": 5,
+    "iconSpriteName": "icon_food2040_124",
+    "id": 3017,
+    "itemAcquireId": [
+      118
+    ],
+    "itemDescNameTextId": 48522,
+    "itemNameTextId": 47517,
+    "recoveryPoint": 500,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 500,
+    "grade": 5,
+    "iconSpriteName": "icon_food2041_125",
+    "id": 3018,
+    "itemAcquireId": [
+      118
+    ],
+    "itemDescNameTextId": 48523,
+    "itemNameTextId": 47518,
+    "recoveryPoint": 500,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 500,
+    "grade": 5,
+    "iconSpriteName": "icon_food2042_126",
+    "id": 3019,
+    "itemAcquireId": [
+      118
+    ],
+    "itemDescNameTextId": 48524,
+    "itemNameTextId": 47519,
+    "recoveryPoint": 500,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 500,
+    "grade": 5,
+    "iconSpriteName": "icon_food2043_127",
+    "id": 3020,
+    "itemAcquireId": [
+      118
+    ],
+    "itemDescNameTextId": 48525,
+    "itemNameTextId": 47520,
+    "recoveryPoint": 500,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 500,
+    "grade": 5,
+    "iconSpriteName": "icon_food2044_128",
+    "id": 3021,
+    "itemAcquireId": [
+      118
+    ],
+    "itemDescNameTextId": 48526,
+    "itemNameTextId": 47521,
+    "recoveryPoint": 500,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 500,
+    "grade": 5,
+    "iconSpriteName": "icon_food2045_129",
+    "id": 3022,
+    "itemAcquireId": [
+      118
+    ],
+    "itemDescNameTextId": 48527,
+    "itemNameTextId": 47522,
+    "recoveryPoint": 500,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 500,
+    "grade": 5,
+    "iconSpriteName": "icon_food2046_130",
+    "id": 3023,
+    "itemAcquireId": [
+      118
+    ],
+    "itemDescNameTextId": 48528,
+    "itemNameTextId": 47523,
+    "recoveryPoint": 500,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 500,
+    "grade": 5,
+    "iconSpriteName": "icon_food2047_131",
+    "id": 3024,
+    "itemAcquireId": [
+      118
+    ],
+    "itemDescNameTextId": 48529,
+    "itemNameTextId": 47524,
+    "recoveryPoint": 500,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 500,
+    "grade": 5,
+    "iconSpriteName": "icon_food2048_132",
+    "id": 3025,
+    "itemAcquireId": [
+      118
+    ],
+    "itemDescNameTextId": 48530,
+    "itemNameTextId": 47525,
+    "recoveryPoint": 500,
+    "sortType": 5,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 2,
+    "foodType": 2,
+    "grade": 1,
+    "iconSpriteName": "icon_food1005_5",
+    "id": 1005,
+    "itemAcquireId": [
+      50,
+      286,
+      4,
+      5,
+      6,
+      7,
+      11,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      322
+    ],
+    "itemDescNameTextId": 31202,
+    "itemNameTextId": 30202,
+    "recoveryPoint": 2,
+    "sortType": 6,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 2,
+    "foodType": 2,
+    "grade": 1,
+    "iconSpriteName": "icon_food1006_6",
+    "id": 1006,
+    "itemAcquireId": [
+      54,
+      9,
+      320,
+      317
+    ],
+    "itemDescNameTextId": 31203,
+    "itemNameTextId": 30203,
+    "recoveryPoint": 2,
+    "sortType": 6,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 2,
+    "foodType": 2,
+    "grade": 1,
+    "iconSpriteName": "icon_food1007_7",
+    "id": 1007,
+    "itemAcquireId": [
+      54,
+      5,
+      9,
+      249,
+      307,
+      310
+    ],
+    "itemDescNameTextId": 31204,
+    "itemNameTextId": 30204,
+    "recoveryPoint": 2,
+    "sortType": 6,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 2,
+    "foodType": 2,
+    "grade": 1,
+    "iconSpriteName": "icon_food1008_8",
+    "id": 1008,
+    "itemAcquireId": [
+      48,
+      56,
+      288,
+      3,
+      317
+    ],
+    "itemDescNameTextId": 31205,
+    "itemNameTextId": 30205,
+    "recoveryPoint": 2,
+    "sortType": 6,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 2,
+    "foodType": 2,
+    "grade": 1,
+    "iconSpriteName": "icon_food1009_9",
+    "id": 1009,
+    "itemAcquireId": [
+      48,
+      56,
+      288,
+      3,
+      307
+    ],
+    "itemDescNameTextId": 31206,
+    "itemNameTextId": 30206,
+    "recoveryPoint": 2,
+    "sortType": 6,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 2,
+    "foodType": 2,
+    "grade": 1,
+    "iconSpriteName": "icon_food1010_10",
+    "id": 1010,
+    "itemAcquireId": [
+      75,
+      274,
+      275,
+      276,
+      113,
+      282,
+      283,
+      2,
+      5,
+      7,
+      8,
+      248,
+      249,
+      15,
+      307,
+      320,
+      317,
+      325
+    ],
+    "itemDescNameTextId": 31207,
+    "itemNameTextId": 30207,
+    "recoveryPoint": 2,
+    "sortType": 6,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 2,
+    "foodType": 2,
+    "grade": 1,
+    "iconSpriteName": "icon_food1011_11",
+    "id": 1011,
+    "itemAcquireId": [
+      49,
+      285,
+      287,
+      275,
+      276,
+      4,
+      6,
+      250,
+      252,
+      253,
+      254,
+      317
+    ],
+    "itemDescNameTextId": 31301,
+    "itemNameTextId": 30301,
+    "recoveryPoint": 2,
+    "sortType": 6,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 2,
+    "foodType": 2,
+    "grade": 1,
+    "iconSpriteName": "icon_food1012_12",
+    "id": 1012,
+    "itemAcquireId": [
+      49,
+      285,
+      287,
+      275,
+      276,
+      282,
+      4,
+      6,
+      11,
+      250,
+      251,
+      253,
+      254,
+      325,
+      322
+    ],
+    "itemDescNameTextId": 31302,
+    "itemNameTextId": 30302,
+    "recoveryPoint": 2,
+    "sortType": 6,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 2,
+    "foodType": 2,
+    "grade": 1,
+    "iconSpriteName": "icon_food1016_16",
+    "id": 1016,
+    "itemAcquireId": [
+      52,
+      5,
+      7,
+      9,
+      248,
+      249,
+      252
+    ],
+    "itemDescNameTextId": 31404,
+    "itemNameTextId": 30404,
+    "recoveryPoint": 2,
+    "sortType": 6,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 2,
+    "foodType": 2,
+    "grade": 1,
+    "iconSpriteName": "icon_food1017_17",
+    "id": 1017,
+    "itemAcquireId": [
+      52,
+      289,
+      274,
+      2,
+      5,
+      7,
+      9,
+      248,
+      249,
+      252,
+      15
+    ],
+    "itemDescNameTextId": 31405,
+    "itemNameTextId": 30405,
+    "recoveryPoint": 2,
+    "sortType": 6,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 2,
+    "foodType": 2,
+    "grade": 1,
+    "iconSpriteName": "icon_food1018_18",
+    "id": 1018,
+    "itemAcquireId": [
+      53,
+      8,
+      9
+    ],
+    "itemDescNameTextId": 31406,
+    "itemNameTextId": 30406,
+    "recoveryPoint": 2,
+    "sortType": 6,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 2,
+    "foodType": 2,
+    "grade": 1,
+    "iconSpriteName": "icon_food1020_20",
+    "id": 1020,
+    "itemAcquireId": [
+      53,
+      4,
+      5,
+      8,
+      249,
+      250,
+      252,
+      253,
+      254
+    ],
+    "itemDescNameTextId": 31408,
+    "itemNameTextId": 30408,
+    "recoveryPoint": 2,
+    "sortType": 6,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 2,
+    "foodType": 2,
+    "grade": 1,
+    "iconSpriteName": "icon_food1022_22",
+    "id": 1022,
+    "itemAcquireId": [
+      5,
+      249,
+      301,
+      322
+    ],
+    "itemDescNameTextId": 31410,
+    "itemNameTextId": 30410,
+    "recoveryPoint": 2,
+    "sortType": 6,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 2,
+    "foodType": 2,
+    "grade": 1,
+    "iconSpriteName": "icon_food1036_36",
+    "id": 1036,
+    "itemAcquireId": [
+      51,
+      6
+    ],
+    "itemDescNameTextId": 31702,
+    "itemNameTextId": 30702,
+    "recoveryPoint": 2,
+    "sortType": 6,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 2,
+    "foodType": 2,
+    "grade": 1,
+    "iconSpriteName": "icon_food1038_38",
+    "id": 1038,
+    "itemAcquireId": [
+      51,
+      6,
+      7,
+      248,
+      301,
+      322
+    ],
+    "itemDescNameTextId": 31704,
+    "itemNameTextId": 30704,
+    "recoveryPoint": 2,
+    "sortType": 6,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 2,
+    "foodType": 2,
+    "grade": 1,
+    "iconSpriteName": "icon_food1001_1",
+    "id": 1001,
+    "itemAcquireId": [
+      44,
+      85
+    ],
+    "itemDescNameTextId": 31003,
+    "itemNameTextId": 30003,
+    "recoveryPoint": 2,
+    "sortType": 6,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 2,
+    "foodType": 2,
+    "grade": 1,
+    "iconSpriteName": "icon_food1002_2",
+    "id": 1002,
+    "itemAcquireId": [
+      5,
+      8,
+      9,
+      249,
+      301,
+      304
+    ],
+    "itemDescNameTextId": 31101,
+    "itemNameTextId": 30101,
+    "recoveryPoint": 2,
+    "sortType": 6,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 2,
+    "foodType": 2,
+    "grade": 1,
+    "iconSpriteName": "icon_food1032_32",
+    "id": 1032,
+    "itemAcquireId": [
+      4,
+      5,
+      7,
+      9,
+      248,
+      249,
+      250,
+      253,
+      254
+    ],
+    "itemDescNameTextId": 31601,
+    "itemNameTextId": 30601,
+    "recoveryPoint": 2,
+    "sortType": 6,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 2,
+    "foodType": 2,
+    "grade": 1,
+    "iconSpriteName": "icon_food1034_34",
+    "id": 1034,
+    "itemAcquireId": [
+      4,
+      11,
+      250,
+      251,
+      253,
+      254
+    ],
+    "itemDescNameTextId": 31603,
+    "itemNameTextId": 30603,
+    "recoveryPoint": 2,
+    "sortType": 6,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 2,
+    "foodType": 2,
+    "grade": 1,
+    "iconSpriteName": "icon_food1045_45",
+    "id": 1045,
+    "itemAcquireId": [
+      112,
+      284
+    ],
+    "itemDescNameTextId": 31803,
+    "itemNameTextId": 30803,
+    "recoveryPoint": 2,
+    "sortType": 6,
+    "stackCount": 99999
+  },
+  {
+    "favoriteRecoveryPoint": 2,
+    "foodType": 2,
+    "grade": 1,
+    "iconSpriteName": "icon_food1048_48",
+    "id": 1048,
+    "itemAcquireId": [
+      58,
+      8,
+      13,
+      329,
+      330
+    ],
+    "itemDescNameTextId": 31806,
+    "itemNameTextId": 30806,
+    "recoveryPoint": 2,
+    "sortType": 6,
+    "stackCount": 99999
+  }
 ]

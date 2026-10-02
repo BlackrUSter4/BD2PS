@@ -1,100 +1,1055 @@
 [
-  { "date": "2024-02-14", "id": 1000202, "text": "악을 물리치는 것이, 저의 사명.\\n그것만을 위해 이곳에 있습니다.", "textCn": "击退邪恶就是我的使命。我在这里就是为了完成使命。", "textEn": "My mission is to destroy evil.\\nThat is the only reason why I have come here.", "textJp": "悪を退けるのが、我が使命。\\nその為だけにここにいるのです。", "textTw": "擊倒邪惡，就是我的使命。為了完成使命，我來到這裡。" },
-  { "date": "2024-02-14", "id": 3000202, "text": "153cm", "textCn": "153cm", "textEn": "153cm", "textJp": "153cm", "textTw": "153cm" },
-  { "date": "2024-02-14", "id": 4000202, "text": "2월 11일", "textCn": "2月11日", "textEn": "February 11th", "textJp": "2月11日", "textTw": "2月11日" },
-  { "date": "2024-02-14", "id": 5000202, "text": "정체불명의 여행자", "textCn": "来历不明的旅行者", "textEn": "The Unidentified Traveler", "textJp": "正体不明の旅人", "textTw": "不明的旅行者" },
-  { "date": "2024-02-14", "id": 6000202, "text": "기사 서약 낭송", "textCn": "朗诵骑士誓约", "textEn": "Reciting the Knight's Oath", "textJp": "騎士の誓約暗唱", "textTw": "朗誦騎士誓約" },
-  { "date": "2024-02-14", "id": 7000202, "text": "강자와의 대련", "textCn": "与强者的对练", "textEn": "Sparring with the strong", "textJp": "強者との対決", "textTw": "與強者的對練" },
-  { "date": "2024-02-14", "id": 8000202, "text": "식재료를 소홀히 하는 사람", "textCn": "不珍惜食材的人", "textEn": "People careless with food ingredients", "textJp": "食材を粗末にする人", "textTw": "不懂得珍惜食材的人" },
-  { "date": "2024-02-14", "id": 9000202, "text": "공작 부인에게 하사받은 검", "textCn": "公爵夫人赏赐的剑", "textEn": "A sword bestowed by the Duchess", "textJp": "公爵夫人から授かりし剣", "textTw": "公爵夫人賜予的劍" },
-  { "date": "2024-02-14", "id": 10000202, "text": "으음, 접근을 허락하지 않는 느낌이랄까? 후드를 푹 눌러쓰고 다니는 걸 보면, 뭔가 보여주고 싶지 않은 게 있는 것 같았어.", "textCn": "嗯…有种拒绝别人靠近她的感觉？整天把帽衫压得低低的，应该是有什么不想让人看到的东西吧。", "textEn": "Umm, it's like no one's \\nallowed to approach her or \\nsomething. Seeing her hood \\ncompletely covering her head,\\nit seems as if there's \\nsomething she wants to hide.", "textJp": "うーん、人を近寄らせないって感じ？フードをかぶっている姿を見ると、何か他人に見せたくないものがあるみたいだったよ。", "textTw": "嗯…有種拒絕別人靠近她的感覺？她整天帽T壓得緊緊的，我猜就是刻意在掩藏，掩藏著不想讓人知道的事。" },
-  { "date": "2024-02-14", "id": 11000202, "text": "갑옷에 칼까지 차고 있어서 무서운 사람인 줄 알았더니, 갑자기 요리책을 주문하지 뭔가. 게다가 목소리도 아주 어리더군.", "textCn": "一身盔甲还配着刀剑，还以为是很可怕的人呢。没想到开口要的是料理书，连声音都很稚气。", "textEn": "With her armor and sword, \\nI thought of her as a \\nformidable person, but the \\nnext moment, she was \\nsuddenly ordering a \\ncookbook. Not only that, \\nher voice sounded \\nvery young.", "textJp": "鎧に剣まで帯剣していたからヤバい奴かと思ったら、突然料理本を注文するんだよ。それにとても幼い声だったんだ。", "textTw": "一身盔甲還配著劍的打扮，我還以為是很可怕的人呢。沒想到她開口要的是料理書，連聲音都很稚氣。" },
-  { "date": "2024-02-14", "id": 12000202, "text": "제 앞을 막지 마십시오.", "textCn": "别挡住我的去路。", "textEn": "Do not get in my way.", "textJp": "私の前に立ちはだからないでください。", "textTw": "別擋住我的去路。" },
-  { "date": "2024-02-14", "id": 13000202, "text": "어쩔 수 없군요.", "textCn": "没办法了。", "textEn": "It can't be helped.", "textJp": "仕方がありませんね。", "textTw": "沒辦法了。" },
-  { "date": "2024-02-14", "id": 14000202, "text": "이것도 임무입니다.", "textCn": "这也是任务之一。", "textEn": "This is also a part of my duties.", "textJp": "これも任務ですので。", "textTw": "這也是任務之一。" },
-  { "date": "2024-02-14", "id": 15000202, "text": "악은 베어야 할 뿐.", "textCn": "恶人必斩无疑。", "textEn": "Evil must be cut down.", "textJp": "悪は斬り捨てるのみ。", "textTw": "惡人必斬無疑。" },
-  { "date": "2024-02-14", "id": 16000202, "text": "시간 낭비였군요.", "textCn": "白白浪费时间了。", "textEn": "This was a waste of time.", "textJp": "時間の無駄でしたね。", "textTw": "白白浪費時間了。" },
-  { "date": "2024-02-14", "id": 17000202, "text": "이만 돌아가지요.", "textCn": "回去吧。", "textEn": "We should go back.", "textJp": "もう帰るとしましょう。", "textTw": "回去吧。" },
-  { "date": "2024-02-14", "id": 18000202, "text": "달처럼 차갑고, 날카롭게.", "textCn": "像月亮一样冰冷、锐利。", "textEn": "Cold and sharp, just like the moon.", "textJp": "月のように冷たく、鋭く。", "textTw": "像月亮一樣冰冷、銳利。" },
-  { "date": "2024-02-14", "id": 19000202, "text": "이걸로 끝입니다!", "textCn": "以此结束吧！", "textEn": "This is the end!", "textJp": "これで終わりです！", "textTw": "用這個做出了結吧！" },
-  { "date": "2024-02-14", "id": 20000202, "text": "하아아아앗!", "textCn": "哈啊啊啊啊！", "textEn": "Yaaaap!", "textJp": "はああぁっ！", "textTw": "啊啊啊啊啊！" },
-  { "date": "2024-02-14", "id": 24000202, "text": "좋은 냄새로군요.", "textCn": "好香的味道。", "textEn": "Smells nice.", "textJp": "いい匂いですね。", "textTw": "好香的味道。" },
-  { "date": "2024-02-14", "id": 1064901, "text": "꼬맹이라고 얕보면 험한 꼴 당할걸?\\n내 활은 누구보다도 정확하니까!", "textCn": "把我当小孩看，可是要吃苦头的哟？因为我的箭射得比谁都准！", "textEn": "If you underestimate me for being a kid, you're in for a rough ride. After all, nothing's more accurate than my bow!", "textJp": "子供だからってみくびってたら痛い目に遭うよ？\\nわたしの弓は何よりも正確なんだからっ！", "textTw": "把我當小孩看，是會讓你吃苦頭的！因為我的箭射得比誰都還準！" },
-  { "date": "2024-02-14", "id": 3064901, "text": "156cm", "textCn": "156cm", "textEn": "156cm", "textJp": "156cm", "textTw": "156cm" },
-  { "date": "2024-02-14", "id": 4064901, "text": "5월 2일", "textCn": "5月2日", "textEn": "May 2nd", "textJp": "5月2日", "textTw": "5月2日" },
-  { "date": "2024-02-14", "id": 5064901, "text": "신생 용병단 궁수", "textCn": "新建佣兵团弓手", "textEn": "Rookie Mercenary Archer", "textJp": "新生傭兵団弓兵", "textTw": "新建傭兵團弓箭手" },
-  { "date": "2024-02-14", "id": 6064901, "text": "물건 훔쳤다가 몰래 돌려놓기", "textCn": "偷了东西再悄悄放回去", "textEn": "Stealing stuff then sneakily putting them back", "textJp": "物を盗んでこっそり戻しておく", "textTw": "偷了東西再悄悄放回去" },
-  { "date": "2024-02-14", "id": 7064901, "text": "언니오빠들의 칭찬!", "textCn": "哥哥姐姐们的夸奖！", "textEn": "Compliments from my companions!", "textJp": "みんなの誉め言葉！", "textTw": "哥哥姐姐們的誇獎！" },
-  { "date": "2024-02-14", "id": 8064901, "text": "무작정 안된다고 말하는 어른", "textCn": "无条件说不行的大人", "textEn": "Adults who say no without thinking", "textJp": "とにかくダメって言って来る大人", "textTw": "無條件說不行的大人" },
-  { "date": "2024-02-14", "id": 9064901, "text": "내가 있을 수 있는 곳, 우리 용병단", "textCn": "我能存在的地方——我们佣兵团", "textEn": "The place where I belong, \\nMy mercenaries", "textJp": "わたしの居場所、わたしの傭兵団", "textTw": "我能存在的地方——我們傭兵團" },
-  { "date": "2024-02-14", "id": 10064901, "text": "듣자 하니, 용병단에 들어가기 전까진 홀로 정처 없이 떠돌았었나 봐. 사실 도둑질도 관심을 끌고 싶어서 시작한 게 아니었을까?", "textCn": "听说，她在加入佣兵团之前曾经一个人四处流浪，居无定所。搞不好偷东西这件事也只是想引人注目？", "textEn": "Apparently, she seems to \\nhave been wandering around \\naimlessly until she joined the \\nmercenaries. Maybe she used \\nto steal to seek attention?", "textJp": "聞いた所では、傭兵団に入るまでは一人旅をしていたらしいぜ。泥棒の真似事も、興味を引きたくて始めたのかもな。", "textTw": "聽說，她在加入傭兵團之前，曾經一個人四處流浪，沒有一定的居處。搞不好偷東西這件事也只是想去引人注目？" },
-  { "date": "2024-02-14", "id": 11064901, "text": "리즈넷이 어리광 피우는 성격이 된 건 외로워서 그런 거예요. 앞으로 저희가 잘 돌봐주도록 하죠!", "textCn": "莉兹内爱撒娇的个性，也许是因为过于孤单的关系。以后我们更要好好照顾她！", "textEn": "Rigenette behaves like a \\nspoiled child because she's \\nlonely. From now on, we'll \\ntake good care of her!", "textJp": "リジーが甘えん坊になってしまったのは寂しいからですよ。これからは、私達でかまってあげましょうっ！", "textTw": "莉茲內愛撒嬌的個性，也許是因為過於孤單的關係。以後我們更要好好照顧她！" },
-  { "date": "2024-02-14", "id": 12064901, "text": "싸우는 거야? 나도 도와줄게!", "textCn": "要战斗吗？我也来帮忙！", "textEn": "You're going to fight? I'll help!", "textJp": "戦うの～？わたしも手伝うよっ！", "textTw": "要戰鬥嗎？我也來幫忙！" },
-  { "date": "2024-02-14", "id": 13064901, "text": "언니오빠들, 잘 부탁해!", "textCn": "哥哥姐姐们，请多多指教！", "textEn": "Guys, let's do our best!", "textJp": "お兄ちゃん、お姉ちゃん、よろしくねっ！", "textTw": "哥哥姐姐們，請多多指教！" },
-  { "date": "2024-02-14", "id": 14064901, "text": "내 실력을 보여줄게!", "textCn": "瞧瞧我的实力！", "textEn": "I'll show you what I can do!", "textJp": "わたしの実力、見せたげるっ！", "textTw": "瞧瞧我的實力！" },
-  { "date": "2024-02-14", "id": 15064901, "text": "나도 할 수 있다구~", "textCn": "我也做得到～", "textEn": "I can do this too~!", "textJp": "わたしだって出来るんだも～ん。", "textTw": "我也做得到～" },
-  { "date": "2024-02-14", "id": 16064901, "text": "활 쏘는 건 자신 있어!", "textCn": "我对射箭很有自信！", "textEn": "I'm confident in shooting arrows!", "textJp": "弓の腕には自信があるよっ！", "textTw": "我對射箭很有自信！" },
-  { "date": "2024-02-14", "id": 17064901, "text": "히힛, 나 잘했지?", "textCn": "嘻嘻，我很厉害吧？", "textEn": "Hehe, I did well, right?", "textJp": "あははっ。わたし、よくできたでしょ？", "textTw": "嘻嘻，我很厲害吧？" },
-  { "date": "2024-02-14", "id": 18064901, "text": "어리다고 얕보면 큰코다칠걸?", "textCn": "因为年纪小就无视我的话，会吃亏哟？", "textEn": "You shouldn't underestimate me for being young.", "textJp": "子供だからって軽く見たら痛い目に遭うよぉ～？", "textTw": "小看我年紀小的話，是會吃虧的！" },
-  { "date": "2024-02-14", "id": 19064901, "text": "아픈 곳 맞지 않게 조심하라구~", "textCn": "小心不要被打到痛处啰～", "textEn": "Be careful not to get hit where it hurts~!", "textJp": "痛いところを撃たれないように気を付けてね～っ。", "textTw": "小心不要被打到痛處囉～" },
-  { "date": "2024-02-14", "id": 20064901, "text": "빈틈이야! 방심했구나?", "textCn": "有破绽！你大意了呢？", "textEn": "An opening! You let your guard down, didn't you?", "textJp": "隙ありっ！油断したねっ？", "textTw": "有破綻！你大意了嗎？" },
-  { "date": "2024-02-14", "id": 1060101, "text": "위글? 위글위글.\\n위글, 위~글 위글그르.", "textCn": "威格？威格威格。威格，威～格威格额。", "textEn": "Wiggle? Wigglewiggle.\\nWiggle, wiiiggle wiggleee.", "textJp": "ウィグル？ウィグルウィグル。\\nウィグル。ウィ～グルッ、ウィグルグルッ。", "textTw": "威格？威格威格。威格，威～格威格額。" },
-  { "date": "2024-02-14", "id": 3060101, "text": "120cm", "textCn": "120cm", "textEn": "120cm", "textJp": "120cm", "textTw": "120cm" },
-  { "date": "2024-02-14", "id": 4060101, "text": "4월 1일이 되면 뭔가 조금 들뜸", "textCn": "每到4月1日就感觉有点兴奋", "textEn": "Gets a little excited when April 1st come around", "textJp": "4月1日には少し浮かれる", "textTw": "每到4月1日就感覺有點興奮" },
-  { "date": "2024-02-14", "id": 5060101, "text": "언데드 폭탄병", "textCn": "不死生物炸弹兵", "textEn": "Undead Bomber", "textJp": "アンデッド爆弾兵", "textTw": "不死生物炸彈兵" },
-  { "date": "2024-02-14", "id": 6060101, "text": "자폭", "textCn": "自爆", "textEn": "Self-destruction", "textJp": "自爆", "textTw": "自爆" },
-  { "date": "2024-02-14", "id": 7060101, "text": "폭발 소리", "textCn": "爆炸声", "textEn": "The sound of explosion", "textJp": "爆発音", "textTw": "爆炸聲" },
-  { "date": "2024-02-14", "id": 8060101, "text": "비 오는 날", "textCn": "雨天", "textEn": "Rainy days", "textJp": "雨の日", "textTw": "雨天" },
-  { "date": "2024-02-14", "id": 9060101, "text": "낡은 이름표", "textCn": "旧名牌", "textEn": "Old name tags", "textJp": "古い名札", "textTw": "老舊的名牌" },
-  { "date": "2024-02-14", "id": 10060101, "text": "으, 으악!! 해골이 움직... 어? 뭐라고? 위험한 놈 아니라고? 그 말을 믿겠냐! 눈이 있으면 똑바로 보라고! 저놈 등에 폭탄이 있잖아!?", "textCn": "呃，呃啊！！骷髅人在动…？什么？这家伙不危险？谁会相信啊！有长眼的话就好好看清楚！那家伙背上背的可是炸弹？！", "textEn": "A- Aack!! The skeleton is... \\nmoving? What?! And it's not \\ndangerous? You expect me \\nto believe that?! Anyone \\nwith eyes can see! It has \\nexplosives strapped to its \\nback!", "textJp": "う、うわっ！骸骨が動…えっ？危なくないって？おい、そんな話信じられるかよっ！よく見てみろよ、爆弾を背負ってるだろうがっ！", "textTw": "呃，呃啊！！骷髏人在動…？什麼？這傢伙不危險？誰會相信啊！有長眼的話就好好看清楚！那傢伙背上背的是炸彈？！" },
-  { "date": "2024-02-14", "id": 11060101, "text": "보다 보니 궁금하긴 해. 저 뼈다귀도 한땐 사람이었을 거 아니냐? 그럼 그땐 뭘 하고 다녔던 걸까? 직업이나 가족은 있었을까?", "textCn": "越看越让我好奇，那骨架子在过去也曾经是个人吧？当时的他会是怎样的人呢？有职业或家人吗？", "textEn": "As I keep looking at it, I'm \\nactually a bit curious. That \\nskeleton, it must have been \\na person at some point, right? \\nIf so, I wonder what it did \\nback then. Did it have a job? \\nOr a family?", "textJp": "見てると、確かに気にはなるよ。あの骨だって一時は人間だったはずだろ？じゃあその時は何をしていたんだろうな？職業は？家族は？", "textTw": "看著看著讓我有點好奇，那個骨頭在過去也曾經是個人吧？當時的他會是怎樣的人呢？有職業或家人嗎？" },
-  { "date": "2024-02-14", "id": 12060101, "text": "위글? 위글! (싸움? 좋아!)", "textCn": "威格？威格！（战斗？开心！）", "textEn": "Wiggle? Wiggle! (A fight? Good!)", "textJp": "ウィグル？ ウィグルッ！（戦闘？いいよ！）", "textTw": "威格？威格！（戰鬥？開心！）" },
-  { "date": "2024-02-14", "id": 13060101, "text": "위글...! (폭탄...!)", "textCn": "威格…！（炸弹…！）", "textEn": "Wiggle...! (An explosive...!)", "textJp": "ウィグル…！（爆弾…！）", "textTw": "威格…！（炸彈…！）" },
-  { "date": "2024-02-14", "id": 14060101, "text": "위글! (가자!)", "textCn": "威格！（冲啊！）", "textEn": "Wiggle! (Let's go!)", "textJp": "ウィグル！（行こう！）", "textTw": "威格！（衝啊！）" },
-  { "date": "2024-02-14", "id": 15060101, "text": "위글~! (안녕~!)", "textCn": "威格～！（嗨～！）", "textEn": "Wiggle~! (Hello~!)", "textJp": "ウィグルゥ～！（ハロー！）", "textTw": "威格～！（嗨～！）" },
-  { "date": "2024-02-14", "id": 16060101, "text": "위글~ 위글~! (폭탄~ 좋아~!)", "textCn": "威格～威格～！（炸弹～喜欢～！）", "textEn": "Wiggle~ Wiggle~! (I~like explosives~!)", "textJp": "ウィグル～、ウィグル～！（爆弾～、好き～！）", "textTw": "威格～威格～！（炸彈～喜歡～！）" },
-  { "date": "2024-02-14", "id": 17060101, "text": "위그을! (신난다!)", "textCn": "威木各！（兴奋！）", "textEn": "Wiggleee! (This is fun!)", "textJp": "ウィグルッ！（楽しい！）", "textTw": "威木各！（興奮！）" },
-  { "date": "2024-02-14", "id": 18060101, "text": "위그으으을!! (터져라아아!!)", "textCn": "威木各木各！！（爆炸吧！！）", "textEn": "Wiiiiggle!! (Blow uuuup!!)", "textJp": "ウイグルグルゥ！！（爆発だあぁぁっ！）", "textTw": "威木各木各！！（爆炸吧！！）" },
-  { "date": "2024-02-14", "id": 19060101, "text": "위글? 위글위글!! (이거? 폭탄이야!!)", "textCn": "威格？威格威格！！（这个？是炸弹！！）", "textEn": "Wiggle? Wiggle wiggle!! (This? It's an explosive!!)", "textJp": "ウィグル？ ウィグルウィグルッ！！（これ？爆弾だよ！！）", "textTw": "威格？威格威格！！（這個？是炸彈！！）" },
-  { "date": "2024-02-14", "id": 20060101, "text": "위글... 위글!! (폭탄... 간다!!)", "textCn": "威格…威格！！（炸弹…来了！！）", "textEn": "Wiggle... wiggle!! (Here it comes... the explosive!!)", "textJp": "ウィグル…ウィグルッ！！（爆弾…行くよ！！）", "textTw": "威格…威格！！（炸彈…來了！！）" },
-  { "date": "2024-02-14", "id": 1000101, "text": "미샤, 조금만 견뎌 줘.\\n꼭 병을 고칠 수 있는 약초를 찾아낼 테니까.", "textCn": "米莎，再坚持一下。我一定会找到能医治你的草药。", "textEn": "Misha, hang in there, just a little bit longer.\\nI'll find the herb that can fix your illness, no matter what.", "textJp": "ミーシャ、どうかこらえてくれ。\\n病を治す薬草を必ず見つけてみせるからね。", "textTw": "米莎，撐著點。我一定會找到能醫治妳的草藥。" },
-  { "date": "2024-02-14", "id": 3000101, "text": "172cm", "textCn": "172cm", "textEn": "172cm", "textJp": "172cm", "textTw": "172cm" },
-  { "date": "2024-02-14", "id": 4000101, "text": "10월 1일", "textCn": "10月1日", "textEn": "October 1st", "textJp": "10月1日", "textTw": "10月1日" },
-  { "date": "2024-02-14", "id": 5000101, "text": "루고 마을 약초꾼", "textCn": "卢戈镇的采药人", "textEn": "Lugo Village Herbalist", "textJp": "ルーゴ村薬草採集者", "textTw": "盧戈鎮的採藥人" },
-  { "date": "2024-02-14", "id": 6000101, "text": "약초 이름 외우기", "textCn": "背诵草药的名字", "textEn": "Memorizing the names of herbs", "textJp": "薬草名の暗記", "textTw": "背誦草藥的名字" },
-  { "date": "2024-02-14", "id": 7000101, "text": "약초의 신선한 흙내음", "textCn": "草药上新鲜的泥土气味", "textEn": "The herb's fresh earthy scent", "textJp": "新鮮な薬草の土の匂い", "textTw": "草藥上新鮮的泥土氣味" },
-  { "date": "2024-02-14", "id": 8000101, "text": "몸에 새겨진 저주", "textCn": "刻印在身上的诅咒", "textEn": "The curse engraved in his body", "textJp": "身体に刻まれた呪い", "textTw": "刻印在身上的詛咒" },
-  { "date": "2024-02-14", "id": 9000101, "text": "루고의 가족들", "textCn": "卢戈的家人", "textEn": "His family in Lugo", "textJp": "ルーゴの家族達", "textTw": "盧戈的家人" },
-  { "date": "2024-02-14", "id": 10000101, "text": "라텔 녀석, 우리 마을 토박이는 아니야. 몇 년 전에 이 마을에 왔거든. 그럼 전에는 어디서 뭘 하고 살았냐고? 그건 나도 몰라!", "textCn": "拉德尔那家伙，是几年前来到我们镇里的，并不是镇里土生土长的人。至于这之前他在哪里，做什么？这我就不清楚啦！", "textEn": "This Lathel guy is not \\noriginally from our village. \\nHe came to this village a few \\nyears ago, you see. \\nWhere he lived, and what \\nhe used to do before? \\nI also have no idea!", "textJp": "ラテルの奴は、ルーゴ生まれじゃない。数年前にこの村に来たんだ。それまではどこで何をしていたかって？それは俺にも分からん！", "textTw": "拉德爾那傢伙，是在幾年前來到我們鎮裡的，並不是在鎮裡土生土長的人。至於在這之前他是在哪裡做什麼的？這我就不清楚啦！" },
-  { "date": "2024-02-14", "id": 11000101, "text": "라텔 오빠는 항상 미샤랑 놀아줘서 좋아. 미샤 아픈 거 낫게 해 준다고 약초도 엄청 찾아다 줬어! 우리 오빠 최고지?", "textCn": "我喜欢拉德尔哥哥，因为他常陪米莎玩。他为了医治米莎，还去找好多好多的草药来！哥哥最棒了！", "textEn": "I like Lathel because he \\nalways plays with me, Misha. \\nHe also brought a lot of herbs \\nto help me get better! \\nIsn't he the best?", "textJp": "ラテルお兄ちゃん、いつもミーシャと一緒に遊んでくれるから大好き。ミーシャの身体を治してあげる、って薬草も沢山見つけてくれた！ウチのお兄ちゃん、最高でしょ？", "textTw": "我喜歡拉德爾哥哥，因為他常陪米莎玩。他為了醫治米莎，還去找好多好多的草藥來！哥哥最棒了！" },
-  { "date": "2024-02-14", "id": 12000101, "text": "싸우는 건 익숙하지 않지만...!", "textCn": "虽然我还不习惯战斗…！", "textEn": "Although I'm not used to fighting...!", "textJp": "戦うのは得意じゃないけど…！", "textTw": "雖然我還不習慣戰鬥…！" },
-  { "date": "2024-02-14", "id": 13000101, "text": "또 싸워야 하는 거구나....", "textCn": "又要开战了…", "textEn": "Looks like I have to fight again...", "textJp": "また戦わなきゃならないのか…。", "textTw": "又要開戰了…" },
-  { "date": "2024-02-14", "id": 14000101, "text": "싸울 수밖에... 없어!", "textCn": "只能…交战了！", "textEn": "I have no choice... but to fight!", "textJp": "戦うしか…ない！", "textTw": "只能…交戰了！" },
-  { "date": "2024-02-14", "id": 15000101, "text": "우, 우리가 이겼어!", "textCn": "我…我们赢了！", "textEn": "W-We won!", "textJp": "ぼ、僕たちの勝利だ！", "textTw": "我…我們贏了！" },
-  { "date": "2024-02-14", "id": 16000101, "text": "힘든 싸움이었어....", "textCn": "结束了一场硬战…", "textEn": "This was a tough battle...", "textJp": "厳しい戦いだった…。", "textTw": "結束了一場硬戰…" },
-  { "date": "2024-02-14", "id": 17000101, "text": "다들 고생했어!", "textCn": "大家辛苦了！", "textEn": "Well done, everyone!", "textJp": "みんな、お疲れさま！", "textTw": "大家辛苦了！" },
-  { "date": "2024-02-14", "id": 18000101, "text": "악을 무찌를, 힘을...!", "textCn": "击垮邪恶的力量…！", "textEn": "Power, to vanquish evil...!", "textJp": "悪を打ち倒す、力を…！", "textTw": "擊垮邪惡的力量…！" },
-  { "date": "2024-02-14", "id": 19000101, "text": "내가 모두를 지키겠어!", "textCn": "我会守护大家！", "textEn": "I'll protect everyone!", "textJp": "僕がみんなを守ってみせる！", "textTw": "我會守護大家！" },
-  { "date": "2024-02-14", "id": 20000101, "text": "큭. 피가... 뜨거워!", "textCn": "啊，血…好烫！", "textEn": "Urgh, my blood... is on fire!", "textJp": "くっ、血が…たぎる！", "textTw": "啊，血…好燙！" },
-  { "date": "2024-02-14", "id": 24000101, "text": "쓸만한 게 있을까?", "textCn": "有好用的东西吗？", "textEn": "I wonder if there's anything that will come in handy...", "textJp": "使えるものはあるだろうか？", "textTw": "有好用的東西嗎？" },
-  { "date": "2024-02-14", "id": 1000201, "text": "세상에 악이 사라지는 그날까지,\\n함께 흑마법사를 처단하도록 해요.", "textCn": "让我们一起去击倒黑魔法师吧。直到世上的邪恶，彻底被消灭的那一天。", "textEn": "Until the day that evil is purged from the \\nworld, let's castigate the warlock together.", "textJp": "この世から悪が消え去るその日まで。\\n共に黒魔術師を断罪しましょう。", "textTw": "讓我們一起去擊倒黑魔法師吧。直到世上的邪惡，徹底被消滅的那一天。" },
-  { "date": "2024-02-14", "id": 3000201, "text": "153cm", "textCn": "153cm", "textEn": "153cm", "textJp": "153cm", "textTw": "153cm" },
-  { "date": "2024-02-14", "id": 4000201, "text": "2월 11일", "textCn": "2月11日", "textEn": "February 11th", "textJp": "2月11日", "textTw": "2月11日" },
-  { "date": "2024-02-14", "id": 5000201, "text": "카리안 제국 황도 치안 유지대 책임기사", "textCn": "卡里安帝国皇家治安部队责任骑士", "textEn": "The Senior Knight of the \\nKarian Imperial Security \\nTask Force", "textJp": "カリアン帝国皇道治安維持特務部隊使命騎士", "textTw": "卡里安帝國皇家治安部隊負責騎士" },
-  { "date": "2024-02-14", "id": 6000201, "text": "각 지역의 요리 레시피 수집", "textCn": "收集各地区的料理食谱", "textEn": "Collecting recipes from \\neach region", "textJp": "各地域の料理レシピ収集", "textTw": "收集各地區的料理食譜" },
-  { "date": "2024-02-14", "id": 7000201, "text": "요리를 맛있게 먹어주는 사람", "textCn": "开心享用料理的人", "textEn": "Someone who enjoys \\nher cooking", "textJp": "料理を美味しく食べてくれる人", "textTw": "開心享用料理的人" },
-  { "date": "2024-02-14", "id": 8000201, "text": "뿔을 빤히 쳐다보는 사람", "textCn": "盯着角看的人", "textEn": "Someone who stares \\nat her horns", "textJp": "角をまじまじと見てくる人間", "textTw": "盯著角看的人" },
-  { "date": "2024-02-14", "id": 9000201, "text": "사명, 그리고 ...동료", "textCn": "使命，还有…伙伴", "textEn": "My mission and...\\nmy companions", "textJp": "使命、そして…仲間", "textTw": "使命，還有…夥伴" },
-  { "date": "2024-02-14", "id": 10000201, "text": "어떻게 그 어린 나이에 기사 작위를 달고 다니는 건지 궁금하다고? 하하, 그녀와 검을 한 번이라도 부딪혀 보면 알게 될 거다.", "textCn": "好奇她怎么能小小年纪就能拿到骑士爵位吗？哈哈，只要和她比一下剑，就会明白了。", "textEn": "You want to know how she \\nwas able to be knighted at \\nsuch a young age? Haha, \\npeople who have crossed \\nswords with her at least \\nonce will know.", "textJp": "あの歳で早々に騎士となった秘訣が知りたいって？ははっ、一度でも彼女と剣を交えればすぐに分かるさ。", "textTw": "她小小年紀就能拿到騎士爵位，讓你感到好奇嗎？哈哈，只要和她比一下劍，疑問就能解開了。" },
-  { "date": "2024-02-14", "id": 11000201, "text": "저 사람, 머리에 저거... 혹시 뿔 아닌가? 뿔이 돋았다니 평범한 사람은 아닌 것 같은데... 응? 뭐? 장식? 하하, 그럼 그렇지.", "textCn": "那个人，长在她头上的…是角吗？头上能长出角来的，一定不是普通人…嗯？咦？是装饰？哈哈，这还差不多嘛。", "textEn": "Those things on her head... \\nAren't those horns?\\nHaving horns means she is no \\nordinary person. But... Huh? \\nWhat? An ornament? \\nHaha, of course it is.", "textJp": "あの人の、頭のアレ…もしかして角なのか？角が生えてるなんて普通の人とは思えないな…えっ？何だって？アクセサリー？ははっ、やっぱりそうか。", "textTw": "那個人，長在她頭上的…是角嗎？頭上能長出角來的，一定不是平凡人…嗯？咦？是裝飾？哈哈，那還差不多。" },
-  { "date": "2024-02-14", "id": 12000201, "text": "방해한다면 베겠어요.", "textCn": "谁敢妨碍我，我就砍谁。", "textEn": "I will cut you down if you get in my way.", "textJp": "邪魔をするのなら切り伏せます。", "textTw": "誰敢妨礙我，我就砍誰。" },
-  { "date": "2024-02-14", "id": 13000201, "text": "모두, 싸울 준비를 하지요.", "textCn": "各位，准备战斗吧。", "textEn": "Everyone, ready yourselves for a fight.", "textJp": "皆さん、戦う準備をしましょう。", "textTw": "各位，準備戰鬥吧。" },
-  { "date": "2024-02-14", "id": 14000201, "text": "악을 물리치는 것이, 저의 사명.", "textCn": "击退邪恶是我的使命。", "textEn": "To vanquish evil, is my duty.", "textJp": "悪を退けるのが、我が使命。", "textTw": "擊退邪惡是我的使命。" },
-  { "date": "2024-02-14", "id": 15000201, "text": "다쳤나요. 요리를 해야겠군요.", "textCn": "受伤了吗？看来要做料理了。", "textEn": "Injured? Time to cook something...", "textJp": "お怪我をされたのですか。料理をしなければなりせんね。", "textTw": "受傷了嗎？看來要做料理了。" },
-  { "date": "2024-02-14", "id": 16000201, "text": "끝났군요.", "textCn": "结束了。", "textEn": "It's over.", "textJp": "終わりましたね。", "textTw": "結束了。" },
-  { "date": "2024-02-14", "id": 17000201, "text": "이것이 악의 말로입니다.", "textCn": "这就是邪恶的下场。", "textEn": "This is the fate of the evil.", "textJp": "これこそ、悪が辿る末路です。", "textTw": "這就是邪惡的下場。" },
-  { "date": "2024-02-14", "id": 18000201, "text": "달빛 아래 잠들도록 해요.", "textCn": "在月光下沉睡吧。", "textEn": "Fall asleep under the moonlight.", "textJp": "月の光の元でお眠りなさい。", "textTw": "在月光下沉睡吧。" },
-  { "date": "2024-02-14", "id": 19000201, "text": "전부 처단하겠어요!", "textCn": "我要全部斩草除根！", "textEn": "I will punish you all!", "textJp": "全てを断罪いたします！", "textTw": "我要全部斬草除根！" },
-  { "date": "2024-02-14", "id": 20000201, "text": "악에게는 오직, 죽음뿐!", "textCn": "邪恶只有死路一条！", "textEn": "Death to all that is evil!", "textJp": "悪には、死あるのみ！", "textTw": "邪惡只有死路一條！" },
-  { "date": "2024-02-14", "id": 24000201, "text": "마음이 따뜻해지는 요리에요.", "textCn": "是道温暖人心的料理。", "textEn": "This is a dish that warms the heart.", "textJp": "心が暖まる料理です。", "textTw": "是道溫暖人心的料理。" }
+  {
+    "date": "2024-02-14",
+    "id": 1000202,
+    "text": "악을 물리치는 것이, 저의 사명.\\n그것만을 위해 이곳에 있습니다.",
+    "textCn": "击退邪恶就是我的使命。我在这里就是为了完成使命。",
+    "textEn": "My mission is to destroy evil.\\nThat is the only reason why I have come here.",
+    "textJp": "悪を退けるのが、我が使命。\\nその為だけにここにいるのです。",
+    "textTw": "擊倒邪惡，就是我的使命。為了完成使命，我來到這裡。"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 3000202,
+    "text": "153cm",
+    "textCn": "153cm",
+    "textEn": "153cm",
+    "textJp": "153cm",
+    "textTw": "153cm"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 4000202,
+    "text": "2월 11일",
+    "textCn": "2月11日",
+    "textEn": "February 11th",
+    "textJp": "2月11日",
+    "textTw": "2月11日"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 5000202,
+    "text": "정체불명의 여행자",
+    "textCn": "来历不明的旅行者",
+    "textEn": "The Unidentified Traveler",
+    "textJp": "正体不明の旅人",
+    "textTw": "不明的旅行者"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 6000202,
+    "text": "기사 서약 낭송",
+    "textCn": "朗诵骑士誓约",
+    "textEn": "Reciting the Knight's Oath",
+    "textJp": "騎士の誓約暗唱",
+    "textTw": "朗誦騎士誓約"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 7000202,
+    "text": "강자와의 대련",
+    "textCn": "与强者的对练",
+    "textEn": "Sparring with the strong",
+    "textJp": "強者との対決",
+    "textTw": "與強者的對練"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 8000202,
+    "text": "식재료를 소홀히 하는 사람",
+    "textCn": "不珍惜食材的人",
+    "textEn": "People careless with food ingredients",
+    "textJp": "食材を粗末にする人",
+    "textTw": "不懂得珍惜食材的人"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 9000202,
+    "text": "공작 부인에게 하사받은 검",
+    "textCn": "公爵夫人赏赐的剑",
+    "textEn": "A sword bestowed by the Duchess",
+    "textJp": "公爵夫人から授かりし剣",
+    "textTw": "公爵夫人賜予的劍"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 10000202,
+    "text": "으음, 접근을 허락하지 않는 느낌이랄까? 후드를 푹 눌러쓰고 다니는 걸 보면, 뭔가 보여주고 싶지 않은 게 있는 것 같았어.",
+    "textCn": "嗯…有种拒绝别人靠近她的感觉？整天把帽衫压得低低的，应该是有什么不想让人看到的东西吧。",
+    "textEn": "Umm, it's like no one's \\nallowed to approach her or \\nsomething. Seeing her hood \\ncompletely covering her head,\\nit seems as if there's \\nsomething she wants to hide.",
+    "textJp": "うーん、人を近寄らせないって感じ？フードをかぶっている姿を見ると、何か他人に見せたくないものがあるみたいだったよ。",
+    "textTw": "嗯…有種拒絕別人靠近她的感覺？她整天帽T壓得緊緊的，我猜就是刻意在掩藏，掩藏著不想讓人知道的事。"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 11000202,
+    "text": "갑옷에 칼까지 차고 있어서 무서운 사람인 줄 알았더니, 갑자기 요리책을 주문하지 뭔가. 게다가 목소리도 아주 어리더군.",
+    "textCn": "一身盔甲还配着刀剑，还以为是很可怕的人呢。没想到开口要的是料理书，连声音都很稚气。",
+    "textEn": "With her armor and sword, \\nI thought of her as a \\nformidable person, but the \\nnext moment, she was \\nsuddenly ordering a \\ncookbook. Not only that, \\nher voice sounded \\nvery young.",
+    "textJp": "鎧に剣まで帯剣していたからヤバい奴かと思ったら、突然料理本を注文するんだよ。それにとても幼い声だったんだ。",
+    "textTw": "一身盔甲還配著劍的打扮，我還以為是很可怕的人呢。沒想到她開口要的是料理書，連聲音都很稚氣。"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 12000202,
+    "text": "제 앞을 막지 마십시오.",
+    "textCn": "别挡住我的去路。",
+    "textEn": "Do not get in my way.",
+    "textJp": "私の前に立ちはだからないでください。",
+    "textTw": "別擋住我的去路。"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 13000202,
+    "text": "어쩔 수 없군요.",
+    "textCn": "没办法了。",
+    "textEn": "It can't be helped.",
+    "textJp": "仕方がありませんね。",
+    "textTw": "沒辦法了。"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 14000202,
+    "text": "이것도 임무입니다.",
+    "textCn": "这也是任务之一。",
+    "textEn": "This is also a part of my duties.",
+    "textJp": "これも任務ですので。",
+    "textTw": "這也是任務之一。"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 15000202,
+    "text": "악은 베어야 할 뿐.",
+    "textCn": "恶人必斩无疑。",
+    "textEn": "Evil must be cut down.",
+    "textJp": "悪は斬り捨てるのみ。",
+    "textTw": "惡人必斬無疑。"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 16000202,
+    "text": "시간 낭비였군요.",
+    "textCn": "白白浪费时间了。",
+    "textEn": "This was a waste of time.",
+    "textJp": "時間の無駄でしたね。",
+    "textTw": "白白浪費時間了。"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 17000202,
+    "text": "이만 돌아가지요.",
+    "textCn": "回去吧。",
+    "textEn": "We should go back.",
+    "textJp": "もう帰るとしましょう。",
+    "textTw": "回去吧。"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 18000202,
+    "text": "달처럼 차갑고, 날카롭게.",
+    "textCn": "像月亮一样冰冷、锐利。",
+    "textEn": "Cold and sharp, just like the moon.",
+    "textJp": "月のように冷たく、鋭く。",
+    "textTw": "像月亮一樣冰冷、銳利。"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 19000202,
+    "text": "이걸로 끝입니다!",
+    "textCn": "以此结束吧！",
+    "textEn": "This is the end!",
+    "textJp": "これで終わりです！",
+    "textTw": "用這個做出了結吧！"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 20000202,
+    "text": "하아아아앗!",
+    "textCn": "哈啊啊啊啊！",
+    "textEn": "Yaaaap!",
+    "textJp": "はああぁっ！",
+    "textTw": "啊啊啊啊啊！"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 24000202,
+    "text": "좋은 냄새로군요.",
+    "textCn": "好香的味道。",
+    "textEn": "Smells nice.",
+    "textJp": "いい匂いですね。",
+    "textTw": "好香的味道。"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 1064901,
+    "text": "꼬맹이라고 얕보면 험한 꼴 당할걸?\\n내 활은 누구보다도 정확하니까!",
+    "textCn": "把我当小孩看，可是要吃苦头的哟？因为我的箭射得比谁都准！",
+    "textEn": "If you underestimate me for being a kid, you're in for a rough ride. After all, nothing's more accurate than my bow!",
+    "textJp": "子供だからってみくびってたら痛い目に遭うよ？\\nわたしの弓は何よりも正確なんだからっ！",
+    "textTw": "把我當小孩看，是會讓你吃苦頭的！因為我的箭射得比誰都還準！"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 3064901,
+    "text": "156cm",
+    "textCn": "156cm",
+    "textEn": "156cm",
+    "textJp": "156cm",
+    "textTw": "156cm"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 4064901,
+    "text": "5월 2일",
+    "textCn": "5月2日",
+    "textEn": "May 2nd",
+    "textJp": "5月2日",
+    "textTw": "5月2日"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 5064901,
+    "text": "신생 용병단 궁수",
+    "textCn": "新建佣兵团弓手",
+    "textEn": "Rookie Mercenary Archer",
+    "textJp": "新生傭兵団弓兵",
+    "textTw": "新建傭兵團弓箭手"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 6064901,
+    "text": "물건 훔쳤다가 몰래 돌려놓기",
+    "textCn": "偷了东西再悄悄放回去",
+    "textEn": "Stealing stuff then sneakily putting them back",
+    "textJp": "物を盗んでこっそり戻しておく",
+    "textTw": "偷了東西再悄悄放回去"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 7064901,
+    "text": "언니오빠들의 칭찬!",
+    "textCn": "哥哥姐姐们的夸奖！",
+    "textEn": "Compliments from my companions!",
+    "textJp": "みんなの誉め言葉！",
+    "textTw": "哥哥姐姐們的誇獎！"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 8064901,
+    "text": "무작정 안된다고 말하는 어른",
+    "textCn": "无条件说不行的大人",
+    "textEn": "Adults who say no without thinking",
+    "textJp": "とにかくダメって言って来る大人",
+    "textTw": "無條件說不行的大人"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 9064901,
+    "text": "내가 있을 수 있는 곳, 우리 용병단",
+    "textCn": "我能存在的地方——我们佣兵团",
+    "textEn": "The place where I belong, \\nMy mercenaries",
+    "textJp": "わたしの居場所、わたしの傭兵団",
+    "textTw": "我能存在的地方——我們傭兵團"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 10064901,
+    "text": "듣자 하니, 용병단에 들어가기 전까진 홀로 정처 없이 떠돌았었나 봐. 사실 도둑질도 관심을 끌고 싶어서 시작한 게 아니었을까?",
+    "textCn": "听说，她在加入佣兵团之前曾经一个人四处流浪，居无定所。搞不好偷东西这件事也只是想引人注目？",
+    "textEn": "Apparently, she seems to \\nhave been wandering around \\naimlessly until she joined the \\nmercenaries. Maybe she used \\nto steal to seek attention?",
+    "textJp": "聞いた所では、傭兵団に入るまでは一人旅をしていたらしいぜ。泥棒の真似事も、興味を引きたくて始めたのかもな。",
+    "textTw": "聽說，她在加入傭兵團之前，曾經一個人四處流浪，沒有一定的居處。搞不好偷東西這件事也只是想去引人注目？"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 11064901,
+    "text": "리즈넷이 어리광 피우는 성격이 된 건 외로워서 그런 거예요. 앞으로 저희가 잘 돌봐주도록 하죠!",
+    "textCn": "莉兹内爱撒娇的个性，也许是因为过于孤单的关系。以后我们更要好好照顾她！",
+    "textEn": "Rigenette behaves like a \\nspoiled child because she's \\nlonely. From now on, we'll \\ntake good care of her!",
+    "textJp": "リジーが甘えん坊になってしまったのは寂しいからですよ。これからは、私達でかまってあげましょうっ！",
+    "textTw": "莉茲內愛撒嬌的個性，也許是因為過於孤單的關係。以後我們更要好好照顧她！"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 12064901,
+    "text": "싸우는 거야? 나도 도와줄게!",
+    "textCn": "要战斗吗？我也来帮忙！",
+    "textEn": "You're going to fight? I'll help!",
+    "textJp": "戦うの～？わたしも手伝うよっ！",
+    "textTw": "要戰鬥嗎？我也來幫忙！"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 13064901,
+    "text": "언니오빠들, 잘 부탁해!",
+    "textCn": "哥哥姐姐们，请多多指教！",
+    "textEn": "Guys, let's do our best!",
+    "textJp": "お兄ちゃん、お姉ちゃん、よろしくねっ！",
+    "textTw": "哥哥姐姐們，請多多指教！"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 14064901,
+    "text": "내 실력을 보여줄게!",
+    "textCn": "瞧瞧我的实力！",
+    "textEn": "I'll show you what I can do!",
+    "textJp": "わたしの実力、見せたげるっ！",
+    "textTw": "瞧瞧我的實力！"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 15064901,
+    "text": "나도 할 수 있다구~",
+    "textCn": "我也做得到～",
+    "textEn": "I can do this too~!",
+    "textJp": "わたしだって出来るんだも～ん。",
+    "textTw": "我也做得到～"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 16064901,
+    "text": "활 쏘는 건 자신 있어!",
+    "textCn": "我对射箭很有自信！",
+    "textEn": "I'm confident in shooting arrows!",
+    "textJp": "弓の腕には自信があるよっ！",
+    "textTw": "我對射箭很有自信！"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 17064901,
+    "text": "히힛, 나 잘했지?",
+    "textCn": "嘻嘻，我很厉害吧？",
+    "textEn": "Hehe, I did well, right?",
+    "textJp": "あははっ。わたし、よくできたでしょ？",
+    "textTw": "嘻嘻，我很厲害吧？"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 18064901,
+    "text": "어리다고 얕보면 큰코다칠걸?",
+    "textCn": "因为年纪小就无视我的话，会吃亏哟？",
+    "textEn": "You shouldn't underestimate me for being young.",
+    "textJp": "子供だからって軽く見たら痛い目に遭うよぉ～？",
+    "textTw": "小看我年紀小的話，是會吃虧的！"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 19064901,
+    "text": "아픈 곳 맞지 않게 조심하라구~",
+    "textCn": "小心不要被打到痛处啰～",
+    "textEn": "Be careful not to get hit where it hurts~!",
+    "textJp": "痛いところを撃たれないように気を付けてね～っ。",
+    "textTw": "小心不要被打到痛處囉～"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 20064901,
+    "text": "빈틈이야! 방심했구나?",
+    "textCn": "有破绽！你大意了呢？",
+    "textEn": "An opening! You let your guard down, didn't you?",
+    "textJp": "隙ありっ！油断したねっ？",
+    "textTw": "有破綻！你大意了嗎？"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 1060101,
+    "text": "위글? 위글위글.\\n위글, 위~글 위글그르.",
+    "textCn": "威格？威格威格。威格，威～格威格额。",
+    "textEn": "Wiggle? Wigglewiggle.\\nWiggle, wiiiggle wiggleee.",
+    "textJp": "ウィグル？ウィグルウィグル。\\nウィグル。ウィ～グルッ、ウィグルグルッ。",
+    "textTw": "威格？威格威格。威格，威～格威格額。"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 3060101,
+    "text": "120cm",
+    "textCn": "120cm",
+    "textEn": "120cm",
+    "textJp": "120cm",
+    "textTw": "120cm"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 4060101,
+    "text": "4월 1일이 되면 뭔가 조금 들뜸",
+    "textCn": "每到4月1日就感觉有点兴奋",
+    "textEn": "Gets a little excited when April 1st come around",
+    "textJp": "4月1日には少し浮かれる",
+    "textTw": "每到4月1日就感覺有點興奮"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 5060101,
+    "text": "언데드 폭탄병",
+    "textCn": "不死生物炸弹兵",
+    "textEn": "Undead Bomber",
+    "textJp": "アンデッド爆弾兵",
+    "textTw": "不死生物炸彈兵"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 6060101,
+    "text": "자폭",
+    "textCn": "自爆",
+    "textEn": "Self-destruction",
+    "textJp": "自爆",
+    "textTw": "自爆"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 7060101,
+    "text": "폭발 소리",
+    "textCn": "爆炸声",
+    "textEn": "The sound of explosion",
+    "textJp": "爆発音",
+    "textTw": "爆炸聲"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 8060101,
+    "text": "비 오는 날",
+    "textCn": "雨天",
+    "textEn": "Rainy days",
+    "textJp": "雨の日",
+    "textTw": "雨天"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 9060101,
+    "text": "낡은 이름표",
+    "textCn": "旧名牌",
+    "textEn": "Old name tags",
+    "textJp": "古い名札",
+    "textTw": "老舊的名牌"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 10060101,
+    "text": "으, 으악!! 해골이 움직... 어? 뭐라고? 위험한 놈 아니라고? 그 말을 믿겠냐! 눈이 있으면 똑바로 보라고! 저놈 등에 폭탄이 있잖아!?",
+    "textCn": "呃，呃啊！！骷髅人在动…？什么？这家伙不危险？谁会相信啊！有长眼的话就好好看清楚！那家伙背上背的可是炸弹？！",
+    "textEn": "A- Aack!! The skeleton is... \\nmoving? What?! And it's not \\ndangerous? You expect me \\nto believe that?! Anyone \\nwith eyes can see! It has \\nexplosives strapped to its \\nback!",
+    "textJp": "う、うわっ！骸骨が動…えっ？危なくないって？おい、そんな話信じられるかよっ！よく見てみろよ、爆弾を背負ってるだろうがっ！",
+    "textTw": "呃，呃啊！！骷髏人在動…？什麼？這傢伙不危險？誰會相信啊！有長眼的話就好好看清楚！那傢伙背上背的是炸彈？！"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 11060101,
+    "text": "보다 보니 궁금하긴 해. 저 뼈다귀도 한땐 사람이었을 거 아니냐? 그럼 그땐 뭘 하고 다녔던 걸까? 직업이나 가족은 있었을까?",
+    "textCn": "越看越让我好奇，那骨架子在过去也曾经是个人吧？当时的他会是怎样的人呢？有职业或家人吗？",
+    "textEn": "As I keep looking at it, I'm \\nactually a bit curious. That \\nskeleton, it must have been \\na person at some point, right? \\nIf so, I wonder what it did \\nback then. Did it have a job? \\nOr a family?",
+    "textJp": "見てると、確かに気にはなるよ。あの骨だって一時は人間だったはずだろ？じゃあその時は何をしていたんだろうな？職業は？家族は？",
+    "textTw": "看著看著讓我有點好奇，那個骨頭在過去也曾經是個人吧？當時的他會是怎樣的人呢？有職業或家人嗎？"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 12060101,
+    "text": "위글? 위글! (싸움? 좋아!)",
+    "textCn": "威格？威格！（战斗？开心！）",
+    "textEn": "Wiggle? Wiggle! (A fight? Good!)",
+    "textJp": "ウィグル？ ウィグルッ！（戦闘？いいよ！）",
+    "textTw": "威格？威格！（戰鬥？開心！）"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 13060101,
+    "text": "위글...! (폭탄...!)",
+    "textCn": "威格…！（炸弹…！）",
+    "textEn": "Wiggle...! (An explosive...!)",
+    "textJp": "ウィグル…！（爆弾…！）",
+    "textTw": "威格…！（炸彈…！）"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 14060101,
+    "text": "위글! (가자!)",
+    "textCn": "威格！（冲啊！）",
+    "textEn": "Wiggle! (Let's go!)",
+    "textJp": "ウィグル！（行こう！）",
+    "textTw": "威格！（衝啊！）"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 15060101,
+    "text": "위글~! (안녕~!)",
+    "textCn": "威格～！（嗨～！）",
+    "textEn": "Wiggle~! (Hello~!)",
+    "textJp": "ウィグルゥ～！（ハロー！）",
+    "textTw": "威格～！（嗨～！）"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 16060101,
+    "text": "위글~ 위글~! (폭탄~ 좋아~!)",
+    "textCn": "威格～威格～！（炸弹～喜欢～！）",
+    "textEn": "Wiggle~ Wiggle~! (I~like explosives~!)",
+    "textJp": "ウィグル～、ウィグル～！（爆弾～、好き～！）",
+    "textTw": "威格～威格～！（炸彈～喜歡～！）"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 17060101,
+    "text": "위그을! (신난다!)",
+    "textCn": "威木各！（兴奋！）",
+    "textEn": "Wiggleee! (This is fun!)",
+    "textJp": "ウィグルッ！（楽しい！）",
+    "textTw": "威木各！（興奮！）"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 18060101,
+    "text": "위그으으을!! (터져라아아!!)",
+    "textCn": "威木各木各！！（爆炸吧！！）",
+    "textEn": "Wiiiiggle!! (Blow uuuup!!)",
+    "textJp": "ウイグルグルゥ！！（爆発だあぁぁっ！）",
+    "textTw": "威木各木各！！（爆炸吧！！）"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 19060101,
+    "text": "위글? 위글위글!! (이거? 폭탄이야!!)",
+    "textCn": "威格？威格威格！！（这个？是炸弹！！）",
+    "textEn": "Wiggle? Wiggle wiggle!! (This? It's an explosive!!)",
+    "textJp": "ウィグル？ ウィグルウィグルッ！！（これ？爆弾だよ！！）",
+    "textTw": "威格？威格威格！！（這個？是炸彈！！）"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 20060101,
+    "text": "위글... 위글!! (폭탄... 간다!!)",
+    "textCn": "威格…威格！！（炸弹…来了！！）",
+    "textEn": "Wiggle... wiggle!! (Here it comes... the explosive!!)",
+    "textJp": "ウィグル…ウィグルッ！！（爆弾…行くよ！！）",
+    "textTw": "威格…威格！！（炸彈…來了！！）"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 1000101,
+    "text": "미샤, 조금만 견뎌 줘.\\n꼭 병을 고칠 수 있는 약초를 찾아낼 테니까.",
+    "textCn": "米莎，再坚持一下。我一定会找到能医治你的草药。",
+    "textEn": "Misha, hang in there, just a little bit longer.\\nI'll find the herb that can fix your illness, no matter what.",
+    "textJp": "ミーシャ、どうかこらえてくれ。\\n病を治す薬草を必ず見つけてみせるからね。",
+    "textTw": "米莎，撐著點。我一定會找到能醫治妳的草藥。"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 3000101,
+    "text": "172cm",
+    "textCn": "172cm",
+    "textEn": "172cm",
+    "textJp": "172cm",
+    "textTw": "172cm"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 4000101,
+    "text": "10월 1일",
+    "textCn": "10月1日",
+    "textEn": "October 1st",
+    "textJp": "10月1日",
+    "textTw": "10月1日"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 5000101,
+    "text": "루고 마을 약초꾼",
+    "textCn": "卢戈镇的采药人",
+    "textEn": "Lugo Village Herbalist",
+    "textJp": "ルーゴ村薬草採集者",
+    "textTw": "盧戈鎮的採藥人"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 6000101,
+    "text": "약초 이름 외우기",
+    "textCn": "背诵草药的名字",
+    "textEn": "Memorizing the names of herbs",
+    "textJp": "薬草名の暗記",
+    "textTw": "背誦草藥的名字"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 7000101,
+    "text": "약초의 신선한 흙내음",
+    "textCn": "草药上新鲜的泥土气味",
+    "textEn": "The herb's fresh earthy scent",
+    "textJp": "新鮮な薬草の土の匂い",
+    "textTw": "草藥上新鮮的泥土氣味"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 8000101,
+    "text": "몸에 새겨진 저주",
+    "textCn": "刻印在身上的诅咒",
+    "textEn": "The curse engraved in his body",
+    "textJp": "身体に刻まれた呪い",
+    "textTw": "刻印在身上的詛咒"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 9000101,
+    "text": "루고의 가족들",
+    "textCn": "卢戈的家人",
+    "textEn": "His family in Lugo",
+    "textJp": "ルーゴの家族達",
+    "textTw": "盧戈的家人"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 10000101,
+    "text": "라텔 녀석, 우리 마을 토박이는 아니야. 몇 년 전에 이 마을에 왔거든. 그럼 전에는 어디서 뭘 하고 살았냐고? 그건 나도 몰라!",
+    "textCn": "拉德尔那家伙，是几年前来到我们镇里的，并不是镇里土生土长的人。至于这之前他在哪里，做什么？这我就不清楚啦！",
+    "textEn": "This Lathel guy is not \\noriginally from our village. \\nHe came to this village a few \\nyears ago, you see. \\nWhere he lived, and what \\nhe used to do before? \\nI also have no idea!",
+    "textJp": "ラテルの奴は、ルーゴ生まれじゃない。数年前にこの村に来たんだ。それまではどこで何をしていたかって？それは俺にも分からん！",
+    "textTw": "拉德爾那傢伙，是在幾年前來到我們鎮裡的，並不是在鎮裡土生土長的人。至於在這之前他是在哪裡做什麼的？這我就不清楚啦！"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 11000101,
+    "text": "라텔 오빠는 항상 미샤랑 놀아줘서 좋아. 미샤 아픈 거 낫게 해 준다고 약초도 엄청 찾아다 줬어! 우리 오빠 최고지?",
+    "textCn": "我喜欢拉德尔哥哥，因为他常陪米莎玩。他为了医治米莎，还去找好多好多的草药来！哥哥最棒了！",
+    "textEn": "I like Lathel because he \\nalways plays with me, Misha. \\nHe also brought a lot of herbs \\nto help me get better! \\nIsn't he the best?",
+    "textJp": "ラテルお兄ちゃん、いつもミーシャと一緒に遊んでくれるから大好き。ミーシャの身体を治してあげる、って薬草も沢山見つけてくれた！ウチのお兄ちゃん、最高でしょ？",
+    "textTw": "我喜歡拉德爾哥哥，因為他常陪米莎玩。他為了醫治米莎，還去找好多好多的草藥來！哥哥最棒了！"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 12000101,
+    "text": "싸우는 건 익숙하지 않지만...!",
+    "textCn": "虽然我还不习惯战斗…！",
+    "textEn": "Although I'm not used to fighting...!",
+    "textJp": "戦うのは得意じゃないけど…！",
+    "textTw": "雖然我還不習慣戰鬥…！"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 13000101,
+    "text": "또 싸워야 하는 거구나....",
+    "textCn": "又要开战了…",
+    "textEn": "Looks like I have to fight again...",
+    "textJp": "また戦わなきゃならないのか…。",
+    "textTw": "又要開戰了…"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 14000101,
+    "text": "싸울 수밖에... 없어!",
+    "textCn": "只能…交战了！",
+    "textEn": "I have no choice... but to fight!",
+    "textJp": "戦うしか…ない！",
+    "textTw": "只能…交戰了！"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 15000101,
+    "text": "우, 우리가 이겼어!",
+    "textCn": "我…我们赢了！",
+    "textEn": "W-We won!",
+    "textJp": "ぼ、僕たちの勝利だ！",
+    "textTw": "我…我們贏了！"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 16000101,
+    "text": "힘든 싸움이었어....",
+    "textCn": "结束了一场硬战…",
+    "textEn": "This was a tough battle...",
+    "textJp": "厳しい戦いだった…。",
+    "textTw": "結束了一場硬戰…"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 17000101,
+    "text": "다들 고생했어!",
+    "textCn": "大家辛苦了！",
+    "textEn": "Well done, everyone!",
+    "textJp": "みんな、お疲れさま！",
+    "textTw": "大家辛苦了！"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 18000101,
+    "text": "악을 무찌를, 힘을...!",
+    "textCn": "击垮邪恶的力量…！",
+    "textEn": "Power, to vanquish evil...!",
+    "textJp": "悪を打ち倒す、力を…！",
+    "textTw": "擊垮邪惡的力量…！"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 19000101,
+    "text": "내가 모두를 지키겠어!",
+    "textCn": "我会守护大家！",
+    "textEn": "I'll protect everyone!",
+    "textJp": "僕がみんなを守ってみせる！",
+    "textTw": "我會守護大家！"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 20000101,
+    "text": "큭. 피가... 뜨거워!",
+    "textCn": "啊，血…好烫！",
+    "textEn": "Urgh, my blood... is on fire!",
+    "textJp": "くっ、血が…たぎる！",
+    "textTw": "啊，血…好燙！"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 24000101,
+    "text": "쓸만한 게 있을까?",
+    "textCn": "有好用的东西吗？",
+    "textEn": "I wonder if there's anything that will come in handy...",
+    "textJp": "使えるものはあるだろうか？",
+    "textTw": "有好用的東西嗎？"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 1000201,
+    "text": "세상에 악이 사라지는 그날까지,\\n함께 흑마법사를 처단하도록 해요.",
+    "textCn": "让我们一起去击倒黑魔法师吧。直到世上的邪恶，彻底被消灭的那一天。",
+    "textEn": "Until the day that evil is purged from the \\nworld, let's castigate the warlock together.",
+    "textJp": "この世から悪が消え去るその日まで。\\n共に黒魔術師を断罪しましょう。",
+    "textTw": "讓我們一起去擊倒黑魔法師吧。直到世上的邪惡，徹底被消滅的那一天。"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 3000201,
+    "text": "153cm",
+    "textCn": "153cm",
+    "textEn": "153cm",
+    "textJp": "153cm",
+    "textTw": "153cm"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 4000201,
+    "text": "2월 11일",
+    "textCn": "2月11日",
+    "textEn": "February 11th",
+    "textJp": "2月11日",
+    "textTw": "2月11日"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 5000201,
+    "text": "카리안 제국 황도 치안 유지대 책임기사",
+    "textCn": "卡里安帝国皇家治安部队责任骑士",
+    "textEn": "The Senior Knight of the \\nKarian Imperial Security \\nTask Force",
+    "textJp": "カリアン帝国皇道治安維持特務部隊使命騎士",
+    "textTw": "卡里安帝國皇家治安部隊負責騎士"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 6000201,
+    "text": "각 지역의 요리 레시피 수집",
+    "textCn": "收集各地区的料理食谱",
+    "textEn": "Collecting recipes from \\neach region",
+    "textJp": "各地域の料理レシピ収集",
+    "textTw": "收集各地區的料理食譜"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 7000201,
+    "text": "요리를 맛있게 먹어주는 사람",
+    "textCn": "开心享用料理的人",
+    "textEn": "Someone who enjoys \\nher cooking",
+    "textJp": "料理を美味しく食べてくれる人",
+    "textTw": "開心享用料理的人"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 8000201,
+    "text": "뿔을 빤히 쳐다보는 사람",
+    "textCn": "盯着角看的人",
+    "textEn": "Someone who stares \\nat her horns",
+    "textJp": "角をまじまじと見てくる人間",
+    "textTw": "盯著角看的人"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 9000201,
+    "text": "사명, 그리고 ...동료",
+    "textCn": "使命，还有…伙伴",
+    "textEn": "My mission and...\\nmy companions",
+    "textJp": "使命、そして…仲間",
+    "textTw": "使命，還有…夥伴"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 10000201,
+    "text": "어떻게 그 어린 나이에 기사 작위를 달고 다니는 건지 궁금하다고? 하하, 그녀와 검을 한 번이라도 부딪혀 보면 알게 될 거다.",
+    "textCn": "好奇她怎么能小小年纪就能拿到骑士爵位吗？哈哈，只要和她比一下剑，就会明白了。",
+    "textEn": "You want to know how she \\nwas able to be knighted at \\nsuch a young age? Haha, \\npeople who have crossed \\nswords with her at least \\nonce will know.",
+    "textJp": "あの歳で早々に騎士となった秘訣が知りたいって？ははっ、一度でも彼女と剣を交えればすぐに分かるさ。",
+    "textTw": "她小小年紀就能拿到騎士爵位，讓你感到好奇嗎？哈哈，只要和她比一下劍，疑問就能解開了。"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 11000201,
+    "text": "저 사람, 머리에 저거... 혹시 뿔 아닌가? 뿔이 돋았다니 평범한 사람은 아닌 것 같은데... 응? 뭐? 장식? 하하, 그럼 그렇지.",
+    "textCn": "那个人，长在她头上的…是角吗？头上能长出角来的，一定不是普通人…嗯？咦？是装饰？哈哈，这还差不多嘛。",
+    "textEn": "Those things on her head... \\nAren't those horns?\\nHaving horns means she is no \\nordinary person. But... Huh? \\nWhat? An ornament? \\nHaha, of course it is.",
+    "textJp": "あの人の、頭のアレ…もしかして角なのか？角が生えてるなんて普通の人とは思えないな…えっ？何だって？アクセサリー？ははっ、やっぱりそうか。",
+    "textTw": "那個人，長在她頭上的…是角嗎？頭上能長出角來的，一定不是平凡人…嗯？咦？是裝飾？哈哈，那還差不多。"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 12000201,
+    "text": "방해한다면 베겠어요.",
+    "textCn": "谁敢妨碍我，我就砍谁。",
+    "textEn": "I will cut you down if you get in my way.",
+    "textJp": "邪魔をするのなら切り伏せます。",
+    "textTw": "誰敢妨礙我，我就砍誰。"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 13000201,
+    "text": "모두, 싸울 준비를 하지요.",
+    "textCn": "各位，准备战斗吧。",
+    "textEn": "Everyone, ready yourselves for a fight.",
+    "textJp": "皆さん、戦う準備をしましょう。",
+    "textTw": "各位，準備戰鬥吧。"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 14000201,
+    "text": "악을 물리치는 것이, 저의 사명.",
+    "textCn": "击退邪恶是我的使命。",
+    "textEn": "To vanquish evil, is my duty.",
+    "textJp": "悪を退けるのが、我が使命。",
+    "textTw": "擊退邪惡是我的使命。"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 15000201,
+    "text": "다쳤나요. 요리를 해야겠군요.",
+    "textCn": "受伤了吗？看来要做料理了。",
+    "textEn": "Injured? Time to cook something...",
+    "textJp": "お怪我をされたのですか。料理をしなければなりせんね。",
+    "textTw": "受傷了嗎？看來要做料理了。"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 16000201,
+    "text": "끝났군요.",
+    "textCn": "结束了。",
+    "textEn": "It's over.",
+    "textJp": "終わりましたね。",
+    "textTw": "結束了。"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 17000201,
+    "text": "이것이 악의 말로입니다.",
+    "textCn": "这就是邪恶的下场。",
+    "textEn": "This is the fate of the evil.",
+    "textJp": "これこそ、悪が辿る末路です。",
+    "textTw": "這就是邪惡的下場。"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 18000201,
+    "text": "달빛 아래 잠들도록 해요.",
+    "textCn": "在月光下沉睡吧。",
+    "textEn": "Fall asleep under the moonlight.",
+    "textJp": "月の光の元でお眠りなさい。",
+    "textTw": "在月光下沉睡吧。"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 19000201,
+    "text": "전부 처단하겠어요!",
+    "textCn": "我要全部斩草除根！",
+    "textEn": "I will punish you all!",
+    "textJp": "全てを断罪いたします！",
+    "textTw": "我要全部斬草除根！"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 20000201,
+    "text": "악에게는 오직, 죽음뿐!",
+    "textCn": "邪恶只有死路一条！",
+    "textEn": "Death to all that is evil!",
+    "textJp": "悪には、死あるのみ！",
+    "textTw": "邪惡只有死路一條！"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 24000201,
+    "text": "마음이 따뜻해지는 요리에요.",
+    "textCn": "是道温暖人心的料理。",
+    "textEn": "This is a dish that warms the heart.",
+    "textJp": "心が暖まる料理です。",
+    "textTw": "是道溫暖人心的料理。"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 1065001,
+    "text": "이 도끼로 알란의 긍지를 보여주지!\\n자, 어디 한번 덤벼 봐!",
+    "textCn": "我要用这把斧头，展现出亚伦的荣誉心！来，放马过来！",
+    "textEn": "I'll show you the pride of Allan \\nthrough this axe!\\nNow, give me your best shot!",
+    "textJp": "この斧でアランの誇りを教えてやる！\\nさぁ、かかって来いっ！",
+    "textTw": "我要用這把斧頭，展現出亞倫的榮譽心！來，放馬過來！"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 3065001,
+    "text": "174cm",
+    "textCn": "174cm",
+    "textEn": "174cm",
+    "textJp": "174cm",
+    "textTw": "174cm"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 4065001,
+    "text": "7월 24일",
+    "textCn": "7月24日",
+    "textEn": "July 24th",
+    "textJp": "7月24日",
+    "textTw": "7月24日"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 5065001,
+    "text": "신생 용병단 전사",
+    "textCn": "新建佣兵团战士",
+    "textEn": "Rookie Mercenary Warrior",
+    "textJp": "新生傭兵団戦士",
+    "textTw": "新建傭兵團戰士"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 6065001,
+    "text": "도끼 날 다듬기",
+    "textCn": "打磨斧头的刀刃",
+    "textEn": "Sharpening her axe blade",
+    "textJp": "斧磨き",
+    "textTw": "打磨斧頭的刀刃"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 7065001,
+    "text": "고기 종류면 뭐든 다",
+    "textCn": "任何种类的肉类",
+    "textEn": "Any kind of meat",
+    "textJp": "肉なら何でも",
+    "textTw": "任何種類的肉類"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 8065001,
+    "text": "이름 가지고 놀리는 것",
+    "textCn": "拿名字开玩笑",
+    "textEn": "Teasing her about her name",
+    "textJp": "名前をからかわれる事",
+    "textTw": "拿名字來開玩笑"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 9065001,
+    "text": "용병단 식구 ...칼슨 빼고",
+    "textCn": "佣兵团成员…卡森除外",
+    "textEn": "The mercenary family... \\nexcept for Carlson",
+    "textJp": "傭兵団の皆…カーソンは除く。",
+    "textTw": "傭兵團成員…卡森除外"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 10065001,
+    "text": "항상 나서서 일을 도와주는 좋은 사람이야. 고기를 운반해 준 것도 베아트리체 씨거든. 결국 본인이 다 먹는다는 게 제일 문제지만.",
+    "textCn": "她是个乐于帮助别人的好人。上次帮忙搬运肉的也是比阿特丽丝小姐。问题是那些肉最后都被她吃光了。",
+    "textEn": "She's a good person who \\nalways takes the extra step to \\nhelp out. Beatrice is also the \\none who transports the meat.\\nWell, her biggest problem is \\nthat she ends up eating it all.",
+    "textJp": "いつも進んで仕事を手伝ってくれるいい人よ。肉を運んでくれたのもベアトリスさんだし。まぁ、本人が全部食べてしまうのは問題だけど。",
+    "textTw": "她是個樂於幫助別人的好人。上次幫忙搬運肉的也是比阿特麗絲小姐。問題是那些肉也是被她本人吃光的。"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 11065001,
+    "text": "이름은 영락없이 제국식인데, 행동거지는 알란인. 분명 뭔가 비밀이 있을 것 같은데 말이지....",
+    "textCn": "她有着典型的帝国式名字，可她的言行举止却是地地道道的亚伦人。她一定有一段不为人知的秘密…",
+    "textEn": "The name is undeniably regal,\\nbut her mannerisms are those \\nof the people of Allan. There \\nmust be some secret behind it...",
+    "textJp": "名前はどう聞いても帝国式なのに、言動は間違いなくアラン人。きっと何か秘密がありそうなんだけどな…。",
+    "textTw": "她有著典型的帝國式名字，可她的言行舉止卻是道道地地的亞倫人。她一定有一段不為人知的祕密…"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 12065001,
+    "text": "다치고 싶지 않으면 저리 꺼져!",
+    "textCn": "不想受伤的话就滚到一边去！",
+    "textEn": "Get lost if you don't want to get hurt!",
+    "textJp": "怪我したくないんなら、あっちに行ってろ！",
+    "textTw": "不想受傷的話就滾到一邊去！"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 13065001,
+    "text": "무기를 부딪칠 시간이야!",
+    "textCn": "是时候较量武器了！",
+    "textEn": "Time for our weapons to go head to head!",
+    "textJp": "武器を振るう時間だ！",
+    "textTw": "是時候較量武器了！"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 14065001,
+    "text": "뒤는 너희에게 맡기겠어!",
+    "textCn": "后面就交给你们！",
+    "textEn": "I'll leave the rear to you!",
+    "textJp": "後ろはお前たちに任せたぞ！",
+    "textTw": "後面就交給你們！"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 15065001,
+    "text": "너희, 꽤 하는데!",
+    "textCn": "你们很厉害嘛！",
+    "textEn": "You're pretty good, guys!",
+    "textJp": "お前たち、なかなかやるなぁ！",
+    "textTw": "你們很厲害嘛！"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 16065001,
+    "text": "고기나 먹으러 가자고!",
+    "textCn": "去吃肉吧！",
+    "textEn": "Let's go eat some meat or something!",
+    "textJp": "お肉でも食べに行こうか！",
+    "textTw": "去吃肉吧！"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 17065001,
+    "text": "이 정도쯤이야!",
+    "textCn": "轻而易举！",
+    "textEn": "This is nothing!",
+    "textJp": "この程度ならっ！",
+    "textTw": "輕而易舉！"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 18065001,
+    "text": "끝장을 내주겠어!",
+    "textCn": "我来做个了结！",
+    "textEn": "I will finish you!",
+    "textJp": "ケリをつけてやる！",
+    "textTw": "我來做個了結！"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 19065001,
+    "text": "말은 필요 없어!",
+    "textCn": "不需要多说！",
+    "textEn": "Enough talk!",
+    "textJp": "言葉なんていらない！",
+    "textTw": "不需要多說！"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 20065001,
+    "text": "지옥으로 보내주마!",
+    "textCn": "送你下地狱！",
+    "textEn": "Time to go to hell!",
+    "textJp": "地獄に落としてやるっ！",
+    "textTw": "送你下地獄！"
+  }
 ]

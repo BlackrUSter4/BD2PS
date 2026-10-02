@@ -1,3 +1,46 @@
 [
-  { "charLevelGroupId": 101, "classupItemCount": [ 1, 1000 ], "classupItemId": [ 11, 0 ], "classupItemType": [ 8, 4 ], "id": 101, "maxLevel": 20 }
+  {
+    "charLevelGroupId": 101,
+    "classupItemCount": [
+      1,
+      1000
+    ],
+    "classupItemId": [
+      11,
+      0
+    ],
+    "classupItemType": [
+      8,
+      4
+    ],
+    "id": 101,
+    "maxLevel": 20
+  },
+  {
+    "charLevelGroupId": 305,
+    "id": 305,
+    "maxLevel": 100
+  },
+  {
+    "charLevelGroupId": 203,
+    "id": 203,
+    "maxLevel": 60
+  },
+  {
+    "charLevelGroupId": 105,
+    "classupItemCount": [
+      5,
+      5000
+    ],
+    "classupItemId": [
+      15,
+      0
+    ],
+    "classupItemType": [
+      8,
+      4
+    ],
+    "id": 105,
+    "maxLevel": 100
+  }
 ]

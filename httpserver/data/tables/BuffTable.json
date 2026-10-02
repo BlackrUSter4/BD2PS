@@ -1,32 +1,3801 @@
 [
-  { "buffDescSkillTextId": 20001, "buffDisplayType": 1, "buffDisplayValue": 1, "buffGroup": [ 101, 200, 300, 0 ], "buffIconSpriteName": "bufficon_54", "buffSkillTextId": 10001, "buffType": 1, "buffValue": 1.5, "classType": "DotDamage", "id": 101001, "statType": 3 },
-  { "buffApplyType": 2, "buffDescSkillTextId": 20006, "buffDisplayType": 1, "buffDisplayValue": 1, "buffGroup": [ 100, 200, 300, 2001, 200100 ], "buffIconSpriteName": "bufficon_5", "buffSkillTextId": 10018, "buffTurn": 2, "buffValue": 0.5, "classType": "BloodBlessing", "effectPrefabName": "Effect/Prefabs/buffEff_5", "id": 101002, "magicValue": 0.05, "statType": 3 },
-  { "buffDescSkillTextId": 20045, "buffDisplayType": 1, "buffDisplayValue": 1, "buffGroup": [ 101, 200, 300, 0 ], "buffIconSpriteName": "bufficon_1", "buffSkillTextId": 10011, "buffType": 1, "buffValue": 2.75, "classType": "DotDamage", "id": 202001, "statType": 3, "subType": 1 },
-  { "buffDescSkillTextId": 20002, "buffDisplayType": 1, "buffDisplayValue": 1, "buffGroup": [ 101, 200, 300, 0 ], "buffIconSpriteName": "bufficon_55", "buffSkillTextId": 10002, "buffType": 1, "buffValue": 0.75, "classType": "DotDamage", "id": 201001, "statType": 3, "subType": 1 },
-  { "buffDescSkillTextId": 20001, "buffDisplayType": 1, "buffDisplayValue": 1, "buffGroup": [ 101, 200, 300, 0 ], "buffIconSpriteName": "bufficon_54", "buffSkillTextId": 10001, "buffType": 1, "buffValue": 1, "classType": "DotDamage", "id": 901001, "statType": 3 },
-  { "buffDescSkillTextId": 20005, "buffDisplayType": 1, "buffDisplayValue": 1, "buffGroup": [ 101, 200, 300, 1001, 100100 ], "buffIconSpriteName": "bufficon_12", "buffSkillTextId": 10017, "buffTurn": 4, "buffType": 1, "buffValue": -0.5, "classType": "StatBuff", "effectPrefabName": "Effect/Prefabs/buffEff_12", "id": 901002, "ownerType": 1, "statType": 3 },
-  { "buffDescSkillTextId": 20066, "buffDisplayType": 1, "buffDisplayValue": 1, "buffGroup": [ 100, 200, 300, 2017, 201701 ], "buffIconSpriteName": "bufficon_90", "buffSkillTextId": 10007, "buffValue": 2, "classType": "SkillPointBuff", "id": 1601001, "subType": 1 },
-  { "buffDescSkillTextId": 20001, "buffDisplayType": 1, "buffDisplayValue": 1, "buffGroup": [ 101, 200, 300, 0 ], "buffIconSpriteName": "bufficon_54", "buffSkillTextId": 10001, "buffType": 1, "buffValue": 0.5, "classType": "DotDamage", "id": 1601002, "statType": 3 },
-  { "buffDescSkillTextId": 20025, "buffDisplayType": 1, "buffDisplayValue": 1, "buffGroup": [ 101, 200, 300, 1003 ], "buffIconSpriteName": "bufficon_25", "buffSkillTextId": 10066, "buffTurn": 2, "buffType": 1, "classType": "BuffParent", "effectPrefabName": "Effect/Prefabs/buffEff_25", "id": 1601003, "subType": 4 },
-  { "buffDescSkillTextId": 20035, "buffDisplayType": 1, "buffDisplayValue": 1, "buffGroup": [ 101, 200, 300, 0 ], "buffIconSpriteName": "bufficon_2", "buffSkillTextId": 10024, "buffType": 1, "buffValue": 6, "classType": "DotDamage", "id": 21301001, "statType": 4 },
-  { "buffApplyType": 2, "buffCountType": 4, "buffDescSkillTextId": 20100, "buffDisplayType": 1, "buffDisplayValue": 1, "buffGroup": [ 100, 200, 304, 2007, 200701 ], "buffIconSpriteName": "bufficon_62", "buffSkillTextId": 10077, "buffTurn": 1, "buffValue": 1, "classType": "Dodge", "id": 21301002, "subType": 1 },
-  { "buffDescSkillTextId": 20087, "buffDisplayType": 1, "buffDisplayValue": 1, "buffGroup": [ 101, 200, 300, 0 ], "buffIconSpriteName": "bufficon_4", "buffSkillTextId": 10056, "buffType": 1, "buffValue": 3, "classType": "SelfDestruction", "id": 60101001, "statType": 3 },
-  { "buffApplyType": 2, "buffDescSkillTextId": 20076, "buffDisplayType": 1, "buffDisplayValue": 1, "buffGroup": [ 100, 200, 300, 2006, 200600, 2006000 ], "buffIconSpriteName": "bufficon_37", "buffSkillTextId": 10040, "buffTurn": 2, "buffValue": 0.45, "classType": "Barrier", "id": 60601001 },
-  { "buffApplyType": 2, "buffDescSkillTextId": 20101, "buffDisplayType": 1, "buffDisplayValue": 1, "buffGroup": [ 100, 200, 300, 2003 ], "buffIconSpriteName": "bufficon_26", "buffSkillTextId": 10022, "buffTurn": 2, "classType": "BuffParent", "effectPrefabName": "Effect/Prefabs/buffEff_26", "id": 60601002, "subType": 2 },
-  { "AddBuffId": 9002, "buffDescSkillTextId": 20046, "buffDisplayType": 1, "buffDisplayValue": 1, "buffGroup": [ 101, 200, 300, 1005, 100503 ], "buffIconSpriteName": "bufficon_3", "buffSkillTextId": 10021, "buffTurn": 2, "buffType": 1, "classType": "KnockBack", "id": 62102001, "magicValue": 1, "statType": 1, "subType": 4 },
-  { "buffDisplayType": 1, "buffGroup": [ 101, 200, 300, 0, 0, 0, 0, 0, 0, 0 ], "buffType": 1, "classType": "BuffParent", "effectPrefabName": "Effect/Prefabs/CharCrashEff", "id": 9002, "subType": 5 },
-  { "buffApplyType": 2, "buffDescSkillTextId": 20083, "buffDisplayType": 1, "buffDisplayValue": 1, "buffGroup": [ 100, 200, 300, 2017, 201700 ], "buffIconSpriteName": "bufficon_90", "buffSkillTextId": 10007, "buffValue": 3, "classType": "SkillPointBuff", "id": 62102002 },
-  { "buffDescSkillTextId": 20044, "buffDisplayType": 1, "buffDisplayValue": 1, "buffGroup": [ 101, 200, 300, 1004, 100400 ], "buffIconSpriteName": "bufficon_19", "buffSkillTextId": 10061, "buffTurn": 6, "buffType": 1, "buffValue": 0.5, "classType": "DotDamage", "effectPrefabName": "Effect/Prefabs/buffEff_19", "id": 62102003, "statType": 3 },
-  { "buffApplyType": 1, "buffDescSkillTextId": 20006, "buffDisplayType": 1, "buffDisplayValue": 1, "buffGroup": [ 100, 200, 300, 2001, 200100 ], "buffIconSpriteName": "bufficon_5", "buffSkillTextId": 10018, "buffTurn": 6, "buffValue": 0.25, "classType": "StatBuff", "effectPrefabName": "Effect/Prefabs/buffEff_5", "id": 62601001, "ownerType": 1, "statType": 3 },
-  { "buffApplyType": 1, "buffDescSkillTextId": 20028, "buffDisplayType": 1, "buffDisplayValue": 1, "buffGroup": [ 100, 200, 300, 2001, 200104 ], "buffIconSpriteName": "bufficon_9", "buffSkillTextId": 10065, "buffTurn": 6, "buffValue": 0.3, "classType": "StatBuff", "effectPrefabName": "Effect/Prefabs/buffEff_9", "id": 62601002, "ownerType": 1, "statType": 7 },
-  { "buffApplyType": 2, "buffDescSkillTextId": 20006, "buffDisplayType": 1, "buffDisplayValue": 1, "buffGroup": [ 100, 200, 300, 2001, 200100 ], "buffIconSpriteName": "bufficon_5", "buffSkillTextId": 10018, "buffTurn": 6, "buffValue": 2, "classType": "StatBuff", "effectPrefabName": "Effect/Prefabs/buffEff_5", "id": 62801101, "statType": 3 },
-  { "buffDescSkillTextId": 20002, "buffDisplayType": 1, "buffDisplayValue": 1, "buffGroup": [ 101, 200, 300, 0 ], "buffIconSpriteName": "bufficon_55", "buffSkillTextId": 10002, "buffType": 1, "buffValue": 0.6, "classType": "DotDamage", "id": 63001101, "statType": 3 },
-  { "buffDescSkillTextId": 20001, "buffDisplayType": 1, "buffDisplayValue": 1, "buffGroup": [ 101, 200, 300, 0 ], "buffIconSpriteName": "bufficon_54", "buffSkillTextId": 10001, "buffType": 1, "buffValue": 0.25, "classType": "DotDamage", "id": 63301001, "statType": 4 },
-  { "buffCountType": 1, "buffDescSkillTextId": 20034, "buffDisplayType": 1, "buffDisplayValue": 1, "buffGroup": [ 101, 200, 301, 1004, 100404 ], "buffIconSpriteName": "bufficon_60", "buffSkillTextId": 10023, "buffTurn": 8, "buffType": 1, "buffValue": 0.75, "classType": "DotDamage", "id": 63301002, "statType": 4 },
-  { "buffApplyType": 2, "buffDescSkillTextId": 20075, "buffDisplayType": 1, "buffDisplayValue": 1, "buffGroup": [ 100, 200, 300, 2006, 200600, 2006001 ], "buffIconSpriteName": "bufficon_37", "buffSkillTextId": 10040, "buffTurn": 2, "buffValue": 0.35, "classType": "Barrier", "id": 64701101, "subType": 1 },
-  { "buffDescSkillTextId": 20045, "buffDisplayType": 1, "buffDisplayValue": 1, "buffGroup": [ 101, 200, 300, 0 ], "buffIconSpriteName": "bufficon_1", "buffSkillTextId": 10011, "buffType": 1, "buffValue": 2, "classType": "DotDamage", "id": 64801101, "statType": 3 },
-  { "buffDescSkillTextId": 20001, "buffDisplayType": 1, "buffDisplayValue": 1, "buffGroup": [ 101, 200, 300, 0 ], "buffIconSpriteName": "bufficon_54", "buffSkillTextId": 10001, "buffType": 1, "buffValue": 0.35, "classType": "DotDamage", "id": 64901101, "statType": 3 },
-  { "buffDescSkillTextId": 20085, "buffDisplayType": 1, "buffDisplayValue": 1, "buffGroup": [ 101, 200, 300, 1006 ], "buffIconSpriteName": "bufficon_27", "buffSkillTextId": 10055, "buffTurn": 4, "buffType": 1, "classType": "BuffParent", "effectPrefabName": "Effect/Prefabs/buffEff_27", "id": 64901102, "subType": 3 },
-  { "buffDescSkillTextId": 20001, "buffDisplayType": 1, "buffDisplayValue": 1, "buffGroup": [ 101, 200, 300, 0 ], "buffIconSpriteName": "bufficon_54", "buffSkillTextId": 10001, "buffType": 1, "buffValue": 1.25, "classType": "DotDamage", "id": 65001101, "statType": 3, "subType": 1 },
-  { "buffDescSkillTextId": 20165, "buffDisplayType": 1, "buffDisplayValue": 1, "buffGroup": [ 101, 200, 300, 0 ], "buffIconSpriteName": "bufficon_57", "buffSkillTextId": 10129, "buffType": 1, "buffValue": 0.6, "classType": "DotDamage", "id": 67601001, "statType": 3 }
+  {
+    "buffDescSkillTextId": 20001,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_54",
+    "buffSkillTextId": 10001,
+    "buffType": 1,
+    "buffValue": 1.5,
+    "classType": "DotDamage",
+    "id": 101001,
+    "statType": 3
+  },
+  {
+    "buffApplyType": 2,
+    "buffDescSkillTextId": 20006,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2001,
+      200100
+    ],
+    "buffIconSpriteName": "bufficon_5",
+    "buffSkillTextId": 10018,
+    "buffTurn": 2,
+    "buffValue": 0.5,
+    "classType": "BloodBlessing",
+    "effectPrefabName": "Effect/Prefabs/buffEff_5",
+    "id": 101002,
+    "magicValue": 0.05,
+    "statType": 3
+  },
+  {
+    "buffDescSkillTextId": 20045,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_1",
+    "buffSkillTextId": 10011,
+    "buffType": 1,
+    "buffValue": 2.75,
+    "classType": "DotDamage",
+    "id": 202001,
+    "statType": 3,
+    "subType": 1
+  },
+  {
+    "buffDescSkillTextId": 20002,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_55",
+    "buffSkillTextId": 10002,
+    "buffType": 1,
+    "buffValue": 0.75,
+    "classType": "DotDamage",
+    "id": 201001,
+    "statType": 3,
+    "subType": 1
+  },
+  {
+    "buffDescSkillTextId": 20001,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_54",
+    "buffSkillTextId": 10001,
+    "buffType": 1,
+    "buffValue": 1,
+    "classType": "DotDamage",
+    "id": 901001,
+    "statType": 3
+  },
+  {
+    "buffDescSkillTextId": 20005,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      1001,
+      100100
+    ],
+    "buffIconSpriteName": "bufficon_12",
+    "buffSkillTextId": 10017,
+    "buffTurn": 4,
+    "buffType": 1,
+    "buffValue": -0.5,
+    "classType": "StatBuff",
+    "effectPrefabName": "Effect/Prefabs/buffEff_12",
+    "id": 901002,
+    "ownerType": 1,
+    "statType": 3
+  },
+  {
+    "buffDescSkillTextId": 20066,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2017,
+      201701
+    ],
+    "buffIconSpriteName": "bufficon_90",
+    "buffSkillTextId": 10007,
+    "buffValue": 2,
+    "classType": "SkillPointBuff",
+    "id": 1601001,
+    "subType": 1
+  },
+  {
+    "buffDescSkillTextId": 20001,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_54",
+    "buffSkillTextId": 10001,
+    "buffType": 1,
+    "buffValue": 0.5,
+    "classType": "DotDamage",
+    "id": 1601002,
+    "statType": 3
+  },
+  {
+    "buffDescSkillTextId": 20025,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      1003
+    ],
+    "buffIconSpriteName": "bufficon_25",
+    "buffSkillTextId": 10066,
+    "buffTurn": 2,
+    "buffType": 1,
+    "classType": "BuffParent",
+    "effectPrefabName": "Effect/Prefabs/buffEff_25",
+    "id": 1601003,
+    "subType": 4
+  },
+  {
+    "buffDescSkillTextId": 20035,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_2",
+    "buffSkillTextId": 10024,
+    "buffType": 1,
+    "buffValue": 6,
+    "classType": "DotDamage",
+    "id": 21301001,
+    "statType": 4
+  },
+  {
+    "buffApplyType": 2,
+    "buffCountType": 4,
+    "buffDescSkillTextId": 20100,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      304,
+      2007,
+      200701
+    ],
+    "buffIconSpriteName": "bufficon_62",
+    "buffSkillTextId": 10077,
+    "buffTurn": 1,
+    "buffValue": 1,
+    "classType": "Dodge",
+    "id": 21301002,
+    "subType": 1
+  },
+  {
+    "buffDescSkillTextId": 20087,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_4",
+    "buffSkillTextId": 10056,
+    "buffType": 1,
+    "buffValue": 3,
+    "classType": "SelfDestruction",
+    "id": 60101001,
+    "statType": 3
+  },
+  {
+    "buffApplyType": 2,
+    "buffDescSkillTextId": 20076,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2006,
+      200600,
+      2006000
+    ],
+    "buffIconSpriteName": "bufficon_37",
+    "buffSkillTextId": 10040,
+    "buffTurn": 2,
+    "buffValue": 0.45,
+    "classType": "Barrier",
+    "id": 60601001
+  },
+  {
+    "buffApplyType": 2,
+    "buffDescSkillTextId": 20101,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2003
+    ],
+    "buffIconSpriteName": "bufficon_26",
+    "buffSkillTextId": 10022,
+    "buffTurn": 2,
+    "classType": "BuffParent",
+    "effectPrefabName": "Effect/Prefabs/buffEff_26",
+    "id": 60601002,
+    "subType": 2
+  },
+  {
+    "AddBuffId": 9002,
+    "buffDescSkillTextId": 20046,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      1005,
+      100503
+    ],
+    "buffIconSpriteName": "bufficon_3",
+    "buffSkillTextId": 10021,
+    "buffTurn": 2,
+    "buffType": 1,
+    "classType": "KnockBack",
+    "id": 62102001,
+    "magicValue": 1,
+    "statType": 1,
+    "subType": 4
+  },
+  {
+    "buffDisplayType": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "buffType": 1,
+    "classType": "BuffParent",
+    "effectPrefabName": "Effect/Prefabs/CharCrashEff",
+    "id": 9002,
+    "subType": 5
+  },
+  {
+    "buffApplyType": 2,
+    "buffDescSkillTextId": 20083,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2017,
+      201700
+    ],
+    "buffIconSpriteName": "bufficon_90",
+    "buffSkillTextId": 10007,
+    "buffValue": 3,
+    "classType": "SkillPointBuff",
+    "id": 62102002
+  },
+  {
+    "buffDescSkillTextId": 20044,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      1004,
+      100400
+    ],
+    "buffIconSpriteName": "bufficon_19",
+    "buffSkillTextId": 10061,
+    "buffTurn": 6,
+    "buffType": 1,
+    "buffValue": 0.5,
+    "classType": "DotDamage",
+    "effectPrefabName": "Effect/Prefabs/buffEff_19",
+    "id": 62102003,
+    "statType": 3
+  },
+  {
+    "buffApplyType": 1,
+    "buffDescSkillTextId": 20006,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2001,
+      200100
+    ],
+    "buffIconSpriteName": "bufficon_5",
+    "buffSkillTextId": 10018,
+    "buffTurn": 6,
+    "buffValue": 0.25,
+    "classType": "StatBuff",
+    "effectPrefabName": "Effect/Prefabs/buffEff_5",
+    "id": 62601001,
+    "ownerType": 1,
+    "statType": 3
+  },
+  {
+    "buffApplyType": 1,
+    "buffDescSkillTextId": 20028,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2001,
+      200104
+    ],
+    "buffIconSpriteName": "bufficon_9",
+    "buffSkillTextId": 10065,
+    "buffTurn": 6,
+    "buffValue": 0.3,
+    "classType": "StatBuff",
+    "effectPrefabName": "Effect/Prefabs/buffEff_9",
+    "id": 62601002,
+    "ownerType": 1,
+    "statType": 7
+  },
+  {
+    "buffApplyType": 2,
+    "buffDescSkillTextId": 20006,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2001,
+      200100
+    ],
+    "buffIconSpriteName": "bufficon_5",
+    "buffSkillTextId": 10018,
+    "buffTurn": 6,
+    "buffValue": 2,
+    "classType": "StatBuff",
+    "effectPrefabName": "Effect/Prefabs/buffEff_5",
+    "id": 62801101,
+    "statType": 3
+  },
+  {
+    "buffDescSkillTextId": 20002,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_55",
+    "buffSkillTextId": 10002,
+    "buffType": 1,
+    "buffValue": 0.6,
+    "classType": "DotDamage",
+    "id": 63001101,
+    "statType": 3
+  },
+  {
+    "buffDescSkillTextId": 20001,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_54",
+    "buffSkillTextId": 10001,
+    "buffType": 1,
+    "buffValue": 0.25,
+    "classType": "DotDamage",
+    "id": 63301001,
+    "statType": 4
+  },
+  {
+    "buffCountType": 1,
+    "buffDescSkillTextId": 20034,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      301,
+      1004,
+      100404
+    ],
+    "buffIconSpriteName": "bufficon_60",
+    "buffSkillTextId": 10023,
+    "buffTurn": 8,
+    "buffType": 1,
+    "buffValue": 0.75,
+    "classType": "DotDamage",
+    "id": 63301002,
+    "statType": 4
+  },
+  {
+    "buffApplyType": 2,
+    "buffDescSkillTextId": 20075,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2006,
+      200600,
+      2006001
+    ],
+    "buffIconSpriteName": "bufficon_37",
+    "buffSkillTextId": 10040,
+    "buffTurn": 2,
+    "buffValue": 0.35,
+    "classType": "Barrier",
+    "id": 64701101,
+    "subType": 1
+  },
+  {
+    "buffDescSkillTextId": 20045,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_1",
+    "buffSkillTextId": 10011,
+    "buffType": 1,
+    "buffValue": 2,
+    "classType": "DotDamage",
+    "id": 64801101,
+    "statType": 3
+  },
+  {
+    "buffDescSkillTextId": 20001,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_54",
+    "buffSkillTextId": 10001,
+    "buffType": 1,
+    "buffValue": 0.35,
+    "classType": "DotDamage",
+    "id": 64901101,
+    "statType": 3
+  },
+  {
+    "buffDescSkillTextId": 20085,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      1006
+    ],
+    "buffIconSpriteName": "bufficon_27",
+    "buffSkillTextId": 10055,
+    "buffTurn": 4,
+    "buffType": 1,
+    "classType": "BuffParent",
+    "effectPrefabName": "Effect/Prefabs/buffEff_27",
+    "id": 64901102,
+    "subType": 3
+  },
+  {
+    "buffDescSkillTextId": 20001,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_54",
+    "buffSkillTextId": 10001,
+    "buffType": 1,
+    "buffValue": 1.25,
+    "classType": "DotDamage",
+    "id": 65001101,
+    "statType": 3,
+    "subType": 1
+  },
+  {
+    "buffDescSkillTextId": 20165,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_57",
+    "buffSkillTextId": 10129,
+    "buffType": 1,
+    "buffValue": 0.6,
+    "classType": "DotDamage",
+    "id": 67601001,
+    "statType": 3
+  },
+  {
+    "buffDescSkillTextId": 20002,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_55",
+    "buffSkillTextId": 10002,
+    "buffType": 1,
+    "buffValue": 0.75,
+    "classType": "DotDamage",
+    "id": 106001,
+    "statType": 3
+  },
+  {
+    "buffApplyType": 2,
+    "buffDescSkillTextId": 20028,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2001,
+      200104
+    ],
+    "buffIconSpriteName": "bufficon_9",
+    "buffSkillTextId": 10065,
+    "buffTurn": 2,
+    "buffValue": 1,
+    "classType": "BloodBlessing",
+    "effectPrefabName": "Effect/Prefabs/buffEff_9",
+    "id": 106002,
+    "magicValue": 0.05,
+    "statType": 7
+  },
+  {
+    "buffApplyType": 1,
+    "buffDescSkillTextId": 20006,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2001,
+      200100
+    ],
+    "buffIconSpriteName": "bufficon_5",
+    "buffSkillTextId": 10018,
+    "buffTurn": 4,
+    "buffValue": 0.6,
+    "classType": "StatBuff",
+    "effectPrefabName": "Effect/Prefabs/buffEff_5",
+    "id": 103001,
+    "ownerType": 1,
+    "statType": 3
+  },
+  {
+    "buffApplyType": 1,
+    "buffDescSkillTextId": 20006,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2001,
+      200100
+    ],
+    "buffIconSpriteName": "bufficon_5",
+    "buffSkillTextId": 10018,
+    "buffTurn": 2,
+    "buffValue": 0.25,
+    "classType": "StatBuff",
+    "effectPrefabName": "Effect/Prefabs/buffEff_5",
+    "id": 103002,
+    "ownerType": 1,
+    "statType": 3
+  },
+  {
+    "buffDescSkillTextId": 20002,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_55",
+    "buffSkillTextId": 10002,
+    "buffType": 1,
+    "buffValue": 1,
+    "classType": "DotDamage",
+    "id": 406001,
+    "statType": 3
+  },
+  {
+    "buffApplyType": 2,
+    "buffDescSkillTextId": 20028,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2001,
+      200104
+    ],
+    "buffIconSpriteName": "bufficon_9",
+    "buffSkillTextId": 10065,
+    "buffTurn": 4,
+    "buffValue": 0.5,
+    "classType": "StatBuff",
+    "effectPrefabName": "Effect/Prefabs/buffEff_9",
+    "id": 406002,
+    "statType": 7
+  },
+  {
+    "buffApplyType": 2,
+    "buffDescSkillTextId": 20030,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2001,
+      200105
+    ],
+    "buffIconSpriteName": "bufficon_10",
+    "buffSkillTextId": 10063,
+    "buffTurn": 4,
+    "buffValue": 0.5,
+    "classType": "StatBuff",
+    "effectPrefabName": "Effect/Prefabs/buffEff_10",
+    "id": 406003,
+    "statType": 8
+  },
+  {
+    "buffDescSkillTextId": 20004,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_57",
+    "buffSkillTextId": 10004,
+    "buffType": 1,
+    "buffValue": 0.5,
+    "classType": "DotDamage",
+    "id": 402101,
+    "statType": 3
+  },
+  {
+    "buffDescSkillTextId": 20017,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      1001,
+      100102
+    ],
+    "buffIconSpriteName": "bufficon_14",
+    "buffSkillTextId": 10038,
+    "buffTurn": 2,
+    "buffType": 1,
+    "buffValue": -0.5,
+    "classType": "StatBuff",
+    "effectPrefabName": "Effect/Prefabs/buffEff_14",
+    "id": 402102,
+    "ownerType": 1,
+    "statType": 5
+  },
+  {
+    "buffDescSkillTextId": 20045,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_1",
+    "buffSkillTextId": 10011,
+    "buffType": 1,
+    "buffValue": 3.5,
+    "classType": "DotDamage",
+    "id": 506001,
+    "statType": 3
+  },
+  {
+    "buffApplyType": 2,
+    "buffDescSkillTextId": 20028,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2001,
+      200104
+    ],
+    "buffIconSpriteName": "bufficon_9",
+    "buffSkillTextId": 10065,
+    "buffTurn": 1,
+    "buffValue": 0.5,
+    "classType": "StatBuff",
+    "effectPrefabName": "Effect/Prefabs/buffEff_9",
+    "id": 506002,
+    "statType": 7
+  },
+  {
+    "buffDescSkillTextId": 20068,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      1017,
+      101702
+    ],
+    "buffIconSpriteName": "bufficon_49",
+    "buffSkillTextId": 10005,
+    "buffType": 1,
+    "classType": "SkillPointBuff",
+    "id": 701001,
+    "magicValue": 3,
+    "subType": 1
+  },
+  {
+    "buffDescSkillTextId": 20002,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_55",
+    "buffSkillTextId": 10002,
+    "buffType": 1,
+    "buffValue": 2.2,
+    "classType": "DotDamage",
+    "id": 701002,
+    "statType": 4
+  },
+  {
+    "buffApplyType": 2,
+    "buffDescSkillTextId": 20080,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2004,
+      200400
+    ],
+    "buffIconSpriteName": "bufficon_29",
+    "buffSkillTextId": 10076,
+    "buffValue": 0.35,
+    "classType": "Heal",
+    "effectPrefabName": "Effect/Prefabs/buffEff_29",
+    "id": 701003,
+    "statType": 1
+  },
+  {
+    "buffDescSkillTextId": 20001,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_54",
+    "buffSkillTextId": 10001,
+    "buffType": 1,
+    "buffValue": 4.2,
+    "classType": "DotDamage",
+    "id": 707001,
+    "statType": 4
+  },
+  {
+    "buffDescSkillTextId": 20001,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_54",
+    "buffSkillTextId": 10001,
+    "buffType": 1,
+    "buffValue": 1.2,
+    "classType": "DotDamage",
+    "id": 806001,
+    "statType": 3
+  },
+  {
+    "buffApplyType": 2,
+    "buffCountType": 4,
+    "buffDescSkillTextId": 20100,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      304,
+      2007,
+      200701
+    ],
+    "buffIconSpriteName": "bufficon_62",
+    "buffSkillTextId": 10077,
+    "buffTurn": 2,
+    "buffValue": 1,
+    "classType": "Dodge",
+    "id": 806002,
+    "subType": 1
+  },
+  {
+    "buffApplyType": 2,
+    "buffDescSkillTextId": 20006,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2001,
+      200100
+    ],
+    "buffIconSpriteName": "bufficon_5",
+    "buffSkillTextId": 10018,
+    "buffTurn": 4,
+    "buffValue": 0.5,
+    "classType": "StatBuff",
+    "effectPrefabName": "Effect/Prefabs/buffEff_5",
+    "id": 806003,
+    "statType": 3
+  },
+  {
+    "buffDescSkillTextId": 20106,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_57",
+    "buffSkillTextId": 10085,
+    "buffType": 1,
+    "buffValue": 0.48,
+    "classType": "DotDamage",
+    "id": 804101,
+    "statType": 3
+  },
+  {
+    "buffDescSkillTextId": 20017,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      1001,
+      100102
+    ],
+    "buffIconSpriteName": "bufficon_14",
+    "buffSkillTextId": 10038,
+    "buffTurn": 4,
+    "buffType": 1,
+    "buffValue": -0.25,
+    "classType": "StatBuff",
+    "effectPrefabName": "Effect/Prefabs/buffEff_14",
+    "id": 804102,
+    "ownerType": 1,
+    "statType": 5
+  },
+  {
+    "buffDescSkillTextId": 20002,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_55",
+    "buffSkillTextId": 10002,
+    "buffType": 1,
+    "buffValue": 0.4,
+    "classType": "DotDamage",
+    "id": 801001,
+    "statType": 3
+  },
+  {
+    "buffDescSkillTextId": 20044,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      1004,
+      100401
+    ],
+    "buffIconSpriteName": "bufficon_21",
+    "buffSkillTextId": 10075,
+    "buffTurn": 7,
+    "buffType": 1,
+    "buffValue": 1.5,
+    "classType": "DotDamage",
+    "effectPrefabName": "Effect/Prefabs/buffEff_21",
+    "id": 801002,
+    "statType": 3
+  },
+  {
+    "buffDescSkillTextId": 20001,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_54",
+    "buffSkillTextId": 10001,
+    "buffType": 1,
+    "buffValue": 2.5,
+    "classType": "DotDamage",
+    "id": 901501,
+    "statType": 3
+  },
+  {
+    "buffDescSkillTextId": 20005,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      1001,
+      100100
+    ],
+    "buffIconSpriteName": "bufficon_12",
+    "buffSkillTextId": 10017,
+    "buffTurn": 4,
+    "buffType": 1,
+    "buffValue": -0.5,
+    "classType": "StatBuff",
+    "effectPrefabName": "Effect/Prefabs/buffEff_12",
+    "id": 901502,
+    "ownerType": 1,
+    "statType": 3
+  },
+  {
+    "AddBuffId": 9002,
+    "buffDescSkillTextId": 20046,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      1005,
+      100503
+    ],
+    "buffIconSpriteName": "bufficon_3",
+    "buffSkillTextId": 10021,
+    "buffTurn": 2,
+    "buffType": 1,
+    "classType": "KnockBack",
+    "id": 1101001,
+    "magicValue": 0.5,
+    "statType": 1,
+    "subType": 4
+  },
+  {
+    "buffApplyType": 2,
+    "buffDescSkillTextId": 20083,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2017,
+      201700
+    ],
+    "buffIconSpriteName": "bufficon_90",
+    "buffSkillTextId": 10007,
+    "buffValue": 3,
+    "classType": "SkillPointBuff",
+    "id": 1101002
+  },
+  {
+    "buffDescSkillTextId": 20044,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      1004,
+      100400
+    ],
+    "buffIconSpriteName": "bufficon_19",
+    "buffSkillTextId": 10061,
+    "buffTurn": 6,
+    "buffType": 1,
+    "buffValue": 0.75,
+    "classType": "DotDamage",
+    "effectPrefabName": "Effect/Prefabs/buffEff_19",
+    "id": 1101003,
+    "statType": 3
+  },
+  {
+    "buffApplyType": 1,
+    "buffDescSkillTextId": 20159,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2013,
+      201304
+    ],
+    "buffIconSpriteName": "bufficon_94",
+    "buffSkillTextId": 10124,
+    "buffTurn": 4,
+    "buffValue": 1,
+    "classType": "EnhancedDamage",
+    "effectPrefabName": "Effect/Prefabs/buffEff_10",
+    "id": 1107001,
+    "magicValue": 5,
+    "subType": 4
+  },
+  {
+    "buffConditionId": 9,
+    "buffDescSkillTextId": 20045,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_1",
+    "buffSkillTextId": 10011,
+    "buffType": 1,
+    "buffValue": 4,
+    "classType": "DotDamage",
+    "conditionAddBuffId": 1207010,
+    "id": 1207001,
+    "statType": 3
+  },
+  {
+    "buffDescSkillTextId": 20045,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_1",
+    "buffSkillTextId": 10011,
+    "buffType": 1,
+    "buffValue": 5.5,
+    "classType": "DotDamage",
+    "id": 1207010,
+    "statType": 3
+  },
+  {
+    "buffDescSkillTextId": 20001,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_54",
+    "buffSkillTextId": 10001,
+    "buffType": 1,
+    "buffValue": 2.5,
+    "classType": "DotDamage",
+    "id": 1301501,
+    "statType": 3
+  },
+  {
+    "buffDescSkillTextId": 20005,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      1001,
+      100100
+    ],
+    "buffIconSpriteName": "bufficon_12",
+    "buffSkillTextId": 10017,
+    "buffTurn": 4,
+    "buffType": 1,
+    "buffValue": -0.5,
+    "classType": "StatBuff",
+    "effectPrefabName": "Effect/Prefabs/buffEff_12",
+    "id": 1301502,
+    "ownerType": 1,
+    "statType": 3
+  },
+  {
+    "AddBuffId": 9002,
+    "buffDescSkillTextId": 20046,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      1005,
+      100503
+    ],
+    "buffIconSpriteName": "bufficon_3",
+    "buffSkillTextId": 10021,
+    "buffTurn": 2,
+    "buffType": 1,
+    "classType": "KnockBack",
+    "id": 1401501,
+    "magicValue": 0.5,
+    "statType": 1,
+    "subType": 4
+  },
+  {
+    "buffApplyType": 2,
+    "buffDescSkillTextId": 20083,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2017,
+      201700
+    ],
+    "buffIconSpriteName": "bufficon_90",
+    "buffSkillTextId": 10007,
+    "buffValue": 4,
+    "classType": "SkillPointBuff",
+    "id": 1401502
+  },
+  {
+    "buffDescSkillTextId": 20044,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      1004,
+      100400
+    ],
+    "buffIconSpriteName": "bufficon_19",
+    "buffSkillTextId": 10061,
+    "buffTurn": 6,
+    "buffType": 1,
+    "buffValue": 0.5,
+    "classType": "DotDamage",
+    "effectPrefabName": "Effect/Prefabs/buffEff_19",
+    "id": 1401503,
+    "statType": 3
+  },
+  {
+    "buffApplyType": 1,
+    "buffDescSkillTextId": 20080,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2004,
+      200400
+    ],
+    "buffIconSpriteName": "bufficon_29",
+    "buffSkillTextId": 10076,
+    "buffValue": 1.5,
+    "classType": "Heal",
+    "effectPrefabName": "Effect/Prefabs/buffEff_29",
+    "id": 1501501,
+    "statType": 4
+  },
+  {
+    "buffApplyType": 1,
+    "buffDescSkillTextId": 20095,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_47",
+    "buffSkillTextId": 10059,
+    "buffValue": 1004,
+    "classType": "BuffGroupCancel",
+    "id": 1501502,
+    "magicValue": 9000
+  },
+  {
+    "buffDescSkillTextId": 20066,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2017,
+      201701
+    ],
+    "buffIconSpriteName": "bufficon_90",
+    "buffSkillTextId": 10007,
+    "buffValue": 3,
+    "classType": "SkillPointBuff",
+    "id": 1601501,
+    "subType": 1
+  },
+  {
+    "buffDescSkillTextId": 20001,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_54",
+    "buffSkillTextId": 10001,
+    "buffType": 1,
+    "buffValue": 1.1,
+    "classType": "DotDamage",
+    "id": 1601502,
+    "statType": 3
+  },
+  {
+    "buffDescSkillTextId": 20025,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      1003
+    ],
+    "buffIconSpriteName": "bufficon_25",
+    "buffSkillTextId": 10066,
+    "buffTurn": 2,
+    "buffType": 1,
+    "classType": "BuffParent",
+    "effectPrefabName": "Effect/Prefabs/buffEff_25",
+    "id": 1601503,
+    "subType": 4
+  },
+  {
+    "AddBuffId": 2401205,
+    "buffApplyType": 3,
+    "buffDescSkillTextId": 20119,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2009,
+      200900
+    ],
+    "buffIconSpriteName": "bufficon_80",
+    "buffSkillTextId": 10093,
+    "buffTurn": 8,
+    "classType": "Aura",
+    "effectPrefabName": "Effect/Prefabs/buffEff_80",
+    "id": 2401201
+  },
+  {
+    "buffApplyType": 1,
+    "buffCountType": 3,
+    "buffDescSkillTextId": 20120,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      303,
+      2001,
+      200108
+    ],
+    "buffIconSpriteName": "bufficon_81",
+    "buffSkillTextId": 10094,
+    "buffValue": 1.7,
+    "classType": "StatBuff",
+    "effectPrefabName": "Effect/Prefabs/buffEff_81",
+    "id": 2401205,
+    "magicValue": 0.2,
+    "ownerType": 1,
+    "statType": 11
+  },
+  {
+    "AddBuffId": 2406005,
+    "buffApplyType": 3,
+    "buffDescSkillTextId": 20119,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2009,
+      200900
+    ],
+    "buffIconSpriteName": "bufficon_80",
+    "buffSkillTextId": 10093,
+    "buffTurn": 2,
+    "classType": "Aura",
+    "effectPrefabName": "Effect/Prefabs/buffEff_80",
+    "id": 2406001
+  },
+  {
+    "buffApplyType": 1,
+    "buffCountType": 3,
+    "buffDescSkillTextId": 20079,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      303,
+      2006,
+      200601,
+      2006011
+    ],
+    "buffIconSpriteName": "bufficon_38",
+    "buffSkillTextId": 10051,
+    "buffValue": 5,
+    "classType": "EnergyGuard",
+    "id": 2406005,
+    "magicValue": 5,
+    "statType": 4,
+    "subType": 1
+  },
+  {
+    "buffDescSkillTextId": 20066,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2017,
+      201701
+    ],
+    "buffIconSpriteName": "bufficon_90",
+    "buffSkillTextId": 10007,
+    "buffValue": 1,
+    "classType": "SkillPointBuff",
+    "id": 3001501,
+    "subType": 1
+  },
+  {
+    "buffDescSkillTextId": 20001,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_54",
+    "buffSkillTextId": 10001,
+    "buffType": 1,
+    "buffValue": 1.8,
+    "classType": "DotDamage",
+    "id": 3001502,
+    "statType": 3
+  },
+  {
+    "buffApplyType": 1,
+    "buffDescSkillTextId": 20010,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2001,
+      200101
+    ],
+    "buffIconSpriteName": "bufficon_6",
+    "buffSkillTextId": 10029,
+    "buffTurn": 6,
+    "buffValue": 0.7,
+    "classType": "StatBuff",
+    "effectPrefabName": "Effect/Prefabs/buffEff_6",
+    "id": 3101501,
+    "ownerType": 1,
+    "statType": 4
+  },
+  {
+    "buffApplyType": 1,
+    "buffDescSkillTextId": 20028,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2001,
+      200104
+    ],
+    "buffIconSpriteName": "bufficon_9",
+    "buffSkillTextId": 10065,
+    "buffTurn": 6,
+    "buffValue": 0.35,
+    "classType": "StatBuff",
+    "effectPrefabName": "Effect/Prefabs/buffEff_9",
+    "id": 3101502,
+    "ownerType": 1,
+    "statType": 7
+  },
+  {
+    "buffApplyType": 2,
+    "buffDescSkillTextId": 20077,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_51",
+    "buffSkillTextId": 10046,
+    "buffValue": 5000,
+    "classType": "Summon",
+    "id": 3401001,
+    "magicValue": 1
+  },
+  {
+    "buffApplyType": 2,
+    "buffDescSkillTextId": 20077,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_51",
+    "buffSkillTextId": 10046,
+    "buffValue": 5010,
+    "classType": "Summon",
+    "id": 3401002,
+    "magicValue": 1
+  },
+  {
+    "buffDescSkillTextId": 20003,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_56",
+    "buffSkillTextId": 10003,
+    "buffType": 1,
+    "buffValue": 0.3,
+    "classType": "DotDamage",
+    "id": 20201001,
+    "statType": 3
+  },
+  {
+    "buffDescSkillTextId": 20002,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_55",
+    "buffSkillTextId": 10002,
+    "buffType": 1,
+    "buffValue": 1.5,
+    "classType": "DotDamage",
+    "id": 20301001,
+    "statType": 4
+  },
+  {
+    "buffApplyType": 2,
+    "buffCountType": 5,
+    "buffDescSkillTextId": 20159,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      305,
+      2013,
+      201314
+    ],
+    "buffIconSpriteName": "bufficon_113",
+    "buffSkillTextId": 10124,
+    "buffTurn": 1,
+    "buffValue": 4,
+    "classType": "EnhancedDamage",
+    "id": 20301002,
+    "subType": 14
+  },
+  {
+    "buffDescSkillTextId": 20004,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_57",
+    "buffSkillTextId": 10004,
+    "buffType": 1,
+    "buffValue": 0.9,
+    "classType": "DotDamage",
+    "id": 20401401,
+    "statType": 4
+  },
+  {
+    "buffDescSkillTextId": 20034,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      1004,
+      100404
+    ],
+    "buffIconSpriteName": "bufficon_60",
+    "buffSkillTextId": 10023,
+    "buffTurn": 3,
+    "buffType": 1,
+    "buffValue": 0.15,
+    "classType": "DotDamage",
+    "id": 20401402,
+    "overLapCount": 1,
+    "overLapMax": 99,
+    "statType": 4
+  },
+  {
+    "buffDescSkillTextId": 20165,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_57",
+    "buffSkillTextId": 10129,
+    "buffType": 1,
+    "buffValue": 0.7,
+    "classType": "DotDamage",
+    "id": 20501501,
+    "statType": 3
+  },
+  {
+    "buffDescSkillTextId": 20087,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_4",
+    "buffSkillTextId": 10056,
+    "buffType": 1,
+    "buffValue": 5,
+    "classType": "SelfDestruction",
+    "id": 60101501,
+    "statType": 3
+  },
+  {
+    "buffDescSkillTextId": 20002,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_55",
+    "buffSkillTextId": 10002,
+    "buffType": 1,
+    "buffValue": 0.2,
+    "classType": "DotDamage",
+    "id": 60102501,
+    "statType": 3
+  },
+  {
+    "buffDescSkillTextId": 20044,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      1004,
+      100401
+    ],
+    "buffIconSpriteName": "bufficon_21",
+    "buffSkillTextId": 10075,
+    "buffTurn": 3,
+    "buffType": 1,
+    "buffValue": 1.55,
+    "classType": "DotDamage",
+    "effectPrefabName": "Effect/Prefabs/buffEff_21",
+    "id": 60102502,
+    "statType": 3
+  },
+  {
+    "buffDescSkillTextId": 20066,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2017,
+      201701
+    ],
+    "buffIconSpriteName": "bufficon_90",
+    "buffSkillTextId": 10007,
+    "buffValue": 3,
+    "classType": "SkillPointBuff",
+    "id": 60201501,
+    "subType": 1
+  },
+  {
+    "buffDescSkillTextId": 20001,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_54",
+    "buffSkillTextId": 10001,
+    "buffType": 1,
+    "buffValue": 0.2,
+    "classType": "DotDamage",
+    "id": 60201502,
+    "statType": 4
+  },
+  {
+    "buffDescSkillTextId": 20025,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      1003
+    ],
+    "buffIconSpriteName": "bufficon_25",
+    "buffSkillTextId": 10066,
+    "buffTurn": 6,
+    "buffType": 1,
+    "classType": "BuffParent",
+    "effectPrefabName": "Effect/Prefabs/buffEff_25",
+    "id": 60201503,
+    "subType": 4
+  },
+  {
+    "buffDescSkillTextId": 20004,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_57",
+    "buffSkillTextId": 10004,
+    "buffType": 1,
+    "buffValue": 0.25,
+    "classType": "DotDamage",
+    "id": 60402001,
+    "statType": 4
+  },
+  {
+    "buffDescSkillTextId": 20009,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      1001,
+      100101
+    ],
+    "buffIconSpriteName": "bufficon_13",
+    "buffSkillTextId": 10028,
+    "buffTurn": 4,
+    "buffType": 1,
+    "buffValue": -0.35,
+    "classType": "StatBuff",
+    "effectPrefabName": "Effect/Prefabs/buffEff_13",
+    "id": 60402002,
+    "ownerType": 1,
+    "statType": 4
+  },
+  {
+    "buffApplyType": 2,
+    "buffDescSkillTextId": 20076,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2006,
+      200600,
+      2006000
+    ],
+    "buffIconSpriteName": "bufficon_37",
+    "buffSkillTextId": 10040,
+    "buffTurn": 2,
+    "buffValue": 0.55,
+    "classType": "Barrier",
+    "id": 60601101
+  },
+  {
+    "buffApplyType": 2,
+    "buffDescSkillTextId": 20101,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2003
+    ],
+    "buffIconSpriteName": "bufficon_26",
+    "buffSkillTextId": 10022,
+    "buffTurn": 2,
+    "classType": "BuffParent",
+    "effectPrefabName": "Effect/Prefabs/buffEff_26",
+    "id": 60601102,
+    "subType": 2
+  },
+  {
+    "buffDescSkillTextId": 20092,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_45",
+    "buffSkillTextId": 10041,
+    "buffType": 1,
+    "buffValue": 2006,
+    "classType": "BuffGroupCancel",
+    "id": 60701001,
+    "magicValue": 9000
+  },
+  {
+    "buffDescSkillTextId": 20045,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_1",
+    "buffSkillTextId": 10011,
+    "buffType": 1,
+    "buffValue": 5,
+    "classType": "DotDamage",
+    "id": 60701002,
+    "statType": 3
+  },
+  {
+    "buffDescSkillTextId": 20002,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_55",
+    "buffSkillTextId": 10002,
+    "buffType": 1,
+    "buffValue": 0.7,
+    "classType": "DotDamage",
+    "id": 60706101,
+    "statType": 3
+  },
+  {
+    "buffDescSkillTextId": 20115,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      1007,
+      100701
+    ],
+    "buffIconSpriteName": "bufficon_104",
+    "buffSkillTextId": 10091,
+    "buffTurn": 4,
+    "buffType": 1,
+    "buffValue": 0.5,
+    "classType": "Vulnerable",
+    "id": 60706102,
+    "subType": 1
+  },
+  {
+    "buffDescSkillTextId": 20045,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_1",
+    "buffSkillTextId": 10011,
+    "buffType": 1,
+    "buffValue": 5,
+    "classType": "DotDamage",
+    "id": 60802001,
+    "statType": 3
+  },
+  {
+    "buffApplyType": 2,
+    "buffDescSkillTextId": 20083,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2017,
+      201700
+    ],
+    "buffIconSpriteName": "bufficon_90",
+    "buffSkillTextId": 10007,
+    "buffValue": 3,
+    "classType": "SkillPointBuff",
+    "id": 60802002
+  },
+  {
+    "buffApplyType": 1,
+    "buffDescSkillTextId": 20010,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2001,
+      200101
+    ],
+    "buffIconSpriteName": "bufficon_6",
+    "buffSkillTextId": 10029,
+    "buffTurn": 4,
+    "buffValue": 0.35,
+    "classType": "StatBuff",
+    "effectPrefabName": "Effect/Prefabs/buffEff_6",
+    "id": 61002001,
+    "ownerType": 1,
+    "statType": 4
+  },
+  {
+    "buffApplyType": 1,
+    "buffDescSkillTextId": 20081,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2004,
+      200400
+    ],
+    "buffIconSpriteName": "bufficon_29",
+    "buffSkillTextId": 10076,
+    "buffTurn": 4,
+    "buffValue": 0.5,
+    "classType": "Heal",
+    "effectPrefabName": "Effect/Prefabs/buffEff_29",
+    "id": 61002002,
+    "statType": 4
+  },
+  {
+    "buffApplyType": 1,
+    "buffDescSkillTextId": 20028,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2001,
+      200104
+    ],
+    "buffIconSpriteName": "bufficon_9",
+    "buffSkillTextId": 10065,
+    "buffTurn": 4,
+    "buffValue": 0.25,
+    "classType": "StatBuff",
+    "effectPrefabName": "Effect/Prefabs/buffEff_9",
+    "id": 61002003,
+    "ownerType": 1,
+    "statType": 7
+  },
+  {
+    "buffApplyType": 1,
+    "buffDescSkillTextId": 20076,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2006,
+      200600,
+      2006000
+    ],
+    "buffIconSpriteName": "bufficon_37",
+    "buffSkillTextId": 10040,
+    "buffTurn": 4,
+    "buffValue": 0.3,
+    "classType": "Barrier",
+    "id": 61001001
+  },
+  {
+    "buffApplyType": 2,
+    "buffDescSkillTextId": 20083,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2017,
+      201700
+    ],
+    "buffIconSpriteName": "bufficon_90",
+    "buffSkillTextId": 10007,
+    "buffValue": 4,
+    "classType": "SkillPointBuff",
+    "id": 61001002
+  },
+  {
+    "buffDescSkillTextId": 20002,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_55",
+    "buffSkillTextId": 10002,
+    "buffType": 1,
+    "buffValue": 1.6,
+    "classType": "DotDamage",
+    "id": 61102101,
+    "statType": 3
+  },
+  {
+    "buffDescSkillTextId": 20025,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      1003
+    ],
+    "buffIconSpriteName": "bufficon_25",
+    "buffSkillTextId": 10066,
+    "buffTurn": 2,
+    "buffType": 1,
+    "classType": "BuffParent",
+    "effectPrefabName": "Effect/Prefabs/buffEff_25",
+    "id": 61102102,
+    "subType": 4
+  },
+  {
+    "buffDescSkillTextId": 20002,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_55",
+    "buffSkillTextId": 10002,
+    "buffType": 1,
+    "buffValue": 0.8,
+    "classType": "DotDamage",
+    "id": 61101001,
+    "statType": 3
+  },
+  {
+    "buffDescSkillTextId": 20094,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_45",
+    "buffSkillTextId": 10054,
+    "buffType": 1,
+    "classType": "BuffGroupCancel",
+    "id": 61101002,
+    "magicValue": 9000,
+    "subType": 1
+  },
+  {
+    "buffDescSkillTextId": 20003,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_56",
+    "buffSkillTextId": 10003,
+    "buffType": 1,
+    "buffValue": 0.55,
+    "classType": "DotDamage",
+    "id": 61305001,
+    "statType": 4
+  },
+  {
+    "buffDescSkillTextId": 20175,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      1004,
+      100400
+    ],
+    "buffIconSpriteName": "bufficon_19",
+    "buffSkillTextId": 10061,
+    "buffTurn": 6,
+    "buffType": 1,
+    "buffValue": 0.55,
+    "classType": "DotDamage",
+    "effectPrefabName": "Effect/Prefabs/buffEff_19",
+    "id": 61305002,
+    "overLapCount": 1,
+    "overLapMax": 99,
+    "statType": 4
+  },
+  {
+    "buffApplyType": 1,
+    "buffDescSkillTextId": 20006,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2001,
+      200100
+    ],
+    "buffIconSpriteName": "bufficon_5",
+    "buffSkillTextId": 10018,
+    "buffTurn": 2,
+    "buffValue": 0.5,
+    "classType": "StatBuff",
+    "effectPrefabName": "Effect/Prefabs/buffEff_5",
+    "id": 61902501,
+    "ownerType": 1,
+    "statType": 3
+  },
+  {
+    "buffApplyType": 1,
+    "buffDescSkillTextId": 20010,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2001,
+      200101
+    ],
+    "buffIconSpriteName": "bufficon_6",
+    "buffSkillTextId": 10029,
+    "buffTurn": 2,
+    "buffValue": 0.5,
+    "classType": "StatBuff",
+    "effectPrefabName": "Effect/Prefabs/buffEff_6",
+    "id": 61902502,
+    "ownerType": 1,
+    "statType": 4
+  },
+  {
+    "buffApplyType": 1,
+    "buffDescSkillTextId": 20081,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2004,
+      200400
+    ],
+    "buffIconSpriteName": "bufficon_29",
+    "buffSkillTextId": 10076,
+    "buffTurn": 2,
+    "buffValue": 0.25,
+    "classType": "Heal",
+    "effectPrefabName": "Effect/Prefabs/buffEff_29",
+    "id": 61902503,
+    "statType": 4
+  },
+  {
+    "buffDescSkillTextId": 20001,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_54",
+    "buffSkillTextId": 10001,
+    "buffType": 1,
+    "buffValue": 2,
+    "classType": "DotDamage",
+    "id": 61901501,
+    "statType": 4
+  },
+  {
+    "buffDescSkillTextId": 20011,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      1001,
+      100103
+    ],
+    "buffIconSpriteName": "bufficon_15",
+    "buffSkillTextId": 10030,
+    "buffTurn": 4,
+    "buffType": 1,
+    "buffValue": -0.5,
+    "classType": "StatBuff",
+    "effectPrefabName": "Effect/Prefabs/buffEff_15",
+    "id": 61901502,
+    "ownerType": 1,
+    "statType": 6
+  },
+  {
+    "buffApplyType": 2,
+    "buffDescSkillTextId": 20100,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2007,
+      200700
+    ],
+    "buffIconSpriteName": "bufficon_62",
+    "buffSkillTextId": 10077,
+    "buffTurn": 2,
+    "buffValue": 0.65,
+    "classType": "Dodge",
+    "id": 62002501,
+    "magicValue": 0.05
+  },
+  {
+    "buffApplyType": 2,
+    "buffDescSkillTextId": 20101,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2003
+    ],
+    "buffIconSpriteName": "bufficon_26",
+    "buffSkillTextId": 10022,
+    "buffTurn": 2,
+    "classType": "BuffParent",
+    "effectPrefabName": "Effect/Prefabs/buffEff_26",
+    "id": 62002502,
+    "subType": 2
+  },
+  {
+    "buffDescSkillTextId": 20068,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      1017,
+      101702
+    ],
+    "buffIconSpriteName": "bufficon_49",
+    "buffSkillTextId": 10005,
+    "buffType": 1,
+    "classType": "SkillPointBuff",
+    "id": 62001501,
+    "magicValue": 5,
+    "subType": 1
+  },
+  {
+    "buffDescSkillTextId": 20001,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_54",
+    "buffSkillTextId": 10001,
+    "buffType": 1,
+    "buffValue": 2.25,
+    "classType": "DotDamage",
+    "id": 62001502,
+    "statType": 3
+  },
+  {
+    "buffApplyType": 2,
+    "buffDescSkillTextId": 20080,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2004,
+      200400
+    ],
+    "buffIconSpriteName": "bufficon_29",
+    "buffSkillTextId": 10076,
+    "buffValue": 0.12,
+    "classType": "Heal",
+    "effectPrefabName": "Effect/Prefabs/buffEff_29",
+    "id": 62001503,
+    "statType": 1
+  },
+  {
+    "buffDescSkillTextId": 20001,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_54",
+    "buffSkillTextId": 10001,
+    "buffType": 1,
+    "buffValue": 2,
+    "classType": "DotDamage",
+    "id": 62101501,
+    "statType": 3
+  },
+  {
+    "buffDescSkillTextId": 20017,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      1001,
+      100102
+    ],
+    "buffIconSpriteName": "bufficon_14",
+    "buffSkillTextId": 10038,
+    "buffTurn": 4,
+    "buffType": 1,
+    "buffValue": -0.5,
+    "classType": "StatBuff",
+    "effectPrefabName": "Effect/Prefabs/buffEff_14",
+    "id": 62101502,
+    "ownerType": 1,
+    "statType": 5
+  },
+  {
+    "AddBuffId": 9002,
+    "buffDescSkillTextId": 20046,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      1005,
+      100503
+    ],
+    "buffIconSpriteName": "bufficon_3",
+    "buffSkillTextId": 10021,
+    "buffTurn": 2,
+    "buffType": 1,
+    "classType": "KnockBack",
+    "id": 62102501,
+    "magicValue": 1,
+    "statType": 1,
+    "subType": 4
+  },
+  {
+    "buffApplyType": 2,
+    "buffDescSkillTextId": 20083,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2017,
+      201700
+    ],
+    "buffIconSpriteName": "bufficon_90",
+    "buffSkillTextId": 10007,
+    "buffValue": 3,
+    "classType": "SkillPointBuff",
+    "id": 62102502
+  },
+  {
+    "buffDescSkillTextId": 20044,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      1004,
+      100400
+    ],
+    "buffIconSpriteName": "bufficon_19",
+    "buffSkillTextId": 10061,
+    "buffTurn": 6,
+    "buffType": 1,
+    "buffValue": 1.3,
+    "classType": "DotDamage",
+    "effectPrefabName": "Effect/Prefabs/buffEff_19",
+    "id": 62102503,
+    "statType": 3
+  },
+  {
+    "buffDescSkillTextId": 20001,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_54",
+    "buffSkillTextId": 10001,
+    "buffType": 1,
+    "buffValue": 2,
+    "classType": "DotDamage",
+    "id": 62501501,
+    "statType": 4
+  },
+  {
+    "buffApplyType": 1,
+    "buffDescSkillTextId": 20006,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2001,
+      200100
+    ],
+    "buffIconSpriteName": "bufficon_5",
+    "buffSkillTextId": 10018,
+    "buffTurn": 6,
+    "buffValue": 0.7,
+    "classType": "StatBuff",
+    "effectPrefabName": "Effect/Prefabs/buffEff_5",
+    "id": 62601501,
+    "ownerType": 1,
+    "statType": 3
+  },
+  {
+    "buffApplyType": 1,
+    "buffDescSkillTextId": 20028,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2001,
+      200104
+    ],
+    "buffIconSpriteName": "bufficon_9",
+    "buffSkillTextId": 10065,
+    "buffTurn": 6,
+    "buffValue": 0.3,
+    "classType": "StatBuff",
+    "effectPrefabName": "Effect/Prefabs/buffEff_9",
+    "id": 62601502,
+    "ownerType": 1,
+    "statType": 7
+  },
+  {
+    "buffApplyType": 2,
+    "buffDescSkillTextId": 20081,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2004,
+      200400
+    ],
+    "buffIconSpriteName": "bufficon_29",
+    "buffSkillTextId": 10076,
+    "buffTurn": 6,
+    "buffValue": 0.17,
+    "classType": "Heal",
+    "effectPrefabName": "Effect/Prefabs/buffEff_29",
+    "id": 62701501,
+    "statType": 1
+  },
+  {
+    "buffApplyType": 2,
+    "buffDescSkillTextId": 20074,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2006,
+      200600,
+      2006002
+    ],
+    "buffIconSpriteName": "bufficon_37",
+    "buffSkillTextId": 10040,
+    "buffTurn": 6,
+    "buffValue": 0.5,
+    "classType": "Barrier",
+    "id": 62701502,
+    "subType": 2
+  },
+  {
+    "buffDescSkillTextId": 20002,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_55",
+    "buffSkillTextId": 10002,
+    "buffType": 1,
+    "buffValue": 1.7,
+    "classType": "DotDamage",
+    "id": 62702501,
+    "statType": 4
+  },
+  {
+    "buffApplyType": 2,
+    "buffDescSkillTextId": 20006,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2001,
+      200100
+    ],
+    "buffIconSpriteName": "bufficon_5",
+    "buffSkillTextId": 10018,
+    "buffTurn": 6,
+    "buffValue": 5,
+    "classType": "StatBuff",
+    "effectPrefabName": "Effect/Prefabs/buffEff_5",
+    "id": 62801501,
+    "statType": 3
+  },
+  {
+    "buffDescSkillTextId": 20050,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      1005,
+      100501
+    ],
+    "buffIconSpriteName": "bufficon_3",
+    "buffSkillTextId": 10021,
+    "buffTurn": 2,
+    "buffType": 1,
+    "classType": "KnockBack",
+    "id": 62802501,
+    "magicValue": 1.25,
+    "statType": 3,
+    "subType": 2
+  },
+  {
+    "buffApplyType": 2,
+    "buffDescSkillTextId": 20083,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2017,
+      201700
+    ],
+    "buffIconSpriteName": "bufficon_90",
+    "buffSkillTextId": 10007,
+    "buffValue": 3,
+    "classType": "SkillPointBuff",
+    "id": 62802502
+  },
+  {
+    "buffDescSkillTextId": 20044,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      1004,
+      100400
+    ],
+    "buffIconSpriteName": "bufficon_19",
+    "buffSkillTextId": 10061,
+    "buffTurn": 6,
+    "buffType": 1,
+    "buffValue": 1,
+    "classType": "DotDamage",
+    "effectPrefabName": "Effect/Prefabs/buffEff_19",
+    "id": 62802503,
+    "statType": 3
+  },
+  {
+    "buffDescSkillTextId": 20002,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_55",
+    "buffSkillTextId": 10002,
+    "buffType": 1,
+    "buffValue": 1.6,
+    "classType": "DotDamage",
+    "id": 63001501,
+    "statType": 3
+  },
+  {
+    "buffDescSkillTextId": 20001,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_54",
+    "buffSkillTextId": 10001,
+    "buffType": 1,
+    "buffValue": 0.25,
+    "classType": "DotDamage",
+    "id": 63301501,
+    "statType": 4
+  },
+  {
+    "buffCountType": 1,
+    "buffDescSkillTextId": 20034,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      301,
+      1004,
+      100404
+    ],
+    "buffIconSpriteName": "bufficon_60",
+    "buffSkillTextId": 10023,
+    "buffTurn": 8,
+    "buffType": 1,
+    "buffValue": 2.25,
+    "classType": "DotDamage",
+    "id": 63301502,
+    "statType": 4
+  },
+  {
+    "buffApplyType": 1,
+    "buffDescSkillTextId": 20081,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2004,
+      200400
+    ],
+    "buffIconSpriteName": "bufficon_29",
+    "buffSkillTextId": 10076,
+    "buffTurn": 6,
+    "buffValue": 0.55,
+    "classType": "Heal",
+    "effectPrefabName": "Effect/Prefabs/buffEff_29",
+    "id": 63401501,
+    "statType": 4
+  },
+  {
+    "buffApplyType": 2,
+    "buffDescSkillTextId": 20075,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2006,
+      200600,
+      2006001
+    ],
+    "buffIconSpriteName": "bufficon_37",
+    "buffSkillTextId": 10040,
+    "buffTurn": 4,
+    "buffValue": 0.65,
+    "classType": "Barrier",
+    "id": 64701501,
+    "subType": 1
+  },
+  {
+    "buffDescSkillTextId": 20045,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_1",
+    "buffSkillTextId": 10011,
+    "buffType": 1,
+    "buffValue": 3.5,
+    "classType": "DotDamage",
+    "id": 64801501,
+    "statType": 3
+  },
+  {
+    "buffDescSkillTextId": 20001,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_54",
+    "buffSkillTextId": 10001,
+    "buffType": 1,
+    "buffValue": 1.1,
+    "classType": "DotDamage",
+    "id": 64901501,
+    "statType": 3
+  },
+  {
+    "buffDescSkillTextId": 20085,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      1006
+    ],
+    "buffIconSpriteName": "bufficon_27",
+    "buffSkillTextId": 10055,
+    "buffTurn": 6,
+    "buffType": 1,
+    "classType": "BuffParent",
+    "effectPrefabName": "Effect/Prefabs/buffEff_27",
+    "id": 64901502,
+    "subType": 3
+  },
+  {
+    "buffDescSkillTextId": 20001,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_54",
+    "buffSkillTextId": 10001,
+    "buffType": 1,
+    "buffValue": 2.25,
+    "classType": "DotDamage",
+    "id": 65001501,
+    "statType": 3,
+    "subType": 1
+  },
+  {
+    "buffDescSkillTextId": 20003,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_56",
+    "buffSkillTextId": 10003,
+    "buffType": 1,
+    "buffValue": 0.8,
+    "classType": "DotDamage",
+    "id": 65102001,
+    "statType": 3
+  },
+  {
+    "buffDescSkillTextId": 20094,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_45",
+    "buffSkillTextId": 10054,
+    "buffType": 1,
+    "classType": "BuffGroupCancel",
+    "id": 65102002,
+    "magicValue": 9000,
+    "subType": 1
+  },
+  {
+    "buffApplyType": 2,
+    "buffDescSkillTextId": 20006,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2001,
+      200100
+    ],
+    "buffIconSpriteName": "bufficon_5",
+    "buffSkillTextId": 10018,
+    "buffTurn": 6,
+    "buffValue": 1.5,
+    "classType": "StatBuff",
+    "effectPrefabName": "Effect/Prefabs/buffEff_5",
+    "id": 65102003,
+    "overLapCount": 1,
+    "overLapMax": 2,
+    "statType": 3
+  },
+  {
+    "buffConditionId": 40,
+    "buffDescSkillTextId": 20035,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_2",
+    "buffSkillTextId": 10024,
+    "buffType": 1,
+    "buffValue": 3,
+    "classType": "DotDamage",
+    "conditionAddBuffId": 65802010,
+    "id": 65802001,
+    "statType": 4
+  },
+  {
+    "buffDescSkillTextId": 20035,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_2",
+    "buffSkillTextId": 10024,
+    "buffType": 1,
+    "buffValue": 4,
+    "classType": "DotDamage",
+    "id": 65802010,
+    "statType": 4
+  },
+  {
+    "buffApplyType": 2,
+    "buffDescSkillTextId": 20074,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2006,
+      200600,
+      2006002
+    ],
+    "buffIconSpriteName": "bufficon_37",
+    "buffSkillTextId": 10040,
+    "buffTurn": 4,
+    "buffValue": 0.75,
+    "classType": "Barrier",
+    "id": 65802002,
+    "subType": 2
+  },
+  {
+    "buffDescSkillTextId": 20002,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_55",
+    "buffSkillTextId": 10002,
+    "buffType": 1,
+    "buffValue": 0.18,
+    "classType": "DotDamage",
+    "id": 66402101,
+    "ownerType": 1,
+    "statType": 1
+  },
+  {
+    "buffApplyType": 2,
+    "buffDescSkillTextId": 20076,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2006,
+      200600,
+      2006000
+    ],
+    "buffIconSpriteName": "bufficon_37",
+    "buffSkillTextId": 10040,
+    "buffTurn": 2,
+    "buffValue": 0.75,
+    "classType": "Barrier",
+    "id": 66402102
+  },
+  {
+    "buffDescSkillTextId": 20002,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_55",
+    "buffSkillTextId": 10002,
+    "buffType": 1,
+    "buffValue": 0.45,
+    "classType": "DotDamage",
+    "id": 66401001,
+    "ownerType": 1,
+    "statType": 1
+  },
+  {
+    "buffApplyType": 2,
+    "buffDescSkillTextId": 20076,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2006,
+      200600,
+      2006000
+    ],
+    "buffIconSpriteName": "bufficon_37",
+    "buffSkillTextId": 10040,
+    "buffTurn": 2,
+    "buffValue": 0.5,
+    "classType": "Barrier",
+    "id": 66401002
+  },
+  {
+    "buffDescSkillTextId": 20003,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_56",
+    "buffSkillTextId": 10003,
+    "buffType": 1,
+    "buffValue": 0.3,
+    "classType": "DotDamage",
+    "id": 67301001,
+    "statType": 4
+  },
+  {
+    "buffConditionId": 14,
+    "buffDescSkillTextId": 20116,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      1007,
+      100702
+    ],
+    "buffIconSpriteName": "bufficon_105",
+    "buffSkillTextId": 10091,
+    "buffTurn": 4,
+    "buffType": 1,
+    "buffValue": 0.4,
+    "classType": "Vulnerable",
+    "conditionAddBuffId": 67301010,
+    "id": 67301002,
+    "subType": 2
+  },
+  {
+    "buffDescSkillTextId": 20116,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      1007,
+      100702
+    ],
+    "buffIconSpriteName": "bufficon_105",
+    "buffSkillTextId": 10091,
+    "buffTurn": 4,
+    "buffType": 1,
+    "buffValue": 0.6,
+    "classType": "Vulnerable",
+    "id": 67301010,
+    "subType": 2
+  },
+  {
+    "buffConditionId": 14,
+    "buffDescSkillTextId": 20003,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_56",
+    "buffSkillTextId": 10003,
+    "buffType": 1,
+    "buffValue": 1,
+    "classType": "DotDamage",
+    "conditionAddBuffId": 67302010,
+    "id": 67302001,
+    "statType": 4
+  },
+  {
+    "buffDescSkillTextId": 20003,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_56",
+    "buffSkillTextId": 10003,
+    "buffType": 1,
+    "buffValue": 2,
+    "classType": "DotDamage",
+    "id": 67302010,
+    "statType": 4
+  },
+  {
+    "buffDescSkillTextId": 20035,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_2",
+    "buffSkillTextId": 10024,
+    "buffType": 1,
+    "buffValue": 3.5,
+    "classType": "DotDamage",
+    "id": 67401001,
+    "statType": 4
+  },
+  {
+    "buffApplyType": 2,
+    "buffDescSkillTextId": 20010,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2001,
+      200101
+    ],
+    "buffIconSpriteName": "bufficon_6",
+    "buffSkillTextId": 10029,
+    "buffTurn": 2,
+    "buffValue": 2,
+    "classType": "BloodBlessing",
+    "effectPrefabName": "Effect/Prefabs/buffEff_6",
+    "id": 67401002,
+    "magicValue": 0.8,
+    "statType": 4
+  },
+  {
+    "buffDescSkillTextId": 20045,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_1",
+    "buffSkillTextId": 10011,
+    "buffType": 1,
+    "buffValue": 3.5,
+    "classType": "DotDamage",
+    "id": 202101,
+    "statType": 3,
+    "subType": 1
+  },
+  {
+    "buffDescSkillTextId": 20001,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_54",
+    "buffSkillTextId": 10001,
+    "buffType": 1,
+    "buffValue": 0.5,
+    "classType": "DotDamage",
+    "id": 800100001,
+    "statType": 3
+  },
+  {
+    "buffDescSkillTextId": 20044,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      1004,
+      100400
+    ],
+    "buffIconSpriteName": "bufficon_19",
+    "buffSkillTextId": 10061,
+    "buffTurn": 6,
+    "buffType": 1,
+    "buffValue": 0.5,
+    "classType": "DotDamage",
+    "effectPrefabName": "Effect/Prefabs/buffEff_19",
+    "id": 800100002,
+    "statType": 3
+  },
+  {
+    "buffDescSkillTextId": 20002,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_55",
+    "buffSkillTextId": 10002,
+    "buffType": 1,
+    "buffValue": 0.5,
+    "classType": "DotDamage",
+    "id": 800300001,
+    "statType": 3
+  },
+  {
+    "buffDescSkillTextId": 20005,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      1001,
+      100100
+    ],
+    "buffIconSpriteName": "bufficon_12",
+    "buffSkillTextId": 10017,
+    "buffTurn": 4,
+    "buffType": 1,
+    "buffValue": -0.35,
+    "classType": "StatBuff",
+    "effectPrefabName": "Effect/Prefabs/buffEff_12",
+    "id": 800300002,
+    "ownerType": 1,
+    "statType": 3
+  },
+  {
+    "buffDescSkillTextId": 20002,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_55",
+    "buffSkillTextId": 10002,
+    "buffType": 1,
+    "buffValue": 0.75,
+    "classType": "DotDamage",
+    "id": 800800001,
+    "statType": 3
+  },
+  {
+    "AddBuffId": 9002,
+    "buffDescSkillTextId": 20046,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      1005,
+      100503
+    ],
+    "buffIconSpriteName": "bufficon_3",
+    "buffSkillTextId": 10021,
+    "buffTurn": 2,
+    "buffType": 1,
+    "classType": "KnockBack",
+    "id": 101400001,
+    "magicValue": 0.5,
+    "statType": 1,
+    "subType": 4
+  },
+  {
+    "buffApplyType": 2,
+    "buffDescSkillTextId": 20083,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2017,
+      201700
+    ],
+    "buffIconSpriteName": "bufficon_90",
+    "buffSkillTextId": 10007,
+    "buffValue": 4,
+    "classType": "SkillPointBuff",
+    "id": 101400002
+  },
+  {
+    "buffDescSkillTextId": 20044,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      1004,
+      100400
+    ],
+    "buffIconSpriteName": "bufficon_19",
+    "buffSkillTextId": 10061,
+    "buffTurn": 6,
+    "buffType": 1,
+    "buffValue": 0.5,
+    "classType": "DotDamage",
+    "effectPrefabName": "Effect/Prefabs/buffEff_19",
+    "id": 101400003,
+    "statType": 3
+  },
+  {
+    "buffDescSkillTextId": 20045,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_1",
+    "buffSkillTextId": 10011,
+    "buffType": 1,
+    "buffValue": 5,
+    "classType": "DotDamage",
+    "id": 950100001,
+    "statType": 3
+  },
+  {
+    "AddBuffId": 9002,
+    "buffDescSkillTextId": 20046,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      1005,
+      100503
+    ],
+    "buffIconSpriteName": "bufficon_3",
+    "buffSkillTextId": 10021,
+    "buffTurn": 2,
+    "buffType": 1,
+    "classType": "KnockBack",
+    "id": 800200001,
+    "magicValue": 0.5,
+    "statType": 1,
+    "subType": 4
+  },
+  {
+    "buffDescSkillTextId": 20001,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_54",
+    "buffSkillTextId": 10001,
+    "buffType": 1,
+    "buffValue": 2.5,
+    "classType": "DotDamage",
+    "id": 101300001,
+    "statType": 3
+  },
+  {
+    "buffDescSkillTextId": 20005,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      1001,
+      100100
+    ],
+    "buffIconSpriteName": "bufficon_12",
+    "buffSkillTextId": 10017,
+    "buffTurn": 4,
+    "buffType": 1,
+    "buffValue": -0.5,
+    "classType": "StatBuff",
+    "effectPrefabName": "Effect/Prefabs/buffEff_12",
+    "id": 101300002,
+    "ownerType": 1,
+    "statType": 3
+  },
+  {
+    "AddBuffId": 9002,
+    "buffDescSkillTextId": 20046,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      1005,
+      100503
+    ],
+    "buffIconSpriteName": "bufficon_3",
+    "buffSkillTextId": 10021,
+    "buffTurn": 2,
+    "buffType": 1,
+    "classType": "KnockBack",
+    "id": 800600001,
+    "magicValue": 1,
+    "statType": 1,
+    "subType": 4
+  },
+  {
+    "buffDescSkillTextId": 20002,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_55",
+    "buffSkillTextId": 10002,
+    "buffType": 1,
+    "buffValue": 0.4,
+    "classType": "DotDamage",
+    "id": 3303001,
+    "magicValue": 0.15,
+    "statType": 3,
+    "subType": 30
+  },
+  {
+    "buffDescSkillTextId": 20002,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_55",
+    "buffSkillTextId": 10002,
+    "buffType": 1,
+    "buffValue": 3,
+    "classType": "DotDamage",
+    "id": 21101001,
+    "statType": 3
+  },
+  {
+    "buffDescSkillTextId": 20002,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_55",
+    "buffSkillTextId": 10002,
+    "buffType": 1,
+    "buffValue": 0.6,
+    "classType": "DotDamage",
+    "id": 67604001,
+    "statType": 3
+  },
+  {
+    "buffApplyType": 2,
+    "buffDescSkillTextId": 20131,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2001,
+      200106
+    ],
+    "buffIconSpriteName": "bufficon_33",
+    "buffSkillTextId": 10107,
+    "buffTurn": 4,
+    "buffValue": 0.3,
+    "classType": "StatBuff",
+    "id": 67604002,
+    "statType": 9
+  },
+  {
+    "buffDescSkillTextId": 20035,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_2",
+    "buffSkillTextId": 10024,
+    "buffType": 1,
+    "buffValue": 4,
+    "classType": "DotDamage",
+    "id": 708001,
+    "statType": 4
+  },
+  {
+    "buffApplyType": 2,
+    "buffDescSkillTextId": 20010,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2001,
+      200101
+    ],
+    "buffIconSpriteName": "bufficon_6",
+    "buffSkillTextId": 10029,
+    "buffTurn": 6,
+    "buffValue": 0.5,
+    "classType": "StatBuff",
+    "effectPrefabName": "Effect/Prefabs/buffEff_6",
+    "id": 708002,
+    "statType": 4
+  },
+  {
+    "buffApplyType": 2,
+    "buffDescSkillTextId": 20077,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_51",
+    "buffSkillTextId": 10046,
+    "buffValue": 5020,
+    "classType": "Summon",
+    "id": 3402001,
+    "magicValue": 1
+  },
+  {
+    "buffDescSkillTextId": 20003,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_56",
+    "buffSkillTextId": 10003,
+    "buffType": 1,
+    "buffValue": 0.55,
+    "classType": "DotDamage",
+    "id": 61305101,
+    "statType": 4
+  },
+  {
+    "buffDescSkillTextId": 20175,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      1004,
+      100400
+    ],
+    "buffIconSpriteName": "bufficon_19",
+    "buffSkillTextId": 10061,
+    "buffTurn": 6,
+    "buffType": 1,
+    "buffValue": 0.55,
+    "classType": "DotDamage",
+    "effectPrefabName": "Effect/Prefabs/buffEff_19",
+    "id": 61305102,
+    "overLapCount": 1,
+    "overLapMax": 99,
+    "statType": 4
+  },
+  {
+    "buffDescSkillTextId": 20045,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_1",
+    "buffSkillTextId": 10011,
+    "buffType": 1,
+    "buffValue": 4,
+    "classType": "DotDamage",
+    "id": 506101,
+    "statType": 3
+  },
+  {
+    "buffApplyType": 2,
+    "buffDescSkillTextId": 20028,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      100,
+      200,
+      300,
+      2001,
+      200104
+    ],
+    "buffIconSpriteName": "bufficon_9",
+    "buffSkillTextId": 10065,
+    "buffTurn": 1,
+    "buffValue": 0.5,
+    "classType": "StatBuff",
+    "effectPrefabName": "Effect/Prefabs/buffEff_9",
+    "id": 506102,
+    "statType": 7
+  },
+  {
+    "buffDescSkillTextId": 20002,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      0
+    ],
+    "buffIconSpriteName": "bufficon_55",
+    "buffSkillTextId": 10002,
+    "buffType": 1,
+    "buffValue": 0.6,
+    "classType": "DotDamage",
+    "id": 801101,
+    "statType": 3
+  },
+  {
+    "buffDescSkillTextId": 20044,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      1004,
+      100401
+    ],
+    "buffIconSpriteName": "bufficon_21",
+    "buffSkillTextId": 10075,
+    "buffTurn": 7,
+    "buffType": 1,
+    "buffValue": 1.5,
+    "classType": "DotDamage",
+    "effectPrefabName": "Effect/Prefabs/buffEff_21",
+    "id": 801102,
+    "statType": 3
+  },
+  {
+    "AddBuffId": 9002,
+    "buffDescSkillTextId": 20049,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      1005,
+      100505
+    ],
+    "buffIconSpriteName": "bufficon_3",
+    "buffSkillTextId": 10021,
+    "buffTurn": 1,
+    "buffType": 1,
+    "classType": "KnockBack",
+    "id": 2006,
+    "magicValue": 0.25,
+    "statType": 3,
+    "subType": 6
+  },
+  {
+    "AddBuffId": 9002,
+    "buffDescSkillTextId": 20051,
+    "buffDisplayType": 1,
+    "buffDisplayValue": 1,
+    "buffGroup": [
+      101,
+      200,
+      300,
+      1005,
+      100504
+    ],
+    "buffIconSpriteName": "bufficon_3",
+    "buffSkillTextId": 10021,
+    "buffTurn": 1,
+    "buffType": 1,
+    "classType": "KnockBack",
+    "id": 2005,
+    "magicValue": 0.25,
+    "statType": 3,
+    "subType": 5
+  }
 ]

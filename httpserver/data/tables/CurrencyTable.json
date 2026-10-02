@@ -1,5 +1,165 @@
 [
-  { "iconSpriteNameLarge": "currency_dia1_3", "iconSpriteNameSmall": "currency_dia2_4", "id": 2, "itemDescNameTextId": 267, "itemNameTextId": 152 },
-  { "iconSpriteNameLarge": "currency_gold1_6", "iconSpriteNameSmall": "currency_gold2_7", "id": 4, "itemDescNameTextId": 266, "itemNameTextId": 151 },
-  { "iconSpriteNameLarge": "currency_catalyst1_1", "iconSpriteNameSmall": "currency_catalyst2_2", "id": 12, "itemDescNameTextId": 265, "itemNameTextId": 264 }
+  {
+    "iconSpriteNameLarge": "currency_dia1_3",
+    "iconSpriteNameSmall": "currency_dia2_4",
+    "id": 2,
+    "itemDescNameTextId": 267,
+    "itemNameTextId": 152
+  },
+  {
+    "iconSpriteNameLarge": "currency_gold1_6",
+    "iconSpriteNameSmall": "currency_gold2_7",
+    "id": 4,
+    "itemDescNameTextId": 266,
+    "itemNameTextId": 151
+  },
+  {
+    "iconSpriteNameLarge": "currency_catalyst1_1",
+    "iconSpriteNameSmall": "currency_catalyst2_2",
+    "id": 12,
+    "itemDescNameTextId": 265,
+    "itemNameTextId": 264
+  },
+  {
+    "iconSpriteNameLarge": "currency_dia1_3",
+    "iconSpriteNameSmall": "currency_dia2_4",
+    "id": 3,
+    "itemDescNameTextId": 268,
+    "itemNameTextId": 152
+  },
+  {
+    "iconSpriteNameLarge": "currency_actionpoint_l_19",
+    "iconSpriteNameSmall": "currency_actionpoint_s_20",
+    "id": 23,
+    "itemDescNameTextId": 678,
+    "itemNameTextId": 677
+  },
+  {
+    "iconSpriteNameLarge": "currency_specailcoin1_10",
+    "iconSpriteNameSmall": "currency_specailcoin2_11",
+    "id": 24,
+    "itemDescNameTextId": 674,
+    "itemNameTextId": 673
+  },
+  {
+    "iconSpriteNameLarge": "currency_eventexchange_l_508",
+    "iconSpriteNameSmall": "currency_eventexchange_s_509",
+    "id": 10075,
+    "itemDescNameTextId": 33777,
+    "itemNameTextId": 32777,
+    "targetItemId": 2074,
+    "targetItemType": 8
+  },
+  {
+    "iconSpriteNameLarge": "currency_pvpmedal1_12",
+    "iconSpriteNameSmall": "currency_pvpmedal2_13",
+    "id": 16,
+    "itemDescNameTextId": 676,
+    "itemNameTextId": 675
+  },
+  {
+    "iconSpriteNameLarge": "currency_cafeteriacoin_l_180",
+    "iconSpriteNameSmall": "currency_cafeteriacoin_s_181",
+    "id": 40,
+    "itemDescNameTextId": 710,
+    "itemNameTextId": 709
+  },
+  {
+    "iconSpriteNameLarge": "currency_equippowderitem_l_196",
+    "iconSpriteNameSmall": "currency_equippowderitem_s_197",
+    "id": 18001,
+    "itemDescNameTextId": 8811,
+    "itemNameTextId": 7811,
+    "targetItemId": 10,
+    "targetItemType": 8
+  },
+  {
+    "iconSpriteNameLarge": "currency_decoexchage_l_272",
+    "iconSpriteNameSmall": "currency_decoexchage_s_283",
+    "id": 44,
+    "itemDescNameTextId": 816,
+    "itemNameTextId": 815
+  },
+  {
+    "iconSpriteNameLarge": "currency_actionpoint2_l_58",
+    "iconSpriteNameSmall": "currency_actionpoint2_s_59",
+    "id": 33,
+    "itemDescNameTextId": 686,
+    "itemNameTextId": 685
+  },
+  {
+    "iconSpriteNameLarge": "currency_eventexchange_l_448",
+    "iconSpriteNameSmall": "currency_eventexchange_s_449",
+    "id": 10064,
+    "itemDescNameTextId": 33703,
+    "itemNameTextId": 32703,
+    "targetItemId": 2063,
+    "targetItemType": 8
+  },
+  {
+    "iconSpriteNameLarge": "currency_eventexchange_l_424",
+    "iconSpriteNameSmall": "currency_eventexchange_s_425",
+    "id": 10063,
+    "itemDescNameTextId": 33748,
+    "itemNameTextId": 32748,
+    "targetItemId": 2062,
+    "targetItemType": 8
+  },
+  {
+    "iconSpriteNameLarge": "currency_specailcoin1_10",
+    "iconSpriteNameSmall": "currency_specailcoin2_11",
+    "id": 15,
+    "itemDescNameTextId": 674,
+    "itemNameTextId": 673
+  },
+  {
+    "iconSpriteNameLarge": "currency_gachaticket_l_24",
+    "iconSpriteNameSmall": "currency_gachaticket_s_25",
+    "id": 14000,
+    "itemDescNameTextId": 33626,
+    "itemNameTextId": 32626,
+    "targetItemId": 1000,
+    "targetItemType": 8
+  },
+  {
+    "iconSpriteNameLarge": "currency_mileage_l_15",
+    "iconSpriteNameSmall": "currency_mileage_s_16",
+    "id": 20,
+    "itemDescNameTextId": 682,
+    "itemNameTextId": 681
+  },
+  {
+    "iconSpriteNameLarge": "currency_gachaticket_l_38",
+    "iconSpriteNameSmall": "currency_gachaticket_s_39",
+    "id": 11004,
+    "itemDescNameTextId": 33640,
+    "itemNameTextId": 32640,
+    "targetItemId": 1104,
+    "targetItemType": 8
+  },
+  {
+    "iconSpriteNameLarge": "currency_gachaticket_l_40",
+    "iconSpriteNameSmall": "currency_gachaticket_s_41",
+    "id": 11005,
+    "itemDescNameTextId": 33641,
+    "itemNameTextId": 32641,
+    "targetItemId": 1105,
+    "targetItemType": 8
+  },
+  {
+    "iconSpriteNameSmall": "currency_scoutpaper_s_22",
+    "id": 12000,
+    "itemDescNameTextId": 33628,
+    "itemNameTextId": 32628,
+    "targetItemId": 1002,
+    "targetItemType": 8
+  },
+  {
+    "iconSpriteNameSmall": "currency_scoutpaper2_s_23",
+    "id": 12001,
+    "itemDescNameTextId": 33629,
+    "itemNameTextId": 32629,
+    "targetItemId": 1003,
+    "targetItemType": 8
+  }
 ]

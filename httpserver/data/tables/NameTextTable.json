@@ -1,5 +1,3031 @@
 [
-  { "date": "2024-02-15", "id": 4310013, "text": "Everyday Pleasures", "textCn": "Everyday Pleasures", "textEn": "Everyday Pleasures", "textJp": "Everyday Pleasures", "textTw": "Everyday Pleasures" },
-  { "date": "2026-09-03", "id": 4310223, "text": "Crossing Blades", "textCn": "Crossing Blades", "textEn": "Crossing Blades", "textJp": "Crossing Blades", "textTw": "Crossing Blades" },
-  { "date": "2026-09-03", "id": 4310221, "text": "The Taros Mines", "textCn": "The Taros Mines", "textEn": "The Taros Mines", "textJp": "The Taros Mines", "textTw": "The Taros Mines" }
+  {
+    "date": "2024-02-15",
+    "id": 4310013,
+    "text": "Everyday Pleasures",
+    "textCn": "Everyday Pleasures",
+    "textEn": "Everyday Pleasures",
+    "textJp": "Everyday Pleasures",
+    "textTw": "Everyday Pleasures"
+  },
+  {
+    "date": "2026-09-03",
+    "id": 4310223,
+    "text": "Crossing Blades",
+    "textCn": "Crossing Blades",
+    "textEn": "Crossing Blades",
+    "textJp": "Crossing Blades",
+    "textTw": "Crossing Blades"
+  },
+  {
+    "date": "2026-09-03",
+    "id": 4310221,
+    "text": "The Taros Mines",
+    "textCn": "The Taros Mines",
+    "textEn": "The Taros Mines",
+    "textJp": "The Taros Mines",
+    "textTw": "The Taros Mines"
+  },
+  {
+    "date": "2026-06-25",
+    "id": 2002101,
+    "text": "차원의 경계",
+    "textCn": "次元边界",
+    "textEn": "Edge of Dimensions",
+    "textJp": "次元の境界",
+    "textTw": "次元邊界"
+  },
+  {
+    "date": "2024-12-09",
+    "id": 5210006,
+    "text": "의문의 목소리",
+    "textCn": "未知的声音",
+    "textEn": "Unknown Voice",
+    "textJp": "謎の声",
+    "textTw": "可疑的聲音"
+  },
+  {
+    "date": "2024-12-09",
+    "id": 5210007,
+    "text": "수수께끼의 여자",
+    "textCn": "神秘女子",
+    "textEn": "Mysterious Woman",
+    "textJp": "謎の女性",
+    "textTw": "神祕的女人"
+  },
+  {
+    "date": "2026-06-25",
+    "id": 2002106,
+    "text": "마스터",
+    "textCn": "店长",
+    "textEn": "Master",
+    "textJp": "マスター",
+    "textTw": "店長"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 30401,
+    "text": "버섯",
+    "textCn": "蘑菇",
+    "textEn": "Mushroom",
+    "textJp": "キノコ",
+    "textTw": "蘑菇"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 13,
+    "text": "잔뜩 취한 주민",
+    "textCn": "烂醉居民",
+    "textEn": "Very Drunk Resident",
+    "textJp": "酔っぱらいの住民",
+    "textTw": "醉醺醺的居民"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 2003,
+    "text": "여행자",
+    "textCn": "旅行者",
+    "textEn": "Traveler",
+    "textJp": "旅人",
+    "textTw": "旅行者"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 2001,
+    "text": "라텔",
+    "textCn": "拉德尔",
+    "textEn": "Lathel",
+    "textJp": "ラテル",
+    "textTw": "拉德爾"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 200022,
+    "text": "하얀 사신",
+    "textCn": "皎洁死神",
+    "textEn": "White Reaper",
+    "textJp": "白い死神",
+    "textTw": "皎潔死神"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 151,
+    "text": "골드",
+    "textCn": "金币",
+    "textEn": "Gold",
+    "textJp": "ゴールド",
+    "textTw": "金幣"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 30201,
+    "text": "밀",
+    "textCn": "小麦",
+    "textEn": "Wheat",
+    "textJp": "小麦",
+    "textTw": "小麥"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 25002,
+    "text": "신속",
+    "textCn": "疾速",
+    "textEn": "Swiftness",
+    "textJp": "迅速",
+    "textTw": "迅速"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 25003,
+    "text": "제압",
+    "textCn": "制伏",
+    "textEn": "Overpower",
+    "textJp": "制圧",
+    "textTw": "壓制"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 25004,
+    "text": "흡수",
+    "textCn": "吸收",
+    "textEn": "Absorption",
+    "textJp": "吸収",
+    "textTw": "吸收"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 25006,
+    "text": "탐색",
+    "textCn": "探查",
+    "textEn": "Search",
+    "textJp": "探索",
+    "textTw": "搜索"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 25007,
+    "text": "요리",
+    "textCn": "料理",
+    "textEn": "Cook",
+    "textJp": "料理",
+    "textTw": "料理"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 25009,
+    "text": "장비 제작",
+    "textCn": "装备制作",
+    "textEn": "Gear Craft",
+    "textJp": "装備製作",
+    "textTw": "製作裝備"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 25010,
+    "text": "부활",
+    "textCn": "复活",
+    "textEn": "Revival",
+    "textJp": "復活",
+    "textTw": "復活"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 25012,
+    "text": "위험감지",
+    "textCn": "危险侦测",
+    "textEn": "Danger Detection",
+    "textJp": "危険感知",
+    "textTw": "偵測危險"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 25013,
+    "text": "질주",
+    "textCn": "飞奔",
+    "textEn": "Rush",
+    "textJp": "疾走",
+    "textTw": "飛奔"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 25015,
+    "text": "마법진 생성",
+    "textCn": "生成魔法阵",
+    "textEn": "Magic Circle",
+    "textJp": "魔法陣生成",
+    "textTw": "創建魔法陣"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 52001,
+    "text": "버섯 수프 레시피",
+    "textCn": "蘑菇汤食谱",
+    "textEn": "Mushroom Soup Recipe",
+    "textJp": "マッシュルームスープレシピ",
+    "textTw": "蘑菇湯食譜"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 47101,
+    "text": "버섯 수프",
+    "textCn": "蘑菇汤",
+    "textEn": "Mushroom Soup",
+    "textJp": "マッシュルームスープ",
+    "textTw": "蘑菇湯"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 48101,
+    "text": "몸에 좋고 맛도 좋은 버섯으로 만든,\\n속편하고 든든하게 먹을 수 있는 건강 요리.",
+    "textCn": "用对身体好又美味的蘑菇制成，是一道对胃没负担，且有饱腹感的健康料理。",
+    "textEn": "Made with mushrooms that are good for the body and taste good, a healthy dish that eases and fills your stomach.",
+    "textJp": "体にもよく、味も良いキノコで作ったお腹いっぱいに食べられるヘルシー料理。",
+    "textTw": "以對身體好又美味的蘑菇製成，是一道對胃沒負擔且有飽足感的健康料理。"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 52002,
+    "text": "버섯 볶음 레시피",
+    "textCn": "炒蘑菇食谱",
+    "textEn": "Fried Mushroom Recipe",
+    "textJp": "キノコ炒めレシピ",
+    "textTw": "炒蘑菇食譜"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 40101,
+    "text": "루고 마을 공고문",
+    "textCn": "卢戈镇告示",
+    "textEn": "Lugo Village Announcement",
+    "textJp": "ルーゴ村告知文",
+    "textTw": "盧戈鎮的公告"
+  },
+  {
+    "date": "2024-12-10",
+    "id": 32685,
+    "text": "24년 12월 5성 코스튬 확정 뽑기 교환권",
+    "textCn": "24年12月5★服装必得抽抽乐兑换券",
+    "textEn": "Dec, 2024 ★5 Costume Guaranteed Draw Exchange Ticket",
+    "textJp": "24年12月★5コスチューム確定ガチャ交換券",
+    "textTw": "24年 12月 ★5 服裝抽抽樂保證交換券"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 32635,
+    "text": "뽑기 교환권",
+    "textCn": "抽抽乐兑换券",
+    "textEn": "Draw Exchange Ticket",
+    "textJp": "ガチャ交換券",
+    "textTw": "抽抽樂交換券"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 32626,
+    "text": "뽑기권",
+    "textCn": "抽抽乐券",
+    "textEn": "Draw Ticket",
+    "textJp": "1回ガチャ券",
+    "textTw": "抽抽樂券"
+  },
+  {
+    "date": "2024-07-10",
+    "id": 32666,
+    "text": "운동 기록 노트",
+    "textCn": "运动记录笔记",
+    "textEn": "Fitness Notebook",
+    "textJp": "運動記録ノート",
+    "textTw": "運動紀錄筆記"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 501,
+    "text": "이벤트 교환 아이템",
+    "textCn": "活动兑换道具",
+    "textEn": "Event Exchange Item",
+    "textJp": "イベント交換アイテム",
+    "textTw": "活動交換道具"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 32653,
+    "text": "행운의 벚꽃잎",
+    "textCn": "幸运樱花瓣",
+    "textEn": "Lucky Cherry Blossom Leaf",
+    "textJp": "幸運の桜の花びら",
+    "textTw": "幸運櫻花瓣"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 32651,
+    "text": "작전 성공 보고서",
+    "textCn": "作战成功报告书",
+    "textEn": "Operation Success Report",
+    "textJp": "作戦成功報告書",
+    "textTw": "作戰成功報告書"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 32650,
+    "text": "드림 코인",
+    "textCn": "梦想币",
+    "textEn": "Dream Coin",
+    "textJp": "ドリームコイン",
+    "textTw": "夢想幣"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 32647,
+    "text": "빙고 게임 칩",
+    "textCn": "宾果游戏筹码",
+    "textEn": "Bingo Game Chip",
+    "textJp": "ビンゴゲームチップ",
+    "textTw": "賓果遊戲籌碼"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 32630,
+    "text": "최고급 영입 계약서",
+    "textCn": "顶级招募契约书",
+    "textEn": "★5 R. Contract",
+    "textJp": "最高級スカウト契約書",
+    "textTw": "最高級契約書"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 32629,
+    "text": "고급 영입 계약서",
+    "textCn": "高级招募契约书",
+    "textEn": "★4 R. Contract",
+    "textJp": "高級スカウト契約書",
+    "textTw": "高級契約書"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 32628,
+    "text": "일반 영입 계약서",
+    "textCn": "普通招募契约书",
+    "textEn": "★3 R. Contract",
+    "textJp": "一般スカウト契約書",
+    "textTw": "一般契約書"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 7825,
+    "text": "재련 수정",
+    "textCn": "精炼水晶",
+    "textEn": "Refining Crystal",
+    "textJp": "製錬水晶",
+    "textTw": "煉製水晶"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 7824,
+    "text": "재련석",
+    "textCn": "精炼石",
+    "textEn": "Refining Stone",
+    "textJp": "製錬石",
+    "textTw": "煉製石"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 7811,
+    "text": "재련 가루",
+    "textCn": "精炼粉末",
+    "textEn": "Refining Powder",
+    "textJp": "製錬粉",
+    "textTw": "強化粉末"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 30505,
+    "text": "우유",
+    "textCn": "牛奶",
+    "textEn": "Milk",
+    "textJp": "牛乳",
+    "textTw": "牛奶"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 30403,
+    "text": "감자",
+    "textCn": "土豆",
+    "textEn": "Potato",
+    "textJp": "ジャガイモ",
+    "textTw": "馬鈴薯"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 32625,
+    "text": "고대 수정",
+    "textCn": "远古水晶",
+    "textEn": "Ancient Crystal",
+    "textJp": "古代水晶",
+    "textTw": "古代水晶"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 118,
+    "text": "재료",
+    "textCn": "材料",
+    "textEn": "Material",
+    "textJp": "素材",
+    "textTw": "材料"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 32511,
+    "text": "합판",
+    "textCn": "胶合板",
+    "textEn": "Plywood",
+    "textJp": "合板",
+    "textTw": "夾板"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 32501,
+    "text": "원목",
+    "textCn": "原木",
+    "textEn": "Hardwood",
+    "textJp": "原木",
+    "textTw": "原木"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 32401,
+    "text": "일반 천",
+    "textCn": "普通布料",
+    "textEn": "Plain fabric",
+    "textJp": "一般布",
+    "textTw": "一般布料"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 32301,
+    "text": "일반 가죽",
+    "textCn": "普通皮革",
+    "textEn": "Plain leather",
+    "textJp": "一般皮",
+    "textTw": "一般皮革"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 32204,
+    "text": "토탄",
+    "textCn": "泥炭",
+    "textEn": "Peat",
+    "textJp": "泥炭",
+    "textTw": "泥炭"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 32203,
+    "text": "금광석",
+    "textCn": "金矿石",
+    "textEn": "Gold ore",
+    "textJp": "金鉱石",
+    "textTw": "金礦石"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 32202,
+    "text": "동광석",
+    "textCn": "铜矿石",
+    "textEn": "Copper ore",
+    "textJp": "銅鉱石",
+    "textTw": "銅礦石"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 32201,
+    "text": "철광석",
+    "textCn": "铁矿石",
+    "textEn": "Iron ore",
+    "textJp": "鉄鉱石",
+    "textTw": "鐵礦石"
+  },
+  {
+    "date": "2024-08-07",
+    "id": 32672,
+    "text": "각성의 영약",
+    "textCn": "觉醒灵药",
+    "textEn": "Awakening Elixir",
+    "textJp": "覚醒の霊薬",
+    "textTw": "覺醒靈藥"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 32127,
+    "text": "여신의 눈물",
+    "textCn": "女神之泪",
+    "textEn": "Tear of Goddess",
+    "textJp": "女神の涙",
+    "textTw": "女神的眼淚"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 32115,
+    "text": "어둠의 성석",
+    "textCn": "暗圣石",
+    "textEn": "Darkness Magic Crystal",
+    "textJp": "闇の聖石",
+    "textTw": "暗的聖石"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 32114,
+    "text": "빛의 성석",
+    "textCn": "光圣石",
+    "textEn": "Light Magic Crystal",
+    "textJp": "光の聖石",
+    "textTw": "光的聖石"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 32113,
+    "text": "바람의 성석",
+    "textCn": "风圣石",
+    "textEn": "Wind Magic Crystal",
+    "textJp": "風の聖石",
+    "textTw": "風的聖石"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 32112,
+    "text": "물의 성석",
+    "textCn": "水圣石",
+    "textEn": "Water Magic Crystal",
+    "textJp": "水の聖石",
+    "textTw": "水的聖石"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 32111,
+    "text": "불의 성석",
+    "textCn": "火圣石",
+    "textEn": "Fire Magic Crystal",
+    "textJp": "火の聖石",
+    "textTw": "火的聖石"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 7783,
+    "text": "4성 승급의 별",
+    "textCn": "4★升星之星",
+    "textEn": "★4 Rank-up Star",
+    "textJp": "★4昇級の星",
+    "textTw": "★4升星之星"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 7782,
+    "text": "3성 승급의 별",
+    "textCn": "3★升星之星",
+    "textEn": "★3 Rank-up Star",
+    "textJp": "★3昇級の星",
+    "textTw": "★3升星之星"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 7781,
+    "text": "2성 승급의 별",
+    "textCn": "2★升星之星",
+    "textEn": "★2 Rank-up Star",
+    "textJp": "★2昇級の星",
+    "textTw": "★2升星之星"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 7780,
+    "text": "1성 승급의 별",
+    "textCn": "1★升星之星",
+    "textEn": "★1 Rank-up Star",
+    "textJp": "★1昇級の星",
+    "textTw": "★1升星之星"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 7793,
+    "text": "레드 슬라임",
+    "textCn": "红色史莱姆",
+    "textEn": "Red Slime",
+    "textJp": "レッドスライム",
+    "textTw": "紅色史萊姆"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 7792,
+    "text": "블루 슬라임",
+    "textCn": "蓝色史莱姆",
+    "textEn": "Blue Slime",
+    "textJp": "ブルースライム",
+    "textTw": "藍色史萊姆"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 7791,
+    "text": "옐로우 슬라임",
+    "textCn": "黄色史莱姆",
+    "textEn": "Yellow Slime",
+    "textJp": "イエロースライム",
+    "textTw": "黃色史萊姆"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 7902,
+    "text": "중수 재능스킬북",
+    "textCn": "进阶天赋技能书",
+    "textEn": "★2 Ability S. Book",
+    "textJp": "見習い用才能スキルブック",
+    "textTw": "進階天賦技能書"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 27106,
+    "text": "승급",
+    "textCn": "升星",
+    "textEn": "Rank-up",
+    "textJp": "昇級",
+    "textTw": "升級"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 7901,
+    "text": "초보 재능스킬북",
+    "textCn": "初级天赋技能书",
+    "textEn": "★1 Ability S. Book",
+    "textJp": "初心者用才能スキルブック",
+    "textTw": "新手天賦技能書"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 60001,
+    "text": "닉네임 변경권",
+    "textCn": "昵称更改券",
+    "textEn": "Nickname Ticket",
+    "textJp": "ニックネーム変更券",
+    "textTw": "暱稱變更券"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 30806,
+    "text": "레바테인 햄",
+    "textCn": "雷瓦汀火腿",
+    "textEn": "Levatein Ham",
+    "textJp": "レーヴァテインハム",
+    "textTw": "雷瓦汀火腿"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 30803,
+    "text": "이터널 러브",
+    "textCn": "永恒之爱",
+    "textEn": "Eternal Love",
+    "textJp": "エターナルラブ",
+    "textTw": "永恆龍舌蘭酒"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 30704,
+    "text": "사프란",
+    "textCn": "藏红花",
+    "textEn": "Saffron",
+    "textJp": "サフラン",
+    "textTw": "番紅花"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 30702,
+    "text": "멜론",
+    "textCn": "哈密瓜",
+    "textEn": "Melon",
+    "textJp": "メロン",
+    "textTw": "哈密瓜"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 30603,
+    "text": "꿀",
+    "textCn": "蜂蜜",
+    "textEn": "Honey",
+    "textJp": "ハチミツ",
+    "textTw": "蜂蜜"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 30601,
+    "text": "올리브유",
+    "textCn": "橄榄油",
+    "textEn": "Olive Oil",
+    "textJp": "オリーブ油",
+    "textTw": "橄欖油"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 30410,
+    "text": "커피 원두",
+    "textCn": "咖啡豆",
+    "textEn": "Coffee Bean",
+    "textJp": "コーヒー豆",
+    "textTw": "咖啡豆"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 30408,
+    "text": "토마토",
+    "textCn": "番茄",
+    "textEn": "Tomato",
+    "textJp": "トマト",
+    "textTw": "番茄"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 30406,
+    "text": "무순",
+    "textCn": "萝卜缨",
+    "textEn": "Radish",
+    "textJp": "かいわれ菜",
+    "textTw": "蘿蔔嬰"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 30405,
+    "text": "파프리카",
+    "textCn": "甜椒",
+    "textEn": "Paprika",
+    "textJp": "パプリカ",
+    "textTw": "甜椒"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 30404,
+    "text": "양파",
+    "textCn": "洋葱",
+    "textEn": "Onion",
+    "textJp": "玉ねぎ",
+    "textTw": "洋蔥"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 30402,
+    "text": "당근",
+    "textCn": "胡萝卜",
+    "textEn": "Carrot",
+    "textJp": "ニンジン",
+    "textTw": "紅蘿蔔"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 30302,
+    "text": "포도",
+    "textCn": "葡萄",
+    "textEn": "Grape",
+    "textJp": "ブドウ",
+    "textTw": "葡萄"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 30301,
+    "text": "사과",
+    "textCn": "苹果",
+    "textEn": "Apple",
+    "textJp": "リンゴ",
+    "textTw": "蘋果"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 30207,
+    "text": "쌀",
+    "textCn": "米",
+    "textEn": "Rice",
+    "textJp": "米",
+    "textTw": "米"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 30206,
+    "text": "홉",
+    "textCn": "啤酒花",
+    "textEn": "Hop",
+    "textJp": "ホップ",
+    "textTw": "啤酒花"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 30205,
+    "text": "보리",
+    "textCn": "大麦",
+    "textEn": "Barley",
+    "textJp": "麦",
+    "textTw": "大麥"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 30204,
+    "text": "콩",
+    "textCn": "豆子",
+    "textEn": "Bean",
+    "textJp": "豆",
+    "textTw": "豆子"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 30203,
+    "text": "옥수수",
+    "textCn": "玉米",
+    "textEn": "Corn",
+    "textJp": "トウモロコシ",
+    "textTw": "玉米"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 30202,
+    "text": "허브",
+    "textCn": "香草",
+    "textEn": "Herb",
+    "textJp": "ハーブ",
+    "textTw": "草藥"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 30101,
+    "text": "연어",
+    "textCn": "三文鱼",
+    "textEn": "Salmon",
+    "textJp": "鮭",
+    "textTw": "鮭魚"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 30003,
+    "text": "짐승 고기",
+    "textCn": "兽肉",
+    "textEn": "Beast Meat",
+    "textJp": "獣の肉",
+    "textTw": "獸肉"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 32411,
+    "text": "고급 천",
+    "textCn": "高级布料",
+    "textEn": "Fine fabric",
+    "textJp": "高級布",
+    "textTw": "高級布料"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 32311,
+    "text": "고급 가죽",
+    "textCn": "高级皮革",
+    "textEn": "Fine leather",
+    "textJp": "高級皮",
+    "textTw": "高級皮革"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 32214,
+    "text": "석탄",
+    "textCn": "煤炭",
+    "textEn": "Coal",
+    "textJp": "石炭",
+    "textTw": "煤"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 152,
+    "text": "다이아",
+    "textCn": "钻石",
+    "textEn": "Dia",
+    "textJp": "ダイヤ",
+    "textTw": "鑽石"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 677,
+    "text": "쌀밥",
+    "textCn": "米饭",
+    "textEn": "Cooked rice",
+    "textJp": "ごはん",
+    "textTw": "白飯"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 673,
+    "text": "피의 칵테일",
+    "textCn": "鲜血鸡尾酒",
+    "textEn": "Blood Cocktail",
+    "textJp": "ブラッドカクテル",
+    "textTw": "血之雞尾酒"
+  },
+  {
+    "date": "2024-10-01",
+    "id": 70508,
+    "text": "히나타의 나이프",
+    "textCn": "日向之刀",
+    "textEn": "Hinata's Knife",
+    "textJp": "日向のナイフ",
+    "textTw": "日向之刀"
+  },
+  {
+    "date": "2024-10-01",
+    "id": 102051,
+    "text": "히카게",
+    "textCn": "日影",
+    "textEn": "Hikage",
+    "textJp": "日影",
+    "textTw": "日影"
+  },
+  {
+    "date": "2024-10-01",
+    "id": 70504,
+    "text": "쿠로카게의 부채",
+    "textCn": "黑影之扇",
+    "textEn": "Kurokage's Fan",
+    "textJp": "黒影の扇子",
+    "textTw": "黑影之扇"
+  },
+  {
+    "date": "2024-10-01",
+    "id": 102041,
+    "text": "유미",
+    "textCn": "雪泉",
+    "textEn": "Yumi",
+    "textJp": "雪泉",
+    "textTw": "雪泉"
+  },
+  {
+    "date": "2024-05-02",
+    "id": 70460,
+    "text": "로스트 매직",
+    "textCn": "失落魔法",
+    "textEn": "Lost Magic",
+    "textJp": "ロストマジック",
+    "textTw": "失落魔法"
+  },
+  {
+    "date": "2024-05-02",
+    "id": 100321,
+    "text": "로엔",
+    "textCn": "罗安",
+    "textEn": "Loen",
+    "textJp": "ロエン",
+    "textTw": "羅安"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 70420,
+    "text": "마검 요르문",
+    "textCn": "魔剑约尔门",
+    "textEn": "Evil Sword Jormun",
+    "textJp": "魔剣ヨルムン",
+    "textTw": "魔劍約爾文"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 106641,
+    "text": "안젤리카",
+    "textCn": "安洁莉卡",
+    "textEn": "Angelica",
+    "textJp": "アンジェリカ",
+    "textTw": "安潔莉卡"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 70316,
+    "text": "피그스미스",
+    "textCn": "猪猪锻造王",
+    "textEn": "Pigsmith",
+    "textJp": "ピッグスミス",
+    "textTw": "皮格史密斯"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 100301,
+    "text": "레일라",
+    "textCn": "蕾拉",
+    "textEn": "Layla",
+    "textJp": "レイラ",
+    "textTw": "蕾拉"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 70392,
+    "text": "더블 트러블",
+    "textCn": "双重麻烦",
+    "textEn": "Double Trouble",
+    "textJp": "ダブル・トラブル",
+    "textTw": "雙重麻煩"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 106301,
+    "text": "잉그리드",
+    "textCn": "英格利得",
+    "textEn": "Ingrid",
+    "textJp": "イングリッド",
+    "textTw": "英格利得"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 70376,
+    "text": "루이너",
+    "textCn": "毁灭者",
+    "textEn": "Ruiner",
+    "textJp": "ルイナー",
+    "textTw": "摧毀者"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 106251,
+    "text": "마리아",
+    "textCn": "玛丽亚",
+    "textEn": "Maria",
+    "textJp": "マリア",
+    "textTw": "瑪麗亞"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 70372,
+    "text": "크라잉 데빌",
+    "textCn": "哭泣魔王",
+    "textEn": "Crying Devil",
+    "textJp": "クライング・デビル",
+    "textTw": "哭泣的惡魔"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 106211,
+    "text": "크라이",
+    "textCn": "克莱",
+    "textEn": "Kry",
+    "textJp": "クライ",
+    "textTw": "克萊"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 70440,
+    "text": "흑설대호검",
+    "textCn": "黑雪大虎剑",
+    "textEn": "Black Snow Tiger Sword",
+    "textJp": "黒雪大虎剣",
+    "textTw": "黑雪大虎劍"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 106511,
+    "text": "유리",
+    "textCn": "尤里",
+    "textEn": "Yuri",
+    "textJp": "ユリ",
+    "textTw": "尤里"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 70360,
+    "text": "프라이쉬츠",
+    "textCn": "自由射手",
+    "textEn": "Freischutz",
+    "textJp": "フライシュッツ",
+    "textTw": "魔彈射手"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 106111,
+    "text": "에레니르",
+    "textCn": "艾尼尔",
+    "textEn": "Eleaneer",
+    "textJp": "エレニール",
+    "textTw": "艾尼爾"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 70276,
+    "text": "알바레스트",
+    "textCn": "劲弩",
+    "textEn": "Arbalest",
+    "textJp": "アルバレスト",
+    "textTw": "勁弩"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 100091,
+    "text": "램넌트",
+    "textCn": "雷南特",
+    "textEn": "Remnunt",
+    "textJp": "レムナント",
+    "textTw": "雷南特"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 70320,
+    "text": "덴저러스 밤",
+    "textCn": "危险炸弹",
+    "textEn": "Dangerous Bomb",
+    "textJp": "デンジャラス・ボム",
+    "textTw": "危險炸彈"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 106011,
+    "text": "위글",
+    "textCn": "威格",
+    "textEn": "Wiggle",
+    "textJp": "ウィグル",
+    "textTw": "威格"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 70416,
+    "text": "어스쉐이커",
+    "textCn": "撼地者",
+    "textEn": "Earth Shaker",
+    "textJp": "アースシェイカー",
+    "textTw": "撼地者"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 106501,
+    "text": "베아트리체",
+    "textCn": "比阿特丽丝",
+    "textEn": "Beatrice",
+    "textJp": "ベアトリス",
+    "textTw": "比阿特麗絲"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 70412,
+    "text": "헌터즈 보우",
+    "textCn": "猎人之弓",
+    "textEn": "Hunter's Bow",
+    "textJp": "ハンターズ・ボウ",
+    "textTw": "獵人之弓"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 106491,
+    "text": "리즈넷",
+    "textCn": "莉兹内",
+    "textEn": "Rigenette",
+    "textJp": "リジー",
+    "textTw": "莉茲內"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 70408,
+    "text": "심플 스피어",
+    "textCn": "简约长矛",
+    "textEn": "Simple Spear",
+    "textJp": "シンプル・スピア",
+    "textTw": "簡約長矛"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 106481,
+    "text": "리디아",
+    "textCn": "黎迪雅",
+    "textEn": "Lydia",
+    "textJp": "リディア",
+    "textTw": "黎迪雅"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 70288,
+    "text": "루나 피어서",
+    "textCn": "穿月弓",
+    "textEn": "Lunar Piercer",
+    "textJp": "ルナ・ピアサー",
+    "textTw": "月亮穿弓"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 100121,
+    "text": "리아트리스",
+    "textCn": "莉亚特里斯",
+    "textEn": "Liatris",
+    "textJp": "リアトリス",
+    "textTw": "莉亞特里斯"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 70284,
+    "text": "그라비오르",
+    "textCn": "刑罚之斧",
+    "textEn": "Gravior",
+    "textJp": "グラビオール",
+    "textTw": "格拉比歐勒"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 100111,
+    "text": "테레제",
+    "textCn": "泰瑞丝",
+    "textEn": "Teresse",
+    "textJp": "テレーゼ",
+    "textTw": "泰瑞絲"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 70280,
+    "text": "프리뮬란",
+    "textCn": "报春剑",
+    "textEn": "Primulan",
+    "textJp": "プリミュラン",
+    "textTw": "伏利木蘭"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 100101,
+    "text": "실비아",
+    "textCn": "席比雅",
+    "textEn": "Sylvia",
+    "textJp": "シルヴィア",
+    "textTw": "席比雅"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 70248,
+    "text": "로열다이트",
+    "textCn": "皇家钢剑",
+    "textEn": "Royaldite",
+    "textJp": "ロイヤルダイト",
+    "textTw": "皇家石"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 100021,
+    "text": "유스티아",
+    "textCn": "悠丝缇亚",
+    "textEn": "Justia",
+    "textJp": "ユースティア",
+    "textTw": "悠絲緹亞"
+  },
+  {
+    "date": "2024-04-18",
+    "id": 70456,
+    "text": "리틀 페어리",
+    "textCn": "小仙子",
+    "textEn": "Little Fairy",
+    "textJp": "リトル・フェアリー",
+    "textTw": "小仙子"
+  },
+  {
+    "date": "2024-04-18",
+    "id": 106681,
+    "text": "레피테아",
+    "textCn": "芮彼泰雅",
+    "textEn": "Refithea",
+    "textJp": "レピテア",
+    "textTw": "芮彼泰雅"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 70368,
+    "text": "데몬즈 수트",
+    "textCn": "邪灵服",
+    "textEn": "Demon's Suit",
+    "textJp": "デーモンズ・スーツ",
+    "textTw": "惡魔套裝"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 106201,
+    "text": "앤드류",
+    "textCn": "安德鲁",
+    "textEn": "Andrew",
+    "textJp": "アンドリュー",
+    "textTw": "安德魯"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 70296,
+    "text": "루고제 셔츠",
+    "textCn": "卢戈制衬衫",
+    "textEn": "Lugo Shirt",
+    "textJp": "ルーゴ製シャツ",
+    "textTw": "盧戈製襯衫"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 100141,
+    "text": "프레드",
+    "textCn": "弗雷德",
+    "textEn": "Fred",
+    "textJp": "フレッド",
+    "textTw": "弗雷德"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 70404,
+    "text": "에보렌 가드",
+    "textCn": "埃保伦侍卫",
+    "textEn": "Evoren Guard",
+    "textJp": "エボレン・ガード",
+    "textTw": "埃保倫警衛"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 106471,
+    "text": "칼슨",
+    "textCn": "卡森",
+    "textEn": "Carlson",
+    "textJp": "カーソン",
+    "textTw": "卡森"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 70436,
+    "text": "천년의 비녀",
+    "textCn": "千年发簪",
+    "textEn": "Thousand-year-old Hairpin",
+    "textJp": "千代のかんざし",
+    "textTw": "千年簪"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 106131,
+    "text": "달비",
+    "textCn": "达非",
+    "textEn": "Dalvi",
+    "textJp": "キュウビ",
+    "textTw": "達非"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 70400,
+    "text": "스피릿 리본",
+    "textCn": "精神蝴蝶结",
+    "textEn": "Spirit Ribbon",
+    "textJp": "スピリット・リボン",
+    "textTw": "精神蝴蝶結"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 106341,
+    "text": "줄리",
+    "textCn": "茱莉",
+    "textEn": "Julie",
+    "textJp": "ジュリー",
+    "textTw": "茱莉"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 70380,
+    "text": "홀리 게이즈",
+    "textCn": "神圣凝视",
+    "textEn": "Holy Gaze",
+    "textJp": "ホーリー・ゲイズ",
+    "textTw": "神聖凝視"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 106261,
+    "text": "아리네스",
+    "textCn": "阿里内斯",
+    "textEn": "Arines",
+    "textJp": "アリネス",
+    "textTw": "阿里內斯"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 70356,
+    "text": "톱 아이돌",
+    "textCn": "顶尖偶像",
+    "textEn": "Top Idol",
+    "textJp": "トップアイドル",
+    "textTw": "頂尖偶像"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 106101,
+    "text": "헬레나",
+    "textCn": "海伦娜",
+    "textEn": "Helena",
+    "textJp": "ヘレナ",
+    "textTw": "海倫娜"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 70340,
+    "text": "소울 카테나",
+    "textCn": "灵魂蝴蝶结",
+    "textEn": "Soul Curtana",
+    "textJp": "ソウル・カテナ",
+    "textTw": "靈魂卡提那"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 106061,
+    "text": "레클리스",
+    "textCn": "莱克莉斯",
+    "textEn": "Lecliss",
+    "textJp": "レクリス",
+    "textTw": "萊克莉斯"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 70308,
+    "text": "화이트 픽시",
+    "textCn": "白色小精灵",
+    "textEn": "White Pixie",
+    "textJp": "ホワイト・ピクシー",
+    "textTw": "白色小精靈"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 100241,
+    "text": "디아나",
+    "textCn": "黛安娜",
+    "textEn": "Diana",
+    "textJp": "ディアナ",
+    "textTw": "黛安娜"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 70264,
+    "text": "베룸 룩스",
+    "textCn": "真理眼镜",
+    "textEn": "Verum Lux",
+    "textJp": "ベルム・ルックス",
+    "textTw": "貝魯姆盧克斯"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 100061,
+    "text": "올슈타인",
+    "textCn": "奥尔施塔因",
+    "textEn": "Olstein",
+    "textJp": "オルシュタイン",
+    "textTw": "奧爾施塔因"
+  },
+  {
+    "date": "2024-08-08",
+    "id": 70488,
+    "text": "라 히프노스",
+    "textCn": "拉·修普诺斯",
+    "textEn": "La Hypnos",
+    "textJp": "ラ・ヒプノス",
+    "textTw": "拉·許普諾斯"
+  },
+  {
+    "date": "2024-08-08",
+    "id": 100341,
+    "text": "모르페아",
+    "textCn": "墨菲亚",
+    "textEn": "Morpeah",
+    "textJp": "モルフェア",
+    "textTw": "墨菲亞"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 70396,
+    "text": "프로즌루비",
+    "textCn": "冰雪红宝石",
+    "textEn": "Frozen Ruby",
+    "textJp": "フローズン・ルビー",
+    "textTw": "冰雪紅寶石"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 106331,
+    "text": "신시아",
+    "textCn": "辛西亚",
+    "textEn": "Cynthia",
+    "textJp": "シンシア",
+    "textTw": "辛西亞"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 70388,
+    "text": "수석 엠블렘",
+    "textCn": "首席勋章",
+    "textEn": "Scholar's Emblem",
+    "textJp": "首席エンブレム",
+    "textTw": "首席徽章"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 106281,
+    "text": "엠마",
+    "textCn": "艾玛",
+    "textEn": "Emma",
+    "textJp": "エマ",
+    "textTw": "艾瑪"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 37033,
+    "text": "잘린 신문 기사",
+    "textCn": "新闻剪报",
+    "textEn": "Torn newspaper article",
+    "textJp": "切り取られた新聞記事",
+    "textTw": "被剪掉的報紙報導"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 37002,
+    "text": "미샤의 목걸이",
+    "textCn": "米莎的项链",
+    "textEn": "Misha's Necklace",
+    "textJp": "ミーシャのネックレス",
+    "textTw": "米莎的項鍊"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 70384,
+    "text": "J 컬렉션",
+    "textCn": "J收藏品",
+    "textEn": "J Collection",
+    "textJp": "Jコレクション",
+    "textTw": "J收藏品"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 106271,
+    "text": "제이든",
+    "textCn": "杰登",
+    "textEn": "Jayden",
+    "textJp": "ジェイデン",
+    "textTw": "傑登"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 70332,
+    "text": "테라 컨실러",
+    "textCn": "泰拉假面",
+    "textEn": "Terra Concealer",
+    "textJp": "テラ・コンシーラー",
+    "textTw": "泰拉遮瑕膏"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 106041,
+    "text": "셀리아",
+    "textCn": "西利亚",
+    "textEn": "Celia",
+    "textJp": "セリア",
+    "textTw": "西利亞"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 70324,
+    "text": "윙드 스컬",
+    "textCn": "飞翅骷髅",
+    "textEn": "Winged Skull",
+    "textJp": "ウィングド・スカル",
+    "textTw": "飛翅骷髏"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 106021,
+    "text": "루크레치아",
+    "textCn": "卢克雷齐亚",
+    "textEn": "Lucrezia",
+    "textJp": "ルクレチア",
+    "textTw": "盧克雷齊亞"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 70300,
+    "text": "아미티에",
+    "textCn": "阿米堤耶",
+    "textEn": "Amitie",
+    "textJp": "アミティエ",
+    "textTw": "阿米堤耶"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 100151,
+    "text": "리시안느",
+    "textCn": "莉西安",
+    "textEn": "Lisianne",
+    "textJp": "リシアンヌ",
+    "textTw": "莉西安"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 70268,
+    "text": "별부름 장식",
+    "textCn": "唤星装饰",
+    "textEn": "Star Caller Ornament",
+    "textJp": "星呼び飾り",
+    "textTw": "星星召喚裝飾"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 100071,
+    "text": "이클립스",
+    "textCn": "伊柯利普斯",
+    "textEn": "Eclipse",
+    "textJp": "エクリプス",
+    "textTw": "伊柯利普斯"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 70444,
+    "text": "씰 오브 헬",
+    "textCn": "地狱之印",
+    "textEn": "Seal of Hell",
+    "textJp": "シール・オブ・ヘル",
+    "textTw": "地獄海"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 106581,
+    "text": "나르타스",
+    "textCn": "纳罗达斯",
+    "textEn": "Nartas",
+    "textJp": "ナルタス",
+    "textTw": "納羅達斯"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 70364,
+    "text": "세븐스 헬",
+    "textCn": "七层地狱",
+    "textEn": "Seventh Hell",
+    "textJp": "セブンス・ヘル",
+    "textTw": "第七地獄"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 106191,
+    "text": "사메이",
+    "textCn": "莎美",
+    "textEn": "Samay",
+    "textJp": "サメイ",
+    "textTw": "莎美"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 70344,
+    "text": "E.P.G",
+    "textCn": "E.P.G",
+    "textEn": "E.P.G",
+    "textJp": "E.P.G",
+    "textTw": "E.P.G"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 106071,
+    "text": "라피나",
+    "textCn": "拉菲娜",
+    "textEn": "Rafina",
+    "textJp": "ラフィーナ",
+    "textTw": "拉菲娜"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 70304,
+    "text": "스틸러핸드",
+    "textCn": "掠夺之手",
+    "textEn": "Stealer Hand",
+    "textJp": "スチーラーハンド",
+    "textTw": "掠奪之手"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 100161,
+    "text": "베르니",
+    "textCn": "维尔尼",
+    "textEn": "Bernie",
+    "textJp": "ベルニー",
+    "textTw": "維爾尼"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 70292,
+    "text": "핸드메이드",
+    "textCn": "手工艺",
+    "textEn": "Handmade",
+    "textJp": "ハンドメイド",
+    "textTw": "手工"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 100131,
+    "text": "귄트",
+    "textCn": "君特",
+    "textEn": "Gynt",
+    "textJp": "ギュント",
+    "textTw": "君特"
+  },
+  {
+    "date": "2024-06-13",
+    "id": 70476,
+    "text": "싱 인 하모니",
+    "textCn": "和声",
+    "textEn": "Sing in Harmony",
+    "textJp": "シング・イン・ハーモニー",
+    "textTw": "和聲"
+  },
+  {
+    "date": "2024-06-13",
+    "id": 106721,
+    "text": "베나카",
+    "textCn": "贝那卡",
+    "textEn": "Venaka",
+    "textJp": "ベナカ",
+    "textTw": "貝那卡"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 70424,
+    "text": "래빗 레인저",
+    "textCn": "兔子游侠",
+    "textEn": "Rabbit Ranger",
+    "textJp": "ラビットレンジャー",
+    "textTw": "兔子騎兵"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 106141,
+    "text": "제니스",
+    "textCn": "杰尼斯",
+    "textEn": "Zenith",
+    "textJp": "ジェニス",
+    "textTw": "傑尼斯"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 70272,
+    "text": "카넬리아나",
+    "textCn": "红玉髓剑",
+    "textEn": "Carneliana",
+    "textJp": "カネリアーナ",
+    "textTw": "紅玉髓劍"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 100081,
+    "text": "루비아",
+    "textCn": "露比雅",
+    "textEn": "Rubia",
+    "textJp": "ルヴィア",
+    "textTw": "露比雅"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 70260,
+    "text": "어둠 봉인구",
+    "textCn": "黑暗封印工具",
+    "textEn": "Dark Restraint",
+    "textJp": "闇の封印具",
+    "textTw": "黑暗封印道具"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 100051,
+    "text": "루",
+    "textCn": "鲁",
+    "textEn": "Rou",
+    "textJp": "ルゥ",
+    "textTw": "魯"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 70256,
+    "text": "디아데마",
+    "textCn": "权冠之弓",
+    "textEn": "Diathema",
+    "textJp": "ディアデマ",
+    "textTw": "迪亞德瑪"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 100041,
+    "text": "그레이",
+    "textCn": "格雷",
+    "textEn": "Gray",
+    "textJp": "グレイ",
+    "textTw": "格雷"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 70252,
+    "text": "플렌티소움",
+    "textCn": "丰识魔剑",
+    "textEn": "Plentithoum",
+    "textJp": "プレンティソウム",
+    "textTw": "豐識魔劍"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 100031,
+    "text": "세헤라자드",
+    "textCn": "莎赫拉查德",
+    "textEn": "Scheherazade",
+    "textJp": "シェラザード",
+    "textTw": "莎赫拉查德"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 70348,
+    "text": "로즈 셀렉션",
+    "textCn": "玫瑰精选",
+    "textEn": "Rose Selection",
+    "textJp": "ローズセレクション",
+    "textTw": "玫瑰精選"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 106081,
+    "text": "엘리제",
+    "textCn": "爱丽洁",
+    "textEn": "Elise",
+    "textJp": "エリーゼ",
+    "textTw": "愛麗潔"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 70244,
+    "text": "아르타 루고",
+    "textCn": "阿尔塔卢戈",
+    "textEn": "Artha Lugo",
+    "textJp": "アルタルーゴ",
+    "textTw": "阿爾塔盧戈"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 100011,
+    "text": "라텔",
+    "textCn": "拉德尔",
+    "textEn": "Lathel",
+    "textJp": "ラテル",
+    "textTw": "拉德爾"
+  },
+  {
+    "date": "2024-04-04",
+    "id": 70452,
+    "text": "아크라시온",
+    "textCn": "亚克力西温",
+    "textEn": "Arkrasion",
+    "textJp": "アークラシオン",
+    "textTw": "亞克力西溫"
+  },
+  {
+    "date": "2024-04-04",
+    "id": 100311,
+    "text": "엘피스",
+    "textCn": "厄尔比斯",
+    "textEn": "Elpis",
+    "textJp": "エルピス",
+    "textTw": "厄爾比斯"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 37004,
+    "text": "캄파",
+    "textCn": "风铃",
+    "textEn": "Campa",
+    "textJp": "カンパー",
+    "textTw": "坎帕"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 2005,
+    "text": "프레드",
+    "textCn": "弗雷德",
+    "textEn": "Fred",
+    "textJp": "フレッド",
+    "textTw": "弗雷德"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 180031,
+    "text": "헌터 아울",
+    "textCn": "猎人猫头鹰",
+    "textEn": "Hunter Owl",
+    "textJp": "ハンターアウル",
+    "textTw": "貓頭鷹獵人"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 70001,
+    "text": "용병 검",
+    "textCn": "佣兵剑",
+    "textEn": "Mercenary Sword I",
+    "textJp": "傭兵の剣",
+    "textTw": "傭兵劍"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 2004,
+    "text": "귄트",
+    "textCn": "君特",
+    "textEn": "Gynt",
+    "textJp": "ギュント",
+    "textTw": "君特"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 2019,
+    "text": "여행자 소녀",
+    "textCn": "旅行者少女",
+    "textEn": "Traveling Girl",
+    "textJp": "旅人の少女",
+    "textTw": "旅行者少女"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 200021,
+    "text": "피의 기사",
+    "textCn": "血骑士",
+    "textEn": "Knight of Blood",
+    "textJp": "鮮血の騎士",
+    "textTw": "血騎士"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 40106,
+    "text": "상처투성이 엄니",
+    "textCn": "伤痕累累的獠牙",
+    "textEn": "Wounded Tusk",
+    "textJp": "傷だらけの牙",
+    "textTw": "滿是傷痕的臼齒"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 1010002,
+    "text": "루고 숲",
+    "textCn": "卢戈森林",
+    "textEn": "Lugo Forest",
+    "textJp": "ルーゴの森",
+    "textTw": "盧戈森林"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 1010007,
+    "text": "루고 여관",
+    "textCn": "卢戈旅馆",
+    "textEn": "Lugo Inn",
+    "textJp": "ルーゴ宿",
+    "textTw": "盧戈旅館"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 1010012,
+    "text": "멧돼지 동굴",
+    "textCn": "野猪洞穴",
+    "textEn": "Wild Boar Cave",
+    "textJp": "イノシシ洞窟",
+    "textTw": "野豬洞穴"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 1010001,
+    "text": "루고 마을",
+    "textCn": "卢戈镇",
+    "textEn": "Lugo Village",
+    "textJp": "ルーゴ村",
+    "textTw": "盧戈鎮"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 21,
+    "text": "퀘스트 게시판",
+    "textCn": "探索告示板",
+    "textEn": "Quest Bulletin Board",
+    "textJp": "クエスト掲示板",
+    "textTw": "任務布告欄"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 9,
+    "text": "책벌레 소년",
+    "textCn": "书呆子少年",
+    "textEn": "Bookworm Boy",
+    "textJp": "本好きの少年",
+    "textTw": "書呆子少年"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 3,
+    "text": "큰집 적적한 할머니",
+    "textCn": "住大房子的寂寞奶奶",
+    "textEn": "Lonely Grandma",
+    "textJp": "大きい家の退屈なお婆さん",
+    "textTw": "住在寂靜大房子的奶奶"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 31,
+    "text": "엘린",
+    "textCn": "艾琳",
+    "textEn": "Elin",
+    "textJp": "エリーン",
+    "textTw": "艾琳"
+  },
+  {
+    "date": "2026-09-03",
+    "id": 102131,
+    "text": "야마시로 렌",
+    "textCn": "山城恋",
+    "textEn": "Ren Yamashiro",
+    "textJp": "山城恋",
+    "textTw": "山城戀"
+  },
+  {
+    "date": "2026-09-16",
+    "id": 202131,
+    "text": "무한우주의 전일",
+    "textCn": "无限宇宙之全一",
+    "textEn": "Lord of the Cosmos",
+    "textJp": "無限宇宙の全一",
+    "textTw": "無限宇宙之全一"
+  },
+  {
+    "date": "2026-09-03",
+    "id": 102111,
+    "text": "우젠 쿄카",
+    "textCn": "羽前京香",
+    "textEn": "Kyouka Uzen",
+    "textJp": "羽前京香",
+    "textTw": "羽前京香"
+  },
+  {
+    "date": "2026-09-03",
+    "id": 202111,
+    "text": "무한의 사슬",
+    "textCn": "无穷之锁",
+    "textEn": "Eternal Chains",
+    "textJp": "無窮の鎖",
+    "textTw": "無窮之鎖"
+  },
+  {
+    "date": "2025-06-12",
+    "id": 32703,
+    "text": "룰렛 코인",
+    "textCn": "转盘币",
+    "textEn": "Roulette Coin",
+    "textJp": "ルーレットコイン",
+    "textTw": "轉盤幣"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 675,
+    "text": "투혼의 메달",
+    "textCn": "斗魂奖牌",
+    "textEn": "Medal of the Fighting Spirit",
+    "textJp": "闘魂のメダル",
+    "textTw": "鬥志的獎牌"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 32640,
+    "text": "UR 전용장비 확정 뽑기 교환권",
+    "textCn": "UR专用装备必得抽抽乐兑换券",
+    "textEn": "UR Exclusive Gear Guaranteed Draw Exchange Ticket",
+    "textJp": "UR専用装備確定ガチャ交換券",
+    "textTw": "UR 專用裝備保證抽抽樂交換券"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 901,
+    "text": "피의 기사",
+    "textCn": "血骑士",
+    "textEn": "Knight of Blood",
+    "textJp": "鮮血の騎士",
+    "textTw": "血騎士"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 264,
+    "text": "재능의 묘약",
+    "textCn": "天赋神药",
+    "textEn": "Ability Pill",
+    "textJp": "才能の秘薬",
+    "textTw": "天賦特效藥"
+  },
+  {
+    "date": "2025-06-12",
+    "id": 4700001,
+    "text": "가이드 패스Ⅰ",
+    "textCn": "指南通行证Ⅰ",
+    "textEn": "Guide Pass Ⅰ",
+    "textJp": "ガイドパスI",
+    "textTw": "指南通行證Ⅰ"
+  },
+  {
+    "date": "2024-12-10",
+    "id": 709,
+    "text": "글루피 스타",
+    "textCn": "格鲁菲之星",
+    "textEn": "Glupy Star",
+    "textJp": "グルピィスター",
+    "textTw": "格魯菲之星"
+  },
+  {
+    "date": "2024-12-09",
+    "id": 5210005,
+    "text": "베일라",
+    "textCn": "贝拉",
+    "textEn": "Veila",
+    "textJp": "ヴェイラ",
+    "textTw": "貝拉"
+  },
+  {
+    "date": "2024-12-10",
+    "id": 2300701,
+    "text": "글루피 다이너",
+    "textCn": "格鲁菲餐厅",
+    "textEn": "Glupy Diner",
+    "textJp": "グルピィ・ダイナー",
+    "textTw": "格魯菲餐廳"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 912,
+    "text": "파이어칩",
+    "textCn": "火晶片",
+    "textEn": "Firechip",
+    "textJp": "ファイヤーチップ",
+    "textTw": "火片"
+  },
+  {
+    "date": "2025-06-12",
+    "id": 32702,
+    "text": "추천 5성 코스튬 선택권",
+    "textCn": "推荐5★服装选择券",
+    "textEn": "Recommended ★5 Costume Selective Ticket",
+    "textJp": "おすすめ★5コスチューム選択券",
+    "textTw": "推薦用★5服裝選擇券"
+  },
+  {
+    "date": "2024-04-18",
+    "id": 32660,
+    "text": "코스튬 선택권",
+    "textCn": "服装选择券",
+    "textEn": "Costume Selective Ticket",
+    "textJp": "コスチューム選択券",
+    "textTw": "服裝選擇券"
+  },
+  {
+    "date": "2024-10-24",
+    "id": 200333,
+    "text": "신입 사원",
+    "textCn": "新进员工",
+    "textEn": "New Hire",
+    "textJp": "新入社員",
+    "textTw": "新進員工"
+  },
+  {
+    "date": "2024-06-13",
+    "id": 100331,
+    "text": "네브리스",
+    "textCn": "内布利斯",
+    "textEn": "Nebris",
+    "textJp": "ネブリス",
+    "textTw": "內布利斯"
+  },
+  {
+    "date": "2026-09-16",
+    "id": 10100148,
+    "text": "무한우주의 전일 야마시로 렌 뽑기",
+    "textCn": "无限宇宙之全一・山城恋抽抽乐",
+    "textEn": "Lord of the Cosmos Ren Yamashiro Draw",
+    "textJp": "無限宇宙の全一 山城恋ガチャ",
+    "textTw": "無限宇宙之全一山城戀抽抽樂"
+  },
+  {
+    "date": "2026-09-03",
+    "id": 10100146,
+    "text": "아메노미토리 이즈모 텐카 뽑기",
+    "textCn": "天御鸟命・出云天花抽抽乐",
+    "textEn": "Ame-no-Mitori Tenka Izumo Draw",
+    "textJp": "天御鳥命 出雲天花ガチャ",
+    "textTw": "天御鳥命出雲天花抽抽樂"
+  },
+  {
+    "date": "2026-09-03",
+    "id": 202121,
+    "text": "아메노미토리",
+    "textCn": "天御鸟命",
+    "textEn": "Ame-no-Mitori",
+    "textJp": "天御鳥命",
+    "textTw": "天御鳥命"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 200116,
+    "text": "양호부",
+    "textCn": "保健部",
+    "textEn": "Medical Club",
+    "textJp": "保健委員",
+    "textTw": "保健社"
+  },
+  {
+    "date": "2025-11-13",
+    "id": 10100113,
+    "text": "신실의 날개 올리비에 뽑기",
+    "textCn": "信实之翼奥利维耶抽抽乐",
+    "textEn": "Faithful Wings Olivier Draw",
+    "textJp": "信心の翼 オリビエガチャ",
+    "textTw": "忠實之翼奧利維爾抽抽樂"
+  },
+  {
+    "date": "2025-11-13",
+    "id": 200361,
+    "text": "신실의 날개",
+    "textCn": "信实之翼",
+    "textEn": "Faithful Wings",
+    "textJp": "信心の翼",
+    "textTw": "忠實之翼"
+  },
+  {
+    "date": "2024-06-27",
+    "id": 32665,
+    "text": "글러티 토큰",
+    "textCn": "葛洛堤代币",
+    "textEn": "Glutti Token",
+    "textJp": "グラティトークン",
+    "textTw": "葛洛堤代幣"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 685,
+    "text": "횃불",
+    "textCn": "火把",
+    "textEn": "Torch",
+    "textJp": "たいまつ",
+    "textTw": "火炬"
+  },
+  {
+    "date": "2026-09-03",
+    "id": 70584,
+    "text": "쿄카의 검",
+    "textCn": "京香的剑",
+    "textEn": "Kyouka's Sword",
+    "textJp": "京香の剣",
+    "textTw": "京香的劍"
+  },
+  {
+    "date": "2026-09-03",
+    "id": 32708,
+    "text": "이계의 불씨",
+    "textCn": "异界火种",
+    "textEn": "Spark of the Otherworld",
+    "textJp": "異界の火種",
+    "textTw": "異界火種"
+  },
+  {
+    "date": "2025-06-12",
+    "id": 32700,
+    "text": "선별 전용 뽑기권",
+    "textCn": "甄选专用抽抽乐券",
+    "textEn": "Selective Draw Ticket",
+    "textJp": "選別専用ガチャ券",
+    "textTw": "篩選專用抽抽樂券"
+  },
+  {
+    "date": "2025-12-09",
+    "id": 206764,
+    "text": "프로즌 퀸",
+    "textCn": "银雪凝光女王",
+    "textEn": "Frozen Queen",
+    "textJp": "フローズン・クイーン",
+    "textTw": "冰雪女王"
+  },
+  {
+    "date": "2025-03-20",
+    "id": 106761,
+    "text": "빌헬미나",
+    "textCn": "威廉明娜",
+    "textEn": "Wilhelmina",
+    "textJp": "ウィルヘルミナ",
+    "textTw": "威廉明娜"
+  },
+  {
+    "date": "2025-06-12",
+    "id": 200078,
+    "text": "꿈속의 신부",
+    "textCn": "梦中的新娘",
+    "textEn": "Dream Bride",
+    "textJp": "夢の中の花嫁",
+    "textTw": "夢中的新娘"
+  },
+  {
+    "date": "2024-12-10",
+    "id": 200342,
+    "text": "데이드림 바니",
+    "textCn": "白日梦兔女郎",
+    "textEn": "Daydream Bunny",
+    "textJp": "デイドリーム・バニー",
+    "textTw": "白日夢兔女郎"
+  },
+  {
+    "date": "2024-06-13",
+    "id": 206135,
+    "text": "여름휴가",
+    "textCn": "暑假",
+    "textEn": "Summer Vacation",
+    "textJp": "サマーバカンス",
+    "textTw": "暑假"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 200056,
+    "text": "스트레이 캣",
+    "textCn": "流浪猫",
+    "textEn": "Stray Cat",
+    "textJp": "ストレイ・キャット",
+    "textTw": "流浪貓"
+  },
+  {
+    "date": "2025-06-12",
+    "id": 33703,
+    "text": "룰렛 이벤트에 참여하기 위해 필요한 코인. 코인을 지불하는 것으로 룰렛을 돌려, 당첨된 칸에 해당하는 보상을 획득할 수 있다.",
+    "textCn": "参与转盘活动所需的硬币。消耗该硬币可转动转盘，并获得中奖格对应的奖励。",
+    "textEn": "A coin needed to participate in the Roulette Event. Use the coin to spin the roulette and claim the reward where it lands.",
+    "textJp": "ルーレットイベントに参加するために必要なコイン。コインを消費してルーレットを回すと当選したマスに該当する報酬を獲得できる。",
+    "textTw": "用於參加轉盤活動的硬幣。支付此硬幣轉動轉盤後，可以獲得中獎格子對應的獎勵。"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 33626,
+    "text": "무료로 1회 뽑기를 할 수 있는 티켓.",
+    "textCn": "可免费抽1次的抽抽乐券。",
+    "textEn": "A ticket that allows you to draw once for free.",
+    "textJp": "無料でガチャを1回引けるチケット",
+    "textTw": "可免費抽1次的抽抽樂券"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 21001,
+    "text": "니노미야 죠",
+    "textCn": "二宮丈",
+    "textEn": "Joe Ninomiya",
+    "textJp": "二宮丈",
+    "textTw": "二宮丈"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 200141,
+    "text": "루고 수비대",
+    "textCn": "卢戈卫队",
+    "textEn": "Lugo Defense Force",
+    "textJp": "ルーゴ守備隊",
+    "textTw": "盧戈守衛隊"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 681,
+    "text": "황금의 실",
+    "textCn": "金线",
+    "textEn": "Golden Thread",
+    "textJp": "黄金の糸",
+    "textTw": "黃金線"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 21024,
+    "text": "츠키시로 히카",
+    "textCn": "月城日花",
+    "textEn": "Hika Tsukishiro",
+    "textJp": "月城日花",
+    "textTw": "月城日花"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 206331,
+    "text": "혹한 속의 온기",
+    "textCn": "寒日温暖",
+    "textEn": "Warmth within the Severe Cold",
+    "textJp": "酷寒の中の温もり",
+    "textTw": "酷寒中的熱氣"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 21030,
+    "text": "쿠지메 나기사",
+    "textCn": "久次米渚",
+    "textEn": "Nagisa Kujime",
+    "textJp": "久次米渚",
+    "textTw": "久次米渚"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 206301,
+    "text": "카디스의 탄환",
+    "textCn": "卡迪斯的子弹",
+    "textEn": "Kardis' Bullet",
+    "textJp": "カディスの弾丸",
+    "textTw": "卡迪斯的子彈"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 21025,
+    "text": "미나모리 미즈키",
+    "textCn": "皆森水希",
+    "textEn": "Minamori Mizuki",
+    "textJp": "皆森水希",
+    "textTw": "皆森水希"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 206251,
+    "text": "대마법사",
+    "textCn": "大魔法师",
+    "textEn": "Archmage",
+    "textJp": "大魔術師",
+    "textTw": "大魔法師"
+  },
+  {
+    "date": "2026-09-16",
+    "id": 70592,
+    "text": "렌의 머리장식",
+    "textCn": "恋的头饰",
+    "textEn": "Ren's Hair Accessory",
+    "textJp": "恋の髪飾り",
+    "textTw": "戀的頭飾"
+  },
+  {
+    "date": "2026-09-03",
+    "id": 70588,
+    "text": "텐카의 귀걸이",
+    "textCn": "天花的耳环",
+    "textEn": "Tenka's Earring",
+    "textJp": "天花のイヤリング",
+    "textTw": "天花的耳環"
+  },
+  {
+    "date": "2026-09-03",
+    "id": 102121,
+    "text": "이즈모 텐카",
+    "textCn": "出云天花",
+    "textEn": "Tenka Izumo",
+    "textJp": "出雲天花",
+    "textTw": "出雲天花"
+  },
+  {
+    "date": "2025-07-10",
+    "id": 70544,
+    "text": "티르빙",
+    "textCn": "提尔锋",
+    "textEn": "Tyrfing",
+    "textJp": "ティルヴィング",
+    "textTw": "提爾鋒"
+  },
+  {
+    "date": "2025-07-10",
+    "id": 100361,
+    "text": "올리비에",
+    "textCn": "奥利维耶",
+    "textEn": "Olivier",
+    "textJp": "オリビエ",
+    "textTw": "奧利維爾"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 268,
+    "text": "다양한 물건을 거래할 수 있는 특별한 보석.\\n이 반짝임을 싫어하는 사람은 없다.",
+    "textCn": "可交易各种物品的特别宝石，没有人会讨厌它的耀眼光芒。",
+    "textEn": "A special gem that can be traded for a wide variety of goods. No one can refuse its sparkle.",
+    "textJp": "様々な品を取引できる特別な宝石。\\nこの輝きを嫌う者は誰一人いない。",
+    "textTw": "可交易各種物品的特別寶石，沒有人討厭它的耀眼光芒。"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 266,
+    "text": "금으로 주조된 반짝이는 동전.\\n어느 곳에서나 화폐로 사용할 수 있다.",
+    "textCn": "用金子铸造的闪光硬币。在任何地方都可以当作货币使用。",
+    "textEn": "A shiny gold coin made of pure gold. It is a currency that can be used anywhere.",
+    "textJp": "金で作られた輝くコイン。\\nどこでも貨幣として使える。",
+    "textTw": "使用黃金鑄造的發光硬幣，無論何地都可以當作貨幣使用。"
+  },
+  {
+    "date": "2025-08-21",
+    "id": 610002,
+    "text": "프리즘 효과 1",
+    "textCn": "炫彩效果1",
+    "textEn": "Prism Effect 1",
+    "textJp": "プリズム効果1",
+    "textTw": "炫彩效果1"
+  },
+  {
+    "date": "2025-08-21",
+    "id": 610003,
+    "text": "프리즘 효과 2",
+    "textCn": "炫彩效果2",
+    "textEn": "Prism Effect 2",
+    "textJp": "プリズム効果2",
+    "textTw": "炫彩效果2"
+  },
+  {
+    "date": "2025-08-21",
+    "id": 610004,
+    "text": "프리즘 효과 3",
+    "textCn": "炫彩效果3",
+    "textEn": "Prism Effect 3",
+    "textJp": "プリズム効果3",
+    "textTw": "炫彩效果3"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 9024,
+    "text": "코스튬 선택 강화",
+    "textCn": "服装选择强化",
+    "textEn": "Selective Costume Enhancement",
+    "textJp": "コスチューム選択強化",
+    "textTw": "選擇服裝強化"
+  },
+  {
+    "date": "2026-06-25",
+    "id": 32756,
+    "text": "부드러운 우유",
+    "textCn": "口感丝滑细腻的牛奶",
+    "textEn": "Creamy Milk",
+    "textJp": "マイルドなミルク",
+    "textTw": "香醇牛奶"
+  },
+  {
+    "date": "2026-06-25",
+    "id": 503,
+    "text": "친밀도 선물 아이템",
+    "textCn": "亲密度礼物道具",
+    "textEn": "Rapport Gifts",
+    "textJp": "親密度プレゼントアイテム",
+    "textTw": "親密度禮物道具"
+  },
+  {
+    "date": "2026-06-25",
+    "id": 32757,
+    "text": "시원한 맥주",
+    "textCn": "冰啤酒",
+    "textEn": "Cold Beer",
+    "textJp": "冷たいビール",
+    "textTw": "沁涼啤酒"
+  },
+  {
+    "date": "2026-06-25",
+    "id": 32758,
+    "text": "농밀한 와인",
+    "textCn": "醇香葡萄酒",
+    "textEn": "Velvety Wine",
+    "textJp": "濃密ワイン",
+    "textTw": "醇厚紅酒"
+  },
+  {
+    "date": "2026-06-25",
+    "id": 32759,
+    "text": "향긋한 위스키",
+    "textCn": "馥郁威士忌",
+    "textEn": "Fragrant Whiskey",
+    "textJp": "芳醇ウイスキー",
+    "textTw": "醇香威士忌"
+  },
+  {
+    "date": "2024-06-27",
+    "id": 100351,
+    "text": "신성 유스티아",
+    "textCn": "神圣悠丝缇亚",
+    "textEn": "Sacred Justia",
+    "textJp": "神聖ユースティア",
+    "textTw": "神聖悠絲緹亞"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 200081,
+    "text": "사막의 가시",
+    "textCn": "沙漠之刺",
+    "textEn": "Thorn of the Desert",
+    "textJp": "砂漠の棘",
+    "textTw": "沙漠之刺"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 100000,
+    "text": " "
+  },
+  {
+    "date": "2026-04-16",
+    "id": 60002,
+    "text": "길드 이름 변경권",
+    "textCn": "公会名称更改券",
+    "textEn": "Guild Name Change Ticket",
+    "textJp": "ギルド名変更券",
+    "textTw": "公會名稱變更券"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 200011,
+    "text": "약초 추적자",
+    "textCn": "草药猎人",
+    "textEn": "Herb Tracker",
+    "textJp": "薬草採集者",
+    "textTw": "草藥獵人"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 206011,
+    "text": "폭탄광",
+    "textCn": "炸弹狂",
+    "textEn": "Bomb Fanatic",
+    "textJp": "爆弾狂",
+    "textTw": "炸彈狂"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 206481,
+    "text": "견습 창병",
+    "textCn": "见习枪兵",
+    "textEn": "Apprentice Spearman",
+    "textJp": "見習い槍兵",
+    "textTw": "實習槍兵"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 206501,
+    "text": "부족의 대전사",
+    "textCn": "部族大战士",
+    "textEn": "The Mighty Warrior of the Tribe",
+    "textJp": "部族の大戦士",
+    "textTw": "部族的大戰士"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 206491,
+    "text": "꼬마 사냥꾼",
+    "textCn": "小猎人",
+    "textEn": "Little Hunter",
+    "textJp": "チビ狩人",
+    "textTw": "小獵人"
+  },
+  {
+    "date": "2024-10-01",
+    "id": 102031,
+    "text": "요자쿠라",
+    "textCn": "夜樱",
+    "textEn": "Yozakura",
+    "textJp": "夜桜",
+    "textTw": "夜櫻"
+  },
+  {
+    "date": "2024-05-16",
+    "id": 202031,
+    "text": "신념의 주먹",
+    "textCn": "信念之拳",
+    "textEn": "Fist of Conviction",
+    "textJp": "信念の拳",
+    "textTw": "信念之拳"
+  },
+  {
+    "date": "2024-05-16",
+    "id": 202041,
+    "text": "눈꽃의 춤",
+    "textCn": "雪花之舞",
+    "textEn": "Dancing Snowflake",
+    "textJp": "雪花の舞",
+    "textTw": "雪花之舞"
+  },
+  {
+    "date": "2024-10-01",
+    "id": 102021,
+    "text": "요미",
+    "textCn": "咏",
+    "textEn": "Yomi",
+    "textJp": "詠",
+    "textTw": "詠"
+  },
+  {
+    "date": "2024-05-16",
+    "id": 202021,
+    "text": "온화한 파괴자",
+    "textCn": "温和的破坏者",
+    "textEn": "Gentle Destroyer",
+    "textJp": "穏やかな破壊者",
+    "textTw": "溫和的破壞者"
+  },
+  {
+    "date": "2024-05-16",
+    "id": 202051,
+    "text": "상냥한 무정",
+    "textCn": "和蔼的无情",
+    "textEn": "Kind Ruthlessness",
+    "textJp": "優しき無情",
+    "textTw": "和藹的無情"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 206082,
+    "text": "코드네임 O",
+    "textCn": "代号O",
+    "textEn": "Code Name O",
+    "textJp": "コードネーム O",
+    "textTw": "代號O"
+  },
+  {
+    "date": "2024-07-16",
+    "id": 106731,
+    "text": "레비아",
+    "textCn": "莱维亚",
+    "textEn": "Levia",
+    "textJp": "レヴィア",
+    "textTw": "萊維亞"
+  },
+  {
+    "date": "2024-09-05",
+    "id": 206732,
+    "text": "시기의 밤",
+    "textCn": "猜忌之夜",
+    "textEn": "Night of Jealousy",
+    "textJp": "嫉妬の夜",
+    "textTw": "忌妒之夜"
+  },
+  {
+    "date": "2024-08-22",
+    "id": 106741,
+    "text": "미카엘라",
+    "textCn": "米卡艾拉",
+    "textEn": "Michaela",
+    "textJp": "ミカエラ",
+    "textTw": "米卡埃拉"
+  },
+  {
+    "date": "2024-08-22",
+    "id": 206741,
+    "text": "해변의 정의",
+    "textCn": "海滨正义",
+    "textEn": "Beachside Justice",
+    "textJp": "浜辺の正義",
+    "textTw": "海邊正義"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 206582,
+    "text": "무명도사",
+    "textCn": "无名道士",
+    "textEn": "Anonymous Sage",
+    "textJp": "名も無き道士",
+    "textTw": "無名道士"
+  },
+  {
+    "date": "2024-08-08",
+    "id": 200117,
+    "text": "해변의 천사",
+    "textCn": "海滨天使",
+    "textEn": "Beachside Angel",
+    "textJp": "ビーチの天使",
+    "textTw": "海邊天使"
+  },
+  {
+    "date": "2024-04-04",
+    "id": 200311,
+    "text": "구원의 손길",
+    "textCn": "救赎之手",
+    "textEn": "Hand of Salvation",
+    "textJp": "救いの手",
+    "textTw": "救贖之手"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 200046,
+    "text": "풀 파티",
+    "textCn": "泳池派对",
+    "textEn": "Pool Party",
+    "textJp": "プールパーティ",
+    "textTw": "泳池派對"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 200086,
+    "text": "메이드네임 C",
+    "textCn": "女仆代号C",
+    "textEn": "Maid Name C",
+    "textJp": "メイドネームC",
+    "textTw": "女僕代號C"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 200127,
+    "text": "메이드네임 R",
+    "textCn": "女仆代号R",
+    "textEn": "Maid Name R",
+    "textJp": "メイドネームR",
+    "textTw": "女僕代號R"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 206102,
+    "text": "B급 아이돌",
+    "textCn": "B级偶像",
+    "textEn": "B-Rank Idol",
+    "textJp": "B級アイドル",
+    "textTw": "B級偶像"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 206512,
+    "text": "백뢰",
+    "textCn": "白雷",
+    "textEn": "Whitebolt",
+    "textJp": "白雷",
+    "textTw": "白雷"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 206076,
+    "text": "게임부",
+    "textCn": "游戏社",
+    "textEn": "Game Club",
+    "textJp": "ゲーム部",
+    "textTw": "遊戲社"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 200246,
+    "text": "안티 디스토피아",
+    "textCn": "反乌托邦",
+    "textEn": "Anti-dystopia",
+    "textJp": "アンチ・ディストピア",
+    "textTw": "反烏托邦"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 206642,
+    "text": "풀 파티",
+    "textCn": "泳池派对",
+    "textEn": "Pool Party",
+    "textJp": "プールパーティ",
+    "textTw": "泳池派對"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 200151,
+    "text": "방랑 성직자",
+    "textCn": "流浪神职者",
+    "textEn": "Wandering Priest",
+    "textJp": "放浪の聖職者",
+    "textTw": "流浪神職人員"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 206021,
+    "text": "유혹의 날개",
+    "textCn": "诱惑之翼",
+    "textEn": "Seductive Wings",
+    "textJp": "誘惑の翼",
+    "textTw": "誘惑的翅膀"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 200301,
+    "text": "창조의 모루",
+    "textCn": "创造铁砧",
+    "textEn": "Anvil of Creation",
+    "textJp": "想像の金床",
+    "textTw": "創造的鐵砧"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 206042,
+    "text": "대마녀의 후예",
+    "textCn": "大魔女后裔",
+    "textEn": "Descendant of the Great Witch",
+    "textJp": "大魔女の末裔",
+    "textTw": "大魔女的後裔"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 200131,
+    "text": "루고 사냥꾼",
+    "textCn": "卢戈猎人",
+    "textEn": "Lugo Hunter",
+    "textJp": "ルーゴ狩人",
+    "textTw": "盧戈獵人"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 206192,
+    "text": "상냥한 학생",
+    "textCn": "和善学生",
+    "textEn": "Kind Student",
+    "textJp": "優しき学生",
+    "textTw": "和藹的學生"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 200091,
+    "text": "전투 의사",
+    "textCn": "战斗医生",
+    "textEn": "Combat Doctor",
+    "textJp": "戦闘医師",
+    "textTw": "戰鬥醫師"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 206271,
+    "text": "미소녀 신봉자",
+    "textCn": "美少女信奉者",
+    "textEn": "Beautiful Girl Devotee",
+    "textJp": "美少女信者",
+    "textTw": "美少女信奉者"
+  },
+  {
+    "date": "2024-08-22",
+    "id": 200077,
+    "text": "비치 바캉스",
+    "textCn": "海滨度假",
+    "textEn": "Beach Vacation",
+    "textJp": "ビーチバカンス",
+    "textTw": "海邊度假"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 206211,
+    "text": "해방된 약탈자",
+    "textCn": "解放掠夺者",
+    "textEn": "Liberated Marauder",
+    "textJp": "開放された略奪者",
+    "textTw": "解放的掠奪者"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 206341,
+    "text": "회복사",
+    "textCn": "恢复师",
+    "textEn": "Healer",
+    "textJp": "回復師",
+    "textTw": "恢復師"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 206202,
+    "text": "스페셜리스트",
+    "textCn": "专家",
+    "textEn": "Specialist",
+    "textJp": "スペシャリスト",
+    "textTw": "專家"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 206281,
+    "text": "까칠한 불량아",
+    "textCn": "麻烦问题儿童",
+    "textEn": "Haggard Delinquent",
+    "textJp": "刺々しい不良",
+    "textTw": "難伺候的問題學生"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 206112,
+    "text": "B급 아이돌",
+    "textCn": "B级偶像",
+    "textEn": "B-Rank Idol",
+    "textJp": "B級アイドル",
+    "textTw": "B級偶像"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 206261,
+    "text": "활력의 사제",
+    "textCn": "活力祭司",
+    "textEn": "Priest of Vitality",
+    "textJp": "活力の司祭",
+    "textTw": "活力的祭司"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 200161,
+    "text": "의적 소녀",
+    "textCn": "侠盗少女",
+    "textEn": "Righteous Raider Girl",
+    "textJp": "義賊少女",
+    "textTw": "義賊少女"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 21006,
+    "text": "호리에 슌",
+    "textCn": "堀江瞬",
+    "textEn": "Shun Horie",
+    "textJp": "堀江瞬",
+    "textTw": "堀江瞬"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 21005,
+    "text": "타카하시 신야",
+    "textCn": "高橋伸也",
+    "textEn": "Shinya Takahashi",
+    "textJp": "高橋伸也",
+    "textTw": "高橋伸也"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 21002,
+    "text": "야마구치 쿠레아",
+    "textCn": "山口久玲愛",
+    "textEn": "Kurea Yamaguchi",
+    "textJp": "山口久玲愛",
+    "textTw": "山口久玲愛"
+  },
+  {
+    "date": "2024-02-15",
+    "id": 21004,
+    "text": "키누가사 하루카",
+    "textCn": "衣笠晴香",
+    "textEn": "Haruka Kinugasa",
+    "textJp": "衣笠晴香",
+    "textTw": "衣笠晴香"
+  }
 ]

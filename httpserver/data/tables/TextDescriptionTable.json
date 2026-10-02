@@ -1,6 +1,27 @@
 [
-  { "descSkillTextId": 30010, "id": 10, "targetSkillTextId": 10103 },
-  { "descSkillTextId": 30003, "id": 3, "targetSkillTextId": 10055 },
-  { "descSkillTextId": 30018, "id": 18, "targetSkillTextId": 10077 },
-  { "descSkillTextId": 30055, "id": 57, "targetSkillTextId": 10161 }
+  {
+    "descSkillTextId": 30010,
+    "id": 10,
+    "targetSkillTextId": 10103
+  },
+  {
+    "descSkillTextId": 30003,
+    "id": 3,
+    "targetSkillTextId": 10055
+  },
+  {
+    "descSkillTextId": 30018,
+    "id": 18,
+    "targetSkillTextId": 10077
+  },
+  {
+    "descSkillTextId": 30055,
+    "id": 57,
+    "targetSkillTextId": 10161
+  },
+  {
+    "descSkillTextId": 30035,
+    "id": 37,
+    "targetSkillTextId": 10075
+  }
 ]

@@ -1,19 +1,660 @@
 [
-  { "charId": [ 1 ], "collectionBuffId": 3304, "groupDescLocalTextId": 2, "groupLocalTextId": 1, "id": 1, "tabType": 1 },
-  { "charId": [ 2 ], "collectionBuffId": 3304, "groupDescLocalTextId": 2, "groupLocalTextId": 1, "id": 2, "tabType": 1 },
-  { "charId": [ 9 ], "collectionBuffId": 3104, "groupDescLocalTextId": 2, "groupLocalTextId": 1, "id": 7, "tabType": 1 },
-  { "charId": [ 16 ], "collectionBuffId": 3204, "groupDescLocalTextId": 2, "groupLocalTextId": 1, "id": 9, "tabType": 1 },
-  { "charId": [ 621 ], "collectionBuffId": 3204, "groupDescLocalTextId": 2, "groupLocalTextId": 1, "id": 23, "tabType": 1 },
-  { "charId": [ 626 ], "collectionBuffId": 3106, "groupDescLocalTextId": 2, "groupLocalTextId": 1, "id": 26, "tabType": 1 },
-  { "charId": [ 628 ], "collectionBuffId": 3104, "groupDescLocalTextId": 2, "groupLocalTextId": 1, "id": 27, "tabType": 1 },
-  { "charId": [ 630 ], "collectionBuffId": 3104, "groupDescLocalTextId": 2, "groupLocalTextId": 1, "id": 28, "tabType": 1 },
-  { "charId": [ 633 ], "collectionBuffId": 3106, "groupDescLocalTextId": 2, "groupLocalTextId": 1, "id": 29, "tabType": 1 },
-  { "charId": [ 647 ], "collectionBuffId": 3104, "groupDescLocalTextId": 2, "groupLocalTextId": 1, "id": 31, "tabType": 1 },
-  { "charId": [ 648 ], "collectionBuffId": 3104, "groupDescLocalTextId": 2, "groupLocalTextId": 1, "id": 32, "tabType": 1 },
-  { "charId": [ 649 ], "collectionBuffId": 3104, "groupDescLocalTextId": 2, "groupLocalTextId": 1, "id": 33, "tabType": 1 },
-  { "charId": [ 650 ], "collectionBuffId": 3104, "groupDescLocalTextId": 2, "groupLocalTextId": 1, "id": 34, "tabType": 1 },
-  { "charId": [ 601 ], "collectionBuffId": 3104, "groupDescLocalTextId": 2, "groupLocalTextId": 1, "id": 35, "tabType": 1 },
-  { "charId": [ 606 ], "collectionBuffId": 3304, "groupDescLocalTextId": 2, "groupLocalTextId": 1, "id": 38, "tabType": 1 },
-  { "charId": [ 676 ], "collectionBuffId": 3304, "groupDescLocalTextId": 2, "groupLocalTextId": 1, "id": 71, "tabType": 1 },
-  { "charId": [ 213 ], "collectionBuffId": 3306, "groupDescLocalTextId": 2, "groupLocalTextId": 1, "id": 88, "tabType": 1 }
+  {
+    "charId": [
+      1
+    ],
+    "collectionBuffId": 3304,
+    "groupDescLocalTextId": 2,
+    "groupLocalTextId": 1,
+    "id": 1,
+    "tabType": 1
+  },
+  {
+    "charId": [
+      2
+    ],
+    "collectionBuffId": 3304,
+    "groupDescLocalTextId": 2,
+    "groupLocalTextId": 1,
+    "id": 2,
+    "tabType": 1
+  },
+  {
+    "charId": [
+      9
+    ],
+    "collectionBuffId": 3104,
+    "groupDescLocalTextId": 2,
+    "groupLocalTextId": 1,
+    "id": 7,
+    "tabType": 1
+  },
+  {
+    "charId": [
+      16
+    ],
+    "collectionBuffId": 3204,
+    "groupDescLocalTextId": 2,
+    "groupLocalTextId": 1,
+    "id": 9,
+    "tabType": 1
+  },
+  {
+    "charId": [
+      621
+    ],
+    "collectionBuffId": 3204,
+    "groupDescLocalTextId": 2,
+    "groupLocalTextId": 1,
+    "id": 23,
+    "tabType": 1
+  },
+  {
+    "charId": [
+      626
+    ],
+    "collectionBuffId": 3106,
+    "groupDescLocalTextId": 2,
+    "groupLocalTextId": 1,
+    "id": 26,
+    "tabType": 1
+  },
+  {
+    "charId": [
+      628
+    ],
+    "collectionBuffId": 3104,
+    "groupDescLocalTextId": 2,
+    "groupLocalTextId": 1,
+    "id": 27,
+    "tabType": 1
+  },
+  {
+    "charId": [
+      630
+    ],
+    "collectionBuffId": 3104,
+    "groupDescLocalTextId": 2,
+    "groupLocalTextId": 1,
+    "id": 28,
+    "tabType": 1
+  },
+  {
+    "charId": [
+      633
+    ],
+    "collectionBuffId": 3106,
+    "groupDescLocalTextId": 2,
+    "groupLocalTextId": 1,
+    "id": 29,
+    "tabType": 1
+  },
+  {
+    "charId": [
+      647
+    ],
+    "collectionBuffId": 3104,
+    "groupDescLocalTextId": 2,
+    "groupLocalTextId": 1,
+    "id": 31,
+    "tabType": 1
+  },
+  {
+    "charId": [
+      648
+    ],
+    "collectionBuffId": 3104,
+    "groupDescLocalTextId": 2,
+    "groupLocalTextId": 1,
+    "id": 32,
+    "tabType": 1
+  },
+  {
+    "charId": [
+      649
+    ],
+    "collectionBuffId": 3104,
+    "groupDescLocalTextId": 2,
+    "groupLocalTextId": 1,
+    "id": 33,
+    "tabType": 1
+  },
+  {
+    "charId": [
+      650
+    ],
+    "collectionBuffId": 3104,
+    "groupDescLocalTextId": 2,
+    "groupLocalTextId": 1,
+    "id": 34,
+    "tabType": 1
+  },
+  {
+    "charId": [
+      601
+    ],
+    "collectionBuffId": 3104,
+    "groupDescLocalTextId": 2,
+    "groupLocalTextId": 1,
+    "id": 35,
+    "tabType": 1
+  },
+  {
+    "charId": [
+      606
+    ],
+    "collectionBuffId": 3304,
+    "groupDescLocalTextId": 2,
+    "groupLocalTextId": 1,
+    "id": 38,
+    "tabType": 1
+  },
+  {
+    "charId": [
+      676
+    ],
+    "collectionBuffId": 3304,
+    "groupDescLocalTextId": 2,
+    "groupLocalTextId": 1,
+    "id": 71,
+    "tabType": 1
+  },
+  {
+    "charId": [
+      213
+    ],
+    "collectionBuffId": 3306,
+    "groupDescLocalTextId": 2,
+    "groupLocalTextId": 1,
+    "id": 88,
+    "tabType": 1
+  },
+  {
+    "charId": [
+      14
+    ],
+    "collectionBuffId": 3104,
+    "groupDescLocalTextId": 2,
+    "groupLocalTextId": 1,
+    "id": 3,
+    "tabType": 1
+  },
+  {
+    "charId": [
+      13
+    ],
+    "collectionBuffId": 3104,
+    "groupDescLocalTextId": 2,
+    "groupLocalTextId": 1,
+    "id": 4,
+    "tabType": 1
+  },
+  {
+    "charId": [
+      15
+    ],
+    "collectionBuffId": 3206,
+    "groupDescLocalTextId": 2,
+    "groupLocalTextId": 1,
+    "id": 5,
+    "tabType": 1
+  },
+  {
+    "charId": [
+      4
+    ],
+    "collectionBuffId": 3304,
+    "groupDescLocalTextId": 2,
+    "groupLocalTextId": 1,
+    "id": 8,
+    "tabType": 1
+  },
+  {
+    "charId": [
+      5
+    ],
+    "collectionBuffId": 3304,
+    "groupDescLocalTextId": 2,
+    "groupLocalTextId": 1,
+    "id": 10,
+    "tabType": 1
+  },
+  {
+    "charId": [
+      8
+    ],
+    "collectionBuffId": 3304,
+    "groupDescLocalTextId": 2,
+    "groupLocalTextId": 1,
+    "id": 13,
+    "tabType": 1
+  },
+  {
+    "charId": [
+      7
+    ],
+    "collectionBuffId": 3306,
+    "groupDescLocalTextId": 2,
+    "groupLocalTextId": 1,
+    "id": 14,
+    "tabType": 1
+  },
+  {
+    "charId": [
+      11
+    ],
+    "collectionBuffId": 3304,
+    "groupDescLocalTextId": 2,
+    "groupLocalTextId": 1,
+    "id": 15,
+    "tabType": 1
+  },
+  {
+    "charId": [
+      12
+    ],
+    "collectionBuffId": 3304,
+    "groupDescLocalTextId": 2,
+    "groupLocalTextId": 1,
+    "id": 16,
+    "tabType": 1
+  },
+  {
+    "charId": [
+      30
+    ],
+    "collectionBuffId": 3204,
+    "groupDescLocalTextId": 2,
+    "groupLocalTextId": 1,
+    "id": 17,
+    "tabType": 1
+  },
+  {
+    "charId": [
+      602
+    ],
+    "collectionBuffId": 3206,
+    "groupDescLocalTextId": 2,
+    "groupLocalTextId": 1,
+    "id": 21,
+    "tabType": 1
+  },
+  {
+    "charId": [
+      619
+    ],
+    "collectionBuffId": 3206,
+    "groupDescLocalTextId": 2,
+    "groupLocalTextId": 1,
+    "id": 22,
+    "tabType": 1
+  },
+  {
+    "charId": [
+      627
+    ],
+    "collectionBuffId": 3206,
+    "groupDescLocalTextId": 2,
+    "groupLocalTextId": 1,
+    "id": 24,
+    "tabType": 1
+  },
+  {
+    "charId": [
+      625
+    ],
+    "collectionBuffId": 3106,
+    "groupDescLocalTextId": 2,
+    "groupLocalTextId": 1,
+    "id": 25,
+    "tabType": 1
+  },
+  {
+    "charId": [
+      634
+    ],
+    "collectionBuffId": 3106,
+    "groupDescLocalTextId": 2,
+    "groupLocalTextId": 1,
+    "id": 30,
+    "tabType": 1
+  },
+  {
+    "charId": [
+      604
+    ],
+    "collectionBuffId": 3306,
+    "groupDescLocalTextId": 2,
+    "groupLocalTextId": 1,
+    "id": 36,
+    "tabType": 1
+  },
+  {
+    "charId": [
+      607
+    ],
+    "collectionBuffId": 3304,
+    "groupDescLocalTextId": 2,
+    "groupLocalTextId": 1,
+    "id": 39,
+    "tabType": 1
+  },
+  {
+    "charId": [
+      608
+    ],
+    "collectionBuffId": 3304,
+    "groupDescLocalTextId": 2,
+    "groupLocalTextId": 1,
+    "id": 40,
+    "tabType": 1
+  },
+  {
+    "charId": [
+      610
+    ],
+    "collectionBuffId": 3306,
+    "groupDescLocalTextId": 2,
+    "groupLocalTextId": 1,
+    "id": 41,
+    "tabType": 1
+  },
+  {
+    "charId": [
+      611
+    ],
+    "collectionBuffId": 3304,
+    "groupDescLocalTextId": 2,
+    "groupLocalTextId": 1,
+    "id": 42,
+    "tabType": 1
+  },
+  {
+    "charId": [
+      620
+    ],
+    "collectionBuffId": 3204,
+    "groupDescLocalTextId": 2,
+    "groupLocalTextId": 1,
+    "id": 43,
+    "tabType": 1
+  },
+  {
+    "charId": [
+      664
+    ],
+    "collectionBuffId": 3306,
+    "groupDescLocalTextId": 2,
+    "groupLocalTextId": 1,
+    "id": 44,
+    "tabType": 1
+  },
+  {
+    "charId": [
+      24
+    ],
+    "collectionBuffId": 3306,
+    "groupDescLocalTextId": 2,
+    "groupLocalTextId": 1,
+    "id": 47,
+    "tabType": 1
+  },
+  {
+    "charId": [
+      651
+    ],
+    "collectionBuffId": 3304,
+    "groupDescLocalTextId": 2,
+    "groupLocalTextId": 1,
+    "id": 49,
+    "tabType": 1
+  },
+  {
+    "charId": [
+      613
+    ],
+    "collectionBuffId": 3306,
+    "groupDescLocalTextId": 2,
+    "groupLocalTextId": 1,
+    "id": 50,
+    "tabType": 1
+  },
+  {
+    "charId": [
+      658
+    ],
+    "collectionBuffId": 3306,
+    "groupDescLocalTextId": 2,
+    "groupLocalTextId": 1,
+    "id": 51,
+    "tabType": 1
+  },
+  {
+    "charId": [
+      31
+    ],
+    "collectionBuffId": 3206,
+    "groupDescLocalTextId": 2,
+    "groupLocalTextId": 1,
+    "id": 53,
+    "tabType": 1
+  },
+  {
+    "charId": [
+      673
+    ],
+    "collectionBuffId": 3306,
+    "groupDescLocalTextId": 2,
+    "groupLocalTextId": 1,
+    "id": 61,
+    "tabType": 1
+  },
+  {
+    "charId": [
+      34
+    ],
+    "collectionBuffId": 3306,
+    "groupDescLocalTextId": 2,
+    "groupLocalTextId": 1,
+    "id": 62,
+    "tabType": 1
+  },
+  {
+    "charId": [
+      674
+    ],
+    "collectionBuffId": 3306,
+    "groupDescLocalTextId": 2,
+    "groupLocalTextId": 1,
+    "id": 63,
+    "tabType": 1
+  },
+  {
+    "charId": [
+      202
+    ],
+    "collectionBuffId": 3304,
+    "groupDescLocalTextId": 2,
+    "groupLocalTextId": 1,
+    "id": 64,
+    "tabType": 1
+  },
+  {
+    "charId": [
+      203
+    ],
+    "collectionBuffId": 3306,
+    "groupDescLocalTextId": 2,
+    "groupLocalTextId": 1,
+    "id": 65,
+    "tabType": 1
+  },
+  {
+    "charId": [
+      204
+    ],
+    "collectionBuffId": 3306,
+    "groupDescLocalTextId": 2,
+    "groupLocalTextId": 1,
+    "id": 66,
+    "tabType": 1
+  },
+  {
+    "charId": [
+      205
+    ],
+    "collectionBuffId": 3304,
+    "groupDescLocalTextId": 2,
+    "groupLocalTextId": 1,
+    "id": 67,
+    "tabType": 1
+  },
+  {
+    "charId": [
+      1,
+      627,
+      13
+    ],
+    "collectionBuffId": 15004,
+    "groupDescLocalTextId": 196001,
+    "groupLocalTextId": 191001,
+    "id": 1000,
+    "tabType": 2
+  },
+  {
+    "charId": [
+      647,
+      14,
+      650
+    ],
+    "collectionBuffId": 20004,
+    "groupDescLocalTextId": 196003,
+    "groupLocalTextId": 191003,
+    "id": 1002,
+    "tabType": 2
+  },
+  {
+    "charId": [
+      15,
+      11,
+      619
+    ],
+    "collectionBuffId": 14006,
+    "groupDescLocalTextId": 196007,
+    "groupLocalTextId": 191007,
+    "id": 1006,
+    "tabType": 2
+  },
+  {
+    "charId": [
+      15,
+      634,
+      9
+    ],
+    "collectionBuffId": 19006,
+    "groupDescLocalTextId": 196008,
+    "groupLocalTextId": 191008,
+    "id": 1007,
+    "tabType": 2
+  },
+  {
+    "charId": [
+      627,
+      628,
+      611
+    ],
+    "collectionBuffId": 15004,
+    "groupDescLocalTextId": 196012,
+    "groupLocalTextId": 191012,
+    "id": 1011,
+    "tabType": 2
+  },
+  {
+    "charId": [
+      2,
+      8,
+      16
+    ],
+    "collectionBuffId": 12004,
+    "groupDescLocalTextId": 196015,
+    "groupLocalTextId": 191015,
+    "id": 1014,
+    "tabType": 2
+  },
+  {
+    "charId": [
+      7,
+      608,
+      602
+    ],
+    "collectionBuffId": 12006,
+    "groupDescLocalTextId": 196017,
+    "groupLocalTextId": 191017,
+    "id": 1016,
+    "tabType": 2
+  },
+  {
+    "charId": [
+      7,
+      604
+    ],
+    "collectionBuffId": 15006,
+    "groupDescLocalTextId": 196020,
+    "groupLocalTextId": 191020,
+    "id": 1019,
+    "tabType": 2
+  },
+  {
+    "charId": [
+      8,
+      30
+    ],
+    "collectionBuffId": 16004,
+    "groupDescLocalTextId": 196022,
+    "groupLocalTextId": 191022,
+    "id": 1021,
+    "tabType": 2
+  },
+  {
+    "charId": [
+      621,
+      619
+    ],
+    "collectionBuffId": 19004,
+    "groupDescLocalTextId": 196024,
+    "groupLocalTextId": 191024,
+    "id": 1023,
+    "tabType": 2
+  },
+  {
+    "charId": [
+      607,
+      30
+    ],
+    "collectionBuffId": 16004,
+    "groupDescLocalTextId": 196025,
+    "groupLocalTextId": 191025,
+    "id": 1024,
+    "tabType": 2
+  },
+  {
+    "charId": [
+      33
+    ],
+    "collectionBuffId": 3304,
+    "groupDescLocalTextId": 2,
+    "groupLocalTextId": 1,
+    "id": 58,
+    "tabType": 1
+  },
+  {
+    "charId": [
+      211
+    ],
+    "collectionBuffId": 3304,
+    "groupDescLocalTextId": 2,
+    "groupLocalTextId": 1,
+    "id": 86,
+    "tabType": 1
+  }
 ]

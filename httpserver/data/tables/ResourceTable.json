@@ -1,12 +1,829 @@
 [
-  { "grade": 1, "iconSpriteName": "icon_resource901_49", "id": 3, "itemAcquireId": [ 4 ], "itemDescNameTextId": 8901, "itemNameTextId": 7901, "itemSubNameTextId": 27106, "sortType": 3, "stackCount": 9999 },
-  { "grade": 1, "iconSpriteName": "icon_resource9001_59", "id": 7, "itemAcquireId": [ 20, 22, 19, 16, 17 ], "itemDescNameTextId": 8791, "itemNameTextId": 7791, "itemSubNameTextId": 7791, "magicValue": 200, "sortType": 3, "stackCount": 99999, "type": 1 },
-  { "grade": 5, "iconSpriteName": "icon_resource9003_61", "id": 9, "itemAcquireId": [ 19 ], "itemDescNameTextId": 8793, "itemNameTextId": 7793, "itemSubNameTextId": 7793, "magicValue": 2000, "sortType": 3, "stackCount": 99999, "type": 1 },
-  { "grade": 1, "iconSpriteName": "icon_resource7780_58", "id": 11, "itemAcquireId": [ 208, 209, 210, 218, 219, 205, 246 ], "itemDescNameTextId": 8780, "itemNameTextId": 7780, "itemSubNameTextId": 7780, "sortType": 3, "stackCount": 9999 },
-  { "grade": 5, "iconSpriteName": "icon_resource20005_156", "id": 127, "itemAcquireId": [ 242, 235, 245 ], "itemDescNameTextId": 33127, "itemNameTextId": 32127, "itemSubNameTextId": 32127, "sortType": 3, "stackCount": 9999, "type": 4 },
-  { "grade": 5, "iconSpriteName": "icon_resource20045_383", "id": 710, "itemAcquireId": [ 246, 245, 242, 235, 16, 327, 328 ], "itemDescNameTextId": 33707, "itemNameTextId": 32707, "itemSubNameTextId": 32707, "sortType": 3, "stackCount": 99999, "type": 4 },
-  { "grade": 5, "iconSpriteName": "icon_resource40002_79", "id": 1000, "itemAcquireId": [ 235, 245 ], "itemDescNameTextId": 33626, "itemNameTextId": 32626, "itemSubNameTextId": 32626, "sortType": 9, "stackCount": 9999 },
-  { "grade": 3, "iconSpriteName": "icon_resource40003_105", "id": 1002, "itemAcquireId": [ 16, 17, 246, 207 ], "itemDescNameTextId": 33628, "itemNameTextId": 32628, "itemSubNameTextId": 32628, "sortType": 8, "stackCount": 9999 },
-  { "grade": 1, "iconSpriteName": "icon_resource90022_209", "id": 2018, "itemDescNameTextId": 33665, "itemNameTextId": 32665, "itemSubNameTextId": 501, "sortType": 8, "stackCount": 9999 },
-  { "grade": 1, "iconSpriteName": "icon_resource90081_386", "id": 2063, "itemDescNameTextId": 33703, "itemNameTextId": 32703, "itemSubNameTextId": 501, "sortType": 8, "stackCount": 9999 }
+  {
+    "grade": 1,
+    "iconSpriteName": "icon_resource901_49",
+    "id": 3,
+    "itemAcquireId": [
+      4
+    ],
+    "itemDescNameTextId": 8901,
+    "itemNameTextId": 7901,
+    "itemSubNameTextId": 27106,
+    "sortType": 3,
+    "stackCount": 9999
+  },
+  {
+    "grade": 1,
+    "iconSpriteName": "icon_resource9001_59",
+    "id": 7,
+    "itemAcquireId": [
+      20,
+      22,
+      19,
+      16,
+      17
+    ],
+    "itemDescNameTextId": 8791,
+    "itemNameTextId": 7791,
+    "itemSubNameTextId": 7791,
+    "magicValue": 200,
+    "sortType": 3,
+    "stackCount": 99999,
+    "type": 1
+  },
+  {
+    "grade": 5,
+    "iconSpriteName": "icon_resource9003_61",
+    "id": 9,
+    "itemAcquireId": [
+      19
+    ],
+    "itemDescNameTextId": 8793,
+    "itemNameTextId": 7793,
+    "itemSubNameTextId": 7793,
+    "magicValue": 2000,
+    "sortType": 3,
+    "stackCount": 99999,
+    "type": 1
+  },
+  {
+    "grade": 1,
+    "iconSpriteName": "icon_resource7780_58",
+    "id": 11,
+    "itemAcquireId": [
+      208,
+      209,
+      210,
+      218,
+      219,
+      205,
+      246
+    ],
+    "itemDescNameTextId": 8780,
+    "itemNameTextId": 7780,
+    "itemSubNameTextId": 7780,
+    "sortType": 3,
+    "stackCount": 9999
+  },
+  {
+    "grade": 5,
+    "iconSpriteName": "icon_resource20005_156",
+    "id": 127,
+    "itemAcquireId": [
+      242,
+      235,
+      245
+    ],
+    "itemDescNameTextId": 33127,
+    "itemNameTextId": 32127,
+    "itemSubNameTextId": 32127,
+    "sortType": 3,
+    "stackCount": 9999,
+    "type": 4
+  },
+  {
+    "grade": 5,
+    "iconSpriteName": "icon_resource20045_383",
+    "id": 710,
+    "itemAcquireId": [
+      246,
+      245,
+      242,
+      235,
+      16,
+      327,
+      328
+    ],
+    "itemDescNameTextId": 33707,
+    "itemNameTextId": 32707,
+    "itemSubNameTextId": 32707,
+    "sortType": 3,
+    "stackCount": 99999,
+    "type": 4
+  },
+  {
+    "grade": 5,
+    "iconSpriteName": "icon_resource40002_79",
+    "id": 1000,
+    "itemAcquireId": [
+      235,
+      245
+    ],
+    "itemDescNameTextId": 33626,
+    "itemNameTextId": 32626,
+    "itemSubNameTextId": 32626,
+    "sortType": 9,
+    "stackCount": 9999
+  },
+  {
+    "grade": 3,
+    "iconSpriteName": "icon_resource40003_105",
+    "id": 1002,
+    "itemAcquireId": [
+      16,
+      17,
+      246,
+      207
+    ],
+    "itemDescNameTextId": 33628,
+    "itemNameTextId": 32628,
+    "itemSubNameTextId": 32628,
+    "sortType": 8,
+    "stackCount": 9999
+  },
+  {
+    "grade": 1,
+    "iconSpriteName": "icon_resource90022_209",
+    "id": 2018,
+    "itemDescNameTextId": 33665,
+    "itemNameTextId": 32665,
+    "itemSubNameTextId": 501,
+    "sortType": 8,
+    "stackCount": 9999
+  },
+  {
+    "grade": 1,
+    "iconSpriteName": "icon_resource90081_386",
+    "id": 2063,
+    "itemDescNameTextId": 33703,
+    "itemNameTextId": 32703,
+    "itemSubNameTextId": 501,
+    "sortType": 8,
+    "stackCount": 9999
+  },
+  {
+    "grade": 2,
+    "iconSpriteName": "icon_resource906_50",
+    "id": 4,
+    "itemAcquireId": [
+      4
+    ],
+    "itemDescNameTextId": 8902,
+    "itemNameTextId": 7902,
+    "itemSubNameTextId": 27106,
+    "sortType": 3,
+    "stackCount": 9999
+  },
+  {
+    "grade": 3,
+    "iconSpriteName": "icon_resource9002_60",
+    "id": 8,
+    "itemAcquireId": [
+      19,
+      235,
+      16,
+      17
+    ],
+    "itemDescNameTextId": 8792,
+    "itemNameTextId": 7792,
+    "itemSubNameTextId": 7792,
+    "magicValue": 700,
+    "sortType": 3,
+    "stackCount": 99999,
+    "type": 1
+  },
+  {
+    "grade": 1,
+    "iconSpriteName": "icon_resource80001_116",
+    "id": 10,
+    "itemAcquireId": [
+      1,
+      245
+    ],
+    "itemDescNameTextId": 8811,
+    "itemNameTextId": 7811,
+    "itemSubNameTextId": 7811,
+    "sortType": 8,
+    "stackCount": 10000000
+  },
+  {
+    "grade": 2,
+    "iconSpriteName": "icon_resource7781_65",
+    "id": 12,
+    "itemAcquireId": [
+      208,
+      209,
+      210,
+      218,
+      219,
+      205,
+      235,
+      246
+    ],
+    "itemDescNameTextId": 8780,
+    "itemNameTextId": 7781,
+    "itemSubNameTextId": 7781,
+    "sortType": 3,
+    "stackCount": 9999
+  },
+  {
+    "grade": 3,
+    "iconSpriteName": "icon_resource7782_66",
+    "id": 13,
+    "itemAcquireId": [
+      235,
+      246,
+      16,
+      17
+    ],
+    "itemDescNameTextId": 8780,
+    "itemNameTextId": 7782,
+    "itemSubNameTextId": 7782,
+    "sortType": 3,
+    "stackCount": 9999
+  },
+  {
+    "grade": 4,
+    "iconSpriteName": "icon_resource7783_67",
+    "id": 14,
+    "itemAcquireId": [
+      235,
+      246,
+      16,
+      17
+    ],
+    "itemDescNameTextId": 8780,
+    "itemNameTextId": 7783,
+    "itemSubNameTextId": 7783,
+    "sortType": 3,
+    "stackCount": 9999
+  },
+  {
+    "grade": 1,
+    "iconSpriteName": "icon_resource106_14",
+    "id": 16,
+    "itemAcquireId": [
+      1
+    ],
+    "itemDescNameTextId": 8824,
+    "itemNameTextId": 7824,
+    "itemSubNameTextId": 7824,
+    "sortType": 8,
+    "stackCount": 99999
+  },
+  {
+    "grade": 5,
+    "iconSpriteName": "icon_resource126_26",
+    "id": 17,
+    "itemAcquireId": [
+      1,
+      16
+    ],
+    "itemDescNameTextId": 8825,
+    "itemNameTextId": 7825,
+    "itemSubNameTextId": 7825,
+    "sortType": 8,
+    "stackCount": 99999
+  },
+  {
+    "grade": 2,
+    "iconSpriteName": "icon_resource111_15",
+    "id": 111,
+    "itemAcquireId": [
+      25
+    ],
+    "itemDescNameTextId": 33111,
+    "itemNameTextId": 32111,
+    "itemSubNameTextId": 32111,
+    "sortType": 3,
+    "stackCount": 99999,
+    "type": 4
+  },
+  {
+    "grade": 2,
+    "iconSpriteName": "icon_resource112_16",
+    "id": 112,
+    "itemAcquireId": [
+      26
+    ],
+    "itemDescNameTextId": 33112,
+    "itemNameTextId": 32112,
+    "itemSubNameTextId": 32112,
+    "sortType": 3,
+    "stackCount": 99999,
+    "type": 4
+  },
+  {
+    "grade": 2,
+    "iconSpriteName": "icon_resource113_17",
+    "id": 113,
+    "itemAcquireId": [
+      27
+    ],
+    "itemDescNameTextId": 33113,
+    "itemNameTextId": 32113,
+    "itemSubNameTextId": 32113,
+    "sortType": 3,
+    "stackCount": 99999,
+    "type": 4
+  },
+  {
+    "grade": 2,
+    "iconSpriteName": "icon_resource114_18",
+    "id": 114,
+    "itemAcquireId": [
+      28
+    ],
+    "itemDescNameTextId": 33114,
+    "itemNameTextId": 32114,
+    "itemSubNameTextId": 32114,
+    "sortType": 3,
+    "stackCount": 99999,
+    "type": 4
+  },
+  {
+    "grade": 2,
+    "iconSpriteName": "icon_resource115_19",
+    "id": 115,
+    "itemAcquireId": [
+      29
+    ],
+    "itemDescNameTextId": 33115,
+    "itemNameTextId": 32115,
+    "itemSubNameTextId": 32115,
+    "sortType": 3,
+    "stackCount": 99999,
+    "type": 4
+  },
+  {
+    "grade": 1,
+    "iconSpriteName": "icon_resource201_27",
+    "id": 201,
+    "itemAcquireId": [
+      61,
+      62,
+      67,
+      68,
+      295,
+      72,
+      178,
+      179,
+      180,
+      181,
+      182,
+      184,
+      305,
+      311
+    ],
+    "itemDescNameTextId": 33201,
+    "itemNameTextId": 32201,
+    "itemSubNameTextId": 118,
+    "sortType": 4,
+    "stackCount": 99999,
+    "type": 3
+  },
+  {
+    "grade": 1,
+    "iconSpriteName": "icon_resource202_28",
+    "id": 202,
+    "itemAcquireId": [
+      61,
+      62,
+      67,
+      68,
+      295,
+      72,
+      178,
+      179,
+      180,
+      181,
+      182,
+      184,
+      305,
+      311
+    ],
+    "itemDescNameTextId": 33202,
+    "itemNameTextId": 32202,
+    "itemSubNameTextId": 118,
+    "sortType": 4,
+    "stackCount": 99999,
+    "type": 3
+  },
+  {
+    "grade": 2,
+    "iconSpriteName": "icon_resource203_29",
+    "id": 203,
+    "itemAcquireId": [
+      61,
+      62,
+      67,
+      68,
+      295,
+      72,
+      178,
+      179,
+      180,
+      181,
+      182,
+      184,
+      305,
+      311
+    ],
+    "itemDescNameTextId": 33203,
+    "itemNameTextId": 32203,
+    "itemSubNameTextId": 118,
+    "sortType": 4,
+    "stackCount": 99999,
+    "type": 3
+  },
+  {
+    "grade": 1,
+    "iconSpriteName": "icon_resource204_30",
+    "id": 204,
+    "itemAcquireId": [
+      61,
+      62,
+      63,
+      64,
+      65,
+      294,
+      72,
+      178,
+      179,
+      180,
+      181,
+      182,
+      185,
+      326
+    ],
+    "itemDescNameTextId": 33204,
+    "itemNameTextId": 32204,
+    "itemSubNameTextId": 118,
+    "sortType": 4,
+    "stackCount": 99999,
+    "type": 3
+  },
+  {
+    "grade": 1,
+    "iconSpriteName": "icon_resource301_39",
+    "id": 301,
+    "itemAcquireId": [
+      61,
+      62,
+      63,
+      64,
+      65,
+      70,
+      294,
+      296,
+      72,
+      178,
+      179,
+      180,
+      181,
+      182,
+      187,
+      326
+    ],
+    "itemDescNameTextId": 33301,
+    "itemNameTextId": 32301,
+    "itemSubNameTextId": 118,
+    "sortType": 4,
+    "stackCount": 99999,
+    "type": 3
+  },
+  {
+    "grade": 1,
+    "iconSpriteName": "icon_resource401_42",
+    "id": 401,
+    "itemAcquireId": [
+      61,
+      62,
+      63,
+      65,
+      66,
+      293,
+      297,
+      72,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      321
+    ],
+    "itemDescNameTextId": 33401,
+    "itemNameTextId": 32401,
+    "itemSubNameTextId": 118,
+    "sortType": 4,
+    "stackCount": 99999,
+    "type": 3
+  },
+  {
+    "grade": 1,
+    "iconSpriteName": "icon_resource501_45",
+    "id": 501,
+    "itemAcquireId": [
+      61,
+      62,
+      69,
+      72,
+      178,
+      179,
+      180,
+      181,
+      182,
+      186
+    ],
+    "itemDescNameTextId": 33501,
+    "itemNameTextId": 32501,
+    "itemSubNameTextId": 118,
+    "sortType": 4,
+    "stackCount": 99999,
+    "type": 3
+  },
+  {
+    "grade": 1,
+    "iconSpriteName": "icon_resource511_46",
+    "id": 511,
+    "itemAcquireId": [
+      31
+    ],
+    "itemDescNameTextId": 33511,
+    "itemNameTextId": 32511,
+    "itemSubNameTextId": 118,
+    "sortType": 4,
+    "stackCount": 99999,
+    "type": 3
+  },
+  {
+    "grade": 5,
+    "iconBackgroundName": "ItemFocus1",
+    "iconSpriteName": "icon_resource603_76",
+    "id": 603,
+    "itemAcquireId": [
+      36,
+      238,
+      241,
+      235
+    ],
+    "itemDescNameTextId": 33625,
+    "itemNameTextId": 32625,
+    "itemSubNameTextId": 118,
+    "sortType": 4,
+    "stackCount": 10000000,
+    "type": 5
+  },
+  {
+    "grade": 5,
+    "iconSpriteName": "icon_resource20023_223",
+    "id": 705,
+    "itemAcquireId": [
+      241,
+      246,
+      245
+    ],
+    "itemDescNameTextId": 33672,
+    "itemNameTextId": 32672,
+    "itemSubNameTextId": 32672,
+    "sortType": 3,
+    "stackCount": 99999,
+    "type": 4
+  },
+  {
+    "grade": 4,
+    "iconSpriteName": "icon_resource40004_106",
+    "id": 1003,
+    "itemAcquireId": [
+      246,
+      306,
+      207
+    ],
+    "itemDescNameTextId": 33629,
+    "itemNameTextId": 32629,
+    "itemSubNameTextId": 32629,
+    "sortType": 8,
+    "stackCount": 9999
+  },
+  {
+    "grade": 5,
+    "iconSpriteName": "icon_resource40005_107",
+    "id": 1004,
+    "itemAcquireId": [
+      306,
+      207
+    ],
+    "itemDescNameTextId": 33630,
+    "itemNameTextId": 32630,
+    "itemSubNameTextId": 32630,
+    "sortType": 8,
+    "stackCount": 9999
+  },
+  {
+    "grade": 5,
+    "iconSpriteName": "icon_resource40018_238",
+    "id": 1107,
+    "itemDescNameTextId": 33685,
+    "itemNameTextId": 32685,
+    "itemSubNameTextId": 32635,
+    "sortType": 9,
+    "stackCount": 9999
+  },
+  {
+    "grade": 1,
+    "iconSpriteName": "icon_resource90006_149",
+    "id": 2006,
+    "itemDescNameTextId": 33647,
+    "itemNameTextId": 32647,
+    "itemSubNameTextId": 501,
+    "sortType": 8,
+    "stackCount": 9999
+  },
+  {
+    "grade": 1,
+    "iconSpriteName": "icon_resource90007_150",
+    "id": 2007,
+    "itemDescNameTextId": 33650,
+    "itemNameTextId": 32650,
+    "itemSubNameTextId": 501,
+    "sortType": 8,
+    "stackCount": 9999
+  },
+  {
+    "grade": 1,
+    "iconSpriteName": "icon_resource90009_154",
+    "id": 2008,
+    "itemDescNameTextId": 33651,
+    "itemNameTextId": 32651,
+    "itemSubNameTextId": 501,
+    "sortType": 8,
+    "stackCount": 9999
+  },
+  {
+    "grade": 1,
+    "iconSpriteName": "icon_resource90010_165",
+    "id": 2010,
+    "itemDescNameTextId": 33653,
+    "itemNameTextId": 32653,
+    "itemSubNameTextId": 501,
+    "sortType": 8,
+    "stackCount": 9999
+  },
+  {
+    "grade": 1,
+    "iconSpriteName": "icon_resource90016_188",
+    "id": 2019,
+    "itemDescNameTextId": 33666,
+    "itemNameTextId": 32666,
+    "itemSubNameTextId": 501,
+    "sortType": 8,
+    "stackCount": 9999
+  },
+  {
+    "grade": 1,
+    "iconSpriteName": "icon_resource214_35",
+    "id": 214,
+    "itemAcquireId": [
+      31
+    ],
+    "itemDescNameTextId": 33214,
+    "itemNameTextId": 32214,
+    "itemSubNameTextId": 118,
+    "sortType": 4,
+    "stackCount": 99999,
+    "type": 3
+  },
+  {
+    "grade": 1,
+    "iconSpriteName": "icon_resource311_40",
+    "id": 311,
+    "itemAcquireId": [
+      31
+    ],
+    "itemDescNameTextId": 33311,
+    "itemNameTextId": 32311,
+    "itemSubNameTextId": 118,
+    "sortType": 4,
+    "stackCount": 99999,
+    "type": 3
+  },
+  {
+    "grade": 1,
+    "iconSpriteName": "icon_resource411_43",
+    "id": 411,
+    "itemAcquireId": [
+      31
+    ],
+    "itemDescNameTextId": 33411,
+    "itemNameTextId": 32411,
+    "itemSubNameTextId": 118,
+    "sortType": 4,
+    "stackCount": 99999,
+    "type": 3
+  },
+  {
+    "grade": 5,
+    "iconSpriteName": "icon_resource40007_129",
+    "id": 1104,
+    "itemAcquireId": [
+      235,
+      16
+    ],
+    "itemDescNameTextId": 33640,
+    "itemNameTextId": 32640,
+    "itemSubNameTextId": 32635,
+    "sortType": 9,
+    "stackCount": 9999
+  },
+  {
+    "grade": 5,
+    "iconSpriteName": "icon_resource40020_265",
+    "id": 1504,
+    "itemDescNameTextId": 33702,
+    "itemNameTextId": 32702,
+    "itemSubNameTextId": 32660,
+    "magicValue": 4,
+    "notTrash": 1,
+    "sortType": 9,
+    "stackCount": 9999,
+    "type": 6
+  },
+  {
+    "grade": 5,
+    "iconSpriteName": "icon_resource20052_433",
+    "id": 711,
+    "itemAcquireId": [
+      242
+    ],
+    "itemDescNameTextId": 33708,
+    "itemNameTextId": 32708,
+    "itemSubNameTextId": 32708,
+    "sortType": 3,
+    "stackCount": 99999,
+    "type": 4
+  },
+  {
+    "grade": 5,
+    "iconSpriteName": "icon_resource40021_267",
+    "id": 1108,
+    "itemAcquireId": [
+      207
+    ],
+    "itemDescNameTextId": 33700,
+    "itemNameTextId": 32700,
+    "itemSubNameTextId": 32635,
+    "sortType": 9,
+    "stackCount": 9999
+  },
+  {
+    "iconSpriteName": "icon_resource190001_395",
+    "id": 7001,
+    "itemAcquireId": [
+      235,
+      246
+    ],
+    "itemDescNameTextId": 33756,
+    "itemNameTextId": 32756,
+    "itemSubNameTextId": 503,
+    "magicValue": 1,
+    "sortType": 8,
+    "stackCount": 9999,
+    "type": 7
+  },
+  {
+    "iconSpriteName": "icon_resource190002_396",
+    "id": 7002,
+    "itemAcquireId": [
+      235,
+      246
+    ],
+    "itemDescNameTextId": 33757,
+    "itemNameTextId": 32757,
+    "itemSubNameTextId": 503,
+    "magicValue": 2,
+    "sortType": 8,
+    "stackCount": 9999,
+    "type": 7
+  },
+  {
+    "iconSpriteName": "icon_resource190003_397",
+    "id": 7003,
+    "itemAcquireId": [
+      235,
+      246
+    ],
+    "itemDescNameTextId": 33758,
+    "itemNameTextId": 32758,
+    "itemSubNameTextId": 503,
+    "magicValue": 3,
+    "sortType": 8,
+    "stackCount": 9999,
+    "type": 7
+  },
+  {
+    "iconSpriteName": "icon_resource190004_398",
+    "id": 7004,
+    "itemAcquireId": [
+      235,
+      246
+    ],
+    "itemDescNameTextId": 33759,
+    "itemNameTextId": 32759,
+    "itemSubNameTextId": 503,
+    "magicValue": 4,
+    "sortType": 8,
+    "stackCount": 9999,
+    "type": 7
+  }
 ]

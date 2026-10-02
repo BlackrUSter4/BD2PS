@@ -2386,5 +2386,9 @@
     "commonSoundId": 200002,
     "id": 676032674,
     "soundEffect": "event:/Cinematic/Pack11001/Cinematic_Screen_Chimes_01"
+  },
+  {
+    "commonSoundId": 200007,
+    "id": 100017
   }
 ]

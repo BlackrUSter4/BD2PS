@@ -1,20 +1,458 @@
 [
-  { "charUniqueId": 647, "id": 64701, "isActive": 1, "nodeUIPrefab": "NodeType6" },
-  { "charUniqueId": 648, "id": 64801, "isActive": 1, "nodeUIPrefab": "NodeType6" },
-  { "charUniqueId": 649, "id": 64901, "isActive": 1, "nodeUIPrefab": "NodeType6" },
-  { "charUniqueId": 650, "id": 65001, "isActive": 1, "nodeUIPrefab": "NodeType6" },
-  { "charUniqueId": 601, "id": 60101, "isActive": 1, "nodeUIPrefab": "NodeType6" },
-  { "charUniqueId": 1, "id": 101, "isActive": 1, "nodeUIPrefab": "NodeType1" },
-  { "charUniqueId": 2, "id": 202, "isActive": 1, "nodeUIPrefab": "NodeType1" },
-  { "charUniqueId": 2, "id": 201, "isActive": 1, "nodeUIPrefab": "NodeType2" },
-  { "charUniqueId": 606, "id": 60601, "isActive": 1, "nodeUIPrefab": "NodeType3" },
-  { "charUniqueId": 16, "id": 1601, "isActive": 1, "nodeUIPrefab": "NodeType4" },
-  { "charUniqueId": 628, "id": 62801, "isActive": 1, "nodeUIPrefab": "NodeType6" },
-  { "charUniqueId": 630, "id": 63001, "isActive": 1, "nodeUIPrefab": "NodeType6" },
-  { "charUniqueId": 633, "id": 63301, "isActive": 1, "nodeUIPrefab": "NodeType6" },
-  { "charUniqueId": 9, "id": 901, "isActive": 1, "nodeUIPrefab": "NodeType6" },
-  { "charUniqueId": 676, "id": 67601, "isActive": 1, "nodeUIPrefab": "NodeType1" },
-  { "charUniqueId": 213, "id": 21301, "isActive": 1, "nodeUIPrefab": "NodeType1" },
-  { "charUniqueId": 621, "id": 62102, "isActive": 1, "nodeUIPrefab": "NodeType5" },
-  { "charUniqueId": 626, "id": 62601, "isActive": 1, "nodeUIPrefab": "NodeType6" }
+  {
+    "charUniqueId": 647,
+    "id": 64701,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType6"
+  },
+  {
+    "charUniqueId": 648,
+    "id": 64801,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType6"
+  },
+  {
+    "charUniqueId": 649,
+    "id": 64901,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType6"
+  },
+  {
+    "charUniqueId": 650,
+    "id": 65001,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType6"
+  },
+  {
+    "charUniqueId": 601,
+    "id": 60101,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType6"
+  },
+  {
+    "charUniqueId": 1,
+    "id": 101,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType1"
+  },
+  {
+    "charUniqueId": 2,
+    "id": 202,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType1"
+  },
+  {
+    "charUniqueId": 2,
+    "id": 201,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType2"
+  },
+  {
+    "charUniqueId": 606,
+    "id": 60601,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType3"
+  },
+  {
+    "charUniqueId": 16,
+    "id": 1601,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType4"
+  },
+  {
+    "charUniqueId": 628,
+    "id": 62801,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType6"
+  },
+  {
+    "charUniqueId": 630,
+    "id": 63001,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType6"
+  },
+  {
+    "charUniqueId": 633,
+    "id": 63301,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType6"
+  },
+  {
+    "charUniqueId": 9,
+    "id": 901,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType6"
+  },
+  {
+    "charUniqueId": 676,
+    "id": 67601,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType1"
+  },
+  {
+    "charUniqueId": 213,
+    "id": 21301,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType1"
+  },
+  {
+    "charUniqueId": 621,
+    "id": 62102,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType5"
+  },
+  {
+    "charUniqueId": 626,
+    "id": 62601,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType6"
+  },
+  {
+    "charUniqueId": 625,
+    "id": 62501,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType6"
+  },
+  {
+    "charUniqueId": 611,
+    "id": 61102,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType3"
+  },
+  {
+    "charUniqueId": 601,
+    "id": 60102,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType6"
+  },
+  {
+    "charUniqueId": 620,
+    "id": 62002,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType4"
+  },
+  {
+    "charUniqueId": 634,
+    "id": 63401,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType6"
+  },
+  {
+    "charUniqueId": 621,
+    "id": 62101,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType4"
+  },
+  {
+    "charUniqueId": 1,
+    "id": 106,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType1"
+  },
+  {
+    "charUniqueId": 628,
+    "id": 62802,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType6"
+  },
+  {
+    "charUniqueId": 611,
+    "id": 61101,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType1"
+  },
+  {
+    "charUniqueId": 7,
+    "id": 701,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType1"
+  },
+  {
+    "charUniqueId": 627,
+    "id": 62701,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType4"
+  },
+  {
+    "charUniqueId": 619,
+    "id": 61902,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType5"
+  },
+  {
+    "charUniqueId": 627,
+    "id": 62702,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType5"
+  },
+  {
+    "charUniqueId": 14,
+    "id": 1401,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType6"
+  },
+  {
+    "charUniqueId": 13,
+    "id": 1301,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType6"
+  },
+  {
+    "charUniqueId": 619,
+    "id": 61901,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType4"
+  },
+  {
+    "charUniqueId": 604,
+    "id": 60402,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType2"
+  },
+  {
+    "charUniqueId": 30,
+    "id": 3001,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType4"
+  },
+  {
+    "charUniqueId": 620,
+    "id": 62001,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType5"
+  },
+  {
+    "charUniqueId": 602,
+    "id": 60201,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType5"
+  },
+  {
+    "charUniqueId": 15,
+    "id": 1501,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType5"
+  },
+  {
+    "charUniqueId": 664,
+    "id": 66402,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType1"
+  },
+  {
+    "charUniqueId": 24,
+    "id": 2401,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType3"
+  },
+  {
+    "charUniqueId": 607,
+    "id": 60701,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType1"
+  },
+  {
+    "charUniqueId": 651,
+    "id": 65102,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType2"
+  },
+  {
+    "charUniqueId": 5,
+    "id": 506,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType3"
+  },
+  {
+    "charUniqueId": 24,
+    "id": 2406,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType2"
+  },
+  {
+    "charUniqueId": 610,
+    "id": 61002,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType1"
+  },
+  {
+    "charUniqueId": 610,
+    "id": 61001,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType1"
+  },
+  {
+    "charUniqueId": 664,
+    "id": 66401,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType1"
+  },
+  {
+    "charUniqueId": 12,
+    "id": 1207,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType1"
+  },
+  {
+    "charUniqueId": 8,
+    "id": 806,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType3"
+  },
+  {
+    "charUniqueId": 4,
+    "id": 406,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType2"
+  },
+  {
+    "charUniqueId": 31,
+    "id": 3101,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType5"
+  },
+  {
+    "charUniqueId": 11,
+    "id": 1101,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType1"
+  },
+  {
+    "charUniqueId": 613,
+    "id": 61305,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType2"
+  },
+  {
+    "charUniqueId": 1,
+    "id": 103,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType3"
+  },
+  {
+    "charUniqueId": 607,
+    "id": 60706,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType2"
+  },
+  {
+    "charUniqueId": 8,
+    "id": 804,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType2"
+  },
+  {
+    "charUniqueId": 11,
+    "id": 1107,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType3"
+  },
+  {
+    "charUniqueId": 34,
+    "id": 3401,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType1"
+  },
+  {
+    "charUniqueId": 658,
+    "id": 65802,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType3"
+  },
+  {
+    "charUniqueId": 674,
+    "id": 67401,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType3"
+  },
+  {
+    "charUniqueId": 7,
+    "id": 707,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType2"
+  },
+  {
+    "charUniqueId": 673,
+    "id": 67301,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType2"
+  },
+  {
+    "charUniqueId": 608,
+    "id": 60802,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType3"
+  },
+  {
+    "charUniqueId": 673,
+    "id": 67302,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType1"
+  },
+  {
+    "charUniqueId": 4,
+    "id": 402,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType1"
+  },
+  {
+    "charUniqueId": 8,
+    "id": 801,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType1"
+  },
+  {
+    "charUniqueId": 205,
+    "id": 20501,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType2"
+  },
+  {
+    "charUniqueId": 202,
+    "id": 20201,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType1"
+  },
+  {
+    "charUniqueId": 204,
+    "id": 20401,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType3"
+  },
+  {
+    "charUniqueId": 203,
+    "id": 20301,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType3"
+  },
+  {
+    "charUniqueId": 7,
+    "id": 708,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType3"
+  },
+  {
+    "charUniqueId": 34,
+    "id": 3402,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType3"
+  },
+  {
+    "charUniqueId": 33,
+    "id": 3303,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType3"
+  },
+  {
+    "charUniqueId": 211,
+    "id": 21101,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType1"
+  },
+  {
+    "charUniqueId": 676,
+    "id": 67604,
+    "isActive": 1,
+    "nodeUIPrefab": "NodeType1"
+  }
 ]

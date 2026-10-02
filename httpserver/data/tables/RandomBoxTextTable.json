@@ -1,8 +1,407 @@
 [
-  { "date": "2024-02-14", "id": 32631, "text": "하급 장비 재료 상자", "textCn": "低级装备材料箱", "textEn": "Common Gear Material Chest", "textJp": "下級装備材料ボックス", "textTw": "下級裝備材料箱" },
-  { "date": "2024-02-14", "id": 33640, "text": "스토리 음식 재료 상자", "textCn": "剧情食材箱", "textEn": "Story Pack Food Ingredient Chest", "textJp": "ストーリーカセット食材ボックス", "textTw": "故事遊戲卡帶食材箱" },
-  { "date": "2024-02-14", "id": 5200188, "text": "피의 칵테일", "textCn": "鲜血鸡尾酒", "textEn": "Blood cocktail", "textJp": "ブラッドカクテル", "textTw": "血之雞尾酒" },
-  { "date": "2024-02-14", "id": 5200184, "text": "쌀밥", "textCn": "米饭", "textEn": "Cooked Rice", "textJp": "ごはん", "textTw": "白飯" },
-  { "date": "2024-02-14", "id": 5230015, "text": "횃불", "textCn": "火把", "textEn": "Torch", "textJp": "たいまつ", "textTw": "火炬" },
-  { "date": "2024-07-16", "id": 5230087, "text": "구원의 열쇠", "textCn": "救赎之钥匙", "textEn": "Key of Salvation", "textJp": "救済の鍵", "textTw": "救贖之鑰匙" }
+  {
+    "date": "2024-02-14",
+    "id": 32631,
+    "text": "하급 장비 재료 상자",
+    "textCn": "低级装备材料箱",
+    "textEn": "Common Gear Material Chest",
+    "textJp": "下級装備材料ボックス",
+    "textTw": "下級裝備材料箱"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 33640,
+    "text": "스토리 음식 재료 상자",
+    "textCn": "剧情食材箱",
+    "textEn": "Story Pack Food Ingredient Chest",
+    "textJp": "ストーリーカセット食材ボックス",
+    "textTw": "故事遊戲卡帶食材箱"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 5200188,
+    "text": "피의 칵테일",
+    "textCn": "鲜血鸡尾酒",
+    "textEn": "Blood cocktail",
+    "textJp": "ブラッドカクテル",
+    "textTw": "血之雞尾酒"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 5200184,
+    "text": "쌀밥",
+    "textCn": "米饭",
+    "textEn": "Cooked Rice",
+    "textJp": "ごはん",
+    "textTw": "白飯"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 5230015,
+    "text": "횃불",
+    "textCn": "火把",
+    "textEn": "Torch",
+    "textJp": "たいまつ",
+    "textTw": "火炬"
+  },
+  {
+    "date": "2024-07-16",
+    "id": 5230087,
+    "text": "구원의 열쇠",
+    "textCn": "救赎之钥匙",
+    "textEn": "Key of Salvation",
+    "textJp": "救済の鍵",
+    "textTw": "救贖之鑰匙"
+  },
+  {
+    "date": "2024-08-08",
+    "id": 32005,
+    "text": "여름 스페셜 꾸러미",
+    "textCn": "夏季特别包裹",
+    "textEn": "Summer Special Bundle",
+    "textJp": "夏のスペシャルパック",
+    "textTw": "夏季特別組合箱"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 32001,
+    "text": "하급 광석 상자",
+    "textCn": "低级矿石箱",
+    "textEn": "Common Ore Chest",
+    "textJp": "下級鉱石ボックス",
+    "textTw": "下級礦石箱"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 32648,
+    "text": "고급 제작 재료 상자",
+    "textCn": "高级制作材料箱",
+    "textEn": "Rare Crafting Material Chest",
+    "textJp": "高級製作材料ボックス",
+    "textTw": "高級製作材料箱"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 32635,
+    "text": "요리 재료 상자",
+    "textCn": "料理食材箱",
+    "textEn": "Cooking Ingredient Chest",
+    "textJp": "料理材料ボックス",
+    "textTw": "料理材料箱"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 32634,
+    "text": "제작 재료 상자",
+    "textCn": "制作材料箱",
+    "textEn": "Gear Material Chest",
+    "textJp": "製作材料ボックス",
+    "textTw": "製作材料箱"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 32632,
+    "text": "고급 장비 재료 상자",
+    "textCn": "高级装备材料箱",
+    "textEn": "Rare Gear Material Chest",
+    "textJp": "高級装備材料ボックス",
+    "textTw": "高級裝備材料箱"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 32630,
+    "text": "고급 음식 재료 상자",
+    "textCn": "高级食材箱",
+    "textEn": "Rare Cooking Ingredient Chest",
+    "textJp": "高級食材ボックス",
+    "textTw": "高級食材箱"
+  },
+  {
+    "date": "2024-05-31",
+    "id": 5200436,
+    "text": "사막의 가시",
+    "textCn": "沙漠之刺",
+    "textEn": "Thorn of the Desert",
+    "textJp": "砂漠の棘",
+    "textTw": "沙漠之刺"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 5200297,
+    "text": "코스튬 선택 강화",
+    "textCn": "服装选择强化",
+    "textEn": "Costume Selective Enhancement",
+    "textJp": "コスチューム選択強化",
+    "textTw": "服裝選擇強化"
+  },
+  {
+    "date": "2024-03-07",
+    "id": 5200259,
+    "text": "속성 선별 뽑기 교환권",
+    "textCn": "属性甄选抽抽乐兑换券",
+    "textEn": "Property Selective Draw Exchange Ticket",
+    "textJp": "属性選別ガチャ交換券",
+    "textTw": "屬性篩選抽抽樂交換券"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 5200295,
+    "text": "UR 전용장비 뽑기 교환권",
+    "textCn": "UR专用装备抽抽乐兑换券",
+    "textEn": "UR Exclusive Gear Draw Exchange Ticket",
+    "textJp": "UR専用装備ガチャ交換券",
+    "textTw": "UR 專用裝備 抽抽樂 交換券"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 5200296,
+    "text": "SR 전용장비 뽑기 교환권",
+    "textCn": "SR专用装备抽抽乐兑换券",
+    "textEn": "SR Exclusive Gear Draw Exchange Ticket",
+    "textJp": "SR専用装備ガチャ交換券",
+    "textTw": "SR 專用裝備 抽抽樂 交換券"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 5200260,
+    "text": "뽑기권",
+    "textCn": "抽抽乐券",
+    "textEn": "Draw Ticket",
+    "textJp": "1回ガチャ券",
+    "textTw": "抽抽樂券"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 5200299,
+    "text": "여신의 눈물",
+    "textCn": "女神之泪",
+    "textEn": "Tear of Goddess",
+    "textJp": "女神の涙",
+    "textTw": "女神的眼淚"
+  },
+  {
+    "date": "2024-08-08",
+    "id": 5200445,
+    "text": "힘의 정수",
+    "textCn": "力量精髓",
+    "textEn": "Essence of Strength",
+    "textJp": "力のエッセンス",
+    "textTw": "力量精髓"
+  },
+  {
+    "date": "2024-08-08",
+    "id": 5200444,
+    "text": "생명의 정수",
+    "textCn": "生命精髓",
+    "textEn": "Essence of Life",
+    "textJp": "生命のエッセンス",
+    "textTw": "生命精隨"
+  },
+  {
+    "date": "2024-08-08",
+    "id": 5200446,
+    "text": "인내의 정수",
+    "textCn": "忍耐精髓",
+    "textEn": "Essence of Perseverance",
+    "textJp": "忍耐のエッセンス",
+    "textTw": "忍耐精髓"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 5200264,
+    "text": "4성 승급의 별",
+    "textCn": "4★升星之星",
+    "textEn": "★4 Rank-up Star",
+    "textJp": "★4昇級の星",
+    "textTw": "★4升星之星"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 5200265,
+    "text": "3성 승급의 별",
+    "textCn": "3★升星之星",
+    "textEn": "★3 Rank-up Star",
+    "textJp": "★3昇級の星",
+    "textTw": "★3升星之星"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 5200266,
+    "text": "2성 승급의 별",
+    "textCn": "2★升星之星",
+    "textEn": "★2 Rank-up Star",
+    "textJp": "★2昇級の星",
+    "textTw": "★2升星之星"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 5200267,
+    "text": "골드 주머니",
+    "textCn": "金币袋",
+    "textEn": "Gold Pocket",
+    "textJp": "ゴールド袋",
+    "textTw": "金幣袋"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 5200268,
+    "text": "블루 슬라임",
+    "textCn": "蓝色史莱姆",
+    "textEn": "Blue Slime",
+    "textJp": "ブルースライム",
+    "textTw": "藍色史萊姆"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 5200269,
+    "text": "고대 수정",
+    "textCn": "远古水晶",
+    "textEn": "Ancient Crystal",
+    "textJp": "古代水晶",
+    "textTw": "古代水晶"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 5200270,
+    "text": "고수 재능 스킬북",
+    "textCn": "高手天赋技能书",
+    "textEn": "★3 Ability S. Book",
+    "textJp": "玄人用才能スキルブック",
+    "textTw": "高手天賦技能書"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 5200271,
+    "text": "달인 재능 스킬북",
+    "textCn": "达人天赋技能书",
+    "textEn": "★4 Ability S. Book",
+    "textJp": "職人用才能スキルブック",
+    "textTw": "達人天賦技能書"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 5210330,
+    "text": "재련 가루",
+    "textCn": "精炼粉末",
+    "textEn": "Refining Powder",
+    "textJp": "製錬粉",
+    "textTw": "強化粉末"
+  },
+  {
+    "date": "2026-04-30",
+    "id": 5200492,
+    "text": "폭주의 불씨",
+    "textCn": "狂暴火种",
+    "textEn": "Spark of Rampage",
+    "textJp": "暴走の火種",
+    "textTw": "暴走火種"
+  },
+  {
+    "date": "2026-06-25",
+    "id": 5200498,
+    "text": "부드러운 우유",
+    "textCn": "口感丝滑细腻的牛奶",
+    "textEn": "Creamy Milk",
+    "textJp": "マイルドなミルク",
+    "textTw": "香醇牛奶"
+  },
+  {
+    "date": "2026-06-25",
+    "id": 5200499,
+    "text": "시원한 맥주",
+    "textCn": "冰啤酒",
+    "textEn": "Cold Beer",
+    "textJp": "冷たいビール",
+    "textTw": "沁涼啤酒"
+  },
+  {
+    "date": "2026-06-25",
+    "id": 5200500,
+    "text": "농밀한 와인",
+    "textCn": "醇香葡萄酒",
+    "textEn": "Velvety Wine",
+    "textJp": "濃密ワイン",
+    "textTw": "醇厚紅酒"
+  },
+  {
+    "date": "2026-06-25",
+    "id": 5200501,
+    "text": "향긋한 위스키",
+    "textCn": "馥郁威士忌",
+    "textEn": "Fragrant Whiskey",
+    "textJp": "芳醇ウイスキー",
+    "textTw": "醇香威士忌"
+  },
+  {
+    "date": "2024-07-11",
+    "id": 5200438,
+    "text": "되찾은 운명",
+    "textCn": "找回的命运",
+    "textEn": "Reclaimed Destiny",
+    "textJp": "取り戻せし運命",
+    "textTw": "找回的命運"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 5200298,
+    "text": "재련 수정",
+    "textCn": "精炼水晶",
+    "textEn": "Refining Crystal",
+    "textJp": "製錬水晶",
+    "textTw": "煉製水晶"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 5200279,
+    "text": "옐로우 슬라임",
+    "textCn": "黄色史莱姆",
+    "textEn": "Yellow Slime",
+    "textJp": "イエロースライム",
+    "textTw": "黃色史萊姆"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 5200261,
+    "text": "일반 영입 계약서",
+    "textCn": "普通招募契约书",
+    "textEn": "★3 R. Contract",
+    "textJp": "一般スカウト契約書",
+    "textTw": "一般契約書"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 5200323,
+    "text": "닉네임 변경권",
+    "textCn": "昵称更改券",
+    "textEn": "Nickname Ticket",
+    "textJp": "ニックネーム変更券",
+    "textTw": "暱稱變更券"
+  },
+  {
+    "date": "2026-04-16",
+    "id": 5200326,
+    "text": "길드 이름 변경권",
+    "textCn": "公会名称更改券",
+    "textEn": "Guild Name Change Ticket",
+    "textJp": "ギルド名変更券",
+    "textTw": "公會名稱變更券"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 5200324,
+    "text": "고급 영입 계약서",
+    "textCn": "高级招募契约书",
+    "textEn": "★4 R. Contract",
+    "textJp": "高級スカウト契約書",
+    "textTw": "高級契約書"
+  },
+  {
+    "date": "2024-02-14",
+    "id": 5200325,
+    "text": "최고급 영입 계약서",
+    "textCn": "顶级招募契约书",
+    "textEn": "★5 R. Contract",
+    "textJp": "最高級スカウト契約書",
+    "textTw": "最高級契約書"
+  }
 ]

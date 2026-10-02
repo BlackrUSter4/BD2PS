@@ -1,3 +1,326 @@
 [
-  { "chaUniqueId": 650, "collectionBuffId": [ 5114, 5124, 5134, 5144 ], "costumeID": 65001, "enhanceValue": [ 0, 1, 3, 5 ], "id": 64, "tabType": 1 }
+  {
+    "chaUniqueId": 650,
+    "collectionBuffId": [
+      5114,
+      5124,
+      5134,
+      5144
+    ],
+    "costumeID": 65001,
+    "enhanceValue": [
+      0,
+      1,
+      3,
+      5
+    ],
+    "id": 64,
+    "tabType": 1
+  },
+  {
+    "chaUniqueId": 2,
+    "collectionBuffId": [
+      5314,
+      5324,
+      5334,
+      5344
+    ],
+    "costumeID": 201,
+    "enhanceValue": [
+      0,
+      1,
+      3,
+      5
+    ],
+    "id": 5,
+    "tabType": 3
+  },
+  {
+    "chaUniqueId": 2,
+    "collectionBuffId": [
+      5314,
+      5324,
+      5334,
+      5344
+    ],
+    "costumeID": 202,
+    "enhanceValue": [
+      0,
+      1,
+      3,
+      5
+    ],
+    "id": 6,
+    "tabType": 3
+  },
+  {
+    "chaUniqueId": 2,
+    "collectionBuffId": [
+      5314,
+      5324,
+      5334,
+      5344
+    ],
+    "costumeID": 203,
+    "enhanceValue": [
+      0,
+      1,
+      3,
+      5
+    ],
+    "id": 7,
+    "tabType": 3
+  },
+  {
+    "chaUniqueId": 2,
+    "collectionBuffId": [
+      5314,
+      5324,
+      5334,
+      5344
+    ],
+    "costumeID": 204,
+    "enhanceValue": [
+      0,
+      1,
+      3,
+      5
+    ],
+    "id": 8,
+    "tabType": 3
+  },
+  {
+    "chaUniqueId": 2,
+    "collectionBuffId": [
+      5314,
+      5324,
+      5334,
+      5344
+    ],
+    "costumeID": 206,
+    "enhanceValue": [
+      0,
+      1,
+      3,
+      5
+    ],
+    "id": 70,
+    "tabType": 3
+  },
+  {
+    "chaUniqueId": 33,
+    "collectionBuffId": [
+      5314,
+      5324,
+      5334,
+      5344
+    ],
+    "costumeID": 3303,
+    "enhanceValue": [
+      0,
+      1,
+      3,
+      5
+    ],
+    "id": 132,
+    "tabType": 3
+  },
+  {
+    "chaUniqueId": 211,
+    "collectionBuffId": [
+      5314,
+      5324,
+      5334,
+      5344
+    ],
+    "costumeID": 21101,
+    "enhanceValue": [
+      0,
+      1,
+      3,
+      5
+    ],
+    "id": 187,
+    "tabType": 3
+  },
+  {
+    "chaUniqueId": 676,
+    "collectionBuffId": [
+      5314,
+      5324,
+      5334,
+      5344
+    ],
+    "costumeID": 67604,
+    "enhanceValue": [
+      0,
+      1,
+      3,
+      5
+    ],
+    "id": 166,
+    "tabType": 3
+  },
+  {
+    "chaUniqueId": 7,
+    "collectionBuffId": [
+      5316,
+      5326,
+      5336,
+      5346
+    ],
+    "costumeID": 708,
+    "enhanceValue": [
+      0,
+      1,
+      3,
+      5
+    ],
+    "id": 150,
+    "tabType": 3
+  },
+  {
+    "chaUniqueId": 34,
+    "collectionBuffId": [
+      5316,
+      5326,
+      5336,
+      5346
+    ],
+    "costumeID": 3402,
+    "enhanceValue": [
+      0,
+      1,
+      3,
+      5
+    ],
+    "id": 137,
+    "tabType": 3
+  },
+  {
+    "chaUniqueId": 613,
+    "collectionBuffId": [
+      5316,
+      5326,
+      5336,
+      5346
+    ],
+    "costumeID": 61302,
+    "enhanceValue": [
+      0,
+      1,
+      3,
+      5
+    ],
+    "id": 90,
+    "tabType": 3
+  },
+  {
+    "chaUniqueId": 613,
+    "collectionBuffId": [
+      5316,
+      5326,
+      5336,
+      5346
+    ],
+    "costumeID": 61305,
+    "enhanceValue": [
+      0,
+      1,
+      3,
+      5
+    ],
+    "id": 114,
+    "tabType": 3
+  },
+  {
+    "chaUniqueId": 613,
+    "collectionBuffId": [
+      5316,
+      5326,
+      5336,
+      5346
+    ],
+    "costumeID": 61306,
+    "enhanceValue": [
+      0,
+      1,
+      3,
+      5
+    ],
+    "id": 183,
+    "tabType": 3
+  },
+  {
+    "chaUniqueId": 5,
+    "collectionBuffId": [
+      5314,
+      5324,
+      5334,
+      5344
+    ],
+    "costumeID": 501,
+    "enhanceValue": [
+      0,
+      1,
+      3,
+      5
+    ],
+    "id": 14,
+    "tabType": 3
+  },
+  {
+    "chaUniqueId": 5,
+    "collectionBuffId": [
+      5314,
+      5324,
+      5334,
+      5344
+    ],
+    "costumeID": 504,
+    "enhanceValue": [
+      0,
+      1,
+      3,
+      5
+    ],
+    "id": 15,
+    "tabType": 3
+  },
+  {
+    "chaUniqueId": 5,
+    "collectionBuffId": [
+      5314,
+      5324,
+      5334,
+      5344
+    ],
+    "costumeID": 502,
+    "enhanceValue": [
+      0,
+      1,
+      3,
+      5
+    ],
+    "id": 80,
+    "tabType": 3
+  },
+  {
+    "chaUniqueId": 5,
+    "collectionBuffId": [
+      5314,
+      5324,
+      5334,
+      5344
+    ],
+    "costumeID": 506,
+    "enhanceValue": [
+      0,
+      1,
+      3,
+      5
+    ],
+    "id": 92,
+    "tabType": 3
+  }
 ]
