@@ -9,10 +9,10 @@ use database::db::field::{field_object_info, field_object_position_info};
 use sqlx::SqlitePool;
 use tracing::info;
 
-/// Judgment call: FieldResearchObjectTable has no pack-scoping column, so `research_object_id`
-/// returns every real research object id in the table rather than filtering by
-/// `req.pack_id` (same schema-granularity gap as field_object_info.rs). The saved-object
-/// list is real per-account state, same lookup as FieldObjectInfoRequest.
+/// FieldResearchObjectTable now carries a real synthesized `pack_id` (2026-10-02,
+/// see CLIENT_UPDATE.md), so `research_object_id` is filtered to `req.pack_id` via
+/// `all_in_pack` — no longer the cross-pack leak this comment used to describe.
+/// The saved-object list is real per-account state, same lookup as FieldObjectInfoRequest.
 pub async fn handle(pool: &SqlitePool, uid: i64, req: FieldObjectPreviewRequest) -> GameResponse {
     info!("Handling FieldObjectPreviewRequest: {:?}", req);
 
@@ -29,12 +29,16 @@ pub async fn handle(pool: &SqlitePool, uid: i64, req: FieldObjectPreviewRequest)
         field_reward_obtain_info.push(FieldObjectDbInfo { id: row.id, position });
     }
 
-    let research_object_id = data::exceldb::get()
-        .fieldresearchobjecttable
-        .all()
-        .iter()
-        .map(|r| r.id)
-        .collect();
+    let research_object_id = req
+        .pack_id
+        .map(|pack_id| {
+            data::exceldb::get()
+                .fieldresearchobjecttable
+                .all_in_pack(pack_id)
+                .map(|r| r.id)
+                .collect()
+        })
+        .unwrap_or_default();
 
     let response = FieldObjectPreviewResponse {
         field_reward_obtain_info,

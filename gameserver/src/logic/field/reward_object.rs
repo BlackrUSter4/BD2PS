@@ -20,7 +20,7 @@ pub async fn collect_field_object(
 ) -> Result<FieldObjectRewardResponse> {
     let game_data = exceldb::get();
 
-    let _ = request.pack_id.ok_or_else(|| anyhow!("Missing pack_id"))?;
+    let pack_id = request.pack_id.ok_or_else(|| anyhow!("Missing pack_id"))?;
     let field_object_id = request
         .field_object_id
         .ok_or_else(|| anyhow!("Missing field_object_id"))?;
@@ -28,11 +28,12 @@ pub async fn collect_field_object(
         .field_object_group_id
         .ok_or_else(|| anyhow!("Missing field_object_group_id"))?;
 
-    // Step 1: Validate the field object exists
+    // Step 1: Validate the field object exists (pack-scoped: `id` collides
+    // across packs, see Fieldrewardobjecttable::pack_id's doc comment).
     let field_object = game_data
         .fieldrewardobjecttable
-        .get(field_object_id)
-        .ok_or_else(|| anyhow!("Field object {} not found", field_object_id))?;
+        .get_by_pack(pack_id, field_object_id)
+        .ok_or_else(|| anyhow!("Field object {} not found in pack {}", field_object_id, pack_id))?;
 
     if field_object.field_object_group_id != field_object_group_id {
         return Err(anyhow!(
@@ -42,11 +43,11 @@ pub async fn collect_field_object(
         ));
     }
 
-    // Step 2: Get the group configuration
+    // Step 2: Get the group configuration (also pack-scoped)
     let object_group = game_data
         .fieldrewardobjectgrouptable
-        .get(field_object_group_id)
-        .ok_or_else(|| anyhow!("Field object group {} not found", field_object_group_id))?;
+        .get_by_pack(pack_id, field_object_group_id)
+        .ok_or_else(|| anyhow!("Field object group {} not found in pack {}", field_object_group_id, pack_id))?;
 
     // Step 3: Get the reward group configuration
     let reward_group_id = object_group.reward_group_id.ok_or_else(|| {

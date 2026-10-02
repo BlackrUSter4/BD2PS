@@ -7,12 +7,14 @@ use sqlx::SqlitePool;
 use tracing::info;
 
 /// Real reward grant from FieldResearchObjectTable (real reward_id/type/count fields).
+/// Pack-scoped lookup (`req.pack_id`) since `object_id` collides across packs
+/// — see Fieldresearchobjecttable::pack_id's doc comment.
 pub async fn handle(pool: &SqlitePool, uid: i64, req: FieldObjectResearchRequest) -> GameResponse {
     info!("Handling FieldObjectResearchRequest: {:?}", req);
 
     let mut reward_item = Vec::new();
-    if let Some(object_id) = req.object_id {
-        if let Some(obj) = data::exceldb::get().fieldresearchobjecttable.get(object_id) {
+    if let (Some(object_id), Some(pack_id)) = (req.object_id, req.pack_id) {
+        if let Some(obj) = data::exceldb::get().fieldresearchobjecttable.get_by_pack(pack_id, object_id) {
             if let (Some(id), Some(count)) = (obj.reward_id, obj.reward_count) {
                 let ty = obj.reward_type.unwrap_or(1);
                 let _ = item_info::grant(pool, uid, id, ty, count).await;
