@@ -1,5 +1,47 @@
 # Old-client-as-baseline pivot — planning notes (2026-10-02)
 
+## NOT FIXED — read this before trusting anything below
+
+**As of the end of the 2026-10-02 session, the old client does NOT reliably
+work. Say this plainly, don't let the real fixes further down this document
+read as a success story.** The user's own words, directly: *"so then why
+cant you fix that codee"* and *"jsut docuemnt you wont fix it and havent in
+the best"* — explicit instruction to record, clearly, that this was not
+resolved and is not being chased further right now.
+
+What's true, both at once:
+- Several real, concrete, verified bugs WERE found and fixed this session
+  (see the dated entries below): the original "stuck on login forever" loop,
+  eight separate crash sites past it, and a genuine data-corruption bug in
+  the game's own asset catalog (a stray backslash breaking content loading
+  entirely — confirmed fixed, zero related errors afterward).
+- **None of that adds up to a working client.** The remaining blocker is a
+  native access-violation crash (`0xc0000005`) inside the game engine's own
+  compiled Mono runtime — confirmed via Windows' own crash logs, not
+  something in any code this project controls. It fires unpredictably
+  (sometimes a run lasts 90+ seconds and reaches real UI, sometimes it dies
+  in 10). Every mitigation tried — disabling garbage collection, removing
+  the most-suspect patch, stripping every non-essential patch down to the
+  original minimal fix — produced the identical crash. **This was given a
+  real, honest attempt and is not fixable by patching this plugin.**
+- A same-session side attempt to instead point the actual current/live game
+  client at the old server (to sidestep the old client entirely) also did
+  not reach a working state — the current client's own network layer never
+  even completed a connection attempt to the test setup before this was set
+  aside; see the dated entry near the end of this document.
+- A direct comparison of old-server data against BD2PS-main's own data (all
+  14 overlapping tables, row-counted) confirmed BD2PS-main's data already
+  matches or exceeds the old server's data everywhere — there is nothing
+  left to port from the old server into BD2PS-main either.
+
+**Net position: neither "fix the old client" nor "feed old-server data into
+BD2PS-main" produced a working outcome tonight.** Don't reopen this as if
+there's an easy win sitting here — the easy wins (the catalog bug, the
+original disconnect loop) are already taken. What's left is a genuine native
+engine bug this project has no access to fix, not a gap in effort.
+
+---
+
 Deferred for a later session. This documents the decision context and findings so far, not a committed plan.
 
 ## Why this came up
